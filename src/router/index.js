@@ -47,5 +47,13 @@ export const routes = [
     meta: {
       title: 'API Documentation'
     }
+  },
+  {
+    path: '/ontology',
+    name: 'ontology',
+    component: () => import('../views/OntologyBrowserView.vue'),
+    meta: {
+      title: 'Ontology Browser'
+    }
   }
 ]

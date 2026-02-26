@@ -21,19 +21,14 @@ const publishers = [
         </RouterLink>
 
         <div class="flex items-center space-x-6">
-          <RouterLink
-            v-for="publisher in publishers"
-            :key="publisher.id"
-            :to="`/pharmacopoeia/${publisher.id}`"
-            class="text-gray-600 hover:text-gray-900 transition-colors"
-          >
-            {{ publisher.name }}
-          </RouterLink>
           <RouterLink to="/search" class="text-gray-600 hover:text-gray-900 transition-colors">
             Search
           </RouterLink>
           <RouterLink to="/compare" class="text-gray-600 hover:text-gray-900 transition-colors">
             Compare
+          </RouterLink>
+          <RouterLink to="/ontology" class="text-gray-600 hover:text-gray-900 transition-colors">
+            Ontology
           </RouterLink>
           <RouterLink to="/api" class="text-gray-600 hover:text-gray-900 transition-colors">
             API
