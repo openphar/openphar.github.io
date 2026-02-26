@@ -38,7 +38,18 @@ onMounted(async () => {
   try {
     const response = await fetch('/data/jp/jp-monographs.jsonld')
     const data = await response.json()
-    stats.value.jpMonographs = (data['@graph'] || []).length
+    const allItems = data['@graph'] || []
+
+    // Count only actual monographs (types ending with "Monograph")
+    const monographs = allItems.filter(item => {
+      const type = item['@type']
+      if (Array.isArray(type)) {
+        return type.some(t => typeof t === 'string' && t.endsWith('Monograph'))
+      }
+      return typeof type === 'string' && type.endsWith('Monograph')
+    })
+
+    stats.value.jpMonographs = monographs.length
   } catch (e) {
     console.error('Failed to load JP stats:', e)
   }

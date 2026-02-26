@@ -54,10 +54,20 @@ function getSlug(id) {
 }
 
 // Get category from @id
+// Format: https://www.openphar.org/data/jp/{category}/{slug}
 function getCategory(id) {
   if (!id) return 'other'
-  const match = id.match(/\/monographs\/([^/]+)\//)
+  const match = id.match(/\/data\/[^/]+\/([^/]+)\//)
   return match ? match[1] : 'other'
+}
+
+// Check if item is a monograph (type ending with "Monograph")
+function isMonograph(item) {
+  const type = item['@type']
+  if (Array.isArray(type)) {
+    return type.some(t => typeof t === 'string' && t.endsWith('Monograph'))
+  }
+  return typeof type === 'string' && type.endsWith('Monograph')
 }
 
 const filteredMonographs = computed(() => {
@@ -83,7 +93,10 @@ onMounted(async () => {
   try {
     const response = await fetch(`/data/${publisher.value}/${publisher.value}-monographs.jsonld`)
     const data = await response.json()
-    monographs.value = data['@graph'] || []
+    const allItems = data['@graph'] || []
+
+    // Filter to only actual monographs
+    monographs.value = allItems.filter(isMonograph)
 
     // Extract unique categories
     const categorySet = new Set()

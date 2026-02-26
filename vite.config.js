@@ -120,11 +120,21 @@ export default defineConfig({
         try {
           const content = fs.readFileSync(jpMonographsFile, 'utf-8')
           const data = JSON.parse(content)
-          const monographs = data['@graph'] || []
+          const allItems = data['@graph'] || []
+
+          // Filter to only actual monographs (types ending in "Monograph")
+          const monographs = allItems.filter(m => {
+            const type = m['@type']
+            if (Array.isArray(type)) {
+              return type.some(t => typeof t === 'string' && t.endsWith('Monograph'))
+            }
+            return typeof type === 'string' && type.endsWith('Monograph')
+          })
 
           for (const m of monographs) {
             const id = m['@id'] || ''
-            const match = id.match(/\/monographs\/([^/]+)\/([^/]+)$/)
+            // Match @id format: https://www.openphar.org/data/jp/{category}/{slug}
+            const match = id.match(/\/data\/jp\/([^/]+)\/([^/]+)$/)
             if (match) {
               const [, category, slug] = match
               allRoutes.push(`/pharmacopoeia/jp/${category}/${slug}`)
