@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Pharmacopoeia publisher colors */
+.publisher-jp { --publisher-color: #dc2626; }
+.publisher-phint { --publisher-color: #2563eb; }
+.publisher-ahp { --publisher-color: #16a34a; }
+.publisher-api { --publisher-color: #ea580c; }
+.publisher-hkcmms { --publisher-color: #7c3aed; }
+.publisher-thp { --publisher-color: #0891b2; }
+
+/* Transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Card hover effects */
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 transition-all duration-200;
+}
+
+.card:hover {
+  @apply shadow-lg transform -translate-y-1;
+}
+
+/* Badge styles */
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.badge-jp { @apply bg-red-100 text-red-800; }
+.badge-phint { @apply bg-blue-100 text-blue-800; }
+.badge-ahp { @apply bg-green-100 text-green-800; }
+.badge-api { @apply bg-orange-100 text-orange-800; }
+.badge-hkcmms { @apply bg-purple-100 text-purple-800; }
+.badge-thp { @apply bg-cyan-100 text-cyan-800; }
