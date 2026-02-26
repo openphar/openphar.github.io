@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/glycerin-and-potash-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Glycerin and Potash Solution",
+    "ja": "グリセリンカリ液"
+  },
+  "monographId": "JP18-glycerin-and-potash-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Glycerin and Potash Solution is a clear, color-less liquid, having an aromatic odor. The pH of a solution of Glycerin and Potash Solution (1 in 5) is about 12. Specific gravity d 20: about 1.02"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Glycerin and Potash So-lution (1 in 2) is alkaline (potassium hydroxide). Place 10 mL of a solution of Glycerin and Potash So-lution (1 in 10) in a glass-stoppered test tube, add 2 mL of sodium hydroxide TS and 1 mL of copper (II) sulfate TS, and shake: a blue color is produced (glycerin). Glycerin and Potash Solution responds to Qualitative Tests <1.09> for potassium salt."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

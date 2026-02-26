@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bufonis-crustum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bufonis Crustum",
+    "ja": "センソ"
+  },
+  "monographId": "JP18-bufonis-crustum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "A round disk with slightly dented bottom and protuberant surface, about 8 cm in diameter, about 1.5 cm in thickness, the mass of one disk being about 80 to 90 g; or a round disk with almost ‰attened surfaces on both sides, about 3 cm in diameter, and about 0.5 cm in thickness, the mass of one disk being about 8 g; externally red-brown to black-brown, somewhat lustrous, approximately uniform and horny, hard in texture, and diŠicult to break; fractured surface nearly ‰at, and edges of broken pieces red-brown and translucent. Odorless."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.3 g of pulverized Toad Cake add 3 mL of acetone, shake for 10 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of resibufogenin for thin-layer chromatography in 2 mL of ace-tone, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of cyclohexane and acetone (3:2) to a distance of about 10 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard so-lution. Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Toad Amount (mg) of resibufogenin ＝ MSR × QTR/QSR MSB: Amount (mg) of bufalin for assay taken MSC: Amount (mg) of cinobufagin for assay taken MSR: Amount (mg) of resibufogenin for assay taken Internal standard solution—A solution of indometacin in methanol (1 in 4000). Operating conditions— Detector: An ultraviolet spectrophotometer (wavelength: 300 nm). Column: A stainless steel column 4 to 6 mm in inside di-ameter and 15 to 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (11:9). Flow rate: Adjust so that the retention time of the internal standard is 16 to 19 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, bufalin, cinobufagin, resibufogenin and the internal standard are eluted in this order with the resolution among these peaks being not less than 1.5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

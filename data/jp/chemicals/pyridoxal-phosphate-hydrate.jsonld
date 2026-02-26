@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pyridoxal-phosphate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pyridoxal Phosphate Hydrate",
+    "ja": "ピリドキサールリン酸エステル水和物"
+  },
+  "monographId": "JP18-pyridoxal-phosphate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H10NO6P.H2O",
+  "molecularWeight": 265.16,
+  "definition": {
+    "en": "Pyridoxal Phosphate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Pyridoxal Phosphate Hydrate occurs as a pale yellow-white to light yellow crystalline powder. It is slightly soluble in water, and practically insoluble in ethanol (99.5). It dissolves in dilute hydrochloric acid and in sodium hy-droxide TS. The pH of a solution prepared by dissolving 0.1 g of Pyridoxal Phosphate Hydrate in 200 mL of water is between 3.0 and 3.5. Pyridoxal Phosphate Hydrate is colored to light red by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Pyridoxal Phosphate Hydrate in phosphate buffer solution (pH 6.8) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Pyridoxal Phosphate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Pyridoxal Phosphate Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Pyridoxal Phosphate RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 4.0 g of Pyridoxal Phosphate Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 5 ppm). Arsenic <1.11>—Dissolve 1.0 g of Pyridoxal Phos- phate Hydrate in 5 mL of dilute hydrochloric acid. Use this solution as the test solution, and perform the test (not more than 2 ppm). Free phosphoric acid—Weigh accurately about 0.1 g of Pyridoxal Phosphate Hydrate, dissolve in water to make exactly 100 mL, and use this solution as the sample solution. Pipet 5 mL each of the sample solution and Standard Phos-phoric Acid Solution, to each add 2.5 mL of hexaammoni-um heptamolybdate-sulfuric acid TS and 1 mL of 1-amino-2-naphthol-4-sulfonic acid TS, and shake. Add water to make exactly 25 mL, and allow to stand at 20 ± 19C for 30 minutes. Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared with 5 mL of water in the same manner as the blank. Determine the absorbances, AT and AS, of each solution from the sample solution and Standard Phosphoric Acid Solution at 740 nm: the amount of free phosphoric acid is not more than 0.5z. Content (z) of free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 258.0 M: Amount (mg) of Pyridoxal Phosphate Hydrate taken, calculated on the anhydrous basis Related substances—Dissolve 50 mg of Pyridoxal Phosphate Hydrate in 20 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and stand-ard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than pyridoxal phosphate obtained from the sample solution is not larger than the peak area of pyridoxal phosphate from the standard solution, and the total area of the peaks other than pyridoxal phosphate from the sample solution is not larger than 2 times the peak area of pyridoxal phosphate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 3.63 g of potassium dihydrogen phosphate and 5.68 g of anhydrous disodium hydrogen phosphate in water to make 1000 mL. Flow rate: Adjust so that the retention time of pyridoxal phosphate is about 6 minutes. Time span of measurement: About 2.5 times as long as the retention time of pyridoxal phosphate, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of pyridoxal phosphate obtained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of pyridoxal phosphate are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of pyridoxal phosphate is not more than 2.0z. Water <2.48> 6.0 – 9.0z (0.1 g, volumetric titration, direct titration. Use a solution prepared by dissolving 50 g of im-idazole for water determination in 100 mL of the dissolving solution instead of methanol for water determination). Dissolving solution: A solution containing 80z of 1-methoxy-2-propanol, 18z of ethanol (99.5), 1z of imida-zole and 1z of imidazole hydrobromide."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 45 mg each of Pyridoxal Phosphate Hydrate and Pyridoxal Phosphate RS (separately determine the water <2.48> in the same manner as Pyridoxal Phosphate Hydrate), and dissolve each in phosphate buffer solution (pH 6.8) to make exactly 250 mL. Pipet 10 mL each of these solutions, add phosphate buffer solution (pH 6.8) to make exactly 100 mL, and use these solutions as the sample solution and the standard solution. Determine the absor-bances, AT and AS, of the sample solution and standard so-lution at 388 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24> using phosphate buffer solution (pH 6.8) as the blank. Amount (mg) of pyridoxal phosphate (C8H10NO6P) ＝ MS × AT/AS MS: Amount (mg) of Pyridoxal Phosphate RS taken, cal-culated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

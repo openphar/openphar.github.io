@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/brown-rice",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-brown-rice",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Brown Rice",
+    "la": "Oryzae Fructus",
+    "ja": "コウベイ"
+  },
+  "definition": {
+    "en": "the fruit of Oryza sativa Linnáe"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/brown-rice-oryza-sativa-linn"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

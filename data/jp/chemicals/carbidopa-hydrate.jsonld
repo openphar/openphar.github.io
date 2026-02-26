@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carbidopa-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carbidopa Hydrate",
+    "ja": "カルビドパ水和物"
+  },
+  "monographId": "JP18-carbidopa-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H14N2O4.H2O",
+  "molecularWeight": 244.24,
+  "casNumber": "38821-49-7",
+  "definition": {
+    "en": "Carbidopa Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Carbidopa Hydrate occurs as a white to yel-lowish white powder. It is sparingly soluble in methanol, slightly soluble in water, very slightly soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 1979C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Carbidopa Hydrate in 250 mL of a solution of hydrochloric acid in methanol (9 in 1000). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Carbidopa RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Car-bidopa Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Carbidopa RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －21.0 – －23.59(1 g, alumi- num (III) chloride TS, 100 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Carbidopa Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Carbidopa Hydrate in 70 mL of the mobile phase, by warming and using ultrasonication, if necessary. After cooling, add the mobile phase to make 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area from both so-lutions by the automatic integration method: the total area of the peaks other than carbidopa obtained from the sample solution is not larger than the peak area of carbidopa from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of carbidopa. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of carbidopa obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. Loss on drying <2.41> 6.9 – 7.9z (1 g, in vacuum not exceeding 0.67 kPa, 1009C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Carbidopa Hydrate and Carbidopa RS (separately determine the loss on drying <2.41> under the same conditions as Carbidopa Hy-drate), and dissolve each in 70 mL of the mobile phase, by warming and using ultrasonication if necessary. After cool-ing, add the mobile phase to make exactly 100 mL, and use these solutions as the sample solution and the standard solu-tion, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of carbidopa in each solution. Amount (mg) of carbidopa hydrate (C10H14N2O4.H2O) ＝ MS × AT/AS × 1.080 MS: Amount (mg) of Carbidopa RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 950 mL of 0.05 mol/L sodium dihydro-gen phosphate TS add 50 mL of ethanol (95), and adjust the pH to 2.7 with phosphoric acid. ‌626 Flow rate: Adjust so that the retention time of carbidopa is about 6 minutes. System suitability— ‌System performance: Dissolve 50 mg each of Carbidopa Hydrate and methyldopa in 100 mL of the mobile phase. When the procedure is run with 20 mL of this solution under the above operating conditions, methyldopa and carbidopa are eluted in this order with the resolution between these peaks being not less than 0.9. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of carbidopa is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

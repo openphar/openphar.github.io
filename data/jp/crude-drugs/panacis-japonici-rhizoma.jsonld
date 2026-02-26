@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/panacis-japonici-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Panacis Japonici Rhizoma",
+    "ja": "チクセツニンジン"
+  },
+  "monographId": "JP18-panacis-japonici-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregularly cylidrical rhizome with distinct nodes, 3 – 20 cm in length, 1 – 1.5 cm in diameter, internode 1 – 2 cm; externally light yellow-brown, with fine longitudi- ‌JP XVIII Crude Drugs and Related Drugs / Peach Kernel 2091‌ nal wrinkles; stem scars, hollowed at the center, protruding on the upper surface, and root scars protruding as knobs on internodes; easily broken; fractured surface approximately flat, and light yellow-brown in color; horny in texture. Odor, slight; taste, slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake 0.5 g of pulverized Panax Japonicus Rhizome with 10 mL of methanol for 10 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 2 mg of chikusetsusaponin IV for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, water and formic acid (5:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1109C for 5 minutes: one of the several spots obtained from the sample solution shows the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Panax Japonicus Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Panax Japonicus Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 30.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

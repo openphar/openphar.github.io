@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/imidapril-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Imidapril Hydrochloride",
+    "ja": "イミダプリル塩酸塩"
+  },
+  "monographId": "JP18-imidapril-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H27N3O6.HCl",
+  "molecularWeight": 441.91,
+  "casNumber": "89396-94-1",
+  "appearance": {
+    "en": "Imidapril Hydrochloride occurs as white crys-tals. It is freely soluble in methanol, soluble in water, and spar-ingly soluble in ethanol (99.5). Dissolve 1.0 g of Imidapril Hydrochloride in 100 mL of water: the pH of the solution is about 2. Melting point: about 2039C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 mL of a solution of Imidapril Hy-drochloride (1 in 50) add 5 drops of Reinecke salt TS: a light red precipitate is formed. Determine the infrared absorption spectrum of Imi-dapril Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Imidapril Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride. D Optical rotation <2.49> [a]20: －65.0 – －69.09(after dry- ing, 0.1 g, methanol, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Imidapril Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 25 mg of Imidapril Hy-drochloride in 50 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak having the relative retention time of about 0.45 to imidapril, obtained from the sample solution, is not larger than 2/5 times the peak area of imidapril from the standard solution, and the area of each peak other than imidapril and the peak mentioned above from the sample so-lution is not larger than 1/5 times the peak area of imidapril from the standard solution. Furthermore, the total area of the peaks other than imidapril from the sample solution is not larger than 1/2 times the peak area of imidapril from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 215 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.36 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust the pH to 2.7 with phosphoric acid. To 600 mL of this solution add 400 mL of methanol. Flow rate: Adjust so that the retention time of imidapril is about 8 minutes. Time span of measurement: About 2 times as long as the retention time of imidapril, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of imidapril obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of imidapril are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of imidapril is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Imidapril Hydro-chloride, previously dried, dissolve in 70 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS from the first equivalent point to the second equivalent point (poten-tiometric titration). ‌JP XVIII Official Monographs / Imidapril Hydrochloride Tablets 1143 Each mL of 0.1 mol/L sodium hydroxide VS ＝ 44.19 mg of C20H27N3O6.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

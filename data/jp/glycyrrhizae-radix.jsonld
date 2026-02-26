@@ -1,0 +1,261 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/glycyrrhizae-radix",
+  "@type": "CrudeDrugMonograph",
+
+  "prefLabel": {
+    "en": "Glycyrrhizae Radix",
+    "ja": "カンゾウ",
+    "la": "Radix Glycyrrhizae"
+  },
+
+  "altLabel": [
+    { "@value": "Licorice Root", "@language": "en" },
+    { "@value": "Glycyrrhiza", "@language": "en" },
+    { "@value": "甘草", "@language": "ja" },
+    { "@value": "kanzou", "@language": "ja-Latn" }
+  ],
+
+  "monographId": "JP18-002",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Glycyrrhizae Radix consists of the root and stolon of Glycyrrhiza glabra Linne, Glycyrrhiza uralensis Fisher, or related species (Leguminosae), from which the cork layer is removed, dried, and usually processed."
+  },
+
+  "referencesPreparation": {
+    "@id": "https://www.herbapedia.org/entity/preparation/dried-licorice-root"
+  },
+
+  "referencesTCMProfile": {
+    "@id": "https://www.herbapedia.org/system/tcm/profile/gan-cao"
+  },
+
+  "referencesAyurvedaProfile": {
+    "@id": "https://www.herbapedia.org/system/ayurveda/dravya/yashtimadhu"
+  },
+
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.herbapedia.org/entity/botanical/species/glycyrrhiza-glabra"
+    },
+    "plantPartUsed": {
+      "en": "Root and Stolon"
+    },
+    "collectionPeriod": {
+      "en": "Collected in autumn to spring of 3-4 year old plants"
+    }
+  },
+
+  "macroscopicDescription": {
+    "@type": "MacroscopicDescription",
+    "color": {
+      "en": "Yellowish brown to brown"
+    },
+    "shape": {
+      "en": "Root: cylindrical, often laterally split, 30-100 cm long, 0.5-3.5 cm in diameter; Stolon: cylindrical, sometimes with branches, 1-3 m long, 0.5-1.5 cm in diameter"
+    },
+    "texture": {
+      "en": "Hard and fibrous"
+    },
+    "fracture": {
+      "en": "Fracture surface is fibrous, outer part reddish brown, inner part yellowish brown"
+    },
+    "odor": {
+      "en": "Characteristic, slight"
+    },
+    "taste": {
+      "en": "Sweet, characteristic"
+    }
+  },
+
+  "microscopicDescription": {
+    "@type": "MicroscopicDescription",
+    "transverseSection": {
+      "en": "Cork cells usually absent; phloem composed of fiber bundles (surrounded by crystal sheath containing calcium oxalate prisms), sieve tubes and parenchyma; xylem composed of vessels (arranged in radial rows), tracheids, wood fibers and parenchyma; vessels 30-180 μm in diameter with simple perforation plates; prisms of calcium oxalate crystals 15-30 μm in length scattered in the parenchyma cells near the fiber bundles"
+    },
+    "powderCharacteristics": {
+      "en": "Powder shows fragments of fibers surrounded by crystal sheath containing prisms of calcium oxalate; fragments of vessels with simple perforation plates; parenchyma cells containing starch grains (simple or compound, 3-15 μm in diameter) and prisms of calcium oxalate"
+    },
+    "diagnosticFeatures": {
+      "en": "Fiber bundles surrounded by crystal sheath containing prisms of calcium oxalate; vessels with simple perforation plates; starch grains 3-15 μm in diameter; sweet taste"
+    }
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - TLC"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "TLC",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Glycyrrhizae Radix add 20 mL of ammonia TS and 20 mL of chloroform, shake for 15 minutes, filter, and use the chloroform layer as the sample solution. Separately, dissolve 1 mg of glycyrrhizin RS in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography. Spot 10 μL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-propanol, ammonium acetate TS, ammonia solution and ethyl acetate (6:3:1:1) to a distance of about 10 cm, and dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS on the plate, and heat at 80°C for 10 minutes: a spot from the sample solution and a spot from the standard solution show the same blue-purple color."
+      }
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification B - HPLC"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "HPLC",
+      "testConditions": {
+        "en": "Perform the test as directed under Liquid Chromatography with the sample solution prepared in the Assay. The retention time of the peak corresponding to glycyrrhizic acid from the sample solution is the same as that from the standard solution."
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Foreign Matter"
+      },
+      "testType": "TestType-ForeignMatter",
+      "harmonizedMethod": "ForeignMatter",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Total Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "TotalAsh",
+      "physicalProperty": {
+        "en": "Total Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 7.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "AcidInsolubleAsh",
+      "physicalProperty": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Glycyrrhizic Acid"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Glycyrrhizic Acid (C42H62O16)"
+      },
+      "assayExpression": "on dried basis",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Glycyrrhizae Radix, add 50 mL of dilute ammonia TS, shake for 15 minutes, filter, and add dilute ammonia TS to make exactly 50 mL. Pipet 5 mL of this solution, add 2 mL of dilute hydrochloric acid (1 in 3), and extract with two 20-mL portions of 2-propanol. Combine the 2-propanol extracts, evaporate to dryness under reduced pressure, dissolve the residue in the mobile phase to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of glycyrrhizin RS (previously determine the water content), dissolve in the mobile phase to make exactly 50 mL. Pipet 10 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 μL each of the sample solution and standard solution as directed under Liquid Chromatography."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 2.5,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method3",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 20,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "physicalProperty": {
+        "en": "Loss on Drying"
+      },
+      "testConditions": {
+        "en": "Dry at 105°C for 6 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 15.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Water-soluble Extract"
+      },
+      "testType": "TestType-Extractive",
+      "harmonizedMethod": "WaterSolubleExtractive",
+      "testConditions": {
+        "en": "Reflux with water for 1 hour"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 25.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed container"
+  },
+  "storageConditions": {
+    "en": "Store in a cool, dry place"
+  }
+}

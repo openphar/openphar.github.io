@@ -1,0 +1,37 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/triamcinolone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Triamcinolone",
+    "ja": "トリアムシノロン"
+  },
+  "monographId": "JP18-triamcinolone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H27FO6",
+  "molecularWeight": 394.43,
+  "casNumber": "124-94-7",
+  "definition": {
+    "en": "Triamcinolone, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Triamcinolone occurs as a white crystalline powder. Residue on ignition <2.44> Not more than 0.3z (0.5 g, platinum crucible)."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 20 mg each of Triamcinolone and Triamcinolone RS, previously dried and accurately weighed, in a solution of L-ascorbic acid in methanol (1 in 1000) to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL each of the internal standard solution, add a solution of L-ascorbic acid in methanol (1 in 1000) to make 20 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak height of triamcinolone to that of the internal standard. Amount (mg) of triamcinolone (C21H27FO6) ＝ MS × QT/QS MS: Amount (mg) of Triamcinolone RS taken Internal standard solution—Dissolve 15 mg of methyl par-ahydroxybenzoate in a solution of L-ascorbic acid in metha-nol (1 in 1000) to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.0 mm in inside diame- ‌ter and 15 cm in length, packed with octadecylsilanized silica gel (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (3:1). Flow rate: Adjust so that the retention time of triamcino- lone is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, triamcinolone and the internal standard are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak height of triamcinolone to that of the internal standard is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

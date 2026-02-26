@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glucose",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glucose",
+    "ja": "ブドウ糖"
+  },
+  "monographId": "JP18-glucose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12O6",
+  "molecularWeight": 180.16,
+  "casNumber": "50-99-7",
+  "definition": {
+    "en": "Glucose is a-D-glucopyranose, b-D-glucopyranose, or a mixture of them. It, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Glucose occurs as white, crystals or crystalline powder. It is odorless, and has a sweet taste. 0 – 25* 61 39 25 – 29 61 → 12 39 → 88 29 – 30 12 88 30 – 31 12 → 61 88 → 39 31 – 37 61 39 * Adjust the time for the isocratic condition so that the gradient starts after the desamido substance 4 is eluted. Flow rate: 0.5 mL per minute. System suitability— System performance: Dissolve Glucagon RS in 0.01 mol/L hydrochloric acid TS to make a solution so that each mL contains 0.5 mg of glucagon. Warm this solution at 509C for 48 hours, and use this solution as the solution for system suitability test. When the procedure is run with 15 mL of the solution for system suitability test under the above operating conditions, four peaks corresponding to the desamido sub-stances 1, 2, 3 and 4 eluted after the principal peak are clear-ly detected, the total amount of these peaks is not less than 7z, and the resolution between glucagon and the desamido substance 1 is not less than 1.5. Furthermore, when the procedure is run with 15 mL of the standard solution under the above operating conditions, the symmetry factor of the principal peak is not more than 1.8. System repeatability: When the test is repeated 5 times with the standard solution under the above operating condi-tions, the relative standard deviation of the peak area of glucagon is not more than 2.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Add 2 to 3 drops of a solution of Glucose (1 in 20) to 5 mL of boiling Fehling's TS: a red precipitate is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Add 25 g of Glucose to 30 mL of water in a Nessler tube, warm at 609C in a water bath until solution is effected, cool, and add water to make 50 mL: the solution is clear and has no more color than the following control solution. Control solution: To a mixture of 1.0 mL of Cobalt (II) Chloride CS, 3.0 mL of Iron (III) Chloride CS, and 2.0 mL of Copper (II) Sulfate CS, add water to make 10.0 mL. To 3.0 mL of this solution add water to make 50 mL. Acidity—Dissolve 5.0 g of Glucose in 50 mL of freshly boiled and cooled water, and add 3 drops of phenol-phthalein TS and 0.60 mL of 0.01 mol/L sodium hydroxide VS: a red color develops. Chloride <1.03>—Perform the test with 2.0 g of Glu- cose. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). Sulfate <1.14>—Perform the test with 2.0 g of Glu- cose. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Heavy metals <1.07>—Proceed with 5.0 g of Glucose according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 4 ppm). Arsenic <1.11>—Dissolve 1.5 g of Glucose in 5 mL of water, add 5 mL of dilute sulfuric acid and 1 mL of bromine TS, heat on a water bath for 5 minutes, and concentrate to 5 mL. After cooling, perform the test with this solution as the test solution (not more than 1.3 ppm). Dextrin—To 1.0 g of Glucose add 20 mL of ethanol (95), and boil under a reflux condenser: the solution is clear. Soluble starch and sulfite—Dissolve 1.0 g of Glucose in 10 mL of water, and add 1 drop of iodine TS: a yellow color develops. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (2 g). ‌1074"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 g of Glucose, previously dried, dissolve in 0.2 mL of ammonia TS and water to make exactly 100 mL, allow to stand for 30 minutes, and deter-mine the optical rotation, aD, of this solution at 20 ± 19C in a 100-mm cell as directed under Optical Rotation Determina- tion <2.49>. Amount (mg) of glucose (C6H12O6) ＝ aD × 1895.4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding – 159C."
+  }
+}

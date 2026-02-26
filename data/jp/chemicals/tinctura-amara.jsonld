@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tinctura-amara",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tinctura Amara",
+    "ja": "苦味チンキ"
+  },
+  "monographId": "JP18-tinctura-amara",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Bitter Tincture is a yellow-brown liquid. It has a characteristic aroma and a bitter taste. Specific gravity d 20: about 0.90"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Bitter Tincture add 5 mL of methanol, then add 0.1 g of magnesium in ribbon form and 1 mL of hydrochloric acid, and allow to stand: the solution is red-purple in color. (2) Use Bitter Tincture as the sample solution. Separate-ly, to 0.5 g of pulverized Bitter Orange Peel add 10 mL of methanol, shake for 5 minutes, ˆlter, and use the ˆltrate as the standard solution (1). Proceed with 0.5 g each of pulver-ized Swertia Herb and Japanese Zanthoxylum Peel in the same manner, and use the solutions so obtained as the stan-dard solution (2) and the standard solution (3). Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL of the sample solution and 5 mL each of standard solutions (1), (2) and (3) on a plate of silica gel with ‰uorescent indicator for thin-layer chro-matography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 7 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 254 nm): one of the sever-al spots obtained from the sample solution has the same Rf value with the clear spot at an Rf value of about 0.7 from the standard solution (3). Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: two of the several spots from the sam-ple solution show the same color tone and Rf value with the clear spot at an Rf value of about 0.4 from the standard so-lution (1), and the clear spot at an Rf value of about 0.35 from the standard solution (2). Alcohol number <1.01> Not less than 6.9 (Method 2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

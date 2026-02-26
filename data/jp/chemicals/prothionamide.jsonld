@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prothionamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Prothionamide‌",
+    "ja": "プロチオナミド"
+  },
+  "monographId": "JP18-prothionamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H12N2S",
+  "molecularWeight": 180.27,
+  "appearance": {
+    "en": "Prothionamide occurs as yellow, crystals or crystalline powder. It has a slight, characteristic odor. It is freely soluble in methanol and in acetic acid (100), soluble in ethanol (95), slightly soluble in diethyl ether, and practically insoluble in water. It dissolves in dilute hydrochloric acid and in dilute sulfu-ric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 0.05 g of Prothionamide with 0.1 g of 1-chloro-2,4-dinitrobenzene, transfer about 10 mg of this mixture to a test tube, and heat for several seconds over a small flame until the mixture is fused. Cool, and add 3 mL of potassium hydroxide-ethanol TS: a red to orange-red color develops. Place 0.5 g of Prothionamide in a 100-mL beaker, and dissolve in 20 mL of sodium hydroxide TS by heating while shaking occasionally: the gas evolved turns a moistened red litmus paper to blue. Boil gently, and evapo-rate the solution to 3 to 5 mL. After cooling, add gradually 20 mL of acetic acid (100), and heat on a water bath: the gas evolved darkens moistened lead (II) acetate paper. Evaporate the solution on a water bath to 3 to 5 mL with the aid of a current of air, cool, add 10 mL of water, and mix well. Filter the crystals by suction, recrystallize from water immediately, and dry in a desiccator (in vacuum, silica gel) for 6 hours: the crystals melt <2.60> between 1989C and 2039C (with decomposition)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Prothionamide in 20 mL of ethanol (95): the solution is clear, and shows a yellow color. Acidity—Dissolve 3.0 g of Prothionamide in 20 mL of methanol with warming. Add 100 mL of water to the so-lution, cool in an ice water bath with agitation, and remove any precipitate by filtration. Allow 80 mL of the filtrate to cool to room temperature, and add 0.8 mL of cresol red TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Heavy metals <1.07>—Proceed with 1.0 g of Pro- thionamide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.6 g of Prothionamide according to Method 3, and perform the test. To the test solution add 10 mL of a solution of magne-sium nitrate hexahydrate in ethanol (95) (1 in 50), then add 1.5 mL of hydrogen peroxide (30), and ignite to burn (not more than 3.3 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Prothionamide, previously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from orange-red to dark orange-brown (indicator: 2 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 18.03 mg of C9H12N2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

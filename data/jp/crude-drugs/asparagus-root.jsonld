@@ -1,0 +1,67 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/asparagus-root",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-asparagus-root",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Asparagus Root",
+    "la": "Asparagi Radix",
+    "ja": "テンモンドウ"
+  },
+  "definition": {
+    "en": "Merrill (Liliaceae), from which most of the"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/asparagus-root-asparagus-cochinchinensis-merrill"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

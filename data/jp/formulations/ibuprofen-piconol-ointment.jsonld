@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ibuprofen-piconol-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ibuprofen Piconol Ointment",
+    "ja": "イブプロフェンピコノール軟膏"
+  },
+  "monographId": "JP18-ibuprofen-piconol-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ibuprofen Piconol Ointment contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Ibuprofen Piconol Oint-ment, equivalent to 50 mg of Ibuprofen Piconol, add 10 mL of methanol, warm at 609C in a water bath, mix well, and filter after cooling. Use the filtrate as the sample solution. Separately, dissolve 50 mg of ibuprofen piconol in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of hexane, ethyl acetate and acetic acid (100) (15:5:1) to a distance of about 13 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Ibuprofen Piconol Ointment, equivalent to about 15 mg of ibuprofen piconol (C19H23NO2), add 10 mL of tetrahydrofuran for liquid chro-matography, shake vigorously, and add exactly 10 mL of the internal standard solution. Then, add methanol to make 30 mL, shake vigorously, filter through a membrane filter with a pore size not exceeding 0.45 mm, and use the filtrate as the sample solution. Separately, weigh accurately about 0.15 g of ibuprofen piconol for assay (separately determine the water <2.48> in the same manner as Ibuprofen Piconol), and dissolve in tetrahydrofuran for liquid chromatography to make exactly 100 mL. Pipet 10 mL of this solution, add ex-actly 10 mL of the internal standard solution, add methanol to make exactly 30 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma- peak area of ibuprofen piconol to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Ointment"
+}

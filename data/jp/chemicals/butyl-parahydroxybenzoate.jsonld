@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/butyl-parahydroxybenzoate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Butyl Parahydroxybenzoate",
+    "ja": "パラオキシ安息香酸ブチル"
+  },
+  "monographId": "JP18-butyl-parahydroxybenzoate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H14O3",
+  "molecularWeight": 194.23,
+  "definition": {
+    "en": "Butyl Parahydroxybenzoate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Butyl Parahydroxybenzoate occurs as color-less crystals or white crystalline powder. It is very soluble in methanol, freely soluble in ethanol (95) and in acetone, and practically insoluble in water.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Butyl Parahydroxybenzoate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Butyl Parahydroxybenzoate RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Butyl Parahydroxybenzoate in ethanol (95) to make 10 mL: the solution is clear and not more intensely colored than the following control solution. Control solution: To 5.0 mL of Cobalt (II) Chloride CS, 12.0 mL of Iron (III) Chloride CS and 2.0 mL of Copper (II) Sulfate CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Acidity—To 2 mL of the solution of Butyl Parahy-droxybenzoate obtained in (1) add 3 mL of ethanol (95), add 5 mL of freshly boiled and cooled water and 0.1 mL of bromocresol green-sodium hydroxide-ethanol TS, then add 0.1 mol/L sodium hydroxide VS until the solution shows a blue color: the volume of 0.1 mol/L sodium hydroxide VS used does not exceed 0.1 mL. (3) Heavy metals <1.07>—Dissolve 1.0 g of Butyl Par- ahydroxybenzoate in 25 mL of acetone, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 25 mL of acetone, 2 mL of dilute acetic acid, and water to make 50 mL (not more than 20 ppm).◆ Related substances—Dissolve 50.0 mg of Butyl Par-ahydroxybenzoate in 2.5 mL of methanol, and add the mobile phase to make exactly 50 mL. Pipet 10 mL of this so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make exactly ‌JP XVIII Official Monographs / Cabergoline 585‌ 20 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the peak area of parahydroxybenzoic acid having a relative retention time of about 0.1 to butyl parahy-droxybenzoate obtained from the sample solution is not larger than the peak area of butyl parahydroxybenzoate from the standard solution (0.5z). For the area of the peak of parahydroxybenzoic acid multiply the correction factor, 1.4. Furthermore, the area of the peak other than butyl par-ahydroxybenzoate and parahydroxybenzoic acid from the sample solution is not larger than the peak area of butyl par-ahydroxybenzoate from the standard solution (0.5z), and the total area of the peaks other than butyl parahydroxyben-zoate is not larger than 2 times the peak area of butyl par-ahydroxybenzoate from the standard solution (1.0z). For this calculation the peak area not larger than 1/5 times the peak area of butyl parahydroxybenzoate from the standard solution is excluded (0.1z). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.5 times as long as the retention time of butyl parahydroxybenzoate. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 10 mL. Confirm that the peak area of butyl parahydroxybenzo-ate obtained with 10 mL of this solution is equivalent to 14 to 26z of that with 10 mL of the standard solution.◆ System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of butyl parahydroxybenzoate is not more than 2.0z.◆ Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50.0 mg each of Butyl Par-ahydroxybenzoate and Butyl Parahydroxybenzoate RS, dis-solve separately in 2.5 mL each of methanol, and add the mobile phase to make exactly 50 mL. Pipet 10 mL each of these solutions, add the mobile phase to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of butyl parahydroxybenzoate in each solution. Mobile phase: A mixture of methanol and potassium dihy-drogen phosphate solution (17 in 2500) (1:1). Flow rate: 1.3 mL per minute. System suitability— System performance: Dissolve 5 mg each of Butyl Parahy-droxybenzoate, propyl parahydroxybenzoate and parahy-droxybenzoic acid in the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the solution for system suitability test (1). Separately, dissolve 5 mg of isobutyl parahydroxybenzoate in the mobile phase to make exactly 100 mL. Pipet 0.5 mL of this solution, add the stand-ard solution to make exactly 50 mL, and use this solution as the solution for system suitability test (2). When the proce-dure is run with 10 mL each of the solution for system suita-bility test (1) and (2) under the above operating conditions, parahydroxybenzoic acid, propyl parahydroxybenzoate, isobutyl parahydroxybenzoate and butyl parahydroxybenzo-ate are eluted in this order, the relative retention times of parahydroxybenzoic acid, propyl parahydroxybenzoate and isobutyl parahydoxybenzoate to butyl parahydroxybenzoate are about 0.1, about 0.5 and about 0.9, respectively, the resolution between the peaks of propyl parahydroxybenzoate and butyl parahydroxybenzoate is not less than 5.0, and the resolution between the peaks of isobutyl parahydroxybenzo-ate and butyl parahydroxybenzoate is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of butyl parahydroxybenzoate is not more than 0.85z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/platycodi-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Platycodi Radix Pulverata",
+    "ja": "キキョウ末"
+  },
+  "monographId": "JP18-platycodi-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Platycodon Root occurs as a light grayish yellow to light grayish brown powder. It has a slight odor, and is tasteless at first, later acrid and bitter. Under a microscope <5.01>, Powdered Platycodon Root reveals numerous fragments of colorless parenchyma cells; fragments of reticulate vessels and scalariform vessels; frag-ments of sieve tubes and lactiferous tubes; fragments of cork layer are sometimes observed. Usually, starch grains are not observed, but very rarely simple grain."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Warm 0.2 g of Powdered Platycodon Root with 2 mL of acetic anhydride on a water bath for 2 minutes, and filter. To 1 mL of the filtrate add carefully 0.5 mL of sulfuric acid to make two layers: a red to red-brown color develops at the zone of contact, and the upper layer ac-quires a blue-green to green color. (2) To 2.0 g of Powdered Platycodon Root add 20 mL of sodium carbonate TS, and shake. Add 5 mL of 1-butanol, shake for 10 minutes, centrifuge, and use the 1-butanol layer as the sample solution. Separately, dissolve 1 mg of platycodin D for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-propanol, ethyl acetate, water and acetic acid (100) (5:3:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots ob-tained from the sample solution and a spot from the stan-dard solution show the same color tone and the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Platycodon Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Platycodon Root according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow- dered Platycodon Root does not show fibers, stone cells or other foreign matter. Total ash <5.01> Not more than 4.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 25.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

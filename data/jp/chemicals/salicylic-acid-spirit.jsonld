@@ -1,0 +1,38 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/salicylic-acid-spirit",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Salicylic Acid Spirit‌",
+    "ja": "サリチル酸精"
+  },
+  "monographId": "JP18-salicylic-acid-spirit",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Salicylic Acid Spirit is a clear, colorless liquid. Specific gravity d 20: about 0.86"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "The solution obtained in the Assay has a red-purple color. Determine the absorption spectrum of the solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 520 nm and 535 nm (salicylic acid). Alcohol number <1.01> Not less than 8.8 (Method 2)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly 10 mL of Salicylic Acid Spirit, add 10 mL of ethanol (95) and water to make exactly 100 mL. Pipet 3 mL of this solution, and dilute with hydrochloric acid-potassium chloride buffer solution (pH 2.0) to make exactly 100 mL. Use this solution as the sample solution. Dissolve about 0.3 g of salicylic acid for assay, previously dried in a desiccator (silica gel) for 3 hours and accurately weighed, in 10 mL of ethanol (95) and water to make exactly 100 mL. Pipet 3 mL of this solution, dilute with hydrochlo-ric acid-potassium chloride buffer solution (pH 2.0) to make exactly 100 mL, and use this solution as the standard solu-tion. Pipet 10 mL each of the sample solution and standard solution, to each add exactly 5 mL of a solution of iron (III) nitrate enneahydrate (1 in 200), dilute with hydrochloric acid-potassium chloride buffer solution (pH 2.0) to exactly 25 mL. Determine the absorbances, AT and AS, of both solu-tions at 530 nm as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a blank solution prepared in the same manner with water. Amount (mg) of salicylic acid (C H O ) Compound Salicylic Acid Spirit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-foeniculi",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Foeniculi",
+    "ja": "ウイキョウ油"
+  },
+  "monographId": "JP18-oleum-foeniculi",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fennel Oil is a colorless to pale yellow liquid. It has a characteristic, aromatic odor and a sweet taste with a slight, bitter aftertaste. It is miscible with ethanol (95) and with diethyl ether. It is practically insoluble in water. When cold, white crystals or crystalline masses may often separate from the oil."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 0.30 g of Fennel Oil in 20 mL of hexane, pipet 1 mL of this solution, add hexane to make exactly 10 mL, and use this solution as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (20:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot with a dark purple color appears at the Rf value of about 0.4. D Refractive index <2.45> n20: 1.528 – 1.560 Specific gravity <1.13> d 20: 0.955 – 0.995"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—To 1.0 mL of Fennel Oil add 3 mL of ethanol (95): the solution is clear. To this solu-tion add 7 mL of ethanol (95): the solution remains clear. (2) Heavy metals <1.07>—Proceed with 1.0 mL of Fennel Oil according to Method 2, and perform the test. Prepare the control solution with 4.0 mL of Standard Lead Solution (not more than 40 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

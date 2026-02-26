@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/curcuma-rhizome",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-curcuma-rhizome",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Curcuma Rhizome",
+    "la": "Curcumae Rhizoma",
+    "ja": "ガジュツ"
+  },
+  "definition": {
+    "en": "not less than 0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

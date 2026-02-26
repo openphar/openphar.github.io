@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/doxifluridine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Doxifluridine",
+    "ja": "ドキシフルリジン"
+  },
+  "monographId": "JP18-doxifluridine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Doxifluridine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Doxifluridine occurs as a white crystalline powder. It is freely soluble in N,N-dimethylformamide, soluble in water and in methanol, and slightly soluble in ethanol (99.5). It dissolves in 0.1 mol/L hydrochloric acid TS and in 0.01 mol/L sodium hydroxide TS. Melting point: about 1919C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Doxifluridine in 0.1 mol/L hydrochloric acid TS (1 in 50,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Doxifluridine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Optical rotation <2.49> [a]20 : ＋160 – ＋1749(after drying, 0.1 g, water, 10 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.10 g of Doxifluridine in 10 mL of water is between 4.2 and 5.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Fluoride—Dissolve 0.10 g of Doxifluridine in 10.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20). Transfer 5.0 mL of this solution into a 20-mL volumet-ric flask, add 5 mL of a mixture of acetone and lanthanum-alizarin complexone TS (2:1) and water to make 20 mL, allow to stand for 1 hour, and use this solution as the sample solution. Separately, put 1.0 mL of Standard Fluorine Solu-tion in a 20-mL volumetric flask, add 5.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20) and 5 mL of the mix-ture of acetone and alizarin complexone TS (2:1), then proceed in the same manner as for preparation of the sample solution, and use the solution so obtained as the standard solution. Determine the absorbances, AT and AS, of the sam-ple solution and standard solution at 620 nm as directed under Ultraviolet-visible Spectrophotometory <2.24>, using a solution obtained in the same way with 5.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20) as a blank: AT is not larger than AS. Chloride <1.03>—Perform the test with 0.30 g of Doxifluridine. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.035z). Heavy metals <1.07>—Proceed with 1.0 g of Doxi-fluridine according to Method 1, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Related substances—Dissolve 20 mg of Doxifluridine in 2 mL of methanol, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, and add methanol to make exactly 25 mL. Pipet 5 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, acetic acid (100) and water (17:2:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 254 nm): the number of the spot other than the principal spot obtained from the sample solu-tion is not more than three, and they are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Doxifluridine, pre-viously dried, dissolve in 50 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L tetramethylammonium hy-droxide VS (potentiometric titration). Perform a blank de-termination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L tetramethylammonium hydroxide VS ＝ 24.62 mg of C9H11FN2O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

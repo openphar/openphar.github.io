@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefotiam-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefotiam Hydrochloride for Injection",
+    "ja": "注射用セフォチアム塩酸塩"
+  },
+  "monographId": "JP18-cefotiam-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefotiam Hydrochloride for Injection is a prepara-tion for injection which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Cefotiam Hydrochloride for Injection occurs as a white to light yellow powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefotiam Hydrochloride for Injection (1 in 50,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits a maximum between 257 nm and 261 nm. (2) Determine the 1H spectrum of a solution of Cefotiam Hydrochloride for Injection in heavy water for nuclear mag-netic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using so-dium 3-trimethylsilylpropanesulfonate for nuclear magnetic resonance spectroscopy as an internal reference compound: it exhibits a singlet signal A between d 2.7 ppm and d 3.0 ppm, and a singlet signal B at around d 6.5 ppm. The ratio of the integrated intensity of each signal, A:B, is about 6:1. pH <2.54> The pH of a solution prepared by dissolving an amount of Cefotiam Hydrochloride for Injection, equivalent to 0.5 g (potency), in 5 mL of water is between 5.7 and 7.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve an amount of Cefotiam Hydrochloride for Injection, equivalent to 1.0 g (potency) of Cefotiam Hydrochloride, in 10 mL of water: the solution is clear, and the absorbance of this solution, determined at 450 nm 10 minutes after dissolving as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.20. Loss on drying <2.41> Not more than 6.0z (0.5 g, in vacu-um, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 0.125 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the contents of not less than 10 ‌JP XVIII Official Monographs / Cefozopran Hydrochloride 691 Cefotiam Hydrochloride for Injection. Weigh accurately an amount of the content, equivalent to about 50 mg (potency) of Cefotiam Hydrochloride, dissolve in the mobile phase to make exactly 50 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 50 mg (potency) of Cefotiam Hydrochloride RS, dissolve in the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Cefotiam Hydrochloride. Amount [ mg (potency)] of cefotiam (C18H23N9O4S3) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefotiam Hydrochloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

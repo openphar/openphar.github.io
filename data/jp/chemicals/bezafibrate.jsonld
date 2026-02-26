@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bezafibrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bezafibrate",
+    "ja": "ベザフィブラート"
+  },
+  "monographId": "JP18-bezafibrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H20ClNO4",
+  "molecularWeight": 361.82,
+  "casNumber": "41859-67-0",
+  "definition": {
+    "en": "Bezafibrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bezafibrate occurs as a white crystalline pow-der. It is freely soluble in N,N-dimethylformamide, soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Bezafibrate in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bezafibrate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Bezafibrate as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 3.0 g of Bezafibrate in 15 mL of N,N-dimethylformamide, add water to make 60 mL, shake well, allow to stand for more than 12 hours, and filter. To 40 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: To 0.70 mL of 0.01 mol/L hydrochloric acid VS add 10 mL of N,N-dimethylformamide, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.012z). Heavy metals <1.07>—Proceed with 2.0 g of Bezafibrate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Bezafibrate in 35 mL of methanol, add diluted 0.5 mol/L ammonium ace-tate TS (1 in 50) to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add 70 mL of methanol and diluted 0.5 mol/L ammonium acetate TS (1 in 50) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the areas of the peaks having the relative retention times of about 0.65 and 1.86 to bezafibrate obtained from the sample solution are not larger than 1/2 times the peak area of bezafibrate from the stand-ard solution, the area of the peaks other bezafibrate and the peaks mentioned above from the sample solution is not larger than 1/5 times the peak area of bezafibrate from the standard solution, and the total area of the peaks other than the peak of bezafibrate from the sample solution is not larger than 3/4 times the peak area of bezafibrate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and diluted acetic acid (100) (1 in 100) (9:4). Flow rate: Adjust so that the retention time of bezafibrate is about 6 minutes. Time span of measurement: About 2.5 times as long as the retention time of bezafibrate, beginning after the solvent peak. System suitability— Test for required detectability: Measure exactly 5 mL of the standard solution, and add a mixture of methanol and diluted 0.5 mol/L ammonium acetate TS (1 in 50) (7:3) to make exactly 50 mL. Confirm that the peak area of bezafibrate obtained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of the standard solution. System performance: Dissolve 20 mg of Bezafibrate and 10 mg of 4-chlorobenzoate in 70 mL of methanol, and add diluted 0.5 mol/L ammonium acetate TS (1 in 50) to make 100 mL. When the procedure is run with 5 mL of this solu-tion under the above operating conditions, 4-chlorobenzoate and bezafibrate are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of bezafibrate is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Bezafibrate, previ-ously dried, dissolve in 50 mL of ethanol (99.5), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 3 drops of phenolphthalein TS). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 36.18 mg of C19H20ClNO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

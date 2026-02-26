@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/agar",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Agar",
+    "ja": "カンテン"
+  },
+  "monographId": "JP18-agar",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "White, translucent rectangular column, string or flakes. Rectangular column about 26 cm in length, 4 cm square in cross section; a string of about 35 cm in length and about 3 mm in width; flakes about 3 mm in length; externally, with wrinkles and somewhat lustrous, light and pliable. Odorless; tasteless and mucilaginous. It is practically insoluble in organic solvents. A boiling solution of Agar (1 in 100) is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a fragment of Agar add dropwise iodine TS: a dark blue to reddish purple color develops. (2) Dissolve 1 g of Agar in 65 mL of water by boiling for 10 minutes with constant stirring, and add a sufficient amount of hot water to make up the water lost by evapora-tion: the solution is clear. Cool the solution between 309C and 399C: the solution forms a firm, resilient gel, which does not melt below 859C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfuric acid—Dissolve 1.0 g of Agar in 100 mL of water by boiling: the solution is not acidic. Sulfurous acid and starch—To 5 mL of the solution obtained in (1) add 2 drops of iodine TS: the solution is not decolorized immediately, and does not show a blue color. Insoluble matter—To 7.5 g of Agar add 500 mL of water, boil for 15 minutes, and add water to make exactly 500 mL. Measure exactly 100 mL of the solution, add 100 mL of hot water, heat to boiling, filter while hot through a tared glass filter (G3), wash the residue with a small amount of hot water, and dry the residue at 1059C for 3 hours: the mass of the residue is not more than 15.0 mg. Water absorption—To 5.0 g of Agar add water to make 100 mL, shake well, allow to stand at 259C for 24 hours, and filter through moistened glass wool in a 100-mL graduated cylinder: the volume of the filtrate is not more than 75 mL. Loss on drying <5.01> Not more than 22.0z (6 hours). Total ash <5.01> Not more than 4.5z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

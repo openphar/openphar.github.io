@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-gluconate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Gluconate Hydrate",
+    "ja": "グルコン酸カルシウム水和物"
+  },
+  "monographId": "JP18-calcium-gluconate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Gluconate Hydrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Calcium Gluconate Hydrate occurs as a white, crystalline powder or granules. It is soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To separately 10 mg each of Calcium Gluconate Hydrate and calcium gluconate for thin-layer chromatography add 1 mL of water, dissolve by warming, and use these solutions as the sample solution and the stand-ard solution, respectively. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethanol (95), water, ammo-nia solution (28) and ethyl acetate (5:3:1:1) to a distance of about 10 cm, air-dry the plate, and heat the plate at 1109C for 20 minutes. After cooling, spray evenly hexaammonium heptamolybdate-cerium (IV) sulfate TS on the plate, air-dry, and heat at 1109C for 10 minutes: the spots with the sample solution and the standard solution are the same in the Rf value and color tone. A solution of Calcium Gluconate Hydrate (1 in 40) responds to Qualitative Tests <1.09> (1), (2) and (3) for cal-cium salt. D Optical rotation <2.49> [a]20: ＋6 – ＋119 (after drying, 0.5 g, water, warming, after cooling, 25 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Calcium Gluconate Hydrate in 20 mL of water by warming: the pH of the solution is be-tween 6.0 and 8.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Calcium Gluconate Hydrate in 50 mL of water by warm-ing: the solution is clear and colorless. Chloride <1.03>—Take 0.40 g of Calcium Gluconate Hydrate, and perform the test. Prepare the control solution with 0.80 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.071z). Sulfate <1.14>—Take 1.0 g of Calcium Gluconate Hydrate, and perform the test. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Heavy metals <1.07>—Dissolve 1.0 g of Calcium Gluconate Hydrate in 30 mL of water and 2 mL of dilute acetic acid by warming, cool, and add water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution, 2 mL of dilute acetic acid, and water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Dissolve 0.6 g of Calcium Gluconate Hydrate in 5 mL of water by warming, add 5 mL of dilute sulfuric acid and 1 mL of bromine TS, and concentrate on a water bath to 5 mL. Perform the test with this solution as the test solution (not more than 3.3 ppm). Sucrose and reducing sugars—To 0.5 g of Calcium Gluconate Hydrate add 10 mL of water and 2 mL of dilute hydrochloric acid, and boil the solution for 2 minutes. After cooling, add 5 mL of sodium carbonate TS, allow to stand for 5 minutes, add water to make 20 mL, and filter. To 5 mL of the filtrate add 2 mL of Fehling's TS, and boil for 1 minute: no orange-yellow to red precipitate is formed imme-diately. Loss on drying <2.41> Not more than 1.0z (1 g, 809C, 2 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Calcium Gluconate Hydrate, previously dried, dissolve in 100 mL of water, add 2 mL of 8 mol/L potassium hydroxide TS and 0.1 g of NN indicator, and titrate <2.50> immediately with 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 22.42 mg of C12H22CaO14.H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

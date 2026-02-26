@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/furosemide-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Furosemide Injection",
+    "ja": "フロセミド注射液"
+  },
+  "monographId": "JP18-furosemide-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Furosemide Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Furosemide Injection is a colorless, clear liq-uid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Furosemide Injection, equivalent to 2.5 mg of Furosemide, add 10 mL of 2 mol/L hydrochloric acid TS, heat under a reflux condenser on a water bath for 15 minutes. After cooling, render the solution slightly acid with 18 mL of sodium hydroxide TS: the solu-tion responds to Qualitative Tests <1.09> for primary aro-matic amines. The color of the solution is red to red-purple. (2) To a volume of Furosemide Injection, equivalent to 20 mg of Furosemide, add water to make 100 mL. To 2 mL of this solution add 0.01 mol/L sodium hydroxide TS to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 227 nm and 231 nm, between 269 nm and 273 nm, and between 330 nm and 336 nm. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Pipet a volume of Furosemide Injection, equivalent to 40 mg of Furosemide, add 30 mL of acetone, shake well, and add acetone to make exactly 50 mL. Centrifuge this so-lution, to 1.0 mL of the supernatant liquid add 3.0 mL of water, cool in a ice bath, add 3.0 mL of dilute hydrochloric acid and 0.15 mL of sodium nitrite TS, shake, and allow to stand for 1 minute. To this solution add 1.0 mL of ammo-nium amidosulfate TS, shake well, allow to stand for 3 minutes, add 1.0 mL of N,N-diethyl-N?-1-naphtylethyl-enediamine oxalate TS, shake well, and allow to stand for 5 minutes. Determine the absorbance of this solution at 530 nm as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution, prepared in the same manner with 1.0 mL of acetone, as the blank: the absorbance is not more than 0.10. Bacterial endotoxins <4.01> Less than 1.25 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exactly measured volume of Furosemide Injection, equivalent to about 20 mg of Furosemide (C12H11ClN2O5S), add water to make exactly 100 mL. Pipet 3 mL of this solution, add 0.01 mol/L sodium hydrochloride TS to make exactly 100 mL, and use this solution as the sam-ple solution. Separately, weigh accurately about 20 mg of Furosemide RS, previously dried at 1059C for 4 hours, add 0.01 mol/L sodium hydroxide TS to make exactly 100 mL. Pipet 3 mL of this solution, add 0.01 mol/L sodium hydrox-ide TS to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 271 nm. Amount (mg) of furosemide (C12H11ClN2O5S) ＝ MS × AT/AS MS: Amount (mg) of Furosemide RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

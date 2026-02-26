@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "@import": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+    "@base": "https://www.openphar.org/data/monograph/",
+
+    "CrudeDrugMonograph": {
+      "@id": "op:CrudeDrugMonograph",
+      "@context": {
+        "botanicalSource": {
+          "@id": "op:botanicalSource",
+          "@type": "@id",
+          "@context": {
+            "referencesPlantSpecies": {
+              "@id": "op:referencesPlantSpecies",
+              "@type": "@id"
+            },
+            "plantPartUsed": { "@id": "op:plantPartUsed", "@container": "@language" },
+            "collectionPeriod": { "@id": "op:collectionPeriod", "@container": "@language" }
+          }
+        },
+        "macroscopicDescription": {
+          "@id": "op:macroscopicDescription",
+          "@type": "@id",
+          "@context": {
+            "color": { "@id": "op:color", "@container": "@language" },
+            "shape": { "@id": "op:shape", "@container": "@language" },
+            "size": { "@id": "op:size", "@container": "@language" },
+            "texture": { "@id": "op:texture", "@container": "@language" },
+            "odor": { "@id": "op:odor", "@container": "@language" },
+            "taste": { "@id": "op:taste", "@container": "@language" },
+            "fracture": { "@id": "op:fracture", "@container": "@language" }
+          }
+        },
+        "microscopicDescription": {
+          "@id": "op:microscopicDescription",
+          "@type": "@id",
+          "@context": {
+            "transverseSection": { "@id": "op:transverseSection", "@container": "@language" },
+            "powderCharacteristics": { "@id": "op:powderCharacteristics", "@container": "@language" },
+            "diagnosticFeatures": { "@id": "op:diagnosticFeatures", "@container": "@language" }
+          }
+        }
+      }
+    },
+
+    "extractiveTests": {
+      "@id": "op:extractiveTests",
+      "@container": "@set"
+    },
+
+    "AlcoholSolubleExtractive": { "@id": "method:AlcoholSolubleExtractive", "@type": "@id" },
+    "WaterSolubleExtractive": { "@id": "method:WaterSolubleExtractive", "@type": "@id" },
+    "DiluteAlcoholSolubleExtractive": { "@id": "method:DiluteAlcoholSolubleExtractive", "@type": "@id" },
+    "EtherSolubleExtractive": { "@id": "method:EtherSolubleExtractive", "@type": "@id" }
+  }
+}

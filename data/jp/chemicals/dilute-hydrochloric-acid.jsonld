@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dilute-hydrochloric-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dilute Hydrochloric Acid",
+    "ja": "希塩酸"
+  },
+  "monographId": "JP18-dilute-hydrochloric-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dilute Hydrochloric Acid contains not less than 9."
+  },
+  "appearance": {
+    "en": "Dilute Hydrochloric Acid is a colorless liquid. It is odorless and has a strong acid taste. Specific gravity d 20: about 1.05."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Dilute Hydrochloric Acid (1 in 30) changes blue litmus paper to red and responds to Quali-tative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate—To 3.0 mL of Dilute Hydrochloric Acid add 5 mL of water and 5 drops of barium chloride TS, and allow to stand for 1 hour: no turbidity is produced. Sulfite—To 3.0 mL of Dilute Hydrochloric Acid add 5 mL of water and 1 drop of iodine TS: the color of iodine TS does not disappear. Bromide or iodide—Place 10 mL of Dilute Hydro-chloric Acid in a glass-stoppered test tube, add 1 mL of chlo- ‌1112‌ roform and 1 drop of 0.002 mol/L potassium permanganate VS, and shake well: the chloroform layer remains colorless. Bromine or chlorine—Place 10 mL of Dilute Hydro-chloric Acid in a glass-stoppered test tube, add 5 drops of potassium iodide TS and 1 mL of chloroform, and shake for 1 minute: the chloroform layer remains free from a purple color. Heavy metals <1.07>—Evaporate 9.5 mL of Dilute Hydrochloric Acid on a water bath to dryness, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the con-trol solution as follows: to 3.0 mL of Standard Lead Solu-tion add 2 mL of dilute acetic acid and water to make 50 mL (not more than 3 ppm). Arsenic <1.11>—Prepare the test solution with 4.0 mL of Dilute Hydrochloric Acid according to Method 1, and perform the test (not more than 0.5 ppm). Mercury—Dilute 80 mL of Dilute Hydrochloric Acid with water to make exactly 100 mL, and use this solution as the sample solution. Perform the test with the sample solu-tion as directed under Atomic Absorption Spectrophotome-try <2.23> (cold vapor type). Place the sample solution in a sample bottle of the atomic absorption spectrophotometer, add 10 mL of tin (II) chloride-sulfuric acid TS, connect the bottle immediately to the spectrophotometer, circulate air, and determine the absorbance AT of the sample solution after the recorder reading has risen rapidly and become con-stant at a wavelength of 253.7 nm. On the other hand, to 8 mL of Standard Mercury Solution add water to make exactly 100 mL, and determine the absorbance AS of the solution obtained by the same procedure as used for the sample solu-tion: AT is smaller than AS (not more than 0.01 ppm). Residue on ignition <2.44> Pipet 10 mL of Dilute Hydro-chloric Acid, add 2 drops of sulfuric acid, evaporate to dry-ness, and ignite: the mass of the residue is not more than 1.0 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly 10 mL of Dilute Hydrochloric Acid, and dilute with 20 mL of water. Titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 to 3 drops of methyl red TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 36.46 mg of HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

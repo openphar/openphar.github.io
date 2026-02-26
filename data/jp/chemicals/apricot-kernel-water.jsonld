@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/apricot-kernel-water",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Apricot Kernel Water",
+    "ja": "キョウニン水"
+  },
+  "monographId": "JP18-apricot-kernel-water",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Apricot Kernel Water contains not less than 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Add a few drops of 0.1 mol/L sodium hydroxide VS to 5.0 mL of Apricot Kernel Water to make slightly alkaline, evaporate on a water bath to dryness, and ignite between 4509C and 5509C. Dissolve the residue in 1.0 mL of dilute hydrochloric acid, and add water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.005z). Heavy metals <1.07>—Evaporate 50 mL of Apricot Kernel Water on a water bath to dryness, ignite between 4509C and 5509C, dissolve the residue in 5 mL of dilute acetic acid with warming, add water to make exactly 50 mL, and filter. Remove the first 10 mL of the filtrate, dilute the subsequent 20 mL to 50 mL with water, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 1 ppm). Free hydrogen cyanide—To 10 mL of Apricot Kernel Water add 0.8 mL of 0.1 mol/L silver nitrate VS and 2 to 3 drops of nitric acid at 159C, filter, and add 0.1 mol/L silver nitrate VS to the filtrate: no change occurs. Residue on evaporation—Evaporate 5.0 mL of Apricot Kernel Water to dryness, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly 25 mL of Apricot Kernel Water, add 100 mL of water, 2 mL of potassium iodide TS and 1 mL of ammonia TS, and titrate <2.50> with 0.1 mol/L silver nitrate VS until a yellow turbidity persists. Each mL of 0.1 mol/L silver nitrate VS ＝ 5.405 mg of HCN"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

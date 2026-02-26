@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dopamine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dopamine Hydrochloride Injection",
+    "ja": "ドパミン塩酸塩注射液"
+  },
+  "monographId": "JP18-dopamine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dopamine Hydrochloride Injection is an aqueous injection. It contains not less than 97."
+  },
+  "appearance": {
+    "en": "Dopamine Hydrochloride Injection occurs as a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Dopamine Hydrochloride Injection, equivalent to 0.04 g of Dopamine Hydrochloride, add 0.1 mol/L hydrochloric acid TS to make 100 mL. To 5 mL of this solution add 0.1 mol/L hydrochloric acid TS to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits a maximum between 278 nm and 282 nm. pH <2.54> 3.0 – 5.0 Bacterial endotoxins <4.01> Less than 4.2 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exact volume of Dopamine Hydrochloride In-jection, equivalent to about 30 mg of dopamine hydrochlo-ride (C8H11NO2.HCl), add the mobile phase to make exactly 50 mL. Pipet 2.5 mL of this solution, add exactly 2.5 mL of the internal standard solution and the mobile phase to make 20 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 30 mg of dopamine hydro-chloride for assay, previously dried at 1059C for 3 hours, dissolve in the mobile phase to make exactly 50 mL. Pipet 2.5 mL of this solution, add exactly 2.5 mL of the internal standard solution and the mobile phase to make 20 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution ‌JP XVIII Official Monographs / Doripenem Hydrate 887 as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of dopamine to that of the internal standard. solution of Doripenem Hydrate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Doripenem RS prepared in the Amount (mg) of dopamine hydrochloride (C H NO .HCl) same manner as the sample solution: both spectra exhibit ＝ MS × QT/QS 8 11 2 similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of MS: Amount (mg) of dopamine hydrochloride for assay taken Internal standard solution—A solution of uracil in the mo-bile phase (3 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Disodium hydrogen phosphate-citric acid buffer solution (pH 3.0). Flow rate: Adjust so that the retention time of dopamine is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and dopamine are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of peak area of dopamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

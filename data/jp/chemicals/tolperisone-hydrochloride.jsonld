@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tolperisone-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tolperisone Hydrochloride",
+    "ja": "トルペリゾン塩酸塩"
+  },
+  "monographId": "JP18-tolperisone-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H23NO.HCl",
+  "molecularWeight": 281.82,
+  "casNumber": "3644-61-9",
+  "definition": {
+    "en": "Tolperisone Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tolperisone Hydrochloride occurs as a white crystalline powder. It has a slight, characteristic odor. It is very soluble in acetic acid (100), freely soluble in water and in ethanol (95), soluble in acetic anhydride, slightly soluble in acetone, and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Tolperisone Hydrochlo-ride in 20 mL of water is between 4.5 and 5.5. It is hygroscopic. Melting point: 167 – 1749C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Tolperisone Hydro-chloride in 2 mL of ethanol (95), add 2 mL of 1,3-dinitrobenzene TS and 2 mL of sodium hydroxide TS, and heat: a red color develops. To 5 mL of a solution of Tolperisone Hydrochloride (1 in 20) add 2 to 3 drops of iodine TS: a red-brown precipi-tate is produced. Dissolve 0.5 g of Tolperisone Hydrochloride in 5 mL of water, add 2 mL of ammonia TS, and filter. Acidify 5 mL of the filtrate with dilute nitric acid: the solution responds to Qualitative Tests <1.09> for chloride. 1 cm Absorbance <2.24> E1z (257 nm): 555 – 585 (after drying, 5 mg, ethanol (95), 500 mL). and shake vigorously for 30 minutes. Immediately after al-lowing to stand, separate the isooctane-carbon disulfide mix-ture layer, and dehydrate with anhydrous sodium sulfate. Perform the test with these solutions as directed under Ultra-violet-visible Spectrophotometry <2.24>: the absorbance of the sample solution at 438 nm is not more than that of the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Tolperisone Hydro-chloride, previously dried, dissolve in 70 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 28.18 mg C16H23NO.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/smilacis-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Smilacis Rhizoma",
+    "ja": "サンキライ"
+  },
+  "monographId": "JP18-smilacis-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened and irregular cylindrical tuber, often with node-like branches; usually 5 – 15 cm in length, 2 – 5 cm in diameter; the outer surface grayish yellow-brown to yellow-brown, and the upper surface scattered with knotty remains of stem; transverse section irregular elliptical to obtuse triangular, whitish to reddish white, consisting of extremely thin cortex and mostly of stele. Odor, slight; almost tasteless. Under a microscope <5.01>, a transverse section reveals a 2- to 3-cell-wide cork layer, with extremely narrow cortical layer, usually consisting of a 2- to 4-cell-wide, thick-walled parenchyma cells, showing large mucilage cells here and there; mucilage cell containing raphides of calcium oxalate; stele consisting chiefly of parenchyma cells, and scattered with vascular bundles; parenchyma cells containing starch grains composed mostly of simple grains, 12 – 36 mm in di-ameter, and sometimes mixed with 2- to 4-compound grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Smilax Rhizome according to Method 3, and per- ‌2154‌‌ Powdered Smilax Rhizome / Crude Drugs and Related Drugs form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Smilax Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 5.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

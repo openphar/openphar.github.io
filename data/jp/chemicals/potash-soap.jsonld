@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/potash-soap",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Potash Soap",
+    "ja": "カリ石ケン"
+  },
+  "monographId": "JP18-potash-soap",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potash Soap contains not less than 40."
+  },
+  "appearance": {
+    "en": "Potash Soap occurs as a yellow-brown, trans-parent, unctuous, soft mass, having a characteristic odor. It is freely soluble in water and in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Silicic acid and alkalinity—Dissolve 10 g of Potash Soap in 30 mL of ethanol (95), and add 0.50 mL of 1 mol/L hydrochloric acid VS: no turbidity is produced. Add 1 drop of phenolphthalein TS to this solution: no red color devel- ops."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 5 g of Potash Soap, dissolve in 100 mL of hot water, and transfer to a separator. Acidify the mixture with dilute sulfuric acid, and cool. Extract the solution with 50-mL, 40-mL, and 30-mL portions of diethyl ether. Wash the combined diethyl ether extracts with 10-mL portions of water until the washing contains no acid. Trans-fer the diethyl ether solution to a tared flask, evaporate diethyl ether on a water bath at a temperature as low as pos-sible. Dry the residue at 809C to constant mass, and weigh as fatty acids."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

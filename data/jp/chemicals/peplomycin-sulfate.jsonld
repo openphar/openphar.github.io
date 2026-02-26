@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/peplomycin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Peplomycin Sulfate",
+    "ja": "ペプロマイシン硫酸塩"
+  },
+  "monographId": "JP18-peplomycin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C61H88N18O21S2.H2SO4",
+  "molecularWeight": 1571.67,
+  "casNumber": "70384-29-1",
+  "definition": {
+    "en": "Peplomycin Sulfate is the sulfate of a substance having antitumor activity produced by the growth of Streptomyces verticillus. It contains not less than 865 mg (potency) and not more than 1010 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Peplomycin Sulfate occurs as a white to light yellow-white powder. It is freely soluble in water, and practically insoluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 4 mg of Peplomycin Sulfate add 5 mL of copper (II) sulfate TS, and dissolve in water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum or the spectrum of a solution of Peplomycin Sulfate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. ＝ 52.56 mg of C20H31 NO3.C6H8O7 (2) Determine the infrared absorption spectrum of Peplomycin Sulfate as directed in the paste method under In-"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 80 mg of Peplomycin Sulfate in 4 mL of water: the solution is clear and colorless. Copper—Dissolve exactly 75 mg of Peplomycin Sul-fate in 10 mL of diluted nitric acid (1 in 100), and use this so-lution as the sample solution. Separately, to 5.0 mL of Standard Copper Stock Solution add diluted nitric acid (1 in 100) to make exactly 100 mL. To 3.0 mL of this solution add diluted nitric acid (1 in 100) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Atomic Absorption Spectrophotometry <2.23> according to the following conditions: the absorbance of the sample solu-tion is not more than that of the standard solution (not more than 200 ppm). Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Copper hollow cathode lamp. Wavelength: 324.8 nm. Related substances—Dissolve about 10 mg of Peplomycin Sulfate in 6 mL of water, add 0.5 mL of a solu-tion of copper (II) sulfate pentahydrate (1 in 125), and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine the areas of the peaks, appeared after the peak of copper sulfate, by the automatic integration method, and calculate the amounts of them by the area percentage method: the total amount of the peaks other than peplomy-cin is not more than 7.0z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase stock solution: Dissolve 0.96 g of sodium 1-pentanesulfonate and 1.86 g of disodium dihydrogen ethyl-enediamine tetraacetate dihydrate in 1000 mL of water and 5 mL of acetic acid (100), and adjust the pH to 4.3 with am-monia TS. Mobile phase A: A mixture of mobile phase stock solution and methanol (9:1). Mobile phase B: A mixture of mobile phase stock solution and methanol (3:2). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Flow rate: 1.2 mL per minute. Time span of measurement: As long as 20 minutes after elution of peplomycin, beginning after the peak of copper sulfate. System suitability— Test for required detectability: Measure exactly 1 mL of the sample solution, add water to make exactly 10 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add water to make exactly 10 mL. Confirm that the peak area of peplomycin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: When the procedure is run with 10 mL of the sample solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of peplomycin are not less than 30,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of peplomycin is not more than 2.0z. Loss on drying <2.41> Not more than 3.0z (60 mg, in vacuum, phosphorus (V) oxide, 609C, 3 hours). Handle the sample avoiding absorption of moisture."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Pentoxyverine Citrate, previously dried, dissolve in 30 mL of acetic acid (100), add 30 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L of perchloric acid VS until the color of the solu-tion changes from purple through blue-green to green (indi-cator: 3 drops of crystal violet TS). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L perchloric acid VS Description Peplomycin Sulfate occurs as a white to light yellow-white powder. It is freely soluble in water, and practically insoluble in ethanol (95). It is hygroscopic. Identification (1) To 4 mg of Peplomycin Sulfate add 5 mL of copper (II) sulfate TS, and dissolve in water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum or the spectrum of a solution of Peplomycin Sulfate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. ＝ 52.56 mg of C20H31 NO3.C6H8O7 (2) Determine the infrared absorption spectrum of Peplomycin Sulfate as directed in the paste method under In-"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  }
+}

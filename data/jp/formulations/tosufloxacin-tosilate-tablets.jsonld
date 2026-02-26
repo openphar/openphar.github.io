@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tosufloxacin-tosilate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tosufloxacin Tosilate Tablets",
+    "ja": "トスフロキサシントシル酸塩錠"
+  },
+  "monographId": "JP18-tosufloxacin-tosilate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tosufloxacin Tosilate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O: 594.56). Method of preparation Prepare as directed under Tablets, with Tosufloxacin Tosilate Hydrate. Identification To a quantity of powdered Tosufloxacin Tosilate Tablets, equivalent to 75 mg of Tosufloxacin Tosi-late Hydrate, add 200 mL of a mixture of methanol and so-dium hydroxide TS (49:1), shake well, and centrifuge. To 2 mL of the supernatant liquid add 100 mL of a mixture of methanol and sodium hydroxide TS (49:1). Determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits maxima between 260 nm and 264 nm, between 341 nm and 345 nm, and between 356 nm and 360 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Tosufloxacin Tosilate Tablets add V/10 mL of water and shake until the tablet is disintegrated. Add methanol to make exactly V mL so that each mL contains about 1."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Tosufloxacin Tosilate Tablets, equivalent to 75 mg of Tosufloxacin Tosi-late Hydrate, add 200 mL of a mixture of methanol and so-dium hydroxide TS (49:1), shake well, and centrifuge. To 2 mL of the supernatant liquid add 100 mL of a mixture of methanol and sodium hydroxide TS (49:1). Determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits maxima between 260 nm and 264 nm, between 341 nm and 345 nm, and between 356 nm and 360 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Tosufloxacin Tosilate Tablets add V/10 mL of water and shake until the tablet is disintegrated. Add methanol to make exactly V mL so that each mL contains about 1.5 mg of tosufloxacin tosilate hydrate (C19H15F3N4O3. C7H8O3S.H2O). Shake this solution for 10 minutes, and cen-trifuge. Pipet 4 mL of the supernatant liquid, add exactly 4 mL of the internal standard solution and methanol to make 100 mL, and use this solution as the sample solution. Pro-ceed as directed in the Assay. Amount (mg) of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O) ＝ MS × QT/QS × V/20 × 1.031 MS: Amount (mg) of Tosufloxacin Tosilate RS taken, cal-culated on the anhydrous basis Internal standard solution—A solution of methyl parahy-droxybenzoate in methanol (1 in 800). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 90 minutes of Tosufloxacin Tosilate Tablets is not less than 65z. Start the test with 1 tablet of Tosufloxacin Tosilate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Dis-card not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add 0.05 mol/L acetic acid-sodium acetate buffer solution (pH 4.0) to make exactly V? mL so that each mL contains about 17 mg of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O), and use this solution as the sample solution. Separately, weigh accurately about 21 mg of Tosufloxacin Tosilate RS (separately determine the water <2.48> in the same manner as Tosufloxacin Tosilate Hydrate), and dissolve in N,N-dimethylformamide to make exactly 25 mL. Pipet 2 mL of this solution, add 0.05 mol/L acetic acid-sodium acetate buffer solution (pH 4.0) to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using 0.05 mol/L acetic acid-sodium acetate buffer solution (pH 4.0) as the blank, and determine the ab-sorbances, AT and AS, at 346 nm. Dissolution rate (z) with respect to the labeled amount of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O) ＝ MS × AT/AS × V?/V × 1/C × 72 × 1.031 MS: Amount (mg) of Tosufloxacin Tosilate RS taken, cal-culated on the anhydrous basis C: Labeled amount (mg) of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Tosufloxacin Tosilate Tablets, and powder. Weigh accu-rately a portion of the powder, equivalent to about 0.15 g of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O), add 10 mL of water and methanol to make exactly 100 mL, shake for 10 minutes, and centrifuge. Pipet 4 mL of the su-pernatant liquid, add exactly 4 mL of the internal standard solution and methanol to make 100 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 30 mg of Tosufloxacin Tosilate RS (separately deter-mine the water <2.48> in the same manner as Tosufloxacin Tosilate Hydrate), add 2 mL of water, and dissolve in meth-anol to make exactly 100 mL. Pipet 20 mL of this solution, add exactly 4 mL of the internal standard solution and meth-anol to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of tosufloxacin to that of the internal standard. Amount (mg) of tosufloxacin tosilate hydrate (C19H15F3N4O3.C7H8O3S.H2O) ＝ MS × QT/QS × 5 × 1.031 MS: Amount (mg) of Tosufloxacin Tosilate RS taken, cal-culated on the anhydrous basis Internal standard solution—A solution of methyl parahy-droxybenzoate in methanol (1 in 800). Operating conditions— Proceed as directed in the operating conditions in the Assay under Tosufloxacin Tosilate Hydrate. System suitability— Proceed as directed in the system suitability in the Assay under Tosufloxacin Tosilate Hydrate."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

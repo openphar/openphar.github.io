@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/edrophonium-chloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Edrophonium Chloride Injection",
+    "ja": "エドロホニウム塩化物注射液"
+  },
+  "monographId": "JP18-edrophonium-chloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Edrophonium Chloride Injection is an aqueous in-jection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Edrophonium Chloride Injection is a clear and colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Edrophonium Chloride Injection, equivalent to 0.04 g of Edrophonium Chloride, add 4 mL of barium nitrate TS, shake, and filter. Proceed with the filtrate as directed in the Identification (1) under <2.24>. Amount (mg) of edrophonium chloride (C10H16ClNO) ＝ MS × AT/AS MS: Amount (mg) of Edrophonium Chloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

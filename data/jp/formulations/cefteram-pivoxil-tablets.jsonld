@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefteram-pivoxil-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefteram Pivoxil Tablets",
+    "ja": "セフテラム ピボキシル錠"
+  },
+  "monographId": "JP18-cefteram-pivoxil-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefteram Pivoxil Tablets contain not less than 90.0z and not more than 110.0z of the labeled potency of cefteram (C16H17N9O5S2: 479.49). Method of preparation Prepare as directed under Tablets, with Cefteram Pivoxil. Identification To a quantity of powdered Cefteram Pivoxil Tablets, equivalent to 0.1 g (potency) of Cefteram Pivoxil, add 20 mL of methanol, shake well, and filter. To 1 mL of the filtrate add 0.05 mol/L hydrochloric acid-methanol TS to make 500 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits a maximum between 262 nm and 266 nm. Purity Related substances—To a quantity of powdered Cefteram Pivoxil Tablets, equivalent to 0.1 g (potency) of Cefteram Pivoxil, add diluted acetonitrile (1 in 2) to make 100 mL. Disperse this solution by sonicating, filter, and use the filtrate as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak, having the relative retention time of about 0.9 to cefteram pivoxil, obtained from the sample so-lution is not larger than 1.75 times the peak area of cefteram pivoxil from the standard solution, and the area of the peak, having the relative retention time of about 0.1 from the sam-ple solution is not larger than 17/25 times the peak area of cefteram pivoxil from the standard solution. Furthermore, the total area of the peaks other than cefteram pivoxil from the sample solution is not larger than 3.7 times the peak area of cefteram pivoxil from the standard solution. For the area of the peak, having the relative retention time of about 0.1 to cefteram pivoxil, multiply the correction factor, 0.74. ‌JP XVIII Official Monographs / Ceftibuten Hydrate 707 Operating conditions— Proceed as directed in the operating conditions in the Purity (2) under Cefteram Pivoxil. System suitability— Proceed as directed in the system suitability in the Purity (2) under Cefteram Pivoxil. Water <2.48> Not more than 4.0z (a quantity equivalent to 0.2 g (potency) of powdered Cefteram Pivoxil Tablets, volumetric titration, direct titration). Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Cefteram Pivoxil Tablets add exactly 5 mL of the internal standard solution per 50 mg (potency) of Cefteram Pivoxil, and add diluted acetonitrile (1 in 2) to make V mL so that each mL contains about 1 mg (potency) Assay To a number of tablet of Cefteram Pivoxil Tablets, equivalent to about 1."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Cefteram Pivoxil Tablets, equivalent to 0.1 g (potency) of Cefteram Pivoxil, add 20 mL of methanol, shake well, and filter. To 1 mL of the filtrate add 0.05 mol/L hydrochloric acid-methanol TS to make 500 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits a maximum between 262 nm and 266 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—To a quantity of powdered Cefteram Pivoxil Tablets, equivalent to 0.1 g (potency) of Cefteram Pivoxil, add diluted acetonitrile (1 in 2) to make 100 mL. Disperse this solution by sonicating, filter, and use the filtrate as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak, having the relative retention time of about 0.9 to cefteram pivoxil, obtained from the sample so-lution is not larger than 1.75 times the peak area of cefteram pivoxil from the standard solution, and the area of the peak, having the relative retention time of about 0.1 from the sam-ple solution is not larger than 17/25 times the peak area of cefteram pivoxil from the standard solution. Furthermore, the total area of the peaks other than cefteram pivoxil from the sample solution is not larger than 3.7 times the peak area of cefteram pivoxil from the standard solution. For the area of the peak, having the relative retention time of about 0.1 to cefteram pivoxil, multiply the correction factor, 0.74. ‌JP XVIII Official Monographs / Ceftibuten Hydrate 707 Operating conditions— Proceed as directed in the operating conditions in the Purity (2) under Cefteram Pivoxil. System suitability— Proceed as directed in the system suitability in the Purity (2) under Cefteram Pivoxil. Water <2.48> Not more than 4.0z (a quantity equivalent to 0.2 g (potency) of powdered Cefteram Pivoxil Tablets, volumetric titration, direct titration). Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Cefteram Pivoxil Tablets add exactly 5 mL of the internal standard solution per 50 mg (potency) of Cefteram Pivoxil, and add diluted acetonitrile (1 in 2) to make V mL so that each mL contains about 1 mg (potency)"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To a number of tablet of Cefteram Pivoxil Tablets, equivalent to about 1.0 g (potency) of Cefteram Pivoxil, add 120 mL of diluted acetonitrile (1 in 2), disperse by sonicat-ing, and add diluted acetonitrile (1 in 2) to make exactly 200 mL. Centrifuge this solution, pipet 10 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, add diluted acetonitrile (1 in 2) to make 50 mL, filter through a membrane filter with pore size not exceeding 0.45 mm, discard the first 3 mL of the filtrate, and use the subse-quent filtrate as the sample solution. Separately, weigh accu-rately an amount of Cefteram Pivoxil Mesitylene Sulfonate RS, equivalent to about 50 mg (potency), dissolve in 20 mL of diluted acetonitrile (1 in 2), add exactly 5 mL of the inter-nal standard solution, add diluted acetonitrile (1 in 2) to make 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefteram Pivoxil. of Cefteram Pivoxil. Disperse this solution by sonicating, filter through a membrane filter with pore size of not exceeding 0.45 mm, discard the first 10 mL of the filtrate, Amount [mg (potency)] of cefteram (C ＝ MS × QT/QS × 20 16H17N9O5S2) and use the subsequent filtrate as the sample solution. Sepa-rately, weigh accurately an amount of Cefteram Pivoxil Mesitylene Sulfonate RS, equivalent to about 50 mg (po-tency), dissolve in 20 mL of diluted acetonitrile (1 in 2), add exactly 5 mL of the internal standard solution, add diluted acetonitrile (1 in 2) to make 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefteram Pivoxil. Amount [mg (potency)] of cefteram (C16H17N9O5S2) ＝ MS × QT/QS × V/50 MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in diluted acetonitrile (1 in 2) (1 in 1000). Dissolution <6.10> When the test is performed at 75 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Cefteram Pivoxil Tablets is not less than 75z. Start the test with 1 tablet of Cefteram Pivoxil Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 22 mg (potency) of Cefteram Pivoxil, and use this solution as the sample solution. Separately, weigh accu-rately an amount of Cefteram Pivoxil Mesitylene Sulfonate RS, equivalent to about 22 mg (potency), and dissolve in 20 mL of methanol, and add water to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank, and determine the absorbances, AT and AS, at 300 nm. Dissolution rate (z) with respect to the labeled amount of cefteram (C16H17N9O5S2) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken C: Labeled amount [mg (potency)] of cefteram (C16H17N9O5S2) in 1 tablet MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in diluted acetonitrile (1 in 2) (1 in 1000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

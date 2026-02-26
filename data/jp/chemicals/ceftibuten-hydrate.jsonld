@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ceftibuten-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ceftibuten Hydrate",
+    "ja": "セフチブテン水和物"
+  },
+  "monographId": "JP18-ceftibuten-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H14N4O6S2.2H2O",
+  "molecularWeight": 446.46,
+  "casNumber": "118081-34-8",
+  "definition": {
+    "en": "Ceftibuten Hydrate contains not less than 900 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Ceftibuten Hydrate occurs as a white to pale yellow-white crystalline powder. It is freely soluble in N,N-dimethylformamide and in dimethyl sulfoxide, and practically insoluble in water, in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ceftibuten Hydrate in 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Ceftibuten Hydrate as directed in the paste method under the Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Ceftibut-en Hydrate in deuterated dimethyl sulfoxide for nuclear magnetic resonance spectroscopy (1 in 30), using tetra-methylsilane for nuclear magnetic resonance spectroscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits doublet signals A and B, at around d 3.2 ppm and at around d 5.1 ppm, a quartet signal C, at around d 5.8 ppm, and a singlet signal D, at around d 6.3 ppm. The ratio of integrated inten-sity of each signal except the signal at around d 3.2 ppm, B:C:D is about 1:1:1. D Optical rotation <2.49> [a]20: ＋135 – ＋1559(0.3 g calcu-lated on the anhydrous basis, 0.1 mol/L phosphate buffer solution for antibiotics, pH 8.0, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Ceftibuten Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—(i) Keep the sample solution and the standard solution at not exceeding 59C and use within 2 hours after preparation. Dissolve 25 mg of Cefti-buten Hydrate in 20 mL of 0.1 mol/L phosphate buffer solu-tion for antibiotics (pH 8.0). To 4 mL of this solution add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make 20 mL, and use this solution as the sample solution. Pipet 5 mL of the sample solution, add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than ceftibuten obtained from the sample solution is not larger than 1/5 times the peak area of ceftibuten from the standard solution, and the total area of the peaks other than ceftibuten from the sample solution is not larger than the peak area of ceftibuten from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.7 times as long as the retention time of ceftibuten, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make exactly 20 mL. Confirm that the peak area of ceftibuten obtained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of the standard so-lution. System performance: Dissolve 5 mg of Ceftibuten Hydrate in 20 mL of 0.1 mol/L hydrochloric acid TS, and allow to stand at 409C for 1 hour. To 4 mL of this solution add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make 25 mL. When the procedure is run with 5 mL of this so-lution under the above operating conditions, trans-isomer of ceftibuten and ceftibuten are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 5 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of ceftibuten is not more than 2.0z. (ii) Keep the sample solution at not exceeding 59C, and use within 24 hours after preparation. To 5 mg of Ceftibuten Hydrate add 20 mL of the mobile phase, sonicate, if neces-sary, then shake to dissolve, filter through a membrane filter with a pore size not exceeding 0.45 mm, and use the filtrate as the sample solution. Perform the test with 10 mL of the sam-ple solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calcu-late their amounts by the area percentage method: the total amount of the peaks that are eluted faster than ceftibuten is not more than 5.0z. For the areas of these peaks, multiply the correction factor, 1.63, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 263 nm). Column: A stainless steel column 7.5 mm in inside diame-ter and 60 cm in length, packed with glycol etherified silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.05 g of disodium hydrogen phos-phate dodecahydrate and 0.58 g of potassium dihydrogen phosphate in water to make 1000 mL. Flow rate: Adjust so that the retention time of ceftibuten is about 20 minutes. Time span of measurement: About 1.6 times as long as the retention time of ceftibuten. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase to make 20 mL, and use this so-lution as the solution for system suitability test. Pipet 2 mL of the solution for system suitability test, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of ceftibuten obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of ceftibuten are not less than 10,000 and 0.8 – 1.2, respectively. System repeatability: When the test is repeated 5 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of ceftibuten is not more than 1.7z. Water <2.48> Not less than 8.0z and not more than 13.0z (0.2 g, volumetric titration, direct titration. Use a mixture of pyridine for water determination and ethylene glycol for water determination (5:1) instead of methanol for water de-termination). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Keep the sample solution and the standard solution at not exceeding 59C and use within 2 hours after prepara-tion. Weigh accurately an amount of Ceftibuten Hydrate and Ceftibuten Hydrochloride RS, equivalent to about 10 mg (potency), dissolve each in about 36 mL of 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0), add ex-actly 4 mL each of the internal standard solution, shake, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of ceftibuten to that of the internal standard. JP XVIII Official Monographs / Ceftizoxime Sodium 709 Amount [mg (potency)] of ceftibuten (C15H14N4O6S2) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Ceftibuten Hydrochloride RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in acetonitrile (3 in 4000). Operating conditions— ‌Detector: An ultraviolet absorption photometer (wave-length: 263 nm). Column: A stainless steel column 4 mm in inside diameter and 20 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.005 mol/L n-decyl trimethy-lammonium bromide TS and acetonitrile (4:1). Flow rate: Adjust so that the retention time of ceftibuten is about 10 minutes. System suitability— System performance: Dissolve 5 mg of Ceftibuten Hydrate in 20 mL of 0.1 mol/L hydrochloric acid TS, and allow to stand at 409C for 1 hour. To 4 mL of this solution add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make 25 mL. When the procedure is run with 5 mL of this so-lution under the above operating conditions, trans-isomer of ceftibuten and ceftibuten are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of ceftibuten to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 59C."
+  }
+}

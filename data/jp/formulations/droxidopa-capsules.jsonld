@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/droxidopa-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Droxidopa Capsules",
+    "ja": "ドロキシドパカプセル"
+  },
+  "monographId": "JP18-droxidopa-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To an amount of the contents of Drox-idopa Capsules, equivalent to 50 mg of Droxidopa, add 50 mL of water, shake for 10 minutes, and filter. To 5 mL of the filtrate add 1 mL of ninhydrin TS, and heat in a water bath for 3 minutes: a blue-purple color develops. To an amount of the contents of Droxidopa Cap-sules, equivalent to 20 mg of Droxidopa, add 20 mL of diluted acetic acid (100) (1 in 500), shake for 10 minutes, and filter. To 1 mL of the filtrate add 4 mL of water and 1 drop of iron (III) chloride TS: a deep green color is produced, and it gradually changes to light brown. To an amount of the contents of Droxidopa Cap-sules, equivalent to 50 mg of Droxidopa, add 50 mL of 0.1 mol/L hydrochloric acid TS, shake well, add 0.1 mol/L hy-drochloric acid TS to make 100 mL, and filter. Discard the first 10 mL of the filtrate, and to 2 mL of the subsequent fil-trate add 0.1 mol/L hydrochloric acid TS to make 25 mL. Determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 278 nm and 282 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To the contents of 1 capsule of Droxidopa Capsules, add 100 mL of 0.1 mol/L hydrochloric acid TS, shake well, and add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 0.5 mg of droxidopa (C9H11NO5). Filter this solution, discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 50 mg of droxidopa for assay, previously dried in vacuum at 609C for 3 hours, dissolve in 0.1 mol/L hydro-chloric acid TS to make exactly 100 mL. Pipet 2 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make ex-actly 25 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 280 nm. Amount (mg) of droxidopa (C9H11NO5) ＝ MS × AT/AS × V/100 MS: Amount (mg) of droxidopa for assay taken Dissolution <6.10> When the test is performed at 75 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 90 minutes of Droxidopa Capsules is not less than 70z. Start the test with 1 capsule of Droxidopa Capsules, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 56 mg of droxidopa (C9H11NO5), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of droxidopa for assay, previously dried in vacuum at 609C for 3 hours, dissolve in water to make ex-actly 100 mL. Pipet 4 mL of this solution, add water to make exactly 20 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT1 and AS1, at 280 nm, and AT2 and AS2, at 350 nm. Dissolution rate (z) with respect to the labeled amount of droxidopa (C9H11NO5) ＝ MS × (AT1 － AT2)/(AS1 － AS2) × V?/V × 1/C × 180 MS: Amount (mg) of droxidopa for assay taken C: Labeled amount (mg) of droxidopa (C9H11NO5) in 1 capsule"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 20 Droxidopa Capsules, weigh accurately the mass of the contents, and mix uniformly. Weigh accurately an amount equivalent to about 50 mg of droxidopa (C9H11NO5), add 50 mL of 0.1 mol/L hydrochloric acid TS, shake well, add 0.1 mol/L hydrochlo-ric acid TS to make exactly 100 mL, and filter. Discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent fil-trate, add 0.1 mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 50 mg of droxidopa for assay, previously dried in vacuum at 609C for 3 hours, dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 2 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as the stand-ard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and determine the absorbances, AT and AS, at 280 nm. Amount (mg) of droxidopa (C9H11NO5) ＝ MS × AT/AS MS: Amount (mg) of droxidopa for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

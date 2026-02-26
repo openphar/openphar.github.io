@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/picrasmae-lignum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Picrasmae Lignum",
+    "ja": "ニガキ"
+  },
+  "monographId": "JP18-picrasmae-lignum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Light yellow chips, slices or short pieces of wood; a transverse section reveals distinct annual rings and thin medullary rays; tissue dense in texture. Odorless; taste, extremely bitter and lasting. Under a microscope <5.01>, it reveals medullary rays con-sisting of 1 – 5 cells wide for transverse section, and 5 – 50 cells high for longitudinal cut surface; vessels of spring wood up to about 150 mm in diameter, but those of autumn wood only one-fifth as wide; vessels, single or in groups, scattered in the xylem parenchyma; wall of wood fibers extremely thickened; medullary rays and xylem parenchyma cells con-tain rosette aggregates of calcium oxalate and starch grains. Vivid yellow or red-brown, resinous substance often present in the vessels."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of foreign mat-ter contained in Picrasma Wood does not exceed 1.0z. Total ash <5.01> Not more than 4.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

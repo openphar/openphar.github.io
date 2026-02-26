@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/hydrocortisone-sodium-succinate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Hydrocortisone Sodium Succinate",
+    "ja": "ヒドロコルチゾンコハク酸エステルナトリウム"
+  },
+  "monographId": "JP18-hydrocortisone-sodium-succinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Hydrocortisone Sodium Succinate, calculated on the dried basis, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Hydrocortisone Sodium Succinate occurs as a white, powder or masses. It is freely soluble in water, in methanol and in ethanol (95). It is hygroscopic. It is gradually colored by light. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Hydrocortisone So-dium Succinate in 20 mL of water, and add 0.5 mL of dilute hydrochloric acid with stirring: a white precipitate is formed. Collect the precipitate, wash it with two 10-mL portions of water, and dry at 1059C for 3 hours. To 3 mg of this dried matter add 2 mL of sulfuric acid: the solution shows a yel-lowish green fluorescence immediately, and the color of the solution gradually changes through orange-yellow to dark red. This solution shows a strong light green fluorescence under ultraviolet light. Add carefully 10 mL of water to this solution: the color changes from yellow to orange-yellow with a light green fluorescence, and a yellow-brown floccu-lent precipitate is formed. Dissolve 10 mg of the dried matter obtained in (1) in 1 mL of methanol, add 1 mL of Fehling's TS, and heat: an orange to red precipitate is formed. To 0.1 g of the dried matter obtained in (1) add 2 mL of sodium hydroxide TS, and allow to stand for 10 minutes. Filter the solution to remove the precipitate formed, mix the filtrate with 1 mL of dilute hydrochloric acid, filter if neces-sary, then adjust the solution to a pH of about 6 with diluted ammonia TS (1 in 10), and add 2 to 3 drops of iron (III) chloride TS: a brown precipitate is formed. Determine the infrared absorption spectrum of the dried matter obtained in (1) as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Hydrocortisone Succinate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve Hydrocortisone Sodium Succinate and Hydrocortisone Succinate RS in methanol, respectively, then evaporate the methanol to dryness, and repeat the test on the residues. Hydrocortisone Sodium Succinate responds to Quali-tative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋135 – ＋1459(0.1 g calcu-lated on the dried basis, ethanol (95), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Hydrocortisone Sodium Succinate in 5 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve 25 mg of Hydrocorti-sone Sodium Succinate in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, dis-solve 25 mg of hydrocortisone in methanol to make exactly 10 mL. Pipet 1 mL of this solution, add methanol to make exactly 20 mL, and use this solution as the standard solution (1). Pipet 6 mL of the standard solution (1), add methanol to make exactly 10 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 3 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chlo-roform, ethanol (99.5) and formic acid (150:10:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot ob-tained from the sample solution corresponding to the spot from the standard solution (1) is not more intense than the spot from the standard solution (1). Any spot other than the principal spot and the above spot from the sample solution is not more than one, and is not more intense than the spot from the standard solution (2). Loss on drying <2.41> Not more than 2.0z (0.5 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg of Hydrocortisone Sodium Succinate, and dissolve in methanol to make exactly 100 mL. Pipet 5 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Hydrocortisone Succinate RS, previously dried at 1059C for 3 hours, proceed in the same manner as directed for the sample solution, and use this solution as the standard solution. Determine the ab-sorbances, AT and AS, of the sample solution and standard solution at 240 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Amount (mg) of hydrocortisone sodium succinate (C25H33NaO8) ＝ MS × AT/AS × 1.048 MS: Amount (mg) of Hydrocortisone Succinate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

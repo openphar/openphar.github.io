@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/benincasae-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Benincasae Semen",
+    "ja": "トウガシ"
+  },
+  "monographId": "JP18-benincasae-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "1) Benincasa cerifera origin—Flattened, ovate to orbicular ovate seed, 10 – 13 mm in length, 6 – 7 The amount (mg) of hyoscyamine (C ＝ MSA × QTA/QSA × 0.855 17H23NO3) mm in width, about 2 mm in thickness; slightly acute at base; hilum and germ pore form two protrusions; externally light grayish yellow to light yellowish brown; prominent The amount (mg) of scopolamine (C17H21NO4) ＝ MSS × QTS/QSS × 6/125 × 0.789 MSA: The amount (mg) of Atropine Sulfate RS taken, cal-culated on the dried basis MSS: The amount (mg) of Scopolamine Hydrobromide RS taken, calculated on the dried basis Internal standard solution: A solution of brucine n-hydrate in the mobile phase (1 in 2500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of around 209C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate in 900 mL of water, add 10 mL of triethylamine, adjust to pH 3.5 with phosphoric acid, and add water to make 1000 mL. To 900 mL of this solution add 100 mL of acetonitrile. Flow rate: Adjust so that the retention time of atropine is about 14 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, scopolamine, atropine and the internal standard are eluted in this order, and the resolutions between scopolamine and atropine, and atropine and the internal standard are not less than 11 and not less than 4, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of scopolamine to that of the internal standard is not more than 1.5z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Benincasa Seed add 10 mL of a mixture of methanol and water (4:1), shake for 10 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sam-ple solution on a plate of silica gel for thin-layer chromatog-raphy, develop the plate with a mixture of 1-butanol, water and acetic acid (100) (8:6:3) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): two blue-white fluorescent spots ap-pear at an Rf value of about 0.4, and the spot having the smaller Rf value shows more intense fluorescence."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—It contains not more than 2.0z. Loss on drying <5.01> Not more than 11.0z (6 hours). Total ash <5.01> Not more than 5.0z. ‌1960‌‌ Benzoin / Crude Drugs and Related Drugs Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

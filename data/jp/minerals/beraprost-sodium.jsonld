@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/beraprost-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Beraprost Sodium",
+    "ja": "ベラプロストナトリウム"
+  },
+  "monographId": "JP18-beraprost-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Beraprost Sodium, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Beraprost Sodium occurs as a white powder. It is very soluble in methanol, and freely soluble in water and in ethanol (99.5). It is hygroscopic. Flow rate: Adjust so that the retention time of the second peak of beraprost is about 23 minutes. Time span of measurement: For 80 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add methanol to make 20 mL. To 1 mL of this solu- ‌532 tion add methanol to make 20 mL, and use this solution as the solution for system suitability test. Pipet 2 mL of the solution for system suitability test, and add methanol to make exactly 10 mL. Confirm that the total area of the two peaks of beraprost obtained with 15 mL of this solution is equivalent to 14 to 26z of that with 15 mL of the solution for system suitability test. Beraprost Sodium Tablets"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Beraprost Sodium in methanol (3 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of previ-ously dried Beraprost Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Beraprost Sodium in methanol (1 in 1000) responds to Qualitative Tests <1.09> (1) for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 20 mg of Beraprost Sodium in 2 mL of methanol, and use this solution as the sample solution. Perform the test with 15 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak having the relative retention time of about 0.5 to the second eluting principal peak of beraprost and the two adjacent peaks at the relative retention time of about 1.7 and another two adjacent peaks at the relative retention time of about 2.0 are not more than 0.2z, respectively, the amount of the peak at the relative retention time of about 1.2 is not more than 0.3z, the amount of the peak, other than the two peaks of beraprost and the peaks mentioned above, is less than 0.1z, and the total amount of the peaks, other than the two peaks of beraprost, is not more than 1.5z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 285 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase A: A mixture of water, acetonitrile, metha-nol and acetic acid (100) (640:330:30:1). Mobile phase B: A mixture of acetonitrile, water and acetic acid (100) (900:100:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. C24H29NaO5: 420.47 Monosodium (1RS,2RS,3aSR,8bSR )-2,3,3a,8b-tetrahydro-2-hydroxy-1-[(1E,3SR,4RS )-3-hydroxy-4-methyloct-1-en-6-yn-1-yl]-1H- Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) cyclopenta[b]benzofuran-5-butanoate 0 – 30 Monosodium (1RS,2RS,3aSR,8bSR )-2,3,3a,8b-tetrahydro-2-hydroxy- 30 – 45 100 → 56 0 → 44 1-[(1E,3SR,4SR )-3-hydroxy-4-methyloct-1-en-6-yn-1-yl]-1H- 45 – 60 cyclopenta[b]benzofuran-5-butanoate 60 – 70 56 → 0 44 → 100 [88475-69-8] 70 – 80 Beraprost Sodium, when dried, contains not less than 98.5z and not more than 101.0z of beraprost sodium (C24H29NaO5). Description Beraprost Sodium occurs as a white powder. It is very soluble in methanol, and freely soluble in water and in ethanol (99.5). It is hygroscopic. Flow rate: Adjust so that the retention time of the second peak of beraprost is about 23 minutes. Time span of measurement: For 80 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add methanol to make 20 mL. To 1 mL of this solu- ‌532 tion add methanol to make 20 mL, and use this solution as the solution for system suitability test. Pipet 2 mL of the solution for system suitability test, and add methanol to make exactly 10 mL. Confirm that the total area of the two peaks of beraprost obtained with 15 mL of this solution is equivalent to 14 to 26z of that with 15 mL of the solution for system suitability test. Beraprost Sodium Tablets"
+      }
+    }
+  ]
+}

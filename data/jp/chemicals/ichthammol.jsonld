@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ichthammol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ichthammol",
+    "ja": "イクタモール"
+  },
+  "monographId": "JP18-ichthammol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ichthammol, calculated on the dried basis, contains not less than 2."
+  },
+  "appearance": {
+    "en": "Ichthammol is a red-brown to black-brown, viscous fluid. It has a characteristic odor. It is miscible with water. It is partially soluble in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 4 mL of a solution of Ichthammol (3 in 10) add 8 mL of hydrochloric acid: a yellow-brown to blackish brown, oily or resinous mass is produced. Cool the mass with ice to solidify, and discard the water layer. Wash the residue with diethyl ether: a part of the mass dissolves but it does not dissolve completely even when it is washed until almost no color develops in the washing. Perform the following tests with this residue. To 0.1 g of the residue add 1 mL of a mixture of ethanol (95) and diethyl ether (1:1): it dissolves. To 0.1 g of the residue add 2 mL of water: it dis-solves. To 1 mL of this solution add 0.4 mL of hydrochloric acid: a yellow-brown to blackish brown oily or resinous sub-stance is produced. ‌1136 To 1 mL of the solution obtained in (ii) add 0.3 g of sodium chloride: a yellow-brown or blackish brown oily or resinous substance is produced. (2) Boil 2 mL of a solution of Ichthammol (1 in 10) with 2 mL of sodium hydroxide TS: the gas evolved changes moistened red litmus paper to blue. Loss on drying <2.41> Not more than 50z (0.5 g, 1059C, 6 hours). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Ammonia—Weigh accurately about 5 g of Ichthammol, transfer to a Kjeldahl flask, and add 60 mL of water, 1 mL of 1-octanol and 4.5 mL of a solution of sodium hydroxide (2 in 5). Connect the flask to a distilling tube with a spray trap and a condenser, and immerse the lower outlet of the condenser in the receiver containing exactly 30 mL of 0.25 mol/L sulfuric acid VS. Distil slowly, collect about 50 mL of the distillate, and titrate <2.50> the excess sulfuric acid with 0.5 mol/L sodium hydroxide VS (indicator: 3 drops of methyl red TS). Perform a blank determination in the same manner. Each mL of 0.25 mol/L sulfuric acid VS ＝ 8.515 mg of NH3 Ammonium sulfate—Weigh accurately about 1 g of Ichthammol, add 25 mL of ethanol (95), stir thoroughly, and filter. Wash with a mixture of ethanol (95) and diethyl ether (1:1) until the washings are clear and colorless. Dry the filter paper and the residue in air, dissolve the residue in 200 mL of hot water acidified slightly with hydrochloric acid, and filter. Boil the filtrate, add 30 mL of barium chloride TS slowly, heat for 30 minutes on a water bath, and filter. Wash the precipitate with water, dry, and ignite to constant mass. Weigh the residue as barium sulfate (BaSO4: 233.39). Amount (mg) of ammonium sulfate [(NH4)2SO4] ＝ amount (mg) of barium sulfate (BaSO4) × 0.566 Total sulfur—Weigh accurately about 0.6 g of Ichthammol, transfer to a 200-mL Kjeldahl flask, and add 30 mL of water and 5 g of potassium chlorate, then add slowly 30 mL of nitric acid, and evaporate the mixture to about 5 mL. Transfer the residue to a 300-mL beaker with the aid of 25 mL of hydrochloric acid, and evaporate again to 5 mL. Add 100 mL of water, boil, filter, and wash with water. Heat the combined filtrate and washings to boil, add gradually 30 mL of barium chloride TS, heat the mixture on a water bath for 30 minutes, and filter. Wash the precipitate with water, dry, and ignite to constant mass. Weigh the residue as barium sulfate (BaSO4). Amount (mg) of total sulfur (S) ＝ amount (mg) of barium sulfate (BaSO4) × 0.13739"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

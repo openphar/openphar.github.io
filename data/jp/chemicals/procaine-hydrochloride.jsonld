@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/procaine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Procaine Hydrochloride‌",
+    "ja": "プロカイン塩酸塩"
+  },
+  "monographId": "JP18-procaine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C13H20N2O2.HCl",
+  "molecularWeight": 272.77,
+  "appearance": {
+    "en": "Procaine Hydrochloride occurs as white, crys-tals or crystalline powder. It is very soluble in water, soluble in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Procaine Hydrochloride (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Procaine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Procaine Hydrochloride (1 in 10) re-sponds to Qualitative Tests <1.09> for chloride. pH <2.54> The pH of a solution prepared by dissoluing 1.0 g of Procaine Hydrochloride in 20 mL of water is be-tween 5.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Procaine Hydrochloride in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Procaine Hydrochloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—To 1.0 g of Procaine Hydro-chloride add 5 mL of ethanol (95), dissolve by mixing well, add water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of 4-aminobenzoic acid in ethanol (95) to make exactly 20 mL, then pipet 1 mL of this solution, add 4 mL of ethanol (95) and water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of dibutyl ether, n-hexane and acetic acid (100) (20:4:1) to a distance of about 10 cm, and air-dry the plate. After drying the plate more at 1059C for 10 minutes, examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. The principal spot from the sample solution stays at the origin. Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Procaine Hydro-chloride, previously dried, dissolve in 5 mL of hydrochloric acid and 60 mL of water, add 10 mL of a solution of potas-sium bromide (3 in 10), cool to below 159C, and titrate <2.50> with 0.1 mol/L sodium nitrite VS (potentiometric titration or amperometric titration). Each mL of 0.1 mol/L sodium nitrite VS ＝ 27.28 mg of C13H20N2O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

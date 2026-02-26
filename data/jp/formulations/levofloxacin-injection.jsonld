@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/levofloxacin-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Levofloxacin Injection",
+    "ja": "レボフロキサシン注射液"
+  },
+  "monographId": "JP18-levofloxacin-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Levofloxacin Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Levofloxacin Injection is yellow to greenish yellow, clear liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Levofloxacin Injection, equivalent to 50 mg of levofloxacin (C18H20FN3O4), add diluted 1 mol/L hydrochloric acid TS (3 in 100) to make 50 mL. To 1 mL of this solution add diluted 1 mol/L hydro-chloric acid TS (3 in 100) to make 100 mL. Determine the ab-sorption spectrum of this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 225 nm and 229 nm and between 292 nm and 296 nm, and a shoulder between 321 nm and 331 nm. pH Being specified separately when the drug is granted ap-proval based on the Law. Bacterial endotoxin <4.01> Less than 0.60 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exact volume of Levofloxacin Injection, equivalent to about 50 mg of levofloxacin (C18H20FN3O4), add diluted 1 mol/L hydrochloric acid TS (3 in 100) to make exactly 50 mL. Pipet 5 mL of this solution, add diluted 1 mol/L hydrochloric acid TS (3 in 100) to make exactly 100 mL, and use this solution as the sample solution. Separately, MS: Amount (mg) of levofloxacin for assay taken, calcu-lated on the anhydrous basis Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Purity (2) under Levofloxacin Hydrate. Mobile phase: Dissolve 1.00 g of copper (II) sulfate penta-hydrate, 1.41 g of L-valine and 6.17 g of ammonium acetate in 800 mL of water, and add 200 mL of methanol. Flow rate: Adjust so that the retention time of levofloxa-cin is about 20 minutes. System suitability— System performance: Dissolve 10 mg of ofloxacin in 20 mL of diluted 1 mol/L hydrochloric acid TS (3 in 100). To 1 mL of this solution add diluted 1 mol/L hydrochloric acid TS (3 in 100) to make 20 mL. When the procedure is run with 10 mL of this solution under the above operating condi-tions, levofloxacin and the enantiomer are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of levofloxacin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

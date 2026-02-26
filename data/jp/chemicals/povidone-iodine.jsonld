@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/povidone-iodine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Povidone-Iodine",
+    "ja": "ポビドンヨード"
+  },
+  "monographId": "JP18-povidone-iodine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Povidone-Iodine is a complex of iodine with 1-vinyl- K ＝ ＋ 0.15 ＋ 0.003 c 0.15 c ＋ 0.003 c2 pyrrolidone polymer. c: Mass (g) of Povidone in 100 mL of the solution, calcu-lated on the anhydrous basis It contains not less than 9."
+  },
+  "appearance": {
+    "en": "Povidone-Iodine occurs as a dark red-brown powder. It has a faint, characteristic odor. Nominal K-value calculated on anhydrous basis It is freely soluble in water and in ethanol (99.5). The pH of a solution obtained by dissolving 1.0 g of Povidone-Iodine in 100 mL of water is between 1.5 and 3.5. Not more than 18 5.00 More than 18 and not more than 95 1.00 More than 95 0.10 The K-value is not less than 85z and not more than 115.0z of the nominal K-value when the nominal K-value is not more than 15, and the K-value is not less than 90.0z and not more than 108.0z of the nominal K-value when the nominal K-value is more than 15."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mL of diluted starch TS (1 in 10) add 1 drop of a solution of Povidone-Iodine (1 in 10): a deep blue color develops. (2) To 1 mL of a solution of Povidone-Iodine (1 in 100) add 1 mL of sodium thiosulfate TS, and add 1 mL of ammo-nium thiocyanate-cobalt (II) nitrate TS and 2 drops of 1 mol/L hydrochloric acid TS: a blue color develops, and a blue precipitate is gradually formed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.30 g of Povidone-Iodine in 100 mL of water: the solution is clear and brown. Heavy metals <1.07>—Proceed with 1.0 g of Povidone-Iodine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Povidone-Iodine according to Method 4, and perform the test (not more than 2 ppm). Iodide ion—Weigh accurately about 0.5 g of Povidone-Iodine, dissolve in 100 mL of water, and add sodi-um hydrogensulfite TS until the color of iodine completely disappears. To this solution add exactly 25 mL of 0.1 mol/L silver nitrate VS, shake thoroughly with 10 mL of nitric acid, titrate <2.50> the excess silver nitrate with 0.1 mol/L ammo-nium thiocyanate VS until the solution develops a red-brown color, and calculate the total amount of iodine (indicator: 1 mL of ammonium iron (III) sulfate TS). Perform a blank de-termination in the same manner. Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 12.69 mg of I Obtain the amount of iodide ion, calculated on the dried basis, by deducting the amount (z) of available iodine from the total amount (z) of iodine: not more than 6.6z. Loss on drying <2.41> Not more than 8.0z (1 g, 1009C, 3 hours). Residue on ignition <2.44> Not more than 0.05z (5 g). ‌Assay (1) Available iodine—Weigh accurately about 0.5 g of Povidone-Iodine, dissolve in 30 mL of water, and titrate <2.50> with 0.02 mol/L sodium thiosulfate VS (indica-tor: 2 mL of starch TS). Each mL of 0.02 mol/L sodium thiosulfate VS ＝ 2.538 mg of I (2) Nitrogen—Weigh accurately about 20 mg of Povidone-Iodine, and perform the test as directed under Nitrogen Determination <1.08>."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Povidone, and place in a Kjeldahl flask. Add 5 g of a decomposition ac-celerator (a powdered mixture of 33 g of potassium sulfate, 1 g of copper (II) sulfate pentahydrate and 1 g of titanium (IV) oxide), and wash down any adhering sample from the neck of the flask with a small amount of water. Add 7 mL of sul-furic acid allowing to flow down the inside wall of the flask. Heat the flask gradually over a free flame until the solution has a clear, yellow-green color and the inside wall of the flask is free from a carbonaceous material, and then heat for further 45 minutes. After cooling, add cautiously 20 mL of water, and connect the flask to the distillation apparatus pre-viously washed by passing steam through it. To the absorp-tion flask add 30 mL of a solution of boric acid (1 in 25), 3 drops of bromocresol green-methyl red TS and sufficient water to immerse the lower end of the condenser tube. Add 30 mL of a solution of sodium hydroxide (2 in 5) through the funnel, rinse cautiously the funnel with 10 ml of water, im-mediately close the clamp attached to the rubber tube, then start the distillation with steam to get 80 to 100 mL of the distillate. Remove the absorption flask from the lower end of the condenser tube, rinsing the end part with a small quantity of water, and titrate <2.50> the distillate with 0.025 mol/L sulfuric acid VS until the color of the solution changes from green through pale grayish blue to pale grayish red-purple. Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.025 mol/L sulfuric acid VS ＝ 0.700 mg of N Identification (1) To 10 mL of diluted starch TS (1 in 10) add 1 drop of a solution of Povidone-Iodine (1 in 10): a deep blue color develops. (2) To 1 mL of a solution of Povidone-Iodine (1 in 100) add 1 mL of sodium thiosulfate TS, and add 1 mL of ammo-nium thiocyanate-cobalt (II) nitrate TS and 2 drops of 1 mol/L hydrochloric acid TS: a blue color develops, and a blue precipitate is gradually formed. Purity (1) Clarity and color of solution—Dissolve 0.30 g of Povidone-Iodine in 100 mL of water: the solution is clear and brown. Heavy metals <1.07>—Proceed with 1.0 g of Povidone-Iodine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Povidone-Iodine according to Method 4, and perform the test (not more than 2 ppm). Iodide ion—Weigh accurately about 0.5 g of Povidone-Iodine, dissolve in 100 mL of water, and add sodi-um hydrogensulfite TS until the color of iodine completely disappears. To this solution add exactly 25 mL of 0.1 mol/L silver nitrate VS, shake thoroughly with 10 mL of nitric acid, titrate <2.50> the excess silver nitrate with 0.1 mol/L ammo-nium thiocyanate VS until the solution develops a red-brown color, and calculate the total amount of iodine (indicator: 1 mL of ammonium iron (III) sulfate TS). Perform a blank de-termination in the same manner. Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 12.69 mg of I Obtain the amount of iodide ion, calculated on the dried basis, by deducting the amount (z) of available iodine from the total amount (z) of iodine: not more than 6.6z. Loss on drying <2.41> Not more than 8.0z (1 g, 1009C, 3 hours). Residue on ignition <2.44> Not more than 0.05z (5 g). ‌Assay (1) Available iodine—Weigh accurately about 0.5 g of Povidone-Iodine, dissolve in 30 mL of water, and titrate <2.50> with 0.02 mol/L sodium thiosulfate VS (indica-tor: 2 mL of starch TS). Each mL of 0.02 mol/L sodium thiosulfate VS ＝ 2.538 mg of I (2) Nitrogen—Weigh accurately about 20 mg of Povidone-Iodine, and perform the test as directed under Nitrogen Determination <1.08>."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

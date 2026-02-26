@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-hydrogen-carbonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Hydrogen Carbonate",
+    "ja": "炭酸水素ナトリウム"
+  },
+  "monographId": "JP18-sodium-hydrogen-carbonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sodium Bicarbonate occurs as white, crystals or crystalline powder. It is odorless, and has a characteristic, saline taste. It is soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. It slowly decomposes in moist air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Bicarbonate (1 in 30) responds to Qualitative Tests <1.09> for sodium salt and for bicarbonate. pH <2.54> Dissolve 1.0 g of Sodium Bicarbonate in 20 mL of water: the pH of this solution is between 7.9 and 8.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Bicarbonate in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—To 0.40 g of Sodium Bicarbonate ‌add 4 mL of dilute nitric acid, heat to boil, cool, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.45 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.040z).‌ Carbonate—Dissolve 1.0 g of Sodium Bicarbonate in 20 mL of freshly boiled and cooled water with very gentle swirling at a temperature not exceeding 159C. Add 2.0 mL of 0.1 mol/L hydrochloric acid VS and 2 drops of phenol-phthalein TS: no red color develops immediately. Ammonium—Heat 1.0 g of Sodium Bicarbonate: the gas evolved does not change moistened red litmus paper to blue. Heavy metals <1.07>—Dissolve 4.0 g of Sodium Bi- carbonate in 5 mL of water and 4.5 mL of hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the residue in 2 mL of dilute acetic acid, 35 mL of water and 1 drop of ammonia TS, dilute with water to 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: evaporate 4.5 mL of hydro-chloric acid to dryness, and add 2 mL of dilute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 5 ppm). Arsenic <1.11>—Dissolve 1.0 g of Sodium Bicar- bonate in 3 mL of water and 2 mL of hydrochloric acid, and perform the test using this solution as the test solution (not more than 2 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2 g of Sodium Bicarbonate, dissolve in 25 mL of water, and titrate with 0.5 mol/L sulfu-ric acid VS. When the color of the solution changes from blue to yellow-green, boil with caution, cool, and continue the titration <2.50> until a greenish yellow color develops (in-dicator: 2 drops of bromocresol green TS). Each mL of 0.5 mol/L sulfuric acid VS ＝ 84.01 mg of NaHCO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

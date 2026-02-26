@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/insulin-human-genetical-recombination-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Insulin Human (Genetical Recombination) Injection",
+    "ja": "インスリン ヒト（遺伝子組換え）注射液"
+  },
+  "monographId": "JP18-insulin-human-genetical-recombination-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Insulin Human (Genetical Recombination) Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Insulin Human (Genetical Recombination) In-jection occurs as a clear, colorless liquid, and slightly a fine precipitate may be observable upon storage."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Insulin Human (Genetical Recombination) Injection forms a precipitate when adjusted to pH 5.3 – 5.5 by addition of dilute hydrochloric acid, and the precipitate disappears when adjusted to pH 2.5 – 3.5 by further addition of the acid. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Desamido substance—Perform the test with 20 mL of the sample solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method, and calculate their amounts by the area percentage method: the amount of the peak, having the relative retention time of about 1.3 to human insulin, is not more than 1.5z. Operating conditions— Proceed as directed in the operating conditions in the Assay under Insulin Human (Genetical Recombination). System suitability— System performance: Proceed as directed in the system suitability in the Assay under Insulin Human (Genetical Recombination). Test for required detectability: Pipet 1 mL of the sample solution, and add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. Confirm that the peak area of human insulin obtained with 20 mL of this solution is equivalent to 1.4 to 2.6z of that with 20 mL of the sample solution. System repeatability: Dissolve Insulin Human RS in 0.01 mol/L hydrochloric acid TS so that each mL contains about 4 Insulin Units. When the test is repeated 6 times with 20 mL of this solution under the above operating conditions, the relative standard deviation of the peak area of human insulin is not more than 2.0z. (2) High-molecular mass proteins—For each mL of Insu-lin Human (Genetical Recombination) Injection add 4 mL of 6 mol/L hydrochloric acid TS, and use this solution as the sample solution. Perform the test with 100 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amount of them by the area percentage method: the total amount of the peaks other than human insulin is not more than 2.0z. Operating conditions— Detector, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (2) under Insulin Human (Genetical Recombination). Column: A stainless steel column 7.8 mm in inside diame-ter and 30 cm in length, packed with hydrophilic silica gel for liquid chromatography. Time span of measurement: From the retention time cor-responding to the exclusion volume of the size-exclusion column to the completion of the elution of human insulin. System suitability— System performance: Proceed as directed in the system suitability in the Purity (2) under Insulin Human (Genetical Recombination). Test for required detectability: Pipet 1 mL of the sample solution, and add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. Confirm that the peak area of human insulin obtained with 100 mL of this solution is equivalent to 1.4 to 2.6z of that with 100 mL of the sample solution. Bacterial endotoxins <4.01> Less than 0.80 EU/Insulin Unit. Apply to the preparations intended for intravenous administration. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. ‌Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Zinc content To an exact volume of Insulin Human (Genetical Recombination) Injection, equivalent to 300 Insu-lin Units, add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. If necessary, further dilute with 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Separately, take exactly a suitable amount of Standard Zinc Solution for Atomic Absorption Spectrophotometry, dilute with 0.01 mol/L hy-drochloric acid TS to make three solutions containing 0.20 mg, 0.60 mg and 1.20 mg of zinc (Zn: 65.38) in each mL, re-spectively, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solu-tions as directed under Atomic Absorption Spectrophotome-try <2.23> according to the following conditions, using the 0.01 mol/L hydrochloric acid TS as the blank, and calculate the amount of zinc in the sample solution by using a calibra-tion curve obtained from the absorbances of the standard so-lutions: 10 – 40 mg of zinc (Zn: 65.38) per 100 Insulin Units. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Zinc hollow cathode lamp. Wavelength: 213.9 nm."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To exactly 10 mL of Insulin Human (Genetical Recombination) Injection add exactly 40 mL of 6 mol/L hy-drochloric acid TS. Pipet 2 mL of this solution, add 0.01 mol/L hydrochloric acid TS to make exactly 5 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay under Insulin Human (Genetical Recom-bination). Amount (Insulin Unit) of human insulin (C257H383N65O77S6) in 1 mL ＝ MS × F/D × (AT1＋ATD)/(AS1＋ASD) × 1.004 × 5/2 MS: Amount (mg) of Insulin Human RS taken F: Labeled unit (Insulin Unit/mg) of Insulin Human RS D: Volume (mL) of 0.01 mol/L hydrochloric acid TS used to dissolve Insulin Human RS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

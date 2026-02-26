@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/norgestrel",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Norgestrel",
+    "ja": "ノルゲストレル"
+  },
+  "monographId": "JP18-norgestrel",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H28O2",
+  "molecularWeight": 312.45,
+  "casNumber": "6533-00-2",
+  "definition": {
+    "en": "Norgestrel, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Norgestrel occurs as white, crystals or crystal-line powder. It is soluble in tetrahydrofuran and in chloroform, spar-ingly soluble in ethanol (95), slightly soluble in diethyl ether, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Norgestrel in 2 mL of ethanol (95), and add 1 mL of sulfuric acid: a red-purple color develops. With this solution, examine under ultraviolet light (main wavelength: 365 nm): the solution shows a red-orange fluorescence. (2) Determine the infrared absorption spectrum of Nor-gestrel, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Take 1.0 g of Norges-trel, heat gently to carbonize, cool, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and ignite the ethanol to burn. After cooling, add 1 mL of sulfuric acid, proceed with this solution according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 30 mg of Norgestrel in 5 mL of chloroform, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, add chloroform to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of dichloromethane and ethyl acetate (2:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wave-length: 254 nm): the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Norgestrel, previ- ‌ously dried, dissolve in 40 mL of tetrahydrofuran, add 10 mL of a solution of silver nitrate (1 in 20), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titra-tion). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS quantities of Norgestrel RS and of Ethinylestradiol RS, equivalent to 100 times each of the labeled amounts, dissolve in diluted methanol (7 in 10) to make exactly 200 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal stand-ard solution, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and ＝ 31.25 mg of C 21H 28O2 standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Calculate the"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

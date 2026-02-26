@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/irsogladine-maleate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Irsogladine Maleate Tablets",
+    "ja": "イルソグラジンマレイン酸塩錠"
+  },
+  "monographId": "JP18-irsogladine-maleate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Irsogladine Maleate Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of irsogladine maleate (C H Cl N .C H O : MS: Amount (mg) of irsogladine maleate for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Irsogladine Maleate Tablets is not less than 80z. Start the test with 1 tablet of Irsogladine Maleate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 2."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Irsogladine Male-ate Tablets, equivalent 2 mg of Irsogladine Maleate, add 5 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 2 mg of irsogladine maleate in 5 mL of methanol, and use this solution as the standard solution. Perform the <2.24>, using water as the blank, and determine the absor-bances, AT and AS, at 210 nm. Dissolution rate (z) with respect to the labeled amount of irsogladine maleate (C9H7Cl2N5.C4H4O4) ＝ MS × AT/AS × V?/V × 1/C × 9 MS: Amount (mg) of irsogladine maleate for assay taken C: Labeled amount (mg) of irsogladine maleate (C9H7Cl2N5.C4H4O4) in 1 tablet ‌JP XVIII Official Monographs / Isepamicin Sulfate 1193"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Irso-gladine Maleate Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 5 mg of irsogla-dine maleate (C9H7Cl2N5.C4H4O4), add exactly 5 mL of the internal standard solution, shake until it is dispersed, and add 5 mL of water. To this solution add 25 mL of ethylene glycol, sonicate for 10 minutes with occasional shaking, and add ethylene glycol to make 50 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.5 mm, discard the first 10 mL of the filtrate, and use the subse-quent filtrate as the sample solution. Separately, weigh accu-rately about 25 mg of irsogladine maleate for assay, previ-ously dried at 1059C for 4 hours, and dissolve in ethylene glycol to make exactly 25 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, add 5 mL of water and ethylene glycol to make 50 mL, and use this so-lution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of irsogladine to that of the internal standard. Amount (mg) of irsogladine maleate (C H Cl N .C H O ) Isepamicin Sulfate"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

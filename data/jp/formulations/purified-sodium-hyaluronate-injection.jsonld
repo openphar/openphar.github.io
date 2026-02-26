@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/purified-sodium-hyaluronate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Purified Sodium Hyaluronate Injection",
+    "ja": "精製ヒアルロン酸ナトリウム注射液"
+  },
+  "monographId": "JP18-purified-sodium-hyaluronate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Purified Sodium Hyaluronate Injection is an aque-ous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Purified Sodium Hyaluronate Injection occurs as a clear, colorless, and viscous liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Purified So-dium Hyaluronate Injection (1 in 10) add 6 mL of sulfuric acid, and heat in a water bath for 10 minutes. After cooling, add 0.2 mL of carbazole TS, and allow to stand at room temperature: a red to red-purple color develops. To 1 mL of a solution of Purified Sodium Hyaluronate Injection (1 in 10) add 0.2 mL of 1 mol/L acetic acid-sodium acetate buffer solution (pH 6.0) and 5 units of hyaluronidase, and allow to stand at 509C for 1 hour. To this solution add 1 mL of a solution of dipotassium tetraborate tetrahydrate (1 in 20), heat in a water bath for Average molecular mass ＝ 0.78 7 minutes. After cooling, add 6 mL of acetic acid (100) and In the case of the labeled average molecular mass of between 1,500,000 and 3,900,000. Calculate the average molecular mass of Purified Sodium Hyaluronate according to the following equation: it is be-tween 1,500,000 and 3,900,000. For [h], use the maximum viscosity under Viscosity. Ø[h] × 105 »   1    2.4 mL of 4-dimethylaminobenzaldehyde-hydrochloric acid-acetic acid TS, and allow to stand at room temperature: a yellowish red to red color develops. To 1 mL of a solution of Purified Sodium Hyaluronate Injection (1 in 10) add 2 to 3 drops of a solution of cetylpyridinium chloride monohydrate (1 in 20): a white precipitate is formed. Average molecular mass ＝ 22.8 0.816 Viscosity <2.53> Apply to the preparation which labeled average mo- ‌lecular mass of sodium hyaluronate is 600,000 to 1,200,000. Weigh accurately an amount of Purified Sodium Hyaluronate Injection, equivalent to about 10 mg of Puri-fied Sodium Hyaluronate, add 0.2 mol/L sodium chloride TS to make exactly 20 mL, and use this solution as the sam-ple solution. Perform the test with the sample solution at 30 ± 0.19C according to Method 1, using an Ubbelohde-type"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Purified Sodium Hyaluronate Injection, equivalent to about 10 mg of Puri-fied Sodium Hyaluronate, and add 0.2 mol/L sodium chlo-ride TS to make exactly 20 mL. Pipet 1 mL of this solution, add water to make exactly 10 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay under Purified Sodium Hyaluronate. viscometer showing the downflowing time of 0.2 mol/L so- dium chloride TS is between 200 and 300 seconds. Calculate Content (mg) of sodium hyaluronate [(C14H20 NNaO11)n] the intrinsic viscosity [h] according to the following equa-tion, where c is the content obtained in the Assay expressed as the concentration (g/dL): 11.8 – 19.5 dL/g. per mL of Purified Sodium Hyaluronate Injection ＝ MS/MT × AT/AS × 1/5 × r × 2.279 MS: Amount (mg) of D-Glucuronolactone RS taken [h] ＝ 2(hsp － ln h rel)/c × 0.87 ＋ 1.33 MT: Amount (g) of Purified Sodium Hyaluronate Injec-tion taken hsp (specific viscosity) ＝ hrel － 1 hrel (relative viscosity) ＝ t/t0 Apply to the preparation which labeled average molecular mass of sodium hyaluronate is 1,500,000 to 2,000,000. Weigh accurately an amount of Purified Sodium Hyaluronate Injection, equivalent to about 4 mg of Purified Sodium Hyaluronate, add 0.2 mol/L sodium chloride TS to make exactly 20 mL, and use this solution as the sample solution. Perform the test with the sample solution at 30 ± 0.19C according to Method 1, using an Ubbelohde-type vis-cometer showing the downflowing time of 0.2 mol/L sodium chloride TS is between 200 and 300 seconds. Calculate the intrinsic viscosity [h] according to the following equation: 24.5 – 31.5 dL/g. r: Density (g/mL) of Purified Sodium Hyaluronate Injec-tion measured as directed under Determination of Specific Gravity and Density <2.56>"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

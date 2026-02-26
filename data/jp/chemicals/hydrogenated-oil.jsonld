@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrogenated-oil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrogenated Oil",
+    "ja": "硬化油"
+  },
+  "monographId": "JP18-hydrogenated-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Hydrogenated Oil occurs as a white mass or powder and has a characteristic odor and a mild taste. It is freely soluble in diethyl ether, very slightly soluble in ethanol (95), and practically insoluble in water. The oil obtained by hydrogenation of castor oil is slightly soluble in diethyl ether, very slightly soluble in ethanol (95), and practically insoluble in water. Acid value <1.13> Not more than 2.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Moisture and coloration—Hydrogenated Oil (5.0 g), melted by heating on a water bath, forms a clear liq-uid, from which no water separates. In a 10-mm thick layer of the liquid, it is colorless or slightly yellow. Alkalinity—To 2.0 g of Hydrogenated Oil add 10 mL of water, melt by heating on a water bath, and shake vigor-ously. After cooling, add 1 drop of phenolphthalein TS to the separated water layer: no color develops. Chloride—To 1.5 g of Hydrogenated Oil add 30 mL of ethanol (95), boil for 10 minutes under a reflux con-denser, and filter after cooling. To 20 mL of the filtrate add 5 drops of a solution of silver nitrate in ethanol (95) (1 in 50): the turbidity of the solution does not exceed that of the following control solution. Control solution: To 1.0 mL of 0.01 mol/L hydrochloric acid VS add ethanol (95) to make 20 mL, then add 5 drops of a solution of silver nitrate in ethanol (95) (1 in 50). Heavy metals—Heat 2.0 g of Hydrogenated Oil with 5 mL of dilute hydrochloric acid and 10 mL of water on a water bath for 5 minutes with occasional shaking. After cooling, filter, and make 5 mL of the filtrate weakly alkaline with ammonia TS, then add 3 drops of sodium sulfide TS: the solution remains unchanged. Nickel—Place 5.0 g of Hydrogenated Oil in a quartz or porcelain crucible, heat slightly with caution at the begin-ning, and, after carbonization, incinerate by strong heating (500 ± 209C). Cool, add 1 mL of hydrochloric acid, evapo-rate on a water bath to dryness, dissolve the residue in 3 mL of dilute hydrochloric acid, and add 7 mL of water. Then add 1 mL of bromine TS and 1 mL of a solution of citric acid monohydrate (1 in 5), make alkaline with 5 mL of am-monia TS, and cool in running water. To this solution add 1 mL of dimethylglyoxime TS, add water to make 20 mL, and use this solution as the test solution. Allow to stand for 5 minutes: the solution has no more color than the following control solution. Control solution: Evaporate 1 mL of hydrochloric acid on a water bath to dryness, add 1 mL of Standard Nickel Solu-tion and 3 mL of dilute hydrochloric acid, and add 6 mL of water. Then proceed as directed in the test solution, add water to make 20 mL, and allow to stand for 5 minutes. Residue on ignition <2.44> Not more than 0.1z (5 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

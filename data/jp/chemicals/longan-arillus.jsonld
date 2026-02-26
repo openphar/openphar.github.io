@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/longan-arillus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Longan Arillus",
+    "ja": "リュウガンニク"
+  },
+  "monographId": "JP18-longan-arillus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Depressed ellipsoidal aril, 1 – 2 cm in length, about 1 cm in width; yellow-red-brown to black-brown; soft in texture and mucous; when immersed in water, bell-shaped, with the tip split in several parts. Odor, characteristic; taste, sweet. Under a microscope <5.01>, a transverse section reveals the outmost layer composed of an epidermis, beneath this ob-served parenchyma consisting of depressed parenchyma cells; the innermost layer composed of slightly thick-walled epidermis; parenchyma contains red-brown to brown con-tents as well as solitary crystals, amorphous crystals and sand crystals of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of coarse cuttings of Longan Aril, add 10 mL of water, shake thoroughly, and filter. To 3 mL of the filtrate, add 3 mL of Fehling solution, and heat on a water bath: a red precipitate is produced. Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: Not less than 75.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

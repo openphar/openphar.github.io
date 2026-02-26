@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/xylitol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Xylitol Injection‌‌",
+    "ja": "キシリトール注射液"
+  },
+  "monographId": "JP18-xylitol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Xylitol Injection is a clear, colorless liquid. It has a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Xylitol Injection, equivalent to 0.1 g of Xylitol, add water to make 10 mL, and use this solution as the sample solution. Separately, dissolve 0.1 g of xylitol in 10 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethanol (95), ammonia solution (28) and water (25:4:3) to a distance of about 10 cm, and air-dry the plate. Spray evenly silver nitrate-ammonia TS, and dry the plate at 1059C for 15 minutes: the spots from the sample solution and standard solution show a black-brown color and the same Rf value. pH <2.54> 4.5 – 7.5 Bacterial endotoxins <4.01> Less than 0.50 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Xylitol Injection, equivalent to about 5 g of xylitol (C5H12O5), and add water to make exactly 250 mL. Measure exactly 10 mL of this solu-tion, and add water to make exactly 100 mL. Then, pipet 10 mL of this solution into an iodine flask, and proceed as di-rected in the Assay under Xylitol. Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 1.902 mg of C5H12O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

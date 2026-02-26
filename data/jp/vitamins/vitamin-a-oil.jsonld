@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-a-oil",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin A Oil",
+    "ja": "ビタミン A 油"
+  },
+  "monographId": "JP18-vitamin-a-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Vitamin A Oil is synthetic vitamin A esters diluted with fixed oils. It contains not less than 30,000 vitamin A Units per g."
+  },
+  "appearance": {
+    "en": "Vitamin A Oil is a yellow to yellow-brown, clear or slightly turbid oil. It is odorless or has a faint, char-acteristic odor. It is decomposed upon exposure to air or light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve Vitamin A Oil, Retinol Acetate RS and Retinol Palmitate RS, equivalent to 15,000 Units, in 5 mL of petroleum ether, and use these solutions as the sample solution, the standard solution (1) and the standard solution (2), respectively. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop with a mixture of cyclohexane and diethyl ether (12:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly antimony (III) chloride TS: the principal spot ‌obtained from the sample solution has the same color tone and the same Rf value with the blue spot from the standard solution (1) or the standard solution (2)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 1.2 g of Vitamin A Oil in 30 mL of a mixture of neutralized ethanol and diethyl ether (1:1), boil gently for 10 minutes under a reflux condenser, cool, and add 5 drops of phenolphthalein TS and 0.60 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. (2) Rancidity—No unpleasant odor of rancid oil is per-ceptible by warming Vitamin A Oil."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in Method 1-1 under Vitamin A Assay <2.55>."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and almost well-filled, or under"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefoperazone-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefoperazone Sodium for Injection",
+    "ja": "注射用セフォペラゾンナトリウム"
+  },
+  "monographId": "JP18-cefoperazone-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefoperazone Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Cefoperazone Sodium for Injection occurs as a white to yellowish white, crystalline powder or masses."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of a so-lution of Cefoperazone Sodium for Injection (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 226 nm and 230 nm, and between 263 nm and 267 nm. pH <2.54> The pH of a solution prepared by dissolving an amount of Cefoperazone Sodium for Injection, equivalent to 1.0 g (potency) of Cefoperazone Sodium, in 4 mL of water is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve an amount of Cefoperazone Sodium for Injection, equivalent to 1.0 g (potency) of Cefoperazone Sodium, in 10 mL of water: the solution is clear, and its absorbance at 400 nm, determined as directed under Ultraviolet-visible Spectropho-tometry <2.24>, is not more than 0.22. (2) Related substances—Dissolve an amount of Cefo-perazone Sodium for Injection, equivalent to 0.1 g (potency) of Cefoperazone Sodium, in 100 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add water to make exactly 50 mL, and use this solu-tion as the standard solution. Perform the test with exactly 25 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the peak area of related substance I, having the relative retention time of about 0.8 to cefoperazone, obtained from the sample solution is not larger than 2.5 times the peak area of cefoperazone from the standard solution, the peak area of related substance II, hav-ing the relative retention time of about 1.7, from the sample solution is not larger than 3/4 times the peak area of cefoperazone from the standard solution. Furthermore, the total area of the peaks other than cefoperazone from the sample solution is not larger than 3.5 times the peak area of cefoperazone from the standard solution. For the peak areas of the related substances I and II, multiply their correction factors, 0.90 and 0.75, respectively. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay under Cefoperazone Sodium. Time span of measurement: About 3 times as long as the retention time of cefoperazone, beginning after the solvent peak. System suitability— Proceed as directed in the system suitability in the Purity (4) under Cefoperazone Sodium. Water <2.48> Not more than 1.0z (3 g, volumetric titra-tion, direct titration). Bacterial endotoxins <4.01> Less than 0.05 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 Cefoperazone Sodium for Injection. Weigh accu-rately a portion of the content, equivalent to about 0.1 g (po-tency) of Cefoperazone Sodium, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add ex-actly 5 mL of the internal standard solution, and use this so-lution as the sample solution. Then, proceed as directed in the Assay under Cefoperazone Sodium. Amount [mg (potency)] of cefoperazone (C25H27N9O8S2) ＝ MS × QT/QS × 5 MS: Amount [mg (potency)] of Cefoperazone RS taken Internal standard solution—A solution of acetanilide in a mixture of water and acetonitrile (43:7) (3 in 8000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—In a cold place."
+  },
+  "dosageForm": "Injection"
+}

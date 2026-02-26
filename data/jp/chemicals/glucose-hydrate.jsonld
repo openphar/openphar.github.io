@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glucose-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glucose Hydrate",
+    "ja": "ブドウ糖水和物"
+  },
+  "monographId": "JP18-glucose-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12O6.H2O",
+  "molecularWeight": 198.17,
+  "casNumber": "77938-63-7",
+  "appearance": {
+    "en": "Glucose Hydrate occurs as white, crystals or crystalline powder, and has a sweet taste. It is freely soluble in water, sparingly soluble in methanol, and slightly soluble in ethanol (95).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "◇(1) Add 2 to 3 drops of a solution of Glu-cose Hydrate (1 in 20) to 5 mL of boiling Fehling's TS: a red precipitate is produced.◇ Perform the test with 20 mL each of the sample solu-tion and standard solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions: the principal peak in the chromatogram obtained from the sample solution is similar in retention time and size to the principal peak in the chromatogram from the standard solution. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— Proceed as directed in the system suitability in the Assay."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 10.0 g of Glucose Hydrate in 15 mL of water, and use this solution as the test solution. Perform the test with the test solution as directed under Turbidity Measurement <2.61>: the solution is clear. Perform the test with the test solution according to Method 2 under Methods for Color Matching <2.65>: the so-lution is not more colored than Matching Fluid BY7. (2) Heavy metals <1.07>—Proceed with 5.0 g of Glu-cose Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 4 ppm).◆ Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 250 mL, and use this solution as the standard solution (1). Pipet 25 mL of the standard solution (1), add water to make exactly 200 mL, and use this solution as the standard solution (2). Perform the test with exactly 20 mL each of the sample solution, the standard solution (1) and the standard solution (2) as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the total area of the peaks of maltose and isomaltose, having the relative retention time of about 0.8 to glucose, obtained from the sample solution, is not larger than the peak area of glucose from the standard solution (1) (not more than 0.4z), and the peak area of mal-totriose, having the relative retention time of about 0.7 from the sample solution, is not larger than 1/2 times the peak area of glucose from the standard solution (1) (not more than 0.2z), and the peak area of fructose, having the rela-tive retention time of about 1.3 from the sample solution, is not larger than 3 times the peak area of glucose from the standard solution (2) (not more than 0.15z), and the area of the peak other than glucose and the peaks mentioned above from the sample solution is not larger than 2 times the peak area of glucose from the standard solution (2) (not more than 0.10z). Furthermore, the total area of the peaks other than glucose from the sample solution is not larger than 1.25 times the peak area of glucose from the standard solution (1) (not more than 0.5z). For these calculations the peak areas not larger than the peak area of glucose from the standard solution (2) are excluded (disregard limit: 0.05z). Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.5 times as long as the retention time of glucose. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Confirm that the peak area of glucose obtained with 20 mL of the standard solution (2) is equivalent to 8.8 to 16.3z of that with 20 mL of the standard solution (1). System repeatability: When the test is repeated 6 times with 20 mL of the standard solution (1) under the above op-erating conditions, the relative standard deviation of the peak area of glucose is not more than 1.0z.◇ Dextrin—To 1.0 g of powdered Glucose Hydrate add 20 mL of ethanol (95), and boil under a reflux condenser: the solution is clear. Soluble starch and sulfite—To 7.4 g of Glucose Hy-drate add 15 mL of water, dissolve by heating on a water bath, cool, and add 25 mL of 0.05 mol/L iodine VS: a yellow color develops (not more than 15 ppm as SO3). ‌JP XVIII Official Monographs / Purified Glucose 1075 Conductivity <2.51> Dissolve 20.0 g of Glucose Hydrate in a fleshly boiled and cooled distilled water to make 100 mL, and use this solution as the sample solution. Measure the conductivity of the sample solution at 25 ± 0.19C while gently stirring with a magnetic stirrer: not more than 20 mS･ cm－1. Water <2.48> 7.5 – 9.5z (0.25 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.33 g of Glucose Hydrate and 0.3 g of ◆Glucose RS◆ (separately determine the water <2.48> in the same manner as Purified Glucose), dissolve separately in water to make exactly 10 mL, and use these so-lutions as the sample solution and the standard solution, re-spectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of glucose in each solution. Purified Glucose"
+      }
+    }
+  ]
+}

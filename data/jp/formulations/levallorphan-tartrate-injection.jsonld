@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/levallorphan-tartrate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Levallorphan Tartrate Injection",
+    "ja": "レバロルファン酒石酸塩注射液"
+  },
+  "monographId": "JP18-levallorphan-tartrate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Levallorphan Tartrate Injection is an aqueous injec-tion. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Levallorphan Tartrate Injection is a clear, col-orless liquid. pH: 3.0 – 4.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take an exact volume of Levallorphan Tar-trate Injection, equivalent to 3 mg of Levallorphan Tartrate, add 5 mL of water and 2 drops of dilute hydrochloric acid, and wash with five 15-mL portions of diethyl ether by a vigorous shaking. Take the water layer, evaporate the diethyl ether remained by warming on a water bath, and after cool-ing, add 0.01 mol/L hydrochloric acid TS to make 50 mL. Determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it ‌JP XVIII Official Monographs / Levodopa 1255 exhibits a maximum between 277 nm and 281 nm. Bacterial endotoxins <4.01> Less than 150 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take exactly a volume of Levallorphan Tartrate In-jection, equivalent to about 2 mg of levallorphan tartrate (C19H25NO.C4H6O6), add exactly 10 mL of the internal standard solution, and use this solution as the sample solu-tion. Separately, weigh accurately about 0.1 g of levallor-phan tartrate for assay, previously dried at 809C for 4 hours on phosphorus (V) oxide under reduced pressure, and dis-solve in water to make exactly 100 mL. Pipet 2 mL of this solution, add exactly 10 mL of the internal standard solu-tion, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of levallorphan to that of the internal standard: Amount (mg) of levallorphan tartrate (C19H25NO.C4H6O6) ＝ MS × QT/QS × 1/50 MS: Amount (mg) of levallorphan tartrate for assay taken Internal standard solution—Dissolve 0.04 g of isobutyl par-ahydroxybenzoate in 10 mL of ethanol (95), add water to make 100 mL, and to 10 mL of this solution add water to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.0 g of sodium lauryl sulfate in 500 mL of diluted phosphoric acid (1 in 1000), and adjust the pH to 3.0 with sodium hydroxide TS. To 300 mL of this solution add 200 mL of acetonitrile. Flow rate: Adjust so that the retention time of levallor-phan is about 12 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and levallorphan are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of levallorphan to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

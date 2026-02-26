@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/fosfomycin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Fosfomycin Sodium",
+    "ja": "ホスホマイシンナトリウム"
+  },
+  "monographId": "JP18-fosfomycin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Fosfomycin Sodium is the sodium salt of a sub-stance having antibacterial activity produced by the growth of Streptomyces fradiae or by the chemical synthesis. It contains not less than 725 mg (potency) and not more than 770 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Fosfomycin Sodium occurs as a white crystal-line powder. It is very soluble in water, sparingly soluble in methanol, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Fosfomycin Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Fosfo-mycin Sodium in heavy water for nuclear magnetic reso-nance spectroscopy (1 in 300), using sodium 3-trimethylsilyl-propanesulfonate for nuclear magnetic resonance spectros-copy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits a double signal at around d 1.5 ppm, a duple double signal at around d 2.8 ppm, a multiple signal at around d 3.3 ppm, and no signal at around d 1.3 ppm. A solution of Fosfomycin Sodium (1 in 500) responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: －3.5 – －5.59(0.5 g calcu-lated on the anhydrous bases, water, 10 mL, 100 mm). pH <2.54> Dissolve 0.70 g of Fosfomycin Sodium in 10 mL of water: the pH of the solution is between 8.5 and 10.5. Phosphorus Content Weigh accurately about 0.1 g of Fos-fomycin Sodium, add 40 mL of a solution of sodium perio-date (107 in 10,000) and 2 mL of perchloric acid, and heat in a water bath for 1 hour. After cooling, add water to make exactly 200 mL. Pipet 10 mL of this solution, and add 1 mL of potassium iodide TS. To this solution add sodium thiosul-fate TS until the solution is colorless, add water to make exactly 100 mL, and use this solution as the sample stock so-lution. Separately, weigh accurately about 70 mg of potas-sium dihydrogen phosphate, proceed with this solution in the same manner as directed for the preparation of the sample stock solution, and use the solution so obtained as the stand-ard stock solution. Proceed and prepare a solution in the same manner for the preparation of the sample stock solu-tion without using Fosfomycin Sodium, and use the solution so obtained as the blank stock solution. Pipet 5 mL each of the sample stock solution, the standard stock solution, and the blank stock solution, add 2.5 mL of ammonium molyb- date-sulfuric acid TS and 1 mL of 1-amino-2-naphthol-4-sul-fonic acid TS, mix, and add water to make exactly 25 mL, and use these solutions as the sample solution, the standard solution, and the blank solution, respectively. After allowing these solutions to stand for 30 minutes at 20 ± 19C, perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as a blank, and determine the absorbances at 740 nm, AT, AS and AB, of the sample solution, the standard solution and the blank solution: the content of phosphorus is 16.2 – 17.9z. Amount (mg) of phosphorus (P) ＝ M × (AT － AB)/(AS － AB) × 0.228 M: Amount (mg) of potassium dihydrogen phosphate taken"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Fosfomycin Sodium in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Fosfo- mycin Sodium according to Method 1, and perform the test. Prepare the control solution with 2.0 mL Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Fosfomycin Sodium according to Method 3, and perform the test (not more than 2 ppm). Glycol substance—Weigh accurately about 0.2 g of Fosfomycin Sodium, and dissolve in 100 mL of water in a 250-mL iodine flask. Add exactly 50 mL of phthalate buffer solution (pH 5.8) and exactly 5 mL of sodium periodate so-lution (107 in 100,000), stopper, stir, and add 1 mL of water in the receiving part. Allow to stand in a dark place for 90 minutes, add exactly 10 mL of a solution of potassium iodide (2 in 5) without haste, and titrate <2.50> with 0.01 mol/L sodium thiosulfate VS (indicator: 2 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction: amount of glycol substance (C3H7Na2O5P) is not more than 0.5z. Each mL of 0.01 mol/L sodium thiosulfate VS ＝ 0.5001 mg of C3H7Na2O5P Water <2.48> Not more than 3.0z (0.2 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Proteus sp. (MB838) Culture medium—Mix 5.0 g of peptone, 3.0 g of meat extract, 2.0 g of yeast extract, and 15 g of agar in 1000 mL of water, sterilize, and use as the agar media for base layer and seed layer with the pH of between 6.5 and 6.6 after sterilization. Seeded agar layer—Incubate the test organism on the slant of the agar medium for transferring test organisms at 379C for 40 – 48 hours. Subcultures at least 3 times. Inoculate the grown organisms onto the surface of 300 mL of the agar medium for transferring test organisms in a Roux bottle, incubate at 379C for 40 – 48 hours, and suspend the grown organisms in about 30 mL of water. To the suspen-sion add water, and use this as the stock suspension of test organism. The amount of the water to be added is adjust so that the percent transmission at 560 nm of the suspension diluted ten times with water is 17z. Keep the stock suspen-sion at 109C or below and use within 7 days. Add 1.0 – 2.0 mL of the stock suspension of test organism to 100 mL of the agar medium for seed layer previously kept at 489C, mix thoroughly, and use this as the deeded agar layer. ‌1044 Standard solutions—Weigh accurately an amount of Fosfomycin Phenethylammonium RS equivalent to about 20 mg (potency), dissolve in 0.05 mol/L tris buffer solution (pH 7.0) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 7 days. Take exactly a suitable amount of the standard stock solution before use, add 0.05 mol/L tris buffer solution (pH 7.0) to make solutions so that each mL contains 10 mg (potency) and 5 mg (potency), and use these solutions as the high concentration standard solu-tion and the low concentration standard solution, respec-tively. Sample solutions—Weigh accurately an amount of Fosfomycin Sodium equivalent to about 20 mg (potency), and dissolve in 0.05 mol/L tris buffer solution (pH 7.0) to make exactly 50 mL. To exactly a suitable amount of this solution add 0.05 mol/L tris buffer solution (pH 7.0) to make solutions so that each mL contains 10 mg (potency) and 5 mg (potency), and use these solutions as the high concentra-tion sample solution and the low concentration sample solu-tion, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

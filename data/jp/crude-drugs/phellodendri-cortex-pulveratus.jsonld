@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/phellodendri-cortex-pulveratus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Phellodendri Cortex Pulveratus",
+    "ja": "オウバク末"
+  },
+  "monographId": "JP18-phellodendri-cortex-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Phellodendron Bark occurs as a bright yellow to yellow powder. It has a slight odor and an extremely bitter taste, is mucilaginous, and colors the saliva yellow on chewing. Under a microscope <5.01>, Powdered Phellodendron Bark reveals fragments of yellow, thick-walled fiber bundles or fibers, and fibers often accompanied by crystal cell rows; fewer groups of stone cells together with idioblasts; frag-ments of parenchyma cells containing starch grains and oil droplets; fragments of medullary ray and phloem; mucilage cells and mucilage masses. Numerous solitary crystals of cal-cium oxalate, 7 – 20 mm in diameter; starch grains, simple grains and 2- to 4-compound grains, simple grain, 2 – 6 mm in diameter; oil droplets, stained red with sudan III TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 g of Powdered Phellodendron Bark add 10 mL of diethyl ether, allow to stand for 10 minutes with occasional shaking, and filter to remove the diethyl ether. Collect the powder on the filter paper, add 10 mL of ethanol (95), allow to stand for 10 minutes with occa-sional shaking, and filter. To 2 to 3 drops of the filtrate add 1 mL of hydrochloric acid, add 1 to 2 drops of hydrogen peroxide TS, and shake: a red-purple color develops. Use the filtrate obtained in (1) as the sample solution. Separately, dissolve 1 mg of Berberine Chloride RS or ber-berine chloride hydrate for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the sever-al spots obtained from the sample solution and a spot with yellow to yellow-green fluorescence from the standard solu-tion show the same color tone and the same Rf value. Stir up Powdered Phellodendron Bark with water: the solution becomes gelatinous owing to mucilage. ‌2098‌ Compound Phellodendron Powder for Cataplasm / Crude Drugs and Related Drugs"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Curcuma—Place Powdered Phellodendron Bark on filter paper, drop diethyl ether on it, and allow to stand. Take the powder off the filter paper, and drip 1 drop of po-tassium hydroxide TS: no red-purple color develops. Under a microscope <5.01>, Powdered Phellodendron Bark does not contain gelatinized starch or secretory cells containing yellow-red resin. Loss on drying <5.01> Not more than 11.0z (6 hours). Total ash <5.01> Not more than 7.5z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Powdered Phel-lodendron Bark, add 30 mL of a mixture of methanol and dilute hydrochloric acid (100:1), heat under a reflux con-denser for 30 minutes, cool, and filter. Repeat the above procedure twice with the residue, using 30-mL and 20-mL portions of a mixture of methanol and dilute hydrochloric acid (100:1). To obtained residue add 10 mL of methanol, shake well, and filter. Combine the whole filtrates, add methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Berberine Chloride RS (separately determine the water <2.48> in the same manner as Berberine Chloride Hydrate), dissolve in methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of berberine in each solution. Amount (mg) of berberine [as berberine chloride (C20H18ClNO4)] ＝ MS × AT/AS MS: Amount (mg) of Berberine Chloride RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 345 nm). Column: A stainless steel column 4 to 6 mm in inside di-ameter and 15 to 25 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.4 g of potassium dihydrogen-phosphate and 1.7 g of sodium lauryl sulfate in 1000 mL of a mixture of water and acetonitrile (1:1). Flow rate: Adjust so that the retention time of berberine is about 10 minutes. System suitability－ System performance: Dissolve 1 mg each of Berberine Chloride RS and palmatine chloride in methanol to make 10 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, palmatine and berber-ine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of berberine is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

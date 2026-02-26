@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/doxorubicin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Doxorubicin Hydrochloride",
+    "ja": "ドキソルビシン塩酸塩"
+  },
+  "monographId": "JP18-doxorubicin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H29NO11.HCl",
+  "molecularWeight": 579.98,
+  "casNumber": "25316-40-9",
+  "definition": {
+    "en": "Doxorubicin Hydrochloride is the hydrochloride of a derivative of daunorubicin. It contains not less than 980 mg (potency) and not more than 1080 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Doxorubicin Hydrochloride occurs as a red-orange crystalline powder. It is sparingly soluble in water, slightly soluble in metha-nol, very slightly soluble in ethanol (99.5), and practically in-soluble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Doxorubicin Hydrochloride in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Doxorubicin Hydrochloride RS prepared in the same manner as the sam-ple solution: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Doxorubicin Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry ‌900 <2.25>, and compare the spectrum with the Reference Spec-trum or the spectrum of Doxorubicin Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. to the following conditions, and calculate the ratios, QT and QS, of the peak area of doxorubicin to that of the internal standard. Amount [mg (potency)] of doxorubicin hydrochloride A solution of Doxorubicin Hydrochloride (1 in 200) responds to Qualitative Tests <1.09> (1) for chloride. (C27H 29NO11 .HCl) D Optical rotation <2.49> [a]20: ＋240 – ＋2909(20 mg calcu-lated on the anhydrous basis, methanol, 20 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 50 mg of Doxorubicin Hydrochloride in 10 mL of water is be-tween 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 50 mg of Doxorubicin Hydrochloride in 10 mL of water: the solu-tion is clear and red. (2) Related substances—Dissolve 25 mg of Doxorubicin Hydrochloride in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than doxorubicin obtained from the sample solution is not larger than 1/4 times the peak area of doxoru-bicin from the standard solution, and the total area of the peaks other than doxorubicin from the sample solution is not larger than the peak area of doxorubicin from the stand-ard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of doxorubicin. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of doxorubicin obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the standard solution. System performance: Dissolve 5 mg of Doxorubicin Hy-drochloride in 20 mL of water, add 1.5 mL of phosphoric acid, and allow to stand at room temperature for 30 minutes. Adjust the pH of this solution to 2.5 with 2 mol/L sodium hydroxide TS. When the procedure is run with 20 mL of this solution under the above operating conditions, doxoru-bicinone, having the relative retention time of about 0.6 to ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Doxorubicin Hydrochlo-ride RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in the mobile phase (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3 g of sodium lauryl sulfate in 1000 mL of diluted phosphoric acid (7 in 5000), and add 1000 mL of acetonitrile. Flow rate: Adjust so that the retention time of doxoru-bicin is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, doxorubicin and the internal standard are eluted in this order with the resolution between these peaks being not less than 5, and the symmetry factor of the peak of doxoru-bicin is 0.8 to 1.2. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of doxorubicin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

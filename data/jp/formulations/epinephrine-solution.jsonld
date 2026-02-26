@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/epinephrine-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Epinephrine Solution",
+    "ja": "アドレナリン液"
+  },
+  "monographId": "JP18-epinephrine-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Adrenaline Solution is clear, colorless or ‌JP XVIII Official Monographs / Afloqualone 419 slightly reddish liquid. It changes gradually to pale red and then to brown on exposure to air and light. pH: 2.3 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification under Adrenaline Injection."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in the Assay under Adrenaline Injection. Amount (mg) of adrenaline (C9H13NO3) D ＝ M ×{0.5 ＋ (0.5 ×|[a]20|)/93}× 0.592"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

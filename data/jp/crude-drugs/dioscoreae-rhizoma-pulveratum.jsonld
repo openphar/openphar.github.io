@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/dioscoreae-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Dioscoreae Rhizoma Pulveratum",
+    "ja": "サンヤク末"
+  },
+  "monographId": "JP18-dioscoreae-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Dioscorea Rhizome occurs as nearly yellowish white to white; odorless and tasteless. Under a microscope <5.01>, Dioscorea rhizome powder re- veals starch grains; fragments of parenchyma cells contain-ing starch grains; raphides of calcium oxalate, 100 to 200 mm in length and its containing mucilage cells; ring and scalariform vessels, 15 to 35 mm in diameter; starch grain isosceles deltoid or oblong, solitary, 18 to 35 mm, hilum and striation being distinct."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.2 g of Powdered Dioscorea Rhi-zome add 2 mL of acetic anhydride, warm on a water bath for 2 minutes, and filter. To 1 mL of the filtrate add care-fully 0.5 mL of sulfuric acid to make two layers: a red-brown to purple-brown color develops at the zone of con-tact. (2) To 1 g of Powdered Dioscorea Rhizome add 4 mL of a mixture of methanol and water (4:1), shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solu-tion. Separately, dissolve 1 mg of allantoin for thin-layer chromatography in 2 mL of a mixture of methanol and water (4:1), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solu-tion and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol and water (7:3:1) to a dis-tance of about 7 cm, and air-dry the plate. Spray evenly a so-lution of 0.2 g of 4-dimethylaminocinnamaldehyde in 10 mL of 6 mol/L hydrochloric acid TS and 10 mL of ethanol (99.5) on the plate, and heat the plate at 1059C for 2 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Dioscorea Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Dioscorea Rhizome according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

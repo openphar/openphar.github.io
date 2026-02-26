@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/swertiae-herba-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Swertiae Herba Pulverata",
+    "ja": "センブリ末"
+  },
+  "monographId": "JP18-swertiae-herba-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Swertia Herb occurs as a grayish yellow-green to yellow-brown powder. It has a slight odor, and extremely bitter, persistent taste. Under a microscope <5.01>, Powdered Swertia Herb re- veals xylem tissues with fibers (components of stems and roots); assimilation tissues (components of leaves and calyces); striated epidermis (components of stems and peduncles); tissues of corollas and filaments with spiral ves-sels; cells of anthers and their inner walls; spherical pollen grains with granular patterns (components of flowers), about 30 mm in diameter; starch grains are simple grain, about 6 mm in diameter, and very few. Identiˆcation To 0.5 g of Powdered Swertia Herb add 10 mL of methanol, shake for 5 minutes, ˆlter, and use the ˆltrate as the sample solution. Separately, dissolve 1 mg of Swertiamarin RS or swertiamarin for thin-layer chro-matography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution and the spot from the standard solution show the same color tone and Rf value."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter—Under a microscope <5.01>, crys-tals of calcium oxalate, a large quantity of starch grains and groups of stone cells are not observable. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 6.5z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 20.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Powdered Swertia Herb in a glass-stoppered centrifuge tube, add 40 mL of methanol, shake for 15 minutes, centrifuge, and separate the supernatant liquid. To the residue add 40 mL of methanol, and proceed in the same manner. Combine the extracts, and add methanol to make exactly 100 mL. Pipet 5 mL of the so-lution, add the mobile phase to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 10 mg of Swertiamarin RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dis-solve in methanol to make exactly 20 mL. Pipet 5 mL of the solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of swertiamarin in each solution. Amount (mg) of swertiamarin (C16H22O10) ＝ MS × AT/AS × 5 MS: Amount (mg) of Swertiamarin RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 238 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water and acetonitrile (91:9). Flow rate: Adjust so that the retention time of swertiama- rin is about 12 minutes. System suitability— System performance: Dissolve 1 mg each of Sweriamarin RS and theophylline in the mobile phase to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, theophylline and swertiama-rin are eluted in this order with the resolution of these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of swertiamarin is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

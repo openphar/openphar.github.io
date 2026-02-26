@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/liothyronine-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Liothyronine Sodium",
+    "ja": "リオチロニンナトリウム"
+  },
+  "monographId": "JP18-liothyronine-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Liothyronine Sodium contains not less than 95."
+  },
+  "appearance": {
+    "en": "Liothyronine Sodium occurs as a white to light brown powder. It is odorless. It is slightly soluble in ethanol (95), and practically insolu-ble in water and in diethyl ether. It dissolves in sodium hydroxide TS and in ammonia TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Liothyronine Sodium in ethanol (95) (1 in 1000) add 1 mL of ninhydrin TS, and warm in a water bath for 5 minutes: a purple color develops. Heat 0.02 g of Liothyronine Sodium with a few drops of sulfuric acid over a flame: a purple gas is evolved. Determine the absorption spectrum of a solution of Liothyronine Sodium in ethanol (95) (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Ignite 0.02 g of Liothyronine Sodium until thor-oughly charred. After cooling, add 5 mL of water to the residue, shake, and filter: the filtrate responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋18 – ＋229(0.2 g calculated on the dried basis, a mixture of ethanol (95) and 1 mol/L hy-drochloric acid TS (4:1), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Soluble halide—To 10 mg of Liothyronine So-dium add 10 mL of water and 1 drop of dilute nitric acid, shake for 5 minutes, and filter. Add water to the filtrate to make 10 mL, and mix with 3 drops of silver nitrate TS: the solution shows no more turbidity than the following control solution. Control solution: To 0.35 mL of 0.01 mol/L hydrochloric acid VS add 1 drop of dilute nitric acid and water to make 10 mL, and add 3 drops of silver nitrate TS. Iodine and iodide—Dissolve 0.10 g of Liothyronine Sodium in 10 mL of dilute sodium hydroxide TS and 15 mL of water, add 5 mL of dilute sulfuric acid, and allow to stand for 10 minutes with occasional shaking. Filter the mixture into a Nessler tube, add 10 mL of chloroform and 3 drops of a solution of potassium iodate (1 in 100) to the filtrate, mix for 30 seconds, and allow to stand: the chloroform layer has Amount [mg (potency)] of lincomycin (C ＝ MS × AT/AS × 15 18H34N2O6S) no more color than the following control solution. Control solution: Weigh exactly 0.111 g of potassium iodide, and dissolve in water to make 1000 mL. Pipet 1 mL MS: Amount [mg (potency)] of Lincomycin Hydrochlo-ride RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg of Liothyronine So-dium, and proceed as directed under Oxygen Flask Combus-tion Method <1.06>, using a mixture of 10 mL of a solution of sodium hydroxide (1 in 100) and 1 mL of a freshly pre-pared solution of sodium bisulfate (1 in 100) as the absorb-ing liquid, and prepare the test solution. Apply a small amount of water to the upper part of apparatus A, pull out C carefully, and wash C, B and the inner wall of A with 40 mL of water. To the test solution add 1 mL of bromine-acetic acid TS, insert the stopper C, and shake vigorously for 1 minute. Remove the stopper, rinse the stopper, the sample holder and the inner wall of the flask with 40 mL of water, and add 0.5 mL of formic acid. Stopper the flask with C, and shake vigorously for 1 minute again. Remove the stop-per, and rinse the stopper, the sample holder and the inner wall of the flask with 40 mL of water again. Bubble the solu-tion with enough nitrogen gas in the flask to remove the oxygen and excess bromine, add 0.5 g of potassium iodide to the solution, and dissolve. Add immediately 3 mL of dilute sulfuric acid, mix, and allow to stand for 2 minutes. Titrate <2.50> the solution with 0.02 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.02 mol/L sodium thiosulfate VS ＝ 0.7477 mg of C15H11I3NNaO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

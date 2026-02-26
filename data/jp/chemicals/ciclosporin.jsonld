@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ciclosporin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ciclosporin",
+    "ja": "シクロスポリン"
+  },
+  "monographId": "JP18-ciclosporin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "59865-13-3",
+  "definition": {
+    "en": "Ciclosporin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 2 mL of the sample solution, add a mixture of water and acetonitrile (1:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard soluton as directed un-der Liquid Chromatography <2.01> according to the follow-ing conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak other than the ciclosporin obtained from the sample solution is not larger than 7/10 times the peak area of ciclosporin from the standard solution, and the total area of all peaks other than the ciclosporin from the sample solution is not larger than 1.5 times the peak area of ciclosporin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of ciclosporin, beginning after the solvent peak. System suitability— C62H N11O 12: 1202.61 System performance: Proceed as directed in the system suitability in the Assay. cyclo{-[(2S,3R,4R,6E )-3-Hydroxy-4-methyl-2- methylaminooct-6-enoyl]-L-2-aminobutanoyl- N-methylglycyl-N-methyl-L-leucyl-L-valyl-N-methyl- L-leucyl-L-alanyl-D-alanyl-N-methyl-L-leucyl-N-methyl-L-leucyl-N-methyl-L-valyl-} [59865-13-3] Ciclosporin contains not less than 98."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Ciclosporin in 10 mL of ethanol (95): the solution is clear, and has no more color than the following control solutions (1), (2) or (3). Control solution (1): To exactly 3.0 mL of Iron (III) Chlo-ride CS and exactly 0.8 mL of Cobalt (II) Chloride CS add diluted hydrochloric acid (1 in 40) to make exactly 100 mL. Control solution (2): To exactly 3.0 mL of Iron (III) Chlo-ride CS, exactly 1.3 mL of Cobalt (II) Chloride CS and ex-actly 0.5 mL of Copper (II) Sulfate CS add diluted hydro- chloric acid (1 in 40) to make exactly 100 mL. Control solution (3): To exactly 0.5 mL of Iron (III) Chlo-ride CS and exactly 1.0 mL of Cobalt (II) Chloride CS add diluted hydrochloric acid (1 in 40) to make exactly 100 mL. Heavy metals <1.07>—Proceed with 1.0 g of Ciclosporin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 2 mL of the sample solution, add a mixture of water and acetonitrile (1:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard soluton as directed un-der Liquid Chromatography <2.01> according to the follow-ing conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak other than the ciclosporin obtained from the sample solution is not larger than 7/10 times the peak area of ciclosporin from the standard solution, and the total area of all peaks other than the ciclosporin from the sample solution is not larger than 1.5 times the peak area of ciclosporin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of ciclosporin, beginning after the solvent peak. System suitability— C62H N11O 12: 1202.61 System performance: Proceed as directed in the system suitability in the Assay. cyclo{-[(2S,3R,4R,6E )-3-Hydroxy-4-methyl-2- methylaminooct-6-enoyl]-L-2-aminobutanoyl- N-methylglycyl-N-methyl-L-leucyl-L-valyl-N-methyl- L-leucyl-L-alanyl-D-alanyl-N-methyl-L-leucyl-N-methyl-L-leucyl-N-methyl-L-valyl-} [59865-13-3] Ciclosporin contains not less than 98.5z and not Test for required detectability: To exactly 2 mL of the standard solution add a mixture of water and acetonitrile (1:1) to make exactly 20 mL. Confirm that the peak area of ciclosporin obtained from 20 mL of this solution is equiva-lent to 7 to 13z of that of ciclosporin obtained from 20 mL of the standard solution. System repeatability: When the test is repeated 6 times more than 101.5z of ciclosporin (C 62H111 N11 O12 ), cal- with 20 mL of the standard solution under the above operat- ing conditions, the relative standard deviation of the peak ‌JP XVIII Official Monographs / Cilastatin Sodium 753 area of ciclosporin is not more than 3.0z. Loss on drying <2.41> Not more than 2.0z (1 g, in vacuum at a pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Ciclosporin and Ciclosporin RS (separately determine the loss on drying <2.41> under the same conditions as Ciclosporin), and dis- solve each in a mixture of water and acetonitrile (1:1) to make exactly 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ciclosporin in each solution. Amount (mg) of ciclosporin (C62H111N11O12) ＝ MS × AT/AS MS: Amount (mg) of Ciclosporin RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Con-nect the sample injection port and the column with a stain-less steel tube 0.3 mm in inside diameter and 1 m in length. Column temperature: A constant temperature of about 809C (including the sample injection port and the connecting tube). Mobile phase: A mixture of water, acetonitrile, tert-butyl methyl ether and phosphoric acid (520:430:50:1). Flow rate: Adjust so that the retention time of ciclosporin is about 27 minutes. System suitability— System performance: Dissolve 3 mg of Ciclosporin U in 2.5 mL of a mixture of water and acetonitrile (1:1), and add 2.5 mL of the standard solution. When the procedure is run with 20 mL of this solution under the above operating condi-tions, ciclosporin U and ciclosporin are eluted in this order with the resolution between these peaks being not less than 1.2. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ciclosporin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

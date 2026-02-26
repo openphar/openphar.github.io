@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/sappan-lignum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Sappan Lignum",
+    "ja": "ソボク"
+  },
+  "monographId": "JP18-sappan-lignum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Chips, slices or short pieces of wood; yellow-red to grayish yellow-brown, sometimes with light brown to grayish white splint woods; hard in texture; a transverse sec-tion shows a pattern like annual ring. Almost odorless; almost tasteless. Under a microscope <5.01>, a transverse section reveals ray composed of 1 – 2 cell rows of slender and long cells; the area between rays filled with fiber cells, and large and oblong vessels scattered there; solitary crystals of calcium oxalate in parenchymatous cells of the innermost of xylem."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Sappan Wood add 10 mL of methanol, shake for 5 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, water, formic acid and 2-propanol (20:1:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly sodium carbonate TS on the plate, and air-dry the plate: a red-purple spot appears at an Rf value of about 0.7."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Put a small piece of Sappan Wood in calcium hy-droxide TS: no purple-blue color develops. Loss on drying <5.01> Not more than 11.5z (6 hours). Total ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 7.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

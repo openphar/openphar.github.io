@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chloral-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chloral Hydrate",
+    "ja": "抱水クロラール"
+  },
+  "monographId": "JP18-chloral-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C2H3Cl3O2",
+  "molecularWeight": 165.4,
+  "definition": {
+    "en": "Chloral Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Chloral Hydrate occurs as colorless crystals. It has a pungent odor and an acrid, slightly bitter taste. It is very soluble in water, and freely soluble in ethanol (95) and in diethyl ether. It slowly volatilizes in air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Chloral Hydrate in 2 mL of water, and add 2 mL of sodium hydroxide TS: the turbidity is produced, and it separates into two clear layers by warming. (2) Heat 0.2 g of Chloral Hydrate with 3 drops of aniline and 3 drops of sodium hydroxide TS: the disagreeable odor of phenylisocyanide (poisonous) is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Chloral Hydrate in 2 mL of water: the solution is clear and colorless. Acidity—Dissolve 0.20 g of Chloral Hydrate in 2 mL of water, and add 1 drop of methyl orange TS: a yellow color develops. Chloride <1.03>—Perform the test with 1.0 g of Chlo- ral Hydrate. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.011z). Chloral alcoholate—Warm 1.0 g of Chloral Hydrate with 10 mL of sodium hydroxide TS, filter the upper layer, add iodine TS to the filtrate until a yellow color develops, and allow the solution to stand for 1 hour: no yellow precipi-tate is produced. Benzene—Warm the solution obtained in (1) with 3 mL of water: no odor of benzene is perceptible. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 4 g of Chloral Hydrate in a glass-stoppered flask, add 10 mL of water and exactly 40 mL of 1 mol/L sodium hydroxide VS, and allow the mixture to stand for exactly 2 minutes. Titrate <2.50> the excess sodium hydroxide immediately with 0.5 mol/L sulfuric acid VS (in-dicator: 2 drops of phenolphthalein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 1 mol/L sodium hydroxide VS ＝ 165.4 mg of C2H3Cl3O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/foeniculi-fructus-pulveratus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Foeniculi Fructus Pulveratus",
+    "ja": "ウイキョウ末"
+  },
+  "monographId": "JP18-foeniculi-fructus-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Fennel occurs as a greenish light brown to greenish brown, and is a characteristic odor and taste. Under a microscope <5.01>, Powdered Fennel reveals frag- ments of parenchyma cells of perisperm containing aleurone grain, fragments of parenchyma cells of endosperm contain-ing fatty oil, fragments of sclerenchyma with characteristic simple pits, fragments of oil canal within yellow-brown ma-terial, fragments of endocarp shown scalariform, spiral ves-sels, fragments of epidermis or epidermis with stomata. ‌2004‌‌ Fennel Oil / Crude Drugs and Related Drugs"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of Powdered Fennel add 10 mL of hexane, allow to stand for 5 minutes with occasional shak-ing, filter, and use the filtrate as the sample solution. Per-form the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate prepared with silica gel with fluorescent indicator for thin-layer chromatography. Then develop the plate with a mixture of hexane and ethyl acetate (20:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot with dark purple color appears at an Rf value of about 0.4. Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 50.0 g of Powdered Fennel: the volume of essential oil is not less than 0.45 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pyroxylin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pyroxylin",
+    "ja": "ピロキシリン"
+  },
+  "monographId": "JP18-pyroxylin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Pyroxylin occurs as a white cotton-like sub-stance or white flakes. It is freely soluble in acetone, and very slightly soluble in diethyl ether. Upon heating or exposure to light, it is decomposed with the evolution of nitrous acid vapors."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Ignite Pyroxylin: it burns very rapidly with a luminous flame."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Pyroxy-lin, previously dried at 809C for 2 hours, in 25 mL of a mix-ture of diethyl ether and ethanol (95) (3:1): the solution is clear. Acidity—Shake 1.0 g of Pyroxylin, previously dried at 809C for 2 hours, with 20 mL of water for 10 minutes: the filtrate is neutral. Water-soluble substances—Evaporate 10 mL of the filtrate obtained in (2) on a water bath to dryness, and dry at 1059C for 1 hour: the mass of the residue is not more than 1.5 mg. Residue on ignition—Weigh accurately about 2 g of Pyroxylin, previously dried at 809C for 2 hours, and moisten with 10 mL of a solution of castor oil in acetone (1 in 20) to gelatinize the sample. Ignite the contents to carbonize the sample, heat strongly at about 5009C for 2 hours, and allow to cool in a desicator (silica gel): the amount of the residue is not more than 0.30z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

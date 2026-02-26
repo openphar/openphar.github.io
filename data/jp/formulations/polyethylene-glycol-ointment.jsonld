@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/polyethylene-glycol-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Polyethylene Glycol Ointment",
+    "ja": "マクロゴール軟膏"
+  },
+  "monographId": "JP18-polyethylene-glycol-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Macrogol Ointment is white in color. It has a faint, characteristic odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 50 mg of Macrogol Ointment in 5 mL of dilute hydrochloric acid, add 1 mL of barium chloride TS, shake, filter if necessary, and add 1 mL of a solution of phosphomolybdic acid n-hydrate (1 in 10) to the filtrate: a yellow-green precipitate is formed."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

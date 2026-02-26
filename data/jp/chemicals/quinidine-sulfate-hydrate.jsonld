@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/quinidine-sulfate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Quinidine Sulfate Hydrate",
+    "ja": "キニジン硫酸塩水和物"
+  },
+  "monographId": "JP18-quinidine-sulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H2SO4",
+  "molecularWeight": 746.91,
+  "casNumber": "6591-63-5",
+  "appearance": {
+    "en": "Quinidine Sulfate Hydrate occurs as white crystals. It is odorless, and has a very bitter taste. It is freely soluble in ethanol (95) and in boiling water, sparingly soluble in water, and practically insoluble in diethyl ether. It, previously dried, is freely soluble in chlo-roform. It darkens gradually by light. D Optical rotation [a]20: ＋275 – ＋2879(after drying, 0.5 g, 0.1 mol/L hydrochloric acid VS, 25 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Quinidine Sulfate Hydrate in 10 mL of water and 2 to 3 drops of dilute sulfuric acid: a blue fluorescence is produced. To 5 mL of a solution of Quinidine Sulfate Hydrate (1 in 1000) add 1 to 2 drops of bromine TS, then add 1 mL of ammonia TS: a green color develops. To 5 mL of a solution of Quinidine Sulfate Hydrate (1 in 100) add 1 mL of silver nitrate TS, stir with a glass rod, and allow to stand for a short interval: a white precipitate is produced, and it dissolves on addition of nitric acid. Dissolve 0.4 g of Quinidine Sulfate Hydrate in 20 mL of water and 1 mL of dilute hydrochloric acid: the solution responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 1.0 g of Quinidine Sulfate Hydrate in 100 mL of freshly boiled and cooled water: the pH of this solution is between 6.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloroform-ethanol-insoluble substances—Warm 2.0 g of Quinidine Sulfate Hydrate with 15 mL of a mixture of chloroform and ethanol (99.5) (2:1) at about 509C for 10 minutes. After cooling, filter through a tared glass filter (G4) by gentle suction. Wash the residue with five 10-mL portions of a mixture of chloroform and ethanol (99.5) (2:1), and dry at 1059C for 1 hour: the mass of the residue is not more than 2.0 mg. Related substances—Dissolve 20 mg of Quinidine Sulfate Hydrate in the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Separately, dis-solve 25 mg of cinchonine in the mobile phase to make ex-actly 100 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of the sample methanol, and add the mobile phase to make 50 mL. Pro-ceed with 50 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of quinidine, quinine, dihydroquinidine and dihy-droquinine in this order with a resolution between quinidine and quinine and that between quinine and dihydroquinidine being not less than 1.2, respectively. Detection sensitivity: Adjust the detection sensitivity so that the peak height of cinchonine obtained with 50 mL of the standard solution is between 5 mm and 10 mm. Time span of measurement: About 2 times as long as the retention time of quinidine, beginning after the solvent peak. Readily carbonizable substances <1.15>—Take 0.20 g of Quinidine Sulfate Hydrate and perform the test: the solu-tion has no more color than Matching Fluid M. Loss on drying <2.41> Not more than 5.0z (1 g, 130 9C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Quinidine Sulfate Hydrate, previously dried, dissolve in 20 mL of acetic acid (100), and add 80 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solu-tion changes from purple through blue to blue-green (indica-tor: 3 drops of crystal violet TS). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 24.90 mg of (C20H24N2O2)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

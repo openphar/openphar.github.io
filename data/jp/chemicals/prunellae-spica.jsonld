@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prunellae-spica",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Prunellae Spica",
+    "ja": "カゴソウ"
+  },
+  "monographId": "JP18-prunellae-spica",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Spikes in nearly cylindrical and wheat ear-like shape, 3 – 6 cm in length, 1 – 1.5 cm in diameter, externally grayish brown; spikes composed of a floral axis having numerous bracts and calyxes; corollas often remaining on the upper part; a calyx usually enclosing four mericarps; bract, cordate to eccentric, and exhibiting white hairs on the vein, as on the calyx; light in texture. Almost odorless and tasteless."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Stem—When perform the test of foreign mat- ter <5.01>, the amount of the stems contained in Prunella Spike does not exceed 5.0z. (2) Foreign matter <5.01>—The amount of foreign mat-ter other than the stems contained in Prunella Spike does not exceed 1.0z. Total ash <5.01> Not more than 13.0z. Acid-insoluble ash <5.01> Not more than 5.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

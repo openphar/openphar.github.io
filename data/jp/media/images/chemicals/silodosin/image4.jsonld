@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/media/images/",
+    "schema": "https://schema.org/",
+    "op": "https://www.openphar.org/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "contentUrl": "schema:contentUrl",
+    "encodingFormat": "schema:encodingFormat",
+    "width": "schema:width",
+    "height": "schema:height",
+    "sha256": {
+      "@type": "xsd:string"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "publisher": {
+      "@type": "@id"
+    },
+    "downloaded": {
+      "@type": "xsd:date"
+    },
+    "attribution": {
+      "@type": "op:Attribution"
+    }
+  },
+  "@id": "https://www.openphar.org/data/jp/media/images/chemicals/silodosin/image4",
+  "@type": [
+    "schema:ImageObject",
+    "op:PharmacopoeiaImage"
+  ],
+  "name": {
+    "en": "Image 4 - Silodosin",
+    "ja": "画像4 - シロドシン"
+  },
+  "contentUrl": "https://www.openphar.org/data/jp/media/images/chemicals/silodosin/image4.gif",
+  "encodingFormat": "image/gif",
+  "width": 197,
+  "height": 65,
+  "sha256": "3d0c553f8cbc3091",
+  "isPartOf": {
+    "@id": "https://www.openphar.org/data/jp/chemicals/silodosin",
+    "@type": "op:PharmacopoeiaMonograph",
+    "name": {
+      "en": "Silodosin",
+      "ja": "シロドシン"
+    }
+  },
+  "attribution": {
+    "@type": "op:Attribution",
+    "op:copyright": "Japanese Ministry of Health, Labour and Welfare",
+    "op:license": "Japanese Pharmacopoeia XVIII - Official Publication",
+    "op:licenseUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000064398.html",
+    "op:source": "Japan Pharmacopoeia (JP XVIII)",
+    "op:sourceFile": "jp18-4-monographs-2.html",
+    "op:sourceImage": "jp18-4-monographs-2_files/Image_345.gif",
+    "op:note": "Chemical structure image from official JP XVIII monograph",
+    "spdxId": "NONE",
+    "spdxUrl": null
+  },
+  "downloaded": "2026-02-24",
+  "publisher": {
+    "@id": "https://www.openphar.org/ontology/publisher/JP",
+    "name": "Japan Pharmacopoeia"
+  }
+}

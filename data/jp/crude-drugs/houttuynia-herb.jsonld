@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/houttuynia-herb",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-houttuynia-herb",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Houttuynia Herb",
+    "la": "Houttuyniae Herba",
+    "ja": "ジュウヤク"
+  },
+  "definition": {
+    "en": "not more than 2"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/houttuynia-herb-houttuynia-cordata-thunberg"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

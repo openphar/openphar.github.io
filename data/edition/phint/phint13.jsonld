@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://www.openphar.org/data/edition/",
+    "@vocab": "https://www.openphar.org/ontology/bibliographic/",
+
+    "op": "https://www.openphar.org/ontology/core/",
+    "bib": "https://www.openphar.org/ontology/bibliographic/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Edition": { "@id": "bib:Edition" },
+    "Publisher": { "@id": "op:Publisher" },
+
+    "prefLabel": { "@id": "skos:prefLabel", "@container": "@language" },
+    "altLabel": { "@id": "skos:altLabel", "@container": "@set" },
+    "comment": { "@id": "rdfs:comment", "@container": "@language" },
+
+    "editionNumber": { "@id": "bib:editionNumber", "@type": "xsd:string" },
+    "hasPublisher": { "@id": "bib:hasPublisher", "@type": "@id" },
+    "publicationDate": { "@id": "bib:publicationDate", "@type": "xsd:date" },
+    "effectiveDate": { "@id": "bib:effectiveDate", "@type": "xsd:date" },
+    "monographCount": { "@id": "bib:monographCount", "@type": "xsd:integer" },
+    "editionUrl": { "@id": "bib:editionUrl", "@type": "@id" },
+    "officialLanguage": { "@id": "bib:officialLanguage", "@type": "xsd:string" },
+
+    "publisherCountry": { "@id": "op:publisherCountry", "@type": "xsd:string" },
+    "publisherUrl": { "@id": "op:publisherUrl", "@type": "@id" },
+
+    "description": { "@id": "dct:description", "@container": "@language" }
+  },
+  "@graph": [
+    {
+      "@id": "phint/phint13",
+      "@type": "Edition",
+      "prefLabel": {
+        "en": "International Pharmacopoeia 13th Edition",
+        "fr": "Pharmacopée Internationale 13e Édition"
+      },
+      "altLabel": ["Ph.Int.13", "PhInt 13", "The International Pharmacopoeia"],
+      "editionNumber": "13",
+      "hasPublisher": { "@id": "op:PhInt" },
+      "publicationDate": "2023-01-01",
+      "effectiveDate": "2023-01-01",
+      "monographCount": 989,
+      "editionUrl": { "@id": "https://digicollections.net/phint/" },
+      "officialLanguage": ["en", "fr"],
+      "description": {
+        "en": "The International Pharmacopoeia (Ph.Int.) comprises a collection of quality specifications for pharmaceutical substances and dosage forms. It is published by the World Health Organization (WHO) and provides international standards for medicines."
+      }
+    },
+    {
+      "@id": "op:PhInt",
+      "@type": "Publisher",
+      "prefLabel": {
+        "en": "International Pharmacopoeia",
+        "fr": "Pharmacopée Internationale"
+      },
+      "altLabel": ["Ph.Int.", "WHO Pharmacopoeia"],
+      "comment": {
+        "en": "Published by the World Health Organization (WHO)"
+      },
+      "publisherCountry": "INT",
+      "publisherUrl": { "@id": "https://www.who.int/teams/health-product-and-policy-standards/inn-and-pharmacopoeia" }
+    }
+  ]
+}

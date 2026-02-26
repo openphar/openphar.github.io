@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/haloperidol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Haloperidol",
+    "ja": "ハロペリドール"
+  },
+  "monographId": "JP18-haloperidol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H23ClFNO2",
+  "molecularWeight": 375.86,
+  "casNumber": "52-86-8",
+  "definition": {
+    "en": "Haloperidol, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Haloperidol occurs as white to pale yellow, crystals or powder. It is freely soluble in acetic acid (100), sparingly soluble in methanol, slightly soluble in 2-propanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 30 mg of Haloperidol in 100 mL of 2-propanol. To 5 mL of the solution add 10 mL of 0.1 mol/L hydrochloric acid TS and 2-propanol to make 100 ‌JP XVIII Official Monographs / Haloperidol Fine Granules 1091 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Halo-peridol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—To 1.0 g of Haloperidol add 50 mL of water, shake, and filter. To 25 mL of the filtrate add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Halo- peridol according to method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Related substances—Dissolve 25 mg of Haloperidol in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak other than haloperidol obtained from the sample solution is not larger than the peak area of haroperidol from the standard solu-tion, and the total area of these peaks is not larger than 2 times the peak area of haloperidol from the standard solu-tion. For the areas of the peaks, having the relative retention time of about 0.5, about 1.2 and about 2.6 to haloperidol, multiply their correction factors, 0.75, 1.47 and 0.76, respec-tively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.95 g of trisodium citrate dihy-drate in 900 mL of water, adjust to pH 3.5 with dilute hy-drochloric acid, and add water to make 1000 mL. To 300 mL of this solution add 700 mL of methanol and 1.0 g of sodium lauryl sulfate. Flow rate: Adjust so that the retention time of haloperidol is about 9 minutes. Time span of measurement: About 3 times as long as the retention time of haloperidol, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add the mobile phase to make exactly 25 mL. Confirm that the peak area of haloperidol obtained with 10 mL of this solution is equivalent to 15 to 25z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of haloperidol are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of haloperidol is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 609C, phosphorus (V) oxide, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of haloperidol, previ-ously dried, and dissolve in 40 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 1 drop of crystal violet TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L perchloric acid VS ＝ 37.59 mg of C21H23ClFNO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

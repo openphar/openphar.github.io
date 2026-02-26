@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/perphenazine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Perphenazine",
+    "ja": "ペルフェナジン"
+  },
+  "monographId": "JP18-perphenazine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H26ClN3OS",
+  "molecularWeight": 403.97,
+  "definition": {
+    "en": "Perphenazine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Perphenazine occurs as white to light yellow, crystals or crystalline powder. It is odorless, and has a bitter taste. It is freely soluble in methanol and in ethanol (95), soluble in acetic acid (100), sparingly soluble in diethyl ether, and practically insoluble in water. It dissolves in dilute hydrochloric acid. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Perphenazine in 5 mL of sulfuric acid: a red color, changing to deep red-purple upon warming, is produced. Dissolve 0.2 g of Perphenazine in 2 mL of methanol, add this solution to 10 mL of a warm solution of 2,4,6-trinitrophenol in methanol (1 in 25), and allow to stand for 4 hours. Collect the crystals, wash with a small volume of methanol, and dry at 1059C for 1 hour: the crystals so ob-tained melt <2.60> between 2379C and 2449C (with decom-position). Determine the absorption spectrum of a solution of Perphenazine in 0.1 mol/L hydrochloric acid TS (1 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum 1 or the spectrum of a solution of Perphena-zine RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Separately, to 10 mL of the solution add 10 mL of water. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum 2 or the spectrum of a solution of Perphena-zine RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Perform the test with Perphenazine as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Perphenazine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Perform the test in the current of nitrogen in light-resistant containers under the protection from light. Dissolve 0.10 g of Perphenazine in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add ethanol (95) to make exactly 10 mL. Pipet 1 mL of this solution, add ethanol (95) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol and 1 mol/L ammonia TS (5:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 254 nm): any spot other than the principal spot obtained from the sample solution is not more intense than that from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 659C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Perphenazine, pre-viously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue-pur-ple to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 20.20 mg of C21H26ClN3OS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/edrophonium-chloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Edrophonium Chloride",
+    "ja": "エドロホニウム塩化物"
+  },
+  "monographId": "JP18-edrophonium-chloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H16ClNO",
+  "molecularWeight": 201.69,
+  "appearance": {
+    "en": "Edrophonium Chloride occurs as white, crys-tals or crystalline powder. It is odorless. It is very soluble in water, freely soluble in ethanol (95) and in acetic acid (100), and practically insoluble in acetic anhydride and in diethyl ether. It is hygroscopic. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Edrophonium Chloride (1 in 100) add 1 drop of iron (III) chloride TS: a light red-purple color develops. Determine the absorption spectrum of a solution of Edrophonium Chloride in 0.1 mol/L hydrochloric acid TS (1 in 20,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum or the spectrum of a solution of Edropho-nium Chloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of Edrophonium Chloride (1 in 50) re-sponds to Qualitative Tests <1.09> for chloride. ‌918 pH <2.54> Dissolve 1.0 g of Edrophonium Chloride in 10 mL of water: the pH of this solution is between 3.5 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Edrophonium Chloride in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Edrophonium Chloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Edrophonium Chloride according to Method 1, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.50 g of Edrophonium Chloride in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add ethanol (95) to make exactly 100 mL. Pipet 3 mL of this solution, add ethanol (95) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with Edrophonium Chloride. (2) Determine the absorption spectrum of the sample so-lution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 272 nm and 276 nm. pH <2.54> 6.5 – 8.0 Bacterial endotoxins <4.01> Less than 15 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Measure exactly a volume of Edrophonium Chloride Injection, equivalent to about 50 mg these solutions as directed under Thin-layer Chromatogra- phy <2.03>. Spot 10 mL each of the sample solution and of edrophonium chloride (C 10H 16ClNO), place in a chro- standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of methanol, chloroform and ammonia solu-tion (28) (16:4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.20z (1 g, in vacu-um, phosphorus (V) oxide, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Weigh accurately about 0.2 g of Edrophonium Chloride, previously dried, and dissolve in 100 mL of a mix-ture of acetic anhydride and acetic acid (100) (7:3). Titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS matographic column prepared by pouring 10 mL of weakly basic DEAE-bridged dextran anion exchanger (Cl type) (50 to 150 mm in particle diameter) into a chromatographic tube about 2 cm in inside diameter and about 10 cm in length, add 25 mL of water, and elute at the flow rate of 1 to 2 mL per minute. Wash the column with two 25-mL portions of water at the flow rate of 1 to 2 mL per minute. Combine the wash-ings with above effluent solutions, and add water to make exactly 100 mL. Measure exactly 10 mL of this solution, and add 10 mL of phosphate buffer solution (pH 8.0) and 5 g of sodium chloride. Wash this solution with four 20-mL por-tions of a mixture of diethyl ether and hexane (1:1), collect the water layer, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Edrophonium Chloride RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 3 hours, and dissolve in water to make exactly 100 mL. Measure exactly 10 mL of this solu-tion, and prepare the standard solution in the same manner as the sample solution. Determine the absorbances, AT and ＝ 20.17 mg of C10H ClNO AS, of the sample solution and standard solution at 273 nm as directed under Ultraviolet-visible Spectrophotometry"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

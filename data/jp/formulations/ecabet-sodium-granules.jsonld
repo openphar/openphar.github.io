@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ecabet-sodium-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ecabet Sodium Granules",
+    "ja": "エカベトナトリウム顆粒"
+  },
+  "monographId": "JP18-ecabet-sodium-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ecabet Sodium Granules contain not less than 95.0z and not more than 105.0z of the labeled amount of ecabet sodium hydrate (C20H27NaO5S.5H2O: 492.56). Method of preparation Prepare as directed under Gran-ules, with Ecabet Sodium Hydrate. Identification To a quantity of Ecabet Sodium Granules, equivalent to 50 mg of Ecabet Sodium Hydrate, add 25 mL of dilute sodium hydroxide TS, shake, and filter. Discard the first 10 mL of the filtrate, and to 3 mL of the subsequent fil-trate add dilute sodium hydroxide TS to make 20 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 269 nm and 273 nm, and between 278 nm and 282 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Ecabet Sodium Granules in single-dose packages meet the requirement of the Content uniformity test. Take out the total amount of the content of 1 package of Ecabet Sodium Granules, add 70 mL of dilute sodium hy-droxide TS, sonicate for 5 minutes with occasional shaking, add dilute sodium hydroxide TS to make exactly V mL so that each mL contains about 10 mg of ecabet sodium hydrate (C20H27NaO5S."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of Ecabet Sodium Granules, equivalent to 50 mg of Ecabet Sodium Hydrate, add 25 mL of dilute sodium hydroxide TS, shake, and filter. Discard the first 10 mL of the filtrate, and to 3 mL of the subsequent fil-trate add dilute sodium hydroxide TS to make 20 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 269 nm and 273 nm, and between 278 nm and 282 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Ecabet Sodium Granules in single-dose packages meet the requirement of the Content uniformity test. Take out the total amount of the content of 1 package of Ecabet Sodium Granules, add 70 mL of dilute sodium hy-droxide TS, sonicate for 5 minutes with occasional shaking, add dilute sodium hydroxide TS to make exactly V mL so that each mL contains about 10 mg of ecabet sodium hydrate (C20H27NaO5S.5H2O), and filter. Discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of ecabet sodium hydrate for assay (separately, determine the water <2.48> in the same manner as Ecabet Sodium Hydrate), dis- solve in 2 mL of dilute sodium hydroxide TS, add water to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sam-ple solution and standard solution at 271 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank. Amount (mg) of ecabet sodium hydrate (C20H27NaO5S.5H2O) ＝ MS × AT/AS × V/2 × 1.224 MS: Amount (mg) of ecabet sodium hydrate for assay taken, calculated on the anhydrous basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Ecabet Sodium Granules is not less than 80z. Start the test with an accurately weighed amount of Ecabet Sodium Granules, equivalent to about 1 g of Ecabet Sodium Hydrate, withdraw not less than 20 mL of the me-dium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add water to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 22 mg of ecabet sodium hydrate for assay (separately, determine the water <2.48> in the same manner as Ecabet Sodium Hydrate), dissolve in 1 mL of methanol, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, at 271 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using water as the blank. Dissolution rate (z) with respect to the labeled amount of ecabet sodium hydrate (C20H27NaO5S.5H2O) ＝ MS/MT × AT/AS × 1/C × 4500 × 1.224 MS: Amount (mg) of ecabet sodium hydrate for assay taken, calculated on the anhydrous basis MT: Amount (g) of Ecabet Sodium Granules taken C: Labeled amount (mg) of ecabet sodium hydrate (C20H27NaO5S.5H2O) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Ecabet Sodium Granules, equivalent to about 30 mg of ecabet sodium hy-drate (C20H27NaO5S.5H2O), add exactly 5 mL of the internal standard solution, add 25 mL of diluted methanol (1 in 2), shake vigorously for 20 minutes, and filter through a mem-brane filter with a pore size not exceeding 0.45 mm. Discard the first 5 mL of the filtrate, to 3 mL of the subsequent fil-trate add the mobile phase to make 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 30 mg of ecabet sodium hydrate for assay (separately, determine the water <2.48> in the same manner as Ecabet So-dium Hydrate), add exactly 5 mL of the internal standard so-lution, and dissolve in dilute methanol (1 in 2) to make 30 mL. To 3 mL of this solution add the mobile phase to make ‌914 50 mL, and use this solution as the standard solution. Per-form the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ecabet to that of the internal standard. Amount (mg) of ecabet sodium hydrate (C20H27NaO5S.5H2O) ＝ MS × QT/QS × 1.224 MS: Amount (mg) of ecabet sodium hydrate for assay taken, calculated on the anhydrous basis Internal standard solution—A solution of ethyl parahy-droxybenzoate in diluted methanol (1 in 2) (3 in 400). ‌Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 0.1 mol/L potassium dihydrogen phos-phate TS add phosphoric acid to adjust the pH to 3.0. To 730 mL of this solution add 270 mL of acetonitrile. Flow rate: Adjust so that the retention time of ecabet is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, ecabet and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ecabet to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Granule"
+}

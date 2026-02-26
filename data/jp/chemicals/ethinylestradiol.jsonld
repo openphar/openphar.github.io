@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethinylestradiol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethinylestradiol",
+    "ja": "エチニルエストラジオール"
+  },
+  "monographId": "JP18-ethinylestradiol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H24O2",
+  "molecularWeight": 296.4,
+  "definition": {
+    "en": "Ethinylestradiol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethinylestradiol occurs as white to pale yellow, crystals or crystalline powder. It is odorless. It is freely soluble in pyridine and in tetrahydrofuran, soluble in ethanol (95) and in diethyl ether, and practically insoluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Ethinylestradiol in 1 mL of a mixture of sulfuric acid and ethanol (95) (1:1): a purplish red color develops with a yellow-green fluorescence. Add carefully 2 mL of water to this solution: the color of the solution changes to red-purple. (2) Transfer 0.02 g of Ethinylestradiol to a glass-stoppered test tube, dissolve in 10 mL of a solution of potas-sium hydroxide (1 in 20), add 0.1 g of benzoyl chloride, and shake. Collect the resulting precipitate, recrystallize from methanol, and dry in a desiccator (in vacuum, phosphorus (V) oxide): the precipitate melts <2.60> between 2009C and 2029C. D Optical rotation <2.49> [a]20: －26 – －319(after drying, 0.1 g, pyridine, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Estrone—Dissolve 5 mg of Ethinylestradiol in 0.5 mL of ethanol (95), and add 0.05 g of 1,3-dinitrobenzene. Add 0.5 mL of freshly prepared dilute potassium hydroxide-ethanol TS, allow to stand in a dark place for 1 hour, and add 10 mL of ethanol (95): the solution has no more color than the following control solution. Control solution: Proceed in the same manner as men-tioned above, omitting Ethinylestradiol. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). ‌JP XVIII Official Monographs / Ethinylestradiol Tablets 969 Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Ethinylestradiol, previously dried, and dissolve in 40 mL of tetrahydrofuran. Add 10 mL of a solution of silver nitrate (1 in 20), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 29.64 mg of C20H24O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

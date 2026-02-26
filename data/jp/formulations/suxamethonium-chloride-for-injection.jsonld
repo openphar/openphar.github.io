@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/suxamethonium-chloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Suxamethonium Chloride for Injection‌‌",
+    "ja": "注射用スキサメトニウム塩化物"
+  },
+  "monographId": "JP18-suxamethonium-chloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Suxamethonium Chloride for Injection occurs as a white, crystalline powder or mass."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take an amount of Suxamethonium Chlo-ride for Injection, equivalent to 0.05 g of Suxamethonium Chloride Hydrate, dissolve in water to make 10 mL, and use this solution as the sample solution. Separately, dissolve 0.05 g of suxamethonium chloride for thin-layer chromatog-raphy in 10 mL of water, and use this solution as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of a solution of ammonium acetate (1 in 100), acetone, 1-butanol and formic acid (20:20:20:1) to a distance of about 10 cm, and dry the plate at 1059C for 15 minutes. Spray evenly hydrogen hexachloroplatinate (IV)-potassium iodide TS on the plate: the spots obtained from the sample solution and standard solution are blue-purple in color and have similar Rf value. pH <2.54> The pH of a solution of 0.1 g of Suxamethoni-um Chloride for Injection in 10 mL of water is between 4.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Take an amount of Sux-amethonium Chloride for Injection, equivalent to 0.25 g of Suxamethonium Chloride Hydrate, and proceed as directed in the Purity (2) under Suxamethonium Chloride Hydrate. Bacterial endotoxins <4.01> Less than 1.5 EU/mg. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the contents of not less than 10 preparations of Suxamethonium Chloride for Injection. Weigh accurately about 0.5 g of the contents, and proceed as directed in the Assay under Suxamethonium Chloride Hy-drate. Each mL of 0.1 mol/L perchloric acid VS Tacalcitol Hydrate"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

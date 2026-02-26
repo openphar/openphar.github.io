@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/ziziphi-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Ziziphi Fructus",
+    "ja": "タイソウ"
+  },
+  "monographId": "JP18-ziziphi-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ellipsoidal or broad ovoid fruit, 2 – 3 cm in length, 1 – 2 cm in diameter; externally red-brown with coarse wrinkles, or dark grayish red with fine wrinkles, and both lustrous; both ends slightly dented, with a scar of style on one end and a scar of peduncle on the other; epicarp thin and leather; mesocarp thick, dark grayish brown in color, spongy, soft and adhesive; endocarp extremely hard, fusiform, and divided into two loculi; seeds flat and ovoid. Odor, slight and characteristic; taste, sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rancidity—Jujube has no unpleasant, rancid odor and taste. (2) Total BHC's and total DDT's <5.01> Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

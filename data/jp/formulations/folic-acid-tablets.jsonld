@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/folic-acid-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Folic Acid Tablets",
+    "ja": "葉酸錠"
+  },
+  "monographId": "JP18-folic-acid-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Folic Acid Tablets contain not less than 90.0z and not more than 115.0z of the labeled amount of folic acid (C19H19N7O6: 441.40). Method of preparation Prepare as directed under Tablets, with Folic Acid. Identification (1) Take a quantity of powdered Folic Acid Tablets, equivalent to 1.5 mg of Folic Acid, add 100 mL of dilute sodium hydroxide TS, shake, and filter. Discard the first 10 mL of the filtrate, use the subsequent filtrate as the sample solution, and proceed as directed in the Identification (2) under Folic Acid. (2) Determine the absorption spectrum of the filtrate ob-tained in (1) as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 255 nm and 257 nm, between 281 nm and 285 nm and between 361 nm and 369 nm. Separately, determine the maximal absorbances of the filtrate, A1 and A2, between 255 nm and 257 nm and between 361 nm and 369 nm, respectively: the ratio of A1/A2 naphthylethylenediamine oxalate (1 in 1000), shake, allow to stand for 10 minutes, and add water to make exactly 20 mL. Separately, pipet 30 mL of the sample stock solution, add 20 mL of dilute hydrochloric acid, and add water to make exactly 100 mL. Pipet V mL of this solution, and add water to make exactly V? mL so that each mL contains about 15 mg of folic acid (C19H19N7O6)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Take a quantity of powdered Folic Acid Tablets, equivalent to 1.5 mg of Folic Acid, add 100 mL of dilute sodium hydroxide TS, shake, and filter. Discard the first 10 mL of the filtrate, use the subsequent filtrate as the sample solution, and proceed as directed in the Identification (2) under Folic Acid. (2) Determine the absorption spectrum of the filtrate ob-tained in (1) as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 255 nm and 257 nm, between 281 nm and 285 nm and between 361 nm and 369 nm. Separately, determine the maximal absorbances of the filtrate, A1 and A2, between 255 nm and 257 nm and between 361 nm and 369 nm, respectively: the ratio of A1/A2 naphthylethylenediamine oxalate (1 in 1000), shake, allow to stand for 10 minutes, and add water to make exactly 20 mL. Separately, pipet 30 mL of the sample stock solution, add 20 mL of dilute hydrochloric acid, and add water to make exactly 100 mL. Pipet V mL of this solution, and add water to make exactly V? mL so that each mL contains about 15 mg of folic acid (C19H19N7O6). With exactly 4 mL of this solu-tion perform the same procedure described above for ob-taining the sample solution, and use the solution so obtained as the blank solution. Determine the absorbances at 550 nm, AT, AS and AC, of the solutions obtained from the sample solution and standard solution, and the blank solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using a control solution obtained with 4 mL of water in the same manner as described above. Amount (mg) of folic acid (C19H19N7O6) ＝ MS × (AT － AC)/AS × V?/V × 1/10 MS: Amount (mg) of Folic Acid RS taken, calculated on the anhydrous basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Folic Acid Tablets is not less than 75z. Start the test with 1 tablet of Folic Acid Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent fil-trate, add water to make exactly V? mL so that each mL con- tains about 5.6 mg of folic acid (C H N O ), and use this 19 19 7 6 ‌JP XVIII Official Monographs / Formalin Water 1039‌ solution as the sample solution. Separately, weigh accurately about 20 mg of Folic Acid RS (separately determine the water <2.48> in the same manner as Folic Acid), and dissolve in the 2nd fluid for dissolution test to make exactly 100 mL. Pipet 2.5 mL of this solution, add the 2nd fluid for dissolu-tion test to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 280 nm of the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank. Dissolution rate (z) with respect to the labeled amount of folic acid (C19H19N7O6) ＝ MS × AT/AS × V?/V × 1/C × 45/2 MS: Amount (mg) of Folic Acid RS taken, calculated on the anhydrous basis C: Labeled amount (mg) of folic acid (C19H19N7O6) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Folic Acid Tablets. Weigh accurately a portion of the powder, equivalent to about 50 mg of folic acid (C19H19N7O6). Add 50 mL of dilute sodium hydroxide TS, shake frequently, then filter into a 100-mL volumetric flask, and wash with dilute sodium hydroxide TS. To the combined filtrate and washings add dilute sodium hydroxide TS to make exactly 100 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 50 mg of Folic Acid RS (separately, determine the water <2.48> in the same manner as Folic Acid), dissolve in dilute sodium hydroxide TS to make exactly 100 mL, and use this solution as the standard solution. Proceed with exactly 30 mL each of the sample so-lution and standard solution as directed in the Assay under Folic Acid. Amount (mg) of folic acid (C19H19N7O6) ＝ MS × (AT － AC)/AS MS: Amount (mg) of Folic Acid RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

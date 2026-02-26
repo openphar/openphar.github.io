@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/stearic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Stearic Acid",
+    "ja": "ステアリン酸"
+  },
+  "monographId": "JP18-stearic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "O2",
+  "molecularWeight": 284.48,
+  "definition": {
+    "en": "Stearic Acid is a mixture consisting mainly of stearic overall diameter at right angles to the rod. The inner tube with its jacket is supported centrally in a 1-L beaker contain-ing a suitable cooling liquid to within 20 mm of the top. A thermometer is supported in the cooling bath. Place in the inner tube sufficient quantity of the liquid or previously melted substance to be examined, to cover the thermometer bulb and determine the approximate congeal-ing point by cooling rapidly. Place the inner tube in a bath about 59C above the approximate congealing point until all but the last traces of crystals are melted. Fill the beaker with water or a saturated solution of sodium chloride, at a tem-perature about 59C lower than the expected congealing point, insert the inner tube into the outer tube, ensuring that some seed crystals are present, and stir thoroughly until solidification takes place. Note the highest temperature ob-served during solidification. The apparatus directed under Congealing Point Determi- nation <2.42> is also can be used. Transfer the melted sample into sample container B up to the marked line C. Adjust the immersion line H of thermometer F to the same level of the meniscus of the sample, and then determine the approximate congealing point by cooling rapidly. Place the sample con-tainer B in a bath at a temperature about 59C above the ap-proximate congealing point until all but the last traces of crystals are melted. Fill bath D with water or a saturated so-lution of sodium chloride, at a temperature about 59C lower than the expected congealing point, and set the sample con-tainer B in A. Ensuring that some seed crystals are present, stir thoroughly until solidification takes place. Note the highest temperature observed during solidification.◆ The congealing point of stearic acid 50 is 53 – 599C, of stearic acid 70 is 57 – 649C, and of stearic acid 95 is 64 – acid (C 18H36 O2: 284.48) and palmitic acid (C 16H32 O2: 699C. 256.42) obtained from fats or oils of vegetable or animal origin. It occurs as three types, stearic acid 50, stearic acid 70 and stearic acid 95, composed with different fatty acid composition. Each type contains respectively the amount of stearic acid and the sum of stearic acid and palmitic acid as shown in the following table."
+  },
+  "appearance": {
+    "en": "Stearic acid occurs as white, unctuous masses, crystalline masses or powder. It has a faint, fatty odor. It is soluble in ethanol (99.5), and practically insoluble in water.◆ Congealing point The apparatus consists of a test tube about 25 mm in diameter and 150 mm long placed inside a test tube about 40 mm in diameter and 160 mm long. The in-ner tube is closed by a stopper which carries a thermometer about 175 mm long and graduated in 0.29C fixed so that the upper end of◆ the bulb is about 15 mm above the bot- tom of the tube. The stopper has a hole allowing the passage of the stem of a stirrer made from a glass rod or other suita-ble material formed at one end into a loop of about 18 mm adding the 0.1 mol/L sodium thiosulfate VS dropwise until the color is discharged. Perform a blank determination in the same manner. When the iodine value is calculated by the following equation, that of stearic acid 50 and 70 is not more than 4.0, and of stearic acid 95 is not more than 1.5. Iodine value ＝ (a － b) × 1.269/M M: Amount (g) of Stearic Acid taken a: Volume (mL) of 0.1 mol/L sodium thiosulfate VS con-sumed in the blank determination b: Volume (mL) of 0.1 mol/L sodium thiosulfate VS con-sumed in the test"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Melt 5.0 g, shake for 2 minutes with 10 mL of hot carbon dioxide-free water, cool slowly and filter. To the filtrate add 0.05 mL of methyl orange TS: no red color develops. (2) Heavy metals <1.07>—Proceed with 1.0 g of Stearic Acid according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm).◆ ‌Residue on ignition <2.44> Not more than 0.1z (1 g).◆ not more than 3.0z. Furthermore, the relative standard de-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Place 0.100 g of Stearic Acid in a ◆small◆ conical flask fitted with a reflux condenser. Add 5.0 mL of boron trifluoride-methanol TS, ◆shake, and◆ boil under reflux for about 10 minutes ◆to dissolve.◆ Add 4 mL of heptane through the condenser, and boil again under reflux for 10 minutes. Allow to cool, add 20 mL of a saturated solution of sodium chloride, shake and allow the layers to separate. Remove 2 mL of the separated heptane layer, and dry it over about 0.2 g of anhydrous sodium sulphate, ◆previously washed with heptane.◆ Take 1.0 mL of the dried heptane layer in a 10-mL volumetric flask, add heptane to make up to 10 mL, and use this solution as the sample solution. Per- viation of the ratio of the peak area of methyl palmitate to the peak area of methyl stearate obtained from the 6-time repetition is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

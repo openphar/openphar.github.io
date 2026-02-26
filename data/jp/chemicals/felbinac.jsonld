@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/felbinac",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Felbinac",
+    "ja": "フェルビナク"
+  },
+  "monographId": "JP18-felbinac",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H12O2",
+  "molecularWeight": 212.24,
+  "definition": {
+    "en": "Felbinac, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Felbinac occurs as white to pale yellow-white, crystals or crystalline powder. It is soluble in methanol and in acetone, sparingly soluble in ethanol (95), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Felbinac in ethanol (95) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Fel-binac as directed in the potassium bromide disc method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Felbinac in 40 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution by combining 0.30 mL of 0.01 mol/L hydrochloric acid VS, 40 mL of acetone and 6 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.011z). Heavy metals <1.07>—Proceed with 1.0 g of Felbinac according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Felbinac in 10 mL of acetone, and use this solution as the sample solution. Amount [mg (potency)] of faropenem (C ＝ MS × QT/QS 12H15NO5S) Pipet 2 mL of the sample solution, and add acetone to make exactly 100 mL. Pipet 5 mL of the sample solution, add acetone to make exactly 50 mL, and use this solution as the MS: Amount [mg (potency)] of Faropenem Sodium RS taken Internal standard solution—Dissolve 0.5 g of m-hydorxya-cetophenone in 20 mL of acetonitrile, and add water to make 200 mL."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 5 Faro-penem Sodium Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 25 mg (potency) of faropenem (C12H15NO5S), add exactly 10 mL of the inter-nal standard solution, shake well, and add water to make 50 mL. Filter, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 25 mg (potency) of Faropenem Sodium RS, add exactly 10 mL of the internal standarad solution and water to make 50 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Faropenem Sodium Hydrate. Description Felbinac occurs as white to pale yellow-white, crystals or crystalline powder. It is soluble in methanol and in acetone, sparingly soluble in ethanol (95), and practically insoluble in water. Identification (1) Determine the absorption spectrum of a solution of Felbinac in ethanol (95) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Fel-binac as directed in the potassium bromide disc method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Melting point <2.60> 163 – 1669C Purity (1) Chloride <1.03>—Dissolve 1.0 g of Felbinac in 40 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution by combining 0.30 mL of 0.01 mol/L hydrochloric acid VS, 40 mL of acetone and 6 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.011z). Heavy metals <1.07>—Proceed with 1.0 g of Felbinac according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Felbinac in 10 mL of acetone, and use this solution as the sample solution. Amount [mg (potency)] of faropenem (C ＝ MS × QT/QS 12H15NO5S) Pipet 2 mL of the sample solution, and add acetone to make exactly 100 mL. Pipet 5 mL of the sample solution, add acetone to make exactly 50 mL, and use this solution as the MS: Amount [mg (potency)] of Faropenem Sodium RS taken Internal standard solution—Dissolve 0.5 g of m-hydorxya-cetophenone in 20 mL of acetonitrile, and add water to make 200 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

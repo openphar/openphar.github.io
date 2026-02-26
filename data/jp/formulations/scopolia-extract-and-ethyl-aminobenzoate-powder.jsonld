@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/scopolia-extract-and-ethyl-aminobenzoate-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Scopolia Extract and Ethyl Aminobenzoate Powder",
+    "ja": "ロートエキス・アネスタミン散"
+  },
+  "monographId": "JP18-scopolia-extract-and-ethyl-aminobenzoate-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Scopolia Extract and Ethyl Aminobenzoate Powder contains not less than 22."
+  },
+  "appearance": {
+    "en": "Scopolia Extract and Ethyl Aminobenzoate Powder is slightly brownish white in color. It has a slightly bitter taste, leaving a sensation of numbness on the tongue. ‌Identification (1) To 2 g of Scopolia Extract and Ethyl Aminobenzoate Powder add 20 mL of diethyl ether, shake, and filter through a glass filter (G4). Wash the residue with three 10-mL portions of diethyl ether, combine the filtrate and the washings, evaporate to dryness, and perform the fol-lowing test with the residue (ethyl aminobenzoate). Dissolve 0.01 g of the residue in 1 mL of dilute hydro-chloric acid and 4 mL of water: the solution responds to Qualitative Tests <1.09> for primary aromatic amines. Dissolve 0.1 g of the residue in 5 mL of water with the aid of dilute hydrochloric acid added dropwise, and add iodine TS dropwise: a brown precipitate is produced. Warm 0.05 g of the residue with 2 drops of acetic acid (31) and 5 drops of sulfuric acid: the odor of ethyl ace-tate is perceptible. To the diethyl ether-insoluble residue obtained in (1) add 30 mL of water, shake gently, and filter: the filtrate responds to Qualitative Tests <1.09> for sodium salt and for bicarbonate. To the water-insoluble residue obtained in (2) add 10 mL of dilute hydrochloric acid, shake, and filter: the filtrate responds to Qualitative Tests <1.09> for magnesium salt. Place 30 g of Scopolia Extract and Ethyl Aminoben-zoate Powder in a glass-stoppered conical flask, add 100 mL of water, shake for 30 minutes, and filter immediately by suction through a glass filter (G3). Transfer the residue in the flask to the same glass filter with the filtrate, and filter the residue by suction while pressing vigorously the residue on the same glass filter. Place 75 mL of the filtrate in a 300-mL beaker, and add cautiously 10 mL of diluted sulfuric acid (1 in 3). Add 0.2 mL of bromocresol green TS to this so-lution, and add dilute sulfuric acid dropwise while shaking thoroughly, until the color of the solution changes from green to yellow-green. After cooling, place this solution in a separator, wash with two 25-mL portions of a mixture of hexane and diethyl ether (1:1) by shaking well, and place the aqueous layer in another separator. Make slightly alkaline with ammonia TS, add immediately 30 mL of diethyl ether, and shake well. Wash the diethyl ether layer with two 10-mL portions of a saturated solution of sodium chloride, separate the diethyl ether layer, add 3 g of anhydrous sodium sulfate, shake, and filter through a pledget of cotton. Evaporate the filtrate to dryness, dissolve the residue in 0.2 mL of ethanol (95), and use this solution as the sample solution. Separately, dissolve 2 mg of Atropine Sulfate RS or atropine sulfate hy-drate for thin-layer chromatography and 1 mg of Scopola-mine Hydrobromide RS or scopolamine hydrobromide hy-drate for thin-layer chromatography in 1 mL each of ethanol (95), and use these solutions as standard solution (1) and standard solution (2), respectively. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution, standard solution (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ace-tone, water and ammonia solution (28) (90:7:3) to a distance of about 10 cm, and dry the plate at 809C for 10 minutes. After cooling, spray evenly Dragendorff's TS for spraying on the plate: two principal spots obtained from the sample solution show the same color tone and the same Rf value with each spot from the standard solutions, respectively."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Scopolia Extract and Ethyl Aminobenzoate Powder, transfer to a Soxhlet ex-tractor, extract with 100 mL of diethyl ether for 1 hour, and evaporate the solvent on a water bath. Dissolve the residue in 25 mL of 1 mol/L hydrochloric acid TS, and add water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 250 mL, and use this solution as the sample solution. Weigh accurately about 75 mg of Ethyl Aminoben-zoate RS, previously dried in a desiccator (silica gel) for 3 hours, dissolve in 25 mL of 1 mol/L hydrochloric acid TS, and add water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 250 mL, and use this so-lution as the standard solution. Pipet 5 mL each of the sample solution and standard solution, to each add 10 mL of 1 mol/L hydrochloric acid TS, then add 1 mL of a solution of sodium nitrite (1 in 200), prepared before use, and allow to stand for 5 minutes with occasional shaking. Add 5 mL of ammonium amidosulfate TS, shake well, and allow to stand for 10 minutes. Add 2 mL of N-N-diethyl-N?-1-naphthylethylenediamine oxalate-acetone TS, mix immedi-ately, and add water to make exactly 50 mL. Allow to stand for 2 hours, determine the absorbances, AT and AS, of these solutions at 550 nm, as directed under Ultraviolet-visible Spectrophotometry <2.24> using a blank prepared in the same manner with 5 mL of water in place of the sample solu-tion. Amount (mg) of ethyl aminobenzoate (C9H11NO2) ＝ MS × AT/AS MS: Amount (mg) of Ethyl Aminobenzoate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Powder"
+}

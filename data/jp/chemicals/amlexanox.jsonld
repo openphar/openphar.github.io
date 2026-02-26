@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amlexanox",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amlexanox",
+    "ja": "アンレキサノクス"
+  },
+  "monographId": "JP18-amlexanox",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H14N2O4",
+  "molecularWeight": 298.29,
+  "definition": {
+    "en": "Amlexanox, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Amlexanox occurs as white to yellowish white, crystals or crystalline powder. It is very slightly soluble in ethanol (99.5), and practically insoluble in water. It dissolves in diluted sodium hydroxide TS (1 in 3)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Amlexanox in ethanol (99.5) (1 in 250,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Amlexanox RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Am-lexanox as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Amlexanox RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Amlexanox in 20 mL of water and 10 mL of sodium hydroxide TS, add 15 mL of dilute nitric acid and water to make 50 mL, centri-fuge, and then filter the supernatant liquid. To 25 mL of this filtrate add water to make 50 mL. Perform the test using this solution as the test solution. The control solution consists of 5 mL of sodium hydroxide TS, 7.5 mL of dilute nitric acid, 0.30 mL of 0.01 mol/L hydrochloric acid VS, and water ad-ded to make 50 mL (not more than 0.021z). Heavy metals <1.07>—Proceed with 1.0 g of Amlexa- nox according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—(i) Dissolve 30 mg of Amlexa-nox in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make exactly 50 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of these solutions by the automatic integration method: the area of the peak other than amlexanox obtained from the sample solution is not larger than 2 times the peak area of amlexanox from the standard solution. Operating conditions— The detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating condi-tions in the Assay. Mobile phase: Dissolve 7.2 g of disodium hydrogen phos-phate dodecahydrate in water to make 1000 mL. Adjust the pH of this solution to 8.0 by adding a solution prepared by dissolving 3.1 g of sodium dihydrogen phosphate dihydrate in 1000 mL of water. To 400 mL of this solution add 600 mL of acetonitrile. Flow rate: To 15 mL of a solution of benzophenone in the mobile phase (3 in 1,000,000) add the mobile phase to make 20 mL. Adjust so that the retention time of benzophenone is about 6.5 minutes when perform the test with 10 mL of this solution under the conditions described above. Time span of measurement: About 3 times as long as the retention time of benzophenone, beginning after the peak of amlexanox. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 50 mL. Confirm that the peak area of amlexanox obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Pipet 1 mL of the sample solution, and add the mobile phase to make 100 mL. To 5 mL of this solution add 15 mL of the solution of benzophenone in the mobile phase (3 in 1,000,000). When perform the test with 10 mL of this solution according to the above conditions, amlexanox and benzophenone are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amlexanox is not more than 2.0z. (iii) The total amount of related substances, when calcu-lated according to the following formula, is not more than 0.5z. Total amount (z) of related substances ＝ {(AT1/AS1) ＋ (AT2/AS2)}× 1/10 Time span of measurement: Until completion of the elution of amlexanox, beginning after the solvent peak. System suitability— AT1 : Total area of the peaks other than amlexanox from the sample solution obtained in (i) System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 10 mL of the stand-ard solution, and add the mobile phase to make exactly 100 mL. Confirm that the peak area of amlexanox obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amlexanox is not more than 2.0z. (ii) Dissolve 30 mg of Amlexanox in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make exactly 50 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area of these so-lutions by the automatic integration method: the area of the AT2: Total area of the peaks other than amlexanox from the sample solution obtained in (ii) AS1: Peak area of amlexanox from the standard solution obtained in (i) AS2: Peak area of amlexanox from the standard solution obtained in (ii) Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Amlexanox and Amlexanox RS, both dried, and dissolve them separately in the mobile phase to make exactly 50 mL. Pipet 5 mL each of these solutions, and add exactly 15 mL of the internal standard solution, and use these solutions as the sample so-lution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of amlexanox to that of the in-ternal standard, respectively. peak other than amlexanox obtained from the sample solu-tion is not larger than 2 times the peak area of amlexanox Amount (mg) of amlexanox (C 16H14N2O4) ＝ M S × QT/QS from the standard solution. Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Assay. MS: Amount (mg) of Amlexanox RS taken Internal standard solution—A solution of 3-nitroaniline in the mobile phase (1 in 4000). ‌JP XVIII Official Monographs / Amlexanox Tablets 455 Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.0 mm in inside diame- 50 mL. Pipet 25 mL of this solution, add exactly 10 mL of the internal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Amlexanox. ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about Amount (mg) of amlexanox (C ＝ MS × QT/QS × V/200 16H14N2O4) 259C. Mobile phase: Dissolve 17.9 g of disodium hydrogen phos-phate dodecahydrate in water to make 1000 mL. Adjust the pH of this solution to 8.0 by adding a solution prepared by dissolving 7.8 g of sodium dihydrogen phosphate dihydrate in 1000 mL of water. To 760 mL of this solution add 240 mL of acetonitrile. Flow rate: Adjust so that the retention time of amlexanox is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution according to the above condi-tions, amlexanox and the internal standard are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above condi-tions, the relative standard deviation of the ratio of the peak area of amlexanox to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

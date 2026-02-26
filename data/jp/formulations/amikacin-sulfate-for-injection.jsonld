@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amikacin-sulfate-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amikacin Sulfate for Injection",
+    "ja": "注射用アミカシン硫酸塩"
+  },
+  "monographId": "JP18-amikacin-sulfate-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amikacin Sulfate for Injection is a preparation for injection, which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Amikacin Sulfate for Injection occurs as white to yellow-white masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve an amount of Amikacin Sulfate for Injection, equivalent to 25 mg (potency) of Amikacin Sul-fate, in 1 mL of water, and use this solution as the sample solution. Separately, dissolve 25 mg (potency) of Amikacin Sulfate RS in 1 mL of water, and use this solution as the standard solution. Then, proceed as directed in the Identifi-cation (2) under Amikacin Sulfate. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> Dissolve an amount of Amikacin Sulfate for In-jection, equivalent to 0.1 g (potency) of Amikacin Sulfate, in 10 mL of water: the pH of this solution is 6.0 to 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve an amount of Amikacin Sulfate for Injection, equivalent to 0.5 g (po-tency) of Amikacin Sulfate, in 5 mL of water: the solution is clear, and the absorbance at 405 nm of the solution deter-mined as directed under Ultraviolet-visible Spectrophotome-try <2.24> is not more than 0.15. Loss on drying <2.41> Not more than 4.0z (1 g, in vacu-um, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the content of not less than 10 Amikacin Sulfate for Injection. Weigh accurately a portion of the content, equivalent to about 50 mg (potency) of Amikacin Sulfate, dissolve in water to make exactly 50 mL. Separately, weigh accurately an amount of Amikacin Sulfate RS, equivalent to about 50 mg (potency), and dis-solve in water to make exactly 50 mL. Transfer exactly 200 mL each of these solutions to separate glass stoppered tubes, and proceed as directed in the Assay under Amikacin Sul-fate."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

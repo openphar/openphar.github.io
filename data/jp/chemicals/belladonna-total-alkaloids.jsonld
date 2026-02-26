@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/belladonna-total-alkaloids",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Belladonna Total Alkaloids",
+    "ja": "ベラドンナ総アルカロイド"
+  },
+  "monographId": "JP18-belladonna-total-alkaloids",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Belladonna Total Alkaloids contains not less than 95."
+  },
+  "appearance": {
+    "en": "Belladonna Total Alkaloids occurs as white, crystals or crystalline powder. It is very soluble in methanol, freely soluble in ethanol (99.5), and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 2 mg of Belladonna Total Alkaloids in 1 mL of ethanol (95), and use this solution as the sample solution. Then proceed as directed in the Identification under Belladonna Root. D Optical rotation <2.49> [a]20: －18.5 – －22.09(after dry-ing, 1 g, ethanol (99.5), 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Place 1.0 g of Bella-donna Total Alkaloids in a porcelain crucible, and mix with 1.2 mL of dilute hydrochloric acid. Mix with 10 mL of a so-lution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and after evaporating the solvent on a boiling water bath, carbonize by gradual heating. Then proceed according to Method 4, and perform the test. The control solution is prepared as follows: Mix 1.2 mL of dilute hydrochloric acid with 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and evaporate the solvent on a boil-ing water bath. After cooling, add 1 mL of sulfuric acid, then proceed according to Method 4, and add 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). (2) Arsenic <1.11>—Prepare the test solution with 2.0 g of Belladonna Total Alkaloids according to Method 4, and perform the test (not more than 1 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 609C, 6 hours). Residue on ignition <2.44> Not more than 0.2z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg of Belladonna Total Alkaloids, and dissolve in methanol to make exactly 25 mL. Pipet 5 mL of this solution, add exactly 3 mL of the internal standard solution and the mobile phase to make 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Atropine Sulfate RS (separately determine the loss on drying <2.41> under the same condi-tions as Atropine Sulfate Hydrate), dissolve in the mobile phase to make exactly 25 mL, and use this solution as the standard stock solution (1). Also, weigh accurately about 25 mg of Scopolamine Hydrobromide RS (separately determine the loss on drying <2.41> under the same conditions as Scopolamine Hydrobromide Hydrate), and dissolve in the mobile phase to make exactly 25 mL. Pipet 3 mL of this so-lution, add the mobile phase to make exactly 25 mL, and use this solution as the standard stock solution (2). Take exactly 5 mL of standard stock solution (1), add exactly 2 mL of the ‌JP XVIII Crude Drugs and Related Drugs / Benincasa Seed 1959 standard stock solution (2), and add exactly 3 mL of the in-ternal standard solution. To this solution add the mobile phase to make 25 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QTA and QSA, of the peak area of hyoscyamine (atropine) to that of the internal standard and the ratios, QTS and QSS, of the peak area of scopolamine to that of the internal standard. Then calculate the amounts of hyoscyamine and scopolamine using the following equa-tions. The amount of the total alkaloids is obtained as the sum of them. Benincasa Seed Benincasae Semen"
+      }
+    }
+  ]
+}

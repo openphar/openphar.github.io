@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/vinblastine-sulfate-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Vinblastine Sulfate for Injection",
+    "ja": "注射用ビンブラスチン硫酸塩"
+  },
+  "monographId": "JP18-vinblastine-sulfate-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Vinblastine Sulfate for Injection is a preparation for injection, which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Vinblastine Sulfate for Injection occurs as white to pale yellow, light masses or powder. It is freely soluble in water. The pH of a solution (1 in 1000) is 3.5 – 5.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification (1) under Vinblastine Sulfate. ‌Purity Related substances—Dissolve 4 mg of Vinblastine Sulfate for Injection in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 200 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak other than vinblastine obtained from the sample solution is not larger than 1/2 times the peak area of vinblastine from the stand-ard solution, and the total area of the peaks other than vin-blastine from the sample solution is not larger than 2 times the peak area of vinblastine from the standard solution. Operating conditions— Perform as directed in the operating conditions in Purity (2) under Vinblastine Sulfate. System suitability— Perform as directed in the system suitability in Purity (2) under Vinblastine Sulfate. Bacterial endotoxins <4.01> Less than 10 EU/mg. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Dissolve 1 Vinblastine Sulfate for Injection in water to make exactly V mL so that each mL contains about 0.4 mg of vinblastine sulfate (C46H58N4O9.H2SO4), and use this solu-tion as the sample solution. Separately, weigh accurately about 10 mg of Vinblastine Sulfate RS (previously determine the loss on drying under the same conditions as Vinblastine Sulfate), dissolve in water to make exactly 25 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Vinblastine Sulfate. Amount (mg) of vinblastine sulfate (C46H58N4O9.H2SO4) ＝ MS × AT/AS × 25/V MS: Amount (mg) of Vinblastine Sulfate RS taken, calcu-lated on the dried basis Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take an amount of Vinblastine Sulfate for Injection, equivalent to 0.10 g of vinblastine sulfate (C46H58N4O9.H2SO4), dissolve each content with a suitable amount of water, transfer into a 100-mL volumetric flask, wash each container with water, transfer the washings into the volumetric flask, and add water to make exactly 100 mL. Pipet 10 mL of this solution, add water to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Vinblastine Sulfate RS (previously determine the loss on drying under the same con-ditions as Vinblastine Sulfate), dissolve in water to make ex-actly 25 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Vinblastine Sulfate. and colored containers may be used. Storage—Light-resistant, at 2 to 89C. Vincristine Sulfate"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

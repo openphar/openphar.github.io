@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/propyphenazone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Propyphenazone",
+    "ja": "イソプロピルアンチピリン"
+  },
+  "monographId": "JP18-propyphenazone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H18N2O",
+  "molecularWeight": 230.31,
+  "casNumber": "479-92-5",
+  "appearance": {
+    "en": "Isopropylantipyrine occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is very soluble in acetic acid (100), freely soluble in ethanol (95) and in acetone, soluble in diethyl ether, and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Isopropylan-tipyrine (1 in 500) add 1 drop of iron (III) chloride TS: a light red color develops. Further add 3 drops of sulfuric acid to this solution: the color changes to pale yellow. Add 5 mL of a solution of Isopropylantipyrine (1 in 500) to a mixture of 5 mL of potassium hexacyanoferrate (III) TS and 1 to 2 drops of iron (III) chloride TS: a dark green color gradually develops. To 2 mL of a solution of Isopropylantipyrine (1 in 500) add 2 to 3 drops of tannic acid TS: a white precipitate is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Isopropyl-antipyrine in 30 mL of dilute ethanol, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.40 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid, 30 mL of dilute ethanol and water to make 50 mL (not more than 0.014z). Sulfate <1.14>—Dissolve 1.0 g of Isopropylantipyrine in 30 mL of dilute ethanol, and add 1 mL of dilute hydro-chloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.40 mL of 0.005 mol/L sulfuric acid VS add 1 mL of dilute hydrochloric acid and 30 mL of dilute ethanol, and dilute with water to make 50 mL (not more than 0.019z). Heavy metals <1.07>—Dissolve 1.0 g of Isopropylan- tipyrine in 25 mL of acetone, add 2 mL of dilute acetic acid ‌1204 and water to make 50 mL, and perform the test using this so-lution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid, 25 mL of acetone, and dilute with water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Isopropylantipyrine according to Method 3, and perform the test (not more than 2 ppm). Antipyrine—Dissolve 1.0 g of Isopropylantipyrine in 10 mL of dilute ethanol, and add 1 mL of sodium nitrite TS and 1 mL of dilute sulfuric acid: no green color develops. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Isopropylantipy-rine, previously dried, dissolve in 60 mL of a mixture of ace-tic acid (100) and acetic anhydride (2:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 23.03 mg of C14H18N2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

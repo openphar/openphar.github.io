@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/benzalkonium-chloride-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Benzalkonium Chloride Solution",
+    "ja": "ベンザルコニウム塩化物液"
+  },
+  "monographId": "JP18-benzalkonium-chloride-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Benzalkonium Chloride Solution is an aqueous solution containing not more than 50.0 w/vz of ben-zalkonium chloride. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Benzalkonium Chloride Solution is a clear, colorless to light yellow liquid, having a characteristic odor. Description Benzalkonium Chloride Concentrated Solu-tion 50 is a colorless to light yellow liquid or jelly-like fluid, and has a characteristic odor. It is very soluble in water and in ethanol (95), and practi-cally insoluble in diethyl ether. A solution prepared by adding water to it vigorously foams when shaken."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.4 g of Benzalkonium Chlo-ride Concentrated Solution 50 in 1 mL of sulfuric acid, add 0.1 g of sodium nitrate, and heat for 5 minutes on a water bath. After cooling, add 10 mL of water and 0.5 g of zinc powder, heat for 5 minutes, cool, and filter: the filtrate re-sponds to Qualitative Tests <1.09> for primary aromatic amines. The color of the solution is red. To 2 mL of a solution of Benzalkonium Chloride Concentrated Solution 50 (1 in 500) add a mixture of 0.2 mL of a solution of bromophenol blue (1 in 2000) and 0.5 mL of sodium hydroxide TS: a blue color develops. Add 4 mL of chloroform to this solution, and shake vigorously: the blue color shifts to the chloroform layer. Collect the chloroform layer, and add dropwise, with stirring, a solution of sodium ‌JP XVIII Official Monographs / Benzbromarone 521 lauryl sulfate (1 in 1000): the chloroform layer turns color-less. Determine the absorption spectrum of a solution of Benzalkonium Chloride Concentrated Solution 50 in 0.1 mol/L hydrochloric acid TS (1 in 1000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum of Benzalkonium Chloride: both spectra exhibit similar intensities of absorp-tion at the same wavelengths. To 1 mL of a solution of Benzalkonium Chloride Concentrated Solution 50 (1 in 50) add 2 mL of ethanol (95), 0.5 mL of dilute nitric acid and 1 mL of silver nitrate TS: a white precipitate is produced. This precipitate does not dis-solve on the addition of dilute nitric acid, but dissolves on the addition of ammonia TS."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.0 g of Benzalkonium Chloride Concentrated Solution 50 in 10 mL of water: the solution is clear and colorless to light yel-low. (2) Petroleum ether-soluble substances—To 6.0 g of Benzalkonium Chloride Concentrated Solution 50 add water to make 50 mL, then add 50 mL of ethanol (99.5) and 5 mL of 0.5 mol/L sodium hydroxide TS, and extract with three 50-mL portions of petroleum ether. Combine the petroleum ether extracts, and wash with three 50-mL portions of dilute ethanol. After shaking well with 10 g of anhydrous sodium sulfate, filter through a dry filter paper, and wash the filter paper with two 10-mL portions of petroleum ether. Evaporate the petroleum ether on a water bath by heating, and dry the residue at 1059C for 1 hour: the residue is not more than 1.0z. Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Benzalkonium Chloride Concentrated Solution 50, and dissolve in 75 mL of water. Adjust the pH to between 2.6 and 3.4 by adding dropwise diluted dilute hydrochloric acid (1 in 2), add 1 drop of methyl orange TS, and titrate <2.50> with 0.02 mol/L sodium tetraphenylboron VS until the color of the solution becomes red. Each mL of 0.02 mol/L sodium tetraphenylborate VS ＝ 7.080 mg of C22H40ClN"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

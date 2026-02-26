@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/japanese-valerian",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-japanese-valerian",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Japanese Valerian",
+    "la": "Valerianae Fauriei Radix",
+    "ja": "カノコソウ"
+  },
+  "definition": {
+    "en": "not less than 0"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/japanese-valerian-valeriana-fauriei-briquet"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

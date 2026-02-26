@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/folic-acid",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Folic Acid",
+    "ja": "葉酸"
+  },
+  "monographId": "JP18-folic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Folic Acid contains not less than 98."
+  },
+  "appearance": {
+    "en": "Folic Acid occurs as a yellow to orange-yellow crystalline powder. It is odorless. It is practically insoluble in water, in methanol, in ethanol (95), in pyridine and in diethyl ether. It dissolves in hydrochloric acid, in sulfuric acid, in dilute sodium hydroxide TS and in a solution of sodium carbonate decahydrate (1 in 100), and these solutions are yellow in color. It is slowly affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1.5 mg of Folic Acid in dilute sodium hydroxide TS to make 100 mL. Determine the ab-sorption spectrum of the solution as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Folic Acid RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) To 10 mL of the solution obtained in (1) add 1 drop of potassium permanganate TS, and mix well until the color changes to blue, and immediately observe under ultraviolet light (main wavelength: 365 nm): a blue fluorescence is pro-duced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Folic Acid in 10 mL of dilute sodium hydroxide TS : the solution is clear and yellow in color. (2) Free amines—Pipet 30 mL of the sample solution ob-tained in the Assay, add 20 mL of dilute hydrochloric acid and water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of p-Aminobenzoyl Glutamic Acid for Purity RS, previ-ously dried in a desiccator (in vacuum, silica gel) for 4 hours, dissolve in diluted ethanol (2 in 5) to make exactly 100 mL. Pipet 3 mL of this solution, add water to make exactly 1000 mL, and use this solution as the standard solution. Pipet 4 mL each of the sample solution and standard solution, proceed as directed in the Assay, and perform the test as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Determine the absorbances, AT and AS, of subsequent solu-tions of the sample solution and standard solution at 550 nm: the content of free amines is not more than 1.0z. solution of sodium nitrite (1 in 1000), mix well, and allow to stand for 2 minutes. To each solution add 1 mL of a solution of ammonium amidosulfate (1 in 200), mix thoroughly, and allow to stand for 2 minutes. To each of these solutions, add 1 mL of a solution of N-(1-naphthyl)-N?-diethylethylenedia-mine oxalate (1 in 1000), shake, allow to stand for 10 minutes, and add water to make exactly 20 mL. Separately, to 30 mL of the sample solution, accurately measured, add 20 mL of dilute hydrochloric acid and water to make exactly 100 mL. Pipet 10 mL of this solution, add 18 mL of dilute hydrochloric acid and water to make exactly 100 mL. Pipet 4 mL of this solution, and prepare the blank solution in the same manner as the sample solution. Perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution prepared with 4 mL of water in the same manner as a blank. Determine the absor-bances, AT, AS and AC, of the subsequent solution of the sample solution, the standard solution and the blank solu-tion at 550 nm. Amount (mg) of folic acid (C19H19N7O6) ＝ MS × (AT － AC)/AS MS: Amount (mg) of Folic Acid RS taken, calculated on the anhydrous basis"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Folic Acid and Folic Acid RS (separately, determine the water <2.48> in the same manner as Folic Acid). To each add 50 mL of dilute sodium hydroxide TS, mix well to dissolve, add dilute so-dium hydroxide TS to make exactly 100 mL, and use these solutions as the sample solution and standard solution. To 30 mL each of these solutions, accurately measured, add 20 mL of dilute hydrochloric acid and water to make exactly 100 mL. Pipet 60 mL each of these solutions add 0.5 g of zinc powder, and allow to stand with frequent shaking for 20 minutes. Filter each mixture through a dry filter paper, and discard the first 10 mL of the filtrate. Pipet 10 mL each of the subsequent filtrate, and add water to make exactly 100 lated on the anhydrous basis. 19 19 7 6 mL. To 4 mL each of solutions, accurately measured, add 1 mL of water, 1 mL of dilute hydrochloric acid and 1 mL of a Description Folic Acid occurs as a yellow to orange-yellow crystalline powder. It is odorless. It is practically insoluble in water, in methanol, in ethanol (95), in pyridine and in diethyl ether. It dissolves in hydrochloric acid, in sulfuric acid, in dilute sodium hydroxide TS and in a solution of sodium carbonate decahydrate (1 in 100), and these solutions are yellow in color. It is slowly affected by light. Identification (1) Dissolve 1.5 mg of Folic Acid in dilute sodium hydroxide TS to make 100 mL. Determine the ab-sorption spectrum of the solution as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Folic Acid RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) To 10 mL of the solution obtained in (1) add 1 drop of potassium permanganate TS, and mix well until the color changes to blue, and immediately observe under ultraviolet light (main wavelength: 365 nm): a blue fluorescence is pro-duced. Purity (1) Clarity and color of solution—Dissolve 0.10 g of Folic Acid in 10 mL of dilute sodium hydroxide TS : the solution is clear and yellow in color. (2) Free amines—Pipet 30 mL of the sample solution ob-tained in the Assay, add 20 mL of dilute hydrochloric acid and water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of p-Aminobenzoyl Glutamic Acid for Purity RS, previ-ously dried in a desiccator (in vacuum, silica gel) for 4 hours, dissolve in diluted ethanol (2 in 5) to make exactly 100 mL. Pipet 3 mL of this solution, add water to make exactly 1000 mL, and use this solution as the standard solution. Pipet 4 mL each of the sample solution and standard solution, proceed as directed in the Assay, and perform the test as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Determine the absorbances, AT and AS, of subsequent solu-tions of the sample solution and standard solution at 550 nm: the content of free amines is not more than 1.0z. solution of sodium nitrite (1 in 1000), mix well, and allow to stand for 2 minutes. To each solution add 1 mL of a solution of ammonium amidosulfate (1 in 200), mix thoroughly, and allow to stand for 2 minutes. To each of these solutions, add 1 mL of a solution of N-(1-naphthyl)-N?-diethylethylenedia-mine oxalate (1 in 1000), shake, allow to stand for 10 minutes, and add water to make exactly 20 mL. Separately, to 30 mL of the sample solution, accurately measured, add 20 mL of dilute hydrochloric acid and water to make exactly 100 mL. Pipet 10 mL of this solution, add 18 mL of dilute hydrochloric acid and water to make exactly 100 mL. Pipet 4 mL of this solution, and prepare the blank solution in the same manner as the sample solution. Perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution prepared with 4 mL of water in the same manner as a blank. Determine the absor-bances, AT, AS and AC, of the subsequent solution of the sample solution, the standard solution and the blank solu-tion at 550 nm. Amount (mg) of folic acid (C19H19N7O6) ＝ MS × (AT － AC)/AS MS: Amount (mg) of Folic Acid RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

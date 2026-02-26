@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/proglumide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Proglumide",
+    "ja": "プログルミド"
+  },
+  "monographId": "JP18-proglumide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H26N2O4",
+  "molecularWeight": 334.41,
+  "definition": {
+    "en": "Proglumide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Proglumide occurs as white, crystals or crystal-line powder. It is freely soluble in methanol, soluble in ethanol (95), sparingly soluble in diethyl ether, and very slightly soluble in water. A solution of Proglumide in methanol (1 in 10) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Put 0.5 g of Proglumide in a round bot-tom tube, add 5 mL of hydrochloric acid, seal the tube, and heat the tube carefully at 1209C for 3 hours. After cooling, open the tube, filter the content to collect crystals separated out, wash the crystals with 50 mL of cold water, and dry at 1009C for 1 hour: the melting point <2.60> of the crystals is between 1219C and 1249C. (2) Determine the infrared absorption spectrum of Proglumide, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of cyclohexane, ethyl acetate, acetic acid (100) and methanol (50:18:5:4) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution. Loss on drying <2.41> Not more than 0.10z (1 g, reduced pressure, phosphorus (V) oxide, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.16 g of Proglumide, previ-ously dried, dissolve in 40 mL of methanol, add 10 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 33.44 mg of C18H26N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

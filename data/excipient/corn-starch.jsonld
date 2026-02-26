@@ -1,0 +1,93 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/excipient/corn-starch",
+  "@type": "ChemicalDrugMonograph",
+
+  "prefLabel": {
+    "en": "Corn Starch",
+    "ja": "とうふん粉"
+  },
+
+  "altLabel": [
+    { "@value": "Maize Starch", "@language": "en" },
+    { "@value": "Starch", "@language": "en" }
+  ],
+
+  "monographId": "JP18-Ex002",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Corn Starch is obtained from the grain of Zea mays Linné (Gramineae)."
+  },
+
+  "molecularFormula": "(C6H10O5)n",
+  "molecularWeight": 162.14,
+  "casNumber": "9005-25-8",
+
+  "appearance": {
+    "en": "White fine powder, odorless, tasteless"
+  },
+
+  "solubility": {
+    "en": "Practically insoluble in cold water and in ethanol (95)"
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Mount a small amount of Corn Starch in glycerol R and examine under microscope: the granules are rounded or polyhedral, 5-30 μm in diameter, with concentric striations visible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Clarity of Solution"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Shake 1.0 g with 20 mL of water, boil for 1 minute, cool: the solution is not more than slightly turbid."
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 14.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Total Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "TotalAsh",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.5,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageConditions": {
+    "en": "Store in a dry place"
+  }
+}

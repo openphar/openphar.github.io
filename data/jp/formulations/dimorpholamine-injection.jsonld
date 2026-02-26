@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dimorpholamine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dimorpholamine Injection",
+    "ja": "ジモルホラミン注射液"
+  },
+  "monographId": "JP18-dimorpholamine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dimorpholamine Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Dimorpholamine Injection is a clear, colorless liquid. pH: 3.0 – 5.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Dimorpholamine Injec-tion, equivalent to 0.1 g of Dimorpholamine, add 3 drops of Dragendorff's TS: an orange color develops. To a volume of Dimorpholamine Injection, equiva-lent to 50 mg of Dimorpholamine, add 1 mL of dilute hydro-chloric acid, and evaporate on a water bath to dryness. Dis-solve the residue in 2 mL of hydrochloric acid, boil for 10 minutes under a reflux condenser, and evaporate to dryness on a water bath. Dissolve the residue with 1 mL of water, neurtralize with sodium hydroxide TS, and add 0.2 mL of a solution of acetaldehyde (1 in 20), 0.1 mL of sodium pentac-yanonitrosyl ferrate (III) TS and 0.5 mL of sodium carbon-ate TS: a blue color develops. Bacterial endotoxins <4.01> Less than 5.0 EU/mg. Perform the test with the sample diluted to 0.15 w/vz with water for bacterial endotoxins test. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Dimorpholamine Injection, equivalent to about 30 mg of dimorpholamine (C20H38N4O4), and add water to make exactly 200 mL. Pipet 1 mL of this solution, shake with exactly 4 mL of the internal standard solution for 5 minutes, and use this solution as the sample solution. Separately, weigh accurately about 0.15 g of dimorpholamine for assay, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 8 hours, and dissolve in water to make exactly 1000 mL. Pipet 1 mL of this solu-tion, shake with exactly 4 mL of the internal standard solu-tion for 5 minutes, and use this solution as the standard solu-tion. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratios, QT and QS, of the peak area of dimorphola-mine to that of the internal standard. length: 216 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water and acetonitrile (1:1). Flow rate: Adjust so that the retention time of dimor- pholamine is about 4 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, dimorpholamine and the internal standard are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of dimorpholamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

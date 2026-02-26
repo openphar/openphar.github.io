@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/levofloxacin-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Levofloxacin Ophthalmic Solution",
+    "ja": "レボフロキサシン点眼液"
+  },
+  "monographId": "JP18-levofloxacin-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Levofloxacin Ophthalmic Solution is an aqueous ophthalmic preparation. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Levofloxacin Ophthalmic Solution occurs as a clear, pale yellow to yellow liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Levofloxacin Ophthal-mic Solution, equivalent to 5 mg of Levofloxacin Hydrate, add 0.01 mol/L hydrochloric acid TS to make 100 mL. To 2 mL of this solution add 0.01 mol/L hydrochloric acid TS to make 20 mL, and use this solution as the sample solution. Determine the absorption spectrum of the sample solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 225 nm and 229 nm, and between 292 nm and 296 nm. JP XVIII Official Monographs / Levofloxacin Tablets 1259 ‌(2) To a volume of Levofloxacin Ophthalmic Solution, equivalent to 5 mg of Levofloxacin Hydrate, add a mixture of water and methanol (1:1) to make 5 mL, and use this solu-tion as the sample solution. Separately, dissolve 10 mg of levofloxacin hydrate for assay in 10 mL of a mixture of water and methanol (1:1), and use this solution as the stand-ard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions: the retention time of the principal peaks in the chro-matogram obtained from the sample solution and the stand-ard solution is the same. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 340 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase: Dissolve 1.25 g of copper (II) sulfate penta-hydrate, 1.76 g of L-valine and 7.71 g of ammonium acetate in water to make 1000 mL, and add 250 mL of methanol. Flow rate: Adjust so that the retention time of levofloxa-cin is about 22 minutes. System suitability— System performance: Dissolve 10 mg of ofloxacin in 20 mL of a mixture of water and methanol (1:1). To 1 mL of this solution add a mixture of water and methanol (1:1) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the resolu-tion between the peak of levofloxacin and the peak having the relative retention time of about 1.2 to levofloxacin is not less than 3. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exact volume of Levofloxacin Ophthalmic Solution, equivalent to about 5 mg of levofloxacin hydrate (C18H20FN3O4.1/2H2O) add exactly 2 mL of the internal standard solution, then add the mobile phase to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of levofloxacin hydrate for assay (separately determine the water <2.48> in the same manner as Levofloxacin Hydrate), and dissolve in water to make exactly 50 mL. Pipet 10 mL of this solution, add ex-actly 2 mL of the internal standard solution, then add the mobile phase to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of levofloxacin to that of the internal standard. Amount (mg) of levofloxacin hydrate (C18H20FN3O4.1/2H2O) ＝ MS × QT/QS × 1/5 × 1.025 MS: Amount (mg) of levofloxacin hydrate for assay taken, calculated on the anhydrous basis Internal standard solution—A solution of naphazoline hy-drochloride in the mobile phase (3 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 13.61 g of potassium dihydrogen phosphate and 0.77 g of ammonium acetate in 900 mL of water, adjust to pH 3.0 with 1 mol/L hydrochloric acid TS, and add water to make 1000 mL. To 900 mL of this solution add 100 mL of acetonitrile. Flow rate: Adjust so that the retention time of levofloxa-cin is about 17 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, levofloxacin and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of levofloxacin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

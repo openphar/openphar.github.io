@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/lycii-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Lycii Fructus",
+    "ja": "クコシ"
+  },
+  "monographId": "JP18-lycii-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fusiform fruit with acute apex, 6 – 20 mm in length, 3 – 8 mm in diameter, pericarp red to dark red, externally roughly wrinkled; under a magnifying glass, a transverse section of fruit reveals two locules containing numerous seeds; seed light brown to light yellow-brown, about 2 mm in a diameter, compressed reniform. Odor, characteristic; taste, sweet, occasionally slightly bit-ter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Lycium Fruit add 5 mL of ethyl acetate, shake for 15 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra-phy <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of hexane and ethyl acetate (10:1) to a dis-tance of about 7 cm, and air-dry the plate: a yellow principal spot appears at an Rf value of about 0.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—It contains not more than 2.0z of foreign matter such as peduncle or others. Total ash <5.01> Not more than 8.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 35.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

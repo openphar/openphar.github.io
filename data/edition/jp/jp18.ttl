@@ -1,0 +1,110 @@
+# Open Pharmacopoeia - JP18 Edition Metadata
+#
+# Japanese Pharmacopoeia 18th Edition (JP18)
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix bib: <https://www.openphar.org/ontology/bibliographic/> .
+@prefix edition: <https://www.openphar.org/data/edition/> .
+@prefix supplement: <https://www.openphar.org/data/edition/jp/> .
+
+# =============================================================================
+# JAPANESE PHARMACOPOEIA 18TH EDITION
+# =============================================================================
+
+edition:jp/jp18
+    a bib:Edition ;
+    skos:prefLabel "Japanese Pharmacopoeia 18th Edition"@en ;
+    skos:prefLabel "第十八改正日本薬局方"@ja ;
+    skos:altLabel "JP18"@en ;
+    skos:altLabel "JP 18"@en ;
+
+    bib:editionNumber "18" ;
+    bib:hasPublisher op:JP ;
+
+    # Dates
+    bib:publicationDate "2021-06-25"^^xsd:date ;
+    bib:effectiveDate "2021-12-01"^^xsd:date ;
+
+    # Statistics
+    bib:monographCount 327 ;
+
+    # Official URL
+    bib:editionUrl <https://www.mhlw.go.jp/topics/bukyoku/iyaku/yakkyoku/index.html> ;
+
+    # Languages
+    bib:officialLanguage "ja" ;
+    bib:officialLanguage "en" ;
+
+    # Supplements
+    bib:hasSupplement supplement:jp18-supplement1 ;
+    bib:hasSupplement supplement:jp18-supplement2 ;
+
+    dct:description """
+The Japanese Pharmacopoeia (JP) 18th Edition is the official pharmacopoeia of Japan,
+published by the Ministry of Health, Labour and Welfare (MHLW). It contains standards
+for pharmaceuticals, including chemical drugs, crude drugs, biological products, and
+formulations.
+
+The JP18 includes:
+- Official monographs for pharmaceutical substances
+- General tests, processes, and apparatus
+- Reference spectra (IR and UV)
+- Crude drug monographs
+- Kampo extract formulations
+"""@en .
+
+# =============================================================================
+# JP18 SUPPLEMENT 1
+# =============================================================================
+
+supplement:jp18-supplement1
+    a bib:Supplement ;
+    skos:prefLabel "Japanese Pharmacopoeia 18th Edition Supplement 1"@en ;
+    skos:prefLabel "第十八改正日本薬局方 第一追補"@ja ;
+
+    bib:supplementNumber "1" ;
+    bib:supplementTo edition:jp/jp18 ;
+
+    bib:supplementPublicationDate "2022-12-12"^^xsd:date ;
+    bib:supplementEffectiveDate "2023-06-12"^^xsd:date .
+
+# =============================================================================
+# JP18 SUPPLEMENT 2
+# =============================================================================
+
+supplement:jp18-supplement2
+    a bib:Supplement ;
+    skos:prefLabel "Japanese Pharmacopoeia 18th Edition Supplement 2"@en ;
+    skos:prefLabel "第十八改正日本薬局方 第二追補"@ja ;
+
+    bib:supplementNumber "2" ;
+    bib:supplementTo edition:jp/jp18 ;
+
+    bib:supplementPublicationDate "2023-12-25"^^xsd:date ;
+    bib:supplementEffectiveDate "2024-06-28"^^xsd:date .
+
+# =============================================================================
+# JAPANESE PHARMACOPOEIA 19TH EDITION (Latest)
+# =============================================================================
+
+edition:jp/jp19
+    a bib:Edition ;
+    skos:prefLabel "Japanese Pharmacopoeia 19th Edition"@en ;
+    skos:prefLabel "第十九改正日本薬局方"@ja ;
+    skos:altLabel "JP19"@en ;
+
+    bib:editionNumber "19" ;
+    bib:hasPublisher op:JP ;
+
+    bib:publicationDate "2024-06-28"^^xsd:date ;
+    bib:effectiveDate "2024-12-27"^^xsd:date ;
+
+    bib:editionUrl <https://www.mhlw.go.jp/topics/bukyoku/iyaku/yakkyoku/index.html> ;
+
+    bib:officialLanguage "ja" ;
+    bib:officialLanguage "en" .

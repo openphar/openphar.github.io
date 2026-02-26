@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/colestimide-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Colestimide Granules",
+    "ja": "コレスチミド顆粒"
+  },
+  "monographId": "JP18-colestimide-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of powdered Colestimide Granules as directed in the potas-sium chloride disk method under Infrared Spectrophotome-try <2.25>: it exhibits absorption at the wave numbers of about 1587 cm－1, 1528 cm－1 and 1262 cm－1. Uniformity of dosage units <6.02> Colestimide Granules in single-dose packages meet the requirement of the Mass varia-tion test. Disintegration <6.09> Carry out the test for 10 minutes with 0.09 – 0.11 g of Colestimide Granules in six glass tubes of the apparatus: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 4.5 g of sodium cholate hydrate (separately determine the water), dissolve in water to make exactly 1000 mL, and use this solution as the sodium cholate standard stock solution. Take out the contents of not less than 20 single-dose packages of Colestimide Granules, weigh accurately an amount of the contents, equivalent to about 0.2 g of colestimide, add exactly 200 mL of the sodium cholate standard stock solution, shake for 1 hour, and centrifuge. Pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Then, proceed as directed in the Assay (2) under Colestimide. Amount (mg) of colestimide ＝ MS × (QS － QT)/QS × 1/5 × 1/2.2 × 0.947 MS: Amount (mg) of sodium cholate hydrate taken, calcu-lated on the anhydrous basis 2.2: Quantity (g) of the cholic acid exchange per mg of colestimide Internal standard solution—A solution of butyl para-hydroxybenzoate in acetonitrile (1 in 80,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

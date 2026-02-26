@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aldioxa-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aldioxa Tablets",
+    "ja": "アルジオキサ錠"
+  },
+  "monographId": "JP18-aldioxa-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aldioxa Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of aldioxa (C4H7AlN4O5: 218.10). Method of preparation Prepare as directed under Tablets, with Aldioxa. Identification Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 221 nm and 225 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Aldioxa Tablets add 80 mL of sodium fluoride-hydrochloric acid TS, shake for 20 minutes, add so-dium fluoride-hydrochloric acid TS to make exactly 100 mL, and filter. Pipet V mL of the filtrate, add diluted ammonia-ammonium chloride buffer solution (pH 10.0) (1 in 10) to make exactly V? mL so that each mL contains about 20 mg of aldioxa (C4H7AlN4O5), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 221 nm and 225 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Aldioxa Tablets add 80 mL of sodium fluoride-hydrochloric acid TS, shake for 20 minutes, add so-dium fluoride-hydrochloric acid TS to make exactly 100 mL, and filter. Pipet V mL of the filtrate, add diluted ammonia-ammonium chloride buffer solution (pH 10.0) (1 in 10) to make exactly V? mL so that each mL contains about 20 mg of aldioxa (C4H7AlN4O5), and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of aldioxa (C4H7AlN4O5) ＝ MS × AT/AS × V?/V × 1/25 MS: Amount (mg) of aldioxa for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rates in 15 minutes of 50-mg tablet and in 30 minutes of 100-mg tablet are not less than 80z and not less than 70z, respec-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately, and powder not less than 20 Aldioxa Tablets. Weigh accurately a portion of the powder, equivalent to about 0.1 g of aldioxa (C4H7AlN4O5), add 80 mL of sodium fluoride-hydrochloric acid TS, shake for 20 minutes, add sodium fluoride-hydrochloric acid TS to make exactly 100 mL, and filter. Pipet 2 mL of the filtrate, add diluted ammonia-ammonium chloride buffer solution (pH 10.0) (1 in 10) to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of aldioxa for assay, previously dried at 1059C for 2 hours, and dissolve in sodium fluoride-hydrochloric acid TS to make exactly 100 mL. Pipet 4 mL of this solution, add diluted ammonia-ammonium chloride buffer solution (pH 10.0) (1 in 10) to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 223 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of aldioxa (C4H7AlN4O5) ＝ MS × AT/AS × 2 MS: Amount (mg) of aldioxa for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

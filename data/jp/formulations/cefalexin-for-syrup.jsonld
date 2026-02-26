@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefalexin-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefalexin for Syrup",
+    "ja": "シロップ用セファレキシン"
+  },
+  "monographId": "JP18-cefalexin-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefalexin for Syrup is a preparation for syrup, which is dissolved or suspended before use. It contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve a quantity of Cefalexin for Syrup, equivalent to 3 mg (potency) of Cefalexin, in water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 260 nm and 264 nm. Water <2.48> Not more than 5.0z (0.4 g, volumetric titra-tion, back titration). Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Cefalexin for Syrup in single-dose packages meets the requirement of the Content unifor-mity test. Take out the total content of 1 package of Cefalexin for Syrup, add 3V/5 mL of 0.1 mol/L phosphate buffer solu-tion (pH 4.5), shake vigorously for 10 minutes, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly V mL so that each mL contains about 1 mg (potency) of Cefalexin, and centrifuge. Pipet 2 mL of the supernatant liquid, add exactly 10 mL of the internal standard solution, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make 100 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount [mg (potency)] of cefalexin (C16H17N3O4S) ＝ MS × QT/QS × V/20 ‌652 MS: Amount [mg (potency)] of Cefalexin RS taken Internal standard solution—A solution of m-hydroxya-cetophenone in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 15,000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Cefalexin for Syrup is not less than 80z. Start the test with an accurately weighed amount of Cefalexin, equivalent to about 0.25 g (potency) of Cefalexin for Syrup, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add water to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Cefalexin RS, equivalent to about 22 mg (potency), and dissolve in water to make exactly 50 mL. Pipet 5 mL of this solution, add water to make ex-actly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 262 nm. Dissolution rate (z) with respect to the labeled amount of cefalexin (C16H17N3O4S) ＝ MS/MT × AT/AS × 1/C × 1125 MS: Amount [mg (potency)] of Cefalexin RS taken MT: Amount (g) of Cefalexin for Syrup taken C: Labeled amount [mg (potency)] of cefalexin (C16H17N3O4S) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Cefalexin for Syrup, if necessary, and weigh accurately a portion of the powder, equivalent to about 0.1 g (potency) of Cefalexin, add 60 mL of 0.1 mol/L phosphate buffer solution (pH 4.5), shake vigorously for 10 minutes, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 100 mL, and centrifuge. Pipet 2 mL of the superna-tant liquid, add exactly 10 mL of the internal standard solu-tion, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Cefalexin RS, equivalent to about 20 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 100 mL. Pipet 10 mL of this solution, add exactly 10 mL of the inter-nal standard solution, add 0.1 mol/L phosphate buffer solu-tion (pH 4.5) to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of cefalexin to that of the internal standard. Amount [mg (potency)] of cefalexin (C16H17N3O4S) ＝ MS × QT/QS × 5 MS: Amount [mg (potency)] of Cefalexin RS taken Internal standard solution—A solution of m-hydroxya-cetophenone in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 15,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.0 mm in inside diame-ter and 7.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diame- ter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.72 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust the pH to 3.0 with diluted phosphoric acid (3 in 500). To 800 mL of this solution add 200 mL of methanol. Flow rate: Adjust so that the retention time of cefalexin is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cefalexin and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of cefalexin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Syrup"
+}

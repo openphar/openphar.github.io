@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ammonia-water",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ammonia Water",
+    "ja": "アンモニア水"
+  },
+  "monographId": "JP18-ammonia-water",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ammonia Water contains not less than 9."
+  },
+  "appearance": {
+    "en": "Ammonia Water occurs as a clear, colorless liquid, having a very pungent, characteristic odor. It is alkaline. Specific gravity d 20: 0.95 – 0.96"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Hold a glass rod moistened with hydro-chloric acid near the surface of Ammonia Water: dense white fumes are produced. (2) Hold moistened red litmus paper near the surface of Ammonia Water: it turns blue."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Residue on evaporation—Evaporate 10.0 mL of Ammonia Water to dryness, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 2.0 mg. (2) Heavy metals <1.07>—Evaporate 5.0 mL of Ammo- nia Water to dryness on a water bath, add 1 mL of dilute hydrochloric acid to the residue, and evaporate to dryness. Dissolve the residue in 2 mL of dilute acetic acid, add water"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 5 mL of Ammonia Water, add 25 mL of water, and titrate <2.50> with 0.5 mol/L sulfuric acid VS (in-dicator: 2 drops of methyl red TS). Each mL of 0.5 mol/L sulfuric acid VS ＝ 17.03 mg of NH3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

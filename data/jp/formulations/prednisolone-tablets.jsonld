@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/prednisolone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Prednisolone Tablets",
+    "ja": "プレドニゾロン錠"
+  },
+  "monographId": "JP18-prednisolone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Pred-nisolone Tablets, equivalent to 0.05 g of Prednisolone, add 10 mL of chloroform, shake for 15 minutes, and filter. Evaporate the filtrate on a water bath to dryness. Dry the residue at 1059C for 1 hour, and proceed as directed in the Identification (1) under Prednisolone. rately about 10 mg of Prednisolone RS, previously dried at 1059C for 3 hours, dissolve in 10 mL of water and 50 mL of methanol, and add methanol to make exactly 100 mL. Pipet 5 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and stand-ard solution at 242 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of prednisolone (C21H28O5) ＝ MS × AT/AS × V?/V × 1/10 MS: Amount (mg) of Prednisolone RS taken Dissolution <6.10> When the test is performed at 100 revo-lutions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 20 minutes of Prednisolone Tablets is not less than 70z. Start the test with 1 tablet of Prednisolone Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, and use the subsequent fil-trate as the sample solution. Separately, weigh accurately about 10 mg of Prednisolone RS, previously dried at 1059C for 3 hours, and dissolve in ethanol (95) to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at the maximum wavelength at about 242 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using water as the blank. Dissolution rate (z) with respect to the labeled amount of prednisolone (C21H28O5) ＝ MS × AT/AS × 1/C × 45 MS: Amount (mg) of Prednisolone RS taken C: Labeled amount (mg) of prednisolone (C21H28O5) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Pred-nisolone Tablets using an agate mortar. Weigh accurately a portion of the powder, equivalent to about 5 mg of predniso-lone (C21H28O5), add 1 mL of water, and shake gently. Add exactly 5 mL of the internal standard solution and 15 mL of methanol, and shake vigorously for 20 minutes. To 1 mL of this solution add the mobile phase to make 10 mL, and filter through a membrane filter with pore size of 0.45 mm. Dis- ‌card the first 3 mL of the filtrate, and use the subsequent fil-trate as the sample solution. Separately, weigh accurately about 25 mg of Prednisolone RS, previously dried at 1059C for 3 hours, dissolve in 50 mL of methanol, add exactly 25 mL of the internal standard solution, and add methanol to make 100 mL. To 1 mL of this solution add the mobile phase to make 10 mL, and use this solution as the standard solu-tion. Proceed as directed in the Assay under Prednisolone with these solutions. tion. Separately, dissolve 20 mg each of prednisolone, corti-sone acetate and hydrocortisone acetate in exactly 10 mL of a mixture of chloroform and methanol (9:1). Pipet 1 mL of this solution, add a mixture of chloroform and methanol (9:1) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer Amount (mg) of prednisolone (C ＝ MS × QT/QS × 1/5 21H28O5) chromatography. Develop the plate with a mixture of dichloromethane, diethyl ether, methanol and water (385:75:40:6) to a distance of about 15 cm, and air-dry the MS: Amount (mg) of Prednisolone RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in methanol (1 in 2000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

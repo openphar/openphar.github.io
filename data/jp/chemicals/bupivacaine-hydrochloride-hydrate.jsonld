@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bupivacaine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bupivacaine Hydrochloride Hydrate",
+    "ja": "ブピバカイン塩酸塩水和物"
+  },
+  "monographId": "JP18-bupivacaine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H28N2O.HCl.H2O",
+  "molecularWeight": 342.9,
+  "casNumber": "14252-80-3",
+  "definition": {
+    "en": "Bupivacaine Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bupivacaine Hydrochloride Hydrate occurs as a white crystalline powder. It is freely soluble in acetic acid (100), and soluble in water, in methanol and in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS. A solution of 0.5 g of Bupivacaine Hydrochloride Hydrate in 50 mL of a mixture of ethanol (99.5), water and 5 mol/L sodium hydroxide TS (34:15:1) shows no optical rotation. Melting point: about 2529C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Bupivacaine Hydrochloride Hydrate in 0.01 mol/L hydrochloric acid TS (1 in 2000) as directed under Ul- ‌578 traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bupivacaine Hydrochloride Hydrate as directed in the potas-sium chloride disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. A solution of Bupivacaine Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> for chloride. pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Bupivacaine Hydrochloride Hydrate in 100 mL of freshly boiled and cooled water is between 4.5 to 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Bupivacaine Hydrochloride Hydrate in 50 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Bupivacaine Hydrochloride Hydrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). 2,6-Dimethylaniline—Dissolve exactly 0.50 g of Bupivacaine Hydrochloride Hydrate in 10 mL of methanol. To 2 mL of this solution add 1 mL of a freshly prepared solution of 4-dimethylaminobenzaldehyde in methanol (1 in 100) and 2 mL of acetic acid (100), and allow to stand for 10 minutes: the color of the solution is not more colored than the following control solution. Control solution: Prepare by proceeding in the same man-ner as above, using 2 mL of a solution of 2,6-dimethylaniline in methanol (1 in 200,000). Related substances—Dissolve 50 mg of Bupivacaine Hydrochloride Hydrate in 2.5 mL of water, add 2.5 mL of 2 mol/L sodium hydroxide TS and 5 mL of the internal stand-ard solution, shake, collect the lower layer, filter, and use the filtrate as the sample solution. Pipet 1 mL of the sample solution, and add the internal standard solution to make ex-actly 100 mL. Pipet 1 mL of this solution, add the internal standard solution to make exactly 10 mL, and use this solu-tion as the standard solution. Perform the test with 1 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the follow-ing conditions, and determine each peak area by the auto-matic integration method: the ratio of the area of the peak other than bupivacaine to the peak area of the internal standard obtained from the sample solution is not larger than the ratio of the peak area of bupivacaine to that of the internal standard from the standard solution. Internal standard solution—A solution of methyl behenate in dichloromethane (1 in 20,000). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A quartz tube 0.32 mm in inside diameter and 30 m in length, coated the inside surface with 5z diphenyl-95z dimethylpolysiloxane for gas chromatography 0.25 mm in thickness. Column temperature: Rise the temperature from 1809C to 2309C at the rate of 59C per minute, and maintain at 2309C for 5 minutes. Injection port temperature: A constant temperature of about 2509C. Detector temperature: A constant temperature of about 2509C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of bupivacaine is about 10 minutes. Split ratio: 1:12. Time span of measurement: About 1.5 times as long as the retention time of bupivacaine. System suitability— System performance: To 1 mL of the sample solution add the internal standard solution to make 100 mL, and use this solution as the solution for system suitability test. When the procedure is run with 1 mL of the solution for system suita-bility test under the above operating conditions, bupivacaine and the internal standard are eluted in this order with the resolution between these peaks being not less than 20. System repeatability: When the test is repeated 6 times with 1 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the ratio of the peak area of bupivacaine to that of the in-ternal standard is not more than 2.0z. Water <2.48> 4.0 – 6.0z (0.25 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Bupivacaine Hydro-chloride Hydrate, dissolve in 20 mL of acetic acid (100), add 50 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.49 mg of C18H28N2O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

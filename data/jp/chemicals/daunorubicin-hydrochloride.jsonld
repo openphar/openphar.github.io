@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/daunorubicin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Daunorubicin Hydrochloride",
+    "ja": "ダウノルビシン塩酸塩"
+  },
+  "monographId": "JP18-daunorubicin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "23541-50-6",
+  "definition": {
+    "en": "Daunorubicin Hydrochloride is the hydrochloride of an anthracycline substance having antitumor activity produced by the growth of Streptomyces peucetius or Streptomyces coeruleorubidus. It contains not less than 940 mg (potency) and not more than 1050 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Daunorubicin Hydrochloride occurs as a red powder. It is soluble in water and in methanol, and slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Daunorubicin Hydrochloride in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Daunorubi-cin Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Daunorubicin Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Daunorubicin Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Daunorubicin Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: ＋250 – ＋2759(15 mg calcu-lated on the dried basis, methanol, 10 mL, 100 mm). pH <2.54> Dissolve 0.15 g of Daunorubicin Hydrochloride in 30 mL of water: the pH of the solution is between 4.5 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 20 mg of Daunorubicin Hydrochloride in 10 mL of water: the solu-tion is clear and red. Heavy metals <1.07>—Proceed with 1.0 g of Daunorubicin Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Weigh accurately about 50 mg of Daunorubicin Hydrochloride, dissolve in diluted aceto-nitrile (43 in 100) to make exactly 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 50 mg of Daunorubicin Hydrochloride RS, and dis-solve in diluted acetonitrile (43 in 100) to make exactly 50 mL. Pipet 1 mL of this solution, add diluted acetonitrile (43 in 100) to make exactly 200 mL, and use this solution as the standard solution (1). Separately, weigh accurately about 5 mg of Doxorubicin Hydrochloride RS, and dissolve in diluted acetonitrile (43 in 100) to make exactly 100 mL. Pipet 1 mL of this solution, add diluted acetonitrile (43 in 100) to make exactly 10 mL, and use this solution as the standard solution (2). Perform the test with exactly 5 mL each of the sample solution and standard solutions (1) and (2) as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amounts of related substances by the following equations: each amount of each peak, having a relative retention time of about 0.3, about 0.6, about 0.7, about 0.8, about 1.7 and about 2.0 to daunorubicin, is not more than 1.3z, not more than 1.0z, not more than 0.3z, not more than 0.5z, not more than 0.4z and not more than 0.5z, respectively, and the amount of doxorubicin is not more than 0.4z. Furthermore, the total amount of the peaks, other than daunorubicin and the peaks mentioned above, is not more than 0.4z. For the area of the peak, having a relative retention time of about 0.3 to daunorubicin, multiply the correction factor, 0.7. Each amount (z) of related substances other than doxorubicin ＝ MS1/MT × AT/AS1 × 1/2 MS1: Amount (mg) of Daunorubicin Hydrochloride RS taken MT: Amount (mg) of Daunorubicin Hydrochloride taken AS1: Peak area of daunorubicin obtained from the stand-ard solution (1) AT: Peak area of each related substance obtained from the Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.88 g of sodium lauryl sulfate and 2.25 g of phosphoric acid in water to make 1000 mL. To 570 mL of this solution add 430 mL of acetonitrile. Flow rate: Adjust so that the retention time of daunorubi-cin is about 26 minutes. Time span of measurement: About 2 times as long as the retention time of daunorubicin. System suitability— Test for required detectability: To exactly 1 mL of the standard solution (1) add diluted acetonitrile (43 in 100) to make exactly 10 mL. Confirm that the peak area of daunorubicin obtained with 5 mL of this solution is equiva-lent to 7 to 13z of that with 5 mL of the standard solution (1). System performance: Dissolve 5 mg each of Daunorubicin Hydrochloride and doxorubicin hydrochloride in 25 mL of diluted acetonitrile (43 in 100). To 1 mL of this solution add diluted acetonitrile (43 in 100) to make 10 mL. When the procedure is run with 5 mL of this solution under the above operating conditions, doxorubicin and daunorubicin are eluted in this order with the resolution between these peaks being not less than 13. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution (1) under the above oper-ating conditions, the relative standard deviation of the peak area of daunorubicin is not more than 3.0z. Loss on drying <2.41> Not more than 7.5z (0.1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Daunorubicin Hy-drochloride and Daunorubicin Hydrochloride RS, equiva-lent to about 20 mg (potency), dissolve each in a suitable amount of the mobile phase, add exactly 4 mL of the in-ternal standard solution and the mobile phase to make 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of daunorubicin to that of the internal standard. Amount [ mg (potency)] of daunorubicin hydrochloride (C27H29NO10.HCl) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Daunorubicin Hydrochlo-ride RS taken sample solution Amount (z) of doxorubicin ＝ M S2/MT × AT/AS2 × 5 Internal standard solution—A solution of 2-naphthalenesul-fonic acid in the mobile phase (1 in 100). Operating conditions— MS2: Amount (mg) of Doxorubicin Hydrochloride RS taken MT: Amount (mg) of Daunorubicin Hydrochloride taken AS2: Peak area of doxorubicin obtained from the standard solution (2) AT: Peak area of doxorubicin obtained from the sample solution Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Adjust the pH of a mixture of water and ‌JP XVIII Official Monographs / Deferoxamine Mesilate 831 acetonitrile (31:19) to 2.2 with phosphoric acid. Flow rate: Adjust so that the retention time of daunorubi-cin is about 9 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and daunorubicin are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of daunorubicin to that of the internal stand-ard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

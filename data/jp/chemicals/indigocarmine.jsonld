@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/indigocarmine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Indigocarmine",
+    "ja": "インジゴカルミン"
+  },
+  "monographId": "JP18-indigocarmine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H8N2Na2O8S2",
+  "molecularWeight": 466.35,
+  "definition": {
+    "en": "Indigocarmine, when dried, contains not less than 95."
+  },
+  "appearance": {
+    "en": "Indigocarmine occurs as a blue to dark blue, powder or granules. It is odorless. It is sparingly soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. It is hygroscopic. When compressed, it has a coppery luster."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Indigocarmine (1 in 100) is dark blue in color. Perform the following tests with this solution as the sample solution: the dark blue color of each solution disappears. ( i ) Add 1 mL of nitric acid to 2 mL of the sample solu-tion; ( ii ) Add 1 mL of bromine TS to 2 mL of the sample so-lution; Add 1 mL of chlorine TS to 2 mL of the sample so-lution; Add 2 mL of sodium hydroxide TS and 0.2 g of zinc powder to 2 mL of the sample solution, and warm. Dissolve 0.1 g of Indigocarmine in 100 mL of a solu-tion of ammonium acetate (1 in 650). To 1 mL of the solu-tion add a solution of ammonium acetate (1 in 650) to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Ignite 1 g of Indigocarmine to carbonize. After cool-ing, add 20 mL of water to the residue, shake, and filter the mixture: the filtrate responds to Qualitative Tests <1.09> for sodium salt and for sulfate. pH <2.54> Dissolve 0.10 g of Indigocarmine in 20 mL of water: the pH of the solution is between 5.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water-insoluble substances—To 1.00 g of In-digocarmine add 200 mL of water, shake, and filter through a tared glass filter (G4). Wash the residue with water until the blue color of the filtrate becomes practically colorless, and dry the residue at 1059C for 4 hours: the mass of the residue does not exceed 5.0 mg. (2) Arsenic <1.11>—Place 0.8 g of Indigocarmine in a Kjeldahl flask, add 5 mL of sulfuric acid and 5 mL of nitric acid, and ignite gently. Repeat the addition of 2 to 3 mL of nitric acid occasionally, and continue to heat until a colorless to light yellow solution is obtained. After cooling, add 15 mL of a saturated ammonium oxalate solution, heat the so-lution until dense white fumes are evolved, and concentrate to 2 to 3 mL. After cooling, dilute with water to 10 mL, and perform the test with 5 mL of this solution as the test solu-tion (not more than 5 ppm). ‌1152‌‌ Loss on drying <2.41> Not more than 10.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not less than 28z and not more than 38z (after drying, 1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Indigocarmine, pre-viously dried, add 15 g of sodium hydrogen tartrate mono-hydrate, and dissolve in 200 mL of water, boil with bubbling of a stream of carbon dioxide, and titrate <2.50>, while being hot, with 0.1 mol/L titanium (III) chloride VS until the color of the solution changes from blue through yellow to orange. Each mL of 0.1 mol/L titanium (III) chloride VS ＝ 23.32 mg of C16H8N2Na2O8S2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

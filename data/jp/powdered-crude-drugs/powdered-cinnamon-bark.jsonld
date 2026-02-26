@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-cinnamon-bark",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-cinnamon-bark",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Cinnamon Bark",
+    "la": "Cinnamomi Cortex Pulveratus",
+    "ja": "ケイヒ末"
+  },
+  "definition": {
+    "en": "not less than 0"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/cinnamon-bark"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

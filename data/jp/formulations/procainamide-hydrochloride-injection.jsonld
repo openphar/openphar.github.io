@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/procainamide-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Procainamide Hydrochloride Injection",
+    "ja": "プロカインアミド塩酸塩注射液"
+  },
+  "monographId": "JP18-procainamide-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Procainamide Hydrochloride Injection is a clear, colorless or light yellow liquid. pH: 4.0 – 6.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Procainamide Hydro-chloride Injection, equivalent to 10 mg of Procainamide Hy-drochloride, add 1 mL of dilute hydrochloric acid and water to make 5 mL: the solution responds to Qualitative Tests <1.09> (1) for primary aromatic amines. To a volume of Procainamide Hydrochloride Injec-tion, equivalent to 0.1 g of Procainamide Hydrochloride, add water to make 100 mL. To 1 mL of this solution add water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum between 277 nm and 281 nm. Procainamide Hydrochloride Injection responds to Qualitative Tests <1.09> (2) for chloride. Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dilute an accurately measured volume of Procain-amide Hydrochloride Injection, equivalent to about 0.5 g of procainamide hydrochloride (C13H21N3O.HCl), with 5 mL of hydrochloric acid and water to 50 mL, add 10 mL of potas-sium bromide solution (3 → 10), cool to 159C or lower, and titrate <2.50> with 0.1 mol/L sodium nitrite VS (potentiome-tric titration method or amperometric titration). Each mL of 0.1 mol/L sodium nitrite VS ＝ 27.18 mg of C13H21N3O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

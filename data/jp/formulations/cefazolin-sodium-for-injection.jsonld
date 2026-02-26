@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefazolin-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefazolin Sodium for Injection",
+    "ja": "注射用セファゾリンナトリウム"
+  },
+  "monographId": "JP18-cefazolin-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefazolin Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Cefazolin Sodium for Injection occurs as white to light yellow-white, crystals or crystalline powder or masses."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefazolin Sodium for Injection (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 270 nm and 274 nm. (2) Cefazolin Sodium for Injection responds to Qualita-tive Tests <1.09> (1) for chloride. Osmotic pressure ratio Being specified separately when the rected under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.35. (2) Related substances—Dissolve an amount of Cefazo-lin Sodium for Injection, equivalent to 0.10 g (potency) of Cefazolin Sodium, in 20 mL of 0.1 mol/L phosphate buffer solution (pH 7.0) and use this solution as the sample solu-tion. Prepare the sample solution before use. Perform the test with 5 mL of the sample solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method. Calculate the amount of each peak by the area percentage method: the amount of the peaks other than cefazolin is not more than 1.5z. Furthermore the total amount of the peaks other than cefazolin is not more than 2.5z. For the area of the peak, having the relative retention time of about 0.2 to cefazolin, multiply the correction fac-tor, 1.43. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Cefazolin Sodium. Time span of measurement: About 3 times as long as the retention time of cefazolin, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay under Cefazolin Sodium. Test for required detectability: To 8 mL of the sample so-lution, add 0.1 mol/L phosphate buffer solution (pH 7.0) to make 50 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suita-bility test, add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 20 mL. Confirm that the peak area of cefazolin obtained with 5 mL of this solution is equivalent to 3 to 7z of that with 5 mL of the solution for system suita-bility test. System repeatability: When the test is repeated 6 times with 5 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the peak area of cefazolin is not more than 1.0z. Water <2.48> Not more than 3.0z (0.5 g, volumetric titra-tion, direct titration). Use a mixture of formamide for water determination and methanol for water determination (2:1) instead of methanol for water determination. Bacterial endotoxins <4.01> Less than 0.05 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem- ‌658 brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Cefazolin Sodium for Injection. Weigh accurately an amount of the contents, equivalent to about 50 mg (potency) of Cefazolin Sodium, dissolve in the internal standard solution to make exactly 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately an amount of Cefazolin RS, equivalent to about 50 mg (po- propionate-d4 for nuclear magnetic resonance spectroscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits singlet signals, A and B, at around d 2.7 ppm and at around d 9.3 ppm. The ratio of integrated intensity of each signal, A:B, is about 3:1. (4) Cefazolin Sodium Hydrate responds to Qualitative Tests <1.09> (1) for sodium salt. tency), dissolve in the internal standard solution to make Absorbance <2.24> E 1z (272 nm): 272 – 292 (80 mg calcu- 1 cm exactly 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefazolin Sodium. Amount [mg (potency)] of cefazolin (C14H14N8O4S3) ＝ MS × QT/QS MS: Amount [mg (potency)] of Cefazolin RS taken Internal standard solution—A solution of p-acetanisidide in 0.1 mol/L phosphate buffer solution (pH 7.0) (11 in 20,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

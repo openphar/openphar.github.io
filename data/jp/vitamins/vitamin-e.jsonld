@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-e",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin E",
+    "ja": "トコフェロール"
+  },
+  "monographId": "JP18-vitamin-e",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C29H50O2",
+  "molecularWeight": 430.71,
+  "casNumber": "10191-41-0",
+  "appearance": {
+    "en": "Tocopherol is a clear, yellow to red-brown, viscous liquid. It is odorless. It is miscible with ethanol (99.5), with acetone, with chlo-roform, with diethyl ether and with vegetable oils. It is freely soluble in ethanol (95), and practically insoluble in water. It is optically inactive. It is oxidized by air and light, and acquires a dark red color."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Tocopherol in 10 mL of ethanol (99.5), add 2 mL of nitric acid, and heat at 759C for 15 minutes: a red to orange color develops. Determine the infrared absorption spectrum of Tocopherol as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Tocopherol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Absorbance <2.24> E1z 1 cm ethanol (99.5), 200 mL). (292 nm): 71.0 – 76.0 (10 mg, Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Tocopherol in 10 mL of ethanol (99.5): the solution is clear and has no more color than Matching Fluid C. (2) Heavy metals <1.07>—Proceed with 1.0 g of Tocopherol according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, and standard solu-tions—Proceed as directed in the Assay under Tobramycin. Sample solutions—To exactly 5 mL of Tobramycin Injection add 0.1 mol/L phosphate buffer solution (pH 8.0) so that each mL contains 1 mg (potency) of Tobramycin. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions Refractive index <2.45> n20: 1.503 – 1.507 D Specific gravity <2.56> d 20: 0.947 – 0.955 Purity (1) Clarity and color of solution—Dissolve 0.10 g of Tocopherol in 10 mL of ethanol (99.5): the solution is clear and has no more color than Matching Fluid C. (2) Heavy metals <1.07>—Proceed with 1.0 g of Tocopherol according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Assay Dissolve about 50 mg each of Tocopherol and Tocopherol RS, accurately weighed, in ethanol (99.5) to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of these solutions as directed under Liquid Chro-matography <2.01> according to the following conditions, and determine the peak heights, HT and HS, of tocopherol in each solution. so that each mL contains 8 mg (potency) and 2 mg (potency), and use these solutions as the concentration sample solution Amount (mg) of tocopherol (C 29H50O2) ＝ M S × HT/HS ‌MS: Amount (mg) of Tocopherol RS taken sities of absorption at the same wave numbers. Operating conditions— Detector: An ultraviolet absorption photometer (wave- Absorbance <2.24> E1z 1 cm ethanol (99.5), 100 mL). (284 nm): 41.0 – 45.0 (10 mg, length: 292 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of methanol and water (49:1). Flow rate: Adjust so that the retention time of tocopherol is about 10 minutes. System suitability— System performance: Dissolve 0.05 g each of Tocopherol and tocopherol acetate in 50 mL of ethanol (99.5). When the procedure is run with 20 mL of this solution under the above operating conditions, tocopherol and tocopherol acetate are eluted in this order with the resolution between these peaks being not less than 2.6. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak heights of tocopherol is not more than 0.8z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and well-filled, or under nitro-"
+  }
+}

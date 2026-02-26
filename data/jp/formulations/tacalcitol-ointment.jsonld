@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tacalcitol-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tacalcitol Ointment",
+    "ja": "タカルシトール軟膏"
+  },
+  "monographId": "JP18-tacalcitol-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tacalcitol Ointment contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Perform the test with 30 mL each of the sam-ple solution and standard solution, both are obtained in the Assay, as directed under Liquid Chromatography <2.01> ac-cording to the following conditions: the retention time of the principal peaks in the chromatograms obtained from the sample solution and standard solution is the same, and both adsorption spectra of these peaks exhibit similar intensities of absorption at the same wavelengths. Operating conditions— Column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Detector: A photodiode array detector (wavelength: 265 nm, spectrum range of measurement: 210 – 400 nm). System suitability— System performance: Proceed as directed in the system suitability in the Assay."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—This test is only applied to the preparations of 20 mg/g. Conduct this procedure using light-resistant vessels. To an amount of Tacalcitol Ointment, equivalent to about 20 mg of tacalcitol (C27H44O3), add 5 mL of hexane and 5 mL of methanol, shake thoroughly for 15 minutes, and centrifuge. Discard the upper layer, pipet 5 mL of the lower layer, and evaporate the solvents in vacuum. Dissolve the residue in 1 mL of methanol, filter this solution through a membrane filter with a pore size not exceeding 0.2 mm, and use the fil-trate as the sample solution. Perform the test with 30 mL of the sample solution as directed under Liquid Chromatogra-phy <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak other than tacalcitol and pre-tacalcitol, having a relative retention time of about 0.83 to tacalcitol, is not more than 0.8z, and the total amount of the peaks other than tacalcitol and pre-tacalcitol is not more than 2.0z. Operating conditions— Detector, column and column temperature: Proceed as di-rected in the operating conditions in the Assay. Mobile phase A: Water. Mobile phase B: Acetonitrile for liquid chromatography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 30 30 – 50 40 → 0 60 → 100 50 – 60 Flow rate: Adjust so that the retention time of tacalcitol is about 24 minutes. Time span of measurement: For 60 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 0.5 mL of the sample solution add methanol to make 50 mL, and use this solution as the solution for system suitability test. Pipet 4 mL of the solution for system suitability test, and add methanol to make exactly 10 mL. Confirm that the peak area of tacalcitol obtained with 30 mL of this solution is equivalent to 28 to 52z of that with 30 mL of the solution for system suitability test. System performance: When the procedure is run with 30 mL of the sample solution under the above operating condi-tions, pre-tacalcitol and tacalcitol are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 30 mL of the solution for system suitability test under the above operating conditions, the relative standard devia- tion of the peak area of tacalcitol is not more than 10z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Tacalcitol Oint-ment, equivalent to about 2 mg of tacalcitol (C27H44O3), add exactly 5 mL of hexane, exactly 4 mL of methanol, and ex-actly 1 mL of the internal standard solution, shake thor-oughly for 15 minutes, and centrifuge. Filter the lower layer through a membrane filter with a pore size not exceeding 0.2 ‌mm, and use the filtrate as the sample solution. Separately, weigh accurately about 1 mg of Tacalcitol RS (separately de-termine the water <2.48> in the same manner as Tacalcitol Hydrate), and dissolve in methanol to make exactly 20 mL. Pipet 1 mL of this solution, and add methanol to make ex-actly 100 mL. Pipet 4 mL of this solution, add exactly 1 mL of the internal standard solution and exactly 5 mL of hexane, shake thoroughly for 15 minutes, and centrifuge. Filter the lower layer through a membrane filter with a pore size not exceeding 0.2 mm, and use the filtrate as the stand-ard solution. Perform the test with 30 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of tacalcitol to that of the internal standard. Amount (mg) of tacalcitol (C27H44O3) ＝ MS × QT/QS × 2 MS: Amount (mg) of Tacalcitol RS taken, calculated on the anhydrous basis Internal standard solution—A solution of hexyl para-hydroxybenzoate in methanol ( 3 in 2,500,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of acetonitrile for liquid chroma-tography and diluted 0.25 mol/L acetic acid TS (1 in 10) (13:7). Flow rate: Adjust so that the retention time of tacalcitol is about 18 minutes. System suitability— System performance: When the procedure is run with 30 mL of the standard solution under the above operating con-ditions, the internal standard and tacalcitol are eluted in this order with the resolution between these peaks being not less than 14. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of tacalcitol to that of the internal standard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Ointment"
+}

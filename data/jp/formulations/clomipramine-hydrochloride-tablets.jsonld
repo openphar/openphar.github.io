@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/clomipramine-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Clomipramine Hydrochloride Tablets",
+    "ja": "クロミプラミン塩酸塩錠"
+  },
+  "monographId": "JP18-clomipramine-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a portion of powdered Clomipramine Hydrochloride Tablets, equivalent to 50 mg of Clomipra-mine Hydrochloride, add a suitable amount of 0.1 mol/L hydrochloric acid TS, shake thoroughly, and add 0.1 mol/L hydrochloric acid TS to make 250 mL. Centrifuge this solu-tion, and to 10 mL of the supernatant liquid add 0.1 mol/L hydrochloric acid TS to make 100 mL. Determine the ab-sorption spectrum of this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 250 nm and 254 nm. Uniformity of dosage unit <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Clomipramine Hydrochloride Tablets add V/5 mL of a mixture of methanol and 0.1 mol/L hydrochlo- ＝ MS × AT/AS × V?/V × 1/C × 36 MS: Amount (mg) of clomipramine hydrochloride for assay taken C: Labeled amount (mg) of clomipramine hydrochloride (C19H23ClN2.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Clomipramine Hydrochloride Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 25 mg of clomipramine hydrochloride (C19H23ClN2.HCl), add 50 mL of a mixture of methanol and 0.1 mol/L hydrochloric acid TS (3:1), sonicate, and shake thoroughly for 30 minutes. To this solution add 150 mL of methanol, shake for 15 minutes, and add methanol to make exactly 250 mL. Cen-trifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of clomipramine hydrochloride for assay, previously dried at 1059C for 3 hours, dissolve in 50 mL of a mixture of metha-nol and 0.1 mol/L hydrochloric acid TS (3:1), add methanol to make exactly 250 mL, and use this solution as the stand-ard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of clomipramine in each solution. Amount (mg) of clomipramine hydrochloride (C19H23ClN2.HCl) ＝ MS × AT/AS MS: Amount (mg) of clomipramine hydrochloride for ‌JP XVIII Official Monographs / Clonazepam Fine Granules 787 assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). ‌Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2 g of sodium 1-octanesulfonate in 300 mL of water, and add 450 mL of methanol, 250 mL of acetonitrile and 1 mL of 0.5 mol/L sulfuric acid TS. Flow rate: Adjust so that the retention time of clomipra-mine is about 13 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of clomipramine are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clomipramine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

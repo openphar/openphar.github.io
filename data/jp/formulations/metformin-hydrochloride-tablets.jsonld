@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/metformin-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Metformin Hydrochloride Tablets",
+    "ja": "メトホルミン塩酸塩錠"
+  },
+  "monographId": "JP18-metformin-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake an amount of powdered Metformin Hydrochloride Tablets, equivalent to 250 mg of Metformin Hydrochloride, with 25 mL of 2-propanol, and filter. Evaporate the filtrate under reduced pressure in a water bath at 409C, and determine the infrared absorption spectrum of the residue as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>: it exhibits absorp-tion at the wave numbers of about 3370 cm－1, 3160 cm－1, 1627 cm－1, 1569 cm－1 and 1419 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution Being specified separately when the drug is ‌granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Met-formin Hydrochloride Tablets, and powder. Weigh accu-rately a portion of the powder, equivalent to about 0.15 g of metformin hydrochloride (C4H11N5.HCl), add 70 mL of a mixture of water and acetonitrile (3:2), shake for 10 minutes, add the mixture of water and acetonitrile (3:2) to make ex-actly 100 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet 3 mL of the subsequent filtrate, add exactly 3 mL of the internal standard solution and the mixture of water and acetonitrile (3:2) to make 50 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 0.15 g of metformin hydrochloride for assay, previ-ously dried at 1059C for 3 hours, and dissolve in the mixture of water and acetonitrile (3:2) to make exactly 100 mL. Pipet 3 mL of this solution, add exactly 3 mL of the internal stand-ard solution and the mixture of water and acetonitrile (3:2) to make 50 mL, and use this solution as the standard solu-tion. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratios, QT and QS, of the peak area of metformin to that of the internal standard. Methamphetamine Hydrochloride"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

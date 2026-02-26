@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fossilia-ossis-mastodi-pulveratum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fossilia Ossis Mastodi Pulveratum",
+    "ja": "リュウコツ末"
+  },
+  "monographId": "JP18-fossilia-ossis-mastodi-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Longgu occurs as a light grayish white to light grayish brown. It is odorless and tasteless."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Powdered Longgu in 10 mL of dilute hydrochloric acid: it evolves a gas, and forms a slightly brownish and turbid solution. Pass the gas evolved through calcium hydroxide TS: a white precipitate is produced. The turbid solution obtained in (1) has a characteris-tic odor. Filter this solution, and neutralize filtrate with ammonia TS: the solution responds to Qualitative test <1.09> (1), (2) and (3) for calcium salt. Dissolve 0.1 g of Powdered Longgu in 5 mL of nitric acid by warming, and add hexaammonium heptamolybdate TS: a yellow precipitate is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 2.0 g of Powdered Longgu add 5 mL of water, shake to mix, add gradually 6 mL of hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the residue in 50 mL of water, and filter. To 25 mL of the filtrate add 2 mL of dilute acetic acid, 1 drop of ammonia TS and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the con- ‌2066‌ Lonicera Leaf and Stem / Crude Drugs and Related Drugs trol solution as follows: evaporate 3 mL of hydrochloric acid on a water bath to dryness, add 2 mL of dilute acetic acid and 2.0 mL of Standard Lead Solution, and add water to make 50 mL (not more than 20 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.20 g of Powdered Longgu according to Method 2, and perform the test (not more than 10 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iodine-salicylic-acid-and-phenol-spirit",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iodine, Salicylic Acid and Phenol Spirit",
+    "ja": "ヨード・サリチル酸・フェノール精"
+  },
+  "monographId": "JP18-iodine-salicylic-acid-and-phenol-spirit",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Iodine, Salicylic Acid and Phenol Spirit contains not less than 1."
+  },
+  "appearance": {
+    "en": "Iodine, Salicylic Acid and Phenol Spirit is a dark red-brown liquid, having the odor of phenol."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a mixture of 1 mL of starch TS and 9 mL of water add 1 drop of Iodine, Salicylic Acid and Phenol Spirit: a dark blue-purple color develops (iodine). To 1 mL of Iodine, Salicylic Acid and Phenol Spirit add 5 mL of ethanol (95) and water to make 50 mL. To 1 mL of this solution add hydrochloric acid-potassium chloride buffer solution (pH 2.0) to make 50 mL, and to 15 mL of this solution add 5 mL of a solution of iron (III) nitrate enneahydrate (1 in 200): a red-purple color is produced (sali-cylic acid). Shake 1 mL of Iodine, Salicylic Acid and Phenol Spirit with 1 mL of sodium thiosulfate TS, add 20 mL of water and 5 mL of dilute hydrochloric acid, and extract with 25 mL of diethyl ether. Wash the diethyl ether extract with two 25-mL portions of sodium hydrogen carbonate TS, and extract with 10 mL of dilute sodium hydroxide TS. Shake 1 mL of the extract with 1 mL of sodium nitrite TS and 1 mL of dilute hydrochloric acid, and add 3 mL of sodium hydrox-ide TS: a yellow color is developed (phenol). Shake 1 mL of Iodine, Salicylic Acid and Phenol Spirit with 1 mL of sodium thiosulfate TS, add 20 mL of water and 5 mL of dilute hydrochloric acid, extract with 10 mL of diethyl ether, and use the diethyl ether extract as the sample solution. Dissolve 25 mg of salicylic acid, 10 mg of phenol and 40 mg of benzoic acid in 5 mL each of diethyl ether, respectively, and use these solutions as the standard solutions (1), (2) and (3). Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions (1), (2) and (3) on a plate of silica gel with fluorescent indica-tor for thin-layer chromatography. Develop the plate with a mixture of chloroform, acetone and acetic acid (100) (45:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the 3 ‌1174 spots from the sample solution show the same Rf value as the corresponding spots of the standard solutions (1), (2) and (3). Spray evenly iron (III) chloride TS on the plate: the spot from standard solution (1) and the corresponding spot from the sample solution acquires a purple color."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Iodine—Pipet 4 mL of Iodine, Salicylic Acid and Phenol Spirit, add ethanol (95) to make exactly 50 ml, and use this solution as the sample solution. On the other hand, weigh accurately about 1.2 g of iodine for assay and about 0.8 g of potassium iodide for assay, previously dried at 1059C for 4 hours, and dissolve in ethanol (95) to make exactly 100 ml. Pipet 4 ml of this solution, add ethanol (95) to make exactly 50 ml, and use this solution as the standard solution. Pipet 3 ml each of the sample solution and stand-ard solution, to each add exactly 25 ml of a mixture of chlo-roform and hexane (2:1), and shake. Further add exactly 10 ml of water, shake and separate the chloroform-hexane layers [use the water layers in (2)]. Filter through a pledget of absorbent cotton, and determine the absorbances of the fil-trates from the sample solution and standard solution, re-spectively, AT and AS, at 512 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>, using a mixture of chloroform and hexane (2:1) as the blank. Amount (mg) of iodine (I) ＝ MS × AT/AS × 1/25 MS: Amount (mg) of iodine for assay taken Potassium iodide—Separate the water layers of the sample solution and standard solution obtained in the Assay (1), pipet 8 ml each of the water layers, and add 1 ml of diluted dilute hydrochloric acid (1 in 2) and 1 ml of sodium nitrite TS. Immediately after shaking, add exactly 10 ml of a mixture of chloroform and hexane (2:1), shake, and proceed in the same manner as for the Assay (1). Amount (mg) of potassium iodide (KI) ＝ MS × AT/AS × 1/25 MS: Amount (mg) of potassium iodide for assay taken Salicylic acid, phenol and benzoic acid—Pipet 2 mL of Iodine, Salicylic Acid and Phenol Spirit, add 20 mL of diluted methanol (1 in 2) and 0.1 mol/L sodium thiosulfate VS until the color of iodine disappears, add exactly 20 mL of the internal standard solution, then add diluted methanol (1 in 2) to make 200 mL, and use this solution as the sample solution. Weigh accurately about 0.2 g of salicylic acid for assay, previously dried in a desiccator (silica gel) for 3 hours, about 80 mg of phenol for assay, and 0.32 g of benzoic acid, previously dried in a desiccator (silica gel) for 3 hours, dis-solve in diluted methanol (1 in 2) to make exactly 50 mL. Pipet 25 mL of this solution, add exactly 20 mL of the inter-nal standard solution and diluted methanol (1 in 2) to make 200 mL, and use this solution as the standard solution. Per-form the test with 3 mL of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Calculate the ratios, QTa, QTb and QTc, of the peak areas of salicylic acid, phenol and benzoic acid to those of the internal standard of the sample solution, and the ratios, QSa, QSb and QSc, of the peak areas of salicylic acid, phenol and benzoic acid to those of the internal standard of the standard solution. Amount (mg) of salicylic acid (C7H6O3) ＝ MSa × QTa/QSa × 1/2 Amount (mg) of phenol (C6H6O) ＝ MSb × QTb/QSb × 1/2 Amount (mg) of benzoic acid (C7H6O2) ＝ MSc × QTc/QSc × 1/2 MSa: Amount (mg) of salicylic acid for assay taken MSb: Amount (mg) of phenol for assay taken MSc: Amount (mg) of benzoic acid taken Internal standard solution—A solution of theophylline in methanol (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column about 4 mm in inside di-ameter and 25 to 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: Room temperature. Mobile phase: A mixture of 0.1 mol/L phosohate buffer solution (pH 7.0) and methanol (3:1). Flow rate: Adjust so that the retention time of salicylic acid is about 6 minutes. Selection of column: Dissolve 0.2 g of benzoic acid, 0.2 g of salicylic acid and 50 mg of theophylline in 100 mL of diluted ethanol (1 in 2). To 10 mL of this solution add 90 mL of diluted methanol (1 in 2). Proceed with 10 mL of this solu-tion under the above operating conditions. Use a column giving elution of benzoic acid, salicylic acid and theophylline in this order, and clearly dividing each peak."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

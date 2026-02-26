@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/silver-protein-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Silver Protein Solution",
+    "ja": "プロテイン銀液"
+  },
+  "monographId": "JP18-silver-protein-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Silver Protein Solution contains not less than 0."
+  },
+  "appearance": {
+    "en": "Silver Protein Solution is a clear, brown liq-uid, having the odor of mentha oil."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Silver Protein Solution add 10 mL of ethanol (95), mix, and add 2 mL of sodium hy-droxide TS. Add immediately 1 mL of a solution of copper (II) chloride dihydrate in ethanol (95) (1 in 10), shake, and filter: the filtrate is blue in color (glycerin). To 3 mL of Silver Protein Solution add water to make 10 mL, add 2 mL of dilute hydrochloric acid, shake frequently for 5 minutes, and filter. Add 5 mL of a solution of sodium hydroxide (1 in 10) to the filtrate, and add 2 mL of diluted copper (II) sulfate TS (2 in 25): a purple color de-velops (silver protein). To 5 mL of the sample solution obtained in (2) add iron (III) chloride TS dropwise: a brown precipitate is formed (silver protein). Place 3 mL of Silver Protein Solution in a crucible, heat cautiously, and evaporate almost to dryness. Then in-cinerate gradually by strong heating, dissolve the residue in 1 mL of nitric acid by warming, and add 10 mL of water: the solution responds to Qualitative Tests <1.09> (1) for silver salt."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 25 mL of Silver Protein Solution into a 250-mL Kjeldahl flask, and heat cautiously until a white gas of glycerin is evolved. After cooling, add 25 mL of sulfuric acid, cover the flask with a funnel, and heat gently for 5 minutes. After cooling, drop gradually 5 mL of nitric acid, heat with occasional shaking in a water bath for 45 minutes, and cool. Add 2 mL of nitric acid, boil gently, and repeat this operation until the solution becomes colorless upon ‌cooling. Transfer cautiously the cooled content in the flask into a 500-mL conical flask with 250 mL of water. Boil gently for 5 minutes, cool, and titrate <2.50> with 0.1 mol/L ammonium thiocyanate VS (indicator: 3 mL of ammonium iron (III) sulfate TS).‌ Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 10.79 mg of Ag"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

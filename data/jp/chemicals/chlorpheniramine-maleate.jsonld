@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorpheniramine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorpheniramine Maleate",
+    "ja": "クロルフェニラミンマレイン酸塩"
+  },
+  "monographId": "JP18-chlorpheniramine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H19ClN2.C4H4O4",
+  "molecularWeight": 390.86,
+  "casNumber": "113-92-8",
+  "definition": {
+    "en": "Chlorpheniramine Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chlorpheniramine Maleate occurs as white, fine crystals. It is very soluble in acetic acid (100), freely soluble in water and in methanol, and soluble in ethanol (99.5). It dissolves in dilute hydrochloric acid. A solution of Chlorpheniramine Maleate (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Chlorpheniramine Maleate in 0.1 mol/L hydro-chloric acid TS (3 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Chlorpheniramine Maleate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Chlorpheniramine Maleate, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Chlorpheniramine Maleate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 0.10 g of Chlorpheniramine Maleate in 5 mL of methanol, and use this solution as the sample solution. Separately, dissolve 56 mg of maleic acid in 10 mL of metha-nol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether, methanol, acetic acid (100) and water (70:20:7:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot among two of the spots obtained with the sample solution shows the same intense and Rf value with the spot obtained with the standard solution. pH <2.54> Dissolve 1.0 g of Chlorpheniramine Maleate in 100 mL of freshly boiled and cooled water: the pH of this so-lution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Chlorpheniramine Maleate in 50 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Chlor- pheniramine Maleate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.10 g of Chlor-pheniramine Maleate in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 3 mL of the sam-ple solution, and add the mobile phase to make exactly 100 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak other than maleic acid and chlorpheniramine obtained from the sample solu-tion is not larger than 2/3 times the peak area of chlor-pheniramine from the standard solution, and the total area of the peaks other than maleic acid and chlorpheniramine from the sample solution is not larger than the peak area of chlorpheniramine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 8.57 g of ammonium dihydrogen-phosphate and 1 mL of phosphoric acid in water to make 1000 mL. To 800 mL of this solution add 200 mL of aceto-nitrile. Flow rate: Adjust so that the retention time of chlor-pheniramine is about 11 minutes. Time span of measurement: About 4 times as long as the retention time of chlorpheniramine, beginning after the sol-vent peak. System suitability— Test for required detectability: To exactly 2.5 mL of the standard solution add the mobile phase to make exactly 25 mL. Confirm that the peak area of chlorpheniramine ob-tained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of chlorpheniramine are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of chlorpheniramine is not more than 4.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.4 g of Chlorpheniramine Maleate, previously dried and accurately weighed, in 20 mL of acetic acid (100). Titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue-green to green (indicator: 2 drops of crystal violet TS). ‌JP XVIII Official Monographs / Chlorpheniramine Maleate Powder 741‌ Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.54 mg of C H ClN .C H O lution. Determine the absorbances AT and AS of the sample solution and standard solution at a wavelength of the maxi-mum absorbance at about 265 nm as directed under Ultravi-olet-visible Spectrophotometry <2.24>. 16 19 2 4 4 4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

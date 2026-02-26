@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pethidine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pethidine Hydrochloride",
+    "ja": "ペチジン塩酸塩"
+  },
+  "monographId": "JP18-pethidine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H21NO2.HCl",
+  "molecularWeight": 283.79,
+  "casNumber": "50-13-5",
+  "appearance": {
+    "en": "Pethidine Hydrochloride occurs as a white crystalline powder. It is very soluble in water and in acetic acid (100), freely soluble in ethanol (95), sparingly soluble in acetic anhydride, and practically insoluble in diethyl ether. The pH of a solution dissolved 1.0 g of Pethidine Hydro-chloride in 20 mL of water is between 3.8 and 5.8."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Pethidine Hydrochloride in 10 mL of water: the solution is clear and colorless. Sulfate <1.14>—Perform the test with 0.20 g of Pethidine Hydrochloride. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.240z). Related substances—Dissolve 0.05 g of Pethidine Hy-drochloride in 20 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area obtained from both solutions by the automatic integra-tion method: the total area of the peaks other than pethidine obtained from the sample solution is not larger than the peak area of perthidine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 257 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.0 g of sodium lauryl sulfate in 1000 mL of diluted phosphoric acid (1 in 1000), adjust the pH to 3.0 with sodium hydroxide TS, and to 550 mL of this solution add 450 mL of acetonitrile. Flow rate: Adjust so that the retention time of pethidine is about 7 minutes. Time span of measurement: About 2 times as long as the retention time of pethidine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of pethidine obtained with 20 mL of this solution is equivalent to 5 to 15z of that with 20 mL of the standard solution. System performance: To 2 mL each of the sample solution and a solution of isoamyl parahydroxybenzoate in the mo-bile phase (1 in 50,000) add the mobile phase to make 10 mL. When the procedure is run with 20 mL of this solution ac-cording to the above operating conditions, pethidine and isoamyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak ‌area of pethidine is not more than 2.0z.‌ Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Pethidine Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 28.38 mg of C15H21NO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

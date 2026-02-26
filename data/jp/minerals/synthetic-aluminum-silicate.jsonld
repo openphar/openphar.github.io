@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/synthetic-aluminum-silicate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Synthetic Aluminum Silicate",
+    "ja": "合成ケイ酸アルミニウム"
+  },
+  "monographId": "JP18-synthetic-aluminum-silicate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Synthetic Aluminum Silicate occurs as a white powder. It is odorless and tasteless. It is practically insoluble in water, in ethanol (95) and in diethyl ether. Synthetic Aluminum Silicate (1 g) dissolves when heated in 20 mL of a solution of sodium hydroxide (1 in 5), leaving a small amount of insoluble substance ."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of Synthetic Aluminum Sili-cate add 3 mL of diluted sulfuric acid (1 in 3), heat until white fumes evolve, cool, add 20 mL of water, and filter. Render the filtrate slightly acid with ammonia TS: the solu-tion responds to Qualitative Tests <1.09> for aluminum salt. (2) Prepare a bead by fusing ammonium sodium hydrogenphosphate tetrahydrate on a platinum loop. Place the bead in contact with Synthetic Aluminum Silicate, and fuse again: an infusible material appears in the bead, producing, upon cooling, an opaque bead with a web-like structure."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Shake 1.0 g of Synthetic Aluminum Silicate with 20 mL of water, and centrifuge: the supernatant liquid so obtained is neutral. Chloride <1.03>—To 5.0 g of Synthetic Aluminum Silicate add 100 mL of water, boil gently for 15 minutes while shaking, then cool, add water to restore the original volume, and centrifuge. To 10 mL of the supernatant liquid add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution with 0.30 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.021z). Sulfate <1.14>—To 2.0 mL of the supernatant liquid obtained in (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.480z). Heavy metals <1.07>—To 3.0 g of Synthetic Alumi-num Silicate add 50 mL of water and 5 mL of hydrochloric acid, boil gently for 20 minutes while shaking, then after cooling, centrifuge, remove the supernatant liquid, wash the precipitate with two 10-mL portions of water, centrifuging ‌444 each time, combine these washings with the filtrate, and add ammonia solution (28) dropwise until a precipitate just ap-pears. Add dropwise dilute hydrochloric acid with vigorous shaking to redissolve the precipitate. Heat the solution with 0.45 g of hydroxylammonium chloride, and after cooling, add 0.45 g of sodium acetate trihydrate, 6 mL of dilute ace-tic acid and water to make 150 mL. Perform the test with 50 mL of this solution as the test solution. Prepare the control solution with 3.0 mL of Standard Lead Solution, 0.15 g of hydroxylammonium chloride, 0.15 g of sodium acetate trihy-drate, 2 mL of dilute acetic acid and water to make 50 mL (not more than 30 ppm). Arsenic <1.11>—To 1.0 g of Synthetic Aluminum Sili- cate add 10 mL of dilute hydrochloric acid, heat gently to boiling while shaking well, cool rapidly, and centrifuge. Mix the residue with 5 mL of dilute hydrochloric acid with shak-ing, centrifuge, then add 10 mL of water to the residue, and repeat the extraction in the same manner. Concentrate the combined extracts on a water bath to 5 mL. Use this solution as the test solution, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 20.0z (1 g, 1059C, 3 hours). Acid-consuming capacity <6.04> Weigh accurately about 1 g of Synthetic Aluminum Silicate, transfer to a glass-stoppered flask, add 200 mL of 0.1 mol/L hydrochloric acid VS, exactly measured, stopper the flask, and shake at 37 ± 29C for 1 hour. Filter, pipet 50 mL of the filtrate, and titrate <2.50> by stirring well the excess hydrochloric acid with 0.1 mol/L sodium hydroxide VS until the pH of the so-lution changes to 3.5. The volume of 0.1 mol/L hydrochloric acid VS consumed is not less than 50.0 mL per g of Synthetic Aluminum Silicate."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dehydrocholic-acid-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dehydrocholic Acid Injection",
+    "ja": "デヒドロコール酸注射液"
+  },
+  "monographId": "JP18-dehydrocholic-acid-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dehydrocholic Acid Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Dehydrocholic Acid Injection is a clear, color-less to light yellow liquid, and has a bitter taste. pH: 9 – 11"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Transfer a volume of Dehydrocholic Acid Injection, equivalent to 0.1 g of Purified Dehydrocholic Acid, to a separator, and add 10 mL of water and 1 mL of dilute hydrochloric acid: a white precipitate is produced. Extract the mixture with three 15-mL portions of chlo-roform, combine all the chloroform extracts, evaporate the chloroform on a water bath, and dry the residue at 1059C for 1 hour: the residue so obtained melts <2.60> between 2359C and 2429C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Evaporate a volume of Dehy-drocholic Acid Injection, equivalent to 1.0 g of Purified De-hydrocholic Acid, on a water bath to dryness. Proceed with the residue according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer an exactly measured volume of Dehydro-cholic Acid Injection, equivalent to about 0.5 g of dehydro- wash the filter with water until 100 mL of the filtrate is ob- tained. To 10 mL of the filtrate add 1 mL of dilute sulfuric cholic acid (C 24H 34O5), to a 100-mL separator, and add, if acid: no turbidity is produced. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g). Assay Weigh accurately about 0.5 g of Purified Dehydro-cholic Acid , previously dried, add 40 mL of neutralized ethanol and 20 mL of water, and dissolve by warming. Add 2 drops of phenolphthalein TS, then titrate <2.50> with 0.1 mol/L sodium hydroxide VS, adding 100 mL of freshly necessary, water to make 25 mL. Add 2 mL of hydrochloric acid, and extract with 25-mL, 20-mL and 15-mL portions of chloroform successively. Combine the chloroform extracts, wash with cold water until the washings become negative to acid, and evaporate the chloroform on a water bath. Dis-solve the residue in 40 mL of neutralized ethanol and 20 mL of water by warming. Add 2 drops of phenolphthalein TS to this solution, titrate <2.50> with 0.1 mol/L sodium hydroxide VS, adding 100 mL of freshly boiled and cooled water as the end point is approached, and continue the titration. Each mL of 0.1 mol/L sodium hydroxide VS boiled and cooled water as the end point is approached, and continue the titration. ＝ 40.25 mg of C24 H34O5 Each mL of 0.1 mol/L sodium hydroxide VS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers,"
+  },
+  "dosageForm": "Injection"
+}

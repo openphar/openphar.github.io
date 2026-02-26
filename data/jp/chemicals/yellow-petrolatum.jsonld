@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/yellow-petrolatum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Yellow Petrolatum",
+    "ja": "黄色ワセリン"
+  },
+  "monographId": "JP18-yellow-petrolatum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Yellow Petrolatum occurs as a yellow, homo-geneous, unctuous mass, It is odorless and tasteless. It is slightly soluble in ethanol (95), and practically insolu-ble in water. It dissolves in diethyl ether, in petroleum benzine and in turpentine oil, making a clear liquid or producing slight in-soluble substances. It becomes a yellow, clear liquid with slight fluorescence when warmed."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Color—Melt Yellow Petrolatum by warming, and pour 5 mL of it into a test tube, and keep the content in a liquid condition: the liquid has no more color than the fol-lowing control solution, when observed transversely from side against a white background. Control solution: To 3.8 mL of Iron (III) Chloride CS add 1.2 mL of Cobalt (II) Chloride CS. Acidity or alkalinity—To 35.0 g of Yellow Petrola-tum add 100 mL of hot water, shake vigorously for 5 minutes, and then draw off the aqueous layer. Treat the Yel-low Petrolatum layer in the same manner using two 50-mL portions of hot water. To the combined aqueous layer add 1 drop of phenolphthalein TS, and boil: no red color is pro-duced. Further add 2 drops of methyl orange TS: no red color is produced. Heavy metals <1.07>—Proceed with 1.0 g of Yellow Petrolatum according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Yellow Petrolatum, according to Method 3, and perform the test. Add 10 mL of a solution of magnesium nitrate hex-ahydrate in ethanol (95) (1 in 50), then add 1.5 mL of hydro-gen peroxide (30), and fire to burn (not more than 2 ppm). Sulfur compound—To 4.0 g of Yellow Petrolatum add 2 mL of ethanol (99.5) and 2 drops of sodium hydroxide solution (1 in 5) saturated with lead (II) oxide, warm the mixture for 10 minutes at about 709C with frequent shaking, and allow to cool: no dark color is produced. Organic acids—To 100 mL of dilute ethanol add 1 drop of phenolphthalein TS, and titrate with 0.01 mol/L so-dium hydroxide VS, until the color of the solution changes to light red. Mix this solution with 20.0 g of Yellow Petrola-tum, and boil for 10 minutes under a reflux condenser. Add 2 to 3 drops of phenolphthalein TS to the mixture and 0.40 mL of 0.1 mol/L sodium hydroxide VS with vigorous shak-ing: the color of the solution remains red. Fats and fatty oils or resins—To 10.0 g of Yellow Petrolatum add 50 mL of sodium hydroxide solution (1 in 5), and boil for 30 minutes under a reflux condenser. Cool the mixture, separate the aqueous layer, and filter, if neces-sary. To the aqueous layer add 200 mL of dilute sulfuric acid: neither oily matter nor precipitate is produced. Residue on ignition <2.44> Not more than 0.05z (2 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

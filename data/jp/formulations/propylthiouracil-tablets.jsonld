@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/propylthiouracil-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Propylthiouracil Tablets",
+    "ja": "プロピルチオウラシル錠"
+  },
+  "monographId": "JP18-propylthiouracil-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Propylthiouracil Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of propylthiouracil (C7H10N2OS: 170.23). Method of preparation Prepare as directed under Tablets, with Propylthiouracil. Identification To a quantity of powdered Propylthiouracil Tablets, equivalent to 0.3 g of Propylthiouracil, add 5 mL of ammonia TS, allow to stand for 5 minutes with occasional shaking, add 10 mL of water, and centrifuge. To the super-natant liquid add acetic acid (31), collect the precipitate pro-duced, recrystallize from water, and dry at 1059C for 1 hour: it melts <2.60> between 2189C and 2219C. Proceed with the residue as directed in the Identification under Propylthiouracil. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Propylthiouracil Tablets add 3V/4 mL of 2nd fluid for dissolution test, sonicate until the tablet is dis-integrated, and add 2nd fluid for dissolution test to make ex-actly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Propylthiouracil Tablets, equivalent to 0.3 g of Propylthiouracil, add 5 mL of ammonia TS, allow to stand for 5 minutes with occasional shaking, add 10 mL of water, and centrifuge. To the super-natant liquid add acetic acid (31), collect the precipitate pro-duced, recrystallize from water, and dry at 1059C for 1 hour: it melts <2.60> between 2189C and 2219C. Proceed with the residue as directed in the Identification under Propylthiouracil. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Propylthiouracil Tablets add 3V/4 mL of 2nd fluid for dissolution test, sonicate until the tablet is dis-integrated, and add 2nd fluid for dissolution test to make ex-actly V mL so that each mL contains about 0.25 mg of propylthiouracil (C7H10N2OS). Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, dis-card the first 5 mL of the filtrate, pipet 2 mL of the subse-quent filtrate, add 2nd fluid for dissolution test to make ex-actly 100 mL, and use this solution as the sample solution. Proceed as directed in the Assay. Amount (mg) of propylthiouracil (C7H10N2OS) ＝ MS × AT/AS × V/200 MS: Amount (mg) of propylthiouracil for assay taken Dissolution <6.10> When the test is performed at 75 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rate in 30 minutes of Propylthiouracil Tablets is not less than 80z. Start the test with 1 tablet of Propylthiouracil Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 5.6 mg of propylthiouracil (C7H10N2OS), and use this solution as the sample solution. Separately, weigh about 50 mg of propylthiouracil for assay, previously dried at 1059C for 3 hours, and dissolve in the dissolution medium to make exactly 1000 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbance at 274 mm, AT and AS, of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of propylthiouracil (C7H10N2OS) ＝ MS × AT/AS × V?/V × 1/C × 9 MS: Amount (mg) of propylthiouracil for assay taken C: Labeled amount (mg) of propylthiouracil (C7H10N2OS) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Propylthiouracil Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of propylthiouracil (C7H10N2OS), add 150 mL of 2nd fluid for dissolution test, disperse finely the particles by sonicating, and add 2nd fluid for dissolution test to make exactly 200 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 5 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 2nd fluid for dissolution test to make exactly 100 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 50 mg of propylthiouracil for assay, previously dried at 1059C for 2 hours, and dissolve in 2nd fluid for dissolu-tion test to make exactly 200 mL. Pipet 2 mL of this solu-tion, add 2nd fluid for dissolution test to make exactly 100 mL, and use this solution as the standard solution. Deter-mine the absorbance at 274 nm, AT and AS, of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of propylthiouracil (C7H10N2OS) ＝ MS × AT/AS MS: Amount (mg) of propylthiouracil for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

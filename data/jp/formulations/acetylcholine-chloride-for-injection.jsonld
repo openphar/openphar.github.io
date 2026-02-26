@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/acetylcholine-chloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Acetylcholine Chloride for Injection",
+    "ja": "注射用アセチルコリン塩化物"
+  },
+  "monographId": "JP18-acetylcholine-chloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Acetylcholine Chloride for Injection is a prepara-tion for injection which is dissolved before use. It contains not less than 98."
+  },
+  "appearance": {
+    "en": "Acetylcholine Chloride for Injection occurs as white, crystals or crystalline powder. It is very soluble in water, and freely soluble in ethanol (95). It is extremely hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Acetylcholine Chloride for Injection, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) A solution of Acetylcholine Chloride for Injection (1 in 10) responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Acetylcholine Chloride for Injection in 10 mL of water: the solution is clear and colorless. Acidity—Dissolve 0.10 g of Acetylcholine Chloride for Injection in 10 mL of freshly boiled and cooled water, and add 1 drop of bromothymol blue TS, and 0.30 mL of 0.01 mol/L sodium hydroxide VS: the solution is blue in color. Heavy metals <1.07>—Proceed with 2.0 g of Acetyl- choline Chloride for Injection according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Uniformity of dosage units <6.02> It meets the requirement Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Acetylcholine chloride—Weigh accurately the contents of not less than 10 Acetylcholine Chloride for Injec-tions. Weigh accurately about 0.5 g of the contents, dissolve in 15 mL of water, then add exactly 40 mL of 0.1 mol/L so-dium hydroxide VS, stopper loosely, and heat on a water bath for 30 minutes. Cool quickly, and titrate <2.50> the excess sodium hydroxide with 0.05 mol/L sulfuric acid VS (indicator: 3 drops of phenolphthalein TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 18.17 mg of C7H16ClNO2 (2) Chlorine—Titrate <2.50> the solution, which has been titrated in (1), with 0.1 mol/L silver nitrate VS (indicator: 3 drops of fluorescein sodium TS). Each mL of 0.1 mol/L silver nitrate VS ＝ 3.545 mg of Cl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

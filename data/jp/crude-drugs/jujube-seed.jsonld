@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/jujube-seed",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-jujube-seed",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Jujube Seed",
+    "la": "Ziziphi Semen",
+    "ja": "サンソウニン"
+  },
+  "definition": {
+    "en": "the seed of Ziziphus jujuba Miller"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/jujube-seed-ziziphus-jujuba-miller-var"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/scopolamine-butylbromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Scopolamine Butylbromide",
+    "ja": "ブチルスコポラミン臭化物"
+  },
+  "monographId": "JP18-scopolamine-butylbromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H30BrNO4",
+  "molecularWeight": 440.37,
+  "definition": {
+    "en": "Scopolamine Butylbromide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Scopolamine Butylbromide occurs as white, crystals or crystalline powder. It is very soluble in water, freely soluble in acetic acid (100), soluble in ethanol (95), sparingly soluble in methanol, slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. Melting point: about 1409C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mg of Scopolamine Butylbromide add 3 to 4 drops of fuming nitric acid, and evaporate on a water bath to dryness. After cooling, dissolve the residue in 1 mL of N,N-dimethylformamide, and add 6 drops of tet-raethylammonium hydroxide TS: a red-purple color devel-ops. Determine the absorption spectrum of a solution of Scopolamine Butylbromide (1 in 1000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Scopolamine Butylbromide, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Scopolamine Butylbromide (1 in 20) responds to Qualitative Tests <1.09> for bromide. D Optical rotation <2.49> [a]20: －18.0 – －20.09(after dry-ing, 1 g, water, 10 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Scopolamine Butylbromide in 10 mL of water: the pH of this solution is between 5.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Scopolamine Butylbromide in 10 mL of water: the solu-tion is clear, and has no more color than the following con-trol solution. Control solution: To 0.5 mL of Matching Fluid F add di-luted hydrochloric acid (1 in 40) to make 20 mL. Heavy metals <1.07>—Proceed with 2.0 g of Scopola- mine Butylbromide according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Scopolamine Butylbromide in the mobile phase to make exactly 10 mL, and use this solution as the sample solution. Separately, dis- ‌solve 10 mg of scopolamine hydrobromide hydrate in the mobile phase to make exactly 100 mL. Pipet 10 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution (1). Pipet 5 mL of the standard solution (1), add the mobile phase to make ex-actly 10 mL, and use this solution as the standard solution (2). Perform the test with exactly 20 mL each of the sample solution and standard solutions (1) and (2) as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of these solutions by the automatic integration method: the peak area of scopola-mine obtained from the sample solution is not larger than that from the standard solution (2), and each area of the peaks other than the peak appearing in the first elution and the peak of scopolamine and butylscopolamine from the sample solution are not larger than the peak area from the standard solution (1). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Scopolamine Hydrobromide Hydrate"
+      }
+    }
+  ]
+}

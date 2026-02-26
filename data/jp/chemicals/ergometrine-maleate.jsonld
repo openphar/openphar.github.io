@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ergometrine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ergometrine Maleate",
+    "ja": "エルゴメトリンマレイン酸塩"
+  },
+  "monographId": "JP18-ergometrine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H23N3O2.C4H4O4",
+  "molecularWeight": 441.48,
+  "definition": {
+    "en": "Ergometrine Maleate, when dried, contains not Loss on drying <2."
+  },
+  "appearance": {
+    "en": "Ergometrine Maleate occurs as a white to pale yellow crystalline powder. It is odorless. It is sparingly soluble in water, slightly soluble in metha-nol and in ethanol (95), and practically insoluble in diethyl ether. It gradually changes to yellow in color on exposure to light. Melting point: about 1859C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Prepare a solution of Ergometrine Maleate (1 in 50): the solution shows a blue fluorescence. Dissolve 1 mg of Ergometrine Maleate in 5 mL of water. To 1 mL of this solution add 2 mL of 4-dimethyl-aminobenzaldehyde-ferric chloride TS, shake, and allow to stand for 5 to 10 minutes: a deep blue color develops. To 5 mL of a solution of Ergometrine Maleate (1 in 500) add 1 drop of potassium permanganate TS: the red color of the solution disappears immediately. MS: Amount (mg) of Ergometrine Maleate RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Ergometrine Maleate and Ergometrine Maleate RS, previously dried in a desiccator (silica gel) for 4 hours, dissolve in water to make exactly 250 mL, and use these solutions as the sample solu-tion and the standard solution, respectively. Pipet 2 mL of each solution into a separate brown glass-stoppered tube. To each tube add 4 mL of 4-dimethylaminobenzaldehyde-iron (III) chloride TS, exactly measured, while cooling in an ice bath, then warm at 459C for 10 minutes. Allow to stand at room temperature for 20 minutes, and perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution, prepared with 2 mL of water in the same manner, as the blank. Determine the ab-sorbances, AT and AS, of the subsequent solutions of the sample solution and the standard solution at 550 nm, respec-tively. less than 98.0z of ergometrine maleate (C19H23N3O2. Amount (mg) of ergometrine maleate (C H N O .C H O ) C4H4O4). ＝ MS × AT/AS 19 23 3 2 4 4 4 Description Ergometrine Maleate occurs as a white to pale yellow crystalline powder. It is odorless. It is sparingly soluble in water, slightly soluble in metha-nol and in ethanol (95), and practically insoluble in diethyl ether. It gradually changes to yellow in color on exposure to light. Melting point: about 1859C (with decomposition). Identification (1) Prepare a solution of Ergometrine Maleate (1 in 50): the solution shows a blue fluorescence. Dissolve 1 mg of Ergometrine Maleate in 5 mL of water. To 1 mL of this solution add 2 mL of 4-dimethyl-aminobenzaldehyde-ferric chloride TS, shake, and allow to stand for 5 to 10 minutes: a deep blue color develops. To 5 mL of a solution of Ergometrine Maleate (1 in 500) add 1 drop of potassium permanganate TS: the red color of the solution disappears immediately. MS: Amount (mg) of Ergometrine Maleate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

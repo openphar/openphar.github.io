@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pemirolast-potassium-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Pemirolast Potassium Ophthalmic Solution",
+    "ja": "ペミロラストカリウム点眼液"
+  },
+  "monographId": "JP18-pemirolast-potassium-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Pemirolast Potassium Ophthalmic Solution is an aqueous ophthalmic preparation. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Pemirolast Potassium Ophthalmic Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Pemirolast Potassium Oph-thalmic Solution, equivalent to 1 mg of Pemirolast Potassi-um, add diluted 0.1 mol/L phosphate buffer solution for an-tibiotics (pH 8.0) (1 in 10) to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits maxima between 255 nm and 259 nm, and between 355 nm and 359 nm. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—To a volume of Pemirolast Potassium Ophthalmic Solution, equivalent to 2 mg of Pemirolast Potassium, add 1 mL of methanol and diluted 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) (1 in 10) to make 5 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add 20 mL of methanol and diluted 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) (1 in 10) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than pemirolast obtained from the sample solution is not larger than 3/10 times the peak area of pemirolast from the standard solution, and the total area of the peaks other than pemirolast from the sample solution is not larger than the peak area of pemirolast from the stand-ard solution. Operating conditions— Detector: An ultraviolet spectrophotometer (wavelength: 260 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: A mixture of trifluoroacetic acid TS and methanol (4:1). Mobile phase B: A mixture of methanol and trifluoroacet-ic acid TS (3:2). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. ing conditions, the relative standard deviation of the peak area of pemirolast is not more than 2.0z. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Pemirolast Potassium Ophthalmic Solution, equivalent to 2 mg of pemirolast potassium (C10H7KN6O), add exactly 2 mL of the internal standard so-lution, then add a mixture of diluted 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) (1 in 10) and metha-nol (3:2) to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Pemirolast Potassium RS (separately determine the water <2.48> in the same manner as Pemirolast Potassium), and dissolve in water to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solution, then add a mixture of diluted 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) (1 in 10) and methanol (3:2) to make 20 mL, and use this solution as the standard solu-tion. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Calcu-late the ratios, QT and QS of the peak area of pemirolast to that of the internal standard. Amount (mg) of pemirolast potassium (C10H7KN6O) ＝ MS × QT/QS × 1/25 MS: Amount (mg) of Pemirolast Potassium RS taken, cal-culated on the anhydrous basis Internal standard solution—A solution of ethyl aminobenzo-ate in methanol (1 in 1000). Operating conditions— Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) Detector: An ultraviolet spectrophotometer (wavelength: 260 nm). Column: A stainless steel column 3.9 mm in inside diame- 0 – 60 100 → 0 0 → 100 Flow rate: Adjust so that the retention time of pemirolast is about 19 minutes. Time span of measurement: About 3 times as long as the retention time of pemirolast, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add diluted 0.1 mol/L phosphate buffer solu-tion for antibiotics (pH 8.0) (1 in 10) to make exactly 20 mL. Confirm that the peak area of pemirolast obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 10 mg of pemirolast potas-sium in 10 mL of diluted 0.1 mol/L phosphate buffer solu-tion for antibiotics (pH 8.0) (1 in 10), transfer this solution to a colorless test tube, and illuminate with a D65 fluorescent lamp (3000 lx) for 72 hours. To 2 mL of this solution add 1 mL of methanol and diluted 0.1 mol/L phosphate buffer so-lution for antibiotics (pH 8.0) (1 in 10) to make 5 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the resolution between the peak, having the relative retention time about 0.9 to pemirolast, and the peak of pemirolast is not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat- ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, methanol and acetic acid (100) (30:20:1). Flow rate: Adjust so that the retention time of pemirolast is about 4 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, pemirolast and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of pemirolast to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

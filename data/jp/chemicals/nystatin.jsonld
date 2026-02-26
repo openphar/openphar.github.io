@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nystatin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nystatin",
+    "ja": "ナイスタチン"
+  },
+  "monographId": "JP18-nystatin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nystatin is a mixture of polyene macrolide sub-stances having antifungal activity produced by the growth of Streptomyces noursei. It contains not less than 4600 units (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Nystatin occurs as a white to light yellow-brown powder. It is soluble in formamide, sparingly soluble in methanol, slightly soluble in ethanol (95), and very slightly soluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Nystatin in 5 mL of water and 1 mL of sodium hydroxide TS, heat for 2 minutes, and cool. To this solution add 3 mL of a solution of 4-aminoacetophenone in methanol (1 in 200) and 1 mL of hy-drochloric acid: a red-purple color develops. To 10 mg of Nystatin add 50.25 mL of a mixture of diluted methanol (4 in 5) and sodium hydroxide TS (200:1), heat at not exceeding 509C to dissolve, then add diluted methanol (4 in 5) to make 500 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Nystatin RS prepared in the same manner as the sample solu-tion: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Nysta-tin according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 5.0z (0.3 g, in vacu-um, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Saccharomyces cerevisiae ATCC 9763 Culture medium—Use the medium 2) under (1) Agar media for seed and base layer. Standard solutions—Use a light-resistant container. Weigh accurately an amount of Nystatin RS equivalent to about 60,000 units, previously dried at 409C for 2 hours in vacuum (not more than 0.67 kPa), dissolve in formamide to make a solution of 3000 units per mL, and use this solution as the standard stock solution. Keep the standard stock solu-tion at 59C or below and use within 3 days. Take exactly a suitable amount of the standard stock solution before use, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 300 units and 150 units, and use these solutions as the high concentration standard solution and the low concentration standard solution, respectively. Sample solutions—Use a light-resistant container. Weigh accurately an amount of Nystatin equivalent to about 60,000 units, dissolve in formamide to make a solution of 3000 units per mL, and use this solution as the sample stock solution. Take exactly a suitable amount of the sample stock solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 300 units and 150 units, and use these solutions as the high concentration sample so-lution and the low concentration sample solution, respec-tively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

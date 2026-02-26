@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyporus-pulveratus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Polyporus Pulveratus",
+    "ja": "チョレイ末"
+  },
+  "monographId": "JP18-polyporus-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Polyporus Sclerotium occurs as a light grayish brown to light brown powder. Almost odorless and tasteless. Under a microscope <5.01>, Powdered Polyporus Scleroti- um reveals hypha, 1 to 2 mm, rarely up to 13 mm in diameter, and colorless transparent; granule strongly refracting light; and a few mucilage plates; sometimes fragments of false tis-sue consisting of them; somewhat brown false tissues; and solitary crystal of calcium oxalate. Solitary crystal is 10 to 40 mm in diameter, sometimes 100 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Warm, while shaking, 0.5 g of Powdered Polyporus Sclerotium with 5 mL of acetone on a water bath for 2 minutes, filter and evaporate the filtrate to dryness. Dissolve the residue in 5 drops of acetic anhydride, and add 1 drop of sulfuric acid: a red-purple color develops, and im-mediately changes to dark green. ‌JP XVIII Crude Drugs and Related Drugs / Prepared Glycyrrhiza 2105‌‌"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Polyporus Sclerotium according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Polyporus Sclerotium according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 16.0z. Acid-insoluble ash <5.01> Not more than 4.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

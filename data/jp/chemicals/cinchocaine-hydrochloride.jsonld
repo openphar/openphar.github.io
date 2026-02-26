@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cinchocaine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cinchocaine Hydrochloride",
+    "ja": "ジブカイン塩酸塩"
+  },
+  "monographId": "JP18-cinchocaine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H29N3O2.HCl",
+  "molecularWeight": 379.92,
+  "appearance": {
+    "en": "Dibucaine Hydrochloride occurs as white, crystals or crystalline powder. It is very soluble in water, in ethanol (95) and in acetic acid (100), freely soluble in acetic anhydride, and practically in-soluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dibucaine Hydrochloride in 1 mol/L hydrochlo-ric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dibucaine Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Dibucaine Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Dibucaine Hydrochloride in 50 mL of water: the pH of this solution is between 5.0 and 6.0. nation, and dry in vacuum over phosphorus (V) oxide at 809C for 5 hours. Seal immediately the open end of the tube, and determine the melting point."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dibucaine Hydrochloride in 20 mL of water: the solution is clear and colorless. Determine the absorbance of this solu-tion at 430 nm as directed under Ultraviolet-visible Spectro-photometry <2.24>, using water as the blank: it is not more than 0.03. Sulfate <1.14>—Perform the test with 0.30 g of Dibucaine Hydrochloride. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.056z). Heavy metals <1.07>—Proceed with 1.0 g of Dibucaine Hydrochloride according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.20 g of Dibucaine Hydrochloride in 5 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ethanol (95) to make exactly 20 mL, then pipet 2 mL of this solution, add ethanol (95) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl acetate, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultravio-let (main wavelength: 254 nm): the spots other than the prin-cipal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, phosphorus (V) oxide, 809C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Dibucaine Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.00 mg of C20H29N3O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

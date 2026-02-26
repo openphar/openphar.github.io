@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/flavoxate-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Flavoxate Hydrochloride",
+    "ja": "フラボキサート塩酸塩"
+  },
+  "monographId": "JP18-flavoxate-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H25NO4.HCl",
+  "molecularWeight": 427.92,
+  "casNumber": "3717-88-2",
+  "appearance": {
+    "en": "Flavoxate Hydrochloride occurs as white, crys-tals or crystalline powder. It is sparingly soluble in acetic acid (100) and in chlo-roform, slightly soluble in water and in ethanol (95), and practically insoluble in acetonitrile and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Flavoxate Hydrochloride in 0.01 mol/L hydro-chloric acid TS (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Flavoxate Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Flavoxate Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Flavoxate Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Flavoxate Hydrochloride according to Method 4, and per-form the test (not more than 1 ppm). Related substances—Dissolve 80 mg of Flavoxate Hydrochloride in 10 mL of chloroform, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add chloroform to make exactly 20 mL, then pipet 1 mL of this solution, add chloroform to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, reduced pressure, silica gel, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Flavoxate Hydro-chloride, previously dried, add 10 mL of acetic acid (100) and 40 mL of acetonitrile to dissolve, add 50 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 42.79 mg of C24H25NO4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

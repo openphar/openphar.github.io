@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/gardeniae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Gardeniae Fructus",
+    "ja": "サンシシ"
+  },
+  "monographId": "JP18-gardeniae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly long ovoid to ovoid fruit, 1 – 5 cm in length, 1 – 1.5 cm in width; externally yellow-brown to yellow-red, usually having 6, rarely 5 or 7, markedly raised ridges; calyx or its scar at one end, and sometimes peduncle at the other end; inner surface of pericarp yellow-brown, smooth and lustrous; internally divided into two loculi, con-taining a mass of seeds in yellow-red to dark red placenta; seed nearly circular, flat, about 0.5 cm in major axis, black-brown or yellow-red. Odor, slight; taste, bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1.0 g of pulverized Gardenia Fruit, previously dried in a desiccator (silica gel) for 24 hours, add 100 mL of hot water, warm the mixture between 609C and 709C for 30 minutes with frequent shaking, and filter after cooling. To 1.0 mL of the filtrate add water to make 10 mL: the color of the resulting solution is yellow and is not lighter than that of the following control solution. Control solution: Dissolve 9.8 mg of carbazochrome so-dium sulfonate trihydrate in water to make exactly 10 mL. Pipet 1 mL of this solution, and add water to make exactly 50 mL. (2) To 1.0 g of pulverized Gardenia Fruit add 20 mL of methanol, warm for 3 minutes on a water bath, cool, filter, and use the filtrate as the sample solution. Separately, dis-solve 1 mg of geniposide for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and methanol (3:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxy-benzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 10 minutes: one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Loss on drying <5.01> Not more than 13.0z. Total ash <5.01> Not more than 6.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Gardenia Fruit, transfer into a glass-stoppered centrifuge tube, add 40 mL of diluted methanol (1 in 2), shake for 15 minutes, cen-trifuge, and take the supernatant liquid. To the residue add 40 mL of diluted methanol (1 in 2), and repeat the same procedure as above. Combine the extracts so obtained, and add diluted methanol (1 in 2) to make exactly 100 mL. Pipet 5 mL of the solution, add methanol to make exactly 20 mL, use this solution as the sample solution. Separately, weigh accurately about 10 mg of geniposide for assay, and dissolve in methanol to make exactly 100 mL. Pipet 5 mL of the solu-tion, add methanol to make exactly 10 mL, and use this solu- tion as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of geniposide in each solution. Amount (mg) of geniposide ＝ MS × AT/AS × 2 MS: Amount (mg) of geniposide for assay taken, calcu-lated on the basis of the content obtained by qNMR Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of water and acetonitrile (22:3). Flow rate: Adjust so that the retention time of geniposide is about 15 minutes. System suitability— System performance: Dissolve 1 mg each of geniposide for assay and caffeine in methanol to make 15 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, caffeine and geniposide are eluted in this order with the resolution between these peaks being not less than 3.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of geniposide is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

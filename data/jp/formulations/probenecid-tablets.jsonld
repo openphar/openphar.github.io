@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/probenecid-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Probenecid Tablets",
+    "ja": "プロベネシド錠"
+  },
+  "monographId": "JP18-probenecid-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Probenecid Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of Tablets is not less than 80z. Start the test with 1 tablet of Probenecid Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 14 mg of probenecid (C13H19 NO4S), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Probenecid Tablets, equivalent to 0.5 g of Probenecid, add 50 mL of ethanol (95) and 1 mL of 1 mol/L hydrochloric acid TS, shake, and filter. Evaporate the filtrate on a water bath to about 20 mL. After cooling, collect produced crys-tals, recrystallize with 50 mL of dilute ethanol, and dry at 1059C for 4 hours: it melts <2.60> between 1969C and 2009C. With the crystals so obtained, proceed as directed in the Identification (1) under Probenecid. (2) Determine the absorption spectrum of a solution of the dried crystals obtained in (1) in ethanol (99.5) (1 in 50,000) as directed under Ultraviolet-visible Spectropho- solution, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 244 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of probenecid (C13H19NO4S) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of Probenecid RS taken C: Labeled amount (mg) of probenecid (C13H19NO4S) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately, and powder not less than 20 Probenecid Tablets. Weigh accurately a portion of the pow- ‌der, equivalent to about 0.25 g of probenecid (C13H19NO4S), add 30 mL of water and 2 mL of 1 mol/L hydrochloric acid TS, shake, add 30 mL of ethanol (99.5), disperse the parti-cles by sonicating, and add ethanol (99.5) to make exactly 100 mL. Centrifuge the solution, pipet 3 mL of the superna-tant liquid, add 1 mL of 1 mol/L hydrochloric acid TS, and add ethanol (99.5) to make exactly 50 mL. Pipet 5 mL of the solution, add ethanol (99.5) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 0.125 g of Probenecid RS, previously dried at 1059C for 4 hours, add 15 mL of water and 1 mL of 1 mol/L hydrochloric acid TS, then add ethanol (99.5) to make ex-actly 50 mL. Pipet 3 mL of this solution, add 1 mL of 1 mol/L hydrochloric acid TS, and add ethanol (99.5) to make exactly 50 mL. Pipet 5 mL of the solution, add ethanol (99.5) to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 248 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using a solution, prepared by mixing 1 mL of 0.1 mol/L hy-drochloric acid TS and sufficient ethanol (99.5) to make ex-actly 50 mL, as the blank. Amount (mg) of probenecid (C13H19NO4S) ＝ MS × AT/AS × 2 MS: Amount (mg) of Probenecid RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

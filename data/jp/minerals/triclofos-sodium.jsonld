@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/triclofos-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Triclofos Sodium",
+    "ja": "トリクロホスナトリウム"
+  },
+  "monographId": "JP18-triclofos-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Triclofos Sodium, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Triclofos Sodium is a white crystalline powder. It is freely soluble in water, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Triclofos Sodium as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 0.5 g of Triclofos Sodium add 10 mL of nitric acid, evaporate on a water bath to dryness, and ignite fur-ther over a flame. Dissolve the residue in 5 mL of water, and filter it necessary: the filtrate responds to Qualitative Tests <1.09> for sodium salt. To 0.1 g of Triclofos Sodium add 1 g of anhydrous sodium carbonate, and heat for 10 minutes. After cooling, dissolve the residue in 40 mL of water, filter if necessary, and render the filtrate acidic with dilute nitric acid: the solu-tion responds to Qualitative Tests <1.09> (2) for chloride. The remainder of the filtrate responds to Qualitative Tests <1.09> (1) for chloride and to Qualitative Tests <1.09> for phosphate. pH <2.54> Dissolve 1.0 g of Triclofos Sodium in 50 mL of water: the pH of this solution is between 3.0 and 4.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Triclofos Sodium in 50 mL of water: the solution is clear and colorless. Chloride <1.03>—Perform the test with 0.20 g of Triclofos Sodium. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.178z). Heavy metals <1.07>—Proceed with 1.0 g of Triclofos Sodium according to Method 1, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Triclofos Sodium according to Method 1, and perform the test (not more than 2 ppm). Free phosphoric acid—Weigh accurately about 0.3 g of Triclofos Sodium, previously dried, dissolve in water to make exactly 100 mL, and use this solution as the sample so-lution. Pipet 5 mL each of the sample solution and Standard Phosphoric Acid Solution, add 2.5 mL of hexaammonium heptamolybdate-sulfuric acid TS and 1 mL of 1-amino-2-naphthol-4-sulfonic acid TS, shake, add water to make ex-actly 25 mL, and allow to stand at 209C for 30 minutes. Per-form the test with these solutions, using a solution obtained in the same manner with 5 mL of water as the blank, as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Determine the absorbances, AT and AS, of each solution from the sample solution and Standard Phosphoric Acid So-lution at 740 nm: the content of the free phosphoric acid is not more than 1.0z. Content (z) of the free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 258.0 M: Amount (mg) of Triclofos Sodium taken Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, 1009C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Triclofos sodium—Weigh accurately about 0.2 g of Triclofos Sodium, previously dried, place in a Kjel-dahl flask, add 2 mL of sulfuric acid and 2.5 mL of nitric acid, and heat until brown gas are not evolved. After cool-ing, add 1 mL of nitric acid, heat until white fumes are pro-duced, and cool. Repeat this procedure until the solution becomes colorless. Transfer this solution to a flask using 150 mL of water, add 50 mL of molybdenum (VI) oxide-citric acid TS, heat gently to boil, add gradually 25 mL of quino-line TS with stirring, and heat on a water bath for 5 minutes. After cooling, filter the precipitate, and wash repeatedly with water until the washing does not indicate acidity. Trans-fer the precipitate to a flask using 100 mL of water, add exactly 50 mL of 0.5 mol/L sodium hydroxide VS, dissolve, and titrate <2.50> with 0.5 mol/L hydrochloric acid VS until the color of the solution changes from purple to yellow (indicator: 3 drops of phenolphthalein-thymol blue TS). Perform a blank determination in the same manner. Each mL of 0.5 mol/L sodium hydroxide VS ＝ 4.834 mg of C2H3Cl3NaO4P (2) Chlorine—Weigh accurately about 10 mg of Triclo-fos Sodium, previously dried, perform the test according to the procedure of determination for chlorine as directed under Oxygen Flask Combustion Method <1.06>, using 1 mL of sodium hydroxide TS and 20 mL of water as the absorb-ing liquid."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

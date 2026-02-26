@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/croconazole-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Croconazole Hydrochloride",
+    "ja": "クロコナゾール塩酸塩"
+  },
+  "monographId": "JP18-croconazole-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H15ClN2O.HCl",
+  "molecularWeight": 347.24,
+  "casNumber": "77174-66-4",
+  "definition": {
+    "en": "Croconazole Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Croconazole Hydrochloride occurs as white to pale yellow-white, crystals or crystalline powder. It is very soluble in water, freely soluble in methanol, in ethanol (95) and in acetic acid (100), and practically insolu-ble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Croconazole Hydrochloride in methanol (1 in 20,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer- ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Croconazole Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 0.05 g of Croconazole Hydrochloride in 10 mL of water, add 2 mL of sodium hydroxide TS and 20 mL of diethyl ether, and shake. Wash the separated aqueous layer with two 10-mL portions of diethyl ether, and acidify the solution with 2 mL of dilute nitric acid: the solution re-sponds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Croconazole Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Croconazole Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane, methanol and ammonia solution (28) (30:15:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Croconazole Hy-drochloride, previously dried, dissolve in 10 mL of acetic acid (100), add 40 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS [indicator: 1 to 2 drops of a solution of malachite green oxalate in acetic acid (100) (1 in 100)] until the color of the solution changes from blue-green through green to yellow-green. Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 34.72 mg of C18H15ClN2O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

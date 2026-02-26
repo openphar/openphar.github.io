@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/acrinol-and-zinc-oxide-oil",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Acrinol and Zinc Oxide Oil",
+    "ja": "アクリノール・チンク油"
+  },
+  "monographId": "JP18-acrinol-and-zinc-oxide-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Acrinol and Zinc Oxide Oil contains not less than 44."
+  },
+  "appearance": {
+    "en": "Acrinol and Zinc Oxide Oil is a yellow-white, slimy substance. Separation of a part of its ingredients oc-curs on prolonged standing."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake well 1 g of Acrinol and Zinc Oxide Oil with 10 mL of diethyl ether, 2 mL of acetic acid (100) and 10 mL of water, and separate the water layer. Shake the layer with 5 mL of hydrochloric acid and 2 to 3 drops of sodium nitrite TS, and allow to stand: a dark red color is produced (acrinol). Place 1 g of Acrinol and Zinc Oxide Oil in a crucible, melt by warming, heat, gradually raising the temperature until the mass is thoroughly charred, and then ignite strongly: a yellow color is produced, and disappears on cool-ing. To the residue add 10 mL of water and 5 mL of dilute ‌hydrochloric acid, filter after thorough shaking, and to the filtrate add 2 to 3 drops of potassium hexacyanoferrate (II) TS: a white precipitate is formed (zinc oxide).‌ Shake well 0.2 g of Acrinol and Zinc Oxide Oil with 20 mL of ethanol (95) and 1 mL of acetic acid (100), centri-fuge, filter, and use the filtrate as the sample solution. Sepa-rately, dissolve 5 mg of acrinol in 50 mL of ethanol (95) and 2.5 mL of acetic acid (100), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 2-propanol and acetic acid (100) (9:1) to a distance of about 10 cm, and air-dry the plate. Ex-amine under ultraviolet light (main wavelength: 365 nm): the spots from the sample solution and standard solution exhibit a blue fluorescence and show the same Rf value."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer about 0.8 g of well-mixed Acrinol and Zinc Oxide Oil, accurately weighed, to a crucible, heat, gradually raising the temperature until the mass is throughly charred, then strongly heat until the residue becomes yellow. After cooling, dissolve the residue by addition of 1 mL of water and 1.5 mL of hydrochloric acid, and add water to make exactly 100 mL. Pipet 20 mL of this solution, add 80 mL of water, then add sodium hydroxide solution (1 in 50) until slightly precipitates appear, and add 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7). Titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS (indicator: 40 mg of eriochrome black T-sodium chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 4.069 mg of ZnO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

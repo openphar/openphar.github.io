@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/citicoline",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Citicoline",
+    "ja": "シチコリン"
+  },
+  "monographId": "JP18-citicoline",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H26N4O11P2",
+  "molecularWeight": 488.32,
+  "casNumber": "987-78-0",
+  "definition": {
+    "en": "Citicoline contains not less than 98."
+  },
+  "appearance": {
+    "en": "Citicoline occurs as a white crystalline powder. It is very soluble in water, and practically insoluble in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Citicoline in 0.01 mol/L hydrochloric acid TS (3 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Citicoline RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Citicoline as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Citicoline RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Amount (z) of free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 10.32 M: Amount (mg) of Citicoline taken, calculated on the dried basis Related substances—Dissolve 0.10 g of Citicoline in water to make 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peaks other than citicoline obtained from the sample solution is not larger than 3/5 times the peak area of citicolins from the standard solution, and the total area of the peaks other than citicoline from the sample solution is not larger than the peak area of citicoline from the standard solution. For the area of the peaks, hav-ing the relative retention times of about 0.62, about 0.64 and about 1.3 to citicoline, multiply the correction factors, 1.2, 0.7 and 0.5, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of citicoline. System suitability— Test for required detectability: Pipet 4 mL of the standard solution, and add water to make exactly 50 mL. Confirm that the peak area of citicoline obtained with 10 mL of this solution is equivalent to 5.6 to 10.4z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con- ‌768 ditions, the number of theoretical plates and the symmetry factor of the peak of citicoline are not less than 2000 and 0.9 to 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of citicoline is not more than 2.0z. Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, phosphorus (V) oxide, 1009C, 4 hours)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Citicoline in 8 mL of water: the solution is clear and col-orless. Heavy metals <1.07>—Proceed with 2.0 g of Citico- line according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Citicoline according to Method 4, and perform the test (not more than 2 ppm). Free phosphoric acid—Weigh accurately about 0.1 g of Citicoline, dissolve in water to make exactly 10 mL, and use this solution as the sample solution. Separately, pipet 4 mL of Standard Phosphoric Acid Solution, add water to make exactly 10 mL, and use this solution as the standard solution. To each of the sample solution and the standard solution, add exactly 1 mL of hexaammonium heptamolyb-date-sulfuric acid TS and exactly 0.5 mL of 1-amino-2-naphthol-4-sulfonic acid TS, and after shaking, allow to stand for 30 minutes at 20 ± 19C. To exactly 2 mL each of these solutions add water to make exactly 10 mL, and deter-mine the absorbances, AT and AS, of the solutions obtained from the sample solution and the standard solution at 730 nm as directed under Ultraviolet-visible Spectrometry <2.24>, using the solution, obtained by proceeding with 10 mL of water in the same manner as the sample solution, as the blank. The amount of free phosphoric acid is not more than 0.1z. C14H26N4O11P2: 488.32 P?-[2-(Trimethylammonio)ethyl] cytidine 5?-(monohydrogen diphosphate) [987-78-0] Citicoline contains not less than 98.0z and not more than 102.0z of citicoline (C14H26N4O11P2), cal-culated on the dried basis. Description Citicoline occurs as a white crystalline powder. It is very soluble in water, and practically insoluble in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS. Identification (1) Determine the absorption spectrum of a solution of Citicoline in 0.01 mol/L hydrochloric acid TS (3 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Citicoline RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Citicoline as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Citicoline RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Amount (z) of free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 10.32 M: Amount (mg) of Citicoline taken, calculated on the dried basis Related substances—Dissolve 0.10 g of Citicoline in water to make 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peaks other than citicoline obtained from the sample solution is not larger than 3/5 times the peak area of citicolins from the standard solution, and the total area of the peaks other than citicoline from the sample solution is not larger than the peak area of citicoline from the standard solution. For the area of the peaks, hav-ing the relative retention times of about 0.62, about 0.64 and about 1.3 to citicoline, multiply the correction factors, 1.2, 0.7 and 0.5, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of citicoline. System suitability— Test for required detectability: Pipet 4 mL of the standard solution, and add water to make exactly 50 mL. Confirm that the peak area of citicoline obtained with 10 mL of this solution is equivalent to 5.6 to 10.4z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con- ‌768 ditions, the number of theoretical plates and the symmetry factor of the peak of citicoline are not less than 2000 and 0.9 to 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of citicoline is not more than 2.0z. Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, phosphorus (V) oxide, 1009C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Citicoline, and dis-solve in water to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 25 mg of Citicoline RS (separately determine the loss on drying <2.41> under the same conditions as Citicoline), and dissolve in water to make exactly 25 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of citicoline in each solution. Amount (mg) of citicoline (C14H26N4O11P2) ＝ MS × AT/AS × 4 MS: Amount (mg) of Citicoline RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: Combine 2 stainless steel columns (4 mm in in-side diameter and 25 cm in length) packed with strongly bas-ic ion exchange resin for liquid chromatography (10 mm in particle diameter) in series. Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 8.17 g of potassium dihydrogen phosphate in water to make 1000 mL. Adjust the pH of this solution to 3.5 with phosphoric acid. Flow rate: Adjust so that the retention time of citicoline is about 26 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of citicoline are not less than 2000 and 0.9 to 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of citicoline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

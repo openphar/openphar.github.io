@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/distigmine-bromide-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Distigmine Bromide Tablets",
+    "ja": "ジスチグミン臭化物錠"
+  },
+  "monographId": "JP18-distigmine-bromide-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay, as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 268 nm and 272 nm, and a minimum be-tween 239 nm and 243 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Distigmine Bromide Tablets add 30 mL of 0.1 mol/L hydrochloric acid TS, shake for 1 hour, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and filter. Discard the first 20 mL of the filtrate, pipet V mL of the subsequent filtrate, and add 0.1 mol/L hydrochloric acid (C22H32Br2N4O4) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 tablets of Distigmine Bromide Tablets. Weigh accurately a portion of the powder, equivalent to about 15 mg of Distig-mine Bromide (C22H32Br2N4O4), add 30 mL of 0.1 mol/L hy-drochloric acid TS, shake for 1 hour, add 0.1 mol/L hydro-chloric acid TS to make exactly 50 mL, and filter. Discard the first 20 mL of the filtrate, pipet 10 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 30 mg of distigmine bromide for assay (previously determine the water <2.48> in the same manner as Distigmine Bromide), and dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 10 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances of the sample solution and standard solution, AT2 and AS2, at 270 nm and, AT1 and AS1, at 241 nm as directed under Ultraviolet-visible Spectro-photometry <2.24>, respectively. Amount (mg) of distigmine bromide (C22H32Br2N4O4) ＝ MS × (AT2 － AT1)/(AS2 － AS1) × 1/2 MS: Amount (mg) of distigmine bromide for assay taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fluocinolone-acetonide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fluocinolone Acetonide",
+    "ja": "フルオシノロンアセトニド"
+  },
+  "monographId": "JP18-fluocinolone-acetonide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H30F2O6",
+  "molecularWeight": 452.49,
+  "appearance": {
+    "en": "Fluocinolone Acetonide occurs as white, crys-tals or crystalline powder. It is freely soluble in acetic acid (100) and in acetone, solu-ble in ethanol (99.5), sparingly soluble in methanol, and practically insoluble in water. Melting point: 266 – 2749C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mg of Fluocinolone Acetonide add 2 mL of sulfuric acid: a yellow color is produced. Dissolve 0.01 g of Fluocinolone Acetonide in 1 mL of methanol, add 1 mL of Fehling's TS, and heat: a red precipi-tate is produced. Proceed with 0.01 g of Fluocinolone Acetonide as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the test solu-tion responds to Qualitative Tests <1.09> for fluoride. Determine the infrared absorption spectrum of Fluocinolone Acetonide, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of previously dried Fluocino-lone Acetonide RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve Fluocinolone Aceto-nide and Fluocinolone Acetonide RS in acetone, respec-tively, then evaporate the acetone to dryness, and repeat the test on the residues. D Optical rotation <2.49> [a]20: ＋98 – ＋1089(after drying, 0.1 g, methanol, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 15 mg of Fluocino-lone Acetonide in 25 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of each solution by the automatic integration method: the total area of the peaks other than fluocinolone acetonide obtained from the sample solution is not larger than the peak area of fluocinolone acetonide from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of water-saturated chloroform, methanol and acetic acid (100) (200:3:2). Flow rate: Adjust so that the retention time of fluocino-lone acetonide is about 12 minutes. Time span of measurement: About 2 times as long as the retention time of fluocinolone acetonide, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add the mobile phase to make exactly 100 mL. Confirm that the peak area of fluocinolone acetonide obtained with 20 mL of this solution is equivalent to 4 to 6z of that with 20 mL of the standard solution. System performance: Dissolve 15 mg each of Fluocinolone Acetonide and triamcinolone acetonide in 25 mL of the mo-bile phase. To 5 mL of this solution add the mobile phase to make 20 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, triamcino-lone acetonide and fluocinolone acetonide are eluted in this order with the resolution between these peaks being not less than 1.9. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak ‌1026 areas of fluocinolone acetonide is not more than 1.0z. Loss on drying <2.41> Not more than 1.0z (0.2 g, in vacu-um, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.2 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Fluocinolone Acetonide and Fluocinolone Acetonide RS, previously dried, and dissolve in 40 mL each of methanol, add exactly 10 mL each of the internal standard solution, then add water to make 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of fluocinolone acetonide to that of the internal stand-ard. Fluocinonide"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/epirizole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Epirizole",
+    "ja": "エピリゾール"
+  },
+  "monographId": "JP18-epirizole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H14N4O2",
+  "molecularWeight": 234.25,
+  "casNumber": "18694-40-1",
+  "definition": {
+    "en": "Epirizole, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Epirizole occurs as white, crystals or crystal-line powder. It is odorless, and has a bitter taste. It is very soluble in methanol and in acetic acid (100), freely soluble in ethanol (95), and sparingly soluble in water and in diethyl ether. It dissolves in dilute hydrochloric acid and in sulfuric acid. The pH of a solution of 1.0 g of Epirizole in 100 mL of water is between 6.0 and 7.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Epirizole add 0.1 g of vanil-lin, 5 mL of water and 2 mL of sulfuric acid, and mix with shaking for a while: a yellow precipitate is formed. Dissolve 0.1 g of Epirizole in 10 mL of water, and add 10 mL of 2,4,6-trinitrophenol TS: a yellow precipitate is produced. Collect the precipitate by filtration, wash with 50 mL of water, and dry at 1059C for 1 hour: it melts <2.60> between 1639C and 1699C. Determine the absorption spectrum of a solution of Epirizole in 0.1 mol/L hydrochloric acid TS (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Epirizole in 20 mL of water: the solution is clear and col-orless. Chloride <1.03>—Add 0.5 g of Epirizole to a ground mixture of 0.7 g of potassium nitrate and 1.2 g of anhydrous sodium carbonate, mix well, transfer little by little to a plati-num crucible, previously heated, and heat until the reaction is completed. After cooling, add 15 mL of dilute sulfuric acid and 5 mL of water to the residue, boil for 5 minutes, filter, wash the insoluble matter with 10 mL of water, and to the combined filtrate and washings add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test with this so-lution as the test solution. Prepare the control solution as follows: proceed with the same quantities of the same rea-gents as directed for the preparation of the test solution, and add 0.25 mL of 0.01 mol/L hydrochloric acid VS and water to make 50 mL (not more than 0.018z). Heavy metals <1.07>—Proceed with 2.0 g of Epirizole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Epirizole according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 1.0 g of Epirizole in 10 mL of methanol, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, and add methanol to make exactly 50 mL. Pipet 1 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of isopropyl ether, ethanol (95) and water (23:10:2) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Place this plate in a chamber filled with iodine vapor: the spots other than the principal spot from the sample solu-tion are not more intense than the spot from the standard so-lution. Readily carbonizable substances <1.15>—Perform the test with 0.10 g of Epirizole: the solution has no more color than Matching Fluid A. Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 4 hours). ‌JP XVIII Official Monographs / Epirubicin Hydrochloride 939 Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Epirizole, previ-ously dried, dissolve in 40 mL of acetic acid (100) and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS) until the color of the solution changes from purple through blue-green to green. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 23.43 mg of C11H14N4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

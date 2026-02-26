@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/capsicum-and-salicylic-acid-spirit",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Capsicum and Salicylic Acid Spirit",
+    "ja": "トウガラシ・サリチル酸精"
+  },
+  "monographId": "JP18-capsicum-and-salicylic-acid-spirit",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Capsicum and Salicylic Acid Spirit is a light brown-yellow liquid. Specific gravity d 20: about 0.84"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake 10 mL of Capsicum and Salicylic Acid Spirit with 15 mL of sodium hydrogen carbonate TS and 10 mL of diethyl ether, and separate the aqueous layer. To 1 mL of the solution add hydrochloric acid-potassium chloride buffer solution (pH 2.0) to make 200 mL, and to 5 mL of this solution add 5 mL of a solution of iron (III) ni-trate enneahydrate (1 in 200): a red-purple color is produced (salicylic acid). To 0.5 mL of Capsicum and Salicylic Acid Spirit add 20 mL of water and 5 mL of dilute hydrochloric acid, extract with 20 mL of diethyl ether, wash the diethyl ether extract with two 5-mL portions of sodium hydrogen carbonate TS, and then extract with 20 mL of dilute sodium hydroxide TS. To 1 mL of the extract add 1 mL of sodium nitrite TS and 1 mL of dilute hydrochloric acid, shake, and allow to stand for 10 minutes. Add 3 mL of sodium hydroxide TS: a yellow color is produced (phenol). To 0.2 mL of Capsicum and Salicylic Acid Spirit add 5 mL of dilute hydrochloric acid, extract with 5 mL of chlo-roform, and use the extract as the sample solution. Dissolve 0.01 g of salicylic acid and 0.02 g of phenol in 5 mL and 25 mL of chloroform, respectively, and use both solutions as the standard solution (1) and the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solu-tion and standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, acetone and acetic acid (100) (45:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): two spots of the several spots obtained from the sample solution exhibit the same Rf values as those from standard solution (1) and standard solution (2). Spray evenly iron (III) chloride TS upon the plate: one of the sever-al spots from the sample solution has the same color tone and Rf value with the spot from the standard solution (1). Alcohol number <1.01> Not less than 8.1 (Method 2). Prepare the sample solution as follows: Pipet 5 mL of Capsicum and Salicylic Acid Spirit at 15 ± 29C into a glass- stoppered, conical flask containing exactly 45 mL of water while shaking vigorously, allow to stand, and filter the lower layer. Discard the first 15 mL of the filtrate. Pipet 25 mL of the subsequent filtrate, add exactly 10 mL of the internal standard solution, and add water to make exactly 100 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

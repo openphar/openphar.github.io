@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/simvastatin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Simvastatin",
+    "ja": "シンバスタチン"
+  },
+  "monographId": "JP18-simvastatin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H38O5",
+  "molecularWeight": 418.57,
+  "definition": {
+    "en": "Simvastatin contains not less than 98."
+  },
+  "appearance": {
+    "en": "Simvastatin occurs as a white crystalline pow-der. It is freely soluble in acetonitrile, in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Simvastatin in acetonitrile (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24> and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Simvastatin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Sim-vastatin as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Simvastatin RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋285 – ＋3009(50 mg calcu-lated on the dried basis, acetonitrile, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1 g of Simvastatin in 10 mL of methanol: the solution is clear. Per-form the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance at 440 nm is not more than 0.10. Heavy metals <1.07>—To 1.0 g of Simvastatin add 2 mL of sulfuric acid, and heat gently to carbonize. After cooling, add 2 mL of nitric acid and 1 mL of sulfuric acid, heat gently until the white fumes no more evolve, and heat to incinerate at 500 to 6009C. If the incineration is not accom-plished, add 0.5 mL of nitric acid, heat in the same manner as above, and ignite at 500 to 6009C to incinerate com-pletely. After cooling, add 2 mL of hydrochloric acid, proceed with this solution according to Method 2, and per-form the test. Prepare the control solution by using the same quantities of the same reagents as directed for the prepara-tion of the test solution, and add 2.0 mL of Standard Lead solution and water to make 50 mL (not more than 20 ppm). Related substances—Dissolve 30 mg of Simvastatin in 20 mL of a mixture of acetonitrile and 0.01 mol/L potas-sium dihydrogen phosphate TS (pH 4.0) (3:2), and use this ‌solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area from the sample solution by the auto- 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of simvastatin in each solution. matic integration method, and calculate the amount of them by the area percentage method: the amounts of the peaks, Amount (mg) of simvastatin (C 25H 38O5) ＝ MS × AT/AS having the relative retention times of about 0.45, about 0.80, about 2.42, and about 3.80 to simvastatin are not more than 0.2z, respectively; the amount of the peak, having a relative retention time of about 2.38 is not more than 0.3z; the amount of the peak, having a relative retention time of about 0.60 is not more than 0.4z; and the amount of each peak other than simvastatin and the peaks mentioned above is not more than 0.1z. Furthermore, the total amount of the peaks other than simvastatin and the peak with relative retention time of about 0.60 is not more than 1.0z. Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Assay. Mobile phase A: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile for liquid chromatography (1:1). Mobile phase B: A solution of phosphoric acid in aceto-nitrile for liquid chromatography (1 in 1000). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. MS: Amount (mg) of Simvastatin RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 238 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 33 mm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile for liquid chromatography (1:1). Flow rate: Adjust so that the retention time of simvastatin is about 3 minutes. System suitability— System performance: Dissolve 3 mg of lovastatin in 2 mL of the standard solution. When the procedure is run with 5 mL of this solution under the above operating conditions, lovastatin and simvastatin are eluted in this order with the Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times 0 – 4.5 100 0 4.5 – 4.6 100 → 95 0 → 5 4.6 – 8.0 95 → 25 5 → 75 8.0 – 11.5 25 75 Flow rate: 3.0 mL per minute. Time span of measurement: About 5 times as long as the retention time of simvastatin. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To 0.5 mL of the sample solution, add a mixture of acetonitrile and 0.01 mol/L po-tassium dihydrogen phosphate TS (pH 4.0) (3:2), to make 100 mL, and use this solution as the solution for system suitability test. Pipet 2 mL of the solution for system suita-bility test, add a mixture of acetonitrile and 0.01 mol/L potassium dihydrogen phosphate TS (pH 4.0) (3:2), to make exactly 10 mL. Confirm that the peak area of simvastatin obtained with 5 mL of this solution is equivalent to 16 to 24z of that with 5 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 5 mL of the solution for system suitability test under the above conditions, the relative standard deviation of the peak area of simvastatin is not more than 1.0z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacuum not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Simvastatin and Simvastatin RS (previously determine the loss on drying <2.41> under the same conditions as Simvastatin), dissolve each in a mixture of acetonitrile and 0.01 mol/L potassium dihydrogen phosphate TS (pH 4.0) (3:2), to make exactly 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of simvastatin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Under nitrogen atmosphere."
+  }
+}

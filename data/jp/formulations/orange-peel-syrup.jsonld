@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/orange-peel-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Orange Peel Syrup",
+    "ja": "トウヒシロップ"
+  },
+  "monographId": "JP18-orange-peel-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Orange Peel Syrup is a brownish yellow to red-dish brown liquid. It has a characteristic odor, a sweet taste and a bitter aftertaste. Specific gravity d 20: about 1.25"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 25 mL of Orange Peel Syrup add 50 mL of ethyl acetate, shake for 5 minutes, allow to stand until clear ethyl acetate layer separate, and take the ethyl acetate layer, and evaporate on a water bath to dryness. Dissolve the residue in 10 mL of ethanol (95), filter if necessary, and use this solution as the sample solution. Separately, dissolve 10 mg of naringin for thin-layer chromatography in 10 mL of ethanol (95), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly dilute 2,6-dibromo-N-chloro-1,4-benzoquinone monoimine TS on the plate, and allow to stand in ammonia gas: one of the several spots obtained from the sample solution has the same color tone and the same Rf value with the spot from the standard solution."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

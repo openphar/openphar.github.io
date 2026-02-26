@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/dextran-70",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dextran 70",
+    "ja": "デキストラン 70"
+  },
+  "monographId": "JP18-dextran-70",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dextran 70 is a product obtained by partial decom-position of polysaccharide, which is produced by fer-mentation of sucrose with Leuconostoc mesenteroides van Tieghem (Lactobacillaceae), and the average mo-lecular mass is about 70,000. When dried, it contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dextran 70 occurs as a white, amorphous pow-der. It is odorless and tasteless. It is practically insoluble in ethanol (95) and in diethyl ether. It dissolves gradually in water. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 mL of a solution of Dextran 70 (1 in 3000) add 2 mL of anthrone TS: a blue-green color develops and turns gradually dark blue-green. Then to this solution add 1 mL of diluted sulfuric acid (1 in 2) or 1 mL of acetic acid (100): the solution does not change in color. pH <2.54> Dissolve 3.0 g of Dextran 70 in 50 mL of water: the pH of this solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dextran 70 in 10 mL of water with warming: the solution is clear and colorless. Chloride <1.03>—With 2.0 g of Dextran 70, perform the test. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). Heavy metals <1.07>—Proceed with 1.0 g of Dextran 70 according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.5 g of Dextran 70 according to Method 1, and perform the test (not more than 1.3 ppm). Nitrogen—Weigh accurately about 2 g of Dextran 70, previously dried, perform the test as directed under Nitrogen Determination <1.08>, where 10 mL of sulfuric acid is used for decomposition, and 45 mL of a solution of sodium hy-droxide (2 in 5) is added: the amount of nitrogen (N: 14.007) is not more than 0.010z. Reducing substances—Weigh exactly 3.00 g of Dex-tran 70, previously dried, dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Sepa-rately, weigh exactly 0.300 g of glucose, previously dried, dissolve in water to make exactly 500 mL, and use this solu-tion as the control solution. Pipet 5 mL each of the sample solution and the control solution, and add water to make exactly 50 mL, respectively. Pipet 5 mL of these diluted solu-tions, add exactly 5 mL of alkaline copper TS, and heat for 15 minutes in a water bath. After cooling, add 1 mL of a so-lution of potassium iodide (1 in 40) and 1.5 mL of dilute sul-furic acid, and titrate <2.50> with 0.005 mol/L sodium thio-sulfate VS (indicator: 2 mL of starch TS). The titrant consumed for the sample solution is not less than that for the control solution. Loss on drying <2.41> Not more than 5.0z (1 g, 1059C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Viscosity <2.53> (1) Dextran 70—Weigh accurately 0.2 to 0.5 g of Dextran 70, previously dried, dissolve in water to make exactly 100 mL, and use this solution as the sample so-lution. Perform the test with the sample solution and with water as directed in Method 1 at 259C : the intrinsic viscosity is between 0.21 and 0.26. High-molecular fraction—Weigh accurately about 6 g of Dextran 70, previously dried, dissolve in water to make exactly 100 mL, and transfer to a flask. Add slowly enough methanol to get 7z to 10z of the precipitate (usually, 75 to 85 mL) at 25 ± 19C with stirring. Dissolve the precipitate in a water bath at 359C with occasional shak-ing, and allow to stand for more than 15 hours at 25 ± 19C. Remove the supernatant liquid by decantation, and heat the precipitate of the lower layer on a water bath to dryness. Dry the residue, and determine the intrinsic viscosity of the dried residue as directed in (1): the value is not more than 0.35. Low-molecular fraction—Weigh accurately about 6 g of Dextran 70, previously dried, dissolve in water to make exactly 100 mL, and transfer to a flask. Add slowly enough methanol to get 90z to 93z of the precipitate (usually 110 to 130 mL) at 25 ± 19C with stirring, centrifuge at 259C, and evaporate the supernatant liquid to dryness on a water bath. Dry the residue, and determine the intrinsic viscosity of the dried residue as directed in (1): the value is not less than 0.10. Antigenicity Dissolve 6.0 g of Dextran 70 in isotonic so-dium chloride solution to make 100 mL, sterilize, and use this solution as the sample solution. Inject 1.0 mL of the sample solution on 3 occasions at intervals of 2 days intraperitoneally to each of 4 well-nourished, healthy guinea pigs weighing 250 to 300 g. Separately, inject 0.10 mL of horse serum intraperitoneally to each of 4 guinea pigs of another group as a control. Inject 0.20 mL of the sample so-lution intravenously to each of 2 guinea pigs of the first group 14 days after the first intraperitoneal injection and into each of the remaining 2 guinea pigs 21 days after the in-jection, and inject 0.20 mL of horse serum intravenously in the same manner into each guinea pigs of the second group. Observe the signs of respiratory distress, collapse or death of the animals for 30 minutes after each intravenous injection and 24 hours later: the animals of the first group exhibit no signs mentioned above. All the animals of the second group exhibit symptoms of respiratory distress or collapse and not less than 3 animals are killed. Pyrogen <4.04> Dissolve 6.0 g of Dextran 70 in isotonic so-dium chloride solution to make 100 mL, and perform the test: this solution meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 3 g of Dextran 70, previ-ously dried, dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Determine the opti-cal rotation aD as directed under Optical Rotation Determi-nation <2.49> in a 100–mm cell at 20 ± 19C. ‌840 Amount (mg) of dextran 70 × aD ＝ 253.8 ‌Containers and storage Containers—Tight containers. Dextran Sulfate Sodium Sulfur 5"
+      }
+    }
+  ]
+}

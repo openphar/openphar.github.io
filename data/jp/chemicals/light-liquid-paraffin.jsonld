@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/light-liquid-paraffin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Light Liquid Paraffin",
+    "ja": "軽質流動パラフィン"
+  },
+  "monographId": "JP18-light-liquid-paraffin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Light Liquid Paraffin is a clear, colorless oily liquid, nearly free from fluorescence. It is odorless and taste-less. It is freely soluble in diethyl ether, and practically insolu-ble in water and in ethanol (95). Boiling point: above 3009C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat Light Liquid Paraffin strongly in a porcelain dish, and fire: it burns with a bright flame and the odor of paraffin vapor is perceptible. (2) Heat 0.5 of Light Liquid Paraffin with 0.5 g of sulfur with shaking carefully: the odor of hydrogen sulfide is per-ceptible. Specific gravity <2.56> d 20: 0.830 – 0.870 Viscosity <2.53> Less than 37 mm2/s (Method 1, 37.89C)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Odor—Transfer a suitable amount of Light Liquid Paraffin to a small beaker, and heat on a water bath: no foreign odor is perceptible. Acidity or alkalinity—Shake vigorously 10 mL of Light Liquid Paraffin with 10 mL of hot water and 1 drop of phenolphthalein TS: no red color develops. Shake this solu-tion with 0.20 mL of 0.02 mol/L sodium hydroxide VS: a red color develops. Heavy metals <1.07>—Ignite 2.0 g of Light Liquid Paraffin in a crucible, first moderately until charred, then between 4509C and 5509C to ash. Cool, add 2 mL of hydro-chloric acid, and evaporate on a water bath to dryness. To the residue add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and lead (II) oxide in a solution of sodium hydroxide (1 in 5), and mix 2 drops of this clear solution with 4.0 mL of Light Liquid Paraffin and 2 mL of ethanol (99.5). Heat at 709C for 10 minutes with frequent shaking, and cool: no dark brown color develops. Polycyclic aromatic hydrocarbons—Take 25 mL of Light Liquid Paraffin by a 25-mL measuring cylinder, trans-fer to a 100-mL separator, and wash out the cylinder with 25 mL of hexane for ultraviolet-visible spectrophotometry. Combine the washings with the liquid in the separator, and shake vigorously. Shake this solution vigorously for 2 minutes with 5.0 mL of dimethylsulfoxide for ultraviolet-visible spectrophotometry, and allow to stand for 15 minutes. Transfer the lower layer to a 50-mL separator, add 2 mL of hexane for ultraviolet-visible spectrophotometry, shake vigorously for 2 minutes, and allow to stand for 2 minutes. Transfer the lower layer to a glass-stoppered 10-mL centrifuge tube, and centrifuge between 2500 revolutions per minute and 3000 revolutions per minute for about 10 minutes, and use the clear solution so obtained as the sample solution. Separately, transfer 25 mL of hexane for ultravio-let-visible spectrophotometry to a 50-mL separator, add 5.0 mL of dimethylsulfoxide for ultraviolet-visible spectropho-tometry, shake vigorously for 2 minutes, and allow to stand for 2 minutes. Transfer the lower layer to a glass-stoppered 10-mL centrifuge tube, centrifuge between 2500 revolutions per minute and 3000 revolutions per minute for about 10 minutes, and use the clear solution so obtained as a control solution. Immediately determine the absorbance of the sam-ple solution using the control solution as the blank as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: not more than 0.10 at the wavelength region between 260 nm and 350 nm. Readily carbonizable substances—Transfer 5 mL of Light Liquid Paraffin to a Nessler tube, and add 5 mL of sulfuric acid for readily carbonizable substances. After heat-ing in a water bath for 2 minutes, remove the tube from the water bath, and immediately shake vigorously and vertically for 5 seconds. Repeat this procedure four times: the liquid paraffin layer remains unchanged in color, and sulfuric acid layer has no more color than the following control solution. Control solution: Mix 3.0 mL of Iron (III) Chloride CS with 1.5 mL of Cobalt (II) Chloride CS and 0.50 mL of Copper (II) Sulfate CS."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

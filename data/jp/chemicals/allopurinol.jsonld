@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/allopurinol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Allopurinol",
+    "ja": "アロプリノール"
+  },
+  "monographId": "JP18-allopurinol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H4N4O",
+  "molecularWeight": 136.11,
+  "definition": {
+    "en": "Allopurinol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Allopurinol occurs as white to pale yellow-white, crystals or crystalline powder. It is slightly soluble in N,N-dimethylformamide, and very slightly soluble in water and in ethanol (99.5). It dissolves in ammonia TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a JP XVIII Official Monographs / Allopurinol Tablets 431 ‌solution of Allopurinol (1 in 200,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Allopurinol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Allopurinol according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Allopurinol according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Allopurinol in 10 mL of ammonia TS, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ammonia TS to make exactly 500 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose with fluorescent indicator for thin-layer chromatography. Develop the plate with ammonia TS-satu-rated 1-butanol to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.16 g of Allopurinol, previ-ously dried, dissolve in 70 mL of N,N-dimethylformamide by warming. Cool, and titrate <2.50> with 0.1 mol/L tetra-methylammonium hydroxide VS (potentiometric titration). To 70 mL of N,N-dimethylformamide add 12 mL of water, perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L tetramethylammonium hydroxide VS ＝ 13.61 mg of C5H4N4O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

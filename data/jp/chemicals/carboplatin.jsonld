@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carboplatin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carboplatin",
+    "ja": "カルボプラチン"
+  },
+  "monographId": "JP18-carboplatin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12N2O4Pt",
+  "molecularWeight": 371.25,
+  "casNumber": "41575-94-4",
+  "definition": {
+    "en": "Carboplatin contains not less than 98."
+  },
+  "appearance": {
+    "en": "Carboplatin occurs as white, crystals or crys-talline powder. It is sparingly soluble in water, and very slightly soluble in ethanol (99.5). Melting point: about 2009C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Carboplatin (1 in 100) add 2 to 3 drops of diluted tin (II) chloride TS (1 in 15), and allow to stand for 30 minutes: a yellowish brown precipitate is formed. (2) Determine the infrared absorption spectrum of Carboplatin as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Carboplatin RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. pH <2.54> Dissolve 0.10 g of Carboplatin in 10 mL of water: the pH of this solution is 5.0 to 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) 1,1-Cyclobutanedicarboxylic acid—Weigh ac-curately about 40 mg of Carboplatin, dissolve in the mobile phase to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of 1,1-cyclobutanedicarboxylic acid, and dissolve in the mobile phase to make exactly 100 mL. Pipet 4 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 25 mL each of the sample solution and standard are eluded in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 25 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of 1,1-cyclobutanedicarboxylic acid is not more than 2.0z. (2) Related substances—Dissolve 25 mg of Carboplatin in 25 mL of water, and use this solution as the sample solu-tion. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method. Calculate the amount of the peaks by the area percentage method: the amount of the peak, having the relative retention time of about 0.8 to car-boplatin, is not more than 0.25z, the amount of the peak other than carboplatin and the peak mentioned above is not more than 0.1z, and the total amount of the peaks other than carboplatin is not more than 0.5z. Operating conditions— Detector, column, column temperature, mobile phases A and B, and flow rate: Proceed as directed in the operating conditions in the Assay. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. ‌JP XVIII Official Monographs / Carboplatin Injection 629 Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 15 100 0 15 – 35 100 → 0 0 → 100 35 – 50 0 100 Time span of measurement: About 2.5 times as long as the retention time of carboplatin, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To 1 mL of the sample solution add water to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add water to make exactly 20 mL. Confirm that the peak area of carboplatin obtained with 10 mL of this solution is equivalent to 3.5 to 6.5z of that with 10 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of carboplatin is not more than 2.0z. Loss on drying <2.41> Not more than 0.1z (0.5 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Carboplatin and Carboplatin RS (separately determine the loss on drying <2.41> under the same conditions as Carboplatin), dissolve separately in water to make exactly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of carboplatin in each solution. Amount (mg) of carboplatin (C6H12N2O4Pt) ＝ MS × AT/AS MS: Amount (mg) of Carboplatin RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with phenylhexylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 279C. Mobile phase A: Dissolve 8.5 g of tetrabutylammonium hydrogensulfate in 80 mL of water, add 3.4 mL of phos-phoric acid, and adjust to pH 7.5 with a solution of sodium hydroxide (43 in 100). To 20 mL of this solution add water to make 1000 mL. Mobile phase B: Dissolve 8.5 g of tetrabutylammonium hydrogensulfate in 80 mL of water, add 3.4 mL of phos-phoric acid, and adjust to pH 7.5 with a solution of sodium hydroxide (43 in 100). To 20 mL of this solution add water to make 800 mL, and add 200 mL of acetonitrile. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. 0 – 15 100 0 15 – 35 100 → 0 0 → 100 Flow rate: 0.5 mL per minute. System suitability— System performance: To 9 mL of the standard solution add 1 mL of diluted hydrogen peroxide TS (1 in 60), and allow to stand at room temperature for not less than 1 hour. When the procedure is run with 10 mL of this solution under the above operating conditions, the resolution between the peak of carboplatin and the peak having the relative reten-tion time about 0.93 to carboplatin is not less than 1.2. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of carboplatin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

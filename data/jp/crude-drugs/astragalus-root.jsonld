@@ -1,0 +1,81 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/astragalus-root",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-astragalus-root",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Astragalus Root",
+    "la": "Astragali Radix",
+    "ja": "オウギ"
+  },
+  "definition": {
+    "en": "solution as the standard solution"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/astragalus-root-astragalus-membranaceus-bunge-or"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 3"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 4"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 3"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

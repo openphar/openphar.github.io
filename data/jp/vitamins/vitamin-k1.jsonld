@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-k1",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin K1",
+    "ja": "フィトナジオン"
+  },
+  "monographId": "JP18-vitamin-k1",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C31H46O2",
+  "molecularWeight": 450.7,
+  "casNumber": "84-80-0",
+  "appearance": {
+    "en": "Phytonadione is a clear yellow to orange-yel-low viscous liquid. It is miscible with isooctane. It is soluble in ethanol (99.5), and practically insoluble in water. It decomposes gradually and changes to a red-brown by light. Specific gravity d 20: about 0.967"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Phytonadione in isooctane (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 1: both spectra exhibit similar intensities of absorption at the same wavelengths. Separately, determine the absorption spectrum of a solution of Phytonadione in isooctane (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum 2: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Phytonadione as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.525 – 1.529"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Ratio of absorbances—Determine the absor-bances, A1, A2 and A3, of a solution of Phytonadione in isooctane (1 in 100,000) at 248.5 nm, 253.5 nm and 269.5 nm, respectively, as directed under Ultraviolet-visible Spec-trophotometry <2.24>: the ratio A2/A1 is between 0.69 and 0.73, and the ratio A2/A3 is between 0.74 and 0.78. Deter-mine the absorbances, A4 and A5, of a solution of Phytonadione in isooctane (1 in 10,000) at 284.5 nm and 326 nm, respectively: the ratio A4/A5 is between 0.28 and 0.34. Heavy metals <1.07>—Carbonize 1.0 g of Phytona- dione by gentle heating. Cool, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and ignite the ethanol to burn. Cool, add 1 mL of sulfuric acid, proceed according to Method 4, and perform the test. Pre- lution (not more than 20 ppm). Menadione—Dissolve 20 mg of Phytonadione in 0.5 mL of a mixture of water and ethanol (95) (1:1), add 1 drop of a solution of 3-methyl-1-phenyl-5-pyrazolone in ethanol (95) (1 in 20) and 1 drop of ammonia solution (28), and al-low to stand for 2 hours: no blue-purple color develops. Isomer ratio Conduct this procedure rapidly and without exposure to light. Dissolve 30 mg of Phytonadione in 50 mL of the mobile phase. To 4 mL of this solution add the mobile phase to make 25 mL. To 10 mL of this solution add the mobile phase to make 25 mL, and use this solution as the sample solution. Perform the test with 50 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas of Z-isomer and E-isomer, ATZ and ATE: ATZ/ (ATZ ＋ ATE) is between 0.05 and 0.18. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: When the procedure is run with 50 mL of the sample solution under the above operating condi-tions, Z-isomer and E-isomer are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 50 mL of the sample solution under the above operating conditions, the relative standard deviation of the total area of the peaks of Z-isomer and E-isomer is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure rapidly and without expo-sure to light. Weigh accurately about 30 mg each of Phytonadione and Phytonadione RS, and dissolve each in the mobile phase to make exactly 50 mL. Pipet 4 mL each of these solutions, and add the mobile phase to make exactly 25 mL. To exactly 10 mL each of these solutions add exactly 7 mL of the internal standard solution and the mobile phase to make 25 mL, and use these as the sample solution and the standard solution, respectively. Perform the test with 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the total area of the peaks of Z-isomer and E-isomer to the peak area of the internal standard. Amount (mg) of phytonadione (C31H46O2) ＝ MS × QT/QS MS: Amount (mg) of Phytonadione RS taken Internal standard solution—A solution of cholesterol benzo-ate in the mobile phase (1 in 400). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with porous silica gel for liq-uid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of hexane and n-amyl alcohol (4000 : 3). Flow rate: Adjust so that the retention time of the peak of E-isomer of phytonadione is about 25 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the internal standard, Z-isomer and E-isomer are ‌eluted in this order with the resolution between the peaks of‌ Z-isomer and E-isomer being not less than 1.5. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the total area of the peaks of Z-isomer and E-isomer to the peak area of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-iodide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Iodide",
+    "ja": "ヨウ化カリウム"
+  },
+  "monographId": "JP18-potassium-iodide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Iodide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Potassium Iodide occurs as colorless or white crystals, or a white crystalline powder. It is very soluble in water, soluble in ethanol (95), and practically insoluble in diethyl ether. It is slightly deliquescent in moist air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Iodide (1 in 20) responds to Qualitative Tests <1.09> for potassium salt and for iodide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Potassium Iodide in 2 mL of water: the solution is clear and colorless. Alkalinity—Dissolve 1.0 g of Potassium Iodide in 10 mL of freshly boiled and cooled water, and add 0.50 mL of 0.005 mol/L sulfuric acid VS and 1 drop of phenolphthalein TS: no color develops. Chloride, bromide and thiosulfate—Dissolve 0.20 g of Potassium Iodide in 5 mL of ammonia TS, add 15.0 mL of 0.1 mol/L silver nitrate VS, shake for 2 to 3 minutes, and filter. To 10 mL of the filtrate, add 15 mL of dilute nitric acid: no brown color develops. The solution has no more turbidity than that of the following control solution. Control solution: To 0.30 mL of 0.01 mol/L hydrochloric acid VS add 2.5 mL of ammonia TS, and 7.5 mL of 0.1 mol/L silver nitrate VS and 15 mL of dilute nitric acid. Nitrate, nitrite and ammonium—Place 1.0 g of Po-tassium Iodide in a 40-mL test tube, and add 5 mL of water, 5 mL of sodium hydroxide TS and 0.2 g of aluminum wire. Insert the absorbent cotton in the mouth of the test tube, and place a piece of moistened red litmus paper on it. Heat the test tube carefully on a water bath for 15 minutes: the gas evolved does not turn red litmus paper to blue. Cyanide—Dissolve 0.5 g of Potassium Iodide in 10 mL of water. To 5 mL of this solution add 1 drop of iron (II) sulfate TS and 2 mL of sodium hydroxide TS, warm, then add 4 mL of hydrochloric acid: no green color develops. Iodate—Dissolve 0.5 g of Potassium Iodide in 10 mL of freshly boiled and cooled water, and add 2 drops of dilute sulfuric acid and 1 drop of starch TS: no blue color develops immediately. Heavy metals <1.07>—Proceed with 2.0 g of Potas- sium Iodide according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Barium—Dissolve 0.5 g of Potassium Iodide in 10 mL of water, add 1 mL of dilute sulfuric acid, and allow to stand for 5 minutes: no turbidity is produced. Sodium—Dissolve 1.0 g of Potassium Iodide in 10 mL of water, and perform Flame Coloration Test <1.04> (1): a yellow color develops, but does not persist. Arsenic <1.11>—Prepare the test solution with 0.40 g of Potassium Iodide according to Method 1, and perform the test (not more than 5 ppm). Loss on drying <2.41> Not more than 1.0z (2 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Potassium Iodide, previously dried, in an iodine flask, dissolve in 10 mL of water, add 35 mL of hydrochloric acid and 5 mL of chlo-roform, and titrate <2.50> with 0.05 mol/L potassium iodate VS with shaking until the red-purple color of the chloroform layer disappears. The end point is reached when the red-pur-ple color does not reappear in the chloroform layer within 5 minutes after the layer has been decolorized. Each mL of 0.05 mol/L potassium iodate VS ＝ 16.60 mg of KI"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

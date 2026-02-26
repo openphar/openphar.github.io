@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/valerianae-fauriei-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Valerianae Fauriei Radix",
+    "ja": "カノコソウ"
+  },
+  "monographId": "JP18-valerianae-fauriei-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Obovoid, short rhizome with numerous, fine and long roots; externally dark brown to grayish brown. The ‌JP XVIII Crude Drugs and Related Drugs / Japanese Zanthoxylum Peel 2041‌ root, 10 – 15 cm in length, 0.1 – 0.3 cm in diameter; exter-nally, with fine longitudinal wrinkles; brittle. The rhizome, 1 – 2 cm in length, 1 – 2 cm in diameter, with buds and remains of stem at the crown; hard in texture and difficult to break; flank of rhizome sometimes accompanied with stol-ons having thick and short or thin, long and extremely small, scaly leaves. Under a magnifying glass, the transverse section reveals a thick, light grayish brown cortex, and a grayish brown stele. Odor, strong and characteristic; taste, slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Japanese Valerian according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Japanese Valerian according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 5.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Japanese Valerian provided that 1 mL of silicon resin is previously added to the sample in the flask: the volume of essential oil is not less than 0.3 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

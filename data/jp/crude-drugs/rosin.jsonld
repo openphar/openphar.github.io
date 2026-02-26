@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/rosin",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-rosin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Rosin",
+    "la": "Resina Pini",
+    "ja": "ロジン"
+  },
+  "definition": {
+    "en": "acidic"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/rosin-plants-of-pinus-species"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

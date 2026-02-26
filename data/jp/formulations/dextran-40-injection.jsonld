@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dextran-40-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dextran 40 Injection",
+    "ja": "デキストラン 40 注射液"
+  },
+  "monographId": "JP18-dextran-40-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dextran 40 Injection is an aqueous injection. It contains not less than 9."
+  },
+  "appearance": {
+    "en": "Dextran 40 Injection is a clear and colorless liquid. It is slightly viscous."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dilute 1 mL of Dextran 40 Injection with water to 200 mL, and to 1 mL of the diluted solution add 2 mL of anthrone TS: a blue-green color develops and turns gradually dark blue-green. Add 1 mL of diluted sulfu-ric acid (1 in 2) or 1 mL of acetic acid (100) to this solution: the solution does not change in color. (2) Dextran 40 Injection responds to Qualitative Tests <1.09> for sodium salt and for chloride. pH <2.54> 4.5 – 7.0 Bacterial endotoxins <4.01> Less than 0.50 EU/mL. Extractable volume <6.05> It meets the requirement. Viscosity <2.53> To 2 to 5 mL of Dextran 40 Injection add isotonic sodiumchloride solution to make exactly 100 mL, and use this solution as the sample solution. Perform the test with the sample solution and with isotonic sodium chloride solution as directed in Method 1 at 259C: the intrinsic vis-cosity is between 0.16 and 0.19. Calculate the concentration of the sample solution (g/100 mL) as directed in the Assay."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To exactly 30 mL of Dextran 40 Injection add water to make exactly 50 mL, and use this solution as the sample solution. Determine the optical rotation aD with the sample ‌JP XVIII Official Monographs / Dextran 70 839 solution as directed under Optical Rotation Determination <2.49> in a 100-mm cell at 20 ± 19C. Amount (mg) of dextran 40 in 100 mL of Dextran 40 Injection ＝ aD × 846.0"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nifedipine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Nifedipine",
+    "ja": "ニフェジピン"
+  },
+  "monographId": "JP18-nifedipine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H18N2O6",
+  "molecularWeight": 346.33,
+  "casNumber": "21829-25-4",
+  "definition": {
+    "en": "‌Nifedipine contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nifedipine occurs as a yellow crystalline pow-der. It is odorless and tasteless. It is freely soluble in acetone and in dichloromethane, sparingly soluble in methanol, in ethanol (95) and in acetic acid (100), slightly soluble in diethyl ether, and practically insoluble in water. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Nifedipine in 5 mL of ethanol (95), and add 5 mL of hydrochloric acid and 2 g of zinc powder. Allow to stand for 5 minutes, and filter: the filtrate responds to Qualitative Tests <1.09> for primary aro-matic amines, developing a red-purple color. Determine the absorption spectrum of a solution of Nifedipine in methanol (1 in 100,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Nifedipine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Nifedipine in 5 mL of acetone: the solution is clear and yellow. Chloride <1.03>—To 2.5 g of Nifedipine add 12 mL of dilute acetic acid and 13 mL of water, and heat to boil. After cooling, filter, and discard the first 10 mL of the fil-trate. To 5 mL of the subsequent filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—To 4 mL of the filtrate obtained in (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.45 mL of 0.005 mol/L sulfuric acid VS (not more than 0.054z). Heavy metals <1.07>—Proceed with 2.0 g of Nifedi- pine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of cyclohexane and ethyl acetate (3:2) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample solution, cor-responding to that from the standard solution, is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "The procedure should be performed under protec-tion from light in light-resistant vessels. Weigh accurately about 0.12 g of Nifedipine, and dissolve in methanol to make exactly 200 mL. Measure exactly 5 mL of this solution, and add methanol to make exactly 100 mL. Determine the absorbance A of this solution at the wavelength of maximum absorption at about 350 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of nifedipine (C17H18N2O6) ＝ A/142.3 × 40,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

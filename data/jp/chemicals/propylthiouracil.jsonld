@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/propylthiouracil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Propylthiouracil",
+    "ja": "プロピルチオウラシル"
+  },
+  "monographId": "JP18-propylthiouracil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H10N2OS",
+  "molecularWeight": 170.23,
+  "definition": {
+    "en": "Propylthiouracil, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Propylthiouracil occurs as a white powder. It is odorless, and has a bitter taste. It is sparingly soluble in ethanol (95), and very slightly soluble in water and in diethyl ether. It dissolves in sodium hydroxide TS and in ammonia TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake well 0.02 g of Propylthiouracil Amount (mg) of propyl parahydroxybenzoate (C ＝ MS × AT/AS 10H12O3) with 7 mL of bromine TS for 1 minute, and heat until the color of bromine TS disappears. Cool, filter, and add 10 mL of barium hydroxide TS to the filtrate: a white precipitate is MS: Amount (mg) of Propyl Parahydroxybenzoate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 272 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of methanol and potassium dihy-drogen phosphate solution (17 in 2500) (13:7). Flow rate: 1.3 mL per minute. System suitability— System performance: Dissolve 5 mg each of Propyl Par-ahydroxybenzoate, ethyl parahydroxybenzoate and para-hydroxybenzoic acid in the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, and add the mobile phase to make exactly 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, parahydroxybenzoic acid, ethyl parahydroxybenzoate and propyl parahydroxybenzoate are eluted in this order, the rel-ative retention times of parahydroxybenzoic acid and ethyl parahydroxybenzoate to propyl parahydroxybenzoate are about 0.3 and about 0.7, respectively, and the resolution be-tween the peaks of ethyl parahydroxybenzoate and propyl parahydroxybenzoate is not less than 3.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of propyl parahydroxybenzoate is not more than 0.85z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Triturate Propylthiouracil finely in a mortar. To 0.75 g of the powder add 25 mL of water, heat for 10 minutes on a water bath, cool, filter, and wash the residue with water until the volume of the filtrate becomes 30 mL. To 10 mL of the filtrate add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.077z). (2) Thiourea—Dissolve 0.30 g of Propylthiouracil in 50 mL of water by heating under a reflux condenser for 5 minutes, cool, and filter. To 10 mL of the filtrate add 3 mL of ammonia TS, shake well, and add 2 mL of silver nitrate TS: the solution has no more color than the following con-trol solution. Control solution: Weigh exactly 60 mg of thiourea, and dissolve in water to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and proceed with 10 mL of this solution in the same manner. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Propylthiouracil, previously dried, and add 30 mL of water. Add 30 mL of 0.1 mol/L sodium hydroxide VS from a burette, heat to boil, and dissolve by stirring. Wash down the solid adhering to the wall of the flask with a small amount of water, and add 50 mL of 0.1 mol/L silver nitrate VS with stirring. Boil gently for 5 minutes, add 1 to 2 mL of bromothymol blue TS, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until a persistent blue-green color develops. Determine the total volume of 0.1 mol/L sodium hydroxide VS consumed. ‌Each mL of 0.1 mol/L sodium hydroxide VS‌ ＝ 8.512 mg of C7H10N2OS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

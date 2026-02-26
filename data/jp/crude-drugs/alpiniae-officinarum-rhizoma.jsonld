@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/alpiniae-officinarum-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Alpiniae Officinarum Rhizoma",
+    "ja": "リョウキョウ"
+  },
+  "monographId": "JP18-alpiniae-officinarum-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Alpinia Officinarum Rhizome is a slightly curved and cylindrical rhizome, sometimes branched; 2 – 8 cm in length, 0.6 – 1.5 cm in diameter; externally red-brown to dark brown with fine striped lines, grayish white nodes and several traces of rootlet; hard to break; fracture surface, light brown in color and thickness of cortex is approximately the same as that of stele. Odor, characteristic; taste, extremely pungent. Under a microscope <5.01>, a transverse section reveals epidermal cells often containing oil-like substances; cortex, endodermis and stele present beneath the epidermis; cortex and stele divided by endodermis; vascular bundles sur-rounded by fibers, scattered throughout the cortex and stele, cortex and stele composed of parenchyma interspersed with oil cells; parenchyma cells containing solitary crystals of calcium oxalate and starch grains, starch grains generally simple (sometimes 2- to 8-compound), narrowly ovate, ellip-soidal or ovate, 10 – 40 mm in diameter and with an eccentric navel."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Alpinia Officinarum Rhizome add 5 mL of acetone, shake for 5 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography, develop the plate with a mixture of cyclo-hexane, ethyl acetate and acetic acid (100) (12:8:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): two spots ap-pear at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Alpinia Officinarum Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Alpinia Officinarum Rhizome according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 15.0z (6 hours). Total ash <5.01> Not more than 7.5z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-extract: not less than 14.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

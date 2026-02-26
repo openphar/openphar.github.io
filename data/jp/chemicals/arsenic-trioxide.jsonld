@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/arsenic-trioxide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Arsenic Trioxide",
+    "ja": "三酸化二ヒ素"
+  },
+  "monographId": "JP18-arsenic-trioxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "As2O3",
+  "molecularWeight": 197.84,
+  "definition": {
+    "en": "Arsenic Trioxide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Arsenic Trioxide occurs as a white powder. It is odorless. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 0.2 g of Arsenic Trioxide in 40 mL of water by heating on a water bath: the solution responds to Qualitative Tests <1.09> for arsenite."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity of solution—To 1.0 g of Arsenic Trioxide add 10 mL of ammonia TS, and heat gently: the solution is clear. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Arsenic Trioxide, previously dried, dissolve in 20 mL of a solution of sodium hydroxide (1 in 25), by warming, if necessary. Add 40 mL of water and 2 drops of methyl orange TS, then add dilute hydrochloric acid until the color of the solution becomes light red. Add 2 g of sodium hydrogen carbonate and 50 mL of water to this solution, and titrate <2.50> with 0.05 mol/L iodine VS (indicator: 3 mL of starch TS). Each mL of 0.05 mol/L iodine VS ＝ 4.946 mg of As2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

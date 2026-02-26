@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/imipramine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Imipramine Hydrochloride",
+    "ja": "イミプラミン塩酸塩"
+  },
+  "monographId": "JP18-imipramine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H24N2.HCl",
+  "molecularWeight": 316.87,
+  "definition": {
+    "en": "Imipramine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Imipramine Hydrochloride occurs as a white to pale yellow-white crystalline powder. It is odorless. It is freely soluble in water and in ethanol (95), and practi-cally insoluble in diethyl ether. The pH of a solution of 0.1 g of Imipramine Hydrochlo-ride in 10 mL of water is between 4.2 and 5.2. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Imipramine Hydro-chloride in 2 mL of nitric acid: a deep blue color develops. Dissolve 5 mg of Imipramine Hydrochloride in 250 mL of 0.01 mol/L hydrochloric acid TS. Determine the absorption spectrum of the solution as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Imipramine Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Dissolve 0.05 g of Imipramine Hydrochloride in 5 mL of water, add 1 mL of ammonia TS, allow to stand for 5 minutes, filter, and acidify the filtrate with dilute nitric acid: it responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Imipramine Hydrochloride in 10 mL of water: the solu-tion is clear, and has no more color than the following con-trol solution. Control solution: Take exactly 1.0 mL of Cobalt (II) Chloride CS, 2.4 mL of Iron (III) Chloride CS, 0.4 mL of Copper (II) Sulfate CS and 6.2 mL of diluted hydrochloric acid (1 in 40), and mix them. Pipet 0.5 mL of this solution, and add exactly 9.5 mL of water. Iminodibenzyl—Dissolve 50 mg of Imipramine Hy-drochloride in 10 mL of a mixture of hydrochloric acid and ethanol (95) (1:1) in a 25-mL brown volumetric flask. Cool the flask in ice water, add 5 mL of an ethanol (95) solution of furfural (1 in 250) and 5 mL of hydrochloric acid, and allow to stand at 259C for 3 hours. Add a mixture of hydro-chloric acid and ethanol (95) (1:1) to make 25 mL, and deter-mine the absorbance of this solution at 565 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: it is not more than 0.16. Related substances—Dissolve 0.20 g of Imipramine Hydrochloride in 10 mL of ethanol (95), and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add ethanol (95) to make exactly 50 mL. Pipet 5 mL of this solution, add ethanol (95) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, acetic acid (100), hydrochloric acid and water (11:7:1:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly potassium dichromate-sulfuric acid TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Imipramine Hydro-chloride, previously dried, and dissolve in 20 mL of water. Add 5 mL of sodium hydroxide TS, and extract with three 20-mL portions of chloroform. Filter each extract through a pledget of absorbent cotton on which a small quantity of an-hydrous sodium sulfate is placed. Combine the chloroform extracts, and titrate <2.50> with 0.1 mol/L perchloric acid VS until the yellow solution changes to red-purple (indicator: 10 drops of metanil yellow TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 31.69 mg of C19H24N2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

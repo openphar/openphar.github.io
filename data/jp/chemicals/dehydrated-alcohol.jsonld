@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dehydrated-alcohol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dehydrated Alcohol",
+    "ja": "無水エタノール"
+  },
+  "monographId": "JP18-dehydrated-alcohol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Anhydrous Ethanol is a clear, colorless liquid. It is miscible with water. It is flammable and burns with a light blue flame on igni-tion. It is volatile. Boiling point: 78 – 799C◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Anhydrous Ethanol as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Specific gravity <2.56> d 15: 0.79422 – 0.79679"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Anhydrouse Ethanol is clear and colorless. To 1.0 mL of Anhydrous Ethanol add water to make 20 mL, and allow to stand for 5 minutes: the resulting liquid is clear. Control solution: water ‌966 Acidity or alkalinity—To 20 mL of Anhydrous Ethanol add 20 mL of freshly boiled and cooled water and 0.1 mL of a solution obtained by addition of 7.0 mL of ethanol (95) and 2.0 mL of water to 1.0 mL of phenolphthal-ein TS: no color develops. Add 1.0 mL of 0.01 mol/L so-dium hydroxide VS to this solution: pink color develops. Volatile impurities—Pipet 500 mL of Anhydrous Ethanol, add 150 mL of 4-methylpentan-2-ol, and use this so-lution as the sample solution. Separately, to 100 mL of anhy-drous methanol add Anhydrous Ethanol to make exactly 50 mL. Pipet 5 mL of this solution, add Anhydrous Ethanol to make exactly 50 mL, and use this solution as the standard solution (1). Separately, to 50 mL each of anhydrous metha-nol and acetaldehyde add Anhydrous Ethanol to make ex-actly 50 mL. To 100 mL of this solution add Anhydrous Ethanol to make exactly 10 mL, and use this solution as the standard solution (2). Separately, to 150 mL of acetal add Anhydrous Ethanol to make exactly 50 mL. To 100 mL of this solution add Anhydrous Ethanol to make exactly 10 mL, and use this solution as the standard solution (3). Sepa-rately, to 100 mL of benzene add Anhydrous Ethanol to make exactly 100 mL. To 100 mL of this solution add Anhy-drous Ethanol to make exactly 50 mL, and use this solution as the standard solution (4). Perform the test with exactly 1 mL each of Anhydrous Ethanol, the sample solution and standard solutions (1), (2), (3) and (4) as directed under Gas Chromatography <2.02> according to the following condi-tions, and determine the peak areas of acetaldehyde, AE, benzene, BE and acetal, CE obtained with Anhydrous Ethanol, and the peak area of methanol with the standard solution (1), the peak area of acetaldehyde, AT with the standard solution (2), the peak area of acetal, CT with the standard solution (3) and the peak area of benzene, BT with the standard solution (4) by the automatic integration method: the peak area of methanol obtained with Anhy-drous Ethanol is not larger than 1/2 times the peak area of Flow rate: 35 cm per second. Split ratio: 1:20. System suitability— System performance: When the procedure is run with 1 mL of the standard solution (2) under the above operating condi-tions, acetaldehyde and methanol are eluted in this order with the resolution between these peaks being not less than 1.5. Other impurities (absorbance)—Determine the ab-sorption spectrum of Anhydrous Ethanol between 235 nm and 340 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, in a 5-cm cell using water as a blank: the absorbances at 240 nm, between 250 nm and 260 nm and between 270 nm and 340 nm are not more than 0.40, 0.30, and 0.10, respectively, and the spectrum shows a steadily descending curve with no observable peaks or shoulders. Residue on evaporation—Evaporate 100 mL of An-hydrous Ethanol, exactly measured, in a tared dish on a water bath, and dry at 1059C for 1 hour: the mass of the residue does not exceed 2.5 mg."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "◆Containers—Tight containers.◆ Storage—Without exposure to light."
+  }
+}

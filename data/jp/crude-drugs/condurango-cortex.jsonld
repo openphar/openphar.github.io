@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/condurango-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Condurango Cortex",
+    "ja": "コンズランゴ"
+  },
+  "monographId": "JP18-condurango-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Tubular or semi-tubular pieces of bark, 0.1 – 0.6 cm in thickness, 4 – 15 cm in length; outer surface grayish brown to dark brown, nearly smooth and with numerous lenticels, or more or less scaly and rough; inner surface light grayish brown and longitudinally striate; frac-tured surface fibrous on the outer region and generally granular in the inner region. Odor, slight; taste, bitter. Under a microscope <5.01>, a transverse section reveals a cork layer composed of several cellular layers of thin-walled cells; primary cortex with numerous stone cell groups; secon-dary cortex with phloem fiber bundles scattered inside the ‌1988‌ Condurango Fluidextract / Crude Drugs and Related Drugs starch sheath consisting of one-cellular layer; articulate latex tubes scattered in both cortices; parenchyma cells containing starch grains or rosette aggregates of calcium oxalate; starch grain 3 – 20 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Digest 1 g of pulverized Condurango in 5 mL of water, and filter: the clear filtrate becomes turbid on heating, but becomes clear again upon cooling."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The xylem and other for-eign matter contained in Condurango do not exceed 2.0z. Total ash <5.01> Not more than 12.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

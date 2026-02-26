@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cresol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cresol",
+    "ja": "クレゾール"
+  },
+  "monographId": "JP18-cresol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H8O",
+  "molecularWeight": 108.14,
+  "appearance": {
+    "en": "Cresol is a clear, colorless or yellow to yellow-brown liquid. It has a phenol-like odor. It is miscible with ethanol (95) and with diethyl ether. It is sparingly soluble in water. It dissolves in sodium hydroxide TS. A saturated solution of Cresol is neutral to bromocresol purple TS. It is a highly refractive liquid. It becomes dark brown by light or on aging."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 5 mL of a saturated solution of Cresol add 1 to 2 drops of dilute iron (III) chloride TS: a blue-purple color develops. Specific gravity <2.56> d 20: 1.032 – 1.041"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Hydrocarbons—Dissolve 1.0 mL of Cresol in 60 mL of water: the solution shows no more turbidity than that produced in the following control solution. Control solution: To 54 mL of water add 6.0 mL of 0.005 mol/L sulfuric acid VS and 1.0 mL of barium chloride TS, and after thorough shaking, allow to stand for 5 minutes. (2) Sulfur compounds—Transfer 20 mL of Cresol in a 100-mL conical flask, place a piece of moistened lead (II) acetate paper on the mouth of the flask, and warm for 5 minutes on a water bath: the lead (II) acetate paper may de-velop a yellow color, but neither a brown nor a dark tint. Distilling range <2.57> 196 – 2069C, not less than 90 volz."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

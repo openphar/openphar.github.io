@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/doxazosin-mesilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Doxazosin Mesilate",
+    "ja": "ドキサゾシンメシル酸塩"
+  },
+  "monographId": "JP18-doxazosin-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H25N5O5.CH4O3S",
+  "molecularWeight": 547.58,
+  "casNumber": "77883-43-3",
+  "definition": {
+    "en": "Doxazosin Mesilate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Doxazosin Mesilate occurs as a white to yel-lowish white crystalline powder. It is freely soluble in dimethylsulfoxide, slightly soluble in water and in methanol, and very slightly soluble in ethanol (99.5). A solution of Doxazosin Mesilate in dimethylsulfoxide solution (1 in 20) shows no optical rotation. Melting point: about 2729C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Doxazosin Mesilate in 0.01 mol/L hydrochloric acid-methanol TS (1 in 200,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Doxazosin Mesilate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dox-azosin Mesilate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec- trum of Doxazosin Mesilate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. 30 mg of Doxazosin Mesilate responds to Qualitative Tests <1.09> (2) for mesilate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Doxazosin Mesilate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 20 mg of Doxazosin Mesilate in 5 mL of a mixture of methanol and acetic acid (100) (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of metha-nol and acetic acid (100) (1:1) to make exactly 100 mL. Pipet 5 mL of this solution, add a mixture of methanol and acetic acid (100) (1:1) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with an upper layer of a mixture, prepared by adding 1 volume of water and 1 volume of acetic acid (100) to 2 volumes of 4-methyl-2-pen-tanon and shaking, to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot at the Rf value about 0.15 obtained from the sample solution is not more intense than the spot from the standard solution, and no spots other than the principal spot and other than the spots mentioned above appear from the sample solution. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Doxazosin Mesilate and Doxazosin Mesilate RS, previously dried, dis-solve separately in methanol to make exactly 50 mL. Pipet 3 mL each of these solutions, add the mobile phase to make exactly 100 mL, and use these solutions as the sample solu-tion and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of doxazosin in each solution. Amount (mg) of doxazosin mesilate (C23H25N5O5.CH4O3S) ＝ MS × AT/AS MS: Amount (mg) of Doxazosin Mesilate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 246 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogen phosphate TS (pH 3.0), methanol and acetonitrile (12:8:3). Flow rate: Adjust so that the retention time of doxazosin is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of doxazosin are not less than 2000 and ‌JP XVIII Official Monographs / Doxazosin Mesilate Tablets 897 not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of doxazosin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

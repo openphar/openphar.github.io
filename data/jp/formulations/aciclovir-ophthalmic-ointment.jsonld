@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aciclovir-ophthalmic-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Aciclovir Ophthalmic Ointment",
+    "ja": "アシクロビル眼軟膏"
+  },
+  "monographId": "JP18-aciclovir-ophthalmic-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. Metal Particles <6.01> It meets the requirement. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Particle diameter Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a portion of Aciclovir Ophthalmic Ointment, equivalent to about 15 mg of aciclovir (C8H11N5O3), add exactly 20 mL of hexane and exactly 20 mL of dilute sodium hydroxide TS, and shake vigorously. Centrifuge this mixture, discard the upper layer, pipet 1 mL of the lower layer, add 70 mL of water and 5 mL of 2 mol/L hydrochloric acid TS, then add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 15 mg of Aciclovir RS (separately determine the water <2.48> in the same manner as Aciclovir), and dissolve in dilute sodium hydroxide TS to make exactly 20 mL. Pipet 1 mL of this solution, add 70 mL of water and 5 mL of 2 mol/L hydrochloric acid TS, then add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 255 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank. Amount (mg) of acyclovir (C8H11N5O3) ＝ MS × AT/AS MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

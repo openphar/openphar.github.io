@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pentoxyverine-citrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pentoxyverine Citrate",
+    "ja": "ペントキシベリンクエン酸塩"
+  },
+  "monographId": "JP18-pentoxyverine-citrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H31NO3.C6H8O7",
+  "molecularWeight": 525.59,
+  "definition": {
+    "en": "Pentoxyverine Citrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Pentoxyverine Citrate occurs as a white crys-talline powder. It is very soluble in acetic acid (100), freely soluble in water and in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Pentoxyverine Citrate in 10 mL of water, and add 10 mL of Reinecke salt TS: a light red precipitate is formed. Determine the infrared absorption spectrum of Pen- ‌toxyverine Citrate, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Pentoxyverine Citrate (1 in 10) re-sponds to Qualitative Tests <1.09> (1) and (2) for citrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Pentoxyverine Citrate in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Pentox- yverine Citrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Pentoxyverine Citrate according to Method 3, and per-form the test (not more than 2 ppm). Peplomycin Sulfate"
+      }
+    }
+  ]
+}

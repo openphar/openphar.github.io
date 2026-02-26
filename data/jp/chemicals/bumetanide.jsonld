@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bumetanide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bumetanide",
+    "ja": "ブメタニド"
+  },
+  "monographId": "JP18-bumetanide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H20N2O5S",
+  "molecularWeight": 364.42,
+  "definition": {
+    "en": "Bumetanide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bumetanide occurs as white, crystals or crys-talline powder. It is freely soluble in pyridine, soluble in methanol and in ethanol (95), slightly soluble in diethyl ether, and practically insoluble in water. It dissolves in potassium hydroxide TS. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Bumetanide in 1 mL of pyridine, add 2 drops of copper (II) sulfate TS, shake, add 3 mL of water and 5 mL of chloroform, shake, and allow to stand: a light blue color develops in the chloroform layer. Dissolve 0.04 g of Bumetanide in 100 mL of phos-phate buffer solution (pH 7.0) and dilute 10 mL of the solu-tion with water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bumetanide, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 50 mg of Bumetanide in 2 mL of a solution of potassium hydroxide (1 in 30) and 8 mL of water: the solution is clear, and is not more colored than the following control solution. Control solution: Pipet 0.5 mL each of Cobalt (II) Chlo-ride CS, Iron (III) Chloride CS and Copper (II) Sulfate CS, washing, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Heavy metals <1.07>—Proceed with 2.0 g of Bumetanide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Bumetanide according to Method 3, and perform the test (not more than 2 ppm). Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.10 g of Bumetanide in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 2 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, acetic acid (100), cyclohexane and methanol (32:4:4:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Bumetanide, previ-ously dried, dissolve in 50 mL of ethanol (95), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 36.44 mg of C17H20N2O5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

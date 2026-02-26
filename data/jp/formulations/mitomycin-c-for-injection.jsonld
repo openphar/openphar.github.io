@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mitomycin-c-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Mitomycin C for Injection",
+    "ja": "注射用マイトマイシン C"
+  },
+  "monographId": "JP18-mitomycin-c-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mitomycin C for Injection is a preparation for in-jection, which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Mitomycin C for Injection occurs as a blue-purple powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve an amount of Mitomycin C for In-jection, equivalent to 2 mg (potency) of Mitomycin C, in 200 mL of water, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 216 nm and 220 nm, and between 362 nm and 366 nm. pH <2.54> The pH of a solution, prepared by dissolving 0.25 g of Mitomycin C for Injection in 20 mL of water, is 5.5 to 8.5. Loss on drying <2.41> Not more than 1.0z (0.4 g, in vacu-um not exceeding 0.67 kPa, phosphorus (V) oxide, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 10 EU/mg (potency). Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To the content of 1 container of Mitomycin C for Injec-tion add exactly V mL of N,N-dimethylacetamide so that each mL contains about 0.5 mg (potency) of Mitomycin C, shake, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg (potency) of Mitomycin C RS, add N,N-dimethylacetamide to make exactly 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Mitomycin C. Amount [mg (potency)] of mitomycin C (C15H18N4O5) ＝ MS × AT/AS × V/50 MS: Amount [mg (potency)] of Mitomycin C RS taken Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Mitomycin C for Injection. Weigh ac-curately an amount of the contents, equivalent to about 10 mg (potency) of Mitomycin C, add exactly 20 mL of N,N-dimethylacetamide, shake, centrifuge, and use the superna-tant liquid as the sample solution. Separately, weigh accu-rately an amount of Mitomycin C RS, equivalent to about 25 mg (potency), dissolve in N,N-dimethylacetamide to make exactly 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Mitomycin C. Amount [mg (potency)] of mitomycin C (C15H18N4O5) ＝ MS × AT/AS × 2/5 MS: Amount [mg (potency)] of Mitomycin C RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

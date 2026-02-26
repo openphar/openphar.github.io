@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/isophane-insulin-human-genetical-recombination-injectable-aqueous-suspension",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Isophane Insulin Human (Genetical Recombination) Injectable Aqueous Suspension",
+    "ja": "イソフェンインスリン ヒト(遺伝子組換え)水性懸濁注射液"
+  },
+  "monographId": "JP18-isophane-insulin-human-genetical-recombination-injectable-aqueous-suspension",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Isophane Insulin Human (Genetical Recombination) Injectable Aqueous Suspension is an aqueous suspen-sion for injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Isophane Insulin Human (Genetical Recombi-nation) Injectable Aqueous Suspension is a white aqueous suspension. When allowed to stand, it separates into a white precipitate and colorless supernatant liquid, and the precipi-tate returns to the suspension state on gentle shaking. When it is examined microscopically, the precipitate most-ly consists of fine, oblong crystals of 1 to 30 mm in major axis, and does not contain amorphous substances or large aggregates."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Adjust Isophane Insulin Human (Genetical Recombination) Injectable Aqueous Suspension to pH be-tween 2.5 and 3.0 with dilute hydrochloric acid: the precipi-tate dissolves, and the solution is clear and colorless. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Desamido substance—Perform the test with 20 mL of the sample solution obtained in the Assay (1) as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amount of them by the area percentage method: the amount of the peak, having the relative retention time of about 1.3 to insu-lin human, is not more than 1.5z. Operating conditions— Proceed as directed in the operating conditions in the Assay (1). System suitability— System performance: Proceed as directed in the system suitability in the Assay (1). Test for required detectability: Pipet 1 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make ex-actly 50 mL. Confirm that the peak area of insulin human obtained with 20 mL of this solution is equivalent to 1.4 to 2.6z of that with 20 mL of the sample solution. System repeatability: Dissolve Insulin Human RS in 0.01 mol/L hydrochloric acid TS so that each mL contains about 4 Insulin Units. When the test is repeated 6 times with 20 mL of this solution under the above operating conditions, the relative standard deviation of the peak area of insulin human is not more than 2.0z. Dissolved insulin human—Centrifuge Isophane Insu-lin Human (Genetical Recombination) Injectable Aqueous Suspension, and use the supernatant liquid as the sample so-lution. Separately, dissolve exactly Insulin Human RS in 0.01 mol/L hydrochloric acid TS to make a solution so that each mL contains about 1.0 Insulin Units, and use this solu-tion as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, AT and AS, of insulin human by the automatic integration method, and calculate the amount of dissolved insulin human by the following equation: not more than 0.5 Insulin Units per mL. Amount (mg) of dissolved insulin human (Insulin Unit /mL) ＝ (MS × F )/D × AT/AS MS: Amount (mg) of Insulin Human RS taken ‌JP XVIII Official Monographs / Biphasic Isophane Insulin Human (Genetical Recombination) Injectable Aqueous Suspension 1159 F: Labeled unit (Insulin Unit /mg) of Insulin Human RS D: Volume (mL) of 0.01 mol/L hydrochloric acid TS used to dissolve Insulin Human RS Operating conditions— Proceed as directed in the operating conditions in the Assay (1). System suitability— System performance: When the procedure is run with 20 mL of insulin human desamido substance-containing TS under the above operating conditions, insulin human and in-sulin human desamido substance are eluted in this order with the resolution between these peaks being not less than 2.0, and the symmetry factor of the peak of insulin human is not more than 1.6. System repeatability: When the test is repeated 4 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of insulin human is not more than 6.0z. High-molecular mass protein—Take a suitable volume of gently shaken Isophane Insulin Human (Genetical Recombination) Injectable Aqueous Suspension, add 4 mL of 6 mol/L hydrochloric acid TS for each mL of the suspen-sion, and mix until the solution becomes clear. Perform the test with 100 mL of this solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area by the automatic integration method, and calculate the amount of them by the area per-centage method: the total amount of the peaks other than in-sulin human is not more than 2.5z. Operating conditions— Detector, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Purity (2) under Insulin Human (Genetical Recombination). Column: A stainless steel column 7.8 mm in inside diame-ter and 30 cm in length, packed with hydrophilic silica gel for liquid chromatography. Time span of measurement: From the retention time cor-responding to the exclusion volume of the size-exclusion column to the completion of the elution of insulin human. System suitability— System performance: Proceed as directed in the system suitability in the Purity (2) under Insulin Human (Genetical Recombination). Test for required detectability: Pipet 1 mL of the sample solution, and add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. Confirm that the peak area of insulin human obtained with 100 mL of this solution is equivalent to 1.4 to 2.6z of that with 100 mL of the sample solution. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Insulin human—Pipet 10 mL of gently shaken Isophane Insulin Human (Genetical Recombination) Injecta-ble Aqueous Suspension, and add exactly 40 mL of 6 mol/L hydrochloric acid TS. Pipet 2 mL of this solution, add 0.01 mol/L hydrochloric acid TS to make exactly 5 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay under Insulin Human (Genetical Recom-bination). Amount (Insulin Unit) of insulin human (C257H383N65O77S6) in 1 mL ＝ (MS × F )/D × (ATI ＋ ATD)/(ASI ＋ ASD) × 1.004 × 5/2 MS: Amount (mg) of Insulin Human RS taken F: Labeled unit (Insulin Unit /mg) of Insulin Human RS D: Volume (mL) of 0.01 mol/L hydrochloric acid TS used to dissolve Insulin Human RS (2) Zinc—Pipet a volume of gently shaken Isophane In-sulin Human (Genetical Recombination) Injectable Aqueous Suspension, equivalent to 300 Insulin Units, and add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. If nec-essary, further add 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample so-lution. Separately, pipet a suitable volume of Standard Zinc Solution for Atomic Absorption Spectroscopy, dilute with 0.01 mol/L hydrochloric acid TS to make three solutions containing 0.20 mg, 0.60 mg and 1.20 mg of zinc (Zn: 65.38) in each mL, respectively, and use these solutions as the stand-ard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectroscopy <2.23> according to the following conditions, using 0.01 mol/L hydrochloric acid TS as the blank, and cal-culate the content of zinc in the sample solution by using the calibration curve obtained from the absorbances of the standard solutions. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Zinc hollow cathode lamp. Wavelength: 213.9 nm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Unknown"
+}

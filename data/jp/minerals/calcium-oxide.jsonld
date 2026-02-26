@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-oxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Oxide",
+    "ja": "酸化カルシウム"
+  },
+  "monographId": "JP18-calcium-oxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Oxide, when incinerated, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Calcium Oxide occurs as hard, white masses, containing a powder. It is odorless. It is very slightly soluble in boiling water, and practically insoluble in ethanol (95). One gram of Calcium Oxide dissolves almost completely in 2500 mL of water. It slowly absorbs moisture and carbon dioxide from air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Moisten Calcium Oxide with water: heat is generated and a white powder is obtained. Mix the powder with about 5 times its mass of water: the mixture is alkaline. (2) Dissolve 1 g of Calcium Oxide in 20 mL of water by adding a few drops of acetic acid (31): the solution responds to Qualitative Tests <1.09> for calcium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid-insoluble substances—Disintegrate 5.0 g of Calcium Oxide with a small amount of water, add 100 mL of water, add dropwise hydrochloric acid with stirring until the solution becomes acidic, and further add 1 mL of hydro-chloric acid. Boil the solution for 5 minutes, cool, filter through a glass filter (G4), wash the residue with boiling water until no turbidity is produced when silver nitrate TS is added to the last washing, and dry at 1059C to constant mass: the mass of the residue is not more than 10.0 mg. Carbonate—Disintegrate 1.0 g of Calcium Oxide with a small amount of water, mix thoroughly with 50 mL of water, allow to stand for a while, remove most of the super-natant milky liquid by decantation, and add an excess of dilute hydrochloric acid to the residue: no vigorous efferves-cence is produced. Magnesium and alkali metals—Dissolve 1.0 g of Cal-cium Oxide in 75 mL of water by adding dropwise hydro-chloric acid, and further add 1 mL of hydrochloric acid. Boil for 1 to 2 minutes, neutralize with ammonia TS, add drop-wise an excess of hot ammonium oxalate TS, heat the mix-ture on a water bath for 2 hours, cool, add water to make 200 mL, mix thoroughly, and filter. Evaporate 50 mL of the filtrate with 0.5 mL of sulfuric acid to dryness, and heat the residue strongly at 6009C to constant mass: the mass of the residue is not more than 15 mg. Loss on ignition <2.43> Not more than 10.0z (1 g, 9009C, constant mass)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Calcium Oxide, pre-viously incinerated at 9009C to constant mass and cooled in a desiccator (silica gel), and dissolve in 50 mL of water and 8 ‌602 mL of diluted hydrochloric acid (1 in 3) by heating. Cool, and add water to make exactly 250 mL. Pipet 10 mL of the solution, add 50 mL of water, 2 mL of 8 mol/L potassium hydroxide TS and 0.1 g of NN indicator, and titrate <2.50> with 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS, until the red-purple color of the solution changes to blue. Each mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.122 mg of CaO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

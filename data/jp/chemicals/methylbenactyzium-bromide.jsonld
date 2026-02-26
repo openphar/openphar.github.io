@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/methylbenactyzium-bromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Methylbenactyzium Bromide",
+    "ja": "メチルベナクチジウム臭化物"
+  },
+  "monographId": "JP18-methylbenactyzium-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H28BrNO3",
+  "molecularWeight": 422.36,
+  "casNumber": "3166-62-9",
+  "definition": {
+    "en": "Methylbenactyzium Bromide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Methylbenactyzium Bromide occurs as white, crystals or crystalline powder. It is odorless, and has an ex-tremely bitter taste. It is freely soluble in water and in acetic acid (100), soluble in ethanol (95), slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Methylbenactyzium Bromide in 50 mL of water is between 5.0 and 6.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake 0.5 mL of a solution of Methyl-benactyzium Bromide (1 in 100) with 5 mL of phosphate buffer solution (pH 7.0), 2 to 3 drops of bromothymol blue TS and 5 mL of chloroform: a yellow color develops in the chloroform layer. To about 1 g of Methylbenactyzium Bromide add 5 mL of water and 10 mL of sodium hydroxide TS, allow to stand for 5 minutes, add 5 mL of dilute hydrochloric acid, collect the precipitate, wash well with water, recrystallize from a mixture of water and ethanol (95) (10:3), and dry at 1059C for 1 hour: the crystals melt <2.60> between 1459C and 1509C. Continue the heating up to about 2009C: a red color develops. Add 2 mL of dilute nitric acid to 5 mL of a solution of Methylbenactyzium Bromide (1 in 10): the solution re-sponds to Qualitative Tests <1.09> (1) for bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Methylbenactyzium Bromide in 10 mL of water: the solu-tion is clear and colorless. Sulfate <1.14>—Perform the test with 0.5 g of Methylbenactyzium Bromide. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.038z). Heavy metals <1.07>—Proceed with 2.0 g of Methyl- benactyzium Bromide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 0.5z (2 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Methylbenactyzium Bromide, previously dried, and dissolve in 80 mL of a mix-ture of acetic anhydride and acetic acid (100) (4:1). Titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 42.24 mg of C21H28BrNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

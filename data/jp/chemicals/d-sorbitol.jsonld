@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/d-sorbitol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "D-Sorbitol",
+    "ja": "D-ソルビトール"
+  },
+  "monographId": "JP18-d-sorbitol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H14O6",
+  "molecularWeight": 182.17,
+  "casNumber": "50-70-4",
+  "definition": {
+    "en": "D-Sorbitol, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "D-Sorbitol occurs as white, granules, powder, or crystalline masses. It is odorless, and has a sweet taste with a cold sensation. It is very soluble in water, sparingly soluble in ethanol (95), and practically insoluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of D-Sorbitol (7 in 10) add 2 mL of iron (II) sulfate TS and 1 mL of a solu-tion of sodium hydroxide (1 in 5): a blue-green color devel-ops, but no turbidity is produced. Shake thoroughly 1 mL of a solution of D-Sorbitol (1 in 20) with 1 mL of a freshly prepared solution of catechol (1 in 10), add rapidly 2 mL of sulfuric acid, and shake: a reddish purple to red-purple color immediately develops. Boil 0.5 g of D-Sorbitol with 10 mL of acetic anhy-dride and 1 mL of pyridine under a reflux condenser for 10 minutes, cool, shake with 25 mL of water, and allow to stand in a cold place. Transfer the solution to a separator, extract with 30 mL of chloroform, and evaporate the extract on a water bath. Add 80 mL of water to the oily residue, heat for 10 minutes on a water bath, then filter the hot mix-ture. After cooling, collect the produced precipitate through a glass filter (G3), wash with water, recrystallize once from ethanol (95), and dry in a desiccator (in vacuum, silica gel) for 4 hours: the precipitate melts <2.60> between 979C and 1019C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution, and acidity or alkalinity—Dissolve 5 g of D-Sorbitol in 20 mL of water by warming with shaking: the solution is clear, colorless, and neutral. Chloride <1.03>—Perform the test with 2.0 g of D- Sorbitol. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.005z). Sulfate <1.14>—Perform the test with 4.0 g of D- Sorbitol. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.006z). Heavy metals <1.07>—Proceed with 5.0 g of D-Sorbitol according to Method 1, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 5 ppm). Nickel—Dissolve 0.5 g of D-Sorbitol in 5 mL of water, add 3 drops of dimethylglyoxime TS and 3 drops of ammonia TS, and allow to stand for 5 minutes: no red color develops. Arsenic <1.11>—Prepare the test solution with 1.5 g of D-Sorbitol according to Method 1, and perform the test (not more than 1.3 ppm). Glucose—Dissolve 20.0 g of D-Sorbitol in 25 mL of water, and boil gently with 40 mL of Fehling's TS for 3 minutes. After cooling, filter the supernatant liquid cau-tiously through a glass filter (G4), leaving the precipitate in the flask as much as possible, wash the precipitate with hot water until the last washings no longer show an alkali reac-tion, and filter the washings through the glass filter. Dissolve the precipitate in the flask in 20 mL of iron (III) sulfate TS, filter through the glass filter, and wash with water. Combine the filtrate and the washings, heat at 809C, and titrate <2.50> with 0.02 mol/L potassium permanganate VS: not more than 6.3 mL of volume for titration consumed or consump-tion is required. Sugars—Dissolve 20.0 g of D-Sorbitol in 25 mL of water, and heat with 8 mL of dilute hydrochloric acid under a reflux condenser in a water bath for 3 hours. After cool-ing, add 2 drops of methyl orange TS, followed by sodium hydroxide TS until an orange color develops, and add water to make 100 mL. Boil gently 10 mL of this solution with 10 mL of water and 40 mL of Fehling's TS for 3 minutes and proceed as directed in (7). Loss on drying <2.41> Not more than 2.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.02z (5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of D-Sorbitol, previ-ously dried, dissolve in water and add water to make exactly 100 mL. Pipet 10 mL of the solution into an iodine flask, add exactly 50 mL of potassium periodate TS, and heat for 15 minutes in a water bath. Cool, add 2.5 g of potassium iodide, immediately stopper tightly, and shake well. Allow to stand for 5 minutes in a dark place, and titrate <2.50> with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 1.822 mg of C6H14O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

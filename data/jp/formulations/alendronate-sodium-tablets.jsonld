@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/alendronate-sodium-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Alendronate Sodium Tablets",
+    "ja": "アレンドロン酸ナトリウム錠"
+  },
+  "monographId": "JP18-alendronate-sodium-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Alendronate Sodium Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of alendronic acid (C4H13NO7P2: 249.10). 85z. Start the test with 1 tablet of Alendronate Sodium Tablets, withdraw not less than 10 mL of the medium at the specified minute after starting the test, and centrifuge. Pipet V mL of the supernatant liquid, add water to make exactly V? mL so that each mL contains about 6 mg of alendronic acid (C4H13NO7P2), and use this solution as the sample stock so-lution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Alendronate Sodium Tablets, equivalent to 25 mg of alendronic acid (C4H13NO7P2), add 25 mL of water, shake, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh 33 mg of alendronate sodium hydrate, and dissolve in 25 mL of water, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of water, pyridine, acetic acid (100) and ethyl ace-tate (1:1:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in acetone (1 in 50) on the plate, and heat the plate at 1009C for 10 minutes: the principal spots from the sample solution and standard solution show a blue-purple color and the same Rf value. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Alendronate Sodium Tablets add 0.1 mol/L trisodium citrate TS to make exactly 100 mL, and stir until the tablet is completely disintegrated. Centrifuge this solu-tion, pipet V mL of the supernatant liquid, and add 0.1 mol/L trisodium citrate TS to make exactly V? mL so that each mL contains about 25 mg of alendronic acid (C4H13NO7P2), and use this solution as the sample stock solution. Then, proceed as directed in the Assay. Amount (mg) of alendronic acid (C4H13NO7P2) ＝ MS × AT/AS × V?/V × 2/25 × 0.919 MS: Amount (mg) of Alendronate Sodium RS taken, cal-culated on the dried basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Alendronate Sodium Tablets is not less than ＝ MS × AT/AS × V?/V × 1/C × 108/5 × 0.919 MS: Amount (mg) of Alendronate Sodium RS taken, cal-culated on the dried basis C: Labeled amount (mg) of alendronic acid (C4H13NO7P2) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Alendronate Sodium Tablets. Weigh accurately a portion of the powder, equivalent to about 50 mg of alendronic acid (C4H13NO7P2), add 0.1 mol/L trisodium citrate TS to make exactly 1000 mL, stir for 30 minutes, and centrifuge. Pipet 5 mL of the supernatant liquid, add 0.1 mol/L trisodium citrate TS to make exactly 10 mL, and use this solution as the sample stock solution. Separately, weigh accurately about 39 mg of Alendronate Sodium RS (separately deter-mine the loss on drying <2.41> under the same conditions as Alendronate Sodium Hydrate), dissolve in 0.1 mol/L triso-dium citrate TS to make exactly 50 mL. Pipet 2 mL of this solution, add 0.1 mol/L trisodium citrate TS to make exactly 50 mL, and use this solution as the standard stock solution. Pipet 5 mL each of the sample stock solution and standard stock solution, add exactly 5 mL of a solution of sodium tetraborate decahydrate (19 in 500) and exactly 4 mL of a so-lution of 9-fluprenylmethyl chloroformate in acetonitrile (1 in 1000), shake for 30 seconds, and allow to stand at room temperature for 25 minutes. Then, add 25 mL of dichloro-methane to them, shake for 45 seconds, centrifuge, and use the supernatant liquid so obtained as the sample solution and the standard solution, respectively. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of alendronic acid in each solution. Amount (mg) of alendronic acid (C4H13NO7P2) ＝ MS × AT/AS × 8/5 × 0.919 MS: Amount (mg) of Alendronate Sodium RS taken, cal-culated on the dried basis ‌430‌ Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 14.7 g of trisodium citrate dihy-drate and 7.1 g of anhydrous disodium hydrogen phosphate in 900 mL of water, adjust to pH 8.0 with phosphoric acid, and add water to make 1000 mL. To 750 mL of this solution add 200 mL of acetonitrile for liquid chromatography and 50 mL of methanol. Flow rate: Adjust so that the retention time of alendronic acid is about 7 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of alendronic acid are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above opera-tions conditions, the relative standard deviation of the peak of alendronic acid is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

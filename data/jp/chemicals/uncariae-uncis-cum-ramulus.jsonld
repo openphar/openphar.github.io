@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/uncariae-uncis-cum-ramulus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Uncariae Uncis Cum Ramulus",
+    "ja": "チョウトウコウ"
+  },
+  "monographId": "JP18-uncariae-uncis-cum-ramulus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Uncaria Hook is uncinate hook or short stem with opposite or single hook; the hook, 1 – 4 cm in length, curved and acuminate; externally red-brown to dark brown or grayish brown, some one with hairs, the transverse section oblong to elliptical, light brown; stem thin and prismatic square to cylindrical, 2 – 5 mm in diameter, externally, red-brown to dark brown or grayish brown; the transverse section, square to elliptical; the pith light brown, square to elliptical; hard in texture. Odorless and practically tasteless. Under a microscope <5.01>, a transverse section of the hook reveals vascular bundles in the cortex, unevenly dis-tributed and arranged in a ring. Parenchyma cells in the sec-ondary cortex containing sand crystals of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Uncaria Hook add 10 mL of water and 1 mL of ammonia TS, shake, then add 10 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the diethyl ether layer as the sample solution. Separately, dissolve 1 mg each of rhyncophylline for thin-layer chroma-tography and hirsutine for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sam-ple solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol and water (7:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate, and air-dry the plate. Then spray evenly sodium nitrite TS on the plate: one of the several spots obtained from the sample so-lution has the same color tone and Rf value with one of the spots from the standard solution. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 4.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 8.5z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of moderately fine powder of Uncaria Hook, transfer into a glass-stoppered centrifuge tube, add 30 mL of a mixture of methanol and dilute acetic acid (7:3), shake for 30 minutes, centrifuge, and separate the supernatant liquid. To the residue add two 10-mL portions of a mixture of methanol and dilute acetic acid (7:3), proceed in the same manner, and combine all of the supernatant liquid. To the combined liquid add a mix-ture of methanol and dilute acetic acid (7:3) to make exactly 50 mL, and use this as the sample solution. Separately, weigh accurately about 5 mg of rhynchophylline for assay, previously dried in a desiccator (silica gel) for 24 hours, and dissolve in a mixture of methanol and dilute acetic acid (7:3) to make exactly 100 mL. Pipet 1 mL of this solution, add a mixture of methanol and dilute acetic acid (7:3) to make ex-actly 10 mL, and use this solution as the standard solution (1). Separately, dissolve 1 mg of hirsutine in 100 mL of a mixture of methanol and dilute acetic acid (7:3), and use this solution as the standard solution (2). Perform the test with exactly 20 mL each of the sample solution and standard solu-tions (1) and (2) as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, ATa and ATb, of rhynchophylline and hirsutine obtained from the sample solution, and the peak area, AS, of rhynchophylline from the standard solution (1). Amount (mg) of total alkaloids (rhynchophylline and hirsutine) ＝ MS × (ATa ＋ 1.405ATb)/AS × 1/20 MS: Amount (mg) of rhynchophylline for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 245 nm). ‌JP XVIII Crude Drugs and Related Drugs / Unseiin Extract 2169 Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 200 mL of water, add 10 mL of acetic acid (100) and water to make 1000 mL, and add 350 mL of acetonitrile. Flow rate: Adjust so that the retention time of rhyn-chophylline is about 17 minutes. System suitability— System performance: Dissolve 5 mg of rhynchophylline for assay in 100 mL of a mixture of methanol and dilute acetic acid (7:3). To 5 mL of this solution add 1 mL of am-monia solution (28), and reflux for 10 minutes or warm at about 509C for 2 hours. After cooling, to 1 mL of the solu-tion so obtained add a mixture of methanol and dilute acetic acid (7:3) to make 5 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, the peak of isorhynchophylline is appears in addition to the peak of rhynchophylline, and the resolution between these peaks is not less than 1.5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution (1) under the above op-erating conditions, the relative standard deviation of the peak areas of rhynchophylline is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

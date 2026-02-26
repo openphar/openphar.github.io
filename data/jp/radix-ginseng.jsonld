@@ -1,0 +1,246 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/radix-ginseng",
+  "@type": "CrudeDrugMonograph",
+
+  "prefLabel": {
+    "en": "Ginseng Radix",
+    "ja": "人参",
+    "la": "Radix Ginseng"
+  },
+
+  "altLabel": [
+    { "@value": "Ginseng", "@language": "en" },
+    { "@value": "Red Ginseng", "@language": "en" },
+    { "@value": " ninjin", "@language": "ja-Latn" }
+  ],
+
+  "monographId": "JP18-001",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Ginseng Radix consists of the root of Panax ginseng C.A. Meyer (Panax schinseng Nees) (Araliaceae), usually with the root bark removed, dried and processed."
+  },
+
+  "referencesPreparation": {
+    "@id": "https://www.herbapedia.org/entity/preparation/dried-ginseng-root"
+  },
+
+  "referencesTCMProfile": {
+    "@id": "https://www.herbapedia.org/system/tcm/profile/ren-shen"
+  },
+
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.herbapedia.org/entity/botanical/species/panax-ginseng"
+    },
+    "plantPartUsed": {
+      "en": "Root"
+    },
+    "collectionPeriod": {
+      "en": "Collected in autumn from plants 4-6 years old"
+    }
+  },
+
+  "macroscopicDescription": {
+    "@type": "MacroscopicDescription",
+    "color": {
+      "en": "Yellowish white to pale yellowish brown"
+    },
+    "shape": {
+      "en": "Fusiform or cylindrical, often branched, 5-20 cm long, 0.5-3 cm in diameter"
+    },
+    "texture": {
+      "en": "Hard and brittle"
+    },
+    "fracture": {
+      "en": "Fracture surface is flat, yellowish white"
+    },
+    "odor": {
+      "en": "Characteristic, slightly aromatic"
+    },
+    "taste": {
+      "en": "Sweet at first, followed by slight bitterness"
+    }
+  },
+
+  "microscopicDescription": {
+    "@type": "MicroscopicDescription",
+    "transverseSection": {
+      "en": "Cork layer of several rows of cells; cortex of parenchyma cells containing starch grains and occasionally cluster crystals of calcium oxalate; phloem with sieve tubes and parenchyma; xylem with vessels, tracheids, and parenchyma"
+    },
+    "powderCharacteristics": {
+      "en": "Under a microscope, powder shows fragments of cork cells, parenchyma cells containing starch grains (simple or compound, 2-20 μm in diameter), vessels with scalariform or reticulate thickenings, and occasional calcium oxalate crystals"
+    },
+    "diagnosticFeatures": {
+      "en": "Presence of secretory canals in cortex and phloem; starch grains abundant; calcium oxalate cluster crystals 20-70 μm in diameter"
+    }
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - TLC"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "TLC",
+      "testConditions": {
+        "en": "To 2.0 g of powdered Ginseng Radix add 20 mL of methanol, heat under reflux on a water bath for 15 minutes, cool, and filter. Evaporate the filtrate to dryness, add 10 mL of water to the residue, and extract with two 20-mL portions of 1-butanol saturated with water. Combine the 1-butanol extracts, evaporate to dryness, and dissolve the residue in 2 mL of methanol. Use this solution as the sample solution. Separately, dissolve 2 mg of Ginsenoside Rb1 RS in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography. Spot 10 μL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and water (65:35:10) (lower layer) to a distance of about 10 cm, and dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat at 110°C for 5 minutes: spots from the sample solution show the same color tone and Rf values with the spots from the standard solution."
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Foreign Matter"
+      },
+      "testType": "TestType-ForeignMatter",
+      "harmonizedMethod": "ForeignMatter",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Total Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "TotalAsh",
+      "physicalProperty": {
+        "en": "Total Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 4.2,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "AcidInsolubleAsh",
+      "physicalProperty": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.5,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Ginsenoside Rb1"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Ginsenoside Rb1 (C54H92O23)"
+      },
+      "assayExpression": "on dried basis",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of powdered Ginseng Radix, add 30 mL of diluted methanol (3 in 5), heat under reflux on a water bath for 15 minutes, cool, filter, and add diluted methanol (3 in 5) to make exactly 50 mL. Pipet 10 mL of this solution, add 10 mL of water, transfer to a column packed with 2 g of polyamide C for column chromatography, and elute with 50 mL of water, then with 50 mL of diluted methanol (3 in 5). Combine the diluted methanol (3 in 5) eluates, evaporate to dryness under reduced pressure, dissolve the residue in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Ginsenoside Rb1 RS (previously determine the water content), dissolve in methanol to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 μL each of the sample solution and standard solution as directed under Liquid Chromatography according to the following conditions. Calculate the amounts of ginsenoside Rb1 in the sample solution."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.10,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Ginsenoside Rg1"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Ginsenoside Rg1 (C42H72O14)"
+      },
+      "assayExpression": "on dried basis",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.10,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method3",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 20,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "physicalProperty": {
+        "en": "Loss on Drying"
+      },
+      "testConditions": {
+        "en": "Dry at 105°C for 6 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 14.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed container"
+  },
+  "storageConditions": {
+    "en": "Store in a cool, dry place"
+  }
+}

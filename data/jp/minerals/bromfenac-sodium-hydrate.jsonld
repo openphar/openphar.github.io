@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/bromfenac-sodium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Bromfenac Sodium Hydrate",
+    "ja": "ブロムフェナクナトリウム水和物"
+  },
+  "monographId": "JP18-bromfenac-sodium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Bromfenac Sodium Hydrate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Bromfenac Sodium Hydrate occurs as a yellow to orange crystalline powder. It is freely soluble in water, soluble in methanol, and slightly soluble in ethanol (99.5). It dissolves in a solution of sodium hydrogen carbonate (21 in 2500). Identiˆcation (1) Dissolve 10 mg of Bromfenac Sodium Hydrate in 500 mL of a solution of sodium hydrogen car-bonate (21 in 2500). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Bromfenac Sodium RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bromfenac Sodium Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Bromfenac Sodium RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. A solution of Bromfenac Sodium Hydrate (1 in 20) responds to Qualitative Tests <1.09> (1) for sodium salt. pH <2.54> Dissolve 1.0 g of Bromfenac Sodium Hydrate in 20 mL of water: the pH of the solution is between 8.4 and 10.2."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Bromfenac Sodium Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Bromfenac Sodium Hydrate in 100 mL of methanol, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than bromfenac obtained from the sample so-lution is not larger than 1/10 times the peak area of brom-fenac from the standard solution, and the total area of the peaks other than bromfenac from the sample solution is not larger than the peak area of bromfenac from the standard solution. Operating conditions— Detector, column and column temperature: Proceed as di-rected in the operating conditions in the Assay. Mobile phase: Dissolve 3.85 g of ammonium acetate in 1000 mL of water, and adjust to pH 4.0 with acetic acid (100). To 570 mL of this solution add 430 mL of acetonitrile. Flow rate: Adjust so that the retention time of bromfenac is about 8 minutes. Time span of measurement: About 3 times as long as the retention time of bromfenac, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add methanol to make exactly 20 mL. Conˆrm that the peak area of bromfenac obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con- ditions, the number of theoretical plates and the symmetry factor of the peak of bromfenac are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of bromfenac is not more than 2.0z. Water <2.48> 6.9 – 8.5z (0.15 g, volumetric titration, direct titration. Use a solution of imidazole for water deter-mination in methanol for water determination (1 in 80) instead of methanol for water determination)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Bromfenac Sodium Hydrate and Bromfenac Sodium RS (separately de-termine the water <2.48> in the same manner as Bromfenac Sodium Hydrate), dissolve each in methanol to make exactly 50 mL. Pipet 5 mL each of these solutions, add the mobile phase to make them exactly 100 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with exactly 20 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of brom-fenac in each solution. Amount (mg) of bromfenac sodium (C15H11BrNNaO3) ＝ MS × AT/AS MS: Amount (mg) of Bromfenac Sodium RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 1000 mL of water. To 600 mL of this solution add 250 mL of methanol and 150 mL of tetrahydrofuran. Flow rate: Adjust so that the retention time of bromfenac is about 9 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of bromfenac are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of bromfenac is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

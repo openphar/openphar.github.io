@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tacrolimus-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tacrolimus Capsules",
+    "ja": "タクロリムスカプセル"
+  },
+  "monographId": "JP18-tacrolimus-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take out the contents of Tacrolimus Cap-sules, to a quantity of the contents, equivalent to 5 mg of (separately determine the water <2.48> in the same manner as Tacrolimus Hydrate), and dissolve in ethanol (99.5) to make exactly 100 mL. Pipet 2 mL of this solution, add exactly 3 mL of the internal standard solution, add 5 mL of water, allow to stand for 6 hours, and use this solution as the stand-ard solution. Then, proceed as directed in the Assay. Amount (mg) of tacrolimus (C44H69NO12) ＝ MS × QT/QS × V/250 MS: Amount (mg) of Tacrolimus RS taken, calculated on the anhydrous basis Internal standard solution—A solution of heptyl parahy-droxybenzoate in ethanol (99.5) (1 in 20,000). Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Being specified separately when the drug is granted approval based on the Law. Isomer Being specified separately when the drug is granted approval based on the Law. gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water, 2-propanol for liquid chromatography and tetrahydrofuran for liquid chromatog-raphy (5:2:2). Flow rate: Adjust so that the retention time of tacrolimus is about 10 minutes. ‌System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, tacrolimus and the internal standard are eluted in this order with the resolution between these peaks being not less than 6, and the number of theoretical plates and the symmetry factor of the peak of tacrolimus are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of tacrolimus to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 20 Tacrolimus Capsules, weigh accurately the mass of the contents, and powder. Weigh accurately a portion of the powder, equiva-lent to about 25 mg of tacrolimus (C44H69NO12), add 15 mL of ethanol (99.5) and exactly 10 mL of the internal standard solution, and sonicate for 10 minutes with occasional shak-ing. Centrifuge this solution, to 5 mL of the supernatant liq-uid add 5 mL of water, allow to stand for 6 hours, and use this solution as the sample solution. Separately, weigh accu-rately about 25 mg of Tacrolimus RS (separately determine the water <2.48> in the same manner as Tacrolimus Hydrate), dissolve in 15 mL of ethanol (99.5), add exactly 10 mL of the internal standard solution, add 25 mL of water, allow to stand for 6 hours, and use this solution as the standard solu-tion. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratios, QT and QS, of the peak area of tacrolimus to that of the internal standard. Amount (mg) of tacrolimus (C44H69NO12) ＝ MS × QT/QS MS: Amount (mg) of Tacrolimus RS taken, calculated on the anhydrous basis Internal standard solution—A solution of heptyl parahy-droxybenzoate in ethanol (99.5) (3 in 4000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). tacrolimus (C 44H 69NO12 ), add 2 mL of ethanol (95), shake Column: A stainless steel column 4.6 mm in inside diame- ter and 15 cm in length, packed with octadecylsilanized silica for 10 minutes, and centrifuge. To 1 mL of the supernatant liquid add 0.5 mL of 1,3-dinitrobenzene TS and 0.5 mL of sodium hydroxide TS, shake, and allow to stand for 3 minutes: a light red-purple develops. Purity Related substances—Being specified separately when the drug is granted approval based on the Law. Isomer Being specified separately when the drug is granted approval based on the Law. gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water, 2-propanol for liquid chromatography and tetrahydrofuran for liquid chromatog-raphy (5:2:2). Flow rate: Adjust so that the retention time of tacrolimus is about 10 minutes. ‌System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, tacrolimus and the internal standard are eluted in this order with the resolution between these peaks being not less than 6, and the number of theoretical plates and the symmetry factor of the peak of tacrolimus are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of tacrolimus to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

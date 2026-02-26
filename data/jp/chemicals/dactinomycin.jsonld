@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dactinomycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dactinomycin",
+    "ja": "アクチノマイシン D"
+  },
+  "monographId": "JP18-dactinomycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C62H86N12O16",
+  "molecularWeight": 1255.42,
+  "casNumber": "50-76-0",
+  "appearance": {
+    "en": "Actinomycin D occurs as an orange-red to red crystalline powder. It is freely soluble in acetone, sparingly soluble in aceto-nitrile and in methanol, slightly soluble in ethanol (99.5), and very slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Actinomycin D in methanol (3 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Actinomycin D RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Dissolve 0.1 g each of Actinomycin D and Actinomy-cin D RS in 10 mL of acetone, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and methanol (4:2:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the Rf value of the principal spot from the sample solution is the same as that from the standard solution. D Optical rotation <2.49> [a]20: －293 – －3299(after drying, 10 mg, methanol, 10 mL, 100 mm). Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Actinomycin D and Actinomycin D RS, previously dried, equivalent to about 60 mg (potency), dissolve each in the mobile phase to make ex-actly 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 25 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak area of actino- mycin D, AT and AS, in each solution. Amount [ mg (potency)] of actinomycin D (C62H86N12O16) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Actinomycin D RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.02 mol/L acetic acid-sodi-um acetate TS and acetonitrile (25:23). Flow rate: Adjust so that the retention time of actinomy-cin D is about 23 minutes. System suitability— System performance: When the procedure is run with 25 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of actinomycin D are not less than 2000 and not more than 1.5, respectively. System repeatability: When the test is repeated 5 times with 25 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of actinomycin D is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

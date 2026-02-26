@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/azathioprine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Azathioprine",
+    "ja": "アザチオプリン"
+  },
+  "monographId": "JP18-azathioprine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H7N7O2S",
+  "molecularWeight": 277.26,
+  "definition": {
+    "en": "Azathioprine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Azathioprine is light yellow, crystals or crystal-line powder. It is odorless. It is sparingly soluble in N,N-dimethylformamide and in pyridine, very slightly soluble in water and in ethanol (99.5), and practically insoluble in chloroform and in diethyl ether. It dissolves in sodium hydroxide TS and in ammonia TS. It is gradually colored by light. Melting point: about 2409C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Azathioprine in 50 mL of water by warming. To 5 mL of this solution add 1 mL of dilute hydrochloric acid and 0.01 g of zinc powder, and allow to stand for 5 minutes: a yellow color is produced. Filter this solution: the filtrate responds to Qualitative Tests <1.09> for primary aromatic amines, and a red color is pro- duced. Dissolve 0.01 g of Azathioprine in 50 mL of water by warming. To 1 mL of this solution add 0.5 mL of phos-photungstic acid TS and 0.5 mL of dilute hydrochloric acid: a white precipitate is formed. Prepare the test solution by proceeding with 0.03 g of Azathioprine according to Oxygen Flask Combustion Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Azathioprine RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorp-tion at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Azathioprine in 50 mL of N,N-dimethylformamide: the solution is clear and shows a light yellow color. Acidity or alkalinity—Add 100 mL of water to 2.0 g of Azathioprine, shake well for 15 minutes, centrifuge for 5 minutes at 10,000 revolutions per minute, and filter. Discard the first 20 mL of the filtrate, add 2 drops of methyl red TS to 40 mL of the subsequent filtrate, and use this solution as the sample solution. Add 0.10 mL of 0.02 mol/L hydrochloric acid VS to 20 mL of the sample solution: a red color develops. Add 0.10 mL of 0.02 mol/L sodium hydroxide VS to 20 mL of the sample solution: a yellow color develops. Sulfate <1.14>—To 25 mL of the filtrate obtained in (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.038z). Heavy metals <1.07>—Proceed with 2.0 g of Azathioprine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Azathioprine, according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 10 mg of Azathioprine in 80 mL of the mobile phase by warming, cool, add the mobile phase to make 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the total area of the peaks other than azathioprine obtained from the sample solution is not larger than 1/2 times the peak area of azathioprine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 296 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Adjust to pH 2.5 of a solution of 0.05 mol/L potassium dihydrogenphosphate TS (1 in 2) with diluted phosphoric acid (3 in 2000). To 800 mL of this solu-tion add 200 mL of methanol. Flow rate: Adjust so that the retention time of azathioprine is about 8 minutes. Time span of measurement: About three times as long as the retention time of azathioprine, beginning after the sol- ‌JP XVIII Official Monographs / Azathioprine Tablets 499 vent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add water to make exactly 50 mL. Con-firm that the peak area of azathioprine obtained with 20 mL of this solution is equivalent to 8 to 12z of that with 20 mL of the standard solution. System performance: Dissolve 10 mg of Azathioprine in 80 mL of water by warming, cool, and add water to make 100 mL. To 2 mL of this solution add 2 mL of a solution, separately prepared by dissolving 0.06 g of benzoic acid in 3 mL of methanol and diluting with water to make 10 mL, and add the mobile phase to make 25 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, azathioprine and benzoic acid are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of azathioprine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Azathioprine, pre- as the sample solution. Separately, dissolve 0.1 g of Azathioprine RS in 10 mL of a solution of ammonia solution (28) in ethanol (95) (1 in 10), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethanol (95), ethyl acetate, and ammonia solution (28) (5:5:1) to a distance of about 7 cm, and air-dry the plate. Ex-amine under ultraviolet light (main wavelength: 254 nm): the spots obtained from the sample solution and the standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Azathioprine Tablets add 1 mL of dimethyl-sulfoxide for ultraviolet-visible spectrophotometry per 5 mg of azathioprine (C9H7N7O2S), shake well, add 0.1 mol/L hy-drochloric acid TS to make exactly V mL so that each mL contains about 0.2 mg of azathioprine (C9H7N7O2S), and filter. Discard the first 20 mL of the filtrate, pipet 3 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of azathioprine (C H N O S) viously dried, add 80 mL of N,N-dimethylformamide, and warm to dissolve. After cooling, titrate <2.50> with 0.1 ＝ MS × AT/AS × V/500 9 7 7 2 mol/L tetramethylammonium hydroxide VS until the color of the solution changes from yellow through yellow-green to blue-green (indicator: 1 mL of thymol blue-dimethylfor-mamide TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L tetramethylammonium hydroxide VS ＝ 27.73 mg of C9H7O7O2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

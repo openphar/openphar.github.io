@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/risperidone-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Risperidone Fine Granules",
+    "ja": "リスペリドン細粒"
+  },
+  "monographId": "JP18-risperidone-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Risperidone Fine Granules, equivalent to 2 mg of Risperidone, add 100 mL of 2-propanol, shake thoroughly, and filter. Determine the ab-sorption spectrum of the filtrate as directed under Ultravio-let-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 277 nm and 281 nm and between 283 nm and 287 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—To an amount of Risperidone Fine Granules, equivalent to 2 mg of Risperidone, add 20 mL of a mixture of 0.1 mol/L hydrochloric acid TS and methanol (3:2), shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 1 mL of the filtrate, and use the subsequent filtrate as the sam-ple solution. Pipet 1 mL of the sample solution, add a mix-ture of 0.1 mol/L hydrochloric acid TS and methanol (3:2) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than risperi-done obtained from the sample solution is not larger than 1/2 times the peak area of risperidone from the standard so-lution, and the total area of the peaks other than risperidone from the sample solution is not larger than the peak area of risperidone from the standard solution. For the area of the peaks, having the relative retention time of about 0.4 and about 1.6 to risperidone, multiply their correction factors, 1.9 and 1.5, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of risperidone, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add a mixture of 0.1 mol/L hydrochloric acid TS and methanol (3:2) to make exactly 50 mL. Confirm that the peak area of risperidone obtained with 10 mL of this solution is equivalent to 7.5 to 12.5z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of risperidone are not less than 4000 and not more than 2.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of risperidone is not more than 2.5z. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Risperidone Fine Granules is not less than 75z. Start the test with an accurately weighed amount of Risperidone Fine Granules, equivalent to about 3 mg of risperidone (C23H27FN4O2), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 5 mL of the subsequent filtrate, add diluted hydrochloric acid (1 in 137) to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 28 mg of risperidone for assay (separately deter-mine the loss on drying <2.41> under the same conditions as Risperidone), and dissolve in methanol to make exactly 50 mL. Pipet 15 mL of this solution, add methanol to make ex-actly 25 mL. Pipet 2 mL of this solution, and add water to make exactly 200 mL. Pipet 3 mL of this solution, add ex-actly 3 mL of diluted hydrochloric acid (1 in 137), and use this solution as the standard solution. Perform the test with exactly 100 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac- cording to the following conditions, and determine the peak areas, AT and AS, of risperidone in each solution. Dissolution rate (z) with respect to the labeled amount of risperidone (C23H27FN4O2) ＝ MS/MT × AT/AS × 1/C × 54/5 MS: Amount (mg) of risperidone for assay taken, calcu-lated on the dried basis MT: Amount (g) of Risperidone Fine Granules taken C: Labeled amount (mg) of risperidone (C23H27FN4O2) in 1 g Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 237 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 1000 mL of a mixture of water and acetonitrile (13:7) add 1 mL of trifluoroacetic acid, and adjust to pH 3.0 with ammonia solution (28). Flow rate: Adjust so that the retention time of risperidone is about 3 minutes. System suitability— System performance: When the procedure is run with 100 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of risperidone are not less than 3500 and not more than 2.5, respectively. System repeatability: When the test is repeated 6 times with 100 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of risperidone is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "If necessary powder Risperidone Fine Granules, and weigh accurately an amount, equivalent to about 2 mg of risperidone (C23H27FN4O2), add 8 mL of a mixture of 0.1 mol/L hydrochloric acid TS and methanol (3:2), shake, and add a mixture of 0.1 mol/L hydrochloric acid TS and metha-nol (3:2) to make exactly 20 mL. Filter the solution through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 1 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 50 mg of risperidone for assay (separately determine the loss on drying <2.41> under the same conditions as Risperidone), and dissolve in a mixture of 0.1 mol/L hydro-chloric acid TS and methanol (3:2) to make exactly 50 mL. Pipet 10 mL of this solution, add a mixture of 0.1 mol/L hy-drochloric acid TS and methanol (3:2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of risperidone in each solution. Amount (mg) of risperidone (C23H27FN4O2) ＝ MS × AT/AS × 1/25 MS: Amount (mg) of risperidone for assay taken, calcu-lated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 275 nm). Column: A stainless steel column 3.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3.5 mm in particle diameter). ‌Column temperature: A constant temperature of about 259C. Mobile phase: To 1000 mL of a mixture of water and acetonitrile (4:1) add 1.5 mL of trifluoroacetic acid, and adjust to pH 3.0 with ammonia solution (28). Flow rate: Adjust so that the retention time of risperidone is about 13 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of risperidone are not less than 4000 and not more than 2.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of risperidone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

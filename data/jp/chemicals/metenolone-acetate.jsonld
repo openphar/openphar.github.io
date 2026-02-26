@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/metenolone-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Metenolone Acetate",
+    "ja": "メテノロン酢酸エステル"
+  },
+  "monographId": "JP18-metenolone-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H32O3",
+  "molecularWeight": 344.49,
+  "definition": {
+    "en": "Metenolone Acetate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Metenolone Acetate occurs as a white to pale yellow-white crystalline powder. It is odorless. It is freely soluble in acetone, in 1,4-dioxane and in chlo-roform, soluble in methanol and in ethanol (95), sparingly soluble in diethyl ether and in sesame oil, slightly soluble in hexane and in petroleum ether, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Metenolone Acetate in 5 mL of a mixture of sulfuric acid and ethanol (95) (1:1), and heat for 30 minutes in a water bath: a red-brown color de-velops. To 10 mg of Metenolone Acetate add 0.5 mL of dilute sodium hydroxide-ethanol TS, and heat for 1 minute on a water bath. After cooling, add 0.5 mL of diluted sulfu-ric acid (1 in 2), and boil gently for 1 minute: the odor of ethyl acetate is perceptible. Dissolve 50 mg of Metenolone Acetate in 3 mL of methanol, add 0.3 mL of a solution of potassium carbonate (1 in 6), and boil for 2 hours under a reflux condenser. After cooling, add this solution gradually to 50 mL of cold water, (3) Related substances—Dissolve 35 mg of Metenolone Acetate in 20 mL of chloroform, and use this solution as the sample solution. Pipet 1 mL of the sample solution, dilute with chloroform to exactly 250 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and cyclohexane (1:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg of Metenolone Ace-tate, previously dried, and dissolve in methanol to make ex-actly 100 mL. Pipet 5 mL of this solution, and dilute with methanol to exactly 50 mL. Determine the absorbance A of this solution at the wavelength of maximum absorption at about 242 nm as directed under Ultraviolet-visible Spectro-photometry <2.24>. Amount (mg) of metenolone acetate (C22H32O3) ＝ A/391 × 10,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

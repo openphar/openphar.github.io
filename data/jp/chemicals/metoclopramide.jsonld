@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/metoclopramide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Metoclopramide",
+    "ja": "メトクロプラミド"
+  },
+  "monographId": "JP18-metoclopramide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H22ClN3O2",
+  "molecularWeight": 299.8,
+  "casNumber": "364-62-5",
+  "definition": {
+    "en": "Metoclopramide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Metoclopramide occurs as white, crystals or a crystalline powder, and is odorless. It is freely soluble in acetic acid (100), soluble in methanol and in chloroform, sparingly soluble in ethanol (95), in ace-tic anhydride and in acetone, very slightly soluble in diethyl ether, and practically insoluble in water. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Metoclopramide in 1 mL of dilute hydrochloric acid and 4 mL of water: the solu-tion responds to Qualitative Tests <1.09> for Primary Aro-matic Amines. Dissolve 10 mg of Metoclopramide in 5 mL of dilute hydrochloric acid and 20 mL of water, and to 5 mL of this solution add 1 mL of Dragendorff's TS: a reddish orange precipitate is produced. Dissolve 0.1 g of Metoclopramide in 1 mL of 1 mol/L hydrochloric acid TS, and dilute with water to make 100 mL. To 1 mL of the solution add water to make 100 mL, determine the absorption spectrum of the solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Metoclopramide in 10 mL of 1 mol/L hydrochloric acid TS: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Metoclo- pramide as directed under Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 1.0 g of Metoclopramide in 5 mL of 1 mol/L hydrochloric acid TS, and use this solution as the sample solution. Perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Metoclo-pramide in 10 mL of methanol, and use this solution as the sample solution. Dilute 1 mL of the sample solution, exactly measured, with methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol and ammonia solution (28) (19:1) to a distance of about 10 cm. Dry the plate, first in air and then at 809C for 30 minutes. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.4 g of Metoclopramide, previously dried and accurately weighed, in 50 mL of acetic acid (100), add 5 mL of acetic anhydride, and warm for 5 minutes. Allow to cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). Perform the blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.98 mg of C14H22ClN3O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

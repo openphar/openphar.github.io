@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/furosemide-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Furosemide Tablets",
+    "ja": "フロセミド錠"
+  },
+  "monographId": "JP18-furosemide-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Furosemide Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of furosemide (C12H11ClN2O5S: 330.74). Method of preparation Prepare as directed under Tablets, with Furosemide. Identification (1) Shake well a quantity of powdered Furosemide Tablets, equivalent to 0.2 g of Furosemide, with 40 mL of acetone, and filter. To 0.5 mL of the filtrate add 10 mL of 2 mol/L hydrochloric acid TS, and heat under a reflux condenser on a water bath for 15 minutes. After cool-ing, add 18 mL of sodium hydroxide TS to make the solu-tion slightly acidic: the solution responds to Qualitative Tests <1.09> for primary aromatic amines, producing a red to red- purple color. (2) Determine the absorption spectrum of the sample so-lution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be- ‌JP XVIII Official Monographs / Fursultiamine Hydrochloride 1051 tween 227 nm and 231 nm, between 269 nm and 273 nm, and between 330 nm and 336 nm. Purity To a quantity of powdered Furosemide Tablets, equivalent to 40 mg of Furosemide, add about 30 mL of ace-tone, shake well, and add acetone to make exactly 50 mL. Centrifuge the solution, add 3.0 mL of water to 1.0 mL of the supernatant liquid, cool in ice, add 3.0 mL of dilute hy-drochloric acid and 0.15 mL of sodium nitrite TS, shake, and allow to stand for 1 minute. Add 1.0 mL of ammonium amidosulfate TS, shake well, allow to stand for 3 minutes, add 1.0 mL of N,N-diethyl-N?-1-naphthylethylenediamine oxalate TS, shake well, and allow to stand for 5 minutes. Perform the test with this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>, using a solution pre-pared in the same manner with 1.0 mL of acetone as the blank: the absorbance at 530 nm is not more than 0.10. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Furosemide Tablets add a suitable amount of 0.05 mol/L sodium hydroxide TS, shake to disintegrate, then add 0.05 mol/L sodium hydroxide TS to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake well a quantity of powdered Furosemide Tablets, equivalent to 0.2 g of Furosemide, with 40 mL of acetone, and filter. To 0.5 mL of the filtrate add 10 mL of 2 mol/L hydrochloric acid TS, and heat under a reflux condenser on a water bath for 15 minutes. After cool-ing, add 18 mL of sodium hydroxide TS to make the solu-tion slightly acidic: the solution responds to Qualitative Tests <1.09> for primary aromatic amines, producing a red to red- purple color. (2) Determine the absorption spectrum of the sample so-lution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be- ‌JP XVIII Official Monographs / Fursultiamine Hydrochloride 1051 tween 227 nm and 231 nm, between 269 nm and 273 nm, and between 330 nm and 336 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "To a quantity of powdered Furosemide Tablets, equivalent to 40 mg of Furosemide, add about 30 mL of ace-tone, shake well, and add acetone to make exactly 50 mL. Centrifuge the solution, add 3.0 mL of water to 1.0 mL of the supernatant liquid, cool in ice, add 3.0 mL of dilute hy-drochloric acid and 0.15 mL of sodium nitrite TS, shake, and allow to stand for 1 minute. Add 1.0 mL of ammonium amidosulfate TS, shake well, allow to stand for 3 minutes, add 1.0 mL of N,N-diethyl-N?-1-naphthylethylenediamine oxalate TS, shake well, and allow to stand for 5 minutes. Perform the test with this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>, using a solution pre-pared in the same manner with 1.0 mL of acetone as the blank: the absorbance at 530 nm is not more than 0.10. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Furosemide Tablets add a suitable amount of 0.05 mol/L sodium hydroxide TS, shake to disintegrate, then add 0.05 mol/L sodium hydroxide TS to make exactly V mL so that each mL contains about 0.4 mg of furosemide (C12H11ClN2O5S). Filter the solution, discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 0.05 mol/L sodium hydroxide TS to make exactly 100 mL, and use this solution as the sample solution. Proceed as di-rected in the Assay. Amount (mg) of furosemide (C12H11ClN2O5S) ＝ MS × AT/AS × V/50 MS: Amount (mg) of Furosemide RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rates of a 20-mg tablet in 15 minutes and a 40-mg tablet in 30 minutes are not less than 80z. Start the test with 1 tablet of Furosemide Tablets, with-draw not less than 30 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 10 mg of furosemide (C12H11ClN2O5S), and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Furosemide RS, previously dried at 1059C for 4 hours, and dissolve in 5 mL of methanol, and add the dissolution me-dium to make exactly 100 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 100 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, of the sample solution and standard so-lution at 277 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of furosemide (C12H11ClN2O5S) ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of Furosemide RS taken C: Labeled amount (mg) of furosemide (C12H11ClN2O5S) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Furosemide Tablets, and powder. Weigh accurately a por-tion of the powder, equivalent to about 40 mg of furosemide (C12H11ClN2O5S), add about 70 mL of 0.05 mol/L sodium hydroxide TS, shake well, and add 0.05 mol/L sodium hy-droxide TS to make exactly 100 mL. Filter, discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 0.05 mol/L sodium hydroxide TS to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Furosemide RS, previously dried at 1059C for 4 hours, and dissolve in 0.05 mol/L sodium hydroxide TS to make exactly 50 mL. Pipet 2 mL of this solution, add 0.05 mol/L sodium hydroxide TS to make exactly 100 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, of the sample solution and standard solution at 271 nm as directed under the Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of furosemide (C12H11ClN2O5S) ＝ MS × AT/AS × 2 MS: Amount (mg) of Furosemide RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

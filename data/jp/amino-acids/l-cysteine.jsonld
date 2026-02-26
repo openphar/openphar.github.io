@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/l-cysteine",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "L-Cysteine",
+    "ja": "L-システイン"
+  },
+  "monographId": "JP18-l-cysteine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H7NO2S",
+  "molecularWeight": 121.16,
+  "appearance": {
+    "en": "L-Cysteine occurs as white crystals or a white crystalline powder. It has a characteristic odor and a pun-gent taste. It is freely soluble in water, and practically insoluble in ethanol (99.5). It dissolves in 1 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Cysteine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋8.0 – ＋10.09(2 g calcu-lated on the dried basis, 1 mol/L hydrochloric acid TS, 25 mL, 100 mm). pH <2.54> The pH of a solution prepared by dissolving 1.25 g of L-Cysteine in 50 mL of water is 4.7 to 5.7."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of L-Cysteine in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.30 g of L-Cysteine in 10 mL of diluted nitric acid (1 in 4), add 10 mL of hydrogen peroxide (30), heat for 20 minutes in a boiling water bath, cool, and then add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.35 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.041z). Sulfate <1.14>—Dissolve 0.6 g of L-Cysteine in 30 mL of water and 3 mL of dilute hydrochloric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: To 0.35 mL of 0.005 mol/L sulfuric acid VS add 3 mL of dilute hydrochloric acid and water to make 50 mL. Prepare the test mL of Standard Iron Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of L-Cysteine in N-ethylmaleimide solution (1 in 50) to make exactly 10 mL, leave for 30 minutes, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 10 mL, pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution (1). Separately, dissolve 0.10 g of L-cystine in 0.5 mol/L hydrochloric acid TS to make exactly 20 mL. Pipet 1 mL of this solution, add water to make 100 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water, and acetic acid (100) (3:1:1) to a distance of about 10 cm, and dry the plate for 30 minutes at 809C. Spray the plate evenly with a solution of ninhydrin in a mix-ture of methanol and acetic acid (100) (97:3) (1 in 100), and then heat at 809C for 10 minutes: the spot obtained from the sample solution corresponding to the spot from the standard solution (2) is not more intense than the spot from the stand-ard solution (2). Also, the spots other than the principal spot and the spots mentioned above from the sample solution are not more intense than the spot from the standard solution (1). Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of L-Cysteine, place it in a stoppered flask, and dissolve in 20 mL of water. Dis-solve 4 g of potassium iodide in this solution, immediately place in ice cold water, add 5 mL of dilute hydrochloric acid and exactly 25 mL of 0.05 mol/L iodine VS, leave in a dark place for 20 minutes, and then titrate <2.50> an excess amount of iodine with 0.1 mol/L sodium thiosulfate VS (in-dicator: starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 12.12 mg of C3H7NO2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

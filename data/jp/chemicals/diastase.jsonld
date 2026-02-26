@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/diastase",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Diastase",
+    "ja": "ジアスターゼ"
+  },
+  "monographId": "JP18-diastase",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Diastase is an enzyme drug mainly prepared from malt. It has amylolytic activity. It contains not less than 440 starch saccharifying activity units per g."
+  },
+  "appearance": {
+    "en": "Diastase occurs as a light yellow to light brown powder. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Rancidity—Diastase has no unpleasant or rancid odor, and has no unpleasant or rancid taste. Loss on drying <2.41> Not more than 4.0z (1 g, 1059C, 5 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Substrate solution—Use potato starch TS for amylolytic activity test. Sample solution—Weigh accurately about 0.1 g of Diastase, and dissolve in water to make exactly 100 mL. Procedure—Proceed as directed in 1.1. Measure-ment of starch saccharifying activity of 1. Assay for starch digestive activity under Digestion Test <4.03>."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

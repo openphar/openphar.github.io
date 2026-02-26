@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/josamycin-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Josamycin Tablets",
+    "ja": "ジョサマイシン錠"
+  },
+  "monographId": "JP18-josamycin-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Josamycin Tablets contain not less than 90.0z and not more than 110.0z of the labeled potency of josamycin (C42H69NO15: 827.99). Method of preparation Prepare as directed under Tablets, with Josamycin. Identification To a quantity of powdered Josamycin Tablets, equivalent to 10 mg (potency) of Josamycin, add 100 mL of methanol, shake vigorously, and centrifuge. To 5 mL of the supernatant liquid, add methanol to make 50 mL, and determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 229 nm and 233 nm. Loss on drying <2.41> Not more than 5.0z (0.5 g, in vacu-um, 609C, 3 hours). Uniformity of dosage units <6.02>—Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Take 1 tablet of Josamycin Tablets, add 5 mL of water, and shake vigorously to disintegrate the tablet. Add metha-nol and sonicate to disperse the particles, add methanol to make exactly V mL so that each mL contains about 2 mg (potency) of Josamycin, and centrifuge."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Josamycin Tablets, equivalent to 10 mg (potency) of Josamycin, add 100 mL of methanol, shake vigorously, and centrifuge. To 5 mL of the supernatant liquid, add methanol to make 50 mL, and determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 229 nm and 233 nm. Loss on drying <2.41> Not more than 5.0z (0.5 g, in vacu-um, 609C, 3 hours). Uniformity of dosage units <6.02>—Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Take 1 tablet of Josamycin Tablets, add 5 mL of water, and shake vigorously to disintegrate the tablet. Add metha-nol and sonicate to disperse the particles, add methanol to make exactly V mL so that each mL contains about 2 mg (potency) of Josamycin, and centrifuge. Pipet 3 mL of the supernatant liquid, and add methanol to make exactly 100 mL. Pipet 10 mL of this solution, add methanol to make ex-actly 50 mL, and use this solution as the sample solution. Separately, accurately weigh about 50 mg (potency) of Josamycin RS, dissolve in 5 mL of water and methanol to make exactly 25 mL. Pipet 3 mL of this solution, and add methanol to make exactly 100 mL. Pipet 10 mL of this solu-tion, add methanol to make exactly 50 mL, and use this solu-tion as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 231 nm as directed under Ultraviolet-visible Spectrophotometry X <2.24>. However, — in the formula for calculation of accep- tance value is the result of the assay. Amount [mg (potency)] of josamycin (C42H69NO15) ＝ MS × AT/AS × V/25 MS: Amount [mg (potency)] of Josamycin RS taken Disintegration <6.09> Perform the test using the disk: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, and standard solu-tions—Proceed as directed in the Assay under Josamycin. Sample solutions—Weigh accurately the mass of not less than 20 Josamycin Tablets and powder. Weigh accu-rately a portion of the powder, equivalent to about 0.3 g (po-tency) of Josamycin, add 50 mL of methanol, shake vigor-ously, and add water to make exactly 1000 mL. Take exactly an appropriate amount of this solution, add water to prepare solutions containing 30 mg (potency) and 7.5 mg (potency) per mL, and use these solutions as the high and the low con-centration sample solutions, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

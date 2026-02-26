@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/dried-thyroid",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dried Thyroid",
+    "ja": "乾燥甲状腺"
+  },
+  "monographId": "JP18-dried-thyroid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dried Thyroid is the fresh thyroid gland, previously deprived of connective tissue and fat, minced, dried rapidly at a temperature not above 509C, and pow-dered, or diluted with suitable diluents. It is obtained from domesticated animals that are used for food by man. It contains not less than 0."
+  },
+  "appearance": {
+    "en": "Dried Thyroid occurs as a light yellow to grayish brown powder. It has a slight, characteristic, meat-like odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Mount Dried Thyroid in diluted formalde-hyde solution (1 in 10), stain in hematoxylin TS for 10 to 30 minutes, wash with water, soak in a mixture of 1 mL of hy-drochloric acid and 99 mL of diluted ethanol (7 in 10) for 5 to 10 seconds, and again wash with water for about 1 hour. Stain in a solution of eosin Y (1 in 100) for 1 to 5 minutes, wash with water, dehydrate, and soak successively in diluted ethanol (7 in 10) for 5 to 10 seconds, in diluted ethanol (4 in 5) for 5 to 10 seconds, in diluted ethanol (9 in 10) for 1 to 2 minutes, in ethanol (95) for 1 to 5 minutes then in ethanol (99.5) for 1 to 5 minutes. Interpenetrate in xylene, seal with balsam, and examine under a microscope: epithelial nuclei forming follicles peculiar to the thyroid gland are observed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Inorganic iodides—Mix 1.0 g of Dried Thyroid with 10 mL of a saturated solution of zinc sulfate, shake for 5 minutes, and filter. To 5 mL of the filtrate add 0.5 mL of starch TS, 4 drops of sodium nitrite TS and 4 drops of dilute sulfuric acid with thorough shaking: no blue color is pro-duced. (2) Fat—Extract 1.0 g of Dried Thyroid with diethyl ether for 2 hours using a Soxhlet extractor. Evaporate the diethyl ether extract, and dry the residue at 1059C to con-stant mass: the mass of the residue is not more than 30 mg. Loss on drying <2.41> Not more than 6.0z (1 g, 1059C, constant mass). Total ash <5.01> Not more than 5.0z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer about 1 g of Dried Thyroid, accurately weighed, to a crucible, add 7 g of potassium carbonate, mix carefully, and gently tap the crucible on the table to compact the mixture. Overlay with 10 g of potassium carbonate, and compact again thoroughly by tapping. Place the crucible in a muffle furnace preheated to a temperature between 6009C and 7009C, and ignite the mixture for 25 minutes. Cool, add 20 mL of water, heat gently to boiling, and filter into a flask. To the residue add 20 mL of water, boil, and filter into the same flask. Rinse the crucible and the char on the funnel with boiling water until the filtrate measures 200 mL. Add slowly 7 mL of freshly prepared bromine TS, 40 mL of di-luted phosphoric acid (1 in 2), and boil until starch iodide paper is no longer colored blue by the evolved gas. Wash down inside of the flask with water, and continue boiling for 5 minutes. During the boiling add water from time to time to maintain a volume at not less than 200 mL. Cool, add 5 mL of a solution of phenol (1 in 20), again rinse inside of the flask with water, and allow to stand for 5 minutes. Add 2 mL of diluted phosphoric acid (1 in 2) and 5 mL of potas- ‌sium iodide TS, and titrate <2.50> immediately the liberated iodine with 0.01 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction.‌ Each mL of 0.01 mol/L sodium thiosulfate VS ＝ 0.2115 mg of I"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

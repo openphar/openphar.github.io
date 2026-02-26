@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pullulan",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pullulan",
+    "ja": "プルラン"
+  },
+  "monographId": "JP18-pullulan",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Pullulan occurs as a white powder. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 g of Pullulan in 100 mL of water with stirring by adding in small portions: a viscous so-lution is produced. Mix 10 mL of the viscous solution obtained in (1) with 0.1 mL of pullulanase TS, and allow to stand: the solu-tion loses its viscosity. To 10 mL of a solution of Pullulan (1 in 50) add 2 mL of macrogol 600: a white precipitate is formed immedi-ately. Viscosity <2.53> Weigh exactly 10.0 g of Pullulan, previ-ously dried, dissolve in water to make exactly 100 g, and per- form the test at 30 ± 0.19C as directed in Method 1: the kinematic viscosity is between 100 mm2/s and 180 mm2/s. pH <2.54> Dissolve 1.0 g of Pullulan in 10 mL of freshly boiled and cooled water: the pH is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 4.0 g of Pullulan according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 5 ppm). Nitrogen—Weigh accurately about 3 g of Pullulan, previously dried, and perform the test as directed under Nitrogen Determination <1.08>: the amount of nitrogen (N: 14.01) is not more than 0.05z. Use 12 mL of sulfuric acid for the decomposition, and add 40 mL of a solution of sodi-um hydroxide (2 in 5). Monosaccharide and oligosaccharides—Dissolve 0.8 g of Pullulan, previously dried, in 100 mL of water, and designate this solution as the sample stock solution. To 1 mL of the sample stock solution add 0.1 mL of potassium chlo-ride saturated solution, and shake vigorously with 3 mL of methanol. Centrifuge, and use the supernatant liquid as the sample solution. Separately, pipet 1 mL of the sample stock solution, add water to make exactly 50 mL, and use this so-lution as the standard solution. Pipet 0.2 mL each of the sample solution, the standard solution and water, transfer them gently to each test tube containing 5 mL of a solution of anthrone in diluted sulfuric acid (3 in 4) (1 in 500) cooled in ice water, stir immediately, then heat at 909C for 10 minutes, and cool immediately. Perform the test with these solutions so obtained as directed under Ultraviolet-visible Spectrophtometry <2.24> using water as a blank, and deter-mine the absorbances at 620 nm, AT, AS and AB: the amount of monosaccharide and oligosaccharides is not more than 10.0z. Amount (z) of monosaccharide and oligosaccharides ＝ (AT － AB)/(AS － AB) × 8.2 Loss on drying <2.41> Not more than 6.0z (1 g, in vacu-um, 909C, 6 hours). Residue on ignition <2.44> Not more than 0.3z (2 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

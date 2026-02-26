@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-a-acetate",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin A Acetate",
+    "ja": "レチノール酢酸エステル"
+  },
+  "monographId": "JP18-vitamin-a-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H32O2",
+  "molecularWeight": 328.49,
+  "casNumber": "127-47-9",
+  "appearance": {
+    "en": "Retinol Acetate occurs as pale yellow to yel-low-red, crystals or an ointment-like substance, and has a faint, characteristic odor, but has no rancid odor. It is freely soluble in petroleum ether, soluble in ethanol (95), and practically insoluble in water. It is decomposed by air and by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve Retinol Acetate and Retinol Ace-tate RS, equivalent to 15,000 Units each, in 5 mL of petrole-um ether, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop with a mixture of cyclohexane and diethyl ether (12:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly antimony (III) chloride TS: the principal spot obtained from the sample solution is the same in color tone and Rf value with the blue spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid value <1.13>—Take exactly 5.0 g of Retinol Acetate, and perform the test: not more than 2.0. (2) Peroxide—Weigh accurately about 5 g of Retinol Acetate, transfer in a 250-mL glass-stoppered conical flask, add 50 mL of a mixture of acetic acid (100) and isooctane (3:2), and gently mix to dissolve completely. Replace the air of the inside gradually with about 600 mL of Nitrogen, then add 0.1 mL of saturated potassium iodide TS under a cur-rent of Nitrogen. Immediately stopper tightly, and mix with a swirling motion for 1 minute. Add 30 mL of water, stopper tightly, and shake vigorously for 5 to 10 seconds. Titrate <2.50> this solution with 0.01 mol/L sodium thiosulfate VS until the blue color of the solution disappears after addition of 0.5 mL of starch TS near the end point where the solution is a pale yellow color. Calculate the amount of peroxide by the following formula: not more than 10 mEq/kg. Amount (mEq/kg) of peroxide ＝ V/M × 10 V: Volume (mL) of 0.01 mol/L sodium thiosulfate VS consumed M: Amount (g) of Retinol Acetate taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in Method 1-1 under Vitamin A Assay <2.55>. ‌Containers and storage Containers—Tight containers. Storage—Light-resistant, and almost well-filled, or under‌ Nitrogen atmosphere, and in a cold place. Retinol Palmitate Vitamin A Palmitate"
+      }
+    }
+  ]
+}

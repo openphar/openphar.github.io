@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sodium-citrate-injection-for-transfusion",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sodium Citrate Injection for Transfusion",
+    "ja": "輸血用クエン酸ナトリウム注射液"
+  },
+  "monographId": "JP18-sodium-citrate-injection-for-transfusion",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Citrate Injection for Transfusion is an aqueous injection. It contains not less than 9."
+  },
+  "appearance": {
+    "en": "Sodium Citrate Injection for Transfusion is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Sodium Citrate Injection for Transfusion re-sponds to Qualitative Tests <1.09> for sodium salt and for citrate. pH <2.54> 7.0 – 8.5 Bacterial endotoxins <4.01> Less than 5.6 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. ‌Assay Pipet 5 mL of Sodium Citrate Injection for Transfu-sion, and add water to make exactly 25 mL. Evaporate 10 mL of this solution, exactly measured, on a water bath to dryness, dry the residue at 1809C for 2 hours, and dissolve in 30 mL of acetic acid (100) by warming. Cool, titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction.‌ Each mL of 0.1 mol/L perchloric acid VS ＝ 9.803 mg of C6H5Na3O7.2H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

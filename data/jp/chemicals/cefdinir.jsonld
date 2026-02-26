@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefdinir",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefdinir",
+    "ja": "セフジニル"
+  },
+  "monographId": "JP18-cefdinir",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H13N5O5S2",
+  "molecularWeight": 395.41,
+  "casNumber": "91832-40-5",
+  "definition": {
+    "en": "Cefdinir contains not less than 930 mg (potency) and not more than 1020 mg (potency) per mg."
+  },
+  "appearance": {
+    "en": "Cefdinir occurs as a white to light yellow crys-talline powder. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It dissolves in 0.1 mol/L phosphate buffer solution (pH 7.0)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectra of so-lutions of Cefdinir and Cefdinir RS in 0.1 mol/L phosphate buffer solution (pH 7.0) (1 in 100,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare these spectra: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectra of Cef-dinir and Cefdinir RS as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare these spec-tra: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefdinir in a mixture of deuterated dimethyl sulfoxide for nuclear magnetic resonance spectroscopy and heavy water for nuclear magnetic resonance spectroscopy (4:1) (1 in 10), using tetramethylsilane for nuclear magnetic resonance spec-troscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits multiplet signals, A at around d 5.0 – 6.1 ppm and B at around d 6.4 – 7.5 ppm. The ratio of integrated intensity of each signal, A:B is about 2:1. D Optical rotation <2.49> [a]20: －58 – －669 (0.25 g, 0.1 mol/L phosphate buffer solution (pH 7.0), 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Cefdinir according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Dissolve about 0.1 g of Cefdinir in 10 mL of 0.1 mol/L phosphate buffer solution (pH 7.0). To 3 mL of this solution add tetramethylammonium hydrox-ide TS (pH 5.5) to make 20 mL, and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amounts of their peaks by the area percentage method: the amount of the peaks, having the relative retention time of about 0.7, about 1.2 and about 1.5 to cefdinir, are not more than 0.7z, not more than 0.3z and not more than 0.8z, respectively, the total amount of the peaks, having the rela-tive retention time of about 0.85, about 0.93, about 1.11 and about 1.14, is not more than 0.4z, and the amount of the peak other than cefdinir and the peaks mentioned above is not more than 0.2z. And the total amount of the peaks other than cefdinir is not more than 3.0z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: To 1000 mL of tetramethylammonium hydroxide TS (pH 5.5) add 0.4 mL of 0.1 mol/L disodium dihydrogen ethylenediamine tetraacetate TS. ‌JP XVIII Official Monographs / Cefdinir Capsules 665 Mobile phase B: To 500 mL of tetramethylammonium hy-droxide TS (pH 5.5) add 300 mL of acetonitrile for liquid chromatography and 200 mL of methanol, and add 0.4 mL of 0.1 mol/L disodium dihydrogen ethylenediamine tetraace-tate TS. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table.                                                                                                         Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) Mobile phase: To 1000 mL of tetramethylammonium hydroxide TS (pH 5.5) add 0.4 mL of 0.1 mol/L disodium dihydrogen ethylenediamine tetraacetate TS. To 900 mL of 0 – 2 95 5 2 – 22 95 → 75 5 → 25 22 – 32 75 → 50 25 → 50 32 – 37 50 50 Flow rate: 1.0 mL per minute (the retention time of cefdinir is about 22 minutes). Time span of measurement: For 37 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add tetramethylammonium hydroxide TS (pH 5.5) to make 100 mL, and use this solution as the solution for sys-tem suitability test. Pipet 1 mL of the solution for system suitability test, add tetramethylammonium hydroxide TS (pH 5.5) to make exactly 10 mL. Confirm that the peak area of cefdinir obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: Dissolve 30 mg of Cefdinir RS and 2 mg of cefdinir lactam ring-cleavage lactones in 3 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), add tetramethy-lammonium hydroxide TS (pH 5.5) to make 20 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, peak 1 and peak 2 of cefdinir lactam ring-cleavage lactones separated into 4 peaks, cefdinir, peak 3 and peak 4 of remaining cefdinir lactam ring-cleavage lactones are eluted in this order. Relative reten-tion time of peak 3 of cefdinir lactam ring-cleavage lactone to cefdinir is about 1.11. The number of theoretical plates and the symmetry factor of the peak of cefdinir are not less than 7000 and not more than 3.0, respectively. System repeatability: When the test is repeated 3 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak areas of cefdinir is not more than 2.0z. Water <2.48> Not more than 2.0z (1 g, volumetric titra-tion, direct titration. Use a mixture of formamide for water determination and methanol for water determination (2:1) instead of methanol for water determination)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefdinir and Cef-dinir RS equivalent to about 20 mg (potency), dissolve each in 0.1 mol/L phosphate buffer solution (pH 7.0) to make ex-actly 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 5 mL of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefdinir in each solution. Amount [ mg (potency)] of cefdinir (C14H13N5O5S2) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefdinir RS taken this solution add 60 mL of acetonitrile for liquid chromatog-raphy and 40 mL of methanol. Flow rate: Adjust so that the retention time of cefdinir is about 8 minutes. System suitability— System performance: Dissolve 2 mg of Cefdinir RS and 5 mg of cefdinir lactam ring-cleavage lactones in 10 mL of 0.1 mol/L phosphate buffer solution, pH 7.0. When the proce-dure is run with 5 mL of this solution under the above operat-ing conditions, peak 1 and peak 2 of cefdinir lactam ring-cleavage lactones separated into 4 peaks, cefdinir, peak 3 and peak 4 of remaining cefdinir lactam ring-cleavage lactones are eluted in this order. The resolution between the peak 2 of cefdinir lactam ring-cleavage lactone and that of cefdinir is not less than 1.2. The number of theoretical plates and the symmetry factor of the peak of cefdinir are not less than 2000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak areas of cefdinir is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

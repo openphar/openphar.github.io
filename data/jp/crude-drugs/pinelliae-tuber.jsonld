@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/pinelliae-tuber",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Pinelliae Tuber",
+    "ja": "ハンゲ"
+  },
+  "monographId": "JP18-pinelliae-tuber",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Slightly flattened spherical to irregular-shaped tuber; 0.7 – 2.5 cm in diameter and 0.7 – 1.5 cm in height; externally white to grayish white-yellow; the upper end dent-ed, where the stem has been removed, with root scars dented as numerous small spots on the circumference; dense in tex-ture; cross section white and powdery. Almost odorless; tasteless at first, slightly mucous, but leaving a strong acrid taste. Under a microscope <5.01>, a transverse section reveals mainly tissue of parenchyma filled with starch grains, and scattered with a few mucilage cells containing raphides of calcium oxalate. Starch grains mostly 2- to 3-compound grains, usually 10 – 15 mm in diameter, and simple grains, usually 3 – 7 mm in diameter; raphides of calcium oxalate 25 – 150 mm in length."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Pinellia Tuber according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Pinellia Tuber according to Method 4, and per-form the test (not more than 5 ppm). Rhizome of Arisaema species and others—Under a microscope <5.01>, no mucilage canal is revealed on the out-er layer of cortex. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 3.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

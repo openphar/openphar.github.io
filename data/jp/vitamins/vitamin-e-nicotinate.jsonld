@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-e-nicotinate",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin E Nicotinate",
+    "ja": "トコフェロールニコチン酸エステル"
+  },
+  "monographId": "JP18-vitamin-e-nicotinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C35H53NO3",
+  "molecularWeight": 535.8,
+  "casNumber": "51898-34-1",
+  "appearance": {
+    "en": "Tocopherol Nicotinate occurs as a yellow to orange-yellow, liquid or solid. It is freely soluble in ethanol (99.5), and practically insolu-ble in water. A solution of Tocopherol Nicotinate in ethanol (99.5) (1 in 10) shows no optical rotation. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Tocopherol Nicotinate in ethanol (99.5) (1 in 20,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Tocopherol Nicotinate RS prepared in the same manner as the sample so-lution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared spectrum of Tocopherol under the above operating conditions, tocopherol and tocopherol nicotinate are eluted in this order with the resolu-tion between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of tocopherol nicotinate is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Tocopherol Nicotinate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Stand- MS: Amount (mg) of Tocopherol Nicotinate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 264 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica ‌gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Methanol. Flow rate: Adjust so that the retention time of tocopherol nicotinate is about 10 minutes. System suitability— System performance: Dissolve 0.05 g of Tocopherol Nicotinate and 0.25 g of tocopherol in 100 mL of ethanol (99.5). When the procedure is run with 5 mL of this solution under the above operating conditions, tocopherol and tocopherol nicotinate are eluted in this order with the resolu-tion between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions: the relative standard deviation of the peak areas of tocopherol nicotinate is not more than 0.8z"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Tocopherol Nicotinate and Tocopherol Nicotinate RS, dissolve each in ethanol (99.5) to make exactly 50 mL, and use these solu-tions as the sample solution and the standard solution, respectively. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of tocopherol nicotinate in each solution. Nicotinate, if necessary melt by warming, as directed in the liquid film method under the Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- Amount (mg) of tocopherol nicotinate (C ＝ MS × AT/AS 35H53NO3) trum or the spectrum of Tocopherol Nicotinate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Tocopherol Nicotinate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Stand- MS: Amount (mg) of Tocopherol Nicotinate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 264 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica ‌gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Methanol. Flow rate: Adjust so that the retention time of tocopherol nicotinate is about 10 minutes. System suitability— System performance: Dissolve 0.05 g of Tocopherol Nicotinate and 0.25 g of tocopherol in 100 mL of ethanol (99.5). When the procedure is run with 5 mL of this solution under the above operating conditions, tocopherol and tocopherol nicotinate are eluted in this order with the resolu-tion between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions: the relative standard deviation of the peak areas of tocopherol nicotinate is not more than 0.8z"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

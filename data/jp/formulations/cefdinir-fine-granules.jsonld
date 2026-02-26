@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefdinir-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefdinir Fine Granules",
+    "ja": "セフジニル細粒"
+  },
+  "monographId": "JP18-cefdinir-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Cefdinir Fine Granules, equivalent to 10 mg (potency) of Cefdinir, add 100 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), exposure to ultrasonic waves for 1 minute, and filter. To 2 mL of the fil-trate add 0.1 mol/L phosphate buffer solution (pH 7.0) to make 20 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 221 nm and 225 nm and between 285 nm and 289 nm. Uniformity of dosage units <6.02> The granules in single-dose packages meet the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rate in 30 minutes of Cefdinir Fine Granules is not less than 75z. Start the test with an accurate amount of Cefdinir Fine Granules, equivalent to about 0.1 g (potency) of Cefdinir, withdraw not less than about 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Dis-card not less than 10 mL of the first filtrate, and use the sub-sequent filtrate as the sample solution. Separately, weigh ac-curately about 28 mg (potency) of Cefdinir RS, and dissolve in the dissolution medium to make exactly 50 mL. Pipet 4 mL of this solution, add the dissolution medium to make ex-actly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01>, and determine the peak areas, AT and AS, of cefdinir in each solution. Dissolution rate (z) with respect to the labeled amount of cefdinir (C14H13N5O5S2) ＝ MS/MT × AT/AS × 1/C × 360 MS: Amount [mg (potency)] of Cefdinir RS taken MT: Amount (g) of Cefdinir Fine Granules taken C: Labeled amount [mg (potency)] of cefdinir (C14H13N5O5S2) in 1 g Operating conditions— Amount [mg (potency)] of cefdinir (C ＝ MS × AT/AS × 5 14H13N5O5S2) Proceed as directed in the operating conditions in the Assay under Cefdinir. System suitability— MS: Amount [mg (potency)] of Cefdinir RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder, if necessary, and weigh accurately an amount of Cefdinir Fine Granules, equivalent to about 0.1 g (potency) of Cefdinir, add 70 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), shake for 30 minutes, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL. Centrifuge at 3000 revolutions per minute for 10 minutes, pipet 4 mL of the supernatant liquid, add 0.1 mol/L phosphate buffer solution (pH 7.0) to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Cefdinir RS, equivalent to about 20 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Cefdinir. under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefditoren Pivoxil RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (4) Determine the 1H spectrum of a solution of Cefdito-ren Pivoxil in deuterated chloroform for nuclear magnetic resonance spectroscopy (1 in 50), using tetramethylsilane for nuclear magnetic resonance spectroscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits singlet signals A, B and C, at around d 1.1 ppm, at around d 2.4 ppm and at around d 4.0 ppm, doublet signals D and E, at around d 6.4 ppm and at around d 6.7 ppm, and a singlet signal F at Amount [mg (potency)] of cefdinir (C ＝ MS × AT/AS × 5 14H13N5O5S2) around d 8.6 ppm. The ratio of integrated intensity of each signal A:B:C:D:E:F, is about 9:3:3:1:1:1. MS: Amount [mg (potency)] of Cefdinir RS taken Absorbance <2.24> E 1z 1 cm anol, 2500 mL). (231 nm): 340 – 360 (50 mg, meth-"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

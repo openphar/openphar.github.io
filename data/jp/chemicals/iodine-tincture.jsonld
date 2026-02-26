@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iodine-tincture",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iodine Tincture",
+    "ja": "ヨードチンキ"
+  },
+  "monographId": "JP18-iodine-tincture",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Iodine Tincture contains not less than 5."
+  },
+  "appearance": {
+    "en": "Iodine Tincture is a dark red-brown liquid, and has a characteristic odor. Specific gravity d 20: about 0.97"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a mixture of 1 mL of starch TS and 9 mL of water add 1 drop of Iodine Tincture: a dark blue-purple color develops. (2) Evaporate 3 mL of Iodine Tincture to dryness on a water bath, and heat gently over a free flame: a white residue is formed which responds to Qualitative Tests <1.09> for po-tassium salt and iodide. Alcohol number <1.01> Not less than 6.6 (Method 2). Per-form the pretreatment (ii) in the Method 1."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Iodine—Pipet 5 mL of Iodine Tincture, add 0.5 g of potassium iodide, 20 mL of water and 1 mL of dilute hydrochloric acid, and titrate <2.50> with 0.1 mol/L sodium thiosulfate VS (indicator: 2 mL of starch TS). Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 12.69 mg of I (2) Potassium iodide—Pipet 5 mL of Iodine Tincture into an iodine flask, add 20 mL of water, 50 mL of hydro-chloric acid and 5 mL of chloroform. Cool to room tempera-ture, and titrate <2.50> with 0.05 mol/L potassium iodate VS until the red-purple color disappears from the chloroform layer, with agitating the mixture vigorously and continuous-ly. After the chloroform layer has been decolorized, allow the mixture to stand for 5 minutes. If the color reappears, the mixture should be titrated <2.50> further with 0.05 mol/L potassium iodate VS. Calculate the amount (mg) of potas-sium iodide from the number of mL (a) of 0.05 mol/L potas-sium iodate VS used as above and the number of mL (b) of 0.1 mol/L sodium thiosulfate VS used in the titration under the Assay (1). Amount (mg) of potassium iodide (KI) ＝ 16.60 ×{a － (b/2)}"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

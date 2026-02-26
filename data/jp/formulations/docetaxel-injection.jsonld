@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/docetaxel-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Docetaxel Injection",
+    "ja": "ドセタキセル注射液"
+  },
+  "monographId": "JP18-docetaxel-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Docetaxel Injection is a hydrophilic injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Docetaxel Injection occurs as a clear and pale yellow to orange-yellow, liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Docetaxel Injection, equiva-lent to 20 mg of docetaxel (C43H53NO14), add 50 mL of methanol, and use this solution as the sample solution. Separately, dissolve 4 mg of docetaxel hydrate in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Then develop the plate with a mixture of ethyl acetate, heptane and ethanol (99.5) (12:3:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the Rf value of the spot from the sample solution and the standard solution is the same. ‌880 pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Perform the test with 20 mL of the sample solution obtained in the Assay, as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic in-tegration method, and calculate the amount of them by the area percentage method: the amount of each peak, having the relative retention time of about 0.27, about 1.05, about 1.08, about 1.13, and about 1.18 to docetaxel, is not more than 0.30z, not more than 1.3z, not more than 1.5z, not more than 0.50z, and not more than 0.50z, respectively, the amount of each peak other than docetaxel, the peak hav-ing the relative retention time of about 0.97 and the peaks mentioned above is not more than 0.20z, and the total amount of the peaks other than docetaxel and the peak hav-ing the relative retention time of about 0.97 is not more than 3.5z. For the area of the peak, having the relative retention time of about 0.27 to docetaxel, multiply the correction factor 0.67. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Docetaxel Hydrate. Time span of measurement: For 39 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add a mixture of water, acetonitrile for liquid chroma-tography and acetic acid (100) (1000:1000:1) to make 100 mL, and use this solution as the solution for system suitabil-ity test. Pipet 5 mL of the solution for system suitability test, add a mixture of water, acetonitrile for liquid chroma-tography and acetic acid (100) (1000:1000:1) to make exactly 100 mL. Confirm that the peak area of docetaxel obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of docetaxel are not less than 100,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia- a mixture of water, acetonitrile for liquid chromatography and acetic acid (100) (1000:1000:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of docetaxel in each solution. Amount (mg) of docetaxel (C43H53NO14) ＝ MS × AT/AS × 1/2 MS: Amount (mg) of Docetaxel RS taken, calculated on the anhydrous and residual solvent-free basis Operating conditions— Proceed as directed in the operating conditions in the Assay under Docetaxel Hydrate. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of docetaxel are not less than 100,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of docetaxel is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

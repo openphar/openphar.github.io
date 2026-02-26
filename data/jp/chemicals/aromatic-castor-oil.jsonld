@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aromatic-castor-oil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aromatic Castor Oil",
+    "ja": "加香ヒマシ油"
+  },
+  "monographId": "JP18-aromatic-castor-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Aromatic Castor Oil is a colorless or yellow-ish, clear, viscous liquid. It has an aromatic odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of Aromatic Castor Oil add 1 g of po-tassium hydroxide, and heat the mixture carefully to fuse: a characteristic odor is perceptible. Dissolve the fused matter in 30 mL of water, add an excess of magnesium oxide, and filter. Acidify the filtrate with hydrochloric acid: white crys-tals are produced."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/asiasari-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Asiasari Radix",
+    "ja": "サイシン"
+  },
+  "monographId": "JP18-asiasari-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Asiasarum Root is a nearly cylindrical rhizome with numerous thin and long roots, externally light brown to dark brown. The root, about 15 cm in length, about 0.1 cm in diameter, with shallow longitudinal wrinkles on the sur-face, and brittle. The rhizome, 2 – 4 cm in length, 0.2 – 0.3 cm in diameter, often branched, with longitudinal wrinkles on the surface; internode short; each node has several scars of petiole and peduncle, and several thin and long roots. Odor, characteristic; taste, acrid, which gives slightly numbing sensation to the tongue."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Asiasarum Root add 10 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of asarinin for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sam-ple solution and 5 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sul-furic acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample ‌1950‌ Asparagus Root / Crude Drugs and Related Drugs solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Asiasarum Root according to Method 3, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Asiasarum Root according to Method 4, and perform the test (not more than 5 ppm). Terrestrial part—When perform the test of foreign matter <5.01>, any terrestrial parts are not found. Foreign matter <5.01>—The amount of foreign mat- ter other than terrestrial part contained in Asiasarum Root is not more than 1.0z. Aristolochic acid I—To exactly 2.0 g of pulverized Asiasarum Root add exactly 50 mL of diluted methanol (3 in 4), shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve exactly 1.0 mg of aristolochic acid I for crude drugs purity test in diluted meth-anol (3 in 4) to make exactly 100 mL. Pipet 1 mL of this so-lution, add diluted methanol (3 in 4) to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01>, according to the following conditions: the sample so- lution shows no peak at the retention time corresponding to aristolochic acid I from the standard solution. If the sample solution shows such a peak, repeat the test under different conditions to confirm that the peak in question is not aristolochic acid I. Operating conditions— Detector: An ultraviolet or visible absorption photometer (wavelength: 400 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of a solution prepared by dis-solving 7.8 g of sodium dihydrogen phosphate dihydrate and 2 mL of phosphoric acid in water to make 1000 mL and acetonitrile (11:9). Flow rate: Adjust so that the retention time of aristolochic acid I is about 15 minutes. System suitability— Test for required detectability: Measure exactly 1 mL of the standard solution, and add diluted methanol (3 in 4) to make exactly 10 mL. Confirm that the ratio, S/N, of the signal (S) and noise (N) of aristolochic acid I obtained with 20 mL of this solution is not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of aristolochic acid I is not more than 5.0z. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Essential oil content <5.01> Perform the test with 30.0 g of pulverized Asiasarum Root: the volume of essential oil is not less than 0.6 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

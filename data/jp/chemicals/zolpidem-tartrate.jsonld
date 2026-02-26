@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/zolpidem-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Zolpidem Tartrate",
+    "ja": "ゾルピデム酒石酸塩"
+  },
+  "monographId": "JP18-zolpidem-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "99294-93-6",
+  "definition": {
+    "en": "Zolpidem Tartrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Zolpidem Tartrate occurs as a white crystalline powder. It is freely soluble in acetic acid (100), soluble in N,N-dimethylformamide and in methanol, sparingly soluble in water, and slightly soluble in ethanol (99.5) and in acetic an-hydride. It dissolves in 0.1 mol/L hydrochloric acid TS. It gradually changes to yellow in color on exposure to light. D Optical rotation [a]20: about ＋1.89(1 g, N,N-dimethyl- formamide, 20 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 50 mg of Zolpidem Tartrate in 5 mL of acetic acid (100) and add 3 drops of Dragendorff's TS: an orange precipitate is formed. Determine the absorption spectrum of a solution of Zolpidem Tartrate in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Zol-pidem Tartrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of 1.0 g of Zolpidem Tartrate in 10 mL of methanol by warming, responds to Qualitative Tests <1.09> (3) for tartrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Zolpidem Tartrate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 10 mg of Zolpidem Tartrate in 20 mL of methanol and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 2 mL of this solu-tion, add methanol to make exactly 20 mL, and use this solu-tion as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: each area of ‌the peak other than zolpidem obtained from the sample solu-tion is not larger than the peak area of zolpidem from the standard solution. Operating conditions— Detector: A ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel tube 4.6 mm in inside diameter and 7.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 4.9 g of phosphoric acid add 1000 mL of water, and adjust the pH to 5.5 with triethylamine. To 11 volumes of this solution add 5 volumes of methanol and 4 volumes of acetonitrile. Flow rate: Adjust so that the retention time of zolpidem is about 5 minutes. Time span of measurement: About 5 times as long as the retention time of zolpidem. System suitability— System performance: Dissolve 10 mg each of Zolpidem Tartrate and benzyl parahydroxybenzoate in 100 mL of methanol. When the procedure is run with 5 mL of this solu-tion under the above operating conditions, zolpidem and benzyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of zolpidem is not more than 5.0z. Water <2.48> Not more than 3.0z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Zolpidem Tartrate, dissolve in 100 mL of a mixture of acetic anhydride and ace-tic acid (100) (7:3) and titrate <2.50> with 0.1 mol/L perchlo-ric acid VS (potentiometric titration). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L perchloric acid VS ＝ 38.24 mg of (C19H21N3O)2.C4H6O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage conditions—Light-resistant."
+  }
+}

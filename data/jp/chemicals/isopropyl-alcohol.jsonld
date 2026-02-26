@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/isopropyl-alcohol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Isopropyl Alcohol",
+    "ja": "イソプロパノール"
+  },
+  "monographId": "JP18-isopropyl-alcohol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H8O",
+  "molecularWeight": 60.1,
+  "appearance": {
+    "en": "Isopropanol is a clear, colorless liquid. It has a characteristic odor. It is miscible with water, with methanol, with ethanol (95), and with diethyl ether. It is flammable and volatile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Isopropanol add 2 mL of iodine TS and 2 mL of sodium hydroxide TS, and shake: a light yellow precipitate is formed. (2) To 5 mL of Isopropanol add 20 mL of potassium dichromate TS and 5 mL of sulfuric acid with caution, and warm gently on a water bath: the produced gas has the odor of acetone, and the gas turns the filter paper, previously wet-ted with a solution of salicylaldehyde in ethanol (95) (1 in 10) and with a solution of sodium hydroxide (3 in 10), to red-brown. Specific gravity <2.56> d 20: 0.785 – 0.788"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—To 2.0 mL of Isopropanol add 8 mL of water, and shake: the solution is clear. Acidity—To 15.0 mL of Isopropanol add 50 mL of freshly boiled and cooled water and 2 drops of phenol-phthalein TS, and add 0.40 mL of 0.01 mol/L sodium hy-droxide VS: a red color develops. Residue on evaporation—Evaporate 20.0 mL of Isopropanol on a water bath to dryness, and dry at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg. Water <2.48> Not more than 0.75 w/vz (2 mL, volumetric titration, direct titration). Distilling range <2.57> 81 – 839C, not less than 94 volz."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Remote from fire."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/omeprazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Omeprazole",
+    "ja": "オメプラゾール"
+  },
+  "monographId": "JP18-omeprazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H19N3O3S",
+  "molecularWeight": 345.42,
+  "casNumber": "73590-58-6",
+  "definition": {
+    "en": "Omeprazole, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Omeprazole occurs as a white to yellowish white crystalline powder. It is freely soluble in N,N-dimethylformamide, sparingly soluble in ethanol (99.5), and practically insoluble in water. A solution of Omeprazole in N,N-dimethylformamide (1 in 25) shows no optical rotation. It gradually turns yellowish white on exposure to light. ‌Melting point: about 1509C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add phosphate buffer solution (pH 7.4) to 1 mL of a solution of Omeprazole in ethanol (99.5) (1 in 1000) to make 50 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Omeprazole as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Omeprazole in 25 mL of N,N-dimethylformamide: the solution is clear and colorless or light yellow. Perform the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance at 420 nm is not more than 0.3. Heavy metals <1.07>—Proceed with 2.0 g of Omepra-zole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Conduct the procedure soon after preparation of the sample solution. Dissolve 50 mg of Omeprazole in 50 mL of the mobile phase, and use this solu-tion as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatogra-phy <2.01> according to the following conditions. Determine each of the peak areas of the sample solution by the auto-matic integration method, and calculate the amounts of them by the area percentage method: the amount of the peaks other than omeprazole is not more than 0.1z, and the total amount of the peaks other than omeprazole is not more than 0.5z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.83 g of disodium hydrogen phos-phate dodecahydrate and 0.21 g of sodium dihydrogen phos-phate dihydrate in water to make 1000 mL. If necessary, adjust the pH to 7.6 with diluted phosphoric acid (1 in 100). Add 11 volumes of acetonitrile to 29 volumes of this solu-tion. Flow rate: Adjust so that the retention time of omeprazole is about 8 minutes. Time span of measurement: About 10 times as long as the retention time of omeprazole, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the sample solution, and add the mobile phase to make exactly 100 mL. Pipet 5 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the solution for sys-tem suitability test. Pipet 5 mL of the solution for system suitability test, and add the mobile phase to make exactly 25 mL. Confirm that the peak area of omeprazole obtained with 10 mL of this solution is equivalent to 15 to 25z of that with 10 mL of the solution for system suitability test. System performance: Dissolve 10 mg of Omeprazole and 25 mg of 1,2-dinitrobenzene in 5 mL of sodium borate solu-tion (19 in 5000) and 95 mL of ethanol (99.5). When the procedure is run with 10 mL of this solution under the above conditions, omeprazole and 1,2-dinitrobenzene are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of omeprazole is not more than 2.0z. Loss on drying <2.41> Not more than 0.2z (1 g, in vacu-um, phosphorus (V) oxide, 509C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Omeprazole, previ-ously dried, dissolve in 70 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L tetramethylammonium hy-droxide VS (potentiometric titration). Separately, perform a blank determination in the same manner on a solution con-sisting of 70 mL of N,N-dimethylformamide and 12 mL of water, and make any necessary correction. Each mL of 0.1 mol/L tetramethylammonium hydroxide VS ＝ 34.54 mg of C17H19N3O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, in a cold place."
+  }
+}

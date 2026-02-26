@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tetracaine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tetracaine Hydrochloride",
+    "ja": "テトラカイン塩酸塩"
+  },
+  "monographId": "JP18-tetracaine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H24N2O2.HCl",
+  "molecularWeight": 300.82,
+  "casNumber": "136-47-0",
+  "definition": {
+    "en": "Tetracaine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tetracaine Hydrochloride occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste followed by a sense of numbness on the tongue. It is very soluble in formic acid, freely soluble in water, soluble in ethanol (95), sparingly soluble in ethanol (99.5), slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. A solution of Tetracaine Hydrochloride (1 in 10) is neu-tral. Melting point: about 1489C."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Tetracaine Hydrochloride according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Tetracaine Hydro-chloride, previously dried, dissolve in 2 mL of formic acid, add 80 mL of acetic anhydride, allow to stand at 309C on a water bath for 15 minutes, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 30.08 mg of C15H24N2O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/paracetamol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Paracetamol",
+    "ja": "アセトアミノフェン"
+  },
+  "monographId": "JP18-paracetamol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H9NO2",
+  "molecularWeight": 151.16,
+  "appearance": {
+    "en": "Acetaminophen occurs as white, crystals or crystalline powder. It is freely soluble in methanol and in ethanol (95), spar-ingly soluble in water, and very slightly, soluble in diethyl ether. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectra of Acetaminophen, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of dried Acetaminophen RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 4.0 g of Acetamino-phen in 100 mL of water by heating, cool with shaking in ice water, allow to stand until ordinary temperature is attained, add water to make 100 mL, and filter. To 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solu-tion. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Sulfate <1.14>—To 25 mL of the filtrate obtained in add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.019z). Heavy metals <1.07>—Proceed with 2.0 g of Acet-aminophen according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Acetaminophen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Acetamino-phen in 1 mL of methanol, add the mobile phase to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area of both solutions by the automatic integration method: the total area of all peaks other than acetaminophen obtained from the sample solution is not larger than the peak area of acetaminophen from the stand-ard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column about 4 mm in inside diameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogenphosphate (pH 4.7) and methanol (4:1). Flow rate: Adjust so that the retention time of acetamino-phen is about 5 minutes. Selection of column: Dissolve 0.01 g each of Acetamino-phen and 4-aminophenol hydrochloride in 1 mL of metha-nol, add the mobile phase to make 50 mL, to 1 mL of this solution add the mobile phase to make 10 mL. Proceed with 10 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of 4-aminophenol and acetaminophen in this order with the resolution between these peaks being not less than 7. Detection sensitivity: Adjust the detection sensitivity so that the peak height of acetaminophen obtained from 10 mL ‌JP XVIII Official Monographs / Acetic Acid 403 of the standard solution is about 15z of the full scale. ‌Time span of measurement: About 6 times as long as the retention time of acetaminophen, beginning after the solvent peak. Loss on drying <2.41> Not more than 0.3z (0.5 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Acetamino-phen and Acetaminophen RS, previously dried, dissolve in 2 mL of methanol, and add water to make exactly 100 mL. Pipet 3 mL each of these solutions, add water to make ex-actly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Determine the absor-bances, AT and AS, of the sample solution and standard solution at the wavelength of maximum absorption at about 244 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using water as the blank. Amount (mg) of acetaminophen (C8H9NO2) ＝ MS × AT/AS MS: Amount (mg) of Acetaminophen RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

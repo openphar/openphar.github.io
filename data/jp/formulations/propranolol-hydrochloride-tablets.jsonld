@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/propranolol-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Propranolol Hydrochloride Tablets",
+    "ja": "プロプラノロール塩酸塩錠"
+  },
+  "monographId": "JP18-propranolol-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 288 nm and 292 nm, and between 317 nm and 321 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Propranolol Hydrochloride Tablets add 20 mL of water, and shake until the tablet is completely disinte-grated. Add 50 mL of methanol, shake vigorously for 10 minutes, then add methanol to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 20 mg of propranolol hydro-chloride (C16H21NO2.HCl), and use this solution as the sam-ple solution. Separately, weigh accurately about 50 mg of propranolol hydrochloride for assay, previously dried at 1059C for 4 hours, and dissolve in methanol to make exactly 50 mL. Pipet 2 mL of this solution, add methanol to make exactly 100 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, of the sample solution and standard solution at 290 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of propranolol hydrochloride (C16H21NO2.HCl) ＝ MS × AT/AS × V?/V × 1/25 MS: Amount (mg) of propranolol hydrochloride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Propranolol Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Propranolol Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 10 mg of propranolol hydro-chloride (C16H21NO2.HCl), and use this solution as the sam-ple solution. Separately, weigh accurately about 50 mg of propranolol hydrochloride for assay, previously dried at 1059C for 4 hours, and dissolve in water to make exactly 50 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 290 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. ‌Dissolution rate (z) with respect to the labeled amount of propranolol hydrochloride (C16H21NO2.HCl) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of propranolol hydrochloride for assay taken C: Labeled amount (mg) of propranolol hydrochloride (C16H21NO2.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Propranolol Hydrochloride Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 20 mg of propranolol hydrochloride (C16H21NO2.HCl), add 60 mL of methanol, shake for 10 minutes, and add methanol to make exactly 100 mL. Filter, discard the first 20 mL of the filtrate, pipet 10 mL of the subsequent filtrate, add methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of propranolol hydrochloride for assay, previously dried at 1059C for 4 hours, and dissolve in methanol to make exactly 50 mL. Pipet 2 mL of this solution, add methanol to make exactly 100 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, of the sample solution and standard solution at 290 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of propranolol hydrochloride (C16H21NO2.HCl) ＝ MS × AT/AS × 2/5 MS: Amount (mg) of propranolol hydrochloride for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

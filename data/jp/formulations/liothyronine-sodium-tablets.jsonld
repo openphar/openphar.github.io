@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/liothyronine-sodium-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Liothyronine Sodium Tablets",
+    "ja": "リオチロニンナトリウム錠"
+  },
+  "monographId": "JP18-liothyronine-sodium-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a glass-stoppered centrifuge tube add a portion of finely powdered Liothyronine Sodium Tablets, equivalent to 0.1 mg of Liothyronine Sodium, add 30 mL of dilute sodium hydroxide TS, shake vigorously, and centrifuge. Transfer the supernatant liquid to a separator, add 10 mL of dilute hydrochloric acid, and extract with two 20-mL portions of ethyl acetate. Filter each extract succes-sively through absorbent cotton previously overlaid with 8 g of anhydrous sodium sulfate. Evaporate the filtrate on a water bath to dryness with the aid of a current of nitrogen. Dissolve the residue in 0.5 mL of methanol, and use this so-lution as the sample solution. Separately, dissolve 10 mg of liothyronine sodium for thin-layer chromatography in 50 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of t-butyl alcohol, t-amyl alcohol, water, ammonia solution (28) and 2-butanone (59:32:17:15:7) to a distance of about 12 cm, and air-dry the plate. Spray evenly a solution of 0.3 g of ninhydrin in 100 mL of a mixture of 1-butanol and acetic acid (100) (97:3) on the plate, and dry the plate at 1009C for 3 minutes: the spots obtained from the sample solution and the standard solution show a red-purple color, and has the same Rf value. (2) The colored solution obtained in the Assay is blue in color. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Place 1 tablet of Liothyronine Sodium Tablets in a glass-stoppered centrifuge tube, add exactly 10 mL of 0.01 mol/L sodium hydroxide TS, warm at 509C for 15 minutes, and shake vigorously for 20 minutes. Centrifuge for 5 minutes, and filter the supernatant liquid, if necessary. Pipet a definite volume of this solution, and add a volume of 0.01 mol/L sodium hydroxide TS to prepare a definite volume of a solution containing about 0.5 mg of liothyronine sodium (C15H11I3NNaO4) per mL. Pipet 5 mL of this solution, add exactly 1 mL of the internal standard solution, and use this solution as the sample solution. Perform the test with 200 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratio of the peak area of the liothyronine to that of the internal standard. Calculate the mean value of the ratios of each peak area of 10 samples: the deviation (z) of each ratio of the peak area from the mean value should be not more than 15z. When the deviation (z) is more than 15z, and 1 sample shows not more than 25z, perform another test with 20 samples. Calculate the deviation (z) of each ratio of the peak area from the mean value of the 30 samples used in the two tests: there should be not more than 1 sample with the deviation more than 15z but not more than 25z, and no sample should deviate by more than 25z. Internal standard solution—A solution of propylpara-hydroxybenzoate in a mixture of methanol and diluted phos-phoric acid (1 in 10) (9:1) (1 in 250,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsylanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: Diluted methanol (57 in 100). Flow rate: Adjust so that the retention time of liothyro-nine is about 9 minutes. ‌JP XVIII Official Monographs / Lisinopril Hydrate 1269 System suitability— System performance: To 5 mL of a solution of liothyro-nine sodium in 0.01 mol/L sodium hydroxide TS (1 in 2,000,000) add 1 mL of the internal standard solution, and use this solution as the solution for system suitability test. When the procedure is run with 200 mL of this solution under the above operating conditions, the internal standard and liothyronine are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 200 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the ratios of the peak area of liothyronine to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Liothyronine So-dium Tablets, and finely powder. Place an accurately weighed portion of the powder, equivalent to about 50 mg of liothyronine sodium (C15H11I3NNaO4), in an agate mortar, Lisinopril Hydrate"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

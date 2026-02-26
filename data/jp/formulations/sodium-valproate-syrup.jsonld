@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sodium-valproate-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sodium Valproate Syrup",
+    "ja": "バルプロ酸ナトリウムシロップ"
+  },
+  "monographId": "JP18-sodium-valproate-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Valproate Syrup contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Sodium Valproate Syrup, equivalent to 50 mg of Sodium Valproate, add water to make 10 mL. To 5 mL of this solution add 1 mL of a solu-tion of cobalt (II) nitrate hexahydrate (1 in 20) and warm on a water bath: a purple precipitate is formed. Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 102 CFU/mL and 101 CFU/mL, respectively. Escherichia coli is not observed."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Sodium Valproate Syrup, equiva-lent to about 0.1 g of sodium valproate (C8H15NaO2) and add water to make exactly 100 mL. Pipet 20 mL of this solu-tion, add exactly 5 mL of internal standard solution, and use this solution as the sample solution. Separately, weigh accu-rately about 50 mg of sodium valproate for assay, previously dried at 1059C for 3 hours, dissolve in water to make exactly 50 mL. Pipet 20 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the stand-ard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of valproic acid to that of the internal standard. Amount (mg) of sodium valproate (C8H15NaO2) ＝ MS × QT/QS × 2 MS: Amount (mg) of sodium valproate for assay taken Internal standard solution—A solution of ethyl parahy- droxybenzoate in the mobile phase (1 in 50,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L sodium dihydro-genphosphate TS (pH 3.0) and acetonitrile (1:1). Flow rate: Adjust so that the retention time of valproic acid is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and valproic acid are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of valproic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mexiletine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mexiletine Hydrochloride",
+    "ja": "メキシレチン塩酸塩"
+  },
+  "monographId": "JP18-mexiletine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H17NO.HCl",
+  "molecularWeight": 215.72,
+  "casNumber": "5370-01-4",
+  "definition": {
+    "en": "Mexiletine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Mexiletine Hydrochloride occurs as a white powder. It is freely soluble in water and in ethanol (95), and slightly soluble in acetonitrile. It dissolves in 0.01 mol/L hydrochloric acid TS. A solution of Mexiletine Hydrochloride (1 in 20) shows no optical rotation. Mexiletine Hydrochloride shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Mexiletine Hydrochloride in 0.01 mol/L hydro-chloric acid TS (1 in 2000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Mexiletine Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mexi-letine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of dried Mexiletine Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, recrystallize Mexiletine Hydro-chloride from ethanol (95), filter, dry the crystals, and per-form the test with the crystals. A solution of Mexiletine Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> Dissolve 1.0 g of Mexiletine Hydrochloride in 10 mL of water: the pH of this solution is between 3.8 and 5.8."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Mexiletine Hydrochloride in 10 mL of water: the solution is clear and colorless. Heavy Metals <1.07>—Proceed with 2.0 g of Mexile- tine Hydrochloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 20 mg of Mexiletine Hydrochloride in 20 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 250 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: each peak area other than mexiletine obtained from the sam-ple solution is not larger than the peak area of mexiletine from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, flow rate, and selection of column: Proceed as directed in the operating conditions in the Assay. Detection sensitivity: Adjust so that the peak height of mexiletine obtained from 20 mL of the standard solution is between 5 mm and 10 mm. Time span of measurement: About 3 times as long as the retention time of mexiletine, beginning after the solvent peak. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Mexiletine Hydrochloride and Mexiletine Hydrochloride RS, each pre-viously dried, and dissolve each in the mobile phase to make ‌exactly 20 mL. Pipet 5 mL each of these solutions, add ex-actly 5 mL of the internal standard solution, then add the mobile phase to make 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of mexiletine to that of the internal standard, respectively. Identification (1) Determine the absorption spectrum of a solution of Miconazole in methanol (1 in 2500) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Miconazole, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry Amount (mg) of mexiletine hydrochloride (C ＝ MS × QT/QS 11H 17NO.HCl) <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. MS: Amount (mg) of Mexiletine Hydrochloride RS taken Internal standard solution—A solution of phenetylamine hy-drochloride in the mobile phase (3 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (about 7 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 2.5 g of sodium lauryl sulfate and 3 g of sodium dihydrogen phosphate dihydrate in 600 mL of water, and add 420 mL of acetonitrile. Flow rate: Adjust so that the retention time of mexiletine is about 6 minutes. Selection of column: Proceed with 20 mL of the standard solution under the above conditions, and calculate the reso-lution. Use a column giving elution of the internal standard and mexiletine in this order with the resolution between these peaks being not less than 9."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

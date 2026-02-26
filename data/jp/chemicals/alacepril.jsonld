@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/alacepril",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Alacepril",
+    "ja": "アラセプリル"
+  },
+  "monographId": "JP18-alacepril",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H26N2O5S",
+  "molecularWeight": 406.5,
+  "casNumber": "74258-86-9",
+  "definition": {
+    "en": "Alacepril, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Alacepril occurs as white, crystals or crystal-line powder. It is freely soluble in methanol, soluble in ethanol (95), and slightly soluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 20 mg of Alacepril add 0.1 g of so-dium hydroxide, and heat gradually to melt: the gas evolved changes the color of a moisten red litmus paper to blue. After cooling, to the melted substance add 2 mL of water, shake, and add 1 mL of lead (II) acetate TS: a brown to black precipitate is formed. (2) Determine the infrared absorption spectrum of Alacepril, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －81 – －859(after drying, 0.25 g, ethanol (95), 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Alacepril in 30 mL of methanol, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test with this solution as the test solution. Prepare the control solution as follows: to 0.30 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of meth-anol, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.021z). Sulfate <1.14>—Dissolve 0.5 g of Alacepril in 30 mL of methanol, add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.50 mL of 0.005 mol/L sulfuric acid VS add 30 mL of methanol, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Alacepril according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 50 mg of Alacepril in 5 mL of ethanol (95), and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add ethanol (95) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak other than alacepril from the sample solution is not larger than 2/5 times the peak area of alacepril from the standard solution, and the total area of the peaks other than alacepril from the sample solution is not larger than the peak area of alacepril from the standard solution. For the areas of the peaks, having the relative retention times of about 2.3 and about 2.6 to alacepril, multiply their correction factors, 1.5 and 1.9, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of diluted acetic acid (100) (1 in 100), acetonitrile, methanol and tetrahydrofuran (6:2:1:1). Flow rate: Adjust so that the retention time of alacepril is about 5 minutes. Time span of measurement: About 3 times as long as the retention time of alacepril, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 4 mL of the standard solution add ethanol (95) to make exactly 10 mL. Confirm that the peak area of alacepril obtained with 10 mL of this solution is equivalent to 30 to 50z of that obtained with 10 mL of the standard solution. System performance: Dissolve 20 mg of Alacepril in 50 mL of a solution of propyl parahydroxybenzoate in ethanol (95) (1 in 80,000). When the procedure is run with 10 mL of this solution under the above operating conditions, alacepril ‌422 and propyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of alacepril is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Alacepril, previ-ously dried, dissolve in 75 mL of a mixture of methanol and water (2:1), and titrate <2.50> with 0.1 mol/L sodium hy-droxide VS (potentiometric titration). Perform a blank de-termination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 40.65 mg of C20H26N2O5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

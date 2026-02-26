@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/compound-methyl-salicylate-spirit",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Compound Methyl Salicylate Spirit‌",
+    "ja": "複方サリチル酸メチル精"
+  },
+  "monographId": "JP18-compound-methyl-salicylate-spirit",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Compound Methyl Salicylate Spirit is a red-dish yellow liquid, having a characteristic odor and a burn-ing taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake 1 mL of Compound Methyl Salicylate Spirit with 5 mL of dilute ethanol, and add 1 drop of iron (III) chloride TS: a purple color is produced (methyl salicylate). (2) Shake thoroughly 1 mL of Compound Methyl Salicy-late Spirit with 10 mL of chloroform, and use this solution as the sample solution. Dissolve 40 mg of methyl salicylate in 10 mL of chloroform, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on the plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of hexane and chlo-roform (4:1) to a distance of about 10 cm, air-dry the plate, and examine under ultraviolet light (main wavelength: 254 nm): the spots obtained from the sample solution and the standard solution show the same Rf value. Spray evenly iron (III) chloride TS upon the plate: the spot from the standard solution and the corresponding spot from the sample solu-tion reveal a purple color."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

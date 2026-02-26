@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/oxytocin-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Oxytocin Injection",
+    "ja": "オキシトシン注射液"
+  },
+  "monographId": "JP18-oxytocin-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Oxytocin Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Oxytocin Injection is a colorless, clear liquid. pH <2.54> 2.5 – 4.5 Bacterial endotoxins <4.01> Less than 10 EU/oxytocin Unit. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to the Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a portion of Oxytocin Injection ac-cording to the labeled Units, dilute with the diluent so that each mL contains about 1 Unit, and use this solution as the sample solution. Separately, dissolve 1 bottle of Oxytocin RS in the mobile phase A to make exactly 20 mL. Pipet a suita-ble volume of this solution, dilute with the diluent to make a known concentration solution so that each mL contains about 1 Unit, and use this solution as the standard solution. Perform the test with exactly 100 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of oxytocin in each so-lution. Units per mL of Oxytocin Injection ＝ MS × AT/AS × b/a MS: Units per mL of the standard solution a: Volume (mL) of Oxytocin Injection taken b: Total volume of the sample solution prepared by dilut-ing with the diluent Diluent: Dissolve 5 g of chlorobutanol, 1.1 g of sodium acetate trihydrate, 5 g of acetic acid (100) and 6 mL of ethanol (99.5) in water to make 1000 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. ‌Mobile phase A: Dissolve 15.6 g of sodium dihydrogen phosphate dihydrate in 1000 mL of water. Mobile phase B: A mixture of water and acetonitrile (1:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 30 70 → 40 30 → 60 30 – 30.1 40 → 70 60 → 30 30.1 – 45 70 30 Flow rate: 1.0 mL per minute. System suitability— System performance: Dissolve an adequate amount of oxytocin and vasopressin in the mobile phase A, so that each mL contains about 0.02 mg each of them. When the proce-dure is run with 100 mL of this solution under the above op-erating conditions, vasopressin and oxytocin are eluted in this order with the resolution between these peaks being not less than 14, and the symmetry factor of the peak of oxyto-cin is not more than 1.5. System repeatability: When the test is repeated 6 times with 100 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of oxytocin is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—In a cold place, and avoid freezing."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/methotrexate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Methotrexate Tablets",
+    "ja": "メトトレキサート錠"
+  },
+  "monographId": "JP18-methotrexate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Methotrexate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of methotrexate (C20H22N8O5: 454.44). (This monograph is applied to only 2.5-mg tablets.) Method of preparation Prepare as directed under Tablets, with Methotrexate. Identification To a quantity of powdered Methotrexate Tablets, equivalent to 2.5 mg of Methotrexate, add 100 mL of diluted hydrochloric acid (1 in 100), shake, and filter or centrifuge. Determine the absorption spectrum of this solu- filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 2."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Methotrexate Tablets, equivalent to 2.5 mg of Methotrexate, add 100 mL of diluted hydrochloric acid (1 in 100), shake, and filter or centrifuge. Determine the absorption spectrum of this solu- filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 2.8 mg of methotrexate (C20H22N8O5), and use this solution as the sample solution. Separately, weigh accu-rately about 25 mg of Methotrexate RS (separately determine the water <2.48> in the same manner as Methotrexate), and dissolve in the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01>, and determine the peak areas, AT and AS, of methotrexate in each solution. Dissolution rate (z) with respect to the labeled amount of methotrexate (C20H22N8O5) ＝ MS × AT/AS × V?/V × 1/C × 9 MS: Amount (mg) of Methotrexate RS taken, calculated on the anhydrous basis C: Labeled amount (mg) of methotrexate (C20H22N8O5) in 1 tablet Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 302 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 250 mL of 0.2 mol/L of potassium dihy-drogen phosphate TS add 29 mL of 0.2 mol/L sodium hy-droxide TS and water to make 1000 mL. To 890 mL of this solution add 110 mL of acetonitrile. Flow rate: Adjust so that the retention time of methotrexate is about 4 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of methotrexate are not less than 3000 and ‌not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of methotrexate is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Methotrexate Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 10 mg of methotrexate (C20H22N8O5), add 50 mL of the mobile phase, shake, and add the mobile phase to make exactly 100 mL. Centrifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of Methotrexate RS (separately determine the water <2.48> in the same manner as Methotrexate), dissolve in the mobile phase to make exactly 250 mL, and use this solution Methoxsalen"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

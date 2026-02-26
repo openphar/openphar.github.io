@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/bupleuri-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Bupleuri Radix",
+    "ja": "サイコ"
+  },
+  "monographId": "JP18-bupleuri-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Long cone or column shape, single or bran-ched root, 10 – 20 cm in length, 0.5 – 1.5 cm in diameter; oc-casionally with remains of stem on the crown; externally light brown to brown and sometimes with deep wrinkles; easily broken, and fractured surface somewhat fibrous. Un-der a magnifying glass, a transverse section reveals the thick-ness of cortex reaching 1/3 – 1/2 of the radius and tangen-tially extended clefts in cortex. Odor, characteristic, and taste, slightly bitter. Under a microscope <5.01>, a transverse section reveals the cortex scattered with a good many oil canals 15 – 35 mm in diameter; in xylem, vessels lined radially or in a staircase pat-tern, and fiber bundles scattered; in the pith at the crown, the same oil canals as in the cortex; parenchyma cells con-taining starch grains and oil droplets. Starch grains com-posed of simple grains, 2 – 10 mm in diameter, or compound grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of pulverized Bupleurum Root with 10 mL of water: lasting fine foams are produced. (2) To 1.0 g of the pulverized Bupleurum Root, add 10 mL of methanol, and boil gently under a reflux condenser for 15 minutes. After cooling, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of saikosapo-nin a for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the spot from the standard solution, accompa-nied by the adjacent yellow-red spot above."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Bupleurum Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Bupleurum Root according to Method 4, and perform the test (not more than 5 ppm). Stem and leaf—When perform the test of foreign matter <5.01>, the amount of the stems and leaves contained in Bupleurum Root does not exceed 10.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than stems and leaves contained in Bupleurum Root does not exceed 1.0z. Loss on drying <5.01> Not more than 12.5z (6 hours). Total ash <5.01> Not more than 6.5z. ‌JP XVIII Crude Drugs and Related Drugs / Byakkokaninjinto Extract 1969‌ Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 11.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of pulverized Bupleurum Root, transfer in a glass-stoppered centrifuge tube, add 20 mL of diluted methanol (9 in 10), shake for 15 minutes, cen-trifuge, and separate the supernatant liquid. Perform the same procedure with the residue using two 15-mL potions of diluted methanol (9 in 10), combine all the extracts, and add diluted methanol (9 in 10) to make exactly 50 mL. Pipet 5 mL of this solution, add 2.5 mL of dilute sodium hydroxide TS, heat in a water bath at 509C for 1 hour, and add 7.5 mL of phosphate buffer solution for assay of bupleurum root. Allow this solution to flow through a chromatographic column [about 10 mm inside diameter containing 0.36 g of octadecylsilanized silica gel for pretreatment (55 to 105 mm in particle diameter), conditioned with 10 mL of methanol then 10 mL of water just before use]. Wash the column with 10 mL of diluted methanol (7 in 20), then flow with metha-nol to get exactly 10 mL of effluent solution, and use this as the sample solution. Use saikosamponins a and d standard TS for assay as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, ATA and ASA, of saikosaponin a and ATD and ASD, of saikosaponin d in each solusion. Calculate the amount of saikosaponin a and saikosaponin d by the following equa-tion, and designate the total as the amount of total saponin. Amount (mg) of saikosaponin a ＝ MSA × ATA/ASA × 1/2 MSA: Amount (mg) of saikosaponin a for assay taken Amount (mg) of saikosaponin d ＝ MSD × ATD/ASD × 1/2 MSD: Amount (mg) of saikosaponin d for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 206 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water and acetonitrile (3:2). Flow rate: Adjust so that the retention time of saikosapo- nin a is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, saikosaponin a and saikosaponin d are eluted in this order, and the numbers of theoretical plates and the symme-try factors of their peaks are not less than 4000 and not more than 1.4, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak area of saikosaponin a and saikosaponin d are not more than 1.5z, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

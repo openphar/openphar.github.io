@@ -1,0 +1,50 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tiaramide-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tiaramide Hydrochloride",
+    "ja": "チアラミド塩酸塩"
+  },
+  "monographId": "JP18-tiaramide-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H18ClN3O3S.HCl",
+  "molecularWeight": 392.3,
+  "appearance": {
+    "en": "Tiaramide Hydrochloride occurs as a white crystalline powder. It is odorless. It is freely soluble in water, slightly soluble in ethanol (95) and in acetic acid (100), and practically insoluble in acetic anhydride and in diethyl ether. The pH of a solution of 1.0 g of Tiaramide Hydrochloride in 20 mL of water is between 3.0 and 4.5. Melting point: about 2659C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Tiaramide Hydrochlo-ride in 5 mL of 0.1 mol/L hydrochloric acid TS, and add 3 drops of Dragendorff's TS: an orange precipitate is formed. Determine the infrared absorption spectrum of Tiaramide Hydrochloride, previously dried, as directed in the potassium chloride disk method under the Infrared Spec-trophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Tiaramide Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Tiaramide Hydrochloride in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Tiaramide Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Tiaramide Hydrochloride according to Method 1, and perform the test. In the procedure, add 20 mL of diluted hy-drochloric acid (1 in 2) (not more than 2 ppm). Related substances—Dissolve 0.20 g of Tiaramide Hydrochloride in 10 mL of diluted ethanol (7 in 10), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, and add diluted ethanol (7 in 10) to make ex-actly 100 mL. Pipet 2 mL of this solution, add diluted ethanol (7 in 10) to make exactly 10 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. After air-drying, immediately devel-op the plate with a mixture of 1-butanol, water and acetic acid (100) (4:2:1) to a distance of about 10 cm, air-dry the plate, and then dry at 1009C for 30 minutes. After cooling, examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution. Allow the plate to stand in iodine vapor for 30 minutes: the spots other than the principal spot and the spot of the start-ing point from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Tiaramide Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3) by warming, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from red through purple to blue-purple (indicator: 3 drops of neutral red TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 39.23 mg of C15H18ClN3O3S.HCl ‌Containers and storage Containers—Well-closed contain-ers. Tiaramide Hydrochloride Tablets"
+      }
+    }
+  ]
+}

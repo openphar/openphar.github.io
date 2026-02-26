@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gambir",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gambir",
+    "ja": "アセンヤク"
+  },
+  "monographId": "JP18-gambir",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Brown to dark brown, brittle mass; inside light brown. Odor, slight; taste, extremely astringent and bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.2 g of pulverized Gambir add 10 mL of water, warm in a water bath for 5 minutes with occa-sional shaking, and filter. Cool the filtrate, and add 2 to 3 drops of gelatin TS: a white turbidity or precipitate is pro-duced. (2) Shake 0.1 g of pulverized Gambir with 20 mL of dilute ethanol for 2 minutes, and filter. Mix 1 mL of the fil-trate with 9 mL of dilute ethanol, and to the solution add 1 mL of vanillin-hydrochloric acid TS: a light red to red-brown color develops. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 70.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

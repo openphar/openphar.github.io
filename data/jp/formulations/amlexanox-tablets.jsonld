@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amlexanox-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amlexanox Tablets",
+    "ja": "アンレキサノクス錠"
+  },
+  "monographId": "JP18-amlexanox-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amlexanox Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of amlexanox (C16H14N2O4: 298.29). Method of preparation Prepare as directed under Tablets, with Amlexanox. Identification (1) Take an amount of powdered Amlexa-nox Tablets, equivalent to 10 mg of Amlexanox, add 100 mL of ethanol (99.5), shake vigorously, and filter. Pipet 1 mL of the filtrate, add 25 mL of ethanol (99.5), and use this solu-tion as the sample solution. Determine the absorption spec-trum of the sample solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits absorption maxima between 240 nm and 244 nm, between 285 nm and 289 nm, and between 341 nm and 352 nm. (2) Observe the sample solution obtained in (1) under ultraviolet light (main wavelength: 365 nm): the solution shows a blue-white fluorescence. MS: Amount (mg) of Amlexanox RS taken Internal standard solution—A solution of 3-nitroaniline in the mobile phase (1 in 500). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medium, the dissolution rate in 45 minutes of Amlexanox Tablets is not less than 80z. Start the test with 1 tablet of Amlexanox Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 5."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Take an amount of powdered Amlexa-nox Tablets, equivalent to 10 mg of Amlexanox, add 100 mL of ethanol (99.5), shake vigorously, and filter. Pipet 1 mL of the filtrate, add 25 mL of ethanol (99.5), and use this solu-tion as the sample solution. Determine the absorption spec-trum of the sample solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits absorption maxima between 240 nm and 244 nm, between 285 nm and 289 nm, and between 341 nm and 352 nm. (2) Observe the sample solution obtained in (1) under ultraviolet light (main wavelength: 365 nm): the solution shows a blue-white fluorescence. MS: Amount (mg) of Amlexanox RS taken Internal standard solution—A solution of 3-nitroaniline in the mobile phase (1 in 500). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medium, the dissolution rate in 45 minutes of Amlexanox Tablets is not less than 80z. Start the test with 1 tablet of Amlexanox Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 5.6 mg of amlexanox (C16H14N2O4), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of Amlexanox RS, previously dried at 1059C for 2 hours, and dissolve in 2 mL of dilute sodium hydroxide TS, add the dissolution medium to make exactly 50 mL. Pipet 1 mL of this solution, add the dissolution medium to make exactly 100 mL, and use this so-lution as the standard solution. Determine the absorbances, AT and AS, at 350 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>. Dissolution rate (z) with respect to the labeled amount of amlexanox (C16H14N2O4) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of Amlexanox RS taken C: Labeled amount (mg) of amlexanox (C16H14N2O4) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Amlexanox Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 15 mg of amlexanox (C16H14N2O4), add exactly 10 mL of the internal standard so-lution, add 80 mL of the mobile phase, shake vigorously for 5 minutes, and then add the mobile phase to make 100 mL. Centrifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 30 mg of Amlexanox RS, previously dried at 1059C for 2 hours, and dissolve in the mobile phase to make exactly 50 mL. Pipet 25 mL of this solution, add exactly 10 mL of the inter-nal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Amlexanox. Uniformity of dosage units <6.02> Perform the Mass varia- tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Amount (mg) of amlexanox (C ＝ MS × QT/QS × 1/2 16H14N2O4) Take 1 tablet of Amlexanox Tablets, add exactly 0.6 mL of the internal standard solution per 1 mg of amlexanox (C16H14N2O4), add the mobile phase to make exactly V mL so there is about 167 mg of amlexanox (C16H14N2O4) per mL, disintegrate the tablet, and then shake vigorously for 5 minutes. Centrifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 30 mg of Amlexanox RS, previously dried at 1059C for 2 hours, and dissolve in the mobile phase to make exactly MS: Amount (mg) of Amlexanox RS taken Internal standard solution—A solution of 3-nitroaniline in the mobile phase (1 in 500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

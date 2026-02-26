@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/camostat-mesilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Camostat Mesilate",
+    "ja": "カモスタットメシル酸塩"
+  },
+  "monographId": "JP18-camostat-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H22N4O5.CH4O3S",
+  "molecularWeight": 494.52,
+  "casNumber": "59721-29-8",
+  "definition": {
+    "en": "Camostat Mesilate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Camostat Mesilate occurs as white, crystals or QT and QS, of the peak area of camostat to that of the inter-nal standard. Amount (mg) of camostat mesilate (C20H22N4O5.CH4O3S) ＝ MS × QT/QS MS: Amount (mg) of Camostat Mesilate RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in ethanol (95) (1 in 1500). ‌JP XVIII Official Monographs / dl-Camphor 611 Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). ‌Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol, a solution of so-dium 1-heptane sulfonate (1 in 500), a solution of sodium lauryl sulfate (1 in 1000) and acetic acid (100) (200:100:50:1). Flow rate: Adjust so that the retention time of camostat is about 10 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, camostat and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of camostat to that of the internal standard is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 4 mL of a solution of Camostat Mesilate (1 in 2000) add 2 mL of 1-naphthol TS and 1 mL of diacetyl TS, and allow to stand for 10 minutes: a red color develops. Determine the absorption spectrum of a solution of Camostat Mesilate (1 in 100,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Camostat Mesilate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. A 0.1 g portion of Camostat Mesilate responds to Qualitative Tests <1.09> (1) for mesilate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Dissolve 1.0 g of Camostat Mesilate in 40 mL of water by warming, and add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 2.0 mL of Standard Lead Solution and 2 mL of dilute acetic acid (not more than 20 ppm). Arsenic <1.11>—Dissolve 2.0 g of Camostat Mesilate in 20 mL of 2 mol/L hydrochloric acid TS by heating in a water bath, and continue to heat for 20 minutes. After cool-ing, centrifuge, take 10 mL of the supernatant liquid, and use this solution as the test solution. Perform the test (not more than 2 ppm). Related substances—Dissolve 30 mg of Camostat Mesilate in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ethanol (95) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and air-dry the plate. Allow the plate to stand overnight in iodine vapor: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, silica gel, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Camostat Mesilate and Camostat Mesilate RS, previously dried, and dissolve each in water to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of the internal standard solution, and use these solutions as the sample so-lution and the standard solution, respectively. Perform the test with 2 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac- cording to the following conditions, and calculate the ratios, Dimethylcarbamoylmethyl 4-(4-guanidinobenzoyloxy)phenylacetate monomethanesulfonate [59721-29-8] Camostat Mesilate, when dried, contains not less than 98.5z of camostat mesilate (C20H22N4O5. CH4O3S). Description Camostat Mesilate occurs as white, crystals or QT and QS, of the peak area of camostat to that of the inter-nal standard. Amount (mg) of camostat mesilate (C20H22N4O5.CH4O3S) ＝ MS × QT/QS MS: Amount (mg) of Camostat Mesilate RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in ethanol (95) (1 in 1500). ‌JP XVIII Official Monographs / dl-Camphor 611 Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). ‌Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol, a solution of so-dium 1-heptane sulfonate (1 in 500), a solution of sodium lauryl sulfate (1 in 1000) and acetic acid (100) (200:100:50:1). Flow rate: Adjust so that the retention time of camostat is about 10 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, camostat and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of camostat to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

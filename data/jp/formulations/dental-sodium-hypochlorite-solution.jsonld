@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dental-sodium-hypochlorite-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dental Sodium Hypochlorite Solution",
+    "ja": "歯科用アンチホルミン"
+  },
+  "monographId": "JP18-dental-sodium-hypochlorite-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Dental Antiformin is a slightly light yellow-green, clear liquid. It has a slight odor of chlorine. It gradually changes by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dental Antiformin changes red litmus paper to blue, and then decolorizes it. To Dental Antiformin add dilute hydrochloric acid: it evolves the odor of chlorine, and the gas changes potas-sium iodide starch paper moistened with water to blue. Dental Antiformin responds to Qualitative Tests <1.09> (1) for sodium salt."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly 3 mL of Dental Antiformin in a glass-stoppered flask, add 50 mL of water, 2 g of potassium iodide and 10 mL of acetic acid (31), and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 3.722 mg of NaClO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 109C."
+  },
+  "dosageForm": "Solution"
+}

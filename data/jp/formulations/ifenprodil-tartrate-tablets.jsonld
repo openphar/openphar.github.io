@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ifenprodil-tartrate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ifenprodil Tartrate Tablets",
+    "ja": "イフェンプロジル酒石酸塩錠"
+  },
+  "monographId": "JP18-ifenprodil-tartrate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ifenprodil Tartrate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of ifenprodil tartrate [(C21H27NO2)2.C4H6O6: 800.98]. Method of preparation Prepare as directed under Tablets, with Ifenprodil Tartrate. Identification Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 274 nm and 278 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Ifenprodil Tartrate Tablets, add V/20 mL of water, and shake until the tablet is completely dis-integrated. Then, add 7V/10 mL of a mixture of ethanol (99.5) and water (3:1), shake thoroughly, and add a mixture of ethanol (99.5) and water (3:1) to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 274 nm and 278 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Ifenprodil Tartrate Tablets, add V/20 mL of water, and shake until the tablet is completely dis-integrated. Then, add 7V/10 mL of a mixture of ethanol (99.5) and water (3:1), shake thoroughly, and add a mixture of ethanol (99.5) and water (3:1) to make exactly V mL so that each mL contains about 0.1 mg of ifenprodil tartrate [(C H NO ) .C H O ]. Filter through a membrane filter the test with exactly 20 mL each of the sample solution and 21 27 2 2 4 6 6 standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ifenprodil in each solution. with a pore size not exceeding 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of ifenprodil tartrate [(C H NO ) .C H O ] Amount (mg) of ifenprodil tartrate [(C21H27NO2)2.C4H6O6] ＝ MS × AT/AS × 1/2 21 27 2 2 4 6 6 ＝ MS × AT/AS × V/200 MS: Amount (mg) of ifenprodil tartrate for assay taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 224 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate in 900 mL of water, adjust to pH 6.5 with potas-sium hydroxide TS, and add water to make 1000 mL. To 420 mL of this solution add 320 mL of methanol for liquid chromatography and 260 mL of acetonitrile for liquid chromatography. Flow rate: Adjust so that the retention time of ifenprodil is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ifenprodil are not less than 3000 and MS: Amount (mg) of ifenprodil tartrate for assay taken, calculated on the anhydrous basis Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Ifen-prodil Tartrate Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 10 mg of ifen-prodil tartrate [(C21H27NO2)2C4H6O6], add 5 mL of water and a suitable amount of a mixture of ethanol (99.5) and water (3:1), shake thoroughly, and add a mixture of ethanol (99.5) and water (3:1) to make exactly 100 mL. Filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 20 mg of ifenprodil tartrate for assay (separately determine the water <2.48> in the same manner as Ifenprodil Tartrate), add 10 mL of water and a mixture of ethanol (99.5) and water (3:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ifenprodil tartrate in each solution. not more than 2.0, respectively. Amount (mg) of ifenprodil tartrate [(C H NO ) .C H O ] System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat- ＝ MS × AT/AS × 1/2 21 27 2 2 4 6 6 ing conditions, the relative standard deviation of the peak area of ifenprodil is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

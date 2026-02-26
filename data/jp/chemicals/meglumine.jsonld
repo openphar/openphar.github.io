@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/meglumine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Meglumine",
+    "ja": "メグルミン"
+  },
+  "monographId": "JP18-meglumine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H17NO5",
+  "molecularWeight": 195.21,
+  "definition": {
+    "en": "Meglumine, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Meglumine occurs as a white crystalline pow-der. It is odorless, and has a slightly bitter taste. It is freely soluble in water, and slightly soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Meglumine in 10 mL of water is between 11.0 and 12.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Meglumine (1 in 10) add 1 mL of potassium 1,2-naphthoquinone-4-sulfonate TS: a deep red color develops. To 2 mL of a solution of Meglumine (1 in 10) add 1 drop of methyl red TS, and add 0.5 mL of dilute sodium hy-droxide TS and 0.5 g of boric acid after neutralizing with 0.5 mol/L sulfuric acid TS: a deep red color develops. Dissolve 0.5 g of Meglumine in 1 mL of diluted hy-drochloric acid (1 in 3), and add 10 mL of ethanol (99.5): a white precipitate is produced. Then, rubbing the inside wall of the container with a glass rod, cool with ice and produce more precipitate. Filter the precipitate by suction through a glass filter (G3), wash the precipitate with a small volume of ethanol (99.5), and dry at 1059C for 1 hour: the residue thus obtained melts <2.60> between 1499C and 1529C. D Optical rotation <2.49> [a]20: －16.0 – －17.09(after dry-ing, 1 g, water, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Meglumine, previ-ously dried, dissolve in 25 mL of water, and titrate <2.50> with 0.1 mol/L hydrochloric acid VS (indicator: 2 drops of methyl red TS). Each mL of 0.1 mol/L hydrochloric acid VS ＝ 19.52 mg of C7H17NO5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-glutamic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "L-Glutamic Acid",
+    "ja": "L-グルタミン酸"
+  },
+  "monographId": "JP18-l-glutamic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H9NO4",
+  "molecularWeight": 147.13,
+  "casNumber": "56-85-9",
+  "definition": {
+    "en": "L-Glutamic Acid contains not less than 99."
+  },
+  "appearance": {
+    "en": "L-Glutamic acid occurs as white, crystals or crystalline powder. It has a slight characteristic and acid taste. It is slightly soluble in water, and practically insoluble in ethanol (99.5). It dissolves in 2 mol/L hydrochloric acid TS. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Glutamic Acid as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spec-tra, dissolve L-Glutamic Acid in a small amount of water, evaporate water at 609C under reduced pressure, and per-form the test in the same manner with the dried residue. Optical rotation <2.49> [a]20: ＋31.5 – ＋32.59(2.5 g calcu-lated on the dried basis, 2 mol/L hydrochloric acid TS, 25 mL, 100 mm). D pH <2.54> The pH of a solution prepared by dissolving 0.7 g of L-Glutamic Acid in 100 mL of water by warming and then cooling is 2.9 to 3.9."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of L-Glutamic Acid in 10 mL of 2 mol/L hydrochloric acid TS: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of L-Glutamic Acid in 6 mL of dilute nitric acid and 20 mL of water, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Dissolve 0.6 g of L-Glutamic Acid in 5 mL of dilute hydrochloric acid and 30 mL of water, and add water to make 45 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution from 0.35 mL of 0.005 mol/L sulfuric acid VS and 5 mL of dilute hydrochloric acid, and dilute with water to 45 mL. Prepare the test solution and the control solution with 5 mL of barium chloride TS, respectively (not more than 0.028z). Ammonium <1.02>—Perform the test with 0.25 g of L-Glutamic Acid. Prepare the control solution with 5.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Dissolve 1.0 g of L-Glutamic Acid in 20 mL of water and 7 mL of a solution of sodium hydroxide (1 in 25) by warming, cool, and add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution from 1.0 mL of Standard Lead Solution and 2 mL of dilute acetic acid, and dilute with water to 50 mL (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of L-Glutamic Acid according to Method 1, and perform the test according to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Weigh accurately about 0.5 g of L-Glutamic Acid, and dissolve in 0.5 mL of hydrochloric acid and water to make exactly 100 mL. Pipet 10 mL of this solution, add 0.02 mol/L hydrochloric acid TS to make ex-actly 50 mL, and use this solution as the sample solution. Separately, weigh accurately an amount, equivalent to 2.5 mmol, of L-aspartic acid, L-threonine, L-serine, L-glutamic acid, glycine, L-alanine, L-cystine, L-valine, L-methionine, L-isoleucine, L-leucine, L-tyrosine, L-phenylalanine, L-lysine hydrochloride, ammonium chloride, L-histidine and L-argi-nine, dissolve them in 0.1 mol/L hydrochloric acid TS to make exactly 1000 mL, and use this solution as the standard stock solution. Pipet 5 mL of the standard stock solution, and add 0.02 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 6 mL of this solution, add 0.02 mol/L hydro-chloric acid TS to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the mass percentage of each amino acid, using the mass of amino acid other than glu-tamic acid in 1 mL of the sample solution obtained from the height of the peaks obtained from the sample solution and standard solution: the amount of each amino acid other than glutamic acid is not more than 0.2z, and the total amount of these amino acids is not more than 0.6z. Operating conditions— Detector: A visible absorption photometer (wavelength: ‌1078 570 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 8 cm in length, packed with strongly acidic ion-exchange resin for liquid chromatography (Na type) com-posed with a sulfonated polystyrene (3 mm in particle diameter). Column temperature: A constant temperature of about 579C. Chemical reaction bath temperature: A constant tempera-ture of about 1309C. Reaction time: About 1 minute. Mobile phase: Prepare the mobile phases A, B, C, D and E according to the following table, and add 0.1 mL each of caprylic acid. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.12 g of L-Glutamic Acid, dissolve in 40 mL of water by warming, cool, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 14.71 mg of C5H9NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

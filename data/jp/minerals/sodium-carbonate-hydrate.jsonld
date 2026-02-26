@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-carbonate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Carbonate Hydrate",
+    "ja": "炭酸ナトリウム水和物"
+  },
+  "monographId": "JP18-sodium-carbonate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Carbonate Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sodium Carbonate Hydrate occurs as colorless or white crystals. It is freely soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. A solution of Sodium Carbonate Hydrate (1 in 10) is alkaline. Sodium Carbonate Hydrate is efflorescent in air. It liquefies in its water of crystallization at 349C, and becomes anhydrous at above 1009C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Carbonate Hydrate (1 in 20) responds to Qualitative Tests <1.09> for sodium salt and for carbonate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Carbonate Hydrate in 5 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of Sodium Car- bonate Hydrate in 10 mL of water, add 7 mL of dilute nitric acid, dilute with water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.071z). Heavy metals <1.07>—Dissolve 2.0 g of Sodium Car- bonate Hydrate in 10 mL of water, add 8 mL of dilute hy-drochloric acid, and evaporate to dryness on a water bath. Dissolve the residue in 35 mL of water and 2 mL of dilute acetic acid, dilute with water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 8 mL of dilute hydro-chloric acid on a water bath to dryness, add 2 mL of dilute acetic acid and 2.0 mL of Standard Lead Solution, and di-lute with water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.65 of Sodium Carbonate Hydrate according to Method 1, and per-form the test (not more than 3.1 ppm). Loss on drying <2.41> 61.0 – 63.0z (1 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 3 g of Sodium Carbonate Hydrate, weighed accurately, in 25 mL of water, and titrate with 0.5 mol/L sulfuric acid VS until the color of the solution changes from blue to yellow-green. Boil cautiously, cool, and further titrate <2.50> until a greenish yellow color ap-pears (indicator: 2 drops of bromocresol green TS). 2 3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

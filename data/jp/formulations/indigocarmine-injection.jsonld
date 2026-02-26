@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/indigocarmine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Indigocarmine Injection",
+    "ja": "インジゴカルミン注射液"
+  },
+  "monographId": "JP18-indigocarmine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Indigocarmine Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Indigocarmine Injection is a dark blue liquid. pH: 3.0 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Indigocarmine Injec-tion, equivalent to 20 mg of Indigocarmine, add 1 mL of nitric acid: the dark blue color of the liquid disappears, and a yellow-brown color develops. To a volume of Indigocarmine Injection, equivalent to 20 mg of Indigocarmine, add 1 mL of bromine TS: the dark blue color disappears, and a yellow-brown color de-velops. To a volume of Indigocarmine Injection, equivalent to 20 mg of Indigocarmine, add 1 mL of chlorine TS: the Each mL of 0.1 mol/L titanium (III) chloride VS ＝ 23.32 mg of C16H8N2Na2O8S2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ubidecarenone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ubidecarenone",
+    "ja": "ユビデカレノン"
+  },
+  "monographId": "JP18-ubidecarenone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C59H90O4",
+  "molecularWeight": 863.34,
+  "casNumber": "303-98-0",
+  "definition": {
+    "en": "Ubidecarenone contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ubidecarenone occurs as a yellow to orange crystalline powder. It is odorless and has no taste. It is soluble in diethyl ether, very slightly soluble in ethanol (99.5), and practically insoluble in water. It is gradually decomposed and colored by light. Melting point: about 489C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Ubidecarenone in 1 mL of diethyl ether, and add 10 mL of ethanol (99.5). To 2 mL of this solution add 3 mL of ethanol (99.5) and 2 mL of dimethyl malonate, then add dropwise 1 mL of a solution of potassium hydroxide (1 in 5), and mix: a blue color appears. (2) Determine the infrared absorption spectrum of Amount (mg) of ubenimex (C H N O ) Ubidecarenone as directed in the potassium bromide disk ＝ MS × QT/QS × 1/4 16 24 2 4 method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the ‌spectrum of Ubidecarenone RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Ubidecarenone according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.05 g of Ubidecare-none in 50 mL of ethanol (99.5) by warming at about 509C for 2 minutes, and after cooling use this solution as the sam-ple solution. To exactly 1 mL of the sample solution add ethanol (99.5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of both solu-tions by the automatic integration method: the total area of the peaks other than ubidecarenone obtained from the sam-ple solution is not larger than the peak area of ubidecare-none from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, flow rate, and selection of column: Proceed as directed in the operating conditions in the Assay. Detection sensitivity: Adjust so that the peak height of ubidecarenone obtained from 5 mL of the standard solution is between 20 mm and 40 mm. Time span of measurement: About 2 times of the retention time of ubidecarenone, beginning after the solvent peak. Water <2.48> Not more than 0.20z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Ubidecare-none and Ubidecarenone RS (separately determined the water <2.48> in the same manner as Ubidecarenone) dissolve each in 40 mL of ethanol (99.5) by warming at about 509C for 2 minutes, and after cooling add ethanol (99.5) to make exactly 50 mL each, and use these solutions as the sample solution and standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine peak areas, AT and AS, of ubidecarenone in each solution. and calculate the resolution. Use a column giving elution of ubiquinone-9 and ubidecarenone in this order with the reso-lution between these peaks being not less than 4. System repeatability: Repeat the test 5 times with the standard solution under the above operating conditions: the relative standard deviation of the peak areas of ubidecare-none is not more than 0.8z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

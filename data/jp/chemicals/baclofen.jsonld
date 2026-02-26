@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/baclofen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Baclofen",
+    "ja": "バクロフェン"
+  },
+  "monographId": "JP18-baclofen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H12ClNO2",
+  "molecularWeight": 213.66,
+  "definition": {
+    "en": "Baclofen contains not less than 98."
+  },
+  "appearance": {
+    "en": "Baclofen occurs as a white to pale yellow-white crystalline powder. It is freely soluble in acetic acid (100), slightly soluble in water, very slightly soluble in methanol and in ethanol (95), and practically insoluble in diethyl ether. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Baclofen (1 in 1000) add 1 mL of ninhydrin TS, and heat on a water bath for 3 minutes: a blue-purple color develops. Determine the absorption spectrum of a solution of Baclofen in 0.1 mol/L hydrochloric acid TS (1 in 2000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Baclofen RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Perform the test with Baclofen as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Baclofen in 50 mL of acetic acid (100), and add water to make 100 mL. To 10 mL of this solution add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.30 mL of 0.01 mol/L hydrochloric acid VS add 5 mL of acetic acid (100), 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.21z). Heavy metals <1.07>—Proceed with 2.0 g of Baclofen according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Baclofen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Baclofen in 50 mL of the mobile phase, and use this solution as the sam-ple solution. Pipet 1.0 mL and 1.5 mL of the sample solu-tion, to each add the mobile phase to make exactly 100 mL, and use these solutions as the standard solutions (1) and (2), respectively. Perform the test with exactly 25 mL each of the sample solution and standard solutions (1) and (2) as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak height of these solutions: each height of the peaks other than the peak of baclofen obtained from the sample solution is not larger than the peak height of baclofen from the standard solution (1), and the total height of these peaks is not larger than the peak height of baclofen from the standard solution (2). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 268 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and diluted acetic acid (100) (1 in 900) (3:2). Flow rate: Adjust so that the retention time of baclofen is about 4 minutes. Time span of measurement: About 3 times as long as the retention time of baclofen, beginning after the solvent peak. System suitability— Test for required detectability: Adjust the sensitivity so that the peak height of baclofen obtained with 25 mL of the standard solution (1) is between 5 and 10 mm. System performance: Dissolve 0.40 g of Baclofen and 5 mg of methyl parahydroxybenzoate in 200 mL of the mobile phase. To 10 mL of this solution add the mobile phase to make 100 mL. When the procedure is run with 25 mL of this solution under the above operating conditions, baclofen and methyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 25 mL of the standard solution (1) under the above ‌JP XVIII Official Monographs / Baclofen Tablets 511 operating conditions, the relative standard deviation of the peak heights of baclofen is not more than 3.0z. Water <2.48> Not more than 1.0z (1 g, direct titration). Residue on ignition <2.44> Not more than 0.3z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Baclofen, dissolve in 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to greenish blue (indica-tor: 2 drops of crystal violet TS). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 21.37 mg of C10H12ClNO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

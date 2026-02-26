@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/compound-oxycodone-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Compound Oxycodone Injection",
+    "ja": "複方オキシコドン注射液"
+  },
+  "monographId": "JP18-compound-oxycodone-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Compound Oxycodone Injection is a clear, colorless to pale yellow liquid. It is affected by light. pH: 2.5 – 4.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Compound Oxycodone In-jection add 1 mL of 2,4-dinitrophenylhydrazine-ethanol TS: a yellow precipitate is formed (oxycodone). Evaporate 1 mL of Compound Oxycodone Injection on a water bath. Dissolve the residue in 2 mL of sulfuric acid: a yellow color is produced. Heat the solution: it changes to red, and then to deep orange-red (hydrocotar-nine). Evaporate 1 mL of Compound Oxycodone Injection on a water bath. Dissolve the residue in 3 mL of sulfuric acid, add 2 drops of a solution of tannic acid in ethanol (95) (1 in 20), and allow to stand: a deep green color is produced (hydrocotarnine). Extractable volume <6.05> It meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 2 mL of Compound Oxycodone Injection, add exactly 10 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 0.4 g of oxycodone hydrochloride hydrate for assay (separately determine the water <2.48> in the same manner as Oxycodone Hydrochloride Hydrate) and about 0.1 g of hydrocotarnine hydrochloride hydrate for assay previously dried at 1059C for 3 hours, and dissolve in water to make ex-actly 50 mL. Pipet 2 mL of this solution, add exactly 10 mL of the internal standard solution, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Calculate the ratios, QTa and QTb, of the peak area of oxycodone and hydrocotarnine to that of the internal standard obtained from the sample solution, and the ratios, QSa and QSb, of the peak area of oxycodone and hydrocotar-nine to that of the internal standard from the standard solu-tion. Amount (mg) of oxycodone hydrochloride hydrate (C18H21NO4.HCl.3H2O) ＝ MSa × QTa/QSa × 1/25 × 1.154 Amount (mg) of hydrocotarnine hydrochloride hydrate (C12H15NO3.HCl.H2O) ＝ MSb × QTb/QSb × 1/25 × 1.070 MSa: Amount (mg) of oxycodone hydrochloride hydrate for assay taken, calculated on the anhydrous basis MSb: Amount (mg) of hydrocotarnine hydrochloride hy-drate for assay taken Internal standard solution—Dissolve 0.02 g of phenacetin in 10 mL of ethanol (95), and add water to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 285 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized polyvinyl alcohol gel polymer for liquid chroma-tography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 500 mL of 0.05 mol/L disodium hydro-gen phosphate TS add 0.05 mol/L sodium dihydrogen phos-phate TS, and adjust the pH to 8.0. To 300 mL of this solu-tion add 200 mL of acetonitrile, and mix. Flow rate: Adjust so that the retention time of oxycodone is about 8 minutes. Selection of column: Proceed with 10 mL of the standard solution under the above operating conditions, and use a column giving elution of the internal standard, oxycodone and hydrocotarnine in this order, with complete separation of these peaks."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

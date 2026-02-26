@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lidocaine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lidocaine",
+    "ja": "リドカイン"
+  },
+  "monographId": "JP18-lidocaine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H22N2O",
+  "molecularWeight": 234.34,
+  "definition": {
+    "en": "Lidocaine, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Lidocaine occurs as white to pale yellow, crys-tals or crystalline powder. It is very soluble in methanol and in ethanol (95), soluble in acetic acid (100) and in diethyl ether, and practically in-soluble in water. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 40 mg of Lidocaine in 10 mL of 1 mol/L hydrochloric acid TS, and add water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Lidocaine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Lidocaine in 2 mL of dilute hydrochloric acid, and add water to make 10 mL: the solution is clear and colorless to light yellow. Chloride <1.03>—Dissolve 0.6 g of Lidocaine in 6 mL of dilute nitric acid, add water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.70 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.041z). Sulfate <1.14>—Dissolve 0.5 g of Lidocaine in 5 mL of dilute hydrochloric acid, add water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution with 1.0 mL of 0.005 mol/L sulfu-ric acid VS, 5 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.096z). Heavy metals <1.07>—Carbonize 2.0 g of Lidocaine by gentle ignition. After cooling, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and fire the ethanol to burn. After cooling, add 1 mL of sulfuric acid, proceed according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Lidocaine in 2 mL of methanol, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog- ‌1264 raphy. Develop the plate with a mixture of ethyl acetate, 2-butanone, water and formic acid (5:3:1:1) to a distance of about 10 cm, air-dry the plate, and dry more at 809C for 30 minutes. After cooling, examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot obtained from the sample solution are not more in-tense than the spot from the standard solution. ‌Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.5 g of Lidocaine, previously dried and accurately weighed, in 20 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 1 drop of crystal violet TS) until the color of the solution changes from purple to blue-green through blue. Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 23.43 mg of C14H22N2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

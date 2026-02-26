@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/testosterone-enanthate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Testosterone Enanthate Injection",
+    "ja": "テストステロンエナント酸エステル注射液"
+  },
+  "monographId": "JP18-testosterone-enanthate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Testosterone Enanthate Injection is an oily solution for injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Testosterone Enanthate Injection is a clear, colorless or pale yellow oily liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Testosterone Enan-thate Injection, equivalent to 0.05 g of Testosterone Enan-thate, add 8 mL of petroleum ether, and extract with three 10-mL portions of diluted acetic acid (100) (7 in 10). Com-bine the extracts, wash with 10 mL of petroleum ether, add 0.5 mL of diluted sulfuric acid (7 in 10) to 0.1 mL of the ex-tract, and heat on a water bath for 5 minutes. Cool, and add 0.5 mL of iron (III) chloride-acetic acid TS: the color of the solution is blue. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> Perform the test ac-cording to Method 2: it meets the requirement. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure accurately a volume of Testosterone Enan-thate Injection, equivalent to about 25 mg of testosterone enanthate (C26H40O3), and dissolve in chloroform to make exactly 25 mL. Pipet 3 mL of this solution, add chloroform to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Testosterone Propionate RS, proceed in the same manner as for the sample solution, and use this solution as the standard solution. Pipet 5 mL each of the sample solution and stand-ard solution, add exactly 10 mL of isoniazid TS, add metha-nol to make exactly 20 mL, and allow to stand for 45 minutes. Determine the absorbances, AT and AS, of these so-lutions at 380 nm, respectively, as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution obtained by proceeding with 5 mL of chloroform as the blank. Amount (mg) of testosterone enanthate (C26H40O3) ＝ MS × AT/AS × 1.163 MS: Amount (mg) of Testosterone Propionate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

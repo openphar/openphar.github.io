@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/eplerenone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Eplerenone",
+    "ja": "エプレレノン"
+  },
+  "monographId": "JP18-eplerenone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H30O6",
+  "molecularWeight": 414.49,
+  "casNumber": "107724-20-9",
+  "definition": {
+    "en": "Eplerenone contains not less than 98."
+  },
+  "appearance": {
+    "en": "Eplerenone occurs as a white crystalline pow-der. It is freely soluble in acetonitrile, sparingly soluble in methanol, and very slightly soluble in water and in ethanol (99.5). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Eplerenone in methanol (1 in 77,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Eplerenone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Eplerenone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Eplerenone RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －14.0 – －16.09(0.25 g cal-culated on the dried basis, acetonitrile, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals—Take 1.0 g of Eplerenone in a crucible, wet the sample with a suitable amount of sulfuric acid, cover loosely, and heat gently to carbonize. After cool-ing, add 2 mL of nitric acid, and 5 drops of sulfuric acid to the carbonized residue, and heat gently until white fumes are no longer evolved. Then, incinerate by ignition at 500 – 6009C. After cooling, add 4 mL of 6 mol/L hydrochloric acid TS, cover the crucible, warm on a water bath for 15 minutes, then remove the cover from the crucible, and slowly evaporate to dryness on a water bath. Wet the residue with 1 drop of hydrochloric acid, add 10 mL of hot water, and warm for 2 minutes. After cooling, add ammonia TS until the solution shows alkalinity to litmus paper, add 15 mL of water, and adjust to pH 3.0 – 4.0 with dilute acetic acid. Filter, if necessary, wash the crucible and filter paper with 10 mL of water, put the filtrate and the washings in a Nessler tube, add water to make 40 mL, and use this solution as the sample solution. Separately, take 2.0 mL of Standard Lead Solution in a Nessler tube, and add water to make 25 mL. Adjust to pH 3.0 – 4.0 of this solution with dilute acetic acid or ammonia TS, add water to make 40 mL, and use this solution as the control solution. To the sample solution and the control solution add 2 mL of acetate buffer solution (pH 3.5) and 1.2 mL of thioacetamide-alkaline glycerin TS, then add water to make 50 mL, allow them to stand for 2 minutes, and observe vertically against a white background: the solution obtained from the sample solution is not more colored than that obtained from the control solution (not more than 20 ppm). (2) Related substances—Dissolve 25 mg of Eplerenone in 50 mL of the mobile phase, and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add the mo-bile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak, having a relative retention time of about 0.58, about 0.85, about 0.90, about 1.2 and about 1.6 to eplerenone, obtained from the sample solution is respectively not larger than 1/5, 3/10, 3/10, 3/10 and 3/10 times the peak area of eplerenone from the standard solution, and the area of the peak other than eplerenone and the peak mentioned above from the sample solution is not larger than 7/50 times the peak area of eplere-none from the standard solution. Furthermore, the total area of the peaks other than eplerenone from the sample solution is not larger than 1.2 times the peak area of eplerenone from the standard solution. For the area of the peak, having the relative retention time of about 0.85 to eplerenon, multiply the correction factor 0.6. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of eplerenone, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, add the mobile phase to make exactly 10 mL. Con-firm that the peak area of eplerenone obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of eplerenone are not less than 15,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak ‌JP XVIII Official Monographs / Eplerenone Tablets 941 area of eplerenone is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Eplerenone and Eplerenone RS (separately determine the loss on drying <2.41> under the same conditions as Eplerenone), separately dissolve in the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the standard solu-tion, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of eplerenone in each solution. Amount (mg) of eplerenone (C24H30O6) ＝ MS × AT/AS MS: Amount (mg) of Eplerenone RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 1.4 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust to pH 3.0 with phosphoric acid. To 580 mL of this solution add 360 mL of acetonitrile for liquid chromatography and 60 mL of metha-nol. Flow rate: Adjust so that the retention time of eplerenone is about 12 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of eplerenone are not less than 15,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of eplerenone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

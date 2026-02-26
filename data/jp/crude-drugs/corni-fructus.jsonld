@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/corni-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Corni Fructus",
+    "ja": "サンシュユ"
+  },
+  "monographId": "JP18-corni-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened oblong, 1.5 – 2 cm in length, about 1 cm in width; externally dark red-purple to dark purple, lus-trous, and with coarse wrinkles; a crack-like scar formed by removal of true fruits; a scar of calyx at one end, and a scar of peduncle at the other; soft in texture. Odor, slight; taste, acid and occasionally slightly sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of coarse cuttings of Cornus Fruit add 10 mL of methanol, shake for 5 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of loganin for thin-layer chromatography in 2 mL of metha-nol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, water and formic acid (6:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 4-metho-xybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots ‌JP XVIII Crude Drugs and Related Drugs / Corydalis Tuber 1991 obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Further, a spot, slightly different in color tone from the above-mentioned spot, is found immediately below of the spot."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Foreign matter <5.01>—The amount of its peduncles and other foreign matter contained in Cornus Fruit does no exceed 2.0z. (2) Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 35.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of fine cuttings of Cor-nus Fruit (separately determine the loss on drying <5.01>), put in a glass-stoppered centrifuge tube, add 30 mL of diluted methanol (1 in 2), shake for 20 minutes, centrifuge, and take the supernatant liquid. To the residue add 30 mL of diluted methanol (1 in 2), and repeat the above process twice more. Combine all the extacts, add diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of loga-nin for assay, dissolve in diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of loganin in each solution. Amount (mg) of loganin ＝ MS × AT/AS MS: Amount (mg) of loganin for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 238 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water, acetonitrile and metha-nol (55:4:1). Flow rate: Adjust so that the retention time of loganin is about 25 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of loganin are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of loganin is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

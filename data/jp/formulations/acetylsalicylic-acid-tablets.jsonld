@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/acetylsalicylic-acid-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Acetylsalicylic Acid Tablets",
+    "ja": "アスピリン錠"
+  },
+  "monographId": "JP18-acetylsalicylic-acid-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Aspirin Tablets, equivalent to 0.1 g of Aspirin, add 10 mL of water, and boil for 5 to 6 minutes. After cooling, filter, and add 1 to 2 drops of iron (III) chloride TS to the filtrate: a red-violet color develops. (2) Weigh a portion of powdered Aspirin Tablets, equivalent to 0.5 g of Aspirin, extract with two 10-mL por-tions of warm ethanol (95), and filter the combined extracts. Evaporate the filtrate to dryness, and boil the residue with 10 mL of sodium carbonate TS for 5 minutes. Proceed as di-rected in the Identification (2) under Aspirin."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Salicylic acid—Take a portion of the powdered Aspirin Tablets, equivalent to 1.0 g of Aspirin, shake with 15 mL of ethanol (95) for 5 minutes, filter, discard the first 5 mL of the filtrate, and add 1.0 mL of the subsequent filtrate to a solution which is prepared by transferring 1 mL of freshly prepared dilute ammonium iron (III) sulfate TS to a Nessler tube and diluting with water to make 50 mL. Pro-ceed as directed in the Purity (2) under Aspirin."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Aspirin Tablets. Weigh accurately a portion of the powder, equivalent to about 1.5 g of aspirin (C9H8O4), add exactly 50 mL of 0.5 mol/L sodium hydroxide VS, and proceed as directed in the Assay under Aspirin. Each mL of 0.5 mol/L sodium hydroxide VS ＝ 45.04 mg of C9H8O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

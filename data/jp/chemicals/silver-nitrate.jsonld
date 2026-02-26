@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/silver-nitrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Silver Nitrate",
+    "ja": "硝酸銀"
+  },
+  "monographId": "JP18-silver-nitrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "AgNO3",
+  "molecularWeight": 169.87,
+  "definition": {
+    "en": "Silver Nitrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Silver Nitrate occurs as lustrous, colorless or white crystals. It is very soluble in water, soluble in ethanol (95), and practically insoluble in diethyl ether. It gradually turns grayish black by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Silver Nitrate (1 in 50) re-sponds to Qualitative Tests <1.09> for silver salt and for nitrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution, and acidity or alkalinity—Dissolve 1.0 g of Silver Nitrate in 10 mL of freshly boiled and cooled water: the solution is clear and colorless. It is neutral. (2) Bismuth, copper and lead—To 5 mL of a solution of Silver Nitrate (1 in 10) add 3 mL of ammonia TS: the solu-tion is clear and colorless. Loss on drying <2.41> Not more than 0.20z (2 g, silica gel, light resistant, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Silver Nitrate, pre-viously powdered and dried, dissolve in 50 mL of water, add 2 mL of nitric acid, and titrate <2.50> with 0.1 mol/L ammo-nium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 16.99 mg of AgNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

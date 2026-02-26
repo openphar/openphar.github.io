@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fexofenadine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fexofenadine Hydrochloride",
+    "ja": "フェキソフェナジン塩酸塩"
+  },
+  "monographId": "JP18-fexofenadine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C32H39NO4.HCl",
+  "molecularWeight": 538.12,
+  "definition": {
+    "en": "Fexofenadine Hydrochloride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fexofenadine Hydrochloride occurs as a white crystalline powder. It is very soluble in methanol, soluble in ethanol (99.5), and slightly soluble in water. A solution of Fexofenadine Hydrochloride in methanol (3 in 100) shows no optical rotation. Fexofenadine Hydrochloride shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Fexofenadine Hydrochloride in methanol (1 in 2500) as directed under Ultraviolet-visible Spectrophotome-try <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Fexofenadine Hy-drochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorp-tion at the same wavelengths. Determine the infrared absorption spectrum of Fex-ofenadine Hydrochloride as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Fexofenadine Hydrochloride RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, recrystallize the sample and the RS according to the method otherwise specified, filter and dry the crystals, and perform the test with the crystals. A solution of Fexofenadine Hydrochloride in a mix-ture of water and methanol (1:1) (3 in 200) responds to Qualitative Tests <1.09> (2) for chloride. ‌JP XVIII Official Monographs / Fexofenadine Hydrochloride Tablets 1005"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Fexofenadine Hydrochloride according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 7.51 g of sodium dihydrogen phosphate dihydrate and 0.84 g of sodium perchlorate in 1000 mL of water, and adjust to pH 2.0 with phosphoric acid. In a mixture of this solution and aceto-nitrile for liquid chromatography (1:1) dissolve 25 mg of Fexofenadine Hydrochloride to make 25 mL, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine each peak area of both solutions by the automatic integration method: the area of the peak other than fexo-fenadine obtained from the sample solution is not larger than the peak area of fexofenadine from the standard solu-tion. For the areas of the peaks, having the relative retention time of about 1.8 and about 3.3 to fexofenadine, multiply their correction factor, 1.5 and 0.9, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 6 times as long as the retention time of fexofenadine, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of fexofenadine are not less than 8000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of fexofenadine is not more than 2.0z. Water <2.48> Not more than 0.5z (0.25 g, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve 7.51 g of sodium dihydrogen phosphate di-hydrate and 0.84 g of sodium perchlorate in 1000 mL of water, and adjust to pH 2.0 with phosphoric acid. In a mix-ture of this solution and acetonitrile for liquid chromatogra-phy (1:1) dissolve accurately weighed about 25 mg each of Fexofenadine Hydrochloride and Fexofenadine Hydrochlo-ride RS (separately determine the water <2.48> in the same manner as Fexofenadine Hydrochloride), to make exactly 25 mL each. Pipet 3 mL each of these solutions, add the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of fexofenadine in each solution. Amount (mg) of fexofenadine hydrochloride (C32H39NO4.HCl) ＝ MS × AT/AS MS: Amount (mg) of Fexofenadine Hydrochloride RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with phenylated silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 650 mL of a solution, prepared by dis-solving 7.51 g of sodium dihydrogen phosphate dihydrate and 0.84 g of sodium perchlorate in 1000 mL of water and adjusting to pH 2.0 with phosphoric acid, add 350 mL of acetonitrile for liquid chromatography and 3 mL of triethylamine. Flow rate: Adjust so that the retention time of fexofena-dine is about 9 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of fexofenadine are not less than 8000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of fexofenadine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

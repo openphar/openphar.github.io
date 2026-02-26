@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/biotin",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Biotin",
+    "ja": "ビオチン"
+  },
+  "monographId": "JP18-biotin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H16N2O3S",
+  "molecularWeight": 244.31,
+  "definition": {
+    "en": "Biotin, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Biotin occurs as white crystals or a white crys-talline powder. It is very slightly soluble in water and in ethanol (99.5). It dissolves in dilute sodium hydroxide TS. Melting point: about 2319C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Biotin as directed in the potassium bromide disc method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋89 – ＋939(after drying, 0.4 g, dilute sodium hydroxide TS, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Biotin in 10 mL of 0.5 mol/L sodium hydroxide TS: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Biotin JP XVIII Official Monographs / Biperiden Hydrochloride 553 ‌according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Place 0.7 g of Biotin in a Kjeldahl flask, add 5 mL of nitric acid and 2 mL of sulfuric acid, place a small funnel on the mouth of the flask, and carefully heat until white fumes are evolved. After cooling, add 2 mL of nitric acid twice, heat, add 2 mL of hydrogen peroxide (30) several times, and heat until the color of the solution becomes colorless or pale yellow. After cooling, add 2 mL of saturated ammonium oxalate solution, and heat to concen-trate until white fumes are evolved again. After cooling, add water to make 5 mL, and perform the test using this solution as the test solution (not more than 2.8 ppm). Related substances—Dissolve 0.10 g of Biotin in 10 mL of diluted ammonia solution (28) (7 in 100), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add diluted ammonia solution (28) (7 in 100) to make exactly 100 mL. Pipet 10 mL of this solution, add diluted ammonia solution (28) (7 in 100) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water, and acetic acid (100) (5:2:1) to a distance of about 10 cm, air-dry the plate, and then dry for 30 minutes at 1059C. Spray the plate evenly with a mixture of a solution of 4-dimethylaminocinnamaldehyde in ethanol (99.5) (1 in 500) and a solution of sulfuric acid in ethanol (99.5) (1 in 50) (1:1): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Biotin, previously dried, dissolve by adding exactly 20 mL of 0.1 mol/L sodium hydroxide VS, and titrate <2.50> the excess sodium hydrox-ide with 0.1 mol/L hydrochloric acid VS (indicator: 2 drops of phenolphthalein TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 24.43 mg of C10H16N2O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

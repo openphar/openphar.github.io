@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dehydrocholic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dehydrocholic Acid",
+    "ja": "デヒドロコール酸"
+  },
+  "monographId": "JP18-dehydrocholic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H34O5",
+  "molecularWeight": 402.52,
+  "definition": {
+    "en": "Dehydrocholic Acid, when dried, contains not less lution is clear and colorless."
+  },
+  "appearance": {
+    "en": "Dehydrocholic Acid occurs as a white crystal-line powder. It is odorless, and has a bitter taste. It is sparingly soluble in acetone, slightly soluble in ethanol (95), and practically insoluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Dehydrocholic Acid in 1 mL of sulfuric acid and 1 drop of formaldehyde solution, and allow to stand for 5 minutes. Add 5 mL of water to the solution: the solution shows a yellow color and a blue-green fluorescence. (2) To 0.02 g of Dehydrocholic Acid add 1 mL of ethanol (95), shake, add 5 drops of 1,3-dinitrobenzene TS and 0.5 mL of a solution of sodium hydroxide (1 in 8), and allow to stand: a purple to red-purple color develops, and gradually changes to brown. D Optical rotation <2.49> [a]25: ＋20 – ＋269(after drying, 0.2 g, acetone, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Odor—To 2.0 g of Dehydrocholic Acid add 100 mL of water, and boil for 2 minutes: the solution is Each mL of 0.1 mol/L sodium hydroxide VS ＝ 40.25 mg of C24H34O5"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Dehydrocholic Acid, previously dried, add 40 mL of neutralized ethanol and 20 mL of water, and dissolve by warming. Add 2 drops of phenolphthalein TS, titrate <2.50> with 0.1 mol/L sodium hydroxide VS, adding 100 mL of freshly boiled and cooled water as the end point is approached, and continue the titra- than 98.5z of dehydrocholic acid (C24 H34 O5). tion. Description Dehydrocholic Acid occurs as a white crystal-line powder. It is odorless, and has a bitter taste. It is sparingly soluble in acetone, slightly soluble in ethanol (95), and practically insoluble in water. It dissolves in sodium hydroxide TS. Identification (1) Dissolve 5 mg of Dehydrocholic Acid in 1 mL of sulfuric acid and 1 drop of formaldehyde solution, and allow to stand for 5 minutes. Add 5 mL of water to the solution: the solution shows a yellow color and a blue-green fluorescence. (2) To 0.02 g of Dehydrocholic Acid add 1 mL of ethanol (95), shake, add 5 drops of 1,3-dinitrobenzene TS and 0.5 mL of a solution of sodium hydroxide (1 in 8), and allow to stand: a purple to red-purple color develops, and gradually changes to brown. D Optical rotation <2.49> [a]25: ＋20 – ＋269(after drying, 0.2 g, acetone, 10 mL, 100 mm). Melting point <2.60> 233 – 2429C Purity (1) Odor—To 2.0 g of Dehydrocholic Acid add 100 mL of water, and boil for 2 minutes: the solution is Each mL of 0.1 mol/L sodium hydroxide VS ＝ 40.25 mg of C24H34O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

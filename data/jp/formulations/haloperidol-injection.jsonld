@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/haloperidol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Haloperidol Injection",
+    "ja": "ハロペリドール注射液"
+  },
+  "monographId": "JP18-haloperidol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Haloperidol Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Haloperidol Injection occurs as a colorless to pale yellow, clear liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Haloperidol Injection, equivalent to 5 mg of Haloperidol, add 2-propanol to make 100 mL. To 5 mL of this solution add 2 mL of 0.1 mol/L hy-drochloric acid TS and 2-propanol to make 20 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its maxima between 219 nm and 223 nm and between 243 nm and 247 nm. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law. Bacterial endotoxins <4.01> Less than 60 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Haloperidol Injection, equivalent to about 10 mg of haloperidol (C21H23ClFNO2), add the mo-bile phase to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of haloperidol for assay, previously dried in vacuum at 609C using phosphorus (V) oxide as a desiccant for 3 hours, dissolve in methanol to make exactly 25 mL. Pipet 10 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of haloperidol in each solution. Amount (mg) of haloperidol (C21H23ClFNO2) ＝ MS × AT/AS × 2/5 ‌JP XVIII Official Monographs / Haloperidol Tablets 1093 MS: Amount (mg) of haloperidol for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.95 g of trisodium citrate dihy-drate in 900 mL of water, adjust to pH 3.5 with dilute hydro-chloric acid, and add water to make 1000 mL. To 250 mL of this solution add 750 mL of methanol, and add 1.0 g of so-dium lauryl sulfate to dissolve. Flow rate: Adjust so that the retention time of haloperidol is about 9 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of haloperidol are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of haloperidol is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

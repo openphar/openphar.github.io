@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lanoconazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lanoconazole",
+    "ja": "ラノコナゾール"
+  },
+  "monographId": "JP18-lanoconazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H10ClN3S2",
+  "molecularWeight": 319.83,
+  "casNumber": "101530-10-3",
+  "definition": {
+    "en": "Lanoconazole, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Lanoconazole occurs as white to pale yellow, crystals or crystalline powder. It is soluble in acetone, sparingly soluble in methanol and in ethanol (99.5), and practically insoluble in water. It is gradually colored to yellow by light. A solution of Lanoconazole in acetone (1 in 25) shows no optical rotation. Identiˆcation (1) To 0.1 g of Lanoconazole add 0.5 g of sodium hydroxide, heat gradually to melt, and carbonize. After cooling, add 10 mL of dilute hydrochloric acid: the gas evolved darkens moistened lead (II) acetate paper. Perform the test with Lanoconazole as directed under Flame Coloration Test <1.04> (2): a green color appears. Determine the absorption spectrum of a solution of Lanoconazole in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Lanoconazole RS prepared in the same man-ner as the sample solution: both spectra exhibit similar inten-sities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Lanoconazole, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Lanoconazole RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Lanoconazole according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). ‌(2) Related substances—Conduct this procedure using light-resistant vessels. Dissolve 0.10 g of Lanoconazole in 100 mL of methanol, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area by the automatic integration method: the total area of the peaks other than lanoconazole obtained from the sample solution is not larger than 1/2 times the peak area of lanoconazole from the standard solu-tion. Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Assay. Mobile phase: Dissolve 0.576 g of sodium 1-nonanesul-fonate in 1000 mL of a mixture of methanol, water and acetic acid (100) (55:44:1). Flow rate: Adjust so that the retention time of lanocona-zole is about 7 minutes. Time span of measurement: About 3 times as long as the retention time of lanoconazole, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2.5 mL of the stand-ard solution, and add methanol to make exactly 50 mL. Conˆrm that the peak area of lanoconazole obtained with 5 mL of this solution is equivalent to 3.5 to 6.5z of that with 5 mL of the standard solution. System performance: Put 20 mL of the sample solution in a colorless vessel, and expose to ultraviolet light (main wave-length: 365 nm) for 30 minutes. When the procedure is run with 5 mL of this solution under the above operating condi-tions, the resolution between the peak having the relative retention time of about 0.8 to lanoconazole and the peak of lanoconazole is not less than 1.5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of lanoconazole is not more than 1.0z. Loss on drying <2.41> Not more than 0.4z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately about 50 mg each of Lanoconazole and Lanoconazole RS, both previously dried, and dissolve each in methanol to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of the internal standard so-lution, add methanol to make 50 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with 5 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of lanoconazole to that of the internal standard. Amount (mg) of lanoconazole (C14H10ClN3S2) ＝MS × QT/QS MS: Amount (mg) of Lanoconazole RS taken Internal standard solution—A solution of diisopropyl 1,3- dithiolan-2-ylidenemalonate in methanol (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 295 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of methanol and water (11:9). Flow rate: Adjust so that the retention time of lanocona- zole is about 9 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, lanoconazole and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of lanoconazole to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

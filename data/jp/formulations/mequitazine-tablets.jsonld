@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mequitazine-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Mequitazine Tablets",
+    "ja": "メキタジン錠"
+  },
+  "monographId": "JP18-mequitazine-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mequitazine Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of mequitazine (C20H22N2S: 322.47). Method of preparation Prepare as directed under Tablets, with Mequitazine. Identification Powder Mequitazine Tablets. To a portion of the powder, equivalent to 3 mg of Mequitazine, add 50 mL of ethanol (95), shake thoroughly, and add ethanol (95) to make 100 mL. Centrifuge, if necessary, and filter the su-pernatant liquid through a membrane filter with a pore size not exceeding 0.5 mm. Discard 10 mL of the first filtrate, to 4 mL of the subsequent filtrate add ethanol (95) to make 25 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 253 nm and 257 nm and between 301 nm and 311 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Mequitazine Tablets add 50 mL of a mix-ture of methanol and water (4:3), and disperse to fine parti-cles by sonicating. Shake this solution thoroughly, and add methanol to make exactly 100 mL. Centrifuge, if necessary, ‌and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.5 mm. Discard 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 4."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Mequitazine Tablets. To a portion of the powder, equivalent to 3 mg of Mequitazine, add 50 mL of ethanol (95), shake thoroughly, and add ethanol (95) to make 100 mL. Centrifuge, if necessary, and filter the su-pernatant liquid through a membrane filter with a pore size not exceeding 0.5 mm. Discard 10 mL of the first filtrate, to 4 mL of the subsequent filtrate add ethanol (95) to make 25 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 253 nm and 257 nm and between 301 nm and 311 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Mequitazine Tablets add 50 mL of a mix-ture of methanol and water (4:3), and disperse to fine parti-cles by sonicating. Shake this solution thoroughly, and add methanol to make exactly 100 mL. Centrifuge, if necessary, ‌and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.5 mm. Discard 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 4.8 mg of mequitazine (C20H22N2S), and use this solu-tion as the sample solution. Then, proceed as directed in the Assay. Storage—Light-resistant. Mercaptopurine Hydrate"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

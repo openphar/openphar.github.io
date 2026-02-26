@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cetanol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cetanol",
+    "ja": "セタノール"
+  },
+  "monographId": "JP18-cetanol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Cetanol occurs as unctuous, white, flakes, granules, or masses. It has a faint, characteristic odor. It is tasteless. It is very soluble in pyridine, freely soluble in ethanol (95), in ethanol (99.5) and in diethyl ether, very slightly soluble in acetic anhydride, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 3.0 g of Cetanol in 25 mL of ethanol (99.5) by warming: the solution is clear. (2) Alkalinity—To the solution obtained in (1) add 2 drops of phenolphthalein TS: no red color develops. Residue on ignition <2.44> Not more than 0.05z (2 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-olivae",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Olivae",
+    "ja": "オリブ油"
+  },
+  "monographId": "JP18-oleum-olivae",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Olive Oil is a light yellow oil. It has a faint odor, which is not rancid, and has a bland taste. It is miscible with diethyl ether, with petroleum ether. It is slightly soluble in ethanol (95). The whole or a part of it congeals between 09C and 69C. Congealing point of the fatty acids: 17 – 269C Specific gravity <1.13> d 25: 0.908 – 0.914 Acid value <1.13> Not more than 1.0. Saponification value <1.13> 186 – 194 Unsaponifiable matters <1.13> Not more than 1.5z. Iodine value <1.13> 79 – 88"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Drying oil—Mix 2 mL of Olive Oil with 10 mL of diluted nitric acid (1 in 4), add 1 g of powdered sodium nitrite little by little with thorough shaking, and allow to stand in a cold place for 4 to 10 hours: the mixture congeals to a white solid. (2) Peanut oil—Weigh exactly 1.0 g of Olive Oil, dissolve in 60 mL of sulfuric acid-hexane-methanol TS, heat for 2.5 hours under a reflux condenser, cool, transfer to a separa-tor, and add 100 mL of water. Wash the vessel for the reflux extraction with 50 mL of petroleum ether, add the washing to the separator, shake, allow to stand, and separate the pe-troleum ether layer. Extract the aqueous layer with another 50 mL of petroleum ether, and combine the petroleum ether layer with the former petroleum ether solution. Wash the pe-troleum ether solution repeatedly with 20-mL portions of water until the washings show no more acidity to methyl orange TS. Then add 5 g of anhydrous sodium sulfate, shake, filter, wash anhydrous sodium sulfate with two 10-mL portions of petroleum ether, and filter the washings earth for gas chromatography (150 to 180 mm in particle di-ameter), coated with polyethylene glycol 20 mol/L in a ratio of 5z. Column temperature: A constant temperature of about 2209C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of methyl be-henate is about 18 minutes. System suitability— Test for required detectability: Adjust so that the peak height of methyl behenate obtained with 2 mL of the stand-ard solution is 5 to 10 mm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

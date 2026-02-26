@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carbon-dioxide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carbon Dioxide",
+    "ja": "二酸化炭素"
+  },
+  "monographId": "JP18-carbon-dioxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "CO2",
+  "molecularWeight": 44.01,
+  "casNumber": "124-38-9",
+  "definition": {
+    "en": "Carbon Dioxide contains not less than 99."
+  },
+  "appearance": {
+    "en": "Carbon Dioxide is a colorless gas at room tem-perature and under atmospheric pressure. It is odorless. A 1 mL volume of Carbon Dioxide dissolves in 1 mL of water, and the solution is slightly acid. 1000 mL of Carbon Dioxide at 09C and under a pressure of 101.3 kPa weighs 1.978 g."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Pass 100 mL of Carbon Dioxide through a carbon dioxide measuring detector tube: the detec-tor tube is changed to a stipulated color tone by each detec-tor tube, provided that the detector tube with a upper limit of measurement of not less than 10z is used. (2) Pass Carbon Dioxide into calcium hydroxide TS: a white precipitate is produced. Collect the precipitate, and add acetic acid (31): it dissolves with effervescence."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Place 50 mL of freshly boiled and cooled water in a Nessler tube, and pass 1000 mL of Carbon Dioxide into it for 15 minutes through an introducing tube about 1 mm in diameter extending to 2 mm from the bottom of the Nessler tube, then add 0.10 mL of methyl orange TS: the solution is not more colored than the following control solution. Control solution: To 50 mL of freshly boiled and cooled water in a Nessler tube add 0.10 mL of methyl orange TS and 1.0 mL of 0.01 mol/L hydrochloric acid VS. Hydrogen phosphide, hydrogen sulfide or reducing ＝ MS × QT/QS × V/4 5 9 4 organic substances—Place 25 mL of silver nitrate-ammonia TS and 3 mL of ammonia TS in each of two Nessler tubes MS: Amount of L-carbocisteine for assay taken Internal standard solution—A solution of nicotinic acid (9 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave- A and B, and designate the solution in each tube as solution A and solution B, respectively. Pass 1000 mL of Carbon Di-oxide into solution A in the same manner as directed in (1): the turbidity and color of this solution are the same as that of solution B. ‌628 Carbon monoxide—Pass a specified amount of Car-bon Dioxide through a carbon monoxide measuring detector tube: the concentration of carbon monoxide is less than 15 ppm, provided that the passing amount (mL) of Carbon Dioxide is stipulated according to each detector tube."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Place 125 mL of a solution of potassium hydroxide (1 in 2) in a gas pipet of suitable capacity. Measure exactly about 100 mL of Carbon Dioxide in a 100-mL gas buret filled with water. Force the entire volume of gas into the gas pipet, and shake for 5 minutes. Draw some of the unab-sorbed gas into the gas buret, measure the volume, force the residual back upon the surface of the liquid in the gas pipet, and repeat this procedure until a constant volume of the residual reading is obtained. Determine the volume V (mL) of the residual gas. Calculate the volume of the sample and V on the basis of the gas volume at 209C and at 101.3 kPa. Volume (mL) of carbon dioxide (CO2) ＝ volume (mL) of the sample － V (mL)"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Cylinders. Storage—Not exceeding 409C."
+  }
+}

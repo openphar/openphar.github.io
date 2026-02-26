@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ecothiopate-iodide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ecothiopate Iodide",
+    "ja": "エコチオパートヨウ化物"
+  },
+  "monographId": "JP18-ecothiopate-iodide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H23INO3PS",
+  "molecularWeight": 383.23,
+  "casNumber": "513-10-0",
+  "definition": {
+    "en": "Ecothiopate Iodide contains not less than 95."
+  },
+  "appearance": {
+    "en": "Ecothiopate Iodide occurs as white, crystals or crystalline powder. It is very soluble in water, freely soluble in methanol, slightly soluble in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Ecothiopate Iodide in 2 mL of water, and add 1 mL of nitric acid: a brown precipi- tate is formed. To 1 drop of the turbid solution containing this precipitate add 1 mL of hexane, and shake: a light red color develops in the hexane layer. Heat the suspension of the precipitate obtained in (1) until it becomes colorless, cool, add 10 mL of water, and use this solution as the sample solution. Two mL of the sample solution responds to Qualitative Tests <1.09> (2) for phos-phate. Two mL of the sample solution obtained in (2) re-sponds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 0.1 g of Ecothiopate Iodide in 40 mL of water: the pH of this solution is between 3.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Ecothiopate Iodide in 5 mL of water: the solution is clear and colorless. Heavy metals <1.07>—To 1.0 g of Ecothiopate Iodide in a Kjeldahl flask add 5 mL of nitric acid and 2 mL of sul-furic acid, put a small funnel on the mouth of the flask, and heat carefully until white fumes are evolved. After cooling, add 2 mL of nitric acid, and heat. Repeat this procedure twice, add several 2-mL portions of hydrogen peroxide (30), and heat until the solution becomes colorless, and white fumes are evolved. After cooling, transfer the solution together with a small quantity of water to a Nessler tube, and add water to make about 20 mL. Adjust the solution with ammonia solution (28) and ammonia TS to a pH be-tween 3.0 and 3.5, add water to make 50 mL, and use this solution as the test solution. Prepare the control solution as follows: proceed in the same manner as the preparation of the test solution, and add 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). Related substances—Dissolve 0.20 g of Ecothiopate Iodide in 10 mL of methanol, and use this solution as the sample solution. Pipet 3 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (4:2:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, phosphorus (V) oxide, 509C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.125 g of Ecothiopate Iodide, and dissolve in water to make exactly 100 mL. Pipet 10 mL of of this solution, add 30 mL of water, then add exactly 10 mL of phosphate buffer solution (pH 12), stopper the container, and allow to stand at 25 ± 39C for 20 minutes. To this solution add quickly 2 mL of acetic acid (100), and titrate <2.50> with 0.002 mol/L iodine VS (poten-tiometric titration). Perform the test in the same manner without phosphate buffer solution (pH 12), and make any necessary correction. Each mL of 0.002 mol/L iodine VS ＝ 1.533 mg of C9H23INO3PS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 09C."
+  }
+}

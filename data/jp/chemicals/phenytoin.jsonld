@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenytoin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenytoin",
+    "ja": "フェニトイン"
+  },
+  "monographId": "JP18-phenytoin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H12N2O2",
+  "molecularWeight": 252.27,
+  "definition": {
+    "en": "Phenytoin, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Phenytoin occurs as a white, crystalline pow-der or granules. It is odorless and tasteless. It is sparingly soluble in ethanol (95) and in acetone, slightly soluble in diethyl ether, and practically insoluble in water. It dissolves in sodium hydroxide TS. Melting point: about 2969C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Phenytoin in 2 mL of ammonia TS, and add 5 mL of silver nitrate TS: a white pre-cipitate is produced. Boil a mixture of 0.01 g of Phenytoin, 1 mL of am-monia TS and 1 mL of water, and add dropwise 2 mL of a mixture prepared from 50 mL of a solution of copper (II) sulfate pentahydrate (1 in 20) and 10 mL of ammonia TS: a red, crystalline precipitate is produced. Heat 0.1 g of Phenytoin with 0.2 g of sodium hydrox-ide, and fuse: the gas evolved turns moistened red litmus paper blue. Add 3 mL of chlorinated lime TS to 0.1 g of Phenytoin, shake for 5 minutes, and dissolve the oily pre-cipitate in 15 mL of hot water. After cooling, add 1 mL of dilute hydrochloric acid dropwise, then add 4 mL of water. Filter the white precipitate thus obtained, wash with water, and press it with dry filter paper to remove the accom-panying water. Dissolve the precipitate with 1 mL of chlo-roform, add 5 mL of diluted ethanol (9 in 10), and rub the inner surface of the flask to produce a white, crystalline pre-cipitate. Collect the precipitate, wash with ethanol (95), and dry: the melting point <2.60> is between 1659C and 1699C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Phenytoin in 10 mL of 0.2 mol/L sodium hydroxide VS: the solution is clear and colorless. Then heat the solution: no ‌turbidity is produced. Cool, and mix the solution with 5 mL of acetone: the solution is clear and colorless.‌ Acidity or alkalinity—Shake 2.0 g of Phenytoin with 40 mL of water for 1 minute, filter, and perform the follow-ing tests using this filtrate as the sample solution. To 10 mL of the sample solution add 2 drops of phe-nolphthalein TS: no color develops. Then add 0.15 mL of 0.01 mol/L sodium hydroxide VS: a red color develops. To 10 mL of the sample solution add 0.30 mL of 0.01 mol/L hydrochloric acid VS and 5 drops of methyl red TS: a red to orange color develops. standard solution, and use this solution as the sample solu-tion. Separately, weigh accurately about 25 mg of phenytoin for assay, previously dried at 1059C for 2 hours, and dis-solve in methanol to make exactly 25 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of phenytoin to that of the inter-nal standard. Chloride <1.03>—Dissolve 0.30 g of Phenytoin in 30 mL of acetone, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the Amount (mg) of phenytoin (C ＝ MS × QT/QS × 2 15H12N2O2) test solution. Prepare the control solution from 0.60 mL of 0.01 mol/L hydrochloric acid VS, 30 mL of acetone and 6 mL of dilute nitric acid, and add water to 50 mL (not more than 0.071z). Heavy metals <1.07>—Proceed with 1.0 g of Phenytoin according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (2 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Phenytoin, previ-ously dried, dissolve in 40 mL of ethanol (95) with the aid of gentle heating, add 0.5 mL of thymolphthalein TS immedi-ately, and titrate with 0.1 mol/L sodium hydroxide VS until a light blue color develops. Then add 1 mL of pyridine, 5 drops of phenolphthalein TS and 25 mL of silver nitrate TS, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until a light red color, which persists for 1 minute, develops. Each mL of 0.1 mol/L sodium hydroxide VS MS: Amount (mg) of phenytoin for assay taken Internal standard solution—A solution of propyl parahy-droxybenzoate in the mobile phase (1 in 25,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 258 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol and 0.02 mol/L phosphate buffer solution (pH 3.5) (11:9). Flow rate: Adjust so that the retention time of phenytoin is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, phenytoin and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. ＝ 25.23 mg of C 15H 12N2O2 System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  }
+}

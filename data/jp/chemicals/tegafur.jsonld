@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tegafur",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tegafur",
+    "ja": "テガフール"
+  },
+  "monographId": "JP18-tegafur",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H9FN2O3",
+  "molecularWeight": 200.17,
+  "definition": {
+    "en": "Tegafur, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tegafur occurs as a white crystalline powder. It is soluble in methanol, and sparingly soluble in water and in ethanol (95). It dissolves in dilute sodium hydroxide TS. A solution of Tegafur in methanol (1 in 50) shows no opti-cal rotation. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Prepare the test solution with 0.01 g of Tegafur as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L so-dium hydroxide TS and 20 mL of water as an absorbing liq-uid: the test solution responds to Qualitative Tests <1.09> (2) for fluoride. Determine the absorption spectrum of a solution of Tegafur in 0.01 mol/L sodium hydroxide TS (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Tegafur, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, recrystallize the sample with a mixture of methanol and acetone (1:1), filter and dry the crystals, and perform the test with the crystals. pH <2.54> Dissolve 0.5 g of Tegafur in 50 mL of water: the pH of this solution is between 4.2 and 5.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.2 g of Tegafur in 10 mL of dilute sodium hydroxide TS: the so-lution is clear and colorless. Chloride <1.03>—Dissolve 0.8 g of Tegafur in 40 mL of water by warming, cool, filter if necessary, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the con-trol solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.011z). Heavy metals <1.07>—Dissolve 1.0 g of Tegafur in 40 mL of water by warming, cool, filter if necessary, and add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). ‌Arsenic <1.11>—Prepare the test solution in a plati-num crucible with 1.0 g of Tegafur according to Method 4, incinerating by ignition between 7509C and 8509C, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Tegafur in 10 mL of methanol, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of chloroform and ethanol (95) (5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Tegafur, previ-ously dried, place in an iodine bottle, dissolve in 75 mL of water, and add exactly 25 mL of 1/60 mol/L potassium bro-mate VS. Add rapidly 1.0 g of potassium bromide and 12 mL of hydrochloric acid, stopper the bottle tightly at once, and allow to stand for 30 minutes with occasional shaking. To this solution add 1.6 g of potassium iodide, shake gently, allow to stand for exactly 5 minutes, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indi-cator: 2 mL of starch TS). Perform a blank determination in the same manner. Each mL of 1/60 mol/L potassium bromate VS ＝ 10.01 mg of C8H9FN2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

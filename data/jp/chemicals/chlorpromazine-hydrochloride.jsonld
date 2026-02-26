@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorpromazine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorpromazine Hydrochloride",
+    "ja": "クロルプロマジン塩酸塩"
+  },
+  "monographId": "JP18-chlorpromazine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H19ClN2S.HCl",
+  "molecularWeight": 355.33,
+  "appearance": {
+    "en": "Chlorpromazine Hydrochloride occurs as a white to pale yellow crystalline powder. It is odorless, or has a faint, characteristic odor. It is very soluble in water, freely soluble in ethanol (95) and in acetic acid (100), sparingly soluble in acetic anhy-dride, and practically insoluble in diethyl ether. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Chlorproma-zine Hydrochloride (1 in 1000) add 1 drop of iron (III) chlo-ride TS: a red color develops. Dissolve 0.1 g of Chlorpromazine Hydrochloride in JP XVIII Official Monographs / Chlorpromazine Hydrochloride Tablets 745 ‌20 mL of water and 3 drops of dilute hydrochloric acid, add 10 mL of 2,4,6-trinitrophenol TS, and allow to stand for 5 hours. Collect the resulting precipitate, wash with water, recrystallize from a small portion of acetone, and dry at 1059C for 1 hour: the crystals so obtained melt <2.60> be-tween 1759C and 1799C.‌ Dissolve 0.5 g of Chlorpromazine Hydrochloride in 5 mL of water, add 2 mL of ammonia TS, and heat on a water bath for 5 minutes. Cool, filter, and render the filtrate acidic with dilute nitric acid: the solution responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution of 1.0 g of Chlorpromazine Hydrochloride in 20 mL of water, when observed within 10 minutes, is clear and colorless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of Chlor- promazine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer an exactly measured volume of Chlor-promazine Hydrochloride Injection, equivalent to about pH <2.54> Dissolve 1.0 g of Chlorpromazine Hydrochlo- ride in 20 mL of freshly boiled and cooled water, and meas- 0.15 g of chlorpromazine hydrochloride (C 17H 19ClN2S.HCl) ure within 10 minutes: the pH of this solution is between 4.0 and 5.0. Purity (1) Clarity and color of solution—A solution of 1.0 g of Chlorpromazine Hydrochloride in 20 mL of water, when observed within 10 minutes, is clear and colorless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of Chlor- promazine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Weigh accurately about 0.7 g of Chlorpromazine Hydrochloride, previously dried, dissolve in 50 mL of a mix-ture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentio-metric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.53 mg of C17H19ClN2S.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/geranii-herba-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Geranii Herba Pulverata",
+    "ja": "ゲンノショウコ末"
+  },
+  "monographId": "JP18-geranii-herba-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Geranium Herb occurs as a grayish green to light yellow-brown powder. It has a slight odor and an astringent taste. Under a microscope <5.01>, Powdered Geranium Herb reveals mainly fibers, spiral vessels, pitted vessels, and unicellular hairs; furthermore, multicellular glandular hairs, epidermis with stomata, fragments of palisade tissue, rosette aggregates of calcium oxalate, and starch grains. Fiber is thick-walled, with somewhat distinct pits; unicellular hair shows small point-like protrusions on the surface; palisade tissue consisting of circular parenchyma cells in surface view, each cell containing one rosette aggregate of calcium oxalate which is about 20 mm in diameter. Starch grains consisting of simple grains but rarely of 2-compound grains, ovoid to spherical, 5 – 30 mm in diameter, with distinct hilum."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Boil 0.1 g of Powdered Geranium Herb with 10 mL of water, filter, and to the filtrate add 1 drop of iron (III) chloride TS: a dark blue color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter—Under a microscope <5.01>, Pow-dered Geranium Herb reveals no stone cells. Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

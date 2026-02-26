@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dorzolamide-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dorzolamide Hydrochloride",
+    "ja": "ドルゾラミド塩酸塩"
+  },
+  "monographId": "JP18-dorzolamide-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H16N2O4S3.HCl",
+  "molecularWeight": 360.9,
+  "casNumber": "130693-82-2",
+  "appearance": {
+    "en": "Dorzolamide Hydrochloride occurs as a white crystalline powder. It is soluble in water, sparingly soluble in methanol, and very slightly soluble in ethanol (99.5). It dissolves in diluted ammonia solution (28) (13 in 400). Time span of measurement: About 3 times as long as the retention time of dorzolamide, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the sample solution, and add a mixture of water and methanol (4:1) to make exactly 100 mL. Pipet 1 mL of this solution, add a mixture of water and methanol (4:1) to make exactly 20 mL, and use this solution as the solution for system suitability test. Confirm that the peak area of dorzolamide obtained with 10 mL of the solution for system suitability test is equivalent to 0.07 to 0.13z of that with 10 mL of the sample solution. System performance: To 1 mL of the sample solution add 2 mL of a mixture of water and methanol (4:1). When the procedure is run with 10 mL of this solution under the above 404.7 Optical rotation [a]25 : －16.0 – －17.59(0.25 g calcu- operating conditions, the number of theoretical plates and lated on the anhydrous basis, water, 25 mL, 100 mm). Dorzolamide Hydrochloride shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dorzolamide Hydrochloride in a solution of hy-drochloric acid in methanol (9 in 1000) (3 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Dorzolamide Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dor-zolamide Hydrochloride as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Dorzolamide Hydrochloride RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. A solution of Dorzolamide Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Dorzolamide Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 30 mg of Dorzolamide Hydrochloride in 50 mL of a mixture of water and methanol (4:1), and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic in-tegration method, and calculate their amounts by the area percentage method: the amount of the peaks other than dor-zolamide is not more than 0.1z. Operating conditions— Detector, column, column temperature, and flow rate: Proceed as directed in the operating conditions in the Assay. Mobile phase A: Adjust to pH 4.5 of a mixture of water and acetic acid (100) (1000:1) with triethylamine. the symmetry factor of the peak of dorzolamide are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of dorzolamide is not more than 7z. Enantiomer—Dissolve 20 mg of Dorzolamide Hydro-chloride in 4 mL of diluted ammonia solution (28) (13 in 400), and extract this solution with two 4-mL portions of ethyl acetate. Combine the extracts, and evaporate the ethyl acetate at 509C under a current of nitrogen. Dissolve the residue in 3 mL of acetonitrile, add 3 drops of (S)-1-phenylethyl isocyanate, and allow to stand at 509C for 10 minutes. Evaporate at 509C under a current of nitrogen, dis-solve the residue in 10 mL of a mixture of tert-butylmethyl ether, acetic acid (100) and acetonitrile (873:100:27), and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas of dorzolamide, A2, and that of the enantiomer, having the relative retention time of about 1.5 to dorzolamide, A1, by the automatic integration method: the result of A1/(A1 ＋ A2) is not more than 0.005. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To a mixture of 30 mL of acetonitrile and 3 mL of water add tert-butylmethyl ether to make 1000 mL. To 650 mL of this solution add 350 mL of heptane. Flow rate: Adjust so that the retention time of dorzola-mide is about 8 minutes. System suitability— Test for required detectability: Pipet 1 mL of the sample solution, add a mixture of tert-butylmethyl ether, acetic acid ‌892 (100) and acetonitrile (873:100:27) to make exactly 200 mL, and use this solution as the solution for system suitability test. Confirm that the peak area of dorzolamide obtained with 5 mL of the solution for system suitability test is equiva-lent to 0.4 to 0.6z of that with 5 mL of the sample solution. System performance: When the procedure is run with 5 mL of the sample solution under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of dorzolamide are not less than 4000 and not more than 1.4, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the peak area of dorzolamide is not more than 7z. Water <2.48> Not more than 0.5z (0.5 g, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Dorzolamide Hydrochloride and Dorzolamide Hydrochloride RS (separately, determine the water <2.48> in the same manner as Dorzolamide Hydrochloride), dissolve in a mixture of water and methanol (4:1) to make exactly 100 mL, and use these solutions as the sample solution and the standard solu-tion, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of dorzolamide in each solution. Amount (mg) of dorzolamide hydrochloride (C10H16N2O4S3.HCl) ＝ MS × AT/AS MS: Amount (mg) of Dorzolamide Hydrochloride RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 8.3 cm in length, packed with octylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Adjust to pH 4.5 of a mixture of water and acetic acid (100) (1000:1) with triethylamine. Flow rate: Adjust so that the retention time of dorzola-mide is about 9 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of dorzolamide are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of dorzolamide is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

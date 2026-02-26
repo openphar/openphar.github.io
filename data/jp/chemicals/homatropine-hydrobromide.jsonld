@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/homatropine-hydrobromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Homatropine Hydrobromide",
+    "ja": "ホマトロピン臭化水素酸塩"
+  },
+  "monographId": "JP18-homatropine-hydrobromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H21NO3.HBr",
+  "molecularWeight": 356.25,
+  "definition": {
+    "en": "Homatropine Hydrobromide contains not less than lution with 0."
+  },
+  "appearance": {
+    "en": "Homatropine Hydrobromide occurs as white, crystals or crystalline powder. It is odorless. It is freely soluble in water, sparingly soluble in ethanol (95), slightly soluble in acetic acid (100), very slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. It is affected by light. Melting point: about 2149C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Homatropine Hydrobromide (1 in 20) add 2 to 3 drops of iodine TS: a brown precipitate is produced. Dissolve 0.05 g of Homatropine Hydrobromide in 5 mL of water, and add 3 mL of 2,4,6-trinitrophenol TS: a yellow precipitate is produced. Filter the precipitate, wash with five 10-mL portions of water, and dry at 1059C for 2 hours: it melts <2.60> between 1849C and 1879C. A solution of Homatropine Hydrobromide (1 in 20) responds to Qualitative Tests <1.09> for bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 1.0 g of Homatropine ‌Hydrobromide in 20 mL of water, and add 0.40 mL of 0.01 mol/L sodium hydroxide VS and 1 drop of methyl red-methylene blue TS: a green color develops. Atropine, hyoscyamine and scopolamine—To 10 mg of Homatropine Hydrobromide add 5 drops of nitric acid, evaporate on a water bath to dryness, and cool. Dissolve the residue in 1 mL of N,N-dimethylformamide, and add 5 to 6 drops of tetraethylammonium hydroxide TS: no red-purple color is produced. Related substances—Dissolve 0.15 g of Homatropine Hydrobromide in 3 mL of water, and use this solution as the sample solution. To 1 mL of the sample solution add 2 to 3 drops of tannic acid TS: no precipitate is produced. To 1 mL of the sample solution add 2 to 3 drops each of dilute hydrochloric acid and platinic chloride TS: no pre-cipitate is produced. Loss on drying <2.41> Not more than 1.5z (0.5 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (0.2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve by warming about 0.4 g of Homatropine Hydrobromide in 60 mL of a mixture of acetic anhydride and acetic acid (100) (7:3). Cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.63 mg of C16H21NO3.HBr"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

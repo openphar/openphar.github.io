@@ -1,0 +1,37 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clindamycin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clindamycin Hydrochloride",
+    "ja": "クリンダマイシン塩酸塩"
+  },
+  "monographId": "JP18-clindamycin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H33ClN2O5S.HCl",
+  "molecularWeight": 461.44,
+  "casNumber": "21462-39-5",
+  "definition": {
+    "en": "Clindamycin Hydrochloride is the hydrochloride of a derivative of lincomycin. It contains not less than 838 mg (potency) and not more than 940 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Clindamycin Hydrochloride occurs as white to grayish white, crystals or crystalline powder. It is freely soluble in water and in methanol, and slightly damycin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of clindamycin, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of clindamycin obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of clindamycin are not less than 6000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clindamycin is not more than 2.0z. Water <2.48> Not more than 6.0z (0.3 g, volumetric titra-tion, direct titration)."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Clindamycin Hydro-chloride and Clindamycin Hydrochloride RS, equivalent to about 20 mg (potency), dissolve each in the mobile phase to make exactly 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the ‌776 test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of clindamycin in each solution. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 capsule of Clindamycin Hydrochloride Capsules add Amount [mg (potency)] of clindamycin (C ＝ MS × AT/AS × 1000 18H33ClN2O5S) a suitable amount of the mobile phase, shake for 30 minutes, and add the mobile phase to make exactly V mL so that each mL contains 0.75 mg (potency) of Clindamycin Hydrochlo- MS: Amount [mg (potency)] of Clindamycin Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 0.05 mol/L potassium dihydrogen phos-phate TS add 8 mol/L potassium hydroxide TS to adjust the pH to 7.5. To 550 mL of this solution add 450 mL of aceto-nitrile for liquid chromatography. Flow rate: Adjust so that the retention time of clindamy-cin is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of clindamycin are not less than 6000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clindamycin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

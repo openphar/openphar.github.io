@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/acetazolamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Acetazolamide",
+    "ja": "アセタゾラミド"
+  },
+  "monographId": "JP18-acetazolamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H6N4O3S2",
+  "molecularWeight": 222.25,
+  "definition": {
+    "en": "Acetazolamide contains not less than 98."
+  },
+  "appearance": {
+    "en": "Acetazolamide occurs as a white to pale yellow-white crystalline powder. It is odorless, and has a slight bitter taste. It is slightly soluble in ethanol (95), very slightly soluble in water, and practically insoluble in diethyl ether. Melting point: about 2559C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Acetazolamide add 5 mL of sodium hydroxide TS, then add 5 mL of a solution of 0.1 g Chloride <1.03>—To 1.5 g of Acetazolamide add 75 mL of water, and warm at 709C for 20 minutes with occa-sional shaking. After cooling, filter, and to 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.20 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Sulfate <1.14>—To 25 mL of the filtrate obtained in (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.038z). Heavy metals <1.07>—Proceed with 1.0 g of Aceta- zolamide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Silver-reducing substances—Wet 5 g of Acetazola-mide with 5 mL of aldehyde-free ethanol, and add 125 mL of water, 10 mL of nitric acid and exactly 5 mL of 0.1 mol/L silver nitrate VS. Stir for 30 minutes by protecting from light, filter through a glass filter (G3), and wash the residue on the glass filter with two 10-mL portions of water. Com-bine the filtrate with the washings, to the solution add 5 mL of ammonium iron (III) sulfate TS, and titrate <2.50> with 0.1 mol/L ammonium thiocyanate VS: not less than 4.8 mL of 0.1 mol/L ammonium thiocyanate VS is consumed. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Acetazolamide, and dissolve in 400 mL of water in a water bath by heating. After cooling, add water to make exactly 1000 mL. Pipet 5 mL of the solution, add 10 mL of 1 mol/L hydrochloric acid TS, and then add water to make exactly 100 mL. Determine the absorbance A of this solution at the wavelength of maxi-mum absorption at about 265 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of acetazolamide (C4H6N4O3S2) ＝ A/474 × 200,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

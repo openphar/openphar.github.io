@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/fructus-hordei-germinatus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Fructus Hordei Germinatus",
+    "ja": "バクガ"
+  },
+  "monographId": "JP18-fructus-hordei-germinatus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Oval caryopsis, 10 mm in length, 3 – 4 mm in width, furrowed on one surface; externally light yellow, sometimes with plumule at one end, with hairs and some-times with roots at the other end; cut surface of caryopsis white and powdery; easily broken and light in texture. Odor, slight; taste, slightly sweet. Under a microscope <5.01>, a transverse section of the caryopsis reveals glume, pericarp, seed coat and endosperm in this order from the outside; 2 – 4 cellular layered aleurone layers on the circumference of endosperm; endosperm filled with starch grains; starch grains as spheroidal or ellipsoidal, large grains about 20 mm and small grains about 2 mm in di-ameter mixed together."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3.0 g of pulverized Malt add 5 mL of methanol, shake for 15 minutes, centrifuge, and use the su-pernatant liquid as the sample solution. Perform the test with the sample solution as directed under Liquid Chroma-tography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of methanol, water and acetic acid (100) (8:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly a solution of 0.1 g of 2,3-indolinedione in 50 mL of acetone on the plate, and heat the plate at 1059C for 5 minutes: a blue-purple spot appears at an Rf value of about 0.4. Loss on drying <5.01> Not more than 11.0z. Total ash <5.01> Not more than 2.6z. Acid-insoluble ash <5.01> Not more than 0.8z. Extract content <5.01> Dilute ethanol-soluble extract: Not ‌2070 Maoto Extract / Crude Drugs and Related Drugs less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

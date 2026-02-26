@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-geranium-herb",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-geranium-herb",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Geranium Herb",
+    "la": "Geranii Herba Pulverata",
+    "ja": "ゲンノショウコ末"
+  },
+  "definition": {
+    "en": "about 20 mm in diameter"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/geranium-herb"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

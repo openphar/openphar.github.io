@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/fluorescein-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Fluorescein Sodium",
+    "ja": "フルオレセインナトリウム"
+  },
+  "monographId": "JP18-fluorescein-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Fluorescein Sodium contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fluorescein Sodium occurs as an orange pow-der. It is odorless, and tasteless. It is freely soluble in water, in methanol and in ethanol (95), and practically insoluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a solution of Fluorescein Sodium (1 in 100) having a strong green fluorescence, add a large quan-tity of water: the fluorescence remains. Acidify the solution with hydrochloric acid: the fluorescence disappears. Then render the solution alkaline with sodium hydroxide TS: the fluorescence reappears. Place 1 drop of a solution of Fluorescein Sodium (1 in 2000) on a piece of filter paper: a yellow spot develops. Expose the spot, while moist, to the vapor of bromine for 1 minute and then to ammonia vapor: the yellow color of the spot changes to red. Char 0.5 g of Fluorescein Sodium by ignition, cool, mix the residue with 20 mL of water, and filter: the filtrate responds to Qualitative Tests <1.09> for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1 g of Fluorescein Sodium in 10 mL of water: the solution is clear, and shows a red color. Chloride <1.03>—Dissolve 0.15 g of Fluorescein So- dium in 20 mL of water, add 6 mL of dilute nitric acid and water to make 30 mL, and filter. To 20 mL of the filtrate add 2 mL of dilute nitric acid and water to make 50 mL. Per-form the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.355z). Sulfate <1.14>—Dissolve 0.20 g of Fluorescein So- dium in 30 mL of water, add 2.5 mL of dilute hydrochloric acid and water to make 40 mL, and filter. To 20 mL of the filtrate add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.480z). Zinc—Dissolve 0.10 g of Fluorescein Sodium in 10 mL of water, add 2 mL of hydrochloric acid, and filter. To the filtrate add 0.1 mL of potassium hexacyanoferrate (II) TS: no turbidity is produced immediately. Related substances—Dissolve 0.20 g of Fluorescein Sodium in exactly 10 mL of methanol, and use this solution as the sample solution. Perform the test with this solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and ammonia solution (28) (30:15:1) ‌1028 to a distance of about 10 cm, and air-dry the plate: any colored spot other than the principal spot does not appear. Loss on drying <2.41> Not more than 10.0z (1 g, 1059C, constant mass)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer about 0.5 g of Fluorescein Sodium, accu-rately weighed, to a separator. Dissolve in 20 mL of water, add 5 mL of dilute hydrochloric acid, and extract with four 20-mL portions of a mixture of 2-methyl-1-propanol and chloroform (1:1). Wash each extract successively with the same 10 mL of water. Evaporate the combined extracts on a water bath with the aid of a current of air. Dissolve the residue in 10 mL of ethanol (99.5), evaporate the solution on a water bath to dryness, dry the residue at 1059C for 1 hour, and weigh as fluorescein (C20H12O5: 332.31). Amount (mg) of fluorescein sodium (C20H10Na2O5) ＝ amount (mg) of fluorescein (C20H12O5) × 1.132"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/zinc-chloride",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Zinc Chloride",
+    "ja": "塩化亜鉛"
+  },
+  "monographId": "JP18-zinc-chloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Chloride contains not less than 97."
+  },
+  "appearance": {
+    "en": "Zinc Chloride occurs as white, crystalline pow-der, rods, or masses. It is odorless. It is very soluble in water, and freely soluble in ethanol (95), and its solution may sometimes be slightly turbid. The solution becomes clear on addition of a small amount of hy-drochloric acid. The pH of a solution of 1.0 g of Zinc Chloride in 2 mL of water is between 3.3 and 5.3. It is deliquescent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Zinc Chloride (1 in 30) re-sponds to Qualitative Tests <1.09> for zinc salt and chloride. allow to stand for 5 minutes, and immediately observe from the top downward against a white background: the solution has no more color than the following control solution. Control solution: To 2.5 mL of Standard Lead Solution add 3 mL of water and 15 mL of potassium cyanide TS, shake thoroughly, and add 1 drop of sodium sulfide TS (not more than 50 ppm). Alkali earth metals and alkali metals—Dissolve 2.0 g of Zinc Chloride in 120 mL of water, add ammonium sulfide TS to complete precipitation, add water to make 200 mL, shake thoroughly, and filter through dry filter paper. Dis-card the first 20 mL of the filtrate, take the following 100 mL of the filtrate, evaporate with 3 drops of sulfuric acid to dryness, and heat the residue strongly at 6009C to constant mass: the mass is not more than 10.0 mg. Arsenic <1.11>—Prepare the test solution with 0.40 g of Zinc Chloride according to Method 1, and perform the test (not more than 5 ppm). Oxychloride—Shake gently 0.25 g of Zinc Chloride with 5 mL of water and 5 mL of ethanol (95), and add 0.3 mL of 1 mol/L hydrochloric acid VS: the solution is clear."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Zinc Chloride, add 0.4 mL of dilute hydrochloric acid and water to make exactly 200 mL. Measure exactly 20 mL of the solution, add 80 mL of water, 2 mL of ammonia-ammonium chloride buffer so-lution (pH 10.7) and titrate <2.50> with 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.363 mg of ZnCl2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

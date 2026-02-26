@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tragacantha-pulverata",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tragacantha Pulverata",
+    "ja": "トラガント末"
+  },
+  "monographId": "JP18-tragacantha-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Tragacanth occurs as a white to yellowish white powder. It is odorless, tasteless and mucilaginous. Under a microscope <5.01>, it, immersed in olive oil or liquid paraffin, reveals numerous angular fragments with a small amount of the circular or irregular lamellae or of starch grains. Starch grains are spherical to elliptical, mostly simple and occasionally 2- to 4-compound grains, simple grain, 3 – 25 mm in diameter. The fragments are swollen and altered with water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 g of Powdered Tragacanth add 50 mL of water: a nearly uniform, slightly turbid mucilage is formed. (2) To Powdered Tragacanth add dilute iodine TS, and examine the mixture microscopically <5.01>: a few blue-colored starch grains are observable."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Karaya gum—Boil 1 g of Powdered Tragacanth with 20 mL of water until a mucilage is formed, add 5 mL of hydrochloric acid, and again boil the mixture for 5 minutes: no light red to red color develops. Total ash <5.01> Not more than 4.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-tragacanth",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-tragacanth",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Tragacanth",
+    "la": "Tragacantha Pulverata",
+    "ja": "トラガント末"
+  },
+  "definition": {
+    "en": "powder of Tragacanth"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/tragacanth"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

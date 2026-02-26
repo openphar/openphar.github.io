@@ -1,0 +1,38 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/carboxymethylcellulose-calcium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Carboxymethylcellulose Calcium",
+    "ja": "カルメロースカルシウム"
+  },
+  "monographId": "JP18-carboxymethylcellulose-calcium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Carmellose Calcium occurs as a white to yel-lowish white powder. It is practically insoluble in ethanol (95) and in diethyl ether. It swells with water to form a suspension. The pH of a suspension, obtained by shaking 1.0 g of Car-mellose Calcium with 100 mL of water, is between 4.5 and 6.0. It is hygroscopic.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake thoroughly 0.1 g of Carmellose Calcium with 10 mL of water, followed by 2 mL of sodium hydroxide TS, allow to stand for 10 minutes, and use this so-lution as the sample solution. To 1 mL of the sample solu-tion add water to make 5 mL. To 1 drop of this solution add 0.5 mL of chromotropic acid TS, and heat in a water bath for 10 minutes: a red-purple color develops. Shake 5 mL of the sample solution obtained in (1) with 10 mL of acetone: a white, flocculent precipitate is produced. Shake 5 mL of the sample solution obtained in (1) with 1 mL of iron (III) chloride TS: a brown, flocculent precipitate is produced. Ignite 1 g of Carmellose Calcium to ash, dissolve the residue in 10 mL of water and 6 mL of acetic acid (31), and filter, if necessary. Boil the filtrate, cool, and neutralize with ammonia TS: the solution responds to Qualitative Tests <1.09> (1) and (3) for calcium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Alkalinity—Shake thoroughly 1.0 g of Carmel-lose Calcium with 50 mL of freshly boiled and cooled water, and add 2 drops of phenolphthalein TS: no red color de-velops. Chloride <1.03>—Shake thoroughly 0.80 g of Car- mellose Calcium with 50 mL of water, add 10 mL of sodium hydroxide TS to dissolved, add water to make 100 mL, and use this solution as the sample solution. Heat 20 mL of the sample solution with 10 mL of 2 mol/L nitric acid TS on a water bath until a flocculent precipitate is produced. After cooling, centrifuge, and take out the supernatant liquid. Wash the precipitate with three 10-mL portions of water by centrifuging each time, combine the supernatant and the washings, and add water to make 100 mL. Take 25 mL of this solution, and add 1 mL of nitric acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.36z). Sulfate <1.14>—Heat 10 mL of the sample solution obtained in (2) with 1 mL of hydrochloric acid in a water bath until a flocculent precipitate is produced. Cool, centri-fuge, and take out the supernatant liquid. Wash the precipi-tate with three 10-mL portions of water by centrifuging each time, combine the supernatant and the washings, and add water to make 100 mL. Perform the test with 25 mL this so-lution as the test solution. Prepare the control solution with 0.42 mL of 0.005 mol/L sulfuric acid VS. To the test solu-tion and the control solution add 1 mL of 3 mol/L hydro-chloric acid TS and 3 mL of barium chloride TS, then add water to make 50 mL, and mix. Allow to stand for 10 minutes, and compare the turbidity of these solutions: the turbidity obtained with the test solution is not more than that obtained with the control solution (not more than 1.0z). ‌632 (4) Heavy metals <1.07>—Proceed with 1.0 g of Car-mellose Calcium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm).◆ Loss on drying <2.41> Not more than 10.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> 10 – 20z (after drying 1 g). ◆Containers and storage Containers—Tight containers.◆ Carmellose Sodium Carboxymethylcellulose Sodium"
+      }
+    }
+  ]
+}

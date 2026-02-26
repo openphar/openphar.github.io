@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mosapride-citrate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Mosapride Citrate Hydrate",
+    "ja": "モサプリドクエン酸塩水和物"
+  },
+  "monographId": "JP18-mosapride-citrate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "636582-62-2",
+  "appearance": {
+    "en": "Mosapride Citrate Hydrate occurs as a white to yellowish white crystalline powder. It is freely soluble in N,N-dimethylformamide and in ace-tic acid (100), sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. A solution of Mosapride Citrate Hydrate in N,N-dimethylformamide (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Mosapride Citrate Hydrate in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Mosapride Citrate Hydrate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Mosapride Citrate Hydrate in N,N-dimethylformamide (1 in 10) responds to the Qualitative Tests <1.09> (1) for citrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Mosapride Citrate Hydrate in a platinum crucible according to Method 4, and perform the test. Prepare the control solu-tion with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.10 g of Mosapride Citrate Hydrate in 50 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 50 mL. Pipet 1 mL of this solution, add methanol to make exactly 20 mL, and use this solution as the standard solution. Perform the test with ex-actly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak having the relative retention time of about 0.47 to mosapride ob-tained from the sample solution is not larger than 3 times the peak area of mosapride from the standard solution, and the area of each peak other than mosapride and the peak men-tioned above from the sample solution is not larger than the peak area of mosapride from the standard solution. Further-more, the total area of the peaks other than mosapride from the sample solution is not larger than 5 times the peak area 0 – 35 80 → 45 20 → 55 Flow rate: 1.0 mL per minute. Time span of measurement: For 35 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 4 mL of the standard solution, and add methanol to make exactly 20 mL. Confirm that the peak area of mosapride obtained with 5 mL of this solution is equivalent to 15 to 25z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of mosapride are not less than 40,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of mosapride is not more than 5.0z. Water <2.48> 5.0 – 6.5z (0.5 g, volumetric titration, back titration). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately 0.5 g of Mosapride Citrate Hy-drate, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 61.40 mg of C21H25ClFN3O3.C6H8O7"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/curcumae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Curcumae Rhizoma",
+    "ja": "ガジュツ"
+  },
+  "monographId": "JP18-curcumae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly ovoid to oblong-ovoid or conical rhi-zome, 2 – 8 cm in length, 1.5 – 4 cm in diameter; externally grayish yellow-brown to grayish brown; nodes protruded as rings; internode of 0.3 – 0.8 cm, with scars of roots, and small protrusions consisting of scars of branched rhizomes; hard in texture; a transverse section reveals cortex and stele distinctly; cortex 2 – 5 mm in thickness; a transverse section, ‌1994‌ Cyperus Rhizome / Crude Drugs and Related Drugs grayish brown in rhizome of 1) Curcuma zedoria origin, light yellow to grayish yellow or light yellow-green to grayish yellow-green in 2) Curcuma phaeocaulis origin and purplish brown to dark purple-brown in 3) Curcuma kwangsiensis origin, and sometimes lustrous. Odor, characteristic; taste, pungent, bitter and cool feel-ing on chewing. Under a microscope <5.01>, a transverse section of central part reveals the outermost layer usually consisting of a cork layer 4 – 10 cells thick; cortex and stele divided by endoder-mis, composed of parenchyma cells, vascular bundles scat-tered; small sized vascular bundles line up beneath the endodermis; oil cells contain yellow-brown to dark brown oily substances, scattered in parenchyma; parenchyma contains gelatinized starch and rarely crystals of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Curcuma Rhizome add 5 mL of water, shake, then add 5 mL of hexane, shake for 10 minutes, centrifuge, and use the hexane layer as the sample solution. Perform the test with this solution as direct-ed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (4:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybezaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: a deep blue to dark brown spot and a red-brown to brown spot appear at Rf values of about 0.3 and about 0.2, respectively."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Curcuma Rhizome according to Method 3, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Curcuma Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 7.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Curcuma Rhizome, provided that 1 mL of silicon resin is previously added to the sample in the flask: the volume of essential oil is not less than 0.5 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

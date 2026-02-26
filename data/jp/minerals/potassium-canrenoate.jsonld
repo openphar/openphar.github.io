@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-canrenoate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Canrenoate",
+    "ja": "カンレノ酸カリウム"
+  },
+  "monographId": "JP18-potassium-canrenoate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Canrenoate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Potassium Canrenoate occurs as a pale yellow-white to pale yellow-brown, crystalline powder. It is freely soluble in water, soluble in methanol, sparingly soluble in ethanol (95), and practically insoluble in chlo-roform and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Potassium Canrenoate in 2 drops of sulfuric acid: an orange color develops. Ob-serve under ultraviolet light (main wavelength: 365 nm): the solution shows a yellow-green fluorescence. Add 1 drop of acetic anhydride to this solution: the color of the solution changes to red. Determine the absorption spectrum of a solution of Potassium Canrenoate in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Po-tassium Canrenoate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. The solution of Potassium Canrenoate (1 in 10) re-sponds to Qualitative Tests <1.09> (1) for potassium salt. D Optical rotation <2.49> [a]20: －71 – －769(after drying, 0.2 g, methanol, 20 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Potassium Canrenoate in 20 mL of water: the pH of this solution is between 8.4 and 9.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Potassium Canrenoate in 5 mL of water: the solution is clear, and shows a pale yellow to light yellow color. Heavy metals <1.07>—Proceed with 2.0 g of Potas-sium Canrenoate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Potassium Canrenoate according to Method 3, and per-form the test (not more than 2 ppm). Canrenone—Place 0.40 g of Potassium Canrenoate in a glass-stoppered centrifuge tube, cool in ice-water to a temperature not higher than 59C, add 6 mL of boric acid-potassium chloride-sodium hydroxide buffer solution (pH 10.0) being cooled to a temperature not higher than 59C to dissolve, and add 8 mL of water being cooled to a tempera-ture not higher than 59C. Add exactly 10 mL of chloroform, allow to stand for 3 minutes at a temperature not higher than 59C, shake vigorously for 2 minutes, and centrifuge. Drain off the water layer, collect 5 mL of the chloroform layer, transfer to a glass-stoppered centrifuge tube containing 3 mL of boric acid-potassium chloride-sodium hydroxide buffer solution (pH 10.0) cooled to a temperature not higher than 59C, and 4 mL of water cooled to a temperature not higher than 59C, shake for 1 minute, and centrifuge. Drain off the water layer, pipet 2 mL of the chloroform layer, and add chloroform to make exactly 10 mL. Determine the absor-bance of this solution at 283 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>: it is not more than 0.67. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Potassium Can-renoate, previously dried, dissolve in 75 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Use a solution of saturated potas-sium chloride-acetic acid (100) as the internal liquid.). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 39.66 mg of C22H29KO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

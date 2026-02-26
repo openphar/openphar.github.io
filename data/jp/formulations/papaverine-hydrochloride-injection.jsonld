@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/papaverine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Papaverine Hydrochloride Injection",
+    "ja": "パパベリン塩酸塩注射液"
+  },
+  "monographId": "JP18-papaverine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Papaverine Hydrochloride Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Papaverine Hydrochloride Injection is a clear, colorless liquid. pH: 3.0 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Papaverine Hydrochloride Injection add 3 drops of sodium acetate TS: a white precipi-tate is produced. (2) Dilute a volume of Papaverine Hydrochloride Injec-tion, equivalent to 0.1 g of Papaverine Hydrochloride, with"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

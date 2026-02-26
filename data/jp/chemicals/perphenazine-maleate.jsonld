@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/perphenazine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Perphenazine Maleate",
+    "ja": "ペルフェナジンマレイン酸塩"
+  },
+  "monographId": "JP18-perphenazine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H26ClN3OS.2C4H4O4",
+  "molecularWeight": 636.11,
+  "definition": {
+    "en": "Perphenazine Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Perphenazine Maleate occurs as a white to light yellow powder. It is odorless. It is sparingly soluble in acetic acid (100), slightly soluble in water and in ethanol (95), and practically insoluble in chloroform. It dissolves in dilute hydrochloric acid. It is gradually colored by light. Melting point: about 1759C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 8 mg of Perphenazine Maleate in 5 mL of sulfuric acid: a red color is produced, which becomes deep red-purple on warming. Dissolve 0.3 g of Perphenazine Maleate in 3 mL of dilute hydrochloric acid, add 2 mL of water and 3 mL of am-monia solution (28), shake, and extract with three 10-mL portions of chloroform. [Reserve the aqueous layer, and use for test (5)]. Evaporate the combined chloroform extracts on a water bath to dryness, dissolve the residue in 20 mL of methanol, and pour into 10 mL of a warm solution of 2,4,6-trinitrophenol in methanol (1 in 25). Allow to stand for 4 hours, collect the crystals, wash with a small amount of methanol, and dry at 1059C for 1 hour: the crystals melt <2.60> between 2379C and 2449C (with decomposition). Determine the absorption spectrum of a solution of Perphenazine Maleate (1 in 20,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 1: both spectra ex-hibit similar intensities of absorption at the same wave-lengths. Separately, to 10 mL of the solution add 30 mL of water. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 2: both spectra exhibit similar intensities of absorption at the same wavelengths. Perform the test with Perphenazine Maleate as di-rected under Flame Coloration Test <1.04> (2): a green color appears. Evaporate the aqueous layer reserved in (2) to dry-ness. To the residue add 1 mL of dilute sulfuric acid and 5 mL of water, and extract with four 25-mL portions of diethyl ether. Combine the diethyl ether extracts, and evapo-rate in a water bath at about 359C with the aid of a current of air: the residue melts <2.60> between 1289C and 1369C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of perphenazine maleate according to Method 2, and perform ‌the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 1.0 g of Perphenazine Maleate according to Method 3, and per-form the test (not more than 2 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Perphenazine Male-ate, previously dried, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 31.81 mg of C H ClN OS.2C H O fades immediately. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Disintegrate 1 tablet of Perphenazine Maleate Tablets by shaking with 15 mL of 0.1 mol/L hydrochloric acid TS, shake vigorously with 50 mL of methanol, add water to make exactly 100 mL, and centrifuge. Pipet V mL of the supernatant liquid, add water to make exactly V? mL of a solution containing about 6 mg of perphenazine maleate (C21H26ClN3OS.2C4H4O4) in each ml, and use this solution as the sample solution. Separately, weigh accurately 30 mg of perphenazine maleate for assay, previously dried at 1059C for 3 hours, dissolve in 15 mL of 0.1 mol/L hydrochloric acid TS and 50 mL of methanol, and add water to make ex-actly 100 mL. Pipet 5 mL of this solution, add 3 mL of 0.1 mol/L hydrochloric acid TS, 10 mL of methanol and water to make exactly 250 mL, and use this solution as the stand- 21 26 3 4 4 4 ard solution. Determine the absorbances, AT and AS, of the"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

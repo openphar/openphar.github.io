@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-polystyrene-sulfonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Sodium Polystyrene Sulfonate",
+    "ja": "ポリスチレンスルホン酸ナトリウム"
+  },
+  "monographId": "JP18-sodium-polystyrene-sulfonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sodium Polystyrene Sulfonate occurs as a yel-low-brown powder. It is odorless and tasteless. It is practically insoluble in water, in ethanol (95), in ace-tone and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Sodium Polystyrene Sulfonate as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. (2) To 1 g of Sodium Polystyrene Sulfonate add 10 mL of dilute hydrochloric acid, stir, and filter. Add ammonia TS to the filtrate to neutralize: the solution responds to Qualita-tive Tests <1.09> for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Ammonium—Place 1.0 g of Sodium Polysty-rene Sulfonate in a flask, add 5 mL of sodium hydroxide TS, cover the flask with a watch glass having a moistened strip of red litmus paper on the underside, and boil for 15 minutes: the gas evolved does not change the red litmus paper to blue. Heavy metals <1.07>—Proceed with 2.0 g of Sodium Polystyrene Sulfonate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Sodium Polystyrene Sulfonate according to Method 3, and perform the test (not more than 1 ppm). Styrene—To 10.0 g of Sodium Polystyrene Sulfonate add 10 mL of acetone, shake for 30 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 10 mg of styrene in acetone to make exactly 100 mL. Pipet 1 mL of this solution, add acetone to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine peak areas, AT and AS, of styrene in each solution: AT is not larger than AS. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (1:1). Flow rate: Adjust so that the retention time of styrene is about 8 minutes. System suitability— System performance: Dissolve 20 mg each of styrene and butyl parahydroxybenzoate in 100 mL of acetone. To 5 mL of this solution add acetone to make 100 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, butyl parahydroxybenzoate and sty-rene are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of styrene is not more than 2.0z. Water <2.48> Not more than 10.0z (0.2 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Sodium—Weigh accurately about 1 g of So-dium Polystyrene Sulfonate, calculated on the anhydrous basis, in a glass-stoppered flask, add exactly 50 mL of 3 mol/L hydrochloric acid TS, shake for 60 minutes, and filter. Discard the first 20 mL of the filtrate, pipet 5 mL of the subsequent filtrate, and add water to make exactly 100 mL. Pipet 20 mL of this solution, add water to make exactly 1000 mL, and use this solution as the sample solution. Sepa-rately, pipet a suitable quantity of Standard Sodium Stock Solution, dilute exactly with water so that each ml of the so-lution contains 1 to 3 mg of sodium (Na: 22.99), and use these solutions as the standard solutions. Perform the test with the sample solution and the standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following conditions, and calculate the amount of sodium in the sample solution using the calibration curve obtained from the standard solutions. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: A sodium hollow-cathode lamp. Wavelength: 589.0 nm. (2) Potassium exchange capacity—Weigh accurately about 1.5 g of Sodium Polystyrene Sulfonate, calculated on the anhydrous basis, in a glass-stoppered flask, add exactly 100 mL of Standard Potassium Stock Solution, shake for 15 minutes, and filter. Discard the first 20 mL of the filtrate, pipet 10 mL of the subsequent filtrate, and add water to make exactly 100 mL. Pipet 10 mL of this solution, add water to make exactly 1000 mL, and use this solution as the sample solution. Separately, pipet a suitable quantity of Standard Potassium Stock Solution, dilute exactly with water so that each mL of the solution contains 1 to 5 mg of potassium (K: 39.10), and use these solutions as the standard solutions. Perform the test with these solutions as directed under Atomic Absorption Spectrophotometry <2.23> accord-ing to the following conditions, and calculate the amount Y (mg) of potassium in 1000 mL of the sample solution using the calibration curve obtained from the standard solution. The quantity of potassium absorbed on each g of Sodium Polystyrene Sulfonate, calculated on the anhydrous basis, is calculated from the following equation: it is between 0.110 g and 0.135 g. Quantity (mg) of potassium (K) absorbed on 1 g of Sodium Polystyrene Sulfonate, calculated on the anhydrous basis ＝ (X － 100Y )/M X: Amount (mg) of potassium in 100 mL of the Standard Potassium Stock Solution before exchange M: Mass (g) of Sodium Polystyrene Sulfonate taken, cal-culated on the anhydrous basis Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: A potassium hollow-cathode lamp. ‌Wavelength: 766.5 nm.‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

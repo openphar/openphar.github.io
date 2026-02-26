@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/streptomycin-sulfate-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Streptomycin Sulfate for Injection",
+    "ja": "注射用ストレプトマイシン硫酸塩"
+  },
+  "monographId": "JP18-streptomycin-sulfate-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Streptomycin Sulfate for Injection is a preparation for injection, which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Streptomycin Sulfate for Injection occurs as a white or light yellow-white, masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Perform the test as directed in the Identifica-tion (2) under Streptomycin Sulfate. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> The pH of a solution prepared by dissolving an amount of Streptomycin Sulfate for Injection, equivalent to 2.0 g (potency) of Streptomycin Sulfate, in 10 mL of water is 4.5 to 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve an amount of Streptomycin Sulfate for Injection, equivalent to 1.0 g (potency) of Streptomycin Sulfate, in 3 mL of water: The so-lution is clear, and the absorbance of this solution at 400 nm, determined as directed under Ultraviolet-visible Spectro-photometry <2.24>, is not more than 0.50. Loss on drying <2.41> Not more than 4.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 0.10 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organisms, culture medium and standard solu-tions—Proceed as directed in the Assay under Streptomycin Sulfate. Sample solution—Weigh accurately the contents of not less than 10 Streptomycin Sulfate for Injection. Weigh accurately an amount of the contents, equivalent to 1 g (po-tency) of Streptomycin Sulfate, and dissolve in water to make exactly 200 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make a solutions so that each mL contains 8 mg (potency) and 2 mg (potency), and use these solutions as the high con-centration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

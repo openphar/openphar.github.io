@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrocortisone-succinate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrocortisone Succinate",
+    "ja": "ヒドロコルチゾンコハク酸エステル"
+  },
+  "monographId": "JP18-hydrocortisone-succinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H34O8",
+  "molecularWeight": 462.53,
+  "casNumber": "2203-97-6",
+  "definition": {
+    "en": "Hydrocortisone Succinate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Hydrocortisone Succinate occurs as a white crystalline powder. It is very soluble in methanol, freely soluble in ethanol (99.5), and practically insoluble in water. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 mg of Hydrocortisone Succinate add 2 mL of sulfuric acid: the solution shows a yellowish green fluorescence immediately, and the color of the solution gradually changes through orange-yellow to dark red. This solution shows a strong light green fluorescence under ultra-violet light. Add carefully 10 mL of water to this solution: the color changes from yellow to orange-yellow with a light green fluorescence, and a yellow-brown flocculent precipi-tate is formed. (2) Determine the infrared absorption spectrum of Hy-drocortisone Succinate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer- JP XVIII Official Monographs / Hydrocotarnine Hydrochloride Hydrate 1119 ‌ence Spectrum or the spectrum of previously dried Hydro-cortisone Succinate RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. If any differ-ence appears between the spectra, dissolve Hydrocortisone Succinate and Hydrocortisone Succinate RS in methanol, respectively, then evaporate the methanol to dryness, and repeat the test on the residues. D Optical rotation <2.49> [a]20: ＋147 – ＋1539(after drying, 0.1 g, ethanol (99.5), 10 mL, 100 nm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 25 mg of Hydrocorti-sone Succinate in exactly 10 mL of methanol, and use this solution as the sample solution. Separately, dissolve 25 mg of hydrocortisone in exactly 10 mL of methanol. Pipet 1 mL of this solution, dilute with methanol to exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 3 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, ethanol (99.5) and formic acid (150:10:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 2.0z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Hydrocorti-sone Succinate and Hydrocortisone Succinate RS, previously dried, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL each of the internal standard solution, then add methanol to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following oper-ating conditions, and calculate the ratios, QT and QS, of the peak area of hydrocortisone succinate to that of the internal standard, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of hydrocortisone succinate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/prazepam-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Prazepam Tablets",
+    "ja": "プラゼパム錠"
+  },
+  "monographId": "JP18-prazepam-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Prazepam Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of prazepam (C19H17ClN2O: 324.80). Method of preparation Prepare as directed under Tablets, with Prazepam. Identification (1) To a quantity of powdered Prazepam Tablets, equivalent to 0.05 g of Prazepam, add 25 mL of acetone, shake well, and filter. Take 5 mL of the filtrate, evaporate on a water bath to dryness, and dissolve the residue in 3 mL of sulfuric acid. With this solution, proceed as directed in the Identification (1) under Prazepam. To a quantity of powdered Prazepam Tablets, equiv-alent to 0.02 g of Prazepam, add 200 mL of a solution of sulfuric acid in ethanol (99.5) (3 in 1000), shake well, and filter. To 5 mL of the filtrate add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 50 mL, and determine the absorption spectrum as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 241 nm and 245 nm, between 283 nm and 287 nm and between 363 nm and 367 nm, and minima between 263 nm and 267 nm and between 334 nm and 338 nm. Dissolution <6.10> When the test is performed at 100 revo-lutions per minute according to the Basket method, using 900 mL of 0.1 mol/L hydrochloric acid TS as the dissolution medium, the dissolution rate in 30 minutes of Prazepam Tablets is not less than 80z. Start the test with 1 tablet of Prazepam Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, measure exactly the subsequent V mL of the filtrate, add the dissolution medium to make ex- ‌actly V? mL so that each mL contains about 5 mg of prazep-am (C19H17ClN2O), and use this solution as the sample solu-tion."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a quantity of powdered Prazepam Tablets, equivalent to 0.05 g of Prazepam, add 25 mL of acetone, shake well, and filter. Take 5 mL of the filtrate, evaporate on a water bath to dryness, and dissolve the residue in 3 mL of sulfuric acid. With this solution, proceed as directed in the Identification (1) under Prazepam. To a quantity of powdered Prazepam Tablets, equiv-alent to 0.02 g of Prazepam, add 200 mL of a solution of sulfuric acid in ethanol (99.5) (3 in 1000), shake well, and filter. To 5 mL of the filtrate add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 50 mL, and determine the absorption spectrum as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 241 nm and 245 nm, between 283 nm and 287 nm and between 363 nm and 367 nm, and minima between 263 nm and 267 nm and between 334 nm and 338 nm. Dissolution <6.10> When the test is performed at 100 revo-lutions per minute according to the Basket method, using 900 mL of 0.1 mol/L hydrochloric acid TS as the dissolution medium, the dissolution rate in 30 minutes of Prazepam Tablets is not less than 80z. Start the test with 1 tablet of Prazepam Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, measure exactly the subsequent V mL of the filtrate, add the dissolution medium to make ex- ‌actly V? mL so that each mL contains about 5 mg of prazep-am (C19H17ClN2O), and use this solution as the sample solu-tion. Separately, weigh accurately about 5 mg of prazepam for assay, previously dried at 1059C for 2 hours, add 200 mL of the dissolution medium and dissolve with shaking, or by sonicating if necessary, add the dissolution medium to make exactly 1000 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, of the sample solution and standard solution at 240 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of a solution of Prazosin Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Prazosin Hydrochloride as directed in the potassium chlo-ride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Prazosin Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. To 0.1 g of Prazosin Hydrochloride add 5 mL of of prazepam (C 19H 17ClN2O) water and 1 mL of ammonia TS, shake, allow to stand for 5 minutes, and filter. Render the filtrate acid with acetic acid ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of prazepam for assay taken C: Labeled amount (mg) of prazepam (C19H17ClN2O) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Prazepam Tablets, and powder. Weigh accurately a quantity of the powder, equivalent to about 50 mg of prazepam (C19H17ClN2O), add 30 mL of acetone, shake well, centrifuge, and separate the supernatant liquid. Repeat the same procedure twice with 30 mL each of acetone, combine all the supernatants liquid, and evaporate on a water bath to dryness. Dissolve the residue in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.02 mol/L perchlo-ric acid VS (potentiometric titration). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.02 mol/L perchloric acid VS ＝ 6.496 mg of C19H17ClN2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

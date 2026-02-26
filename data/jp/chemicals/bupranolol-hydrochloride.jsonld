@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bupranolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bupranolol Hydrochloride",
+    "ja": "ブプラノロール塩酸塩"
+  },
+  "monographId": "JP18-bupranolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H22ClNO2.HCl",
+  "molecularWeight": 308.24,
+  "definition": {
+    "en": "Bupranolol Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bupranolol Hydrochloride occurs as a white crystalline powder. It is sparingly soluble in methanol, slightly soluble in water, in ethanol (95) and in acetic acid (100), very slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Bupranolol Hydrochlo-ride in 1000 mL of water is between 5.2 and 6.2."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Take 0.01 g of Bupranolol Hydrochlo-ride in a test tube, mix with 25 mg of potassium iodide and 25 mg of oxalic acid dihydrate, cover the mouth of the test tube with filter paper moistened with a solution of 2,6-dibromo-N-chloro-1,4-benzoquinone monoimine in ethanol (95) (1 in 100), and heat gently for several minutes. Expose the filter paper to ammonia gas: the filter paper acquires a blue color. Determine the absorption spectrum of a solution of ‌JP XVIII Official Monographs / Buprenorphine Hydrochloride 579 Bupranolol Hydrochloride in 0.1 mol/L hydrochloric acid TS (1 in 10,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bupranolol Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Bupranolol Hydrochloride (1 in 200) responds to Qualitative Tests <1.09> for chloride. 1 cm Absorbance <2.24> E 1z (275 nm): 57 – 60 (after drying, 50 mg, 0.1 mol/L hydrochloric acid TS, 500 mL)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Bupranolol Hydrochloride in 15 mL of water: the solu-tion is clear and colorless. Acidity—Dissolve 0.10 g of Bupranolol Hydrochlo-ride in 15 mL of freshly boiled and cooled water, and add 1 drop of methyl red TS: a light red color develops. To this so-lution add 0.05 mL of 0.01 mol/L sodium hydroxide VS: the color changes to yellow. Sulfate <1.14>—Perform the test with 0.10 g of Bupranolol Hydrochloride. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.168z). Heavy metals <1.07>—Proceed with 1.0 g of Bupranolol Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Bupranolol Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.30 g of Bupranolol Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of polyamide with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of methanol, ammonia solution (28) and water (16:4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.18 g of Bupranolol Hy-drochloride, previously dried, dissolve in 60 mL of a mixture of acetic anhydride and acetic acid (100) (2:1) by warming, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 30.82 mg of C14H22ClNO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

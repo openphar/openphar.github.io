@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/micronomicin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Micronomicin Sulfate",
+    "ja": "ミクロノマイシン硫酸塩"
+  },
+  "monographId": "JP18-micronomicin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Micronomicin Sulfate is the sulfate of an amino-glycoside substance having antibacterial activity pro-duced by the growth of Micromonospora sagamiensis. It contains not less than 590 mg (potency) and not more than 660 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Micronomicin Sulfate occurs as a white to light yellow-white powder. It is very soluble in water, sparingly soluble in ethylene glycol, and practically insoluble in methanol and in ethanol (99.5). It is hygroscopic. ‌Identification (1) Dissolve 50 mg each of Micronomicin Sulfate and Micronomicin Sulfate RS in 10 mL of water, and use these solutions as the sample solution and the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethanol (99.5), 1-butanol and ammonia solution (28) (10:8:7) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in a mixture of acetone and pyridine (25:1) (1 in 500), and heat the plate at 1009C for 10 minutes: the spots obtained from the sample solution and the standard solution are red-purple to red-brown and their Rf values are the same. (2) To 5 mL of a solution of Micronomicin Sulfate (1 in 100) add 1 mL of barium chloride TS: a white precipitate is formed, and it does not dissolve by addition of dilute nitric acid. D Optical rotation <2.49> [a]20: ＋110 – ＋1309(0.25 g calcu-lated on the anhydrous basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Micronomicin Sulfate in 10 mL of water is between 3.5 and 5.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.5 g of Micronomicin Sulfate in 10 mL of water: the solution is clear and colorless to pale yellow. Heavy metals <1.07>—Proceed with 1.0 g of Micronomicin Sulfate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.40 g of Micronomi-cin Sulfate in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethanol (99.5), 1-butanol and ammo-nia solution (28) (10:8:7) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in a mixture of acetone and pyridine (25:1) (1 in 500), and heat the plate at 1009C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Water <2.48> Not more than 10.0z (0.2 g, volumetric titration, back titration). Use a mixture of methanol for water determination and ethylene glycol for water determi-nation (1:1) instead of methanol for water determination."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Micronomicin Sulfate RS, equivalent to about 20 mg (po-tency), dissolve in 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make exactly 20 mL, and use this so-lution as the standard stock solution. Keep the standard stock solution at 5 – 159C, and use within 30 days. Take ex-actly a suitable amount of the standard stock solution before use, add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make solutions so that each mL contains 2 mg (potency) and 0.5 mg (potency), and use these solutions as the high concentration standard solution and the low concentra-tion standard solution, respectively. Sample solutions—Weigh accurately an amount of Micronomicin Sulfate, equivalent to about 20 mg (potency), and dissolve in 0.1 mol/L phosphate buffer solution for an-tibiotics (pH 8.0) to make exactly 20 mL. Take exactly a suit-able amount of this solution, add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make solutions so that each mL contains 2 mg (potency) and 0.5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respec-tively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

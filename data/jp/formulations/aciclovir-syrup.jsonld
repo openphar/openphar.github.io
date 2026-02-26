@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aciclovir-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aciclovir Syrup",
+    "ja": "アシクロビルシロップ"
+  },
+  "monographId": "JP18-aciclovir-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aciclovir Syrup is a suspension syrup. It contains not less than 93."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of thoroughly shaken Aciclovir Syrup, equivalent to 80 mg of Aciclovir, add 0.1 mol/L hydrochloric acid TS to make 100 mL. Centrifuge this solution, to 1 mL of the supernatant liquid add 0.1 mol/L hydrochloric acid TS to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Aciclovir Syrup is not less than 85z. Start the test with an exact volume of thoroughly shaken Aciclovir Syrup, equivalent to about 0.4 g of aciclovir (C8H11N5O3), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and centrifuge. Pipet 2 mL of the supernatant liquid, add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 22 mg of Aciclovir RS (separately determine the water <2.48> in the same manner as Aciclovir), and dissolve in water to make exactly 100 mL. Pipet 4 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 252 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of aciclovir (C8H11N5O3) ＝ MS/VT × AT/AS × 1/C × 1800 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis VT: Amount (mL) of Aciclovir Syrup taken C: Labeled amount (mg) of aciclovir (C8H11N5O3) in 1 mL"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Shake thoroughly Aciclovir Syrup. To an exact volume of the syrup, equivalent to about 80 mg of aciclovir (C8H11N5O3), add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Centrifuge this solution, pipet 2 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, then add 0.1 mol/L hydrochloric acid TS to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of Aciclovir RS (separately determine the water <2.48> in the same manner as Aciclovir), and dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 5 mL of the internal standard solution, then add 0.1 mol/L hydrochloric acid TS to make 50 mL, and use this so-lution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of aciclovir to that of the internal standard. Amount (mg) of aciclovir (C8H11N5O3) ＝ MS × QT/QS × 2 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis Internal standard solution—A solution of nicotinic acid in 0.1 mol/L hydrochloric acid TS (1 in 2000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 1.45 g of phosphoric acid and 25 mL of dilute acetic acid add water to make 900 mL. Adjust this so-lution to pH 2.5 with 1 mol/L sodium hydroxide TS, and add water to make 1000 mL. To 950 mL of this solution add 50 mL of methanol. ‌412 Flow rate: Adjust so that the retention time of aciclovir is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard and aciclovir are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of aciclovir to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

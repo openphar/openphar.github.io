@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tolbutamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tolbutamide",
+    "ja": "トルブタミド"
+  },
+  "monographId": "JP18-tolbutamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H18N2O3S",
+  "molecularWeight": 270.35,
+  "definition": {
+    "en": "Tolbutamide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Tolbutamide occurs as white, crystals or crys-talline powder. It is odorless or has a slight, characteristic odor. It is tasteless. It is soluble in ethanol (95), slightly soluble in diethyl ether, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Boil 0.2 g of Tolbutamide with 8 mL of diluted sulfuric acid (1 in 3) under a reflux condenser for 30 minutes. Cool the solution in ice water, collect the precipi-tated crystals, recrystallize from water, and dry at 1059C for 3 hours: the crystals melt <2.60> between 1359C and 1399C. (2) Render the filtrate obtained in (1) alkaline with about 20 mL of a solution of sodium hydroxide (1 in 5), and heat: an ammonia-like odor is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Warm 3.0 g of Tolbutamide with 150 mL of water at 709C for 5 minutes, allow to stand for 1 hour in ice water, and filter. To 25 mL of the filtrate add 2 drops of methyl red TS and 0.20 mL of 0.1 mol/L sodium hydrox-ide VS: a yellow color develops. Chloride <1.03>—To 40 mL of the filtrate obtained in add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution with 0.25 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.011z). Sulfate <1.14>—To 40 mL of the filtrate obtained in add 1 mL of dilute hydrochloric acid and water to make ‌50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.021z).‌ Heavy metals <1.07>—Proceed with 2.0 g of Tol- butamide according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Dissolution rate (z) with respect to the labeled amount of tolbutamide (C12H18N2O3S) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of Tolbutamide RS taken C: Labeled amount (mg) of tolbutamide (C12H18N2O3S) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Tol- butamide Tablets. Weigh accurately a portion of the pow-der, equivalent to about 0.5 g of tolbutamide (C H N O S), 12 18 2 3 Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Weigh accurately about 0.5 g of Tolbutamide, previ-ously dried, and dissolve in 30 mL of neutralized ethanol. Add 20 mL of water, and titrate <2.50> with 0.1 mol/L sodi-um hydroxide VS (indicator: 3 drops of phenolphthalein TS). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 27.04 mg of C12H18N2O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

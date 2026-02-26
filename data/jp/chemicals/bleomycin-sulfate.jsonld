@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bleomycin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bleomycin Sulfate",
+    "ja": "ブレオマイシン硫酸塩"
+  },
+  "monographId": "JP18-bleomycin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Bleomycin Sulfate is the sulfate of a mixture of sub-stances having antitumor activity produced by the growth of Streptomyces verticillus. It contains not less than 1400 mg (potency) and not more than 2000 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Bleomycin Sulfate occurs as a white to yellow-white powder. It is freely soluble in water, and slightly soluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 4 mg of Bleomycin Sulfate add 5 mL of copper (II) sulfate TS, and dissolve in water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bleomycin Sulfate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Bleomycin Sulfate (1 in 200) responds to Qualitative Tests <1.09> (1) and (2) for sulfate. pH <2.54> The pH of a solution obtained by dissolving 10 mg of Bleomycin Sulfate in 20 mL of water is between 4.5 and 6.0. Content ratio of the active principle Dissolve 10 mg of Bleomycin Sulfate in 20 mL of water, and use this solution as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak of bleomycin A2 (the first principal peak) is between 55z and 70z, that of bleomycin B2 (the second principal peak) is between 25z and 32z, the total amount of the peak of bleomycin A2 and bleomycin B2 is not less than 85z, the amount of the peak of demethylbleomy-cin A2 (a peak having the relative retention time of 1.5 – 2.5 to bleomycin A2) is not more than 5.5z, and the total amount of the rest peaks is not more than 9.5z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase stock solution: Dissolve 0.96 g of sodium 1-pentanesulfonate and 1.86 g of disodium dihydrogen ethyl-enediamine tetraacetate dihydrate in 1000 mL of water and 5 mL of acetic acid (100), and adjust the pH to 4.3 with am-monia TS. Mobile phase A: A mixture of the mobile phase stock so-lution and methanol (9:1). Mobile phase B: A mixture of the mobile phase stock solu-tion and methanol (3:2). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 60 100 → 0 0 → 100 60 – 75 Flow rate: About 1.2 mL per minute. ‌Time span of measurement: Twenty minutes after elution of the peak of demethylbleomycin A2, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 20 mL of the sample solution under the above operating condi-tions, bleomycin A2 and bleomycin B2 are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of bleomycin A2 is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 80 mg of Bleomycin Sulfate in 4 mL of water is clear and colorless. Copper—Dissolve exactly 75 mg of Bleomycin Sul-fate in 10 mL of diluted nitric acid (1 in 100), and use this so-lution as the sample solution. Separately, to exactly 15 mL of Standard Copper Solution add diluted nitric acid (1 in 100) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Atomic Absorption Spectrophotometry <2.23> according to the following condi-tions: the absorbance of the sample solution is not more than that of the standard solution (not more than 200 ppm). Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Copper hollow-cathode lamp. Wavelength: 324.8 nm. Loss on drying <2.41> Not more than 3.0z (60 mg, in vacuum, phosphorus (V) oxide, 609C, 3 hours. Take the sample to be tested while avoiding moisture absorption)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Mycrobacterium smegmatis ATCC 607 Agar medium for seed, base layer and transferring the test organism Glycerin 10.0 g Peptone 10.0 g Meat extract 10.0 g Sodium chloride 3.0 g Agar 15.0 g Water 1000 mL Mix all the components and sterilize. Adjust the pH after sterilization to 6.9 – 7.1 with sodium hydroxide TS. Liquid media for suspending the test organism Glycerin 10.0 g Peptone 10.0 g Meat extract 10.0 g Sodium chloride 3.0 g Water 1000 mL Mix all the components and sterilize. Adjust the pH after sterilization to 6.9 – 7.1 with sodium hydroxide TS. Preparation of seeded agar layer—Cultivate the test organism on the slant of the agar medium for transferring the test organism at 279C for 40 to 48 hours, then inoculate the test organism thus obtained in 100 mL of the liquid me-dia for suspending the test organism, cultivate with shaking at between 259C and 279C for 5 days, and use this as the sus-pension of test organism. Store the suspension of test organ-ism at a temperature not exceeding 59C, and use within 14 days. Add 0.5 mL of the suspension of test organism in 100 mL of the agar medium for seed previously kept at 489C, mix thoroughly, and use as the seeded agar layer. Preparation of cylinder-agar plate—Proceed as di-rected in 1.7. Preparation of cylinder-agar plates under the Microbial Assay for Antibiotics, dispensing 5.0 mL of agar medium for base layer and 8.0 mL of the agar medium for seed into the Petri dish. Standard solutions—Weigh accurately an amount of Bleomycin A2 Hydrochloride RS, previously dried under reduced pressure not exceeding 0.67 kPa at an ordinary tem-perature for 3 hours, equivalent to about 15 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 6.8) to make exactly 100 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below, and use within 30 days. Take exactly a suitable amount of the standard stock solution before use, add 0.1 mol/L phosphate buffer solution (pH 6.8) to make solutions so that each mL contains 30 mg (potency) and 15 mg (po-tency), and use these solutions as the high concentration standard solution and low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Bleomycin Sulfate, equivalent to about 15 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 6.8) to make exactly 100 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 6.8) to make solutions so that each mL contains 30 mg (potency) and 15 mg (potency), and use these solutions as the high con-centration sample solution and low concentration sample so-lution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benzylpenicillin-benzathine-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benzylpenicillin Benzathine Hydrate",
+    "ja": "ベンジルペニシリンベンザチン水和物"
+  },
+  "monographId": "JP18-benzylpenicillin-benzathine-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "41372-02-5",
+  "definition": {
+    "en": "Benzylpenicillin Benzathine Hydrate is the N,N?-dibenzylethylenediamine salt of a penicillin compound having antibacterial activity produced by the growth of Penicillium species. It contains not less than 1213 Units and not more than 1333 Units per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Benzyl Benzoate is a colorless, clear, viscous liquid. It has a faint, aromatic odor and a pungent, burning taste. It is miscible with ethanol (95) and with diethyl ether. It is practically insoluble in water. Congealing point: about 179C Specific gravity d 20: about 1.123 Boiling point: about 3239C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat gently 1 mL of Benzyl Benzoate with 5 mL of sodium carbonate TS and 2 mL of potassium permanganate TS: the odor of benzaldehyde is perceptible. Warm the titrated mixture obtained in the Assay on a water bath to remove ethanol, and add 0.5 mL of iron (III) chloride TS: a light yellow-red precipitate is produced, which turns white on the addition of dilute hydrochloric acid. D Refractive index <2.45> n20: 1.568 – 1.570"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Acidity—Dissolve 5.0 mL of Benzyl Benzoate in 25 mL of neutralized ethanol, and add 0.50 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Residue on ignition <2.44> Not more than 0.05z (2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2 g of Benzyl Benzoate, add exactly 50 mL of 0.5 mol/L potassium hydroxide-ethanol VS, and boil gently for 1 hour under a reflux condenser with a carbon dioxide-absorbing tube (soda lime). Cool, and titrate <2.50> the excess potassium hydroxide with 0.5 mol/L Description Benzylpenicillin Benzathine Hydrate occurs as a white crystalline powder. It is slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water. Identification (1) Determine the absorption spectrum of a solution of Benzylpenicillin Benzathine Hydrate in methanol (1 in 2000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ben-zylpenicillin Benzathine Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋217 – ＋2339(0.1 g calcu-lated on the anhydrous basis, methanol, 20 mL, 100 mm). Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Benzylpenicillin Benzathine Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Benzylpenicillin Benzathine Hydrate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 70 mg of Benzylpenicil-lin Benzathine Hydrate in 25 mL of methanol, add a solution prepared by dissolving 1.02 g of disodium hydrogen phos-phate and 6.80 g of potassium dihydrogen phosphate in water to make 1000 mL to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase A to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak having the relative retention time of about 2.4 to benzylpenicillin obtained from the sample solution is not larger than 2 times the total area of the peaks of benzyl-penicillin and N,N?-dibenzylethylenediamine from the standard solution, and the area of the peak other than benzylpenicillin, N,N?-dibenzylethylenediamine and the peak having the relative retention time of about 2.4 to benzylpenicillin from the sample solution is not larger than the total area of the peaks of benzylpenicillin and N,N?-dibenzylethylenediamine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Assay (1) Benzylpenicillin—Weigh accurately an amount of Benzylpenicillin Benzathine Hydrate, equivalent to about 85,000 Units, dissolve in 25 mL of methanol, and add a solu-tion containing 1.02 g of disodium hydrogen phosphate and 6.80 g of potassium dihydrogen phosphate in 1000 mL of water to make exactly 50 mL. Pipet 5 mL of this solution, add a mixture of the solution containing 1.02 g of disodium hydrogen phosphate and 6.80 g of potassium dihydrogen phosphate in 1000 mL of water and methanol (1:1) to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Benzylpenicillin Potassium RS, equivalent to about 85,000 Units, and about 25 mg of N,N?-dibenzylethylenediamine diacetate, dissolve in 25 mL of methanol, and add the solution containing 1.02 g of disodium hydrogen phosphate and 6.80 g of potas-sium dihydrogen phosphate in 1000 mL of water to make exactly 50 mL. Pipet 5 mL of this solution, add a mixture of the solution containing 1.02 g of disodium hydrogen phos-phate and 6.80 g of potassium dihydrogen phosphate in 1000 mL of water and methanol (1:1) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT ands AS, of benzylpenicillin in each solution. Column: A stainless steel column 4.0 mm in inside diame- ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Amount (unit) of benzylpenicillin sodium (C ＝ MS × AT/AS 16H17N2NaO4S) Column temperature: A constant temperature of about 409C. Mobile phase A: A mixture of water, methanol and 0.25 mol/L potassium dihydrogen phosphate TS (pH 3.5) (6:3:1). Mobile phase B: A mixture of methanol, water and 0.25 mol/L potassium dihydrogen phosphate TS (pH 3.5) (6:3:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 10 10 – 20 75 → 0 25 → 100 20 – 55 Flow rate: 1.0 mL per minute. Time span of measurement: About 3 times as long as the retention time of benzylpenicillin, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add the mobile phase A to make exactly 20 mL. Confirm that the peak area of benzylpenicillin obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, N,N?-dibenzylethylenediamine and benzylpenicillin are eluted in this order with the resolution between these peaks being not less than 25. System repeatability: When the test is repeated 3 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of benzylpenicillin is not more than 2.0z. Water <2.48> 5.0 – 8.0z (1 g, volumetric titration, direct titration). MS: Amount (unit) of Benzylpenicillin Potassium RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, methanol and 0.25 mol/L potassium dihydrogen phosphate TS (pH 3.5) (11:7:2). Flow rate: Adjust so that the retention time of benzyl-penicillin is about 18 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, N,N?-dibenzylethylenediamine and benzylpenicillin are eluted in this order with the resolution between these peaks being not less than 20. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak areas of N,N?-dibenzylethylenediamine and benzylpenicillin are not more than 2.0z, respectively. (2) N,N?-Dibenzylethylenediamine—Determine the areas, AT and AS, of the peak corresponding to N,N?- dibenzylethylenediamine on the chromatograms obtained in with the sample solution and standard solution. Amount (z) of N,N?-dibenzylethylenediamine (C16H20N2) ＝ MS/MT × AT/AS × 100 × 0.667 MS: Amount (mg) of N,N?-dibenzylethylenediamine dia-cetate taken MT: Amount (mg) of Benzylpenicillin Benzathine Hydrate taken ‌JP XVIII Official Monographs / Benzylpenicillin Potassium 527 0.667: Conversion factor for the molecular mass of N,N?-dibenzylethylenediamine diacetate (C16H20N2･ 2CH3COOH) to that of N,N?-dibenzylethylenedia-mine (benzathine, C16H20N2)"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

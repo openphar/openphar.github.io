@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/dihydroergotoxine-mesilate",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dihydroergotoxine Mesilate",
+    "ja": "ジヒドロエルゴトキシンメシル酸塩"
+  },
+  "monographId": "JP18-dihydroergotoxine-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dihydroergotoxine Mesilate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Dihydroergotoxine Mesilate occurs as a white to pale yellow powder. It is soluble in methanol, sparingly soluble in ethanol (95), slightly soluble in water, in acetonitrile and in chloroform, and practically insoluble in diethyl ether. JP XVIII Official Monographs / Dihydroergotoxine Mesilate 861"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Dihydroergotoxine Mesilate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios of the peak areas of dihydroergocornine, dihydro-a-ergocryptine, dihydroergocristine and dihydro-b-ergocryptine to the peak area of the internal standard of these solutions. Amount (mg) of dihydroergotoxine mesilate D Optical rotation <2.49> [a]20: ＋11.0 – ＋15.09(0.2 g calcu- ＝ MS × (QTA ＋ QTB ＋ QTC ＋ QTD)/ lated on the anhydrous basis, dilute ethanol, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Dihydroergotoxine Mesilate in 20 mL of water: the solu-tion is clear and the color of the solution is not more intense than that of the following control solution. Control solution: To a mixture of 1.0 mL of Cobalt (II) Chloride CS, 0.4 mL of Copper (II) Sulfate CS and 2.4 mL of Iron (III) Chloride CS add diluted hydrochloric acid (1 in 40) to make exactly 200 mL. Heavy metals <1.07>—Proceed with 1.0 g of Di- hydroergotoxine Mesilate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Weigh accurately 0.100 g of Di-hydroergotoxine Mesilate, dissolve it in a mixture of chlo-roform and methanol (9:1) to make exactly 5 mL, and use this solution as the sample solution. Separately, weigh accu-rately 10 mg of dihydroergocristine mesilate for thin-layer chromatography, and dissolve in a mixture of chloroform and methanol (9:1) to make exactly 100 mL. Pipet 6 mL, 4 mL and 2 mL of this solution, add a mixture of chloroform and methanol (9:1) to make exactly 10 mL, respectively, and use these solutions as the standard solutions (1), (2) and (3), respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03> without putting the filter paper in the developing vessel. Spot 5 mL each of the sample solution and the standard solutions (1), (2) and on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of dichloromethane, ethyl acetate, methanol and ammonia solution (28) (50:50:3:1) to a distance of about 15 cm, and dry the plate with the aid of a cool air stream. Immediately after that, develop the plate again with a newly prepared mixture of dichloromethane, ethyl acetate, methanol and ammonia solution (28) (50:50:3:1) to a distance of about 15 cm, and dry the plate within 1 minute with the aid of a cool air stream. Spray evenly p-dimethylaminobenzal-dehyde-hydrochloric acid TS on the plate, dry the plate within 2 minutes with the aid of a cool air stream, and heat it at 409C for 15 minutes: the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution (1), not more than 2 spots are more intense than that from the standard solution (2), and not more than 4 spots are more intense than that from the standard solution (3). Water <2.48> Not more than 5.0z (0.2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Dihydroergotoxine mesilate—Weigh accurately about 30 mg each of Dihydroergotoxine Mesilate and Di-hydroergotoxine Mesilate RS, and dissolve them separately in a suitable amount of a mixture of water and acetonitrile (3:1). To these solutions add exactly 10 mL of the internal standard solution and an amount of a mixture of water and acetonitrile (3:1) to make 50 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 20 mL of the sample solution and standard solution (QSA ＋ QSB ＋ QSC ＋ QSD) MS: Amount (mg) of Dihydroergotoxine Mesilate RS taken, calculated on the anhydrous basis QTA: Ratio of the peak area of dihydroergocornine to that of the internal standard of the sample solution × 659.80 QTB: Ratio of the peak area of dihydro-a-ergocryptine to that of the internal standard of the sample × 673.83 QTC: Ratio of the peak area of dihydroergocristine to that of the internal standard of the sample solution × 707.85 QTD: Ratio of the peak area of dihydro-b-ergocryptine to that of the internal standard of the sample solution × 673.83 QSA: Ratio of the peak area of dihydroergocornine to that of the internal standard of the standard solution × 659.80 QSB: Ratio of the peak area of dihydro-a-ergocryptine to that of the internal standard of the standard solution × 673.83 QSC: Ratio of the peak area of dihydroergocristine to that of the internal standard of the standard solution × 707.85 QSD: Ratio of the peak area of dihydro-b-ergocryptine to that of the internal standard of the standard solution × 673.83 Internal standard solution—Dissolve 0.04 g of chloram-phenicol in a mixture of water and acetonitrile (3:1) to make 250 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, acetonitrile and triethylamine (30:10:1). Flow rate: Adjust so that the retention time of chloram-phenicol is about 5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard, dihydroergocornine, dihydro-a-ergocryptine, dihydroergocristine and dihydro-b-ergocryp-tine are eluted in this order with the resolution between the peaks of dihydro-a-ergocryptine and dihydroergocristine being not less than 1.5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of dihydroergocornine, dihydro-a-ergocryp-tine, dihydroergocristine and dihydro-b-ergocryptine to that of the internal standard is not more than 0.5z. Relative contents of dihydroergocornine mesilate, dihydroergocryptine mesilate and dihydroergocristine mesilate—Calculate the relative amounts of dihydroergocor- ‌862 nine mesilate, dihydroergocryptine mesilate (dihydro-a-ergocryptine mesilate and dihydro-b-ergocryptine mesilate) and dihydroergocristine mesilate from the chromatogram obtained in Assay (1) for the sample solution using the fol-lowing equations: Relative amount (z) of dihydroergocornine mesilate To 5 mL of a solution of Dilazep Hydrochloride Hy-drate (3 in 500) add 0.3 mL of Reinecke salt TS: a light red precipitate is formed. Determine the absorption spectrum of a solution of Dilazep Hydrochloride Hydrate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and ＝ QTA/(QTA ＋ QTB ＋ QTC ＋ QTD ) × 100 compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same Relative amount (z) of dihydroergocryptine mesilate ＝ (QTB ＋ QTD)/(QTA ＋ QTB ＋ QTC ＋ QTD) × 100 Relative amount (z) of dihydroergocristine mesilate wavelengths. Determine the infrared absorption spectrum of Dilazep Hydrochloride Hydrate as directed in the potassium ＝ QTC/(QTA ＋ QTB ＋ QTC ＋ QTD) × 100 chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- Ratio of the content of dihydro-a-ergocryptine mesi-late to dihydro-b-ergocryptine mesilate—Calculate the ratio of the amount of dihydro-a-ergocryptine mesilate to di-hydro-b-ergocryptine mesilate from the chromatogram ob-tained in the Assay (1) for the sample solution using the fol-lowing equations: Ratio of the content of dihydro-a-ergocryptine mesilate to dihydro-b-ergocryptine mesilate ＝ QTB/QTD"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

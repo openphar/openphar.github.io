@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/menthae-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Menthae Herba",
+    "ja": "ハッカ"
+  },
+  "monographId": "JP18-menthae-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Stem with opposite leaves; stem, square, light brown to red-purple in color, and with fine hairs; when smoothed by immersing in water, leaf, ovate to oblong, with acute apex and base, 2 – 8 cm in length, 1 – 2.5 cm in width, margin irregularly serrated; the upper surface, light brown-yellow to light green-yellow, and the lower surface, light green to light green-yellow in color; petiole 0.3 – 1 cm in length. Under a magnifying glass, leaf reveals hairs, glandu-lar hairs and scales. It has a characteristic aroma and gives a cool feeling on keeping in the mouth."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Mentha Herb add 10 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of menthol in 1 mL of diethyl ether, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of hexane and acetone (7:3) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid-acetic acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of roots and other foreign matter contained in Mentha Herb does not exceed 2.0z. Loss on drying <5.01> Not more than 15.0z (6 hours). Total ash <5.01> Not more than 12.0z. Acid-insoluble ash <5.01> Not more than 2.5z. Essential oil content <5.01> Perform the test with 50.0 g of Amount (mg) of glycyrrhizic acid (C ＝ MS × AT/AS × 1/2 42H 62O 16) pulverized Mentha Herb after adding 1 mL of silicone resin to the sample in the flask: the volume of essential oil is not less than 0.4 mL. MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Proceed as directed in the operating conditions in i). System suitability— System repeatability: Proceed as directed in the system suitability in i). System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak having the relative retention time of about 0.9 to glycyrrhizic acid and the peak of glycyrrhizic acid is not less than 1.5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

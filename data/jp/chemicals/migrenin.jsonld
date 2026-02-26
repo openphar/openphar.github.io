@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/migrenin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Migrenin",
+    "ja": "ミグレニン"
+  },
+  "monographId": "JP18-migrenin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Migrenin is composed of 90 parts of antipyrine, 9 parts of caffeine, and 1 part of citric acid in mass. tive Tests <1.09> for citrate. Melting point <2.60> 104 – 1109C Purity (1) Clarity and color of solution—Dissolve 1.0 g of Migrenin in 40 mL of water: the solution is clear and col-orless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of Migrenin according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Assay (1) Antipyrine—Weigh accurately about 0.25 g of Migrenin, previously dried in an iodine flask, dissolve in 25 mL of sodium acetate TS, add exactly 30 mL of 0.05 mol/L iodine VS, and allow to stand for 20 minutes with occasional shaking. Add 15 mL of chloroform to dissolve the precipi-tate so obtained, and titrate <2.50> the excess iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 9.411 mg of C11H12N2O (2) Caffeine—To about 1 g of Migrenin, previously dried and accurately weighed, add exactly 5 mL of the inter-nal standard solution, dissolve in chloroform to make 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 90 mg of Caffeine RS, previously dried at 809C for 4 hours, add exactly 5 mL of the internal standard solution, dissolve in chloroform to make 10 mL, and use this solution as the standard solution. Perform the test with 1 mL each of the sample solution and standard solu-tion as directed under Gas Chromatography <2.02> accord-ing to the following conditions, and calculate the ratios, QT and QS, of the peak area of caffeine to that of the internal standard. Migrenin, when dried, contains not less than 87."
+  },
+  "appearance": {
+    "en": "Migrenin occurs as a white, powder or crystal-line powder. It is odorless and has a bitter taste. It is very soluble in water, freely soluble in ethanol (95) MS: Amount (mg) of Caffeine RS taken Internal standard solution—A solution of ethenzamide in chloroform (1 in 50). Operating conditions— Detector: A hydrogen flame-ionization detector. ‌Column: A glass column 2.6 mm in inside diameter and 210 cm in length, packed with siliceous earth for gas chroma-tography (180 to 250 mm in particle diameter) coated with 50z phenyl-methyl silicon polymer for gas chromatography at the ratio of 15z. Column temperature: A constant temperature of about 2109C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of ethen-zamide is about 4 minutes. System suitability— System performance: Dissolve 0.9 g of antipyrine and 0.09 g of caffeine in 10 mL of chloroform. When the proce-dure is run with 1 mL of this solution under the above operat-ing conditions, caffeine and antipyrine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of caffeine to that of the internal standard is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Migrenin in 40 mL of water: the solution is clear and col-orless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of Migrenin according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Antipyrine—Weigh accurately about 0.25 g of Migrenin, previously dried in an iodine flask, dissolve in 25 mL of sodium acetate TS, add exactly 30 mL of 0.05 mol/L iodine VS, and allow to stand for 20 minutes with occasional shaking. Add 15 mL of chloroform to dissolve the precipi-tate so obtained, and titrate <2.50> the excess iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 9.411 mg of C11H12N2O (2) Caffeine—To about 1 g of Migrenin, previously dried and accurately weighed, add exactly 5 mL of the inter-nal standard solution, dissolve in chloroform to make 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 90 mg of Caffeine RS, previously dried at 809C for 4 hours, add exactly 5 mL of the internal standard solution, dissolve in chloroform to make 10 mL, and use this solution as the standard solution. Perform the test with 1 mL each of the sample solution and standard solu-tion as directed under Gas Chromatography <2.02> accord-ing to the following conditions, and calculate the ratios, QT and QS, of the peak area of caffeine to that of the internal standard. Migrenin, when dried, contains not less than 87.0z and not more than 93.0z of antipyrine (C11H12N2O: Amount (mg) of caffeine (C8H10N4O2) ＝ M S × QT/QS 188.23) and not less than 8.6z and not more than 9.5z of caffeine (C8H10N4O2: 194.19). Description Migrenin occurs as a white, powder or crystal-line powder. It is odorless and has a bitter taste. It is very soluble in water, freely soluble in ethanol (95) MS: Amount (mg) of Caffeine RS taken Internal standard solution—A solution of ethenzamide in chloroform (1 in 50). Operating conditions— Detector: A hydrogen flame-ionization detector. ‌Column: A glass column 2.6 mm in inside diameter and 210 cm in length, packed with siliceous earth for gas chroma-tography (180 to 250 mm in particle diameter) coated with 50z phenyl-methyl silicon polymer for gas chromatography at the ratio of 15z. Column temperature: A constant temperature of about 2109C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of ethen-zamide is about 4 minutes. System suitability— System performance: Dissolve 0.9 g of antipyrine and 0.09 g of caffeine in 10 mL of chloroform. When the proce-dure is run with 1 mL of this solution under the above operat-ing conditions, caffeine and antipyrine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of caffeine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

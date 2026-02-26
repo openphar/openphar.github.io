@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/achyranthis-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Achyranthis Radix",
+    "ja": "ゴシツ"
+  },
+  "monographId": "JP18-achyranthis-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Main root or main root with some lateral roots, with or without short remains of rhizome at the crown; main root, long cylindrical and sometimes somewhat tortuous, 15 – 90 cm in length, 0.3 – 0.7 cm in diameter; externally grayish yellow to yellow-brown, with numerous longitudinal wrinkles, and with scattering scars of lateral roots. Fractured surface is flat; grayish white to light brown on the circumference, and with yellow-white xylem in the center. Hard and brittle, or flexible. Odor, slight; taste, slightly sweet, and mucilaginous. Under a microscope <5.01>, a transverse section reveals a rather distinct cambium separating the cortex from the xylem; small protoxylem located at the center of the xylem, and surrounded by numerous vascular bundles arranged on several concentric circles; parenchyma cells containing sand crystals of calcium oxalate; starch grains absent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake vigorously 0.5 g of pulverized Achyranthes Root with 10 mL of water: a lasting fine foam is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Achyranthes Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Achyranthes Root according to Method 4, and perform the test (not more than 5 ppm). Stem—When perform the test of foreign matter <5.01>, the amount of stems contained in Achyranthes Root does not exceed 5.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than stems contained in Achyranthes Root does not exceed 1.0z. Loss on drying <5.01> Not more than 17.0z (6 hours). Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

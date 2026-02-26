@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sevum-bovinum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sevum Bovinum",
+    "ja": "牛脂"
+  },
+  "monographId": "JP18-sevum-bovinum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Beef Tallow occurs as a white, uniform mass. It has a characteristic odor and a mild taste. It is freely soluble in diethyl ether and in petroleum ether, very slightly soluble in ethanol (95), and practically insoluble in water. It is breakable at a low temperature, but softens above 309C. Melting point: 42 – 509C Acid value <1.13> Not more than 2.0. Saponification value <1.13> 193 – 200 Iodine value <1.13> 33 – 50 (When the sample is insoluble in 20 mL of cyclohexane, dissolve it by shaking a glass-stoppered flask in warm water. Then, if insoluble, increase the volume of solvent.)"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Moisture and coloration—Beef Tallow (5.0 g), melted by heating on a water bath, forms a clear liquid, from which no water separates. In a 10-mm thick layer of the liquid, it is colorless or slightly yellow. Alkalinity—To 2.0 g of Beef Tallow add 10 mL of water, melt by heating on a water bath, and shake vigor-ously. After cooling, add 1 drop of phenolphthalein TS to the separated aqueous layer: no color develops. Chloride—To 1.5 g of Beef Tallow add 30 mL of ethanol (95), heat for 10 minutes under a reflux condenser, and filter after cooling. To 20 mL of the filtrate add 5 drops of a solution of silver nitrate in ethanol (95) (1 in 50): the turbidity of the mixture does not exceed that of the following control solution. Control solution: To 1.0 mL of 0.01 mol/L hydrochloric acid VS add ethanol (95) to make 20 mL, then add 5 drops of an ethanolic solution of silver nitrate (1 in 50)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

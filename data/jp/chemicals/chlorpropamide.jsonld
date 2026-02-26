@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorpropamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorpropamide",
+    "ja": "クロルプロパミド"
+  },
+  "monographId": "JP18-chlorpropamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H13ClN2O3S",
+  "molecularWeight": 276.74,
+  "definition": {
+    "en": "Chlorpropamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chlorpropamide occurs as white, crystals or crystalline powder. It is freely soluble in methanol and in acetone, soluble in ethanol (95), and slightly soluble in diethyl ether, and practi-cally insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.08 g of Chlorpropamide in 50 mL of methanol. To 1 mL of the solution add 0.01 mol/L hydrochloric acid TS to make 200 mL. Determine the ab-sorption spectrum of the solution as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Chlorpropamide, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. Perform the test with Chlorpropamide as directed under Flame Coloration Test <1.04> (2): a green color ap-pears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—To 3.0 g Chlorpropamide add 150 mL of water, and warm at 709C for 5 minutes. Allow to stand in ice water for 1 hour, and filter. To 25 mL of the filtrate add 2 drops of methyl red TS and 0.30 mL of 0.1 mol/L sodium hydroxide VS: a yellow color develops. Chloride <1.03>—To 40 mL of the filtrate obtained in (1) add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution with 0.25 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.011z). Sulfate <1.14>—To 40 mL of the filtrate obtained in add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.021z). Heavy metals <1.07>—Proceed with 2.0 g of Chlor- propamide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.6 g of Chlor-propamide in acetone to make exactly 10 mL, and use this Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Chlorpropamide, previously dried, dissolve in 30 mL of neutralized ethanol, and add 20 mL of water. Titrate <2.50> with 0.1 mol/L so-dium hydroxide VS (indicator: 3 drops of phenolphthalein TS). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 27.67 mg of C10H13ClN2O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

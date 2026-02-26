@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/quinine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Quinine Hydrochloride Hydrate",
+    "ja": "キニーネ塩酸塩水和物"
+  },
+  "monographId": "JP18-quinine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H24N2O2.HCl.2H2O",
+  "molecularWeight": 396.91,
+  "casNumber": "6119-47-7",
+  "appearance": {
+    "en": "Quinine Hydrochloride Hydrate occurs as white crystals. It is odorless, and has a very bitter taste. It is very soluble in ethanol (99.5), freely soluble in acetic acid (100), in acetic anhydride and in ethanol (95), soluble in water, and practically insoluble in diethyl ether. It, previously dried, is freely soluble in chloroform. It gradually changes to brown by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Quinine Hydrochloride Hydrate (1 in 50) shows no fluorescence. To 1 mL of the so-lution add 100 mL of water and 1 drop of dilute sulfuric acid: a blue fluorescence is produced. To 5 mL of a solution of Quinine Hydrochloride Hy-drate (1 in 1000) add 1 to 2 drops of bromine TS and 1 mL of ammonia TS: a green color develops. To 5 mL of a solution of Quinine Hydrochloride Hy-drate (1 in 50) add 1 mL of dilute nitric acid and 1 mL of sil-ver nitrate TS: a white precipitate is produced. Collect the precipitate, and add an excess of ammonia TS: it dissolves. D Optical rotation <2.49> [a]20: －245 – －2559(after drying, 0.5 g, 0.1 mol/L hydrochloric acid VS, 25 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Quinine Hydrochloride Hy-drate in 100 mL of freshly boiled and cooled water: the pH of this solution is between 6.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Perform the test with 1.0 g of Quinine Hydrochloride Hydrate. Prepare the control solu-tion with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Barium—Dissolve 0.5 g of Quinine hydrochloride Hydrate in 10 mL of water by warming, and add 1 mL of di-lute sulfuric acid: no turbidity is produced. Chloroform-ethanol-insoluble substances—Warm 2.0 g of Quinine Hydrochloride Hydrate with 15 mL of a mixture of chloroform and ethanol (99.5) (2:1) at 509C for 10 minutes. After cooling, filter through a tared glass filter (G4) by gentle suction. Wash the residue with five 10-mL portions of a mixture of chloroform and ethanol (99.5) (2:1), dry at 1059C for 1 hour, and weigh: the mass of the residue so obtained is not more than 2.0 mg. Related substances—Dissolve 20 mg of Quinine Hy-drochloride Hydrate in the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Separately, dissolve 25 mg of cinchonidine in the mobile phase to make exactly 100 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of the sample solution by the automatic integration method, and calculate the amount of dihydroquinine hydrochloride by the area per-centage method: it is not more than 10.0z. The total area of the peaks other than the main peak and the peaks mentioned above is not larger than the peak area of cinchonidine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 235 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 25 cm in length, packed with octadecyl-silanized silica gel (10 mm in particle diameter). Column temperature: Room temperature. Mobile phase: A mixture of water, acetonitrile, methanesulfonic acid TS and a solution of diethylamine (1 in 10) (43:5:1:1). Flow rate: Adjust so that the retention time of quinine is about 10 minutes. Selection of column: Dissolve 10 mg each of Quinine Hy-drochloride Hydrate and quinidine sulfate hydrate in 5 mL of methanol, and add the mobile phase to make 50 mL. Pro-ceed with 50 mL of this solution under the above operating conditions. Use a column giving elution of quinidine, qui-nine, dihydroquinidine and dihydroquinine in this order with the resolution between quinidine and quinine, and that be-tween quinine and dihydroquinidine being not less than 1.2, respectively. Detection sensitivity: Adjust the detection sensitivity so that the peak height of cinchonidine from 50 mL of the standard solution is between 5 mm and 10 mm. Time span of measurement: About 2 times as long as the retention time of quinine, beginning after the solvent peak. Readily carbonizable substances <1.15>—Perform the test with 0.25 g of Quinine Hydrochloride Hydrate. The so-lution has no more color than Matching Fluid M. Loss on drying <2.41> Not more than 10.0z (1 g, 1059C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Quinine Hydrochlo-ride Hydrate, previously dried, dissolve in 100 mL of a mix-ture of acetic anhydride and acetic acid (100) (7:3) by warm-ing, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 18.04 mg of C20H24N2O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

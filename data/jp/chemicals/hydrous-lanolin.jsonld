@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrous-lanolin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrous Lanolin",
+    "ja": "加水ラノリン"
+  },
+  "monographId": "JP18-hydrous-lanolin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Hydrous Lanolin is Purified Lanolin to which water is added. It contains not less than 70z and not more than 75z of Purified Lanolin (as determined by the test for Residue on evaporation)."
+  },
+  "appearance": {
+    "en": "Hydrous Lanolin is a yellow-white, ointment-like substance, and has a slight, characteristic odor, which is not rancid. It is soluble in diethyl ether and in cyclohexane, with the separation of water. When melted by heating on a water bath, it separates into a clear oily layer and a clear aqueous layer. Melting point: about 399C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 1 g of Hydrous Lanolin in 50 mL of cyclohexane, and remove the separated water. Superimpose carefully 1 mL of the cyclohexane solution on 2 mL of sulfu-ric acid: a red-brown color develops at the zone of contact, and sulfuric acid layer shows a green fluorescence. Acid value <1.13> Not more than 1.0. Iodine value 18 – 36 Heat a suitable amount of Hydrous Lanolin on a water bath to remove its almost moisture, then weigh accurately about 0.8 g of the treated Hydrous Lanolin in a glass-stoppered 500-mL flask, and add 10 mL of cyclo-hexane to dissolve, and add exactly 25 mL of Hanus's TS, and mix well. If a clear solution is not obtained, add more cyclohexane to make clear, and allow the mixture to stand for 1 hour between 209C and 309C in a light-resistant, well-closed container while occasional shaking. Add 20 mL of a solution of potassium iodide (1 in 10) and 100 mL of water, shake, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Per-form a blank determination in the same manner. Iodine value ＝ (a － b) × 1.269/M M: amount (g) of Hydrous Lanolin taken a: Volume (mL) of 0.1 mol/L sodium thiosulfate VS con-sumed in the blank determination b: Volume (mL) of 0.1 mol/L sodium thiosulfate VS con-sumed in the titration"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 5 g of Hydrous Lanolin add 25 mL of water, boil for 10 minutes, and cool. Add water to restore the previous mass, and separate the aqueous layer: the aqueous layer is neutral. Chloride <1.03>—To 2.0 g of Hydrous Lanolin add 40 mL of water, boil for 10 minutes, and cool. Add water to restore the previous mass, and filter. To 20 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL. Use this solution as the test solution, and perform the test. Pre-pare the control solution with 1.0 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.036z). Ammonia—To 10 mL of the aqueous layer obtained in (1) add 1 mL of sodium hydroxide TS, and boil: the gas evolved does not turn moistened red litmus paper to blue. Water-soluble organic substances—To 5 mL of the aqueous layer obtained in (1) add 0.25 mL of 0.002 mol/L potassium permanganate VS, and allow to stand for 5 minutes: the red color of the solution does not disappear. Petrolatum—Dissolve 1.0 g of the dried residue ob-tained in the Residue on evaporation in 10 mL of a mixture of tetrahydrofuran and isooctane (1:1), and use this solution as the sample solution. Add dissolve 20 mg of vaseline in 10 mL of a mixture of tetrahydrofuran and isooctane (1:1), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 25 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with isooctane to a distance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (1 in 2) on the plate, heat the plate at 809C for 5 minutes, cool, and examine under ultraviolet light (main wavelength: 365 nm): no fluorescent spot is observed in the same level with the spot of standard solution. For this test use a thin-layer plate previously developed with isooctane to the upper end, dried in air, and heated at 1109C for 60 minutes. Residue on evaporation Weigh accurately about 12.5 g of Hydrous Lanolin, dissolve in 50 mL of diethyl ether, put it in a separator, transfer the separated aqueous layer to another separator, add 10 mL of diethyl ether, shake, and combine the diethyl ether layer and diethyl ether in the first separator. Shake the diethyl ether layer with 3 g of anhy-drous sodium sulfate, and filter through dry filter paper. Wash the separator and the filter paper with two 20-mL por-tions of diethyl ether, combine the washings with the filtrate, evaporate on a water bath until the odor of diethyl ether is no longer perceptible, and dry in a desiccator (in vacuum, silica gel) for 24 hours: the content is not less than 70z and not more than 75z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

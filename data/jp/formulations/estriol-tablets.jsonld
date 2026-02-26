@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/estriol-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Estriol Tablets",
+    "ja": "エストリオール錠"
+  },
+  "monographId": "JP18-estriol-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Estriol Tablets contain not less than 90.0z and not more than 110.0z of the labeled amount of estriol (C18H24O3: 288.38). Method of preparation Prepare as directed under Tablets, with Estriol. Identification (1) Weigh a portion of powdered Estriol ‌962 Tablets, equivalent to 2 mg of Estriol, add 20 mL of ethanol (95), shake for 10 minutes, centrifuge, and use the superna-tant liquid as the sample solution. Proceed with the sample solution as directed in the Identification (1) under Estriol. (2) Determine the absorption spectrum of the sample so-lution obtained in (1) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 279 nm and 283 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Estriol Tablets add exactly 5 mL of water, disperse the fine particles by sonicating, add exactly 15 mL of methanol, and shake for 15 minutes. Centrifuge this solu-tion for 10 minutes, pipet a definite amount of the superna-tant liquid, and add methanol to make exactly a definite amount of solution so that each ml of the solution contains about 5 mg of estriol (C18H24O3)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a portion of powdered Estriol ‌962 Tablets, equivalent to 2 mg of Estriol, add 20 mL of ethanol (95), shake for 10 minutes, centrifuge, and use the superna-tant liquid as the sample solution. Proceed with the sample solution as directed in the Identification (1) under Estriol. (2) Determine the absorption spectrum of the sample so-lution obtained in (1) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 279 nm and 283 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Estriol Tablets add exactly 5 mL of water, disperse the fine particles by sonicating, add exactly 15 mL of methanol, and shake for 15 minutes. Centrifuge this solu-tion for 10 minutes, pipet a definite amount of the superna-tant liquid, and add methanol to make exactly a definite amount of solution so that each ml of the solution contains about 5 mg of estriol (C18H24O3). Pipet 5 mL of this solution, add exactly 1 mL of the internal standard solution, and use this solution as the sample solution. Proceed with 20 mL of System suitability— Proceed as directed in the system suitability in the Assay under Estriol."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Estriol Tablets. Weigh accurately a portion of the powder, equivalent to about 1 mg of estriol (C18H24O3), add exactly 5 mL of water, disperse the fine particles by sonicating, shake with 25 mL of methanol for 10 minutes, centrifuge, and take the supernatant liquid. Add 25 mL of methanol, repeat the above procedure twice, combine the supernatant liquid, add exactly 5 mL of the internal standard solution, then add methanol to make 100 mL, and use this solution as the sam-ple solution. Separately, weigh accurately about 25 mg of Estriol RS, previously dried at 1059C for 3 hours, and dis-solve in methanol to make exactly 100 mL. Pipet 4 mL of this solution, add exactly 5 mL of the internal standard solu-tion, then add methanol to make 100 mL, and use this solu-tion as the standard solution. Proceed with 20 mL each of the sample solution and standard solution as directed in the Assay under Estriol. the sample solution as directed in the Assay under Estriol. Use a solution of methyl benzoate for estriol test in methanol (1 in 40,000) as the internal standard solution. Calculate the Amount (mg) of estriol (C ＝ MS × QT/QS × 1/25 18H 24O3) mean value from each ratio of peak areas of 10 samples: the samples conform to the requirements if the deviation (z) of the mean value and each ratio of peak areas is within 15z. If the deviation (z) exceeds 15z, and 1 sample shows devia-tion within 25z, repeat the test with 20 samples. Calculate the deviation (z) of the mean value from each ratio of peak areas of the 30 samples used in the 2 tests and each ratio of peak areas: the samples conform to the requirements if the deviation exceeds 15z, not more than 1 sample shows devia-tion within 25z, and no sample shows deviation exceeding 25z. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Estriol Tablets is not less than 80z. Start the test with 1 tablet of Estriol Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 0.1 mg of estriol (C18H24O3), and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Estriol RS, previously dried at 1059C for 3 hours, dis-solve in methanol to make exactly 100 mL, then pipet 5 mL of this solution, and add water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 100 mL each of the sample solution and standard solution as directed under Liquid chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of estriol. Dissolution rate (z) with respect to the labeled amount of estriol (C18H24O3) ＝ MS × AT/AS × V?/V × 1/C × 9/10 MS: Amount (mg) of Estriol RS taken C: Labeled amount (mg) of estriol (C18H24O3) in 1 tablet Operating conditions— Proceed as directed in the operating conditions in the Assay under Estriol. MS: Amount (mg) of Estriol RS taken Internal standard solution—A solution of methyl benzoate for estriol test in methanol (1 in 5000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

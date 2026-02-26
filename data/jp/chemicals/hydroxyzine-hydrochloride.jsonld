@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydroxyzine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydroxyzine Hydrochloride",
+    "ja": "ヒドロキシジン塩酸塩"
+  },
+  "monographId": "JP18-hydroxyzine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H27ClN2O2.2HCl",
+  "molecularWeight": 447.83,
+  "casNumber": "2192-20-3",
+  "definition": {
+    "en": "Hydroxyzine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Hydroxyzine Hydrochloride occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is very soluble in water, freely soluble in methanol, in ethanol (95) and in acetic acid (100), very slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. Melting point: about 2009C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Hydroxyzine Hydrochloride (1 in 100) add 2 to 3 drops of ammonium thiocyanate-cobalt (II) nitrate TS: a blue precipitate is ＝ MS/MT × QT/QS × 44.17 3 7 2 formed. (2) Determine the absorption spectrum of a solution of MS: Amount (mg) of isopropyl iodide for assay taken MT: Amount (mg) of Low Substituted Hydroxypropylcel-lulose taken, calculated on the dried basis Internal standard solution—A solution of n-octane in o-xy-lene (3 in 100). Operating conditions— Detector: A thermal conductivity detector or hydrogen flame-ionization detector. Column: A fused silica column 0.53 mm in inside diameter and 30 m in length, coated with dimethylpolysiloxane for gas chromatography in 3 mm thickness. Use a guard column if necessary. Column temperature: Maintain the temperature at 509C for 3 minutes after injection, raise to 1009C at a rate of 109C per minute, then to 2509C at a rate of 359C per minute and maintain at 2509C for 8 minutes. Injection port temperature: 2509C. Detector temperature: 2809C. Hydroxyzine Hydrochloride in methanol (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of Hydroxyzine Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Hydroxyzine Hydrochloride in 20 mL of water: the pH of this solution is between 1.3 and 2.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Hydroxyzine Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Hydrox- yzine Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). ‌1126 Related substances—Dissolve 0.20 g of Hydroxyzine Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate, ethanol (95) and ammonia solution (28) (150:95:1) to a distance of about 10 cm, and air-dry the plate. Allow the plate to stand in iodine vapor: the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot obtained from the standard solution. Loss on drying <2.41> Not more than 3.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Hydroxyzine Hy-drochloride, previously dried, dissolve in 60 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 22.39 mg of C21H27ClN2O2.2HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

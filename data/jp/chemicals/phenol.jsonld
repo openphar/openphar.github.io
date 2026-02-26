@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenol",
+    "ja": "フェノール"
+  },
+  "monographId": "JP18-phenol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H6O",
+  "molecularWeight": 94.11,
+  "definition": {
+    "en": "Phenol [108-95-2] Phenol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Phenol occurs as colorless to slightly red, crys-tals or crystalline masses. It has a characteristic odor. It is very soluble in ethanol (95) and in diethyl ether, and soluble in water. Phenol (10 g) is liquefied by addition of 1 mL of water. The color changes gradually through red to dark red by light or air. It cauterizes the skin, turning it white. Congealing point: about 409C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 1 drop of iron (III) chloride TS to 10 mL of a solution of Phenol (1 in 100): a blue-purple color develops. (2) Add bromine TS dropwise to 5 mL of a solution of Phenol (1 in 10,000): a white precipitate is produced, which at first dissolves with shaking, but becomes permanent as excess of the reagent is added."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution and acidity or alkalinity—Dissolve 1.0 g of Phenol in 15 mL of water: the solution is clear, and neutral or only faintly acid. Add 2 drops of methyl orange TS: no red color develops. (2) Residue on evaporation—Weigh accurately about 5 g of Phenol, evaporate on a water bath, and dry the residue at 1059C for 1 hour: the mass is not more than 0.05z of the mass of the sample."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 1.5 g of Phenol, accurately weighed, in water to make exactly 1000 mL. Transfer exactly 25 mL of this solution to an iodine flask, add exactly 30 mL of 0.05 mol/L bromine VS, then 5 mL of hydrochloric acid, and im- Liquefied Phenol"
+      }
+    }
+  ]
+}

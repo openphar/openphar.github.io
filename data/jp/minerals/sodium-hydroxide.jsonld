@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-hydroxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Hydroxide",
+    "ja": "水酸化ナトリウム"
+  },
+  "monographId": "JP18-sodium-hydroxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Hydroxide contains not less than 95."
+  },
+  "appearance": {
+    "en": "Sodium Hydroxide occurs as white, fused masses, in small pellets, in flakes, in sticks, and in other forms. It is hard and brittle, and shows a crystalline fracture. It is freely soluble in water and in ethanol (95), and practi- Average molecular mass ＝ 0.78 cally insoluble in diethyl ether. It rapidly absorbs carbon dioxide in air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Sodium Hydroxide (1 in 500) is alkaline. (2) A solution of Sodium Hydroxide (1 in 25) responds to Qualitative Tests <1.09> for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Hydroxide in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 2.0 g of Sodium Hydrox- ide in water, and add water to make 100 mL. To 25 mL of the solution add 10 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.7 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.050z). Heavy metals <1.07>—Dissolve 1.0 g of Sodium Hy-droxide in 5 mL of water, add 11 mL of dilute hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the 14 20 11 n residue in 35 mL of water, add 2 mL of dilute acetic acid and ＝ MS × AT/AS × 1/V × 3/100 MS: Amount (mg) of sodium hyaluronate for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 7.8 mm in inside diame-ter and 30 cm in length, packed with porous polymethacry-late for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 32.2 g of sodium sulfate decahy-drate in water to make 1000 mL. drop of ammonia TS, add water to make 50 mL, and per-form the test using this solution as the test solution. Evaporate 11 mL of dilute hydrochloric acid on a water bath to dryness, dissolve the residue in 2 mL of dilute acetic acid and 3.0 mL of Standard Lead Solution, add water to make 50 mL, and use this solution as the control solution (not more than 30 ppm). Potassium—Dissolve 0.10 g of Sodium Hydroxide in water and dilute with water to make 40 mL. Add 1.0 mL of dilute acetic acid to 4.0 mL of this solution, and shake. Add 5.0 mL of a solution of sodium tetraphenylboron (1 in 30), shake immediately, and allow to stand for 10 minutes: the ‌solution has no more turbidity than the following control so-lution. Control solution: Dissolve 9.5 mg of potassium chloride in water, and dilute with water to make 1000 mL. Add 1.0 mL of dilute acetic acid to 4.0 mL of this solution, shake, and proceed as directed above. Sodium carbonate—The amount of sodium carbon-ate (Na2CO3: 105.99) is not more than 2.0z, when calcu-lated by the following equation using B (mL) which is ob-tained in the Assay. Amount (mg) of sodium carbonate ＝ 105.99 × B Mercury—Dissolve 2.0 g of Sodium Hydroxide in 1 mL of a solution of potassium permanganate (3 in 50) and 30 mL of water, neutralize gradually with purified hydro-chloric acid, and add 5 mL of diluted sulfuric acid (1 in 2). To this solution add a solution of hydroxylammonium chlo-ride (1 in 5) until the precipitate of manganese dioxide disap-pears, add water to make exactly 100 mL, and use this solu-tion as the sample solution. Perform the tests according to Atomic Absorption Spectrophotometry <2.23> (Cold vapor type) with the sample solution. Place the sample solution in the sample bottle of an atomic absorption spectrophotome-ter, add 10 mL of tin (II) chloride-sulfuric acid TS, connect the bottle immediately to the atomic absorption spectropho-tometer, and circulate air. Read the absorbance AT of the sample solution when the indication of the recorder rises rapidly and becomes constant at the wavelength of 253.7 nm. On the other hand, to 2.0 mL of Standard Mercury So-lution add 1 mL of a solution of potassium permanganate (3 in 50), 30 mL of water and a volume of purified hydrochlo-ric acid equal to that used in the preparation of the sample solution, and read the absorbance AS of the solution ob-tained by the same procedure as used for the sample solu-tion: AT is smaller than AS."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To exactly V mL of Purified Sodium Hyaluronate Ophthalmic Solution, equivalent to about 1.5 mg of purified sodium hyaluronate [(C14H20NNaO11)n], add the mobile phase to make exactly 30 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of sodium hyaluronate for assay, previously dried under reduced pressure (not exceeding 0.67 kPa) at 609C for 5 hours using phosphorus (V) oxide as a desiccant, and dis-solve in a solution of sodium chloride (9 in 1000) to make ex-actly 50 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of hyaluronic acid in each solution. Amount (mg) of purified sodium hyaluronate [(C H NNaO ) ] It deliquesces in moist air. Identification (1) A solution of Sodium Hydroxide (1 in 500) is alkaline. (2) A solution of Sodium Hydroxide (1 in 25) responds to Qualitative Tests <1.09> for sodium salt. Purity (1) Clarity and color of solution—Dissolve 1.0 g of Sodium Hydroxide in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 2.0 g of Sodium Hydrox- ide in water, and add water to make 100 mL. To 25 mL of the solution add 10 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.7 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.050z). Heavy metals <1.07>—Dissolve 1.0 g of Sodium Hy-droxide in 5 mL of water, add 11 mL of dilute hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the 14 20 11 n residue in 35 mL of water, add 2 mL of dilute acetic acid and ＝ MS × AT/AS × 1/V × 3/100 MS: Amount (mg) of sodium hyaluronate for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 7.8 mm in inside diame-ter and 30 cm in length, packed with porous polymethacry-late for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 32.2 g of sodium sulfate decahy-drate in water to make 1000 mL. drop of ammonia TS, add water to make 50 mL, and per-form the test using this solution as the test solution. Evaporate 11 mL of dilute hydrochloric acid on a water bath to dryness, dissolve the residue in 2 mL of dilute acetic acid and 3.0 mL of Standard Lead Solution, add water to make 50 mL, and use this solution as the control solution (not more than 30 ppm). Potassium—Dissolve 0.10 g of Sodium Hydroxide in water and dilute with water to make 40 mL. Add 1.0 mL of dilute acetic acid to 4.0 mL of this solution, and shake. Add 5.0 mL of a solution of sodium tetraphenylboron (1 in 30), shake immediately, and allow to stand for 10 minutes: the ‌solution has no more turbidity than the following control so-lution. Control solution: Dissolve 9.5 mg of potassium chloride in water, and dilute with water to make 1000 mL. Add 1.0 mL of dilute acetic acid to 4.0 mL of this solution, shake, and proceed as directed above. Sodium carbonate—The amount of sodium carbon-ate (Na2CO3: 105.99) is not more than 2.0z, when calcu-lated by the following equation using B (mL) which is ob-tained in the Assay. Amount (mg) of sodium carbonate ＝ 105.99 × B Mercury—Dissolve 2.0 g of Sodium Hydroxide in 1 mL of a solution of potassium permanganate (3 in 50) and 30 mL of water, neutralize gradually with purified hydro-chloric acid, and add 5 mL of diluted sulfuric acid (1 in 2). To this solution add a solution of hydroxylammonium chlo-ride (1 in 5) until the precipitate of manganese dioxide disap-pears, add water to make exactly 100 mL, and use this solu-tion as the sample solution. Perform the tests according to Atomic Absorption Spectrophotometry <2.23> (Cold vapor type) with the sample solution. Place the sample solution in the sample bottle of an atomic absorption spectrophotome-ter, add 10 mL of tin (II) chloride-sulfuric acid TS, connect the bottle immediately to the atomic absorption spectropho-tometer, and circulate air. Read the absorbance AT of the sample solution when the indication of the recorder rises rapidly and becomes constant at the wavelength of 253.7 nm. On the other hand, to 2.0 mL of Standard Mercury So-lution add 1 mL of a solution of potassium permanganate (3 in 50), 30 mL of water and a volume of purified hydrochlo-ric acid equal to that used in the preparation of the sample solution, and read the absorbance AS of the solution ob-tained by the same procedure as used for the sample solu-tion: AT is smaller than AS. Assay Weigh accurately about 1.5 g of Sodium Hydroxide, and dissolve in 40 mL of freshly boiled and cooled water. Cool the solution to 159C, add 2 drops of phenolphthalein TS, and titrate <2.50> with 0.5 mol/L sulfuric acid VS until the red color of the solution disappears. Record the amount, A (mL), of 0.5 mol/L sulfuric acid VS consumed. Then add 2 drops of methyl orange TS to the solution, and further titrate <2.50> with 0.5 mol/L sulfuric acid VS until the solu-tion shows a persistent light red color. Record the amount, B (mL), of 0.5 mol/L sulfuric acid VS consumed. Calculate the amount of NaOH from the difference, A (mL) － B (mL). Each mL of 0.5 mol/L sulfuric acid VS ＝ 40.00 mg of NaOH"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

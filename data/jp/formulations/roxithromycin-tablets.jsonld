@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/roxithromycin-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Roxithromycin Tablets",
+    "ja": "ロキシスロマイシン錠"
+  },
+  "monographId": "JP18-roxithromycin-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Roxithromycin Tablets contain not less than 95.0z and not more than 110.0z of the labeled potency of roxithromycin (C41H76N2O15: 837.05). Method of preparation Prepare as directed under Tablets, with Roxithromycin. Identification To a quantity of powdered Roxithromycin Tablets, equivalent to 0.3 g (potency) of Roxithromycin, add 10 mL of acetonitrile, shake, and centrifuge. Evaporate the supernatant liquid on a water bath under reduced pressure, dry the residue at 609C under reduced pressure for 1 hour, and determine the infrared absorption spectrum of the residue as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorp-tion at the wave numbers of about 3460 cm－1, 2940 cm－1, 1728 cm－1, 1633 cm－1 and 1464 cm－1. Uniformity of dosage unit <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Roxithromycin Tablets add 7V/10 mL of the mobile phase, sonicate to disintegrate the tablet, shake, add exactly V/25 mL of the internal standard solution, and add the mobile phase to make V mL so that each mL contains about 1."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Roxithromycin Tablets, equivalent to 0.3 g (potency) of Roxithromycin, add 10 mL of acetonitrile, shake, and centrifuge. Evaporate the supernatant liquid on a water bath under reduced pressure, dry the residue at 609C under reduced pressure for 1 hour, and determine the infrared absorption spectrum of the residue as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorp-tion at the wave numbers of about 3460 cm－1, 2940 cm－1, 1728 cm－1, 1633 cm－1 and 1464 cm－1. Uniformity of dosage unit <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Roxithromycin Tablets add 7V/10 mL of the mobile phase, sonicate to disintegrate the tablet, shake, add exactly V/25 mL of the internal standard solution, and add the mobile phase to make V mL so that each mL contains about 1.5 mg (potency) of roxithromycin (C41H76N2O15). Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 5 mL of the filtrate, and use the subsequent filtrate as the sam-ple solution. Then, proceed as directed in the Assay. ‌Amount [mg (potency)] of roxithromycin (C41H76N2O15)‌‌ ＝ MS × QT/QS × V/25 MS: Amount [mg (potency)] of Roxithromycin RS taken Internal standard solution—A solution of isopropyl parahy-droxybenzoate in the mobile phase (1 in 800). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rate in 30 minutes of Roxithromycin Tablets is not less than 80z. Start the test with 1 tablet of Roxithromycin Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 0.17 mg (potency) of rox-ithromycin (C41H76N2O15), and use this solution as the sam-ple solution. Separately, weigh accurately about 33 mg (po-tency) of Roxithromycin RS, dissolve in the dissolution me-dium to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of roxithromycin in each solution. Dissolution rate (z) with respect to the labeled amount [mg (potency)] of roxithromycin (C41H76N2O15) ＝ MS × AT/AS × V?/V × 1/C × 450 MS: Amount [mg (potency)] of Roxithromycin RS taken C: Labeled amount [mg (potency)] of roxithromycin (C41H76N2O15) in 1 tablet Operating conditions— Detector, column temperature and mobile phase: Proceed as directed in the operating conditions in the Assay. Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Flow rate: Adjust so that the retention time of rox-ithromycin is about 5 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of roxithromycin are not less than 2300 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of roxithromycin is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Rox-ithromycin Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 38 mg (potency) of rox-ithromycin (C41H76N2O15), add 20 mL of the mobile phase, shake vigorously, add exactly 1 mL of the internal standard solution, and then add the mobile phase to make 25 mL. Filter the solution through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 5 mL of the filtrate, and use the subsequent filtrate as the sample solution. Sepa-rately, weigh accurately about 38 mg (potency) of Rox-ithromycin RS, dissolve in the mobile phase, add exactly 1 mL of the internal standard solution, then add the mobile phase to make 25 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of rox-ithromycin to that of the internal standard. Amount [mg (potency)] of roxithromycin (C41H76N2O15) ＝ MS × QT/QS MS: Amount [mg (potency)] of Roxithromycin RS taken Internal standard solution—A solution of isopropyl parahy-droxybenzoate in the mobile phase (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 49.1 g of ammonium dihydrogen phosphate in water to make 1000 mL, and adjust to pH 5.3 with 2 mol/L sodium hydroxide TS. To 690 mL of this solu-tion add 310 mL of acetonitrile. Flow rate: Adjust so that the retention time of rox-ithromycin is about 12 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, roxithromycin and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of roxithromycin to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

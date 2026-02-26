@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tetracycline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tetracycline Hydrochloride",
+    "ja": "テトラサイクリン塩酸塩"
+  },
+  "monographId": "JP18-tetracycline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H24N2O8.HCl",
+  "molecularWeight": 480.9,
+  "casNumber": "64-75-5",
+  "definition": {
+    "en": "Tetracycline Hydrochloride is the hydrochloride of a tetracycline substance having antibacterial activity produced by the growth of Streptomyces aureofaciens. It contains not less than 950 mg (potency) and not more than 1010 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Tetracycline Hydrochloride occurs as a yellow to pale brownish yellow crystalline powder. It is freely soluble in water, and sparingly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Tetracaine Hydro- chloride in 50 mL of water, add 5 mL of ammonia TS, shake, and allow to stand in a cold place. Collect the precipi-tate, wash with water until the washings become neutral, and dry in a desiccator (silica gel) for 24 hours: it melts <2.60> be-tween 429C and 449C. Dissolve 0.1 g of Tetracaine Hydrochloride in 8 mL of water, and add 3 mL of ammonium thiocyanate TS: a crystalline precipitate is produced. Collect the precipitate, recrystallize from water, and dry at 809C for 2 hours: it melts <2.60> between 1309C and 1329C. Determine the absorption spectrum of a solution of Tetracaine Hydrochloride in ethanol (99.5) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of Tetracaine Hydrochloride (1 in 10) re-sponds to Qualitative Tests <1.09> for chloride. Description Tetracycline Hydrochloride occurs as a yellow to pale brownish yellow crystalline powder. It is freely soluble in water, and sparingly soluble in ethanol (95). Identification (1) Determine the absorption spectrum of a solution of Tetracycline Hydrochloride (1 in 62,500) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Tetracycline Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Tetracycline Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Tetracycline Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. ‌A solution of Tetracycline Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride.‌ pH <2.54> Dissolve 1.0 g of Tetracycline Hydrochloride in 100 mL of water: the pH of the solution is between 1.8 and 2.8."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Tetracycline Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 25 mg of Tetracycline Hydrochloride in 50 mL of 0.01 mol/L hydrochloric acid TS, and use this solution as the sample solution. Pipet 3 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak other than tetracy-cline obtained from the sample solution is not larger than the peak area of tetracycline from the standard solution, and the total area of the peaks other than tetracycline from the sam-ple solution is not larger than 3 times the peak area of tetracycline from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 7 times as long as the retention time of tetracycline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 3 mL of the standard solution, add 0.1 mol/L hydrochloric acid TS to make ex-actly 100 mL, and confirm that the peak area of tetracycline obtained with 20 mL of this solution is equivalent to 1 to 5z of that with 20 mL of the standard solution. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tetracycline is not more than 1.0z. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.3z (1.0 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Tetracycline Hydro-chloride and Tetracycline Hydrochloride RS, equivalent to about 25 mg (potency), and dissolve each in 0.1 mol/L hy-drochloric acid TS to make exactly 50 mL, and use these so-lutions as the sample solution and the standard solution, re-spectively. Perform the test with exactly 20 mL each of these solutions as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of tetracycline in each solution. Amount [ mg (potency)] of tetracycline hydrochloride (C22H24N2O8.HCl) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Tetracycline Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with stylene-divinylbenzene copolymer for liquid chromatography (0.01 mm in pore di-ameter). Column temperature: A constant temperature of about 609C. Mobile phase: Dissolve 3.5 g of dipotassium hydrogen-phosphate, 2.0 g of tetrabutylammonium hydrogensulfate and 0.4 g of disodium dihydrogen ethylenediamine tetraace-tate dihydrate in 300 mL of water, adjust to pH 9.0 with so-dium hydroxide TS, add 90.0 g of t-butyl alcohol, and add water to make 1000 mL. Flow rate: Adjust so that the retention time of tetracycline is about 5 minutes. System suitability— System performance: Dissolve 0.05 g of Tetracycline Hy-drochloride RS in water to make 25 mL. Heat 5 mL of this solution on a water bath for 60 minutes, then add water to make 25 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, the retention time of 4-epitetracycline is about 3 minutes, and 4-epitetracycline and tetracycline are eluted in this order with the resolution between these peaks being not less than 2.5. System repeatability: When, the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of tetracycline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

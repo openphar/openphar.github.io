@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-lactic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "L-Lactic Acid",
+    "ja": "L-乳酸"
+  },
+  "monographId": "JP18-l-lactic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H6O3",
+  "molecularWeight": 90.08,
+  "definition": {
+    "en": "L-Lactic Acid is a mixture of L-lactic acid and L-lactic anhydride. It contains not less than 85."
+  },
+  "appearance": {
+    "en": "L-Lactic Acid occurs as a clear, colorless or light yellow, viscous liquid. It is odorless or has a faint, no unpleasant odor. It is miscible with water, with ethanol (99.5) and with diethyl ether. It is hygroscopic. Specific gravity d 20: about 1.20"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of L-Lactic Acid (1 in 50) changes the color of blue litmus paper to red, and responds to Qualitative Tests <1.09> for lactate. D Optical rotation <2.49> [a]20: －46 – －529 Weigh accu-rately an amount of L-Lactic Acid, equivalent to about 2 g of L-lactic acid (C3H6O3), add exactly 25 mL of 1 mol/L so-dium hydroxide VS, cover with a watch glass, and heat on a water bath for 15 minutes. Cool, and adjust to pH 7.0 with 1 mol/L hydrochloric acid VS. Dissolve 5.0 g of hexaammoni-um heptamolybdate tetrahydrate in this solution, add water to make exactly 50 mL, and determine the optical rotation using a 100-mm cell."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Perform the test with 1.0 g of L-Lactic Acid. Prepare the control solution with 1.0 mL of ‌JP XVIII Official Monographs / Anhydrous Lactose 1233 0.01 mol/L hydrochloric acid VS (not more than 0.036z). Sulfate <1.14>—Perform the test with 2.0 g of L-Lac-tic Acid. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.010z). Heavy metals <1.07>—To 2.0 g of L-Lactic Acid add 10 mL of water and 1 drop of phenolphthalein TS, and add ammonia TS dropwise until a pale red color appears. Add 2 mL of dilute acetic acid and water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution from 2.0 mL of Standard Lead Solution and 2 mL of dilute acetic acid, and dilute with water to 50 mL (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 4.0 g of L-Lactic Acid according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 5 ppm). Sugars—To 1.0 g of L-Lactic Acid add 10 mL of Anhydrous Lactose"
+      }
+    }
+  ]
+}

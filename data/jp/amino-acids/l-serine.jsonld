@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/l-serine",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "L-Serine",
+    "ja": "L-セリン"
+  },
+  "monographId": "JP18-l-serine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H7NO3",
+  "molecularWeight": 105.09,
+  "definition": {
+    "en": "L-Serine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "L-Serine occurs as white, crystals or a crystal-line powder. It has a slight sweet taste. It is freely soluble in water and in formic acid, and practi-cally insoluble in ethanol (99.5). It dissolves in 2 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Serine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋14.0 – ＋16.09(After dry-ing, 2.5 g, 2 mol/L hydrochloric acid TS, 25 mL, 100 mm). pH <2.54> The pH of a solution prepared by dissolving 1.0 g of L-Serine in 10 mL of water is between 5.2 and 6.2. actly 10 mL. Pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Then develop with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and dry the plate at 809C for 30 minutes. Spray evenly a solution of ninhydrin in a mixture of methanol and acetic acid (100) (97:3) (1 in 100) on the plate, and heat the plate at 809C for 10 minutes: the spot other than the princi-pal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on Ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.11 g of L-Serine, previ-ously dried, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 10.51 mg of C3H7NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

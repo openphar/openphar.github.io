@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/urea",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Urea",
+    "ja": "尿素"
+  },
+  "monographId": "JP18-urea",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "CH4N2O",
+  "molecularWeight": 60.06,
+  "casNumber": "57-13-6",
+  "definition": {
+    "en": "Urea [57-13-6] Urea contains not less than 99."
+  },
+  "appearance": {
+    "en": "Urea occurs as colorless to white, crystals or crystalline powder. It is odorless, and has a cooling, saline taste. It is very soluble in water, freely soluble in boiling ethanol (95), soluble in ethanol (95), and very slightly soluble in diethyl ether. A solution of Urea (1 in 100) is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 0.5 g of Urea: it liquefies and the odor of ammonia is perceptible. Continue heating until the liquid becomes turbid, then cool. Dissolve the resulting lump in a mixture of 10 mL of water and 2 mL of sodium hydrox-ide TS, and add 1 drop of copper (II) sulfate TS: a reddish purple color develops. (2) Dissolve 0.1 g of Urea in 1 mL of water, and add 1 mL of nitric acid: a white, crystalline precipitate is formed. Melting point <2.60> 132.5 – 134.59C"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Perform the test with 2.0 g of Urea. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.007z). Sulfate <1.14>—Perform the test with 2.0 g of Urea. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.010z). Heavy metals <1.07>—Proceed with 1.0 g of Urea ac- cording to Method 1, and perform the test. Prepare the con-trol solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Ethanol-insoluble substances—Dissolve 5.0 g of Urea in 50 mL of warm ethanol (95), filter through a tared glass filter (G4), wash the residue with 20 mL of warm ethanol (95), and dry at 1059C for 1 hour: the mass of the residue is not more than 2.0 mg. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Urea, and dissolve in water to make exactly 200 mL. Measure exactly 5 mL of this solution into a Kjeldahl flask, and proceed as directed under Nitrogen Determination <1.08>. Each mL of 0.005 mol/L sulfuric acid VS ＝ 0.3003 mg of CH4N2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

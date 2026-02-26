@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/scopolia-extract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Scopolia Extract",
+    "ja": "ロートエキス"
+  },
+  "monographId": "JP18-scopolia-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Scopolia Extract contains not less than 0."
+  },
+  "appearance": {
+    "en": "Scopolia Extract is brown to dark brown in color. It has a characteristic odor, and a bitter taste. It dissolves in water with a slight turbidity."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 4 g of Scopolia Extract in 10 mL of water, add 8 mL of ammonia TS and 80 mL of diethyl ether, stopper tightly, shake for 1 hour, add 2.5 g of powdered tragacanth, shake vigorously, allow to stand for 5 minutes, and separate the diethyl ether layer into a porcelain dish. Evaporate the diethyl ether on a water bath, add 5 drops of fuming nitric acid, and evaporate on a water bath to dryness. After cooling, dissolve the residue in 1 mL of N,N-dimethylformamide, and add 5 to 6 drops of tetraethyl-ammonium hydroxide TS: a red-purple to purple color de-velops. (2) Mix 0.5 g of Scopolia Extract with 30 mL of ammo-nia TS in a flask, and transfer the mixture to a separator. Add 40 mL of ethyl acetate to the separator, and shake the mixture. After drain off the ethyl acetate layer, add 3 g of anhydrous sodium sulfate to the ethyl acetate, shake, and filter after the ethyl acetate becomes clear. Evaporate the solvent of the filtrate under low pressure (in vacuo), dissolve the residue in 1 mL of ethanol (95), and use this solution as the sample solution. Proceed as directed in Identification (2) under Scopolia Rhizome."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Prepare the test solution with 1.0 g of Scopolia Extract as directed in the Extracts (4), and perform the test (not more than 30 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Scopolia Extract, place in a glass-stoppered centrifuge tube, add 15 mL of am-monia TS, and shake. Add 25 mL of diethyl ether, stopper tightly, shake for 15 minutes, centrifuge, and separate the diethyl ether layer. Repeat this procedure twice with the aqueous layer, using 25 mL each of diethyl ether. Combine all the extracts, and evaporate the solvent on a water bath. Dissolve the residue in 5 mL of the mobile phase, add exactly 3 mL of the internal standard solution, and add the mobile phase to make 25 mL. Proceed as directed under Scopolia Rhizome. Amount (mg) of hyoscyamine (C17H23NO3) ＝ MSA × QTA/QSA × 1/5 × 0.855 Amount (mg) of scopolamine (C17H21NO4) ＝ MSS × QTS/QSS × 1/25 × 0.789 MSA: Amount (mg) of Atropine Sulfate RS taken, calcu-lated on the dried basis MSS: Amount (mg) of Scopolamine Hydrobromide RS taken, calculated on the dried basis Internal standard solution—A solution of brucine dihydrate in the mobile phase (1 in 2500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ceftazidime-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ceftazidime for Injection",
+    "ja": "注射用セフタジジム"
+  },
+  "monographId": "JP18-ceftazidime-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ceftazidime for Injection is a preparation for injec-tion which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Ceftazidime for Injection is a white to pale yellow-white powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of a so-lution of Ceftazidime for Injection (1 in 100,000) in phos-phate buffer solution (pH 6.0) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 255 nm and 259 nm. pH <2.54> Dissolve an amount of Ceftazidime for Injec-tion, equivalent to 1.0 g (potency) of Ceftazidime Hydrate, in 10 mL of water: the pH of this solution is 5.8 to 7.8."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve 5 g of diso-dium hydrogen phosphate and 1 g of potassium dihydrogen phosphate in water to make 100 mL. In 10 mL of this solu-tion dissolve an amount of Ceftazidime for Injection, equivalent to 1.0 g (potency) of Ceftazidime Hydrate: the so-lution is clear. Also, determine the absorption spectra of this solution as directed under Ultraviolet-visible Spectropho- tometry <2.24>: the absorbance at 420 nm is not more than 0.3. Loss on drying <2.41> Not more than 14.0z (0.1 g, in vacuum not exceeding 0.67 kPa, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 0.067 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filter method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Ceftazidime for Injection. Weigh accu-rately an amount of Ceftazidime Hydrate, equivalent to about 0.25 g (potency), and dissolve in 0.05 mol/L phos-phate buffer solution (pH 7.0) to make exactly 250 mL. Pipet 10 mL of this solution, add exactly 5 mL of the inter-nal standard solution, add more 0.05 mol/L phosphate buffer solution (pH 7.0) to make 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately an amount of Ceftazidime RS, equivalent to about 25 mg (po-tency), and dissolve in 0.05 mol/L phosphate buffer solution (pH 7.0) to make exactly 25 mL. Pipet 10 mL of this solu-tion, add exactly 5 mL of the internal standard solution, then add 0.05 mol/L phosphate buffer solution (pH 7.0) to make 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Ceftazidime Hydrate. Amount [mg (potency)] of ceftazidime (C22H22N6O7S2) ＝ MS × QT/QS × 10 MS: Amount [mg(potency)] of Ceftazidime RS taken Internal standard solution—A solution of dimedon in 0.05 mol/L phosphate buffer solution (pH 7.0) (11 in 10,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

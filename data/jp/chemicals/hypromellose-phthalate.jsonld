@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hypromellose-phthalate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hypromellose Phthalate",
+    "ja": "ヒプロメロースフタル酸エステル"
+  },
+  "monographId": "JP18-hypromellose-phthalate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "9050-31-1",
+  "definition": {
+    "en": "Hypromellose Phthalate is a monophthalic acid ester of hypromellose. It contains methoxy group (－OCH3: 31."
+  },
+  "appearance": {
+    "en": "Hypromellose Phthalate occurs as white, powder or granules. It is practically insoluble in water, in acetonitrile and in ethanol (99.5). It becomes a viscous liquid when a mixture of methanol and dichloromethane (1:1) or a mixture of ethanol (99.5) and acetone (1:1) is added. It dissolves in sodium hydroxide TS.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spec-trum of Hypromellose Phthalate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec-trum: both spectra exhibit similar intensities of absorption at the same wave numbers.◆ Viscosity <2.53> To 10 g of Hypromellose Phthalate, previ-ously dried at 1059C for 1 hour, add 90 g of a mixture of methanol and dichloromethane in equal mass ratio, and stir to dissolve. Determine the viscosity at 20 ± 0.19C as di-rected in Method 1 under Viscosity Determination: the vis-cosity is not less than 80z and not more than 120z of the labeled unit."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Hypromel-lose Phthalate in 40 mL of 0.2 mol/L sodium hydroxide VS, add 1 drop of phenolphthalein TS, and add dilute nitric acid dropwise with vigorous stirring until the red color is dis-charged. Further add 20 mL of dilute nitric acid with stir-ring. Heat on a water bath with stirring until the gelatinous precipitate formed turns to granular particles. After cooling, centrifuge, and take off the supernatant liquid. Wash the precipitate with three 20-mL portions of water by centrifug- ‌1132‌ ing each time, combine the supernatant liquid and the wash-ings, add water to make 200 mL, and filter. Perform the test with 50 mL of the filtrate. Control solution: To 0.50 mL of 0.01 mol/L hydrochloric acid VS add 10 mL of 0.2 mol/L sodium hydroxide VS and 7 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.07z). (2) Heavy metals <1.07>—Proceed with 2.0 g of Hypromellose Phthalate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm).◆ Phthalic acid—Weigh accurately about 0.2 g of Hypromellose Phthalate, add about 50 mL of acetonitrile to dissolve partially with the aid of ultrasonic waves, add 10 mL of water, and dissolve further with the ultrasonic waves. After cooling, add acetonitrile to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 12.5 mg of phthalic acid, dissolve in about 125 mL of acetonitrile by mixing, add 25 mL of water, then add acetonitrile to make exactly 250 mL, and use this solu-tion as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of phthalic acid in each solution: amount of phthalic acid (C8H6O4: 166.13) is not more than 1.0z. Amount (z) of phthalic acid ＝ MS/MT × AT/AS × 40 MS: Amount (mg) of phthalic acid taken MT: Amount (mg) of Hypromellose Phthalate taken, cal-culated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 235 nm). Column: A stainless steel column about 4.6 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 to 10 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of 0.1z trifluoroacetic acid and acetonitrile (9:1). Flow rate: About 2.0 mL per minute. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of phthalic acid are not less than 2500 and not more than 1.5, respectively.◆ System repeatability: When repeat the test 6 times with 10 mL of the standard solution under the above operating con-ditions, the relative standard deviation of the peak area of phthalic acid is not more than 1.0z. Water <2.48> Not more than 5.0z (1 g, volumetric titra-tion, direct titration, using a mixture of ethanol (99.5) and dichloromethane (3:2) instead of methanol for water deter-mination). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Hypromellose Phtha-late, dissolve in 50 mL of a mixture of ethanol (95), acetone and water (2:2:1), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 2 drops of phenolphthalein TS). Perform a blank determination in the same manner, and make any necessary correction. Amount (z) of carboxybenzoyl group (C8H5O3) ＝ {(0.01 × 149.1 × V )/M}－ {(2 × 149.1 × P)/166.1} P: Amount (z) of phthalic acid obtained in the Purity (3) V: Amount (mL) of 0.1 mol/L sodium hydroxide VS con-sumed M: Amount (g) of Hypromellose Phthalate taken, calcu-lated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

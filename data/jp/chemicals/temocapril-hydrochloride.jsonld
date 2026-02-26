@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/temocapril-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Temocapril Hydrochloride",
+    "ja": "テモカプリル塩酸塩"
+  },
+  "monographId": "JP18-temocapril-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H28N2O5S2.HCl",
+  "molecularWeight": 513.07,
+  "definition": {
+    "en": "Temocapril Hydrochloride contains not less than 99."
+  },
+  "appearance": {
+    "en": "Temocapril Hydrochloride occurs as a white crystalline powder. It is freely soluble in ethanol (99.5), and vey slightly solu-ble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Temocapril Hydrochloride in ethanol (99.5) (1 in 50,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Temocapril Hydrochloride as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Temocapril Hydrochloride in ethanol (99.5) (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride. Optical rotation <2.49> [a]20: ＋60 – ＋649(0.2 g calculated ＝ MS × AT/AS 7 8 3 4 2 D on the anhydrous basis, ethanol (99.5), 20 mL, 100 mm). MS: Amount (mg) of Hydrochlorothiazide RS taken Dissolving solution: Dissolve 2 g of ammonium dihydro- gen phosphate in 1000 mL of water, and adjust to pH 1.8 with phosphoric acid. To 1000 mL of this solution add 1000 mL of acetonitrile."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Temocapril Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Temocapril Hydrochloride in 100 mL of diluted acetonitrile (1 in 2), and ‌use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted acetonitrile (1 in 2) to make ex-actly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine each peak area by the automatic integration method: Temocapril Hydrochloride Tablets"
+      }
+    }
+  ]
+}

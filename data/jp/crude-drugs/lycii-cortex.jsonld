@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/lycii-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Lycii Cortex",
+    "ja": "ジコッピ"
+  },
+  "monographId": "JP18-lycii-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Tubular to semitubular bark, 1 – 6 mm in thickness; externally light brown to light yellow-brown, periderm peeled easily as scale; internally grayish brown, longitudinally striate; brittle in texture; fractured surface, grayish white, not fibrous. Odor, weak and characteristic; taste, slightly sweet at first. Under a microscope <5.01>, a transverse section reveals periderm composed of a cork layer of several cellular layers of thin-walled cork cells; in cortex parenchyma cells contain-ing sandy crystals of calcium oxalate sparsely distributed, oc-casionally a few fibers observed; parenchyma cells contain starch grains, 1 – 10 mm in diameter; stone cells very rare."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Lycium Bark add 10 mL of methanol, shake for 15 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, ammonium acetate solution (1 in 20) and acetic acid (100) (2:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate, heat the plate at 1059C for 2 minutes, then spray evenly sodium nitrite TS, and allow to stand for 5 minutes: a dark brown principal spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of pulverized Lycium Bark according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 15 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Lycium Bark according to Method 4, and per-form the test (not more than 5 ppm). Loss on drying <5.01> Not more than 11.5z (6 hours). Total ash <5.01> Not more than 20.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 10.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

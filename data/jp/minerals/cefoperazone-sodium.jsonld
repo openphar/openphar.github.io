@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefoperazone-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefoperazone Sodium",
+    "ja": "セフォペラゾンナトリウム"
+  },
+  "monographId": "JP18-cefoperazone-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefoperazone Sodium contains not less than 871 mg (potency) and not more than 986 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefoperazone Sodium occurs as a white to yel-lowish white crystalline powder. It is very soluble in water, soluble in methanol, and slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefoperazone Sodium (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the 1H spectrum of a solution of Cefoper-azone Sodium in heavy water for nuclear magnetic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethyl-silylpropanesulfonate for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits a triplet signal A at around d 1.2 ppm, a doublet signal B at around d 6.8 ppm, and a doublet signal C at around d 7.3 ppm. The ratio of integrated intensity of these signals, A:B:C, is about 3:2:2. Cefoperazone Sodium responds to the Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: －15 – －259(1 g, water, 100 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cefoperazone Sodium in 4 mL of water: the pH of the solution is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefoperazone Sodium in 10 mL of water: the solution is clear, and its absorbance at 400 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.18. Heavy metals <1.07>—Proceed with 1.0 g of Cefoper- azone Sodium according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefoperazone Sodium according to Method 4, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.1 g of Cefoperazone Sodium in 100 mL of water, and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 25 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method. Calculate the percentages of each peak area obtained from the sample solution against 50 times of the peak area of cefoperazone from the standard solution: the related substance I with the retention time of about 8 minutes is not more than 5.0z, the related substance II with that of about 17 minutes is not more than 1.5z, and the total amount of all related substances is not more than 7.0 z. For the peak areas of the related substances I and II, multiply their correction factors, 0.90 and 0.75, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of cefoperazone, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of cefoperazone obtained with 25 mL of this solution is equivalent to 3.5 to 6.5z of that with 25 mL of the standard solution. System performance: When the procedure is run with 25 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefoperazone are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 25 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of cefoperazone is not more than 2.0z. Water <2.48> Not more than 1.0z (3 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefoperazone So-dium equivalent to about 0.1 g (potency), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accu-rately an amount of Cefoperazone RS equivalent to about 20 mg (potency), dissolve in 1 mL of 0.1 mol/L phosphate buffer solution (pH 7.0) and add water to make exactly 20 mL. Pipet 5 mL of this solution, add exactly 5 mL of the in-ternal standard solution, and use this solution as the stand-ard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of cefoperazone to that of the internal standard. Amount [mg (potency)] of cefoperazone (C25H27N9O8S2) ＝ MS × QT/QS × 5000 MS: Amount [mg (potency)] of Cefoperazone RS taken Internal standard solution—A solution of acetanilide in a mixture of water and acetonitrile (43:7) (3 in 8000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame- ‌682 ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: To 57 mL of acetic acid (100) add 139 mL of triethylamine and water to make 1000 mL. To 20 mL of this solution add 835 mL of water, 140 mL of acetonitrile and 5 mL of dilute acetic acid. Flow rate: Adjust so that the retention time of cefopera-zone is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and cefoperazone are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefoperazone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—In a cold place."
+  }
+}

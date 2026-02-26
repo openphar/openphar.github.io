@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/iohexol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Iohexol Injection",
+    "ja": "イオヘキソール注射液"
+  },
+  "monographId": "JP18-iohexol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Iohexol Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Iohexol Injection is a clear and colorless liq-uid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Iohexol Injection, equivalent to 0.65 g of Iohexol, add water to make 500 mL. To 1 mL of this solution add water to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 243 nm and 247 nm. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Aromatic primary amine—Conduct this proce-dure using light-resistant vessels. To a volume of Iohexol In-jection, equivalent to 0.20 g of Iohexol add 15 mL of water, cool in ice for 5 minutes, add 1.5 mL of 6 mol/L hydrochlo-ric acid TS and 1 mL of solution of sodium nitrite (1 in 50), prepared before use, shake, and cool in ice for 4 minutes. Then, proceed as directed in the Purity (2) under Iohexol: the absorbance of a solution so obtained is not more than 0.23. (2) Iodine and iodide—To a volume of Iohexol Injec-tion, equivalent to 1.0 g of Iohexol, add 4 mL of water and 1 mL of dilute sulfuric acid, and allow to stand for 10 minutes while occasional shaking. Then, proceed as directed in the Purity (4) under Iohexol: the absorbance of a chloroform layer so obtained is not more than 0.14. Bacterial endotoxins <4.01> Less than 0.47 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exactly measured volume of Iohexol Injec-tion, equivalent to about 1.5 g of iohexol (C19H26I3N3O9), add water to make exactly 25 mL. Pipet 10 mL of this solu-tion, add 25 mL of a solution of sodium hydroxide (1 in 20) and 0.5 g of zinc powder, and boil under a reflux condenser for 30 minutes. After cooling, wash down the inside of the condenser with 20 mL of water, and filter. Then, proceed as directed in the Assay under Iohexol. Each mL of 0.1 mol/L silver nitrate VS ＝ 27.37 mg of C19H26I3N3O9"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Colored containers and plastic containers for aqueous injec-tions may be used."
+  },
+  "dosageForm": "Injection"
+}

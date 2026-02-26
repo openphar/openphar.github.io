@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/vitamin-b12-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Vitamin B12 Injection",
+    "ja": "シアノコバラミン注射液"
+  },
+  "monographId": "JP18-vitamin-b12-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Cyanocobalamin Injection is a clear, light red to red liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ul-traviolet-visible Spectrophotometry <2.24>: it exhibits maxi-ma between 277 nm and 279 nm, between 360 nm, and 362 nm and between 548 nm and 552 nm. Determine the absor-bances, A1 and A2, of this solution at the wavelengths of maximum absorption between 360 nm and 362 nm, and be-tween 548 nm and 552 nm, respectively: the ratio A2/A1 is not less than 0.29 and not more than 0.32. Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Cyanocobalamin Injection, equivalent to about 2 mg of cyanocobalamin (C H CoN O P), add water to make exactly 100 mL, and MS: Amount (mg) of Cyanocobalamin RS taken, calcu-lated on the dried basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

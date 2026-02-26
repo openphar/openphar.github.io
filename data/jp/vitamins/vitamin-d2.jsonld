@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-d2",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin D2",
+    "ja": "エルゴカルシフェロール"
+  },
+  "monographId": "JP18-vitamin-d2",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C28H44O",
+  "molecularWeight": 396.65,
+  "appearance": {
+    "en": "Ergocalciferol occurs as white crystals. It is odorless, or has a faint, characteristic odor. It is freely soluble in ethanol (95), in diethyl ether and in chloroform, sparingly soluble in isooctane, and practically insoluble in water. It is affected by air and by light. Melting point: 115 – 1189C Transfer Ergocalciferol to a capillary tube, and dry for 3 hours in a desiccator (in vacu-um at a pressure not exceeding 2.67 kPa). Immediately fire-seal the capillary tube, put it in a bath fluid, previously heated to a temperature about 109C below the expected melting point, and heat at a rate of rise of about 39C per minute, and read the melting point."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 mg of Ergocalciferol in 5 mL of chloroform, add 0.3 mL of acetic anhydride and 0.1 mL of sulfuric acid, and shake: a red color is produced, and rapidly changes through purple and blue to green. (2) Determine the infrared absorption spectrum of Ergocalciferol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Ergocalciferol RS: both spectra exhibit similar inten-sities of absorption at the same wave numbers. has been prepared."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Ergosterol—Dissolve 10 mg of Ergocalciferol in 2.0 mL of diluted ethanol (9 in 10), add a solution of 20 mg of digitonin in 2.0 mL of diluted ethanol (9 in 10), and allow the mixture to stand for 18 hours: no precipitate is formed."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Ergocal-ciferol and Ergocalciferol RS, and dissolve each in isooctane to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 3 mL each of the internal standard solution, then add the mobile phase to make 50 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with 10 to 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of ergocalciferol to that of the internal standard. Perform the procedure rapidly avoiding contact with air or other oxidizing agents and using light-resistant containers. Amount (mg) of ergocalciferol (C28H44O) ＝ MS × QT/QS MS: Amount (mg) of Ergocalciferol RS taken Internal standard solution—A solution of dimethyl phtha-late in isooctane (1 in 100). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with a silica gel for liquid chromatography (10 mm particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of hexane and n-amylalcohol (997:3). Flow rate: Adjust so that the retention time of ergocal-ciferol is about 25 minutes. System suitability— System performance: Dissolve 15 mg of Ergocalciferol RS in 25 mL of isooctane. Transfer this solution to a flask, heat in an oil bath under a reflux condenser for 2 hours, and cool immediately to room temperature. Transfer the solution to a quartz test tube, and irradiate with a short-wave lamp (main wavelength: 254 nm) and a long-wave lamp (main wave-length: 365 nm) for 3 hours. To 10 mL of this solution add the mobile phase to make 50 mL. When the procedure is run with 10 mL of this solution under the above operating condi-tions, the ratios of the retention time of previtamin D2, trans-vitamin D2 and tachysterol2 to that of ergocalciferol are about 0.5, about 0.6 and about 1.1, respectively, and the resolution between previtamin D2 and trans-vitamin D2 is not less than 0.7, and that between ergocalciferol and tachysterol2 is not less than 1.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ergocalciferol to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant, under Nitrogen atmosphere, and"
+  }
+}

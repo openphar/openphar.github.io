@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/josamycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Josamycin",
+    "ja": "ジョサマイシン"
+  },
+  "monographId": "JP18-josamycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C42H69NO15",
+  "molecularWeight": 827.99,
+  "definition": {
+    "en": "Josamycin is a macrolide substance having antibac-terial activity produced by the growth of Streptomyces narbonensis var. josamyceticus. It contains not less than 900 mg (potency) and not more than 1100 mg (potency) per mg, calculated on the mL, and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium ii in 3) Medium for other organisms under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 7.9 to 8.1 after sterilization. Standard solutions—Weigh accurately an amount of Josamycin RS, equivalent to about 30 mg (potency), dissolve in 5 mL of methanol, add water to make exactly 100 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below, and use within 7 days. Take exactly a suitable amount of the standard stock solution before use, add water to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concentration standard solution and the low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Josamycin, equivalent to about 30 mg (potency), dissolve in 5 mL of methanol, and add water to make exactly 100 mL. Take exactly a suitable amount of this solution, add water to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concen-tration sample solution and the low concentration sample so-lution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

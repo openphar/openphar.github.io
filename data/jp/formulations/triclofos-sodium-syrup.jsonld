@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/triclofos-sodium-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Triclofos Sodium Syrup‌",
+    "ja": "トリクロホスナトリウムシロップ"
+  },
+  "monographId": "JP18-triclofos-sodium-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a portion of Triclofos Sodium Syrup, equivalent to 0.25 g of Triclofos Sodium, add 40 mL of water, shake well, add 5 mL of diluted sulfuric acid (3 in 50), and extract with 25 mL of 3-methyl-1-butanol. Take 5 mL of the extract, evaporate on a water bath to dryness, and add 1 mL of diluted sulfuric acid (1 in 2) and 1 mL of a solu-tion of potassium permanganate (1 in 20) to the residue. Heat in a water bath for 5 minutes, add 7 mL of water, and then add a solution of oxalic acid dihydrate (1 in 20) until the color of the solution disappears. To 1 mL of this solution add 1 mL of pyridine and 1 mL of a solution of sodium hy-droxide (1 in 5), and heat in a water bath, while shaking, for 1 minute: a light red color develops in the pyridine layer. (2) Take 10 mL of the extract obtained in (1), evaporate on a water bath to dryness, add 1 g of anhydrous sodium carbonate to the residue, and heat for 10 minutes. After cooling, dissolve the residue in 40 mL of water, filter if nec-essary, and render the filtrate acidic with dilute nitric acid: the solution responds to Qualitative Tests <1.09> (2) for chlo-ride. The remainder of the filtrate responds to Qualitative Tests <1.09> (1) for chloride and to Qualitative Tests <1.09> for phosphate. pH <2.54> 6.0 – 6.5"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a portion of Triclofos Sodium Syrup, equivalent to 0.13 g of Triclofos Sodium, add 15 mL of water, 1 mL of sodium hydroxide TS and 15 mL of diethyl ether, shake for 1 minute, and separate the water layer. Wash the diethyl ether layer with 1 mL of water, and combine the washing with above water layer. To this solu-tion add 2.5 mL of diluted sulfuric acid (3 in 50), and extract with four 10-mL portions of 3-methyl-1-butanol. Combine the 3-methyl-1-butanol extracts, and add 3-methyl-1-butanol to make exactly 50 mL. Measure exactly 10 mL each of this solution, and dilute potassium hydroxide-ethanol TS, place in a glass ampule, fire-seal, mix, and heat at 1209C for 2 hours in an autoclave. After cooling, transfer the contents to a flask, add 20 mL of diluted nitric acid (63 in 500) and ex-actly 25 mL of 0.02 mol/L silver nitrate VS, shake well, and titrate <2.50> the excess silver nitrate with 0.02 mol/L ammo-nium thiocyanate VS (indicator: 2 to 3 drops of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.02 mol/L silver nitrate VS ＝ 1.676 mg of C2H3Cl3NaO4P"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  },
+  "dosageForm": "Syrup"
+}

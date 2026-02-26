@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/foeniculi-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Foeniculi Fructus",
+    "ja": "ウイキョウ"
+  },
+  "monographId": "JP18-foeniculi-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Cylindrical cremocarp, 3.5 – 8 mm in length, 1 – 2.5 mm in width; externally grayish yellow-green to grayish yellow; two mericarps closely attached with each other, and with five longitudinal ridges; cremocarp often with pedicel 2 – 10 mm in length. Characteristic odor and taste. Under a microscope <5.01>, ridges near the ventral side are far protruded than those on the dorsal side; one large oil canal between each ridge, and two oil canals on the ventral side."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Fennel add 10 mL of hexane, allow to stand for 5 minutes with occasional shak-ing, filter, and use the filtrate as the sample solution. Per-form the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (20:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot with a dark purple color appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Peduncle—When perform the test of foreign matter <5.01>, the amount of peduncles contained in Fennel does not exceed 3.0z. (2) Foreign matter <5.01>—The amount of foreign mat-ter other than the peduncle contained in Fennel does not exceed 1.0z. Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Fennel: the volume of essential oil is not less than 0.7 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

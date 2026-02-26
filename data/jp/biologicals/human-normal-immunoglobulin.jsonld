@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/human-normal-immunoglobulin",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Human Normal Immunoglobulin",
+    "ja": "人免疫グロブリン"
+  },
+  "monographId": "JP18-human-normal-immunoglobulin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Human Normal Immunoglobulin is a clear, colorless or yellow-brown liquid. Hydralazine Hydrochloride"
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Hydralazine Hy-drochloride, previously dried, transfer it to a glass-stoppered flask, dissolve in 25 mL of water, add 25 mL of hydrochloric acid, cool to room temperature, add 5 mL of chloroform, and titrate <2.50> with 0.05 mol/L potassium iodate VS while shaking until the purple color of the chloroform layer disappears. The end point is reached when the red-purple color no more reappears in the chloroform layer within 5 minutes after the layer has been decolorized. Each mL of 0.05 mol/L potassium iodate VS ＝ 9.832 mg of C H N .HCl 8 8 4 Description Human Normal Immunoglobulin is a clear, colorless or yellow-brown liquid. Hydralazine Hydrochloride"
+      }
+    }
+  ]
+}

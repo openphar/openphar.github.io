@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fluvoxamine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fluvoxamine Maleate",
+    "ja": "フルボキサミンマレイン酸塩"
+  },
+  "monographId": "JP18-fluvoxamine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H21F3N2O2.C4H4O4",
+  "molecularWeight": 434.41,
+  "casNumber": "61718-82-9",
+  "definition": {
+    "en": "Fluvoxamine Maleate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fluvoxamine Maleate occurs as a white crystal-line powder. It is freely soluble in ethanol (99.5), and sparingly soluble in water. 15 minutes, and add the mobile phase to make exactly 100 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 5 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 20 mg of fluto-prazepam for assay, previously dried at 1059C for 2 hours, and dissolve in the mobile phase to make exactly 100 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Fluvoxamine Male-ate in 5 mL of water, neutralize with dilute sodium hydrox-ide TS, then add 1 mL of ninhydrin TS, and heat in a water bath at 60 – 709C for 5 minutes: a blue-purple color de-velops. Determine the absorption spectrum of a solution of Fluvoxamine Maleate (1 in 50,000) as directed under Ultravi-olet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a JP XVIII Official Monographs / Fluvoxamine Maleate 1035 solution of Fluvoxamine Maleate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Fluvoxamine Maleate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Fluvoxamine Maleate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. To 5 mL of a solution of Fluvoxamine Maleate (1 in 500) add 1 drop of potassium permanganate TS: the red color of the TS disappears immediately."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 0.5 g of Fluvoxamine Maleate in 50 mL of water is clear and colorless. Chloride <1.03>—Perform the test with 1.0 g of Fluvoxamine Maleate. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.009z). Sulfate <1.14>—Perform the test with 1.0 g of Fluvoxamine Maleate. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.017z). Heavy metals <1.07>—Proceed with 1.0 g of Fluvoxa- mine Maleate according to Method 2, using alumina ceramic crucible, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 20 mg of Fluvoxamine Maleate in 20 mL of a mixture of methanol for liquid chro-matography and water (7:3), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of methanol for liquid chromatography and water (7:3) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the areas of the peaks, having the relative retention time of about 0.76, about 0.82, about 0.89, about 1.58 and about 1.66 to fluvoxamine, obtained from the sample solution are not larger than 1/5 times, 3/10 times, 7/10 times, 1/10 times and 1/10 times the peak area of fluvoxamine from the standard solution, respectively, and the total area of the peaks other than fluvoxamine from the sample solution is not larger than 1.5 times the peak area of fluvoxamine from the standard solution. For the areas of the peaks, having the relative retention times of about 0.76, about 0.89, about 1.58 and about 1.66 to fluvoxamine, mul-tiply their correction factors, 0.87, 2.00, 0.67 and 2.76, re-spectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 12.67 g of diammonium hydrogen phosphate and 0.85 g of sodium 1-heptanesulfonate in 900 mL of water, adjust to pH 2.0 with phosphoric acid, and add water to make 1000 mL. To 300 mL of this solution add 700 mL of methanol for liquid chromatography. Flow rate: Adjust so that the retention time of fluvoxa- mine is about 9 minutes. Time span of measurement: About 2 times as long as the retention time of fluvoxamine, beginning after the peak of maleic acid. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, add a mixture of methanol for liquid chromatogra-phy and water (7:3) to make exactly 20 mL. Confirm that the peak area of fluvoxamine obtained with 10 mL of this solu-tion is equivalent to 3.5 to 6.5z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of fluvoxamine are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of fluvoxamine is not more than 2.0z. Loss on drying <2.41> Not more than 0.1z (1 g, in vacu-um, 509C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Fluvoxamine Maleate and Fluvoxamine Maleate RS (separately determine the loss on drying <2.41> under the same condition as Fluvoxamine Maleate), dissolve each in 10 mL of the mobile phase, add exactly 5 mL of the internal standard solution, then add the mobile phase to make 100 mL, and use these so-lutions as the sample solution and the standard solution, re-spectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of fluvoxamine to that of the internal standard. Amount (mg) of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) ＝ MS × QT/QS MS: Amount (mg) of Fluvoxamine Maleate RS taken, cal-culated on the dried basis Internal standard solution—A solution of diphenylamine in methanol (7 in 2000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3.8 g of diammonium hydrogen phosphate and 0.8 g of sodium 1-heptanesulfonate in water to make 300 mL, add 700 mL of methanol, and adjust to pH 3.5 with phosphoric acid. Flow rate: Adjust so that the retention time of fluvoxa-mine is about 9 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, fluvoxamine and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times ‌1036 with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of fluvoxamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

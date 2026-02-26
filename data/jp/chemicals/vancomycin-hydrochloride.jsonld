@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/vancomycin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Vancomycin Hydrochloride",
+    "ja": "バンコマイシン塩酸塩"
+  },
+  "monographId": "JP18-vancomycin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C66H75Cl2N9O24.HCl",
+  "molecularWeight": 1485.71,
+  "definition": {
+    "en": "Vancomycin Hydrochloride is the hydrochloride of a glycopeptide substance having antibacterial activity produced by the growth of Streptomyces orientalis. It contains not less than 1000 mg (potency) and not more than 1200 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Vancomycin Hydrochloride occurs as a white powder. It is freely soluble in water, soluble in formamide, slightly soluble in methanol, very slightly soluble in ethanol (95), and practically insoluble in acetonitrile. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Vancomycin Hydrochloride (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Vancomycin Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Van-comycin Hydrochloride as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Vancomycin Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 20 mg of Vancomycin Hydrochloride in 10 mL of water, and add 1 drop of silver nitrate TS: a white turbidity is produced. D Optical rotation <2.49> [a]20: －30 – －409(0.2 g calculated on the anhydrous basis, water, 20 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.25 g of Vancomycin Hydrochloride in 5 mL of water is between 2.5 and 4.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Vancomycin Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.10 g of Vancomycin Hydrochloride in 10 mL of the mobile phase A, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase A to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under the Liquid Chromatography <2.01> according to the following conditions. If necessary, proceed with 20 mL of the mobile phase A in the same man-ner to compensate for the base line. Determine each peak area by the automatic integration method: the area of each peak other than vancomycin obtained from the sample solu-tion is not larger than the peak area of vancomycin from the standard solution, and the total area of the peaks other than vancomycin from the sample solution is not larger than 3 times of the peak area of vancomycin from the standard so-lution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of triethylamine buffer solu- tion (pH 3.2), acetonitrile and tetrahydrofuran (92:7:1). Adjust the amount of acetonitrile so that the retention time of vancomycin is 7.5 to 10.5 minutes. Mobile phase B: A mixture of triethylamine buffer solu-tion (pH 3.2), acetonitrile and tetrahydrofuran (70:29:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 12 12 – 20 100 → 0 0 → 100 20 – 22 Flow rate: 1.5 mL per minute. Time span of measurement: As long as about 2.5 times of the retention time of vancomycin, beginning after the solvent peak. System suitability— Test for required detectability: Confirm that the peak area of vancomycin obtained with 20 mL of the standard solution is equivalent to 3 to 5z of that with 20 mL of the sample so-lution. System performance: Dissolve 5 mg of Vancomycin Hy-drochloride in 10 mL of water, heat at 659C for 48 hours, and cool to the ordinal temperature. When the procedure is run with 20 mL of this solution under the above operating conditions, related substance 1, vancomycin and related sub-stance 2 are eluted in this order, the resolution between the peaks of the related substance 1 and vancomycin is not less than 3, the number of theoretical plates of the peak of van-comycin is not less than 1500, and the related substance 2 is eluted between 15 minutes and 18 minutes. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vancomycin is not more than 2.0z. Water <2.48> Not more than 5.0z (0.1 g, volumetric titra-tion, direct titration. Use a mixture of formamide for water determination and methanol for water determination (3:1)). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 6.2 to 6.4 after sterilization. Standard solutions—Weigh accurately an amount of Vancomycin Hydrochloride RS, equivalent to about 25 mg (potency), dissolve in water to make exactly 25 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 59C or below, and use within 7 days. Take exactly a suitable amount of the standard stock solu-tion before use, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make solutions so that each mL contains 100 mg (potency) and 25 mg (potency), and use these solutions as the high concentration standard solution and the low concentra-tion standard solution, respectively. Sample solutions—Weigh accurately an amount of Vancomycin Hydrochloride, equivalent to about 25 mg (po-tency), and dissolve in water to make exactly 25 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make solutions so that ‌each mL contains 100 mg (potency) and 25 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively.‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

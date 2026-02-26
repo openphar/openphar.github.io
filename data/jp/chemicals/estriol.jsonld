@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/estriol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Estriol",
+    "ja": "エストリオール"
+  },
+  "monographId": "JP18-estriol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H24O3",
+  "molecularWeight": 288.38,
+  "definition": {
+    "en": "Estriol, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Estriol occurs as a white crystalline powder. It is odorless. It is sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Estriol in 100 mL of ethanol (95) by warming, and use this solution as the sample solution. Evaporate 1 mL of the sample solution on a water bath to dryness, add 5 mL of a solution of sodium p-phenol-sulfonate in diluted phosphoric acid (1 in 50), heat at 1509C for 10 minutes, and cool: a red-purple color develops. Determine the absorption spectrum of the sample solution obtained in (1) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Estriol RS prepared in the same manner as the sample solu-tion: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Estriol, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Estriol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]25: ＋55 – ＋659(after drying, 40 ‌JP XVIII Official Monographs / Estriol Tablets 961 mg, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Estriol and Estriol RS, previously dried, and dissolve each in methanol to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 5 mL of the internal standard solution, add methanol to make 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of estriol to that of the internal standard. Estriol Injection (Aqueous Suspension)"
+      }
+    }
+  ]
+}

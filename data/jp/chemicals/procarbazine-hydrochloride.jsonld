@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/procarbazine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Procarbazine Hydrochloride",
+    "ja": "プロカルバジン塩酸塩"
+  },
+  "monographId": "JP18-procarbazine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H19N3O.HCl",
+  "molecularWeight": 257.76,
+  "casNumber": "366-70-1",
+  "definition": {
+    "en": "Procarbazine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Procarbazine Hydrochloride occurs as white to light yellowish white, crystals or crystalline powder. It is freely soluble in water, and slightly soluble in ethanol (99.5). It dissolves in dilute hydrochloric acid. Melting point: about 2239C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Procarbazine Hydro-chloride in 1 mL of diluted copper (II) sulfate TS (1 in 10), and add 4 drops of sodium hydroxide TS: a green precipitate is formed immediately, and the color changes from green through yellow to orange. Determine the absorption spectrum of a solution of Procarbazine Hydrochloride in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Procarbazine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Procarbazine Hydrochloride (1 in 20) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 0.10 g of Procarbazine Hydrochloride in 10 mL of water: the pH of this solution is between 3.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Procarbazine Hydrochloride according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Procarbazine Hydrochloride in 5.0 mL of a solution of L-cysteine hydro-chloride monohydrate in diluted methanol (7 in 10) (1 in 200), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a solution of L-cysteine hydrochloride monohydrate in diluted methanol (7 in 10) (1 in 200) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Immerse slowly, by inclining, a plate of silica gel with fluorescent indicator for thin-layer chromatography in a solution of L-cysteine hydrochloride monohydrate in diluted methanol (7 in 10) (1 in 200), allow to stand for 1 minute, lift the plate from the solution, dry it in cold wind for 10 minutes, then dry in warm wind for 5 minutes, and then dry at 609C for 5 minutes. After cooling, spot 5 mL each of the sample solu-tion and standard solution on the plate. Develop the plate with a mixture of methanol and ethyl acetate (1:1) to a dis-tance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): not more than 1 spot other than the principal spot and the spot of the starting point obtained from the sample solution appears, and is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Procarbazine Hy-drochloride, previously dried, place in a glass-stoppered flask, dissolve in 25 mL of water, add 25 mL of hydrochloric acid, and cool to room temperature. To this solution add 5 mL of chloroform, and titrate <2.50>, while shaking, with 0.05 mol/L potassium iodate VS until the purple color of the chloroform layer disappears. The end point is reached when the red-purple color of the chloroform layer no more reap-pears within 5 minutes after the purple color disappeared. ‌Each mL of 0.05 mol/L potassium iodate VS ＝ 8.592 mg of C12H19N3O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

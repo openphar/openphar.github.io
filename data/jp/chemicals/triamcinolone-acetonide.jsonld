@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/triamcinolone-acetonide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Triamcinolone Acetonide",
+    "ja": "トリアムシノロンアセトニド"
+  },
+  "monographId": "JP18-triamcinolone-acetonide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H31FO6",
+  "molecularWeight": 434.5,
+  "definition": {
+    "en": "Triamcinolone Acetonide, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Triamcinolone Acetonide occurs as a white crystalline powder. It is sparingly soluble in ethanol (99.5) and in acetone, slightly soluble in methanol, and practically insoluble in water. Melting point: about 2909C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Triamcinolone Acetonide in 40 mL of ethanol (95), add 5 mL of 2,6-di-tert-butylcresol TS and 5 mL of sodium hydroxide TS, and heat on a water bath under a reflux condenser for 20 minutes: a green color develops. Add 5 mL of water and 1 mL of Fehling's TS to 0.01 g of Triamcinolone Acetonide, and heat: a red precipi-tate is produced. Proceed with 0.01 g of Triamcinolone Acetonide as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the solution responds to Qualitative Tests <1.09> for fluoride. Determine the absorption spectrum of a solution of Triamcinolone Acetonide in ethanol (95) (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Triamcinolone Acetonide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Triamcinolone Acetonide, previously dried, as directed in the potassium bromide disk method under the Infrared Spec-trophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Triamcinolone Acetonide RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve 0.1 g each of Triamcinolone Acetonide and Triamcinolone Acetonide RS in 20 mL of ethanol (95), respectively, then evaporate the ethanol to dryness, and repeat the test on the dried residue. D Optical rotation <2.49> [a]25: ＋110 – ＋1209(after drying, 0.1 g, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 0.5 g of Triamcinolone Acetonide according to Method 2, and per-form the test. Prepare the control solution with 1.5 mL of Standard Lead Solution (not more than 30 ppm). (2) Related substances—Dissolve 40 mg of Triamcino-lone Acetonide in 4 mL of acetone, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add acetone to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chlo-roform and methanol (93:7) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 2.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (0.5 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 20 mg each of Triamcinolone Acetonide and Triamcinolone Acetonide RS, previously dried and accurately weighed, in methanol to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 10 mL each of the internal standard solution, then add the mo-bile phase to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL each of these solutions as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak height of triamcinolone acetonide to that of the internal standard. Amount (mg) of triamcinolone acetonide (C24H31FO6) ＝ MS × QT/QS MS: Amount (mg) of Triamcinolone Acetonide RS taken Internal standard solution—A solution of prednisolone in methanol (1 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. ‌Mobile phase: A mixture of water and acetonitrile (3:1). Flow rate: Adjust so that the retention time of triamcino-‌ lone acetonide is about 13 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and triamcinolone acetonide are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak height of triamcinolone acetonide to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

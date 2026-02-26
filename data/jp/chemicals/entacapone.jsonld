@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/entacapone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Entacapone",
+    "ja": "エンタカポン"
+  },
+  "monographId": "JP18-entacapone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H15N3O5",
+  "molecularWeight": 305.29,
+  "casNumber": "130929-57-6",
+  "definition": {
+    "en": "Entacapone contains not less than 98."
+  },
+  "appearance": {
+    "en": "Entacapone occurs as a yellow to greenish yel-low crystalline powder. It is sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 35 mg of Entacapone in 200 mL of methanol. To 7 mL of this solution add 0.1 mol/L hy-drochloric acid TS to make 100 mL. Determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared by adding 0.1 mol/L hydrochloric acid TS to 7 mL of meth-anol to make 100 mL as the blank, and compare the spec- JP XVIII Official Monographs / Entacapone 929 trum with the Reference Spectrum or the spectrum of a solu-tion of Entacapone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of En-tacapone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Entacapone RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Dissolve 1.0 g of Enoxacin Hy-drate in 50 mL of dilute sodium hydroxide TS, shake with 10 mL of dilute hydrochloric acid, and centrifuge. Filter the su-pernatant liquid, and to 30 mL of the filtrate add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.50 mL of 0.005 mol/L sulfuric acid VS add 25 mL of dilute sodium hydroxide TS, 5 mL of dilute hydrochloric acid TS and water to make 50 mL (not more than 0.048z). (2) Heavy metals <1.07>—Proceed with 1.0 g of Enoxa- cin Hydrate according to Method 2, and perform the test. Description Entacapone occurs as a yellow to greenish yel-low crystalline powder. It is sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. It shows crystal polymorphism. Identification (1) Dissolve 35 mg of Entacapone in 200 mL of methanol. To 7 mL of this solution add 0.1 mol/L hy-drochloric acid TS to make 100 mL. Determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared by adding 0.1 mol/L hydrochloric acid TS to 7 mL of meth-anol to make 100 mL as the blank, and compare the spec- JP XVIII Official Monographs / Entacapone 929 trum with the Reference Spectrum or the spectrum of a solu-tion of Entacapone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of En-tacapone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Entacapone RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Purity (1) Heavy metals—Dissolve 1.0 g of Entacapone in 20 mL of a mixture of methanol and N,N-dimethylfor-mamide (3:1), and use this solution as the sample solution. Separately, weigh exactly 0.400 g of lead (II) nitrate, dissolve in water to make exactly 250 mL. Before use, dilute this so-lution with water to make exactly 10 times the initial volume, then dilute this solution with water to make exactly 10 times the initial volume. Pipet 1 mL of this solution, add a mixture of methanol and N,N-dimethylformamide (3:1) to make ex-actly 20 mL, and use this solution as the standard solution. To each of the sample solution and standard solution add 2 mL of acetate buffer solution (pH 3.5), mix, add 1.2 mL of thioacetamide TS, and mix immediately. Allow them to stand for 2 minutes, filter separately all the amount of each solution through a membrane filter with a pore size of 0.45 mm, wash the membrane filters with not less than 20 mL of methanol, and compare the colors on the membrane filters: the color obtained from the sample solution is not darker than that obtained from the standard solution (not more than 10 ppm). peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 5 mL of the standard solution, add a mixture of methanol and tetrahydrofuran (7:3) to make exactly 10 mL. Confirm that the peak area of entacapone obtained with 10 mL of this solution is equivalent to 35 to 65z of that obtained with 10 mL of the standard so-lution. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of entacapone is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Entacapone and Entacapone RS (separately determine the loss on drying <2.41> under the same conditions as Entacapone), dissolve each in a mixture of methanol and tetrahydrofuran (7:3) to make exactly 50 mL. Pipet 5 mL each of these solutions, add a mixture of methanol and tetrahydrofuran (7:3) to make ex-actly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of entacapone in each solution. Halide—Being specified separately when the drug is granted approval based on the Law. Related substances—Dissolve 50 mg of Entacapone Amount (mg) of entacapone (C ＝ MS × AT/AS 14H15N3O5) in 50 mL of a mixture of methanol and tetrahydrofuran (7:3), and use this solution as the sample solution. Pipet 5 mL of the sample solution, and add a mixture of methanol and tetrahydrofuran (7:3) to make exactly 50 mL. Pipet 5 mL of this solution, and add a mixture of methanol and tetrahydrofuran (7:3) to make exactly 50 mL. Pipet 1 mL of this solution, add a mixture of methanol and tetrahydrofu-ran (7:3) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the peak area of the related sub-stance A, having the relative retention time of about 0.8 to entacapone, obtained from the sample solution is not larger than 1.5 times the peak area of entacapone from the stand-ard solution, the area of the peak other than entacapone and the peak mentioned above from the sample solution is not larger than the peak area of entacapone from the standard solution, and the total area of the peaks other than entaca-pone and the related substance A, having the relative reten-tion time of about 0.8 to entacapone, from the sample solu-tion is not larger than 2 times the peak area of entacapone from the standard solution. For the areas of the peaks of related substances B and C, having the relative retention times of about 0.6 and about 1.4 to entacapone, multiply their correction factors, 1.7 and 2.5, respectively. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of entacapone, beginning after the solvent MS: Amount (mg) of Entacapone RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 300 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with phenylated silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.34 g of sodium dihydrogen phos-phate dihydrate in water to make 1000 mL, and adjust to pH 2.1 with phosphoric acid. To 540 mL of this solution add 440 mL of methanol and 20 mL of tetrahydrofuran. Flow rate: 1 mL per minute. System suitability— System performance: Dissolve 5 mg of Entacapone Relat-ed Substance A for System Suitability RS in a mixture of methanol and tetrahydrofuran (7:3) to make 25 mL. To 1 mL of this solution add a mixture of methanol and tetra-hydrofuran (7:3) to make 20 mL, and use this solution as the solution for system suitability test. Separately, to 5 mL of the standard solution add a mixture of methanol and tetra-hydrofuran (7:3) to make 50 mL. To 1 mL of this solution and 1 mL of the solution for system suitability test add a mixture of methanol and tetrahydrofuran (7:3) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the related substance A and entacapone are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak ‌930 area of entacapone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

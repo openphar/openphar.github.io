@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ipriflavone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ipriflavone Tablets",
+    "ja": "イプリフラボン錠"
+  },
+  "monographId": "JP18-ipriflavone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Ipriflavone Tablets, equivalent to 11 mg of Ipriflavone, add 100 mL of methanol, shake vigorously for 10 minutes, and centrifuge. To 5 mL of the supernatant liquid add methanol to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 247 nm and 251 nm, and between 297 nm and 301 nm. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Ipriflavone Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 30 mg of ipriflavone (C18H16O3), add 30 mL of acetonitrile, shake vigorously for 15 minutes, add acetonitrile to make exactly 50 mL, and cen-trifuge. Pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, and add acetonitrile to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 30 mg of Ipriflavone RS, previously dried at 1059C for 2 hours, and dissolve in aceto-nitrile to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and add acetonitrile to make 50 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Ipriflavone. Amount (mg) of ipriflavone (C18H16O3) ＝ MS × QT/QS MS: Amount (mg) of Ipriflavone RS taken Internal standard solution—A solution of di-n-butyl phtha-late in acetonitrile (1 in 100)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

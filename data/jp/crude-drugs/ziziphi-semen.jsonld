@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/ziziphi-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Ziziphi Semen",
+    "ja": "サンソウニン"
+  },
+  "monographId": "JP18-ziziphi-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Jujube Seed is a compressed ovate to orbicu-lar, lenticular seed, 5 – 9 mm in length, 4 – 6 mm in width, 2 – 3 mm in thickness, externally brown to dark red-brown, glossy; hilum at one end, chalaza at the other end; seed coat sightly flexible, covering, milky white endosperm and light yellow embryo. 100 seeds weigh 3.0 – 4.5 g. Odor, slightly oily; taste, mild and slightly oily. Under a microscope <5.01>, transverse section reveals seed coat composed of an upper epidermis, parenchyma and lower epidermis; upper epidermal cells sclerified and elon-gated in radial direction; lower epidermis covered with cuticle; endosperm composed of parenchyma, containing aggregated crystals of calcium oxalate, aleurone grains and starch grains; cotyledons composed of parenchyma that con-tains aleurone grains, starch grains and oil drops."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Jujube Seed add 10 mL of methanol, and heat under a reflux condenser for 10 minutes. After cooling, filter, and use the filtrate as the sam-ple solution. Perform the test with the sample solution as di-rected under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluores-cent indicator for thin-layer chromatography, develop the plate with a mixture of acetone, ethyl acetate, water and acetic acid (100) (10:10:3:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): two spots appear at the Rf value of about 0.3 and about 0.4, and these spots exhibit a blue-white fluorescence when examined under ultraviolet light (main wavelength: 365 nm) after spraying evenly dilute sulfuric acid on the plate and heating at 1059C for 5 minutes."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—Jujube Seed contains not more than 1.0z of the endocarp and other foreign matters. Loss on drying <5.01> Not more than 11.0z (6 hours). Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 8.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

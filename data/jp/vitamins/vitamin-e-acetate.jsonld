@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-e-acetate",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin E Acetate",
+    "ja": "トコフェロール酢酸エステル"
+  },
+  "monographId": "JP18-vitamin-e-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C31H52O3",
+  "molecularWeight": 472.74,
+  "casNumber": "7695-91-2",
+  "appearance": {
+    "en": "Tocopherol Acetate is a clear, colorless or yel-low, viscous and odorless liquid. It is miscible with ethanol (99.5), with acetone, with chlo-roform, with diethyl ether, with hexane and with vegetable oils. It is freely soluble in ethanol (95), and practically insoluble in water. It is optically inactive. It is affected by air and light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Tocopherol Acetate in 10 mL of ethanol (99.5), add 2 mL of nitric acid, and heat at 759C for 15 minutes: a red to orange color is produced. (2) Determine the infrared absorption spectrum of Tocopherol Acetate as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Tocopherol Acetate RS: both spectra exhibit similar inten- Refractive index <2.45> n20: 1.494 – 1.499 D Specific gravity <2.56> d 20: 0.952 – 0.966"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Tocopherol Acetate in 10 mL of ethanol (99.5): the solu-tion is clear, and has no more color than the following con-trol solution. Control solution: To 0.5 mL of Iron (III) Chloride CS add 0.5 mol/L hydrochloric acid TS to make 100 mL. Heavy metals <1.07>—Carbonize 1.0 g of Tocopherol Acetate by gentle heating. Cool, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), and ignite the ethanol to burn. Cool, add 1 mL of sulfuric acid, proceed according to Method 4, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (20 ppm). a-Tocopherol—Dissolve 0.10 g of Tocopherol Ace-tate in exactly 10 mL of hexane, and use this solution as the sample solution. Separately, dissolve 50 mg of Tocopherol RS in hexane to make exactly 100 mL. Pipet 1 mL of this so-lution, add hexane to make exactly 10 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of toluene and acetic acid (100) (19:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of iron (III) chloride hexahy-drate in ethanol (99.5) (1 in 500) on the plate, then spray evenly a solution of 2,2?-bipyridyl in ethanol (99.5) (1 in 200) on the same plate, and allow to stand for 2 to 3 minutes: the spot obtained from the sample solution corresponding to that from the standard solution is not larger and not more intense than the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve 50 mg each of Tocopherol Acetate and Tocopherol Acetate RS, accurately weighed, in ethanol (99.5) to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of these solutions as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak heights, HT and HS, of tocopherol acetate in each solution. Amount (mg) of tocopherol acetate (C31H52O3) ＝ MS × HT/HS MS: Amount (mg) of Tocopherol Acetate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 284 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of methanol and water (49:1). Flow rate: Adjust so that the retention time of tocopherol acetate is about 12 minutes. System suitability— System performance: Dissolve 0.05 g each of Tocopherol Acetate and tocopherol in 50 mL of ethanol (99.5). When the procedure is run with 20 mL of this solution under the above operating conditions, tocopherol and tocopherol ace- ‌tate are eluted in this order with the resolution between these peaks being not less than 2.6. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak heights of tocopherol acetate is not more than 0.8z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

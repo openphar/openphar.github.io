@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/thymol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Thymol‌",
+    "ja": "チモール"
+  },
+  "monographId": "JP18-thymol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H14O",
+  "molecularWeight": 150.22,
+  "appearance": {
+    "en": "Thymol occurs as colorless crystals or white crystalline masses. It has an aromatic odor, and has a burn-ing taste. It is very soluble in acetic acid (100), freely soluble in ethanol (95) and in diethyl ether, and slightly soluble in water. It sinks in water, but when warmed, it melts and rises to the surface of water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Thymol in acetic acid (100) (1 in 300) add 6 drops of sulfuric acid and 1 drop of nitric acid: a blue-green color develops by reflected light and a red-purple color develops by transmitted light. Dissolve 1 g of Thymol in 5 mL of a solution of sodi-um hydroxide (1 in 10) by heating in a water bath, and con-tinue heating for several minutes: a light yellow-red color slowly develops. Allow this solution to stand at room tem-perature: the color changes to dark yellow-brown. Shake this solution with 2 to 3 drops of chloroform: a purple color gradually develops. Triturate Thymol with an equal mass of camphor or menthol: the mixture liquefies."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Non-volatile residue—Volatilize 2.0 g of Thymol by heating on a water bath, and dry the residue at 1059C for 2 hours: the mass is not more than 1.0 mg. (2) Other phenols—Shake vigorously 1.0 g of Thymol with 20 mL of warm water for 1 minute, and filter. To 5 mL of the filtrate add 1 drop of iron (III) chloride TS: a green color may develop, but no blue to purple color develops."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Thymol, dissolve in 10 mL of sodium hydroxide TS, and add water to make ex-actly 100 mL. Measure exactly 10 mL of the solution into an iodine flask, add 50 mL of water and 20 mL of dilute sulfu-ric acid, and cool in ice water for 30 minutes. Add exactly 20 mL of 0.05 mol/L bromine VS, stopper tightly immediately, allow to stand for 30 minutes in ice water with occasional shaking in a dark place, add 14 mL of potassium iodide TS and 5 mL of chloroform, stopper tightly, shake vigorously, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Stopper tight-ly, shake vigorously near the end point, and continue the titration until the blue color in the chloroform layer disap-pears. Perform a blank determination in the same manner. Each mL of 0.05 mol/L bromine VS ＝ 3.756 mg of C10H14O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

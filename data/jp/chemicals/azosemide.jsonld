@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/azosemide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Azosemide",
+    "ja": "アゾセミド"
+  },
+  "monographId": "JP18-azosemide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "27589-33-9",
+  "definition": {
+    "en": "Azosemide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Azosemide occurs as a white to yellow-white crystalline powder. It is freely soluble in N,N-dimethylformamide, slightly soluble in methanol and in ethanol (99.5), and practically in-soluble in water. It dissolves in dilute sodium hydroxide TS. It is gradually colored to yellow by light. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 37.08 mg of C12H11ClN6O2S2"
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Azosemide, previ-ously dried, dissolve in 50 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L potassium hydroxide-ethanol VS until the color of the solution changes from yel-low to yellow-green (indicator: 10 drops of thymol blue-N,N-dimethylformamide TS). Perform a blank determina-tion in the same manner with a solution prepared by adding 15 mL of ethanol (95) to 50 mL of N,N-dimethylformamide, 12 11 6 2 2 and make any necessary correction. 2-Chloro-5-(1H-tetrazol-5-yl)-4-[(thien-2-ylmethyl)amino] benzenesulfonamide [27589-33-9] Azosemide, when dried, contains not less than 99.0z and not more than 101.0z of azosemide (C12H11ClN6O2S2). Description Azosemide occurs as a white to yellow-white crystalline powder. It is freely soluble in N,N-dimethylformamide, slightly soluble in methanol and in ethanol (99.5), and practically in-soluble in water. It dissolves in dilute sodium hydroxide TS. It is gradually colored to yellow by light. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 37.08 mg of C12H11ClN6O2S2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

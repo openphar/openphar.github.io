@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prednisolone-succinate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Prednisolone Succinate",
+    "ja": "プレドニゾロンコハク酸エステル"
+  },
+  "monographId": "JP18-prednisolone-succinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H32O8",
+  "molecularWeight": 460.52,
+  "casNumber": "2920-86-7",
+  "definition": {
+    "en": "Prednisolone Succinate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Prednisolone Succinate occurs as a white, fine, crystalline powder. It is odorless. It is freely soluble in methanol, soluble in ethanol (95), and very slightly soluble in water and in diethyl ether. Melting point: about 2059C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mg of Prednisolone Succinate add 2 mL of sulfuric acid, and allow to stand for 2 to 3 minutes: a deep red color, without fluorescence, develops. To this so-lution add 10 mL of water cautiously: the color disappears and a gray, flocculent precipitate is formed. (2) Determine the infrared absorption spectrum of Pred- nisolone Succinate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Prednisolone Succinate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋114 – ＋1209(after drying, 67 mg, methanol, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 0.10 g of Predniso-lone Succinate in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 30 mg of prednisolone in methanol to make exactly 10 mL. Pipet 1 mL of the solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and ethanol (95) (2:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the stand-ard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Prednisolone Succinate and Prednisolone Succinate RS, previously dried, and dissolve each in methanol to make exactly 100 mL. Pipet 5 mL each of these solutions, add methanol to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 242 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of prednisolone succinate (C25H32O8) ＝ MS × AT/AS MS: Amount (mg) of Prednisolone Succinate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

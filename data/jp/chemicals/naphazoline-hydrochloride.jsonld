@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/naphazoline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Naphazoline Hydrochloride",
+    "ja": "ナファゾリン塩酸塩"
+  },
+  "monographId": "JP18-naphazoline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H14N2.HCl",
+  "molecularWeight": 246.74,
+  "casNumber": "550-99-2",
+  "definition": {
+    "en": "Naphazoline Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Naphazoline Hydrochloride occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is freely soluble in water, soluble in ethanol (95) and in acetic acid (100), very slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. Melting point: 255 – 2609C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mL of a solution of Naphazoline Hydrochloride (1 in 100) add 5 mL of bromine TS, and boil: a deep purple color develops. ‌To 30 mL of a solution of Naphazoline Hydrochlo-ride (1 in 100) add 2 mL of sodium hydroxide TS, and ex-tract with two 25-mL portions of diethyl ether. Evaporate the combined diethyl ether extracts to dryness with the aid of a current of air. Dry the residue at 809C for 1 hour: the residue melts <2.60> between 1179C and 1209C.‌ Dissolve 0.02 g of the residue obtained in (2) in 2 to 3 drops of dilute hydrochloric acid and 5 mL of water, and add 2 mL of Reinecke salt TS: a red-purple, crystalline pre-cipitate is formed. A solution of Naphazoline Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 0.10 g of Naphazoline Hydrochloride in 10 mL of freshly boiled and cooled water: the pH of the solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Naphazoline Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. (2) Heavy metals <1.07>—Proceed with 1.0 g of Napha- zoline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Naphazoline Hy-drochloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 24.67 mg of C14H14N2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

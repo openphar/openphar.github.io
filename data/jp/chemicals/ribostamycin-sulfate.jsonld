@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ribostamycin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ribostamycin Sulfate",
+    "ja": "リボスタマイシン硫酸塩"
+  },
+  "monographId": "JP18-ribostamycin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ribostamycin Sulfate according to Method 1, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ribostamycin Sulfate according to Method 1, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.12 g of Ribostamycin Sulfate in water to make exactly 20 mL, and use this solution as the sample solution. Pipet 5 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potassium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 1.0z (1 g). Assay Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) Medium under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Ribostamycin Sulfate RS, previously dried, equivalent to about 20 mg (potency), dissolve in diluted phosphate buffer solution (pH 6.0) (1 in 2) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 5 to 159C and use within 20 days. Take exactly a suitable amount of the standard stock solution be-fore use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high con-centration standard solution and the low concentration standard solution, respectively."
+  },
+  "appearance": {
+    "en": "Ribostamycin Sulfate occurs as a white to yel-low-white powder. It is freely soluble in water, and practically insoluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 mg of Ribostamycin Sulfate in 2 mL of phosphate buffer solution (pH 6.0), add 1 mL of ninhydrin TS, and boil: a blue-purple color develops. Dissolve 0.12 g each of Ribostamycin Sulfate and Ribostamycin Sulfate RS in 20 mL of water, and use these solutions as the sample solution and standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solu-tion of potassium dihydrogen phosphate (3 in 40) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS, and heat at 1009C for 10 minutes: the principal spots obtained from the sample solution and standard solution show a purple-brown color and the same Rf value. To 2 mL of a solution of Ribostamycin Sulfate (1 in 5) add 1 drop of barium chloride TS: a white turbidity is pro-duced. D Optical rotation <2.49> [a]20: ＋42 – ＋499(after drying, 0.25 g, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Ribostamycin Sulfate in 20 mL of water is between 6.0 and 8.0. ‌Purity (1) Clarity and color of solution—Dissolve 2.9 g of Ribostamycin Sulfate in 10 mL of water: the solution is clear. Determine the absorbance of this solution at 400 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: not more than 0.10. Heavy metals <1.07>—Proceed with 1.0 g of Ribostamycin Sulfate according to Method 1, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ribostamycin Sulfate according to Method 1, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.12 g of Ribostamycin Sulfate in water to make exactly 20 mL, and use this solution as the sample solution. Pipet 5 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potassium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) Medium under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Ribostamycin Sulfate RS, previously dried, equivalent to about 20 mg (potency), dissolve in diluted phosphate buffer solution (pH 6.0) (1 in 2) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 5 to 159C and use within 20 days. Take exactly a suitable amount of the standard stock solution be-fore use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high con-centration standard solution and the low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Ribostamycin Sulfate, equivalent to about 20 mg (potency), and dissolve in water to make exactly 50 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

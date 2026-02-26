@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/rebamipide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Rebamipide",
+    "ja": "レバミピド"
+  },
+  "monographId": "JP18-rebamipide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H15ClN2O4",
+  "molecularWeight": 370.79,
+  "definition": {
+    "en": "Rebamipide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Rebamipide occurs as a white crystalline pow-der. It has a bitter taste. It is soluble in N,N-dimethylformamide, very slightly soluble in methanol and in ethanol (99.5), and practically in-soluble in water. A solution of Rebamipide in N,N-dimethylformamide (1 in 20) shows no optical rotation. Melting point: about 2919C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Rebamipide in methanol (7 in 1,000,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Reba-mipide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Rebamipide as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Rebamipide in 40 mL of N,N-dimethylformamide, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: To 0.40 mL of 0.01 mol/L hydrochloric acid VS add 40 mL of N,N-dimethylformamide, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.028z). Heavy metals <1.07>—Proceed with 2.0 g of Rebami- pide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Rebamipide m-chloro isomer—Dissolve 40 mg of Rebamipide in a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make 100 mL, and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make exactly 20 mL. Pipet 2 mL of this solution, add a mixture of water, 0.05 mol/L phosphate buffer solu-tion (pH 6.0) and methanol (7:7:6) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak of rebamipide m-chloro isomer, having the relative retention time of about 0.95 to re-bamipide obtained from the sample solution, is not larger than 3/8 times the area of the peak of rebamipide from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 222 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 300 mL of phosphate buffer solution (pH 6.2) add 750 mL of water. To 830 mL of this solution add 170 mL of acetonitrile. Flow rate: Adjust so that the retention time of rebamipide is about 20 minutes. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make ex-actly 25 mL. Confirm that the peak area of rebamipide ob-tained with 10 mL of this solution is equivalent to 15 to 25z of that with 10 mL of the standard solution. ‌System performance: To 1 mL of the sample solution add a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of rebamipide are not less than 11,000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rebamipide is not more than 2.0z. Related substances—Perform the test with exactly 10 mL each of the sample solution and standard solution ob-tained in (3) as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: each area of the peaks of rebamipide o-chloro isomer and debenzoylated isomer, having the relative reten-tion times of about 0.5 and about 0.7, respectively, to re-bamipide obtained from the sample solution, is not larger than 3/8 times the peak area of rebamipide from the stand-ard solution, the area of each peak other than rebamipide and the peak mentioned above from the sample solution is not larger than 1/4 times the peak area of rebamipide from the standard solution, and the total area of the peaks other than rebamipide from the sample solution is not larger than the peak area of rebamipide from the standard solution. For the peak area of rebamipide o-chloro isomer, multiply the correction factor, 1.4. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.44 g of sodium 1-decanesul-fonate in 1000 mL of water and to this solution add 1000 mL of methanol and 10 mL of phosphoric acid. Flow rate: Adjust so that the retention time of rebamipide is about 12 minutes. Time span of measurement: About 3 times as long as the retention time of rebamipide, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make ex-actly 50 mL. Confirm that the peak area of rebamipide ob-tained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 20 mg of 4-chlorobenzoate in methanol to make 50 mL. To 5 mL of this solution add 5 mL of the sample solution and a mixture of water, 0.05 mol/L phosphate buffer solution (pH 6.0) and methanol (7:7:6) to make 50 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, re-bamipide and 4-chlorobenzoate are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rebamipide is not more than 2.0z. Loss on drying <2.41> Not more than 3.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Rebamipide, previ-ously dried, dissolve in 60 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L potassium hydroxide VS until the color of the solution changes from pale yellow to colorless (indicator: 2 drops of phenol red TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L potassium hydroxide VS ＝ 37.08 mg of C19H15ClN2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

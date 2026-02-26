@@ -1,0 +1,34 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/compound-salicylic-acid-spirit",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Compound Salicylic Acid Spirit",
+    "ja": "複方サリチル酸精"
+  },
+  "monographId": "JP18-compound-salicylic-acid-spirit",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Compound Salicylic Acid Spirit contains not less than 1."
+  },
+  "appearance": {
+    "en": "Compound Salicylic Acid Spirit is a clear, col-orless to light red liquid. Specific gravity d 20: about 0.88"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Compound Salicylic Acid Spirit add hydrochloric acid-potassium chloride buffer solu-tion (pH 2.0) to make 200 mL, and to 5 mL of this solution add 5 mL of a solution of iron (III) nitrate enneahydrate (1 in 200): a red-purple color is produced (salicylic acid). To 1 mL of Compound Salicylic Acid Spirit add 20 mL of water and 5 mL of dilute hydrochloric acid, and ex-tract with 20 mL of diethyl ether. Wash the diethyl ether ex-tract with two 5-mL portions of sodium hydrogen carbonate TS, and extract with 10 mL of dilute sodium hydroxide TS. Shake 1 mL of the extract with 1 mL of sodium nitrite TS and 1 mL of dilute hydrochloric acid, allow to stand for 10 minutes, and add 3 mL of sodium hydroxide TS: a yellow color is produced (phenol). To 0.5 mL of Compound Salicylic Acid Spirit add 5 mL of dilute hydrochloric acid, extract with 5 mL of chlo-roform, and use the extract as the sample solution (1). To 2 mL of Compound Salicylic Acid Spirit add 5 mL of dilute hydrochloric acid, extract with 5 mL of chloroform, wash the extract with two 5-mL portions of sodium hydrogen car-bonate TS, and use the chloroform extract as the sample so- ＝ MS × AT/AS 7 6 3 lution (2). Separately, dissolve 0.01 g each of salicylic acid and phenol in 5 mL each of chloroform, and use both solu- MS: Amount (mg) of salicylic acid for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethenzamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethenzamide",
+    "ja": "エテンザミド"
+  },
+  "monographId": "JP18-ethenzamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H11NO2",
+  "molecularWeight": 165.19,
+  "definition": {
+    "en": "Ethenzamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethenzamide occurs as white, crystals or crys-talline powder. It is soluble in methanol, in ethanol (95), and in acetone, and practically insoluble in water. It begins to sublime slightly at about 1059C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ethenzamide in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Ethenzamide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ethenzamide, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Ethenzamide RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Ethen-zamide in 30 mL of acetone, add 6 mL of dilute nitric acid, and dilute with water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.7 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone and 6 mL of dilute nitric acid, and dilute with water to make 50 mL (not more than 0.050z). Sulfate <1.14>—Dissolve 0.5 g of Ethenzamide in 30 mL of acetone, add 1 mL of dilute hydrochloric acid, and dilute with water to 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution as follows: to 0.50 mL of 0.005 mol/L sulfuric acid VS add 30 mL of acetone and 1 mL of dilute hydrochloric acid, and dilute with water to 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 2.0 g of Ethen- zamide according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Arsenic <1.11>—To 0.40 g of Ethenzamide add 0.3 g of potassium nitrate and 0.5 g of anhydrous sodium carbon-ate, mix thoroughly, ignite the mixture gradually, and cool. Dissolve the residue in 10 mL of dilute sulfuric acid, and heat the solution until white fumes begin to evolve. After cooling, add water carefully to make 5 mL, use this solution as the test solution, and perform the test (not more than 5 ppm). Salicylamide—Dissolve 0.20 g of Ethenzamide in 15 mL of diluted ethanol (95) (2 in 3), and add 2 to 3 drops of dilute iron (III) chloride TS: no purple color develops. Loss on drying <2.41> Not more than 1.0z (1 g, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Ethenzamide and Ethenzamide RS, previously dried, and dissolve each in 70 mL of ethanol (95) by warming, and after cooling, add ethanol (95) to make exactly 100 mL. Pipet 5 mL each of these solutions, add ethanol (95) to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Determine the absorbances, AT and AS, of the sample solution and standard solution at 290 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using ethanol (95) as the blank. Amount (mg) of ethenzamide (C9H11NO2) ＝ MS × AT/AS MS: Amount (mg) of Ethenzamide RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

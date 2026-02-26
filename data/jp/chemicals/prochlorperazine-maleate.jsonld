@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prochlorperazine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Prochlorperazine Maleate‌",
+    "ja": "プロクロルペラジンマレイン酸塩"
+  },
+  "monographId": "JP18-prochlorperazine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H24ClN3S.2C4H4O4",
+  "molecularWeight": 606.09,
+  "casNumber": "84-02-6",
+  "appearance": {
+    "en": "Prochlorperazine Maleate occurs as a white to light yellow powder. It is odorless, and has a slightly bitter taste. It is slightly soluble in acetic acid (100), very slightly solu-ble in water and in ethanol (95), and practically insoluble in diethyl ether. It gradually acquires a red tint by light. Melting point: 195 – 2039C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Prochlorperazine Maleate in 5 mL of sulfuric acid: a red color develops, which darkens slowly on standing. Warm a half of the solution: the color changes to red-purple. To the remainder add 1 drop of potassium dichromate TS: a green-brown color develops, which changes to brown on standing. Boil 0.5 g of Prochlorperazine Maleate with 10 mL of hydrobromic acid under a reflux condenser for 10 minutes. After cooling, add 100 mL of water, and filter through glass filter (G4). Wash the residue with three 10-mL portions of water, and dry at 1059C for 1 hour: it melts <2.60> between 1959C and 1989C (with decomposition). Dissolve 0.2 g of Prochlorperazine Maleate in 5 mL of a solution of sodium hydroxide (1 in 10), and extract with three 3-mL portions of diethyl ether [reserve the aqueous layer, and use for test (4)]. Evaporate the combined diethyl ether extracts on a water bath to dryness, dissolve the residue in 10 mL of methanol by warming, and pour into 30 mL of a solution of 2,4,6-trinitrophenol in methanol (1 in 75), previ-ously warmed to 509C. Allow to stand for 1 hour, collect the crystals, wash with a small amount of methanol, and dry at 1059C for 1 hour: the crystals melt <2.60> between 2529C and 2589C (with decomposition). To the aqueous layer reserved in (3) add boiling chips, and heat on a water bath for 10 minutes. Cool, add 2 mL of bromine TS, heat on a water bath for 10 minutes, and heat the solution to boil. After cooling, add 2 drops of this solution to 3 mL of a solution of resorcinol in sulfuric acid (1 in 300), and heat on a water bath for 15 minutes: a red-purple color is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Pro-chlorperazine Maleate according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Prochlorperazine Maleate, previously dried, dissolve in 60 mL of acetic acid (100) while stirring and warming. Cool, and titrate <2.50> with 0.05 mol/L perchloric acid VS until the color of the so-lution changes from orange to green (indicator: 0.5 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 15.15 mg of C20H24ClN3S.2C4H4O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

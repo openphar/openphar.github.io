@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefbuperazone-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefbuperazone Sodium",
+    "ja": "セフブペラゾンナトリウム"
+  },
+  "monographId": "JP18-cefbuperazone-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefbuperazone Sodium contains not less than 870 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefbuperazone Sodium occurs as white to light yellow-white, powder or masses. It is very soluble in water, freely soluble in methanol and in pyridine, sparingly soluble in ethanol (95), and very slightly soluble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefbuperazone Sodium (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Dissolve 0.1 g of Cefbuperazone Sodium in 0.5 mL of deuterated pyridine for nuclear magnetic resonance spec-troscopy and 1 drop of heavy water for nuclear magnetic resonance spectroscopy, and determine the 1H spectrum of this solution as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using tetramethylsilane for nuclear magnetic resonance spectroscopy as an internal reference compound: it exhibits a triplet signal A at around d 1.1 ppm, and two doublet signals, B and C, at around d 1.6 ppm and at around d 5.1 ppm, respectively. The ratio of the inte-grated intensity of each signal, A:B:C, is about 3:3:1. Cefbuperazone Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋48 – ＋569(0.4 g calculated on the anhydrous basis, water, 20 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cefbuperazone Sodium in 4 mL of water: the pH of the solution is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefbuperazone Sodium in 4 mL of water: the solution is clear and light yellow. Heavy metals <1.07>—Proceed with 2.0 g of Cef- buperazone Sodium according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefbuperazone Sodium according to Method 4, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Cefbupera- ‌660 zone Sodium in 100 mL of the mobile phase, and use this so-lution as the sample solution. Pipet 1 mL of the sample solu-tion, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 25 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method. Calculate the percentages of each peak area of related substances ob-tained from the sample solution against 50 times of the peak area of cefbuperazone from the standard solution; the amount of related substance I having the relative retention time of about 0.2 to cefbuperazone is not more than 2.0z, the amount of related substance II having the relative reten-tion time of about 0.6 is not more than 4.5z and the amount of related substance III having the relative retention time of about 1.6 is not more than 1.0z, and the total amount of these related substances is not more than 6.0z. For the peak areas of the related substances I and III, multi-ply their correction factors, 0.72 and 0.69, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of cefbuperazone. System suitability— Test for required detectability: Measure exactly 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of cefbuperazone obtained with 25 mL of this solution is equivalent to 7 to 13z of that with 25 mL of the standard solution. System performance: When the procedure is run with 25 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefbuperazone are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 25 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefbuperazone is not more than 2.0z. Water <2.48> Not more than 1.0z (3 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefbuperazone So-dium and Cefbuperazone RS, equivalent to about 0.1 g (po-tency), and dissolve each in the mobile phase to make exactly 100 mL. Measure exactly 10 mL each of these solutions, add exactly 10 mL of the internal standard solution and the mobile phase to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefbuperazone to that of the internal standard. Amount [ mg (potency)] of cefbuperazone (C22H29N9O9S2) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Cefbuperazone RS taken Internal standard solution—A solution of acetanilide in the mobile phase (1 in 4000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame- ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.0 g of tetra-n-propylammonium bromide in 1000 mL of a mixture of water, acetonitrile and acetic acid-sodium acetate buffer solution (pH 5.0) (83:13:4). Flow rate: Adjust so that the retention time of cefbupera-zone is about 16 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and cefbuperazone are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefbuperazone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—In a cold place."
+  }
+}

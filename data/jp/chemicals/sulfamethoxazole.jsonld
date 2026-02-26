@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfamethoxazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfamethoxazole",
+    "ja": "スルファメトキサゾール"
+  },
+  "monographId": "JP18-sulfamethoxazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H11N3O3S",
+  "molecularWeight": 253.28,
+  "definition": {
+    "en": "Sulfamethoxazole, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sulfamethoxazole occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is very soluble in N,N-dimethylformamide, sparingly soluble in ethanol (95), slightly soluble in diethyl ether, and very slightly soluble in water. It dissolves in sodium hydroxide TS. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Sulfamethoxazole, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sulfamethoxazole in 5 mL of sodium hydroxide TS, and add 20 mL of water: the solution is clear and colorless. Acidity—To 1.0 g of Sulfamethoxazole add 50 mL of water, heat at 709C for 5 minutes, allow to stand in ice water for 1 hour, and filter. To 25 mL of the filtrate add 2 drops of methyl red TS and 0.60 mL of 0.1 mol/L sodium hydroxide VS: a yellow color develops. Heavy metals <1.07>—Proceed with 1.0 g of Sul- famethoxazole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Sulfamethoxazole according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.20 g of Sulfamethox-azole in 10 mL of a solution of ammonia solution (28) in methanol (1 in 50), and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add a solution of ammonia solution (28) in methanol (1 in 50) to make exactly 10 mL. Pipet 1 mL of this solution, add a solution of ammo-nia solution (28) in methanol (1 in 50) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solu-tion and standard solution on a plate of silica gel with fluo-rescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, acetonitrile and di-luted ammonia solution (28) (7 in 100) (10:8:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Sulfamethoxazole, previously dried, dissolve in 30 mL of N,N-dimethyl-formamide, add 10 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until a light blue color is pro-duced (indicator: 0.5 mL of thymolphthalein TS). Sepa-rately, perform a blank determination in the same manner with a mixture of 30 mL of N,N-dimethylformamide and 26 mL of water, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 25.33 mg of C10H11N3O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

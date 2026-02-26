@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/terbinafine-hydrochloride-spray",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Terbinafine Hydrochloride Spray",
+    "ja": "テルビナフィン塩酸塩スプレー"
+  },
+  "monographId": "JP18-terbinafine-hydrochloride-spray",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Terbinafine Hydrochloride Spray contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Terbinafine Hydrochloride Spray, equivalent to 10 mg of Terbinafine Hydrochloride, add methanol to make 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of terbinafine hydrochloride for assay in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with the upper layer of a mixture of 80 volumes of hexane, 20 volumes of ethyl acetate and 1 volume of ammonia solution (28) to a distance of about 15 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution shows the same Rf value with the spot from the standard solution. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Terbinafine Hydro-chloride Spray, equivalent to about 10 mg of terbinafine hy-drochloride (C21H25N.HCl), dissolve in methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of terbinafine hy-drochloride for assay, previously dried at 1059C for 4 hours, dissolve in methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of terbinafine in each solution. Amount (mg) of terbinafine hydrochloride (C21H25N.HCl) ＝ MS × AT/AS × 1/4 MS: Amount (mg) of terbinafine hydrochloride for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 282 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 125 mm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of a solution of tetramethylam-monium hydroxide (9 in 2000) adjusted to pH 8.0 with diluted phosphoric acid (1 in 25), acetonitrile and tetra-hydrofuran (2:2:1). Flow rate: Adjust so that the retention time of terbinafine is about 8.5 minutes. System suitability— System performance: Dissolve 40 mg of terbinafine hydro-chloride for assay and 3.5 mg of terphenyl in 200 mL of methanol. When the procedure is run with 10 mL of this so-lution under the above operating conditions, terphenyl and terbinafine are eluted in this order with the resolution be-tween these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of terbinafine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Spray"
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carvedilol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carvedilol",
+    "ja": "カルベジロール"
+  },
+  "monographId": "JP18-carvedilol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H26N2O4",
+  "molecularWeight": 406.47,
+  "definition": {
+    "en": "Carvedilol, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Carvedilol occurs as white to pale yellow-white, crystals or crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. A solution of Carvedilol in methanol (1 in 100) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Carvedilol in methanol (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Car-vedilol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Wrap 2.0 g of Car-vedilol with a filter paper for quantitative analysis, then proceed according to Method 4, and perform the test. Pre-pare the control solution as follows: Put a filter paper for quantitative analysis in a crucible, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), then proceed as directed for the test solution, and add 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 10 ppm). (2) Related substances—Dissolve 65 mg of Carvedilol in 100 mL of the mobile phase. To 1 mL of this solution add the mobile phase to make 10 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the area of the peak other than carvedilol obtained from the sample solution is not larger than 3/20 times the peak area of carvedilol from the stand-ard solution, and the total area of the peaks other than car-vedilol from the sample solution is not larger than 1/2 times the peak area of carvedilol from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). ‌638 Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 559C. Mobile phase: Dissolve 2.72 g of potassium dihydrogen phosphate in 900 mL of water, adjust to pH 2.0 with phos-phoric acid, and add water to make 1000 mL. To 650 mL of this solution add 350 mL of acetonitrile. Flow rate: Adjust so that the retention time of carvedilol is about 4 minutes. Time span of measurement: About 9 times as long as the retention time of carvedilol, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, add the mobile phase to make exactly 20 mL. Con-firm that the peak area of carvedilol obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of carvedilol are not less than 6000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of carvedilol is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Carvedilol, previ-ously dried, dissolve in 60 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform the blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 40.65 mg of C24H26N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

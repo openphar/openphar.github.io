@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/compound-iodine-glycerin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Compound Iodine Glycerin",
+    "ja": "複方ヨード・グリセリン"
+  },
+  "monographId": "JP18-compound-iodine-glycerin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Compound Iodine Glycerin contains not less than w/vz and not more than 1."
+  },
+  "appearance": {
+    "en": "Compound Iodine Glycerin is a red-brown, viscous liquid. It has a characteristic odor. Specific gravity d 20: about 1.23"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) The colored solution obtained in the Assay (1) acquires a red color. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 510 nm and 514 nm (iodine). The colored solution obtained in the Assay (2) ac-quires a red color. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum between 510 nm and 514 nm (potassium iodide). The colored solution obtained in the Assay (4) has a yellow color. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits a maximum between 401 nm and 405 nm (phenol). Take 1 mL of Compound Iodine Glycerin in a glass-stoppered test tube, add 10 mL of ethanol (95), and mix. Then add 2 mL of sodium hydroxide TS, add 1 mL of a so-lution of copper (II) chloride dihydrate in ethanol (95) (1 in 10), and shake: a blue color develops (glycerin)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Iodine—Measure the specific gravity of Com-pound Iodine Glycerin according to Method 2 under Deter-mination of Specific gravity and density <2.56>. Weigh ex-actly about 7 mL of it, add ethanol (95) to make exactly 200 mL, and use this solution as the sample solution. On the other hand, weigh accurately about 80 mg of iodine for assay and about 0.17 g of potassium iodide for assay, previously dried at 1059C for 4 hours, dissolve in ethanol (95) to make exactly 200 mL, and use this solution as the standard solu- ‌1172 tion. Pipet 3 mL each of the sample solution and the stand-ard solution into 50-mL separators, to each add exactly 10 mL of a mixture of chloroform and hexane (2:1) and 15 mL of water successively, and shake immediately and vigor-ously. Separate the chloroform-hexane layers [use the water layers in (2)], and filter through a pledget of cotton. Deter-mine the absorbances of the filtrates, AT and AS, at 512 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a mixture of chloroform and hexane (2:1) as the blank. solution, and use so obtaind solution as the standard solu-tion. Pipet 3 mL each of the sample solution and standard solution, to each add 2 mL of dilute hydrochloric acid, and place in a water bath at 309C. Allow to stand for 10 minutes, and add exactly 2 mL of a solution of sodium nitrite (1 in 100), shake, and allow to stand at 309C for 60 minutes. Add dilute potassium hydroxide-ethanol TS to make exactly 25 mL, and determine the absorbances of these solutions, AT and AS, at 403 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using the solution prepared in the Amount (mg) of iodine (I) ＝ MS × AT/AS same manner with 3 mL of water instead of the sample solu- tion as the blank. MS: Amount (mg) of iodine for assay taken Potassium iodide—Separate the water layers of the sample solution and the standard solution obtained in (1), pipet 10 mL of each of the water layers, and to each add 1 mL of diluted dilute hydrochloric acid (1 in 2), 1 mL of so-dium nitrite TS and exactly 10 mL of a mixture of chlo-roform and hexane (2:1). Shake immediately and vigorously, separate the chloroform-hexane layers, and filter through a pledget of cotton. Determine the absorbances, AT and AS, of both solutions at 512 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a mixture of chloroform and hexane (2:1) as the blank. Amount (mg) of potassium iodide (KI) ＝ MS × AT/AS MS: Amount (mg) of potassium iodide for assay taken Total iodine—Measure the specific gravity of Com-pound Iodine Glycerin according to Method 2 under Deter-mination of Specific gravity and density <2.56>. Weigh ex-actly about 5 mL of it, and add water to make exactly 50 mL. Pipet 5 mL of this solution into a 50-mL flask, and add 0.5 g of zinc powder and 5 mL of acetic acid (100). Shake until the color of iodine disappears, and heat under a reflux condenser on a water bath for 30 minutes. Wash the con-denser with 10 mL of hot water, and filter through a glass filter (G3). Wash the flask with two 10-mL portions of warm water, and combine the filtrate and the washings. After cool-ing, add water to make exactly 50 mL, and use this solution as the sample solution. On the other hand, dissolve about 0.2 g of potassium iodide for assay, previously dried at 1059C for 4 hours and accurately weighed, in water to make exactly 50 mL. Pipet 5 mL of this solution, add 5 mL of ace-tic acid (100) and water to make exactly 50 mL, and use this solution as the standard solution. Pipet 4 mL each of the sample solution and standard solution into 30-mL separa-tors, and to each add 5 mL of water, 1 mL of diluted dilute hydrochloric acid (1 in 2), 1 mL of sodium nitrite TS and 10 mL of a mixture of chloroform and hexane (2:1). Shake well immediately, and proceed as directed in (2). Amount (mg) of total iodine (I) ＝ MS × AT/AS × 0.764 MS: Amount (mg) of potassium iodide for assay taken Phenol—Measure the specific gravity of Compound Iodine Glycerin according to Method 2 under Determination of Specific gravity and density <2.56>. Weigh exactly about 2 mL of it, add 3 mL of 0.1 mol/L sodium thiosulfate VS, and shake. Add 2 mL of dilute hydrochloric acid, and shake with two 10-mL portions of chloroform. Separate the chloroform layer, and shake with two 10-mL portions of 0.5 mol/L so-dium hydroxide TS. Separate the water layer, add water to make exactly 500 mL, and use this solution as the sample so-lution. Dissolve about 0.5 g of phenol for assay, accurately weighed, in ethanol (95) to make exactly 100 mL, pipet 2 mL of this solution, proceed in the same manner as the sample Amount (mg) of phenol (C6H6O) ＝ MS × AT/AS × 1/50 MS: Amount (mg) of phenol for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

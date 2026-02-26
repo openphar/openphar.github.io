@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/chlordiazepoxide-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Chlordiazepoxide Powder",
+    "ja": "クロルジアゼポキシド散"
+  },
+  "monographId": "JP18-chlordiazepoxide-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Chlordiazepoxide Powder contains not less than 93."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a portion of Chlordiazepoxide Powder, equivalent to 0.01 g of Chlordiazepoxide, add 100 mL of 0.1 mol/L hydrochloric acid TS, shake, and filter. To 5 mL of the filtrate add 0.1 mol/L hydrochloric acid TS to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 244 nm and 248 nm and between 306 nm and 310 nm, and a minimum between 288 nm and 292 nm. (2) Weigh a portion of Chlordiazepoxide Powder, equivalent to 0.02 g of Chlordiazepoxide, add 10 mL of methanol, shake for 5 minutes, then filter by suction through a glass filter (G4), evaporate the filtrate with the aid of a current of air to dryness, and dry the residue in vacuum at 609C for 1 hour. Determine the infrared absorption spec-trum of the residue as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 1625 cm－1, 1465 cm－1, 1265 cm－1, 850 cm－1 and 765 cm－1."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. To a portion of Chlordia-zepoxide Powder, equivalent to 50 mg of Chlordiazepoxide, add exactly 5 mL of a mixture of methanol and ammonia TS (97:3), shake, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 50 mg of Chlordia-zepoxide RS in a mixture of methanol and ammonia TS (97:3) to make exactly 50 mL, and use this solution as the standard solution (1). Dissolve 5.0 mg of 2-amino-5-chlorobenzophenone for thin-layer chromatography in methanol to make exactly 200 mL, and use this solution as the standard solution (2). Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 25 mL of the sample solution and 10 mL each of the standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Pro-ceed as directed in the Purity (2) under Chlordiazepoxide. Dissolution <6.10> When the test is performed at 100 revo-lutions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medium, the dissolution rate in 60 minutes of Chlordia-zepoxide Powder is not less than 70z. Start the test with an accurately weighed amount of Chlor-diazepoxide Powder, equivalent to about 3.3 mg of chlordia-zepoxide (C16H14ClN3O), withdraw not less than 15 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, and use the subsequent filtrate as the sample solu-tion. Separately, weigh accurately about 12 mg of Chlordia-zepoxide RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide, 609C) for 4 hours, dissolve in 20 mL of 0.1 mol/L hydrochloric acid TS, and add the dissolution medium to make exactly 200 mL. Pipet 3 mL of this solu-tion, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 260 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of chlordiazepoxide (C16H14ClN3O) ＝ MS/MT × AT/AS × 1/C × 27 MS: Amount (mg) of Chlordiazepoxide RS taken MT: Amount (g) of Chlordiazepoxide Powder taken C: Labeled amount (mg) of chlordiazepoxide (C16H14ClN3O) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately a quantity of Chlordiazepoxide Powder, equivalent to about 0.1 g of chlordiazepoxide (C16H14ClN3O), transfer to a glass-stoppered flask, wet with exactly 10 mL of water, add ex-actly 90 mL of methanol, stopper, shake vigorously for 15 minutes, and centrifuge. Pipet 10 mL of the supernatant liq-uid, add exactly 5 mL of the internal standard solution, add methanol to make 100 mL, and use this solution as the sam-ple solution. Separately, weigh accurately about 0.1 g of Chlordiazepoxide RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide, 609C) for 4 hours, and dis-solve in exactly 10 mL of water and exactly 90 mL of metha-nol. Pipet 10 mL of this solution, add exactly 5 mL of the in-ternal standard solution, add methanol to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of chlordiazepoxide to that of the inter-nal standard. Amount (mg) of chlordiazepoxide (C16H14ClN3O) ＝ MS × QT/QS MS: Amount (mg) of Chlordiazepoxide RS taken Internal standard solution—A solution of isobutyl salicylate in methanol (1 in 20). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and 0.02 mol/L am-monium dihydrogenphosphate TS (7:3). Flow rate: Adjust so that the retention time of chlordia-zepoxide is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating conditions, chlordiazepoxide and the internal standard are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of chlordiazepoxide to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage-Light-resistant."
+  },
+  "dosageForm": "Powder"
+}

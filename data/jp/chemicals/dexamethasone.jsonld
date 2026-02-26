@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dexamethasone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dexamethasone",
+    "ja": "デキサメタゾン"
+  },
+  "monographId": "JP18-dexamethasone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H29FO5",
+  "molecularWeight": 392.46,
+  "casNumber": "50-02-2",
+  "definition": {
+    "en": "Dexamethasone, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Dexamethasone occurs as white to pale yellow, crystals or crystalline powder. It is sparingly soluble in methanol, in ethanol (95) and in acetone, slightly soluble in acetonitrile, and practically in-soluble in water. Melting point: about 2459C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Place a volume of Deslanoside Injec-tion, equivalent to 2 mg of Deslanoside, in a separator, add sodium chloride in the ratio of 0.2 g to each mL of this solu-tion, and extract with three 10-mL portions of chloroform. Combine the chloroform extracts, mix uniformly, pipet 15 mL of this solution, and evaporate the chloroform under reduced pressure. Proceed with the residue as directed in the Identification under Deslanoside. (2) Evaporate the remaining chloroform extract obtained in (1) under reduced pressure, dissolve the residue in 5 mL of methanol, and use this solution as the sample solution. Sepa-rately, dissolve 1 mg of Deslanoside RS in 5 mL of metha-nol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of these solutions on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of dichloromethane, methanol and water (84:15:1) to a distance of about 13 cm, and air-dry the plate. Spray evenly dilute sulfuric acid upon the plate, and heat the plate at 1109C for 10 minutes: the spots from the sample solution and standard solution show a black color and have the same Rf value. Bacterial endotoxins <4.01> Less than 500 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Dexamethasone according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard MS: Amount (mg) of Deslanoside RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Deslanoside Injection, equivalent to about 3 mg of deslanoside (C47H74O19). Add 5 mL of methanol and water to make exactly 25 mL. Use this solution as the sample solution, and proceed as directed in the Assay under Deslanoside. Description Dexamethasone occurs as white to pale yellow, crystals or crystalline powder. It is sparingly soluble in methanol, in ethanol (95) and in acetone, slightly soluble in acetonitrile, and practically in-soluble in water. Melting point: about 2459C (with decomposition). It shows crystal polymorphism. Identification (1) Proceed with 10 mg of Dexamethasone as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the solution obtained responds to Qualitative Tests <1.09> for fluoride. Dissolve 1 mg of Dexamethasone in 10 mL of ethanol (95). Mix 2 mL of the solution with 10 mL of phenyl-hydrazinium chloride TS, heat in a water bath at 609C for 20 minutes, and cool the solution. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using as the blank the solution prepared with 2 mL of ethanol (95) in the same manner as the former solution, and compare the spectrum with the Ref-erence Spectrum or the spectrum of a solution of Dexa-methasone RS prepared in the same manner as the former solution: both spectra exhibit similar intensities of absorp-tion at the same wavelengths. Determine the infrared absorption spectrum of Dexa-methasone, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Dexamethasone RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve Dexamethasone and Dexamethasone RS in acetone, respectively, then evaporate the acetone to dry-ness, and repeat the test on the residues. D Optical rotation <2.49> [a]20: ＋86 – ＋949(after drying, 0.1 g, methanol, 10 mL, 100 mm). Amount (mg) of deslanoside (C ＝ MS × AT/AS × 1/4 47H 74O 19) Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Dexamethasone according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard MS: Amount (mg) of Deslanoside RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  }
+}

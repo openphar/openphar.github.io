@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sal-mirabilis-anhydricus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sal Mirabilis Anhydricus",
+    "ja": "無水ボウショウ"
+  },
+  "monographId": "JP18-sal-mirabilis-anhydricus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "Na2SO4",
+  "molecularWeight": 142.04,
+  "casNumber": "7757-82-6",
+  "appearance": {
+    "en": "Anhydrous Sodium Sulfate occurs as white, crystals or powder. It is odorless and has a salty and slightly bitter taste. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Anhydrous Sodium Sul-fate (1 in 20) responds to Qualitative Tests <1.09> (1) for so-dium salt. (2) A solution of Anhydrous Sodium Sulfate (1 in 20) responds to Qualitative Tests <1.09> (1) for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Dissolve 0.5 g of Anhy-drous Sodium Sulfate in 5 mL of freshly boiled and cooled water: the solution is clear and colorless, and neutral. Chloride <1.03>—Perform the test with 0.5 g of pre- viously dried Anhydrous Sodium Sulfate. Prepare the con-trol solution with 0.5 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.036z). Heavy metals <1.07>—Proceed with 2.0 g of previ- ously dried Anhydrous Sodium Sulfate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of previously dried Anhydrous Sodium Sulfate according to Method 1, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 0.5z (4 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of previously dried Anhydrous Sodium Sulfate, dissolve in 200 mL of water, add 1 mL of hydrochloric acid, boil, and gradually add 8 mL of barium chloride TS. Heat the solution in a water bath for 1 hour. After cooling, filter through a filter paper for quan-titative analysis (No.5C), wash the residue on the filter paper with water until the washings do not give the turbidity with silver nitrate TS. After drying the residue together with the paper, ignite at 500 – 8009C to constant mass, and weigh the mass of the residue as the amount of barium sulfate (BaSO4: 233.39). Amount (mg) of sodium sulfate (Na2SO4) ＝ amount (mg) of barium sulfate (BaSO4) × 0.609"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

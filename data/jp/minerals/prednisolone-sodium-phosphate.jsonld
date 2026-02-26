@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/prednisolone-sodium-phosphate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Prednisolone Sodium Phosphate",
+    "ja": "プレドニゾロンリン酸エステルナトリウム"
+  },
+  "monographId": "JP18-prednisolone-sodium-phosphate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Prednisolone Sodium Phosphate occurs as a white to pale yellow powder. It is freely soluble in water, soluble in methanol, and prac-tically insoluble in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Moisten 1.0 g of Prednisolone Sodium Phosphate with a small amount of sulfuric acid, and gradu-ally heat to incinerate. After cooling, dissolve the residue in 10 mL of dilute nitric acid, and heat in a water bath for 30 minutes. After cooling, filter if necessary. This solution re-sponds to Qualitative Tests <1.09> for phosphate. Dissolve 2 mg of Prednisolone Sodium Phosphate in 2 mL of sulfuric acid, and allow to stand for 2 minutes: a deep red color, without fluorescence, develops. Determine the absorption spectrum of a solution of Prednisolone Sodium Phosphate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Pred-nisolone Sodium Phosphate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. The solution obtained in (1) responds to Qualitative Tests <1.09> for sodium salt. D Optical rotation <2.49> [a]20: ＋96 – ＋1039(1 g calculated on the anhydrous basis, phosphate buffer solution (pH 7.0), 100 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Prednisolone Sodium Phos-phate in 100 mL of water: the pH of the solution is between 7.5 and 9.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Prednisolone Sodium Phosphate in 10 mL of water: the solution is clear and not more colored than the following control solution. Control solution: To a mixture of 3.0 mL of Cobalt (II) Chloride CS, 3.0 mL of Iron (III) Chloride CS and 2.4 mL of Copper (II) Sulfate CS add diluted hydrochloric acid (1 in 40) to make 10 mL. To 2.5 mL of this solution add diluted hydrochloric acid (1 in 40) to make 100 mL. Heavy metals <1.07>—Proceed with 0.5 g of Pred- nisolone Sodium Phosphate according to Method 3, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 40 ppm). Free phosphoric acid—Weigh accurately about 0.25 g of Prednisolone Sodium Phosphate, dissolve in water to make exactly 100 mL, and use this solution as the sample solution. Pipet 5 mL each of the sample solution and Phos-phoric Acid Standard Solution, add 2.5 mL of hexaammo-nium heptamolybdate-sulfuric acid TS and 1 mL of 1-amino-2-naphtol-4-sulfonic acid TS, shake, add water to make ex-actly 25 mL, and allow to stand at 20 ± 19C for 30 minutes. Perform the test with these solutions as directed under Ultra-violet-visible Spectrophotometry <2.24>, using a solution prepared with 5 mL of water in the same manner as the blank. Determine the absorbances, AT and AS, of each solu-tion from the sample solution and standard solution at 740 nm: the content of free phosphoric acid is not more than 1.0z. Content (z) of free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 258.0 M: Amount (mg) of Prednisolone Sodium Phosphate taken, calculated on the anhydrous basis Related substances—Dissolve 10 mg of Prednisolone Sodium Phosphate in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sam-ple solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of each peak other than prednisolone phos-phate obtained from the sample solution is not larger than 1.5 times the peak area of prednisolone phosphate from the standard solution, and the total area of the peaks other than prednisolone phosphate from the sample solution is not larger than 2.5 times the peak area of prednisolone phos-phate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 245 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 6.80 g of potassium dihydrogen phosphate in water to make 1000 mL, and adjust the pH to 2.5 with phosphoric acid. To 1000 mL of this solution add 250 mL of acetonitrile. Flow rate: Adjust so that the retention time of predniso-lone phosphate is about 7 minutes. Time span of measurement: About 4 times as long as the retention time of prednisolone phosphate. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 50 mL. Confirm that the peak area of prednisolone phosphate ob-tained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of prednisolone phosphate are not less than 3000 and not more than 2.0, respectively. ‌System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of prednisolone phosphate is not more than 2.0z.‌ Water <2.48> Not more than 8.0z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Prednisolone So-dium Phosphate, and dissolve in water to make exactly 100 mL. Pipet 2 mL of this solution, add 1 mL of alkaline phos-phatase TS, and allow to stand for 2 hours with occasional shaking. To this solution add exactly 20 mL of 1-octanol, and shake vigorously. Centrifuge this solution, pipet 10 mL of the 1-octanol layer, add 1-octanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Prednisolone RS, previ-ously dried at 1059C for 3 hours, and dissolve in 1-octanol to make exactly 100 mL. Pipet 6 mL of this solution, add a so-lution prepared by adding 1 mL of alkaline phosphatase TS to 2 mL water and being allowed to stand for 2 hours with occasional gentle shaking, add exactly 14 mL of 1-octanol, and shake vigorously. Proceed in the same manner as the sample solution to make the standard solution. Perform the test with the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using 1-octanol as the blank, and determine the absorbances, AT and AS, at 245 nm. Amount (mg) of prednisolone sodium phosphate (C21H27Na2O8P) ＝ MS × AT/AS × 3 × 1.344 MS: Amount (mg) of Prednisolone RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

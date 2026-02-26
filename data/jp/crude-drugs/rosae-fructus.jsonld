@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/rosae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Rosae Fructus",
+    "ja": "エイジツ"
+  },
+  "monographId": "JP18-rosae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "The pseudocarp, spherical, ellipsoidal or spheroidal, 5 – 9.5 mm in length, 3.5 – 8 mm in diameter; the external surface red to dark brown in color, smooth and lus-trous; often with peduncle about 10 mm in length at one end, and with pentagonal remains of calyx without sepal at the other end; internal wall of receptacle covered densely with silvery hairs; the interior containing 5 – 10 mature nuts; the nut, irregularly angular ovoid, about 4 mm in length, about 2 mm in diameter; external surface, light yellow-brown; obtuse at one end, and slightly acute at the other. Odor, slight; taste of fruit receptacle, sweet and acid, and of nut, mucilaginous at first, later astringent, bitter and ir-ritative."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Boil gently 1 g of pulverized Rose Fruit with 20 mL of methanol for 2 minutes, and filter. To 5 mL of the filtrate add 0.1 g of magnesium in ribbon form and 0.5 mL of hydrochloric acid, and allow the mixture to stand: a light red to red color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of the peduncle and other foreign matter contained in Rose Fruit is not more than 1.0z. Total ash <5.01> Not more than 6.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

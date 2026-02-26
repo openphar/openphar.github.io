@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefatrizine-propylene-glycolate-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefatrizine Propylene Glycolate for Syrup",
+    "ja": "シロップ用セファトリジンプロピレングリコール"
+  },
+  "monographId": "JP18-cefatrizine-propylene-glycolate-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefatrizine Propylene Glycolate for Syrup is a preparation for syrup, which is dissolved before use. It contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Cefatrizine Propylene Glycolate for Syrup, weigh a portion of the powder, equivalent to 10 mg (potency) of Cefatrizine Propylene Glycolate, and dissolve in 10 mL of water. To 2 mL of this solution add water to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 225 nm and 229 nm, and between 266 nm and 271 nm. pH <2.54> Take an amount of Cefatrizine Propylene Glycolate for Syrup, equivalent to 0.4 g (potency) of Cefatri-zine Propylene Glycolate, and suspend in 10 mL of water: the pH of this suspension is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard Amount [ mg (potency)] of cefatrizine (C ＝ MS × AT/AS × 1000 18H18N6O5S2) solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area in each solution by the automatic integration method: MS: Amount [mg (potency)] of Cefatrizine Propylene Glycolate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of a solution of potassium dihy-drogenphosphate (17 in 12,500) and methanol (17:3). Flow rate: Adjust so that the retention time of cefatrizine is about 11 minutes. System suitability— System performance: Dissolve about 10 mg (potency) of Cefatrizine Propylene Glycolate and about 5 mg (potency) of Cefadroxil in 50 mL of water. When the procedure is run with 10 mL of this solution under the above operating condi-tions, cefadroxil and cefatrizine are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of peak areas of cefatrizine is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Cefatrizine Propylene Glycolate for Syrup, ‌656 weigh accurately a portion of the powder, equivalent to about 0.1 g (potency) of Cefatrizine Propylene Glycolate, dissolve in water to make exactly 500 mL, and use this solu-tion as the sample solution. Separately, weigh accurately an amount of Cefatrizine Propylene Glycolate RS, equivalent to about 20 mg (potency), dissolve in water to make exactly 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefatrizine Propylene Glycolate. Amount [mg (potency)] of cefatrizine (C18H18N6O5S2) ＝ MS × AT/AS × 5 MS: Amount [mg (potency)] of Cefatrizine Propylene Glycolate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amphotericin-b",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amphotericin B",
+    "ja": "アムホテリシン B"
+  },
+  "monographId": "JP18-amphotericin-b",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C47H73NO17",
+  "molecularWeight": 924.08,
+  "casNumber": "1397-89-3",
+  "definition": {
+    "en": "Amphotericin B is a polyene macrolide substance having antifungal activity produced by the growth of Streptomyces nodosus. dimethylsulfoxide, and add methanol to make 50 mL. To 1 mL of this solution add methanol to make 50 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Amphotericin B RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Purity Amphotericin A—Weigh accurately about 50 mg each of Amphotericin B and Amphotericin B RS, add ex-actly 10 mL each of dimethylsulfoxide to dissolve, and add methanol to make exactly 50 mL. Pipet 4 mL each of these solutions, add methanol to make exactly 50 mL, and use these solutions as the sample solution and standard solution (1), respectively. Separately, weigh accurately about 20 mg of Nystatin RS, add exactly 40 mL of dimethylsulfoxide to dissolve, then add methanol to make exactly 200 mL. Pipet 4 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution obtained in the same manner as the sample solution as the blank, and determine the absorbances at 282 nm and at 304 nm. Calcu-late the amount of amphotericin A by the following equa-tion: not more than 5z for Amphotericin B used for injec-tions, and not more than 15z for Amphotericin B not used for injections. Amount (z) of amphotericin A ＝  MS ×{(ASa1 × AT2) － (ASa2 × AT1)} × 25  MT ×{(ASa1 × ASb2) － (ASa2 × ASb1)} MS: Amount (mg) of Nystatin RS taken MT: Amount (mg) of Amphotericin B taken ASa1: Absorbance at 282 nm of the standard solution (1) ASb1: Absorbance at 282 nm of the standard solution (2) ASa2: Absorbance at 304 nm of the standard solution (1) ASb2: Absorbance at 304 nm of the standard solution (2) AT1: Absorbance at 282 nm of the sample solution AT2: Absorbance at 304 nm of the sample solution Loss on drying <2.41> Not more than 5.0z (0.1 g, in vacu-um, 609C, 3 hours). Assay Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Saccharomyces cerevisiae ATCC 9763 Culture medium—Use the medium 2) under (1) Agar media for seed and base layer. Preparation of cylinder-agar plate—Proceed as di- ‌466‌ rected in 1.5 Preparation of agar base layer plates under the Cylinder plate method, using Petri dish plates not dispensing the agar medium for base layer and dispensing 8.0 mL of the seeded agar medium. Standard solution—Use light-resistant vessels. Weigh accurately an amount of Amphotericin B RS equiva-lent to about 20 mg (potency), dissolve in dimethylsulfoxide to make exactly 20 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 24 hours. Take exactly a suitable amount of the standard stock solution before use, and add dimethylsulfoxide to make solutions so that each mL con-tains 200 mg (potency) and 50 mg (potency). Pipet 1 mL each of these solutions, add 0.2 mol/L phosphate buffer solution (pH 10.5) to make exactly 20 mL, and use these solutions as the high concentration standard solution and low concentra-tion standard solution, respectively. Sample solution—Use light-resistant vessels. Weigh accurately an amount of Amphotericin B equivalent to about 20 mg (potency), dissolve in dimethylsulfoxide to make exactly 20 mL, and use this solution as the sample stock so-lution. Take exactly a suitable amount of the sample stock solution, add dimethylsulfoxide to make solutions so that each mL contains 200 mg (potency) and 50 mg (potency)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Amphotericin A—Weigh accurately about 50 mg each of Amphotericin B and Amphotericin B RS, add ex-actly 10 mL each of dimethylsulfoxide to dissolve, and add methanol to make exactly 50 mL. Pipet 4 mL each of these solutions, add methanol to make exactly 50 mL, and use these solutions as the sample solution and standard solution (1), respectively. Separately, weigh accurately about 20 mg of Nystatin RS, add exactly 40 mL of dimethylsulfoxide to dissolve, then add methanol to make exactly 200 mL. Pipet 4 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution obtained in the same manner as the sample solution as the blank, and determine the absorbances at 282 nm and at 304 nm. Calcu-late the amount of amphotericin A by the following equa-tion: not more than 5z for Amphotericin B used for injec-tions, and not more than 15z for Amphotericin B not used for injections. Amount (z) of amphotericin A ＝  MS ×{(ASa1 × AT2) － (ASa2 × AT1)} × 25  MT ×{(ASa1 × ASb2) － (ASa2 × ASb1)} MS: Amount (mg) of Nystatin RS taken MT: Amount (mg) of Amphotericin B taken ASa1: Absorbance at 282 nm of the standard solution (1) ASb1: Absorbance at 282 nm of the standard solution (2) ASa2: Absorbance at 304 nm of the standard solution (1) ASb2: Absorbance at 304 nm of the standard solution (2) AT1: Absorbance at 282 nm of the sample solution AT2: Absorbance at 304 nm of the sample solution Loss on drying <2.41> Not more than 5.0z (0.1 g, in vacu-um, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Saccharomyces cerevisiae ATCC 9763 Culture medium—Use the medium 2) under (1) Agar media for seed and base layer. Preparation of cylinder-agar plate—Proceed as di- ‌466‌ rected in 1.5 Preparation of agar base layer plates under the Cylinder plate method, using Petri dish plates not dispensing the agar medium for base layer and dispensing 8.0 mL of the seeded agar medium. Standard solution—Use light-resistant vessels. Weigh accurately an amount of Amphotericin B RS equiva-lent to about 20 mg (potency), dissolve in dimethylsulfoxide to make exactly 20 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 24 hours. Take exactly a suitable amount of the standard stock solution before use, and add dimethylsulfoxide to make solutions so that each mL con-tains 200 mg (potency) and 50 mg (potency). Pipet 1 mL each of these solutions, add 0.2 mol/L phosphate buffer solution (pH 10.5) to make exactly 20 mL, and use these solutions as the high concentration standard solution and low concentra-tion standard solution, respectively. Sample solution—Use light-resistant vessels. Weigh accurately an amount of Amphotericin B equivalent to about 20 mg (potency), dissolve in dimethylsulfoxide to make exactly 20 mL, and use this solution as the sample stock so-lution. Take exactly a suitable amount of the sample stock solution, add dimethylsulfoxide to make solutions so that each mL contains 200 mg (potency) and 50 mg (potency). Pipet 1 mL each of these solutions, add 0.2 mol/L phos-phate buffer solution (pH 10.5) to make exactly 20 mL, and use these solutions as the high concentration sample solution and low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

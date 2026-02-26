@@ -1,0 +1,85 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/excipient/lactose-hydrate",
+  "@type": "ChemicalDrugMonograph",
+
+  "prefLabel": {
+    "en": "Lactose Hydrate",
+    "ja": "乳糖水和物"
+  },
+
+  "altLabel": [
+    { "@value": "Milk Sugar", "@language": "en" },
+    { "@value": "α-Lactose Monohydrate", "@language": "en" }
+  ],
+
+  "monographId": "JP18-Ex001",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Lactose Hydrate is α-lactose monohydrate, obtained from the whey of milk. It contains not less than 98.0% of C12H22O11·H2O."
+  },
+
+  "molecularFormula": "C12H22O11·H2O",
+  "molecularWeight": 360.31,
+  "casNumber": "64044-51-5",
+
+  "systematicName": {
+    "en": "(2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-hydroxyoxane-4,5-diol hydrate"
+  },
+
+  "appearance": {
+    "en": "White crystals or crystalline powder, odorless, slightly sweet taste"
+  },
+
+  "solubility": {
+    "en": "Freely soluble in water, practically insoluble in ethanol (95)"
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution (1 in 10) shows dextrorotation."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Clarity and Color of Solution"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Dissolve 1.0 g in 10 mL of water: the solution is clear and colorless."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "assayTarget": {
+        "en": "Lactose (C12H22O11·H2O)"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 98.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageConditions": {
+    "en": "Store at room temperature, protect from moisture"
+  }
+}

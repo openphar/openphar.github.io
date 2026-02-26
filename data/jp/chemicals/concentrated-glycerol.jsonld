@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/concentrated-glycerol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Concentrated Glycerol",
+    "ja": "濃グリセリン"
+  },
+  "monographId": "JP18-concentrated-glycerol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H8O3",
+  "molecularWeight": 92.09,
+  "appearance": {
+    "en": "Concentrated Glycerin is a clear, colorless and viscous liquid. It has a sweet taste. It is miscible with water and with ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Concentrated Glycerin as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Refractive index <2.45> n20: Not less than 1.470. Specific gravity <2.56> d 20: Not less than 1.258."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Color—Place 50 mL of Concentrated Glycerin in a Nessler tube, and observe downward: the solution has no more color than the following control solution. Control solution: Pipet 0.40 mL of Iron (III) Chloride CS into a Nessler tube, and add water to make 50 mL. Acidity or alkalinity—To 2 mL of Concentrated Glycerin add 8 mL of water and mix: the solution is neutral. Chloride <1.03>—Take 10.0 g of Concentrated Glyce- rin, and perform the test. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.001z). Sulfate <1.14>—Take 10.0 g of Concentrated Glyce- rin, and perform the test. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.002z). Ammonium—To 5 mL of Concentrated Glycerin add 5 mL of a solution of sodium hydroxide (1 in 10), and boil: the gas evolved does not change moistened red litmus paper to blue. Heavy metals <1.07>—Proceed with 5.0 g of Concen- trated Glycerin according to Method 1, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 5 ppm). Calcium—To 5 mL of the solution obtained in (2) add 3 drops of ammonium oxalate TS: the solution remains unchanged. Arsenic <1.11>—Prepare the test solution with 1.0 g of Concentrated Glycerin according to Method 1, and per-form the test (not more than 2 ppm). Acrolein, glucose, or other reducing substances—To 1.0 g of Concentrated Glycerin add 1 mL of ammonia TS, mix, and warm in a water bath at 609C for 5 minutes: no yel-low color is produced. Take the solution out of the water bath, add 3 drops of silver nitrate TS immediately, and allow to stand in a dark place for 5 minutes: the color of the solu-tion does not change, and no turbidity is produced. Fatty acids and esters—Mix 50 g of Concentrated Glycerin with 50 mL of freshly boiled and cooled water, add 10 mL of 0.1 mol/L sodium hydroxide VS, accurately meas-ured, boil the mixture for 15 minutes, cool, and titrate <2.50> the excess sodium hydroxide with 0.1 mol/L hydrochloric acid VS: not more than 3.0 mL of 0.1 mol/L sodium hy-droxide VS is consumed (indicator: 3 drops of phenolphthal-ein TS). Perform a blank determination in the same manner. Ethylene glycol, diethylene glycol and related sub-stances—Weigh accurately about 5 g of Concentrated Glyce-rin, mix with methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g each of ethylene glycol and diethylene glycol, mix with methanol to make exactly 100 mL. Pipet 5 mL of this solution and transfer into a 100-mL volumetric flask. Separately, weigh 5.0 g of glycerin for gas chromatography, mix with a suitable amount of methanol and put in the volu-metric flask, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 1 mL each of the sample solution and standard solu-tion as directed under Gas Chromatography <2.02> accord-ing to the following conditions, and determine the peak areas, AT1 and AS1, of ethylene glycol and, AT2 and AS2, of diethylene glycol by the automatic integration method. The amounts of ethylene glycol and diethylene glycol, calculated by the following equations, are not more than 0.1z, respec-tively. The amount of the peak other than glycerin, ethylene glycol and diethylene glycol obtained from the sample solu-tion, calculated by the area percentage method, is not more than 0.1z, and the total amount of the peaks other than glycerin is not more than 1.0z. ‌1082 Amount (z) of ethylene glycol ＝ MS1/MT × AT1/AS1 × 5 Amount (z) of diethylene glycol ＝ MS2/MT × AT2/AS2 × 5 ‌MS1: Amount (g) of ethylene glycol taken MS2: Amount (g) of diethylene glycol taken MT: Amount (g) of Concentrated Glycerin taken Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused-silica column 0.32 mm in inside diame-ter and 30 m in length, coated the inner surface with 14z cyanopropylphenyl-86z dimethyl silicone polymer for gas chromatography 1 mm in thickness. Column temperature: Inject at a constant temperature of about 1009C, raise the temperature at the rate of 7.59C per minute to 2209C, and maintain at a constant temperature of about 2209C. Injection port temperature: A constant temperature of about 2209C. Detector temperature: A constant temperature of about 2509C. Carrier gas: Helium. Flow rate: about 38 cm per second. Split ratio: 1:20. Time span of measurement: About 3 times as long as the retention time of glycerin, beginning after the solvent peak. System suitability— System performance: Mix 50 mg each of ethylene glycol, diethylene glycol and glycerin for gas chromatography with 100 mL of methanol. When the procedure is run with 1 mL of this solution under the above operating conditions, ethyl-ene glycol, diethylene glycol and glycerin are eluted in this order, and the resolution between the peaks of ethylene glycol and diethylene glycol is not less than 40, and between the peaks of diethylene glycol and glycerin is not less than 10. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviations of the peak area of ethylene glycol and diethylene glycol are not more than 10z, respectively. Readily carbonizable substances—To 5 mL of Con-centrated Glycerin add carefully 5 mL of sulfuric acid for readily carbonizable substances, mix gently at a temperature between 189C and 209C, and allow to stand for 1 hour be-tween 159C and 259C: the solution has no more color than Matching Fluid H. Water <2.48> Not more than 2.0z (6 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Weigh accurately about 10 g of Concentrated Glycerin in a tared crucible, heat to boiling, and fire to burn immediately. Cool, moisten the residue with 1 to 2 drops of sulfuric acid, and ignite cautiously to con-stant mass: the mass of the residue is not more than 0.01z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Concentrated Glycerin, transfer into a glass-stoppered flask, add 50 mL of water, mix, add exactly 50 mL of sodium periodate TS, shake, and allow to stand in a dark place at a room tempera-ture for about 30 minutes. Add 10 mL of a mixture of water and ethylene glycol (1:1), allow to stand for about 20 minutes, add 100 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 2 drops of phenol-phthalein TS). Perform a blank determination in the same manner, and make the necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 9.209 mg of C3H8O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nicotinamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nicotinamide",
+    "ja": "ニコチン酸アミド"
+  },
+  "monographId": "JP18-nicotinamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H6N2O",
+  "molecularWeight": 122.12,
+  "definition": {
+    "en": "Nicotinamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nicotinamide occurs as white, crystals or crys-talline powder. It is odorless, and has a bitter taste. It is freely soluble in water and in ethanol (95), and slightly soluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 5 mg of Nicotinamide with 0.01 g of 1-chloro-2,4-dinitrobenzene, heat gently for 5 to 6 seconds, and fuse the mixture. Cool, and add 4 mL of potas-sium hydroxide-ethanol TS: a red color is produced. ‌To 0.02 g of Nicotinamide add 5 mL of sodium hydroxide TS, and boil carefully: the gas evolved turns moistened red litmus paper blue. Dissolve 0.02 g of Nicotinamide in water to make 1000 mL. Determine the absorption spectrum of the solul-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum or the spectrum of a solution of Nicotinamide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. pH <2.54> Dissolve 1.0 g of Nicotinamide in 20 mL of water: the pH of this solution is between 6.0 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Nicotinamide in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—Take 0.5 g of Nicotinamide, and perform the test. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Take 1.0 g of Nicotinamide, and per- form the test. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.019z). Heavy metals <1.07>—Proceed with 1.0 g of Nicotin-amide according to Method 1, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Readily carbonizable substances <1.15>—Take 0.20 g of Nicotinamide, and perform the test. The solution has no more color than Matching Fluid A. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Nicotinamide and Nicotinamide RS, both previously dried, dissolve sepa-rately in 3 mL of water, and add the mobile phase to make exactly 100 mL. Pipet 8 mL each of these solutions, and add the mobile phase to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of the internal standard so-lution, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of nicotinamide to that of the internal stand-ard. Amount (g) of nicotinamide (C6H6N2O) ＝ MS × QT/QS MS: Amount (mg) of dried Nicotinamide RS taken Internal standard solution—A solution of nicotinic acid (1 in 25,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1 g of sodium 1-heptane sulfonate in water to make 1000 mL. To 700 mL of this solution add 300 mL of methanol. Flow rate: Adjust so that the retention time of nicotinamide is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard and nicotinamide are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of nicotinamide to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

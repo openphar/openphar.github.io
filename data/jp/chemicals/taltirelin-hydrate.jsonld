@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/taltirelin-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Taltirelin Hydrate",
+    "ja": "タルチレリン水和物"
+  },
+  "monographId": "JP18-taltirelin-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H23N7O5.4H2O",
+  "molecularWeight": 477.47,
+  "definition": {
+    "en": "Taltirelin Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Taltirelin Hydrate occurs as white, crystals or crystalline powder. It is freely soluble in water, in ethanol (99.5) and in acetic acid (100), and soluble in methanol. It dissolves in 1 mol/L hydrochloric acid TS. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 30 mg of Taltirelin Hydrate in 10 mL of water. To 0.5 mL of this solution add 2 mL of a solution of 4-nitrobenzenediazonium fluoroborate (1 in 2000) and 3 mL of boric acid-potassium chloride-sodium hy-droxide buffer solution (pH 9.0): a red color is produced. (2) Determine the infrared absorption spectrum of Tal-tirelin Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －22.5 – －24.59(1 g calcu-lated on the anhydrous basis, 1 mol/L hydrochloric acid TS, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Taltirelin Hydrate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 10 mg of Taltirelin Hy-drate in 20 mL of the mobile phase, and use this solution as the sample solution. Perform the test with 20 mL of the sam-ple solution as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak area by the automatic integration method, and calcu-late their amounts by the area percentage method: the amount of the peak other than taltirelin is not more than 0.1 z, and the total amount of the peaks other than taltirelin is not more than 0.5z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.4 g of potassium dihydrogen phosphate in 1000 mL of water, adjust to pH 2.5 with phos- ‌phoric acid, and add 1.7 g of sodium 1-octanesulfonate. To 900 mL of this solution add 100 mL of acetonitrile. Flow rate: Adjust so that the retention time of taltirelin is about 15 minutes. Time span of measurement: About 1.5 times as long as the retention time of taltirelin, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of taltirelin obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of taltirelin are not less than 7000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of taltirelin is not more than 2.0z. Water <2.48> 14.0 – 15.5z (0.2 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Taltirelin Hydrate, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of solution changes from violet through blue to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 40.54 mg of C17H23N7O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

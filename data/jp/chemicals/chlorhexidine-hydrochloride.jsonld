@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorhexidine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorhexidine Hydrochloride",
+    "ja": "クロルヘキシジン塩酸塩"
+  },
+  "monographId": "JP18-chlorhexidine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H30Cl2N10.2HCl",
+  "molecularWeight": 578.37,
+  "casNumber": "3697-42-5",
+  "definition": {
+    "en": "Chlorhexidine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chlorhexidine Hydrochloride occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is soluble in formic acid, slightly soluble in methanol and in warm methanol, and practically insoluble in water, in ethanol (95) and in diethyl ether. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Chlorhexidine Hy-drochloride in 5 mL of methanol by warming, and add 1 mL of bromine TS and 1 mL of 8 mol/L sodium hydroxide TS: a deep red color is produced. Dissolve 0.3 g of Chlorhexidine Hydrochloride in 10 ‌736‌ mL of 6 mol/L hydrochloric acid TS, cool in ice, and add 10 mL of 8 mol/L sodium hydroxide TS dropwise with stirring: a white precipitate is produced. Collect the precipitate, wash with water, recrystallize from diluted ethanol (95) (7 in 10), and dry at 1059C for 30 minutes: the crystals so obtained melt <2.60> between 1309C and 1349C. Dissolve 0.1 g of Chlorhexidine Hydrochloride in 50 mL of dilute nitric acid: the solution responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Chlorhexidine Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—To 1.0 g of Chlorhexidine Hydro- chloride in a crucible add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), fire the ethanol (95) to burn, and heat gradually to incinerate. If a car-bonized substance remains, moisten with a small amount of nitric acid, and ignite to incinerate. Cool, add 10 mL of dilute hydrochloric acid to the residue, dissolve by warming on a water bath, use this solution as the test solution, and perform the test (not more than 2 ppm). p-Chloroaniline—Dissolve 0.10 g of Chlorhexidine Hydrochloride in 2 mL of formic acid, and add 15 mL of 1 mol/L hydrochloric acid TS and 20 mL of water immedi-ately. Add 0.3 mL of sodium nitrite TS, shake, and allow to stand for 2 minutes. Add 4 mL of ammonium amidosulfate TS, and then allow to stand for 1 minute. Add 5 mL of N-(1-naphthyl)-N?-diethylethylenediamine oxalate-acetone TS, allow to stand for 10 minutes, and add 1 mL of ethanol (95) and water to make 50 mL: the solution has no more color than the following control solution. Control solution: Dissolve 20 mg of 4-chloroaniline in 10 mL of 1 mol/L hydrochloric acid TS, and add water to make exactly 100 mL. Pipet 5 mL of the solution, and add water to make exactly 100 mL. To 2.0 mL of the solution add 2 mL of formic acid, 15 mL of 1 mol/L hydrochloric acid TS and 20 mL of water, and proceed in the same manner. Loss on drying <2.41> Not more than 2.0z (1 g, 1309C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Chlorhexidine Hy-drochloride, previously dried, dissolve in 2.0 mL of formic acid, add 60 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 14.46 mg of C22H30Cl2N10.2HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

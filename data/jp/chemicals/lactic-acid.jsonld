@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lactic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lactic Acid",
+    "ja": "乳酸"
+  },
+  "monographId": "JP18-lactic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H6O3",
+  "molecularWeight": 90.08,
+  "definition": {
+    "en": "Lactic Acid is a mixture of lactic acid and lactic an-hydride. It contains not less than 85."
+  },
+  "appearance": {
+    "en": "Lactic Acid occurs as a clear, colorless or light yellow, viscous liquid. It is odorless or has a faint, unpleas-ant odor. It is miscible with water, with ethanol (95) and with diethyl ether. It is hygroscopic. Specific gravity d 20: about 1.20"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Lactic Acid (1 in 50) changes blue litmus paper to red and responds to Qualitative Tests <1.09> for lactate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Perform the test with 1.0 g of Lactic Acid. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.036z). Sulfate <1.14>—Perform the test with 2.0 g of Lactic Acid. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.010z). Heavy metals <1.07>—To 2.0 g of Lactic Acid add 10 mL of water and 1 drop of phenolphthalein TS, and add am-monia TS dropwise until a pale red color appears. Add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution from 2.0 mL of Standard Lead Solution and 2 mL of dilute acetic acid, and dilute with water to 50 mL (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 4.0 g of Lactic Acid according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 5 ppm). Sugars—To 1.0 g of Lactic Acid add 10 mL of water, and neutralize with sodium hydroxide TS. Boil the mixture with 10 mL of Fehling's TS for 5 minutes: no red precipitate is produced. Citric, oxalic, phosphoric and L-tartaric acid—To 1.0 g of Lactic Acid add 1.0 mL of water, followed by 40 mL of calcium hydroxide TS. Boil the mixture for 2 minutes: no change occurs. Glycerin or mannitol—Shake 10 mL of Lactic Acid with 12 mL of diethyl ether: no turbidity is produced. Volatile fatty acids—Warm Lactic Acid: it does not produce any acetic acid-like or butyric acid-like odor. Cyanide—Transfer 1.0 g of Lactic Acid to a Nessler tube, add 10 mL of water and 1 drop of phenolphthalein TS, add dropwise a solution of sodium hydroxide (1 in 10) by shaking until a pale red color develops, add 1.5 mL of a solution of sodium hydroxide (1 in 10) and water to make 20 mL, and heat in a water bath for 10 minutes. Cool, add dropwise dilute acetic acid until a red color of the solution disappears, add 1 drop of dilute acetic acid, add 10 mL of phosphate buffer solution (pH 6.8), and 0.25 mL of sodium toluensulfonchloramide TS, stopper immediately, mix gently, and allow to stand for 5 minutes. To the solution add 15 mL of pyridine-pyrazolone TS and water to make 50 mL, and allow to stand at 259C for 30 minutes: the solution has no more color than the following control solution. Control solution: Pipet 1.0 mL of Standard Cyanide Solu-tion, and add water to make exactly 20 mL. Transfer 1.0 mL of this solution to a Nessler tube, add 10 mL of water and 1 drop of phenolphthalein TS, and then proceed as described above. Readily carbonizable substances—Superimpose slowly 5 mL of Lactic Acid, previously kept at 159C, upon 5 mL of sulfuric acid for readily carbonizable substances, pre-viously kept at 159C, and allow to stand at 159C for 15 minutes: no dark color develops at the zone of contact. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 3 g of Lactic Acid, transfer in a conical flask, add accurately measured 40 mL of 1 mol/L sodium hydroxide VS, invert a watch glass over the flask, and heat on a water bath for 10 minutes. Titrate <2.50> the excess sodium hydroxide with 0.5 mol/L sulfuric acid VS immediately (indicator: 2 drops of phenolphthalein TS). Per-form a blank determination in the same manner. Each mL of 1 mol/L sodium hydroxide VS ＝ 90.08 mg of C3H6O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

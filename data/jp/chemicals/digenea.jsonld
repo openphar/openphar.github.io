@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/digenea",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Digenea",
+    "ja": "マクリ"
+  },
+  "monographId": "JP18-digenea",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Rounded, string-like algae, 2 – 3 mm in diame-ter; externally, dark red-purple to dark grayish red or grayish brown; a few branched rods irregularly forked, covered with short hairy twigs; calcified weeds and other small algae often attached. Odor, seaweed-like; taste, disagreeable and slightly salty."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Digenea add 10 mL of dilute ethanol, shake for 15 minutes, filter, and use the fil-trate as the sample solution. Separately, dissolve 5 mg of kainic acid in 10 mL of dilute ethanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethyl formate, water and formic acid (5:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly ninhydrin-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the stand-ard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of other algae in Digenea does not exceed 20.0z. Loss on drying <5.01> Not more than 22.0z. Amount (mg) of paeoniflorin (C23H28O11) ＝ MS × AT/AS × 5/8 MS: Amount (mg) of Paeoniflorin RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of water, acetonitrile and phos- Acid-insoluble ash <5.01> Not more than 8.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

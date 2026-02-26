@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/guaifenesin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Guaifenesin",
+    "ja": "グアイフェネシン"
+  },
+  "monographId": "JP18-guaifenesin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H14O4",
+  "molecularWeight": 198.22,
+  "definition": {
+    "en": "Guaifenesin, when dried, contains not less then 98."
+  },
+  "appearance": {
+    "en": "Guaifenesin occurs as white, crystals or crys-talline powder. It is freely soluble in ethanol (95), and sparingly soluble in water. A solution of ethanol (95) (1 in 20) shows no optical rota-tion."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Guaifenesin (1 in 50,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Guaifenesin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Guaifenesin, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Guaifenesin RS: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 1.0 g of Guaifenesin in 100 mL of water: the pH of the solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Guaifenesin in 10 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.7 g of Guaifenesin in 25 mL of water by warming. Cool, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using ‌JP XVIII Official Monographs / Guanabenz Acetate 1089 this solution as the test solution. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.020z). Heavy metals <1.07>—Dissolve 2.0 g of Guaifenesin in 25 mL of water by warming. Cool, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Guaifenesin according to Method 3, and perform the test (not more than 2 ppm). Free guaiacol—To 1.0 g of Guaifenesin add exactly 25 mL of water, dissolve by warming, cool, and use this so-lution as the sample solution. Separately, dissolve 0.100 g of guaiacol in water to make exactly 1000 mL. Pipet 3 mL of this solution, add exactly 22 mL of water, and use this solu-tion as the standard solution. To each of the sample solution and standard solution add 1.0 mL of potassium hexacyano-ferrate (III) TS and 5.0 mL of a solution of 4-aminoantipy-rine (1 in 200), and immediately after shaking for exactly 5 seconds add a solution of sodium hydrogen carbonate (1 in 1200) to make exactly 100 mL. Determine the absorbances of these solutions at 500 nm exactly 15 minutes after the addi-tion of the 4-aminoantipyrine solution as directed under Ul-traviolet-visible Spectrophotometry <2.24>, using a solution, prepared in the same manner with 25 mL of water, as the blank: the absorbance of the solution obtained from the sample solution is not more than that from the standard so-lution. Related substances—Dissolve 1.0 g of Guaifenesin in 100 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether, ethanol (95), and ammonia solution (28) (40:10:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, and heat the plate at 1109C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 60 mg of Guaifenesin and Guaifenesin RS, previously dried, and dissolve each then in water to make exactly 100 mL. Pipet 5 mL of these solu-tions, and add water to make exactly 100 mL, and use these solutions as the sample solution and standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 273 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Guanabenz Acetate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/metoprolol-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Metoprolol Tartrate",
+    "ja": "メトプロロール酒石酸塩"
+  },
+  "monographId": "JP18-metoprolol-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Metoprolol Tartrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Metoprolol Tartrate occurs as a white crystal-line powder. It is very soluble in water, and freely soluble in methanol, in ethanol (95) and in acetic acid (100). D Optical rotation [a]20: ＋7.0 – ＋10.09(after drying, 1 g, water, 50 mL, 100 mm). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Metoprolol Tartrate in ethanol (95) (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Metoprolol Tartrate, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spec-tra, recrystallize Metoprolol Tartrate from a solution in ace-tone (23 in 1000), filter and dry the crystals, and perform the test with the crystals. A solution of Metoprolol Tartrate (1 in 5) responds to Qualitative Tests <1.09> (1) for tartrate. pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Metoprolol Tartrate in 10 mL of water is between 6.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Metoprolol Tartrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.10 g of Metoprolol Tartrate in 5 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 2 mL of this solu-tion, add methanol to make exactly 10 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. After saturating the plate with the atmosphere by allowing to stand in a developing vessel, which contains the developing solvent and a glass vessel containing ammonia water (28), develop with the developing solvent, a mixture of ethyl ace-tate and methanol (4:1), to a distance of about 12 cm, and air-dry the plate. Allow to stand the plate in an iodine vapors until the spot with the standard solution appears obviously: ‌the spot other than the principal spot and other than the spot on the original point obtained from the sample solution is not more than three spots, and they are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Metoclopramide Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 75 mg of metoclopramide (C14H22ClN3O2), add 300 mL of 0.1 mol/L hydrochloric acid TS, shake for 1 hour, and add 0.1 mol/L hydrochloric acid TS to make exactly 500 mL. Centrifuge for 10 minutes, pipet 4 mL of the supernatant liquid, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 80 mg of metoclopramide for assay, previously dried at 1059C for 3 hours, and dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 500 mL. Pipet 4 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, of the sample solution and standard so-lution at 308 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Amount (mg) of metoclopramide (C14H22ClN3O2) ＝ MS × AT/AS MS: Amount (mg) of metoclopramide for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ubenimex",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ubenimex",
+    "ja": "ウベニメクス"
+  },
+  "monographId": "JP18-ubenimex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H24N2O4",
+  "molecularWeight": 308.37,
+  "definition": {
+    "en": "Ubenimex, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ubenimex occurs as a white crystalline pow-der. It is freely soluble in acetic acid (100), slightly soluble in water, and very slightly soluble in ethanol (99.5). It dissolves in 1 mol/L hydrochloric acid TS. Melting point: about 2309C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ubenimex (1 in 2000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum as di-rected in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －15.5 – －17.59(after dry-ing, 0.5 g, 1 mol/L hydrochloric acid TS, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Ubenimex according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Dissolve 30 mg of Ubenimex in 10 mL of the mobile phase A, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add the mobile phase A to make exactly 200 mL, and use this solu-tion as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than ubenimex obtained from the sample solution is not larger than 1/2 times the peak area of ubenimex from the standard solution. Furthermore, the total area of the peaks other than ubenimex from the sample solution is not larger than the peak area of ubenimex from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave- ‌length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of diluted 0.1 mol/L potas-sium dihydrogen phosphate TS (13 in 20) and acetonitrile for liquid chromatography (17:3). Mobile phase B: A mixture of acetonitrile for liquid chro-matography and diluted 0.1 mol/L potassium dihydrogen phosphate TS (13 in 20) (2:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Ubenimex Capsules"
+      }
+    }
+  ]
+}

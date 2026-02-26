@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/moutan-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Moutan Cortex",
+    "ja": "ボタンピ"
+  },
+  "monographId": "JP18-moutan-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Tubular to semi-tubular bark, about 0.5 cm in thickness, 5 – 8 cm in length, 0.8 – 1.5 cm in diameter; exter-nally dark brown to purple-brown, with small and transver-sely elongated ellipsoidal scars of lateral roots, and with lon-gitudinal wrinkles; internally, light grayish brown to pur-plish brown and smooth; fractured surface coarse; white crystals often attached on the internal and fractured sur-faces. Odor, characteristic; taste, slightly pungent and bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Moutan Bark add 10 mL of hexane, shake for 3 minutes, filter, and use the fil-trate as the sample solution. Separately, dissolve 1 mg of paeonol for thin-layer chromatography in 1 mL of hexane, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and hexane (1:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultravi-olet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Moutan Bark according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Moutan Bark according to Method 4, and perform the test (not more than 5 ppm). Xylem—When perform the test of foreign matter <5.01>, the amount of the xylem contained in Moutan Bark is not more than 5.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than xylem contained in Moutan Bark is not exceed 1.0z. Powdered Moutan Bark / Crude Drugs and Related Drugs Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 6.0z. ‌Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of pulverized Moutan Bark, add 40 mL of methanol, heat under a reflux condenser for 30 minutes, cool, and filter. Repeat the above procedure with the residue, using 40 mL of methanol. Combine all the filtrates, add methanol to make exactly 100 mL, then pipet 10 mL of this solution, add methanol to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of paeonol for assay, dissolve in methanol to make exactly 100 mL, then pipet 10 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of paeonol in each solution. Under a microscope <5.01>, Powdered Moutan Bark re-veals starch grains and fragments of parenchyma containing them; fragments of cork tissue containing tannin; fragments of somewhat thick-walled collenchyma, medullary rays, and phloem parenchyma; rosette aggregates of calcium oxalate and also fragments of parenchyma cells containing them. Starch grains are simple or 2- to 10-compound grains, 10 – 25 mm in diameter; rosette aggregates are 20 – 30 mm in di-ameter. Identification (1) To 2.0 g of Powdered Moutan Bark add 10 mL of hexane, shake for 3 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of paeonol for thin-layer chromatography in 1 mL of hexane, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and hexane (1:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultravi- Amount (mg) of paeonol ＝ MS × AT/AS × 1/2 olet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution has the same color MS: Amount (mg) of paeonol for assay taken, calculated on the basis of the content obtained by qNMR Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 274 nm). Column: A stainless steel column 4 to 6 mm in inside diameter and 15 to 25 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of water, acetonitrile, and acetic acid (100) (65:35:2). Flow rate: Adjust so that the retention time of paeonol is about 14 minutes. System suitability— System performance: Dissolve 1 mg of paeonol for assay and 5 mg of butyl parahydroxybenzoate for resolution check in methanol to make 25 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, paeonol and butyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with the standard solution under the above operating condi-tions, the relative standard deviation of the peak area of paeonol is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

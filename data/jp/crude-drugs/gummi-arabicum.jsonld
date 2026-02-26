@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/gummi-arabicum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Gummi Arabicum",
+    "ja": "アラビアゴム"
+  },
+  "monographId": "JP18-gummi-arabicum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Colorless or light yellow-brown, translucent or somewhat opaque spheroidal tears, or angular fragments with numerous fissures on the surface; very brittle; the frac-tured surface glassy and occasionally iridescent. Odorless; tasteless, but produces a mucilaginous sensation on the tongue. Pulverized Acacia (1.0 g) dissolves almost completely in 2.0 mL of water, and the solution is acid. It is practically insoluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Acacia add 25 mL of water and 1 mL of sulfuric acid, and heat under a reflux con-denser for 60 minutes. After cooling, add gently 2.0 g of an-hydrous sodium carbonate. To 1 mL of this solution add 9 mL of methanol, mix well, centrifuge, and use the superna-tant liquid as the sample solution. Separately, dissolve 10 mg each of D-galactose, L-arabinose and L-rhamnose monohy-drate in 1 mL water separately, add methanol to make 10 mL, and use these solutions as the standard solutions (1), (2) and (3), respectively. Perform the test with these solutions as directed under Thin-layer chromatography <2.03>. Spot 2 mL each of the sample solution and standard solutions (1), (2) and (3) on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl acetate, meth-anol, acetic acid (100) and water (12:3:3:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly 1-naphthol-sulfuric acid TS on the plate, and heat the plate at 1059C for 2 minutes: the three spots obtained from the sample solution are the same with each spot from the standard solutions (1), (2) and (3) in the color tone and the Rf value, respectively."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Insoluble residue—To 5.0 g of pulverized Aca-cia add 100 mL of water and 10 mL of dilute hydrochloric acid, and dissolve by gentle boiling for 15 minutes with swirling. Filter the warm mixture through a tared glass filter (G3), wash the residue thoroughly with hot water, and dry at 1059C for 5 hours: the mass of the residue does not exceed 10.0 mg. Tannin-bearing gums—To 10 mL of a solution of Acacia (1 in 50) add 3 drops of iron (III) chloride TS: no dark green color is produced. Glucose—Use the sample solution obtained in the Identification as the sample solution. Separately, dissolve 10 mg of glucose in 1 mL of water, add methanol to make 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of acetone and water (9:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 1-naphthol-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: no spot obtained from the sample solution is observed at the po-sition corresponding to the spot from the standard solution. Loss on drying <5.01> Not more than 17.0z (6 hours). Total ash <5.01> Not more than 4.0z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

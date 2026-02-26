@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/scopolia-extract",
+  "@type": "Extract",
+  "monographId": "JP18-scopolia-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Scopolia Extract",
+    "la": "Method of preparation Extract the coarse powder of",
+    "ja": "ロートエキス"
+  },
+  "definition": {
+    "en": "not less than 0.90z and"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 3"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 4"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefadroxil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefadroxil",
+    "ja": "セファドロキシル"
+  },
+  "monographId": "JP18-cefadroxil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H17N3O5S",
+  "molecularWeight": 363.39,
+  "casNumber": "50370-12-2",
+  "definition": {
+    "en": "Cefadroxil contains not less than 950 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefadroxil occurs as a white to light yellow-white powder. It is sparingly soluble in water, slightly soluble in metha-nol, and very slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefadroxil (1 in 50,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefadroxil RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cefadroxil as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Cefadroxil RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefadroxil in a mixture of heavy water for nuclear magnetic resonance spectroscopy and deuterated hydrochloric acid (3:1) (1 in 10), using sodium 3-(trimethylsilyl)propionate-d4 for nuclear magnetic resonance spectroscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits a singlet signal A at around d 2.1 ppm, a doublet signal B at around d 7.0 ppm, and a doublet signal C at around d 7.5 ppm. The ratio of integrated intensity of each signal, A:B:C, is about 3:2:2. D Optical rotation <2.49> [a]25: ＋164 – ＋1829(0.6 g calcu-lated on the anhydrous basis, water, 100 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cefadroxil in 200 mL of water: pH of the solution is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of ‌646 Cefadroxil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.1 g of Cefadroxil in 4 mL of a mixture of ethanol (99.5), water and diluted hydro-chloric acid (1 in 5) (75:22:3), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of ethanol (99.5), water and diluted hydrochloric acid (1 in 5) (75:22:3) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop with a mixture of ethyl acetate, water, ethanol (99.5) and formic acid (14:5:5:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly ninhydrin-citric acid-acetic acid TS on the plate, and heat the plate at 1009C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> Not less than 4.2z and not more than 6.0z (0.5 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefadroxil and Cefadroxil RS, equivalent to about 50 mg (potency), dissolve each in water to make exactly 500 mL, and use these solu-tions as the sample solution and the standard solution, re-spectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefadroxil in each solution. Amount [ mg (potency)] of cefadroxil (C16H17N3O5S) ＝ MS × AT/AS × 1000 MS: amount [mg (potency)] of Cefadroxil RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 262 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of a solution of potassium dihy-drogenphosphate (17 in 12,500) and methanol (17:3). Flow rate: Adjust so that the retention time of cefadroxil is about 5 minutes. System suitability— System performance: Dissolve about 5 mg (potency) of Cefadroxil and about 10 mg (potency) of propylene glycol cefatrizine in 50 mL of water. When the procedure is run with 10 mL of this solution under the above operating condi-tions, cefadroxil and cefatrizine are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of cefadroxil is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

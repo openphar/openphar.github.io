@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dried-aluminum-hydroxide-gel-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dried Aluminum Hydroxide Gel Fine Granules",
+    "ja": "乾燥水酸化アルミニウムゲル細粒"
+  },
+  "monographId": "JP18-dried-aluminum-hydroxide-gel-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.2 g of Dried Aluminum Hydroxide Gel Fine Granules add 20 mL of dilute hydrochloric acid, warm and centrifuge: the supernatant liquid responds to Qualita-tive Tests <1.09> for aluminum salt. Acid-consuming capacity Proceed as directed for Acid-consuming capacity under Dried Aluminum Hydroxide Gel: the volume of 0.1 mol/L hydrochloric acid VS consumed is not less than 235 mL per g of Dried Aluminum Hydroxide Gel Fine Granules."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in the Assay under Dried Alumi-num Hydroxide Gel. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.549 mg of Al O Perform the test with this solution as the test solution. 2 3 Prepare the control solution as follows: evaporate 10 mL of dilute hydrochloric acid to dryness, and add 2.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—To 0.8 g of Dried Aluminum Hy- droxide Gel add 10 mL of dilute sulfuric acid, heat gently to boil while shaking, cool, and filter. Take 5 mL of the fil-trate, use this solution as the test solution, and perform the"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

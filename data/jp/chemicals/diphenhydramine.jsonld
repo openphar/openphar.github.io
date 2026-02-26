@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/diphenhydramine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Diphenhydramine",
+    "ja": "ジフェンヒドラミン"
+  },
+  "monographId": "JP18-diphenhydramine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H21NO",
+  "molecularWeight": 255.35,
+  "definition": {
+    "en": "Diphenhydramine contains not less than 96."
+  },
+  "appearance": {
+    "en": "Diphenhydramine is a clear, light yellow to yellow liquid. It has a characteristic odor, and has a burning taste at first, followed by a slight sensation of numbness on the tongue. It is miscible with acetic anhydride, with acetic acid (100), with ethanol (95) and with diethyl ether. D It is very slightly soluble in water. It is gradually affected by light. Refractive index n20: about 1.55 Boiling point: about 1629C (in vacuum, 0.67 kPa)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 50 mg of Diphenhydramine add 2 mL of sulfuric acid: an orange-red precipitate is produced immediately, and its color changes to red-brown on stand-ing. Add carefully 2 mL of water to this solution: the inten-sity of the color changes, but the color tone does not change. (2) Dissolve 0.1 g of Diphenhydramine in 10 mL of dilute ethanol, add an excess of a saturated solution of 2,4,6-trinitrophenol in dilute ethanol with stirring, and cool in ice. Collect the produced crystals, recrystallize from dilute ethanol, and dry at 1059C for 30 minutes: the crystals melt <2.60> between 1289C and 1339C. Specific gravity <2.56> d 20: 1.013 – 1.020"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) b-Dimethylaminoethanol—Dissolve 1.0 g of Diphenhydramine in 20 mL of diethyl ether, and extract with two 10-mL portions of water with thorough shaking. Com-bine the water extracts, and add 2 drops of phenolphthalein TS and 1.0 mL of 0.05 mol/L sulfuric acid VS: no red color develops. Benzohydrol—Transfer 1.0 g of Diphenhydramine to a separator, dissolve in 20 mL of diethyl ether, and extract with two 25-mL portions of diluted hydrochloric acid (1 in 15) with thorough shaking. Separate the diethyl ether layer, evaporate slowly on a water bath, and dry in a desiccator (in vacuum, silica gel) for 2 hours: the mass of the residue is not more than 20 mg. ＝ 7.090 mg of C 20H 34O5 Heavy metals <1.07>—Proceed with 1.0 g of Diphen- hydramine according to Method 2, and perform the test."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Diphenhydramine, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. ‌JP XVIII Official Monographs / Diphenhydramine and Bromovalerylurea Powder 871‌ Each mL of 0.1 mol/L perchloric acid VS ＝ 25.54 mg of C17H21NO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a place not exceeding"
+  }
+}

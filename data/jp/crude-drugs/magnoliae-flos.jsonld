@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/magnoliae-flos",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Magnoliae Flos",
+    "ja": "シンイ"
+  },
+  "monographId": "JP18-magnoliae-flos",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Magnolia Flower is a fusiform flower bud, 15 – 45 mm in length, 6 – 20 mm in diameter at central part; often having ligneous peduncles on base; usually 3 bracts, externally with sparse hairs, brown to dark brown, or with dense hairs, grayish white to light yellow-brown, and the inner surface of 3 bracts smooth and dark brown in color; interior perianth of 9 pieces or 12 pieces, same size or outer three pieces are smaller; 50 – 100 stamens and numerous pistils. Brittle in texture. Odor, characteristic; taste, acrid and slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Magnolia Flower add 10 mL of methanol, shake for 15 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of ethyl acetate, acetone, water and formic acid (5:3:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: a yellow-red spot appears at an Rf value of about 0.3. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 5.5z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-extract: not less than 13.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Magnolia Flower: the volume of essential oil is not less than 0.5 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

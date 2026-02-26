@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/mori-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Mori Cortex",
+    "ja": "ソウハクヒ"
+  },
+  "monographId": "JP18-mori-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Tubular, semi-tubular or cord-like bark, 1 – 6 mm thick, often in fine lateral cuttings; externally, white to yellow-brown; in the case of the bark with periderm, its periderm is yellow-brown in color, easy to peel, with numerous longitudinal, fine wrinkles and numerous red-purple lenticels laterally elongated; inner surface, dark yel-low-brown in color and flat; cross section, white to light brown in color, and fibrous. Odor, slight; taste, slight. Under a microscope <5.01>, a transverse section of bark with periderm reveals 5 to 12 cellular layers of cork cells in the outer portion; phloem fibers or their bundles scattered in the cortex, arranged alternately and stepwise with phloem parenchyma; lactiferous tubes; solitary crystals of calcium oxalate; starch grains as spheroidal or ellipsoidal, simple or compound grains, simple grain 1 – 7 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Heat 1 g of pulverized Mulberry Bark with 20 mL of hexane under a reflux condenser for 15 minutes, and filter. Evaporate the solvent of the filtrate under low pressure (in vacuo), dissolve the residue in 10 mL of acetic anhydride, place 0.5 mL of the solution in a test tube, and add carefully 0.5 mL of sulfuric acid to make two layers: a red-brown color develops at the zone of contact."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Mulberry Bark according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g Amount (mg) of [6]-shogaol ＝ MS × AT/AS × 1/10 of pulverized Mulberry Bark according to Method 4, and perform the test (not more than 5 ppm). MS: Amount (mg) of [6]-shogaol for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: Dissolve 0.1 g of oxalic acid dihydrate in 600 mL of water, and add 400 mL of acetonitrile. Flow rate: 1.0 mL per minute (the retention time of [6]-shogaol is about 30 minutes). System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of [6]-shogaol are not less than 5000 and not more than 1.5, respectively. Foreign matter <5.01>—The amount of the root xylem and other foreign matter is not more than 1.0z. Total ash <5.01> Not more than 11.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

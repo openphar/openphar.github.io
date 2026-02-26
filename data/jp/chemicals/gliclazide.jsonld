@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gliclazide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gliclazide",
+    "ja": "グリクラジド"
+  },
+  "monographId": "JP18-gliclazide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H21N3O3S",
+  "molecularWeight": 323.41,
+  "casNumber": "21187-98-4",
+  "definition": {
+    "en": "Gliclazide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Gliclazide is a white crystalline powder. It is sparingly soluble in acetonitrile and in methanol, slightly soluble in ethanol (99.5) and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Gliclazide in methanol (1 in 62,500) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Gliclazide, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Gliclazide according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Conduct this procedure within 2 hours after preparation of the sample solution. Dissolve 50 mg of Gliclazide in 23 mL of acetonitrile, add water to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add a mixture of water and acetonitrile (11:9) to make exactly 100 mL. Pipet 10 mL of this solution, add a mixture of water and acetonitrile (11:9) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area of both solutions by the automatic integration method: the area of each peak other than gliclazide obtained from the sample solution is not larger than the peak area of gliclazide from the standard so-lution, and the total area of the peaks other than the peak of"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Gliclazide, previ-ously dried, dissolve in 30 mL of a mixture of acetic anhy-dride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.34 mg of C H N O S 15 21 3 3 Purity (1) Heavy metals <1.07>—Proceed with 2.0 g of Gliclazide according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Conduct this procedure within 2 hours after preparation of the sample solution. Dissolve 50 mg of Gliclazide in 23 mL of acetonitrile, add water to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add a mixture of water and acetonitrile (11:9) to make exactly 100 mL. Pipet 10 mL of this solution, add a mixture of water and acetonitrile (11:9) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area of both solutions by the automatic integration method: the area of each peak other than gliclazide obtained from the sample solution is not larger than the peak area of gliclazide from the standard so-lution, and the total area of the peaks other than the peak of"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bisoprolol-fumarate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bisoprolol Fumarate",
+    "ja": "ビソプロロールフマル酸塩"
+  },
+  "monographId": "JP18-bisoprolol-fumarate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Bisoprolol Fumarate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bisoprolol Fumarate occurs as white crystals or a white crystalline powder. It is very soluble in water and in methanol, and freely soluble in ethanol (99.5) and in acetic acid (100). A solution of Bisoprolol Fumarate (1 in 10) shows no opti-cal rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Bisoprolol Fumarate in methanol (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the ‌JP XVIII Official Monographs / Bisoprolol Fumarate Tablets 557 same wavelengths. Determine the infrared absorption spectrum of Bi-soprolol Fumarate as directed in the potassium bromide disc method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Bisoprolol Fumarate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Bisoprolol Fumarate in 100 mL of a mixture of water and acetonitrile (4:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mixture of water and acetonitrile (4:1) to make exactly 100 mL, and use this solu-tion as the standard solution. Perform the test with exactly Fumarate, previously dried, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). The endpoint of titration is when the purple color of the solution turns blue and then blue-green. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 38.35 mg of (C18H31NO4)2.C4H4O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

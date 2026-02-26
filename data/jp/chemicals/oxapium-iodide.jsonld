@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxapium-iodide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxapium Iodide",
+    "ja": "オキサピウムヨウ化物"
+  },
+  "monographId": "JP18-oxapium-iodide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H34INO2",
+  "molecularWeight": 471.42,
+  "casNumber": "6577-41-9",
+  "definition": {
+    "en": "Oxapium Iodide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Oxapium Iodide occurs as a white crystalline powder. It is soluble in acetonitrile, in methanol and in ethanol (95), slightly soluble in water, in acetic anhydride and in ace-tic acid (100), and practically insoluble in diethyl ether. A solution of Oxapium Iodide in methanol (1 in 100) does not show optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Oxapium Iodide, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) Dissolve 0.1 g of Oxapium Iodide in 10 mL of metha-nol, and add 2 mL of dilute nitric acid and 2 mL of silver nitrate TS: a greenish yellow precipitate is formed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Oxapium Iodide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.05 g of Oxapium Iodide in 100 mL of a mixture of water and acetonitrile (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of water and acetonitrile (1:1) to make exactly 50 mL, and use this solu-tion as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of each solution by the automatic integration method: the total area of the peaks other than oxapium obtained from the sample solution is not larger than the area of the peak of oxapium from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column about 4 mm in inside di- ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of 209C to 309C. Mobile phase: To 57 mL of acetic acid (100) and 139 mL of triethylamine add water to make 1000 mL. To 50 mL of this solution add 500 mL of acetonitril, 10 mL of dilute ace-tic acid and 440 mL of water. Flow rate: Adjust so that the retention time of oxapium is about 4 minutes. ‌Selection of column: Dissolve 0.05 g of Oxapium Iodide and 3 mg of benzophenone in 100 mL of the mobile phase. Proceed with 20 mL of this solution under the above operat-ing conditions, and calculate the resolution. Use a column giving elution of oxapium and benzophenone in this order with the resolution between these peaks being not less than 5. Detection sensitivity: Adjust the detection sensitivity so that the peak height of oxapium obtained from 50 mL of the standard solution composes 5 to 15z of the full scale. Time span of measurement: About 6 times as long as the retention time of oxapium, beginning after the peak of iodide ion. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Oxapium Iodide, previously dried, dissolve in 50 mL of a mixture of acetic an-hydride and acetic acid (100) (9:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration, platinum electrode). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 47.14 mg of C22H34INO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

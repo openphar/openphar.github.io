@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benzoic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benzoic Acid",
+    "ja": "安息香酸"
+  },
+  "monographId": "JP18-benzoic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H6O2",
+  "molecularWeight": 122.12,
+  "definition": {
+    "en": "Benzoic acid [65-85-0] Benzoic Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Benzoic Acid occurs as white, crystals or crys-talline powder. It is odorless, or has a faint, benzaldehyde-like odor. It is freely soluble in ethanol (95), in acetone and in diethyl ether, soluble in hot water, and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 1 g of Benzoic Acid in 8 mL of so-dium hydroxide TS, and add water to make 100 mL. This solution responds to Qualitative Tests <1.09> (2) for benzo-ate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Dissolve 1.0 g of Ben-zoic Acid in 25 mL of acetone, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid, 25 mL of acetone and water to make 50 mL (not more than 20 ppm). Chlorinated compounds—Take 0.5 g of Benzoic Acid and 0.7 g of calcium carbonate in a crucible, mix with a small amount of water, and dry. Ignite it at about 6009C, dissolve in 20 mL of dilute nitric acid, and filter. Wash the residue with 15 mL of water, combine the filtrate and the washing, add water to make 50 mL, and add 0.5 mL of silver nitrate TS: this solution has not more turbid than the follow-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Benzoic Acid, pre-viously dried, dissolve in 25 mL of neutralized ethanol and 25 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 3 drops of phenolphthalein TS). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 12.21 mg of C H O 7 6 2 Description Benzoic Acid occurs as white, crystals or crys-talline powder. It is odorless, or has a faint, benzaldehyde-like odor. It is freely soluble in ethanol (95), in acetone and in diethyl ether, soluble in hot water, and slightly soluble in water. Identification Dissolve 1 g of Benzoic Acid in 8 mL of so-dium hydroxide TS, and add water to make 100 mL. This solution responds to Qualitative Tests <1.09> (2) for benzo-ate. Melting point <2.60> 121 – 1249C Purity (1) Heavy metals <1.07>—Dissolve 1.0 g of Ben-zoic Acid in 25 mL of acetone, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid, 25 mL of acetone and water to make 50 mL (not more than 20 ppm). Chlorinated compounds—Take 0.5 g of Benzoic Acid and 0.7 g of calcium carbonate in a crucible, mix with a small amount of water, and dry. Ignite it at about 6009C, dissolve in 20 mL of dilute nitric acid, and filter. Wash the residue with 15 mL of water, combine the filtrate and the washing, add water to make 50 mL, and add 0.5 mL of silver nitrate TS: this solution has not more turbid than the follow-"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

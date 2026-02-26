@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/minocycline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Minocycline Hydrochloride",
+    "ja": "ミノサイクリン塩酸塩"
+  },
+  "monographId": "JP18-minocycline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H27N3O7.HCl",
+  "molecularWeight": 493.94,
+  "casNumber": "13614-98-7",
+  "definition": {
+    "en": "Minocycline Hydrochloride is the hydrochloride of a derivative of tetracycline. It contains not less than 890 mg (potency) and not more than 950 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Minocycline Hydrochloride occurs as a yellow crystalline powder. It is freely soluble in N,N-dimethylformamide, soluble in methanol, sparingly soluble in water, and slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Minocycline Hydrochloride in a solution of hy-drochloric acid in methanol (19 in 20,000) (1 in 62,500) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Minocycline Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Minocycline Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Minocycline Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Minocycline Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> Dissolve 1.0 g of Minocycline Hydrochloride in 100 mL of water: the pH of the solution is between 3.5 and 4.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Minocycline Hydrochloride in 100 mL of water: the solu-tion is clear, and when the test is performed within 1 hour after preparation of this solution, the absorbance of the so-lution at 560 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.06. Heavy metals <1.07>—Proceed with 0.5 g of Mino- cycline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.5 mL of Stand-ard Lead Solution (not more than 50 ppm). Related substances—Dissolve 50 mg of Minocycline Hydrochloride in 100 mL of the mobile phase, and use this solution as the sample solution. Perform the test, immedi-ately after the preparation of the sample solution, with 20 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine each peak area by the automatic integration method. Calculate the amount of each peak area by the area percen-tage method: the amount of epiminocycline is not more than 1.2z, the amount of each peak other than minocycline and epiminocycline is not more than 1.0z, and the total area of the peaks other than minocycline and epiminocycline is not more than 2.0z. Operating conditions— Detector, column, column temperature, and mobile phase: Proceed as directed in the operating conditions in the Assay. Flow rate: Adjust so that the retention time of minocy-cline is about 12 minutes. The retention time of epiminocy- cline is about 10 minutes under this condition. Time span of measurement: About 2.5 times as long as the retention time of minocycline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the sample solution add the mobile phase to make exactly 100 mL, and use this solution as the solution for system suita-bility test. Pipet 5 mL of the solution for system suitability test, and add the mobile phase to make exactly 100 mL. Confirm that the peak area of minocycline obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of minocycline is not more than 2.0z. Water <2.48> Not less than 4.3z and not more than 8.0z (0.3 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Minocycline Hydro-chloride and Minocycline Hydrochloride RS, equivalent to about 50 mg (potency), dissolve each in the mobile phase to make exactly 100 mL, and use these solutions as the sample solution and the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of minocycline in each solution. to 50 mg (potency) of Minocycline Hydrochloride, add 60 mL of the mobile phase, shake vigorously, add the mobile phase to make 100 mL. Centrifuge this solution, and use the supernatant liquid as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi- Amount [ mg (potency)] of minocycline (C ＝ MS × AT/AS × 1000 23H27N3O7) tions. Determine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak of epiminocycline, having MS: Amount [mg (potency)] of Minocycline Hydrochlo-ride RS taken Operating conditions— ‌Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Adjust to pH 6.5 of a mixture of a solution of ammonium oxalate monohydrate (7 in 250), N,N-dimethylformamide and 0.1 mol/L disodium dihydrogen ethylenediamine tetraacetate TS (11:5:4) with tetrabutylam-monium hydroxide TS. Flow rate: Adjust so that the retention time of minocy-cline is about 12 minutes. System suitability— System performance: Dissolve 50 mg of Minocycline Hy-drochloride in 25 mL of water. Heat 5 mL of this solution on a water bath for 60 minutes, then add water to make 25 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, epiminocycline and minocy-cline are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of peak areas of minocycline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

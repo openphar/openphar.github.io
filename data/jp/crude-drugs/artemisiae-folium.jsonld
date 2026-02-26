@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/artemisiae-folium",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Artemisiae Folium",
+    "ja": "ガイヨウ"
+  },
+  "monographId": "JP18-artemisiae-folium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Wrinkled leaves and their fragments, fre-quently with thin stems. The upper surface of leaf dark green, the lower surface covered densely with grayish white cotton-like hairs. When smoothed by immersion in water, unfolded laminas 4 – 15 cm long, 4 – 12 cm wide, 1- to 2-pinnately cleft or pinnately parted. Segments in 2 to 4 pairs, oblong-lanceolate to oblong, apex acuminate sometimes obtuse, margins irregularly lobed or entire. Small sized leaves tri-cleft or entire, lanceolate. Order, characteristic; taste, slightly bitter. Under a microscope <5.01>, a transverse section of leaf re-veals several-cells-layered collenchyma beneath epidermis of midvein; vascular bundles at the central portion of midvein, occasionally fiber bundles adjacent to phloem and xylem; laminas composed of upper epidermis, palisade tissue, spongy tissue and lower epidermis, long soft hairs, T-shaped hairs and glandular hairs on epidermis of laminas; epidermal cells contain tannin-like substances, parenchyma cells con-tain oil-like substances and tannin-like substances."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Artemisia Leaf (the parts like a floccose substance which are not easily pulver-ized may be removed) add 5 mL of a mixture of methanol and water (3:2), shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg each of umbelliferone for thin-layer chroma-tography and scopoletin for thin-layer chromatography in 10 mL each of methanol, and use these solutions as the stand-ard solution (1) and the standard solution (2), respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample so-lution and 5 mL each of the standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (20:10:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): two of the several spots obtained from the sample solution have the same color tone and Rf value with the cor-responding blue-white fluorescent spots from the standard solutions (1) and (2). System suitability—(Ultraviolet light (main wavelength: 365 nm)). To 1 mL of the standard solution (1) add methanol to make 10 mL. Confirm that when perform the test with 1 mL of this solution under the above conditions, a bluish white fluorescent spot is detectable."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Artemisia argyi—To 0.5 g of powdered Artemisia Leaf (the parts like a floccose substance which are not easily pulverized may be removed) add 5 mL of a mixture of meth-anol and water (3:2), shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, to 0.5 g of artemisia･argyi for purity test add 5 mL of a mix-ture of methanol and water (3:2), shake for 10 minutes, cen-trifuge, and use the supernatant liquid as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (20:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, heat the plate at 1059C for 5 minutes, and examine under ultraviolet light (main wavelength: 365 nm): no spot appears from the sam-ple solution at the position of the green fluorescent spot (Rf value of about 0.5) obtained from the standard solution. Loss on drying <5.01> Not more than 14.0z. Total ash <5.01> Not more than 13.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 16.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

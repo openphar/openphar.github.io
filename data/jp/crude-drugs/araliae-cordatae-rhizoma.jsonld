@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/araliae-cordatae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Araliae Cordatae Rhizoma",
+    "ja": "ドクカツ"
+  },
+  "monographId": "JP18-araliae-cordatae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Aralia Rhizome is curved, irregular cylindrical to masses occasionally with remains of short roots. 4 – 12 cm in length, 2.5 – 7 cm in diameter, often cut crosswise or ‌1948‌ Areca / Crude Drugs and Related Drugs lengthwise. 1 to several, enlarged dents by remains of stems on the upper part or rarely 1.5 – 2.5 cm in diameter, remains of short stem. The outer surface is dark brown to yellow-brown, with longitudinally wrinkles, bases or dents of root. The transverse section of rhizome reveals dark brown to yel-low-brown, scattered brownish small spots with oil canals, and with numerous splits. Odor, characteristic; taste, slightly bitter. Under a microscope <5.01>, a transverse section of rhi-zome reveals the outermost layer to be cork layer, rarely composed of cork stone cells, followed these appeared several cellular layers of collenchyma. Vascular bundle and medullary rays is distinct, pith broad. Phloem fibre bundles are sometimes observed at the outer portion of phloem. Oil canals composed of schizogenous intercellular space in cor-tex and pith. Cortex composed of vessels, xylem fibres, and occasionally thick-wall xylem parenchyma. Vascular bundles scattered on the pith. And, parenchymatous cells observed rosette aggregates of calcium oxalate. Starch grains com-posed of simple grains, 2- to 6- compound grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Aralia Rhizome add 10 mL of methanol, shake for 5 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of hexane, ethyl acetate and acetic acid (100) (30:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a purple spot appears at an Rf value of about 0.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of pulver-ized Aralia Rhizome according to Method 3, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Loss on drying <5.01> Not more than 12.0z. Total ash <5.01> Not more than 9.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cortisone-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cortisone Acetate",
+    "ja": "コルチゾン酢酸エステル"
+  },
+  "monographId": "JP18-cortisone-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H30O6",
+  "molecularWeight": 402.48,
+  "casNumber": "50-04-4",
+  "definition": {
+    "en": "Cortisone Acetate, when dried, contains not less than 97."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 25 mg of Cortisone Acetate in 10 mL of a mixture of acetonitrile, water and ace-tic acid (100) (70:30:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution add the mixture of acetonitrile, water and acetic acid (100) (70:30:1) to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with exactly 15 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine each peak area by the automatic in-tegration method: each peak area other than cortisone ace-tate obtained from the sample solution is not larger than 1/2 times the peak area of cortisone acetate from the standard solution, and the total area of the peaks other than cortisone acetate is not larger than 1.5 times the peak area of cortisone acetate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of water and acetonitrile (7:3). Mobile phase B: A mixture of acetonitrile and water (7:3). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. 17,21-Dihydroxypregn-4-ene-3,11,20-trione 21-acetate [50-04-4] Cortisone Acetate, when dried, contains not less than 97.0z and not more than 102.0z of cortisone acetate (C23H30O6). ‌JP XVIII Official Monographs / Absorptive Cream 815‌ Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 5 5 – 25 90 → 10 10 → 90 25 – 30 with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cortisone acetate to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 10 mg each of Cortisone Acetate and Cortisone Acetate RS, previously dried and accurately weighed, in 50 mL of methanol, add exactly 5 mL each of the internal standard solution, then add methanol to make 100 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cortisone acetate to that of the internal standard. Amount (mg) of cortisone acetate (C23H30O6) ＝ MS × QT/QS MS: Amount (mg) of Cortisone Acetate RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in methanol (3 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (13:7). Flow rate: Adjust so that the retention time of cortisone acetate is about 12 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cortisone acetate and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times Absorptive Cream"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

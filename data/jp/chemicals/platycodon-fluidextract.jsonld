@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/platycodon-fluidextract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Platycodon Fluidextract",
+    "ja": "キキョウ流エキス"
+  },
+  "monographId": "JP18-platycodon-fluidextract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Platycodon Fluidextract is a red-brown liquid. It is miscible with water, producing slight turbidity. It has a mild taste at first, followed by an acrid and bitter taste. Identiˆcation To 2 mL of Platycodon Fluidextract add 20 mL of water and 5 mL of 1-butanol, mix, shake for 10 minutes, centrifuge, and use the 1-butanol layer as the sam-ple solution. Separately, dissolve 1 mg of platycodin D for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromato-graphy <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of 1-propanol, ethyl acetate, water and acetic acid (100) (5:3:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Alcohol number <1.01> Apply to Platycodon Fluidextract prepared by the Method of preparation 2). 2.0 – 3.0 (Method 1)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Prepare the test solution with 1.0 g of Platycodon Fluidextract as directed in the Fluidextracts (4), and perform the test (not more than 30 ppm). (2) Starch—Mix 1 mL of Platycodon Fluidextract with 4 mL of water, and add 1 drop of dilute iodine TS: no purple or blue color develops. Content of the active principle Transfer exactly 5 mL of Platycodon Fluidextract to a tared beaker or porcelain dish, evaporate to dryness on a water bath, and dry at 1059C for 5 hours: the mass of the residue is not less than 0.50 g."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

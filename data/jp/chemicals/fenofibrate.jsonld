@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fenofibrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fenofibrate",
+    "ja": "フェノフィブラート"
+  },
+  "monographId": "JP18-fenofibrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H21ClO4",
+  "molecularWeight": 360.83,
+  "casNumber": "49562-28-9",
+  "definition": {
+    "en": "Fenofibrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fenofibrate occurs as a white to pale yellow-white crystalline powder. It is soluble in ethanol (99.5), and practically insoluble in water. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Fenofibrate in ethanol (99.5) (1 in 80,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Fenofibrate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Fenofibrate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of dried Fenofibrate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Fenofibrate as directed under Flame Coloration Test <1.04>: a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Fenofibrate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure using light-resistant vessels. Dissolve 0.10 g of Fenofibrate in a mixture of acetonitrile and water (7:3) to make 100 mL. To 5 mL of this solution add a mixture of acetonitrile and water (7:3) to make 25 mL, and use this solution as the sample so-lution. Pipet 3 mL of the sample solution, add a mixture of acetonitrile and water (7:3) to make exactly 50 mL. Pipet 2.5 mL of this solution, add a mixture of acetonitrile and water (7:3) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the peak area of related sub-stance A having the relative retention time of about 1.4 to fenofibrate, obtained from the sample solution is not larger than 4/5 times the peak area of fenofibrate from the stand-ard solution, and the total area of the peaks other than fenofibrate from the sample solution is not larger than the peak area of fenofibrate from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of fenofibrate, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of acetonitrile and water (7:3) to make exactly 25 mL. Confirm that the peak area of fenofibrate obtained with 20 mL of this solution is equivalent to 15 to 25z of that with 20 mL of the standard solution. System performance: Dissolve 0.10 g each of Fenofibrate and 4-chlorobenzophenon in 100 mL of a mixture of aceto-nitrile and water (7:3). To 2 mL of this solution add a mix-ture of acetonitrile and water (7:3) to make 50 mL. To 1 mL of this solution add a mixture of acetonitrile and water (7:3) to make 50 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, 4-chlo-robenzophenon and fenofibrate are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of fenofibrate is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately about 50 mg each of Fenofibrate and Fenofibrate RS, both previously dried, dissolve each in a mixture of acetonitrile and water (7:3) to make exactly 50 mL. Pipet 2 mL each of these solutions, add exactly 2 mL of the internal standard solution to each, add a mixture of acetonitrile and water (7:3) to make 50 mL, and use these so-lutions as the sample solution and the standard solution, re-spectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of fenofibrate to the internal standard. Amount (mg) of fenofibrate (C20H21ClO4) ＝ MS × QT/QS MS: Amount (mg) of Fenofibrate RS taken Internal standard solution—A solution of 4-chloroben-zophenon in a mixture of acetonitrile and water (7:3) (11 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 286 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of acetonitrile and 0.02 mol/L phosphate buffer solution (pH 3.0) (7:3). Flow rate: Adjust so that the retention time of fenofibrate ‌1002 is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard and fenofibrate are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of fenofibrate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dilazep-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Dilazep Hydrochloride Hydrate",
+    "ja": "ジラゼプ塩酸塩水和物"
+  },
+  "monographId": "JP18-dilazep-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C31H44N2O10.2HCl.H2O",
+  "molecularWeight": 695.63,
+  "appearance": {
+    "en": "Dilazep Hydrochloride Hydrate occurs as a white crystalline powder. It is odorless. It is freely soluble in acetic acid (100) and in chloroform, soluble in water, slightly soluble in ethanol (95) and in acetic anhydride, and practically insoluble in diethyl ether. Melting point: 200 – 2049C Immerse the sample in a bath of 1109C, and raise the temperature at the rate of about 39C per minute from 1409C to 1509C, about 109C per minute from 1609C to 1959C and about 19C per minute from 1959C. trum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 1.0 g of Dilazep Hydrochloride Hy-drate in 100 mL of water: the pH of this solution is between 3.0 and 4.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Dilazep Hy-drochloride Hydrate (1 in 100) add 0.1 mL of a solution of hydroxylammonium chloride (1 in 10) and 0.1 mL of 8 mol/L potassium hydroxide TS, and warm in a water bath of 709C for 10 minutes. After cooling, add 0.5 mL of dilute hydrochloric acid and 0.1 mL of iron (III) chloride TS: a purple color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dilazep Hydrochloride Hydrate in 20 mL of water: the solution is clear and colorless. Sulfate <1.14>—Perform the test with 0.5 g of Dilazep Hydrochloride Hydrate. Prepare the control solu-tion with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Heavy metals <1.07>—Proceed with 2.0 g of Dilazep Hydrochloride Hydrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Dilazep Hydrochloride Hydrate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.40 g of Dilazep Hy-drochloride Hydrate in 10 mL of chloroform, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add chloroform to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chroma-tography. Develop the plate with a mixture of methanol, ethyl acetate, dichloromethane and hydrochloric acid (500:200:100:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> 2.0 – 3.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Dilazep Hydrochlo-ride Hydrate, dissolve in 40 mL of a mixture of acetic anhy-dride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 33.88 mg of C H N O .2HCl 31 44 2 10 Identification (1) To 1 mL of a solution of Dilazep Hy-drochloride Hydrate (1 in 100) add 0.1 mL of a solution of hydroxylammonium chloride (1 in 10) and 0.1 mL of 8 mol/L potassium hydroxide TS, and warm in a water bath of 709C for 10 minutes. After cooling, add 0.5 mL of dilute hydrochloric acid and 0.1 mL of iron (III) chloride TS: a purple color develops."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

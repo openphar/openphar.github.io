@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/powdered-cellulose",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Powdered Cellulose",
+    "ja": "粉末セルロース"
+  },
+  "monographId": "JP18-powdered-cellulose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Cellulose occurs as a white pow-der. It is practically insoluble in water, in ethanol (95) and in diethyl ether.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 g of zinc chloride and 6.5 g of potassium iodide in 10.5 mL of water, add 0.5 g of iodine, ether through the column. Evaporate the eluate to dryness in a previously dried and tared evaporation dish. Dry the residue at 1059C for 30 minutes, and weigh after allowing to cool in a desiccator: the difference between the mass of the residue and the mass obtained from a blank determination does not exceed 15.0 mg (0.15z). Loss on drying <2.41> Not more than 6.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.3z (1 g calcu-lated on the dried basis). Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 103 CFU/g and 102 CFU/g, respectively. Es-cherichia coli, Salmonella, Pseudomonas aeruginosa and Staphylococcus aureus are not observed.◆ ◆Containers and storage Containers—Tight containers.◆ Celmoleukin (Genetical Recombination)"
+      }
+    }
+  ],
+  "dosageForm": "Powder"
+}

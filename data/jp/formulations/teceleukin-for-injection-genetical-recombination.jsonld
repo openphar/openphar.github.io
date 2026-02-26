@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/teceleukin-for-injection-genetical-recombination",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Teceleukin for Injection (Genetical Recombination)",
+    "ja": "注射用テセロイキン（遺伝子組換え）"
+  },
+  "monographId": "JP18-teceleukin-for-injection-genetical-recombination",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Teceleukin for Injection (Genetical Recombination) is a preparation for injection which is dissolved before use. It contains not less than 70."
+  },
+  "appearance": {
+    "en": "Teceleukin for Injection (Genetical Recombi-nation) occurs as a white, light mass or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve the content of 1 container of Teceleukin for Injection (Genetical Recombination) in 1 mL of sterilized purified water, dilute exactly with potency meas-uring medium for teceleukin to make the sample stock solu- ‌tion containing about 200 units of Teceleukin (Genetical Recombination) per mL. Proceed as directed in the Identifi-cation (1) under Teceleukin (Genetical Recombination). pH <2.54> Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve the content of 1 container of Teceleukin for Injection (Genetical Recom-bination) in 1 mL of water: the solution is clear and color-less. Loss on drying Transfer the content of the container of Teceleukin for Injection (Genetical Recombination) to a weighing bottle under the atmosphere not exceeding 10z relative humidity, and perform the test as directed in the Water content determination described in the Minimum Requirements for Biological Products: not more than 5z. Bacterial endotoxins <4.01> Less than 5 EU/350,000 units. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Calculate as |M － A| ＝ 0. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve the content of 1 container of Teceleukin for Injection (Genetical Recombination) in exactly 1 mL of steri-lized purified water, dilute exactly with culture medium for assay of teceleukin to make the sample solution containing a definite concentration of 10 to 50 units/mL (estimate). Pro-ceed as directed in the Assay under Teceleukin (Genetical Recombination), and calculate the amount (unit) of teceleu-kin in 1 container by the following formula. Amount (unit) of teceleukin in 1 container ＝ S × DT/DS × d × 1 S: Concentration of the standard solution (unit/mL) d: Dilution coefficient when sample solution prepared 1: Volume (mL) of the sample solution"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

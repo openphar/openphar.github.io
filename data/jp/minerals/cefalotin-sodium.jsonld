@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefalotin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefalotin Sodium",
+    "ja": "セファロチンナトリウム"
+  },
+  "monographId": "JP18-cefalotin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefalotin Sodium contains not less than 920 mg (potency) and not more than 980 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefalotin Sodium occurs as white to light yel-low-white, crystals or crystalline powder. It is freely soluble in water, slightly soluble in methanol, very slightly soluble in ethanol (95), and practically insoluble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefalotin Sodium (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefalotin Sodium RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cefalotin Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cefalotin Sodium RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefalotin Sodium in heavy water for nuclear magnetic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic JP XVIII Official Monographs / Cefalotin Sodium for Injection 653 ‌Resonance Spectroscopy <2.21>, using sodium 3-trimethyl-silylpropanesulfonate for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits a singlet signal A at around d 2.1 ppm, a singlet or sharp mul-tiplet signal B at around d 3.9 ppm, and a multiplet signal C at around d 7.0 ppm. The ratio of the integrated intensity of these signals, A:B:C, is about 3:2:2. Cefalotin Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]25: ＋124 – ＋1349(5 g, water, 100 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Cefalotin Sodium in 10 mL of water is between 4.5 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefalotin Sodium in 10 mL of water: the solution is clear. The absorbance of this solution at 450 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.20. Heavy metals <1.07>—Proceed with 1.0 g of Cefalo- tin Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefalotin Sodium according to Method 3, and perform the test (not more than 2 ppm). Related substances—Pipet 1 mL of the standard solu-tion obtained in the Assay, add the mobile phase to make ex-actly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solu-tion obtained in the Assay and the standard solution pre-pared here as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peaks other than cefalotin from the sample solution is not larger than the peak area of cefalotin from the standard solution, and the total area of the peaks other than cefalotin obtained from the sample solution is not larger than 3 times the peak area of cefalotin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of cefalotin. System suitability— Test for required detectability: Measure exactly 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of cefalotin ob-tained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Heat the standard solution in a water bath of 909C for 10 minutes, and cool. Measure ex-actly 2.5 mL of this solution, and add the mobile phase to make exactly 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the resolution between the peak of cefalotin and the peak, hav-ing the relative retention time of about 0.5 to cefalotin, is not less than 9, and the symmetry factor of the peak of cefalotin is not more than 1.8. System repeatability: When the test is repeated 3 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefalotin is not more than 2.0z. Water <2.48> Not more than 1.0z (0.5 g, volumetric titra- tion, back titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefalotin Sodium and Cefalotin Sodium RS, equivalent to about 25 mg (po-tency), and dissolve each in the mobile phase to make exactly 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of cefalotin in each solution. Amount [ mg (potency)] of cefalotin (C16H16N2O6S2) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefalotin Sodium RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 17 g of sodium acetate trihydrate in 790 mL of water, and add 0.6 mL of acetic acid (100). If necessary adjust the pH to 5.9 ± 0.1 with diluted sodium hydroxide TS (1 in 10) or acetic acid (100). To this solution add 150 mL of acetonitrile and 70 mL of ethanol (95). Flow rate: Adjust so that the retention time of cefalotin is about 12 minutes. System suitability— System performance: Heat the standard solution in a water bath of 909C for 10 minutes, and cool. Measure ex-actly 2.5 mL of this solution, and add the mobile phase to make exactly 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the resolution between the peak of cefalotin and the peak, hav-ing the relative retention time of about 0.5 to cefalotin is not less than 9, and the symmetry factor of the peak of cefalotin is not more than 1.8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefalotin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

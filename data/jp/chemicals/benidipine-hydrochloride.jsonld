@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benidipine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benidipine Hydrochloride",
+    "ja": "ベニジピン塩酸塩"
+  },
+  "monographId": "JP18-benidipine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "91599-74-5",
+  "definition": {
+    "en": "Benidipine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Benidipine Hydrochloride occurs as a yellow crystalline powder. It is very soluble in formic acid, soluble in methanol, sparingly soluble in ethanol (99.5), and practically insoluble in water. A solution of Benidipine Hydrochloride in methanol (1 in 100) shows no optical rotation. Melting point: about 2009C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Benidipine Hydrochloride in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Benidipine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 5 mL of a solution of Benidipine Hydrochloride (1 in 10) add 5 mL of ammonia TS, heat on a water bath for 5 minutes, cool, and filter. The filtrate, which is acidified with dilute nitric acid, responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Benidipine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 20 mg of Benidipine Hydrochloride in 100 mL of a mixture of water and metha-nol (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mixture of water and methanol (1:1) to make exactly 500 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the automatic integration method: the peak areas of bisbenzyl-piperidyl ester having the relative retention time of about 0.35 to benidipine, dehydro derivative having the relative retention time of about 0.75 and other related substances obtained from the sample solution are not larger than 1/2 times the peak area of benidipine from the standard solu-tion, and the total area of the peaks other than benidipine from the sample solution is not larger than the peak area of benidipine from the standard solution. For the areas of the peaks of bisbenzylpiperidyl ester and dehydro derivative, multiply their correction factor 1.6, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 237 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogen phosphate TS (pH 3.0), methanol and tetrahydrofu-ran (65:27:8). Flow rate: Adjust so that the retention time of benidipine is about 20 minutes. Time span of measurement: About 2 times as long as the retention time of benidipine, beginning after the solvent peak. System suitability— Test for required detectability: Measure exactly 5 mL of the standard solution, and add the mixture of water and methanol (1:1) to make exactly 20 mL. Confirm that the peak area of benidipine obtained with 10 mL of this solution is equivalent to 18 to 32z of that obtained with 10 mL of the standard solution. System performance: Dissolve 6 mg of Benidipine Hydro-chloride and 5 mg of benzoin in 200 mL of the mixture of water and methanol (1:1). When the procedure is run with 10 mL of this solution under the above operating conditions, benzoin and benidipine are eluted in this order with the reso-lution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of benidipine is not more than 3.5z. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Benidipine Hydro-chloride, previously dried, dissolve in 10 mL of formic acid, add 70 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 54.20 mg of C28H31N3O6.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/cycloserine",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "Cycloserine",
+    "ja": "サイクロセリン"
+  },
+  "monographId": "JP18-cycloserine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H6N2O2",
+  "molecularWeight": 102.09,
+  "definition": {
+    "en": "Cycloserine contains not less than 950 mg (potency) and not more than 1020 mg (potency) per mg, calcu-lated on the dried basis."
+  },
+  "appearance": {
+    "en": "Cycloserine occurs as white to light yellow-white, crystals or crystalline powder. It is soluble in water, and sparingly soluble in ethanol (95). ‌824"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Cycloserine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Cycloserine RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋108 – ＋1149(2.5 g calcu-lated on the dried basis, 2 mol/L sodium hydroxide TS, 50 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cycloserine in 20 mL of water: the pH of the solution is between 5.0 and 7.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Cycloserine according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Condensation products—Dissolve 20 mg of Cycloser-ine in sodium hydroxide TS to make exactly 50 mL, and de-termine the absorbance of this solution at 285 nm as directed Cyproheptadine Hydrochloride Hydrate"
+      }
+    }
+  ]
+}

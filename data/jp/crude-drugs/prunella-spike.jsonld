@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/prunella-spike",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-prunella-spike",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Prunella Spike",
+    "la": "Prunellae Spica",
+    "ja": "カゴソウ"
+  },
+  "definition": {
+    "en": "Linnáe var"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/prunella-spike-prunella-vulgaris-linn"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

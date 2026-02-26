@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/peucedani-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Peucedani Radix",
+    "ja": "ゼンコ"
+  },
+  "monographId": "JP18-peucedani-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "1) Peucedanum Praeruptorum Root—Slen-der obconical to cylindrical root, occasionally dichotomized at the lower part, 3 – 15 cm in length, 0.8 – 1.8 cm in diame- ‌2096‌ Pharbitis Seed / Crude Drugs and Related Drugs ter at the crown; externally light brown to dark brown; ring-node-like wrinkles numerous at the crown, sometimes with hair-like remains of leaf sheath; the root having somewhat deep longitudinal wrinkles and scars of cutting off of lateral roots; transverse section surface light brown to whitish in color; brittle in texture. Odor, characteristic; taste, slightly bitter. Under a microscope <5.01>, a transverse section reveals the outermost layer composed of a cork layer, inner tangential walls of some cork cells thickened; collenchyma just inside of the cork layer; in cortex numerous oil canals scattered and intercellular air spaces observed; occasionally phloem fibers observed at the terminal portion of phloem; vessels and scat-tered oil canals in xylem; starch grains in parenchyma, 2 to 10 several-compound grains. 2) Angelica Decursiva Root—Similar to 1), but without hair-like remains of leaf sheath at the crown. Odor, characteristic; taste, slightly bitter. Under a microscope <5.01>, a transverse section reveals, similar to 1), but cell wall of cork cells not thickened, phloem fibers not observed at the terminal portion of phloem, nor oil canals observed in xylem."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "1) Peucedanum Praeruptorum Root—To 1 g of pulverized Peucedanum Root add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of (±)-praeruptorin A for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether and hexane (3:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the blue-white to blue-purple fluorescent spot from the standard solution. 2) Angelica Decursiva Root—To 1 g of pulverized Peu-cedanum Root add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of nodakenin for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl ace-tate, methanol and water (12:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the blue-white to blue-purple fluorescent spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of pulver-ized Peucedanum Root according to Method 3, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Loss on drying <5.01> Not more than 13.0z. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 20.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

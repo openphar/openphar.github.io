@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/clonazepam-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Clonazepam Fine Granules",
+    "ja": "クロナゼパム細粒"
+  },
+  "monographId": "JP18-clonazepam-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Clonazepam Fine Granules. To a portion of the powder, equivalent to 1 mg of Clonazepam, add an appropriate volume of methanol and shake for 10 minutes, add methanol to make 100 mL, and filter. Deter-mine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 307 nm and 311 nm. Dissolution Being specified separately when the drug is granted approval based on the Law. ‌788"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Clonazepam Fine Granules. Weigh accu-rately a portion of the powder, equivalent to about 2.4 mg of clonazepam (C15H10ClN3O3), add exactly 30 mL of a mixture of methanol and water (7:3), and shake for 15 minutes. Cen-trifuge this solution, pipet 5 mL of the supernatant liquid, add a mixture of methanol and water (7:3) to make exactly 20 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 20 mg of clonazepam for assay, previously dried at 1059C for 4 hours, dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solu-tion, add a mixture of methanol and water (7:3) to make ex-actly 100 mL, and use this solution as the standard solution. Perform the test with exactly 15 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of clonazepam in each solution. Amount (mg) of clonazepam (C15H10ClN3O3) ＝ MS × AT/AS × 3/25 MS: Amount (mg) of clonazepam for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 310 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, acetonitrile and metha-nol (4:3:3). Flow rate: Adjust so that the retention time of clonazepam is about 5 minutes. System suitability— System performance: When the procedure is run with 15 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of clonazepam are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 15 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clonazepam is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

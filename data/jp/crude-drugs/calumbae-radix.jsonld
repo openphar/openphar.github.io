@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/calumbae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Calumbae Radix",
+    "ja": "コロンボ"
+  },
+  "monographId": "JP18-calumbae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Disk-like slices, 0.5 – 2 cm in thickness, 3 – 8 cm in diameter; mostly with concave center and slightly waved; side surface grayish brown in color, with irregular wrinkles; cut surface light yellow and powdery, with pale and dark radiating stripes; cortex rather yellowish; cambium and its neighborhood light grayish brown, warty protrusions in the center; hard in texture, but brittle. Odor characteristic; taste, bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of pulverized Calumba add 30 mL of water, allow to stand for 5 minutes with occasional shaking, and filter. To 2 mL of the filtrate add gently 1 mL of sulfuric acid, and after cooling, add carefully chlorine TS to make two layers: a light red to red color develops at the zone of contact."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of pulverized Calumba according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 15 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Calumba according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 7.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

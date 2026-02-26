@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/acetic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Acetic Acid",
+    "ja": "酢酸"
+  },
+  "monographId": "JP18-acetic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Acetic Acid contains not less than 30."
+  },
+  "appearance": {
+    "en": "Acetic Acid is a clear, colorless liquid. It has a pungent, characteristic odor and an acid taste. It is miscible with water, with ethanol (95) and with glycerin. Specific gravity d 20: about 1.04"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Acetic Acid changes blue litmus paper to red, and responds to Qualitative Tests <1.09> for acetate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Acetazolamide in 10 mL of sodium hydroxide TS: the solution is clear and colorless to pale yellow. Description Acetic Acid is a clear, colorless liquid. It has a pungent, characteristic odor and an acid taste. It is miscible with water, with ethanol (95) and with glycerin. Specific gravity d 20: about 1.04 Identification Acetic Acid changes blue litmus paper to red, and responds to Qualitative Tests <1.09> for acetate. Purity (1) Chloride—To 20 mL of Acetic Acid add 40 mL of water, and use this solution as the sample solution. To 10 mL of the sample solution add 5 drops of silver nitrate TS: no opalescence is produced. ‌404‌ Sulfate—To 10 mL of the sample solution obtained in (1) add 1 mL of barium chloride TS: no turbidity is pro-duced. Heavy metals <1.07>—Evaporate 10 mL of Acetic Acid on a water bath to dryness, and to the residue add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test with this solution as the test solution. Prepare the con-trol solution with 3.0 mL of Standard Lead Solution by add-ing 2 mL of dilute acetic acid and water to make 50 mL (not more than 3 ppm). Potassium permanganate-reducing substances—To 20 mL of the sample solution obtained in (1) add 0.10 mL of 0.02 mol/L potassium permanganate VS: the red color does not disappear within 30 minutes. Non-volatile residue—Evaporate 30 mL of Acetic Acid on a water bath to dryness, and dry at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly 5 mL of Acetic Acid, add 30 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 drops of phenolphthalein TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 60.05 mg of C2H4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

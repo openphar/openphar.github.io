@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/iopamidol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Iopamidol Injection",
+    "ja": "イオパミドール注射液"
+  },
+  "monographId": "JP18-iopamidol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Iopamidol Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Iopamidol Injection occurs as a clear, colorless or faint yellow, liquid, having slight viscosity. It is gradually colored to faint yellow by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Iopamidol Injection, equivalent to 0.3 g of Iopamidol, add 0.2 mL of sulfuric acid, and mix. When heat the solution over a flame, the color of the solution changes from colorless to purplish brown, and a purple gas is evolved. (2) To a volume of Iopamidol Injection, equivalent to 0.6 g of Iopamidol, add water to make 100 mL, and use this solution as the sample solution. Separately, dissolve 60 mg of iopamidol for assay in 10 mL of water, and use this solu-tion as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 4 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 2-propanol, 2-butanone and ammonia solution (28) (2:2:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm): the Rf value of the principal spot obtained from the sample solution is the same as that from the standard solution. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Primary aromatic amines—To a volume of Iopamidol Injection, equivalent to 0.18 g of Iopamidol, add 6 mL of water and mix. Add 1 mL of a solution of sodium nitrite (1 in 50) and 12 mL of 2 mol/L hydrochloric acid TS, shake the solution and allow to stand for 2 minutes. Add 1 mL of a solution of ammonium amidosulfate (1 in 10), JP XVIII Official Monographs / Iotalamic Acid 1179 ‌shake well, and allow to stand for 1 minute. Add 1 mL of naphthylethylenediamine TS and water to make exactly 50 mL. Determine the absorbance of this solution at 495 nm as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution prepared in the same manner as the blank: the absorbance is not more than 0.18. Iodine—Take a volume of Iopamidol Injection, equivalent to 2.0 g of Iopamidol, and add 2 mL of 1 mol/L sulfuric acid TS and 1 mL of toluene. Then shake well and allow to stand: the toluene layer is colorless. Free iodine ion—To exactly 10 mL of Iopamidol In-jection add a suitable amount of water, and adjust the pH to about 4.5 with diluted 0.25 mol/L sulfuric acid TS (1 in 10). Titrate <2.50> with 0.001 mol/L silver nitrate VS (potentio-metric titration): the amount of iodine ion contained in Iopamidol Injection is not more than 40 mg per mL. Each mL of 0.001 mol/L silver nitrate VS ＝ 0.1269 mg of I Bacterial endotoxins <4.01> Less than 1.5 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To exactly 1 mL of Iopamidol Injection add water to make exactly 200 mL. Take exactly V mL of this solution, add water to make exactly V? mL so that each mL contains about 80 mg of iopamidol (C17H22I3N3O8), and use this solu-tion as the sample solution. Separately, weigh accurately about 20 mg of iopamidol for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 10 mL. Pipet 4 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Per-form the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of iopamidol in each so-lution. Amount (mg) of iopamidol (C17H22I3N3O8) ＝ MS × AT/AS × V?/V × 4/5 MS: Amount (mg) of iopamidol for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase A: Water. Mobile phase B: A mixture of water and methanol (3:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 6 6 – 18 92 → 65 8 → 35 18 – 30 65 → 8 35 → 92 30 – 34 Flow rate: 1.5 mL per minute. System suitability— System performance: Dissolve 1 mg each of iopamidol for assay and N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylamino-2,4,6-triiodoisophthalamide in water to make 100 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylamino-2,4,6-triiodoisophthalamide and iopamidol are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of iopamidol is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

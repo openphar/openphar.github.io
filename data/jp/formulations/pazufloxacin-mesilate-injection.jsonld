@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pazufloxacin-mesilate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Pazufloxacin Mesilate Injection",
+    "ja": "パズフロキサシンメシル酸塩注射液"
+  },
+  "monographId": "JP18-pazufloxacin-mesilate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Pazufloxacin Mesilate Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Pazufloxacin Mesilate Injection is a clear, col-orless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Pazufloxacin Mesilate Injec-tion, equivalent to 20 mg of Pazufloxacin Mesilate, add a mixture of methanol and 1 mol/L hydrochloric acid TS (49:1) to make 100 mL. To 5 mL of this solution add a mix-ture of methanol and 1 mol/L hydrochloric acid TS (49:1) to make 100 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 237 nm and 241 nm, between 314 nm and 324 nm, between 328 nm and 332 nm, and between 343 nm and 347 nm. pH Being specified separately when the drug is granted ap-proval based on the Law. Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Pazufloxacin Mesilate Injection, equivalent to about 12 mg of pazufloxacin mesilate (C16H15FN2O4.CH4O3S), and add water to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 23 mg of Pazufloxacin Mesilate RS, previously dried at 1059C for 3 hours, and add water to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solu-tion, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of pazufloxacin to that of the internal standard. Amount (mg) of pazufloxacin mesilate (C16H15FN2O4.CH4O3S) ＝ MS × QT/QS × 1/2 MS: Amount (mg) of Pazufloxacin Mesilate RS taken Internal standard solution—A solution of acetanilide in the mobile phase (3 in 10,000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Pazufloxacin Mesilate. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, pazufloxacin and acetanilide are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of pazufloxacin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

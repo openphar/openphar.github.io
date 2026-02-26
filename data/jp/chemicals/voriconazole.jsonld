@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/voriconazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Voriconazole",
+    "ja": "ボリコナゾール"
+  },
+  "monographId": "JP18-voriconazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H14F3N5O",
+  "molecularWeight": 349.31,
+  "casNumber": "137234-62-9",
+  "definition": {
+    "en": "Voriconazole contains not less than 98."
+  },
+  "appearance": {
+    "en": "Voriconazole is a white crystalline powder. It is freely soluble in methanol and in acetonitrile, soluble in ethanol (99.5), and very slightly soluble in water. It dissolves in 1 mol/L hydrochloric acid TS. Optical rotation [a]25 : － 374 – － 4049(50 mg calculated on the anhydrous basis, methanol, 25 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Voriconazole in methanol (1 in 40,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Voriconazole RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Voriconazole as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Voriconazole RS: both spectra exhibit similar inten-sities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals—Take 2.0 g of Voriconazole in a porcelain crucible, moisten with an appropriate amount of sulfuric acid, cover the crucible loosely, and ignite at a low temperature until charred. After cooling, add 2 mL of nitric acid and 5 drops of sulfuric acid to the content of the cruci-ble, heat gently the crucible until white fumes are no longer evolved, then ignite at 500 – 6009C. After cooling, add 4 mL of 6 mol/L hydrochloric acid TS, evaporate to dryness on a water bath, moisten the residue with 1 drop of hydrochloric acid, add 10 mL of boiling water, and heat for 2 minutes. After cooling, add appropriate drops of ammonia TS until litmus paper changes to blue, add water to make 15 mL, and adjust the pH between 3.0 and 4.0 with dilute acetic acid. Filter if necessary, wash the crucible and the filter paper with 10 mL of water, put the filtrate and washings to a Nessler tube, add water to make 40 mL, and use this solution as the sample solution. Separately, put 2.0 mL of Standard Lead Solution in another Nessler tube, add water to make 25 mL, adjust the pH between 3.0 and 4.0 with dilute acetic acid or ammonia TS, then add water to make 40 mL, and use this solution as the control solution. To each of the sample solu-tion and control solution add 2 mL of acetate buffer solution (pH 3.5), then add 1.2 mL of thioacetamide-alkaline glycerin TS, and add water to make 50 mL. After allowing to stand for 2 minutes, observe vertically both tubes against a white background: the color obtained with the test solution is not more intense than that with the control solution (not more than 10 ppm). Related substances—Dissolve 50 mg of Voriconazole in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peaks other than voriconazole obtained from the sample solution is not larger than the peak area of voriconazole from the standard solution. The total area of the peaks other than voriconazole from the sample solution is not larger than 4 times the peak area of voriconazole from the standard solution. For the area of the peak, having a relative retention time of about 0.26, about 0.32, and about 0.61 to voricona-zole, multiply the correction factor, 0.7, 0.7 and 2.1, respec-tively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.7 times as long as the retention time of voriconazole. System suitability— System performance: Suspend 0.1 g of Voriconazole in 10 mL of sodium hydroxide solution (1 in 25), add the mobile phase to make 20 mL, and allow to stand for 30 minutes. To 1 mL of this solution add the mobile phase to make 100 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, the resolution between the peaks, having the relative retention times of about 0.26 and about 0.32 to voriconazole, is not less than 1.7. System repeatability: When the test is repeated 6 times with 20 mL of the solution prepared by adding the mobile phase to 5 mL of the standard solution to make 10 mL under the above operating conditions, the relative standard devia-tion of the peak area of voriconazole is not more than 10.0z. Enantiomer—Dissolve 25 mg of Voriconazole in 2 mL of acetonitrile, add the mobile phase to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make ex-actly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the automatic integration method: the area of the peak of the enantiomer, having the relative retention time of about 1.3 to voriconazole, obtained from the sample solution is not larger than 1.2 times the peak area of voriconazole from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 256 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with 2-hydroxypropyl-b-cyclodextrinized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 0.77 g of ammonium acetate in 1000 mL of water, and adjust to pH 5.0 with acetic acid (100). To 820 mL of this solution add 180 mL of acetonitrile. Flow rate: Adjust so that the retention time of voricona- zole is about 6 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of voriconazole are not less than 2500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of a solution, prepared by adding the mobile phase to 5 mL of the standard solution to make 10 mL, under the above operating conditions, the relative standard deviation of the peak area of voriconazole is not more than 5.0z. Water <2.48> Not more than 0.2z (1.0 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g, a platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Voriconazole and Voriconazole RS (separately determine the water <2.48> in the same manner as Voriconazole), dissolve each in the mobile phase to make exactly 100 mL. Pipet 5 mL each of these solutions, add each the mobile phase to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of voriconazole in each solution. Amount (mg) of voriconazole (C16H14F3N5O) ＝ MS × AT/AS MS: Amount (mg) of Voriconazole RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 256 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 1.9 g of ammonium formate in 1000 mL of water, and adjust to pH 4.0 with formic acid. To 550 mL of this solution add 300 mL of methanol and 150 mL of acetonitrile. Flow rate: Adjust so that the retention time of voricona-zole is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of voriconazole are not less than 3500 and not more than 1.7, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of voriconazole is not more than 1.0z. ‌Containers and storage Containers—Well-closed contain-ers. Voriconazole for Injection"
+      }
+    }
+  ]
+}

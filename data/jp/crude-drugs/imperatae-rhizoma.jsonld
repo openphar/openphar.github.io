@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/imperatae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Imperatae Rhizoma",
+    "ja": "ボウコン"
+  },
+  "monographId": "JP18-imperatae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Long and thin cylindrical rhizome, 0.3 – 0.5 cm in diameter; sometimes branched; externally yellow-white, with slight longitudinal wrinkles, and with nodes at 2 – 3 cm intervals; difficult to break; fractured surface fi-brous. Cross section irregularly round; thickness of cortex is slightly smaller than the diameter of the stele; pith often forms a hollow. Under a magnifying glass, a transverse sec-tion reveals cortex, yellow-white, and with scattered brown spots; stele, yellow-brown in color. Almost odorless, and tasteless at first, but later slightly sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Imperata Rhizome add 20 mL of hexane, allow the mixture to stand for 30 minutes with occasional shaking, and filter. Evaporate the solvent of the filtrate under low pressure (in vacuo), dissolve the residue in 5 mL of acetic anhydride, place 0.5 mL of this so-lution in a test tube, and add carefully 0.5 mL of sulfuric acid to make two layers: a red-brown color develops at the zone of contact, and the upper layer acquires a blue-green to blue-purple color."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Imperata Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Imperata Rhizome according to Method 4, and perform the test (not more than 5 ppm). Rootlet and scaly leaf—When perform the test of foreign matter <5.01>, the amount of the rootlets and scaly leaves contained in Imperata Rhizome is not more than 3.0 z. Foreign matter <5.01>—The amount of foreign mat- ter other than rootlets and scaly leaves is not more than 1.0z. Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

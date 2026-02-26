@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glucagon-genetical-recombination",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glucagon (Genetical Recombination)",
+    "ja": "グルカゴン(遺伝子組換え)"
+  },
+  "monographId": "JP18-glucagon-genetical-recombination",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C153H225N43O49S",
+  "molecularWeight": 3482.75,
+  "casNumber": "16941-32-5",
+  "definition": {
+    "en": "Glucagon (Genetical Recombination) is a recom-binant human glucagon, and is a peptide consisting of 29 amino acid residues. It contains not less than 92."
+  },
+  "appearance": {
+    "en": "Glucagon (Genetical Recombination) occurs as a white lyophilized powder. It is practically insoluble in water and in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Glucagon (Genetical Recombination) in 1 mL of 0.01 mol/L hydrochloric acid TS. To 200 mL of this solution add 800 mL of 0.1 mol/L am-monium hydrogen carbonate TS and 25 mL of enzyme TS for glucagon, react at 379C for 2 hours, add 120 mL of acetic acid (100) to stop the reaction, and use this solution as the sample solution. Separately, dissolve a suitable amount of Glucagon RS in 0.1 mol/L ammonium hydrogen carbonate TS so that each mL contains 1 mg of glucagon. To 1000 mL of this solution add 25 mL of enzyme TS for glucagon, react at 379C for 2 hours, add 120 mL of acetic acid (100) to stop the reaction, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and compare the chromatograms obtained from these solutions: both chromatograms show the similar peaks at the same retention time. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 215 nm). Column: A stainless steel column 4 mm in inside diameter and 50 mm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 229C. Mobile phase A: To 0.5 mL of trifluoroacetic acid add 1000 mL of water. Mobile phase B: To 0.5 mL of trifluoroacetic acid add 600 mL of ethanol (99.5) and 400 mL of water. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Flow rate: 1.0 mL per minute. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the peaks 1, 2, 3, 4 and 5 are eluted in this order, and the resolution between the peak 2 and the peak 3 is not less than 1.5. (2) Perform the test with 15 mL each of the sample solu-tion and standard solution obtained in the Assay as directed under Liquid chromatography <2.01> according to the condi-tions described in the Assay: the retention times of the prin-cipal peaks obtained from the sample solution and the stand-ard solution are the same."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances and desamido substances—Conduct this procedure at a temperature between 29C and 89C. Dissolve 50 mg of Glucagon (Genetical Recombination) in 100 mL of 0.01 mol/L hydrochloric acid TS, and use this solution as the sample solution. Perform the test with 15 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area by the automatic integration method, and calculate the amounts of them by the area percentage method: the total amount of desamido substance 1 having the relative retention time of about 1.1 to glucagon, desamido substance 2 having the relative retention time of about 1.2, desamido substance 3 having the relative retention time of about 1.3 and desamido substance 4 having the rela-tive retention time of about 1.4 is not more than 0.8z, and the total amount of peaks other than glucagon is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phases A and B, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: For 37 minutes after injec-tion, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: When the procedure is run with 15 mL of the standard solution obtained in the Assay under the above operating conditions, the peak corre-sponding to the desamido substance 2 is detected. Water <2.48> Not more than 10z (50 mg, coulometric titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure at a temperature between 29C and 89C. Weigh accurately about 50 mg of Glucagon (Genetical Recombination), dissolve in 100 mL of 0.01 mol/L hydrochloric acid TS, and use this solution as the sample solution. Separately dissolve Glucagon RS in 0.01 mol/L hydrochloric acid TS so that each mL contains about 0.5 mg of glucagon, and use this solution as the standard so-lution. Perform the test with exactly 15 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of glucagon in each solution. Amount (z) of glucagon ＝ AT/AS × CS/CT × 100 ‌JP XVIII Official Monographs / Glucose 1073 CS: Concentration (mg/mL) of the standard solution CT: Concentration (mg/mL) of the sample solution The calculated amount (z) of glucagon is corrected by the water content to obtain the amount (z) of glucagon on the anhydrous basis. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 214 nm). Column: A stainless steel column 3 mm in inside diameter and 150 mm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase A: Dissolve 16.3 g of potassium dihydrogen phosphate in 750 mL of water, adjust to pH 2.7 with phos-phoric acid, add water to make 800 mL, and add 200 mL of acetonitrile for liquid chromatography. Mobile phase B: A mixture of water and acetonitrile (3:2). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Glucose"
+      }
+    }
+  ]
+}

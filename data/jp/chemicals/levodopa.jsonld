@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/levodopa",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Levodopa",
+    "ja": "レボドパ"
+  },
+  "monographId": "JP18-levodopa",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H11NO4",
+  "molecularWeight": 197.19,
+  "definition": {
+    "en": "Levodopa, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Levodopa occurs as white or slightly grayish white, crystals or crystalline powder. It is odorless. It is freely soluble in formic acid, slightly soluble in water, and practically insoluble in ethanol (95). It dissolves in dilute hydrochloric acid. The pH of a saturated solution of Levodopa is between 5.0 and 6.5. Melting point: about 2759C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Levodopa (1 in 1000) add 1 mL of ninhydrin TS, and heat for 3 minutes in a water bath: a purple color develops. To 2 mL of a solution of Levodopa (1 in 5000) add 10 mL of 4-aminoantipyrine TS, and shake: a red color de-velops. Dissolve 3 mg of Levodopa in 0.001 mol/L hydro-chloric acid TS to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. 1 cm Absorbance <2.24> E 1z (280 nm): 136 – 146 (after drying, 30 mg, 0.001 mol/L hydrochloric acid TS, 1000 mL). D Optical rotation <2.49> [a]20: －11.5 – －13.09(after dry-ing, 2.5 g, 1 mol/L hydrochloric acid TS, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Levodopa in 20 mL of 1 mol/L hydrochloric acid TS: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of Levodopa in 6 mL of dilute nitric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Dissolve 0.40 g of Levodopa in 1 mL of dilute hydrochloric acid and 30 mL of water, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.25 mL of 0.005 mol/L sulfuric acid VS (not more than 0.030z). Heavy metals <1.07>—Proceed with 1.0 g of Levo- dopa according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 1.0 g of Levodopa in 5 mL of dilute hydrochloric acid, and perform the test with this so-lution as the test solution (not more than 2 ppm). Related substances—Dissolve 0.10 g of Levodopa in 10 mL of sodium disulfite TS, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add so-dium disulfite TS to make exactly 25 mL. Pipet 1 mL of this solution, add sodium disulfite TS to make exactly 20 mL, ‌1256 and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water, acetic acid (100) and methanol (10:5:5:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in acetone (1 in 50) on the plate and heat the plate at 909C for 10 minutes: the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution. Loss on drying <2.41> Not more than 0.30z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Levodopa, previ-ously dried, dissolve in 3 mL of formic acid, add 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue-green to green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.72 mg of C9H11NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

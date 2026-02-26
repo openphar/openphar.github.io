@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/vinblastine-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Vinblastine Sulfate",
+    "ja": "ビンブラスチン硫酸塩"
+  },
+  "monographId": "JP18-vinblastine-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Vinblastine Sulfate contains not less than 96."
+  },
+  "appearance": {
+    "en": "Vinblastine Sulfate occurs as a white to pale yellow powder. It is soluble in water, sparingly soluble in methanol, and ‌practically insoluble in ethanol (99.5). It is hygroscopic. D Optical rotation [a]20: －28 – －359(20 mg calculated on the dried basis, methanol, 10 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Vinblastine Sulfate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Vinblastine Sulfate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Vin- Atmospheric gas: dried Nitrogen. Flow rate of atmospheric gas: 40 mL per minute."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 50 mg of Vinblastine Sulfate in 10 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve about 4 mg of Vin-blastine Sulfate in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 200 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area of these so-lutions by the automatic integration method: the area of the peak other than vinblastine obtained from sample solution is not larger than 1/4 times the peak area of vinblastine from the standard solution, and the total area of the peaks other than vinblastine from the sample solution is not larger than 3/4 times the peak area of vinblastine from the standard so-lution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of vinblastine, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2.5 mL of the standard solution add water to make exactly 100 mL. Con-firm that the peak area of vinblastine obtained with 200 mL of this solution is equivalent to 1.7 to 3.3z of that with 200 mL of the standard solution. System repeatability: When the test is repeated 6 times with 200 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vinblastine is not more than 1.5z. Loss on drying Perform the test with about 10 mg of Vin-blastine Sulfate as directed in Thermogravimetry under Thermal Analysis <2.52> according to the following condi-tions: not more than 15.0z. Operating conditions— Heating rate: 59C per minute. Temperature range: room temperature to 2009C. MS: Amount (mg) of Vinblastine Sulfate RS taken, calcu-lated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 262 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 7 mL of diethylamine add water to make 500 mL, and adjust the pH to 7.5 with phosphoric acid. To 380 mL of this solution add 620 mL of a mixture of methanol and acetonitrile (4:1). Flow rate: Adjust so that the retention time of vinblastine is about 8 minutes. System suitability— System performance: Dissolve 10 mg each of Vinblastine Sulfate and vincristine sulfate in 25 mL of water. When the procedure is run with 20 mL of this solution under the above operating conditions, vincristine and vinblastine are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vinblastine is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Vinblastine Sulfate and Vinblastine Sulfate RS (previously determine the loss on drying under the same conditions as Vinblastine Sul-fate), dissolve in water to make exactly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of vin-blastine in each solution. blastine Sulfate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec- Amount (mg) of vinblastine sulfate (C ＝ MS × AT/AS 46H58N4O9.H2SO4) trum of Vinblastine Sulfate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Vinblastine Sulfate (1 in 100) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 15 mg of Vinblastine Sulfate in 10 mL of water: the pH of this solution is between 3.5 and 5.0. Purity (1) Clarity and color of solution—Dissolve 50 mg of Vinblastine Sulfate in 10 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve about 4 mg of Vin-blastine Sulfate in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 200 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area of these so-lutions by the automatic integration method: the area of the peak other than vinblastine obtained from sample solution is not larger than 1/4 times the peak area of vinblastine from the standard solution, and the total area of the peaks other than vinblastine from the sample solution is not larger than 3/4 times the peak area of vinblastine from the standard so-lution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of vinblastine, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2.5 mL of the standard solution add water to make exactly 100 mL. Con-firm that the peak area of vinblastine obtained with 200 mL of this solution is equivalent to 1.7 to 3.3z of that with 200 mL of the standard solution. System repeatability: When the test is repeated 6 times with 200 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vinblastine is not more than 1.5z. Loss on drying Perform the test with about 10 mg of Vin-blastine Sulfate as directed in Thermogravimetry under Thermal Analysis <2.52> according to the following condi-tions: not more than 15.0z. Operating conditions— Heating rate: 59C per minute. Temperature range: room temperature to 2009C. MS: Amount (mg) of Vinblastine Sulfate RS taken, calcu-lated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 262 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 7 mL of diethylamine add water to make 500 mL, and adjust the pH to 7.5 with phosphoric acid. To 380 mL of this solution add 620 mL of a mixture of methanol and acetonitrile (4:1). Flow rate: Adjust so that the retention time of vinblastine is about 8 minutes. System suitability— System performance: Dissolve 10 mg each of Vinblastine Sulfate and vincristine sulfate in 25 mL of water. When the procedure is run with 20 mL of this solution under the above operating conditions, vincristine and vinblastine are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vinblastine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, at not exceeding －209C."
+  }
+}

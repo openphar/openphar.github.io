@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/meropenem-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Meropenem for Injection",
+    "ja": "注射用メロペネム"
+  },
+  "monographId": "JP18-meropenem-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Meropenem for Injection is a preparation for injec-tion, which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Meropenem for Injection occurs as a white to light yellow crystalline powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Meropenem for Injection as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 3410 cm－1, 1750 cm－1, 1655 cm－1, 1583 cm－1 and 1391 cm－1. pH <2.54> Dissolve an amount of Meropenem for Injec-tion, equivalent to 0.25 g (potency) of Meropenem Hydrate, in 5 mL of water: the pH of the solution is between 7.3 and 8.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve an amount of Meropenem for Injection, equivalent to 1.0 g (po-tency) of Meropenem Hydrate, in 20 mL of water: the solu-tion is clear and is not more intensely colored than the fol-lowing control solution. Control solution: To a mixture of 0.3 mL of Cobalt (II) Chloride CS and 1.2 mL of Iron (III) Chloride CS add 18.5 mL of diluted hydrochloric acid (1 in 40). Amount [mg (potency)] of meropenem (C ＝ MS × QT/QS × 1000 17H25N3O5S) (2) Related substances—Dissolve an amount of Meropenem for Injection, equivalent to 0.10 g (potency) of Meropenem Hydrate, in triethylamine-phosphate buffer so- MS: Amount [mg (potency)] of Meropenem RS taken Internal standard solution—A solution of benzyl alcohol in triethylamine-phosphate buffer solution (pH 5.0) (1 in 300). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 6.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of triethylamine-phosphate buffer solution (pH 5.0) and methanol (5:1). Flow rate: Adjust so that the retention time of meropenem is about 7 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, meropenem and the internal standard are eluted in this order with the resolution between these peaks being not less than 20. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating lution (pH 5.0) to make 25 mL, and use this solution as the sample solution. Prepare the sample solution before use. Pipet 1 mL of the sample solution, add triethylamine-phosphate buffer solution (pH 5.0) to make exactly 100 mL. Pipet 5 mL of this solution, add triethylamine-phosphate buffer solution (pH 5.0) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area by the automatic integration method: the peak area of ring-opened meropenem and meropenem dimer, respectively having the relative retention time of about 0.5 and about 2.2 to meropenem obtained from the sample solution is not larger than the peak area of meropenem from the standard solution, the area of the peak, other than meropenem and the peaks mentioned above, is not larger than 1/5 times the peak area of meropenem from the standard solution, and the total area of the peaks other than meropenem is not larger than 3 times the peak area of meropenem from the standard solution. Operating conditions— Proceed as directed in the operating conditions in the ‌Purity (3) under Meropenem Hydrate. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add triethylamine-phosphate buffer solution (pH 5.0) to make exactly 25 mL. Confirm that the peak area of meropenem obtained with 10 mL of this solution is equivalent to 16 to 24z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the sample solution, previously allowed to stand at 609C for 30 minutes, under the above operating conditions, the ring-opened meropenem, meropenem and the meropen-em dimer are eluted in this order, and the resolution between the peaks of the ring-opened meropenem and meropenem is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of meropenem is not more than 1.5z. Loss on drying <2.41> 9.5 – 12.0z (0.1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 0.12 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Meropenem for Injection. Weigh accu-rately an amount of the contents, equivalent to about 50 mg (potency) of Meropenem Hydrate, dissolve in exactly 10 mL of the internal standard solution, add triethylamine-phosphate buffer solution (pH 5.0) to make 100 mL, and use this solution as the sample solution. Separately, weigh accu-rately an amount of Meropenem RS, equivalent to about 50 mg (potency), dissolve in exactly 10 mL of the internal stand-ard solution, add triethylamine-phosphate buffer solution (pH 5.0) to make 100 mL, and use this solution as the stand-ard solution. Then, proceed as directed in the Assay under Meropenem Hydrate. Mesalazine"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

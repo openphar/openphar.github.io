@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prednisolone-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Prednisolone Acetate",
+    "ja": "プレドニゾロン酢酸エステル"
+  },
+  "monographId": "JP18-prednisolone-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H30O6",
+  "molecularWeight": 402.48,
+  "casNumber": "52-21-1",
+  "definition": {
+    "en": "Prednisolone Acetate, when dried, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Prednisolone Acetate occurs as a white crystal-line powder. It is slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water. Melting point: about 2359C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mg of Prednisolone Acetate add 2 mL of sulfuric acid, and allow to stand for 2 to 3 minutes: a deep red color, without fluorescence, develops. To this solu-tion add 10 mL of water cautiously: the color disappears and a gray, flocculent precipitate is formed. (2) Determine the infrared absorption spectra of Pred-nisolone Acetate, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum in a range between 4000 cm－1 and 650 cm－1 with the Infrared Reference Spec-trum or the spectrum of previously dried Prednisolone Acetate RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. If any difference ap-pears, dissolve the sample and the RS in ethanol (99.5), respectively, evaporate to dryness, and repeat the test on the residues. D Optical rotation <2.49> [a]20: ＋128 – ＋1379(after drying, 70 mg, methanol, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 0.20 g of Predniso-lone Acetate in exactly 10 mL of a mixture of chloroform and methanol (9:1), and use this solution as the sample solu- plate. Examine under ultraviolet light (wavelength: 254 mm): the spots obtained from the sample solution corresponding to those from the standard solution are not more intense than the spots from the standard solution, and any spot from the sample solution other than the principal spot and the spots from prednisolone, cortisone acetate and hydrocor-tisone acetate does not appear. Loss on drying <2.41> Not more than 1.0z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 10 mg each of Prednisolone Acetate and Prednisolone Acetate RS, previously dried and accu-rately weighed, in 60 mL each of methanol, add exactly 2 mL each of the internal standard solution, then add metha-nol to make 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak height of prednisolone acetate to that of the inter-nal standard. Amount (mg) of prednisolone acetate (C23H30O6) ＝ MS × QT/QS MS: Amount (mg) of Prednisolone Acetate RS taken Internal standard solution—A solution of butyl parahydrox-ybenzoate in methanol (3 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (3:2). Flow rate: Adjust so that the retention time of predniso- lone acetate is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, prednisolone acetate and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak height of prednisolone acetate to that of the in-ternal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

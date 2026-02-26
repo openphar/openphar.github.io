@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/artemisiae-capillaris-flos",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Artemisiae Capillaris Flos",
+    "ja": "インチンコウ"
+  },
+  "monographId": "JP18-artemisiae-capillaris-flos",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Capitulum, of ovoid to spherical, about 1.5 – 2 mm in length, about 2 mm in diameter, with linear leaves and pedicels. Outer surface of capitulum, light green to light yellow-brown in color; outer surface of leaf, green to green-brown; outer surface of pedicel, green-brown to dark brown. Under a magnifying glass, at the capitulum, involucral scale in 3 – 4 succubous rows; outer scale, of ovate with obtuse; inner scale, of elliptical, 1.5 mm in length, longer than outer one, with keel midrib and thin membranous margin. Floret, tubular; marginal ‰ower, of female; disk ‰ower, of her-maphrodite. Achene, of obovoid, 0.8 mm in length. Light in texture. Odor, characteristic, slight; taste, slightly acrid, which gives slightly numbing sensation to the tongue."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Artemisia Capillaris Flower add 10 mL of methanol, shake for 3 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of acetone and hexane (1:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): a principal spot with a blue fluorescence appears at an Rf value of about 0.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Stem—When perform the test of foreign matter <5.01>, Artemisia Capillaris Flower does not contain any ‌JP XVIII Crude Drugs and Related Drugs / Asiasarum Root 1949‌ stem more than 2 mm in diameter. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 9.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

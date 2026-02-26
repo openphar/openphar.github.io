@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dibekacin-sulfate-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dibekacin Sulfate Ophthalmic Solution",
+    "ja": "ジベカシン硫酸塩点眼液"
+  },
+  "monographId": "JP18-dibekacin-sulfate-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dibekacin Sulfate Ophthalmic Solution is an aque-ous ophthalmic preparation. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Dibekacin Sulfate Ophthalmic Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Dibekacin Sulfate Ophthal-mic Solution add water so that each mL contains about 2.5 mg (potency) of Dibekacin Sulfate, and use this solution as the sample solution. Separately, dissolve an amount of Dibekacin Sulfate RS, equivalent to 5 mg (potency), in 2 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Proceed as directed in the Iden-tification (1) under Dibekacin Sulfate. pH <2.54> 6.5 – 7.5 Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require- ‌846 ment. ‌Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium and standard solu-tions—Proceed as directed in the Assay under Dibekacin Sulfate. Sample solutions—Pipet a volume of Dibekacin Sul-fate Ophthalmic Solution, equivalent to about 12 mg (po-tency), and add water to make exactly 30 mL. Pipet a suita-ble volume of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and the low con-centration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

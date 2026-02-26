@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-acetate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Acetate Hydrate",
+    "ja": "酢酸ナトリウム水和物"
+  },
+  "monographId": "JP18-sodium-acetate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Acetate Hydrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sodium Acetate Hydrate occurs as colorless crystals or a white crystalline powder. It is odorless or has a slight, acetous odor. It has a cool, saline and slightly bitter taste. It is very soluble in water, freely soluble in acetic acid (100), soluble in ethanol (95), and practically insoluble in diethyl ether. It is efflorescent in warm, dry air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Acetate Hydrate (1 in 10) responds to Qualitative Tests <1.09> for acetate and for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.0 g of Sodium Acetate Hydrate in 20 mL of water: the solution is clear and colorless. Acidity or alkalinity—Dissolve 1.0 g of Sodium Ace-tate Hydrate in 20 mL of freshly boiled and cooled water, and add 3 drops of phenolphthalein TS: a red color devel-ops. When cooled to 109C, or 1.0 mL of 0.01 mol/L hydro-chloric acid VS is added after cooling to 109C, the red color disappears. Chloride <1.03>—Perform the test with 1.0 g of Sodium Acetate Hydrate. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.011z). Sulfate <1.14>—Perform the test with 1.0 g of So- dium Acetate Hydrate. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.017z). Heavy metals <1.07>—Proceed with 2.0 g of Sodium Acetate Hydrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Calcium and magnesium—Dissolve 4.0 g of Sodium Acetate Hydrate in 25 mL of water, add 6 g of ammonium chloride, 20 mL of ammonia solution (28) and 0.25 mL of a solution of sodium sulfite heptahydrate (1 in 10), and titrate <2.50> with 0.01 mol/L disodium dihydrogen ethylene- diamine tetraacetate VS until the blue color changes to grayish blue (indicator: 0.1 g of methylthymol blue-potas-sium nitrate indicator): the amount of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS consumed is not more than 0.5 mL. Arsenic <1.11>—Prepare the test solution with 1.0 g of Sodium Acetate Hydrate, according to Method 1, and perform the test (not more than 2 ppm). Potassium permanganate-reducing substance—Dis-solve 1.0 g of Sodium Acetate Hydrate in 100 mL of water, add 5 mL of dilute sulfuric acid, boil, add 0.50 mL of 0.002 mol/L potassium permanganate VS, and further boil for 5 minutes: the red color of the solution does not disappear. Loss on drying <2.41> 39.0 – 40.5z (1 g, first at 809C for 2 hours, and then at 1309C for 2 hours). ‌Assay Weigh accurately about 0.2 g of Sodium Acetate Hydrate, previously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from yellow to green (indicator: 1 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 8.203 mg of C2H3NaO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

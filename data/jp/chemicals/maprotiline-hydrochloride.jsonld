@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/maprotiline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Maprotiline Hydrochloride",
+    "ja": "マプロチリン塩酸塩"
+  },
+  "monographId": "JP18-maprotiline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H23N.HCl",
+  "molecularWeight": 313.86,
+  "definition": {
+    "en": "Maprotiline Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Maprotiline Hydrochloride occurs as a white crystalline powder. It is soluble in methanol and in acetic acid (100), sparingly soluble in ethanol (99.5), and slightly soluble in water. Melting point: about 2449C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Maprotiline Hydrochloride in methanol (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Maprotiline Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of ‌absorption at the same wave numbers. If any difference ap-pears between the spectra, recrystallize Maprotiline Hydro-chloride with ethanol (99.5), filter, dry the crystals so ob-tained, and perform the test with the crystals. To 5 mL of a solution of Maprotiline Hydrochloride (1 in 200) add 2 mL of ammonia TS, heat on a water bath for 5 minutes, cool, and filter. Acidify the filtrate with dilute nitric acid: the solution responds to Qualitative Tests <1.09> for chloride. ‌Purity (1) Heavy metals <1.07>—Proceed with 2.0 g of Maprotiline Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.10 g of Maprotiline Hydrochloride in 5 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop with a mixture of 2-butanol, diluted ammonia solution (28) (1 in 3) and ethyl acetate (14:5:4) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the number of the spot other than the principal spot ob-tained from the sample solution is not more than 2 and they are not more intense than the spot from the standard solu-tion. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Maprotiline Hy-drochloride, previously dried, dissolve in 80 mL of acetic acid (100), add 8 mL of a solution of bismuth nitrate penta-hydrate in acetic acid (100) (1 in 50), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 31.39 mg of C20H23N.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

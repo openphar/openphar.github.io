@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aminophylline-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aminophylline Injection",
+    "ja": "アミノフィリン注射液"
+  },
+  "monographId": "JP18-aminophylline-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aminophylline Injection is an aqueous injection. It contains not less than 75."
+  },
+  "appearance": {
+    "en": "Aminophylline Injection is a clear and color-less liquid. It has a slightly bitter taste. It gradually changes in color by light. pH: 8.0 – 10.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Aminophylline Injection, equivalent to 0.75 g of Aminophylline Hydrate, add water to make 30 mL. Proceed with this solution as directed in the Identification under Aminophylline Hydrate. Bacterial endotoxins <4.01> Less than 0.6 EU/mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Theophylline—Pipet a volume of Aminophyl-line Injection, equivalent to about 39.4 mg of theophylline (C7H8N4O2) (about 50 mg of Aminophylline Hydrate), add water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of theophylline for assay, previously dried at 1059C for 4 hours, dissolve in water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with ex-actly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of theophylline in each solution. Amount (mg) of theophylline (C7H8N4O2) ＝ MS × AT/AS MS: Amount (mg) of theophylline for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of diluted acetic acid (100) (1 in 100) and methanol (4:1). Flow rate: Adjust so that the retention time of theophyl-line is about 5 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of theophylline are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of theophylline is not more than 1.0z. (2) Ethylenediamine—To an accurately measured volume of Aminophylline Injection, equivalent to about 30 mg of ethylenediamine (C2H8N2) (about 0.2 g of Aminophyl-line Hydrate), add water to make 30 mL, and titrate <2.50> with 0.1 mol/L hydrochloric acid VS (indicator: 2 to 3 drops of bromophenol blue TS). Each mL of 0.1 mol/L hydrochloric acid VS ＝ 3.005 mg of C H N 2 8 2 Description Aminophylline Injection is a clear and color-less liquid. It has a slightly bitter taste. It gradually changes in color by light. pH: 8.0 – 10.0 Identification To a volume of Aminophylline Injection, equivalent to 0.75 g of Aminophylline Hydrate, add water to make 30 mL. Proceed with this solution as directed in the Identification under Aminophylline Hydrate. Bacterial endotoxins <4.01> Less than 0.6 EU/mg."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ajmaline",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ajmaline",
+    "ja": "アジマリン"
+  },
+  "monographId": "JP18-ajmaline",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H26N2O2",
+  "molecularWeight": 326.43,
+  "definition": {
+    "en": "Ajmaline, when dried, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Ajmaline occurs as a white to pale yellow crystalline powder. It is odorless, and has a bitter taste. It is freely soluble in acetic anhydride and in chloroform, sparingly soluble in methanol, in ethanol (95), in acetone and in diethyl ether, and very slightly soluble in water. It dissolves in dilute hydrochloric acid. Melting point: about 1959C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Ajmaline in 5 mL of methanol, and use this solution as the sample solution. Add 3 mL of nitric acid to 1 mL of the sample solution: a deep red color develops. (2) Spot the sample solution of (1) on filter paper, and spray Dragendorff's TS: an orange color develops."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

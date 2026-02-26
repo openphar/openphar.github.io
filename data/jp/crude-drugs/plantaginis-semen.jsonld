@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/plantaginis-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Plantaginis Semen",
+    "ja": "シャゼンシ"
+  },
+  "monographId": "JP18-plantaginis-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened ellipsoidal seed, 2 – 2.5 mm in length, 0.7 – 1 mm in width, 0.3 – 0.5 mm in thickness; ex-ternally brown to yellow-brown and lustrous. Under a mag-nifying glass, the surface of the seed is practically smooth, with the dorsal side protruding like a bow, and with the ven-tral side somewhat dented; micropyle and raphe not observa-ble. 100 seeds weigh about 0.05 g. Almost odorless; taste, slightly bitter and mucous. Under a microscope <5.01>, a transverse section reveals a seed coat consisting of three layers of epidermis composed of cells containing mucilage, a vegetative layer, and a pigment layer of approximately equidiameter cells; in the interior, en-dosperm thicker than seed coat, enclosing two cotyledons."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 g of Plantago Seed add 2 mL of warm water, and allow the mixture to stand for 10 minutes: the seed coat swells to discharge mucilage. (2) To 1.0 g of pulverized Plantago Seed add 5 mL of methanol, shake for 10 minutes, centrifuge, and use the su-pernatant liquid as the sample solution. Separately, to 0.2 g of powdered plantago seed for thin-layer chromatography add 1 mL of methanol, and warm on a water bath for 3 minutes. After cooling, centrifuge, and use the supernatant liquid as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of acetone, ethyl ace-tate, water and acetic acid (100) (10:10:3:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methox-ybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 10 minutes: the spot appeared at an Rf value of about 0.25 obtained from the sample solution has the same color tone with the dark blue spot appeared at an Rf value of about 0.25 from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of foreign mat-ter contained in Plantago Seed does not exceed 2.0z. ‌JP XVIII Crude Drugs and Related Drugs / Powdered Platycodon Root 2101‌ Total ash <5.01> Not more than 5.5z. Acid-insoluble ash <5.01> Not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

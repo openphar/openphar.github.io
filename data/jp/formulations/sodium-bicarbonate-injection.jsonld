@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sodium-bicarbonate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sodium Bicarbonate Injection",
+    "ja": "炭酸水素ナトリウム注射液"
+  },
+  "monographId": "JP18-sodium-bicarbonate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Bicarbonate Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Sodium Bicarbonate Injection is a clear, color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Sodium Bicarbonate Injec-tion, equivalent to 1 g of Sodium Bicarbonate, add water to make 30 mL: the solution responds to Qualitative Tests <1.09> for sodium salt and for bicarbonate. pH <2.54> 7.0 – 8.5 Bacterial endotoxins <4.01> Less than 5.0 EU/mEq. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require- ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Sodium Bicarbonate Injection, equivalent to about 2 g of sodium hydrogen car-bonate (NaHCO3), titrate with 0.5 mol/L sulfuric acid VS, and proceed as directed in the Assay under Sodium Bicar-bonate. Each mL of 0.5 mol/L sulfuric acid VS ＝ 84.01 mg of NaHCO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

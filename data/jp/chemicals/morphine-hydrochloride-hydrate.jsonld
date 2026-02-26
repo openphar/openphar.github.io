@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/morphine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Morphine Hydrochloride Hydrate",
+    "ja": "モルヒネ塩酸塩水和物"
+  },
+  "monographId": "JP18-morphine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H19NO3.HCl.3H2O",
+  "molecularWeight": 375.84,
+  "casNumber": "6055-06-7",
+  "definition": {
+    "en": "Morphine Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Morphine Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is freely soluble in formic acid, soluble in water, spar-ingly soluble in methanol, and slightly soluble in ethanol (95). It gradually becomes yellow-brown by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Morphine Hydrochloride Hydrate (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum 1: both spectra exhibit similar intensities of absorption at the same wavelengths. Separately, determine the absorp-tion spectrum of a solution of Morphine Hydrochloride Hy-drate in dilute sodium hydroxide TS (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 2: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mor-phine Hydrochloride Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Morphine Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －111 – －1169(0.5 g calcu-lated on the anhydrous basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.10 g of Morphine Hydrochloride Hydrate in 10 mL of water is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.40 g of Morphine Hydrochloride Hydrate in 10 mL of water: the solution is clear. When perform the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, the absorbance at 420 nm is not more than 0.12. Sulfate <1.14>—Dissolve 0.20 g of Morphine Hydro-chloride Hydrate in 5 mL of water, and add 2 to 3 drops of barium chloride TS: no turbidity is produced. Meconic acid—Dissolve 0.20 g of Morphine Hydro-chloride Hydrate in 5 mL of water, and add 5 mL of dilute hydrochloric acid and 2 drops of iron (III) chloride TS: no red color develops. ‌Related substances—Dissolve 0.20 g of Morphine Hydrochloride Hydrate in 10 mL of diluted methanol (4 in 5), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted methanol (4 in 5) to make exactly 100 mL, and use this solution as the standard solution (1). Pipet 5 mL of the standard solution (1), add diluted methanol (4 in 5) to make exactly 10 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of acetone, ethanol (99.5) and ammonia solution (28) (21:14:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot having an Rf value of about 0.17 obtained from the sample solution is not more in-tense than the spot from the standard solution (1), and the spots other than the principal spot, the spot mentioned above and the spot of the starting point from the sample so-lution are not more intense than the spot from the standard solution (2). Water <2.48> 13 – 15z (0.1 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Morphine Hydro-chloride Hydrate, dissolve in 3.0 mL of formic acid, add 100 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), mix, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.18 mg of C17H19NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

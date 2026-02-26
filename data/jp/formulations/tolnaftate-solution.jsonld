@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tolnaftate-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tolnaftate Solution",
+    "ja": "トルナフタート液"
+  },
+  "monographId": "JP18-tolnaftate-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tolnaftate Solution contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Spot 1 drop of Tolnaftate Solution on filter paper. Spray hydrogen hexachloroplatinate (IV)-potas-sium iodide TS on the paper: a light yellow color develops in the spot. (2) To a volume of Tolnaftate Solution, equivalent to 0.02 g of Tolnaftate, add chloroform to make 10 mL, and use this solution as the sample solution. Separately, dissolve 0.02 g of Tolnaftate RS in 10 mL of chloroform, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with toluene to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample solution and that from the stand-ard solution show the same Rf value."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Tolnaftate Solution, equivalent to about 20 mg of tolnaftate (C19H17NOS), add exactly 4 mL of the internal standard solution, then add chloroform to make 50 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 0.4 g of Tolnaftate RS, previ-ously dried in vacuum at a pressure not exceeding 0.67 kPa at 659C for 3 hours, and dissolve in chloroform to make ex-actly 100 mL. Pipet 5 mL of this solution, add exactly 4 mL of the internal standard solution, then add chloroform to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of tolnaftate to that of the internal standard. Amount (mg) of tolnaftate (C19H17NOS) ＝ MS × QT/QS × 1/20 MS: Amount (mg) of Tolnaftate RS taken Internal standard solution—A solution of diphenyl phthalate Amount (mg) of tolnaftate (C 19H 17NOS) ＝ MS × AT/AS in chloroform (3 in 200). Operating conditions— MS: Amount (mg) of Tolnaftate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

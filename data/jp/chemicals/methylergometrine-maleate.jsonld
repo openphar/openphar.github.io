@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/methylergometrine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Methylergometrine Maleate",
+    "ja": "メチルエルゴメトリンマレイン酸塩"
+  },
+  "monographId": "JP18-methylergometrine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "57432-61-8",
+  "definition": {
+    "en": "Methylergometrine Maleate, when dried, contains not less than 95."
+  },
+  "appearance": {
+    "en": "Methylergometrine Maleate occurs as a white to pale yellow crystalline powder. It is odorless. It is slightly soluble in water, in methanol and in ethanol (95), and practically insoluble in diethyl ether. It gradually changes to yellow by light. Melting point: about 1909C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Methylergometrine Male-ate (1 in 200) shows a blue fluorescence. The colored solution obtained in the Assay develops a deep blue in color. Determine the absorption spectrum of the colored solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Methylergometrine Maleate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. To 5 mL of a solution of Methylergometrine Maleate (1 in 500) add 1 drop of potassium permanganate TS: the red color of the test solution fades immediately. D Optical rotation <2.49> [a]20: ＋44 – ＋509(after drying, 0.1 g, water, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure with-out exposure to light, using light-resistant vessels. Dissolve 8 mg of Methylergometrine Maleate in 2 mL of a mixture of ethanol (95) and ammonia solution (28) (9:1), and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add a mixture of ethanol (95) and ammonia solution (28) (9:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test immediately with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography, and immediately de-velop the plate with a mixture of chloroform, methanol and water (75:25:3) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 2.0z (0.2 g, in vacu-um, phosphorus (V) oxide, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Methyler- gometrine Maleate and Methylergometrine Maleate RS, pre-viously dried, add water to make exactly 250 mL, and use these solutions as the sample solution and the standard solu-tion. Pipet 2 mL each of the sample solution and the stand-ard solution separately into brown glassstoppered test tubes, add exactly 4 mL each of 4-dimethylaminobenzaldehyde-iron (III) chloride TS while ice cooling, warm for 10 minutes at 459C, and allow to stand for 20 minutes at room tempera-ture. Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solu-tion, prepared with 2.0 mL of water in the same manner, as the blank. Determine the absorbances, AT and AS, of the subsequent solutions of the sample solution and the standard solution at 545 nm, respectively. Amount (mg) of methylergometrine maleate (C20H25N3O2.C4H4O4) ＝ MS × AT/AS MS: Amount (mg) of Methylergometrine Maleate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

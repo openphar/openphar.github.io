@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cod-liver-oil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cod Liver Oil",
+    "ja": "肝油"
+  },
+  "monographId": "JP18-cod-liver-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cod Liver Oil is the fatty oils obtained from fresh livers and pyloric appendages of Gadus macrocephalus Tilesius or Theragra chalcogramma Pallas (Gadidae). Cod Liver Oil contains not less than 2000 Vitamin A Units and not more than 5000 Vitamin A Units per g."
+  },
+  "appearance": {
+    "en": "Cod Liver Oil is a yellow to orange oily liquid. It has a characteristic, slightly fishy odor and a mild taste. It is miscible with chloroform. It is slightly soluble in ethanol (95), and practically insolu-ble in water. It is decomposed by air or by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 0.1 g of Cod Liver Oil in 10 mL of chloroform, and to 1 mL of this solution add 3 mL of an-timony (III) chloride TS: a blue color develops immediately, but the color fades rapidly. Specific gravity <1.13> d 20: 0.918 – 0.928 Acid value <1.13> Not more than 1.7. Saponification value <1.13> 180 – 192 Unsaponifiable matter <1.13> Not more than 3.0z. Iodine value <1.13> 130 – 170"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Rancidity—No unpleasant odor of rancid oil is per-ceptible on warming Cod Liver Oil."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed with about 0.5 g of Cod Liver Oil, accu-rately weighed, as directed in Method 2 under the Vitamin A Determination <2.55>, and perform the test."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

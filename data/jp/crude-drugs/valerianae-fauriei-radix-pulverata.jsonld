@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/valerianae-fauriei-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Valerianae Fauriei Radix Pulverata",
+    "ja": "カノコソウ末"
+  },
+  "monographId": "JP18-valerianae-fauriei-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Japanese Valerian occurs as a dark grayish brown powder. It is somewhat moist to the touch. It has a strong, characteristic odor and a slightly bitter taste. Under a microscope <5.01>, Powdered Japanese Valerian reveals starch grains and fragments of parenchyma cells con-taining them; fragments of pitted vessels, reticulate vessels, ring vessels, and spiral vessels; fragments of exodermis con-taining oil droplets and composed of cells suberized and divided into daughter cells; fragments of yellow stone cells from the rhizome and the stolon; and very rarely, some frag-ments of epidermis and phloem fibers. Starch grains, simple grains 10 – 20 mm in diameter and 2- to 4-compound grains; oil droplets stained red with sudan III TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Japanese Valerian according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Japanese Valerian according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 5.0z. Essential oil content <5.01> Perform the test with 50.0 g of Powdered Japanese Valerian provided that 1 mL of silicon resin is previously added to the sample in the flask: the volume of essential oil is not less than 0.2 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

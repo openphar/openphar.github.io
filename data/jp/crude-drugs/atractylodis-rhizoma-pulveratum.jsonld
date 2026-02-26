@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/atractylodis-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Atractylodis Rhizoma Pulveratum",
+    "ja": "ビャクジュツ末"
+  },
+  "monographId": "JP18-atractylodis-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Atractylodes Rhizome occurs as a light brown to yellow-brown powder, and has a characteris-tic odor and a slightly bitter or slightly sweet taste, followed by a slightly bitter aftertaste. Under a microscope <5.01>, Powdered Atractylodes Rhi- zome reveals mainly parenchyma cells, crystals of inulin and fragments of parenchyma cells containing small needle crystals of calcium oxalate; fragments of light yellow thick-walled fibers, stone cells and cork cells; a few fragments of reticulate and scalariform vessels; small yellow-brown se-crete masses or oil droplets; starch grains absent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of Powdered Atractylodes Rhizome add 5 mL of hexane, shake for 5 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra- ‌JP XVIII Crude Drugs and Related Drugs / Bakumondoto Extract 1953‌ phy <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and acetic acid (100) (10:1) to a dis-tance of about 7 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a red-purple spot appears at an Rf value of about 0.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Powdered Atractylodes Rhizome according to Method 3, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Atractylodes Rhizome according to Method 4, and perform the test (not more than 5 ppm). Atractylodes lancea rhizome—When proceed as di-rected in the Identification, using exactly 5 mL of hexane, any grayish green spot does not appear at an Rf value of about 0.5, immediately below the red-purple spot appeared at an Rf value of about 0.6. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Essential oil content <5.01> Perform the test with 50.0 g of Powdered Atractylodes Rhizome: the volume of essential oil is not less than 0.4 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

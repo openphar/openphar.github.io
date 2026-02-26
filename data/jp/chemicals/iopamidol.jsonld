@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iopamidol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iopamidol",
+    "ja": "イオパミドール"
+  },
+  "monographId": "JP18-iopamidol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H22I3N3O8",
+  "molecularWeight": 777.09,
+  "definition": {
+    "en": "Iopamidol, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Iopamidol occurs as a white crystalline pow-der. It is very soluble in water, sparingly soluble in methanol, and very slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 50 mg of Iopamidol add 5 mL of hydrochloric acid, heat for 10 minutes in a water bath: the test solution responds to Qualitative Tests <1.09> for primary aromatic amines. Heat 0.1 g of Iopamidol over a flame: a purple gas is evolved. Determine the infrared absorption spectrum of Iopamidol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Optical rotation <2.49> [a]20 : －4.6 – －5.29(after drying, 4 g, water, warm, after cooling, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Iopamidol in 10 mL of water: the solution is clear and col-orless. Primary aromatic amines—Dissolve 0.60 g of Iopamidol in 8 mL of water, add 1 mL of a solution of so-dium nitrite (1 in 50) and 12 mL of 2 mol/L hydrochloric acid TS, shake, and allow to stand for 2 minutes. Add 1 mL of a solution of ammonium amidosulfate (1 in 10), shake well, allow to stand for 1 minute, and add 1 mL of naphthylethylenediamine TS and water to make exactly 50 mL. Determine the absorbance of this solution at 495 nm as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution, prepared in the same manner, as the blank: the absorbance is not more than 0.12 (not more than 0.020z). Iodine—Dissolve 2.0 g of Iopamidol in 25 mL of water, add 5 mL of 1 mol/L sulfuric acid TS and 5 mL of toluene, shake well, and allow to stand: the toluene layer is colorless. Free iodine ion—Weigh accurately about 5 g of Iopamidol, dissolve in 70 mL of water, and adjust the pH to about 4.5 with dilute acetic acid. To this solution add 2 mL of 0.1 mol/L sodium chloride TS, and titrate <2.50> with 0.001 mol/L silver nitrate VS (potentiometric titration). ‌Each mL of 0.001 mol/L silver nitrate VS ＝ 0.1269 mg of I Content of iodine ion in Iopamidol is not more than 0.001z. Heavy metals <1.07>—Moisten 1.0 g of Iopamidol with a small quantity of sulfuric acid, heat gradually to almost incinerate by a possibly lower temperature. After cooling, moisten again with a small quantity of sulfuric acid, heat gradually until white fumes no longer are evolved, and incinerate by ignition between 450 to 5509C. Proceed as di-rected in Method 2, and perform the test. Prepare the con-trol solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Iopamidol in water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylamino-2, 4,6-triiodoisophthalamide in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area of the both solutions by the automatic in-tegration method: each area of the peaks other than the peak of iopamidol from the sample solution is not larger than the peak area of the standard solution, and the total of these areas is not larger than 2.5 times of the peak area of the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase A: Water. Mobile phase B: A mixture of water and methanol (3:1). Flowing of mobile phase: Control the gradient by mixing the mobile phase A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 6 6 – 18 92 → 65 8 → 35 18 – 30 65 → 8 35 → 92 30 – 34 8 92 Flow rate: 1.5 mL per minute. Time span of measurement: About 4.3 times as long as the retention time of iopamidol. System suitability— System performance: Dissolve 1 mL of the sample solution and 10 mg of N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylamino-2,4,6-triiodoisophthalamide in water to make 100 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylami-no-2,4,6-triiodoisophthalamide and iopamidol are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above oper-ating conditions, the relative standard deviation of the peak areas of N,N?-bis[2-hydroxy-1-(hydroxymethyl)ethyl]-5-hydroxyacetylamino-2,4,6-triiodoisophthalamide is not more than 1.0z. Loss on drying <2.41> Not more than 0.30z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Iopamidol, previ-ously dried, transfer to a saponification flask, dissolve in 40 mL of sodium hydroxide TS, add 1 g of zinc powder, boil for 30 minutes under a reflux condenser, cool, and filter. Wash the flask and the filter paper with 50 mL of water, and combine the washing with the filtrate. Add 5 mL of acetic acid (100) to this solution, and titrate <2.50> with 0.1 mol/L silver nitrate VS (potentiometric titration). Each mL of 0.1 mol/L sliver nitrate VS ＝ 25.90 mg of C17H22I3N3O8"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

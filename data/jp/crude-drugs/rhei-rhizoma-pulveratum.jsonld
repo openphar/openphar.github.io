@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/rhei-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Rhei Rhizoma Pulveratum",
+    "ja": "ダイオウ末"
+  },
+  "monographId": "JP18-rhei-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Rhubarb occurs as a brown powder. It has a characteristic odor and a slightly astringent and bit-ter taste; is gritty between the teeth and colors the saliva yel-low on chewing. JP XVIII Crude Drugs and Related Drugs / Compound Rhubarb and Senna Powder 2115 ‌Under a microscope <5.01>, Powdered Rhubarb reveals starch grains, dark brown substances or druses of calcium oxalate, fragments of parenchyma cells containing them, and reticulate vessels. The starch grains are spherical, sim- side A in each solution. Amount (mg) of sennoside A (C ＝ MS × AT/AS × 1/4 42H 38O 20) ple, or 2- to 4-compound grains. Simple grain, 3 – 18 mm in diameter, rarely 30 mm; crystal druses of calcium oxalate, 30 – 60 mm in diameter, sometimes exceeding 100 mm."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of Powdered Rhubarb add 10 mL of water, shake, then add 10 mL of diethyl ether, shake, cen-trifuge, and use the diethyl ether layer as the sample solu-tion. Separately, dissolve 1 mg of rhein for thin-layer chro-matography in 10 mL of acetone, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol and water (20:3:2) to a distance of about 7 cm, and air-dry the plate: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution, and the spot develops a red color on spraying sodium carbonate TS."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Rhubarb according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Rhubarb according to Method 4, and perform the test (not more than 5 ppm). Rhaponticin—To 0.1 g of Powdered Rhubarb add exactly 10 mL of methanol, shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of rhaponticin for purity in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl for-mate, 2-butanon, water and formic acid (10:7:1:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): the chromato-gram obtained from the sample solution shows no spot hav-ing the same color tone and Rf value with the blue fluores-cent spot from the standard solution. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 13.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 30.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Powdered Rhubarb, add exactly 50 mL of a solution of sodium hydro-gen carbonate (1 in 1000), shake for 30 minutes, filter, and use the filtrate as the sample solution. Separately, weigh ac-curately about 10 mg of Sennoside A RS, (separately deter-mine the water <2.48> by coulometric titration, using 10 mg), dissolve in a solution of sodium hydrogen carbonate (1 in 1000) to make exactly 50 mL. Pipet 5 mL of this solution, add a solution of sodium hydrogen carbonate (1 in 1000) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of senno- MS: Amount (mg) of Sennoside A RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 340 nm). Column: A stainless steel column about 4 – 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of diluted acetic acid (100) (1 in 80) and acetonitrile (4:1). Flow rate: Adjust so that the retention time of sennoside A is about 15 minutes. System suitability— System performance: Dissolve 1 mg each of Sennoside A RS and naringin for thin-layer chromatography in a solution of sodium hydrogen carbonate (1 in 1000) to make 10 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, sennoside A and naringin are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of sennoside A is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

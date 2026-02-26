@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/entacapone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Entacapone Tablets",
+    "ja": "エンタカポン錠"
+  },
+  "monographId": "JP18-entacapone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Entacapone Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of en-tacapone (C14H15N3O5: 305.29). Method of preparation Prepare as directed under Tablets, with Entacapone. Identification To 1 mL of the sample solution obtained in the Assay add methanol to make 50 mL. Determine the ab-sorption spectrum of this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 301 nm and 305 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Conduct this procedure using light-resistant vessels. To 1 tablet of Entacapone Tablets add 70 mL of methanol, shake for 5 minutes, and add 60 mL of tetrahydrofuran. Sonicate for 3 minutes, shake for 5 minutes, and add methanol to make exactly 200 mL. Centrifuge this solution, pipet V mL of the supernatant liquid, add methanol to make exactly V? mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 mL of the sample solution obtained in the Assay add methanol to make 50 mL. Determine the ab-sorption spectrum of this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 301 nm and 305 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Conduct this procedure using light-resistant vessels. To 1 tablet of Entacapone Tablets add 70 mL of methanol, shake for 5 minutes, and add 60 mL of tetrahydrofuran. Sonicate for 3 minutes, shake for 5 minutes, and add methanol to make exactly 200 mL. Centrifuge this solution, pipet V mL of the supernatant liquid, add methanol to make exactly V? mL so that each mL contains about 0.5 mg of entacapone (C14H15N3O5), and use this solution as the sample solution. Then, proceed as directed in the Assay. ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of Entacapone RS taken, calculated on the dried basis C: Labeled amount (mg) of entacapone (C14H15N3O5) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately the mass of not less than 20 Entacapone Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 0.1 g of entacapone (C14H15N3O5), add 60 mL of tetrahydrofuran, and sonicate for 3 minutes. Add 60 mL of methanol, shake for 5 minutes, and add methanol to make exactly 200 mL. Centrifuge this solution, and use the supernatant liquid as the sample solu-tion. Separately, weigh accurately about 50 mg of Entaca-pone RS (separately determine the loss on drying <2.41> under the same conditions as Entacapone), dissolve in 30 mL of tetrahydrofuran, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of entacapone in each solution. Amount (mg) of entacapone (C14H15N3O5) ＝ MS × AT/AS × 2 MS: Amount (mg) of Entacapone RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 300 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with phenylated silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about Amount (mg) of entacapone (C14H ＝ MS × AT/AS × V?/V × 2 15N3O5) 259C. Mobile phase: Dissolve 2.34 g of sodium dihydrogen phos-phate dihydrate in water, add 2 mL of phosphoric acid, and MS: Amount (mg) of Entacapone RS taken, calculated on the dried basis add water to make 1000 mL. To 540 mL of this solution add 440 mL of methanol and 20 mL of tetrahydrofuran. ‌JP XVIII Official Monographs / Enviomycin Sulfate 931 Flow rate: Adjust so that the retention time of entacapone is about 12 minutes. System suitability— System performance: To 20 mL of the standard solution add a mixture of methanol and tetrahydrofuran (7:3) to make 50 mL, and use this solution as the solution for system suitability test. Separately, dissolve 5 mg of Entacapone Related Substance A for System Suitability RS in a mixture of methanol and tetrahydrofuran (7:3) to make 25 mL. To 15 mL of this solution and 15 mL of the solution for system suitability test add a mixture of methanol and tetrahydrofu-ran (7:3) to make 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, the related substance A, having the relative retention time of about 0.8 to entacapone, and entacapone are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of entacapone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

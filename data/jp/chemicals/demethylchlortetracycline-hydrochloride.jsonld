@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/demethylchlortetracycline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Demethylchlortetracycline Hydrochloride",
+    "ja": "デメチルクロルテトラサイクリン塩酸塩"
+  },
+  "monographId": "JP18-demethylchlortetracycline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H21ClN2O8.HCl",
+  "molecularWeight": 501.31,
+  "casNumber": "64-73-3",
+  "definition": {
+    "en": "Demethylchlortetracycline Hydrochloride is the hy-drochloride of a tetracycline substance having antibac-terial activity produced by the growth of the mutant of Streptomyces aureofaciens. It contains not less than 900 mg (potency) and not more than 1010 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Demethylchlortetracycline Hydrochloride oc-curs as a yellow crystalline powder. It is soluble in water, and slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 40 mg of Demethylchlortetra-cycline Hydrochloride in 250 mL of water. To 10 mL of this solution add 85 mL of water and 5 mL of a solution of so-dium hydroxide (1 in 5). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum or the spectrum of a solution of Demethyl-chlortetracycline Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Demethylchlortetracycline Hydrochloride as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of Demethylchlortetracycline Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Demethylchlortetracycline Hydrochlo-ride (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －248 – －2639(0.25 g calcu-lated on the dried basis, 0.1 mol/L hydrochloric acid TS, 25 mL, 100 mm). (2) Related substances—Dissolve 25 mg of Demethyl-chlortetracycline Hydrochloride in 50 mL of 0.01 mol/L hydrochloric acid TS, and use this solution as the sample solution. Pipet 5 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than demethylchlortetracycline obtained from the sample solution is not larger than 1.2 times the peak area of demethylchlortetracycline from the standard solution, and the total area of the peaks other than demethylchlortetra-cycline from the sample solution is not larger than 2 times the peak area of demethylchlortetracycline from the stand-ard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of demethylchlortetracycline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To 10 mL of the standard solution add 0.01 mol/L hydrochloric acid TS to make 50 mL, and use this solution as the solution for system suitabil-ity test. Pipet 5 mL of the solution for system suitability test, and add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL. Confirm that the peak area of demethylchlortetra-cycline obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution for system suitabil-ity test. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of demethylchlortetracycline is not more than 1.0z. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Demethylchlortetracycline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Demethylchlortetracycline Hydrochloride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene ‌JP XVIII Official Monographs / Deslanoside 835 copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 609C. Mobile phase: Dissolve 3.5 g of dipotassium hydrogen phosphate, 1.5 g of tetrabutylammonium hydrogensulfate and 0.4 g of disodium dihydrogen ethylenediamine tetra-acetate dihydrate in 300 mL of water, and adjust the pH to 8.5 with sodium hydroxide TS. To this solution add 75.0 g of t-butanol and water to make 1000 mL. Flow rate: Adjust so that the retention time of demethyl-chlortetracycline is about 8 minutes. System suitability— System performance: Heat 10 mL of the standard solution on a water bath for 60 minutes. When the procedure is run with 20 mL of this solution so obtained under the above operating conditions, 4-epidemethylchlortetracycline and demethylchlortetracycline are eluted in this order with the resolution between these peaks being not less than 3. The relative retention time of 4-epidemethylchlortetracycline to demethylchlortetracycline is about 0.7. ‌System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of demethylchlortetracycline is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Demethylchlortetra-cycline Hydrochloride and Demethylchlortetracycline Hy-drochloride RS, equivalent to about 25 mg (potency), dis-solve each in 0.01 mol/L hydrochloric acid TS to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of demethylchlortetracycline in each solution. Amount [ mg (potency)] of demethylchlortetracycline hydrochloride (C H ClN O .HCl) 21 21 2 8 pH <2.54> Dissolve 1.0 g of Demethylchlortetracycline Hy- drochloride in 100 mL of water: the pH of the solution is be-tween 2.0 and 3.0. Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Demethylchlortetracycline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Demethylchlortetracycline Hydrochloride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene ‌JP XVIII Official Monographs / Deslanoside 835 copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 609C. Mobile phase: Dissolve 3.5 g of dipotassium hydrogen phosphate, 1.5 g of tetrabutylammonium hydrogensulfate and 0.4 g of disodium dihydrogen ethylenediamine tetra-acetate dihydrate in 300 mL of water, and adjust the pH to 8.5 with sodium hydroxide TS. To this solution add 75.0 g of t-butanol and water to make 1000 mL. Flow rate: Adjust so that the retention time of demethyl-chlortetracycline is about 8 minutes. System suitability— System performance: Heat 10 mL of the standard solution on a water bath for 60 minutes. When the procedure is run with 20 mL of this solution so obtained under the above operating conditions, 4-epidemethylchlortetracycline and demethylchlortetracycline are eluted in this order with the resolution between these peaks being not less than 3. The relative retention time of 4-epidemethylchlortetracycline to demethylchlortetracycline is about 0.7. ‌System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of demethylchlortetracycline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

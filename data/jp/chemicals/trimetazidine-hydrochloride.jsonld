@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trimetazidine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trimetazidine Hydrochloride",
+    "ja": "トリメタジジン塩酸塩"
+  },
+  "monographId": "JP18-trimetazidine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H22N2O3.2HCl",
+  "molecularWeight": 339.26,
+  "definition": {
+    "en": "Trimetazidine Hydrochloride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Trimetazidine Hydrochloride occurs as a white crystalline powder. It is very soluble in water and in formic acid, sparingly soluble in methanol, and slightly soluble in ethanol (99.5). The pH of a solution of 1.0 g of Trimetazidine Hydrochlo-ride in 20 mL of water is between 2.3 and 3.3. Melting point: about 2279C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Trimetazidine Hydrochloride in 0.1 mol/L hy-drochloric acid TS (1 in 6250) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Trimetazidine Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Trimetazidine Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Trimetazidine Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.2 g of Trimetazidine Hydrochloride in 50 mL of water, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add water to make exactly 20 mL. Pipet 2 mL of this solution, ＝ 50.35 mg of C22H29 NO5.C4H4O4 add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.12 g of Trimetazidine Hy-drochloride, dissolve in 5 mL of formic acid, add exactly 15 mL of 0.1 mol/L perchloric acid VS, and heat at 90 – 1009C for 30 minutes. After cooling, add 45 mL of acetic acid (100), and titrate <2.50> the excess perchloric acid with 0.1 mol/L sodium acetate VS (potentiometric titration). Per-form a blank determination in the same manner. Each mL of 0.1 mol/L perchloric acid VS ＝ 16.96 mg of C14H22N2O3.2HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

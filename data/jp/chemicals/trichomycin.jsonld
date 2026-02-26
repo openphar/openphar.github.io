@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trichomycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Trichomycin",
+    "ja": "トリコマイシン"
+  },
+  "monographId": "JP18-trichomycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "12698-99-6",
+  "appearance": {
+    "en": "Trichomycin occurs as a yellow to yellow-brown powder. It is practically insoluble in water, in ethanol (99.5) and in tetrahydrofuran. It dissolves in dilute sodium hydroxide TS. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mg of Trichomycin add 2 mL of sulfuric acid: a blue color appears, and the color is changed to a blue-purple after allowing to stand. (2) Dissolve 1 mg of Trichomycin in 50 mL of a solution of sodium hydroxide (1 in 200). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 359 nm and 365 nm, between 378 nm and 384 nm, and between 400 nm and 406 nm. Content ratio of the active principle Conduct this proce-dure without exposure to light, using light-resistant vessels. Dissolve 10 mg of Trichomycin in 50 mL of a mixture of tetrahydrofuran for liquid chromatography and water (3:1), and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, determine the peak areas by the automatic integration method, and calculate the amount of trichomycin A and trichomycin B by the area percentage method: the amount of trichomycin A is between 20z and 40z, and that of trichomycin B is between 15z and 25z. The relative reten-tion time of trichomycin B to trichomycin A is about 1.2. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 360 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3.4 g of potassium dihydrogen phosphate and 1.7 g of sodium lauryl sulfate in a mixture of 600 mL of water and 400 mL of acetonitrile for liquid chro-matography. Flow rate: Adjust so that the retention time of trichomy-cin A is about 8 minutes. Time span of measurement: About 4 times as long as the retention time of trichomycin A. System suitability— Test for required detectability: Measure 5 mL of the sam-ple solution, add a mixture of tetrahydrofuran for liquid chromatography and water (3:1) to make 50 mL, and use this solution as the solution for system suitability test. Pipet 5 mL of the solution for system suitability test, and add a mixture of tetrahydrofuran for liquid chromatography and water (3:1) to make exactly 30 mL. Confirm that the peak area of trichomycin A obtained with 5 mL of this solution is equivalent to 12 to 22z of that with 5 mL of the solution for system suitability test. System performance: When the procedure is run with 5 mL of the solution for system suitability test under the above op-erating conditions, trichomycin A and trichomycin B are eluted in this order with the resolution between these peaks being not less than 2.5. System repeatability: When the test is repeated 6 times with 5 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the peak area of trichomycin A is not more than 2.0z. Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately an amount of Trichomycin and Trichomycin RS, equivalent to about 150,000 units, dissolve them separately in a mixture of tetra-hydrofuran for liquid chromatography and water (3:1) to make exactly 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of trichomycin in each solution. Amount (unit) of trichomycin ＝ MS × AT/AS MS: Amount (unit) of Trichomycin RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 360 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 15 g of ammonium acetate in 120 mL of water, and add 1000 mL of acetonitrile for liquid chromatography and 700 mL of methanol. Flow rate: Adjust so that the retention time of trichomy-cin is about 6 minutes. ‌System suitability— System performance: Dissolve 5 mg of Trichomycin and 1 mg of berberine chloride hydrate in 100 mL of a mixture of tetrahydrofuran for liquid chromatography and water (3:1). When the procedure is run with 20 mL of this solution under the above operating conditions, berberine and trichomycin are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of trichomycin is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

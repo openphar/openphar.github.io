@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/glycyrrhiza-extract",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Glycyrrhiza Extract",
+    "ja": "カンゾウエキス"
+  },
+  "monographId": "JP18-glycyrrhiza-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Glycyrrhiza Extract contains not less than 3."
+  },
+  "appearance": {
+    "en": "Glycyrrhiza Extract is a brown to blackish brown, viscous extract, and has a characteristic odor and a sweet taste. It dissolves in water, forming a clear solution, or with a slight turbidity."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.8 g of Glycyrrhiza Extract add 10 mL of a mixture of ethanol (95) and water (7:3), shake for 2 minutes, centrifuge, and use the supernatant liquid as the sample solution. Proceed as directed in the Identification under Glycyrrhiza."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Prepare the test solution with 1.0 g of Glycyrrhiza Extract as directed under the Extracts (4), and perform the test (not more than 30 ppm). (2) Insoluble matter—Dissolve 2.0 g of Glycyrrhiza Ex-tract in 18 mL of water, and filter. To 10 mL of the filtrate add 5 mL of ethanol (95): a clear solution results."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Powdered Glycyr-rhiza in a glass-stoppered centrifuge tube, add 70 mL of dilute ethanol, shake for 15 minutes, centrifuge, and sepa-rate the supernatant liquid. To the residue add 25 mL of dilute ethanol, and proceed in the same manner. Combine all the extracts, add dilute ethanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Glycyrrhizic Acid RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dissolve in dilute ethanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of glycyrrhizic acid in each solution. Amount (mg) of glycyrrhizic acid (C42H62O16) ＝ MS × AT/AS MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 720 mL of water, and add 5 mL of acetic acid (100) and 280 mL of acetonitrile. Flow rate: Adjust so that the retention time of glycyrrhizic acid is about 15 minutes. System suitability— System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak with the relative retention time of about 0.9 to glycyrrhizic acid and the peak of glycyrrhizic acid is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glycyrrhizic acid is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

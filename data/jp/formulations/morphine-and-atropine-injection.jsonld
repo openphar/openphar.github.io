@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/morphine-and-atropine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Morphine and Atropine Injection",
+    "ja": "モルヒネ・アトロピン注射液"
+  },
+  "monographId": "JP18-morphine-and-atropine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Morphine and Atropine Injection is an aqueous in-jection. It contains not less than 0."
+  },
+  "appearance": {
+    "en": "Morphine and Atropine Injection is a clear, colorless liquid. It is gradually colored by light. pH: 2.5 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 mL of Morphine and Atropine Injec-tion add 2 mL of ammonia TS, and extract with 10 mL of diethyl ether. Filter the extract with a filter paper, evaporate the filtrate on a water bath to dryness, dissolve the residue in 1 mL of ethanol (99.5), and use this solution as the sample solution. Separately, dissolve 0.1 g of morphine hydrochlo-ride hydrate in 10 mL of water, perform with 2 mL of this solution the same procedure as used for preparation of the sample solution, and use the solution so obtained as the standard solution (1). Separately, dissolve 3 mg of atropine sulfate hydrate in 10 mL of water, perform with 2 mL of this solution the same procedure as used for preparation of the sample solution, and use the solution so obtained as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of methanol and am-monia solution (28) (200:3) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS on the plate: the two spots obtained from the sample solution show the same color tone and the same Rf value with either spot of orange color from the standard solution (1) or the stand-ard solution (2) (morphine and atropine). Extractable volume <6.05> It meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Morphine hydrochloride hydrate—Pipet 2 mL of Morphine and Atropine Injection, add exactly 10 mL of the internal standard solution, then add water to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of morphine hydrochloride hydrate for assay, add exactly 10 mL of the internal standard solution to dissolve, then add water to make 50 mL, and use this solution as the standard solution. Perform the test with 20 mL of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of morphine to that of the internal standard. Amount (mg) of morphine hydrochloride hydrate (C17H19NO3.HCl.3H2O) ＝ MS × QT/QS × 1.168 MS: Amount (mg) of morphine hydrochloride hydrate for assay taken, calculated on the anhydrous basis Internal standard solution—A solution of etilefrine hydro-chloride (1 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 285 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.0 g of sodium lauryl sulfate in 500 mL of diluted phosphoric acid (1 in 1000), and adjust the pH with sodium hydroxide TS to 3.0. To 240 mL of this solution add 70 mL of tetrahydrofuran, and mix. Flow rate: Adjust so that the retention time of morphine is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, morphine and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of morphine to that of the internal standard is not more than 1.0z. (2) Atropine sulfate hydrate—Pipet 2 mL of Morphine and Atropine Injection, add exactly 2 mL of the internal standard solution, and use this solution as the sample solu-tion. Separately, weigh accurately about 15 mg of Atropine Sulfate RS (separately determine the loss on drying <2.41> under the same conditions as Atropine Sulfate Hydrate), and dissolve in water to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solution, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak areas of atropine to that of the inter- ‌nal standard. Amount (mg) of atropine sulfate hydrate solution of Morphine Sulfate Hydrate in dilute sodium hy-droxide TS (1 in 10,000) as directed under Ultraviolet-visible [(C17H23 NO3)2.H2SO4.H2O] Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 2: both spectra exhibit similar inten- ＝ MS × QT/QS × 1/25 × 1.027 MS: Amount (mg) of Atropine Sulfate RS taken, calcu-lated on the dried basis Internal standard solution—A solution of etilefrine hydro-chloride (1 in 12,500). Operating conditions— Column, column temperature, and mobile phase: Proceed as directed in the operating conditions in the Assay (1). Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Flow rate: Adjust so that the retention time of morphine is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the sample solution under the above operating condi-tions, morphine, the internal standard and atropine are eluted in this order, and the resolution between morphine and the internal standard is not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of atropine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

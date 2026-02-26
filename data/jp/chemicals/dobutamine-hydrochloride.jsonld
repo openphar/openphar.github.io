@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dobutamine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dobutamine Hydrochloride",
+    "ja": "ドブタミン塩酸塩"
+  },
+  "monographId": "JP18-dobutamine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H23NO3.HCl",
+  "molecularWeight": 337.84,
+  "casNumber": "49745-95-1",
+  "definition": {
+    "en": "Dobutamine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dobutamine Hydrochloride occurs as white to very pale orange, crystalline powder or grains. It is freely soluble in methanol, sparingly soluble in water and in ethanol (95), and practically insoluble in diethyl ether. A solution of Dobutamine Hydrochloride (1 in 100) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec- ‌878 tra of Dobutamine Hydrochloride, previously dried, as di-rected in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of dried Dobuta-mine Hydrochloride RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. (2) A solution of Dobutamine Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> Dissolve 1.0 g of Dobutamine Hydrochloride in 100 mL of water: the pH of this solution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Dobutamine Hydrochloride in 30 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Dissolve 1.0 g of Dobutamine Hydrochloride in 40 mL of water by warming, cool, and add 2 mL of dilute acetic acid and water to make 50 mL. Per-form the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add water to make 50 mL (not more than 20 ppm). Related substances—Dissolve 0.10 g of Dobutamine Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and formic acid (78:22:5) to a distance of about 12 cm, and air-dry the plate. Allow the plate to stand for 5 minutes in iodine vapor: the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.30z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g each of Dobutamine Hydrochloride and Dobutamine Hydrochloride RS, each previously dried, dissolve separately in exactly 10 mL of the internal standard solution, add diluted methanol (1 in 2) to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of dobutamine to that of the internal standard, respectively. Amount (mg) of dobutamine hydrochloride (C18H23NO3.HCl) ＝ MS × QT/QS MS: Amount (mg) of Dobutamine Hydrochloride RS taken Internal standard solution—A solution of salicylamide in diluted methanol (1 in 2) (1 in 125). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of tartrate buffer solution (pH 3.0) and methanol (7:3). Flow rate: Adjust so that the retention time of dobuta-mine is about 7 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, dobutamine and internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of dobutamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

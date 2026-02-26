@@ -1,0 +1,457 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/markers/",
+    "op": "https://www.openphar.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/bakumondoto-extract-ginesenoside-rb1",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "ginesenoside Rb1",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/ginesenoside-rb1"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C54H92O23",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 1109.29,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 1.2
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/bofutsushosan-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 9.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 36.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/bofutsushosan-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 54.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 162.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/boiogito-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 10.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 30.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/chotosan-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 6.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 18.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/daiokanzoto-extract-sennoside-a",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "sennoside A",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/sennoside-a"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H38O20",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 862.74,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 3.5
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid (C42H62O16: 822",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid-c42h62o16-822"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "%",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 3.6
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822-93",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid (C42H62O16: 822.93).",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid-c42h62o16-822-93"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "%",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 3.6
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/crude-glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid (C42H62O16: 822",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid-c42h62o16-822"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "%",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 4.8
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/crude-glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822-93",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid (C42H62O16: 822.93).",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid-c42h62o16-822-93"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "%",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 4.8
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/goshajinkigan-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 6.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 18.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/hochuekkito-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 10.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 30.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/juzentaihoto-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 26.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 78.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/kakkontokasenkyushin-i-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 17.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 51.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/kakkontokasenkyushin-i-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 14.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 42.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/kamikihito-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 6.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 18.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/kamishoyosan-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 28.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 84.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/mukoi-daikenchuto-extract-ginsenoside-rb1",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "ginsenoside Rb1",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/ginsenoside-rb1"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C54H92O23",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 1109.29,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 1.8
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/orengedokuto-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 80.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 240.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/otsujito-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 80.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 240.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/otsujito-extract-sennoside-a",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "sennoside A",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/sennoside-a"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H38O20",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 862.74,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 0.5
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/rikkunshito-extract-ginsenoside-rb1",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "ginsenoside Rb1",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/ginsenoside-rb1"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C54H92O23",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 1109.29,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 2.4
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/ryokeijutsukanto-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 17.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 51.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/saibokuto-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 90.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 270.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/saireito-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 80.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 240.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/saireito-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 14.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 42.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/shakuyakukanzoto-extract-paeoniflorin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "paeoniflorin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/paeoniflorin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C23H28O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 480.46,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 50.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 150.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/shosaikoto-extract-baicalin",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "baicalin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/baicalin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C21H18O11",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 446.36,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 80.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 240.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/shoseiryuto-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 14.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 42.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/tokakujokito-extract-glycyrrhizic-acid",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "glycyrrhizic acid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/glycyrrhizic-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H62O16",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 822.93,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 10.0,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/maximumAmount": 30.0
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/markers/tokakujokito-extract-sennosides-a",
+      "@type": [
+        "op:MarkerCompound"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/name": "sennosides A",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containsCompound": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/compounds/sennosides-a"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/unit": "mg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/formula": "C42H38O20",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/molecularWeight": 862.74,
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/minimumAmount": 3.0
+    }
+  ]
+}

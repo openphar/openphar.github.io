@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/poria",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Poria",
+    "ja": "ブクリョウ"
+  },
+  "monographId": "JP18-poria",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Mass, about 10 – 30 cm in diameter, up to 0.1 – 2 kg in mass; usually it appears as broken or chipped pieces; white or slightly reddish white; sclerotium with remaining outer layer is dark brown to dark red-brown in color, coarse, which fissures; hard in texture, but brittle. Almost odorless, almost tasteless, and slightly mucous."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Warm 1 g of pulverized Poria Scleroti-um with 5 mL of acetone on a water bath for 2 minutes with shaking, and filter. Evaporate the filtrate to dryness, dis-solve the residue in 0.5 mL of acetic anhydride, and add 1 drop of sulfuric acid: a light red color develops, which light, and fragments of false tissue consisting of granules and mucilage plates. Thin hyphae, 2 – 4 mm in diameter; thick ones, usually 10 – 20 mm, up to 30 mm. Identification (1) Warm 1 g of Powdered Poria Scleroti-um with 5 mL of acetone on a water bath for 2 minutes with shaking, and filter. Evaporate the filtrate to dryness, dis-solve the residue in 0.5 mL of acetic anhydride, and add 1 drop of sulfuric acid: a light red color develops, which changes immediately to dark green. (2) To Powdered Poria Sclerotium add 1 drop of iodine TS: a deep red-brown color is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Poria Sclerotium according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Poria Sclerotium according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow- dered Poria Sclerotium does not show starch grains. Total ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

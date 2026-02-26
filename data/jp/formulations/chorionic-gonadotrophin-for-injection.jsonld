@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/chorionic-gonadotrophin-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Chorionic Gonadotrophin for Injection",
+    "ja": "注射用ヒト絨毛性性腺刺激ホルモン"
+  },
+  "monographId": "JP18-chorionic-gonadotrophin-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Human Chorionic Gonadotrophin for Injec-tion occurs as a white to light yellow-brown powder or masses."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification under Human Chorionic Gonadotrophin. pH <2.54> Prepare a solution so that each mL of isotonic sodium chloride solution contains 2 mg of Human Chorionic Gonadotorophin for Injection: the pH of this solution is be-tween 5.0 and 7.0. Loss on drying <2.41> Not more than 5.0z (0.1 g, in vacu-um, phosphorus (V) oxide, 4 hours). Bacterial endotoxins <4.01> Less than 0.03 EU/unit. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test, when calculate the acceptance ‌JP XVIII Official Monographs / Human Menopausal Gonadotrophin 1087 value using the mean of estimated contents of the units tested as M. Foreign insoluble matter <6.06> Perform the test according to the Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in the Assay under Human Chorionic Gonadotrophin. The ratio of the assayed Units to the labeled Units should be calculated by the following equa-tion. The ratio of the assayed Units to the labeled Units ＝ antilog M"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant, and in a cold place."
+  },
+  "dosageForm": "Injection"
+}

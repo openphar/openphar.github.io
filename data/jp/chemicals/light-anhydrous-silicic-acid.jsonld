@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/light-anhydrous-silicic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Light Anhydrous Silicic Acid",
+    "ja": "軽質無水ケイ酸"
+  },
+  "monographId": "JP18-light-anhydrous-silicic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Light Anhydrous Silicic Acid contains not less than 98."
+  },
+  "appearance": {
+    "en": "Light Anhydrous Silicic Acid occurs as a white to bluish white, light, fine power. It is odorless and tasteless, and smooth to the touch. It is practically insoluble in water, in ethanol (95), and in diethyl ether. It dissolves in hydrofluoric acid, in hot potassium hydrox-ide TS and in hot sodium hydroxide TS, and does not dis-solve in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Light Anhydrous Silicic Acid in 20 mL of sodium hydroxide TS by boiling, and add 12 mL of ammonium chloride TS: a white, gelatinous precipitate is produced. The precipitate does not dissolve in dilute hydrochloric acid. To the precipitate obtained in (1) add 10 mL of a so-lution of methylene blue trihydrate (1 in 10,000), and wash with water: the precipitate has a blue color. Prepare a bead by fusing ammonium sodium hydrogenphosphate tetrahydrate on a platinum loop. Bring the hot, transparent bead into contact with Light Anhydrous Silicic Acid, and fuse again: an insoluble matter is percepti-ble in the bead. The resulting bead, upon cooling, becomes opaque and acquires a reticulated appearance."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Light An-hydrous Silicic Acid in 20 mL of sodium hydroxide TS by boiling, cool, filter if necessary, and wash with 10 mL of water. Combine the filtrate and washings, add 18 mL of di-lute nitric acid, shake, and add water to make 50 mL. Per-form the test using this solution as the test solution. To 0.15 mL of 0.01 mol/L hydrochloric acid VS add 20 mL of sodi-um hydroxide TS, 18 mL of dilute nitric acid and water to make 50 mL, and use this solution as the control solution (not more than 0.011z). Heavy metals <1.07>—Dissolve 0.5 g of Light Anhy- drous Silicic Acid in 20 mL of sodium hydroxide TS by boil- ing, cool, add 15 mL of acetic acid (31), shake, filter if nec-essary, wash with 10 mL of water, combine the filtrate and washings, and add water to make 50 mL. Perform the test using this solution as the test solution. Add acetic acid (31) to 20 mL of sodium hydroxide TS and 1 drop of phenol-phthalein TS until the color of this solution disappears, add 2.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL, and use this solution as the control solution (not more than 40 ppm). Iron <1.10>—To 0.040 g of Light Anhydrous Silicic Acid add 10 mL of dilute hydrochloric acid, and heat for 10 minutes in a water bath while shaking. After cooling, add 0.5 g of L-tartaric acid to dissolve by shaking. Prepare the test solution with this solution according to Method 2, and perform the test according to Method B. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 500 ppm). Aluminum—Dissolve 0.5 g of Light Anhydrous Silicic Acid in 40 mL of sodium hydroxide TS by boiling, cool, add sodium hydroxide TS to make 50 mL, and filter. Measure 10 mL of the filtrate, add 17 mL of acetic acid (31), shake, add 2 mL of aluminon TS and water to make 50 mL, and allow to stand for 30 minutes: the color of this solution is not deeper than that of the following control solution. Control solution: Dissolve 0.176 g of aluminum potassium sulfate dodecahydrate in water, and add water to make 1000 mL. To 15.5 mL of this solution add 10 mL of sodium hy-droxide TS, 17 mL of acetic acid (31), 2 mL of aluminon TS and water to make 50 mL. Calcium—Dissolve 1.0 g of Light Anhydrous Silicic Acid in 30 mL of sodium hydroxide TS by boiling, cool, add 20 mL of water, 1 drop of phenolphthalein TS and dilute nitric acid until the color of this solution disappears, imme-diately add 5 mL of dilute acetic acid, shake, add water to make 100 mL, and obtain a clear liquid by centrifugation or filtration. To 25 mL of this liquid add 1 mL of oxalic acid TS and ethanol (95) to make 50 mL, immediately shake, and allow to stand for 10 minutes: the turbidity of this solution is not deeper than that of the following control solution. Control solution: Dissolve 0.250 g of calcium carbonate, previously dried at 1809C for 4 hours, in 3 mL of dilute hy-drochloric acid, and add water to make 100 mL. To 4 mL of this solution add 5 mL of dilute acetic acid and water to make 100 mL. To 25 mL of this solution add 1 mL of oxalic acid TS and ethanol (95) to make 50 mL, and shake. Arsenic <1.11>—Dissolve 0.40 g of Light Anhydrous Silicic Acid in 10 mL of sodium hydroxide TS by boiling in a porcelain crucible, cool, add 5 mL of water and 5 mL of di-lute hydrochloric acid, shake, and perform the test with this solution as the test solution (not more than 5 ppm). Loss on drying <2.41> Not more than 7.0z (1 g, 1059C, 4 hours). Loss on ignition <2.43> Not more than 12.0z (1 g, 850 – 9009C, constant mass)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Light Anhydrous Silicic Acid, add 20 mL of hydrochloric acid, and evaporate to dryness on a sand bath. Moisten the residue with hydro-chloric acid, evaporate to dryness, and heat between 1109C and 1209C for 2 hours. Cool, add 5 mL of dilute hydrochlo-ric acid, and heat. Allow to cool to room temperature, add 20 to 25 mL of hot water, filter rapidly, and wash the residue with warm water until the last washing becomes negative to Qualitative Tests <1.09> (2) for chloride. Transfer the residue together with the filter paper to a platinum crucible, ignite to ash, and continue the ignition for 30 minutes. Cool, weigh ‌the crucible, and designate the mass as a (g). Moisten the residue in the crucible with water, add 6 mL of hydrofluoric acid and 3 drops of sulfuric acid, and evaporate to dryness. Heat strongly for 5 minutes, cool, weigh the crucible, and designate the mass as b (g). Amount (g) of silicon dioxide (SiO2) ＝ a － b"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrochloric-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrochloric Acid",
+    "ja": "塩酸"
+  },
+  "monographId": "JP18-hydrochloric-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Hydrochloric Acid contains not less than 35."
+  },
+  "appearance": {
+    "en": "Hydrochloric Acid is a colorless liquid having a pungent odor. It is fuming but ceases to fume when it is diluted with 2 volumes of water. Specific gravity d 20: about 1.18."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Allow a glass stick wet with ammonia TS to come near the surface of Hydrochloric Acid: a remarkable white smoke evolves. (2) A solution of Hydrochloric Acid (1 in 100) changes blue litmus paper to red, and responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—To 15 mL of Hydrochloric Acid add water to make 50 mL, and use this solution as the sample solution. To 3.0 mL of the sample solution add 5 mL of water and 5 drops of barium chloride TS, and allow to stand for 1 hour: no turbidity is produced. Sulfite—To 3.0 mL of the sample solution obtained in (1) add 5 ml of water and 1 drop of iodine TS: the color of iodine TS does not disappear. Bromide or iodide—Place 10 mL of the sample solu-tion obtained in (1) in a glass-stoppered test tube, add 1 mL of chloroform and 1 drop of 0.002 mol/L potassium per-manganate VS, and shake well: the chloroform layer remains colorless. Bromine or chlorine—Place 10 mL of the sample so- lution obtained in (1) in a glass-stoppered test tube, add 5 drops of potassium iodide TS and 1 mL of chloroform, and shake for 1 minute: the chloroform layer remains free from a purple color. Heavy metals <1.07>—Evaporate 5 mL of Hydro- chloric Acid on a water bath to dryness, and add 2 mL of dilute acetic acid and water to the residue to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution as follows: to 3.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 5 ppm). Arsenic <1.11>—Prepare the test solution with 1.7 mL of Hydrochloric Acid according to Method 1, and per-form the test (not more than 1 ppm). Mercury—Dilute 20 mL of Hydrochloric Acid with water to make exactly 100 mL, and use the solution as the sample solution. Perform the test with the sample solution as directed under Atomic Absorption Spectrophotometry <2.23> (cold vapor type). Place the sample solution in a sam- ple bottle of the atomic absorption spectrophotometer, add 10 mL of tin (II) chloride-sulfuric acid TS, connect the bottle immediately to the spectrophotometer, circulate air, and de-termine the absorbance AT of the sample solution after the recorder reading has risen rapidly, and becomes constant at a wavelength of 253.7 nm. On the other hand, to 8 mL of Standard Mercury Solution add water to make exactly 100 mL, and determine the absorbance AS of the solution ob-tained by the same procedure as used for the sample solu-tion: AT is smaller than AS (not more than 0.04 ppm). Residue on ignition <2.44> Pipet 10 mL of Hydrochloric Acid, add 2 drops of sulfuric acid, evaporate to dryness, and ignite: not more than 1.0 mg of residue remains."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a glass-stoppered flask containing 20 mL of water, add about 3 mL of Hydrochloric Acid, and weigh accurately again. Dilute with 25 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 to 3 drops of methyl red TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 36.46 mg of HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

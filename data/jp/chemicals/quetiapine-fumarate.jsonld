@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/quetiapine-fumarate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Quetiapine Fumarate",
+    "ja": "クエチアピンフマル酸塩"
+  },
+  "monographId": "JP18-quetiapine-fumarate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "111974-72-2",
+  "definition": {
+    "en": "Quetiapine Fumarate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Quetiapine Fumarate occurs as a white pow-der. It is sparingly soluble in methanol, and slightly soluble in water and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Quetiapine Fumarate in a mixture of water and acetonitrile (1:1) (3 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Quetiapine Fumarate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Quetiapine Fumarate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Quetiapine Fumarate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 40 mg of Quetiapine Fumarate and 10 mg of fumaric acid for thin-layer chromatography in separate 10 mL of methanol, and use these solutions as the sample solu-tion and the standard solution, respectively. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of isopropyl ether, formic acid and water (90:7:3) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot having a larger Rf value among the spots obtained from the sample solution and the spot from the standard so-lution show the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Quetiapine Fumarate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Related substances (i)—To 20 mg of Quetiapine Fumarate add 30 mL of the mobile phase, dissolve by sonicating, add the mobile phase to make 50 mL, and use this solution as the sample solution. Pipet 5 mL of the sam-ple solution, add the mobile phase to make exactly 100 mL. Pipet 5 mL of this solution, and add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area by the automatic integra-tion method, and calculate the amount of each related sub-stance by the following equation: the amount is not more than 0.10z. For the area of the peaks, having a relative retention time of about 0.5 and about 0.9 to quetiapine, mul-tiply their correction factors, 0.6 and 0.9, respectively. Mobile phase: A mixture of methanol, diammonium hydrogen phosphate solution (33 in 12,500) and acetonitrile (70:21:9). Flow rate: Adjust so that the retention time of quetiapine is about 3.5 minutes. Time span of measurement: About 8 times as long as the retention time of quetiapine, beginning from about 1.2 times the retention time of quetiapine. Amount (z) of each related substance ＝ AT/AS × 1/2 System suitability— Test for required detectability: Pipet 5 mL of the standard AS: Peak area of quetiapine obtained with the standard solution AT: Each peak area other than quetiapine obtained with the sample solution Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.8 times as long as the retention time of quetiapine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 50 mL. Confirm that the peak area of quetiapine obtained with 50 mL of this solution is equivalent to 7 to 13z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of quetiapine are not less than 6000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of quetiapine is not more than 2.0z. —To 20 mg of Quetiapine Fumarate add 30 mL of a mixture of acetonitrile, water and the mobile phase (2:1:1), dissolve by sonicating, add the same mixture to make 50 mL, and use this solution as the sample solution. Pipet 5 mL of the sample solution, and add the same mixture to make ex-actly 100 mL. Pipet 5 mL of this solution, add the same mix-ture to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method, and calculate the amount of each related substance by the following equation: the amount is not more than 0.10z. For the area of the peak, having a rel-ative retention time of about 1.9 to quetiapine, multiply its correction factor, 0.8. Amount (z) of each related substance ＝ AT/AS × 1/2 AS: Peak area of quetiapine obtained from the standard solution AT: Each peak area other than quetiapine obtained from the sample solution Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 250 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. solution, and add a mixture of acetonitrile, water and the mobile phase (2:1:1) to make exactly 50 mL. Confirm that the peak area of quetiapine obtained with 50 mL of this solu-tion is equivalent to 7 to 13z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of quetiapine are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of quetiapine is not more than 2.0z. —The total amount of the related substances obtained in (i) and (ii) is not more than 0.5z. Water <2.48> Not more than 0.5z (Weigh accurately about 0.1 g of Quetiapine Fumarate, transfer to a centrifuge tube, add exactly 4 mL of methanol for water determination, shake vigorously for 1 minute, and centrifuge at 2000 round per minute for 5 minutes. Pipet 1 mL of the supernatant liq-uid and perform the test. Perform a blank determination in the same manner, and make any necessary correction. Coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Quetiapine Fumarate and Quetiapine Fumarate RS (separately deter-mine the water <2.48> in the same manner as Quetiapine Fumarate), add 60 mL of the mobile phase to them, dissolve by sonicating, and add the mobile phase to make exactly 100 mL. Pipet 10 mL each of these solutions, add the mobile phase to make exactly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of quetiapine in each so-lution. Amount (mg) of quetiapine fumarate [(C21H25N3O2S)2.C4H4O4] ＝ MS × AT/AS MS: Amount (mg) of Quetiapine Fumarate RS taken, cal-culated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.6 g of diammonium hydrogen phosphate in 1000 mL of water, and adjust to pH 6.5 with phosphoric acid. To 39 volumes of this solution add 54 ‌volumes of methanol and 7 volumes of acetonitrile.‌ Flow rate: Adjust so that the retention time of quetiapine is about 15 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of quetiapine are not less than 6000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of quetiapine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

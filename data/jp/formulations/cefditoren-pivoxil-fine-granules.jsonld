@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefditoren-pivoxil-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefditoren Pivoxil Fine Granules",
+    "ja": "セフジトレン ピボキシル細粒"
+  },
+  "monographId": "JP18-cefditoren-pivoxil-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Cefditoren Pivoxil Fine Granules, equivalent to 0.1 g (potency) of Cef-ditoren Pivoxil, add 10 mL of acetonitrile, shake vigorously, and filter. To 1 mL of the filtrate add acetonitrile to make 50 mL. To 1 mL of this solution add acetonitrile to make 20 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 230 nm and 234 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Being specified separately when the drug is granted approval based on the Law. Loss on drying <2.41> Not more than 4.5z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Uniformity of dosage units <6.02> The granules in single-dose packages meet the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 1st fluid for dissolution test as the dissolution medium, the dissolution rate in 15 minutes of Cefditoren Pivoxil Fine Granules is not less than 80z. Start the test with an accurately weighed amount of Cef-ditoren Pivoxil Fine Granules, equivalent to about 0.1 g (po-tency) of Cefditoren Pivoxil, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add water to make exactly 20 mL, and use this solution as the sample so-lution. Separately, weigh accurately an amount of Cefdito-ren Pivoxil RS, equivalent to about 22 mg (potency), dis-solve in 20 mL of diluted acetonitrile (3 in 4), and add the dissolution medium to make exactly 200 mL. Pipet 2 mL of this solution, add water to make exactly 20 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, at 272 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using water as the control. Dissolution rate (z) with respect to the labeled amount of cefditoren pivoxil (C25H28N6O7S3) ＝ MS/MT × AT/AS × 1/C × 450 MS: Amount [mg(potency)] of Cefditoren Pivoxil RS taken MT: Amount (g) of Cefditoren Pivoxil Fine Granules taken C: Labeled amount [mg(potency)] of cefditoren pivoxil (C25H28N6O7S3) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately an amount of powdered Cefditoren Pivoxil Fine Granules, equivalent to about 40 mg (potency) of Cef-ditoren Pivoxil, add 70 mL of diluted acetonitrile (3 in 4), and shake vigorously. To this solution add exactly 10 mL of the internal standard solution, then add acetonitrile to make 100 mL, filter, and use the filtrate as the sample solution. Separately, weigh accurately an amount of Cefditoren Pivoxil RS, equivalent to about 20 mg (potency), dissolve in 20 mL of acetonitrile, add exactly 5 mL of the internal standard solution, then add acetonitrile to make 50 mL, and use this solution as the standard solution. Proceed as di-rected in the Assay under Cefditoren Pivoxil. Amount [mg (potency)] of cefditoren (C19H18N6O5S3) ＝ MS × QT/QS × 2 MS: Amount [mg (potency)] of Cefditoren Pivoxil RS taken Internal standard solution—A solution of propyl parahy-droxybenzoate in acetonitrile (1 in 200)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

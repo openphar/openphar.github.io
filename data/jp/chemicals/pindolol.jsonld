@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pindolol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Pindolol‌",
+    "ja": "ピンドロール"
+  },
+  "monographId": "JP18-pindolol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H20N2O2",
+  "molecularWeight": 248.32,
+  "appearance": {
+    "en": "Pindolol occurs as a white crystalline powder. It has a slight, characteristic odor. It is sparingly soluble in methanol, slightly soluble in ethanol (95), and practically insoluble in water and in diethyl ether. It dissolves in dilute sulfuric acid and in acetic acid (100)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Pindolol in methanol (1 in 10,000) add 1 mL of a solution of 1-(4- pyridyl)-pyridinium chloride hydrochloride (1 in 1000) and 1 mL of sodium hydroxide TS, then add 1 mL of hydrochloric acid: a blue to blue-purple color, changing to red-purple, is produced. Dissolve 0.05 g of Pindolol in 1 mL of dilute sulfuric acid, and add 1 mL of Reinecke salt TS: a light red precipi-tate is produced. Determine the absorption spectrum of a solution of Pindolol in methanol (1 in 50,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Pin-dolol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, acetone and isopropylamine (5:4:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (3 in 5) and a sodium nitrite solution (1 in 50) on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Pindolol, previ-ously dried, dissolve in 80 mL of methanol, and titrate <2.50> with 0.1 mol/L hydrochloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L hydrochloric acid VS ＝ 24.83 mg of C14H20N2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/filgrastim-genetical-recombination-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Filgrastim (Genetical Recombination) Injection",
+    "ja": "フィルグラスチム（遺伝子組換え）注射液"
+  },
+  "monographId": "JP18-filgrastim-genetical-recombination-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Filgrastim (Genetical Recombination) Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Filgrastim (Genetical Recombination) Injec-tion is a clear and colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take a volume of Filgrastim (Genetical Recombination) Injection, equivalent to 5 to 10 mg of Fil-grastim (Genetical Recombination) depending on the size of polyacrylamide gel for filgrastim, and add 0 to 16 mL of water. To 3 volumes of this solution add 1 volume of buffer solution for filgrastim sample so that each mL contains about 0.19 mg of protein, and use this solution as the sample solution. Then, proceed as directed in the Identification (1) under Filgrastim (Genetical Recombination). Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Multimers—Proceed as directed in the Purity (1) under Filgrastim (Genetical Recombination) using a volume of Filgrastim (Genetical Recombination) Injection, equiva-lent to about 125 mg of Filgrastim (Genetical Recombina-tion). Where, the test for required detectability and the sys-tem repeatability under the system suitability are tested using Filgrastim RS. Bacterial endotoxins <4.01> Less than 0.25 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according ‌1010 to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Biological activity Calculate the biological activity in 1 am-poule or syringe of Filgrastim (Genetical Recombination) Injection by the following equation, using the biological ac-tively in 1 mL of Filgrastim (Genetical Recombination) In-jection determined as directed in the Assay (2) under Fil-grastim (Genetical Recombination) and the labeled volume of Filgrastim (Genetical Recombination) Injection: it is not less than 70z and not more than 140z of the target biologi-cal activity (unit). Biological activity (unit) in 1 ampoule or syringe of Fil-grastim (Genetical Recombination) Injection ＝ antilog M × biological activity (unit/mL) of Filgrastim RS × dilution factor for UH/dilution factor for SH × UH/SH × labeled volume (mL) of Filgrastim (Genetical Recombination) Injection where, the target biological activity (unit) is calculated by the following formula. Target biological activity (unit) ＝ 1.5 × 108 (unit/mg) × labeled amount (mg) of Filgrastim (Genetical Recombination) in labeled volume (mL)"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test with an exact volume each of Fil-grastim (Genetical Recombination) Injection and Filgrastim RS, equivalent to about 100 mg of Filgrastim (Genetical Recombination), as directed in the Assay (1) under Fil-grastim (Genetical Recombination). Calculate the amount of filgrastim in 1 mL of Filgrastim (Genetical Recombination) Injection by following formula. Amount (mg) of filgrastim in 1 mL ＝ C × AT/AS × VS/VT C: Protein concentration (mg/mL) of Filgrastim RS VS: Amount (mL) of Filgrastim RS taken VT: Amount (mL) of Filgrastim (Genetical Recombina-tion) Injection taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

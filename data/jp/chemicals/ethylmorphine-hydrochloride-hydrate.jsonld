@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethylmorphine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethylmorphine Hydrochloride Hydrate",
+    "ja": "エチルモルヒネ塩酸塩水和物"
+  },
+  "monographId": "JP18-ethylmorphine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H23NO3.HCl.2H2O",
+  "molecularWeight": 385.88,
+  "appearance": {
+    "en": "Ethylmorphine Hydrochloride Hydrate occurs as white to pale yellow, crystals or crystalline powder. It is very soluble in methanol and in acetic acid (100), freely soluble in water, soluble in ethanol (95), sparingly soluble in acetic anhydride, and practically insoluble in diethyl ether. It is affected by light. Melting point: about 1239C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ethylmorphine Hydrochloride Hydrate (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Ethyl-morphine Hydrochloride Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. A solution of Ethylmorphine Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －103 – －1069(0.4 g calcu-lated on the anhydrous basis, water, 20 mL, 100 mm). pH <2.54> Dissolve 0.10 g of Ethylmorphine Hydrochlo-ride Hydrate in 10 mL of water: the pH of this solution is be-tween 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 0.20 g of Ethylmor-phine Hydrochloride Hydrate in 10 mL of diluted ethanol (1 in 2), and use this solution as the sample solution. Pipet 0.5 mL of the sample solution, add diluted ethanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of ethanol (99.5), toluene, acetone and ammonia solution (28) (14:14:7:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution. Water <2.48> 8.0 – 10.0z (0.25 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Ethylmorphine Hy-drochloride Hydrate, and dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 34.99 mg of C19H23NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/polaprezinc-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Polaprezinc Granules",
+    "ja": "ポラプレジンク顆粒"
+  },
+  "monographId": "JP18-polaprezinc-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Polaprezinc Granules, equivalent to about 0.1 g of polaprezinc [(C9H12N4O3Zn)n], add exactly 20 mL of 0.2 mol/L hydro-chloric acid TS, shake vigorously for 10 minutes, and centri-fuge. Pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of L-Carnosine RS, previously dried at 1059C for 3 hours, dissolve in 5 mL of 0.2 mol/L hydrochloric acid TS, add exactly 5 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of L-carnosine to that of the internal standard. mity test. To the total content of 1 package of Polaprezinc Granules add exactly V mL of 0.2 mol/L hydrochloric acid TS so that Amount (mg) of polaprezinc [(C9H ＝ MS × QT/QS × 4 × 1.292 12N4O3Zn)n] each mL contains about 5 mg of polaprezinc [(C9H12N4O3Zn)n], shake vigorously for 10 minutes, and cen-trifuge. Pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of polaprezinc [(C9H12N4O3Zn)n] ＝ MS × QT/QS × V/5 × 1.292 MS: Amount (mg) of L-Carnosine RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 0.05 mol/L acetic acid-sodium acetate buŠer solution (pH 4.0) as the dissolution medium, the dissolution rate in 15 minutes of Polaprezinc Granules is not less than 80z. Start the test with an accurately weighed amount of Polaprezinc Granules, equivalent to about 75 mg of polaprezinc [(C9H12N4O3Zn)n], withdraw not less than 20 mL of the medium at the speciˆed minute after starting the test, and ˆlter through a membrane ˆlter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the ˆrst ˆltrate, pipet 1 mL of the subsequent ˆltrate, add diluted nitric acid (77 in 10,000) to make exactly 25 mL, and use this solution as the sample solution. Separately, pipet suitable volumes of Standard Zinc Stock Solution, to each solution add diluted nitric acid (77 in 10,000) so that each mL con-tains 0.4 to 0.8 mg of zinc (Zn: 65.38), and use these solu-tions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following conditions, and calculate the amount of zinc in the sample solution using a calibration curve obtained from the absorbances of the standard solutions. Dissolution rate (z) with respect to the labeled amount of polaprezinc [(C9H12N4O3Zn)n] ＝ Content (mg/mL) of zinc in the sample solution/MT × 1/C × 2250 × 4.429 MS: Amount (mg) of L-Carnosine RS taken Internal standard solution—Dissolve 0.25 g of 4-aminoa-cetophenone in 5 mL of acetonitrile, and add the mobile phase to make 100 mL. Operating conditions— Proceed as directed in the operating conditions in the Assay (1) under Polaprezinc. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, 4-aminoacetophenone and L-carnosine are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of L-carnosine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

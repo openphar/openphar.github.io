@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/ampicillin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Ampicillin Sodium",
+    "ja": "アンピシリンナトリウム"
+  },
+  "monographId": "JP18-ampicillin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ampicillin Sodium contains not less than 850 mg (potency) and not more than 950 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Ampicillin Sodium occurs as white to light yellow-white, crystals or crystalline powder. It is very soluble in water, and sparingly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Ampicillin Sodium, previously dried in a desiccator (reduced pressure not exceeding 0.67 kPa, 609C) for 3 hours, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. (2) Ampicillin Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋246 – ＋2729(1 g calculated on the anhydrous basis, water, 100 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Ampicillin Sodium in 10 mL of water is between 8.0 and 10.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.25 g (potency) of Ampicillin Sodium in 0.75 mL of water: the so-lution is clear, and its absorbance at 400 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.40. Heavy metals <1.07>—Proceed with 1.0 g of Ampicil- lin Sodium according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ampicillin Sodium according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Ampicillin Sodium in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peaks other than ampicillin obtained from the sample so-lution is not larger than the peak area of ampicillin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 10 times as long as the retention time of ampicillin. System suitability— Test for required detectability: Measure exactly 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of ampicillin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 50 mg of Ampicillin RS in a suitable amount of the mobile phase, add 5 mL of a solution of guaifenesin in the mobile phase (1 in 200) and the mobile phase to make 50 mL, and use this solution as the solution for system suitability test. When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, ampicillin and guaifenesin are eluted in this order with the resolution between these peaks being not less than 35. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of ampicillin is not more than 1.0z. Water <2.48> Not more than 2.0z (0.2 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Ampicillin Sodium and Ampicillin RS, equivalent to about 50 mg (potency), dissolve them in a suitable amount of the mobile phase, add exactly 5 mL of the internal standard solution, then add the mobile phase to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ampicillin to that of the internal standard. Amount [mg (potency)] of ampicillin (C16H19N3O4S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Ampicillin RS taken Internal standard solution—A solution of guaifenesin in the mobile phase (1 in 200). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 5.94 g of diammonium hydrogen phosphate in 850 mL of water, add 100 mL of acetonitrile, adjust to pH 5.0 with phosphoric acid, and add water to make 1000 mL. Flow rate: Adjust so that the retention time of ampicillin is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, ampicillin and guaifenesin are eluted in this order with the resolution between these peaks being not less than 35. System repeatability: When the test is repeated 6 times ‌JP XVIII Official Monographs / Ampicillin Sodium and Sulbactam Sodium for Injection 471 ‌with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ampicillin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

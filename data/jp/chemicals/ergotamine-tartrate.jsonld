@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ergotamine-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ergotamine Tartrate",
+    "ja": "エルゴタミン酒石酸塩"
+  },
+  "monographId": "JP18-ergotamine-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "379-79-3",
+  "definition": {
+    "en": "Ergotamine Tartrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ergotamine Tartrate occurs as colorless crys-tals, or a white to pale yellow-white or grayish white crystal-line powder. It is slightly soluble in water and in ethanol (95). Melting point: about 1809C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Ergotamine Tartrate in 10 mL of a mixture of acetic acid (100) and ethyl acetate (1:1). To 0.5 mL of this solution add slowly 0.5 mL of sulfu-ric acid, with shaking in cold water, and allow to stand: a ‌JP XVIII Official Monographs / Eribulin Mesilate 951 purple color develops. To this solution add 0.1 mL of diluted iron (III) chloride TS (1 in 12): the color of the solution changes to blue to blue-purple. (2) Dissolve 1 mg of Ergotamine Tartrate in 5 mL of a solution of L-tartaric acid (1 in 100). To 1 mL of this solu-tion add 2 mL of 4-dimethylaminobenzaldehyde-iron (III) chloride TS, and shake: a blue color develops. D Optical rotation <2.49> Ergotamine base [a]20: －155 – －1659. Dissolve 0.35 g of Ergotamine Tartrate in 25 mL of a solution of L-tartaric acid (1 in 100), add 0.5 g of sodium hydrogen carbonate, shake gently and sufficiently, and ex-tract with four 10-mL portions of ethanol-free chloroform. Filter the extracts successively through a small filter paper, moistened with ethanol-free chloroform, into a 50-mL volu-metric flask. Allow the flask to stand in a water bath at 209C for 10 minutes, and determine the optical rotation in a 100-mm cell. Separately, pipet 25 mL of this solution, evaporate to dryness under reduced pressure at a tempera-ture not higher than 459C, dissolve the residue in 25 mL of acetic acid (100), and titrate <2.50> with 0.05 mol/L perchlo-ric acid VS (indicator: 1 drop of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Calculate the specific rotation of the ergotamine base from the consumed volume of 0.05 mol/L perchloric acid VS and the optical rotation. Each mL of 0.05 mol/L perchloric acid VS ＝ 29.08 mg of C33H35N5O5"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure with-out exposure to light, using light-resistant vessels. To 40 mg of Ergotamine Tartrate add 10 mL of a solution of L-tartaric acid in diluted methanol (1 in 2) (1 in 1000), dissolve with thorough shaking, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add a solution of L-tartaric acid in diluted methanol (1 in 2) (1 in 1000) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform and methanol (9:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 4-dimethylaminoben-zaldehyde TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.1 g, in vacu-um, 609C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Ergotamine Tar-trate, dissolve in 15 mL of a mixture of acetic acid (100) and acetic anhydride (50:3), and titrate <2.50> with 0.05 mol/L perchloric acid VS (indicator: 1 drop of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 32.84 mg of (C33H35N5O5)2.C4H6O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/zingiberis-rhizoma",
+  "@type": "CrudeDrugMonograph",
+
+  "prefLabel": {
+    "en": "Zingiberis Rhizoma",
+    "ja": "ショウキョウ",
+    "la": "Rhizoma Zingiberis"
+  },
+
+  "altLabel": [
+    { "@value": "Ginger", "@language": "en" },
+    { "@value": "Fresh Ginger", "@language": "en" },
+    { "@value": "生姜", "@language": "ja" },
+    { "@value": "shokyo", "@language": "ja-Latn" }
+  ],
+
+  "monographId": "JP18-006",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Zingiberis Rhizoma consists of the rhizome of Zingiber officinale Roscoe (Zingiberaceae), from which the cork layer is usually removed."
+  },
+
+  "referencesPreparation": {
+    "@id": "https://www.herbapedia.org/entity/preparation/fresh-ginger-rhizome"
+  },
+
+  "referencesTCMProfile": {
+    "@id": "https://www.herbapedia.org/system/tcm/profile/sheng-jiang"
+  },
+
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.herbapedia.org/entity/botanical/species/zingiber-officinale"
+    },
+    "plantPartUsed": {
+      "en": "Rhizome"
+    },
+    "collectionPeriod": {
+      "en": "Collected in late autumn or winter"
+    }
+  },
+
+  "macroscopicDescription": {
+    "@type": "MacroscopicDescription",
+    "color": {
+      "en": "Pale yellowish white to light yellowish brown"
+    },
+    "shape": {
+      "en": "Irregularly branched, compressed or knotty, 4-10 cm in length, 1-3 cm in diameter"
+    },
+    "size": {
+      "en": "4-10 cm in length, 1-3 cm in diameter"
+    },
+    "texture": {
+      "en": "Fibrous"
+    },
+    "fracture": {
+      "en": "Fracture surface is fibrous, pale yellow"
+    },
+    "odor": {
+      "en": "Characteristic, aromatic"
+    },
+    "taste": {
+      "en": "Pungent"
+    }
+  },
+
+  "microscopicDescription": {
+    "@type": "MicroscopicDescription",
+    "transverseSection": {
+      "en": "Cork layer usually absent; cortex composed of parenchyma cells containing starch grains, scattered with fiber bundles and oil cells; endodermis distinct; vascular bundles collateral, scattered throughout the cortex and stele; fibers thick-walled; vessels with spiral or reticulate thickenings"
+    },
+    "powderCharacteristics": {
+      "en": "Powder shows numerous starch grains (simple or compound, 5-40 μm in diameter), fragments of fibers, vessels with spiral or reticulate thickenings, and oil cells containing yellowish brown contents"
+    },
+    "diagnosticFeatures": {
+      "en": "Presence of oil cells containing yellowish brown volatile oil; parenchyma cells with calcium oxalate crystals; spiral vessels abundant"
+    }
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - TLC"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "TLC",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Zingiberis Rhizoma add 10 mL of methanol, shake for 10 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of [6]-gingerol RS in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography. Spot 5 μL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and hexane (2:3) to a distance of about 10 cm, and dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS on the plate, and heat at 105°C for 5 minutes: a spot among the spots from the sample solution and a spot from the standard solution show the same color tone and Rf value."
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Foreign Matter"
+      },
+      "testType": "TestType-ForeignMatter",
+      "harmonizedMethod": "ForeignMatter",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Total Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "TotalAsh",
+      "physicalProperty": {
+        "en": "Total Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 8.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "AcidInsolubleAsh",
+      "physicalProperty": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "[6]-Gingerol"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "[6]-Gingerol (C17H26O4)"
+      },
+      "assayExpression": "on dried basis",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Zingiberis Rhizoma, add 20 mL of methanol, heat under reflux on a water bath for 30 minutes, cool, and filter. To the residue add 20 mL of methanol, and repeat the extraction in the same manner. Combine the filtrates, add methanol to make exactly 50 mL. Pipet 5 mL of this solution, add methanol to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of [6]-gingerol RS, dissolve in methanol to make exactly 20 mL. Pipet 5 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 μL each of the sample solution and standard solution as directed under Liquid Chromatography."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.30,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method3",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 20,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "physicalProperty": {
+        "en": "Loss on Drying"
+      },
+      "testConditions": {
+        "en": "Dry at 105°C for 6 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 15.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed container"
+  },
+  "storageConditions": {
+    "en": "Store in a cool place"
+  }
+}

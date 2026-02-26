@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/naphazoline-and-chlorpheniramine-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Naphazoline and Chlorpheniramine Solution",
+    "ja": "ナファゾリン・クロルフェニラミン液"
+  },
+  "monographId": "JP18-naphazoline-and-chlorpheniramine-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Naphazoline and Chlorpheniramine Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 20 mL of Naphazoline and Chlor-pheniramine Solution add 2 mL of a solution of potassium ‌hydroxide (7 in 10) and 5 mL of pyridine, and heat at 1009C for 5 minutes: a red color is produced (chlorobutanol). Place 10 mL of Naphazoline and Chlorpheniramine Solution in a glass-stoppered test tube, add 10 mL of ethanol (95), 2 mL of sodium hydroxide TS and 1 mL of a solution of copper (II) chloride dihydrate in ethanol (95) (1 in 10), and shake: a blue color is produced (glycerin). To 20 mL of Naphazoline and Chlorpheniramine Solution add 5 mL of sodium hydroxide TS, extract with 10 mL of diethyl ether, and separate the diethyl ether layer. Take 5 mL of this solution, distil off the solvent, dissolve the residue in 5 mL of methanol, and use this solution as the sample solution. Separately, dissolve 0.01 g each of napha-zoline nitrate and Chlorpheniramine Maleate RS in 10 mL and 5 mL of methanol, respectively, and use these solutions as standard solutions (1) and (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol, acetone and ammonia so-lution (28) (73:15:10:2) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wave-length: 254 nm): two spots obtained from the sample solu-tion exhibit the same Rf values as the spots from standard solutions (1) and (2). Spray evenly Dragendorff's TS on the plate: the spots from standard solutions (1) and (2) and the corresponding spot from the sample solutions reveal an orange color."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 4 mL of Naphazoline and Chlorpheniramine Solution, add exactly 4 mL of the internal standard solution, then add water to make 10 mL, and use this solution as the sample solution. Weigh accurately about 50 mg of naphazo-line nitrate for assay, dried at 1059C for 2 hours, and about 0.1 g of Chlorpheniramine Maleate RS, dried at 1059C for 3 hours, dissolve in water to make exactly 100 mL. Pipet 4 mL of this solution, add exactly 4 mL of the internal standard solution, then add water to make 10 mL, and use this solu-tion as the standard solution. Perform the test with 10 mL each of the sample solution and standard solutions as di-rected under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QTa and QTb, of the peak height of naphazoline and chlorphenira-mine to that of the internal standard of the sample solution, and the ratios, QSa and QSb, of the peak height of naphazo-line and chlorpheniramine to that of the internal standard of the standard solution. Amount (mg) of naphazoline nitrate (C14H14N2.HNO3) ＝ MSa × QTa/QSa × 1/25 Amount (mg) of chlorpheniramine maleate Column temperature: Room temperature. Mobile phase: A mixture of acetonitrile and a solution of sodium laurylsulfate (1 in 500) in diluted phosphoric acid (1 in 1000) (1:1). Flow rate: Adjust so that the retention time of chlor-pheniramine is about 10 minutes. Selection of column: Proceed with 10 mL of the standard solution under the above operating conditions. Use a column giving well-resolved peaks of the internal standard, naphazo-line and chlorpheniramine in this order."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

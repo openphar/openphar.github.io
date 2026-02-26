@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mel",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mel",
+    "ja": "ハチミツ"
+  },
+  "monographId": "JP18-mel",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Honey is a light yellow to light yellow-brown, syrupy liquid. Usually it is transparent, but often opaque with separated crystals. It has a characteristic odor and a sweet taste. Specific gravity <2.56> Mix 50.0 g of Honey with 100 mL of water: the specific gravity of the solution is not less than d 20: 1.111."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Mix 10 g of Honey with 50 mL of water, and titrate <2.50> with 1 mol/L potassium hydroxide VS (indicator: 2 drops of phenolphthalein TS): not more than 0.5 mL is required. Sulfate—Mix 1.0 g of Honey with 2.0 mL of water, and filter. To the filtrate add 2 drops of barium chloride TS: the solution does not show any change immediately. Ammonia-coloring substances—Mix 1.0 g of Honey with 2.0 mL of water, and filter. To the filtrate add 2 mL of ammonia TS: the solution does not show any change imme- Starch or dextrin—(i) Shake 7.5 g of Honey with 15 mL of water, warm the mixture on a water bath, and add 0.5 mL of tannic acid TS. After cooling, filter, and to 1.0 mL of the filtrate add 1.0 mL of ethanol (99.5) containing 2 drops of hydrochloric acid: no turbidity is produced. (ii) To 2.0 g of Honey add 10 mL of water, warm in a water bath, mix, and allow to cool. Shake 1.0 mL of the mixture with 1 drop of iodine TS: no blue, green or red-brown color develops. Foreign matter—Mix 1.0 g of Honey with 2.0 mL of water, centrifuge the mixture, and examine the precipitate microscopically <5.01>: no foreign substance except pollen grains is observable. Total ash <5.01> Not more than 0.4z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

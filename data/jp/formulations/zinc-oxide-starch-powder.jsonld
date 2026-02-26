@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/zinc-oxide-starch-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Zinc Oxide Starch Powder",
+    "ja": "亜鉛華デンプン"
+  },
+  "monographId": "JP18-zinc-oxide-starch-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Zinc Oxide Starch Powder occurs as a white powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Place 1 g of Zinc Oxide Starch Powder in a crucible, heat gradually, raising the temperature until it is charred, and then ignite strongly: a yellow color develops, and disappears on cooling. To the residue add 10 mL of water and 5 mL of dilute hydrochloric acid, shake well, and filter. To the filtrate add 2 to 3 drops of potassium hexa-cyanoferrate (II) TS: a white precipitate is formed (zinc oxide). (2) Shake throughly 1 g of Oxide Starch Powder with 10 mL of water and 5 mL of dilute hydrochloric acid, and Description Zinc Sulfate Hydrate occurs as colorless crys-tals or white crystalline powder. It is very soluble in water, and very slightly soluble in ethanol (99.5). It effloresces in dry air. Identification (1) A solution of Zinc Sulfate Hydrate (1 in 20) responds to Qualitative Tests <1.09> for zinc salt. (2) A solution of Zinc Sulfate Hydrate (1 in 20) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 1.0 g of Zinc Sulfate Hydrate in 20 mL of water: the pH of the solution is between 4.4 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.25 g of Zinc Sulfate Hydrate in 5 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Dissolve 1.0 g of Zinc Sulfate Hydrate in 10 mL of water contained in a Nessler tube. Add 20 mL of potassium cyanide TS, and mix well. Add 2 drops of sodium sulfide TS, and allow the mixture to stand for 5 minutes. Observe vertically against a white background, the color of the solution is not more intense than the following control solution. Control solution: To 1.0 mL of Standard Lead Solution add 10 mL of water and 20 mL of potassium cyanide TS, and mix well. Add 2 drops of sodium sulfide TS (not more than 10 ppm). Alkali earth metals and alkali metals—Dissolve 2.0 g of Zinc Sulfate Hydrate in 150 mL of water, add a suitable amount of ammonium sulfide TS to complete the precipita-tion, and add water to make exactly 200 mL. Shake well, and filter through a dry filter paper. Discard the first 20 mL of the filtrate, take exactly 100 mL of the subsequent filtrate, evaporate to dryness, and ignite as directed under Residue on Ignition <2.44>: the mass of the residue is not more than 5.0 mg. Arsenic <1.11>—Prepare the test solution with 1.0 g of Zinc Sulfate Hydrate according to Method 1, and per-form the test (not more than 2 ppm). Loss on drying <2.41> Not less than 35.5z and not more than 38.5z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Zinc Sulfate Hy-drate, and dissolve in water to make exactly 100 mL. Meas-ure exactly 25 mL of this solution, add 100 mL of water and 2 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.01 mol/L disodium dihydoro-gen ethylenediamine tetraacetate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). ‌Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS‌ ＝ 2.876 mg of ZnSO4.7H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Powder"
+}

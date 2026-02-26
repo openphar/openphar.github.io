@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/pruni-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Pruni Cortex",
+    "ja": "オウヒ"
+  },
+  "monographId": "JP18-pruni-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flat or semi-tubular pieces of bark; 3 – 6 mm thick, externally light brown to brown, internal surface smooth, grayish brown to brown, occasionally periderm peeled off; the bark with periderm externally rough and lenticels observed; internal surface with many fine longitudi-nal lines; transversely cut surface grayish brown to brown, fibrous. Odor, slightly characteristics; taste, slightly bitter and astringent. Under a microscope <5.01>, a transverse section reveals cork layer containing solitary crystals and rosette aggregates of calcium oxalate in the bark with periderm; in secondary cortex many stone cells and idioblasts arranged irregularly and parenchyma cells containing solitary crystals and rosette aggregates of calcium oxalate dotted; groups of phloem fibers lined alternately with the other tissue of phloem be-tween rays."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake 1 g of pulverized Cherry Bark with 10 mL of dilute hydrochloric acid, and heat in a boiling water bath for 10 minutes. After cooling, add 5 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the diethyl ether layer as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (20:20:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a crimson spot appears at an Rf value of about 0.5. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 6.5z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

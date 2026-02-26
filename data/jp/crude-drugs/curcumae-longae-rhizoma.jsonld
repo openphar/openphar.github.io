@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/curcumae-longae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Curcumae Longae Rhizoma",
+    "ja": "ウコン"
+  },
+  "monographId": "JP18-curcumae-longae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Turmeric is a main rhizome or a lateral rhi-zome; main rhizome, nearly ovoid, about 3 cm in diameter, about 4 cm in length; lateral rhizome, cylindrical, with round tips, curved, about 1 cm in diameter, 2 - 6 cm in length; both main and lateral rhizomes with cyclic nodes; rhizome with cork layer, yellow-brown, lustrous; rhizome without cork layer, dark yellow-red, with yellow-red pow-ders on surface; hard in texture, not easily broken; transver-sely cut surface yellow-brown to red-brown, lustrous like wax. Odor, characteristic; taste, slightly bitter and stimulant, it colors a saliva yellow on chewing. Under a microscope <5.01>, a transverse section reveals the outermost layer to be composed of a cork layer 4 – 10 cells thick; sometimes a cork layer partly remains; cortex and stele, divided by an endodermis, composed of parenchyma, vascular bundles scattered; oil cells scattered in parenchyma; parenchymatous cells contain yellow substances, sandy and solitary crystals of calcium oxalate, and gelatinized starch."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of pulverized Turmeric, add 20 mL of methanol, shake for 15 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (11:9:1) to a distance about 7 cm, and air-dry the plate: a yel-low spot appears at an Rf value of about 0.4. (2) To 0.2 g of pulverized Turmeric, add 25 mL of a mix-ture of methanol and acetic acid (100) (99:1), centrifuge after shaking for 20 minutes. Perform the test with the superna-tant liquid as directed in the Assay, and determine the peak areas of curcumin, demethoxycurcumin and bisdemethox-ycurcumin: the peak area of curcumin is larger than the peak area of demethoxycurcumin and is larger than 0.69 times the peak area of bisdemethoxycurcumin."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Turmeric according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Turmeric according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 17.0z (6 hours). Total ash <5.01> Not more than 7.5z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 9.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of pulverized Turmer-ic, add 25 mL of a mixture of methanol and acetic acid (100) (99:1), shake for 20 minutes, centrifuge, and separate the su-pernatant liquid. To the residue, add 25 mL of a mixture of methanol and acetic acid (100) (99:1), and proceed in the same manner as described above. Combine all the extracts, add methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of curcumin for assay, and dissolve in methanol to make exactly 50 mL. Pipet 10 mL of this solution, add meth-anol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as described under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, ATC, ATD and ATD of curcumin, demethoxycurcumin and bis-demethoxycurcumin in the sample solution as well as the peak area AS of curcumin in the standard solution. ‌JP XVIII Crude Drugs and Related Drugs / Powdered Turmeric 2167 Amount (mg) of total curcuminoids (curcumin, demethoxycurcumin and bisdemethoxycurcumin) ＝ MS × (ATC ＋ ATD ＋ ATB × 0.69)/AS × 1/5 MS: Amount (mg) of curcumin for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 245 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilianized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, acetonitrile and acetic acid (100) (56:43:1). Flow rate: 1.0 mL per minute (the retention time of curcu-min is about 11 minutes). System suitability— System performance: Dissolve 1 mg each of curcumin for assay, demethoxycurcumin and bisdemethoxycurcumin in methanol to make 5 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, bisdemethoxycurcumin, demethoxycurcumin and curcumin are eluted in this order with the resolution among these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of curcumin is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/l-lysine-acetate",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "L-Lysine Acetate",
+    "ja": "L-リシン酢酸塩"
+  },
+  "monographId": "JP18-l-lysine-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H14N2O2.C2H4O2",
+  "molecularWeight": 206.24,
+  "definition": {
+    "en": "L-Lysine Acetate, when dried, contains not less than 98."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of L-Lysine Acetate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) A solution of L-Lysine Acetate (1 in 20) responds to Qualitative Tests <1.09> (2) for acetate. D Optical rotation <2.49> [a]20: ＋8.5 – ＋10.09(after drying, 2.5 g, water, 25 mL, 100 mm). pH <2.54> Dissolve 1.0 g of L-Lysine Acetate in 10 mL of water: the pH of the solution is between 6.5 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of L-Lysine Acetate in 10 mL of water: the solution is color-less and clear. Chloride <1.03>—Perform the test with 0.5 g of L-Lysine Acetate. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Perform the test with 0.6 g of L-Lysine Acetate. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.028z). Ammonium <1.02>—Perform the test with 0.25 g of L-Lysine Acetate. Prepare the control solution with 5.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Proceed with 1.0 g of L-Lysine Acetate according to Method 4, and perform the test. Pre- pare the control solution with 1.0 mL of Standard Lead So-lution (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of L-Lysine Acetate according to Method 1, and perform the test according to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Weigh accurately about 0.5 g of L-Lysine Acetate, dissolve in 0.5 mL of hydrochloric acid and water to make exactly 100 mL. Pipet 10 mL of this solu-tion, add 0.02 mol/L hydrochloric acid to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately 2.5 mmol amounts of L-aspartic acid, L-threonine, L-serine, L-glutamic acid, glycine, L-alanine, L-cystine, L-valine, L-methionine, L-isoleucine, L-leucine, L-tyrosine, L-phenylalanine, L-lysine hydrochloride, ammo-nium chloride, L-histidine and L-arginine, dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 1000 mL, and use this solution as the standard stock solution. Pipet 5 mL of this solution, add 0.02 mol/L hydrochloric acid to make exactly 100 mL. Pipet 4 mL of this solution, add 0.02 mol/L hydrochloric acid to make exactly 50 mL, and use this solu-tion as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Based on the peak heights of the amino acids obtained from the sample solution and standard solution, determine the mass of the amino acids other than lysine contained in 1 mL of the sample solution, and calcu-late the mass percent: the amount of each amino acids other than lysine is not more than 0.1z. Operating conditions— Detector: A visible spectrophotometer (wavelength: 570 nm). ‌1282 Column: A stainless steel column 4.6 mm in inside diame-ter and 8 cm in length, packed with strongly acidic ion-exchange resin for liquid chromatography (Na type) com-posed with a sulfonated polystyrene copolymer (3 mm in particle diameter). Column temperature: A constant temperature of about 579C. Chemical reaction bath temperature: A constant tempera-ture of about 1309C. Color developing time: About 1 minute. Mobile phase: Prepare mobile phases A, B, C, D and E according to the following table, and to each phase add 0.1 mL of capric acid. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of L-Lysine Acetate, previously dried, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L per-chloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 10.31 mg of C6H14N2O2.C2H4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

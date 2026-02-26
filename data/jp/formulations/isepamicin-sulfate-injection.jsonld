@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/isepamicin-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Isepamicin Sulfate Injection",
+    "ja": "イセパマイシン硫酸塩注射液"
+  },
+  "monographId": "JP18-isepamicin-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Isepamicin Sulfate Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Isepamicin Sulfate Injection is a clear, color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Isepamicin Sulfate Injection, equivalent to 20 mg (potency) of Isepamicin Sulfate, add water to make 10 mL, and use this solution as the sample so-lution. Separately, dissolve an amount of Isepamicin Sulfate RS, equivalent to 20 mg (potency) in 10 mL of water, and use this solution as the standard solution. Proceed with these solutions as directed in the Identification (2) under Isepami-cin Sulfate. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> 5.5 – 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of the sample solution by the automatic integration method and calculate the amounts of their peaks by the area percentage method: the amount of isoserine, having the relative retention time of about 0.3 to isepamicin, is not more than 2.0z, and the amount of gen-tamicin B, having the relative retention time of about 1.3, is not more than 4.0z. For the peak area of gentamicin B, multiply the correction factor, 1.11. ‌JP XVIII Official Monographs / Isoflurane 1195 Operating conditions— Apparatus, detector, column, column temperature, reac-tion coil, mobile phase, reaction reagent, reaction tempera-ture, flow rate of mobile phase, and flow rate of reaction reagent: Proceed as directed in the operating conditions in the Assay under Isepamicin Sulfate. Time span of measurement: About 2 times as long as the retention time of isepamicin. System suitability— System performance and system repeatability: Proceed as directed in the Assay under Isepamicin Sulfate. Test for required detectability: To 1 mL of the sample so-lution add water to make 10 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solu-tion for system suitability test, and add water to make ex-actly 10 mL. Confirm that the peak area of isepamicin ob-tained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of the solution for system suitability test. Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Isepamicin Sulfate Injection, equivalent to about 0.2 g (potency) of Isepamicin Sulfate, add water to make exactly 100 mL. Pipet 10 mL of this solu-tion, add water to make exactly 100 mL, and use this solu-tion as the sample solution. Separately, weigh accurately an amount of Isepamicin Sulfate RS, equivalent to about 20 mg (potency), dissolve in water to make exactly 100 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Isepamicin Sulfate. Amount [mg (potency)] of isepamicin (C22H43N5O12) ＝ MS × AT/AS × 10 MS: Amount [mg (potency)] of Isepamicin Sulfate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

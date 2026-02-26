@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/indapamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Indapamide",
+    "ja": "インダパミド"
+  },
+  "monographId": "JP18-indapamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H16ClN3O3S",
+  "molecularWeight": 365.83,
+  "casNumber": "26807-65-8",
+  "definition": {
+    "en": "Indapamide contains not less than 98."
+  },
+  "appearance": {
+    "en": "Indapamide occurs as a white crystalline pow-der. It is freely soluble in ethanol (99.5), and practically insolu-ble in water. A solution of Indapamide in ethanol (99.5) (1 in 10) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Indapamide in ethanol (99.5) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Indapamide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Inda-pamide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Indapamide RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Indapamide as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 1.5 g of Indapamide add 50 mL of water, shake for 15 minutes, allow to stand in an ice bath for 30 minutes, and filter. To 30 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL. Per-form the test using this solution as the test solution. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochlo-ric acid VS (not more than 0.01z). Heavy metals <1.07>—Proceed with 2.0 g of Indapa- mide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Conduct this procedure using light-resistant vessels. Dissolve 0.10 g of Indapamide in 5 mL of ethanol (99.5), and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add ethanol (99.5) to make exactly 200 mL, and use this solution as the stand-ard solution (1). Pipet 5 mL of the standard solution (1), add ethanol (99.5) to make exactly 10 mL, and use this solution as the standard solution (2). Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tions (1) and (2) on a plate of silica gel with fluorescent indi-cator for thin-layer chromatography. Immediately develop ‌JP XVIII Official Monographs / Indapamide Tablets 1149 the plate with a mixture of ethyl acetate, cyclohexane and acetic acid (100) (100:80:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution (1), and the total amount of these related substances, calculated by comparison with the spots from the standard solutions (1) and (2), is not more than 2.0z. Loss on drying <2.41> Not more than 3.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, phosphorus (V) oxide, 1109C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take 20 Imipramine Hydrochloride Tablets, add ex-actly 200 mL of 0.01 mol/L hydrochloric acid TS, and shake well until the tablets are completely disintegrated. After cen-trifuging the solution, pipet a volume of the supernatant liq-uid, equivalent to about 25 mg of imipramine hydrochloride (C19H24N2.HCl), add 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 25 mg of Imipra-mine Hydrochloride RS, previously dried at 1059C for 2 hours, dissolve in 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solu-tion. Pipet 3 mL each of these solutions into separators which contain 15 mL of potassium hydrogen phthalate buffer solution (pH 5.6), 8 mL of bromocresol green-sodium hydroxide TS and 30 mL of chloroform, and shake. Filter the chloroform layer through a pledget of absorbent cotton into a 100-mL volumetric flask. Repeat the extraction with two 30-mL portions of chloroform, combine the chloroform layers in the 100-mL volumetric flask, and add chloroform to make exactly 100 mL. Perform the test with these solu-tions as directed under Ultraviolet-visible Spectrophotome-try <2.24>, using a solution obtained by proceeding with 3 mL of 0.01 mol/L hydrochloric acid TS in the same manner as the blank. Determine the absorbances, AT and AS, of these solutions at 416 nm. Amount (mg) of imipramine hydrochloride (C19H24N2.HCl) ＝ MS × AT/AS MS: Amount (mg) of Imipramine Hydrochloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

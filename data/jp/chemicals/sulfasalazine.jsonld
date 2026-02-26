@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfasalazine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfasalazine",
+    "ja": "サラゾスルファピリジン"
+  },
+  "monographId": "JP18-sulfasalazine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H14N4O5S",
+  "molecularWeight": 398.39,
+  "casNumber": "599-79-1",
+  "appearance": {
+    "en": "Salazosulfapyridine occurs as a yellow to yel-low-brown fine powder. It is odorless and tasteless. It is sparingly soluble in pyridine, slightly soluble in ethanol (95), practically insoluble in water, in chloroform and in diethyl ether. It dissolves in sodium hydroxide TS. Melting point: 240 – 2499C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Salazosulfapyridine in 20 mL of dilute sodium hydroxide TS: a red-brown color de-velops. This color gradually fades upon gradual addition of 0.5 g of sodium hydrosulfite with shaking. Use this solution in the following tests (2) to (4). To 1 mL of the solution obtained in (1) add 40 mL of water, neutralize with 0.1 mol/L hydrochloric acid TS, and add water to make 50 mL. To 5 mL of this solution add 2 to 3 drops of dilute iron (III) chloride TS: a red color develops and changes to purple, then fades when dilute hydrochloric acid is added dropwise. The solution obtained in (1) responds to Qualitative Tests <1.09> for primary aromatic amines. To 1 mL of the solution obtained in (1) add 1 mL of pyridine and 2 drops of copper (II) sulfate TS, and shake. Add 3 mL of water and 5 mL of chloroform, shake, and al-low to stand: a green color develops in the chloroform layer. Determine the absorption spectrum of a solution of Salazosulfapyridine in dilute sodium hydroxide TS (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 2.0 g of Salazosul-fapyridine in 12 mL of sodium hydroxide TS and 36 mL of water, add 2 mL of nitric acid, shake, and filter. To 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of mL of hydrochloric acid, shake, and filter. To 25 mL of the filtrate add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Salazosulfapyridine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Take 1.0 g of Salazosulfapyridine in a decomposition flask, add 20 mL of nitric acid, and heat gently until it becomes fluid. After cooling, add 5 mL of sul-furic acid, and heat until white fumes are evolved. Add, if necessary, 5 mL of nitric acid after cooling, and heat again. Repeat this operation until the solution becomes colorless to slightly yellow. After cooling, add 15 mL of a saturated solu-tion of ammonium oxalate monohydrate, and heat until white fumes are evolved again. After cooling, add water to make 25 mL. Perform the test with 5 mL of this solution as the test solution: the color of the test solution is not deeper than that of the following color standard. Color standard: Proceed in the same manner without Salazosulfapyridine, transfer 5 mL of the obtained solution to a generator bottle, add exactly 2 mL of Standard Arsenic Solution, and proceed in the same manner as the test solu-tion with this solution (not more than 10 ppm). Related substances—Dissolve 0.20 g of Salazosul-fapyridine in 20 mL of pyridine, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add pyridine to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with diluted methanol (9 in 10) to a distance of about 10 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Salicylic acid—To 0.10 g of Salazosulfapyridine add 15 mL of diethyl ether, and shake vigorously. Add 5 mL of dilute hydrochloric acid, shake vigorously for 3 minutes, col-lect the diethyl ether layer, and filter. To the water layer add 15 mL of diethyl ether, shake vigorously for 3 minutes, col-lect the diethyl ether layer, filter, and combine the filtrates. Wash the residue on the filter paper with a small quantity of diethyl ether, and combine the washings and the filtrate. Evaporate the diethyl ether with the aid of air-stream at room temperature. To the residue add dilute ammonium iron (III) sulfate TS, shake, and filter, if necessary. Wash the residue on the filter paper with a small quantity of dilute am-monium iron (III) sulfate TS, combine the washings and the filtrate, add dilute ammonium iron (III) sulfate TS to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of salicylic acid for assay, previously dried in a desiccator (silica gel) for 3 hours, dissolve in dilute ammonium iron (III) sulfate TS to make exactly 400 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 535 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: salicylic acid content is not more than 0.5z. Content (z) of salicylic acid (C H O ) 0.01 mol/L hydrochloric acid VS (not more than 0.014z). (2) Sulfate <1.14>—Dissolve 2.0 g of Salazosulfapyridine ＝ MS × AT/AS × 1/20 7 6 3 in 12 mL of sodium hydroxide TS and 36 mL of water, add 2 MS: Amount (mg) of salicylic acid for assay taken ‌Loss on drying <2.41> Not more than 2.0z (1 g, 1059C, 4 hours).‌ Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg of Salazosulfapyri-dine, previously dried, and perform the test as directed in the procedure of determination for sulfur under Oxygen Flask Combustion Method <1.06>, using 10 mL of diluted hydro-gen peroxide (30) (1 in 40) as an absorbing liquid. Each mL of 0.005 mol/L barium perchlorate VS ＝ 1.992 mg of C18H14N4O5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

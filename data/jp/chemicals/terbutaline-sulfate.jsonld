@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/terbutaline-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Terbutaline Sulfate",
+    "ja": "テルブタリン硫酸塩"
+  },
+  "monographId": "JP18-terbutaline-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Terbutaline Sulfate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Terbutaline Sulfate is white to brownish white, crystals or crystalline powder. It is odorless or has a faint odor of acetic acid. It is freely soluble in water, and practically insoluble in acetonitrile, in ethanol (95), in acetic acid (100), in chlo-roform, and in diethyl ether. It is gradually colored by light and by air. Melting point: about 2559C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Terbutaline Sulfate in 1 mL of water, and add 5 mL of Tris buffer solution (pH 9.5), 0.5 mL of 4-aminoantipyrine solution (1 in 50) and 2 drops of potassium hexacyanoferrate (III) solution (2 in 25): a reddish purple color is produced. ‌Determine the absorption spectrum of a solution of Terbutaline Sulfate in 0.01 mol/L hydrochloric acid TS (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. This maximum can be biphasic. A solution of Terbutaline Sulfate (1 in 50) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 0.10 g of Terbutaline Sulfate in 10 mL of water: the pH of this solution is between 4.0 and 4.8."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Terbutaline Sulfate in 10 mL of water: the solution is clear and colorless or pale yellow. Chloride <1.03>—Perform the test with 2.0 g of Terbutaline Sulfate. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.004z). Acetic acid—Dissolve 0.50 g of Terbutaline Sulfate in a solution of phosphoric acid (59 in 1000) to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 1.50 g of acetic acid (100) in a solution of phos-phoric acid (59 in 1000) to make exactly 100 mL. Dilute 2 mL of this solution, accurately measured, with a solution of phosphoric acid (59 in 1000) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> ac-cording to the following conditions. Determine the peak areas, AT and AS, of acetic acid in each solution: AT is not larger than AS. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 3 mm in inside diameter and 1 m in length, packed with 10z of macrogol 6000 on 180- to 250-mm terephthalic acid for gas chromatography. Column temperature: A constant temperature at about 1209C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of acetic acid is about 5 minutes. System suitability— System performance: Mix 0.05 g each of acetic acid (100) and propionic acid in 100 mL of diluted phosphoric acid (59 in 1000). When the procedure is run with 2 mL of this solu-tion under the above conditions, acetic acid and propionic acid are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak areas of acetic acid is not more than 3.0z. 3,5-Dihydroxy-v-tert-butylaminoacetophenone sul-fate—Dissolve 0.50 g of Terbutaline Sulfate in 0.01 mol/L hydrochloric acid TS to make exactly 25 mL, and perform the test as directed under Ultraviolet-visible Spectropho-tometry <2.24>: the absorbance at a wavelength of 330 nm does not exceed 0.47. Heavy metals <1.07>—Proceed with 2.0 g of Terbuta-line Sulfate as directed under Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Terbutaline Sulfate according to method 3, and perform the test (not more than 2 ppm). Water <2.48> Not more than 0.5z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Terbutaline Sulfate, dissolve in 50 mL of a mixture of acetonitrile and acetic acid (100) (1:1) by stirring and warming. Allow to cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potenti-ometric titration, substituting a saturated solution of potas-sium chloride in methanol for the internal fluid). Each mL of 0.1 mol/L perchloric acid VS ＝ 54.87 mg of (C12H19NO3)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

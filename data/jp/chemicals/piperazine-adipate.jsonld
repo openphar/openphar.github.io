@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/piperazine-adipate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Piperazine Adipate",
+    "ja": "ピペラジンアジピン酸塩"
+  },
+  "monographId": "JP18-piperazine-adipate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H10N2.C6H10O4",
+  "molecularWeight": 232.28,
+  "definition": {
+    "en": "Piperazine Adipate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Piperazine Adipate occurs as a white crystal-line powder. It is odorless, and has a slightly acid taste. It is soluble in water and in acetic acid (100), and practi-cally insoluble in ethanol (95), in acetone and in diethyl ether. Melting point: about 2509C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Piperazine Adipate in 10 mL of water, add 1 mL of hydrochloric acid, and extract with two 20-mL portions of diethyl ether. Combine the diethyl ether extracts, evaporate to dryness on a water bath, and dry the residue at 1059C for 1 hour: the melting point <2.60> is between 1529C and 1559C. To 3 mL of a solution of Piperazine Adipate (1 in 100) add 3 drops of Reinecke salt TS: a light red precipitate is formed. Determine the infrared absorption spectrum of Piper-azine Adipate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> The pH of a solution of 1.0 g of Piperazine Adi-pate in 20 mL of water is between 5.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Piperazine Adipate in 30 mL of water: the solution is clear and colorless. (2) Heavy metals <1.07>—Proceed with 2.0 g of Pipera- zine Adipate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Piperazine Adipate, previously dried, dissolve in a mixture of 20 mL of acetic acid for nonaqueous titration and 40 mL of acetone for nonaqueous titration, and titrate <2.50> with 0.1 mol/L per-chloric acid VS until the red-purple color of the solution changes to blue-purple (indicator: 6 drops of bromocresol green-methylrosaniline chloride TS). Perform a blank deter-mination, and make any necessary correction in the same manner. Each mL of 0.1 mol/L perchloric acid VS ＝ 11.61 mg of C4H10N2.C6H10O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  }
+}

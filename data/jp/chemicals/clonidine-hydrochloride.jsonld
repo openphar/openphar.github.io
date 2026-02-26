@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clonidine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clonidine Hydrochloride",
+    "ja": "クロニジン塩酸塩"
+  },
+  "monographId": "JP18-clonidine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H9Cl2N3.HCl",
+  "molecularWeight": 266.55,
+  "casNumber": "4205-91-8",
+  "appearance": {
+    "en": "Clonidine Hydrochloride occurs as white, crys-tals or crystalline powder. It is freely soluble in methanol, soluble in water and in ethanol (95), slightly soluble in acetic acid (100), and practi- cally insoluble in acetic anhydride and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Clonidine Hy-drochloride (1 in 1000) add 6 drops of Dragendorff's TS: an orange precipitate is formed. Determine the absorption spectrum of a solution of Clonidine Hydrochloride in 0.01 mol/L hydrochloric acid TS (3 in 10,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Clonidine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Clonidine Hydrochloride (1 in 50) re-sponds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Clonidine Hydrochloride in 20 mL of water: the pH of this solution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Clonidine Hydrochloride in 20 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Cloni- dine Hydrochloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.5 g of Clonidine Hydrochloride according to Method 3, and per-form the test (not more than 4 ppm). Related substances—Dissolve 0.20 g of Clonidine Hydrochloride in 2 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 1 mL and 2 mL of this solution, to each add methanol to make exactly 20 mL, and use these solutions as the standard solution (1) and the standard solution (2), respectively. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 2 mL each of the sample solution and stand-ard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of tolu-ene, 1,4-dioxane, ethanol (99.5) and ammonia solution (28) (10:8:2:1) to a distance of about 12 cm, air-dry the plate, and then dry at 1009C for 1 hour. Spray evenly sodium hypochlorite TS on the plate, air-dry the plate for 15 minutes, and then spray evenly potassium iodide starch TS on the plate: the spots other than the principal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solu-tion (2), and the numbers of spots other than the principal spot and the spot of the starting point, which are more in-tense than the spot from the standard solution (1), are not more than 3. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Clonidine Hydro-chloride, previously dried, and dissolve in 30 mL of acetic acid (100) by warming. After cooling, add 70 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. ‌790 Each mL of 0.1 mol/L perchloric acid VS ＝ 26.66 mg of C9H9Cl2N3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

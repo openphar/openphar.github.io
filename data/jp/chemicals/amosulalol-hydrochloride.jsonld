@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amosulalol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amosulalol Hydrochloride",
+    "ja": "アモスラロール塩酸塩"
+  },
+  "monographId": "JP18-amosulalol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H24N2O5S.HCl",
+  "molecularWeight": 416.92,
+  "definition": {
+    "en": "Amosulalol Hydrochloride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Amosulalol Hydrochloride occurs as white crystals or a white crystalline powder. It has a bitter taste. It is very soluble in formic acid, freely soluble in metha- nol, and sparingly soluble in water and in ethanol (99.5). It is hygroscopic. A solution of Amosulalol Hydrochloride in methanol (1 in 100) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Amosulalol Hydrochloride (1 in 20,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Amosulalol Hydrochloride as directed in the potassium chlo-ride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Amosulalol Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Place 1.0 g of Amosulalol Hydrochloride in a porcelain crucible, add 1.5 mL of sulfuric acid, cover loosely, and heat gently to car-bonize. After cooling, add 2 mL of nitric acid, heat carefully until white fumes no longer are evolved, and then heat inten-sely to 500 – 6009C to incinerate. After cooling, add 2 mL of hydrochloric acid, proceed according to Method 2, and per-form the test. The control solution, processed in the same manner as the test solution using the same amounts of rea-gents, is prepared by combining 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). (2) Related substances—Dissolve 0.10 g of Amosulalol Hydrochloride in 20 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area of both solutions by the automatic integration method: the total area of the peaks other than amosulalol obtained from the sample solution is not larger than 2/5 times the peak area of amosulalol from the standard solu-tion. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 272 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 1.36 g of potassium dihydrogen phosphate in water to make 1000 mL, and adjust to pH 5.7 by adding a solution prepared by dissolving 3.58 g of disodi-um hydrogen phosphate dodecahydrate in water to make 1000 mL. To 670 mL of this solution add 330 mL of aceto-nitrile. Flow rate: Adjust so that the retention time of amosulalol is about 7 minutes. Time span of measurement: About 2 times as long as the retention time of amosulalol, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. ‌JP XVIII Official Monographs / Amosulalol Hydrochloride Tablets 461 Confirm that the peak area of amosulalol obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of amosulalol are not less than 4000 and not more than 1.7, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amosulalol is not more than 1.0z. Water <2.48> Not more than 4.0z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Amosulalol Hydro-chloride, dissolve in 3 mL of formic acid, add 80 mL of a mixture of acetic acid (100) and acetic anhydride (3:2), and titrate <2.50> within 5 minutes with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 41.69 mg of C18H24N2O5S.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

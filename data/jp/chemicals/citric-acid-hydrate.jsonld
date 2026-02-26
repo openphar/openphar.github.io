@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/citric-acid-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Citric Acid Hydrate",
+    "ja": "クエン酸水和物"
+  },
+  "monographId": "JP18-citric-acid-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H8O7.H2O",
+  "molecularWeight": 210.14,
+  "definition": {
+    "en": "Citric Acid Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Citric Acid Hydrate occurs as colorless crys-tals, white granules or crystalline powder. It is very soluble in water, and freely soluble in ethanol (99.5). It is efflorescent in dry air.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Citric Acid Hydrate, previously dried at 1059C for 2 hours, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.0 g of Citric Acid Hydrate in water to make 10 mL: the solution is clear and colorless or has no more color than the following control solutions (1), (2) or (3). Control solution (1): To 1.5 mL of Cobalt (II) Chloride CS and 6.0 mL of Iron (III) Chloride CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Control solution (2): To 2.5 mL of Cobalt (II) Chloride CS, 6.0 mL of Iron (III) Chloride CS and 1.0 mL of Copper (II) Sulfate CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Control solution (3): To 0.15 mL of Cobalt (II) Chloride CS, 7.2 mL of Iron (III) Chloride CS and 0.15 mL of Cop-per (II) Sulfate CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Sulfates—Dissolve 2.0 g of Citric Acid Hydrate in water to make 30 mL, and use this solution as the sample so-lution. Separately, dissolve 0.181 g of potassium sulfate in diluted ethanol (3 in 10) to make exactly 500 mL. Pipet 5 mL of this solution, and add diluted ethanol (3 in 10) to make exactly 100 mL. To 4.5 mL of this solution add 3 mL of a so-lution of barium chloride dihydrate (1 in 4), shake, and allow to stand for 1 minute. To 2.5 mL of this solution add 15 mL of the sample solution and 0.5 mL of acetic acid (31), and allow to stand for 5 minutes: the solution has no more turbidity than the following control solution. (not more than 150 ppm). Control solution: Dissolve 0.181 g of potassium sulfate in water to make exactly 500 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and proceed in the same manner as above using this solution instead of the sample so-lution. Oxalic acid—Dissolve 0.80 g of Citric Acid Hydrate in 4 mL of water, add 3 mL of hydrochloric acid and 1 g of zinc, and boil for 1 minute. After allowing to stand for 2 minutes, take the supernatant liquid, add 0.25 mL of a solu-tion of phenylhydrazinium chloride (1 in 100), heat to boil, and then cool quickly. To this solution add the equal volume of hydrochloric acid and 0.25 mL of a solution of potassium hexacyanoferrate (III) (1 in 20), mix, and allow to stand for 30 minutes: the solution has no more color than the follow-ing control solution prepared at the same time (not more than 360 ppm expressed as oxalic anhydride). Control solution: To 4 mL of a solution of oxalic acid di-hydrate (1 in 10,000) add 3 mL of hydrochloric acid and 1 g of zinc, and proceed in the same manner as the test solution. (4) Heavy metals <1.07>—Proceed with 2.0 g of Citric Acid Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm).◆ Readily carbonizable substances—Place 1.0 g of Citric Acid Hydrate in a Nessler tube, add 10 mL of sulfuric acid, immediately heat in a 90 ± 19C water bath for 60 minutes, and cool quickly. Compare the color of 2.0 mL each of this solution and Matching Fluid K, using test tubes 12 mm in outside diameter, from a side against white back-ground: the solution is not more colored than the matching fluid. ‌770 Water <2.48> Not less than 7.5z and not more than 9.0z (0.5 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.55 g of Citric Acid Hy-drate, dissolve in 50 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 1 drop of phenol-phthalein TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 64.04 mg of C6H8O7 ◆Containers and storage Containers—Tight containers.◆ Clarithromycin"
+      }
+    }
+  ]
+}

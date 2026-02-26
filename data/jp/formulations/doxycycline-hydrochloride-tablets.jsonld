@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/doxycycline-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Doxycycline Hydrochloride Tablets",
+    "ja": "ドキシサイクリン塩酸塩錠"
+  },
+  "monographId": "JP18-doxycycline-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Doxycycline Hydrochloride Tablets contain not less than 93.0z and not more than 107.0z of the labeled potency of doxycycline (C22H24N2O8: 444.43). Method of preparation Prepare as directed under Tablets, with Doxycycline Hydrochloride Hydrate. Identification Weigh a portion of powdered Doxycycline Hydrochloride Tablets, equivalent to 1 mg (potency) of Doxycycline Hydrochloride Hydrate, add 100 mL of 0.01 mol/L hydrochloric acid-methanol TS, shake thoroughly, and filter. Determine the absorption spectrum of this filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 266 nm and 271 nm and between 347 nm and 353 nm. Purity 4-Epidoxycycline—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 2 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con- Test for required detectability: To exactly 2 mL of the standard solution add 0.01 mol/L hydrochloric acid TS to make exactly 20 mL. Confirm that the peak area of doxycy-cline obtained with 10 mL of this solution is equivalent to 7 to 13z of the peak area of doxycycline with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and symmetry fac-tor of the peak of doxycycline are not less than 2200 and not more than 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak area of doxycycline is not more than 2.0z. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Doxycycline Hydrochloride Tablets add 0.01 mol/L hydrochloric acid TS, disperse the tablet by sonicating, shake for 15 minutes, then add 0.01 mol/L hy-drochloric acid TS to make exactly V mL so that each mL contains about 1 mg (potency) of Doxycycline Hydrochlo-ride Hydrate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Weigh a portion of powdered Doxycycline Hydrochloride Tablets, equivalent to 1 mg (potency) of Doxycycline Hydrochloride Hydrate, add 100 mL of 0.01 mol/L hydrochloric acid-methanol TS, shake thoroughly, and filter. Determine the absorption spectrum of this filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 266 nm and 271 nm and between 347 nm and 353 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "4-Epidoxycycline—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 2 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con- Test for required detectability: To exactly 2 mL of the standard solution add 0.01 mol/L hydrochloric acid TS to make exactly 20 mL. Confirm that the peak area of doxycy-cline obtained with 10 mL of this solution is equivalent to 7 to 13z of the peak area of doxycycline with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and symmetry fac-tor of the peak of doxycycline are not less than 2200 and not more than 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak area of doxycycline is not more than 2.0z. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Doxycycline Hydrochloride Tablets add 0.01 mol/L hydrochloric acid TS, disperse the tablet by sonicating, shake for 15 minutes, then add 0.01 mol/L hy-drochloric acid TS to make exactly V mL so that each mL contains about 1 mg (potency) of Doxycycline Hydrochlo-ride Hydrate. Centrifuge this solution, filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Then, proceed as directed in the Assay. Amount [mg (potency)] of doxycycline (C22H24N2O8) ＝ MS × AT/AS × V/20 MS: Amount [mg (potency)] of Doxycycline Hydrochlo-ride RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Doxycycline Hydrochloride Tablets is not less than 85z. Start the test with 1 tablet of Doxycycline Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Dis-card not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 11 mg (potency) of Doxycycline Hydrochloride Hydrate, and use this solution as the sample solution. Separately, weigh accurately about 22 mg (potency) of Doxycycline Hydrochloride RS, dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 274 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of doxycycline (C22H24N2O8) ＝ MS × AT/AS × V?/V × 1/C × 45 ‌904 MS: Amount [mg (potency)] of Doxycycline Hydrochlo-ride RS taken C: Labeled amount [mg(potency)] of doxycycline (C22H24N2O8) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To 10 Doxycycline Hydrochloride Tablets add 0.01 mol/L hydrochloric acid TS, disperse them by sonicating, shake for 15 minutes, and add 0.01 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 2 mg (potency) of Doxycycline Hydrochloride Hydrate. Cen-trifuge, if necessary, pipet 10 mL of the supernatant liquid, add 0.01 mol/L hydrochloric acid TS to make exactly 20 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample so-lution. Separately, weigh accurately about 20 mg (potency) of Doxycycline Hydrochloride RS, dissolve in 0.01 mol/L hydrochloric acid TS to make exactly 20 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT Droperidol"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

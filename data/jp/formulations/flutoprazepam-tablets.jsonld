@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/flutoprazepam-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Flutoprazepam Tablets",
+    "ja": "フルトプラゼパム錠"
+  },
+  "monographId": "JP18-flutoprazepam-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Flutoprazepam Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of flutoprazepam (C19H16ClFN2O: 342.79). Method of preparation Prepare as directed under Tablets, with Flutoprazepam. Identification To a quantity of powdered Flutoprazepam Tablets, equivalent to 10 mg of Flutoprazepam, add 20 mL of a solution of sulfuric acid in ethanol (99.5) (3 in 1000), shake well, and add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 100 mL. Centrifuge this solution, to 10 mL of the supernatant liquid add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 240 nm and 244 nm, between 279 nm and 285 nm, and between 369 nm and 375 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Flutoprazepam Tablets add 60 mL of the mobile phase, shake for 15 minutes to disintegrate, disperse the particle by sonicating, and add the mobile phase to make ‌exactly V mL so that each mL contains about 20 mg of flutoprazepam (C19H16ClFN2O)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Flutoprazepam Tablets, equivalent to 10 mg of Flutoprazepam, add 20 mL of a solution of sulfuric acid in ethanol (99.5) (3 in 1000), shake well, and add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 100 mL. Centrifuge this solution, to 10 mL of the supernatant liquid add a solution of sulfuric acid in ethanol (99.5) (3 in 1000) to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 240 nm and 244 nm, between 279 nm and 285 nm, and between 369 nm and 375 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Flutoprazepam Tablets add 60 mL of the mobile phase, shake for 15 minutes to disintegrate, disperse the particle by sonicating, and add the mobile phase to make ‌exactly V mL so that each mL contains about 20 mg of flutoprazepam (C19H16ClFN2O). Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 5 mL of the filtrate, and use the subsequent filtrate as the sample solution. Proceed as directed in the Assay. Amount (mg) of flutoprazepam (C19H16ClFN2O) ＝ MS × AT/AS × V/1000 MS: Amount (mg) of flutoprazepam for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 90 minutes of Flutoprazepam Tablets is not less than 70z. Start the test with 1 tablet of Flutoprazepam Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 2.2 mg of flutoprazepam (C19H16ClFN2O), and use this solution as the sample solution. Separately, weigh accurately about 22 mg of flutoprazepam for assay, previously dried at 1059C for 2 hours, and dissolve in metha-nol to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed un-der Liquid Chromatography <2.01> according to the follow-ing conditions, and determine the peak areas, AT and AS, of flutoprazepam in each solution. Dissolution rate (z) with respect to the labeled amount of flutoprazepam (C19H16ClFN2O) ＝ MS × AT/AS × V?/V × 1/C × 9 MS: Amount (mg) of flutoprazepam for assay taken C: Labeled amount (mg) of flutoprazepam (C19H16ClFN2O) in 1 tablet Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of flutoprazepam are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of flutoprazepam is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Flutoprazepam Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 2 mg of flutoprazepam (C19H16ClFN2O), add 60 mL of the mobile phase, shake for Perform the test with exactly 20 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of flutoprazepam in each solution. Amount (mg) of flutoprazepam (C19H16ClFN2O) ＝ MS × AT/AS × 1/10 MS: Amount (mg) of flutoprazepam for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol and water (3:1). Flow rate: Adjust so that the retention time of flutoprazepam is about 5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of flutoprazepam are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of flutoprazepam is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

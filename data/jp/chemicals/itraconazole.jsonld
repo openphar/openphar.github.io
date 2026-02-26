@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/itraconazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Itraconazole",
+    "ja": "イトラコナゾール"
+  },
+  "monographId": "JP18-itraconazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C35H38Cl2N8O4",
+  "molecularWeight": 705.63,
+  "casNumber": "84625-61-6",
+  "definition": {
+    "en": "Itraconazole contains not less than 98."
+  },
+  "appearance": {
+    "en": "Itraconazole occurs as a white powder. It is soluble in N,N-dimethylformamide, very slightly soluble in ethanol (99.5), and practically insoluble in water and in 2-propanol. A solution of Itraconazole in N,N-dimethylformamide (1 in 100) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Itraconazole in 2-propanol (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Itraconazole, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Itraconazole as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Itraconazole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.10 g of Itraconazole in 10 mL of a mixture of methanol and tetrahydrofuran (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mixture of methanol and tetrahydrofuran (1:1) to make exactly 100 mL. Pipet 5 mL of this solution, add the mixture of methanol and tetrahydrofu-ran (1:1) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of each solu-tion by the automatic integration method: the area of each peak other than itraconazole obtained from the sample solu-tion is not larger than the peak area of itraconazole from the standard solution. Furthermore, the total area of the peaks other than itraconazole from the sample solution is not larger than 2.5 times the peak area of itraconazole from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase A: A solution of tetrabutylammonium hydrogensulfate (17 in 625). Mobile phase B: Acetonitrile. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. 4-yl}methoxy)phenyl]piperazin-1-yl}phenyl)-2-[(1RS )-1-methylpropyl]-2,4-dihydro-3H-1,2,4-triazol-3-one Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) [84625-61-6] Itraconazole contains not less than 98.5z and not more 0 – 20 80 → 50 20 → 50 20 – 25 50 50 ‌1212‌ Flow rate: 1.5 mL per minute. Time span of measurement: About 2 times as long as the retention time of itraconazole, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add the mixture of methanol and tetra-hydrofuran (1:1) to make exactly 10 mL. Confirm that the peak area of itraconazole obtained with 10 mL of this solu-tion is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 1 mg of Itraconazole and 1 mg of miconazole nitrate in 20 mL of the mixture of metha-nol and tetrahydrofuran (1:1). When the procedure is run with 10 mL of this solution under the above operating condi-tions, miconazole and itraconazole are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of itraconazole is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Itraconazole, dis-solve in 70 mL of a mixture of 2-butanone and acetic acid (100) (7:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS dried basis. The potency of Josamycin is expressed as mass (potency) of josamycin (C42H69NO15). Description Josamycin occurs as a white to yellowish white powder. It is very soluble in methanol and in ethanol (99.5), and very slightly soluble in water. Identification (1) Determine the absorption spectrum of a solution of Josamycin in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Josamycin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Dissolve 5 mg each of Josamycin and Josamycin RS in 1 mL of methanol, add diluted methanol (1 in 2) to make 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and compare the chromatograms obtained from these solutions: the retention time of the main peak from the sample solution is the same as that of the peak of josamycin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (2). Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Josamycin according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). ＝ 35.28 mg of C35H38 Cl2N8O4 (2) Related substances—Dissolve 50 mg of Josamycin in 5 mL of methanol, add diluted methanol (1 in 2) to make 50"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

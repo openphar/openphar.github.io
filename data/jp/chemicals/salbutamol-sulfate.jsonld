@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/salbutamol-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Salbutamol Sulfate",
+    "ja": "サルブタモール硫酸塩"
+  },
+  "monographId": "JP18-salbutamol-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "51022-70-9",
+  "definition": {
+    "en": "Salbutamol Sulfate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Salbutamol Sulfate occurs as a white powder. It is freely soluble in water, slightly soluble in ethanol (95), and in acetic acid (100) and practically insoluble in diethyl ether. A solution of Salbutamol Sulfate (1 in 20) shows no opti-cal rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Salbutamol Sulfate in 0.1 mol/L hydrochloric acid TS (1 in 12,500) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Sal-butamol Sulfate, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. A solution of Salbutamol Sulfate (1 in 20) responds to Qualitative Tests <1.09> for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Salbutamol Sulfate in 20 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Sal- butamol Sulfate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 20 mg of Salbutamol Sulfate in 10 mL of water, and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, 2-propanol, water and ammonia so-lution (28) (25:15:8:2) to a distance of about 15 cm, and air-dry the plate. Leave the plate in a well-closed vessel saturated with diethylamine vapor for 5 minutes, and spray evenly 4-nitrobenzenediazonium chloride TS: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution in color. Boron—Take 50 mg of Salbutamol Sulfate and 5.0 mL of the Standard Boron Solution, and transfer to a plati-num crucible. Add 5 mL of potassium carbonate-sodium carbonate TS, evaporate on a water bath to dryness, and dry at 1209C for 1 hour. Ignite the residue immediately. After cooling, add 0.5 mL of water and 3 mL of curcumin TS to the residue, warm gently in a water bath for 5 minutes. After cooling, add 3 mL of acetic acid-sulfuric acid TS, mix, and allow to stand for 30 minutes. Add ethanol (95) to make ex-actly 100 mL, and filter. Discard the first 10 mL of the fil-trate, and use the subsequent filtrate as the sample solution and standard solution. Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using ethanol (95) as the blank: the absorbance of the sample solution at 555 nm is not larger than that of the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacuum at a pressure not exceeding 0.67 kPa, 1009C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.9 g of Salbutamol Sulfate, previously dried, and dissolve in 50 mL of acetic acid (100) by warming. After cooling, titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 57.67 mg of (C13H21NO3)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

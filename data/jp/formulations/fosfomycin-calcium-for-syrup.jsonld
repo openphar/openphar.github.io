@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/fosfomycin-calcium-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Fosfomycin Calcium for Syrup",
+    "ja": "シロップ用ホスホマイシンカルシウム"
+  },
+  "monographId": "JP18-fosfomycin-calcium-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Fosfomycin Calcium for Syrup is a preparation for syrups which is suspended before use. It contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To an amount of Fosfomycin Calcium for Syrup, equivalent to 40 mg (potency) of Fosfomycin Cal-cium Hydrate, add 10 mL of warm water, shake for 10 to 20 minutes, and collect the insoluble substances by filtration. Dissolve the substances in 3 mL of a solution of perchloric acid (1 in 4), add 1 mL of 0.1 mol/L sodium periodate solu-tion, and warm in a water bath at 609C for 30 minutes. After cooling, add 50 mL of water, neutralize the solution with a saturated solution of sodium hydrogen carbonate, and add 1 mL of potassium iodide TS: the solution does not show a red color. To an amount of Fosfomycin Calcium for Syrup, equivalent to 40 mg (potency) of Fosfomycin Calcium Hy-drate, add 10 mL of warm water, shake for 10 to 20 minutes, and collect the insoluble substances by filtration. Dissolve the substances in 3 mL of a solution of perchloric acid (1 in 4), add 2 mL of 0.1 mol/L sodium periodate solution, and heat in a water bath for 10 minutes. After cooling, add 1 mL of hexaammonium heptamolybdate-sulfuric acid TS and 1 mL of 1-amino-2-naphthol-4-sulfonic acid TS, and allow to stand for 30 minutes: the solution shows a blue color. To an amount of Fosfomycin Calcium for Syrup, equivalent to 40 mg (potency) of Fosfomycin Calcium Hy-drate, add 10 mL of warm water, shake for 10 to 20 minutes, and collect the insoluble substances by filtration. Dissolve the substances in 25 mL of water: the solution responds to Qualitative Tests <1.09> (3) for calcium salt. Loss on drying <2.41> Not more than 3.0z (2 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Uniformity of dosage units <6.02> Fosfomycin Calcium for Syrup in single-dose packages meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Fosfomycin Calcium for Syrup is not less than 80z. Start the test with an accurately weighed amount of Fos-fomycin Calcium for Syrup, equivalent to about 0.5 g (po-tency) of Fosfomycin Calcium Hydrate, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately an amount of Fosfomycin Phenethylammonium RS, equivalent to about 28 mg (potency), dissolve in water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of fosfomycin in each solution. Dissolution rate (z) with respect to the labeled amount of fosfomycin (C3H7O4P) ＝ MS/MT × AT/AS × 1/C × 1800 MS: Amount [mg (potency)] of Fosfomycin Phenethylam-monium RS taken MT: Amount (g) of Fosfomycin Calcium for Syrup taken C: Labeled amount [mg (potency)] of fosfomycin (C3H7O4P) in 1 g Operating conditions— Detector: A conductivity detector. Column: A polyetheretherketone column 4.6 mm in inside diameter and 7.5 cm in length, packed with quaternary am-monium group introducing hydrophilic vinyl polymer gel for liquid chromatography (6 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 10.5 g of citric acid monohydrate in water to make 1000 mL. To 800 mL of this solution add 200 mL of acetonitrile. Flow rate: Adjust so that the retention time of fosfomycin is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of fosfomycin are not less than 2000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of fosfomycin is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, agar media for seed and base layer, and standard solutions—Proceed as directed in the Assay under Fosfomycin Calcium Hydrate. Sample solutions—Weigh accurately an amount of Fosfomycin Calcium for Syrup, equivalent to about 0.1 g (potency) of Fosfomycin Calcium Hydrate, dissolve in 0.05 mol/L tris buffer solution (pH 7.0) to make exactly 200 mL. Take exactly a suitable amount of this solution, add exactly 0.05 mol/L tris buffer solution (pH 7.0) to make solutions so that each mL contains 10 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample so-lution and the low concentration sample solution, respec-tively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

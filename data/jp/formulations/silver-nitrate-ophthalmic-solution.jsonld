@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/silver-nitrate-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Silver Nitrate Ophthalmic Solution‌‌",
+    "ja": "硝酸銀点眼液"
+  },
+  "monographId": "JP18-silver-nitrate-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Silver Nitrate Ophthalmic Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Silver Nitrate Ophthalmic Solution responds to Qualitative Tests <1.09> for silver salt and for nitrate."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure accurately 20 mL of Silver Nitrate Ophthal-mic Solution, add 30 mL of water and 2 mL of nitric acid, and titrate <2.50> with 0.1 mol/L ammonium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 16.99 mg of AgNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

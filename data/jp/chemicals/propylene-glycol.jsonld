@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/propylene-glycol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Propylene Glycol",
+    "ja": "プロピレングリコール"
+  },
+  "monographId": "JP18-propylene-glycol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H8O2",
+  "molecularWeight": 76.09,
+  "appearance": {
+    "en": "Propylene Glycol is a clear, colorless, viscous liquid. It is odorless, and has a slightly bitter taste. It is miscible with water, with methanol, with ethanol (95) and with pyridine. It is freely soluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 2 to 3 drops of Propylene Glycol with 0.7 g of triphenylchloromethane, add 1 mL of pyridine, and heat under a reflux condenser on a water bath for 1 hour. After cooling, dissolve the mixture in 20 mL of ace-tone by warming, shake with 0.02 g of activated charcoal, and filter. Concentrate the filtrate to about 10 mL, and cool. Collect the separated crystals, and dry in a desiccator (silica gel) for 4 hours: the crystals melt <2.60> between 1749C and 1789C. (2) Heat gently 1 mL of Propylene Glycol with 0.5 g of potassium hydrogen sulfate: a characteristic odor is evolved. Specific gravity <2.56> d 20: 1.035 – 1.040"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Mix 10.0 mL of Propylene Glycol with 50 mL of freshly boiled and cooled water, and add 5 drops of phenolphthalein TS and 0.30 mL of 0.1 mol/L so-dium hydroxide VS: the solution has a red color. Chloride <1.03>—Perform the test with 2.0 g of Propylene Glycol. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.007z). Sulfate <1.14>—Perform the test with 10.0 g of Propylene Glycol. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.002z). Heavy metals <1.07>—Perform the test with 5.0 g of Propylene Glycol according to Method 1. Prepare the con-trol solution with 2.5 mL of Standard Lead Solution (not more than 5 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Propylene Glycol according to Method 1, and perform the test (not more than 2 ppm). Glycerin—Heat 1.0 g of Propylene Glycol with 0.5 g of potassium hydrogen sulfate and evaporate to dryness: no odor of acrolein is perceptible. Ethylene glycol, diethylene glycol and related sub-stances—Weigh accurately about 5 g of Propylene Glycol, mix with methanol to make exactly 100 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 0.1 g each of ethylene glycol and diethylene glycol, and mix with methanol to make exactly 100 mL. Pipet 5 mL of this solution, and transfer to a 100-mL volumetric flask. Separately, weigh 5.0 g of propylene glycol for gas chroma-tography, mix with a suitable amount of methanol and put in the 100-mL volumetric flask, dilute with methanol to volume, and use this solution as the standard solution. Per-form the test with exactly 1 mL each of the sample solution and standard solution as directed under Gas Chromatogra-phy <2.02> according to the following conditions, and deter-mine the peak areas, AT1 and AS1, of ethylene glycol and, AT2 and AS2, of diethylene glycol by the automatic integra-tion method. The amounts of ethylene glycol and diethylene glycol calculated by the following equations are not more than 0.1z, respectively. The amount of the peak other than propylene glycol, ethylene glycol and diethylene glycol ob-tained from the sample solution, calculated by the area per-centage method, is not more than 0.1z, and the total amount of the peaks other than propylene glycol is not more than 1.0z. Amount (z) of ethylene glycol ＝ MS1/MT × AT1/AS1 × 5 Amount (z) of diethylene glycol ＝ MS2/MT × AT2/AS2 × 5 MS1: Amount (g) of ethylene glycol taken MS2: Amount (g) of diethylene glycol taken MT: Amount (g) of Propylene Glycol taken Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused silica tube 0.32 mm in inside diameter and 30 m in length, coated the inside surface 1 mm in thick-ness with 14z cyanopropylphenyl-86z dimethyl silicone polymer for gas chromatography. Column temperature: Inject at a constant temperature of about 1009C, rise the temperature at the rate of 7.59C per minute to 2209C, and maintain at a constant temperature of about 2209C. Injection port temperature: A constant temperature of about 2209C. Detector temperature: A constant temperature of about 2509C. ‌Carrier gas: Helium. Flow rate: about 38 cm per second. Split ratio: 1:20. Time span of measurement: About 3 times as long as the retention time of propylene glycol, beginning after the sol-vent peak. System suitability— System performance: Mix 50 mg each of ethylene glycol, diethylene glycol and propylene glycol for gas chromatogra-phy with 100 mL of methanol. When the procedure is run with 1 mL of this mixture under the above operating condi-tions, ethylene glycol, propylene glycol and diethylene glycol are eluted in this order, and the resolution between the peaks of ethylene glycol and propylene glycol is not less than 5, and that between the peaks of propylene glycol and diethy-lene glycol is not less than 50. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of ethylene glycol and diethylene glycol is not more than 10z. Water <2.48> Not more than 0.5z (2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Weigh accurately about 20 g of Propylene Glycol in a tared crucible, and heat to boiling. Stop heating, and immediately ignite to burn. Cool, moisten the residue with 0.2 mL of sulfuric acid, and heat strongly with care to constant mass: the mass of the residue is not more than 0.005z. Distilling range <2.57> 184 – 1899C, not less than 95 volz."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

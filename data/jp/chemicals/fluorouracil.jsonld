@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fluorouracil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fluorouracil",
+    "ja": "フルオロウラシル"
+  },
+  "monographId": "JP18-fluorouracil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H3FN2O2",
+  "molecularWeight": 130.08,
+  "definition": {
+    "en": "Fluorouracil, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fluorouracil occurs as white, crystals or crys-talline powder. It is odorless. It is freely soluble in N,N-dimethylformamide, sparingly soluble in water, slightly soluble in ethanol (95), and practi-cally insoluble in diethyl ether. Melting point: about 2829C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 0.2 mL of bromine TS to 5 mL of a solution of Fluorouracil (1 in 500): the color of bromine TS is discharged. Further add 2 mL of barium hydroxide TS: a purple precipitate is formed. Proceed with 0.01 g of Fluorouracil as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the test solution responds to Qualitative Tests <1.09> for fluoride. Determine the absorption spectrum of a solution of Fluorouracil in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Add 20 mL of water to 0.20 g of Fluorouracil, and dissolve by warming: the solution is clear and colorless. Fluoride—Dissolve 0.10 g of Fluorouracil in 10.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20). Trans-fer 5.0 mL of this solution to a 20-mL volumetric flask, add 10 mL of a mixture of alizarin complexone TS, acetic acid-potassium acetate buffer solution (pH 4.3) and cerium (III) nitrate TS (1:1:1), and add water to make 20 mL. Allow to stand for 1 hour, and use this solution as the sample solu-tion. Separately, transfer 1.0 mL of Standard Fluorine Solu-tion to a 20-mL volumetric flask, add 5.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20), and add 10 mL of a mixture of alizarin complexone TS, acetic acid-potassium acetate buffer solution (pH 4.3) and cerium (III) nitrate TS (1:1:1). Proceed in the same manner as directed for the preparation of the sample solution, and use this solution as the standard solution. Perform the test as directed under Ul-traviolet-visible Spectrophotometry <2.24>, using a solution, prepared with 5.0 mL of diluted 0.01 mol/L sodium hydrox-ide TS (1 in 20) in the same manner, as the blank: the absor-bance of the sample solution at 600 nm is not larger than that of the standard solution (not more than 0.012z). Heavy metals <1.07>—Proceed with 1.0 g of Fluoro-uracil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—To 1.0 g of Fluorouracil in a crucible add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), ignite the ethanol to burn, and incinerate by strong heating at 7509C to 8509C. If a car-bonized substance remains in this method, moisten with a small amount of nitric acid, and incinerate by strong heat-ing. Cool, add 10 mL of dilute hydrochloric acid to the residue, dissolve it by warming on a water bath, use this so-lution as the test solution, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Fluorouracil in 10 mL of water, and use this solution as the sample solu-tion. Measure exactly 1 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, acetone and water (7:4:1) to a distance of about 12 cm, air-dry the plate, and examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot obtained from the sample solution are not more in-tense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Fluorouracil—Weigh accurately about 0.2 g of Fluorouracil, previously dried, dissolve in 20 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L tetramethylammonium hydroxide VS until the color of the solution changes from yellow through blue-green to blue (indicator: 3 drops of thymol blue-dimethylformamide TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L tetramethylammonium hydroxide VS ＝ 13.01 mg of C4H3FN2O2 (2) Fluorine—Weigh accurately about 4 mg of Fluoro-uracil, previously dried, and proceed as directed in the deter-mination of fluorine under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

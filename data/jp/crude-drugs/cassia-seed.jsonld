@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/cassia-seed",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-cassia-seed",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Cassia Seed",
+    "la": "Cassiae Semen",
+    "ja": "ケツメイシ"
+  },
+  "definition": {
+    "en": "the seed of Cassia obtusifolia Linnáe"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/cassia-seed-cassia-obtusifolia-linn"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

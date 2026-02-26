@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cabergoline",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cabergoline",
+    "ja": "カベルゴリン"
+  },
+  "monographId": "JP18-cabergoline",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H37N5O2",
+  "molecularWeight": 451.6,
+  "definition": {
+    "en": "Cabergoline contains not less than 98."
+  },
+  "appearance": {
+    "en": "Cabergoline occurs as a white crystalline pow-der. It is very soluble in methanol, freely soluble in ethanol (95), and very slightly soluble in water. It is gradually colored to yellow by light. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cabergoline in ethanol (95) (1 in 30,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cabergoline RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. lution. Amount (mg) of cabergoline (C 26H37N5O2) ＝ M S × AT/AS (2) Determine the infrared absorption spectrum of Cabergoline as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cabergoline RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. If any differ-ence appears between the spectra, dissolve Cabergoline and Cabergoline RS in ethanol (95), respectively, then evaporate the ethanol, dry the residues, and repeat the test on the residues. D Optical rotation<<2.49> [a]20: －77 – －839(0.1 g calculated on the anhydrous basis, ethanol (95), 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Cabergoline according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure using light-resistant vessels. Perform the test with 20 mL of the sample solution obtained in the Assay as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area by the automatic integra-tion method, and calculate the amounts of them by the area percentage method: the amount of related substances A and B, having the relative retention times of about 0.8 and about 2.8 to cabergoline are not more than 0.5z, respectively, and the amount of the peak other than cabergoline and the peaks mentioned above is not more than 0.1z. Furthermore, the total amount of the peaks other than cabergoline is not more than 1.5z. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of cabergoline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Use the diluted sample so-lution (1 in 500) as the solution for system suitability test. Pipet 5 mL of the solution for system suitability test, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of cabergoline obtained with 20 mL of this so-lution is equivalent to 18 to 32z of that with 20 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of cabergoline is not more than 2.0z. Water <2.48> Not more than 0.5z (1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately about 30 mg each of Cabergoline and Cabergoline RS (separately determine the water <2.48> in the same manner as Cabergoline), dissolve each in the mobile phase to make exactly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of cabergoline in each so- MS: Amount (mg) of Cabergoline RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate in 900 mL of water, adjust to pH 2.0 with phos-phoric acid, and add water to make 1000 mL. To this solu-tion add 0.2 mL of triethylamine. To 840 mL of this solution add 160 mL of acetonitrile. Flow rate: Adjust so that the retention time of cabergoline is about 12 minutes. System suitability— System performance: Suspend 50 mg of Cabergoline in 10 mL of 0.1 mol/L sodium hydroxide TS, and stir for 15 minutes. To 1 mL of this solution add 1 mL of 0.1 mol/L hydrochloric acid TS, and add the mobile phase to make 10 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, the resolution be-tween the peaks of related substance A having the relative retention time of about 0.8 to cabergoline and cabergoline is not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cabergoline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cnidii-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cnidii Rhizoma Pulveratum",
+    "ja": "センキュウ末"
+  },
+  "monographId": "JP18-cnidii-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Cnidium Rhizome occurs as a gray to light grayish brown powder. It has a characteristic odor and a slightly bitter taste. Under a microscope <5.01>, Powdered Cnidium Rhizome reveals colorless and gelatinized starch masses, and frag-ments of parenchyma containing them; fragments of scalariform and reticulate vessels 15 – 30 mm in diameter; fragments of thick-walled and lignified xylem fibers 20 – 60 mm in diameter; fragments of yellow brown cork tissue; fragments of secretory tissue."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of Powdered Cnidium Rhizome add 5 mL of methanol and 0.1 mL of sodium hydroxide TS, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, use (Z)-ligustilide TS for thin-layer chromatography as the standard solution (1). Dis-solve 1 mg of (E )-ferulic acid in 2 mL of methanol and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 20 mL of the sample solution and 5 mL each of the standard solution (1) and the standard solution (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, acetone and acetic acid (100) (30:25:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the blue-white fluorescent spot from the standard solu-tion (1). Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, heat the plate at 1059C for 5 minutes and allow to cool: one of the several spots from the sample solution has the same color tone and Rf value with the spot from the standard solution (2)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Cnidium Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Cnidium Rhizome according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow-dered Cnidium Rhizome does not contain a large quantity of starch grains, stone cells, crystals of calcium oxalate or other foreign matter. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

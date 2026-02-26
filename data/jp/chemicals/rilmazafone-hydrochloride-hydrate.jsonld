@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/rilmazafone-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Rilmazafone Hydrochloride Hydrate",
+    "ja": "リルマザホン塩酸塩水和物"
+  },
+  "monographId": "JP18-rilmazafone-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H20Cl2N6O3.HCl.2H2O",
+  "molecularWeight": 547.82,
+  "definition": {
+    "en": "Rilmazafone Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Rilmazafone Hydrochloride Hydrate occurs as a white to pale yellow-white crystalline powder. It is very soluble in methanol, soluble in water, and slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Rilmazafone Hydrochloride Hydrate (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Rilmazafone Hydrochloride RS prepared in the same manner as the sam-ple solution: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Ril-mazafone Hydrochloride Hydrate as directed in the potas-sium chloride disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Rilmazafone Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Rilmazafone Hydrochloride Hydrate (1 in 200) responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Rilmazafone Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 25 mg of Rilmazafone Hydrochloride Hydrate in 50 mL of a mixture of water and acetonitrile (1:1), and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add a mixture of water and acetonitrile (1:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peak, having the relative retention time of about 0.87 to rilmazafone, obtained from the sample solution is not larger than the peak area of rilmazafone from the standard solu-tion, and the area of the peak other than rilmazafone and the peak mentioned above from the sample solution is not larger than 1/5 times the peak area of rilmazafone from the standard solution. Furthermore, the total area of the peaks other than rilmazafone from the sample solution is not larger than 2 times the peak area of rilmazafone from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: 0.02 mol/L phosphate buffer solution (pH 3.0). Mobile phase B: Acetonitrile. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 3 3 – 20 75 → 70 25 → 30 20 – 30 70 → 50 30 → 50 30 – 45 Flow rate: 1.0 mL per minute. Time span of measurement: For 45 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add a mixture of water and acetonitrile (1:1) to make exactly 20 mL. Confirm that the peak area of rilmaza-fone obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of rilmazafone are not less than 20,000 and not more than 1.3, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rilmazafone is not more than 2.0z. Water <2.48> 5.5 – 7.5z (0.2 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 40 mg each of Rilmazafone Hydrochloride Hydrate and Rilmazafone Hydrochloride RS (separately determine the water <2.48> in the same manner as Rilmazafone Hydrochloride Hydrate), dissolve each in water to make exactly 200 mL. Pipet 10 mL each of these solu-tions, add exactly 20 mL of the internal standard solution to each solution, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 15 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of rilmazafone to that of the internal standard. ‌Amount (mg) of rilmazafone hydrochloride (C21H20Cl2N6O3.HCl) ＝ MS × QT/QS MS: Amount (mg) of Rilmazafone Hydrochloride RS taken, calculated on the anhydrous basis Internal standard solution—A solution of propyl parahy-droxybenzoate in a mixture of water and acetonitrile (1:1) (3 in 100,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.1 g of sodium 1-heptanesul-fonate in 1000 mL of water, and adjust to pH 3.0 with acetic acid (100). To 500 mL of this solution add 300 mL of aceto-nitrile. Flow rate: Adjust so that the retention time of rilmaza-fone is about 5 minutes. System suitability— System performance: When the procedure is run with 15 mL of the standard solution under the above operating con-ditions, rilmazafone and the internal standard are eluted in this order with the resolution between these peaks being not less than 13. System repeatability: When the test is repeated 6 times with 15 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of rilmazafone to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/methods/jp-general-methods",
+  "@type": "Collection",
+  "prefLabel": {
+    "en": "Japanese Pharmacopoeia General Test Methods"
+  },
+  "description": {
+    "en": "Standard test methods referenced throughout JP-XVIII monographs"
+  },
+  "hasMember": [
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-03",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Loss on Drying Test" },
+      "methodNumber": "<1.03>",
+      "jpReference": "as directed under Loss on Drying Test"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-07",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Residue on Ignition Test" },
+      "methodNumber": "<1.07>",
+      "jpReference": "as directed under Residue on Ignition Test"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-09",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Acid-insoluble Ash Test" },
+      "methodNumber": "<1.09>",
+      "jpReference": "as directed under Acid-insoluble Ash Test"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-11",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Extractive Content Test" },
+      "methodNumber": "<1.11>",
+      "jpReference": "as directed under Extractive Content Test"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-13",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Total Ash Test" },
+      "methodNumber": "<1.13>",
+      "jpReference": "as directed under Total Ash"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-01",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Liquid Chromatography" },
+      "methodNumber": "<2.01>",
+      "jpReference": "as directed under Liquid Chromatography"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-02",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Gas Chromatography" },
+      "methodNumber": "<2.02>",
+      "jpReference": "as directed under Gas Chromatography"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-03",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Thin-layer Chromatography" },
+      "methodNumber": "<2.03>",
+      "jpReference": "as directed under Thin-layer Chromatography"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-23",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Ultraviolet-visible Spectrophotometry" },
+      "methodNumber": "<2.23>",
+      "jpReference": "as directed under Ultraviolet-visible Spectrophotometry"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-24",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Infrared Spectrophotometry" },
+      "methodNumber": "<2.24>",
+      "jpReference": "as directed under Infrared Spectrophotometry"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-41",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Heavy Metals Test" },
+      "methodNumber": "<2.41>",
+      "jpReference": "according to Method 1, 2, 3, or 4"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-49",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Arsenic Test" },
+      "methodNumber": "<2.49>",
+      "jpReference": "as directed under Arsenic Test"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-50",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Water Determination" },
+      "methodNumber": "<2.50>",
+      "jpReference": "as directed under Water Determination"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/5-01",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "General Tests for Crude Drugs" },
+      "methodNumber": "<5.01>",
+      "jpReference": "as directed under General Tests for Crude Drugs"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/5-05",
+      "@type": "HarmonizedMethod",
+      "prefLabel": { "en": "Foreign Matter Test" },
+      "methodNumber": "<5.05>",
+      "jpReference": "as directed under Foreign Matter Test"
+    }
+  ]
+}

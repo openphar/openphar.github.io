@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aztreonam-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aztreonam for Injection",
+    "ja": "注射用アズトレオナム"
+  },
+  "monographId": "JP18-aztreonam-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aztreonam for Injection is a preparation for injec-tion which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Aztreonam for Injection is white to yellow- ‌508‌ white masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve an amount of Aztreonam for Injection, equivalent to 6 mg (potency) of Aztreonam, in 1 mL of hydroxylammonium chloride-ethanol TS, allow to stand for 3 minutes, add 1 mL of acidic ammonium iron (III) sulfate TS, and mix: a red-brown color develops. (2) Dissolve an amount of Aztreonam for Injection, equivalent to 3 mg (potency) of Aztreonam, in 100 mL of water, and determine the absorption spectrum of the solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 289 nm and 293 nm. pH <2.54> The pH of a solution prepared by dissolving an amount of Aztreonam for Injection, equivalent to 1.0 g (potency) of Aztreonam, in 10 mL of water is 4.5 to 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve an amount of Aztreonam for Injection, equivalent to 1.0 g (potency) of Aztreonam, in 10 mL of water: the solution is clear, and its absorbance <2.24> at 450 nm is not more than 0.06. Water <2.48> Not more than 2.0z (0.5 g, volumetric titra-tion, direct titration). Bacterial endotoxins <4.01> Less than 0.10 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take an amount of Aztreonam for Injection, equivalent to about 5 g (potency) of Aztreonam, dissolve the contents with a suitable amount of water, and transfer to a 100-mL volumetric flask. Wash each container with water, combine the washings and the solution, and add water to make exactly 100 mL. Pipet 10 mL of this solution, and add water to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 10 mL of the internal standard solution and water to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Aztreo-nam RS, equivalent to about 20 mg (potency), dissolve in a suitable amount of water, add exactly 10 mL of the internal standard solution and water to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Aztreonam. Bacampicillin Hydrochloride"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

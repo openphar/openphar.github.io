@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cyperi-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cyperi Rhizoma Pulveratum",
+    "ja": "コウブシ末"
+  },
+  "monographId": "JP18-cyperi-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Cyperus Rhizome occurs as a light red-brown powder, and has a characteristic odor and taste. Under a microscope <5.01>, Powdered Cyperus Rhizome reveals fragments of polygonal parenchyma cells, scalari-form vessels, and seta-like fibers; a large quantity of starch, mostly gelatinized; an extremely small number of stone cells."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of Powdered Cyperus Rhizome add 10 mL of diethyl ether, shake for 5 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether, cyclohexane and formic acid (10:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a red-purple spot appears at an Rf value of about 0.35."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Cyperus Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Cyperus Rhizome according to Method 4, and ‌JP XVIII Crude Drugs and Related Drugs / Daiokanzoto Extract 1995‌ perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow-dered Cyperus Rhizome does not show extremely lignified cells, except stone cells, and crystals. Total ash <5.01> Not more than 3.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 50.0 g of Powdered Cyperus Rhizome provided that 1 mL of silicon resin is previously added on the sample in the flask: the volume of essential oil is not less than 0.2 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/indenolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Indenolol Hydrochloride",
+    "ja": "インデノロール塩酸塩"
+  },
+  "monographId": "JP18-indenolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H21NO2.HCl",
+  "molecularWeight": 283.79,
+  "definition": {
+    "en": "Indenolol Hydrochloride is a mixture of (2RS )-1-(3H-Inden-4-yloxy)-3-(1-methylethyl)aminopropan-2-ol monohydrochloride and (2RS )-1-(3H-Inden-7-yloxy)-3-(1-methylethyl)aminopropan-2-ol monohy-drochloride. When dried, it contains not less than 98."
+  },
+  "appearance": {
+    "en": "Indenolol Hydrochloride occurs as white to pale yellow, crystals or crystalline powder. It is freely soluble in water and in acetic acid (100), soluble in ethanol (95) and in chloroform, slightly soluble in acetic anhydride, very slightly soluble in ethyl acetate, and practi-cally insoluble in diethyl ether. The pH of a solution of 1.0 g of Indenolol Hydrochloride in 10 mL of water is between 3.5 and 5.5. It is colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Indenolol Hydrochlo-ride in 1 to 2 drops of dilute hydrochloric acid and 5 mL of water, and add 1 mL of Reinecke salt TS: a red-purple pre-cipitate is formed. Determine the absorption spectrum of a solution of Indenolol Hydrochloride (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 1: both spectra exhibit similar intensities of absorption at the same wave-lengths. Separately, determine the absorption spectrum of a solution of Indenolol Hydrochloride (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 2: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of In-denolol Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Indenolol Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> for chloride. 1 cm Absorbance <2.24> E1z 10 mg, water, 1000 mL). (250 nm): 330 – 340 (after drying,"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Indenolol Hydrochloride in 10 mL of water: the solution is clear and colorless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of In- ‌JP XVIII Official Monographs / Indigocarmine 1151 denolol Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Indenolol Hydrochloride according to Method 1, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.20 g of Indenolol Hy-drochloride in 10 mL of chloroform, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add chloroform to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1,2-dichloroethane, ethanol (99.5) and ammonia solution (28) (70:15:2) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Isomer ratio Dissolve 5 mg of Indenolol Hydrochloride in 1.0 mL of a mixture of ethyl acetate and trifluoroacetic an-hydride for gas chromatography (9:1), and use this solution as the sample solution. Perform the test with 2 mL of the sample solution as directed under Gas Chromatography <2.02> according to the following conditions. Determine the areas of two adjacent peaks, Aa and Ab, having the retention times of about 16 minutes, where Aa is the peak area of shorter retention time and Ab is the peak area of longer retention time: the ratio Aa/(Aa ＋ Ab) is between 0.6 and 0.7. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column about 2 mm in inside diameter and about 2 m in length, packed with siliceous earth for gas chromatography (150 to 180 mm in particle diameter) coated with 65z phenyl-methyl silicon polymer for gas chromatog-raphy at the ratio of 2z. Column temperature: A constant temperature between 1509C and 1709C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of the peak showing earlier elution of the two peaks of indenolol hydro-chloride is about 16 minutes. Selection of column: Proceed with 2 mL of the sample so-lution under the above operating conditions, and calculate the resolution. Use a column with the resolution between the two peaks being not less than 1.1."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Indenolol Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (4:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solu-tion changes from purple through blue to green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 28.38 mg of C15H21NO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

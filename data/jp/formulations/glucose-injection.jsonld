@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/glucose-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Glucose Injection",
+    "ja": "ブドウ糖注射液"
+  },
+  "monographId": "JP18-glucose-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Glucose Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Glucose Injection is a clear, colorless liquid. It has a sweet taste. It occurs as a colorless to pale yellow, clear liquid when its labeled concentration exceeds 40z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Glucose Injection, equivalent to 0.1 g of glucose (C6H12O6), and, if necessary, add water or evaporate on a water bath to make 2 mL. Add ‌JP XVIII Official Monographs / L-Glutamic Acid 1077 2 to 3 drops of the solution to 5 mL of boiling Fehling's TS: a red precipitate is produced. pH <2.54> 3.5 – 6.5 In the case where the labeled concen-tration of the injection exceeds 5z, dilute to 5z with water before the test."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "5-Hydroxymethylfurfural and related substances—Pipet a volume of Glucose Injection, equivalent to 2.5 g of glucose (C6H12O6), and add water to make exactly 100 mL. Determine the absorbance of this solution at 284 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it is not more than 0.80. Bacterial endotoxins <4.01> Less than 0.50 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure accurately a volume of Glucose Injection, equivalent to about 4 g of glucose (C6H12O6), and add 0.2 mL of ammonia TS and water to make exactly 100 mL. Shake the solution well, allow to stand for 30 minutes, and determine the optical rotation, aD, at 20 ± 19C in a 100-mm cell as directed under Optical Rotation Determination <2.49>. Amount (mg) of glucose (C6H12O6) ＝ aD × 1895.4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

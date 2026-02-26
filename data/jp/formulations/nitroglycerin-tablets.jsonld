@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nitroglycerin-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nitroglycerin Tablets",
+    "ja": "ニトログリセリン錠"
+  },
+  "monographId": "JP18-nitroglycerin-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Nitroglycerin Tablets, equivalent to 6 mg of nitroglycerin (C3H5N3O9), shake thoroughly with 12 mL of diethyl ether, filter, and use the filtrate as the sample solution. Evaporate 5 mL of the sample solution, dissolve the residue in 1 to 2 drops of sulfuric acid, and add 1 drop of diphenylamine TS: a deep blue color develops. (2) Evaporate 5 mL of the sample solution obtained in (1), add 5 drops of sodium hydroxide TS, heat over a low flame, and concentrate to about 0.1 mL. Cool, heat the residue with 0.02 g of potassium hydrogen sulfate: the odor of acrolein is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Free nitrate ion—Transfer an accurately measured quantity of powdered Nitroglycerin Tablets, equivalent to 20 mg of nitroglycerin (C H N O ), to a separator, add 40 mL 30 minutes, and observe the tubes horizontally: the sample solution has no more color than the standard solution. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Transfer 1 tablet of Nitroglycerin Tablets to a glass-stoppered centrifuge tube, and add exactly V mL of acetic acid (100) to provide a solution containing about 30 mg of nitroglycerin (C3H5N3O9) per ml. Shake vigorously for 1 hour, and after disintegrating the tablet, centrifuge, and use the supernatant liquid as the sample solution. When the tablet does not disintegrate during this procedure, transfer 1 tablet of Nitroglycerin Tablets to a glass-stoppered centri-fuge tube, wet the tablet with 0.05 mL of acetic acid (100), and grind down it with a glass rod. While rinsing the glass rod, add acetic acid (100) to make exactly V mL of a solution containing about 30 mg of nitroglycerin (C3H5N3O9) per ml. Shake for 1 hour, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 90 mg of potassium nitrate, previously dried at 1059C for 4 hours, dissolve in 5 mL of water, and add acetic acid (100) to make exactly 100 mL. Pipet 5 mL of the solution, add acetic acid (100) to make exactly 100 mL, and use this solution as the standard solution. Measure exactly 2 mL each of the sample solution and the standard solution, add 2 mL each of salicylic acid TS shake, allow to stand for 15 minutes, and add 10 mL each of water. Render the solution alkaline with about 12 mL of a solution of sodium hydroxide (2 in 5) while cooling in ice, and add water to make exactly 50 mL. Per-form the test with these solutions as directed under Ultravio-let-visible Spectrophotometry <2.24>, using a solution, pre-pared with 2 mL of acetic acid (100) in the same manner, as the blank. Determine the absorbances, AT and AS, of the subsequent solutions of the sample solution and the standard solution at 410 nm, respectively. Amount (mg) of nitroglycerin (C3H5N3O9) ＝ MS × AT/AS × V/2000 × 0.749 MS: Amount (mg) of potassium nitrate taken Calculate the average content from the contents of 10 tablets: it meets the requirements of the test when each con-tent deviates from the average content by not more than 25z. When there is 1 tablet showing a deviation exceeding 25z and not exceeding 30z, determine the content of an additional 20 tablets in the same manner. Calculate the 30 deviations from the new average of all 30 tablets: it meets the requirements of the test when 1 tablet may deviate from the average content by between 25z and 30z, but no tablet deviates by more than 30z. Disintegration <6.09> It meets the requirement, provided that the time limit of the test is 2 minutes, and the use of the disks is omitted. 3 5 3 9 of isopropylether and 40 mL of water, shake for 10 minutes, and allow the layers to separate. Collect the aqueous layer, add 40 mL of isopropylether, shake for 10 minutes, collect the aqueous layer, filter, and use the filtrate as the sample solution. Separately, transfer 10 mL of Standard Nitric Acid Solution to a separator, add 30 mL of water and 40 mL of the isopropyl ether layer of the first extraction of the sample solution, shake for 10 minutes, continue the procedure in the same manner as the sample solution, and use the solution so obtained as the standard solution. Transfer 20 mL each of the sample solution and the standard solution to Nessler tubes, respectively, shake well with 30 mL of water and 0.06 g of Griess-Romijin's nitric acid reagent, allow to stand for"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and disintegrate, by soft pressing, not less than 20 Nitroglycerin Tablets. Weigh accurately a portion of the powder, equivalent to about 3.5 mg of nitroglycerin (C3H5N3O9), add exactly 50 mL of acetic acid (100), shake for 1 hour, filter, and use this filtrate as the sample solution. Separately, weigh accurately about 90 mg of potassium nitrate, previously dried at 1059C for 4 hours, dissolve in 5 mL of water, and add acetic acid (100) to make exactly 100 mL. Pipet 10 mL of the solution, add acetic acid (100) to make exactly 100 mL, and use this solution as the standard solution. Measure exactly 2 mL each of the sample solution and the standard solution, to each solution add 2 mL of salicylic acid TS, shake, allow to stand for 15 ‌minutes, and add 10 mL of water. Render the solution alka-line with about 12 mL of a solution of sodium hydroxide (2 in 5) while cooling in ice, and add water to make exactly 50 mL. Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solu-tion, prepared with 2 mL of acetic acid (100) in the same manner, as the blank. Determine the absorbances, AT and AS, of the subsequent solutions of the sample solution and the standard solution at 410 nm, respectively. Amount (mg) of nitroglycerin (C3H5N3O9) ＝ MS × AT/AS × 1/20 × 0.749 MS: Amount (mg) of potassium nitrate taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 209C."
+  },
+  "dosageForm": "Tablet"
+}

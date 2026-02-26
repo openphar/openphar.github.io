@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefotetan",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefotetan",
+    "ja": "セフォテタン"
+  },
+  "monographId": "JP18-cefotetan",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H17N7O8S4",
+  "molecularWeight": 575.62,
+  "casNumber": "69712-56-7",
+  "definition": {
+    "en": "Cefotetan contains not less than 960 mg (potency) and not more than 1010 mg (potency) per mg, calcu-lated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefotetan occurs as white to light yellow-white powder. It is sparingly soluble in methanol, and slightly soluble in water and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefotetan in phosphate buffer solution for anti-biotics, pH 6.5 (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefotetan RS prepared in the same manner as the sample so- than 0.4z. 1-Methyl-1H-tetrazole-5-thiol (z) lution: both spectra exhibit similar intensities of absorption at the same wavelengths. ＝ MSa/MT × QTa/QSa × 1/100 Determine the infrared absorption spectrum of Cefotetan as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Cefotetan RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Dissolve 50 mg of Cefotetan in 0.5 mL of a solution of sodium hydrogen carbonate in heavy water for nuclear Cefotetan lactone (z) ＝ MSb/MT × QTb/QSb × 1/100 D2-Cefotetan (z) ＝ MSb/MT × QTc/QSb × 1/100 Isothiazole substance (z) ＝ MSb/MT × QTd/QSb × 1/100 Each of other related substances (z) magnetic resonance spectroscopy (1 in 25). Determine the 1H spectrum of this solution as directed under Nuclear Magnetic ＝ MSb/MT × QTe/QSb × 1/100 Resonance Spectroscopy <2.21>, using sodium 3-trimethyl- silylpropanesulfonate for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits singlet signals, A, B, C and D, at around d 3.6 ppm, at around d 4.0 ppm, at around d 5.1 ppm and at around d 5.2 ppm, respectively. The ratio of the integrated intensity of each signal, A:B:C:D, is about 3:3:1:1. D Optical rotation <2.49> [a]20: ＋112 – ＋1249(0.5 g calcu-lated on the anhydrous basis, a solution of sodium hydrogen carbonate (1 in 200), 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefotetan in 10 mL of a solution of sodium hydrogen car-bonate (1 in 30): the solution is clear, and colorless or light yellow. Heavy metals <1.07>—Proceed with 1.0 g of Cefote- tan according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Weigh accurately about 0.1 g of Cefotetan, dissolve in a suitable amount of methanol, add exactly 2 mL of the internal standard solution and methanol to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 3 mg of 1-methyl-1H-tetrazole-5-thiol for liquid chromatography, previously dried in a desiccator (in vacuum, silica gel) for 2 hours, and about 2 mg of Cefotetan RS, calculated on the anhydrous basis, dissolve in methanol to make exactly 20 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solu-tion and methanol to make 20 mL, and use this solution as the standard solution. Perform the test with 5 mL of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QTa, QTb, QTc, QTd, QTe and QTf, of the peak areas of 1-methyl-1H-tetrazole-5-thiol, cefotetan lactone having the relative retention time of about 0.5 to cefotetan, D2-cefotetan having the relative retention time of about 1.2, isothiazole substance having the relative retention time of about 1.3, each of other related substances and the total of other related substances, to the peak area of the internal standard, respectively, obtained from the sample solution, and the ratios, QSa and QSb, of the peak areas of 1-methyl-1H-tetrazole-5-thiol and cefotetan, to the peak area of the internal standard, respectively, from the standard so-lution. Calculate the amount of 1-methyl-1H-tetrazole-5-thiol, cefotetan lactone, D2-cefotetan, isothiazole substance, each of other related substances and the total of other related substances from the following equations: the amount of 1-methyl-1H-tetrazole-5-thiol is not more than 0.3z, cefotetan lactone is not more than 0.3z, D2-cefotetan is not more than 0.5z, isothiazole substance is not more than 0.5z, each of other related substances is not more than 0.2z and the total of other related substances is not more Total of other related substances (z) ＝ MSb/MT × QTf/QSb × 1/100 MSa: Amount (mg) of 1-methyl-1H-tetrazole-5-thiol taken MSb: Amount (mg) of Cefotetan RS, calculated on the an-hydrous basis taken MT: Amount (g) of Cefotetan taken Internal standard solution—A solution of anhydrous caffeine in methanol (3 in 10,000). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3.5 times as long as the retention time of cefotetan. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 15 mL of the standard solution, and add methanol to make exactly 100 mL. Confirm that the peak area of cefotetan obtained with 5 mL of this solution is equivalent to 12 to 18z of that with 5 mL of the standard solution. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of cefotetan to that of the internal standard is not more than 2.0z. Water <2.48> Not more than 2.5z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g). Isomer ratio Dissolve 10 mg of Cefotetan in 20 mL of methanol, and use this solution as the sample solution. Per-form the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the automatic integration method. Calculate the amount of the adjacent two peaks appeared at around the retention time of 40 minutes, one having shorter retention time is l-substance and another having longer retention time is d-substance, by the area percentage method: the amount of l-substance is not less than 35z and not more than 45z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of 0.1 mol/L phosphate buffer ‌JP XVIII Official Monographs / Cefotiam Hexetil Hydrochloride 687 solution (pH 7.0), water and a solution of tetrabutylammo-nium hydrogensulfate in acetonitrile (1 in 150) (9:9:2). Flow rate: Adjust so that the retention time of l-substance is about 40 minutes. System suitability— System performance: When the procedure is run with 5 mL of the sample solution under the above operating conditions, l-substance and d-substance are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: To exactly 1 mL of the sample solu-tion add methanol to make exactly 10 mL. When the test is repeated 6 times with 5 mL of this solution under the above operating conditions, the relative standard deviation of the peak area of l-substance is not more than 5.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefotetan and Cefotetan RS, equivalent to about 50 mg (potency), and dis-solve each in phosphate buffer solution for antibiotics, pH 6.5 to make exactly 50 mL. Pipet 15 mL each of these solu-tions, add exactly 10 mL of the internal standard solution and phosphate buffer solution for antibiotics, pH 6.5 to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefotetan to that of the internal standard. Amount [ mg (potency)] of cefotetan (C17H17N7O8S4) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Cefotetan RS taken Internal standard solution—A solution of anhydrous caffeine (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 11.53 g of phosphoric acid in 1000 mL of water. To 850 mL of this solution add 50 mL of acetonitrile, 50 mL of acetic acid (100) and 50 mL of metha-nol. Flow rate: Adjust so that the retention time of cefotetan is about 17 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and cefotetan are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 5 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of cefotetan to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

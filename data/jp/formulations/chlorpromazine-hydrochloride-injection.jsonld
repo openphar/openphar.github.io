@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/chlorpromazine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Chlorpromazine Hydrochloride Injection",
+    "ja": "クロルプロマジン塩酸塩注射液"
+  },
+  "monographId": "JP18-chlorpromazine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Chlorpromazine Hydrochloride Injection is a clear, colorless or pale yellow liquid. pH: 4.0 – 6.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Proceed with a volume of Chlorproma-zine Hydrochloride Injection, equivalent to 5 mg of Chlor-promazine Hydrochloride, as directed in the Identification under Chlorpromazine Hydrochloride. Proceed with a volume of Chlorpromazine Hydro-chloride Injection, equivalent to 0.1 g of Chlorpromazine to a separator, add 30 mL of water and 10 mL of a solution of sodium hydroxide (1 in 5), and extract with two 30-mL portions and three 20-mL portions of diethyl ether. Wash the combined diethyl ether extracts with successive 10-mL portions of water until the last washing shows no red color upon the addition of phenolphthalein TS. Concentrate the diethyl ether extracts on a water bath to 20 mL, add 5 g of anhydrous sodium sulfate, allow to stand for 20 minutes, and filter through a pledget of absorbent cotton. Wash with diethyl ether, combine the washings with the filtrate, and evaporate the diethyl ether on a water bath. Dissolve the residue in 50 mL of acetone and 5 mL of acetic acid (100), and titrate <2.50> with 0.05 mol/L perchloric acid VS until the color of the solution changes from red-purple to blue-purple (indicator: 3 drops of bromocresol green-methyl-rosaniline chloride TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 17.77 mg of C17H19ClN2S.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

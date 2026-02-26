@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pivmecillinam-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Pivmecillinam Hydrochloride Tablets",
+    "ja": "ピブメシリナム塩酸塩錠"
+  },
+  "monographId": "JP18-pivmecillinam-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Pivmecillinam Hydrochloride Disintegration <6.09> Perform the test using the disk: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Piv-mecillinam Hydrochloride Tablets, and powder. Weigh ac-curately a portion of the powder, equivalent to about 0.1 g (potency) of Pivmecillinam Hydrochloride, add 50 mL of the mobile phase, shake vigorously for 10 minutes, and add the mobile phase to make exactly 100 mL. Pipet 10 mL of this solution, add exactly 5 mL of the internal standard solution and the mobile phase to make 50 mL, filter through a mem-brane filter with a pore size not exceeding 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately an amount of Pivmecillinam Hydrochloride RS, equivalent to about 20 mg (potency), dissolve in the mobile phase, add exactly 10 mL of the internal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Pivmecillinam Hydrochloride. Tablets, dissolve a portion of the powder, equivalent to 35 mg (potency) of Pivmecillinam Hydrochloride, in 4 mL of a mixture of acetonitrile and acetic acid (100) (97:3), and filter Amount [mg (potency)] of mecillinam (C ＝ MS × QT/QS × 5 15H23N3O3S) through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 2 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately dis-solve 25 mg of Pivmecillinam Hydrochloride RS in 2 mL of a mixture of acetonitrile and acetic acid (100) (97:3), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 2 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chromatog-raphy, and immediately develop the plate with a mixture of acetone, water and acetic acid (100) (10:1:1) to a distance of about 12 cm, and air-dry the plate. Allow the plate to stand in iodine vapor for 10 minutes: the principal spot obtained from the sample solution has the same Rf value as the spot from the standard solution. Water <2.48> Not more than 3.0z (1 g of powdered Piv-mecillinam Hydrochloride Tablets, volumetric titration, direct titration). Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Pivmecillinam Hydrochloride Tablets add 40 mL of the mobile phase, shake vigorously for 10 minutes, and add the mobile phase to make exactly 50 mL. Pipet V mL, equivalent to about 10 mg (potency) of Pivmecillinam Hydrochloride, add exactly 5 mL of the internal standard so-lution and the mobile phase to make 50 mL, filter through a membrane filter with a pore size not exceeding 0.45 mm, dis-card the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately an amount of Pivmecillinam Hydrochloride RS, equivalent to about 20 mg (potency), dissolve in the mobile phase, add exactly 10 mL of the internal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Pivmecillinam Hydrochloride. MS: Amount [mg (potency)] of Pivmecillinam Hydrochlo-ride RS taken Internal standard solution—A solution of diphenyl in the mobile phase (1 in 12,500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

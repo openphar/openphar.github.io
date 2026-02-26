@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dimenhydrinate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dimenhydrinate",
+    "ja": "ジメンヒドリナート"
+  },
+  "monographId": "JP18-dimenhydrinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "NO",
+  "molecularWeight": 255.36,
+  "definition": {
+    "en": "Dimenhydrinate, when dried, contains not less than 53."
+  },
+  "appearance": {
+    "en": "Dimenhydrinate occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is very soluble in chloroform, freely soluble in ethanol (95), and slightly soluble in water and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Dimenhydrinate in 30 mL of dilute ethanol, add 30 mL of water, and use this solu-tion as the sample solution. Transfer 30 mL of the sample solution to a separator, and add 2 mL of ammonia solution (28). Extract with two 10-mL portions of diethyl ether, com-bine the diethyl ether extracts, wash the combined extracts with 5 mL of water, and then extract the combined extracts with 15 mL of diluted hydrochloric acid (1 in 100). With this acid extract perform the following tests. To 5 mL of this acid extract add 5 drops of Reinecke salt TS: a light red precipitate is produced. To 10 mL of this acid extract add 10 mL of 2,4,6-trinitrophenol TS dropwise, and allow to stand for 30 minutes. Collect the precipitate by filtrating, recrystallize from dilute ethanol, and dry at 1059C for 30 minutes: the crystals melt <2.60> between 1289C and 1339C. To 30 mL of the sample solution obtained in (1) add 2 mL of dilute sulfuric acid, and cool for 30 minutes. Scratch the inside wall of the container frequently to facilitate crystallization. Filter, and wash the white crystals with a small amount of ice-cooled water. Dry the crystals for 1 hour at 1059C: the crystals melt <2.60> between 3009C and 3059C with decomposition. To 0.01 g of the crystals obtained in (2) add 10 drops of hydrogen peroxide TS and 1 drop of hydrochloric acid, and evaporate on a water bath to dryness: the residue shows a yellow-red color. When the dish containing the residue is held over a vessel containing 2 to 3 drops of ammonia TS, the color changes to red-purple, which is discharged on the addition of 2 to 3 drops of sodium hydroxide TS. Mix well 0.05 g of the crystals obtained in (2) with 0.5 g of sodium peroxide in a nickel crucible, and heat until the mass melts. Cool, dissolve the melted mass in 20 mL of water, and acidify with dilute nitric acid: the solution re-sponds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Transfer 50 mL of the fil-trate obtained in the Assay (2) to a Nessler tube, add 1 mL of nitric acid, and allow to stand for 5 minutes: the turbidity of the solution is not greater than that of the following control ether extracts, and wash the combined diethyl ether extracts with three 50-mL portions of water. To the diethyl ether ex-tracts add exactly 25 mL of 0.05 mol/L sulfuric acid VS, and add 25 mL of water. Shake thoroughly, and evaporate the diethyl ether gently. Cool, and titrate the excess sulfuric acid with 0.1 mol/L sodium hydroxide VS (indicator: 3 drops of methyl red TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L sulfuric acid VS ＝ 25.54 mg C17H21NO (2) 8-Chlorotheophylline—Weigh accurately about 0.8 g of Dimenhydrinate, previously dried, transfer to a 200-mL volumetric flask, add 50 mL of water, 3 mL of ammonia TS and 6 mL of a solution of ammonium nitrate (1 in 10), and heat on a water bath for 5 minutes. Add exactly 25 mL of 0.1 mol/L silver nitrate VS, heat on a water bath for 15 minutes with occasional shaking, cool, and add water to make exactly 200 mL. Allow to stand overnight to settle the precipitate, and filter through a dry filter paper, discarding the first 20 mL of the filtrate. Measure exactly 100 mL of the subsequent filtrate, acidify with nitric acid, add 3 mL of nitric acid, and titrate the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L silver nitrate VS ＝ 21.46 mg of C7H7ClN4O2"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Diphenhydramine—Weigh accurately about 0.5 g of Dimenhydrinate, previously dried, transfer to a 250-mL separator, and add 50 mL of water, 3 mL of ammo- mine (C 17H21 NO: 255.36), and not less than 44.0z nia TS and 10 g of sodium chloride. Extract with six 15-mL portions of diethyl ether with shaking, combine the diethyl and not more than 47.0z of 8-chlorotheophylline (C7H7ClN4O2: 214.61). Description Dimenhydrinate occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is very soluble in chloroform, freely soluble in ethanol (95), and slightly soluble in water and in diethyl ether. Identification (1) Dissolve 0.5 g of Dimenhydrinate in 30 mL of dilute ethanol, add 30 mL of water, and use this solu-tion as the sample solution. Transfer 30 mL of the sample solution to a separator, and add 2 mL of ammonia solution (28). Extract with two 10-mL portions of diethyl ether, com-bine the diethyl ether extracts, wash the combined extracts with 5 mL of water, and then extract the combined extracts with 15 mL of diluted hydrochloric acid (1 in 100). With this acid extract perform the following tests. To 5 mL of this acid extract add 5 drops of Reinecke salt TS: a light red precipitate is produced. To 10 mL of this acid extract add 10 mL of 2,4,6-trinitrophenol TS dropwise, and allow to stand for 30 minutes. Collect the precipitate by filtrating, recrystallize from dilute ethanol, and dry at 1059C for 30 minutes: the crystals melt <2.60> between 1289C and 1339C. To 30 mL of the sample solution obtained in (1) add 2 mL of dilute sulfuric acid, and cool for 30 minutes. Scratch the inside wall of the container frequently to facilitate crystallization. Filter, and wash the white crystals with a small amount of ice-cooled water. Dry the crystals for 1 hour at 1059C: the crystals melt <2.60> between 3009C and 3059C with decomposition. To 0.01 g of the crystals obtained in (2) add 10 drops of hydrogen peroxide TS and 1 drop of hydrochloric acid, and evaporate on a water bath to dryness: the residue shows a yellow-red color. When the dish containing the residue is held over a vessel containing 2 to 3 drops of ammonia TS, the color changes to red-purple, which is discharged on the addition of 2 to 3 drops of sodium hydroxide TS. Mix well 0.05 g of the crystals obtained in (2) with 0.5 g of sodium peroxide in a nickel crucible, and heat until the mass melts. Cool, dissolve the melted mass in 20 mL of water, and acidify with dilute nitric acid: the solution re-sponds to Qualitative Tests <1.09> for chloride. Melting point <2.60> 102 – 1079C Purity (1) Chloride <1.03>—Transfer 50 mL of the fil-trate obtained in the Assay (2) to a Nessler tube, add 1 mL of nitric acid, and allow to stand for 5 minutes: the turbidity of the solution is not greater than that of the following control ether extracts, and wash the combined diethyl ether extracts with three 50-mL portions of water. To the diethyl ether ex-tracts add exactly 25 mL of 0.05 mol/L sulfuric acid VS, and add 25 mL of water. Shake thoroughly, and evaporate the diethyl ether gently. Cool, and titrate the excess sulfuric acid with 0.1 mol/L sodium hydroxide VS (indicator: 3 drops of methyl red TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L sulfuric acid VS ＝ 25.54 mg C17H21NO (2) 8-Chlorotheophylline—Weigh accurately about 0.8 g of Dimenhydrinate, previously dried, transfer to a 200-mL volumetric flask, add 50 mL of water, 3 mL of ammonia TS and 6 mL of a solution of ammonium nitrate (1 in 10), and heat on a water bath for 5 minutes. Add exactly 25 mL of 0.1 mol/L silver nitrate VS, heat on a water bath for 15 minutes with occasional shaking, cool, and add water to make exactly 200 mL. Allow to stand overnight to settle the precipitate, and filter through a dry filter paper, discarding the first 20 mL of the filtrate. Measure exactly 100 mL of the subsequent filtrate, acidify with nitric acid, add 3 mL of nitric acid, and titrate the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L silver nitrate VS ＝ 21.46 mg of C7H7ClN4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

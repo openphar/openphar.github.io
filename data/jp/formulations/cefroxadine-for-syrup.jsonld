@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefroxadine-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefroxadine for Syrup",
+    "ja": "シロップ用セフロキサジン"
+  },
+  "monographId": "JP18-cefroxadine-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefroxadine for Syrup is a preparation for syrup, which is suspended before use. It contains not less than 93."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Cefroxadine for Syrup, if necessary. To a portion of the powder, equivalent to 2 mg (potency) of Cefroxadine Hydrate, add 100 mL of 0.001 mol/L hydro-chloric acid TS, shake well, and filter. Determine the absorp-tion spectrum of this filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 267 nm and 271 nm. Water <2.48> Not more than 4.5z (0.1 g, volumetric titra-tion, direct titration). Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Cefroxadine for Syrup in single-dose packages meet the requirement of the Content uniformity test. Take out the total contents of 1 package of Cefroxadine for Syrup, add 4V/5 mL of a mixture of dilute acetic acid and phosphoric acid (500:1), shake well for 15 minutes, add exactly 5 mL of the internal standard solution per 50 mg (po-tency) of Cefroxadine Hydrate, and add a mixture of dilute acetic acid and phosphoric acid (500:1) to make V mL so that each mL contains about 0.25 mg (potency) of Cefroxa-dine Hydrate. Filter this solution through a membrane filter with pore size of not exceeding 0.45 mm, and use the filtrate as the sample solution. Separately, weigh accurately an amount of Cefroxadine RS, equivalent to about 50 mg (po-tency), dissolve in a mixture of dilute acetic acid and phos-phoric acid (500:1), add exactly 5 mL of the internal stand-ard solution, add a mixture of dilute acetic acid and phos-phoric acid (500:1) to make 200 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefroxadine Hydrate. Amount [mg (potency)] of cefroxadine (C16H19N3O5S) ＝ MS × QT/QS × V/200 MS: Amount [mg (potency)] of Cefroxadine RS taken Internal standard solution—Dissolve 1.6 g of vanillin in 5 mL of methanol, and add a mixture of dilute acetic acid and phosphoric acid (500:1) to make 100 mL. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Cefroxadine for Syrup is not less than 85z. Start the test with an accurately weighed amount of Cefroxadine for Syrup, equivalent to about 0.1 g (potency) of Cefroxadine Hydrate, withdraw not less than 10 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 5 mL of the first fil-trate, pipet 4 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 20 mL, and use this so-lution as the sample solution. Separately, weigh accurately an amount of Cefroxadine RS, equivalent to about 22 mg (potency), and dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 5 mL of this solution, add 10 mL of water, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 267 nm. Dissolution rate (z) with respect to the labeled amount of cefroxadine (C16H19N3O5S) ＝ MS/MT × AT/AS × 1/C × 450 MS: Amount [mg (potency)] of Cefroxadine RS taken MT: Amount (g) of Cefroxadine for Syrup taken C: Labeled amount [mg (potency)] of cefroxadine (C16H19N3O5S) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Cefroxadine for Syrup, if necessary, weigh accurately a portion of the powder, equivalent to about 50 mg (potency) of Cefroxadine Hydrate, add 160 mL of a mix-ture of dilute acetic acid and phosphoric acid (500:1), shake well for 15 minutes, add exactly 5 mL of the internal stand-ard solution, and add a mixture of dilute acetic acid and phosphoric acid (500:1) to make 200 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm, and use the filtrate as the sample solution. Sepa-rately, weigh accurately an amount of Cefroxadine RS, equivalent to about 50 mg (potency), dissolve in a mixture of dilute acetic acid and phosphoric acid (500:1), add exactly 5 mL of the internal standard solution, add a mixture of dilute acetic acid and phosphoric acid (500:1) to make 200 mL, and use this solution as the standard solution. Proceed as di-rected in the Assay under Cefroxadine Hydrate. Amount [mg (potency)] of cefroxadine (C16H19N3O5S) ＝ MS × QT/QS MS: Amount [mg (potency)] of Cefroxadine RS taken Internal standard solution—Dissolve 1.6 g of vanillin in 5 mL of methanol, and add a mixture of dilute acetic acid and phosphoric acid (500:1) to make 100 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

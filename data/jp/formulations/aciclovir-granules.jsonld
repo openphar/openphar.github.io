@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aciclovir-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aciclovir Granules",
+    "ja": "アシクロビル顆粒"
+  },
+  "monographId": "JP18-aciclovir-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aciclovir Granules contain not less than 93.0z and not more than 107.0z of the labeled amount of aciclovir (C8H11N5O3: 225.20). Method of preparation Prepare as directed under Gran-ules, with Aciclovir. Identification Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. Uniformity of dosage units <6.02> Perform the test ac-cording to the following method: Aciclovir Granules in single-dose packages meet the requirement of the Content uniformity test. To the total amount of the content of 1 package of Aciclovir Granules, add 100 mL of dilute sodium hydroxide TS, sonicate with occasional shaking, and add dilute sodium hydroxide TS to make exactly 200 mL. Filter this solution, discard the first 20 mL of the filtrate, pipet V mL of the sub-sequent filtrate, add dilute sodium hydroxide TS to make ex-actly V? mL so that each mL contains about 1 mg of aciclovir (C8H11N5O3)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. Uniformity of dosage units <6.02> Perform the test ac-cording to the following method: Aciclovir Granules in single-dose packages meet the requirement of the Content uniformity test. To the total amount of the content of 1 package of Aciclovir Granules, add 100 mL of dilute sodium hydroxide TS, sonicate with occasional shaking, and add dilute sodium hydroxide TS to make exactly 200 mL. Filter this solution, discard the first 20 mL of the filtrate, pipet V mL of the sub-sequent filtrate, add dilute sodium hydroxide TS to make ex-actly V? mL so that each mL contains about 1 mg of aciclovir (C8H11N5O3). Pipet 15 mL of this solution, add 50 mL of water and 5.8 mL of 2 mol/L hydrochloric acid TS, add water to make exactly 100 mL. Pipet 5 mL of this solu-tion, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Then, ‌JP XVIII Official Monographs / Aciclovir Injection 409 proceed as directed in the Assay. Amount (mg) of acyclovir (C8H11N5O3) ＝ MS × AT/AS × V?/V × 8 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Aciclovir Granules is not less than 85z. Start the test with an accurately weighed amount of Aciclovir Granules, equivalent to about 0.4 g of aciclovir (C8H11N5O3), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add water to make ex-actly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 22 mg of Aciclovir RS (separately determine the water <2.48> in the same manner as Aciclovir), and dissolve in water to make exactly 100 mL. Pipet 4 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 252 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of aciclovir (C8H11N5O3) ＝ MS/MT × AT/AS × 1/C × 1800 MS: Amount (mg) of aciclovir RS taken, calculated on the anhydrous basis MT: Amount (g) of Aciclovir Granules taken C: Labeled amount (mg) of aciclovir (C8H11N5O3) in 1 g Aciclovir Injection"
+      }
+    }
+  ],
+  "dosageForm": "Granule"
+}

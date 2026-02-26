@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/sinomenium-stem-and-rhizome",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-sinomenium-stem-and-rhizome",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Sinomenium Stem and Rhizome",
+    "la": "Sinomeni Caulis et Rhizoma",
+    "ja": "ボウイ"
+  },
+  "definition": {
+    "en": "solution as the standard solution"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

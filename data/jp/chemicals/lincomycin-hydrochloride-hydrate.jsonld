@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lincomycin-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lincomycin Hydrochloride Hydrate",
+    "ja": "リンコマイシン塩酸塩水和物"
+  },
+  "monographId": "JP18-lincomycin-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H34N2O6S.HCl.H2O",
+  "molecularWeight": 461.01,
+  "definition": {
+    "en": "Lincomycin Hydrochloride Hydrate is the hydro-chloride of a substance having antibacterial activity produced by the growth of Streptomyces lincolnensis var. lincolnensis. It contains not less than 850 mg (potency) and not more than 930 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Lincomycin Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is freely soluble in water and in methanol, sparingly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Lincomycin Hydrochloride Hydrate as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Lincomycin Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) A solution of Lincomycin Hydrochloride Hydrate (1 in 100) responds to Qualitative Tests <1.09> (2) for chlo-ride. D Optical rotation <2.49> [a]20: ＋135 – ＋1509(0.5 g, water, 25 mL, 100 mm). pH <2.54> Dissolve 0.10 g of Lincomycin Hydrochloride Hydrate in 1 mL of water: 3.0 – 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Lincomycin Hydrochloride Hydrate in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Linco- mycin Hydrochloride Hydrate according to Method 4, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 5 ppm). Lincomycin B—Use the sample solution obtained in the Assay as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas of lincomycin and lincomycin B, having the relative retention time of about 0.5 to lincomycin obtained from the sample solution, by the automatic integra-tion method: the peak area of lincomycin B is not more than 2.0z of the sum of the peak areas of lincomycin and linco-mycin B. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 1 mL of the sample solution, and add the mobile phase to make ex-actly 50 mL. Confirm that the peak area of lincomycin ob-tained from 20 mL of this solution is equivalent to 1.4 to 2.6z of that obtained from 20 mL of the sample solution. Water <2.48> 3.0 – 6.0z (0.5 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Lincomycin Hydro-chloride Hydrate and Lincomycin Hydrochloride RS, equivalent to about 10 mg (potency), dissolve each in the mobile phase to make exactly 10 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of lincomycin in each solution. Amount [ mg (potency)] of lincomycin (C18H34N2O6S) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Lincomycin Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 469C. Mobile phase: To 13.5 mL phosphoric acid add 1000 mL of water, and adjust the pH to 6.0 with ammonia TS. To 780 mL of this solution add 150 mL of acetonitrile and 150 mL of methanol. Flow rate: Adjust so that the retention time of lincomycin is about 9 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of lincomycin are not less than 4000 and not more than 1.3, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of lincomycin is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

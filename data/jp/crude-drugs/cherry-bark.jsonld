@@ -1,0 +1,60 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/cherry-bark",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-cherry-bark",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Cherry Bark",
+    "la": "Pruni Cortex",
+    "ja": "オウヒ"
+  },
+  "definition": {
+    "en": "the bark of Prunus jamasakura"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/cherry-bark-prunus-jamasakura-siebold-ex"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 3"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

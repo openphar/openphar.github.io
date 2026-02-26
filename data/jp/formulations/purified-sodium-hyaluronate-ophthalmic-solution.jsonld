@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/purified-sodium-hyaluronate-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Purified Sodium Hyaluronate Ophthalmic Solution",
+    "ja": "精製ヒアルロン酸ナトリウム点眼液"
+  },
+  "monographId": "JP18-purified-sodium-hyaluronate-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Purified Sodium Hyaluronate Ophthalmic Solution 1 － 0.432・ln hrel [h] ＝ (1 － hrel (relative viscosity) ＝ t/t0 )/(0.0108 × M ) is an aqueous ophthalmic preparation. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Purified Sodium Hyaluronate Ophthalmic So-lution occurs as a clear, colorless, and viscous liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Purified Sodium Hyaluronate Ophthalmic Solution add 0.2 mL of 1 mol/L acetic acid-sodium acetate buffer solution (pH 6.0) and 5 units of hyaluronidase, and allow to stand at 509C for 1 hour. Add 1 mL of a solution of dipotassium tetraborate tetrahydrate (1 in 20), and heat in a water bath for 7 minutes. After cooling, add 6 mL of acetic acid (100) and 2.4 mL of 4-dimethylaminobenzaldehyde-hydrochloric acid-acetic acid TS, and allow to stand at room temperature: a yellowish red to red color develops. (2) To 1 volume of Purified Sodium Hyaluronate Oph-thalmic Solution, equivalent to 7.5 mg of purified sodium hyaluronate [(C14H20NNaO11)n], add 2 volumes of acetone, shake well, and centrifuge at 3000 rpm for 10 minutes. Re-move the acetone, wash the precipitate with a mixture of ace-tone and water (5:1), dry the precipitate under reduced pres-sure (not exceeding 0.67 kPa) at 609C for 5 hours using phosphorus (V) oxide as a desiccant, and determine the in- Average molecular mass ＝ 0.78 frared absorption spectrum as directed in ATR method Apply to the preparation which labeled average mo-lecular mass of sodium hyaluronate is 1,500,000 to 2,000,000. Calculate the average molecular mass by the following equa-tion, where [h] is the intrinsic viscosity obtained in the Vis-cosity: it is 1,500,000 to 2,000,000. Ø[h] × 105 »   1    under Infrared Spectrophotometry <2.25>: it exhibits absorp-tion at the wave numbers of about 1605 cm－1, 1404 cm－1, 1375 cm－1, 1150 cm－1, 1025 cm－1 and 945 cm－1. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH Being specified separately when the drug is granted ap-proval based on the Law. Average molecular mass ＝ 22.8 0.816 ‌Viscosity <2.53> Perform the test according to Method 1 at 30 ± 0.19C: the kinematic viscosity is 3.0 to 4.0 mm2/s or 17 to 30 mm2/s. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Average molecular mass When determined by the follow-ing method it is between 600,000 and 1,200,000. Determination of viscosity <2.53> Weigh accurately an amount of Purified Sodium Hyaluronate Ophthalmic Solution, equivalent to about 15 mg of purified sodium hyaluronate [(C14H20NNaO11)n], add 0.2 mol/L sodium chloride TS to make exactly 30 mL, and use this solution as the sample solution. Perform the test with the sample solution according to Method 1 at 30 ± 0.19C, using an Ubbelohde-type viscometer with the down-flowing time of 0.2 mol/L sodium chloride TS is between 200 and 300 seconds. Calculate the intrinsic viscosity [h] according to the following equation, where c is the content obtained in the Assay expressed as the concentration (g/dL): 11.8 – 19.5 dL/g. [h] ＝ 2(hsp － ln hrel)/c × 0.87 ＋ 1.33 hsp (specific viscosity) ＝ hrel － 1 hrel (relative e viscosity) ＝ t/t0 Calculation of average molecular mass Calculate by the following equation, using the intrinsic viscosity obtained in (i) for [h]. Ø[h] × 105 »  1    Flow rate: Adjust so that the retention time of hyaluronic acid is about 5 minutes. System suitability— System performance: Dissolve 50 mg of purified sodium hyaluronate in 50 mL of sodium chloride solution (9 in 1000). To 1 mL of this solution and 2 mL of a solution of e-aminocaproic acid (1 in 500) add the mobile phase to make 20 mL, and use this solution as the solution for system suitability test. When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, hyaluronic acid and e-aminocaproic acid are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of hyaluronic acid is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

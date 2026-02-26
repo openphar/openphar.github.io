@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ifenprodil-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ifenprodil Tartrate",
+    "ja": "イフェンプロジル酒石酸塩"
+  },
+  "monographId": "JP18-ifenprodil-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ifenprodil Tartrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ifenprodil Tartrate occurs as a white crystal-line powder. It is odorless. It is freely soluble in acetic acid (100), soluble in ethanol (95), slightly soluble in water and in methanol, and practi-cally insoluble in diethyl ether. roform, and collect the water layer. Evaporate 30 mL of the water layer on a water bath to dryness, and after cooling, dissolve the residue in 6 mL of water: the solution responds to Qualitative Tests <1.09> for tartrate."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Ifenprodil Tartrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.30 g of Ifenprodil Tartrate in 10 mL of diluted ethanol (95) (3 in 4), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add diluted ethanol (95) (3 in 4) to make exactly 200 mL, and use this solution as the standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thinlayer chromatography. Develop the plate with a mixture of ethyl acetate, hexane, 1-butanol and ammonia solution (28) (140:40:20:1) to a distance of about 10 cm, and air-dry the plate. Spray hydrogen hexachloroplatinate (IV)-potas-sium iodide TS evenly on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> Not more than 4.0z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Ifenprodil Tartrate, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 40.05 mg of (C21H27NO2)2.C4H6O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

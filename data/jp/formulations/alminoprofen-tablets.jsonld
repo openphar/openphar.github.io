@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/alminoprofen-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Alminoprofen Tablets",
+    "ja": "アルミノプロフェン錠"
+  },
+  "monographId": "JP18-alminoprofen-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Alminoprofen Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of alminoprofen (C13H17NO2: 219.28). Method of preparation Prepare as directed under Tablets, with Alminoprofen. Identification Take an amount of powdered Alminoprofen Tablets, equivalent to 30 mg of Alminoprofen, add ethanol (99.5) to make 100 mL, shake thoroughly, and centrifuge. To 2 mL of the supernatant liquid add ethanol (99.5) to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 253 nm and 257 nm, and between 298 nm and 302 nm. Purity Related substances—Conduct this procedure using light-resistant vessels. Powder 10 tablets of Alminoprofen Tablets, weigh a portion of the powder equivalent to 50 mg of Alminoprofen, add 50 mL of the mobile phase, shake for 15 minutes, add the mobile phase to make exactly 100 mL, centrifuge, and use the supernatant liquid as the sample solu-tion. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of each solution by the automatic integration method: the area of the peak other than alminoprofen obtained from the sample solution is not larger than 1/2 times the peak area of alminoprofen from the standard solution. Furthermore, the total area of the peaks other than alminoprofen from the sample solution is not larger than 2 times the peak area of alminoprofen from the standard solution. Operating conditions— Proceed as directed in the operating conditions in the Purity (3) under Alminoprofen. System suitability— Proceed as directed in the system suitability in the Purity in Assay under Alminoprofen. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Alminoprofen Tablets add 5 mL of water, shake until the tablet is disintegrated, add 50 mL of ethanol (99.5), shake for 20 minutes, then add ethanol (99.5) to make exactly 100 mL, and centrifuge. Pipet 3 mL of the su-pernatant liquid, add ethanol (99.5) to make exactly 50 mL. Pipet V mL of this solution, add ethanol (99.5) to make exactly V? mL so that each mL contains about 6 mg of alminoprofen (C13H17NO2), and use this solution as the sam-ple solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take an amount of powdered Alminoprofen Tablets, equivalent to 30 mg of Alminoprofen, add ethanol (99.5) to make 100 mL, shake thoroughly, and centrifuge. To 2 mL of the supernatant liquid add ethanol (99.5) to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 253 nm and 257 nm, and between 298 nm and 302 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure using light-resistant vessels. Powder 10 tablets of Alminoprofen Tablets, weigh a portion of the powder equivalent to 50 mg of Alminoprofen, add 50 mL of the mobile phase, shake for 15 minutes, add the mobile phase to make exactly 100 mL, centrifuge, and use the supernatant liquid as the sample solu-tion. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of each solution by the automatic integration method: the area of the peak other than alminoprofen obtained from the sample solution is not larger than 1/2 times the peak area of alminoprofen from the standard solution. Furthermore, the total area of the peaks other than alminoprofen from the sample solution is not larger than 2 times the peak area of alminoprofen from the standard solution. Operating conditions— Proceed as directed in the operating conditions in the Purity (3) under Alminoprofen. System suitability— Proceed as directed in the system suitability in the Purity in Assay under Alminoprofen. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Alminoprofen Tablets add 5 mL of water, shake until the tablet is disintegrated, add 50 mL of ethanol (99.5), shake for 20 minutes, then add ethanol (99.5) to make exactly 100 mL, and centrifuge. Pipet 3 mL of the su-pernatant liquid, add ethanol (99.5) to make exactly 50 mL. Pipet V mL of this solution, add ethanol (99.5) to make exactly V? mL so that each mL contains about 6 mg of alminoprofen (C13H17NO2), and use this solution as the sam-ple solution. Then, proceed as directed in the Assay. Amount (mg) of alminoprofen (C13H17NO2) ＝ MS × AT/AS × V?/V × 1/3 MS: Amount (mg) of alminoprofen for assay taken Dissolution <6.10> When the test is performed at 50 revolu- tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rate in 45 minutes of Alminoprofen Tablets is not less than 80z. Start the test with 1 tablet of Alminoprofen Tablets, with-draw not less than 20 mL of the medium at specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent fil-trate, add 0.05 mol/L sodium hydroxide TS to make exactly V? mL so that each mL contains about 8.9 mg of almino-profen (C13H17NO2), and use this solution as the sample so-lution. Separately, weigh accurately about 30 mg of almino-profen for assay, previously dried in vacuum for 1 hour using phosphorus (V) oxide as the dessicant, and dissolve in 0.05 mol/L sodium hydroxide TS to make exactly 100 mL. Pipet 3 mL of this solution, add 0.05 mol/L sodium hydrox-ide TS to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 245 nm of the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of alminoprofen (C13H17NO2) ＝ MS × AT/AS × V?/V × 1/C × 27 MS: Amount (mg) of alminoprofen for assay taken C: Labeled amount (mg) of alminoprofen (C13H17NO2) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 tablets of Alminoprofen Tablets, and powder. Weigh accurately an amount equivalent to about 60 mg of alminoprofen (C13H17NO2), add ethanol (99.5) and shake well, add ethanol (99.5) to make exactly 200 mL, and centrifuge. Pipet 2 mL of the supernatant liquid, add ethanol (99.5) to make exactly 100 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 30 mg of alminoprofen for assay, previously dried in vacuum for 1 hour using phospho-rus (V) oxide as the dessicant, dissolve in ethanol (99.5) to make exactly 100 mL. Pipet 2 mL of this solution, add ethanol (99.5) to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at the wavelength of maximum absorption at about 255 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of alminoprofen (C13H17NO2) ＝ MS × AT/AS × 2 MS: Amount (mg) of alminoprofen for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

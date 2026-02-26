@@ -1,0 +1,228 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/pepsin",
+  "@type": "EnzymePreparationMonograph",
+
+  "prefLabel": {
+    "en": "Pepsin",
+    "ja": "ペプシン"
+  },
+
+  "altLabel": [
+    { "@value": "Pepsin A", "@language": "en" },
+    { "@value": "Gastric Protease", "@language": "en" }
+  ],
+
+  "monographId": "JP18-0319",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Pepsin is a proteolytic enzyme obtained from the gastric mucosa of the pig, Sus scrofa Linné var. domesticus Gray (Suidae), or of the cow, Bos taurus Linné var. domesticus Gmelin (Bovidae), or from the gastric juice of the hog, having not less than 3000 Units per g when determined as directed in the Assay."
+  },
+
+  "biologicalSourceType": "Enzyme",
+  "biologicalOrigin": {
+    "en": "Gastric mucosa of pig (Sus scrofa domesticus) or cow (Bos taurus), or gastric juice of hog"
+  },
+  "sourceOrganism": {
+    "en": "Sus scrofa Linné var. domesticus Gray (Suidae) or Bos taurus Linné var. domesticus Gmelin (Bovidae)"
+  },
+
+  "enzymeCommissionNumber": "EC 3.4.23.1",
+  "enzymeActivity": {
+    "en": "Not less than 3000 Units per g"
+  },
+  "optimalPH": {
+    "en": "pH 1.5-2.5"
+  },
+  "optimalTemperature": {
+    "en": "37-42°C"
+  },
+
+  "activityUnit": {
+    "en": "One unit of pepsin activity is the amount of enzyme which liberates 1 μmol of tyrosine per minute at 37°C and pH 1.7 using hemoglobin as substrate"
+  },
+
+  "appearance": {
+    "en": "White to light yellow powder or flakes, having a characteristic, slightly acid odor"
+  },
+
+  "solubility": {
+    "en": "Soluble in water, practically insoluble in ethanol (95) and in diethyl ether. The solution in water is usually slightly turbid."
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - Digestion Test"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Place 10 mL of a solution of egg white in a test tube, add 2 mL of dilute hydrochloric acid and 0.1 g of Pepsin, and keep at 38-40°C: the mixture becomes turbid, then gradually clarifies."
+      }
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification B - Protein Test"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 5 mL of a solution of Pepsin (1 in 100) add 2 mL of ninhydrin TS, and heat: a blue-purple color is produced."
+      }
+    },
+    {
+      "@type": "PHSpecification",
+      "testName": {
+        "en": "pH"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "pH",
+      "phRange": "3.5-5.5",
+      "solutionConditions": {
+        "en": "The pH of a solution (1 in 100)"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Clarity and Color of Solution"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Dissolve 0.5 g of Pepsin in 10 mL of water: the solution is slightly turbid and light yellow to yellow-brown in color."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Dry Products"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "To 0.5 g of Pepsin add 10 mL of water, shake well, filter, and to the filtrate add 2 drops of dilute acetic acid: no precipitate is formed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Fat"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Place 1.0 g of Pepsin in a glass-stoppered bottle, add 30 mL of petroleum ether, shake for 15 minutes, and filter through a dry filter paper. Evaporate 10 mL of the filtrate on a water bath, and dry the residue at 105°C for 2 hours: the mass of the residue is not more than 10 mg."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 3.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method2",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "testConditions": {
+        "en": "Proceed according to Method 2 using 1.0 g of Pepsin. Prepare the control solution with 3.0 mL of Standard Lead Solution."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 30,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic-Method1",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "testConditions": {
+        "en": "Prepare the test solution with 1.0 g of Pepsin according to Method 1, and perform the test."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "LossOnDryingSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "dryingConditions": {
+        "en": "Dry 0.5 g of Pepsin at 105°C for 4 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "ResidueOnIgnitionSpecification",
+      "testName": {
+        "en": "Residue on Ignition"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "ResidueOnIgnition",
+      "ignitionConditions": {
+        "en": "Proceed as directed under Residue on Ignition Test, using 0.5 g of Pepsin"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay (Pepsin Activity)"
+      },
+      "testType": "TestType-Assay",
+      "assayTarget": {
+        "en": "Pepsin Activity (Units per g)"
+      },
+      "testConditions": {
+        "en": "Weigh accurately about 0.05 g of Pepsin, dissolve in dilute hydrochloric acid (1 in 100) to make exactly 50 mL, and use this solution as the sample solution. Separately, dissolve 0.05 g of hemoglobin in 5 mL of water, add 10 mL of 0.1 mol/L hydrochloric acid TS, and add water to make exactly 50 mL. Pipet 5 mL of this solution, warm to 37°C, add exactly 1 mL of the sample solution previously warmed to 37°C, shake immediately, and allow to stand at 37°C for exactly 10 minutes. Then add exactly 10 mL of trichloroacetic acid TS, shake, allow to stand for 30 minutes, and filter through a dry filter paper. Discard the first 5 mL of the filtrate, and use the subsequent filtrate as the test solution. Prepare a blank solution in the same manner, but add 1 mL of dilute hydrochloric acid (1 in 100) instead of the sample solution. Determine the absorbance of the test solution at 275 nm, taking the blank solution as the blank. Calculate the activity using the formula: Activity (Units/g) = (A × 50 × V) / (W × 1.05 × 10), where A is the absorbance of the test solution, V is the dilution factor of the sample solution, and W is the mass (g) of the sample."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 3000,
+        "limitUnit": "Units/g"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Tight containers, protected from light"
+  },
+  "storageConditions": {
+    "en": "Store in a cool place, protect from moisture"
+  }
+}

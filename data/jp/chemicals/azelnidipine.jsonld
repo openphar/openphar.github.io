@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/azelnidipine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Azelnidipine",
+    "ja": "アゼルニジピン"
+  },
+  "monographId": "JP18-azelnidipine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "123524-52-7",
+  "definition": {
+    "en": "Azelnidipine contains not less than 99."
+  },
+  "appearance": {
+    "en": "Azelnidipine occurs as a light yellow to yellow, crystalline powder or powder containing masses. It is freely soluble in ethanol (99.5) and in acetic acid (100), and practically insoluble in water. A solution of Azelnidipine in ethanol (99.5) (1 in 100) shows no optical rotation. Azelnidipine shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Azelnidipine in ethanol (99.5) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Azel-nidipine as directed in the paste method under Infrared Spec-trophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Azelnidipine according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.10 g of Azelnidipine in a mixture of acetonitrile and water (4:1) to make 100 mL, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add a mixture of acetonitrile and water (4:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the areas of the peak, having the relative retention time of about 0.50 and about 1.42 to azel-nidipine, obtained from the sample solution are not larger than 1/5 times and 3/10 times the peak area of azelnidipine from the standard solution, respectively, the area of the peak other than azelnidipine and the peaks mentioned above from the sample solution is not larger than 1/10 times the peak area of azelnidipine from the standard solution, and the total area of the peaks other than azelnidipine from the sam-ple solution is not larger than 7/10 times the peak area of azelnidipine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave- length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.05 g of potassium dihydrogen phosphate in 350 mL of water, add 650 mL of a mixture of acetonitrile and methanol (7:3), and adjust to pH 5.5 with diluted phosphoric acid (1 in 10). Flow rate: Adjust so that the retention time of azelnidi-pine is about 36 minutes. Time span of measurement: About 2 times as long as the retention time of azelnidipine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add a mixture of acetonitrile and water (4:1) to make exactly 20 mL. Confirm that the peak area of azelnidipine obtained with 10 mL of this solution is equiva-lent to 3.5 to 6.5z of that with 10 mL of the standard solu-tion. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of azelnidipine are not less than 15,000 and 0.8 to 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of azelnidipine is not more than 1.0z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 709C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Azelnidipine, dis-solve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.13 mg of C33H34N4O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

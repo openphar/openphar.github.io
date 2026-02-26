@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dextrin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dextrin",
+    "ja": "デキストリン"
+  },
+  "monographId": "JP18-dextrin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Dextrin occurs as a white or light yellow, amorphous powder or granules. It has a slight, characteristic odor and a sweet taste. It does not irritate the tongue. Dextrin is freely soluble in boiling water, soluble in water, and practically insoluble in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.1 g of Dextrin add 100 mL of water, shake, and filter if necessary. To 5 mL of the filtrate add 1 drop of iodine TS: a light red-brown or light red-purple color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Take 2.0 g of Dextrin in a Nessler tube, add 40 mL of water, dissolve by heating, cool, and add water to make 50 mL: the solution is colorless or light yellow. It is clear, and even if turbid, the turbidity is not more than that of the following control solu-tion. Control solution: To 1.0 mL of 0.005 mol/L sulfuric acid VS add 1 mL of dilute hydrochloric acid, 46 mL of water and 2 mL of barium chloride TS, allow to stand for 10 minutes, and shake before use. Acidity—To 1.0 g of Dextrin add 5 mL of water, dis-solve by heating, cool, and add 1 drop of phenolphthalein TS and 0.50 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Chloride <1.03>—To 2.0 g of Dextrin add 80 mL of water, dissolve by heating, cool, add water to make 100 mL, and filter. Take 40 mL of the filtrate, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.013z). Sulfate <1.14>—To 45 mL of the filtrate obtained in (3) add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.019z). Oxalate—To 1.0 g of Dextrin add 20 mL of water, dissolve by heating, cool, add 1 mL of acetic acid (31), and filter. To 5 mL of the filtrate add 5 drops of calcium chloride TS: no turbidity is produced immediately. Calcium—To a 5-mL portion of the filtrate obtained in (5) add 5 drops of ammonium oxalate TS: no turbidity is immediately produced. Heavy metals <1.07>—Proceed with 0.5 g of Dextrin according to Method 2, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 50 ppm). Loss on drying <2.41> Not more than 10z (0.5 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.5z (0.5 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

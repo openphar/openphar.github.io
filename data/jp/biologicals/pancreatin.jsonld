@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/pancreatin",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Pancreatin",
+    "ja": "パンクレアチン"
+  },
+  "monographId": "JP18-pancreatin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Pancreatin is a substance containing enzymes pre-pared from the pancreas of edible animals, mostly the hog, and has amylolytic, proteolytic and lipolytic ac-tivities. It contains not less than 2800 starch saccharifying activity units, not less than 28,000 proteolytic activity units, and not less than 960 lipolytic activity units per g."
+  },
+  "appearance": {
+    "en": "Pancreatin occurs as a white to light yellow powder. It has a characteristic odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rancidity—Pancreatin has no unpleasant or rancid odor and is tasteless. Fat—Add 20 mL of diethyl ether to 1.0 g of Pancrea-tin, extract with occasional shaking for 30 minutes, and filter. Wash the residue with 10 mL of diethyl ether, combine the washing with the filtrate, evaporate the diethyl ether, and dry the residue at 1059C for 2 hours: the mass of the residue does not exceed 20 mg. Loss on drying <2.41> Not more than 4.0z (1 g, in vacu-um, phosphorus (V) oxide, 24 hours). Residue on ignition <2.44> Not more than 5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Starch digestive activity <4.03> Substrate solution—Use potato starch TS for amylo-lytic activity test, prepared by adding 10 mL of phosphate buffer solution for pancreatin instead of 10 mL of 1 mol/L acetic acid-sodium acetate buffer solution (pH 5.0). Sample solution—Weigh accurately about 0.1 g of Pancreatin, add a suitable amount of ice-cold water, stir, and add ice-cold water to make exactly 100 mL. Pipet 10 mL of this solution, and add ice-cold water to make exactly 100 mL. Procedure—Proceed as directed in 1.1. Measure-ment of starch saccharifying activity of 1. Assay for starch digestive activity under Digestion Test. Protein digestive activity <4.03> Substrate solution—Use the substrate solution 2 described in 2.3. (ii) of 2. Assay for protein digestive activity under Digestion Test after adjusting the pH to 8.5. Sample solution—Weigh accurately about 0.1 g of Pancreatin, add a suitable amount of ice-cold water, stir, and add ice-cold water to make exactly 200 mL. Procedure—Proceed as directed in 2. Assay for pro-tein digestive activity under Digestion Test, using trichloroa-cetic acid TS B as the precipitation reagent. Fat digestive activity <4.03> Emulsifier—Prepare with 18 g of polyvinyl alcohol I and 2 g of polyvinyl alcohol II as directed in 3. Assay for fat digestive activity under Digestion Test. Substrate solution—Use the substrate solution Amount (mg) of ozagrel sodium (C H N NaO ) described in 3. Assay for fat digestive activity under the ＝ MS × QT/QS × 16 13 11 2 2 Digestion Test. Sample solution—Weigh accurately about 0.1 g of MS: Amount (mg) of Ozagrel Sodium RS taken Internal standard solution—A solution of benzoic acid in methanol (1 in 100)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/etacrynic-acid-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Etacrynic Acid Tablets",
+    "ja": "エタクリン酸錠"
+  },
+  "monographId": "JP18-etacrynic-acid-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Etacrynic Acid Tablets contain not less than 90.0z and not more than 110.0z of the labeled amount of etacrynic acid (C13H12Cl2O4: 303.14). Method of preparation Prepare as directed under Tablets, with Etacrynic Acid. Identification (1) Weigh a quantity of powdered Eta-crynic Acid Tablets, equivalent to 0.3 g of Etacrynic Acid, add 25 mL of 0.1 mol/L hydrochloric acid TS, and extract with 50 mL of dichloromethane. Filter the dichloromethane extract, and evaporate the filtrate on a water bath to dry-ness. Proceed with the residue as directed in the Identifica-tion (1), (2) and (4) under Etacrynic Acid. (2) Prepare a solution of the residue obtained in (1), equivalent to a solution of Etacrynic Acid in methanol (1 in 20,000), and determine the absorption spectrum of this solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 268 nm and 272 nm. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Etacrynic Acid Tablets is not less than 70z. Start the test with 1 tablet of Etacrynic Acid Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 28 mg of etacrynic acid (C13H12Cl2O4), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Eta-crynic Acid Tablets, equivalent to 0.3 g of Etacrynic Acid, add 25 mL of 0.1 mol/L hydrochloric acid TS, and extract with 50 mL of dichloromethane. Filter the dichloromethane extract, and evaporate the filtrate on a water bath to dry-ness. Proceed with the residue as directed in the Identifica-tion (1), (2) and (4) under Etacrynic Acid. (2) Prepare a solution of the residue obtained in (1), equivalent to a solution of Etacrynic Acid in methanol (1 in 20,000), and determine the absorption spectrum of this solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 268 nm and 272 nm. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Etacrynic Acid Tablets is not less than 70z. Start the test with 1 tablet of Etacrynic Acid Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 28 mg of etacrynic acid (C13H12Cl2O4), and use this solution as the sample solution. Separately, weigh accurately about 55 mg of etacrynic acid for assay, previous-ly dried in vacuum at 609C for 2 hours, dissolve in 10 mL of methanol, and add water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the ab-sorbances, AT and AS, at 277 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec- trophotometry <2.24>, using water as the blank. Dissolution rate (z) with respect to the labeled amount of etacrynic acid (C13H12Cl2O4) ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of etacrynic acid for assay taken C: Labeled amount (mg) of etacrynic acid (C13H12Cl2O4) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Etacrynic Acid Tablets. Weigh accurately a portion of the powder, equivalent to about 0.1 g of etacrynic acid (C13H12Cl2O4), add 25 mL of 0.1 mol/L hydrochloric acid TS, and extract with three 30-mL portions of dichloro-methane. Filter the dichloromethane extracts through a pledget of absorbent cotton into an iodine bottle. Wash the pledget of absorbent cotton with a small amount of dichloromethane, and combine the washing with the extracts. Evaporate this solution on a water bath to dryness in a current of air, to the residue add 20 mL of acetic acid (100), and proceed as directed in the Assay under Etacrynic Acid. Each mL of 0.05 mol/L bromine VS ＝ 15.16 mg of C13H12Cl2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

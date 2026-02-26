@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/spironolactone",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Spironolactone",
+    "ja": "スピロノラクトン"
+  },
+  "monographId": "JP18-spironolactone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Spironolactone, when dried, contains not less than respectively, then evaporate methanol to dryness, and repeat the test on the residues."
+  },
+  "appearance": {
+    "en": "Spironolactone occurs as a white to light yel-low-brown fine powder. It is freely soluble in chloroform, soluble in ethanol (95), slightly soluble in methanol, and practically insoluble in water. Melting point: 198 – 2079C (Insert the capillary tube into a bath at about 1259C, and continue the heating so that the temperature rises at a rate of about 109C per minute in the range between 1409C and 1859C, and when the temperature is near the expected melting range, reduce the heating so that the temperature rises at a rate of about 39C per minute.) MS: amount (mg) of Spironolactone RS taken"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Mercapto compounds—Shake 2.0 g of Spironolactone with 20 mL of water, and filter. To 10 mL of the filtrate add 1 mL of starch TS and 0.05 mL of 0.01 mol/L iodine VS, and mix: a blue color develops. (2) Related substances—Dissolve 0.20 g of Spironolac-tone in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ethanol (95) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with n-butyl acetate to a distance of about 15 cm, and air-dry the plate. Spray evenly a solution of sulfuric acid in methanol (1 in 10) on the plate, and heat the plate at 1059C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Spironolac-tone and Spironolactone RS, previously dried at 1059C for 2 hours, dissolve in methanol to make exactly 250 mL. Pipet 5 mL each of these solutions, add methanol to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, and determine the absorbances, AT and AS, of the sample solution and standard solution at 238 nm. 97.0z and not more than 103.0z of spironolactone (C24H32O4S). Amount (mg) of spironolactone (C ＝ MS × AT/AS 24H 32O4S) Description Spironolactone occurs as a white to light yel-low-brown fine powder. It is freely soluble in chloroform, soluble in ethanol (95), slightly soluble in methanol, and practically insoluble in water. Melting point: 198 – 2079C (Insert the capillary tube into a bath at about 1259C, and continue the heating so that the temperature rises at a rate of about 109C per minute in the range between 1409C and 1859C, and when the temperature is near the expected melting range, reduce the heating so that the temperature rises at a rate of about 39C per minute.) MS: amount (mg) of Spironolactone RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

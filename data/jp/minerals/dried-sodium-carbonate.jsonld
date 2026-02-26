@@ -1,0 +1,48 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/dried-sodium-carbonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Dried Sodium Carbonate‌",
+    "ja": "乾燥炭酸ナトリウム"
+  },
+  "monographId": "JP18-dried-sodium-carbonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Dried Sodium Carbonate occurs as white crys-tals or crystalline powder. It is freely soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. A solution of Dried Sodium Carbonate (1 in 10) is alka-line. Dried Sodium Carbonate is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Dried Sodium Carbonate (1 in 20) responds to Qualitative Tests <1.09> for sodium salt and for carbonate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dried Sodium Carbonate in 10 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of Dried Sodium Carbonate in 10 mL of water, add 12 mL of dilute nitric acid, dilute with water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.071z). Heavy metals <1.07>—Dissolve 1.0 g of Dried So- dium Carbonate in 10 mL of water, add 7.5 mL of dilute hy-drochloric acid, and evaporate on a water bath to dryness. Dissolve the residue in 35 mL of water and 2 mL of dilute acetic acid, dilute with water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 7.5 mL of dilute hy-drochloric acid on a water bath to dryness, add 2 mL of di-lute acetic acid and 2.0 mL of Standard Lead Solution, and dilute with water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.65 g of Dried Sodium Carbonate according to Method 1, and per-form the test (not more than 3.1 ppm). Loss on drying <2.41> Not more than 2.0z (2 g, 1069C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 1.2 g of Dried Sodium Carbonate, weighed accurately, in 25 mL of water, and titrate with 0.5 mol/L sulfuric acid VS until the color of the solution changes from blue to yellow-green. Then boil cautiously, cool, and further titrate <2.50> until a greenish yellow color develops (indicator: 2 drops of bromocresol green TS). Each mL of 0.5 mol/L sulfuric acid VS ＝ 53.00 mg of Na CO Sodium Carbonate Hydrate"
+      }
+    }
+  ]
+}

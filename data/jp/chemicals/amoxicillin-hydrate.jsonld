@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amoxicillin-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amoxicillin Hydrate",
+    "ja": "アモキシシリン水和物"
+  },
+  "monographId": "JP18-amoxicillin-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H19N3O5S.3H2O",
+  "molecularWeight": 419.45,
+  "definition": {
+    "en": "Amoxicillin Hydrate contains not less than 950 mg (potency) and not more than 1010 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Amoxicillin Hydrate occurs as white to light yellow-white, crystals or crystalline powder. It is slightly soluble in water and in methanol, and very slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Amoxicillin Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Amoxicillin RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋290 – ＋3159(0.1 g calcu-lated on the anhydrous basis, water, 100 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 1.0 g of Amoxicillin Hydrate add 2 mL of a solution of magnesium sulfate hepta-hydrate (1 in 4), mix, and heat on a water bath to dryness. Carbonize the residue by gently heating. After cooling, add 1 mL of sulfuric acid, heat carefully, then heat at 500 – 6009C to incinerate. After cooling, add 1 mL of hydrochloric acid to the residue, and heat on a water bath to dryness. Then add 10 mL of water to the residue, and heat on a water bath to dissolve. After cooling, add ammonia TS to adjust the pH to 3 – 4, and add 2 mL of dilute acetic acid. If necessary, filter, wash the residue on the filter with 10 mL of water, transfer the filtrate and washings into a Nessler tube, add water to make 50 mL, and use this solution as the test solu-tion. Prepare the control solution as follows: To 2.0 mL of Standard Lead Solution add 2 mL of a solution of magne-sium sulfate heptahydrate (1 in 4), then proceed in the same manner as for preparation of the test solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Amoxicillin Hydrate according to Method 4, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Amoxicillin Hydrate in 50 mL of a solution of boric acid (1 in 200), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a solution of boric acid (1 in 200) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak other than amoxicillin obtained from the sample solution is not larger than the peak area of amoxicillin from the standard solution. Furthermore, the total area of the peaks other than amoxicillin from the sample solution is not larger than 3 times the peak area of amoxicillin from the standard solu-tion. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.36 g of sodium acetate trihydrate in 750 mL of water, adjust to pH 4.5 with acetic acid (31), and add water to make 1000 mL. To 950 mL of this solution add 50 mL of methanol. Flow rate: Adjust so that the retention time of amoxicillin is about 8 minutes. Time span of measurement: About 4 times as long as the retention time of amoxicillin, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add a solution of boric acid (1 in 200) to make exactly 10 mL. Confirm that the peak area of amoxi-cillin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of amoxicillin are not less than 2500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amoxicillin is not more than 1.0z. Water <2.48> Not less than 11.0z and not more than 15.0z (0.1 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Amoxicillin Hydrate and Amoxicillin RS, equivalent to about 30 mg (potency), dissolve each in a solution of boric acid (1 in 200) to make exactly 100 mL, and use these solutions as the sample solu-tion and standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the peak areas, AT and AS, of amoxicillin in each solution. Amount [ mg (potency)] of amoxicillin (C16H19N3O5S) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Amoxicillin RS taken ‌464 Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.361 g of sodium acetate trihy-drate in 750 mL of water, adjust to pH 4.5 with acetic acid (31), and add water to make 1000 mL. To 950 mL of this so-lution add 50 mL of methanol. Flow rate: Adjust so that the retention time of amoxicillin is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating conditions, the number of theoretical plates of the peak of amoxicillin is not less than 2500. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amoxicillin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/nux-vomica-extract-powder",
+  "@type": "Extract",
+  "monographId": "JP18-nux-vomica-extract-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Nux Vomica Extract Powder",
+    "la": "Nux Vomica Extract Powder contains not less than",
+    "ja": "ホミカエキス散"
+  },
+  "definition": {
+    "en": "about 17 minutes"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 3"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

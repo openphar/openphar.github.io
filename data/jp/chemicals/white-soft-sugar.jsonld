@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/white-soft-sugar",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌White Soft Sugar‌",
+    "ja": "白糖"
+  },
+  "monographId": "JP18-white-soft-sugar",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H22O11",
+  "molecularWeight": 342.3,
+  "appearance": {
+    "en": "White Soft Sugar is colorless or white, crystals or crystalline powder. It is odorless and has a sweet taste. It is very soluble in water, very slightly soluble in ethanol (95), and practically insoluble in diethyl ether. A solution of White Soft Sugar (1 in 10) is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) When 1 g of White Soft Sugar is ignited, it melts and swells, and decomposes, emitting an odor of caramel, to bulky charcoal. (2) To 0.1 g of White Soft Sugar add 2 mL of dilute sul-furic acid, boil, add 4 mL of sodium hydroxide TS and 3 mL of Fehling's TS, and heat to boiling: a red to dark red pre-cipitate is produced. beaker with a watch glass, and boil. Immediately add 50.0 mL of the sample solution, boil the mixture exactly for 5 minutes, add at once 50 mL of freshly boiled and cooled water, dip it in a water bath of a temperature below 109C for 5 minutes, and collect the precipitate in a tared glass filter (G4). Wash the residue on the filter with water until the last washing is neutral, then wash with 10 mL of ethanol (95) and 10 mL of diethyl ether, and dry at 1059C for 30 minutes: the mass of the residual precipitate is not more than 0.120 g. Loss on drying <2.41> Not more than 1.30z (15 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (2 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

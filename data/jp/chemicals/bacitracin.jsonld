@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bacitracin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bacitracin",
+    "ja": "バシトラシン"
+  },
+  "monographId": "JP18-bacitracin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "O16S",
+  "molecularWeight": 1422.69,
+  "casNumber": "22601-59-8",
+  "definition": {
+    "en": "Bacitracin A System performance: When the procedure is run with 10 mL of the standard solution under the above operating con- C66 H103 N17 O16S: 1422.69 ditions, ampicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ampicillin to that of the internal standard is not more than 2.0z. Water <2.48> Not more than 1.0z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 1.5z (1 g). Assay Weigh accurately an amount of Bacampicillin Hydrochloride and Bacampicillin Hydrochloride RS, equiva-lent to about 40 mg (potency), dissolve each in water to make exactly 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of bacampicillin in each solution. [22601-59-8] [1405-87-4, Bacitracin] Bacitracin is a mixture of peptide substances having antibacterial activity including bacitracin A as the main component produced by the growth of Bacillus subtilis or Bacillus licheniformis. It contains not less than 60 Units per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Bacitracin occurs as a white to light brown powder. It is freely soluble in water, and slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 mL of a solution of Bacitracin (1 in 100) add 3 mL of 4-dimethylaminobenzaldehyde TS, shake until red-rosy to red-purple color appears, then add several drops of a solution of sodium nitrite (1 in 100), and Amount [ mg (potency)] of ampicillin (C H N O S) shake: a green to dark green color is produced. ＝ MS × AT/AS × 1000 16 19 3 4 (2) Dissolve 60 mg each of Bacitracin and Bacitracin RS in 10 mL of water, and use these solutions as the sample so- MS: Amount [mg (potency)] of Bacampicillin Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 500 mL of diluted 2 mol/L sodium dihy-drogen phosphate TS (1 in 100), add diluted 0.05 mol/L dis- lution and standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of 1-butanol, acetic acid (100), water, pyridine and ethanol (99.5) (30:15:10:6:5) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly ninhydrin TS on the plate, and heat the plate at 1109C for 5 minutes: the spots obtained from the sample solution and standard solution show the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Bacitracin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.15 g of Bacitracin in 0.05 mol/L sulfuric acid TS to make 100 mL. To 2 mL of this solution add 0.05 mol/L sulfuric acid TS to make 10 mL, and determine the absorbances of this solution, A1 and A2, at 252 nm and 290 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: A2/A1 is not more than 0.20. ‌Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Bacampicillin Hydrochloride and Bacampicillin Hydrochloride RS, equiva-lent to about 40 mg (potency), dissolve each in water to make exactly 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of bacampicillin in each solution. [22601-59-8] [1405-87-4, Bacitracin] Bacitracin is a mixture of peptide substances having antibacterial activity including bacitracin A as the main component produced by the growth of Bacillus subtilis or Bacillus licheniformis. It contains not less than 60 Units per mg, calculated on the dried basis. The potency of Bacitracin is expressed as unit calculated from the amount of bacitracin A (C66H103N17O16S: 1422.69). One unit of Bacitracin is equivalent to 23.8 mg of bacitracin A (C66H103N17O16S). Description Bacitracin occurs as a white to light brown powder. It is freely soluble in water, and slightly soluble in ethanol (99.5). Identification (1) To 3 mL of a solution of Bacitracin (1 in 100) add 3 mL of 4-dimethylaminobenzaldehyde TS, shake until red-rosy to red-purple color appears, then add several drops of a solution of sodium nitrite (1 in 100), and Amount [ mg (potency)] of ampicillin (C H N O S) shake: a green to dark green color is produced. ＝ MS × AT/AS × 1000 16 19 3 4 (2) Dissolve 60 mg each of Bacitracin and Bacitracin RS in 10 mL of water, and use these solutions as the sample so- MS: Amount [mg (potency)] of Bacampicillin Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 500 mL of diluted 2 mol/L sodium dihy-drogen phosphate TS (1 in 100), add diluted 0.05 mol/L dis- lution and standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of 1-butanol, acetic acid (100), water, pyridine and ethanol (99.5) (30:15:10:6:5) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly ninhydrin TS on the plate, and heat the plate at 1109C for 5 minutes: the spots obtained from the sample solution and standard solution show the same Rf value. Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Bacitracin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.15 g of Bacitracin in 0.05 mol/L sulfuric acid TS to make 100 mL. To 2 mL of this solution add 0.05 mol/L sulfuric acid TS to make 10 mL, and determine the absorbances of this solution, A1 and A2, at 252 nm and 290 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: A2/A1 is not more than 0.20. ‌Loss on drying <2.41> Not more than 5.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 1.0z (1 g). Assay Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Micrococcus luteus ATCC 10240. Culture medium—Use the medium iii in 3) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Bacitracin RS, equivalent to about 400 units, dissolve in phosphate buffer solution (pH 6.0) to make exactly 20 mL, and use this solution as the standard stock solution. Keep the standard stock solution at not exceeding 109C and use within 2 days. Take exactly a suitable amount of the standard stock solution before use, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 2 units and 0.5 units, and use these solutions as the high concentration standard solution and low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Bacitracin, equivalent about 400 units, dissolve in phosphate buffer solution (pH 6.0) to make exactly 20 mL. Take ex-actly a suitable amount of this solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 2 units and 0.5 units, and use these solutions as the high concentration sample solution and low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  }
+}

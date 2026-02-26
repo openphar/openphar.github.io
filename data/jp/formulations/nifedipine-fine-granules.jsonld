@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nifedipine-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nifedipine Fine Granules",
+    "ja": "ニフェジピン細粒"
+  },
+  "monographId": "JP18-nifedipine-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nifedipine Fine Granules contain not less than 95.0z and not more than 105.0z of the labeled amount of nifedipine (C17H18N2O6: 346.33). Method of preparation Prepare as directed under Gran-ules, with Nifedipine. Identification Conduct this procedure without exposure to light, using light-resistant vessels. Shake for 15 minutes a quantity of powdered Nifedipine Fine Granules, equivalent to 6 mg of Nifedipine, with 200 mL of methanol, and centri-fuge. Determine the absorption spectrum of the supernatant liquid so obtained as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a broad absorption maxi-mum between 335 nm and 356 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: the Granules in single-dose packages meet the requirement of the Content uniformity test. Conduct this procedure without exposure to light, using light-resistant vessels. To the total content of 1 package of Nifedipine Fine Granules add 50 mL of a mixture of metha-nol and water (9:1), sonicate for 15 minutes with occasional shaking, and shake for further 15 minutes. Then, add meth-anol to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Shake for 15 minutes a quantity of powdered Nifedipine Fine Granules, equivalent to 6 mg of Nifedipine, with 200 mL of methanol, and centri-fuge. Determine the absorption spectrum of the supernatant liquid so obtained as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a broad absorption maxi-mum between 335 nm and 356 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: the Granules in single-dose packages meet the requirement of the Content uniformity test. Conduct this procedure without exposure to light, using light-resistant vessels. To the total content of 1 package of Nifedipine Fine Granules add 50 mL of a mixture of metha-nol and water (9:1), sonicate for 15 minutes with occasional shaking, and shake for further 15 minutes. Then, add meth-anol to make exactly V mL so that each mL contains about 0.1 mg of of nifedipine (C17H18N2O6). Filter this solution through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of nifedipine for assay, previ-ously dried at 1059C for 2 hours, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solution, add metha-nol to make exactly 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay. Amount (mg) of nifedipine (C17H18N2O6) ＝ MS × AT/AS × V/500 MS: Amount (mg) of nifedipine for assay taken ‌Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Nifedipine Fine Granules is not less than 85z. Conduct this procedure without exposure to light, using light-resistant vessels. Start the test with an accurately weighted amount of Nifedipine Fine Granules, equivalent to about 10 mg of nifedipine (C17H18N2O6), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 28 mg of nifedipine for assay, previously dried at 1059C for 2 hours, dissolve in 50 mL of methanol, and add water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of nifedi-pine in each solution. Dissolution rate (z) with respect to the labeled amount of nifedipine (C17H18N2O6) ＝ MS/MT × AT/AS × 1/C × 36 MS: Amount (mg) of nifedipine for assay taken MT: Amount (g) of Nifedipine Fine Granules taken C: Labeled amount (mg) of nifedipine (C17H18N2O6) in 1 g Operating conditions— Proceed as directed in the operating conditions under the Assay. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of nifedipine are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nifedipine is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately a protein of powdered Nifedipine Fine Granules, equivalent to about 10 mg of nifedipine (C17H18N2O6), add 50 mL of a mixture of methanol and water (9:1), shake vigorously for 15 minutes, and add methanol to make exactly 100 mL. Filter this solu-tion through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of nifedipine for assay, previously dried at 1059C for 2 hours, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solu-tion, add methanol to make exactly 100 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of nifedipine in each solution. Amount (mg) of nifedipine (C17H18N2O6) ＝ MS × AT/AS × 1/5 MS: Amount (mg) of nifedipine for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Adjust to pH 6.1 of a mixture of methanol and diluted 0.05 mol/L disodium hydrogen phosphate TS (1 in 5) (11:9) with phosphoric acid. Flow rate: Adjust so that the retention time of nifedipine is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of nifedipine are not less than 4000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nifedipine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

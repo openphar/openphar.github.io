@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/coicis-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Coicis Semen",
+    "ja": "ヨクイニン"
+  },
+  "monographId": "JP18-coicis-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ovoid or broad ovoid seed, about 6 mm in length, and about 5 mm in width; with a slightly hollowed apex and base; dorsal side distended; ventral side longitudi-nally and deeply furrowed in the center; dorsal side mostly white in color and powdery; in the furrow on the ventral sur-face, attached brown, membranous pericarp and seed coat. Under a magnifying glass, the cross section reveals light yellow scutellum in the hollow of the ventral side. Hard in texture. Odor, slight; taste, slightly sweet; adheres to the teeth on chewing."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a transverse section of Coix Seed add iodine TS dropwise: a dark red-brown color develops in the endosperm, and a dark gray color develops in the scutellum. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

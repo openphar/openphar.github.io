@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dinoprost",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dinoprost",
+    "ja": "ジノプロスト"
+  },
+  "monographId": "JP18-dinoprost",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H34O5",
+  "molecularWeight": 354.48,
+  "definition": {
+    "en": "Dinoprost contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dinoprost occurs as white, waxy masses or powder, or a clear, colorless to light yellow and viscous liquid. It is odorless. It is very soluble in N,N-dimethylformamide, freely solu-ble in methanol, in ethanol (99.5) and in diethyl ether, and very slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mg of Dinoprost add 2 mL of sul-furic acid, and dissolve by shaking for 5 minutes: a dark red color develops. To this solution add 30 mL of sulfuric acid: an orange color develops with a green fluorescence. Dissolve 1 mg of Dinoprost in 50 mL of diluted sulfu-ric acid (7 in 10), and warm in a water bath warmed at 509C for 40 minutes. After cooling, determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wavelengths. Amount (mg) of dimorpholamine (C ＝ MS × QT/QS × 1/5 20H38N4O4) Warm Dinoprost at 409C to effect a liquid, and de-termine the infrared absorption spectrum of the liquid as directed in the liquid film method under Infrared Spectro- MS: Amount (mg) of dimorpholamine for assay taken Internal standard solution—A solution of butyl parahy-droxybenzoate in acetonitrile (1 in 25,000). Operating conditions— photometry <2.25>, and compare the spectrum with the Ref- erence Spectrum: both spectra exhibits similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋24 – ＋319(0.2 g, ethanol Detector: An ultraviolet absorption photometer (wave- (99.5), 10 mL, 100 mm). ‌870"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Dinoprost in 5 mL of ethanol (99.5): the solution is clear and colorless to pale yellow. (2) Related substances—Dissolve 10 mg of Dinoprost in 2 mL of methanol, add water to make 10 mL, and use this solution as the sample solution. Pipet 3 mL of the sample so-lution, add diluted methanol (1 in 5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of these solutions by the automatic integration method: the total area of the peaks other than dinoprost ob-tained from the sample solution is not larger than the peak area of dinoprost from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 205 nm). Column: A stainless steel column about 5 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.02 mol/L potassium dihy-drogenphosphate TS and acetonitrile (5:2). Flow rate: Adjust so that the retention time of dinoprost is about 20 minutes. Selection of column: Dissolve 0.01 g each of isopropyl parahydroxybenzoate and propyl parahydroxybenzoate in 2 mL of methanol, and add water to make 10 mL. To 1 mL of this solution add diluted methanol (1 in 5) to make 30 mL, proceed with 10 mL of this solution under the above operat-ing conditions, and calculate the resolution. Use a column giving elution of isopropyl parahydroxybenzoate and propyl parahydroxybenzoate in this order with the resolution be-tween these peaks being not less than 2.5. Detection sensitivity: Adjust the detection sensitivity so that the peak height of dinoprost from the standard solution composes 5z to 15z of the full scale. Time span of measurement: About 1.5 times as long as the retention time of dinoprost, beginning after the solvent peak. Water <2.48> Not more than 0.5z (0.3 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg of Dinoprost, dis-solve in 30 mL of N,N-dimethylformamide, and titrate <2.50> with 0.02 mol/L tetramethylammonium hydroxide VS under a stream of nitrogen (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.02 mol/L tetramethylammonium hydroxide VS Diphenhydramine"
+      }
+    }
+  ]
+}

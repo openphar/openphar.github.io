@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/polygalae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Polygalae Radix",
+    "ja": "オンジ"
+  },
+  "monographId": "JP18-polygalae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thin, long and bent, cylindrical or tubular root; main root, 10 – 20 cm in length, 0.2 – 1 cm in diameter, sometimes with one to several lateral roots; externally light grayish brown, with coarse longitudinal wrinkles, and with deep lateral furrows cracked to some degree here and there; brittle, and fractured surface not fibrous; under a mag-nifying glass, margin of the transverse section irregularly un-dulate; cortex, comparatively thick, with large cracks here and there; xylem usually round to elliptical, light brown in color, and often tears in a wedge-like shape. ‌JP XVIII Crude Drugs and Related Drugs / Polygonatum Rhizome 2103‌ Odor, slight; taste, slightly acrid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of pulverized Polygala Root with 10 mL of water: a lasting fine foam is produced. (2) To 1.0 g of pulverized Polygala Root add 10 mL of a solution of sodium hydroxide (1 in 10), and heat under a re‰ux condenser for 20 minutes. After cooling, add 10 mL of dilute hydrochloric acid, and shake. After cooling, add 10 mL of 1-butanol, shake for 10 minutes, centrifuge, and use the 1-butanol layer as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol, water and acetic acid (100) (20:4:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: a red-brown to light brown spot appears at an Rf value of about 0.35."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Polygala Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Polygala Root according to Method 4, and perform the test (not more than 5 ppm). Stem—When perform the test of foreign matter <5.01>, the amount of the stems contained in Polygala Root does not exceed 10.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than the stems is not more than 1.0z. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 6.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

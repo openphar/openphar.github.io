@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/glycyrrhizae-radix-praeparata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Glycyrrhizae Radix Praeparata",
+    "ja": "シャカンゾウ"
+  },
+  "monographId": "JP18-glycyrrhizae-radix-praeparata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Poria Sclerotium according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Poria Sclerotium according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

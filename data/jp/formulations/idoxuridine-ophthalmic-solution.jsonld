@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/idoxuridine-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Idoxuridine Ophthalmic Solution",
+    "ja": "イドクスウリジン点眼液"
+  },
+  "monographId": "JP18-idoxuridine-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Idoxuridine Ophthalmic Solution contains not less than 90."
+  },
+  "appearance": {
+    "en": "Idoxuridine Ophthalmic Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Idoxuridine Opthalmic Solution, equivalent to 5 mg of Idoxuridine, add 5 mL of diphenylamine-acetic acid TS, and heat for 20 minutes: a light blue color develops. Place a volume of Idoxuridine Ophthalmic Solution, equivalent to 5 mg of Idoxuridine, in a porcelain crucible, add 0.1 g of anhydrous sodium carbonate, heat slowly, evaporate to dryness and ignite until the residue is inciner-ated. Dissolve the residue in 5 mL of water, acidify with hy-drochloric acid, and add 2 to 3 drops of sodium nitrite TS: a yellow-brown color develops. Then add 2 to 3 drops of starch TS: a deep blue color develops. To a volume of Idoxuridine Ophthalmic Solution, equivalent to 2 mg of Idoxuridine, add 0.01 mol/L sodium hydroxide TS to make 50 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 277 nm and 281 nm. pH <2.54> 4.5 – 7.0"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "5-Iodouracil and 2?-deoxyuridine—To a volume of Idoxuridine Ophthalmic Solution, equivalent to 4.0 mg of Idoxuridine, add water to make exactly 5 mL, and use this solution as the sample solution. Separately, dissolve 12.0 mg of 5-iodouracil for liquid chromatography and 4.0 mg of 2?-deoxyuridine for liquid chromatography in water to make exactly 200 mL. Measure exactly 5 mL of this solution, add water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas of 5-io-douracil and 2?-deoxyuridine: the peak areas of 5-iodouracil and 2?-deoxyuridine of the sample solution are not larger than the peak areas of 5-iodouracil and 2?-deoxyuridine of the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and methanol (24:1). Flow rate: Adjust so that the retention time of 2?-deox- yuridine is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating condi-tions, 2?-deoxyuridine and 5-iodouracil are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of 2?-deoxyuridine is not more than 1.0z. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Idoxuridine Oph-thalmic Solution, equivalent to 3 mg of idoxuridine (C9H11IN2O5), add exactly 2 mL of the internal standard so-lution, then add water to make 10 mL, and use this solution as the sample solution. Separately weigh accurately about 10 mg of Idoxuridine RS, previously dried at 609C for 3 hours, dissolve in water to make exactly 10 mL. Measure exactly 3 mL of this solution, add exactly 2 mL of the internal stand-ard solution, then add water to make 10 mL, and use this so-lution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of idoxuridine to that of the internal standard, respectively. Amount (mg) of idoxuridine (C9H11IN2O5) ＝ MS × QT/QS × 3/10 MS: Amount (mg) of Idoxuridine RS taken Internal standard solution—A solution of sulfathiazole in the mobile phase (1 in 4000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). ‌1140‌ Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and methanol (87:13). Flow rate: Adjust so that the retention time of idoxuridine is about 9 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, idoxuridine and the internal standard are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of idoxuridine to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, in a cold place, and avoid freez-"
+  },
+  "dosageForm": "Solution"
+}

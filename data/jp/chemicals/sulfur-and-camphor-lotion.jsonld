@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfur-and-camphor-lotion",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfur and Camphor Lotion",
+    "ja": "イオウ・カンフルローション"
+  },
+  "monographId": "JP18-sulfur-and-camphor-lotion",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sulfur and Camphor Lotion is a light yellow suspension. A part of the components separates out on standing."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of well shaken Sulfur and Camphor Lotion add 25 mL of water, and centrifuge [use this supernatant liquid for test (3)]. To 0.02 g of the precipi-tate add 2 mL of pyridine and 0.2 mL of sodium hydrogen carbonate TS, and boil: a blue color develops (sulfur). To 10 mL of well shaken Sulfur and Camphor Lotion add 5 mL of diethyl ether, and mix. Separate the diethyl ether layer, and filter through a pledget of cotton. Wash the cotton with a small portion of diethyl ether, combine the washings with the filtrate, and distil cautiously on a water bath to remove the diethyl ether. Dissolve the residue in 1 mL of methanol, add 1 mL of 2,4-dinitrophenylhydrazine TS, and heat for about 2 minutes on a water bath. Cool, dilute with water to make about 5 mL, and allow to stand. Filter the produced precipitate through a glass filter (G4), and wash the residue on the filter with water until the last washing is colorless. Dissolve the residue in 10 mL of ethanol (95), add 5 mL of sodium hydroxide TS, and allow to stand for 2 minutes: a red color develops (d-camphor or dl-cam-phor). The supernatant liquid obtained in (1) responds to Qualitative Tests <1.09> (2) and (3) for calcium salt."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

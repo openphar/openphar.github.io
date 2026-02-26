@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lenampicillin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lenampicillin Hydrochloride",
+    "ja": "レナンピシリン塩酸塩"
+  },
+  "monographId": "JP18-lenampicillin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H23N3O7S.HCl",
+  "molecularWeight": 497.95,
+  "casNumber": "80734-02-7",
+  "definition": {
+    "en": "Lenampicillin Hydrochloride is the hydrochloride of ampicillin methyloxodioxolenylmethyl ester. It contains not less than 653 mg (potency) and not more than 709 mg (potency) per mg, calculated on the anhydrous basis and corrected by the amount of the residual solvents."
+  },
+  "appearance": {
+    "en": "Lenampicillin Hydrochloride occurs as a white to light yellow-white powder. It is very soluble in water, in methanol and in ethanol (95), and freely soluble in N,N-dimethylformamide."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Lenampicillin Hydrochloride as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of Lenampicillin Hydrochlo-ride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) To 1 mL of a solution of Lenampicillin Hydrochlo-ride (1 in 100) add 0.5 mL of dilute nitric acid and 1 drop of JP XVIII Official Monographs / Lenampicillin Hydrochloride 1247 silver nitrate TS: a white precipitate is formed. D Optical rotation <2.49> [a]20: ＋174 – ＋1949(0.2 g calcu-lated on the anhydrous basis and corrected on the amount of residual solvent, ethanol (95), 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Lenampicillin Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Lenampicillin Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Free ampicillin—Weigh accurately about 0.1 g of Lenampicillin Hydrochloridein, dissolve in exactly 10 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately an amount of Ampicillin RS, equivalent to about 25 mg (potency), and dis-solve in water to make exactly 100 mL. Pipet 2 mL of this solution, add exactly 10 mL of the internal standard solu-tion, and use this solution as the standard solution. The sam-ple solution should be used to the following test immediately after the solution is prepared. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak height of ampicillin to that of the internal standard: the amount of ampicillin is not more than 1.0z. Amount (z) of ampicillin (C16H19N3O4S) ＝ MS/MT × QT/QS × 2 MS: Amount [mg (potency)] of Ampicillin RS taken MT: Amount (mg) of Lenampicillin Hydrochloride taken Internal standard solution—A solution of anhydrous caffeine in the mobile phase (1 in 50,000). mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction: the amount of penicilloic acid (C16H21N3O5S: 367.42) is not more than 3.0z. Each mL of 0.01 mol/L sodium thiosulfate VS ＝ 0.45 mg of C16H21N3O5S (5) Residual solvent <2.46>—Weigh accurately about 0.25 g of Lenampicillin Hydrochloride, dissolve in exactly 1 mL of the internal standard solution, add N,N-dimethylfor-mamide to make 5 mL, and use this solution as the sample solution. Separately, weigh accurately about 80 mg of 2-propanol and about 0.12 g of ethyl acetate, and add N,N-dimethylformamide to make exactly 100 mL. Pipet 1 mL and 3 mL of this solution, add exactly 1 mL each of the in-ternal standard solution, add N,N-dimethylformamide to make 5 mL, and use these solutions as the standard solution (1) and the standard solution (2), respectively. Perform the test with 4 mL each of the sample solution, standard solution (1) and (2) as directed under Gas Chromatography <2.02> ac- cording to the following conditions, and calculate the ratios, QTa and QTb, of the peak height of 2-propanol and ethyl ace-tate to that of the internal standard of the sample solution, the ratios, QSa1 and QSb1, of the peak height of 2-propanol and ethyl acetate to that of the internal standard of the standard solution (1) and the ratios, QSa2 and QSb2, of the peak height of 2-propanol and ethyl acetate to that of the internal standard of the standard solution (2). Calculate the amounts of 2-propanol and ethyl acetate by the following equations: not more than 0.7z and not more than 1.7z, respectively. Amount (z) of 2-propanol ＝ MSa/MT × (2QTa － 3QSa1 ＋ QSa2)/(QSa2 － QSa1) Amount (z) of ethyl acetate Operating conditions— Detector: An ultraviolet absorption photometer (wave- ＝ MSb/MT × (2QTb － 3Q Sb1 ＋ QSb2 )/(Q Sb2 － QSb1) length: 230 nm). Column: A stainless steel column 4 mm in inside diameter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.22 g of potassium dihydrogen phosphate in water to make 900 mL, and add 100 mL of acetonitrile. Flow rate: Adjust so that the retention time of ampicillin is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, ampicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak height of ampicillin to that of the internal stand-ard is not more than 5z. Penicilloic acid—Weigh accurately about 0.1 g of Lenampicillin Hydrochloride, dissolve in water to make ex-actly 100 mL, and use this solution as the sample solution. Pipet 10 mL of the sample solution, add 10 mL of potassium hydrogen phthalate buffer solution (pH 4.6) and exactly 10 mL of 0.005 mol/L iodine VS, allow to stand for exactly 15 minutes while protecting from exposure to light, and titrate <2.50> with 0.01 mol/L sodium thiosulfate VS (indicator: 1 MSa: Amount (g) of 2-propanol taken MSb: Amount (g) of ethyl acetate taken MT: Amount (g) of the Lenampicillin Hydrochloride taken Internal standard solution—A solution of cyclohexane in N,N-dimethylformamide (1 in 1000). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 3 mm in inside diameter and 3 m in length, packed with siliceous earth for gas chromatogra-phy (180 – 250 mm in particle diameter) coated with tetra-kishydroxypropylethylenediamine for gas chromatography at the ratio of 10 to 15z. Column temperature: A constant temperature of about 809C. Injection port temperature: A constant temperature of about 1609C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of the internal standard is about 1 minute. System suitability— System performance: When the procedure is run with 4 mL of the standard solution (2) under the above operating condi-tions, the internal standard, ethyl acetate and 2-propanol are eluted in this order, and the resolution between the peaks of the internal standard and ethyl acetate is not less than 2.0. System repeatability: When the test is repeated 3 times with 4 mL of the standard solution (2) under the above oper-ating conditions, the relative standard deviation of the ratios of the peak height of ethyl acetate to that of the internal standard is not more than 5.0z. ‌1248 Water <2.48> Not more than 1.5z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Lenampicillin Hy-drochloride and Lenampicillin Hydrochloride RS, equivalent to about 0.1 g (potency), dissolve each in the internal stand-ard solution to make exactly 10 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of lenampicillin to that of the internal standard. Amount [ mg (potency)] of ampicillin (C16H19N3O4S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Lenampicillin Hydrochlo-ride RS taken Internal standard solution—A solution of ethyl aminobenzo-ate in the mobile phase (1 in 4000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 9.53 g of potassium dihydrogen phosphate in water to make exactly 700 mL, and add aceto-nitrile to make exactly 1000 mL. Flow rate: Adjust so that the retention time of lenampicil-lin is about 6 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, lenampicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of lenampicillin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

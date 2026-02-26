@@ -1,0 +1,277 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/hkcmms/radix-ginseng",
+  "@type": "CrudeDrugMonograph",
+
+  "prefLabel": {
+    "en": "Radix Ginseng",
+    "zh-Hant": "人參",
+    "la": "Radix Ginseng"
+  },
+
+  "altLabel": [
+    { "@value": "Ginseng", "@language": "en" },
+    { "@value": "Ren Shen", "@language": "en" },
+    { "@value": "人參", "@language": "zh-Hant" },
+    { "@value": " Ginseng radix", "@language": "la" }
+  ],
+
+  "monographId": "HKCMMS-V2-001",
+  "publisher": "HKCMMS",
+  "status": "Official",
+  "effectiveDate": "2022-01-01",
+  "version": "2",
+
+  "definition": {
+    "en": "Radix Ginseng is the dried root of Panax ginseng C.A. Meyer (Araliaceae)."
+  },
+  "definition": {
+    "zh-Hant": "人參為五加科植物人參的乾燥根。"
+  },
+
+  "referencesPreparation": {
+    "@id": "https://www.herbapedia.org/entity/preparation/dried-ginseng-root"
+  },
+
+  "referencesTCMProfile": {
+    "@id": "https://www.herbapedia.org/system/tcm/profile/ren-shen"
+  },
+
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.herbapedia.org/entity/botanical/species/panax-ginseng"
+    },
+    "plantPartUsed": {
+      "en": "Root",
+      "zh-Hant": "根"
+    },
+    "collectionPeriod": {
+      "en": "Collected in autumn when the plants are 4-6 years old"
+    }
+  },
+
+  "macroscopicDescription": {
+    "@type": "MacroscopicDescription",
+    "color": {
+      "en": "Yellowish white to pale brown",
+      "zh-Hant": "黃白色至淺棕色"
+    },
+    "shape": {
+      "en": "Main root fusiform or cylindrical, often with lateral roots",
+      "zh-Hant": "主根呈紡錘形或圓柱形，常有側根"
+    },
+    "size": {
+      "en": "Main root 5-20 cm long, 0.5-3 cm in diameter",
+      "zh-Hant": "主根長5-20厘米，直徑0.5-3厘米"
+    },
+    "texture": {
+      "en": "Hard and brittle",
+      "zh-Hant": "質硬而脆"
+    },
+    "fracture": {
+      "en": "Fracture is flat, pale yellowish white",
+      "zh-Hant": "斷面平坦，淡黃白色"
+    },
+    "odor": {
+      "en": "Slightly aromatic",
+      "zh-Hant": "微有香氣"
+    },
+    "taste": {
+      "en": "Sweet, slightly bitter",
+      "zh-Hant": "味甘、微苦"
+    }
+  },
+
+  "microscopicDescription": {
+    "@type": "MicroscopicDescription",
+    "transverseSection": {
+      "en": "Cork of several layers of cells; phloem with scattered secretory canals, phloem fibers, and parenchyma; xylem with vessels, tracheids, wood fibers, and rays; vessels 20-80 μm in diameter with simple perforation plates",
+      "zh-Hant": "木栓層為數層細胞；韌皮部有散在的分泌道、韌皮纖維和薄壁組織；木質部有導管、管胞、木纖維和射線；導管直徑20-80微米，單穿孔板"
+    },
+    "powderCharacteristics": {
+      "en": "Powder shows fragments of cork cells, parenchyma cells containing starch grains (simple or compound, 2-20 μm in diameter), vessels with simple perforation plates, and fragments of resin canals",
+      "zh-Hont": "粉末可見木栓細胞碎片，含澱粉粒的薄壁細胞（單粒或複粒，直徑2-20微米），具單穿孔板的導管，以及分泌道碎片"
+    },
+    "diagnosticFeatures": {
+      "en": "Presence of secretory canals in phloem; starch grains 2-20 μm in diameter; calcium oxalate cluster crystals 20-70 μm in diameter"
+    }
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification - TLC"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "TLC",
+      "testConditions": {
+        "en": "Extract with methanol. Compare with Ginsenoside Rb1 and Rg1 standard."
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Foreign Matter"
+      },
+      "testType": "TestType-ForeignMatter",
+      "harmonizedMethod": "ForeignMatter",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2.0,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Total Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "TotalAsh",
+      "physicalProperty": {
+        "en": "Total Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 4.5,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "AcidInsolubleAsh",
+      "physicalProperty": {
+        "en": "Acid-Insoluble Ash"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.5,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Total Ginsenosides"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Total Ginsenosides (Rb1, Rg1)"
+      },
+      "assayExpression": "on dried basis",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.30,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Ginsenoside Rb1"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Ginsenoside Rb1"
+      },
+      "assayExpression": "on dried basis",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.15,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Ginsenoside Rg1"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Ginsenoside Rg1"
+      },
+      "assayExpression": "on dried basis",
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 0.10,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 20,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 5,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "physicalProperty": {
+        "en": "Loss on Drying"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 14.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed container",
+    "zh-Hant": "密封容器"
+  },
+  "storageConditions": {
+    "en": "Store in a cool, dry place",
+    "zh-Hant": "置於陰涼乾燥處"
+  }
+}

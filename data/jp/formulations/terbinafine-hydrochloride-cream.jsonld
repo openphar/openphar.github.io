@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/terbinafine-hydrochloride-cream",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Terbinafine Hydrochloride Cream‌",
+    "ja": "テルビナフィン塩酸塩クリーム"
+  },
+  "monographId": "JP18-terbinafine-hydrochloride-cream",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To quantity of Terbinafine Hydrochloride Cream, equivalent to 10 mg of Terbinafine Hydrochloride, dissolve in 20 mL of 2-propanol, and use this solution as the sample solution. Separately, dissolve 10 mg of terbinafine hydrochloride for assay in 20 mL of 2-propanol, and use this terbinafine are eluted in this order with the resolution be-tween these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of terbinafine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Cream"
+}

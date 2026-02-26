@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-gentian",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-gentian",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Gentian",
+    "la": "Gentianae Radix Pulverata",
+    "ja": "ゲンチアナ末"
+  },
+  "definition": {
+    "en": "solution as the standard solution"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/gentian"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

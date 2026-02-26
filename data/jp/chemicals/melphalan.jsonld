@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/melphalan",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Melphalan",
+    "ja": "メルファラン"
+  },
+  "monographId": "JP18-melphalan",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C13H18Cl2N2O2",
+  "molecularWeight": 305.2,
+  "definition": {
+    "en": "Melphalan contains not less than 93."
+  },
+  "appearance": {
+    "en": "Melphalan occurs as a white to light yellowish white crystalline powder. It is slightly soluble in water, in methanol and in ethanol (95), and practically insoluble in diethyl ether. It dissolves in dilute hydrochloric acid and in dilute so-dium hydroxide TS. It is gradually colored by light. D Optical rotation [a]20: about －329(0.5 g calculated on the dried basis, methanol, 100 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 20 mg of Melphalan add 50 mL of methanol, dissolve by warming, add 1 mL of a solution of 4-(4-nitrobenzyl)pyridine in acetone (1 in 20), and evaporate on a water bath to dryness. Dissolve the residue in 1 mL of warmed methanol and add 2 drops of ammonia solution (28): a purple color develops. Dissolve 0.1 g of Melphalan in 10 mL of dilute so-dium hydroxide TS, and heat on a water bath for 10 minutes. After cooling, add dilute nitric acid to acidify, and filter: the filtrate responds to Qualitative Tests <1.09> for chloride. Determine the absorption spectrum of a solution of Melphalan in methanol (1 in 100,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Ionisable chloride—Weigh accurately about 0.5 g of Melphalan, dissolve in 80 mL of diluted nitric acid (1 in 40), stir for 2 minutes, and titrate <2.50> with 0.1 mol/L silver nitrate VS (potentiometric titration): the consumed volume is not more than 1.0 mL to 0.50 g of Melphalan. Heavy metals <1.07>—Proceed with 1.0 g of Melpha- lan according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Melphalan according to Method 3, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 7.0z (1 g, in vacuum at a pressure not exceeding 0.67 kPa, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.3z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Melphalan, add 20 mL of a solution of potassium hydroxide (1 in 5), and heat under a reflux condenser on a water bath for 2 hours. After cooling, add 75 mL of water and 5 mL of nitric acid, cool, and titrate <2.50> with 0.1 mol/L silver nitrate VS (potentio-metric titration). Make any necessary correction by using the results obtained in the Purity (1). ‌Each mL of 0.1 mol/L silver nitrate VS ＝ 15.26 mg of C13H18Cl2N2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

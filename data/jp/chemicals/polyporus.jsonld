@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyporus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Polyporus",
+    "ja": "チョレイ"
+  },
+  "monographId": "JP18-polyporus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregularly shaped mass, usually 5 – 15 cm in length; externally black-brown to grayish brown, with numerous dents and coarse wrinkles; breakable; fractured surface rather soft and cork-like, and almost white to light brown in color, and a white speckled pattern on the inner region; light in texture. Practically odorless and tasteless."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Warm, while shaking, 0.5 g of pulverized Polyporus Sclerotium with 5 mL of acetone on a water bath for 2 minutes, filter, and evaporate the filtrate to dryness. Dissolve the residue in 5 drops of acetic anhydride, and add 1 drop of sulfuric acid: a red-purple color develops, and im-mediately changes to dark green."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Polyporus Sclerotium according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Polyporus Sclerotium according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 16.0z. Acid-insoluble ash <5.01> Not more than 4.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

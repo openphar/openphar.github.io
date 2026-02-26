@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benzalkonium-chloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benzalkonium Chloride",
+    "ja": "ベンザルコニウム塩化物"
+  },
+  "monographId": "JP18-benzalkonium-chloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Benzalkonium Chloride is represented by the for mula [C6H5CH2N(CH3)2R]Cl, in which R extends from C8H17 to C18H37, with C12H25 and C14H29 com-prising the major portion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Benzalkonium Chloride occurs as a white to yellow-white powder, colorless to light yellow, gelatinous pieces, or jelly-like fluid or mass. It has a characteristic odor. It is very soluble in water and in ethanol (95), and practi-cally insoluble in diethyl ether. A solution of Benzalkonium Chloride foams strongly when shaken."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Benzalkonium Chlo-ride in 1 mL of sulfuric acid, add 0.1 g of sodium nitrate, and heat for 5 minutes on a water bath. After cooling, add 10 mL of water and 0.5 g of zinc powder, heat for 5 minutes, cool, and filter: the filtrate responds to Qualitative Tests <1.09> for primary aromatic amines. The color of the solu- tion is red. To 2 mL of a solution of Benzalkonium Chloride (1 in 1000) add a mixture of 0.2 mL of a solution of bromophe-nol blue (1 in 2000) and 0.5 mL of sodium hydroxide TS: a blue color develops. Add 4 mL of chloroform to this solu-tion, and shake vigorously: the blue color shifts to the chlo-roform layer. Collect the chloroform layer, and add drop-wise, with stirring, a solution of sodium lauryl sulfate (1 in 1000): the chloroform layer turns colorless. Determine the absorption spectrum of a solution of Benzalkonium Chloride in 0.1 mol/L hydrochloric acid TS (1 in 2000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. ‌To 1 mL of a solution of Benzalkonium Chloride (1 in 100) add 2 mL of ethanol (95), 0.5 mL of dilute nitric acid and 1 mL of silver nitrate TS: a white precipitate is pro-duced. This precipitate does not dissolve on the addition of dilute nitric acid, but dissolves on the addition of ammonia TS.‌"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Benzalkonium Chloride in 10 mL of water: the solution is clear and colorless to light yellow. (2) Petroleum ether-soluble substances—To 3.0 g of Benzalkonium Chloride add water to make 50 mL, then add 50 mL of ethanol (99.5) and 5 mL of 0.5 mol/L sodium hy- It foams strongly on shaking. Identification (1) Evaporate a volume of Benzalkonium Chloride Solution, equivalent to 0.2 g of Benzalkonium Chloride, on a water bath to dryness, and proceed with the residue as directed in the Identification (1) under Benzalko-nium Chloride. To a volume of Benzalkonium Chloride Solution, equivalent to 0.01 g of Benzalkonium Chloride, add water to make 10 mL. Proceed with 2 mL of this solution as directed in the Identification (2) under Benzalkonium Chloride. To a volume of Benzalkonium Chloride Solution, equivalent to 1 g of Benzalkonium Chloride, add water or concentrate on a water bath, if necessary, to make 10 mL. To 1 mL of this solution add 0.1 mol/L hydrochloric acid VS to make 200 mL, and proceed as directed in the Identifi-cation (3) under Benzalkonium Chloride. To a volume of Benzalkonium Chloride Solution, equivalent to 0.1 g of Benzalkonium Chloride, add water or concentrate on a water bath, if necessary, to make 10 mL. Proceed with 1 mL of this solution as directed in the Identifi-cation (4) under Benzalkonium Chloride."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Benzalkonium Chloride Solution, equivalent to about 0.15 g of benzalkonium chloride droxide TS, and extract with three 50-mL portions of petro- leum ether. Combine the petroleum ether extracts, and wash (C22H ClN), dilute with water to make 75 mL, if necessary, with three 50-mL portions of dilute ethanol. After shaking well with 10 g of anhydrous sodium sulfate, filter through a dry filter paper, and wash the filter paper with two 10-mL portions of petroleum ether. Evaporate the petroleum ether on a water bath by heating, and dry the residue at 1059C for 1 hour: the residue is not more than 1.0z. Water <2.48> Not more than 15.0z (volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.2z (1 g). Assay Weigh accurately about 0.15 g of Benzalkonium Chloride, and dissolve in 75 mL of water. Adjust the pH be-tween 2.6 and 3.4 by adding dropwise diluted dilute hydro-chloric acid (1 in 2), add 1 drop of methyl orange TS, and titrate <2.50> with 0.02 mol/L sodium tetraphenylboron VS until the color of the solution becomes red. Each mL of 0.02 mol/L sodium tetraphenylboron VS and proceed as directed in the Assay under Benzalkonium Chloride. Each mL of 0.02 mol/L sodium tetraphenylboron VS ＝ 7.080 mg of C22H40ClN"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

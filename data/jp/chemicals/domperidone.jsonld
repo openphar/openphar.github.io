@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/domperidone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Domperidone",
+    "ja": "ドンペリドン"
+  },
+  "monographId": "JP18-domperidone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H24ClN5O2",
+  "molecularWeight": 425.91,
+  "casNumber": "57808-66-9",
+  "definition": {
+    "en": "Domperidone, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Domperidone occurs as a white to pale yellow, crystalline powder or powder. It is freely soluble in acetic acid (100), slightly soluble in methanol and in ethanol (99.5), very slightly soluble in 2-propanol, and practically insoluble in water. Melting point: about 2439C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Domperidone in a mixture of 2-propanol and 0.1 mol/L hydrochloric acid TS (9:1) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Domperidone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave ‌882 numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Domperidone according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 30 mg of Domperidone in 100 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area of each solution by the automatic integration method: the area of each peak other than domperidone obtained from the sample solution is not larger than 1/2 times the peak area of domperidone from the standard solution. Furthermore, the total area of the peaks other than domperidone is not larger than the peak area of domperidone from the standard solution. ers. Storage—Light-resistant. Donepezil Hydrochloride"
+      }
+    }
+  ]
+}

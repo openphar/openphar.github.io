@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lysozyme-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lysozyme Hydrochloride",
+    "ja": "リゾチーム塩酸塩"
+  },
+  "monographId": "JP18-lysozyme-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Lysozyme Hydrochloride is the hydrochloride of lysozyme obtained from albumen of hen's egg, and is a protein consisting of 129 amino acid residues. It contains not less than 0."
+  },
+  "appearance": {
+    "en": "Lysozyme Hydrochloride occurs as white, crystals, or crystalline or amorphous powder. It is freely soluble in water, and practically insoluble in ethanol (99.5). It is hygroscopic. The pH of a solution of 3 g of Lysozyme Hydrochloride in 200 mL of water is between 3.0 and 5.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Lysozyme Hy-drochloride in acetate buffer solution (pH 5.4) (1 in 500) add 1 mL of ninhydrin TS, and heat for 10 minutes: a blue-purple color develops. (2) Determine the absorption spectrum of a solution of Lysozyme Hydrochloride in acetate buffer solution (pH 5.4) (1 in 10,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—To 5 mL of a solution of Lysozyme Hydrochloride (3 in 200) add, if necessary, dilute hydrochloric acid to adjust the pH to 3: the solution is clear. (2) Heavy metals <1.07>—Proceed with 1.0 g of Lyso- zyme Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 8.0z (0.1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 2.0z (0.5 g). Nitrogen Perform the test as directed under Nitrogen De-termination <1.08>: the amount of nitrogen (N: 14.01) is be-tween 16.8z and 18.6z, calculated on the dried basis."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Lysozyme Hydro-chloride, equivalent to about 25 mg (potency), dissolve in phosphate buffer solution (pH 6.2) to make exactly 100 mL. Pipet 2 mL of this solution, add phosphate buffer solution (pH 6.2) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Lysozyme RS (separately determine its loss on drying <2.41> under the same condition as Lysozyme Hydrochloride), equivalent to about 25 mg (potency), and dissolve in phos-phate buffer solution (pH 6.2) to make exactly 100 mL. Pipet 1 mL and 2 mL of this solution, add phosphate buffer solution (pH 6.2) to them to make exactly 50 mL, and use these solutions as the standard solution (1) and the solution (2), respectively. Keep the sample solution and the standard solutions in an ice-bath. Pipet 4 mL of substrate solution for lysozyme hydrochloride, previously warmed in a water bath of 359C for about 5 minutes, add exactly 100 mL of the sam-ple solution, previously warmed in a water bath of 359C for about 3 minutes, and allow to stand at 359C for exactly 10 minutes, then add exactly 0.5 mL of 1 mol/L hydrochloric acid TS, and immediately shake. Determine the absorbance under Ultraviolet-visible Spectrophotometry <2.24>, AT, of this solution at 640 nm, using water as the blank. Determine the absorbances, AS1 and AS2, of the solutions obtained with the standard solution (1) and the standard solution (2) in the same manner as the sample solution. Amount [mg (potency)] of lysozyme per mg, calculated on the dried basis ＝ MS/2MT ×{(AS1 － AT)/(AS1 － AS2) ＋ 1} MS: Amount (mg) of Lysozyme RS taken, calculated on the dried basis. MT: Amount (mg) of the sample taken, calculated on the dried basis."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

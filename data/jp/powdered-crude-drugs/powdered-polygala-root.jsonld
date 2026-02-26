@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-polygala-root",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-polygala-root",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Polygala Root",
+    "la": "Polygalae Radix Pulverata",
+    "ja": "オンジ末"
+  },
+  "definition": {
+    "en": "the powder of Polygala"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/polygala-root"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

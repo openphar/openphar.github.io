@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gypsum-exsiccatum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gypsum Exsiccatum",
+    "ja": "焼セッコウ"
+  },
+  "monographId": "JP18-gypsum-exsiccatum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Exsiccated Gypsum occurs as a white to grayish white powder. It is odorless and tasteless. It is slightly soluble in water, and practically insoluble in ethanol (95). It absorbs moisture slowly on standing in air to lose its solidifying property. When it is heated to yield an anhydrous compound at a temperature above 2009C, it loses its solidifying property."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake 1 g of Exsiccated Gypsum with 20 mL of water for 5 minutes, and filter: the filtrate responds to the Qualitative Tests <1.09> (2) and (3) for calcium salt and to the Qualitative Tests <1.09> for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Alkalinity—Take 3.0 g of Exsiccated Gypsum in a glass-stoppered test tube, add 10 mL of water and 1 drop of phenolphthalein TS, and shake vigorously: no red color de-velops. Solidification To 10.0 g of Exsiccated Gypsum add 10 mL of water, stir immediately for 3 minutes, and allow to stand: the period until water no longer separates, when the material is pressed with a finger, is not more than 10 minutes from the time when the water was added. Hachimijiogan Extract / Crude Drugs and Related Drugs"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

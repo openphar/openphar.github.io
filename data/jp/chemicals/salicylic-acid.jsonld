@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/salicylic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Salicylic Acid",
+    "ja": "サリチル酸"
+  },
+  "monographId": "JP18-salicylic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H6O3",
+  "molecularWeight": 138.12,
+  "definition": {
+    "en": "Salicylic Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Salicylic Acid occurs as white, crystals or crys-talline powder. It has a slightly acid, followed by an acrid taste. It is freely soluble in ethanol (95) and in acetone, and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Salicylic Acid (1 in 500) ‌responds to Qualitative Tests <1.09> (1) and (3) for salicylate. Determine the absorption spectrum of a solution of Salicylic Acid in ethanol (95) (3 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra ex-hibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Sali-cylic Acid as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 5.0 g of Salicylic Acid in 90 mL of water by heating, cool, dilute with water to 100 mL, and filter. Discard the first 20 mL of the filtrate, take 30 mL of the subsequent filtrate, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.35 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.008z). Sulfate <1.14>—To 20 mL of the filtrate obtained in add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.019z). Heavy metals <1.07>—Dissolve 2.0 g of Salicylic Acid in 25 mL of acetone, add 4 mL of sodium hydroxide TS, 2 mL of dilute acetic acid and water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 25 mL of acetone, 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Related substances—Dissolve 0.50 g of Salicylic Acid in the mobile phase to make exactly 100 mL, and use this so-lution as the sample solution. Separately, dissolve exactly 10 mg of phenol, exactly 25 mg of 4-hydroxyisophthalic acid and exactly 50 mg of parahydroxybenzoic acid in the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the peak areas of parahydroxybenzoic acid, 4-hydroxyisophthalic acid and phenol obtained from the sample solution are not larger than the area of each respective peak from the standard solu-tion, the area of the peak other than salicylic acid and the substances mentioned above is not larger than the peak area of 4-hydroxisophthalic acid from the standard solution, and the total area of peaks other than salicylic acid is not larger than 2 times the peak area of parahydroxybenzoic acid from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of water, methanol and acetic acid (100) (60:40:1). Flow rate: Adjust so that the retention time of salicylic acid is about 17 minutes. Time span of measurement: About 2 times as long as the retention time of salicylic acid, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak areas of parahydroxybenzoic acid, 4-hydroxyisophthalic acid and phenol obtained with 10 mL of this solution are equivalent to 14 to 26z of the area of each respective peak with 10 mL of the standard solution. System performance: Dissolve 10 mg of phenol, 25 mg of 4-hydroxyisophthalic acid and 50 mg of parahydroxybenzoic acid in 100 mL of the mobile phase. To 1 mL of this solution add the mobile phase to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, parahydroxybenzoic acid, 4-hydroxyisophthalic acid and phenol are eluted in this order with the resolution between the peaks of 4-hydroxyisophthalic acid and phenol being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of parahydroxybenzoic acid, 4-hydroxyisophthalic acid and phenol is not more than 2.0z, respectively. Loss on drying <2.41> Not more than 0.5z (2 g, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Salicylic Acid, pre-viously dried, dissolve in 25 mL of neutralized ethanol, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indica-tor: 3 drops of phenolphthalein TS). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 13.81 mg of C7H6O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

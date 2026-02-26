@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/isoniazid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Isoniazid",
+    "ja": "イソニアジド"
+  },
+  "monographId": "JP18-isoniazid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H7N3O",
+  "molecularWeight": 137.14,
+  "casNumber": "54-85-3",
+  "definition": {
+    "en": "Isoniazid, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Isoniazid occurs as colorless crystals or a white crystalline powder. It is odorless. It is freely soluble in water and in acetic acid (100), spar-ingly soluble in ethanol (95), slightly soluble in acetic anhy-dride, and very slightly soluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve about 20 mg of Isoniazid in water to make 200 mL. To 5 mL of the solution add 1 mL of 0.1 mol/L hydrochloric acid TS and water to make 50 mL. Determine the absorption spectrum of the solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Isoniazid, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 1.0 g of Isoniazid in 10 mL of freshly boiled and cooled water: the pH of this solution is between 6.5 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Isoniazid in 20 mL of water: the solution is clear and col-orless. Heavy metals <1.07>—Proceed with 1.0 g of Isoniazid according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Isoniazid according to Method 3, and perform the test. In this case, add 10 mL of a solution of magnesium nitrate hex-ahydrate in ethanol (95) (1 in 50), then add 1.5 mL of hydro-gen peroxide (30), and ignite the ethanol to burn (not more than 5 ppm). Hydrazine—Dissolve 0.10 g of Isoniazid in 5 mL of water, add 0.1 mL of a solution of salicylaldehyde in ethanol (95) (1 in 20), shake immediately, and allow to stand for 5 minutes: no turbidity is produced. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Isoniazid, previ-ously dried, dissolve in 50 mL of acetic acid (100) and 10 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L per- ‌JP XVIII Official Monographs / Isoniazid Tablets 1201‌ chloric acid VS until the color of the solution changes from yellow to green (indicator: 0.5 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 13.71 mg of C6H7N3O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

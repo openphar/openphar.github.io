@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/zopiclone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Zopiclone",
+    "ja": "ゾピクロン"
+  },
+  "monographId": "JP18-zopiclone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H17ClN6O3",
+  "molecularWeight": 388.81,
+  "definition": {
+    "en": "Zopiclone contains not less than 99."
+  },
+  "appearance": {
+    "en": "Zopiclone occurs as a white to pale yellow crystalline powder. It is slightly soluble in ethanol (99.5), and practically in-soluble in water. It dissolves in 0.1 mol/L hydrochloric acid TS. It is gradually colored to pale brown by light. A solution of Zopiclone in 0.1 mol/L hydrochloric acid TS (1 in 40) shows no optical rotation. Melting point: 175 – 1789C Zopiclone shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Zopiclone in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectropho- Time span of measurement: About 1.5 times as long as the retention time of zopiclone, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of zopiclone obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of zopiclone are not less than 7500 and not more than 1.5, respectively. ‌System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of zopiclone is not more than 3.0z. Loss on drying <2.41> Not more than 0.5z (2 g, in vacu-um, 1009C, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Zopiclone, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (4:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 38.88 mg of C17H17ClN6O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

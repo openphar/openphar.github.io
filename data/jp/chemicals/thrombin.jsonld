@@ -1,0 +1,34 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/thrombin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Thrombin",
+    "ja": "トロンビン"
+  },
+  "monographId": "JP18-thrombin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Thrombin is prepared from prothrombin obtained from blood of man or bull, through interaction with added thromboplastin in the presence of calcium ions, sterilized and lyophilized. It contains not less than 80z and not more than 150z of the labeled Units of thrombin."
+  },
+  "appearance": {
+    "en": "Thrombin is a white to light yellow, amor-phous substance. Thrombin (500 Units) dissolves in 1.0 mL of isotonic sodi-um chloride solution clearly or with slight turbidity within 1 minute. Loss on drying <2.41> Not more than 3z (50 mg, in vacu-um, phosphorus (V) oxide, 4 hours). Sterility <4.06> It meets the requirement."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Fibrinogen solution—Weigh accurately about 30 mg of fibrinogen, and dissolve in 3 mL of isotonic sodium chloride solution. Allow the solution to clot sufficiently with frequent shaking after the addition of about 3 Units of thrombin. Wash the precipitated clot thoroughly until the washings yield no turbidity on addition of silver nitrate TS, weigh the clot after drying at 1059C for 3 hours, and calcu-late the percentage of the clot in the fibrinogen. Dissolve the fibrinogen in isotonic sodium chloride solution so that the clot should be 0.20z, adjust the pH of the solution between 7.0 and 7.4 by addition of 0.05 mol/L dibasic sodium phos-phate TS (or if necessary, use 0.5 mol/L disodium hydrogen-phosphate TS), and dilute with isotonic sodium chloride so-lution to make a 0.10z solution. (ii) Procedure—Dissolve Thrombin RS in isotonic sodi-um chloride solution, and prepare four kinds of standard so-lutions which contain 4.0, 5.0, 6.2, and 7.5 Units in 1 mL. Transfer accurately 0.10 mL each of the standard solutions maintained at a given degree ± 19C between 209C and 309C to a small test tube, 10 mm in inside diameter, 100 mm in length, blow out 0.90 mL of the fibrinogen solution at the same temperature into the test tube from a pipet, start a stop watch simultaneously, shake the tube constantly, and deter-mine the time for the first appearance of clot. Calculate the average values of five determinations for the four kinds of standard solutions, respectively. If the deviation between the maximum and the minimum values of five determinations is more than 10z of the average value, reject the whole run, and try the experiment again. The concentration of the standard solution may be changed appropriately within the range between 14 and 60 seconds of the clotting time. The determination proceeds at the same temperature described above. Next, weigh accurately the whole contents of a single container of Thrombin, dissolve it in isotonic sodium chlo-ride solution to provide a solution which is presumed to con-tain about 5 Units in each mL, treat 0.10 mL of the solution with the same reagents in the same manner five times, deter-mine the clotting times, and calculate the average value. Plot the average values of the clotting times of the four kinds of the standard solutions on a logarithmic graph, using Units as the abscissa and clotting times as the ordinate, and draw a calibration line which best fits the four plotted points. Using this line, read the Units U from the average value of the clot-ting times of the sample solution. Units of 1 container of Thrombin ＝ U × 10 × V V: The number of mL of the volume in which the contents of 1 container of Thrombin has been dissolved Calculate the units for 1 mg of the contents."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Not exceeding 109C."
+  }
+}

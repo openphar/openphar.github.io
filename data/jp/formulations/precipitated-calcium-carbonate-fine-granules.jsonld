@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/precipitated-calcium-carbonate-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Precipitated Calcium Carbonate Fine Granules",
+    "ja": "沈降炭酸カルシウム細粒"
+  },
+  "monographId": "JP18-precipitated-calcium-carbonate-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a quantity of powdered Precipitated Calcium Carbonate Fine Granules, equivalent to 0.5 g of Precipitated Calcium Carbonate, add 10 mL of dilute hydro-chloric acid, shake thoroughly, and filter. Boil the filtrate, then cool, and neutralize with ammonia TS: the solution re-sponds to Qualitative Tests <1.09> (1), (2) and (3) for calcium salt. (2) Powdered Precipitated Calcium Carbonate Fine Granules responds to Qualitative Tests <1.09> (1) for carbon-ate. Uniformity of dosage units <6.02> The granules in single-dose packages meet the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 1st fluid for dissolution test as the dissolution me-dium, the dissolution rate in 10 minutes of Precipitated Cal-cium Carbonate Fine Granules is not less than 80z. Start the test with an accurately weighed amount of ‌JP XVIII Official Monographs / Precipitated Calcium Carbonate Tablets 595 Precipitated Calcium Carbonate Fine Granules, equivalent to about 0.5 g of calcium carbonate (CaCO3), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add the mobile phase to make exactly 20 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 28 mg of calcium carbonate for assay, previously dried at 1809C for 4 hours, and dissolve in the dissolution medium to make exactly 100 mL. Pipet 10 mL of this solu-tion, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of calcium in each solution. Dissolution rate (z) with respect to the labeled amount of calcium carbonate (CaCO3) ＝ MS/MT × AT/AS × 1/C × 1800 MS: Amount (mg) of calcium carbonate for assay taken MT: Amount (mg) of Precipitated Calcium Carbonate Fine Granules taken C: Labeled amount (mg) of calcium carbonate (CaCO3) in 1 g Operating conditions— Detector: An electric conductivity detector. Column: A polyether ether ketone tube 4.6 mm in inside diameter and 10 cm in length, packed with slightly acidic ion-exchange silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of a solution of tartaric acid (3 in 2000) and a solution of dipicolinic acid (1 in 3000) (1:1). Flow rate: Adjust so that the retention time of calcium is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, sodium and calcium are eluted in this order with the resolution between these peaks being not less than 4.5. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of calcium is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a quantity of powdered Precipitat-ed Calcium Carbonate Fine Granules, equivalent to about 0.12 g of calcium carbonate (CaCO3), add 20 mL of water and 3 mL of dilute hydrochloric acid, and agitate for 15 minutes with the aid of ultrasonic waves. Then, add 80 mL of water, 15 mL of a solution of potassium hydroxide (1 in 10) and 50 mg of NN indicator, and titrate <2.50> immedi-ately with 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 5.005 mg of CaCO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Granule"
+}

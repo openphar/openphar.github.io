@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/alismatis-tuber",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Alismatis Tuber",
+    "ja": "タクシャ"
+  },
+  "monographId": "JP18-alismatis-tuber",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Spherical or conical tubers, 3 – 8 cm in length, 3 – 5 cm in diameter, sometimes a 2- to 4-branched irregular tuber; externally light grayish brown to light yellow-brown, and slightly annulate; many remains of root appearing as small warty protrusions; fractured surface nearly dense, the outer portion grayish brown, and the inner part white to light yellow-brown in color; rather light in texture and difficult to break. Slight odor and slightly bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Alisma Tuber add 10 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Use alisma tuber triterpenes TS for identification as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and 1 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (10:10:3) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with a spot among the three spots from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Alisma Tuber according to Method 3, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Alisma Tuber according to Method 4, and per-form the test (not more than 5 ppm). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  }
+}

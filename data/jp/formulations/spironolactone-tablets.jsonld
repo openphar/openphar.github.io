@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/spironolactone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Spironolactone Tablets",
+    "ja": "スピロノラクトン錠"
+  },
+  "monographId": "JP18-spironolactone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Spironolactone Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of It shows crystal polymorphism. spironolactone (C 24H32 O4S: 416.57). Identification (1) Determine the absorption spectrum of a solution of Spironolactone in methanol (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Spironolactone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Spironolactone, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Spironolactone RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dis-solve Spironolactone and Spironolactone RS in methanol, Method of preparation Prepare as directed under Tablets, with Spironolactone. Identification To an amount of powdered Spironolactone Tablets, equivalent to 10 mg of Spironolactone, add 100 mL of methanol, shake vigorously, and centrifuge. To 5 mL of the supernatant liquid add methanol to make 50 mL, and de-termine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 236 nm and 240 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Spironolactone Tablets add a mixture of water and acetonitrile (1:1) to make exactly V mL so ‌that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Spironolactone in methanol (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Spironolactone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Spironolactone, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Spironolactone RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dis-solve Spironolactone and Spironolactone RS in methanol, Method of preparation Prepare as directed under Tablets, with Spironolactone. Identification To an amount of powdered Spironolactone Tablets, equivalent to 10 mg of Spironolactone, add 100 mL of methanol, shake vigorously, and centrifuge. To 5 mL of the supernatant liquid add methanol to make 50 mL, and de-termine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 236 nm and 240 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Spironolactone Tablets add a mixture of water and acetonitrile (1:1) to make exactly V mL so ‌that each mL contains about 0.5 mg of spironolactone (C24H32O4S). After stirring for 30 minutes, centrifuge, and use the supernatant liquid as the sample solution. Then, proceed as directed in the Assay. 259C. Mobile phase: A mixture of methanol and water (3:2). Flow rate: Adjust so that the retention time of spironolac- tone is about 11 minutes. Amount (mg) of spironolactone (C ＝ MS × AT/AS × V/50 24H 32O4S) System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con- MS: Amount (mg) of Spironolactone RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of a solution prepared by dissolving 1 g of polysorbate 80 in water to make 500 mL as the dissolution medium, the dissolution rate in 30 minutes of a 25-mg tablet and a 50-mg tablet are not less than 80z and not less than 70z, respec-tively. Start the test with 1 tablet of Spironolactone Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 14 mg of spironolactone (C24H32O4S), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of Spironolactone RS, previously dried at 1059C for 2 hours, dissolve in 20 mL of ethanol (95), and add the dissolution medium to make ex-actly 100 mL. Pipet 5 mL of this solution, add the dissolu-tion medium to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 243 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using the dissolution medium as the blank. Dissolution rate (z) with respect to the labeled amount of spironolactone (C24H32O4S) ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of Spironolactone RS taken C: Labeled amount (mg) of spironolactone (C24H32O4S) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 10 Spironolactone Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of spironolactone (C24H32O4S), add a mixture of water and acetonitrile (1:1) to make exactly 100 mL. After stirring this solution for 30 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of Spironolactone RS, previously dried at 1059C for 2 hours, dissolve in a mixture of water and aceto-nitrile (1:1) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of spironolactone in each solution. Amount (mg) of spironolactone (C24H32O4S) ＝ MS × AT/AS × 2 MS: Amount (mg) of Spironolactone RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about ditions, the number of theoretical plates and the symmetry factor of the peak of spironolactone are not less than 4000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of spironolactone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

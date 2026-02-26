@@ -1,0 +1,48 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/persicae-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Persicae Semen",
+    "ja": "トウニン"
+  },
+  "monographId": "JP18-persicae-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened, asymmetric ovoid seed, 1.2 – 2.0 cm in length, 0.6 – 1.2 cm in width, and 0.3 – 0.7 cm in thick-ness; somewhat sharp at one end, and round at the other end with chalaza; seed coat red-brown to light brown; externally, its surface being powdery by easily detachable stone cells of epidermis; numerous vascular bundles running and rarely branching from chalaza through the seed coat, and, appear-ing as dented longitudinal wrinkles; when soaked in boiling water and softened, the seed coat and thin, translucent, white albumen easily separated from the cotyledone; cotyle-done white in color. Almost odorless; taste, slightly bitter and oily. Under a microscope <5.01>, the outer surface of seed coat reveals polygonal, long polygonal, or obtuse triangular stone cells on the protrusion from vascular bundles, shape of which considerably different according to the position, and their cell walls almost equally thickened; in lateral view, ap-pearing as a square, rectangle or obtuse triangle."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of ground Peach Kernel add 10 mL of methanol, immediately heat under a reflux condenser for 10 minutes, cool, filter, and use the filtrate as the sample so-lution. Separately, dissolve 2 mg of amygdalin for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. ‌2092 Powdered Peach Kernel / Crude Drugs and Related Drugs Develop the plate with a mixture of ethyl acetate, methanol and water (20:5:4) to a distance of about 7 cm, and air-dry the plate. Spray evenly thymol-sulfuric acid-methanol TS for spraying upon the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rancidity—Grind Peach Kernel with boiling water: no odor of rancid oil is perceptible. (2) Foreign matter <5.01>—When perform the test with not less than 250 g of Peach Kernel, it contains not more than 0.10z of broken pieces of endocarp. Loss on drying <5.01> Not more than 8.0z (6 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately 0.5 g of ground Peach Kernel, add 40 mL of diluted methanol (9 in 10), heat immediately under a reflux condenser for 30 minutes, and cool. Filter the mix-ture, add diluted methanol (9 in 10) to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 10 mL, filter, and use the filtrate as the sample solution. Sepa-rately, weigh accurately about 10 mg of amygdalin for assay, previously dried in a desiccator (silica gel) for not less than 24 hours, dissolve in diluted methanol (1 in 2) to make ex-actly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of amygdalin in each solution. Powdered Peach Kernel Persicae Semen Pulveratum"
+      }
+    }
+  ]
+}

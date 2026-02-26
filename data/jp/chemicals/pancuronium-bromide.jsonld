@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pancuronium-bromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pancuronium Bromide",
+    "ja": "‌パンクロニウム臭化物"
+  },
+  "monographId": "JP18-pancuronium-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C35H60Br2N2O4",
+  "molecularWeight": 732.67,
+  "casNumber": "15500-66-0",
+  "appearance": {
+    "en": "Pancuronium Bromide occurs as a white crys-talline powder. It is very soluble in water, and freely soluble in ethanol (95) and in acetic anhydride. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Pancuronium Bromide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) A solution of Pancuronium Bromide (1 in 100) re-sponds to Qualitative Tests <1.09> (1) for bromide. D Optical rotation <2.49> [a]20: ＋38 – ＋429(0.75 g calcu-lated on the anhydrous basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution of Pancuronium Bromide (1 in 100) is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Pancuronium Bromide in 10 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve 50 mg of Pancuronium Bromide in 5 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ethanol (95) to make exactly 100 mL, and use this solution as the standard solution (1). Separately, weigh exactly 5 mg of dacuronium bromide for thin-layer chromatography, add ethanol (95) to make exactly 25 mL, and use this solution as the standard solution (2). Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of 2-propanol, aceto-nitrile and a solution of sodium iodide (1 in 5) (17:2:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly a solution of sodium nitrite in methanol (1 in 100) on the plate, allow to stand for 2 minutes, and spray evenly potas-sium bismuth iodide TS on the plate: a spot obtained from the sample solution, corresponding to that from the standard solution (2), has no more color than that from the standard solution (2), and the spots other than the principal spot and the above mentioned spot from the sample solution have no more color than the spot from the standard solution (1). Water <2.48> Not more than 8.0z (0.3 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Pancuronium Bromide, dissolve in 50 mL of acetic anhydride by warming, and titrate <2.50> with 0.1 mol/L perchloric acid VS (poten-tiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 36.63 mg of C35H60Br2N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

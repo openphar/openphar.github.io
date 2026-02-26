@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/chlorpheniramine-maleate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Chlorpheniramine Maleate Injection",
+    "ja": "クロルフェニラミンマレイン酸塩注射液"
+  },
+  "monographId": "JP18-chlorpheniramine-maleate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Chlorpheniramine Maleate Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Chlorpheniramine Maleate Injection is a clear, colorless liquid. pH: 4.5 – 7.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take a volume of Chlorpheniramine Male-ate Injection, equivalent to 25 mg of Chlorpheniramine Maleate, add 5 mL of dilute sodium hydroxide TS, and ex-tract with 20 mL of hexane. Wash the hexane layer with 10 mL of water, shake with 0.5 g of anhydrous sodium sulfate for several minutes, and filter. Evaporate the filtrate in a water bath at 509C under a reduced pressure, and determine the infrared absorption spectrum of the residue as directed in the liquid film method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 2940 cm－1, 2810 cm－1, 2770 cm－1, 1589 cm－1, 1491 cm－1, 1470 cm－1, 1434 cm－1, 1091 cm－1 and 1015 cm－1. Bacterial endotoxins <4.01> Less than 8.8 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer an exactly measured volume of Chlor-pheniramine Maleate Injection, equivalent to about 3 mg of Amount (mg) of chlorpheniramine maleate (C16H19ClN2.C4H4O4) ＝ MS × AT/AS × 1/10 MS: Amount (mg) of Chlorpheniramine Maleate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

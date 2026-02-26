@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-bromide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Bromide",
+    "ja": "臭化ナトリウム"
+  },
+  "monographId": "JP18-sodium-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Bromide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sodium Bromide occurs as colorless or white, crystals or crystalline powder. It is odorless. It is freely soluble in water, and soluble in ethanol (95). It is hygroscopic, but not deliquescent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Bromide (1 in 10) re-sponds to Qualitative Tests <1.09> for sodium salt and for bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Bromide in 3 mL of water: the solution is clear 10H2O). 2 4 7 and colorless. Alkalinity—Dissolve 1.0 g of Sodium Bromide in 10 Description Sodium Borate occurs as colorless or white crystals or a white crystalline powder. It is odorless, and has a slightly characteristic, saline taste. It is freely soluble in glycerin, soluble in water, and practi-cally insoluble in ethanol (95), in ethanol (99.5) and in diethyl ether. When placed in dry air, Sodium Borate effloresces and is coated with a white powder. Identification A solution of Sodium Borate (1 in 20) re-sponds to Qualitative Tests <1.09> for sodium salt and for borate. pH <2.54> Dissolve 1.0 g of Sodium Borate in 20 mL of water: the pH of this solution is between 9.1 and 9.6. Purity (1) Clarity and color of solution—Dissolve 1.0 g of Sodium Borate in 20 mL of water by warming slightly: the solution is clear and colorless. Carbonate or bicarbonate—Dissolve 1.0 g of pow-dered Sodium Borate in 20 mL of freshly boiled and cooled water, and add 3 mL of dilute hydrochloric acid: the solu-tion does not effervesce. Heavy metals <1.07>—Dissolve 1.5 g of Sodium Borate in 25 mL of water and 7 mL of 1 mol/L hydrochloric acid TS, add 1 drop of phenolphthalein TS, and add ammo-nia TS until a pale red color develops. Then add dilute acetic acid until the solution becomes colorless again, add 2 mL of dilute acetic acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 3.0 mL of Standard Lead So-lution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Sodium Borate according to Method 1, and perform the test (not more than 5 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2 g of Sodium Borate, dis-solve in 50 mL of water, and titrate <2.50> with 0.5 mol/L hydrochloric acid VS (indicator: 3 drops of methyl red TS). Each mL of 0.5 mol/L hydrochloric acid VS ＝ 95.34 mg of Na2B4O7.10H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

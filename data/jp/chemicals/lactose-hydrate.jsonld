@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lactose-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lactose Hydrate",
+    "ja": "乳糖水和物"
+  },
+  "monographId": "JP18-lactose-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H22O11.H2O",
+  "molecularWeight": 360.31,
+  "appearance": {
+    "en": "Lactose Hydrate occurs as white, crystals, powder or granulated powder. It is freely soluble in water, and practically insoluble in ethanol (99.5).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Lactose Hydrate, previously dried, as directed in the po-tassium bromide disk method under Infrared Spectropho- ‌JP XVIII Official Monographs / Lactulose 1235 tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of Lactose for Identification RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋54.4 – ＋55.99. Weigh ac-curately about 10 g of Lactose Hydrate, calculated on the anhydrous basis, dissolve in 80 mL of water warmed to 509C, and add 0.2 mL of ammonia TS after cooling. After standing for 30 minutes, add water to make exactly 100 mL, and determine the optical rotation of this solution in a 100-mm cell."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Lactose Hydrate in 10 mL of hot water, allow to cool, and determine the turbidity of this solution as directed under Turbidity Measurement <2.61>: it is clear, and has no more color than the following control solution. Determine the ab-sorbance at 400 nm of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>, using water as the control solution: not more than 0.04. Control solution: To 2.5 mL of Cobalt (II) Chloride CS, 6.0 mL of Iron (III) Chloride CS and 1.0 mL of Copper (II) Sulfate CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Acidity or alkalinity—Dissolve 6 g of Lactose Hy-drate by heating in 25 mL of freshly boiled and cooled water, and after cooling, add 0.3 mL of phenolphthalein TS: the solution is colorless, and not more than 0.4 mL of 0.1 mol/L sodium hydroxide VS is required to produce a pale red color or red color. (3) Heavy metals <1.07>—Dissolve 4.0 g of Lactose Hy- drate in 20 mL of warm water, add 1 mL of 0.1 mol/L hy-drochloric acid TS and water to make 50 mL. Proceed with this solution according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution and 1 mL of 0.1 mol/L hydrochloric acid TS (not more than 5 ppm).◇ (4) Proteins and light absorbing substances—Dissolve 1.0 g of Lactose Hydrate in water to make 100 mL, and use this solution as the sample solution. Determine the absor-bances of the sample solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the control solution: not more than 0.25 at between 210 nm and 220 nm, and not more than 0.07 at between 270 nm and 300 nm. Loss on drying <2.41> Not more than 0.5z. For the granu-lated powder, not more than 1.0z (1 g, 809C, 2 hours). Water <2.48> 4.5 – 5.5z. ◇For the granulated powder, 4.0 – 5.5z◇ (1 g, volumetric titration, direct titration. Use a mixture of methanol for water determination and for-mamide for water determination (2:1) instead of methanol for water determination). Residue on ignition <2.44> Not more than 0.1z (1 g). Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 102 CFU/g and 5 × 101 CFU/g, respectively. Salmonella and◇ Escherichia coli are not observed."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

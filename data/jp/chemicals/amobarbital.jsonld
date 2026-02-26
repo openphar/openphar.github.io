@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amobarbital",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amobarbital",
+    "ja": "アモバルビタール"
+  },
+  "monographId": "JP18-amobarbital",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H18N2O3",
+  "molecularWeight": 226.27,
+  "casNumber": "57-43-2",
+  "definition": {
+    "en": "Amobarbital, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Amobarbital occurs as white, crystals or crys-talline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in ethanol (95), in acetone and in diethyl ether, sparingly soluble in chloroform, and practically in- soluble in water. It dissolves in sodium hydroxide TS and in sodium car-bonate TS. The pH of a saturated solution of Amobarbital is between 5.0 and 5.6."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Boil 0.2 g of Amobarbital with 10 mL of sodium hydroxide TS: the gas evolved changes moistened red litmus paper to blue. Dissolve 0.05 g of Amobarbital in 2 to 3 drops of am-monia-ammonium chloride buffer solution (pH 10.7) and 5 mL of diluted pyridine (1 in 10). Add 5 mL of chloroform and 0.3 mL of copper (II) sulfate TS to the solution: a red-purple precipitate is produced in the aqueous layer. Shake the mixture: a red-purple color is produced in the chlo-roform layer. To 0.4 g of Amobarbital add 0.1 g of anhydrous sodium carbonate and 4 mL of water, shake, and add a solu-tion of 0.3 g of 4-nitrobenzyl chloride in 7 mL of ethanol (95). Heat the mixture on a water bath for 30 minutes under a reflux condenser, and allow to stand for 1 hour. Filter the crystals produced, wash with 7 mL of sodium hydroxide TS and a small portion of water, recrystallize from ethanol, and dry at 1059C for 30 minutes: the crystals so obtained melt <2.60> between 1689C and 1739C or between 1509C and 1549C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Amobarbital in 5 mL of sodium hydroxide TS: the solu-tion is clear and colorless. Chloride <1.03>—Dissolve 0.30 g of Amobarbital in 20 mL of acetone, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: take 0.30 mL of 0.01 mol/L hydrochloric acid VS, 20 mL of acetone and 6 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.035z). Sulfate <1.14>—Dissolve 0.40 g of Amobarbital in 20 mL of acetone, and add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution as follows: take 0.40 mL of 0.005 mol/L sulfuric acid VS, 20 mL of acetone, and 1 mL of dilute hydrochloric acid, and add water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Amobar- bital according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Readily carbonizable substances <1.15>—Perform the test with 0.5 g of Amobarbital. The solution is not more colored than Matching Fluid A. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Amobarbital, previ-ously dried, and dissolve in 5 mL of ethanol (95) and 50 mL of chloroform. Titrate <2.50> with 0.1 mol/L potassium hydroxide-ethanol VS until the color of the solution changes from yellow through light blue to purple (indicator: 1 mL of alizarin yellow GG-thymolphthalein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 22.63 mg of C11H18N2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

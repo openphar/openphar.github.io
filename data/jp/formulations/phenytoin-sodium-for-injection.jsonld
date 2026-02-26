@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/phenytoin-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Phenytoin Sodium for Injection",
+    "ja": "注射用フェニトインナトリウム"
+  },
+  "monographId": "JP18-phenytoin-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Phenytoin Sodium for Injection is a preparation for injection which is dissolved before use. When dried, it contains not less than 98."
+  },
+  "appearance": {
+    "en": "Phenytoin Sodium for Injection occurs as white, crystals or crystalline powder. It is odorless. It is soluble in water and in ethanol (95), and practically insoluble in chloroform and in diethyl ether. The pH of a solution of 1.0 g of Phenytoin Sodium for In-jection in 20 mL of water is about 12. It is hygroscopic. A solution of Phenytoin Sodium for Injection absorbs car-bon dioxide gradually when exposed to air, and a crystalline precipitate of phenytoin is produced."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) With the residue obtained in the Assay, proceed as directed in the Identification under Phenytoin. (2) Ignite 0.5 g of Phenytoin Sodium for Injection, cool, and dissolve the residue in 10 mL of water: the solution changes red litmus paper to blue, and responds to Qualita-tive Tests <1.09> (1) for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Phenytoin Sodium for Injection in 20 mL of freshly boiled and cooled water in a glass-stoppered test tube: the solution is clear and colorless. If any turbidity is produced, add 4.0 mL of 0.1 mol/L sodium hydroxide VS: the solution becomes clear and colorless. (2) Heavy metals <1.07>—Proceed with 1.0 g of Phenytoin Sodium for Injection according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 2.5z (1 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the content of not less than 10 containers of Phenytoin Sodium for Injection, transfer about 0.3 g of the content, previously dried and accurately weighed, to a separator, dissolve in 50 mL of water, add 10 mL of dilute hydrochloric acid, and extract with 100 mL of diethyl ether, then with four 25-mL portions of diethyl ether. Combine the diethyl ether extracts, and evaporate on a water bath. Dry the residue at 1059C for 2 hours, and weigh it as ‌the mass of phenytoin (C15H12N2O2: 252.27). pare the control solution with 2.0 mL of Standard Lead So- Amount (mg) of phenytoin sodium (C15H11N2NaO2) ＝ amount (mg) of phenytoin (C15H12N2O2) × 1.087"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

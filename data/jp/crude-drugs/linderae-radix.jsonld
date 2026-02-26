@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/linderae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Linderae Radix",
+    "ja": "ウヤク"
+  },
+  "monographId": "JP18-linderae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fusiform or rosary-like root, 10 – 15 cm in length, 10 – 25 mm in diameter; externally yellow-brown to brown, with a few scars of rootlets; a transversely cut sur-face reveals cortex brown, xylem light yellow-brown, con-centric circles and radially arranged lines brown; dense and hard in texture. Odor, camphor-like; taste, bitter. Under a microscope <5.01>, a transverse section of the root with periderm reveals a cork layer several cells thick, partially consisting of cork stone cells; cortex parenchyma sometimes contains oil cells and fibers; in xylem, vessels-xylem fibers and rays are arranged alternately; parenchya-tous cells of cortex and xylem contain sandy and columnar crystals of calcium oxalate, simple starch grains 1 – 15 mm in diameter, and 2- to 4- compound starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of pulverized Lindera Root add 40 mL of hexane, and heat under a reflux condenser for 30 minutes. After cooling, filter, to the residue add 10 mL of ammonia TS and 30 mL of a mixture of ethyl acetate and diethyl ether (1:1), shake vigorously for 20 minutes, and cen-trifuge. Separate the upper layer, add 10 g of anhydrous so-dium sulfate, shake, and filter. Evaporate the solvent of the filtrate, dissolve the residue with 0.5 mL of ethanol (99.5), and use this solution as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of ethyl acetate, methanol and ammonia water (28) (10:2:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: a yellow-brown spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Lindera Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Lindera Root according to Method 4, and per-form the test (not more than 5 ppm). Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 2.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 6.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

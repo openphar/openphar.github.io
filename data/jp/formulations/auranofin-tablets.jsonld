@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/auranofin-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Auranofin Tablets",
+    "ja": "オーラノフィン錠"
+  },
+  "monographId": "JP18-auranofin-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Auranofin Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of auranofin (C20H34AuO9PS: 678.48). Method of preparation Prepare as directed under Tablets, with Auranofin. Identification Put an amount of powdered Auranofin Tablets, equivalent to 11 mg of Auranofin, in a porcelain crucible, and heat weakly to carbonize. After cooling, add 2 mL of nitric acid and 5 drops of sulfuric acid, heat cau-tiously at first then incinerate by ignition. After cooling, add 4 mL of aqua regia to the residue, dissolve by warming, and add 16 mL of water. To 5 mL of this solution add 0.5 mL of tin (II) chloride TS: a purple to red-brown color is deve-loped. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Auranofin Tablets add 2 mL of water, dis-integrate the tablet by sonicating, add exactly 2 mL of the internal standard solution for every 3 mg of auranofin (C20H34AuO9PS), and add 2 mL of a mixture of water and acetonitrile (1:1). Shake for 15 minutes, then add a mixture of water and acetonitrile (1:1) to make V mL so that each mL contains 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Put an amount of powdered Auranofin Tablets, equivalent to 11 mg of Auranofin, in a porcelain crucible, and heat weakly to carbonize. After cooling, add 2 mL of nitric acid and 5 drops of sulfuric acid, heat cau-tiously at first then incinerate by ignition. After cooling, add 4 mL of aqua regia to the residue, dissolve by warming, and add 16 mL of water. To 5 mL of this solution add 0.5 mL of tin (II) chloride TS: a purple to red-brown color is deve-loped. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Auranofin Tablets add 2 mL of water, dis-integrate the tablet by sonicating, add exactly 2 mL of the internal standard solution for every 3 mg of auranofin (C20H34AuO9PS), and add 2 mL of a mixture of water and acetonitrile (1:1). Shake for 15 minutes, then add a mixture of water and acetonitrile (1:1) to make V mL so that each mL contains 0.3 mg of auranofin (C20H34AuO9PS), centri-fuge, and use the supernatant liquid as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of auranofin (C20H34AuO9PS) ＝ MS × QT/QS × V/100 MS: Amount (mg) of Auranofin RS taken Internal standard solution—A solution of butyl para-hydroxybenzoate in acetonitrile (9 in 10,000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Auranofin Tablets is not less than 85z. Start the test with 1 tablet of Auranofin Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent fil-trate, add water to make exactly V? mL so that each mL con-tains about 3.3 mg of auranofin (C20H34AuO9PS), and use this solution as the sample solution. Separately, weigh accu-rately about 30 mg of Auranofin RS, previously dried at 1059C for 3 hours, and dissolve in acetonitrile to make ex-actly 50 mL. Pipet 5 mL of this solution, and add water to make exactly 100 mL. Pipet 10 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> under the following conditions, and determine the peak areas, AT and AS, of auranofin in each solution. Dissolution rate (z) with respect to the labeled amount of auranofin (C20H34AuO9PS) ＝ MS × AT/AS × V?/V × 1/C × 9 MS: Amount (mg) of Auranofin RS taken C: Labeled amount (mg) of auranofin (C20H34AuO9PS) in 1 tablet Operating conditions— Proceed as directed in the operating conditions in the Assay under Auranofin. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of auranofin are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of auranofin is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Accurately weigh the mass of not less than 20 Auranofin Tablets, and powder them. Weigh accurately a portion of the powder, equivalent to about 60 mg of auranofin (C20H34AuO9PS), add 40 mL of water, disperse the particles with the aid of ultrasonic waves, then add ex-actly 40 mL of the internal standard solution, add 40 mL of a mixture of water and acetonitrile (1:1), and shake for 15 minutes. To this solution add a mixture of water and aceto-nitrile (1:1) to make 200 mL, centrifuge, and use the super-natant liquid as the sample solution. Separately, weigh accu-rately about 30 mg of Auranofin RS, previously dried at 1059C for 3 hours, dissolve in 60 mL of a mixture of water and acetonitrile (1:1), add exactly 20 mL of the internal standard solution, then add water to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as ‌498 directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of auranofin to that of the internal standard. Method <1.06>, using 20 mL of water as the absorbing liquid: the test solution responds to Qualitative Tests <1.09> for sulfate. (4) Dissolve 0.01 g of Azathioprine in 2 mol/L hydro- Amount (mg) of auranofin (C H AuO PS) chloric acid TS to make 100 mL. Dilute 5 mL of the solution ＝ MS × QT/QS × 2 20 34 9 with water to make 50 mL. Determine the absorption spec-trum of the solution as directed under Ultraviolet-visible MS: Amount (mg) of Auranofin RS taken Internal standard solution—A solution of butyl para-hydroxybenzoate in acetonitrile (9 in 10,000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Auranofin. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, auranofin and the internal standard are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of auranofin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

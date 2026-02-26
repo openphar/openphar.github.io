@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aciclovir-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aciclovir for Syrup",
+    "ja": "シロップ用アシクロビル"
+  },
+  "monographId": "JP18-aciclovir-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aciclovir for Syrup is a preparation for syrup, which is suspended before use. It contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve an amount of Aciclovir for Syrup, equivalent to 12 mg of Aciclovir, in 0.1 mol/L hydrochloric acid TS to make 50 mL. To 2 mL of this solution add 0.1 mol/L hydrochloric acid TS to make 50 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Aciclovir for Syrup in single-dose packages meets the requirement of the Content unifor-mity test. the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 2 mL of the first filtrate, pipet 2 mL of the subsequent filtrate, add water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 11 mg of Aciclovir RS (separately de-termine the water <2.48> in the same manner as Aciclovir), and dissolve in water to make exactly 50 mL. Pipet 2 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, at 254 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of aciclovir (C8H11N5O3) ＝ MS/MT × AT/AS × 1/C × 1800 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis MT: Amount (g) of Aciclovir for Syrup taken C: Labeled amount (mg) of aciclovir (C8H11N5O3) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Aciclovir for Syrup, previously powdered if necessary, equivalent to about 0.2 g of aciclovir (C8H11N5O3), add 20 mL of diluted sodium hy-droxide TS (1 in 10), sonicate to disintegrate, then add water to make exactly 200 mL, and filter this solution through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 2 mL of the filtrate, pipet 5 mL of the sub-sequent filtrate, add exactly 5 mL of the internal standard solution, then add the mobile phase to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Aciclovir RS (separately deter-mine the water <2.48> in the same manner as Aciclovir), add exactly 10 mL of the internal standard solution, then add the mobile phase to make 100 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of aciclovir to that of the internal standard. To the total content of 1 package of Aciclovir for Syrup Amount (mg) of aciclovir (C H N O ) add 2V/25 mL of diluted sodium hydroxide TS (1 in 10), and sonicate to disintegrate, add water to make exactly ＝ MS × QT/QS × 20 8 11 5 3 V mL so that each mL contains about 0.8 mg of aciclovir (C8H11N5O3), and filter this solution through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 2 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add exactly 5 mL of the internal standard solution, then add the mobile phase to make 50 mL, and use this solu-tion as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of aciclovir (C8H11N5O3) ＝ MS × QT/QS × V/10 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis Internal standard solution—A solution of parahydroxyben-zoic acid in the mobile phase (1 in 1250). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Aciclovir for Syrup is not less than 85z. Start the test with an accurately weighed amount of Aciclovir for Syrup, equivalent to about 0.2 g of aciclovir (C8H11N5O3), withdraw not less than 5 mL of the medium at MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis Internal standard solution—A solution of parahydroxyben-zoic acid in the mobile phase (1 in 1250). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 7.8 g of sodium dihydrogen phos-phate dihydrate and 0.85 g of sodium 1-octanesulfonate in 900 mL of water, adjust to pH 3.0 with phosphoric acid, add water to make 950 mL, and add 50 mL of acetonitrile. Flow rate: Adjust so that the retention time of aciclovir is about 5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, aciclovir and the internal standard are eluted in this order with the resolution between these peaks being not less ‌JP XVIII Official Monographs / Aclarubicin Hydrochloride 413‌ than 20. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of aciclovir to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

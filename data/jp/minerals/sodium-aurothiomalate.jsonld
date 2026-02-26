@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-aurothiomalate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Aurothiomalate",
+    "ja": "金チオリンゴ酸ナトリウム"
+  },
+  "monographId": "JP18-sodium-aurothiomalate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Aurothiomalate contains not less than 49."
+  },
+  "appearance": {
+    "en": "Sodium Aurothiomalate occurs as a white to light yellow, powder or granules. It is very soluble in water, and practically insoluble in ethanol (99.5). It is hygroscopic. It changes in color by light to greenish pale yellow."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Sodium Aurothiomalate (1 in 10) add 1 mL of a solution of calcium nitrate tetrahydrate (1 in 10): a white precipitate is produced, and it dissolves in dilute nitric acid and reappears on the ad-dition of ammonium acetate TS. To 2 mL of a solution of Sodium Aurothiomalate (1 in 10) add 3 mL of silver nitrate TS: a yellow precipitate is produced, and it dissolves in an excess of ammonia TS. Place 2 mL of a solution of Sodium Aurothiomalate (1 in 10) in a porcelain crucible, add 1 mL of ammonia TS and 1 mL of hydrogen peroxide (30), evaporate to dryness, and ignite. Add 20 mL of water to the residue, and filter: the residue on the filter paper occurs as a yellow or dark yellow, powder or granules. The filtrate obtained in (3) responds to Qualitative Tests <1.09> for sodium salt. The filtrate obtained in (3) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 1.0 g of Sodium Aurothiomalate in 10 mL of water: the pH of this solution is between 5.8 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Aurothiomalate in 10 mL of water: the solution is clear and light yellow. Heavy metals <1.07>—Proceed with 1.0 g of Sodium Aurothiomalate according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Sodium Aurothiomalate according to Method 3, and per-form the test (not more than 2 ppm). Ethanol—Weigh accurately about 0.2 g of Sodium Aurothiomalate, add exactly 3 mL of the internal standard solution and 2 mL of water to dissolve, and use this solution as the sample solution. Separately, pipet 3 mL of ethanol (99.5), and add water to make exactly 1000 mL. Pipet 2 mL of this solution, add exactly 3 mL of the internal standard solution, and use this solution as the standard solution. Per-form the test with 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and calculate the ratios of the peak area of ethanol to that of the internal standard, QT and QS: the amount of ethanol is not more than 3.0z. Amount (mg) of ethanol ＝ QT/QS × 6 × 0.793 0.793: Density (g/mL) of ethanol (99.5) at 209C Internal standard solution—A solution of 2-propanol (1 in 500). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A column 3 mm in inside diameter and 3 m in length, packed with porous styrene-divinylbenzene copoly-mer for gas chromatography (particle diameter: 150 – 180 mm) (average pore size: 0.0085 mm; 300 – 400 m2/g). Column temperature: A constant temperature of about 1809C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of the internal standard is about 7 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, ethanol and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of ethanol to that of the internal standard is not more than 2.0z. Water <2.48> Not more than 5.0z (0.1 g, coulometric titration). Use a water vaporizer (heating temperature: 1059C; heating time: 30 minutes)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg of Sodium Aurothiomalate, and dissolve in 2 mL of aqua regia by heat-ing. After cooling, add water to make exactly 100 mL. Pipet 2 mL of the solution, add water to make exactly 25 mL, and use this solution as the sample solution. Separately, pipet 5 mL, 10 mL and 15 mL of Standard Gold Solution for atomic absorption spectrophotometry, add water to make exactly 25 mL, and use these solutions as the standard solutions (1), (2) and (3), respectively. Perform the test with the sample solu-tion and standard solutions (1), (2) and (3) as directed under Atomic Absorption Spectrophotometry <2.23> under the fol-lowing conditions. Determine the amount of gold in the sam-ple solution using the calibration curve obtained from the absorbances of the standard solutions. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Gold hollow-cathode lamp. Wavelength: 242.8 nm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

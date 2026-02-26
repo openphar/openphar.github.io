@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cyproheptadine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cyproheptadine Hydrochloride Hydrate",
+    "ja": "シプロヘプタジン塩酸塩水和物"
+  },
+  "monographId": "JP18-cyproheptadine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "N.HCl",
+  "molecularWeight": 323.86,
+  "definition": {
+    "en": "Cyproheptadine Hydrochloride Hydrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Cyproheptadine Hydrochloride Hydrate oc-curs as a white to pale yellow crystalline powder. It is odor-less, and has a slightly bitter taste. It is freely soluble in methanol and in acetic acid (100), soluble in chloroform, sparingly soluble in ethanol (95), slightly soluble in water, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Cyproheptadine Hy-drochloride Hydrate in 10 mL of methanol, apply 1 drop of this solution on filter paper, air-dry, and examine under ul-traviolet light (main wavelength: 254 nm): the solution shows a pale blue fluorescence. Weigh 0.1 g of Cyproheptadine Hydrochloride Hy-drate, transfer to a separator, dissolve in 5 mL of chlo-roform, add 4 mL of water and 1 mL of sodium carbonate TS, and shake. Transfer the chloroform layer to another separator, and wash with 4 mL of water by shaking well. Filter the chloroform layer through absorbent cotton moistened previously with chloroform, and evaporate the filtrate to dryness. Dissolve the residue in 8 mL of dilute ethanol by warming at 659C. Rub the inner wall of the con-tainer with a glass rod while cooling until crystallization be-gins, and allow to stand for 30 minutes. Collect the crystals, and dry at 809C for 2 hours: the crystals melt <2.60> between 1119C and 1159C. Determine the absorption spectrum of a solution of Cyproheptadine Hydrochloride Hydrate in ethanol (95) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. A saturated solution of Cyproheptadine Hydrochlo-ride Hydrate responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 2.0 g of Cyproheptadine Hydrochloride Hydrate in 25 mL of methanol, and add 1 drop of methyl red TS and 0.30 mL of 0.1 mol/L sodium hy-droxide VS: a yellow color develops. (2) Heavy metals <1.07>—Proceed with 1.0 g of Cypro- heptadine Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> 7.0 – 9.0z (1 g, in vacuum at a pres- ‌JP XVIII Official Monographs / L-Cysteine 825 sure not exceeding 0.67 kPa, 1009C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) Medium for test organism [5] under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 6.0 to 6.1 after sterilization. Standard solutions—Weigh accurately an amount of Cycloserine RS, previously dried at 609C for 3 hours under reduced pressure of not exceeding 0.67 kPa, equivalent to about 40 mg (potency), dissolve in water to make exactly 100 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 24 hours. Take exactly a suitable amount of the standard stock solution before use, and add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 100 mg (potency) and 50 mg (potency), and use these solutions as the high concentration standard solution and the low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Cycloserine equivalent to about 40 mg (potency), dissolve in water to make exactly 100 mL. Take exactly a suitable amount of this solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 100 mg (po-tency) and 50 mg (potency), and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nalidixic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nalidixic Acid",
+    "ja": "ナリジクス酸"
+  },
+  "monographId": "JP18-nalidixic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H12N2O3",
+  "molecularWeight": 232.24,
+  "casNumber": "389-08-2",
+  "definition": {
+    "en": "Nalidixic Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Nalidixic Acid occurs as white to light yellow, crystals or crystalline powder. It is sparingly soluble in N,N-dimethylformamide, very slightly soluble in ethanol (99.5), and practically insoluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nalidixic Acid in 0.01 mol/L sodium hydroxide dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the con-trol solution with 0.35 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.012z). Heavy metals <1.07>—Proceed with 1.0 g of Nalidixic Acid according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 20 mg of Nalidixic Acid in 20 mL of 0.01 mol/L sodium hydroxide TS. To 5 mL of this solution, add water to make 10 mL, and use this solution as the sample solution. Pipet 2 mL of the sample so-lution, add water to make exactly 1000 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than nalidixic acid obtained from the sample solution is not larger than the peak area of nalidixic acid from the standard solution, and the total area of the peaks other than nalidixic acid from the sample solution is not larger than 2.5 times the peak area of nalidixic acid from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 260 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 6.24 g of sodium dihydrogen phos-phate dihydrate in 950 mL of water, adjust the pH to 2.8 with phosphoric acid, and add water to make 1000 mL. To 300 mL of this solution add 200 mL of methanol. Flow rate: Adjust so that the retention time of nalidixic acid is about 19 minutes. Time span of measurement: About 3 times as long as the retention time of nalidixic acid, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add water to make exactly 10 mL. Confirm that the peak area of nalidixic acid obtained with 10 mL of this solution is equivalent to 40 to 60z of that with 10 mL of the standard solution. System performance: Dissolve 25 mg of methyl parahy-droxybenzoate in 100 mL of a mixture of water and metha-nol (1:1). To 1 mL of this solution add water to make 10 mL. To 5 mL of this solution add 5 mL of the standard solu-tion. When the procedure is run with 10 mL of this solution under the above operating conditions, methyl parahydroxy- ‌benzoate and nalidixic acid are eluted in this order with the resolution between these peaks being not less than 13. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nalidixic acid is not more than 2.0z. Loss on drying <2.41> Not more than 0.20z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g). ‌Assay Weigh accurately about 0.3 g of Nalidixic Acid, pre-viously dried, dissolve in 50 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L tetramethyl ammonium hy-droxide VS (potentiometric titration). Separately, to 50 mL of N,N-dimethylformamide add 13 mL of a mixture of water and methanol (89:11), perform a blank determination with the solution in the same manner, and make any neces-sary correction. Each mL of 0.1 mol/L tetramethyl ammonium hydroxide VS ＝ 23.22 mg of C12H12N2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/doxifluridine-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Doxifluridine Capsules",
+    "ja": "ドキシフルリジンカプセル"
+  },
+  "monographId": "JP18-doxifluridine-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve an amount of the contents of Doxifluridine Capsules, equivalent to 20 mg of Doxifluri-dine, in 0.1 mol/L hydrochloric acid TS to make 100 mL, and filter. To 1 mL of the filtrate add 0.1 mol/L hydrochlo-ric acid TS to make 20 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using 0.1 mol/L hydro-chloric acid TS as the blank: it exhibits a maximum between 267 nm and 271 nm. (2) To an amount of powdered contents of Doxifluridine Capsules, equivalent to 20 mg of Doxifluridine, add 2 mL of methanol, shake, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 20 mg of doxi-fluridine in 2 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer ‌JP XVIII Official Monographs / Doxorubicin Hydrochloride 899 chromatography. Develop the plate with a mixture of ethyl acetate, acetic acid (100) and water (17:2:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 254 nm): the principal spot ob-tained from the sample solution and the spot from the stand-ard solution show a dark purple color and these Rf values are the same. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Doxifluridine Capsules is not less than 85z. Start the test with 1 capsule of Doxifluridine Capsules, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 13 mg of doxifluridine (C9H11FN2O5), and use this solution as the sample solution. Separately, weigh accu-rately about 26 mg of doxifluridine for assay, previously dried at 1059C for 4 hours, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sam-ple solution and standard solution at 269 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of doxifluridine (C9H11FN2O5) ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of doxifluridine for assay taken C: Labeled amount (mg) of doxifluridine (C9H11FN2O5) in 1 capsule"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass and powder the contents of not less than 20 Doxifluridine Capsules. Weigh accurately a portion of the powder, equivalent to about 50 mg of doxi-fluridine (C9H11FN2O5), add 40 mL of water, shake for 10 minutes, add water to make exactly 50 mL, and filter. Dis-card the first 10 mL of the filtrate, pipet 5 mL of the subse-quent filtrate, add exactly 10 mL of the internal standard so-lution, then add a mixture of water and methanol (5:3) to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of doxifluridine for assay, previously dried at 1059C for 4 hours, and dis- Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and methanol (13:7). Flow rate: Adjust so that the retention time of doxiflu- ridine is about 2.5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, doxifluridine and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak height of doxifluridine to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

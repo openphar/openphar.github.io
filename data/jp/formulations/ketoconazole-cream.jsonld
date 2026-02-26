@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ketoconazole-cream",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ketoconazole Cream",
+    "ja": "ケトコナゾールクリーム"
+  },
+  "monographId": "JP18-ketoconazole-cream",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ketoconazole Cream contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of Ketoconazole Cream, equivalent to 0.1 g of Ketoconazole, add 20 mL of 2-propanol, shake for 20 minutes, centrifuge, and use the su-pernatant liquid as the sample solution. Separately, dissolve 25 mg of ketoconazole in 5 mL of 2-propanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane, methanol, water and ammonia so-lution (28) (40:40:25:2:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution has the same Rf value as the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Ketoconazole Cream, equivalent to about 25 mg of ketoconazole (C26H28Cl2N4O4), dissolve in methanol to make exactly 100 mL. Pipet 10 mL of this solution, add exactly 4 mL of the internal standard solution, add methanol to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of ketoconazole for assay, previously dried at 1059C for 4 hours, and dissolve in metha-nol to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 4 mL of the internal standard solution, add methanol to make 50 mL, and use this solution as the standard solu-tion. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratios, QT and QS, of the peak area of ketocona-zole to that of the internal standard. Amount (mg) of ketoconazole (C26H28Cl2N4O4) ＝ MS × QT/QS ‌JP XVIII Official Monographs / Ketoconazole Solution 1223 MS: Amount (mg) of ketoconazole for assay taken ‌Internal standard solution—A solution of xanthone in meth-anol (1 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To ammonium acetate solution (1 in 200) add acetic acid (100) to adjust the pH to 5.0. To 250 mL of this solution add 750 mL of methanol. Flow rate: Adjust so that the retention time of ketocona-zole is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and ketoconazole are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ketoconazole to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Cream"
+}

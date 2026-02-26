@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/lonicerae-folium-cum-caulis",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Lonicerae Folium Cum Caulis",
+    "ja": "ニンドウ"
+  },
+  "monographId": "JP18-lonicerae-folium-cum-caulis",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Leaves and opposite leaves on short stem; leaf, ovate and entire, with short petiole, 3 – 7 cm in length, 1 – 3 cm in width; upper surface green-brown, lower surface light grayish green; under a magnifying glass, both surfaces pubescent. Stem, 1 – 4 mm in diameter; externally grayish yellow-brown to purplish brown, a transversely cut surface of stem, round and hollow. Almost odorless; taste, slightly astringent, followed by a litter bitterness. Under a microscope <5.01>, a transverse section of leaf re- veals the outermost layer of upper and lower surfaces to be composed of a single-layered epidermis, uni-cellular non-glandular hairs and multi-cellular glandular hairs on epider-mis; in midvein, several-cellular-layered collenchyma present beneath the epidermis and vascular bundles in the center; in mesophyll, palisade layer adjacent to upper epidermis, spongy tissue adjacent to lower epidermis; glandular hairs contain brown secretion, parenchymatous cells contain ag-gregate crystals of calcium oxalate, and occasionally starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Lonicera Leaf and Stem add 5 mL of methanol, shake for 5 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of chlorogenic acid for thin-layer chromatog-raphy in 2 mL of methanol, and use this solution as the standard solution (1). Separately, dissolve 1 mg of loganin for thin-layer chromatography in 2 mL of methanol, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, water and formic acid (6:1:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the blue-white fluorescent spot from the stand-ard solution (1). Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution (2)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Stem—Lonicera Leaf and Stem does not contains the stems larger than 5 mm in diameter. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 9.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 12.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

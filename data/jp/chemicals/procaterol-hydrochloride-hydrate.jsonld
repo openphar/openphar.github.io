@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/procaterol-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Procaterol Hydrochloride Hydrate",
+    "ja": "プロカテロール塩酸塩水和物"
+  },
+  "monographId": "JP18-procaterol-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Procaterol Hydrochloride Hydrate occurs as white to pale yellow-white, crystals or crystalline powder. It is soluble in water, in formic acid and in methanol, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Procaterol Hydrochloride Hydrate in 100 mL of water is between 4.0 and 5.0. It is gradually colored by light. The solution of Procaterol Hydrochloride Hydrate (1 in 20) shows no optical rotation. Melting point: about 1959C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Procaterol Hydrochloride Hydrate (7 in 1,000,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Procaterol Hydrochloride Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. A solution of Procaterol Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Procaterol Hydrochloride Hydrate in 30 mL of water: the solution is clear, and has no more color than the following control solution. Control solution: To 3.0 mL of Iron (III) Chloride CS add water to make 50 mL. Heavy metals <1.07>—Proceed with 2.0 g of Procaterol Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Procaterol Hydrochloride Hydrate in 100 mL of diluted methanol (1 in 2), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of these solutions by the au-tomatic integration method: the total area of the peaks other than procaterol obtained from the sample solution is not larger than the peak area of procaterol from the standard so-lution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 25 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 0.87 g of sodium 1-pentanesul-fonate in 1000 mL of water. To 760 mL of this solution add 230 mL of methanol and 10 mL of acetic acid (100). Flow rate: Adjust so that the retention time of procaterol is about 15 minutes. Selection of column: Dissolve 20 mg each of Procaterol Hydrochloride Hydrate and threoprocaterol hydrochloride in 100 mL of diluted methanol (1 in 2). To 15 mL of this so-lution add diluted methanol (1 in 2) to make 100 mL. Pro-ceed with 2 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of procaterol and threoprocaterol in this order with the resolution of these peaks being not less than 3. Detection sensitivity: Adjust the detection sensitivity so that the peak height of procaterol obtained from 2 mL of the standard solution is not less than 10 mm. Time span of measurement: 2.5 times as long as the reten-tion time of procaterol, beginning after the solvent peak. Water <2.48> 2.5 – 3.3z (0.5 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Procaterol Hydro-chloride Hydrate, add 2 mL of formic acid, dissolve by warming, and add exactly 15 mL of 0.1 mol/L perchloric acid VS. Add 1 mL of acetic anhydride, heat on a water bath for 30 minutes, cool, add 60 mL of acetic anhydride, and titrate <2.50> the excess perchloric acid with 0.1 mol/L sodi-um acetate VS (potentiometric titration). Perform a blank determination in the same manner. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.68 mg of C16H22N2O3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

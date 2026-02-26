@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-metabisulfite",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Metabisulfite",
+    "ja": "ピロ亜硫酸ナトリウム"
+  },
+  "monographId": "JP18-sodium-metabisulfite",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sodium Pyrosulfite occurs as white, crystals or crystalline powder. It has the odor of sulfur dioxide. It is freely soluble in water, very slightly soluble in ethanol (95), and practically insoluble in diethyl ether. A solution of Sodium Pyrosulfite (1 in 20) is acid. It is hygroscopic. It decomposes slowly on exposure to air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Pyrosulfite (1 in 20) responds to Qualitative Tests <1.09> for sodium salt and for bisulfite."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Pyrosulfite in 10 mL of water: the solution is clear and colorless. Thiosulfate—Dissolve 1.0 g of Sodium Pyrosulfite in 15 mL of water, add slowly 5 mL of dilute hydrochloric acid, shake, and allow to stand for 5 minutes: no turbidity is produced. Heavy metals <1.07>—Dissolve 1.0 g of Sodium Pyrosulfite in 10 mL of water, and evaporate with 5 mL of hydrochloric acid on a water bath to dryness. Dissolve the residue in 10 mL of water, add 1 drop of phenolphthalein TS, and add ammonia TS until the solution becomes slightly red. Add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 5 mL of hydrochloric acid on a water bath to dryness, and to the residue add 2 mL of dilute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of Sodium Pyrosulfite according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 0.5 g of Sodium Pyrosulfite in 10 mL of water, heat with 1 mL of sulfuric acid on a sand bath until white fumes are evolved, and add water to make 5 mL. Perform the test with this solution as the test solution (not more than 4 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Sodium Pyrosul-fite, and transfer to an iodine flask containing an exactly measured 50 mL of 0.05 mol/L iodine VS. Stopper tightly, shake well, and allow to stand for 5 minutes in a dark place. Add 1 mL of hydrochloric acid, and titrate <2.50> the excess of iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 4.753 mg of Na2S2O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/colestimide-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Colestimide Tablets",
+    "ja": "コレスチミド錠"
+  },
+  "monographId": "JP18-colestimide-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Colestimide Tablets. Determine the infrared absorption spectrum of a portion of the powder as directed in the potassium chloride disk method under In-frared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 1587 cm－1, 1528 cm－1, 1262 cm－1, 1102 cm－1 and 1035 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Disintegration <6.09> When carry out the test for 10 minutes, it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.45 g of sodium cholate hy-drate (separately determine the water), dissolve in water to make exactly 100 mL, and use this solution as the sodium cholate standard stock solution. Separately, weigh accurately the mass of not less than 20 Colestimide Tablets, and pow-der. Weigh accurately a portion of the powder, equivalent to about 30 mg of colestimide, add exactly 30 mL of the so-dium cholate standard stock solution, shake for 1 hour, and centrifuge. Pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, pipet 5 mL of the sodium cholate standard stock solution, add exactly 5 mL of the in-ternal standard solution, and use this solution as the stand-ard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of cholic acid to that of the internal standard. Amount (mg) of colestimide ＝ MS × (QS － QT)/QS × 3/10 × 1/2.2 × 0.947 MS: Amount (mg) of sodium cholate hydrate taken, calcu-lated on the anhydrous basis 2.2: Exchanged amount (g) of cholic acid per g of coles-timide, calculated on the dried basis Internal standard solution—A solution of butyl parahy-droxybenzoate in acetonitrile (1 in 80,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica ‌810 gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (1:1). Flow rate: Adjust so that the retention time of cholic acid is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cholic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of cholic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

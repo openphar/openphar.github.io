@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mukoi-daikenchuto-extract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mukoi-Daikenchuto Extract",
+    "ja": "無コウイ大建中湯エキス"
+  },
+  "monographId": "JP18-mukoi-daikenchuto-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mukoi-Daikenchuto Extract contains not less than 1."
+  },
+  "appearance": {
+    "en": "Mukoi-Daikenchuto Extract is a light brown powder. It has a slight odor, and has a pungent taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake 2.0 g of Mukoi-Daikenchuto Ex-tract with 10 mL of water, add 10 mL of diethyl ether, shake, centrifuge, and use the diethyl ether layer as the sam-ple solution. Separately, shake 2.0 g of pulverized japanese zanthoxylum peel with 10 mL of water, add 5 mL of diethyl ether, shake, centrifuge, and use the diethyl ether layer as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane, methanol and acetic acid (100) (20:20:1:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the dark purple spot (Rf value: about 0.3) from the standard solution (Japanese Zanthoxy-lum Peel). Shake 2.0 g of Mukoi-Daikenchuto Extract with 10 mL of water, add 10 mL of 1-butanol, shake, centrifuge, and use the 1-butanol layer as the sample solution. Sepa-rately, dissolve 1 mg of Ginsenoside Rb1 RS or ginsenoside Rb1 for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL of the sample solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, 1-propanol, water and acetic acid (100) (7:5:4:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, heat the plate at 1059C for 5 minutes, and allow to cool: one of the several spots obtained from the sample solution has the same color tone and Rf value with the blue-purple spot from the standard solution (Ginseng). Shake 2.0 g of Mukoi-Daikenchuto Extract with 10 mL of water, add 10 mL of diethyl ether, shake, centrifuge, and use the diethyl ether layer as the sample solution. Sepa-rately, dissolve 1 mg of [6]-shogaol for thin-layer chroma-tography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate and hexane (1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, heat the plate at 1059C for 5 minutes, allow to cool, and spray water: one of the several spots obtained from the sample solution has the same color tone and Rf value with the blue-green to grayish green spot from the standard solution (Processed ginger)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Prepare the test solution with 2.0 g of Mukoi-Daikenchuto Extract as directed under Extracts (4), and perform the test (not more than 15 ppm). (2) Arsenic <1.11>—Prepare the test solution with 2.0 g of Mukoi-Daikenchuto Extract according to Method 3, and perform the test (not more than 1 ppm). Loss on drying <2.41> Not more than 5.9z (1 g, 1059C, 5 hours). Total ash <5.01> Not more than 10.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Ginsenoside Rb1—Weigh accurately about 2 g of Mukoi-Daikenchuto Extract, add 30 mL of diluted meth-anol (3 in 5), shake for 15 minutes, centrifuge, and separate the supernatant liquid. To the residue add 15 mL of diluted methanol (3 in 5), and repeat the same procedure. Combine the supernatant liquids, and add diluted methanol (3 in 5) to make exactly 50 mL. Pipet 10 mL of this solution, add 3 mL of sodium hydroxide TS, allow to stand for 30 minutes, add 3 mL of 1 mol/L hydrochloric acid TS, and add water to make exactly 20 mL. Apply exactly 5 mL of this solution to a column [10 mm in inside diameter, packed with 0.36 g of octadecylsilanized silica gel for pre-treatment (55 – 105 mm in particle size), and washed just before using with methanol and then diluted methanol (3 in 10)], and wash the column in sequence with 2 mL of diluted methanol (3 in 10), 1 mL of sodium carbonate TS and 10 mL of diluted methanol (3 in 10). Finally, elute with methanol to collect exactly 5 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Ginsenoside Rb1 RS (separately determine the water <2.48> by coulometric titration, using 10 mg), and dissolve in methanol to make exactly 100 mL. Pipet 10 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and ‌2076 Mulberry Bark / Crude Drugs and Related Drugs standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ginsenoside Rb1 in each solu-tion. Amount (mg) of ginsenoside Rb1 (C54H92O23) ＝ MS × AT/AS × 1/5 MS: Amount (mg) of Ginsenoside Rb1 RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 203 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with carbamoyl group bound silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 609C. Mobile phase: A mixture of acetonitrile, water and phos-phoric acid (400:100:1). Flow rate: 1.0 mL per minute (the retention time of gin-senoside Rb1 is about 16 minutes). System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ginsenoside Rb1 are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ginsenoside Rb1 is not more than 1.5z. (2) [6]-Shogaol—Weigh accurately about 0.5 g of Mukoi-Daikenchuto Extract, add exactly 50 mL of diluted methanol (3 in 4), shake for 15 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 10 mg of [6]-shogaol for assay, dis-solve in diluted methanol (3 in 4) to make exactly 100 mL. Pipet 10 mL of this solution, add diluted methanol (3 in 4) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of [6]-shogaol in each solution. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of [6]-shogaol is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

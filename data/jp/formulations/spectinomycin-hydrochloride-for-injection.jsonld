@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/spectinomycin-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Spectinomycin Hydrochloride for Injection",
+    "ja": "注射用スペクチノマイシン塩酸塩"
+  },
+  "monographId": "JP18-spectinomycin-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Spectinomycin Hydrochloride for Injection is a preparation for injection which is suspended before use. It contains not less than 97."
+  },
+  "appearance": {
+    "en": "Spectinomycin Hydrochloride for Injection oc-curs as a white to light yellow-white crystalline powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification (2) under Spectinomycin Hydrochloride Hydrate. pH <2.54> Dissolve an amount of Spectinomycin Hydro-chloride for Injection, equivalent to 70 mg (potency) of Spectinomycin Hydrochloride Hydrate, in 10 mL of water: the pH of the solution is between 4.0 and 5.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—A solution dissolved an amount of Spectinomycin Hydrochloride for Injection, equivalent to 0.70 g (potency) of Spectinomycin Hydrochlo-ride Hydrate, in 10 mL of water is clear, and its absorbance at 425 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.10. Water <2.48> 16.0 – 20.0z (0.3 g, volumetric titration, direct titration). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test (T: 107.5z). Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 Spectinomycin Hydrochloride for Injection. Weigh accurately a portion of the content, equivalent to about 20 mg (potency) of Spectinomycin Hydrochloride Hydrate, dis-solve in exactly 10 mL of the internal standard solution, add 1 mL of 1,1,1,3,3,3-hexamethyldisilazan, allow to stand at room temperature for 1 hour, and use this solution as the sample solution. Separately, weigh accurately an amount of Spectinomycin Hydrochloride RS, equivalent to about 20 mg (potency), dissolve in exactly 10 mL of the internal standard solution, add 1 mL of 1,1,1,3,3,3-hexamethyldisilazan, allow to stand at room temperature for 1 hour, and use this solution as the standard solution. Then, proceed as directed in the Assay under Spectinomycin Hydrochloride Hydrate. Amount [mg (potency)] of spectinomycin (C14H24N2O7) ＝ MS × QT/QS MS: Amount [mg (potency)] of Spectinomycin Hydrochlo-ride RS taken Internal standard solution—A solution of triphenylantimony in N, N-dimethylformamide (1 in 500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

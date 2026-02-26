@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tropicamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tropicamide",
+    "ja": "トロピカミド"
+  },
+  "monographId": "JP18-tropicamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H20N2O2",
+  "molecularWeight": 284.35,
+  "casNumber": "1508-75-4",
+  "definition": {
+    "en": "Tropicamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tropicamide occurs as a white crystalline pow-der. It is odorless, and has a bitter taste. It is freely soluble in ethanol (95) and in chloroform, slightly soluble in water and in diethyl ether, and practically insoluble in petroleum ether. It dissolves in dilute hydrochloric acid. The pH of a solution of 1.0 g of Tropicamide in 500 mL of water is between 6.5 and 8.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mg of Tropicamide add 0.5 mL of a solution of ammonium vanadate (V) in sulfuric acid, (1 in 200), and heat: a blue-purple color develops. 5 mg, 2 mol/L hydrochloric acid TS, 200 mL)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Tropicamide in 30 mL of ethanol (95), add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.45 mL of 0.01 mol/L hydrochloric acid VS, 30 mL of ethanol (95), 6 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.016z). Heavy metals <1.07>—Dissolve 1.0 g of Tropicamide in 30 mL of ethanol (95), add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solu-tion as the test solution. Prepare the control solution with 2.0 mL of Standard Lead Solution, 30 mL of ethanol (95), 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). N-Ethyl-g-picolylamine—Dissolve 0.10 g of Tropica-mide in 5 mL of water by heating, add 1 mL of a solution of acetaldehyde (1 in 20), and shake well. Add 1 to 2 drops of sodium pentacyanonitrosylferrate (III) TS and 1 to 2 drops of sodium hydrogen carbonate TS, and shake: no blue color develops. Tropic acid—To 10 mg of Tropicamide add 5 mg of sodium tetraborate decahydrate and 7 drops of 4-dimethylaminobenzaldehyde TS, and heat in a water bath for 3 minutes. Cool in ice water, and add 5 mL of acetic an-hydride: no red-purple color develops. Loss on drying <2.41> Not more than 0.30z (1 g, in vacu-um, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Tropicamide, previ-ously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 28.44 mg of C17H20N2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

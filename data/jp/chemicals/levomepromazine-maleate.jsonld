@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/levomepromazine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Levomepromazine Maleate",
+    "ja": "レボメプロマジンマレイン酸塩"
+  },
+  "monographId": "JP18-levomepromazine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H24N2OS.C4H4O4",
+  "molecularWeight": 444.54,
+  "definition": {
+    "en": "Levomepromazine Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Levomepromazine Maleate occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in acetic acid (100), soluble in chlo-roform, sparingly soluble in methanol, slightly soluble in ethanol (95) and in acetone, very slightly soluble in water, and practically insoluble in diethyl ether. Melting point: 184 – 1909C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Levomepromazine Maleate in 5 mL of sulfuric acid: a red-purple color de-velops, which slowly becomes deep red-purple. To this solu-tion add 1 drop of potassium dichromate TS: a brownish yel-low-red color is produced. To 0.2 g of Levomepromazine Maleate add 5 mL of sodium hydroxide TS and 20 mL of diethyl ether, and shake"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Levomepromazine Maleate, previously dried, and dissolve in a mixture of 40 mL of acetic acid (100) and 20 mL of acetone for nona-queous titration. Titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from red-purple through blue-purple to blue (indicator: 5 drops of bromocresol green-methylrosaniline chloride TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 44.45 mg of C H N OS.C H O 19 24 2 4 4 4 Levomepromazine Maleate, when dried, contains not less than 98.0z of levomepromazine maleate (C19H24N2OS.C4H4O4). Description Levomepromazine Maleate occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in acetic acid (100), soluble in chlo-roform, sparingly soluble in methanol, slightly soluble in ethanol (95) and in acetone, very slightly soluble in water, and practically insoluble in diethyl ether. Melting point: 184 – 1909C (with decomposition). Identification (1) Dissolve 5 mg of Levomepromazine Maleate in 5 mL of sulfuric acid: a red-purple color de-velops, which slowly becomes deep red-purple. To this solu-tion add 1 drop of potassium dichromate TS: a brownish yel-low-red color is produced. To 0.2 g of Levomepromazine Maleate add 5 mL of sodium hydroxide TS and 20 mL of diethyl ether, and shake"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

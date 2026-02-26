@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/scopolia-extract-and-tannic-acid-suppositories",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Scopolia Extract and Tannic Acid Suppositories",
+    "ja": "ロートエキス・タンニン坐剤"
+  },
+  "monographId": "JP18-scopolia-extract-and-tannic-acid-suppositories",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Scopolia Extract and Tannic Acid Supposito-ries are light brown in color."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 Scopolia Extract and Tannic Acid Suppositories add 20 mL of diethyl ether, and dissolve the base of suppositories with shaking for 10 minutes. Shake thoroughly the mixture with 15 mL of water, separate the aqueous layer, and filter. To the filtrate add 10 mL of chlo-roform, shake well, and separate the chloroform layer. Take 5 mL of the chloroform solution, add 5 mL of ammonia TS, shake, and allow to stand: the ammonia layer shows a blue-green fluorescence. (2) To 1 mL of the aqueous layer obtained in (1) after ex-traction with diethyl ether, add 2 drops of iron (III) chloride TS: a blue-black color develops. Allow to stand: a blue-black precipitate is formed (tannic acid)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

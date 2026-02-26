@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/rehmanniae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Rehmanniae Radix",
+    "ja": "ジオウ"
+  },
+  "monographId": "JP18-rehmanniae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "1) Kan-jio—Massive or fusiform root, nar-row at one or both ends, 5 – 10 cm in length, 0.5 – 3.0 cm in diameter, sometimes broken or markedly deformed in shape; externally yellow-brown, black-brown or black, with deep, longitudinal wrinkles and constrictions; soft in texture; transversely cut surface yellow-brown, black-brown, or black and peripheral portion darker. Odor, characteristic; taste, slightly sweet at first, followed by a slight bitterness. Under a microscope <5.01>, a transverse section reveals 7 – 15 cellular layers of cork layer; cortex composed entirely of parenchyma; cells containing brown secretes scattered in cor-tex; xylem practically filled with parenchyma; vessels radial-ly lined, mainly reticulate vessels. 2) Juku-jio—Irregularly massive root, or massive or fusiform root, narrow at one or both ends, 5 – 10 cm in length, 0.5 – 3.0 cm in diameter; externally black, usually lustrous, with deep, longitudinal wrinkles and constrictions; soft in texture and mucous; transversely cut surface black. Odor, characteristic; taste, sweet at first, followed by a slight bitterness. Under a microscope <5.01>, a transverse section reveals 7 – 15 cellular layers of cork layer; cortex composed entirely of parenchyma; cells containing brown secretes scattered in cor-tex; xylem practically filled with parenchyma, often paren-chyma partially broken and gaps observed; vessels radially lined, mainly reticulate vessels."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "1) Kan-jio—Sake 0.5 g of the fine cutting of Rehmannia Root with 5 mL of water, add 20 mL of meth-anol, shake for 10 minutes, centrifuge, and use the superna-tant liquid as the sample solution. Separately, dissolve 2 mg of stachyose for thin-layer chromatography in 1 mL of a mixture of water and methanol (1:1), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 2-propanol, water and methanol (3:2:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly 1,3-naphthalenediol TS on the plate, heat the plate at 1059C for 5 minutes: one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the spot from the standard solution. When further heat for more than 5 minutes, a blue spot is not ob-served at just lower than the spot mentioned above, or even appears it is only few. 2) Juku-jio—Sake 0.5 g of the fine cutting of Rehmannia Root with 5 mL of water, add 20 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 2 mg of fructose for thin-layer chromatography in 1 mL of a mixture of water and methanol (1:1), and use this solution as the standard so-lution (1). Separately, dissolve 3 mg of manninotriose for thin-layer chromatography in 1 mL of a mixture of water and methanol (1:1), and use this solution as the standard so-lution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and the standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 2-propanol, water and methanol (3:2:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly 1,3-naphthalenediol TS on the plate, heat the plate at 1059C for 10 minutes: the principal spot obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution (1). Further-more, one of the several spots from the sample solution has the same color tone and Rf value with the blue spot from the standard solution (2)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Rehmannia Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Rehmannia Root according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 2.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

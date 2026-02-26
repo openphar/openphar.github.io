@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nortriptyline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nortriptyline Hydrochloride",
+    "ja": "ノルトリプチリン塩酸塩"
+  },
+  "monographId": "JP18-nortriptyline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H21N.HCl",
+  "molecularWeight": 299.84,
+  "casNumber": "894-71-3",
+  "definition": {
+    "en": "Nortriptyline Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nortriptyline Hydrochloride occurs as a white to yellowish white crystalline powder. It is odorless, or has a faint, characteristic odor. It is freely soluble in acetic acid (100) and in chloroform, soluble in ethanol (95), sparingly soluble in water, and prac-tically insoluble in diethyl ether. The pH of a solution of 1.0 g of Nortriptyline Hydrochlo-ride in 100 mL of water is about 5.5. Melting point: 215 – 2209C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Nortriptyline Hydrochloride (1 in 100) add 1 mL of bromine TS: the color of the test solution disappears. To 5 mL of a solution of Nortriptyline Hydrochlo- Amount (mg) of ethinylestradiol (C ＝ MSb × QTb/QSb × 1/50 20H24O2) ride (1 in 100) add 1 to 2 drops of a solution of quinhydrone in methanol (1 in 40): a red color gradually develops. Determine the absorption spectrum of a solution of MSa: Amount (mg) of Norgestrel RS taken MSb: Amount (mg) of Ethinylestradiol RS taken Internal standard solution—A solution of diphenyl in diluted methanol (7 in 10) (1 in 50,000). Operating conditions— Detector: Norgestrel—An ultraviolet absorption photome-ter (wavelength: 241 nm). Ethinylestradiol—A fluorophotometer (excitation wave-length: 281 nm, fluorescence wavelength: 305 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of acetonitrile and water (11:9). Flow rate: Adjust so that the retention time of norgestrel is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, ethinylestradiol, norgestrel and the internal standard are eluted in this order, and the resolution between the peaks of norgestrel and the internal standard is not less than 8. System repeatability: When the test is repeated 6 times Nortriptyline Hydrochloride (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Nor-triptyline Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Nortriptyline Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Nortriptyline Hydrochloride in 10 mL of water: the solu-tion is clear and colorless to very light yellow. Heavy metals <1.07>—Proceed with 1.0 g of Nortrip- tyline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Nortriptyline Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.50 g of Nortriptyline ‌Hydrochloride in 20 mL of chloroform, and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add chloroform to make exactly 100 mL. Pipet 5 mL of this solution, add chloroform to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 4 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of cyclohexane, methanol and diethylamine (8:1:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Nortriptyline Hydrochloride Tablets add a suitable volume of 0.1 mol/L hydrochloric acid TS, disperse the ˆne particles by sonicating, add a suitable volume of 0.1 mol/L hydrochloric acid TS, sonicate, and extract for 15 minutes while occasional shaking. Shake for 15 minutes, and add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 0.5 mg of nortriptyline (C19H21N). Centrifuge this solution, pipet 2 mL of the super-natant liquid, add water to make exactly 100 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay. sample solution are not more intense than the spot from the standard solution. Amount (mg) of nortriptyline (C 19H 21N) Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Nortriptyline Hy-drochloride, previously dried, dissolve in 5 mL of acetic acid (100), add 50 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ MS × AT/AS × V/50 × 0.878 MS: Amount (mg) of nortriptyline hydrochloride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rates in 30 minutes of a 10-mg tablet and a 25-mg tablet are not less than 70z and not less than 80z, respectively. Start the test with 1 tablet of Nortriptyline Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the speciˆed minute after starting the test, and ˆlter through a ＝ 29.98 mg of C19H N.HCl membrane ˆlter with a pore size not exceeding 0.45 mm. Dis-card not less than 10 mL of the ˆrst ˆltrate, pipet V mL of"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

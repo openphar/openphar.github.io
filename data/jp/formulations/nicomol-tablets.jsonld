@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nicomol-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nicomol Tablets",
+    "ja": "ニコモール錠"
+  },
+  "monographId": "JP18-nicomol-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Nicomol Tablets and powder. Weigh accurately a portion of the powder, equivalent to about 1 g of nicomol (C34H32N4O9), add 100 mL of 1 mol/L hydrochloric acid TS, shake well, add water to make exactly 500 mL, and filter. Discard the first 50 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 50 mL of 1 mol/L hydrochloric acid TS and water to make ex-actly 250 mL, and use this solution as the sample solution. Separately, weigh accurately about 80 mg of nicomol for assay, previously dried at 1059C for 4 hours, dissolve in 50 mL of 1 mol/L hydrochloric acid TS, and add water to make exactly 100 mL. Pipet 2 mL of this solution, add 20 mL of 1 mol/L hydrochloric acid TS and water to make exactly 100 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, of the sample solution and standard solution at 262 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of nicomol (C34H32N4O9) ＝ MS × AT/AS × 25/2 MS: Amount (mg) of nicomol for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

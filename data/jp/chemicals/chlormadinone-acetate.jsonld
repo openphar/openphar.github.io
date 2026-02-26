@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlormadinone-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlormadinone Acetate",
+    "ja": "クロルマジノン酢酸エステル"
+  },
+  "monographId": "JP18-chlormadinone-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H29ClO4",
+  "molecularWeight": 404.93,
+  "appearance": {
+    "en": "Chlormadinone Acetate occurs as white to light yellow, crystals or crystalline powder. It is odorless. It is freely soluble in chloroform, soluble in acetonitrile, slightly soluble in ethanol (95) and in diethyl ether, and prac-tically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Chlormadinone Acetate in 1 mL of ethanol (95), and add 1 mL of 1,3-dinitrobenzene TS and 1 mL of a solution of potassium hy-droxide (1 in 5): a red-purple color develops. To 0.05 g of Chlormadinone Acetate add 2 mL of po-tassium hydroxide-ethanol TS, and boil on a water bath for 5 minutes. After cooling, add 2 mL of diluted sulfuric acid (2 in 7), and boil gently for 1 minute: the odor of ethyl ace-tate is perceptible. Determine the infrared absorption spectrum of Chlormadinone Acetate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of previously dried Chlor-madinone Acetate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Chlormadinone Acetate as di-rected under Flame Coloration Test <1.04> (2): a green color ‌JP XVIII Official Monographs / Chlorobutanol 737 appears. D Optical rotation <2.49> [a]20: －10.0 – －14.09(after dry-ing, 0.2 g, acetonitrile, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Chlormadinone Acetate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Chlormadinone Acetate according to Method 3, and per-form the test (not more than 2 ppm). Related substances—Dissolve 20 mg of Chlormadi-none Acetate in 10 mL of acetonitrile, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add acetonitrile to make exactly 100 mL, and use this solu-tion as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the total area of peaks other than the peak of chlormadinone acetate obtained from the sample solution is not larger than the peak area of chlor- visible Spectrophotometry <2.24>, and determine the absor-bances, AT and AS, at 285 nm. Amount (mg) of chlormadinone acetate (C23H29ClO4) ＝ MS × AT/AS MS: Amount (mg) of Chlormadinone Acetate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

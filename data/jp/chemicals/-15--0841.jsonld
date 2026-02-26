@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/-15--0841",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "× 1/5 × 0.841",
+    "ja": "ホミカエキス散"
+  },
+  "monographId": "JP18--15--0841",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nux Vomica Extract Powder occurs as a yel-low-brown to grayish brown powder. It has a slight, charac-teristic odor and a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 g of Nux Vomica Extract Powder add 3 mL of ammonia TS and 20 mL of chloroform, macer-ate for 30 minutes with occasional shaking, and filter. Re-move most of the chloroform from the filtrate by warming on a water bath, add 5 mL of diluted sulfuric acid (1 in 10), and warm on a water bath while shaking well until the odor of chloroform is no longer perceptible. After cooling, filter through a pledget of absorbent cotton, and add 2 mL of nitric acid to 1 mL of the filtrate: a red color develops. (2) To the remaining filtrate obtained in (1) add 1 mL of potassium dichromate TS, and allow to stand for 1 hour: a yellow-red precipitate is produced. Collect the precipitate by filtration, and wash with 1 mL of water. Transfer a part of the precipitate to a small test tube, add 1 mL of water, dis-solve by warming, cool, and add 5 drops of sulfuric acid dropwise carefully along the wall of the test tube: the layer of sulfuric acid shows a purple color which turns immedi-ately red to red-brown."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2.0 g of Nux Vomica Ex-tract Powder, place in a glass-stoppered centrifuge tube, add 15 mL of ammonia TS, and shake. Add 20 mL of diethyl ether, stopper tightly, shake for 15 minutes, centrifuge to separate the diethyl ether layer. To the aqueous layer add 20 mL of diethyl ether, proceed in the same manner, and repeat this procedure three times. Combine the extracts, and evapo-rate the solvent on a water bath. Dissolve the residue in 10 mL of the mobile phase, add exactly 10 mL of the internal standard solution, and add the mobile phase to make 100 mL. Filter this solution through a membrane filter with a porosity not more than 0.8 mm, discard the first 2 mL of the filtrate, and use the subsequent filtrate as the sample solu-tion. Separately, weigh accurately about 75 mg of strychnine nitrate for assay (separately determine the loss on drying), and dissolve in the mobile phase to make exactly 50 mL. Pipet 10 mL of this solution, add exactly 10 mL of the inter-nal standard solution, then add the mobile phase to make 100 mL, and use this solution as the standard solution. Per-form the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Calcu-late the ratio, QT and QS, of the peak area of strychnine to MS: Amount (mg) of strychnine nitrate for assay taken, calculated on the dried basis Internal standard solution—A solution of barbital sodium in the mobile phase (1 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column about 4 mm in inside diameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: Room temperature. Mobile phase: A mixture of a solution of potassium dihy-drogenphosphate (6.8 in 1000), acetonitrile and triethyla-mine (45:5:1), adjusted the pH to 3.0 with phosphoric acid. Flow rate: Adjust so that the retention time of strychnine is about 17 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and strychnine are eluted in this order with the resolution between these peaks being not less than 1.5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

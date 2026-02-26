@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pimozide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pimozide",
+    "ja": "ピモジド"
+  },
+  "monographId": "JP18-pimozide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C28H29F2N3O",
+  "molecularWeight": 461.55,
+  "casNumber": "2062-78-4",
+  "definition": {
+    "en": "Pimozide contains not less than 98."
+  },
+  "appearance": {
+    "en": "Pimozide occurs as a white to pale yellow-white powder. It is freely soluble in acetic acid (100), slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Pimozide in methanol (1 in 25,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Pimozide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Pimozide according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution by using 5 mL of sulfuric acid (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Pimozide according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Pimozide in 10 mL of methanol, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq- than 1.5 times of the peak area of pimozide from the stand-ard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: Dissolve 2.5 g of ammonium acetate and 8.5 g of tetrabutylammonium hydrogensulfate in water to make 1000 mL. Mobile phase B: Acetonitrile. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 10 80 → 70 20 → 30 10 – 15 Flow rate: 2.0 mL per minute. Time span of measurement: 1.5 times as long as the reten-tion time of pimozide. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add methanol to make exactly 10 mL. Confirm that the peak area of pimozide obtained with 10 mL of this solution is equivalent to 8 to 12z of that with 10 mL of the standard solution. System performance: Dissolve 5 mg of Pimozide and 2 mg of mebendazole in methanol to make 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, mebendazole and pimozide are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of pimozide is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 70 mg of Pimozide, previ-ously dried, dissolve in 25 mL of acetic acid for nonaqueous titration, and titrate <2.50> with 0.02 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.02 mol/L perchloric acid VS ＝ 9.231 mg of C28H29F2N3O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

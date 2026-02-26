@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kasseki",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kasseki",
+    "ja": "カッセキ"
+  },
+  "monographId": "JP18-kasseki",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Aluminum Silicate Hydrate with Silicon Diox-ide occurs as white to light red powdered crystalline masses, which becomes easily fine powder on crushing. The powder is roughish and easily adheres to skin, and becomes slightly darken and obtains plasticity when moisten with water. It has a characteristic odor and almost tasteless. It feels like as sand of fine grains by chewing. Under a microscope <5.01>, the powder of Aluminum Sili- cate Hydrate with Silicon Dioxide, thoroughly grained be-tween a slide glass and a cover glass together with mounting medium, shows numbers of round to polygonal crystals not smaller than 10 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of powdered Aluminum Silicate Hydrate with Silicon Dioxide add 3 mL of diluted sulfuric acid (1 in 3), heat until white vapors evolve, then after cool-ing add 20 mL of water, and filter. The filtrate neutralized to be a weak acidity with ammonia TS responds to Qualitative Tests <1.09> (1), (2) and (4) for aluminum salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 1.5 g of Aluminum Silicate Hydrate with Silicon Dioxide add 50 mL of water and 5 mL of hydrochloric acid, and boil gently for 20 minutes while thorough shaking. After cooling, centrifuge, and separate the supernatant liquid. Wash the precipitate twice with 10 mL portions of water, centrifuging each time, and combine the supernatant liquids. Add ammonia solution (28) dropwise to the combined liquid until a slight precipitate form, then add, while shaking vigorously, dilute hydrochlo-ric acid dropwise to dissolve the precipitate. Add 0.45 g of hydroxylammonium chloride to this solution, heat, then after cooling add 0.45 g of sodium acetate trihydrate and 6 mL of dilute acetic acid, and add water to make 150 mL. Perform the test with 50 mL of this solution as the test solu-tion. Prepare the control solution by adding to 2.0 mL of Standard Lead Solution, 0.15 g of hydroxylammonium chlo-ride, 0.15 g of sodium acetate trihydrate and 2 mL of dilute acetic acid, and add water to make 50 mL (not more than 40 ppm). (2) Arsenic <1.11>—To 1.0 g of Aluminum Silicate Hy- drate with Silicon Dioxide add 5 mL of dilute hydrochloric acid, heat gently until boiling begins while shaking thor-oughly, then cool quickly, and centrifuge. To the precipitate add 5 mL of dilute hydrochloric acid, shake thoroughly, cen-trifuge, and take the supernatant liquid. Repeat this opera-tion with 10 mL of water, combine all the extracts, and con-centrate the extract to make 5 mL by heating on a water bath. Perform the test using this solution as the test solution (not more than 2 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

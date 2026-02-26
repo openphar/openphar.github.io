@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/josamycin-propionate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Josamycin Propionate",
+    "ja": "ジョサマイシンプロピオン酸エステル"
+  },
+  "monographId": "JP18-josamycin-propionate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C45H73NO16",
+  "molecularWeight": 884.06,
+  "definition": {
+    "en": "Josamycin Propionate is a derivative of josamycin. It contains not less than 843 mg (potency) and not more than 1000 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Josamycin Propionate occurs as a white to light yellow-white crystalline powder. It is very soluble in acetonitrile, freely soluble in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Josamycin Propionate in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum or the spectrum of a solution of Josamycin Propionate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Dissolve 5 mg each of Josamycin Propionate and Josamycin Propionate RS in 50 mL of diluted acetonitrile (1 in 2), and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and compare the chromatograms ob-tained from these solutions: the retention time of the peak of josamycin propionate from the sample solution is the same with that of the peak of josamycin propionate from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (2)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Josamycin Propionate according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 30 ppm). Related substances—Dissolve 50 mg of Josamycin Propionate in the mobile phase to make 50 mL, and use this System performance: Dissolve 5 mg of Josamycin Pro-pionate and 2 mg of josamycin in 50 mL of the mobile phase. When the procedure is run with 10 mL of this solution under the above operating conditions, josamycin and josamycin propionate are eluted in this order with the resolu-tion between these peaks being not less than 25. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of josamycin propionate is not more than 1.5z. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium ii in 3) Medium for other organisms under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 7.9 to 8.1 after sterilization. Standard solutions—Weigh accurately an amount of Josamycin Propionate RS, equivalent to about 20 mg (po-tency), dissolve in 10 mL of methanol, add 1/15 mol/L phosphate buffer solution (pH 5.6) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below, and use within 3 days. Take exactly a suitable amount of the standard stock solution before use, add 1/15 mol/L phosphate buffer solu-tion (pH 5.6) to make solutions so that each mL contains 80 mg (potency) and 20 mg (potency), and use these solutions as ‌JP XVIII Official Monographs / Kainic Acid and Santonin Powder 1215‌‌ the high concentration standard solution and the low con-centration standard solution, respectively. Sample solutions—Weigh accurately an amount of Josamycin Propionate, equivalent to about 20 mg (potency), dissolve in 10 mL of methanol, add 1/15 mol/L phosphate buffer solution (pH 5.6) to make exactly 50 mL. Take ex-actly a suitable amount of this solution, add 1/15 mol/L phosphate buffer solution (pH 5.6) to make solutions so that each mL contains 80 mg (potency) and 20 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

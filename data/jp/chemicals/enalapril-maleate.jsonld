@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/enalapril-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Enalapril Maleate",
+    "ja": "エナラプリルマレイン酸塩"
+  },
+  "monographId": "JP18-enalapril-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H28N2O5.C4H4O4",
+  "molecularWeight": 492.52,
+  "definition": {
+    "en": "Enalapril Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Enalapril Maleate occurs as white, crystals or crystalline powder. It is freely soluble in methanol, sparingly soluble in water and in ethanol (99.5), and slightly soluble in acetonitrile. Melting point: about 1459C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-tra of Enalapril Maleate as directed in the potassium bro-mide disc method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Enalapril Maleate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) To 20 mg of Enalapril Maleate add 5 mL of 1 mol/L hydrochloric acid TS, shake, add 5 mL of diethyl ether, and shake for 5 minutes. Take 3 mL of the upper layer, distil off the diethyl ether on a water bath, add 5 mL of water to the residue with shaking, and add 1 drop of potassium perman-ganate TS: the red color of the test solution immediately dis-appears. D Optical rotation <2.49> [a]20: －41.0 – －43.59(after dry-ing, 0.25 g, methanol, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Enalapril Maleate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 30 mg of Enalapril Maleate in 100 mL of a mixture of sodium dihydrogen phos-phate TS (pH 2.5) and acetonitrile (19:1), and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add the mixture of sodium dihydrogen phosphate TS (pH 2.5) and acetonitrile (19:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> acccording to the following conditions, and determine each peak area of these solutions by the automatic integration method: the area of the peak other than maleic acid and enalapril obtained from the sample solution is not larger than the peak area of enalapril from the standard solution. Furthermore, the total area of the peaks other than maleic acid and enalapril from the sample solution is not larger than 2 times the peak area of enalapril from the standard solu-tion. Operating conditions— Detector, column, column temperature, mobile phases, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of enalapril, beginning after the peak of maleic acid. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add a mixture of sodium dihydrogen phos-phate TS (pH 2.5) and acetonitrile (19:1) to make exactly 10 mL. Confirm that the peak area of enalapril obtained with 50 mL of this solution is equivalent to 7 to 13z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of enalapril are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of enalapril is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 609C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To 10 tablets of Emorfazone Tablets add 200 mL of methanol, shake well to disintegrate, add methanol to make acid monomaleate [76095-16-4] Enalapril Maleate, when dried, contains not less than 98.0z and not more than 102.0z of enalapril maleate (C20H28N2O5.C4H4O4). JP XVIII Official Monographs / Enalapril Maleate 925 Description Enalapril Maleate occurs as white, crystals or crystalline powder. It is freely soluble in methanol, sparingly soluble in water and in ethanol (99.5), and slightly soluble in acetonitrile. Melting point: about 1459C (with decomposition). Identification (1) Determine the infrared absorption spec-tra of Enalapril Maleate as directed in the potassium bro-mide disc method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Enalapril Maleate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) To 20 mg of Enalapril Maleate add 5 mL of 1 mol/L hydrochloric acid TS, shake, add 5 mL of diethyl ether, and shake for 5 minutes. Take 3 mL of the upper layer, distil off the diethyl ether on a water bath, add 5 mL of water to the residue with shaking, and add 1 drop of potassium perman-ganate TS: the red color of the test solution immediately dis-appears. D Optical rotation <2.49> [a]20: －41.0 – －43.59(after dry-ing, 0.25 g, methanol, 25 mL, 100 mm). Purity (1) Heavy metals <1.07>—Proceed with 2.0 g of Enalapril Maleate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 30 mg of Enalapril Maleate in 100 mL of a mixture of sodium dihydrogen phos-phate TS (pH 2.5) and acetonitrile (19:1), and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add the mixture of sodium dihydrogen phosphate TS (pH 2.5) and acetonitrile (19:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> acccording to the following conditions, and determine each peak area of these solutions by the automatic integration method: the area of the peak other than maleic acid and enalapril obtained from the sample solution is not larger than the peak area of enalapril from the standard solution. Furthermore, the total area of the peaks other than maleic acid and enalapril from the sample solution is not larger than 2 times the peak area of enalapril from the standard solu-tion. Operating conditions— Detector, column, column temperature, mobile phases, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of enalapril, beginning after the peak of maleic acid. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add a mixture of sodium dihydrogen phos-phate TS (pH 2.5) and acetonitrile (19:1) to make exactly 10 mL. Confirm that the peak area of enalapril obtained with 50 mL of this solution is equivalent to 7 to 13z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of enalapril are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of enalapril is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 609C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g). Assay Weigh accurately about 30 mg each of Enalapril Maleate and Enalapril Maleate RS, both previously dried, and dissolve in a mixture of sodium dihydrogen phosphate TS (pH 2.5) and acetonitrile (19:1) to make exactly 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of enalapril in each solution. Amount (mg) of enalapril maleate (C20H28N2O5.C4H4O4) ＝ MS × AT/AS MS: Amount (mg) of Enalapril Maleate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 215 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 15 cm in length, packed with porous styrene-divinyl-benzene copolymer for liquid chromatography (5 mm in par-ticle diameter). Column temperature: A constant temperature of about 709C. Mobile phase A: Dissolve 3.1 g of sodium dihydrogen phosphate dihydrate in 900 mL of water, adjust the pH to 6.8 with a solution of sodium hydroxide (1 in 4), and add water to make 1000 mL. To 950 mL of this solution, add 50 mL of acetonitrile for liquid chromatography. Mobile phase B: Dissolve 3.1 g of sodium dihydrogen phosphate dihydrate in 900 mL of water, adjust the pH to 6.8 with a solution of sodium hydroxide (1 in 4), and add water to make 1000 mL. To 340 mL of this solution, add 660 mL of acetonitrile for liquid chromatography. Flowing of mobile phase: Control the concentration gradient by changing the ratio of the mobile phases A and B as follows. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 20 95 → 40 5 → 60 20 – 25 Flow rate: 1.4 mL per minute. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of enalapril are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of enalapril is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oryzae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oryzae Fructus",
+    "ja": "コウベイ"
+  },
+  "monographId": "JP18-oryzae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Brown Rice occurs as ellipsoidal, slightly flat-tened, 4 – 6 mm in length; externally translucent, light yel-lowish white to light brown. Slightly cave in and a white embryo at one end; a brown small dent of scar of style at the other end; few longitudinally striates on the surface. Odor, slight; taste, slightly sweet. Under a microscope <5.01>, a transverse section of the caryopsis reveals the outermost layer composed of pericarp; vascular bundles in the pericarp; seed coat adhering closely to the pericarp; in the interior, 1 or 2 cellular layered aleuron layers; parenchymatous cells of endosperm contain simple or compound starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of pulverized Brown Rice add 50 mL of water, and heat in a water bath for 5 minutes. After cooling, add 1 drops of iodine TS, and shake: a blue-purple color develops. (2) To 1 g of pulverized Brown Rice add 5 mL of ethyl acetate, shake for 10 minutes, centrifuge, and use the super-natant liquid as the sample solution. Separately, dissolve 1 mg of cycloartenyl ferulate for thin-layer chromatography in 1 mL of ethyl acetate, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer chromatography <2.03>. Spot 10 mL of the sample solution and 5 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and acetone (5:2) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the blue-purple fluorescent spot obtained from the standard solution. Total ash <5.01> Not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

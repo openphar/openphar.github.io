@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/furosemide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Furosemide",
+    "ja": "フロセミド"
+  },
+  "monographId": "JP18-furosemide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H11ClN2O5S",
+  "molecularWeight": 330.74,
+  "casNumber": "54-31-9",
+  "definition": {
+    "en": "Furosemide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Furosemide occurs as white, crystals or crystal-line powder. It is freely soluble in N,N-dimethylformamide, soluble in methanol, sparingly soluble in ethanol (99.5), slightly soluble in acetonitrile and in acetic acid (100), and practically insolu-ble in water. It dissolves in dilute sodium hydroxide TS. It is gradually colored by light. Melting point: about 2059C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 25 mg of Furosemide in 10 mL of methanol. To 1 mL of this solution add 10 mL of 2 mol/L hydrochloric acid TS. Heat the solution under a reflux con-denser on a water bath for 15 minutes, cool, and add 18 mL of sodium hydroxide TS to make weakly acidic: the solution responds to Qualitative Tests <1.09> for primary aromatic amines, producing a red to red-purple color. Determine the absorption spectrum of a solution of Furosemide in dilute sodium hydroxide TS (1 in 125,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Furosemide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Furosemide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Furosemide RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Furosemide in 10 mL of a solution of sodium hydroxide (1 in 50): the solution is clear and colorless. Chloride <1.03>—Dissolve 2.6 g of Furosemide in 90 mL of dilute sodium hydroxide TS, add 2 mL of nitric acid, and filter. To 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: To 0.40 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.020z). Sulfate <1.14>—To 20 mL of the filtrate obtained in (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution as follows: To 0.35 mL of 0.005 mol/L sulfuric acid VS add 1 mL of dilute hydro-chloric acid and water to make 50 mL (not more than 0.030z). Heavy metals <1.07>—Proceed with 2.0 g of Furosemide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 25 mg of Furosemide in 25 mL of the dissolving solution, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the dissolving solution to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of each peak appeared ahead of the peak of furosemide ob-tained from sample solution is not larger than 2/5 times the peak area of furosemide from the standard solution, the area of each peak appeared behind the peak of furosemide is not larger than 1/4 times the peak area of furosemide from the standard solution, and the total area of these peaks is not larger than 2 times the peak area of furosemide from the standard solution. Dissolving solution—To 22 mL of acetic acid (100) add a mixture of water and acetonitrile (1:1) to make 1000 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 272 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, tetrahydrofuran and acetic acid (100) (70:30:1). Flow rate: Adjust so that the retention time of furosemide is about 18 minutes. Time span of measurement: About 2.5 times as long as the retention time of furosemide, beginning after the solvent peak. System suitability— Test for required detectability: Measure exactly 2 mL of the standard solution, and add the dissolving solution to make exactly 50 mL. Confirm that the peak area of furosemide obtained with 20 mL of this solution is equivalent to 3.2 to 4.8z of that with 20 mL of the standard solution. ‌1050 System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of furosemide is not less than 7000 and not more than 1.5, respectively. ‌System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of furosemide is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Furosemide, previ-ously dried, dissolve in 50 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until the color of the solution changes from yellow to blue (indica-tor: 3 drops of bromothymol blue TS). Perform a blank de-termination with a mixture of 50 mL of N,N-dimethylfor-mamide and 15 mL of water in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 33.07 mg of C12H11ClN2O5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

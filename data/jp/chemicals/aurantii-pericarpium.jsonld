@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aurantii-pericarpium",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aurantii Pericarpium",
+    "ja": "トウヒ"
+  },
+  "monographId": "JP18-aurantii-pericarpium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Usually quartered sections of a sphere, some-times warped or flattened, 4 – 8 cm in length, 2.5 – 4.5 cm in width and 0.5 – 0.8 cm in thickness; the outer surface is dark red-brown to grayish yellow-brown, with numerous small dents associated with oil sacs; the inner surface is white to light grayish yellow-red, with irregular indented reticulation left by vascular bundles; light and brittle in texture. Odor, characteristic aroma; taste, bitter, somewhat mucilaginous and slightly pungent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of Bitter Orange Peel add 10 mL of ethanol (95), allow to stand for 30 minutes with occasional shaking, filter, and use the filtrate as the sample solution. Separately, dissolve 10 mg of naringin for thin-layer chroma-tography in 10 mL of ethanol (95), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly dilute 2,6-dibromo-N-chloro-1,4-benzo-quinone monoimine TS on the plate, and allow to stand in ammonia gas: one of the several spots obtained from the sample solution and a grayish green spot from the standard solution show the same color tone and the same Rf value. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 5.5z. Acid-insoluble ash <5.01> Not more than 0.5z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Bitter Orange Peel provided that 1 mL of silicon resin is previously added to the test sample in the flask: the volume of essential oil is not less than 0.2 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

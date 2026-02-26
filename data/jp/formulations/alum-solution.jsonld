@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/alum-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Alum Solution",
+    "ja": "ミョウバン水"
+  },
+  "monographId": "JP18-alum-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Alum Solution contains not less than 0."
+  },
+  "appearance": {
+    "en": "Alum Solution is a clear, colorless liquid. It has the odor of the mentha oil and an astringent taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of Alum Solution add 3 mL of ammonium chloride TS and 1 mL of ammonia TS: a white, gelatinous precipitate is produced, which changes to red upon the addition of 5 drops of alizarin red S TS (aluminum sulfate). Place 100 mL of Alum Solution in an evaporating dish, evaporate on a water bath to dryness, and dissolve the residue in 5 mL of water: the solution responds to Qualita-tive Tests <1.09> for potassium salt. Alum Solution responds to the Qualitative Tests <1.09> (1) and (2) for sulfate."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 50 mL of Alum Solution, add exactly 30 mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetra-acetate VS, and further add 20 mL of acetic acid-ammonium acetate buffer solution (pH 4.8). Boil for 5 minutes, cool, add 55 mL of ethanol (95), and titrate <2.50> with 0.02 mol/L zinc acetate VS (indicator: 2 mL of dithizone TS), until the color of the solution changes from light dark green to light red. Perform a blank determination in the same manner. Each mL of 0.02 mol/L disodium dihydrogen ethylene-diamine tetraacetate VS ＝ 9.488 mg of AlK(SO4)2.12H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

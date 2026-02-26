@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethambutol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethambutol Hydrochloride",
+    "ja": "エタンブトール塩酸塩"
+  },
+  "monographId": "JP18-ethambutol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H24N2O2.2HCl",
+  "molecularWeight": 277.23,
+  "casNumber": "1070-11-7",
+  "definition": {
+    "en": "Ethambutol Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethambutol Hydrochloride occurs as white, crystals or crystalline powder. It is odorless, and has a bitter taste. It is very soluble in water, soluble in methanol and in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution prepared by dissolving 1.0 g of Ethambutol Hydrochloride in 20 mL of water is between 3.4 and 4.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mL of a solution of Ethambutol Hydrochloride (1 in 100) add 0.5 mL of copper (II) sulfate TS and 2 mL of sodium hydroxide TS: a deep blue color is produced. Dissolve 0.1 g of Ethambutol Hydrochloride in 40 mL of water, add 20 mL of 2,4,6-trinitrophenol TS, and allow to stand for 1 hour. Collect the precipitate, wash with solution, corresponding to that from the standard solution, has no more color than that from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Ethambutol Hydro-chloride, previously dried, dissolve in 20 mL of water, and add 1.8 mL of copper (II) sulfate TS. To the solution add 7 mL of sodium hydroxide TS with shaking, add water to make exactly 50 mL, and centrifuge. Pipet 10 mL of the su-pernatant liquid, add 10 mL of ammonia-ammonium chlo-ride buffer solution (pH 10.0) and 100 mL of water, and titrate <2.50> with 0.01 mol/L disodium dihydrogen ethyl-enediamine tetraacetate VS until the color of the solution changes from blue-purple through light red to light yellow (indicator: 0.15 mL of Cu-PAN TS). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.772 mg of C10H24N2O2.2HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

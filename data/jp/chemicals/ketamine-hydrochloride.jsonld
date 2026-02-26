@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ketamine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ketamine Hydrochloride",
+    "ja": "ケタミン塩酸塩"
+  },
+  "monographId": "JP18-ketamine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C13H16ClNO.HCl",
+  "molecularWeight": 274.19,
+  "casNumber": "1867-66-9",
+  "appearance": {
+    "en": "Ketamine Hydrochloride occurs as white, crys-tals or crystalline powder. It is very soluble in formic acid, freely soluble in water and in methanol, sparingly soluble in ethanol (95) and in acetic acid (100), and practically insoluble in acetic anhydride and in diethyl ether. A solution of Ketamine Hydrochloride (1 in 10) shows no optical rotation. Melting point: about 2589C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ketamine Hydrochloride in 0.1 mol/L hydro-chloric acid TS (1 in 3000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Keta-mine Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Ketamine Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> (2) for chloride. Arsenic <1.11>—Prepare the test solution with 1.0 g of Ketamine Hydrochloride, according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.5 g of Ketamine Hy-drochloride in 10 mL of methanol and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of cyclohexane and isopropylamine (49:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate, dry the plate, and then spray evenly hydrogen peroxide TS: the spots other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more then 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Ketamine Hydro-chloride, previously dried, dissolve in 1 mL of formic acid, add 70 mL of a mixture of acetic anhydride and acetic acid (100) (6:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 27.42 mg of C13H16ClNO.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

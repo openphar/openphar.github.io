@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/opium-ipecac-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Opium Ipecac Powder",
+    "ja": "アヘン・トコン散"
+  },
+  "monographId": "JP18-opium-ipecac-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Opium Ipecac Powder contains not less than 0."
+  },
+  "appearance": {
+    "en": "Opium Ipecac Powder occurs as a light brown powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Proceed with 1 g of Opium Ipecac Pow-der as directed in the Identification (1) under Powdered Opium. Proceed with 1 g of Opium Ipecac Powder as directed in the Identification (2) under Powdered Opium. Shake frequently a mixture of 3 g of Opium Ipecac Powder and 5 mL of hydrochloric acid, and allow to stand for 1 hour. Filter the solution into an evaporating dish. Add 5 mg of chlorinated lime to the filtrate: an orange color is produced at the circumference of the chlorinated lime (emetine)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 g of Opium Ipecac Pow-der in a glass stoppered flask, add 250 mL of dilute ethanol, warm in a water bath at 409C for 1 hour with stirring, and filter through a glass filter (G3). Transfer the residue on the filter to the first glass-stoppered flask, add 50 mL of dilute ethanol, warm in a water bath at 409C for 10 minutes with stirring, and filter through the glass filter. Repeat the ex-traction with three 50-mL portions of dilute ethanol. Com-bine all the filtrates in a mortar, evaporate on a water bath to dryness, add 10 mL of ethanol (99.5) to the residue, and evaporate again. After cooling, triturate the residue with an exactly measured 10 mL of water, add 2 g of calcium hy-droxide and an exactly measured 40 mL of water, stir the mixture for 20 minutes, and filter. To 30 mL of the filtrate add 0.1 g of magnesium sulfate heptahydrate, shake for 1 minute, then add 0.3 g of calcium hydroxide, shake for 1 minute, allow to stand for 1 hour, and filter. To an exactly measured 20 mL of the filtrate add 5 mL of sodium hydrox-ide TS, and adjust the pH to between 9.0 and 9.2 with ammonium chloride. Extract the solution successively with 60 mL, 40 mL and 30 mL of a mixture of chloroform and ethanol (95) (3:1). Combine all the extracts, distil, then evaporate the solvent on a water bath. Dissolve the residue in 20 mL of dilute sodium hydroxide TS and 10 mL of diethyl ether with shaking, add 0.5 g of ammonium chloride, shake vigorously with caution, and proceed as directed in the Assay under Powdered Opium. Each mL of 0.05 mol/L sulfuric acid VS ＝ 28.53 mg of C17H19NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Powder"
+}

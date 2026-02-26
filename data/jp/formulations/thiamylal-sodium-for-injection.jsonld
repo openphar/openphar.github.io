@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/thiamylal-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Thiamylal Sodium for Injection",
+    "ja": "注射用チアミラールナトリウム"
+  },
+  "monographId": "JP18-thiamylal-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Thiamylal Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Thiamylal Sodium for Injection occurs as light yellow, crystals, powder or masses. It is hygroscopic. It is gradually decomposed by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1.0 g of Thiamylal Sodium for In-jection add 20 mL of ethanol (95), shake vigorously, and filter. Dissolve the precipitate so obtained in 1 mL of water, and add 1 mL of barium chloride TS: a white precipitate is produced. Centrifuge this solution, take off the supernatant liquid, and to the precipitate add dilute hydrochloric acid dropwise: the precipitate dissolves with effervescence. (2) To 50 mg of Thiamylal Sodium for Injection add 100 mL of ethanol (95), shake vigorously, and filter. To 3 mL of the filtrate add ethanol (95) to make 200 mL. Determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits maxima between 236 nm and 240 nm, and between 287 nm and 291 nm. pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Thiamylal Sodium for Injection in 40 mL of water is between 10.5 and 11.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—To 0.10 g of Thiamylal So-dium for Injection add 10 mL of ethanol (95), shake vigor-ously, filter, and use the filtrate as the sample solution. Pro-ceed as directed in the Purity (3) under Thiamylal Sodium. Bacterial endotoxins <4.01> Less than 1.0 EU/mg. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require- ‌ment.‌ Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Open carefully 10 containers of Thiamylal Sodium for Injection, dissolve the contents with water, wash out the inside of each container with water, combine them, and add water to make exactly V mL so that each mL contains about 5 mg of thiamylal sodium (C12H17N2NaO2S). Pipet 5 mL of this solution, and add 0.5 mL of dilute hydrochloric acid and methanol to make exactly 100 mL. Pipet 5 mL of this solu-tion, add exactly 10 mL of the internal standard solution and the mobile phase to make 200 mL, and use this solution as the sample solution. Proceed the test with the sample solu-tion as directed in the Assay under Thiamylal Sodium. Amount (mg) of thiamylal sodium (C12H17N2NaO2S) in 1 container ＝ MS × QT/QS × V/50 × 1.086 MS: Amount (mg) of Thiamylal RS taken Internal standard solution—A solution of phenyl benzoate in methanol (3 in 500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

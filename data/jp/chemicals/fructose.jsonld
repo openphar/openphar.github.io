@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fructose",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fructose",
+    "ja": "果糖"
+  },
+  "monographId": "JP18-fructose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12O6",
+  "molecularWeight": 180.16,
+  "definition": {
+    "en": "Fructose, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fructose occurs as colorless to white, crystals or crystalline powder. It is odorless and has a sweet taste. It is very soluble in water, sparingly soluble in ethanol (95) and practically insoluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 2 to 3 drops of a solution of Fruc-tose (1 in 20) to 5 mL of boiling Fehling's TS: a red precipi-tate is produced. (2) Determine the infrared absorption spectrum of Fruc-tose as directed in the paste method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 4.0 g of Fructose in 20 mL of water: the pH of the solution is between 4.0 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 25.0 g of Fructose in 50 mL of water: the solution is clear and has no more color than the following control solution. Control solution: To a mixture of 1.0 mL of Cobalt (II) Chloride CS, 3.0 mL of Iron (III) Chloride CS and 2.0 mL of Copper (II) Sulfate CS, and add water to make 10.0 mL. To 3.0 mL of the solution add water to make 50 mL. Acidity—Dissolve 5.0 g of Fructose in 50 mL of freshly boiled and cooled water, and add 3 drops of phenol-phthalein TS and 0.60 mL of 0.01 mol/L sodium hydroxide VS: a red color develops. Chloride <1.03>—Perform the test with 2.0 g of Fruc- tose. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). Sulfate <1.14>—Perform the test with 2.0 g of Fruc- tose. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Sulfite—Dissolve 0.5 g of Fructose in 5 mL of water, and add 0.25 mL of 0.02 mol/L iodine: the color of the solu-tion is yellow. Heavy metals <1.07>—Proceed with 5.0 g of Fructose according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 4 ppm). Calcium—Dissolve 0.5 g of Fructose in 5 mL of water, add 2 to 3 drops of ammonia TS and 1 mL of ammo-nium oxalate TS, and allow to stand for 1 minute: the solu- tion is clear. Arsenic <1.11>—Dissolve 1.5 g of Fructose in 5 mL of water, heat with 5 mL of dilute sulfuric acid and 1 mL of bromine TS on a water bath for 5 minutes, concentrate to 5 mL, and cool. Perform the test with this solution as the test solution (not more than 1.3 ppm). 5-Hydroxymethylfurfurals—Dissolve 5.0 g of Fruc-tose in 100 mL of water, and read the absorbance at 284 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance is not more than 0.32. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 4 g of Fructose, previously dried, dissolve in 0.2 mL of ammonia TS and 80 mL of water, and after standing for 30 minutes add water to make exactly 100 mL, and determine the optical rotation, aD, in a 100-mm cell at 20 ± 19C as directed under Optical Rotation Determination <2.49>. Amount (mg) of fructose (C6H12O6) ＝ |aD| × 1087.0"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/prednisolone-sodium-succinate-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Prednisolone Sodium Succinate for Injection",
+    "ja": "注射用プレドニゾロンコハク酸エステルナトリウム"
+  },
+  "monographId": "JP18-prednisolone-sodium-succinate-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Prednisolone Sodium Succinate for Injection is a preparation for injection which is dissolved before use. It contains not less than 72."
+  },
+  "appearance": {
+    "en": "Prednisolone Sodium Succinate for Injection occurs as a white, powder or porous, friable mass. It is freely soluble in water. It is hygroscopic. in a desiccator for 6 hours (in vacuum, phosphorus (V) oxide, 609C), dissolve in methanol to make exactly 25 mL. Pipet 5 mL of this solution, add diluted methanol (1 in 2) to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, mix, and use this so-lution as the standard solution. Perform the test with 10 mL of the sample solution and standard solution as directed under Liquid Chromatography according <2.01> to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of prednisolone succinate to that of the inter-nal standard. Amount (mg) of prednisolone sodium succinate (C25H31NaO8)"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mg of Prednisolone Sodium Suc-cinate for Injection add 2 mL of sulfuric acid, and allow to stand for 2 to 3 minutes: a deep red color, without fluores- ＝ MS × QT/QS × 5 × 1.048 Amount (mg) of prednisolone (C21 ＝ MS × QT/QS × 5 × 0.783 H28O5) cence, develops. To this solution add 10 mL of water cau-tiously: the color disappears and a gray, flocculent precipi-tate is formed. Dissolve 0.01 g of Prednisolone Sodium Succinate for Injection in 1 mL of methanol, add 1 mL of Fehling's TS, and heat: an orange to red precipitate is formed. Dissolve 0.1 g of Prednisolone Sodium Succinate for Injection in 2 mL of sodium hydroxide TS, allow to stand for 10 minutes, and filter. Add 1 mL of dilute hydrochloric acid to the filtrate, shake, and filter if necessary. Adjust the solution with diluted ammonia TS (1 in 10) to a pH of about 6, and add 2 to 3 drops of iron (III) chloride TS: a brown precipitate is formed. Prednisolone Sodium Succinate for Injection re-sponds to Qualitative Tests <1.09> (1) for sodium salt. pH <2.54> Dissolve 1.0 g of Prednisolone Sodium Suc-cinate for Injection in 40 mL of water: the pH of the solu-tion is between 6.5 and 7.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve 0.25 g of Prednisolone Sodium Succinate for Injection in 10 mL of water: the solution is clear and colorless. Loss on drying <2.41> Not more than 2.0z (0.15 g, in vacuum, phosphorus (V) oxide, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 2.4 EU/mg of pred-nisolone (C21H28O5). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take a quantity of sealed containers of Prednisolone Sodium Succinate for Injection, equivalent to about 0.1 g of prednisolone (C21H28O5), and dissolve the contents in a suita-ble amount of diluted methanol (1 in 2), and transfer to a 100-mL volumetric flask. Wash each container with diluted methanol (1 in 2), collect the washings in the volumetric flask, and add diluted methanol (1 in 2) to make volume. Pipet 4 mL of this solution, add diluted methanol (1 in 2) to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, mix, and use this so-lution as the sample solution. Separately, weigh accurately about 25 mg of Prednisolone Succinate RS, previously dried MS: Amount (mg) of Prednisolone Succinate RS taken Internal standard solution—A solution of propyl parahy-droxybenzoate in diluted methanol (1 in 2) (1 in 25,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 0.32 g of tetra n-butylammonium bromide, 3.22 g of disodium hydrogen phosphate dodacahy-drate and 6.94 g of potassium dihydrogen phosphate in 1000 mL of water. To 840 mL of this solution add 1160 mL of methanol. Flow rate: Adjust so that the retention time of predniso-lone succinate is about 15 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, prednisolone succinate and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of prednisolone succinate to that of the in-ternal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

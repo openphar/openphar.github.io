@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dried-yeast",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dried Yeast",
+    "ja": "乾燥酵母"
+  },
+  "monographId": "JP18-dried-yeast",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dried Yeast is dried and powdered cells of yeast be-longing to Saccharomyces. It contains not less than 400 mg of protein and not less than 100 mg of thiamine compounds [as thiamine chloride hydrochloride (C12H17ClN4OS."
+  },
+  "appearance": {
+    "en": "Dried Yeast occurs as a light yellow-white to brown powder. It has a characteristic odor and taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dried Yeast, when examined under a micro-scope <5.01>, shows isolated cells, spheroidal or oval in shape, and 6 to 12 mm in length."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rancidity—Dried Yeast is free from any un-pleasant or rancid odor or taste. (2) Starch—Add iodine TS to Dried Yeast, and examine microscopically <5.01>: no or only a few granules are tinted black-purple. Loss on drying <2.41> Not more than 8.0z (1 g, 1009C, 8 hours). Total ash <5.01> Not more than 9.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Protein—Weigh accurately about 50 mg of Dried Yeast and perform the test as directed under Nitrogen Determination <1.08>. Amount (mg) of protein in 1 g of Dried Yeast ＝ N × 6.25 × 1/M N: Amount (mg) of nitrogen (N) M: Amount (g) of Dried Yeast taken (2) Thiamine—Weigh accurately about 1 g of Dried Yeast, add 1 mL of dilute hydrochloric acid and 80 mL of water, and heat in a water bath at 80 to 859C for 30 minutes with occasional shaking. After cooling, add water to make exactly 100 mL, and centrifuge for 10 minutes. Pipet 4 mL of the supernatant liquid, add exactly 5 mL of acetic acid-sodium acetate TS and exactly 1 mL of enzyme TS, and allow to stand at 45 to 509C for 3 hours. Place exactly 2 mL of this solution onto a chromatographic column prepared by pouring 2.5 mL of a weakly acidic CM-bridged cellulose cation exchanger (H type) (40 to 110 mm in particle diameter) into a chromatographic tube about 1 cm in inside diameter and about 17 cm in length, and elute at the flow rate of about 0.5 mL per minute. Wash the upper part of the column with a small amount of water, and wash the column with two 10-mL portions of water at the flow rate of about 1 mL per minute. Elute the column with two 2.5-mL portions of diluted phosphoric acid (1 in 50) at the flow rate of about 0.5 mL per minute, and combine the eluate. To the eluate add exactly 1 mL of the internal standard solution and 0.01 g of sodium 1-octanesulfonate, and after dissolving, use this solution as the sample solution. Separately, weigh accurately about 15 mg of Thiamine Chloride Hydrochloride RS (previ-ously determine the water <2.48> in the same manner as Thiamine Chloride Hydrochloride), dissolve in 0.001 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 1 mL of this solution, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add exactly 1 mL of the in-ternal standard solution and 3 mL of the mobile phase, and use this solution as the standard solution. Perform the test with 200 mL each of the sample solution and standard solu- ‌tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of thiamine to that of the inter-nal standard.‌ Amount ( mg) of thiamine in 1 g of Dried Yeast ＝ MS/MT × QT/QS × 12.5 MS: Amount (mg) of Thiamine Chloride Hydrochloride RS taken, calculated on the anhydrous basis MT: Amount (g) of the Dried Yeast taken Internal standard solution—Dissolve 0.01 g of phenacetin in acetonitrile to make 100 mL, and to 1 mL of this solution add diluted acetonitrile (1 in 5) to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column about 4 mm in inside diameter and 15 to 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.7 g of potassium dihydrogen-phosphate in 1000 mL of water, and adjust the pH to 3.5 with diluted phosphoric acid (1 in 10). Dissolve 1.6 g of sodi-um 1-octanesulfonate in 800 mL of this solution, and add 200 mL of acetonitrile. Flow rate: Adjust so that the retention time of thiamine is about 8 minutes. Selection of column: Proceed with 200 mL of the standard solution under the above operating conditions, and calculate the resolution. Use a column giving elution of thiamine and the internal standard in this order with the resolution be-tween these peaks being not less than 8."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

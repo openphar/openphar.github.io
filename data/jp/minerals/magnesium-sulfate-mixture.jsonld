@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/magnesium-sulfate-mixture",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Magnesium Sulfate Mixture‌",
+    "ja": "硫酸マグネシウム水"
+  },
+  "monographId": "JP18-magnesium-sulfate-mixture",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Magnesium Sulfate Mixture is a light yellow clear liquid. It has a bitter and acid taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Magnesium Sulfate Mixture responds to Qualitative Tests <1.09> for magnesium salt. (2) Magnesium Sulfate Mixture responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 10 mL of Magnesium Sulfate Mixture, and add water to make exactly 100 mL. Pipet 10 mL of this solu-tion, add 50 mL of water and 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylenediamine tetraa-cetate VS (indicator: 40 mg of eriochrome black T-sodium chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 12.32 mg of MgSO4.7H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

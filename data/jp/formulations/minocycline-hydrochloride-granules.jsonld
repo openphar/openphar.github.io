@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/minocycline-hydrochloride-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Minocycline Hydrochloride Granules",
+    "ja": "ミノサイクリン塩酸塩顆粒"
+  },
+  "monographId": "JP18-minocycline-hydrochloride-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Minocycline Hydrochloride Granules contain not less than 90.0z and not more than 110.0z of the labeled potency of minocycline (C23H27N3O7: 457.48). Method of preparation Prepare as directed under Gran-ules, with Minocycline Hydrochloride. Identiˆcation To a quantity of Minocycline Hydrochloride Granules, equivalent to 10 mg (potency) of Minocycline Hy- the relative retention time of about 0.83 to minocycline, is not more than 4.0z. Operating conditions— Detector, column, column temperature, mobile phase, and ‰ow rate: Proceed as directed in the operating conditions in the Assay under Minocycline Hydrochloride. Time span of measurement: About 2.5 times as long as the retention time of minocycline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay under Minocycline Hydrochloride. Test for required detectability: To 2 mL of the standard solution obtained in the Assay add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 5 mL of the solution for system suita-bility test, and add the mobile phase to make exactly 100 mL. Conˆrm that the peak area of minocycline obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of minocycline is not more than 2.0z. Water <2.48> Not more than 2.0z (4 g of powdered Minocycline Hydrochloride Granules, volumetric titration, back titration). Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Minocycline Hydrochloride Granules in single-dose packages meet the requirement of the Content uniformity test. To the total content of 1 package of Minocycline Hydro-chloride Granules add water to disintegrate, shake thor-oughly, add water to make exactly 100 mL, and ˆlter through a membrane ˆlter with a pore size not exceeding 0.45 mm. Discard the ˆrst 10 mL of the ˆltrate, pipet V mL of the subsequent ˆltrate, add water to make exactly V? mL so that each mL contains about 20 mg (potency) of minocy-cline (C23H27N3O7), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure within 30 minutes after the preparation of the sample solution. To a quantity of Minocycline Hydrochloride Granules, equivalent MS: Amount [mg (potency)] of Minocycline Hydrochlo-ride RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Minocycline Hydrochloride Granules is not less than 85z. ‌Start the test with an accurately weighed amount of Minocycline Hydrochloride Granules, equivalent to about 20 mg (potency) of Minocycline Hydrochloride, withdraw not less than 20 mL of the medium at the speciˆed minute after starting the test, and ˆlter through a membrane ˆlter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the ˆrst ˆltrate, and use the subsequent ˆltrate as the sam-ple solution. Separately, weigh accurately an amount of Minocycline Hydrochloride RS, equivalent to about 22 mg (potency), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, of the sample solution and standard solution at 348 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of minocycline (C23H27N3O7) ＝ MS/MT × AT/AS × 1/C × 90 MS: Amount [mg (potency)] of Minocycline Hydrochlo-ride RS taken MT: Amount (g) of Minocycline Hydrochloride Granules taken C: Labeled amount [mg (potency)] of minocycline (C23H27N3O7) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of powdered Minocy-cline Hydrochloride Granules, equivalent to about 50 mg (potency) of Minocycline Hydrochloride, add the mobile phase, shake vigorously, and add the mobile phase to make exactly 100 mL. Centrifuge this solution, and use the super-natant liquid as the sample solution. Separately, weigh accu-rately an amount of Minocycline Hydrochloride RS, equiva-lent to about 25 mg (potency), dissolve in the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Minocycline Hydrochloride. Amount [mg (potency)] of minocycline (C23H27N3O7) ＝ MS × AT/AS × 2 MS: Amount [mg (potency)] of Minocycline Hydrochlo-ride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

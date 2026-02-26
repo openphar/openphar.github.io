@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/bromfenac-sodium-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Bromfenac Sodium Ophthalmic Solution",
+    "ja": "ブロムフェナクナトリウム点眼液"
+  },
+  "monographId": "JP18-bromfenac-sodium-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Bromfenac Sodium Ophthalmic Solution is an aque-ous ophthalmic preparation. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Bromfenac Sodium Ophthalmic Solution oc-curs as a clear and yellow liquid. Identiˆcation To a volume of Bromfenac Sodium Ophthal-mic Solution, equivalent to 1 mg of Bromfenac Sodium Hy-drate, add a solution of sodium hydrogen carbonate (21 in 2500) to make 50 mL, and determine the absorption spec-trum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 266 nm and 270 nm, and between 377 nm and 381 nm. pH Being speciˆed separately when the drug is granted ap-proval based on the Law."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Being speciˆed separately when the drug is granted approval based on the Law. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane ˆltration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Bromfenac Sodium Ophthalmic Solution, equivalent to about 2 mg of bromfenac sodium hy-drate (C15H11BrNNaO3.11/2 H2O), add the mobile phase to make exactly 20 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 20 mg of Brom-fenac Sodium RS (separately determine the water <2.48> in the same manner as Bromfenac Sodium Hydrate), and dis-solve in the mobile phase to make exactly 20 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of bromfenac in each solution. Amount (mg) of bromfenac sodium hydrate (C15H11BrNNaO3.11/2H2O) ＝ MS × AT/AS × 1/10 × 1.076 MS: Amount (mg) of Bromfenac Sodium RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.98 g of diammonium hydrogen phosphate in 750 mL of water, adjust to pH 7.3 with phos-phoric acid, and add 250 mL of acetonitrile. Flow rate: Adjust so that the retention time of bromfenac is about 18 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of bromfenac are not less than 13,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of bromfenac is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

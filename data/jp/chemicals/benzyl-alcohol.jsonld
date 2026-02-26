@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benzyl-alcohol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benzyl Alcohol",
+    "ja": "ベンジルアルコール"
+  },
+  "monographId": "JP18-benzyl-alcohol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H8O",
+  "molecularWeight": 108.14,
+  "definition": {
+    "en": "Benzyl alcohol [100-51-6] This monograph is harmonized with the European Phar-macopoeia and the U.S. Pharmacopeia. The parts of the text that are not harmonized are marked with symbols (◆ ◆). Information on the harmonization with the European Pharmacopoeia and the U.S. Pharmacopeia is available on the website of the Pharmaceuticals and Medical Devices Agency. Benzyl Alcohol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Benzyl Alcohol is a clear, colorless oily liq-uid. It is miscible with ethanol (95), with fatty oils and with essential oils. It is soluble in water. Specific gravity d 20: 1.043 – 1.049◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spec-trum of Benzyl Alcohol as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers.◆ D Refractive index <2.45> n20: 1.538 – 1.541"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "◆(1) Clarity and color of solution—Dissolve 2.0 mL of Benzyl Alcohol in 60 mL of water: the solution is clear and colorless.◆ Acidity—To 10 mL of Benzyl Alcohol add 10 mL of ethanol (95) and 2 drops of phenolphthalein TS, and add dropwise 0.1 mol/L sodium hydroxide VS until the solution acquires a light red color: the amount of 0.1 mol/L sodium hydroxide VS used is not more than 1.0 mL. Benzaldehyde and other related substances—Use Benzyl Alcohol as the sample solution. Separately, dissolve exactly 0.100 g of ethylbenzene in Benzyl Alcohol to make exactly 10 mL. Pipet 2 mL of this solution, add Benzyl Alco-hol to make exactly 20 mL, and use this solution as the ethyl-benzene stock solution. Separately, dissolve exactly 2.000 g of dicyclohexyl in Benzyl Alcohol to make exactly 10 mL. Pipet 2 mL of this solution, add Benzyl Alcohol to make ex-actly 20 mL, and use this solution as the dicyclohexyl stock solution. Separately, weigh exactly 0.750 g of benzaldehyde and 0.500 g of cyclohexylmethanol, and add Benzyl Alcohol to make exactly 25 mL. Pipet 1 mL of this solution, add ex-actly 2 mL of ethylbenzene stock solution and exactly 3 mL of dicyclohexyl stock solution, then add Benzyl Alcohol to make exactly 20 mL, and use this solution as the standard solution (1). Perform the test with exactly 0.1 mL each of the sample solution and standard solution (1) as directed under Gas Chromatography <2.02> according to the following con-ditions, and when the peak having the retention time cor-responding to ethylbenzene and dicyclohexyl appears on the chromatogram obtained from the sample solution, correct the peak areas of ethylbenzene and dicyclohexyl from the standard solution (1) by deducting the relevant peak area from the sample solution, the peak area of benzaldehyde from the sample solution is not more than the difference be-tween the peak areas of benzaldehyde of the sample solution and the standard solution (1) (0.15z), and the peak area of cyclohexylmethanol from the sample solution is not more than the difference between the peak areas of cyclohexyl-methanol of the sample solution and the standard solution (1) (0.10z). The total area of the peaks having smaller reten-tion time than benzyl alcohol and other than benzaldehyde and cyclohexylmethanol from the sample solution is not more than 4 times the peak area or the corrected peak area of ethylbenzene from the standard solution (1) (0.04z). The total area of the peaks having larger retention time than benzyl alcohol from the sample solution is not more than the peak area or the corrected peak area of dicyclohexyl from the standard solution (1) (0.3z). For these calculations the peak areas less than 1/100 times the peak area or the cor-rected peak area of ethylbenzene with the standard solution (1) are excluded. Benzyl Alcohol labeled that it is suitable for use in the manufacture of injection forms meets the following require-ments. Use Benzyl Alcohol as the sample solution. Separately, weigh exactly 0.250 g of benzaldehyde and 0.500 g of cyclo-hexylmethanol, and add Benzyl Alcohol to make exactly 25 mL. Pipet 1 mL of this solution, add exactly 2 mL of the ethylbenzene stock solution and exactly 2 mL of the dicyclo-hexyl stock solution, then add Benzyl Alcohol to make ex-actly 20 mL, and use this solution as the standard solution (2). Perform the test with exactly 0.1 mL each of the sample solution and standard solution (2) as directed under Gas Chromatography <2.02> according to the following condi-tions, and when the peak having the retention time cor-responding to ethylbenzene and dicyclohexyl appears on the chromatogram obtained from the sample solution, correct cyclohexylmethanol from the sample solution is not more than the difference between the peak areas of cyclohexyl-methanol of the sample solution and the standard solution (2) (0.10z). The total area of the peaks having smaller reten-tion time than benzyl alcohol and other than benzaldehyde and cyclohexylmethanol from the sample solution is not more than 2 times the peak area or the corrected peak area of ethylbenzene from the standard solution (2) (0.02z). The total area of the peaks having larger retention time than ben-zyl alcohol from the sample solution is not more than the peak area of or the corrected peak area dicyclohexyl from the standard solution (2) (0.2z). For these calculation the peak areas less than 1/100 times the peak area or the cor-rected peak area of ethylbenzene from the standard solution (2) are excluded. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused silica column 0.32 mm in inside diameter and 30 m in length, coated inside with polyethylene glycol 20 M for gas chromatography in 0.5 mm thickness. Column temperature: Inject at a constant temperature of about 509C, raise the temperature at a rate of 59C per minute to 2209C, and maintain at 2209C for 35 minutes. Temperature of injection port: A constant temperature of about 2009C. Temperature of detector: A constant temperature of about 3109C. Carrier gas: Helium. Flow rate: 25 cm/second. Splitless. Detection sensitivity: When 0.1 mL of the standard solu-tion (1) is injected, adjust the sensitivity of the detector so that the height of the peak of ethylbenzene is not less than 30z of the full scale of the recorder. For Benzyl Alcohol labeled to use for injection, use the standard solution (2) instead of the standard solution (1). System suitability— System performance: When the procedure is run with the standard solution (1) under the above operating conditions, the retention time of benzyl alcohol is about 26 minutes, the relative retention times of ethylbenzene, dicyclohexyl, ben-zaldehyde and cyclohexylmethanol to benzyl alcohol are about 0.28, about 0.59, about 0.68 and about 0.71, respec-tively, and the resolution between the peaks of benzaldehyde and cyclohexylmethanol is not less than 3.0. In the case of Benzyl Alcohol labeled to use for injection, proceed with the standard solution (2) instead of the standard solution (1). Peroxide value—Weigh accurately about 5 g of Ben-zyl Alcohol, and dissolve in 30 mL of a mixture of acetic acid (100) and chloroform (3:2) in a 250-mL glass-stoppered conical flask. Add 0.5 mL of saturated potassium iodide so-lution, shake for exactly 1 minute, add 30 mL of water, and titrate <2.50> with 0.01 mol/L sodium thiosulfate VS, adding the titrant slowly with continuous vigorous shaking, until the blue color of the solution disappears after addition of 5 mL of starch TS near the end point where the solution is a pale yellow color. Perform a blank determination in the same manner. Calculate the amount of peroxide by the following formula: not more than 5. In the blank determination, the required amount of 0.01 mol/L sodium thiosulfate VS must not exceed 0.1 mL. the peak areas of ethylbenzene and dicyclohexyl from the standard solution (2) by deducting the relevant peak area Amount (mEq/kg) of peroxide ＝ 10 × (V1 － V0)/M from the sample solution, the peak area of benzaldehyde from the sample solution is not more than the difference be-tween the peak areas of benzaldehyde of the sample solution and the standard solution (2) (0.05z), and the peak area of V1: Volume (mL) of 0.01 mol/L sodium thiosulfate VS consumed in the test V0: Volume (mL) of 0.01 mol/L sodium thiosulfate VS consumed in the blank determination ‌JP XVIII Official Monographs / Benzylpenicillin Benzathine Hydrate 525‌ M: Amount (g) of Benzyl Alcohol taken Residue on evaporation—Perform the test after conformation that the sample meets the requirement of the peroxide value. Transfer 10.0 g of Benzyl Alcohol to a porcelain or quartz crucible or platinum dish, previously weighed accurately, and heat on a hot-plate at not exceeding 2009C, taking care to avoid boiling, to evaporate to dryness. Dry the residue on the hot-plate for 1 hour, and allow to cool in a desiccator: not more than 5 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.9 g of Benzyl Alcohol, add exactly 15 mL of a freshly prepared mixture of de-hydrated pyridine and acetic anhydride (7:1), and heat on a water bath under a reflux condenser for 30 minutes. Cool, add 25 mL of water, and titrate <2.50> the excess acetic acid with 1 mol/L sodium hydroxide VS (indicator: 2 drops of phenolphthalein TS). Perform a blank determination in the same manner. Each mL of 1 mol/L sodium hydroxide VS ＝ 108.1 mg of C7H8O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant.◆"
+  }
+}

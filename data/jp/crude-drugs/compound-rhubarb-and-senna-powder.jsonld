@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/compound-rhubarb-and-senna-powder",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-compound-rhubarb-and-senna-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Compound Rhubarb and Senna Powder",
+    "la": "Method of preparation",
+    "ja": "複方ダイオウ・センナ散"
+  },
+  "definition": {
+    "en": "red"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

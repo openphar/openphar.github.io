@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cisplatin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cisplatin",
+    "ja": "シスプラチン"
+  },
+  "monographId": "JP18-cisplatin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "Cl2H6N2Pt",
+  "molecularWeight": 300.05,
+  "definition": {
+    "en": "Cisplatin, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Cisplatin occurs as a yellow crystalline pow-der. It is sparingly soluble in N,N-dimethylformamide, slightly soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Cisplatin (1 in 2000) add 2 to 3 drops of a solution of tin (II) chloride dihy-drate (1 in 100): a brown precipitate is formed. (2) Determine the absorption spectrum of a solution of Cisplatin in a solution of sodium chloride in 0.01 mol/L hy- Qualitative Tests <1.09> (1) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Ammonium amminetrichloroplatinate—Conduct this procedure using light-resistant vessels. Dissolve 50 mg of Cisplatin in a solution of sodium chloride (9 in 1000) to make exactly 100 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of ammonium am-minetrichloroplatinate for liquid chromatography, previ-ously dried at 809C for 3 hours, in the solution of sodium chloride (9 in 1000) to make exactly 200 mL. Pipet 2 mL of this solution, add the solution of sodium chloride (9 in 1000) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 40 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak area of ammonium am-minetrichloroplatinate by the automatic integration method: the peak area obtained from the sample solution is not larger than that from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 209 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with silica gel for liquid chromatography having quaternary ammonium groups (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A solution of ammonium sulfate (1 in 800). Flow rate: Adjust so that the retention time of ammonium amminetrichloroplatinate is about 8 minutes. System suitability— System performance: When the procedure is run with 40 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ammonium amminetrichloroplatinate are not less than 1500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 40 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ammonium amminetrichloroplatinate is not more than 3.0z. Loss on drying <2.41> Not more than 0.1z (1 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately about 25 mg each of Cisplatin and Cisplatin RS, previously dried, dissolve in N,N-dimethylfor-mamide to make exactly 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 40 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cisplatin in each solution. drochloric acid TS (9 in 1000) (1 in 2000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare Amount (mg) of cisplatin (Cl2H6N2Pt) ＝ M S × AT/AS ‌JP XVIII Official Monographs / Citicoline 767 MS: Amount (mg) of Cisplatin RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 310 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with aminopropylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of ethyl acetate, methanol, water and N,N-dimethylformamide (25:16:5:5). Flow rate: Adjust so that the retention time of cisplatin is about 4 minutes. System suitability— System performance: When the procedure is run with 40 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cisplatin are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 40 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cisplatin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

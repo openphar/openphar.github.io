@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/scopolia-extract-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Scopolia Extract Powder",
+    "ja": "ロートエキス散"
+  },
+  "monographId": "JP18-scopolia-extract-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Scopolia Extract Powder contains not less than 0."
+  },
+  "appearance": {
+    "en": "Scopolia Extract Powder is a brownish yellow to grayish yellow-brown powder. It has a faint, characteristic odor and a slightly bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 20 g of Scopolia Extract Powder add 15 mL of water and 8 mL of ammonia TS, mix homoge-neously, add 100 mL of diethyl ether and 7 g of sodium chlo-ride, stopper tightly, shake for 1 hour, add 5 g of powdered tragacanth, and shake vigorously. Allow to stand for 5 minutes, take the clearly separated diethyl ether layer, and filter. Proceed with the filtrate as directed in the Identifica-tion (1) under Scopolia Extract. (2) Place 5.0 g of Scopolia Extract Powder in a glass-stoppered centrifuge tube, add 30 mL of ammonia TS, soni-cate for 5 minutes, and centrifuge. Transfer the supernatant liquid to a separator, add 40 mL of ethyl acetate, and shake. Drain off the ethyl acetate layer, add 3 g of anhydrous so-dium sulfate to the ethyl acetate, shake, and filter after the ethyl acetate becomes clear. Evaporate the solvent of the fil-trate under low pressure (in vacuo), dissolve the residue in 1 mL of ethanol (95), and use this solution as the sample solu-tion. Proceed as directed in the Identification (2) under Scopolia Rhizome."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 4 g of Scopolia Extract Powder, place in a glass-stoppered centrifuge tube, add 15 mL of ammonia TS, and shake. Add 25 mL of diethyl ether, stopper tightly, shake for 15 minutes, centrifuge to take the diethyl ether layer. To the aqueous layer add 25 mL of diethyl ether, proceed in the same manner, and repeat this procedure three times. Combine all the extracts, and evapo-rate the solvent on a water bath. Dissolve the residue in 5 mL of the mobile phase, add exactly 3 mL of the internal stand- ‌2136‌ Scopolia Extract and Carbon Powder / Crude Drugs and Related Drugs ard solution, and add the mobile phase to make 25 mL. Filter this solution through a membrane filter with a pore size not exceeding 0.8 mm, discard the first 2 mL of the fil-trate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 25 mg of Atropine Sul-fate RS (separately determine the loss on drying <2.41> under the same manner as Atropine Sulfate Hydrate), dissolve in the mobile phase to make exactly 25 mL, and use this solu-tion as standard stock solution A. Weigh accurately about 25 mg of Scopolamine Hydrobromide RS (separately determine the loss on drying <2.41> under the same manner as Scopola-mine Hydrobromide Hydrate), dissolve in the mobile phase to make exactly 25 mL, and use this solution as standard stock solution B. Pipet 5 mL of the standard stock solution A and 1 mL of the standard stock solution B, add exactly 3 mL of the internal standard solution, then add the mobile phase to make 25 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions. Calculate the ratios, QTA and QSA, of the peak area of hyoscyamine (atropine), and ratios, QTS and QSS, of the peak area of scopolamine to that of the internal standard in each solution, calculate the amounts of hyoscyamine and scopola-mine by the following equation, and designate the total as the amount of total alkaloids. Amount (mg) of hyoscyamine (C17H23NO3) ＝ MSA × QTA/QSA × 1/5 × 0.855 Amount (mg) of scopolamine (C17H21NO4) ＝ MSS × QTS/QSS × 1/25 × 0.789 MSA: Amount (mg) of Atropine Sulfate RS taken, calcu-lated on the dried basis MSS: Amount (mg) of Scopolamine Hydrobromide RS taken, calculated on the dried basis Internal standard solution—A solution of brucine dihydrate in the mobile phase (1 in 2500). Operating conditions— Detector: An ultraviolet absorption spectrometer (wave-length: 210 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of a solution obtained by dis-solving 6.8 g of potassium dihydrogenphosphate in 900 mL of water, adding 10 mL of triethylamine, adjusting the pH to 3.5 with phosphoric acid, and adding water to make 1000 mL, and acetonitrile (9:1). Flow rate: Adjust so that the retention time of scopola-mine is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, scopolamine, atropine and the internal standard are eluted in this order with the resolution between the peaks of scopolamine and atropine being not less than 11, and the resolution between the peaks of atropine and the internal standard being not less than 4."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Powder"
+}

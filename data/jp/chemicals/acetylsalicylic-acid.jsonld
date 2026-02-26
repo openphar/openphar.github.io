@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/acetylsalicylic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Acetylsalicylic Acid",
+    "ja": "アスピリン"
+  },
+  "monographId": "JP18-acetylsalicylic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H8O4",
+  "molecularWeight": 180.16,
+  "appearance": {
+    "en": "Aspirin occurs as white, crystals, granules or powder. It is odorless, and has a slight acid taste. It is freely soluble in ethanol (95) and in acetone, soluble in diethyl ether, and slightly soluble in water. It dissolves in sodium hydroxide TS and in sodium car-bonate TS. In moist air, it gradually hydrolyzes to salicylic acid and acetic acid. Melting point: about 1369C (bath fluid is heated at 1309C previously)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Boil 0.1 g of Aspirin in 5 mL of water for 5 to 6 minutes, cool, and add 1 to 2 drops of iron (III) chloride TS: a red-purple color is produced. Boil 0.5 g of Aspirin in 10 mL of sodium carbonate TS for 5 minutes, and add 10 mL of dilute sulfuric acid: the odor of acetic acid is perceptible, and a white precipitate is produced. Filter the precipitate, add 3 mL of ethanol (95) and 3 mL of sulfuric acid to the filtrate, and heat: the odor of ethyl acetate is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 0.5 g of Aspirin in 10 mL of warm sodium carbonate TS: the solution is clear. Salicylic acid—Dissolve 2.5 g of Aspirin in 25 mL of ethanol (95), and add 1.0 mL of this solution to a solution which is prepared by transferring 1 mL of a freshly prepared dilute ammonium iron (III) sulfate TS to a Nessler tube and diluting with water to 50 mL. Allow to stand for 30 seconds: the solution has no more color than the following control so-lution. Control solution: Dissolve 0.100 g of salicylic acid in water, and add 1 mL of acetic acid (100) and water to make 1000 mL. Add 1.0 mL of this solution to a solution which is prepared by transferring 1 mL of freshly prepared dilute am-monium iron (III) sulfate TS and 1 mL of ethanol (95) to a Nessler tube and diluting with water to 50 mL. Allow to stand for 30 seconds. Chloride <1.03>—Boil 1.8 g of Aspirin in 75 mL of water for 5 minutes, cool, add water to make 75 mL, and filter. To 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this so-lution as the test solution. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.015z). Sulfate <1.14>—To 25 mL of the filtrate obtained in add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.040z). Heavy metals <1.07>—Dissolve 2.5 g of Aspirin in 30 mL of acetone, add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 2.5 mL of Standard Lead Solution, 30 mL of acetone, 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Readily carbonizable substances <1.15>—Weigh 0.5 g of Aspirin, and perform the test. The solution has no more color than Matching Fluid Q. Loss on drying <2.41> Not more than 0.5z (3 g, silica gel, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Aspirin, previously dried, add exactly 50 mL of 0.5 mol/L sodium hydroxide VS, and boil gently for 10 minutes under a reflux condenser with a carbon dioxide-absorbing tube (soda lime). Cool, and titrate <2.50> immediately the excess sodium hydroxide with 0.25 mol/L sulfuric acid VS (indicator: 3 drops of phenol-phthalein TS). Perform a blank determination in the same manner. Each mL of 0.5 mol/L sodium hydroxide VS ＝ 45.04 mg of C9H8O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

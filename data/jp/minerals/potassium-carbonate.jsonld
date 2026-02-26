@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-carbonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Carbonate",
+    "ja": "炭酸カリウム"
+  },
+  "monographId": "JP18-potassium-carbonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Carbonate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Potassium Carbonate occurs as white granules or powder. It is odorless. It is very soluble in water, and practically insoluble in ethanol (95). A solution of Potassium Carbonate (1 in 10) is alkaline. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Carbonate (1 in 10) responds to Qualitative Tests <1.09> for potassium salt and for carbonate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Potassium Carbonate in 20 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Dissolve 1.0 g of Potassium ‌Carbonate in 2 mL of water and 6 mL of dilute hydrochloric acid, and evaporate to dryness on a water bath. Dissolve the residue in 35 mL of water and 2 mL of dilute acetic acid, di-lute with water to 50 mL, and perform the test using this so-lution as the test solution. Prepare the control solution as follows: evaporate 6 mL of dilute hydrochloric acid on a water bath to dryness, add 2 mL of dilute acetic acid and 2.0 mL of Standard Lead Solution, and dilute with water to 50 mL (not more than 20 ppm).‌ Sodium—Dissolve 1.0 g of Potassium Carbonate in 20 mL of water, and perform the test as directed under Flame Coloration Test <1.04> (1): no persisting yellow color is produced. Arsenic <1.11>—Prepare the test solution with 0.5 g of Potassium Carbonate, according to Method 1, and per-form the test (not more than 4 ppm). Loss on drying <2.41> Not more than 1.0z (3 g, 1809C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 1.5 g of Potassium Carbonate, previ-ously dried and accurately weighed, in 25 mL of water, titrate with 0.5 mol/L sulfuric acid VS until the blue color of the solution changes to yellow-green, boil cautiously, then cool, and titrate <2.50> until a greenish yellow color develops (indicator: 2 drops of bromocresol green TS). Each mL of 0.5 mol/L sulfuric acid VS ＝ 69.11 mg of K2CO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tranexamic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tranexamic Acid",
+    "ja": "トラネキサム酸"
+  },
+  "monographId": "JP18-tranexamic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H15NO2",
+  "molecularWeight": 157.21,
+  "definition": {
+    "en": "Tranexamic Acid, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tranexamic Acid occurs as white, crystals or crystalline powder. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Tranexamic Acid as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Tranexamic Acid RS: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. pH <2.54> The pH of a solution prepared by dissolving 1.0 g of Tranexamic Acid in 20 mL of water is between 7.0 and 8.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Tranexamic Acid in 10 mL of water: the solution is clear and colorless. Chloride <1.03>—Perform the test with 1.0 g of Tranexamic Acid. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Heavy metals—Dissolve 2.0 g of Tranexamic Acid in water to make 20 mL, and use this solution as the sample stock solution. To 12 mL of the sample stock solution add 2 mL of hydrochloric acid-ammonium acetate buffer solution (pH 3.5), mix, add 1.2 mL of thioacetamide TS, mix imme-diately, and use this solution as the sample solution. Sepa-rately, proceed in the same manner as above with a mixture of 1 mL of Standard Lead Solution, 2 mL of the sample stock solution and 9 mL of water, and use the solution so obtained as the standard solution. Separately, proceed in the same manner with a mixture of 10 mL of water and 2 mL of the sample stock solution, and use the solution so obtained as the control solution. Conform that the color of the stand-ard solution is slightly darker than that of the control solu-tion. Compare the sample solution and the standard solution 2 minutes after they are prepared: the color of the sample so-lution is not more intense than that of the standard solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution by dissolv- ing 1.0 g of Tranexamic Acid in 10 mL of water, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.20 g of Tranexamic Acid in 20 mL of water, and use this solution as the sample solution. Pipet 5 mL of the sample solution, and add water to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area multiplied by correc-tion factor 1.2 of the peak, having the relative retention time of about 1.5 to tranexamic acid obtained from sample solu-tion, is not larger than 2/5 times the peak area of tranexamic acid from the standard solution, and the area of the peak, having the relative retention time of about 2.1, is not larger than 1/5 times the peak area of tranexamic acid from the standard solution. The area of each peak other than tranex-amic acid and the peaks mentioned above is not larger than 1/5 times the peak area of tranexamic acid from the stand-ard solution. For the area of the peaks, having the relative retention time of about 1.1 and about 1.3, multiply their cor-rection factors 0.005 and 0.006, respectively. The total area of the peaks other than tranexamic acid from the sample so-lution is not larger than the peak area of tranexamic acid from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of tranexamic acid, beginning after the sol-vent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 5 mL of the standard solution add water to make exactly 25 mL. Con-firm that the peak area of tranexamic acid obtained with 20 mL of this solution is equivalent to 14 to 26z of that with 20 mL of the standard solution. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tranexamic acid is not more than 7z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Tranexamic Acid and Tranexamic Acid RS, previously dried, dissolve in water to make exactly 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of tranexamic acid in each solution. Amount (mg) of tranexamic acid (C8H15NO2) ＝ MS × AT/AS MS: Amount (mg) of Tranexamic Acid RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 6.0 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 11.0 g of anhydrous sodium dihy- ‌drogen phosphate in 500 mL of water, and add 5 mL of triethylamine and 1.4 g of sodium lauryl sulfate. Adjust the pH to 2.5 with phosphoric acid or diluted phosphoric acid (1 in 10), add water to make 600 mL, and add 400 mL of methanol. Flow rate: Adjust so that the retention time of tranexamic acid is about 20 minutes. System suitability— System performance: To 5 mL of the standard solution add 1 mL of a solution of 4-(aminomethyl)benzoic acid (1 in 10,000) and water to make 50 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, tranexamic acid and 4-(aminomethyl)benzoic acid are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tranexamic acid is not more than 0.6z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

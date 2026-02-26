@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/asparagi-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Asparagi Radix",
+    "ja": "テンモンドウ"
+  },
+  "monographId": "JP18-asparagi-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fusiform to cylindrical tubers, 5 – 15 cm in length, 5 – 20 mm in diameter; externally light yellow-brown to light brown, translucent and often with longitudinal wrin-kles; flexible, or hard and easily broken in texture; fractured surface, grayish yellow, glossy and horny. Odor, characteristic; taste, sweet at first, followed by a slightly bitter aftertaste. Under a microscope <5.01>, a transverse section reveals stone cells and their groups scattered on outer layer of cor-tex; mucilaginous cells containing raphides of calcium oxa-late in the parenchyma cells of cortex and stele; no starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of the coarse cutting of Asparagus Root add 5 mL of a mixture of 1-butanol and water (40:7), shake for 30 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as di-rected under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of 1-butanol, water and acetic acid (100) (10:6:3) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfu-ric acid on the plate, and heat the plate at 1059C for 2 minutes: the spot of a red-brown at first then changes to brown color appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Asparagus Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Asparagus Root according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 18.0z (6 hours). Total ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/containers-and-storage-containershermetic-containers-storagelight-resistant",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Containers and storage  Containers—Hermetic containers. Storage—Light-resistant.",
+    "ja": "エフェドリン塩酸塩散 10"
+  },
+  "monographId": "JP18-containers-and-storage-containershermetic-containers-storagelight-resistant",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of 10z Ephedrine Hydrochloride Powder add 100 mL of water, shake for 20 minutes, and filter. Determine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 249 nm and 253 nm, between 255 nm and 259 nm, and between 261 nm and 265 nm. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of 10z Ephedrine Hydrochloride Powder is not less than 85z. Start the test with about 0.25 g of 10z Ephedrine Hydro-chloride Powder, accurately weighed, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, and use the subsequent filtrate as the sample so-lution. Separately, weigh accurately about 28 mg of ephe-drine hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ephedrine in each solution. Dissolution rate (z) with respect to the labeled amount of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS/MT × AT/AS × 9/10 MS: Amount (mg) of ephedrine hydrochloride for assay taken MT: Amount (g) of 10z Ephedrine Hydrochloride Pow-der taken Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (4) under Ephedrin Hydrochloride. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ephedrine are not less than 10,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat- ‌JP XVIII Official Monographs / Ephedrine Hydrochloride Tablets 937 ing conditions, the relative standard deviation of the peak area of ephedrine is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of 10z Ephedrine Hy-drochloride Powder, add 150 mL of water, and extract by sonicating for 10 minutes with occasional shaking. Shake more for 10 minutes, then add exactly 10 mL of the internal standard solution and water to make 200 mL, centrifuge, and use the supernatant liquid as the sample solution. Sepa-rately, weigh accurately about 40 mg of ephedrine hydro-chloride for assay, previously dried at 1059C for 3 hours, add exactly 10 mL of the internal standard solution to dis-solve, add water to make 200 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ephedrine to that of the internal standard. Amount (mg) of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS × QT/QS MS: Amount (mg) of ephedrine hydrochloride for assay taken Internal standard solution—A solution of etilefrine hydro-chloride (1 in 500). Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Perform as directed in the operating conditions in the Purity (4) under Ephedrine Hydrochloride. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and ephedrine are eluted in this order with the resolution between these peaks being not less than 15. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ephedrine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenolsulfonphthalein",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenolsulfonphthalein",
+    "ja": "フェノールスルホンフタレイン"
+  },
+  "monographId": "JP18-phenolsulfonphthalein",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H14O5S",
+  "molecularWeight": 354.38,
+  "definition": {
+    "en": "Phenolsulfonphthalein, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Phenolsulfonphthalein occurs as a vivid red to dark red crystalline powder. It is very slightly soluble in water and in ethanol (95). It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Phenolsulfonphtha-lein in 2 to 3 drops of sodium hydroxide TS, add 2 mL of 0.05 mol/L bromine VS and 1 mL of dilute sulfuric acid, shake well, and allow to stand for 5 minutes. Render the so-lution alkaline with sodium hydroxide TS: a deep blue-pur-ple color develops. (2) Dissolve 0.01 g of Phenolsulfonphthalein in diluted sodium carbonate TS (1 in 10) to make 200 mL. To 5 mL of this solution add diluted sodium carbonate TS (1 in 10) to make 100 mL. Perform the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Insoluble substances—To about 1 g of Phenol-sulfonphthalein, accurately weighed, add 20 mL of a solu-tion of sodium hydrogen carbonate (1 in 40). Allow the mix-ture to stand for 1 hour with frequent shaking, dilute with water to 100 mL, and allow to stand for 24 hours. Collect the insoluble substances using a tared glass filter (G4), wash with 25 mL of a solution of sodium hydrogen carbonate (1 in 100) and with five 5-mL portions of water, and dry at 1059C for 1 hour: the mass of the residue is not more than 0.2z. (2) Related substances—Dissolve 0.10 g of Phenolsul-fonphthalein in 5 mL of dilute sodium hydroxide TS, and use this solution as the sample solution. Pipet 0.5 mL of the sample solution, add dilute sodium hydroxide TS to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of t-amyl alcohol, acetic acid (100) and water (4:1:1) to a distance of about 15 cm, and air-dry the plate. After allowing the plate to stand in an ammonia vapor, examine under ultraviolet light (main wave-length: 254 nm): the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.2z (1 g). ‌Assay Weigh accurately about 0.15 g of Phenolsul-fonphthalein, previously dried, transfer to an iodine flask, dissolve in 30 mL of a solution of sodium hydroxide (1 in 250), and add water to make 200 mL. Add exactly measured 50 mL of 0.05 mol/L bromine VS, add 10 mL of hydrochlo-ric acid to the solution quickly, and stopper immediately. Allow the mixture to stand for 5 minutes with occasional shaking, add 7 mL of potassium iodide TS, stopper again immediately, and shake gently for 1 minute. Titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Perform a blank determina-tion in the same manner.‌ Each mL of 0.05 mol/L bromine VS ＝ 4.430 mg of C H O S add a solution of anhydrous sodium carbonate (1 in 100) to make exactly 250 mL. Pipet 5 mL of this solution, add a so-lution of anhydrous sodium carbonate (1 in 100) to make ex-actly 200 mL, and use this solution as the sample solution. Separately, weigh accurately about 30 mg of phenolsul-fonphthalein for assay, previously dried in a desiccator (sili-ca gel) for 4 hours, and dissolve in a solution of anhydrous sodium carbonate (1 in 100) to make exactly 250 mL. Pipet 5 mL of this solution, add a solution of anhydrous sodium carbonate (1 in 100) to make exactly 200 mL, and use this so-lution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 559 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>. 19 14 5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

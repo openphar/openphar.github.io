@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfafurazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfafurazole",
+    "ja": "スルフイソキサゾール"
+  },
+  "monographId": "JP18-sulfafurazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H13N3O3S",
+  "molecularWeight": 267.3,
+  "casNumber": "127-69-5",
+  "appearance": {
+    "en": "Sulfisoxazole occurs as white, crystals or crys-talline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in pyridine and in n-butylamine, soluble in methanol, sparingly soluble in ethanol (95), slightly solu-ble in acetic acid (100), and very slightly soluble in water and in diethyl ether. It dissolves in dilute hydrochloric acid, in sodium hydrox-ide TS and in ammonia TS. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Sulfisoxazole in 1 mL of dilute hydrochloric acid and 4 mL of water: the solu-tion responds to Qualitative Tests <1.09> for primary aro-matic amines. Dissolve 0.02 g of Sulfisoxazole in 5 mL of water and 1 mL of n-butylamine, add 2 to 3 drops of copper (II) sulfate TS, and shake well. Add 5 mL of chloroform, shake, and al-low to stand: a blue-green color develops in the chloroform layer. Dissolve 0.01 g of Sulfisoxazole in 1 mL of pyridine, add 2 drops of copper (II) sulfate TS, and shake. Add 3 mL of water and 5 mL of chloroform, shake, and allow to stand: a light yellow-brown color develops in the chloroform layer. To 0.5 g of Sulfisoxazole add 2 mL of acetic acid (100), dissolve by heating under a reflux condenser, add 1 mL of acetic anhydride, and boil for 10 minutes. Add 10 mL of water, cool, and alkalize with about 7 mL of a solution of sodium hydroxide (3 in 10). Filter, if necessary, immediately acidify by adding acetic acid (100) dropwise, collect the pro-duced precipitate, recrystallize from methanol, and dry at 1059C for 1 hour: the crystals melt <2.60> between 2089C and 2109C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sulfisoxazole in 5 mL of sodium hydroxide TS and 20 mL of water: the solution is clear and colorless to pale yellow. Acidity—To 1.0 g of Sulfisoxazole add 50 mL of water, warm at 709C for 5 minutes, allow to stand in an ice bath for 1 hour, and filter. To 25 mL of the filtrate add 2 drops of methyl red TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS: a yellow color develops. Heavy metals <1.07>—Proceed with 1.0 g of Sulfisox- azole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (2 g, 1059C, ‌hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Sulfisoxazole, previ-ously dried, dissolve in 50 mL of methanol by warming, cool and titrate <2.50> with 0.2 mol/L sodium hydroxide VS (in-dicator: 3 drops of phenolphthalein TS). Perform a blank determination in the same manner using a mixture of 50 mL of methanol and 18 mL of water, and make any necessary correction. Each mL of 0.2 mol/L sodium hydroxide VS ＝ 53.46 mg of C11H13N3O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

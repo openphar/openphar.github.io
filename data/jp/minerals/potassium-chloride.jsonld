@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-chloride",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Chloride",
+    "ja": "塩化カリウム"
+  },
+  "monographId": "JP18-potassium-chloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Chloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Potassium Chloride occurs as colorless or white crystals or crystalline powder. It is odorless, and has a saline taste. It is freely soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. A solution of Potassium Chloride (1 in 10) is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Chloride (1 in 50) responds to Qualitative Tests <1.09> for potassium salt and for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Potassium Chloride in 5 mL of water: the solution is clear and colorless. Acidity and alkalinity—Dissolve 5.0 g of Potassium Chloride in 50 mL of freshly boiled and cooled water, and add 3 drops of phenolphthalein TS: no red color develops. Then add 0.50 mL of 0.01 mol/L sodium hydroxide VS: a red color develops. Bromide—Dissolve 1.0 g of Potassium Chloride in water to make 100 mL. To 5 mL of the solution add 3 drops of dilute hydrochloric acid and 1 mL of chloroform, and add 3 drops of sodium toluensulfonchloramide TS dropwise while shaking: no yellow to yellow-red color develops in the chloroform layer. Iodide—Dissolve 0.5 g of Potassium Chloride in 10 mL of water, add 3 drops of iron (III) chloride TS and 1 mL of chloroform, shake, allow to stand for 30 minutes, and shake again: no red-purple to purple color develops in the chloroform layer. Heavy metals <1.07>—Proceed with 4.0 g of Potas- sium Chloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 5 ppm). Calcium and magnesium—Dissolve 0.20 g of Potas-sium Chloride in 20 mL of water, add 2 mL of ammonia TS, 2 mL of ammonium oxalate TS and 2 mL of disodium hydrogenphosphate TS, and then allow to stand for 5 minutes: no turbidity is produced. Sodium—Dissolve 1.0 g of Potassium Chloride in 20 mL of water, and perform Flame Coloration Test <1.04> (1): no persistent, yellow color develops. Arsenic <1.11>—Prepare the test solution with 1.0 g of Potassium Chloride according to Method 1, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1309C, 2 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Potassium Chlo-ride, previously dried, dissolve in 50 mL of water, and titrate <2.50> with 0.1 mol/L silver nitrate VS while shaking vigor- ously (indicator: 3 drops of fluorescein sodium TS). Each mL of 0.1 mol/L silver nitrate VS ＝ 7.455 mg of KCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

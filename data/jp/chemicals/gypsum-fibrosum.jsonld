@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gypsum-fibrosum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gypsum Fibrosum",
+    "ja": "セッコウ"
+  },
+  "monographId": "JP18-gypsum-fibrosum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Gypsum occurs as lustrous, white, heavy, fibrous, crystalline masses, which easily split into needles or very fine crystalline powder. It is odorless and tasteless. It is slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Gypsum add 20 mL of water, allow to stand with occasional shaking for 30 minutes, and filter: the filtrate responds to the Qualitative Tests <1.09> (2) and (3) for calcium salt and to the Qualita-tive Tests <1.09> for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Boil 4.0 g of pulverized Gypsum with 4 mL of acetic acid (100) and 96 mL of water for 10 minutes, cool, add water to make exactly 100 mL, and filter. Perform the test using 50 mL of the filtrate as the test solution. Prepare the control solution as follows: to 4.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Gypsum according to Method 2, and perform the test (not more than 5 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

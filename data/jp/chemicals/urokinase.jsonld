@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/urokinase",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Urokinase",
+    "ja": "ウロキナーゼ"
+  },
+  "monographId": "JP18-urokinase",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "9010-53-1",
+  "definition": {
+    "en": "Urokinase is an enzyme, obtained from human urine, that activates plasminogen, and has the molecu-lar mass of about 54,000. It is a solution using a suitable buffer solution as the solvent. It contains not less than 60,000 Units per mL, and not less than 120,000 Units per mg of protein."
+  },
+  "appearance": {
+    "en": "Urokinase is a clear and colorless liquid. The pH is between 5.5 and 7.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.07 g of fibrinogen in 10 mL of phosphate buffer solution (pH 7.4). To this solution add 1 mL of a solution of thrombin containing 10 Units per mL in isotonic sodium chloride solution, mix, place in a Petri dish about 90 mm in inside diameter, and keep horizontally until the solution is coagulated. On the surface drop 10 mL of a solution of Urokinase containing 100 Units per mL in gelatin-tris buffer solution, and stand for overnight: lysis circle appears. (2) Dissolve 1.0 g of Powdered Agar in 100 mL of boric acid-sodium hydroxide buffer solution (pH 8.4) by warming, and pour the solution into a Petri dish until the height come to about 2 mm. After cooling, make two wells of 2.5 mm in diameter with the space of 6 mm. To each well place sepa-rately 10 mL of a solution of Urokinase containing 30,000 Units per mL in isotonic sodium chloride solution and 10 mL of anti-urokinase serum, and stand for overnight: a clear precipitin line appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 mL of Urokinase according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Blood group substances—Dilute Urokinase with iso-tonic sodium chloride solution so that each mL of the solu-tion contains 12,000 Units, and use this solution as the sam- ‌ple solution. To anti-A type antibody for blood typing add isotonic sodium chloride solution to dilute each 32, 64, 128, 256, 512 and 1024 times, place separately 25 mL each of these solutions in six wells on the first and second lane of a V-shaped 96-wells microplate. Next, add 25 mL of the sample solution into the six wells on the first lane and 25 mL of iso-tonic sodium chloride solution into the six wells of the second lane, mix, and allow to stand for 30 minutes. To each well add 50 mL of A-type erythrocyte suspension, mix, allow to stand for 2 hours, and compare the agglutination of erythrocyte in both lanes: dilution factor of anti-A type antibody of the wells which show the agglutination is equal in both lanes. Perform the same test by using anti-B type antibody for blood typing and B-type erythrocyte suspension. Abnormal toxicity Dilute Urokinase with isotonic sodium chloride solution so that each mL of the solution contains 12,000 Units, and use this solution as the sample solution. Inject 5.0 mL of the sample solution into the peritoneal cavity of each of 2 or more of well-nourished, healthy guinea pigs weighing about 350 g. Observe the conditions of the animals for more than 7 days: all the animals exhibit no abnormalities. High-molecular mass urokinase Dilute Urokinase with gelatin-phosphate buffer solution so that each mL of the solution contains 10,000 Units, and use this solution as the sample solution. Perform the test with 100 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas of two peaks eluted closely at about 35 minutes having smaller retention time, Aa, and larger retention time, Ab, by the automatic integration method: the value, Aa/(Aa ＋ Ab), is not less than 0.85. Operating conditions— Apparatus: Use a pumping system for the mobile phase, a sample injection port, a column, a pumping system for the reaction reagent, a reaction coil, a reaction chamber, a spec-trofluorometer and a recorder. Attach a 3-way tube to the outlet for the mobile phase of the column, connect the pumping system for the reaction reagent and the reaction coil, and join outlet of the reaction coil to the spec-trofluorometer. Detector: Spectrofluorometer (excitation wavelength: 365 nm, fluorescence wavelength: 460 nm). Column: A stainless steel column 7.5 mm in inside diame-ter and 60 cm in length, packed with porous silica gel for liq-uid chromatography (10 to 12 mm in particle diameter). Column temperature: A constant temperature of about 209C. Reaction coil: A stainless steel column 0.25 mm in inside diameter and 150 cm in length. Reaction coil temperature: 379C. Mobile phase: Gelatin-phosphate buffer solution. Flow rate of mobile phase: 0.5 mL per minute. Reaction reagent: 7-(Glutarylglycyl-L-arginylamino)-4-methylcoumarin TS. Flow rate of reaction reagent: 0.75 mL per minute. Selection of column: Adjust the pH of Urokinase to 7.5 with sodium hydroxide TS, allow to stand at 379C for over 24 hours, and add gelatin-phosphate buffer solution to make the solution containing 20,000 Units per mL. Proceed with 100 mL of this solution under the above operating condi-tions, and calculate the resolution. Use a column giving elu-tion of high molecular mass urokinase (molecular mass: 54,000) and low molecular mass urokinase (molecular mass: 33,000) in this order with the resolution between these peaks being not less than 1.0."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Urokinase—Pipet 1 mL of Urokinase, dilute exactly with gelatin-tris buffer solution so that each mL of the solution contains about 30 Units, and use this solution as the sample solution. Add exactly 2 mL of gelatin-tris buffer solution to contents of one ampoule of High-Molecular Mass Urokinase RS to dissolve, pipet 1 mL of this solution, dilute exactly with gelatin-tris buffer solution so that each mL of the solution contains about 30 Units, and use this solution as the standard solution. Place 1.0 mL of L-pyro-glutamylglycyl-L-arginine-p-nitroaniline hydrochloride TS in two silicon-coated test tubes about 10 mm in inside diameter, warm them in a water bath at 35 ± 0.29C for 5 minutes, add separately 0.50 mL each of the sample solution and standard solution, warm in a water bath at 35 ± 0.29C for exactly 30 minutes, then add 0.50 mL of diluted acetic acid (100) (2 in 5). Determine the absorbances, AT and AS, of these solutions at 405 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using water as the blank. Separately place 1.0 mL of L-pyroglutamylglycyl-L-arginine-p-nitroaniline hydrochloride TS in two test tubes, add 0.50 mL of diluted acetic acid (100) (2 in 5), and 0.50 mL each of the sample solution and standard solution. Determine the absorbances, AT0 and AS0, of these solutions at 405 nm as the same man-ner, using water as the blank. Amount (Units) of Urokinase ＝ (AT － AT0)/(AS － AS0) × a × b a: Amount (Units) of urokinase in 1 mL of the standard solution b: Total volume (mL) of the sample solution (2) Protein—Measure exactly a volume of Urokinase, equivalent to about 15 mg of protein, and perform the test as directed under Nitrogen Determination <1.08>. Each mL of 0.005 mol/L sulfuric acid VS ＝ 0.8754 mg of protein"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding －209C."
+  }
+}

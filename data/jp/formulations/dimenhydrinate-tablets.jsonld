@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dimenhydrinate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dimenhydrinate Tablets",
+    "ja": "ジメンヒドリナート錠"
+  },
+  "monographId": "JP18-dimenhydrinate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dimenhydrinate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of dimenhydrinate (C17H21NO.C7H7ClN4O2: 469.96). Method of preparation Prepare as directed under Tablets, with Dimenhydrinate. Identification (1) Triturate a quantity of powdered Dimenhydrinate Tablets, equivalent to 0.5 g of Dimen-hydrinate, with 25 mL of warm ethanol (95), and filter. ‌JP XVIII Official Monographs / Dimercaprol 867 Dilute the filtrate with 40 mL of water, and filter again. Use the filtrate as the sample solution. Transfer 30 mL of the sample solution to a separator, and proceed as directed in the Identification (1) under Dimenhydrinate. (2) With 30 mL of the sample solution obtained in (1), proceed as directed in the Identification (2), (3) and (4) under Dimenhydrinate. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Dimenhydrinate Tablets is not less than 85z. Start the test with 1 tablet of Dimenhydrinate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 28 mg of dimenhydrinate (C17H21NO."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Triturate a quantity of powdered Dimenhydrinate Tablets, equivalent to 0.5 g of Dimen-hydrinate, with 25 mL of warm ethanol (95), and filter. ‌JP XVIII Official Monographs / Dimercaprol 867 Dilute the filtrate with 40 mL of water, and filter again. Use the filtrate as the sample solution. Transfer 30 mL of the sample solution to a separator, and proceed as directed in the Identification (1) under Dimenhydrinate. (2) With 30 mL of the sample solution obtained in (1), proceed as directed in the Identification (2), (3) and (4) under Dimenhydrinate. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Dimenhydrinate Tablets is not less than 85z. Start the test with 1 tablet of Dimenhydrinate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 28 mg of dimenhydrinate (C17H21NO.C7H7ClN4O2), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of dimenhydrinate for assay, previously dried in vacuum using phosphorous (V) oxide as the desiccant for 24 hours, and dissolve in water to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this so-lution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 276 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>. Dissolution rate (z) with respect to the labeled amount of dimenhydrinate (C17H21NO.C7H7ClN4O2) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of dimenhydrinate for assay taken C: Labeled amount (mg) of dimenhydrinate (C17H21NO.C7H7ClN4O2) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately, and powder not less than 20 Dimenhydrinate Tablets. Weigh accurately a portion of the powder, equivalent to about 0.5 g of dimenhydrinate (C H NO.C H ClN O ), transfer to a flask, add 40 mL of Dimercaprol"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

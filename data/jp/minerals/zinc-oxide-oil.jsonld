@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/zinc-oxide-oil",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Zinc Oxide Oil",
+    "ja": "チンク油"
+  },
+  "monographId": "JP18-zinc-oxide-oil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Oxide Oil contains not less than 45."
+  },
+  "appearance": {
+    "en": "Zinc Oxide Oil is a white to whitish, slimy sub-stance, separating a part of its ingredients when stored for a prolonged period."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Mix thoroughly, and place 0.5 g of Zinc Oxide Oil in a crucible, heat gradually raising the tempera-ture until the mass is thoroughly charred, and then ignite it strongly: a yellow color is produced, and disappears on cool-ing. To the residue add 10 mL of water and 5 mL of dilute hydrochloric acid, shake well, and filter. To the filtrate add 2 to 3 drops of potassium hexacyanoferrate (II) TS: a white precipitate is formed (zinc oxide)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Zinc Oxide Oil, mixed well, place in a crucible, heat gradually raising the temperature until the mass is thoroughly charred, and then ignite until the residue becomes yellow, and cool. Dissolve the residue in 1 mL of water and 1.5 mL of hydrochloric acid, and add water to make exactly 100 mL. Pipet 20 mL of this solution, add 80 mL of water, and add a solution of so-dium hydroxide (1 in 50) until a small amount of precipitates begins to form in the solution. Add 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylene- diamine tetraacetate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 4.069 mg of ZnO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

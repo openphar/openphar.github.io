@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-cystine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "L-Cystine",
+    "ja": "L-シスチン"
+  },
+  "monographId": "JP18-l-cystine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12N2O4S2",
+  "molecularWeight": 240.3,
+  "definition": {
+    "en": "L-Cystine, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "L-Cystine occurs as white, crystals or crystal-line powder. It is practically insoluble in water and in ethanol (99.5). It dissolves in 1 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Cystine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －215 – －2259(after drying, 1 g, 1 mol/L hydrochloric acid TS, 50 mL, 100 mm). ‌JP XVIII Official Monographs / Cytarabine 827"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 1.0 g of L-Cystine in 10 mL of 2 mol/L hydrochloric acid TS is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of L-Cystine in 10 mL of dilute nitric acid, add 10 mL of hydrogen peroxide (30), and heat in a water bath for 10 minutes. After cooling, add water to make 50 mL, and perform the test using this so-lution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Dissolve 0.6 g of L-Cystine in 5 mL of dilute hydrochloric acid, add water to make 45 mL, and perform the test using this solution as the test solution. Pre-pare the control solution as follows: To 0.35 mL of 0.005 mol/L sulfuric acid VS add 5 mL of dilute hydrochloric acid and water to make 45 mL. To both the test and control solu-tions add 5 mL of barium chloride TS (not more than 0.028z). Ammonium <1.02>—Perform the test with 0.25 g of L-Cystine, using the distillation under reduced pressure. Pre-pare the control solution with 5.0 mL of Standard Ammoni-um Solution (not more than 0.02z). Heavy metals <1.07>—Proceed with 1.0 g of L-Cystine according to Method 4, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of L-Cystine according to Method 3, and perform the test accord- ing to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Dissolve 0.20 g of L-Cystine in 20 mL of 1 mol/L hydrochloric acid TS, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add water to make exactly 10 mL. Pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of 1-propanol and am-monia solution (28) (67:33) to a distance of about 10 cm, and dry the plate at 809C for 30 minutes. Spray evenly a solution of ninhydrin in a mixture of methanol and acetic acid (100) (97:3) (1 in 100) on the plate, and heat the plate at 809C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg of L-Cystine, previ-ously dried, and perform the test as directed under Nitrogen Determination <1.08>. Each mL of 0.005 mol/L sulfuric acid VS ＝ 1.202 mg of C6H12N2O4S2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

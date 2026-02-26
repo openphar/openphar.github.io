@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fel-ursi",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fel Ursi",
+    "ja": "ユウタン"
+  },
+  "monographId": "JP18-fel-ursi",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Indefinite small masses; externally yellow-brown to dark yellow-brown; easily broken; fractured sur-face has a glassy luster, and is not wet. Usually in a gall sac, occasionally taken out, the gall sac consists of a fibrous and strong membrane, 9 – 15 cm in length and 7 – 9 cm in width; externally dark brown and translucent. Odor, slight and characteristic; taste, extremely bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.1 g of pulverized Bear Bile, add 5 mL of methanol, warm in a water bath for 10 minutes. After cooling, filter, and use the filtrate as the sample solution. Separately, dissolve 10 mg of sodium tauroursodeoxycholate for thin-layer chromatography in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chromatog-raphy. Develop the plate with a mixture of acetic acid (100), toluene and water (10:10:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the stand-ard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Other animal biles—Use the sample solution ob-tained in the Identification as the sample solution. Sepa-rately, dissolve 10 mg of sodium glycocholate for thin-layer chromatography and 20 mg of powdered porcine bile for thin-layer chromatography in 5 mL each of methanol, and use these solutions as the standard solution (1) and (2), re-spectively. Perform the test with these solutions as directed in the Identification: no spot obtained from the sample solu-tion appears at the position of the spot from the standard so-lution (1) and no grayish brown to black spot appears at the position of the spot at an Rf value of about 0.3 from the standard solution (2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

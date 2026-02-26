@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/eleutherococci-senticosi-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Eleutherococci senticosi Rhizoma",
+    "ja": "シゴカ"
+  },
+  "monographId": "JP18-eleutherococci-senticosi-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Slightly curved subcolumnar rhizome, 15 – 30 cm in length, 1 – 2.5 cm in diameter; externally grayish brown and slightly rough; transversely cut surface light brown, cortex thin, xylem thick with a pith in center; ex-tremely hard in texture. Odor, slightly characteristics; tasteless or slightly sweet, astringency. Under a microscope <5.01>, a transverse section reveals the outermost layer consisting of a cork layer 3 – 7 cells thick; oil canals scattered in parenchyma; fiber bundles lined stepwise in phloem; phloem and xylem separated clearly by cambium; xylem composed of vessels, xylem fibers and xylem paren-chyma; ray composed of 2 – 6 rows of cells; pith composed of parenchyma; parenchyma of cortex and ray contain ag-gregate crystals of calcium oxalate; occasionally starch grains in ray, parenchyma of cortex and xylem."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Eleutherococcus Senticosus Rhizome add 20 mL of diluted methanol (1 in 2), shake for 15 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of eleutheroside B for liquid chromatography in diluted metha-nol (1 in 2) to make 20 mL. To 2 mL of this solution add diluted methanol (1 in 2) to make 20 mL, and use this solu-tion as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions: the peak corresponding to eleutheroside B in the chromatogram obtained from the sample solution shows the same retention time with the peak of eleutheroside B in the chromatogram from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water and acetonitrile (9:1). Flow rate: Adjust so that the retention time of eleuthero- side B is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of eleutheroside B are not less than 5000 and not more than 1.5, respectively."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Eleutherococcus Senticosus Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Eleutherococcus Senticosus Rhizome accord-ing to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 2.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

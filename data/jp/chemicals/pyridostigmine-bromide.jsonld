@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pyridostigmine-bromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pyridostigmine Bromide",
+    "ja": "ピリドスチグミン臭化物"
+  },
+  "monographId": "JP18-pyridostigmine-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H13BrN2O2",
+  "molecularWeight": 261.12,
+  "appearance": {
+    "en": "Pyridostigmine Bromide occurs as a white crystalline powder. It is odorless or has a slightly characteris-tic odor. It is very soluble in water, freely soluble in ethanol (95) and in acetic acid (100), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Pyridostigmine Bromide in 10 mL of water is between 4.0 and 6.0. It is deliquescent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Pyridostigmine Bromide in 10 mL of water, add 5 mL of Reinecke salt TS: a light red precipitate is produced. To 0.1 g of Pyridostigmine Bromide add 0.6 mL of sodium hydroxide TS: the unpleasant odor of dimethylamine is perceptible. Determine the absorption spectrum of a solution of Pyridostigmine Bromide in 0.1 mol/L hydrochloric acid TS (1 in 30,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of Pyridostigmine Bromide (1 in 50) re-sponds to Qualitative Tests <1.09> for Bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Pyridostigmine Bromide in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Pyridostigmine Bromide according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Pyridostigmine Bromide according to Method 1, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Pyridostig-mine Bromide in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add ethanol (95) to make exactly 10 mL. Pipet 1 mL of this solution, add ethanol (95) to make exactly 25 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of methanol, chloroform and ammonium chloride TS (5:4:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution in color. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, phosphorus (V) oxide, 1009C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Pyridostigmine Bromide, previously dried, dissolve in 10 mL of acetic acid (100), add 40 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 26.11 mg of C9H13BrN2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlordiazepoxide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlordiazepoxide",
+    "ja": "クロルジアゼポキシド"
+  },
+  "monographId": "JP18-chlordiazepoxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H14ClN3O",
+  "molecularWeight": 299.75,
+  "casNumber": "58-25-3",
+  "definition": {
+    "en": "Chlordiazepoxide, when dried, contains not less diazepoxide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorp-tion at the same wavelengths."
+  },
+  "appearance": {
+    "en": "Chlordiazepoxide occurs as white to light yel- low, crystals or crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in ethanol (95), very slightly soluble in diethyl ether, and practi-cally insoluble in water. It dissolves in dilute hydrochloric acid. It is gradually affected by light. Melting point: about 2409C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Chlordiazepoxide in 0.1 mol/L hydrochloric acid TS (1 in 200,000) as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Chlor- Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.98 mg of C16H14ClN3O"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Chlordiazepoxide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.20 g of Chlordiazepoxide in exactly 10 mL of a mixture of methanol and ammonia TS (97:3), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of methanol and ammonia TS (97:3) to make ex-actly 200 mL, and use this solution as the standard solution (1). Separately, dissolve 10 mg of 2-amino-5-chloroben-zophenone for thin-layer chromatography in methanol to make exactly 200 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 25 mL of the sample solution and 5 mL each of the standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate and ethanol (99.5) (19:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution (1). Spray evenly a solution of sodium nitrite in 1 mol/L hydrochloric acid TS (1 in 100) on the plate, allow to stand for 1 minute, and spray evenly N-(1-naphthyl)-N?-diethylethylenediamine oxalate-acetone TS on the plate: the spots from the sample solution are not more intense than the spots from the standard solution (2). Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Chlordiazepoxide, previously dried, and dissolve in 50 mL of acetic acid (100). Titrate <2.50> with 0.1 mol/L perchloric acid VS until the than 98.5z of chlordiazepoxide (C 16H14 ClN3O). color of the supernatant liquid changes from purple through blue-purple to blue (indicator: 3 drops of crystal violet TS). Description Chlordiazepoxide occurs as white to light yel- low, crystals or crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in ethanol (95), very slightly soluble in diethyl ether, and practi-cally insoluble in water. It dissolves in dilute hydrochloric acid. It is gradually affected by light. Melting point: about 2409C (with decomposition). Identification (1) Determine the absorption spectrum of a solution of Chlordiazepoxide in 0.1 mol/L hydrochloric acid TS (1 in 200,000) as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Chlor- Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.98 mg of C16H14ClN3O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

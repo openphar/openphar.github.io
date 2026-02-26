@@ -1,0 +1,2824 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/preparations/jp-preparation-methods",
+  "@type": "Collection",
+  "prefLabel": {
+    "en": "Japanese Pharmacopoeia Preparation Methods"
+  },
+  "description": {
+    "en": "Kampo formula recipes and preparation methods from JP-XVIII"
+  },
+  "hasMember": [
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/bakumondoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Bakumondoto"
+      },
+      "prescriptionNumber": 1,
+      "extractionType": "dry or viscous",
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ophiopogon Root"
+          },
+          "ingredientAmount": 10.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Brown Rice"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/bofutsushosan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Bofutsushosan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Root"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gardenia Fruit"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Forsythia Fruit"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Mentha Herb"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 0.3,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Schizonepeta Spike"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome  -  -  -  -  -"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ephedra Herb"
+          },
+          "ingredientAmount": 1.2,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhubarb"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Sufate  -  -"
+          },
+          "ingredientAmount": 0.75,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Platycodon Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gypsum"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Silicon Dioxide"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/boiogito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Boiogito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Sinomenium Stem and Rhizome"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Astragalus Root"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome Atractylodes Lancea Rhizome - -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/byakkokaninjinto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Byakkokaninjinto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Anemarrhena Rhizome"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gypsum"
+          },
+          "ingredientAmount": 15.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Brown Rice"
+          },
+          "ingredientAmount": 8.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/chotosan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Chotosan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Uncaria Hook"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Citrus Unshiu Peel"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ophiopogon Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Saposhnikovia Root and Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Chrysanthemum Flower"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gypsum"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/daiokanzoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Daiokanzoto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhubarb"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/daisaikoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Daisaikoto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Immature Orange"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhubarb"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/goreisan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Goreisan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Alisma Tuber"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Polyporus Sclerotium"
+          },
+          "ingredientAmount": 4.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 4.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome  -  -  -"
+          },
+          "ingredientAmount": 4.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/goshajinkigan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Goshajinkigan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rehmannia Root"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cornus Fruit"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Dioscorea Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Alisma Tuber"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Moutan Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "(Powdered Processed Aconite Root 2)   -"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Achyranthes Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Plantago Seed"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/goshuyuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Goshuyuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Euodia Fruit"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/hachimijiogan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Hachimijiogan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rehmannia Root"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cornus Fruit"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Dioscorea Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Alisma Tuber"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Moutan Bark"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Aconite Root 1)  -  -"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Aconite Root 2)  -  -"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/hangekobokuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Hangekobokuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Magnolia bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Perilla Herb"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/hangeshashinto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Hangeshashinto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Processed Ginger  Ginger  -  -"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 2.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Coptis Rhizome"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/hochuekkito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Hochuekkito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome  -  -"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizom  -  -  -  Astragalus Root"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Citrus Unshiu Peel"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger Processed Ginger - - - - -"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cimicifuga Rhizome"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/juzentaihoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Juzentaihoto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Astragalus Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Lancea Rhizome - - Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rehmannia Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/kakkonto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Kakkonto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pueraria Root"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ephedra Herb"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/kakkontokasenkyushin-i-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Kakkontokasenkyushin I"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pueraria Root"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ephedra Herb"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Magnolia Flower"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/kamikihito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Kamikihito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Lancea Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube Seed"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Longan Aril"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Astragalus Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Polygala Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gardenia Fruit"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Saussurea Root"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Moutan Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/kamishoyosan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Kamishoyosan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome  -  -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhizome  -  -  -  Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Moutan Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gardenia Fruit"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Mentha Herb"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/keishibukuryogan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Keishibukuryogan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Moutan Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peach Kernel"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/maoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Maoto"
+      },
+      "prescriptionNumber": 1,
+      "extractionType": "dry or viscous",
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ephedra Herb"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Apricot Kernel"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/mukoi-daikenchuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Mukoi Daikenchuto"
+      },
+      "prescriptionNumber": 1,
+      "extractionType": "dry",
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Zanthoxylum Peel"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Processed Ginger"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/nux-vomica-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Nux Vomica"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "powder of Nux Vomica with hexane, extract with the percolation method, using a mixture of 750 mL of Ethanol,"
+          },
+          "ingredientAmount": 10.0,
+          "ingredientAmountUnit": "mL"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/nux-vomica-extract-powder-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Nux Vomica Extract Powder Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Nux Vomica Extract"
+          },
+          "ingredientAmount": 100.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "To make"
+          },
+          "ingredientAmount": 1000.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/orengedokuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Orengedokuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Coptis Rhizome"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Phellodendron Bark"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gardenia Fruit"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/otsujito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Otsujito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cimicifuga Rhizome"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhubarb"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/rikkunshito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Rikkunshito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome  Atractylodes Lancea Rhizome  -"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Citrus Unshiu Peel"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/ryokeijutsukanto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Ryokeijutsukanto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome  Atractylodes Lancea Rhizome  -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/saibokuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Saibokuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 7.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Magnolia Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Perilla Herb"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/saikokeishito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Saikokeishito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/saireito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Saireito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 7.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Alisma Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Polyporus Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome  Atractylodes Lancea Rhizome  -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/scopolia-extract-powder-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Scopolia Extract Powder Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scopolia Extract"
+          },
+          "ingredientAmount": 100.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "To make"
+          },
+          "ingredientAmount": 1000.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/scopolia-extract-and-carbon-powder-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Scopolia Extract And Carbon Powder Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scopolia Extract"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Medicinal Carbon"
+          },
+          "ingredientAmount": 550.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Natural Aluminum Silicate"
+          },
+          "ingredientAmount": 345.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "To make"
+          },
+          "ingredientAmount": 1000.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/compound-scopolia-extract-and-diastase-powder-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Compound Scopolia Extract And Diastase Powder Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scopolia Extract"
+          },
+          "ingredientAmount": 8.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Diastase"
+          },
+          "ingredientAmount": 200.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Precipitate Calcium Carbonate"
+          },
+          "ingredientAmount": 300.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Sodium Bicarbonate"
+          },
+          "ingredientAmount": 250.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Magnesium Oxide"
+          },
+          "ingredientAmount": 100.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Powdered Gentian"
+          },
+          "ingredientAmount": 50.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "To make"
+          },
+          "ingredientAmount": 1000.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/scopolia-extract-and-ethyl-aminobenzoate-powder-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Scopolia Extract And Ethyl Aminobenzoate Powder Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scopolia Extract"
+          },
+          "ingredientAmount": 10.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ethyl Aminobenzoate"
+          },
+          "ingredientAmount": 250.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Magnesium Oxide"
+          },
+          "ingredientAmount": 150.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Sodium Bicarbonate"
+          },
+          "ingredientAmount": 500.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "To make"
+          },
+          "ingredientAmount": 1000.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/scopolia-extract-and-tannic-acid-suppositories-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Scopolia Extract And Tannic Acid Suppositories Rx1"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scopolia Extract"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Tannic Acid"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/shakuyakukanzoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Shakuyakukanzoto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/shimbuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Shimbuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome - Atractylodes Lancea Rhizome - -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Aconite Root 1)  -  -"
+          },
+          "ingredientAmount": 0.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Aconite Root 2)  -  -"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/shosaikoto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Shosaikoto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginger"
+          },
+          "ingredientAmount": 1.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Jujube"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ginseng"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/shoseiryuto-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Shoseiryuto"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Ephedra Herb"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Processed Ginger  Ginger  -"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Asiasarum Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Schisandra Fruit"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Pinellia Tuber"
+          },
+          "ingredientAmount": 6.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/tokakujokito-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Tokakujokito"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peach Kernel"
+          },
+          "ingredientAmount": 5.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cinnamon Bark"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rhubarb"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Anhydrous Sodium Sulfate"
+          },
+          "ingredientAmount": 0.9,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Sodium Sulfate"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/tokishakuyakusan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Tokishakuyakusan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome  Atractylodes Lancea Rhizome  -  -  -"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Alisma Tuber"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/unseiin-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Unseiin"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Rehmannia Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Peony Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Scutellaria Root"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Gardenia Fruit"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Coptis Rhizome"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Phellodendron Bark"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/preparations/yokukansan-extract-rx1",
+      "@type": "PreparationMethod",
+      "methodLabel": {
+        "en": "Yokukansan"
+      },
+      "prescriptionNumber": 1,
+      "hasIngredientItem": [
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Japanese Angelica Root"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Uncaria Hook"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Cnidium Rhizome"
+          },
+          "ingredientAmount": 3.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Atractylodes Rhizome  Atractylodes Lancea Rhizome  -"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Poria Sclerotium"
+          },
+          "ingredientAmount": 4.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Bupleurum Root"
+          },
+          "ingredientAmount": 2.0,
+          "ingredientAmountUnit": "g"
+        },
+        {
+          "@type": "Ingredient",
+          "ingredientName": {
+            "en": "Glycyrrhiza"
+          },
+          "ingredientAmount": 1.5,
+          "ingredientAmountUnit": "g"
+        }
+      ]
+    }
+  ]
+}

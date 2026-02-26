@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clomifene-citrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clomifene Citrate",
+    "ja": "クロミフェンクエン酸塩"
+  },
+  "monographId": "JP18-clomifene-citrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H28ClNO.C6H8O7",
+  "molecularWeight": 598.08,
+  "casNumber": "50-41-9",
+  "definition": {
+    "en": "Clomifene Citrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Clomifene Citrate occurs as a white to pale yel-low-white powder. It is odorless. It is freely soluble in methanol and in acetic acid (100), sparingly soluble in ethanol (95), and practically insoluble in diethyl ether. It gradually changes in color by light. Melting point: about 1159C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Clomifene Citrate in methanol (1 in 200) add 2 mL of Reinecke salt TS: a light red precipitate is produced. Determine the absorption spectrum of a solution of Clomifene Citrate in 0.1 mol/L hydrochloric acid TS (1 in 50,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Clomifene Citrate RS prepared in the same manner as the sample solu-tion: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of Clomifene Citrate in methanol (1 in 200) responds to Qualitative Tests <1.09> (1) and (2) for ci-trate salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution of 1.0 g of Clomifene Citrate in 30 mL of methanol is clear and colorless. (2) Heavy metals <1.07>—Proceed with 2.0 g of Clomi- fene Citrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, phosphorus (V) oxide, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Isomer ratio To 10 mg of Clomifene Citrate add 10 mL of water and 1 mL of sodium hydroxide TS, and shake to uni-formly disperse. Add 10 mL of ethyl acetate, shake vigor-ously for 5 minutes, allow to stand for 5 minutes, and use the upper layer as the sample solution. Perform the test with 1 mL of the sample solution as directed under Gas Chroma-tography <2.02> according to the following conditions. De-termine the areas of two adjacent peaks, Aa and Ab, having the retention time of about 8 minutes, where Aa is the peak area of shorter retention time and Ab is the peak area of lon-ger retention time: Ab/(Aa ＋ Ab) is between 0.3 and 0.5. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused silica column 0.25 mm in inside diameter and 15 m in length, coated the inside surface with a layer about 0.1 mm thick of dimethylpolysiloxane for gas chroma-tography. Column temperature: A constant temperature of about 2309C. Injection port temperature: A constant temperature of about 2709C. Detector temperature: A constant temperature of about 3009C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of the first peak of clomifene citrate is about 7.5 minutes. Split ratio: 1:50. System suitability— System performance: When the procedure is run with 1 mL of the sample solution under the above operating conditions, the resolution between the two adjacent peaks having the retention time of about 8 minutes is not less than 5. System repeatability: When the test is repeated 6 times with 1 mL of the sample solution under the above operating conditions, the relative standard deviation of the result of Ab/(Aa ＋ Ab) is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Clomifene Citrate, previously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 59.81 mg of C26H28ClNO.C6H8O7"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

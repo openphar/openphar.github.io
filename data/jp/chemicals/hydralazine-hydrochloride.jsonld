@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydralazine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydralazine Hydrochloride",
+    "ja": "ヒドララジン塩酸塩"
+  },
+  "monographId": "JP18-hydralazine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H8N4.HCl",
+  "molecularWeight": 196.64,
+  "definition": {
+    "en": "Hydralazine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Hydralazine Hydrochloride occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is soluble in water, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 2759C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Hydralazine Hydrochloride (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Hydralazine Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Hydralazine Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Hydralazine Hydrochloride in"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/niceritrol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Niceritrol",
+    "ja": "ニセリトロール"
+  },
+  "monographId": "JP18-niceritrol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C29H24N4O8",
+  "molecularWeight": 556.52,
+  "definition": {
+    "en": "Niceritrol, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Niceritrol occurs as a white to pale yellow-white powder. It is odorless, and has a slightly bitter taste. It is freely soluble in chloroform, soluble in N,N-dimethylformamide, very slightly soluble in ethanol (95), and practically insoluble in water and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Niceritrol in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Niceritrol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 2.0 g of Niceritrol add 50 mL of water, and warm at 709C for 20 minutes, while shak-ing occasionally. After cooling, filter, and to 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hy-drochloric acid VS (not more than 0.036z). Heavy metals <1.07>—Proceed with 1.0 g of Niceritrol according to Method 2, and perform the test. Pre- ‌pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Niceritrol according to Method 3, and perform the test. Use 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10) (not more than 2 ppm). Pyridine—Dissolve 0.5 g of Niceritrol in N,N-dimethylformamide to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g of pyridine, and add N,N-dimethylformamide to make exactly 100 mL. Pipet 1 mL of this solution, add N,N-dimethylformamide to make exactly 100 mL, then pipet 0.5 mL of this solution, add N,N-dimethylformamide to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sample solu-tion and standard solution as directed under Gas Chroma-tography <2.02> according to the following conditions. Determine each peak area of pyridine in both solutions: the peak area of pyridine obtained from the sample solution is not larger than the peak area of pyridine from the standard solution. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A column 3 mm in inside diameter and 3 m in length, packed with polyethylene glycol 20M for gas chroma-tography coated at the ratio of 10z on acid-treated and silanized siliceous earth for gas chromatography (150 to 180 mm in particle diameter). Column temperature: A constant temperature of about 1609C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of pyridine is about 2 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, the number of theoretical plates of the peak of pyri-dine is not less than 1500. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak areas of pyridine is not more than 3.0z. Free acids—Transfer about 1 g of Niceritrol, weighed accurately, to a separator, dissolve in 20 mL of chloroform, and extract with 20 mL and then 10 mL of water while shak-ing well. Combine the whole extracts, and titrate <2.50> with 0.01 mol/L sodium hydroxide VS (indicator: 3 drops of phe-nolphthalein TS). Perform a blank determination in the same manner, and make any necessary correction, and calcu-late the amount of free acid by the following equation: it is not more than 0.1z. Each mL of 0.01 mol/L sodium hydroxide VS ＝ 1.231 mg of C6H5NO2 Related substances—Dissolve 0.10 g of Niceritrol in 10 mL of chloroform, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, and add chlo-roform to make exactly 20 mL. Pipet 2 mL of this solution, add chloroform to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform and ethanol (95) (4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi- pal spot obtained from the sample solution are not more in-tense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Niceritrol, previously dried, add exactly 25 mL of 0.5 mol/L sodium hydroxide VS, boil gently for 20 minutes under a reflux condenser with a carbon dioxide absorber (soda lime). After cooling, titrate <2.50> immediately the excess sodium hydroxide with 0.5 mol/L hydrochloric acid VS (indicator: 3 drops of phenol-phthalein TS). Perform a blank determination in the same manner. Each mL of 0.5 mol/L sodium hydroxide VS ＝ 69.57 mg of C29H24N4O8"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

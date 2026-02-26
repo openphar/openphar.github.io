@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefaclor-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefaclor Fine Granules",
+    "ja": "セファクロル細粒"
+  },
+  "monographId": "JP18-cefaclor-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefaclor Fine Granules contain not less than 90.0z and not more than 110.0z of the labeled potency of cefaclor (C15H14ClN3O4S: 367.81). Method of preparation Prepare as directed under Gran-ules, with Cefaclor. Identification Shake vigorously a quantity of Cefaclor Fine Granules, equivalent to 20 mg (potency) of Cefaclor, with 10 mL of water, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 20 mg (potency) of Cefaclor RS in 10 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography, develop the plate with a mixture of aceto-nitrile, water, ethyl acetate and formic acid (30:10:10:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the prin-cipal spot from the sample solution and the spot from the standard solution show the same Rf value. Purity Related substances—Weigh accurately a quantity of Cefaclor Fine Granules after powdered if necessary, equiva-lent to about 0.1 g (potency) of Cefaclor, shake with 40 mL of 0.1 mol/L phosphate buffer solution (pH 4.5) for 10 minutes, add the same buffer solution to make exactly 50 mL, and filter through a 0.45-mm pore-size membrane filter. Discard the first 1 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately an amount of Cefaclor RS, equivalent to about 20 mg (po-tency), and dissolve in 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 20 mL. Pipet 2 mL of this solution, add the same buffer solution to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas by the automatic integration method. Calculate the amount of each related substance by the following equa-tion: the amount of each related substance is not more than 0.5z, and the total amount of the related substances is not more than 3.0z. If necessary, correct the fluctuation of the base line by performing the test in the same manner with 50 mL of 0.1 mol/L phosphate buffer solution (pH 4.5). Amount (z) of each related substance ＝ MS/MT × AT/AS × 1/C × 5 Amount [mg (potency)] of cefaclor (C ＝ MS × QT/QS × 1/5 15H14ClN3O4S) Total amount (z) of the related substances ＝ MS/MT × SAT/AS × 1/C × 5 MS: Amount [mg (potency)] of Cefaclor RS taken Internal standard solution—A solution of 4-aminoacetophe-none in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 700). Containers and storage Containers—Tight containers. Storage—Light-resistant. MS: Amount [mg (potency)] of Cefaclor RS taken MT: Amount (g) of Cefaclor Fine Granules taken AT: Area of the peak other than cefaclor and the solvent from the sample solution AS: Peak area of cefaclor from the standard solution C: Labeled potency [mg (potency)] of cefaclor (C15H14ClN3O4S) in 1 g Operating conditions— Proceed as directed in the operating conditions in the Purity (3) under Cefaclor. ‌JP XVIII Official Monographs / Cefadroxil 645 System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 20 mL. Confirm that the peak area of cefaclor obtained with 50 mL of this solution is equivalent to 3.5 to 6.5z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefaclor are not less than 40,000 and between 0.8 and 1.3, respectively. System repeatability: When the test is repeated 3 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefaclor is not more than 2.0z. Water <2.48> Not more than 1.5z (1 g, volumetric titra-tion, back titration). Uniformity of dosage units <6.02> The granules in single-dose packages meet the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Cefaclor Fine Granules is not less than 85z. Start the test with an accurately weighed amount of Cefaclor Fine Granules, equivalent to about 0.25 g (potency) of Cefaclor, withdraw not less than about 20 mL of the me-dium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make ex-actly V? mL so that each mL contains about 20 mg (potency) of Cefaclor, and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake vigorously a quantity of Cefaclor Fine Granules, equivalent to 20 mg (potency) of Cefaclor, with 10 mL of water, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 20 mg (potency) of Cefaclor RS in 10 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography, develop the plate with a mixture of aceto-nitrile, water, ethyl acetate and formic acid (30:10:10:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the prin-cipal spot from the sample solution and the spot from the standard solution show the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Weigh accurately a quantity of Cefaclor Fine Granules after powdered if necessary, equiva-lent to about 0.1 g (potency) of Cefaclor, shake with 40 mL of 0.1 mol/L phosphate buffer solution (pH 4.5) for 10 minutes, add the same buffer solution to make exactly 50 mL, and filter through a 0.45-mm pore-size membrane filter. Discard the first 1 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately an amount of Cefaclor RS, equivalent to about 20 mg (po-tency), and dissolve in 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 20 mL. Pipet 2 mL of this solution, add the same buffer solution to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas by the automatic integration method. Calculate the amount of each related substance by the following equa-tion: the amount of each related substance is not more than 0.5z, and the total amount of the related substances is not more than 3.0z. If necessary, correct the fluctuation of the base line by performing the test in the same manner with 50 mL of 0.1 mol/L phosphate buffer solution (pH 4.5). Amount (z) of each related substance ＝ MS/MT × AT/AS × 1/C × 5 Amount [mg (potency)] of cefaclor (C ＝ MS × QT/QS × 1/5 15H14ClN3O4S) Total amount (z) of the related substances ＝ MS/MT × SAT/AS × 1/C × 5 MS: Amount [mg (potency)] of Cefaclor RS taken Internal standard solution—A solution of 4-aminoacetophe-none in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 700)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a quantity of Cefaclor Fine Gran-ules after powdered if necessary, equivalent to about 0.1 g (potency) of Cefaclor, shake vigorously with 60 mL of 0.1 mol/L phosphate buffer solution (pH 4.5) for 10 minutes, add the same buffer solution to make exactly 100 mL, and centrifuge. Pipet 10 mL of the supernatant liquid, add ex-actly 10 mL of the internal standard solution and the same buffer solution to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg (potency) of Cefaclor RS, and dissolve in 0.1 mol/L phos-phate buffer solution (pH 4.5) to make exactly 50 mL. Pipet 10 mL of this solution, add exactly 10 mL of the internal standard solution and the same buffer solution to make 50 mL, and use this solution as standard solution. Proceed as directed in the Assay under Cefaclor. Amount [mg (potency)] of cefaclor (C15H14ClN3O4S) ＝ MS × QT/QS × 2 MS: Amount [mg (potency)] of Cefaclor RS taken Internal standard solution—A solution of 4-aminoacetophe-none in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 700)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

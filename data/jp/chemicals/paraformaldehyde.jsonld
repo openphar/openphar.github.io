@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/paraformaldehyde",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Paraformaldehyde",
+    "ja": "パラホルムアルデヒド"
+  },
+  "monographId": "JP18-paraformaldehyde",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "30525-89-4",
+  "definition": {
+    "en": "Paraformaldehyde contains not less than 95."
+  },
+  "appearance": {
+    "en": "Paraformaldehyde occurs as a white powder. It has a slight odor of formaldehyde, but a very strong irritating odor is perceptible when it is heated. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It dissolves in hot water, in hot dilute hydrochloric acid, in sodium hydroxide TS and in ammonia TS. It sublimes at about 1009C. ‌Identification (1) Dissolve 0.1 g of Paraformaldehyde in 5 mL of ammonia TS, add 5 mL of silver nitrate TS, shake, and add 3 mL of a solution of sodium hydroxide (1 in 10): a mirror of metallic silver is immediately formed on the sides of the container. (2) Add a solution of 0.04 g of salicylic acid in 5 mL of sulfuric acid to 0.02 g of Paraformaldehyde, and warm slowly: a persistent, dark red color is produced."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Paraformaldehyde in 10 mL of ammonia TS: the solution is clear and colorless. Acidity or alkalinity—To 0.5 g of Paraformaldehyde add 10 mL of water, shake vigorously for 1 minute, and filter: the filtrate is neutral. Chloride <1.03>—Dissolve 1.5 g of Paraformalde- hyde in 75 mL of water and 7.5 mL of sodium carbonate TS, evaporate on a water bath to dryness, and ignite at about 5009C. Dissolve the residue in 15 mL of water, filter, if nec-essary, neutralize with diluted nitric acid (3 in 10), and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.25 mL of 0.01 mol/L hydro-chloric acid VS add 7.5 mL of sodium carbonate TS, a volume of diluted nitric acid (3 in 10) required for neutraliza-tion of the sample, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.006z). Sulfate <1.14>—Dissolve 1.5 g of Paraformaldehyde in 45 mL of water and 4.5 mL of sodium carbonate TS, evaporate on a water bath to dryness, and ignite at about 5009C. Dissolve the residue in 15 mL of water, filter, if nec-essary, neutralize the diluted hydrochloric acid (3 in 5), and boil for 5 minutes. After cooling, add 1 mL of dilute hydro-chloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 4.5 mL of sodium carbonate TS add an equal volume of diluted hydrochloric acid (3 in 5) for the neutralization of the sample and 15 mL of water, and boil for 5 minutes. After cooling, add 0.35 mL of 0.005 mol/L sulfuric acid VS, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.011z). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 50 mg of Paraformaldehyde, accu-rately weighed, in 10 mL of potassium hydroxide TS in an iodine flask. Add 40 mL of water and an exactly measured 50 mL of 0.05 mol/L iodine VS, stopper, and allow to stand for 5 minutes. Then add 5 mL of dilute hydrochloric acid, stopper immediately, allow to stand for 15 minutes, and titrate <2.50> the excess iodine with 0.1 mol/L sodium thio-sulfate VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 1.501 mg of CH2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

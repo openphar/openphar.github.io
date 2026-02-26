@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dihydrocodeine-phosphate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dihydrocodeine Phosphate",
+    "ja": "ジヒドロコデインリン酸塩"
+  },
+  "monographId": "JP18-dihydrocodeine-phosphate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H23NO3.H3PO4",
+  "molecularWeight": 399.38,
+  "casNumber": "24204-13-5",
+  "definition": {
+    "en": "Dihydrocodeine Phosphate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dihydrocodeine Phosphate occurs as a white to yellowish white crystalline powder. It is freely soluble in water and in acetic acid (100), slightly soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Dihydrocodeine Phos-phate in 10 mL of water is between 3.0 and 5.0. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dihydrocodeine Phosphate (1 in 10,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared spectrum of Dihydrocodeine Phosphate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Dihydrocodeine Phosphate (1 in 20) responds to Qualitative Tests <1.09> (1) for phosphate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Perform the test with 0.5 g of Dihydrocodeine Phosphate. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Perform the test with 0.20 g of Dihy- drocodeine Phosphate. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.240z). Related substances—Dissolve 0.20 g of Dihydro-codeine Phosphate in 10 mL of diluted ethanol (1 in 2), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted ethanol (1 in 2) to make exactly 50 mL, and use this solution as the standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-chromatography. Develop the plate with a mixture of ethanol (99.5), toluene, acetone and ammonia solution (28) (14:14:7:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot obtained from the sample solution are not more in-tense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (0.5 g, 1059C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Dihydrocodeine Phosphate, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to greenish blue (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 39.94 mg of C18H23NO3.H3PO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

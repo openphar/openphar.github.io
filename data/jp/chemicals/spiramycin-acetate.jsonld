@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/spiramycin-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Spiramycin Acetate",
+    "ja": "スピラマイシン酢酸エステル"
+  },
+  "monographId": "JP18-spiramycin-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Spiramycin Acetate occurs as a white to light yellow-white powder. It is very soluble in acetonitrile and in methanol, freely soluble in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Spiramycin Acetate in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Spiramycin Acetate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Content ratio of the active principle Dissolve 25 mg of Spiramycin Acetate in 25 mL of the mobile phase, and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the areas, AII, AIII, AIV, AV, AVI and AVII, of the peaks of spiramycin II acetate, spiramycin III acetate, spiramycin IV acetate, spiramycin V acetate, spiramycin VI acetate and spiramycin VII acetate, respectively, by the auto-matic integration method, and calculate the ratios of the amounts of AII, AIV and the total of AIII and AV to the total amount of all these peaks: the amount of AII is 30 – 45z, AIV is 30 – 45z, and the total of AIII and AV is not more than 25z. The relative retention times of spiramycin III ace-tate, spiramycin IV acetate, spiramycin V acetate, spiramy-cin VI acetate and spiramycin VII acetate to spiramycin II acetate are about 1.3, about 1.7, about 2.3, about 0.85 and about 1.4, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 231 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of acetonitrile, 0.02 mol/L po-tassium dihydrogen phosphate TS and a solution of dipotas-sium hydrogen phosphate (87 in 25,000) (26:7:7). Flow rate: Adjust so that the retention time of spiramycin II acetate is about 10 minutes. System suitability— System performance: Dissolve 25 mg of Spiramycin II Acetate RS in the mobile phase to make 100 mL. When the procedure is run with 5 mL of this solution under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of spiramycin II acetate are not less than 14,500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of spiramycin II acetate is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Spiramycin Acetate according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 3.0z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Spiramycin II Acetate RS, equivalent to about 50 mg (po-tency), dissolve in 20 mL of methanol, add 0.1 mol/L phos-phate buffer solution for antibiotics (pH 8.0) to make ex-actly 50 mL, and use this solution as the standard stock solu-tion. Keep the standard stock solution at not exceeding 59C, and use within 3 days. Take exactly a suitable amount of the ‌standard stock solution before use, add 0.1 mol/L phos-phate buffer solution for antibiotics (pH 8.0) to make solu-tions so that each mL contains 80 mg (potency) and 20 mg (potency), and use these solutions as the high concentration standard solution and the low concentration standard solu-tion, respectively.‌ Sample solutions—Weigh accurately an amount of Spiramycin Acetate, equivalent to about 50 mg (potency), dissolve in 20 mL of methanol, and add 0.1 mol/L phos-phate buffer solution for antibiotics (pH 8.0) to make ex-actly 50 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution for antibiotics (pH 8.0) to make solutions so that each mL contains 80 mg (po-tency) and 20 mg (potency), and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

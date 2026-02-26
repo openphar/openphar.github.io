@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/zinc-sulfate-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Zinc Sulfate Ophthalmic Solution",
+    "ja": "硫酸亜鉛点眼液"
+  },
+  "monographId": "JP18-zinc-sulfate-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Sulfate Ophthalmic Solution contains not less than 0."
+  },
+  "appearance": {
+    "en": "Zinc Sulfate Ophthalmic Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Zinc Sulfate Ophthalmic Solution re-sponds to Qualitative Tests <1.09> for zinc salt. Zinc Sulfate Ophthalmic Solution responds to Quali-tative Tests <1.09> for borate. Zinc Sulfate Ophthalmic Solution responds to Quali-tative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 25 mL of Zinc Sulfate Ophthalmic Solution, add 100 mL of water and 2 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.01 mol/L disodium dihydrogen ethylenediamine tetraace-tate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.876 mg of ZnSO4.7H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

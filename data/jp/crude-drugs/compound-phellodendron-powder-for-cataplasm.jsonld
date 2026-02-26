@@ -1,0 +1,30 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/compound-phellodendron-powder-for-cataplasm",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-compound-phellodendron-powder-for-cataplasm",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Compound Phellodendron Powder for Cataplasm",
+    "la": "Method of preparation",
+    "ja": "パップ用複方オウバク散"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

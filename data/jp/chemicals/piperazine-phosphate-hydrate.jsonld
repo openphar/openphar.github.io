@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/piperazine-phosphate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Piperazine Phosphate Hydrate‌",
+    "ja": "ピペラジンリン酸塩水和物"
+  },
+  "monographId": "JP18-piperazine-phosphate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H10N2.H3PO4.H2O",
+  "molecularWeight": 202.15,
+  "appearance": {
+    "en": "Piperazine Phosphate Hydrate occurs as white, crystals or crystalline powder. It is odorless, and has a slightly acid taste. It is soluble in formic acid, sparingly soluble in water, very slightly soluble in acetic acid (100), and practically insoluble in methanol, in ethanol (95) and in diethyl ether. It dissolves in dilute hydrochloric acid. Melting point: about 2229C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 mL of a solution of Piperazine Phosphate Hydrate (1 in 100) add 3 drops of Reinecke salt TS:a light red precipitate is formed. Determine the infrared absorption spectrum of Piperazine Phosphate Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Piperazine Phosphate Hydrate (1 in 100) responds to Qualitative Tests <1.09> (1) and (3) for phosphate. pH <2.54> Dissolve 1.0 g of Piperazine Phosphate Hydrate in 100 mL of water: the pH of the solution is between 6.0 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 0.5 g of Piperazine Phos-phate Hydrate add 6 mL of dilute nitric acid and water to make 50 mL. Use this solution as the test solution, and per-form the test. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). Heavy metals <1.07>—To 2.0 g of Piperazine Phos-phate Hydrate add 5 mL of dilute hydrochloric acid, 30 mL of water and 2 mL of dilute acetic acid, and dissolve. Add sodium hydroxide TS, adjust the pH of the solution to 3.3, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Dissolve 2.0 g of Piperazine Phos- phate Hydrate in 5 mL of dilute hydrochloric acid, and use this solution as the test solution. Perform the test (not more than 1 ppm). Related substances—Dissolve 50 mg of Piperazine Phosphate Hydrate in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ammonia solution (28), acetone and ethanol (99.5) (8:3:3:2) to a distance of about 13 cm, and air-dry the plate. Spray evenly 4-dimethylaminocinnamaldehyde TS, and allow to stand for 15 minutes: the spots other than the principal spot and the spot on the starting line obtained from the sample solution are not more intense than the spot from the standard solu-tion. Water <2.48> 8.0 – 9.5z (0.3 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Piperazine Phos-phate Hydrate, dissolve in 10 mL of formic acid, add 60 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L per-chloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 9.207 mg of C4H10N2.H3PO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

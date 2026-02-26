@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/phenol-and-zinc-oxide-liniment",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Phenol and Zinc Oxide Liniment‌",
+    "ja": "フェノール・亜鉛華リニメント"
+  },
+  "monographId": "JP18-phenol-and-zinc-oxide-liniment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Phenol and Zinc Oxide Liniment is a white pasty mass. It has a slight odor of phenol."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake well 1 g of Phenol and Zinc Oxide Liniment with 10 mL of diethyl ether, and filter. To the filtrate add 10 mL of dilute sodium hydroxide TS, shake well, and separate the water layer. To 1 mL of the water layer add 1 mL of sodium nitrite TS and 1 mL of dilute hy-drochloric acid, shake, and add 3 mL of sodium hydroxide TS: a yellow color develops (phenol). Place 1 g of Phenol and Zinc Oxide Liniment in a porcelain crucible, heat gradually raising the temperature until the content is charred, and then ignite it strongly: a yellow color develops, and disappears on cooling. To the residue add 10 mL of water and 5 mL of dilute hydrochloric acid, shake well, and filter. To the filtrate add 2 to 3 drops of potassium hexacyanoferrate (II) TS: a white precipitate is produced (zinc oxide). Shake 0.5 g of Phenol and Zinc Oxide Liniment with 1 mL of water and 5 mL of chloroform, separate the chlo-roform layer, and use this solution as the sample solution. Separately, dissolve 0.01 g of phenol in 5 mL of chloroform, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and ammonia solution (28) (50:5:1) to a distance of about 10 cm, and air-dry the plate. Allow the plate to stand in iodine vapor: the spots obtained from the sample solution and the standard solution show the same Rf value."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

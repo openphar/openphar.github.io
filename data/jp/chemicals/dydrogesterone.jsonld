@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dydrogesterone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dydrogesterone",
+    "ja": "ジドロゲステロン"
+  },
+  "monographId": "JP18-dydrogesterone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H28O2",
+  "molecularWeight": 312.45,
+  "definition": {
+    "en": "Dydrogesterone, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dydrogesterone occurs as white to light yel-low-white, crystals or crystalline powder. It is odorless. It is freely soluble in chloroform, soluble in acetonitrile, sparingly soluble in methanol and in ethanol (95), slightly soluble in diethyl ether, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mg of Dydrogesterone add 5 mL of 4-methoxybenzaldehyde-acetic acid TS and 2 to 3 drops of sulfuric acid, and heat in a water bath for 2 minutes: an orange-red color develops. Determine the absorption spectrum of a solution of Dydrogesterone in methanol (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Dydrogesterone, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. D Optical rotation <2.49> [a]20: －470 – －5009(after drying, 0.1 g, chloroform, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Dydrogesterone according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 10 mg of Dydroges-terone in 200 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area of these solutions by the automatic integration method: the total area of peaks other than dydrogesterone obtained from the sample solution is not larger than the peak area of dydrogesterone from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (3 mm in parti- ‌cle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, ethanol (95) and aceto-nitrile (53:26:21). mL of the filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 5 mg of dydrogesterone (C21H28O2), and use this solu-tion as the sample solution. Then, proceed as directed in the Assay. Flow rate: Adjust so that the retention time of dydroges-terone is about 12 minutes. Selection of column: Dissolve 1 mg each of Dydroges- Amount (mg) of dydrogesterone (C21 ＝ MS × AT/AS × V?/V × 1/20 H28O2) terone and progesterone in 20 mL of the mobile phase. Pro-ceed with 10 mL of the solution under the above operating conditions, and calculate the resolution. Use a column giving elution of dydrogesterone and progesterone in this order with the resolution between these peaks being not less than 8. Wavelength is 265 nm. Detection sensitivity: Adjust the detection sensitivity so that the peak height of dydrogesterone obtained with 10 mL of the standard solution is between 5 mm and 10 mm. Time span of measurement: About twice as long as the retention time of dydrogesterone, beginning after the solvent peak. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, phosphorus (V) oxide, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg of Dydrogesterone, previously dried, and dissolve in methanol to make exactly 100 mL. Pipet 1 mL of this solution, and add methanol to make exactly 100 mL. Determine the absorbance A of this solution at the wavelength of maximum absorption at about 286 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>. Amount (mg) of dydrogesterone (C21H28O2) ＝ A/845 × 100,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

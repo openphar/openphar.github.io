@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/colestimide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Colestimide",
+    "ja": "コレスチミド"
+  },
+  "monographId": "JP18-colestimide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "95522-45-5",
+  "definition": {
+    "en": "Colestimide is an anion exchange resin, composed of a copolymer of 2-methylimidazole and 1-chloro-2,3-epoxypropane. It contains not less than 18."
+  },
+  "appearance": {
+    "en": "Colestimide occurs as a white to pale yellow-white powder. It is practically insoluble in water and in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Colestimide, previously dried, as directed in the potas-sium chloride disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Take 2.0 g of Coles-timide in a porcelain or platinum crucible, and carbonize by weakly heating. After cooling, add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10) and 5 mL of hydrogen peroxide (30), and ignite the ethanol. After cooling, add 1 mL of sulfuric acid, then, proceed ac-cording to Method 4, and perform the test. Prepare the con-trol solution as follows: To 10 mL of a solution of magne-sium nitrate hexahydrate in ethanol (95) (1 in 10) add 5 mL of hydrogen peroxide (30), and ignite the ethanol. After cooling, add 1 mL of sulfuric acid, then, proceed in the same manner as for the test solution, and add 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 10 ppm). (2) Related substances—To exactly 0.50 g of Colestimide add exactly 20 mL of water, shake for 1 hour, centrifuge, and use the supernatant liquid as the sample solution. Deter-mine the absorbance of the sample solution at 210 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance is not more than 0.50. Loss on drying <2.41> Not more than 10.0z (1 g, in vacu-um, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Degree of swelling Weigh accurately about 1 g of Coles-timide, put in a 25-mL glass stoppered measuring cylinder (about 11 mm in inside diameter), add 23 mL of water, shake for 2 minutes, and add water to make 25 mL. After standing for 2 hours, measure the volume of the resin layer, and determine the volume per g, calculated on the dried basis: the volume is 12 – 18 mL/g."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Chlorine—Weigh accurately about 0.2 g of Colestimide, add 50 mL of water, and shake. Add 1 mL of nitric acid and 25 mg of potassium nitrate, shake, and titrate <2.50> with 0.1 mol/L silver nitrate VS (potentiometric titra- tion). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L silver nitrate VS ＝ 3.545 mg of Cl (2) Exchange capacity—Weigh accurately about 0.45 g of sodium cholate hydrate (separately determine the water), dissolve in water to make exactly 100 mL, and use this solu-tion as the sodium cholate standard stock solution. Sepa-rately, weigh accurately about 30 mg of Colestimide, add ex-actly 30 mL of the sodium cholate standard stock solution, shake for 1 hour, and centrifuge or filter through a mem-brane filter with a pore size not exceeding 0.8 mm. Pipet 5 mL of the supernatant liquid or the filtrate, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, pipet 5 mL of the sodium cholate standard stock solution, add exactly 5 mL of the in-ternal standard solution, and use this solution as the stand-ard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of cholic acid to that of the internal standard. Exchanged amount (g) of cholic acid per g of Colestimide, calculated on the dried basis ＝ MS/MT × (QS － QT)/QS × 3/10 × 0.947 MS: Amount (mg) of sodium cholate hydrate taken, calcu- ‌JP XVIII Official Monographs / Colestimide Tablets 809‌ lated on the anhydrous basis MT: Amount (mg) of Colestimide taken, calculated on the dried basis Internal standard solution—A solution of butyl parahy-droxybenzoate in acetonitrile (1 in 80,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (1:1). Flow rate: Adjust so that the retention time of cholic acid is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cholic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of cholic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

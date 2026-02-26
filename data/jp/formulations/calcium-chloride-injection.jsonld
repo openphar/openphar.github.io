@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/calcium-chloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Calcium Chloride Injection",
+    "ja": "塩化カルシウム注射液"
+  },
+  "monographId": "JP18-calcium-chloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Chloride Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Calcium Chloride Hydrate occurs as white, granules or masses. It is odorless. It is very soluble in water, and soluble in ethanol (95), and practically insoluble in diethyl ether. It is deliquescent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Calcium Chloride Hydrate (1 in 10) responds to Qualitative Tests <1.09> for calcium salt and for chloride. pH <2.54> The pH of a solution of 1.0 g of Calcium Chlo-ride Hydrate in 20 mL of freshly boiled and cooled water is between 4.5 and 9.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution of 1.0 g of Calcium Chloride Hydrate in 20 mL of water is clear The concentration of Calcium Chloride Injection is expressed as the quantity of calcium chloride (CaCl2). Method of preparation Prepare as directed under Injec-tion, with Calcium Chloride Hydrate. Description Calcium Chloride Injection is a clear, colorless liquid. Identification Calcium Chloride Injection responds to Qualitative Tests <1.09> for calcium salt and for chloride. pH <2.54> 4.5 – 7.5 Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. ‌JP XVIII Official Monographs / Calcium Folinate Hydrate 597 Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Calcium Chloride Injection, equivalent to about 0.4 g of calcium chloride (CaCl2), and proceed as directed in the Assay under Calcium Chloride Hydrate. Each mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.220 mg of CaCl2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/diflucortolone-valerate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Diflucortolone Valerate",
+    "ja": "ジフルコルトロン吉草酸エステル"
+  },
+  "monographId": "JP18-diflucortolone-valerate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H36F2O5",
+  "molecularWeight": 478.57,
+  "casNumber": "59198-70-8",
+  "definition": {
+    "en": "Diflucortolone Valerate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Diflucortolone Valerate occurs as white, crys-tals or crystalline powder. It is sparingly soluble in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Prepare the test solution by proceeding with 10 mg of Diflucortolone Valerate according to Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the test solution responds to Qualita-tive Tests <1.09> for fluoride. Determine the absorption spectrum of a solution of Diflucortolone Valerate in methanol (3 in 200,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Diflucortolone Valerate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Diflucortolone Valerate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Diflucortolone Valerate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋110 – ＋1159(0.1 g calcu-lated on the dried basis, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Diflucortolone Valerate in a platinum crucible according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Carbonize and incinerate as directed under Residue on Ignition <2.44>. (2) Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of sample solution by the automatic integration method, and calculate the amounts of these peaks by the area percentage method: the amount of each peak of flucortolone valerate, 12a diflucortolone valer-ate and D4 diflucortolone valerate, having the relative reten-tion times of about 0.97, 1.03 and 1.05 to diflucortolone valerate, respectively, is not more than 0.6z, respectively; the amount of the peak of clocortolone valerate, having the relative retention time of about 1.09, is not more than 0.3z; and the amount of each peak other than those mentioned above is not more than 0.1z. Furthermore, the total amount of the peaks other than diflucortolone valerate is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.4 times as long as the retention time of diflucortolone valerate, beginning after the solvent peak. System suitability— System performance and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: To 0.1 mL of the sample ‌JP XVIII Official Monographs / Digoxin 853 solution, add a mixture of water and acetonitrile (1:1) to make 10 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suita-bility test, and add a mixture of water and acetonitrile (1:1) to make exactly 20 mL. Confirm that the peak area of diflucortolone valerate obtained with 10 mL of this solution is equivalent to 3.5 to 6.5z of that with 10 mL of the solu-tion for system suitability test. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 5 mg each of Diflucortolone Valerate and Diflucortolone Valerate RS (separately, deter-mine the loss on drying <2.41> under the same conditions as Diflucortolone Valerate), dissolve each in a mixture of water and acetonitrile (1:1) to make exactly 10 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the Digoxin"
+      }
+    }
+  ]
+}

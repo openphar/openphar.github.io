@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/angelicae-acutilobae-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Angelicae Acutilobae Radix Pulverata",
+    "ja": "トウキ末"
+  },
+  "monographId": "JP18-angelicae-acutilobae-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Japanese Angelica Root occurs as a light grayish brown powder. It has a characteristic odor and a slight, sweet taste with a slightly pungent aftertaste. Under a microscope <5.01>, Powdered Japanese Angelica Root reveals starch grains or masses of gelatinized starch, and fragments of parenchyma containing them; fragments of light yellow-brown cork tissue; fragments of rather thick-walled collenchyma and phloem tissue; fragments of oil canal surrounded by secretory cells; fragments, 20 – 60 mm in diameter, of scalariform and reticulate vessels with simple perforation; starch grains composed of simple grains not more than 20 mm in diameter, and rarely 2- to 5-compound grains, sometimes comes up to 25 mm. Identiˆcation To 1.0 g of Powdered Japanese Angelica Root add 5 mL of methanol, shake for 10 minutes, cen-trifuge, and use the supernatant liquid as the sample solu-tion. Separately, use (Z)-ligustilide TS for thin-layer chro-matography as the standard solution (1). Dissolve 1 mg of scopoletin for thin-layer chromatography in 10 mL of methanol, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample so-lution and 5 mL each of the standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, acetone and acetic acid (100) (30:25:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): two of the several spots obtained from the sample solu-tion have the same color tones and Rf values with the corre-sponding blue-white ‰uorescent spots from the standard so-lutions (1) and (2)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Japanese Angelica Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Japanese Angelica Root according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow- dered Japanese Angelica Root does not show remarkably lignified sclerenchymatous cells. ‌2040‌‌ Japanese Gentian / Crude Drugs and Related Drugs Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 35.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

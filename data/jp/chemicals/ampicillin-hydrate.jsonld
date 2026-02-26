@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ampicillin-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ampicillin Hydrate",
+    "ja": "アンピシリン水和物"
+  },
+  "monographId": "JP18-ampicillin-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H19N3O4S.3H2O",
+  "molecularWeight": 403.45,
+  "casNumber": "7177-48-2",
+  "definition": {
+    "en": "Ampicillin Hydrate contains not less than 960 mg (potency) and not more than 1005 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Ampicillin Hydrate occurs as a white to light ＝ MS × QT/QS × 1000 16 19 3 4 yellow-white, crystals or crystalline powder. It is sparingly soluble in water, slightly soluble in metha- MS: Amount [mg (potency)] of Ampicillin RS taken Internal standard solution—A solution of guaifenesin in the mobile phase (1 in 200). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 5.94 g of diammonium hydrogen phosphate in 850 mL of water, add 100 mL of acetonitrile, adjust the pH to 5.0 with phosphoric acid, and add water to make exactly 1000 mL. Flow rate: Adjust so that the retention time of ampicillin is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, ampicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 40. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ampicillin to that of the internal standard is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Ampicillin Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Ampicillin RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋280 – ＋3059(0.5 g calcu-lated on the anhydrous basis, water, 100 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Ampicillin Hydrate in 400 mL of water is between 3.5 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Ampicillin Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ampicillin hydrate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Ampicillin Hydrate in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than ampicillin obtained from the sample so-lution is not larger than the peak area of ampicillin from the standard solution, and the total area of the peaks other than ampicillin from the sample solution is not larger than 2 times the peak area of ampicillin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 10 times as long as the retention time of ampicillin. JP XVIII Official Monographs / Ampicillin Hydrate 469 System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of ampicillin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ampicillin are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ampicillin is not more than 1.0z. N,N-Dimethylaniline—Weigh accurately about 1 g of Ampicillin Hydrate, dissolve in 5 mL of sodium hydroxide TS, add exactly 1 mL of the internal standard solution, shake vigorously for 1 minute, and use the upper layer liquid obtained after allowing it to stand as the sample solution. Separately, weigh accurately about 50 mg of N,N-dimethylaniline, dissolve in 2 mL of hydrochloric acid and 20 mL of water, add water to make exactly 50 mL, and use this solution as the standard stock solution. Pipet 5 mL of the standard stock solution, and add water to make exactly 250 mL. Pipet 1 mL of this solution, add 5 mL of sodium hydroxide TS and exactly 1 mL of the internal standard solu-tion, shake vigorously for 1 minute, and use the upper layer liquid obtained after allowing it to stand as the standard peak area of N,N-dimethylaniline to that of the internal standard with the standard solution. System performance: Dissolve 50 mg of N,N-dimethylani-line in cyclohexane to make 50 mL. To 1 mL of this solution add the internal standard solution to make 50 mL, and use this solution as the solution for system suitability test. When the procedure is run with 1 mL of the solution for system suitability test under the above operating conditions, N,N-dimethylaniline and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 1 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the ratios of the peak area of N,N-dimethylaniline to that of the internal standard is not more than 2.0z. Water <2.48> 12.0 – 15.0z (0.1 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Ampicillin Hydrate and Ampicillin RS, equivalent to about 50 mg (potency), dis-solve in a suitable volume of the mobile phase, add exactly 5 mL each of the internal standard solution and the mobile phase to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of ampicillin to that of the internal standard. solution. Perform the test with 1 mL each of the sample Amount [ mg (potency)] of ampicillin (C H N O S) solution and standard solution as directed under Gas Chro-matography <2.02> according to the following conditions, ＝ MS × QT/QS × 1000 16 19 3 4 calculate the ratios, QT and QS, of the peak area of N,N-dimethylaniline to that of the internal standard, and calcu-late the amount of N,N-dimethylaniline by the following equation: not more than 20 ppm. Amount (ppm) of N,N-dimethylaniline ＝ MS/MT × QT/QS × 400 MS: Amount (g) of N,N-dimethylaniline taken MT: Amount (g) of Ampicillin Hydrate taken Internal standard solution—A solution of naphthalene in cyclohexane (1 in 20,000). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 2.6 mm in inside diameter and 2 m in length, packed with siliceous earth for gas chromatog-raphy (180 – 250 mm in particle diameter) coated with 50z phenyl-50z methyl polysiloxane for gas chromatography at the ratio of 3z. Column temperature: A constant temperature of about 1209C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of N,N-dimethylaniline is about 5 minutes. System suitability— Test for required detectability: Measure exactly 1 mL of the standard stock solution, and add water to make exactly 250 mL. Pipet 1 mL of this solution, add 5 mL of sodium hydroxide TS and exactly 1 mL of the internal standard solu-tion, shake vigorously for 1 minute, and use the upper layer liquid obtained after allowing it to stand for the test. Con-firm that when the procedure is run with 1 mL of the upper layer liquid under the above operating conditions, the ratio of the peak area of N,N-dimethylaniline to that of the inter-nal standard is equivalent to 15 to 25z of the ratio of the MS: Amount [mg (potency)] of Ampicillin RS taken Internal standard solution—A solution of guaifenesin in the mobile phase (1 in 200). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 5.94 g of diammonium hydrogen-phosphate in 850 mL of water, add 100 mL of acetonitrile, adjust the pH to 5.0 with phosphoric acid, and add water to make exactly 1000 mL. Flow rate: Adjust so that the retention time of ampicillin is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, ampicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 40. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ampicillin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

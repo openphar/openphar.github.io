@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-stearate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Stearate",
+    "ja": "ステアリン酸カルシウム"
+  },
+  "monographId": "JP18-calcium-stearate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Stearate mainly consists of calcium salts of stearic acid (C18H36O2: 284.48) and palmitic acid (C16H32O2: 256.42). Calcium Stearate, when dried, contains not less than 6."
+  },
+  "appearance": {
+    "en": "Calcium Stearate occurs as a white, light, bulky powder. It feels smooth when touched, and is adhesive to the skin. It is odorless or has a faint, characteristic odor. It is practically insoluble in water, in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 3 g of Calcium Stearate with 20 mL of diluted hydrochloric acid (1 in 2) and 30 mL of diethyl ether for 3 minutes, and allow to stand: the separated aqueous layer responds to Qualitative Tests <1.09> (1), (2) and (4) for calcium salt. (2) Wash the diethyl ether layer obtained in (1) with 20 mL and 10 mL of dilute hydrochloric acid and 20 mL of water successively, and evaporate the diethyl ether on a water bath: the residue melts <1.13> at a temperature not ‌610 below 549C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Heat gently 1.0 g of Calcium Stearate with caution at the beginning, and heat further, gradually raising the temperature, to incineration. After cooling, add 2 mL of hydrochloric acid, evaporate on a water bath to dryness, warm the residue with 20 mL of water and 2 mL of dilute acetic acid for 2 minutes, cool, filter, and wash the residue with 15 mL of water. Combine the filtrate and the washings, add water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution by evaporating 2 mL of hydrochlo-ric acid on a water bath to dryness and by adding 2 mL of dilute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). (2) Arsenic <1.11>—To 1.0 g of Calcium Stearate add 5 mL of diluted hydrochloric acid (1 in 2) and 20 mL of chlo-roform, shake vigorously for 3 minutes, allow to stand, and separate the water layer. Perform the test with the water layer as the test solution (not more than 2 ppm). Loss on drying <2.41> Not more than 4.0z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Calcium Stearate, previously dried, heat gently with caution at first, and then ignite gradually to ash. Cool, add 10 mL of dilute hydro-chloric acid to the residue, warm for 10 minutes on a water bath, and transfer the contents to a flask with the aid of 10-mL, 10-mL, and 5-mL portions of hot water. Add so-dium hydroxide TS until the solution becomes slightly turbid, and then add 25 mL of 0.05 mol/L disodium dihy-drogen ethylenediamine tetraacetate VS, 10 mL of ammonia-ammonium chloride buffer solution (pH 10.7), 4 drops of eriochrome black T TS and 5 drops of methyl yellow TS, and titrate <2.50> rapidly the excess disodium dihydrogen ethylenediamine tetraacetate with 0.05 mol/L magnesium chloride VS, until the green color of the solution disappears and a red color develops. Perform a blank determination in the same manner. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.004 mg of Ca"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

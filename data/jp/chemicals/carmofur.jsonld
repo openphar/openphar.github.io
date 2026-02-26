@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carmofur",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carmofur",
+    "ja": "カルモフール"
+  },
+  "monographId": "JP18-carmofur",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H16FN3O3",
+  "molecularWeight": 257.26,
+  "definition": {
+    "en": "Carmofur, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Carmofur occurs as a white crystalline pow-der. It is very soluble in N,N-dimethylformamide, freely solu-ble in acetic acid (100), soluble in diethyl ether, sparingly soluble in methanol and in ethanol (99.5), and practically in-soluble in water. Melting point: about 1119C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Proceed with 5 mg of Carmofur as di-rected under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid, and prepare the test solution: the test solution responds to Qualitative Tests <1.09> (2) for fluoride. Determine the absorption spectrum of a solution of Carmofur in a mixture of methanol and phosphoric acid-acetic acid-boric acid buffer solution (pH 2.0) (9:1) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Car-mofur, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Carmofur according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Dissolve 0.20 g of Carmofur in 10 mL of a mixture of methanol and acetic acid (100) (99:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of methanol and acetic acid (100) (99:1) to make exactly 500 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 15 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of toluene and acetone (5:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot from the sample solution are not more intense than the spot from the standard solution. After exposure of the plate to bromine vapor for 30 second, spray evenly a solution of fluorescein in ethanol (95) (1 in 2500): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 509C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Carmofur, previ-ously dried, dissolve in 20 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L tetramethylammonium hy-droxide-methanol VS until the color of the solution changes from yellow through blue-green to blue (indicator: 3 drops of thymol blue-dimethylformamide TS). Each mL of 0.1 mol/L tetramethylammonium hydroxide-methanol VS ＝ 25.73 mg of C11H16FN3O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/medicinal-carbon",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Medicinal Carbon",
+    "ja": "薬用炭"
+  },
+  "monographId": "JP18-medicinal-carbon",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Medicinal Carbon occurs as a black, odorless and tasteless powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Place 0.5 g of Medicinal Carbon in a test tube, and heat by direct application of flame with the aid of a current of air: it burns without any flame. Pass the evolved gas through calcium hydroxide TS: a white turbidity is pro-duced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Boil 3.0 g of Medicinal Carbon with 60 mL of water for 5 minutes, allow to cool, dilute to 60 mL with water, and filter: the filtrate is colorless and neutral. Chloride <1.03>—Take 4.0 mL of the filtrate ob- tained in (1) in a Nessler tube, add 6 mL of dilute nitric acid and sufficient water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.80 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.142z). Sulfate <1.14>—Take 5 mL of the filtrate obtained in in a Nessler tube, add 1 mL of dilute hydrochloric acid and sufficient water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.192z). Sulfide—Boil 0.5 g of Medicinal Carbon with a mix-ture of 15 mL of dilute hydrochloric acid and 10 mL of water: lead (II) acetate paper does not become brown when held in the evolved gas within 5 minutes. Cyanogen compounds—Place a mixture of 5 g of Medicinal Carbon, 2 g of L-tartaric acid and 50 mL of water in a distilling flask connected to a condenser provided with a tightly fitting adapter, the end of which dips below the sur-face of a mixture of 2 mL of sodium hydroxide TS and 10 mL of water, contained in a small flask surrounded by ice. Heat the mixture in the distilling flask to boiling, and distil to 25 mL. Dilute the distillate with water to 50 mL. To 25 mL of the diluted distillate add 1 mL of a solution of iron (II) sulfate heptahydrate (1 in 20), heat the mixture almost to boiling, cool, and filter. To the filtrate add 1 mL of hydro-chloric acid and 0.5 mL of dilute iron (III) chloride TS: no blue color is produced. Acid soluble substances—To about 1 g of Medicinal Carbon, accurately weighed, add 20 mL of water and 5 mL of hydrochloric acid, boil for 5 minutes, filter, wash the residue with 10 mL of hot water, and add the washings to the filtrate. Add 5 drops of sulfuric acid to the filtrate, evapo-rate to dryness, and ignite the residue strongly: the mass of the residue is not more than 3.0z. Heavy metals <1.07>—Proceed with 0.5 g of Medici- nal Carbon according to Method 2, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 50 ppm). Zinc—Ignite 0.5 g of Medicinal Carbon to ash, add 5 mL of dilute nitric acid to the residue, boil gently for 5 minutes, filter, wash with 10 mL of water, and combine the washings and the filtrate. Add 3 mL of ammonia TS to the solution, filter again, wash with water, combine the wash-ings and the filtrate, add another washing to make 25 mL, add 1 drop of sodium sulfide TS, and allow to stand for 3 minutes: the liquid produces no turbidity. Arsenic <1.11>—Prepare the test solution with 1.0 g of Medicinal Carbon according to Method 3, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 15.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 4z (1 g). Adsorptive power (1) Add 1.0 g of Medicinal Carbon, previously dried, to 100 mL of water containing 120 mg of quinine sulfate hydrate, shake the mixture vigorously for 5 minutes, filter immediately, and reject the first 20 mL of the filtrate. Add 5 drops of iodine TS to 10 mL of the subse-quent filtrate: no turbidity is produced. Dissolve 250 mg of methylene blue trihydrate, exactly weighed, in water to make exactly 250 mL. Measure two 50-mL portions of this solution into each of two glass-stoppered flasks. To one flask add exactly 250 mg of Medici-nal Carbon, previously dried, and shake vigorously for 5 minutes. Filter the contents of each flask, rejecting the first 20 mL of each filtrate. Pipet 25-mL portions of the remain-ing filtrate into two 250-mL volumetric flasks. To each volu- ‌metric flask add 50 mL of a solution of sodium acetate trihy-drate (1 in 10), then add exactly 35 mL of 0.05 mol/L iodine VS with swirling. Allow them to stand for 50 minutes, shak-ing vigorously from time to time. Dilute each mixture to ex-actly 250 mL with water, allow to stand for 10 minutes, and filter each solution at a temperature not exceeding 209C, rejecting the first 30 mL of each filtrate. Titrate <2.50> the excess iodine in a 100-mL aliquot of each filtrate with 0.1 mol/L sodium thiosulfate VS. The difference between the two titrations is not less than 1.2 mL.‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

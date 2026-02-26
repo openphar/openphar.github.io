@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/disopyramide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Disopyramide",
+    "ja": "ジソピラミド"
+  },
+  "monographId": "JP18-disopyramide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H29N3O",
+  "molecularWeight": 339.47,
+  "casNumber": "3737-09-5",
+  "definition": {
+    "en": "Disopyramide contains not less than 98."
+  },
+  "appearance": {
+    "en": "Disopyramide occurs as white, crystals or crys-talline powder. It is very soluble in methanol and in ethanol (95), freely soluble in acetic anhydride, in acetic acid (100) and in diethyl ether, and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Disopyramide in ethanol (95) (1 in 20) add 10 mL of 2,4,6-trinitrophenol TS, and warm: a yellow precipitate is formed. Filter this pre-cipitate, wash with water, and dry at 1059C for 1 hour: the residue melts <2.60> between 1729C and 1769C. Determine the absorption spectrum of a solution of Disopyramide in 0.05 mol/L sulfuric acid-methanol TS (1 in 25,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab- pal spot obtained from the sample solution are not more in-tense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, 809C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Disopyramide, dis-solve in 30 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 16.97 mg of C21H29N3O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

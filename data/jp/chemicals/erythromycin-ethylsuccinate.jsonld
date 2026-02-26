@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/erythromycin-ethylsuccinate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Erythromycin Ethylsuccinate",
+    "ja": "エリスロマイシンエチルコハク酸エステル"
+  },
+  "monographId": "JP18-erythromycin-ethylsuccinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C43H75NO16",
+  "molecularWeight": 862.05,
+  "casNumber": "41342-53-4",
+  "definition": {
+    "en": "Erythromycin Ethylsuccinate is a derivative of erythromycin. It contains not less than 780 mg (potency) and not more than 900 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Erythromycin Ethylsuccinate occurs as a white powder. It is freely soluble in methanol and in acetone, soluble in ethanol (95), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 3 mg of Erythromycin Ethyl-succinate in 2 mL of acetone, and add 2 mL of hydrochloric acid: an orange color develops and is immediately changed to red to deep purple. Determine the infrared absorption spectrum of Erythromycin Ethylsuccinate, previously dried in a desicca-tor (reduced pressure, silica gel) for 24 hours, as directed in the potassium bromide disk method under Infrared Spectro- ‌JP XVIII Official Monographs / Erythromycin Lactobionate 957 photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Water <2.48> Not more than 5.0z (0.5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Staphylococcus aureus ATCC 6538 P Culture medium—Use the medium i in 3) Medium for other organisms under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 7.8 to 8.0 after sterilization. Standard solutions—Weigh accurately an amount of Erythromycin RS, equivalent to about 50 mg (potency), dis-solve in 50 mL of methanol, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 100 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 59C or below and use within 7 days. Take exactly a suitable amount of the standard stock solu-tion before use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration standard solution and the low concentra-tion standard solution, respectively. Sample solutions—Weigh accurately an amount of Erythromycin Ethylsuccinate, equivalent to about 50 mg (potency), dissolve in 50 mL of methanol, and add 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 100 mL. Take exactly a suitable amount of the solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solu-tions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

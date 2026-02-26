@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/saussureae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Saussureae Radix",
+    "ja": "モッコウ"
+  },
+  "monographId": "JP18-saussureae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly cylindrical roots, 5 – 20 cm in length, 1 – 6 cm in diameter; some of them slightly bent, and some-times longitudinally cut; scar of stem dented on the top of the root with crown; externally yellow-brown to grayish brown, with coarse longitudinal wrinkles and fine reticulate furrows, and also with remains of lateral roots; sometimes root from which periderm has been removed; hard and dense ‌JP XVIII Crude Drugs and Related Drugs / Scopolia Rhizome 2133 ‌in texture, and difficult to break. A transverse section is yellow-brown to dark brown, and cambium part has a dark color. Under a magnifying glass, a transverse section reveal obvious medullary rays, large clefts here and there, and brown oil sacs scattered; in old root, pith existing in the cen-ter, and often forming a hollow.‌ Odor, characteristic; taste, bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Saussurea Root add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of hexane and acetone (7:3) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, heat the plate at 1059C for 5 minutes, and cool: a red-purple spot at an Rf value of about 0.5 and a grayish blue to grayish brown spot just below it are observed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Saussurea Root according to Method 3, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Saussurea Root according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Add iodine TS dropwise to a trans-verse section: no blue-purple color develops. Total ash <5.01> Not more than 4.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 17.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

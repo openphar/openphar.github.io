@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fursultiamine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fursultiamine Hydrochloride",
+    "ja": "フルスルチアミン塩酸塩"
+  },
+  "monographId": "JP18-fursultiamine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H26N4O3S2.HCl",
+  "molecularWeight": 435.0,
+  "definition": {
+    "en": "Fursultiamine Hydrochloride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fursultiamine Hydrochloride occurs as white, crystals or crystalline powder. It is odorless or has a charac-teristic odor, and has a bitter taste. It is freely soluble in water, in methanol and in ethanol (95). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Fursultiamine Hydro-chloride in 6 mL of 0.1 mol/L hydrochloric acid TS, add 0.1 g of zinc powder, allow to stand for several minutes, and filter. To 3 mL of the filtrate, add 3 mL of sodium hy-droxide TS and 0.5 mL of potassium hexacyanoferrate (III) TS, then add 5 mL of 2-methyl-1-propanol, shake vigorously for 2 minutes, allow to stand to separate the 2-methyl-1-propanol layer, and examine under ultraviolet light (main wavelength: 365 nm): the 2-methyl-1-propanol layer shows a blue-purple fluorescence. The fluorescence disappears by acidifying, and appears again by alkalifying. Determine the infrared absorption spectrum of Fur-sultiamine Hydrochloride, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 24 hours, as directed in the potassium bromide disk method under Infrared Spec-trophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Fursultiamine Hy- ‌1052‌ drochloride RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 24 hours: both spectra exhibit similar intensities of absorption at the same wave numbers. If any differences appear, dissolve the Fursultiamine Hydro-chloride in water, evaporate the water, and dry the residue in a desiccator (in vacuum, phosphorus (V) oxide) for 24 hours, and repeat the test. A solution of Fursultiamine Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Fursultiamine Hydrochloride in 20 mL of water: the solu-tion is clear and colorless. Sulfate <1.14>—Proceed with 1.5 g of Fursultiamine Hydrochloride, and perform the test. Prepare the control so-lution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.011z). Heavy metals <1.07>—Proceed with 1.0 g of Fursul- tiamine Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.10 g of Fursultiamine Hydrochloride in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condition. Determine each peak area of each solution by the automatic integration method: the total area of the peaks other than fursultiamine obtained from the sample solution is not larger than the peak area of fursultiamine from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, flow rate, and selection of column: Proceed as directed in the operating conditions in the Assay. Detection sensitivity: Adjust the detection sensitivity so that the peak height of fursultiamine from 10 mL of the standard solution is between 20 mm and 30 mm. Time span of measurement: About 3 times as long as the retention time of fursultiamine. aminobenzoate in ethanol (95) (3 in 400). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: Dissolve 1.01 g of sodium 1-heptane sul-fonate in 1000 mL of diluted acetic acid (100) (1 in 100). To 675 mL of this solution add 325 mL of a mixture of metha-nol and acetonitrile (3:2). Flow rate: Adjust so that the retention time of Fursultia-mine is about 9 minutes. Selection of column: Proceed with 10 mL of the standard solution under the above operating conditions and calculate the resolution. Use a column giving elution of fursultiamine and the internal standard in this order with the resolution be-tween these peaks being not less than 10."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

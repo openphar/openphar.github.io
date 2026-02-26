@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/adeps-suillus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Adeps Suillus",
+    "ja": "豚脂"
+  },
+  "monographId": "JP18-adeps-suillus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Lard occurs as a white, soft, unctuous mass, and has a faint, characteristic odor and a bland taste. It is freely soluble in diethyl ether and in petroleum ether, very slightly soluble in ethanol (95), and practically insoluble in water. Melting point: 36 – 429C Congealing point of the fatty acids: 36 – 429C Acid value <1.13> Not more than 2.0. Saponification value <1.13> 195 – 203 Iodine value <1.13> 46 – 70"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Moisture and coloration—Melt 5 g of Lard by heating on a water bath: it forms a clear liquid, from which no water separates. Observe the liquid in a layer 10 mm thick: the liquid is colorless to slightly yellow. Alkalinity—To 2.0 g of Lard add 10 mL of water, melt by warming on a water bath, and shake vigorously. After cooling, add 1 drop of phenolphthalein TS to the sepa-rated aqueous layer: the layer is colorless. Chloride <1.03>—To 1.5 g of Lard add 30 mL of ethanol (95), heat under a reflux condenser for 10 minutes, and filter after cooling. To 20 mL of the filtrate add 5 drops of a solution of silver nitrate in ethanol (95) (1 in 50): the opalescence of the mixture does not exceed that of the fol-lowing control solution. Control solution: To 1.0 mL of 0.01 mol/L hydrochloric acid VS add ethanol (95) to make 20 mL, and add 5 drops of a solution of silver nitrate in ethanol (95) (1 in 50). Beef tallow—Dissolve 5 g of Lard in 20 mL of diethyl ether, stopper lightly with absorbent cotton, and allow to stand at 209C for 18 hours. Collect the separated crystals, moisten them with ethanol (95), and examine under a micro-scope of 200 magnifications: the crystals are in the form of rhomboidal plates grouped irregularly, and do not contain prisms or needles grouped in fan-shaped clusters."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

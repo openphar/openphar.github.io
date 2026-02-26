@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/timepidium-bromide-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Timepidium Bromide Hydrate",
+    "ja": "チメピジウム臭化物水和物"
+  },
+  "monographId": "JP18-timepidium-bromide-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H22BrNOS2.H2O",
+  "molecularWeight": 418.41,
+  "definition": {
+    "en": "Timepidium Bromide Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Timepidium Bromide Hydrate occurs as white, crystals or crystalline powder. It is very soluble in methanol and in acetic acid (100), freely soluble in ethanol (99.5), sparingly soluble in water and in acetic anhydride, and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Timepidium Bromide Hydrate in 100 mL of freshly boiled and cooled water is between 5.3 and 6.3. A solution of Timepidium Bromide Hydrate in methanol (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Timepidium Bromide Hydrate (1 in 100) add 1 mL of ninhydrin-sulfuric acid TS: a red purple color develops. ‌Determine the absorption spectrum of a solution of Timepidium Bromide Hydrate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Timepidium Bromide Hydrate as directed in the potassium bromide disk method under the Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at Timolol Maleate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/ipecac-syrup",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-ipecac-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Ipecac Syrup",
+    "la": "Ipecac Syrup is a syrup containing not less than",
+    "ja": "トコンシロップ"
+  },
+  "definition": {
+    "en": "not more than 1"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/ipecac-syrup-glycerin-and-simple-syrup"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/alendronate-sodium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Alendronate Sodium Hydrate",
+    "ja": "アレンドロン酸ナトリウム水和物"
+  },
+  "monographId": "JP18-alendronate-sodium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Alendronate Sodium Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Alendronate Sodium Hydrate occurs as a white crystalline powder. It is sparingly soluble in water, and practically insoluble in ethanol (99.5). It dissolves in 0.1 mol/L trisodium citrate TS. Melting point: about 2529C (with decomposition, after drying)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Alendronate Sodium Hydrate (1 in 50) add 1 mL of ninhydrin TS, and heat: a blue-purple color develops. Determine the infrared absorption spectrum of Alen-dronate Sodium Hydrate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Alendronate Sodium RS: both spectra ex-hibit similar intensities of absorption at the same wave num-bers. To 0.1 g of Alendronate Sodium Hydrate add 10 mL of a mixture of nitric acid and perchloric acid (1:1). Heat to concentrate to about 1 mL, add about 10 mL of water while hot, and neutralize with a solution of sodium hydroxide (2 in 5): the solution responds to Qualitative Tests <1.09> for phosphate. A solution of Alendronate Sodium Hydrate (1 in 100) responds to Qualitative Tests <1.09> for sodium salt. pH <2.54> The pH of a solution of 1.0 g of Alendronate Sodium Hydrate in 100 mL of freshly boiled and cooled water is between 4.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Put 1.0 g of Alen-dronate Sodium Hydrate in a Kjeldahl flask, add 9 mL of a mixture of nitric acid and sulfuric acid (5:4), and heat until the solution becomes brown. After cooling, add 9 mL of a mixture of nitric acid and sulfuric acid (5:4), and heat again until the color changes from colorless to brown. After cool-ing, add 2 mL of nitric acid, strongly heat until brown fumes are no longer evolved, and heat until large amounts of white fumes are evolved. After cooling, add carefully 5 mL of water and 1 mL of hydrogen peroxide (30), heat until white fumes are no longer evolved, and continue heating for more 5 minutes. After cooling, if any yellow color remains, add 2 mL of nitric acid, and repeat the same procedure. After cooling, transfer the solution in the Kjeldahl flask to a beaker, wash out the inside of the flask with 5 mL of water, and add the washing to the beaker. Adjust to pH 3 – 5 with ammonia solution (28), transfer to a Nessler tube, add water to make 50 mL, and perform the test with this solution as the test solution. Prepare the control solution in the same proce-dure using the same amount of the reagents used for the preparation of the sample solution, add 1.0 mL of Standard Lead Solution and add water to make 50 mL (not more than 10 ppm). (2) Related substances—Dissolve 15 mg of Alendronate Sodium Hydrate in 25 mL of 0.1 mol/L trisodium citrate TS, and use this solution as the sample stock solution. Pipet 5 mL of the sample stock solution, and add 0.1 mol/L triso-dium citrate TS to make exactly 50 mL. Pipet 1 mL of this solution, add 0.1 mol/L trisodium citrate TS to make exactly 100 mL, and use this solution as the standard stock solution. To exactly 5 mL each of the sample stock solution and standard stock solution, add exactly 5 mL each of a solution of sodium tetraborate decahydrate (19 in 1000), acetonitrile and a solution of 9-fluorenylmethyl chloroformate in aceto-nitrile (1 in 250), shake for 45 seconds, and allow to stand for 30 minutes at room temperature. Then, add 20 mL of dichloromethane to them, shake for 60 seconds, centrifuge, and use the supernatant liquids so obtained as the sample solution and the standard solution, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of these solutions by the automatic integration method: each peak area other than alendronic acid obtained from the sample solution is not larger than the peak area of alendronic acid from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 459C. Mobile phase A: Dissolve 2.94 g of trisodium citrate dihy-drate and 1.42 g of anhydrous disodium hydrogen phosphate in 900 mL of water, adjust to pH 8.0 with phosphoric acid, and add water to make 1000 mL. To 850 mL of this solution add 150 mL of acetonitrile for liquid chromatography. Mobile phase B: Dissolve 2.94 g of trisodium citrate dihy-drate and 1.42 g of anhydrous disodium hydrogen phosphate in 900 mL of water, adjust to pH 8.0 with phosphoric acid, and add water to make 1000 mL. To 300 mL of this solution add 700 mL of acetonitrile for liquid chromatography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 15 100 → 50 0 → 50 15 – 25 50 → 0 50 → 100 Flow rate: About 1.8 mL per minute. Time span of measurement: About 5 times as long as the retention time of alendronic acid, beginning after the solvent peak. System suitability— System performance: Dissolve 15 mg of Alendronate So-dium Hydrate and 2 mg of 4-aminobutylic acid in 100 mL of 0.1 mol/L trisodium citrate TS. To 5 mL of this solution add 5 mL each of a solution of sodium tetraborate decahydrate (19 in 1000), acetonitrile and a solution of 9-fluorenylmethyl chloroformate in acetonitrile (1 in 250), then, proceed in the same manner as the sample solution. When the procedure is run with 20 mL of this solution under the above operating conditions, alendronic acid and 4-aminobutylic acid are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of alendronic acid is not more than 2.0z. Loss on drying <2.41> 16.1 – 17.1z (1 g, 1409C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Alendronate Sodium Hydrate and Alendronate Sodium RS (separately determine the loss on drying <2.41> in the same conditions as Alendronate Sodium Hydrate), dissolve in 0.1 mol/L triso-dium citrate TS to make exactly 100 mL, and use these solu-tions as the sample stock solution and the standard stock so- ‌lution, respectively. To exactly 5 mL each of these solutions add exactly 5 mL each of a solution of sodium tetraborate decahydrate (19 in 1000) and a solution of 9-fluorenylmethyl chloroformate in acetonitrile (1 in 2000), shake for 30 seconds, and allow to stand for 25 minutes. Then, add 25 mL of dichloromethane, shake for 60 seconds, centrifuge, and use the supernatant liquids so obtained as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of alendronic acid in each solu-tion. Amount (mg) of alendronate sodium (C4H12NNaO7P2) ＝ MS × AT/AS MS: Amount (mg) of Alendronate Sodium RS taken, cal-culated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 14.7 g of trisodium citrate dihy-drate and 7.1 g of anhydrous disodium hydrogen phosphate in 900 mL of water, adjust to pH 8.0 with phosphoric acid, and add water to make 1000 mL. To 700 mL of this solution add 250 mL of acetonitrile for liquid chromatography and 50 mL of methanol. Flow rate: Adjust so that the retention time of alendronic acid is about 3 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of alendronic acid are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of alendronic acid is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

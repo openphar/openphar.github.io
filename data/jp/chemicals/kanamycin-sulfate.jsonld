@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kanamycin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kanamycin Sulfate",
+    "ja": "カナマイシン硫酸塩"
+  },
+  "monographId": "JP18-kanamycin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Kanamycin Sulfate is the sulfate of an aminoglyco-side substance having antibacterial activity produced by the growth of Streptomyces kanamyceticus. It contains not less than 690 mg (potency) and not more than 740 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Kanamycin Sulfate occurs as a white to yellow-white powder. It is very soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 mg each of Kanamycin Sul-fate and Kanamycin Monosulfate RS in 1 mL of water, and use these solutions as the sample solution and standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, ammonia solution (28) and methanol (2:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the principal spot obtained from the sample solution and the spot from the standard solution show a purple-brown color and the same Rf value. (2) A solution of Kanamycin Sulfate (1 in 10) responds ‌1220 to Qualitative Test <1.09> (1) for sulfate. D Optical rotation <2.49> [a]20: ＋103 – ＋1159(0.5 g calcu-lated on the dried basis, water, 50 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Kanamycin Sulfate in 20 mL of water is between 6.0 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.5 g of Kanamycin Sulfate in 5 mL of water: the solution is clear. Determine the absorbance of this solution at 400 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: not more than 0.15. Heavy metals <1.07>—Proceed with 1.0 g of Kanamy- cin Sulfate according to Method 4, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Kanamycin Sulfate according to Method 3, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.30 g of Kanamycin Sulfate in water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 9.0 mg of Kanamycin Monosulfate RS in water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potas-sium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of nin-hydrin in 1-butanol (1 in 100) on the plate, and heat the plate at 1109C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Kanamycin Monosulfate RS, previously dried, equivalent to about 20 mg (potency), dissolve in diluted phosphate buffer solution (pH 6.0) (1 in 2) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution between 5 and 159C and use within 30 days. Take exactly a suitable amount of the standard stock solution before use, add 0.1 mol/L phosphate buffer solu-tion (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as Description Kanamycin Sulfate occurs as a white to yellow-white powder. It is very soluble in water, and practically insoluble in ethanol (99.5). Identification (1) Dissolve 20 mg each of Kanamycin Sul-fate and Kanamycin Monosulfate RS in 1 mL of water, and use these solutions as the sample solution and standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, ammonia solution (28) and methanol (2:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the principal spot obtained from the sample solution and the spot from the standard solution show a purple-brown color and the same Rf value. (2) A solution of Kanamycin Sulfate (1 in 10) responds ‌1220 to Qualitative Test <1.09> (1) for sulfate. D Optical rotation <2.49> [a]20: ＋103 – ＋1159(0.5 g calcu-lated on the dried basis, water, 50 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Kanamycin Sulfate in 20 mL of water is between 6.0 and 7.5. Purity (1) Clarity and color of solution—Dissolve 1.5 g of Kanamycin Sulfate in 5 mL of water: the solution is clear. Determine the absorbance of this solution at 400 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: not more than 0.15. Heavy metals <1.07>—Proceed with 1.0 g of Kanamy- cin Sulfate according to Method 4, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Kanamycin Sulfate according to Method 3, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.30 g of Kanamycin Sulfate in water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 9.0 mg of Kanamycin Monosulfate RS in water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potas-sium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of nin-hydrin in 1-butanol (1 in 100) on the plate, and heat the plate at 1109C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Assay Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer having pH 7.8 to 8.0 after sterilization. Standard solutions—Weigh accurately an amount of Kanamycin Monosulfate RS, previously dried, equivalent to about 20 mg (potency), dissolve in diluted phosphate buffer solution (pH 6.0) (1 in 2) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 5 to 159C and use within 30 days. Take exactly a suitable amount of the standard stock solution be-fore use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high con-centration standard solution and the low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Kanamycin Sulfate, equivalent to about 20 mg (potency), and dissolve in water to make exactly 50 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

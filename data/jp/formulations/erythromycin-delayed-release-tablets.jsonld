@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/erythromycin-delayed-release-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Erythromycin Delayed-release Tablets",
+    "ja": "エリスロマイシン腸溶錠"
+  },
+  "monographId": "JP18-erythromycin-delayed-release-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Erythromycin Delayed-release Tablets, equivalent to 10 mg (potency) of Erythromycin, add 1 mL of methanol, shake well, filter, and use the filtrate as the sample solution. Separately, dissolve 10 mg of Erythromycin RS in 1 mL of methanol, and use this solution as the standard solution. Then, proceed as directed in the Identification (2) under Erythromycin. Loss on drying <2.41> Not more than 10.0z (0.2 g, in vacuum not exceeding 0.67 kPa, 609C, 3 hours). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Disintegration <6.09> It meets the requirement. For the test with 2nd fluid for disintegration test, use the disk."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, and standard solu-tions—Proceed as directed in the Assay under Erythromy-cin. Sample solutions—Weigh accurately the mass of not less than 20 Erythromycin Delayed-release Tablets, and powder. Weigh accurately a portion of the powder, equiva-lent to about 25 mg (potency) of Erythromycin, add 25 mL of methanol, shake vigorously, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 100 mL, and filter. Take exactly an appropriate volume of the filtrate, add 0.1 mol/L phosphate buffer solution (pH 8.0) to prepare solu-tions containing 20 mg (potency) and 5 mg (potency) per mL, and use these solutions as the high and the low concentration sample solutions, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

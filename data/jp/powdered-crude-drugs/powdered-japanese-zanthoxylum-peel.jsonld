@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-japanese-zanthoxylum-peel",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-japanese-zanthoxylum-peel",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Japanese Zanthoxylum Peel",
+    "la": "Zanthoxyli Piperiti Pericarpium Pulveratum",
+    "ja": "サンショウ末"
+  },
+  "definition": {
+    "en": "not less than 0"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/japanese-zanthoxylum-peel"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 2"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

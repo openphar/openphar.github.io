@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/vitamin-c-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Vitamin C Powder",
+    "ja": "アスコルビン酸散"
+  },
+  "monographId": "JP18-vitamin-c-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a portion of Ascorbic Acid Pow- Ascorbic Acid and Calcium Pantothenate Tablets"
+      }
+    }
+  ],
+  "dosageForm": "Powder"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cistanchis-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cistanchis Herba",
+    "ja": "ニクジュヨウ"
+  },
+  "monographId": "JP18-cistanchis-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "1) Cistanche salsa origin—Flatly cylindrical, 5 – 25 cm in length, 1 – 2.5 cm in diameter; the one end mostly slightly narrow and curved; external surface brown to blackish brown, covered with thick scales; fleshy and solid, slightly soft and oily, hardly broken; fractured surface yellow-brown to brown, vascular bundles light brown and arranged in a wavy ring. Odor, characteristic; taste, slightly sweet, followed by slight bitterness. Under a microscope <5.01> a transverse section of middle part reveals the outermost part is an epidermis coated with cuticle; cortex composed of parenchyma; collateral vascular bundles fusiform or rhombic and arranged in a wavy ring in the inner portion of cortex; groups of cells with slightly thickened cell walls sometimes attached outside of phloem of collateral vascular bundles, and exhibit tail like form; pith composed of parenchyma; parenchyma contains starch grains or gelatinized starch. Cistanche deserticola origin—Flatly cylindrical, and approximate to 1), but large in size, 5 – 50 cm in length, 1 – 8 cm in diameter. Odor, characteristic; taste, slightly sweet, followed by slight bitterness. Under a microscope <5.01> a transverse section of middle part reveals, approximate to 1). Cistanche tubulosa origin—Flatly fusiform to cylin-drical, slightly curved, 5 – 25 cm in length, 2 – 9 cm in diam-eter; external surface brown to blackish brown, covered with thick scales; solid in texture and firm, hardly broken; frac-tured surface light grayish brown to yellow-brown, vascular bundles yellow-white and scattered throughout the surface. Odor, characteristic; taste, slightly sweet, followed by slight bitterness. Under a microscope <5.01> a transverse section of middle part reveals, approximate to 1) and 2), but collateral vascu-lar bundles distributed throughout the parenchyma from marginal region to the center of transverse section; cells with slightly thickened cell walls observed sometimes around col-lateral vascular bundles, but exhibit no tail like form;"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Cistanche Herb add 5 mL of water and 5 mL of 1-butanol, shake for 15 minutes, centrifuge, and use the 1-butanol layer as the sample solu-tion. Separately, dissolve 1 mg of verbascoside for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution and 10 mL of the standard solution on a plate of silica gel for thin-layer chromatog-raphy. Develop the plate with a mixture of ethyl acetate, methanol and water (20:3:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly 2,6-dibromo-N-chlolo-1,4-benzoquinone monoimine TS on the plate, and allow to stand in an ammonia gas: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Cistanche Herb according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Cistanche Herb according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 20.0z. Total ash <5.01> Not more than 11.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 35.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

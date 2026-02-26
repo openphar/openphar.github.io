@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bucumolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bucumolol Hydrochloride",
+    "ja": "ブクモロール塩酸塩"
+  },
+  "monographId": "JP18-bucumolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H23NO4.HCl",
+  "molecularWeight": 341.83,
+  "casNumber": "36556-75-9",
+  "definition": {
+    "en": "Bucumolol Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Bucumolol Hydrochloride occurs as white, crystals or crystalline powder. It is freely soluble in water, sparingly soluble in methanol and in ethanol (95), slightly soluble in acetic acid (100), and practically insoluble in diethyl ether. Melting point: about 2289C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Bucumolol Hydro-chloride in 10 mL of diluted ethanol (95) (1 in 2), and ob-serve under ultraviolet light (main wavelength: 365 nm): the solution shows a yellow-green fluorescence. Render this so-lution alkaline by adding sodium hydroxide TS: the fluores-cence disappears. Acidify the solution by adding dilute hy-drochloric acid: the fluorescence reappears. Dissolve 0.1 g of Bucumolol Hydrochloride in 5 mL of water, and add 5 drops of Reinecke salt TS: a light red precipitate is formed. Determine the absorption spectrum of a solution of Bucumolol Hydrochloride (1 in 60,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bucumolol Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of solution, add methanol to make exactly 25 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of methanol and ammonia-ammonium chloride buffer solu-tion (pH 10.7) (30:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wave-length: 254 nm): the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Bucumolol Hydro-chloride, previously dried, add 45 mL of acetic acid (100), dissolve by warming at 609C, and cool. Add 105 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchlo-ric acid VS (potentiometric titration). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L perchloric acid VS ＝ 34.18 mg of C17H23NO4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

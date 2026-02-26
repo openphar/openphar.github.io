@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/flomoxef-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Flomoxef Sodium for Injection",
+    "ja": "注射用フロモキセフナトリウム"
+  },
+  "monographId": "JP18-flomoxef-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Flomoxef Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Flomoxef Sodium for Injection occurs as white to light yellow-white, friable masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification (3) under Flomoxef Sodium. pH <2.54> The pH of a solution obtained by dissolving an amount of Flomoxef Sodium for Injection, equivalent to 0.5 g (potency) of Flomoxef Sodium, in 5 mL of water is be-tween 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve an amount of Flomoxef Sodium for Injection, equivalent to 1.0 g (potency) of Flomoxef Sodium, in 10 mL of water: the solution is clear and colorless or pale yellow. (2) 1-(2-Hydroxyethyl)-1H-tetrazol-5-thiol—Use the sample solution obtained in the Assay as the sample solu-tion. Weigh accurately about 20 mg of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 25 mL of the internal standard solution and water to make 50 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol to that of the internal standard. Calculate the amount of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol per 1 g (potency) of Flomoxef Sodium for Injection by the following formula: not more than 10 mg. Amount (mg) of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol (C H N OS) System repeatability: When the test is repeated 3 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol to that of the internal standard is not more than 1.0z. Water <2.48> Not more than 1.5z (0.5 g, volumetric titra-tion, back titration). Bacterial endotoxins <4.01> Less than 0.025 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 Flomoxef Sodium for Injection, and calculate the average mass of the content. Spread out thinly about 1 g of the content in a petri dish, allow the dish to stand in a desic-cator containing a saturated solution of magnesium bromide without light exposure to equilibrate the sample to constant water content. Determine the water content, separately, with about 0.1 g of the sample according to the method described in Water. Weigh accurately an amount of the sample, equivalent to about 50 mg (potency) of Flomoxef Sodium, add exactly 50 mL of the internal standard solution to dis-solve, add water to make 100 mL, and use this solution as the sample solution. Separately weigh accurately about 50 mg (potency) of Flomoxef Triethylammonium RS, add exactly 50 mL of the internal standard solution to dissolve, add water to make 100 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Flomoxef Sodium. Amount [ mg (potency)] of flomoxef (C15H18F2N6O7S2) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Flomoxef Triethylammo-nium RS taken Internal standard solution—A solution of m-cresol (3 in 1000). 3 6 4 ＝ MS × QT/QS × 1/10 MS: Amount (mg) of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol taken Internal standard solution—A solution of m-cresol (3 in 1000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Flomoxef Sodium. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add water to make exactly 20 mL. Confirm that the peak area of 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol obtained with 5 mL of this solution is equivalent to 3.5 – 6.5z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, 1-(2-hydroxyethyl)-1H-tetrazol-5-thiol and the internal standard are eluted in this order with the resolution between these peaks being not less than 20."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injection may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/moutan-cortex-pulveratus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Moutan Cortex Pulveratus",
+    "ja": "ボタンピ末"
+  },
+  "monographId": "JP18-moutan-cortex-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Moutan Bark occurs as a light grayish yellow-brown powder. It has a characteristic odor and a slight, pungent and bitter taste. tone and Rf value with the spot from the standard solution. (2) Evaporate the solvent to dryness 1 mL of the sample solution obtained in (1), dissolve the residue in 50 mL of ethanol (95), and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima at around 228 nm, 274 nm and 313 nm."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Moutan Bark according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Moutan Bark according to Method 4, and per-form the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, usually vessels and other sclerenchymatous cells are not observable. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Powdered Moutan Bark, add 40 mL of methanol, heat under a reflux condenser for 30 minutes, cool, and filter. Repeat the above procedure with the residue, using 40 mL of methanol. Combine all the filtrates, add methanol to make exactly 100 mL, then pipet 10 mL of this solution, add methanol to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of paeonol for assay, dissolve in methanol to make exactly 100 mL, then pipet 10 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of paeonol in each solution. Amount (mg) of paeonol ＝ MS × AT/AS × 1/2 MS: Amount (mg) of paeonol for assay taken, calculated on the basis of the content obtained by qNMR Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 274 nm). ‌JP XVIII Crude Drugs and Related Drugs / Mukoi-Daikenchuto Extract 2075 Column: A stainless steel column 4 to 6 mm in inside di-ameter and 15 to 25 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of water, acetonitrile, and acetic acid (100) (65:35:2). Flow rate: Adjust so that the retention time of paeonol is about 14 minutes. System suitability— System performance: Dissolve 1 mg of paeonol for assay and 5 mg of butyl parahydroxybenzoate for resolution check in methanol to make 25 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, paeonol and butyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of paeonol is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

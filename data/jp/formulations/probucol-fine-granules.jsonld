@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/probucol-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Probucol Fine Granules",
+    "ja": "プロブコール細粒"
+  },
+  "monographId": "JP18-probucol-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Probucol Fine Granules, equivalent to 50 mg of Probucol, add 100 mL of methanol, shake, and filter. To 2 mL of the filtrate add methanol to make 100 mL. Determine the absorption spec-trum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 240 nm and 244 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: the granules in single-dose packages meet the requirement of the Content uniformity test. To the total amount of the content of 1 package of Probucol Fine Granules add 70 mL of methanol, shake thor-oughly, and add methanol to make exactly 100 mL. Centri- fuge, pipet V mL of the supernatant liquid, equivalent to about 5 mg of probucol (C31H48O2S2), add exactly 5 mL of the internal standard solution, add methanol to make 100 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of probucol (C31H48O2S2) ＝ MS × QT/QS × 10/V MS: Amount (mg) of Probucol RS taken Internal standard solution—A solution of bis(cis-3,3,5-trimethylcyclohexyl) phthalate in methanol (1 in 250)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of powdered Probucol Fine Granules, equivalent to about 0.25 g of probucol (C31H48O2S2), add 70 mL of methanol, shake thoroughly, and add methanol to make exactly 100 mL. Centrifuge, pipet 2 mL of the supernatant liquid, add exactly 5 mL of the in-ternal standard solution, add methanol to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Probucol RS, previously dried under reduced pressure at 809C for 1 hour, and dissolve in methanol to make exactly 20 mL. Pipet 2 mL of this solu-tion, add exactly 5 mL of the internal standard solution, add methanol to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of probucol to that of the internal standard. Amount (mg) of probucol (C31H48O2S2) ＝ MS × QT/QS × 5 MS: Amount (mg) of Probucol RS taken Internal standard solution—A solution of bis(cis-3,3,5-trimethylcyclohexyl) phthalate in methanol (1 in 250). Operating conditions— Detector, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Probucol. Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and probucol are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of probucol to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Granule"
+}

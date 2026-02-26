@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/trihexyphenidyl-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Trihexyphenidyl Hydrochloride Tablets",
+    "ja": "トリヘキシフェニジル塩酸塩錠"
+  },
+  "monographId": "JP18-trihexyphenidyl-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Trihexyphenidyl Hydrochloride Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of trihexyphenidyl hydrochloride (C20H31NO.HCl: 337.93). Method of preparation Prepare as directed under Tablets, with Trihexyphenidyl Hydrochloride. Identification (1) Weigh a quantity of powdered Trihexy-phenidyl Hydrochloride Tablets, equivalent to 0.1 g of at 408 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, respectively. Amount (mg) of trihexyphenidyl hydrochloride (C20H31NO.HCl) ＝ MS × AT/AS × V/1000 MS: Amount (mg) of Trihexyphenidyl Hydrochloride RS taken, calculated on the dried basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medi-um, the dissolution rate in 30 minutes of Trihexyphenidyl Hydrochloride Tablets is not less than 70z. Start the test with 1 tablet of Trihexyphenidyl Hydrochlo-ride Tablets, withdraw not less than 30 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL ‌of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 2."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Trihexy-phenidyl Hydrochloride Tablets, equivalent to 0.1 g of at 408 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, respectively. Amount (mg) of trihexyphenidyl hydrochloride (C20H31NO.HCl) ＝ MS × AT/AS × V/1000 MS: Amount (mg) of Trihexyphenidyl Hydrochloride RS taken, calculated on the dried basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medi-um, the dissolution rate in 30 minutes of Trihexyphenidyl Hydrochloride Tablets is not less than 70z. Start the test with 1 tablet of Trihexyphenidyl Hydrochlo-ride Tablets, withdraw not less than 30 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL ‌of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 2.2 mg of trihexyphenidyl hydrochloride (C20H31NO.HCl), and use this solution as the sample solution. Separately, weigh accu-rately about 10 mg of Trihexyphenidyl Hydrochloride RS, previously dried at 1059C for 3 hours, and dissolve in the dissolution medium to make exactly 100 mL. Pipet 2 mL of this solution, add the dissolution medium to make exactly 100 mL, and use this solution as the standard solution. Pipet 20 mL each of the sample solution, the standard solution and the dissolution medium, add exactly 1 mL of diluted acetic acid (31) (1 in 10), and immediately add 5 mL of bromocresol green-sodium hydroxide-acetic acid-sodium acetate TS, and shake. Then, add exactly 10 mL each of dichloromethane, shake well, centrifuge, and take the dichloromethane layer. Determine the absorbances, AT, AS and AB, of these dichloromethane layers at 415 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using dichloromethane as the blank. Dissolution rate (z) with respect to the labeled amount of trihexyphenidyl hydrochloride (C20H31NO.HCl) ＝ MS × (AT － AB)/(AS － AB) × V?/V × 1/C × 18 MS: Amount (mg) of Trihexyphenidyl Hydrochloride RS taken C: Labeled amount (mg) of trihexyphenidyl hydrochloride (C20H31NO.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Tri-hexyphenidyl Hydrochloride Tablets. Weigh accurately a portion of the powder, equivalent to about 5 mg of trihexy-phenidyl hydrochloride (C20H31NO.HCl), dissolve in 2 mL of dilute hydrochloric acid and 60 mL of water by warming on a water bath for 10 minutes with occasional shaking. After cooling, add 2 mL of methanol and water to make ex-actly 100 mL, and use this solution as the sample solution. Dissolve about 50 mg of Trihexyphenidyl Hydrochloride RS (determine previously its loss on drying <2.41> under the same conditions as Trihexyphenidyl Hydrochloride), weighed accurately, in methanol, add methanol to make ex-actly 20 mL. Pipet 2 mL of this solution, add 2 mL of dilute hydrochloric acid and water to make exactly 100 mL, and use this solution as the standard solution. Pipet 10 mL each of the sample solution and standard solution into glass-stoppered centrifuge tubes, add exactly 10 mL each of bromocresol purple-dipotassium hydrogenphosphate-citric acid TS and 15 mL each of chloroform, stopper tightly, shake thoroughly, and centrifuge. Pipet 10 mL each of the chloroform layers, and add chloroform to make exactly 50 mL. Determine the absorbances, AT and AS, of the subse-quent solutions of the sample solution and standard solution at 408 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, respectively. Amount (mg) of trihexyphenidyl hydrochloride (C20H31NO.HCl) ＝ MS × AT/AS × 1/10 MS: Amount (mg) of Trihexyphenidyl Hydrochloride RS taken, calculated on the dried basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

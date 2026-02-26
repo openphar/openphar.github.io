@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/arbekacin-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Arbekacin Sulfate Injection",
+    "ja": "アルベカシン硫酸塩注射液"
+  },
+  "monographId": "JP18-arbekacin-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Arbekacin Sulfate Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Arbekacin Sulfate Injection occurs as a clear and colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.2 mL of Arbekacin Sulfate Injection add 1 mL of water, and use this solution as the sample solu-tion. Separately, dissolve 10 mg of Arbekacin Sulfate RS in 1 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop with a mixture of am-monia solution (28), methanol, chloroform and ethanol (95) (7:6:4:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 809C for 10 minutes: the principal spot obtained from the sample solution and the spot from the standard solution show a purple-brown color and the same Rf value. Osmotic pressure ratio <2.47> 0.8 – 1.2 (for the preparation intended for intramuscular use). pH <2.54> 6.0 – 8.0 Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, Culture medium and Standard solu-tions: Proceed as directed in the Assay under Arbekacin Sul-fate. Sample solutions—Take exactly a volume of Arbeka-cin Sulfate Injection, equivalent to about 20 mg (potency), and add water to make exactly 50 mL. Take exactly a suita-ble amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and low concen-tration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

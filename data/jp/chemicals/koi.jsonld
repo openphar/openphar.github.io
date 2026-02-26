@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/koi",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Koi",
+    "ja": "コウイ"
+  },
+  "monographId": "JP18-koi",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Koi is a saccharized substance obtained by hydroly-sis of the starch of Zea mays Linneá(Gramineae), Manihot esculenta Crantz (Euphorbiaceae), Solanum tuberosum Linneá (Solanaceae), Ipomoea batatas Poiret (Convolvulaceae) or Oryza sativa Linneá (Gramineae), or the seed of Oryza sativa Linneáfrom which the seed coat is removed. Koi is prepared by the following processes 1 or 2, and contains mainly maltose, sometimes glucose and maltotriose also."
+  },
+  "appearance": {
+    "en": "Koi 1: A white crystalline powder. It is odorless and has a sweet taste. Koi 2: Colorless or brown, clear or semi-translucent, masses or viscous liquid. It is odorless and has a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve exactly 0.50 g of Koi in a mixture of water and methanol (1:1) to make exactly 50 mL, and use this solution as the sample solution. Separately, dissolve ex-actly 20.0 mg of maltose hydrate in a mixture of water and methanol (1:1) to make exactly 5 mL, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography in equal size of circular spot each other. Develop the plate with a mixture of 2-butanone, water and acetic acid (100) (3:1:1) to a distance of about 7 cm, and dry at 1059C for 10 minutes the plate. Spray evenly 2,3,5-triphenyl-2H-tetrazolium chlo-ride-methanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the orange spot obtained from the standard solution, and it is larger and more intense than the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—A solution obtained by dissolving 2.0 g of Koi in 20 mL of hot water is practically clear. Heavy metals <1.07> Koi 1: Proceed with 1.0 g of Koi 1 according to Method ‌JP XVIII Crude Drugs and Related Drugs / Purified Lanolin 2061‌ 1, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Koi 2: Proceed with 1.0 g of Koi 2 according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). ‌Arsenic <1.11>—Prepare the test solution with 1.0 g of Koi according to Method 3, and perform the test (not more than 2 ppm). Loss on drying <5.01> Koi 1: Not more than 3.0z (1 g, 809C, 4 hours). Koi 2: Not more than 15.0z (1 g, 809C, 4 hours). In the case where the sample is in masses, crush the masses, weigh accurately the mass, and put in a desiccator. In the case in viscous liquid, put in a weighing bottle to spread about 1 mm thick, weigh accurately the mass, and put the bottle in a desiccator. Total ash <5.01> Not more than 0.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

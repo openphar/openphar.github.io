@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/maltose-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Maltose Hydrate",
+    "ja": "マルトース水和物"
+  },
+  "monographId": "JP18-maltose-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H22O11.H2O",
+  "molecularWeight": 360.31,
+  "casNumber": "6363-53-7",
+  "definition": {
+    "en": "Maltose Hydrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Maltose Hydrate occurs as white, crystals or crystalline powder. It has a sweet taste. It is freely soluble in water, very slightly soluble in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Maltose Hydrate in 5 mL of water, add 5 mL of ammonia TS, and heat for 5 minutes on a water bath: an orange color develops. (2) Add 2 to 3 drops of a solution of Maltose Hydrate (1 in 50) to 5 mL of boiling Fehling TS: a red precipitate is formed. D Optical rotation <2.49> [a]20: ＋126 – ＋1319Weigh accu-rately about 10 g of Maltose Hydrate, previously dried, dis-solve in 0.2 mL of ammonia TS and water to make exactly 100 mL, and determine the optical rotation of this solution in a 100-mm cell. pH <2.54> The pH of a solution of 1.0 g of Maltose Hy-drate in 10 mL of water is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Put 10 g of Mal-tose Hydrate in 30 mL of water in a Nessler tube, warm at 609C in a water bath to dissolve, and after cooling, add water to make 50 mL: the solution is clear, and has no more color than the following control solution. Control solution: Add water to a mixture of 1.0 mL of Cobalt (II) Chloride CS, 3.0 mL of Iron (III) Chloride CS and 2.0 mL of Copper (II) Sulfate CS to make 10.0 mL. To 1.0 mL of this solution add water to make 50 mL. Chloride <1.03>—Perform the test with 2.0 g of Mal-tose Hydrate. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). Sulfate <1.14>—Perform the test with 2.0 g of Mal-tose Hydrate. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Heavy metals <1.07>—Proceed with 5.0 g of Maltose Hydrate according to Method 1, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 4 ppm). Arsenic <1.11>—Dissolve 1.5 g of Maltose Hydrate in 5 mL of water, add 5 mL of dilute sulfuric acid and 1 mL of bromine TS, heat on a water bath for 5 minutes, then heat to concentrate to 5 mL, and use this solution as the test solu-tion after cooling. Perform the test (not more than 1.3 ppm). Dextrin, soluble starch and sulfite—Dissolve 1.0 g of Maltose Hydrate in 10 mL of water, and add 1 drop of iodine TS: a yellow color appears, and the color changes to a blue by adding 1 drop of starch TS. Nitrogen—Weigh accurately about 2 g of Maltose Hydrate, and perform the test as directed under Nitrogen Determination <1.08> using 10 mL of sulfuric acid for the decomposition and 45 mL of a solution of sodium hydroxide (2 in 5) for the addition: the amount of nitrogen (N: 14.01) is not more than 0.01z. Related substances—Dissolve 0.5 g of Maltose Hy-drate in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following oper-ating conditions. Determine the peak areas from both solu-tions by the automatic integration method: the total area of the peaks which appear before the peak of maltose obtained from the sample solution is not larger than 1.5 times the peak area of maltose from the standard solution, and the total area of the peaks which appear after the peak of mal-tose from the sample solution is not larger than 1/2 times the peak area of maltose from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, flow rate, and selection of column: Proceed as directed in the operating conditions in the Assay. Detection sensitivity: Adjust the sensitivity so that the peak height of maltose obtained with 20 mL of the standard solution is about 30 mm. Time span of measurement: About 2 times as long as the ‌retention time of maltose. Loss on drying <2.41> Not more than 0.5z (1 g, 809C, 4 hours). ‌Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g each of Maltose Hy-drate and Maltose RS, previously dried, dissolve in exactly 10 mL each of the internal standard solution, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following operat-ing conditions, and calculate the ratios, QT and QS, of the peak area of maltose to that of the internal standard. Amount (mg) of maltose hydrate (C12H22O11.H2O) ＝ MS × QT/QS MS: Amount (mg) of Maltose RS taken Internal standard solution—A solution of ethylene glycol (1 in 50). Operating conditions— Detector: A differential refractometer. Column: A stainless steel column about 8 mm in inside diameter and about 55 cm in length, packed with gel-type strong acid cation-exchange resin for liquid chromatography (degree of cross-linking: 8 z) (10 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: Water. Flow rate: Adjust so that the retention time of maltose is about 18 minutes. Selection of column: Dissolve 0.25 g of maltose, 0.25 g of glucose and 0.4 g of ethylene glycol in water to make 100 mL. Proceed with 20 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of maltose, glucose and ethylene glycol in this order with the resolution of between the peaks of maltose and glucose being not less than 4."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

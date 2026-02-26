@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/ephedrae-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Ephedrae Herba",
+    "ja": "マオウ"
+  },
+  "monographId": "JP18-ephedrae-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thin cylindrical or ellipsoidal cylinder, 0.1 – 0.2 cm in diameter; 3 – 5 cm in length of internode; light green to yellow-green; numerous parallel vertical furrows on the surface; scaly leaves at the node portion; leaves, 0.2 – 0.4 cm in length, light brown to brown in color, usually being opposite at every node, adhering at the base to form a tubu-lar sheath around the stem. Under a magnifying glass, the transverse section of the stem appears as circle and ellipse, the outer portion grayish green to yellow-green in color, and the center filled with a red-purple substance or hollow. When fractured at internode, the outer part is fibrous and easily split vertically. Odor, slight; taste, astringent and slightly bitter, giving a slight sensation of numbness on the tongue."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Ephedra Herb add 10 mL of methanol, shake for 2 minutes, filter, and use the fil-trate as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly ninhydrin-ethanol TS for spraying, and heat the plate at 1059C for 5 minutes: a red-purple spot appears at an Rf value of about 0.35."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Woody stem—When perform the test of for-eign matter <5.01>, the amount of the woody stems con-tained in Ephedra Herb does not exceed 5.0z. (2) Foreign matter <5.01>—The amount of foreign mat-ter other than woody stems contained in Ephedra Herb does not exceed 1.0z. Loss on drying <5.01> Not more than 12.5z (6 hours). Total ash <5.01> Not more than 11.0z. Acid-insoluble ash <5.01> Not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of moderately fine powder of Ephedra Herb, place in a glass-stoppered centri-fuge tube, add 20 mL of diluted methanol (1 in 2), shake for 30 minutes, centrifuge, and separate the supernatant liquid. To the residue add 20 mL of diluted methanol (1 in 2), pro-ceed in the same manner, and repeat this procedure twice. Combine all the extracts, add diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 50 mg of ephe-drine hydrochloride for assay of crude drugs, previously dried at 1059C for 3 hours, and dissolve in diluted methanol (1 in 2) to make exactly 20 mL. Pipet 2 mL of the solution, add diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, ATE and ATP, of ephedrine and pseudoephedrine (the relative retention time to ephedrine is about 0.9) obtained from the sample solution, and the peak area, AS, of ephe-drine obtained from the standard solution. Amount (mg) of total alkaloids (ephedrine and pseudoe-phedrine) ＝ MS × (ATE ＋ ATP)/AS × 1/10 × 0.819 MS: Amount (mg) of ephedrine hydrochloride for assay of crude drugs taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 5 g of sodium lauryl sulfate add 350 mL of acetonitrile, shake, and add 650 mL of water and 1 mL of phosphoric acid to dissolve lauryl sulfate. Flow rate: Adjust so that the retention time of ephedrine is about 27 minutes. System suitability— System performance: Dissolve 1 mg of ephedrine hydro-chloride for assay of crude drugs and 1 mg of pseudoephed-rine hydrochloride in diluted methanol (1 in 2) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, pseudoephedrine and ephedrine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ephedrine is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

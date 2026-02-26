@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/sennae-folium-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Sennae Folium Pulveratum",
+    "ja": "センナ末"
+  },
+  "monographId": "JP18-sennae-folium-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Senna Leaf occurs as a light yellow to light grayish yellow-green powder. It has a slight odor and a bitter taste. Under a microscope <5.01>, Powdered Senna Leaf reveals fragments of vessels and vein tissue accompanied with crys-tal cell rows; fragments of thick-walled, bent, unicellular hairs; fragments of palisade and spongy tissue; clustered and solitary crystals of calcium oxalate, 10 to 20 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Macerate 0.5 g of Powdered Senna Leaf in 10 mL of diethyl ether for 2 minutes, and filter. Add 5 mL of ammonia TS to the filtrate: a yellow-red color is produced in the aqueous layer. To the residue of maceration add 10 mL of water, and macerate for 2 minutes. Filter, and use this solution as standard stock solution (2). Pipet 5 mL of the standard stock solution (1) and 10 mL of the standard stock solution (2), add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, ATa and ASa, of sennoside A, and the peak areas, ATb and ASb, of sennoside B in each solution, calculate the amounts of sennoside A and sennoside B by the following equations, and designate the total as the amount of total sen-noside. Amount (mg) of sennoside A (C42H38O20) ＝ MSa × ATa/ASa × 1/4 Amount (mg) of sennoside B (C H O ) add 5 mL of ammonia TS: a yellow-red color is produced in the aqueous layer. ＝ MSb × ATb/ASb × 1/2 42 38 20 (2) To 2 g of Powdered Senna Leaf add 40 mL of a mixture of tetrahydrofuran and water (7:3), shake for 30 minutes, and centrifuge. Transfer the supernatant liquid to a separator, add 13 g of sodium chloride, and shake for 30 minutes. Separate the aqueous layer with undissolved so-dium chloride, and adjust to pH 1.5 with 1 mol/L hydro-chloric acid TS. Transfer this solution to another separator, shake with 30 mL of tetrahydrofuran for 10 minutes, sepa-rate the tetrahydrofuran layer, and use the tetrahydrofuran layer as the sample solution. Separately, dissolve 1 mg of Sennoside A RS or sennoside A for thin-layer chromatogra-phy in 1 mL of a mixture of tetrahydrofuran and water (7:3), and use this solution as the standard solution. Perform the MSa: Amount (mg) of Sennoside A RS taken, calculated on the anhydrous basis MSb: Amount (mg) of Sennoside B RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 340 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. ‌JP XVIII Crude Drugs and Related Drugs / Shakuyakukanzoto Extract 2143‌‌ Mobile phase: Dissolve 2.45 g of tetra-n-heptylammonium bromide in 1000 mL of a mixture of diluted 1 mol/L acetic acid-sodium acetate buffer solution (pH 5.0) (1 in 10) and acetonitrile (17:8). Flow rate: Adjust so that the retention time of sennoside A is about 26 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, sennoside B and sennoside A are eluted in this order with the resolution between these peaks being not less than 15, and the number of theoretical plates of the peak of sen-noside A being not less than 8000. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of sennoside A is not more than 1.5z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Foreign matter <5.01>—Under a microscope, stone cells and thick fibers are not observable. (2) Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 12.0z. Acid-insoluble ash <5.01> Not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Powdered Senna Leaf in a glass-stoppered centrifuge tube, add 25 mL of diluted methanol (7 in 10), shake for 30 minutes, centrifuge, and separate the supernatant liquid. To the residue add 10 mL of diluted methanol (7 in 10), shake for 10 minutes, cen-trifuge, and separate the supernatant liquid. Repeat this procedure once more, combine all the extracts, add diluted methanol (7 in 10) to make exactly 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 10 mg of Sennoside A RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dissolve in a solution of sodium hydrogen carbonate (1 in 100) to make exactly 20 mL, and use this solution as standard stock solution (1). Weigh accurately about 10 mg of Sennoside B RS (separately determine the water <2.48> by coulometric [sennoside A (C42 H38 O20 : 862.74) and sennoside B titration, using 10 mg), dissolve in a solution of sodium hydrogen carbonate (1 in 100) to make exactly 20 mL, and (C42H38O20: 862.74)], calculated on the basis of dried material. Description Powdered Senna Leaf occurs as a light yellow to light grayish yellow-green powder. It has a slight odor and a bitter taste. Under a microscope <5.01>, Powdered Senna Leaf reveals fragments of vessels and vein tissue accompanied with crys-tal cell rows; fragments of thick-walled, bent, unicellular hairs; fragments of palisade and spongy tissue; clustered and solitary crystals of calcium oxalate, 10 to 20 mm in diameter. Identification (1) Macerate 0.5 g of Powdered Senna Leaf in 10 mL of diethyl ether for 2 minutes, and filter. Add 5 mL of ammonia TS to the filtrate: a yellow-red color is produced in the aqueous layer. To the residue of maceration add 10 mL of water, and macerate for 2 minutes. Filter, and use this solution as standard stock solution (2). Pipet 5 mL of the standard stock solution (1) and 10 mL of the standard stock solution (2), add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, ATa and ASa, of sennoside A, and the peak areas, ATb and ASb, of sennoside B in each solution, calculate the amounts of sennoside A and sennoside B by the following equations, and designate the total as the amount of total sen-noside. Amount (mg) of sennoside A (C42H38O20) ＝ MSa × ATa/ASa × 1/4 Amount (mg) of sennoside B (C H O ) add 5 mL of ammonia TS: a yellow-red color is produced in the aqueous layer. ＝ MSb × ATb/ASb × 1/2 42 38 20 (2) To 2 g of Powdered Senna Leaf add 40 mL of a mixture of tetrahydrofuran and water (7:3), shake for 30 minutes, and centrifuge. Transfer the supernatant liquid to a separator, add 13 g of sodium chloride, and shake for 30 minutes. Separate the aqueous layer with undissolved so-dium chloride, and adjust to pH 1.5 with 1 mol/L hydro-chloric acid TS. Transfer this solution to another separator, shake with 30 mL of tetrahydrofuran for 10 minutes, sepa-rate the tetrahydrofuran layer, and use the tetrahydrofuran layer as the sample solution. Separately, dissolve 1 mg of Sennoside A RS or sennoside A for thin-layer chromatogra-phy in 1 mL of a mixture of tetrahydrofuran and water (7:3), and use this solution as the standard solution. Perform the MSa: Amount (mg) of Sennoside A RS taken, calculated on the anhydrous basis MSb: Amount (mg) of Sennoside B RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 340 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. ‌JP XVIII Crude Drugs and Related Drugs / Shakuyakukanzoto Extract 2143‌‌ Mobile phase: Dissolve 2.45 g of tetra-n-heptylammonium bromide in 1000 mL of a mixture of diluted 1 mol/L acetic acid-sodium acetate buffer solution (pH 5.0) (1 in 10) and acetonitrile (17:8). Flow rate: Adjust so that the retention time of sennoside A is about 26 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, sennoside B and sennoside A are eluted in this order with the resolution between these peaks being not less than 15, and the number of theoretical plates of the peak of sen-noside A being not less than 8000. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of sennoside A is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

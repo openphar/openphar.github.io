@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/gentamicin-sulfate-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Gentamicin Sulfate Ointment",
+    "ja": "ゲンタマイシン硫酸塩軟膏"
+  },
+  "monographId": "JP18-gentamicin-sulfate-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Gentamicin Sulfate Ointment contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, agar media for base and seed layer, agar medium for transferring test organisms, and standard solutions—Proceed as directed in the Assay under Gentami-cin Sulfate. Sample solutions—Weigh accurately an amount of Gentamicin Sulfate Ointment, equivalent to about 1 mg (po-tency) of Gentamicin Sulfate, transfer to a separator, add 50 mL of diethyl ether, and shake until the solution becomes uniform. Add 25 mL of 0.1 mol/L phosphate buŠer solution (pH 8.0), shake, and collect the water layer. Repeat the same procedure with 25 mL of 0.1 mol/L phosphate buŠer solu-tion (pH 8.0), and combine the water layers. To this solution add 0.1 mol/L phosphate buŠer solution (pH 8.0) to make exactly 100 mL. Pipet a suitable volume of this solution, add 0.1 mol/L phosphate buŠer solution (pH 8.0) to make solu-tions so that each mL contains 4 mg (potency) and 1 mg (po-tency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

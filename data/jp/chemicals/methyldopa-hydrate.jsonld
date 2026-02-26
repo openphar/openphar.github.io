@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/methyldopa-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Methyldopa Hydrate",
+    "ja": "メチルドパ水和物"
+  },
+  "monographId": "JP18-methyldopa-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "41372-08-1",
+  "definition": {
+    "en": "Methyldopa Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Methyldopa Hydrate occurs as a white to pale grayish white crystalline powder. It is slightly soluble in water, in methanol and in acetic acid (100), very slightly soluble in ethanol (95), and practi-cally insoluble in diethyl ether. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mg of Methyldopa Hydrate add 3 drops of ninhydrin TS, and heat in a water bath for 3 minutes: a purple color develops. Determine the absorption spectrum of a solution of Methyldopa Hydrate in 0.1 mol/L hydrochloric acid TS (1 in 25,000) as directed under Ultraviolet-visible Spectropho-tometry <2.44>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Methyldopa RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Methyldopa Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Methyldopa RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －25 – －289(1 g calculated on the anhydrous basis, aluminum (III) chloride TS, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Shake 1.0 g of Methyldopa Hydrate with 100 mL of freshly boiled and cooled water, and add 0.20 mL of 0.1 mol/L sodium hydroxide VS and 2 drops of methyl red TS: a yellow color develops. Chloride <1.03>—Perform the test with 0.5 g of Methyldopa Hydrate. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.028z). Heavy metals <1.07>—Proceed with 2.0 g of Methyl- dopa Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Methyldopa Hydrate in 5 mL of dilute hydrochloric acid, and perform the test (not more than 2 ppm). 3-O-Methylmethyldopa—Dissolve 0.10 g of Methyl-dopa Hydrate in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 5 mg of 3-O-methylmethyldopa for thin-layer chromatography in methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (13:5:3) to a distance of about 10 cm, and air-dry the plate. Spray evenly 4-nitroaniline-sodium nitrite TS on the plate, and air-dry the plate, then spray evenly a solution of sodium carbonate decahydrate (1 in 4) on the plate: the spot obtained from the sample solution corresponding to that from the standard solution is not more intense than the spot from the standard solution. Water <2.48> 10.0 – 13.0z (0.2 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Methyldopa Hy-drate, dissolve in 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green ‌(indicator: 2 to 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 21.12 mg of C10H13NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

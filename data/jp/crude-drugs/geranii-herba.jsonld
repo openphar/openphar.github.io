@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/geranii-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Geranii Herba",
+    "ja": "ゲンノショウコ"
+  },
+  "monographId": "JP18-geranii-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Stem with leaves opposite; stem, slender and long, green-brown; stem and leaf covered with soft hairs; leaf divided palmately into 3 to 5 lobes, and 2 – 4 cm in length, grayish yellow-green to grayish brown; each lobe oblong to obovate, and its upper margin crenate. Odor, slight; taste, astringent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Boil 0.1 g of Geranium Herb with 10 mL of water, filter, and to the filtrate add 1 drop of iron (III) chlo-ride TS: a blackish blue color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of the root and other foreign matter contained in Geranium Herb does not exceed 2.0z. Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

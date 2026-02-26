@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/senega-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Senega Syrup",
+    "ja": "セネガシロップ"
+  },
+  "monographId": "JP18-senega-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Senega Syrup is a yellow-brown, viscous liq-uid. It has a characteristic odor resembling methyl salicylate and a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Add 5 mL of water to 1 mL of Senega Syrup, and shake: lasting small bubbles are produced."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

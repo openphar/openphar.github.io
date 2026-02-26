@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dextromethorphan-hydrobromide-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dextromethorphan Hydrobromide Hydrate",
+    "ja": "デキストロメトルファン臭化水素酸塩水和物"
+  },
+  "monographId": "JP18-dextromethorphan-hydrobromide-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H25NO.HBr.H2O",
+  "molecularWeight": 370.32,
+  "casNumber": "6700-34-1",
+  "appearance": {
+    "en": "Dextromethorphan Hydrobromide Hydrate occurs as white, crystals or crystalline powder. It is very soluble in methanol, freely soluble in ethanol (95) and in acetic acid (100), and sparingly soluble in water. Melting point: about 1269C (Insert the capillary tube into the bath preheated to 1169C, and continue the heating so that the temperature rises at a rate of about 39C per minute.)"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dextromethorphan Hydrobromide Hydrate (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Dex-tromethorphan Hydrobromide Hydrate as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. To 50 mL of a solution of Dextromethorphan Hydrobromide Hydrate (1 in 100) add 2 drops of phenol-phalein TS and sodium hydroxide TS until a red color de-velops. Add 50 mL of chloroform, shake, and add 5 mL of dilute nitric acid to 40 mL of the water layer. This solution responds to Qualitative Tests <1.09> for bromide. D Optical rotation <2.49> [a]20: ＋26 – ＋309(0.34 g calcu-lated on the anhydrous basis, water, 20 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Dextromethorphan Hydro-bromide Hydrate in 100 mL of water: the pH of this solution is between 5.2 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Dextromethorphan Hydrobromide Hydrate in 20 mL of water: the solution is clear and colorless. N,N-dimethylaniline—To 0.50 g of Dextromethor-phan Hydrobromide Hydrate add 20 mL of water, and dis-solve by heating on a water bath. After cooling, add 2 mL of dilute acetic acid, 1 mL of sodium nitrite TS and water to make 25 mL: the solution has no more color than the follow-ing control solution. Control solution: Dissolve 0.10 g of N,N-dimethylaniline in 400 mL of water by warming on a water bath, cool, and add water to make 500 mL. Pipet 5 mL of this solution, and add water to make 200 mL. To 1.0 mL of this solution add 2 mL of dilute acetic acid, 1 mL of sodium nitrite TS and water to make 25 mL. Heavy metals <1.07>—Proceed with 1.0 g of Dex- tromethorphan Hydrobromide Hydrate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Phenolic compounds—Dissolve 5 mg of Dextro-methorphan Hydrobromide Hydrate in 1 drop of dilute hy-drochloric acid and 1 mL of water, add 2 drops of iron (III) chloride TS and 2 drops of potassium hexacyanoferrate (III) TS, shake, and allow to stand for 15 minutes: no blue-green color develops. Related substances—Dissolve 0.25 g of Dextro-methorphan Hydrobromide Hydrate in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of tolu- ene, ethyl acetate, methanol, dichloromethane and 13.5 mol/L ammonia TS (55:20:13:10:2) to a distance of about 15 cm, and air-dry the plate. Spray evenly bismuth potassium iodide TS on the plate, and then spray evenly hydrogen peroxide TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> 4.0 – 5.5z (0.2 g, volumetric titration, back titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Dextromethorphan Hydrobromide Hydrate, dissolve in 10 mL of acetic acid (100) and add 40 mL of acetic anhydride. Titrate <2.50> with mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.23 mg of C18H25NO.HBr"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

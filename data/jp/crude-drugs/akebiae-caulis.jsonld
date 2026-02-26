@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/akebiae-caulis",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Akebiae Caulis",
+    "ja": "モクツウ"
+  },
+  "monographId": "JP18-akebiae-caulis",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Circular or ellipsoidal sections 0.2 – 0.3 cm in thickness, and 1 – 3 cm in diameter; phloem on both frac-tured surfaces is dark grayish brown; xylem reveals light brown vessel portions and grayish white medullary rays lined alternately and radially; pith light grayish yellow, and dis-tinct; flank grayish brown, and with circular or transversely elongated elliptical lenticels. Almost odorless; slightly acrid taste. Under a microscope <5.01>, a transverse section reveals ring layers mainly consisting of fiber bundles with crystal cells and stone cell groups and surrounding the outside of the phloem in arc shape. Medullary rays of the cortex consisting of sclerenchyma cells containing solitary crystals; portion near cambium is distinct; cells around the pith remarkably thick-walled; xylem medullary rays and parenchyma cells around the pith contain solitary crystals of calcium oxalate and starch grains less than 8 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Akebia Stem add 10 mL of water, boil, allow to cool, and shake vigorously: lasting fine foams are produced. Total ash <5.01> Not more than 10.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gentamicin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gentamicin Sulfate",
+    "ja": "ゲンタマイシン硫酸塩"
+  },
+  "monographId": "JP18-gentamicin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Gentamicin Sulfate is the sulfate of a mixture of aminoglycoside substances having antibacterial ac-tivity produced by the growth of Micromonospora purpurea or Micromonospora echinospora. It contains not less than 590 mg (potency) and not more than 775 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Gentamicin Sulfate occurs as a white to light yellow-white powder. It is very soluble in water, and practically insoluble in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 50 mg each of Gentamicin Sul- JP XVIII Official Monographs / Gentamicin Sulfate 1065 fate and Gentamicin Sulfate RS in 10 mL of water, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample so-lution and standard solution on a plate of silica gel for thin-layer chromatography. Separately, shake a mixture of chlo-roform, ammonia solution (28) and methanol (2:1:1) in a separator, and allow the mixture to stand for more than 1 hour. To 20 mL of the lower layer so obtained add 0.5 mL of methanol, and use this as the developing solvent. Develop the plate with the developing solvent to a distance of about 17 cm in a developing container with a cover, having an opening of about 20 mm2, and without putting a filter paper in the container, and air-dry the plate. Allow the plate to stand in iodine vapors: three principal spots obtained from the sample solution are the same with the corresponding spots from the standard solution in color tone and the Rf value, respectively. (2) Dissolve 50 mg of Gentamicin Sulfate in 5 mL of water, and add 0.5 mL of barium chloride TS: a white pre-cipitate is formed. D Optical rotation <2.49> [a]25: ＋107 – ＋1219(0.25 g calcu-lated on the dried basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.20 g of Gentamicin Sulfate in 5 mL of water is between 3.5 and 5.5. Content ratio of the active principle Dissolve 50 mg of Gentamicin Sulfate in water to make 10 mL, and use this so-lution as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Separately, shake a mix-ture of chloroform, ammonia solution (28) and methanol (2:1:1) in a separator, and allow the mixture to stand for more than 1 hour. To 20 mL of the lower layer so obtained add 0.5 mL of methanol, and use this as the developing sol-vent. Develop the plate with the developing solvent to a dis-tance of about 17 cm in a developing container with a cover, having an opening of about 20 mm2, without putting a filter paper in the container, and air-dry the plate. Allow the plate to stand in iodine vapor. Determine the integral absor-bances, Aa, Ab and Ac, of the colored spots of gentamicin C1 (Rf value: about 0.3), gentamicin C2 (Rf value: about 0.2) and gentamicin C1a (Rf value: about 0.1), respectively, by a densitometer (wavelength: 450 nm) while covering the plate with a glass plate, and calculate these amounts by the follow-ing formulae: gentamicin C1 is between 25z and 55z, gen-tamicin C2 is between 25z and 50z, and gentamicin C1a is between 5z and 30z. Amount (z) of gentamicin C1 ＝ Aa/(Aa ＋ 1.35Ab ＋ Ac) × 100 Amount (z) of gentamicin C2 ＝ 1.35Ab/(Aa ＋ 1.35Ab ＋ Ac) × 100 Amount (z) of gentamicin C1a ＝ Ac/(Aa ＋ 1.35Ab ＋ Ac) × 100"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Gentamicin Sulfate in 10 mL of water: the solution is clear and its absorbance at 400 nm determined as directed under Ultraviolet-visible Spectrophotometry <2.24> is not more than 0.08. Heavy metals <1.07>—Proceed with 2.0 g of Gen- tamicin Sulfate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 50 mg of Gentamicin Sulfate in 10 mL of water, and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Separately, shake a mixture of chloroform, ammonia solution (28) and methanol (2:1:1) in a separator, and allow the mixture to stand for more than 1 hour. To 20 mL of the lower layer so obtained add 0.5 mL of methanol, and use this as the developing solvent. Develop the plate with the developing solvent to a distance of about 17 cm in a developing container with a cover, having an opening of about 20 mm2, without putting a filter paper in the container, and air-dry the plate. Allow the plate to stand in iodine vapor, and compare the colored spots while cover-ing with a glass plate: the spots other than the spots of gen-tamicin C1 (Rf value: about 0.3), gentamicin C2 (Rf value: about 0.2) and gentamicin C1a (Rf value: about 0.1) obtained from the sample solution are not more intense than the spot of gentamicin C2 from the standard solution. Loss on drying <2.41> Not more than 18.0z (0.15 g, reduced pressure not exceeding 0.67 kPa, 1109C, 3 hours). Handle the sample avoiding absorption of moisture. Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Staphylococcus epidermidis ATCC 12228 Agar media for seed and base layer— Glucose 1.0 g Peptone 6.0 g Meat extract 1.5 g Yeast extract 3.0 g Sodium chloride 10.0 g Agar 15.0 g Water 1000 mL Mix all the ingredients, and sterilize. Adjust the pH of the solution so that it will be 7.8 to 8.0 after sterilization. Agar medium for transferring test organisms—Use the medium ii in 2) Medium for other organisms under (2) Agar media for transferring test organisms. Standard solutions—Weigh accurately an amount of Gentamicin Sulfate RS, equivalent to about 25 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 25 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 159C or lower, and use within 30 days. Take exactly a suitable amount of the standard stock solution before use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 4 mg (potency) and 1 mg (potency), and use these solutions as the high concentration standard solution and the low concentration standard solution, re-spectively. Sample solutions—Weigh accurately an amount of Gentamicin Sulfate, equivalent to about 25 mg (potency), and dissolve in 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 25 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 4 mg (potency) and 1 mg (potency), and use these solutions as the high concentration sample solution and the low concentra- ‌1066‌ tion sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

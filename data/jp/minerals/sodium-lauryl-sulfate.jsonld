@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-lauryl-sulfate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Lauryl Sulfate",
+    "ja": "ラウリル硫酸ナトリウム"
+  },
+  "monographId": "JP18-sodium-lauryl-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Lauryl Sulfate is a mixture of sodium alkyl sulfate consisting chiefly of sodium lauryl sulfate. It contains not less than 85."
+  },
+  "appearance": {
+    "en": "Sodium Lauryl Sulfate occurs as white to light yellow, crystals or powder. It has a slightly characteris-tic odor. It is sparingly soluble in ethanol (95). A solution of 1 g of Sodium Lauryl Sulfate in 10 mL of water is a clear or an opalescent solution.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Sodium Lauryl Sulfate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Put 2.5 g of Sodium Lauryl Sulfate in a platinum or quartz crucible, and add 2 mL of 5 mol/L sulfuric acid TS. Heat on a water bath, cautiously raise the temperature gradually with a burner, and ignite. Ignite, preferably in an electric furnace, at 600 ± 259C and incinerate the residue completely. After cooling, add a few drops of 1 mol/L sulfu-ric acid TS, and heat and ignite as above. After cooling, add a few drops of ammonium carbonate TS, evaporate to dry-ness, and further ignite as above. After cooling, dissolve the residue in 50 mL of water, and stir. To 2 mL of this solution add 4 mL of potassium hexahydroxoantimonate (V) TS. If necessary, rub the inside wall of the vessel with a glass rod: a white crystalline precipitate is formed. Acidify a solution of Sodium Lauryl Sulfate (1 in 10) with hydrochloric acid, and boil for 20 minutes: no precipi-tate is formed. To this solution add barium chloride TS: a white precipitate is formed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Alkalinity—Dissolve 1.0 g of Sodium Lauryl Sulfate in 100 mL of water, add 0.1 mL of phenol red TS, and titrate <2.50> with 0.1 mol/L hydrochloric acid VS: the consumed volume is not more than 0.5 mL. Sodium chloride—Dissolve about 5 g of Sodium Lauryl Sulfate, accurately weighed, in 50 mL of water, neu-tralize the solution with dilute nitric acid, if necessary, add exactly 5 mL of 0.1 mol/L sodium chloride TS, and titrate <2.50> with 0.1 mol/L silver nitrate VS until the color of the solution changes from yellow-green through yellow to ‌orange (indicator: 2 drops of fluorescein sodium TS). Per-form a blank determination in the same manner, and make any necessary correction.‌ Each mL of 0.1 mol/L silver nitrate VS ＝ 5.844 mg of NaCl The combined content of sodium chloride (NaCl: 58.44) and sodium sulfate (Na2SO4: 142.04) obtained in (3) is not more than 8.0z. Sodium sulfate—Dissolve about 1 g of Sodium Lauryl Sulfate, accurately weighed, in 10 mL of water, add 100 mL of ethanol (95), and heat at a temperature just below the boiling point for 2 hours. Filter through a glass filter (G4) while hot, and wash with 100 mL of boiling ethanol (95). Dissolve the residue on the glass filter by washing with 150 mL of water, collecting the washings in a beaker. Add 10 mL of dilute hydrochloric acid, heat to boiling, add 25 mL of barium chloride TS, and allow to stand overnight. Collect the precipitate, and wash with water until the last washing produces no opalescence with silver nitrate TS. Dry the pre-cipitate together with the filter paper, ignite to a constant mass between 5009C and 6009C by raising the temperature gradually, and weigh as barium sulfate (BaSO4: 233.39). Amount (mg) of sodium sulfate (Na2SO4) ＝ amount (mg) of barium sulfate (BaSO4) × 0.6086 Unsulfated alcohols—Dissolve about 10 g of Sodium Lauryl Sulfate, accurately weighed, in 100 mL of water, add 100 mL of ethanol (95), and transfer to a separator. Extract the solution with three 50-mL portions of pentane. If an emulsion forms, sodium chloride may be added to promote separation of the two layers. Combine the pentane extracts, wash with three 50-mL portions of water, dehydrate with an-hydrous sodium sulfate, and filter. Put the filtrate to a tared beaker, and evaporate the pentane on a water bath. Dry the residue at 1059C for 30 minutes, cool, and weigh: the mass of the residue is not more than 4.0z. Water <2.48> Not more than 5.0z (0.5 g, volumetric titration, direct titration).◇ Total alcohol content Dissolve about 5 g of Sodium Lauryl Sulfate, accurately weighed, in 150 mL of water and 50 mL of hydrochloric acid, and boil under a reflux con-denser for 4 hours. Cool, extract with two 75-mL portions of diethyl ether, and evaporate the combined diethyl ether ex-tracts on a water bath. Dry the residue at 1059C for 30 minutes, and weigh: the mass of the residue is not less than 59.0z.◇"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.15 g of Sodium Lauryl Sulfate, and dissolve in water to make exactly 1000 mL, by warming if necessary. Transfer exactly 20 mL of this solu-tion to a 100-mL stoppered graduated cylinder, add 15 mL of dichloromethane and 10 mL of dimidium bromide-patent blue TS, and shake. Titrate <2.50> with 0.004 mol/L ben-zethonium chloride VS until the color of the dichlorometh-ane layer changes from light red to grayish blue, while shak-ing vigorously. Allow the layers to separate before each titra-tion. Each mL of 0.004 mol/L benzethonium chloride VS ＝ 1.154 mg of C12H25NaO4S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

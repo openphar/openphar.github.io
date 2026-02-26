@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/allopurinol-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Allopurinol Tablets",
+    "ja": "アロプリノール錠"
+  },
+  "monographId": "JP18-allopurinol-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Allopurinol Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of allopurinol (C5H4N4O: 136.11). Method of preparation Prepare as directed under Tablets, with Allopurinol. Identification (1) Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 248 nm and 252 nm. (2) To a quantity of powdered Allopurinol Tablets, equivalent to 0.1 g of Allopurinol, add 5 mL of a solution of diethylamine (1 in 10), shake well, add 5 mL of methanol, centrifuge, and use the supernatant liquid as the sample solu-tion. Separately, dissolve 0.1 g of allopurinol in 5 mL of a solution of diethylamine (1 in 10), add 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 2.5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 2-butanone, ammonia solution (28) and 2-methoxyethanol (3:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spots obtained from the sample solution and standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Allopurinol Tablets add V/10 mL of 0.05 mol/L sodium hydroxide TS, shake well, and sonicate for 10 minutes. After cooling, add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 248 nm and 252 nm. (2) To a quantity of powdered Allopurinol Tablets, equivalent to 0.1 g of Allopurinol, add 5 mL of a solution of diethylamine (1 in 10), shake well, add 5 mL of methanol, centrifuge, and use the supernatant liquid as the sample solu-tion. Separately, dissolve 0.1 g of allopurinol in 5 mL of a solution of diethylamine (1 in 10), add 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 2.5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 2-butanone, ammonia solution (28) and 2-methoxyethanol (3:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spots obtained from the sample solution and standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Allopurinol Tablets add V/10 mL of 0.05 mol/L sodium hydroxide TS, shake well, and sonicate for 10 minutes. After cooling, add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 0.5 mg of allopurinol (C5H4N4O), and filter through a mem-brane filter with a pore size not exceeding 0.8 mm. Discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 0.1 mol/L of hydrochloric acid TS to make ex-actly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of allopurinol for assay, previously dried at 1059C for 4 hours, dissolve in 10 mL of 0.05 mol/L sodium hydroxide TS, and add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 2 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, of the sample solution and standard solution at 250 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of allopurinol (C5H4N4O) ＝ MS × AT/AS × V/100 MS: Amount (mg) of allopurinol for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Allopurinol Tablets is not less than 80z. Start the test with 1 tablet of Allopurinol Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 11 mg of allopurinol (C5H4N4O), and use this solution as the sample solution. Separately, weigh accurately about 11 mg of allopurinol for assay, previously dried at 105 9C for 4 hours, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, of the sample solution and standard solution at 250 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of allopurinol (C5H4N4O) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of allopurinol for assay taken C: Labeled amount (mg) of allopurinol (C5H4N4O) in 1 tablet ‌432"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Alminoprofen according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Alminoprofen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Conduct this procedure using light-resistant vessels. Dissolve 50 mg of Alminoprofen in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of these solu-tions by the automatic integration method: the area of the peak other than alminoprofen obtained from the sample so-lution is not larger than 1/5 times the peak area of almino-profen from the standard solution. Furthermore, the total Amount (mg) of allopurinol (C5H4N4O) ＝ M S × AT/AS area of the peaks other than alminoprofen from the sample solution is not larger than the peak area of alminoprofen MS: Amount (mg) of allopurinol for assay taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Allopurinol Tablets, and powder. Weigh accurately a por-tion of the powder, equivalent to about 0.1 g of allopurinol (C5H4N4O), add 20 mL of 0.05 mol/L sodium hydroxide TS, shake well, and treat with ultrasonic waves for 10 minutes. After cooling, add 0.1 mol/L hydrochloric acid TS to make exactly 200 mL, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard the first 10 mL of the filtrate, pipet 2 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g of allopurinol for assay, previously dried at 1059C for 4 hours, dissolve in 20 mL of 0.05 mol/L sodium hydroxide TS, and add 0.1 mol/L hydrochloric acid TS to make exactly 200 mL. Pipet 2 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and stand-ard solution at 250 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Purity (1) Heavy metals <1.07>—Proceed with 2.0 g of Alminoprofen according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Alminoprofen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Conduct this procedure using light-resistant vessels. Dissolve 50 mg of Alminoprofen in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of these solu-tions by the automatic integration method: the area of the peak other than alminoprofen obtained from the sample so-lution is not larger than 1/5 times the peak area of almino-profen from the standard solution. Furthermore, the total Amount (mg) of allopurinol (C5H4N4O) ＝ M S × AT/AS area of the peaks other than alminoprofen from the sample solution is not larger than the peak area of alminoprofen MS: Amount (mg) of allopurinol for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxytetracycline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Oxytetracycline Hydrochloride",
+    "ja": "オキシテトラサイクリン塩酸塩"
+  },
+  "monographId": "JP18-oxytetracycline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H24N2O9.HCl",
+  "molecularWeight": 496.89,
+  "casNumber": "2058-46-0",
+  "appearance": {
+    "en": "Oxytetracycline Hydrochloride occurs as yel-low, crystals or crystalline powder. It is freely soluble in water, and slightly soluble in ethanol (99.5). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Oxytetracycline Hydrochloride in 0.1 mol/L hy-drochloric acid TS (1 in 50,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Oxytetracycline Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Oxyt-etracycline Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum or the spectrum of Oxytetracycline Hydro-chloride RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. If any difference ap-pears between the spectra, dissolve the sample and the Refer-ence Standard separately in methanol, evaporate the solvent, and perform the test with the residues. Dissolve 20 mg of Oxytetracycline Hydrochloride in 3 mL of water, and add 1 drop of silver nitrate TS: a white turbidity is produced. D Optical rotation <2.49> [a]20: －188 – －2009(0.25 g calcu-lated on the dried basis, 0.1 mol/L hydrochloric acid, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 0.5 g of Oxytetracycline Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 50 ppm). (2) Related substances—Dissolve 20 mg of Oxytetracy-cline Hydrochloride in 0.01 mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as the sample so-lution. Separately, dissolve 20 mg of 4-epioxytetracycline in 0.01 mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as 4-epioxytetracycline stock solution. Separately, dissolve 20 mg of tetracycline hydrochloride in mol/L hydrochloric acid TS to make exactly 25 mL, and use this solution as tetracycline hydrochloride stock so-lution. Separately, dissolve 8 mg of b-apooxytetracycline in 5 mL of 0.01 mol/L sodium hydroxide TS, add 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as b-apooxytetracycline stock solution. Pipet 1 mL of 4-epioxytetracycline stock solution, 4 mL of tetracycline hydrochloride stock solution and 40 mL of b-apooxytetracy-cline stock solution, add 0.01 mol/L hydrochloric acid TS to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic inte-gration method: the peak areas of 4-epioxytetracycline and tetracycline obtained from the sample solution are not larger than each of the peak area from the standard solution, and the total area of the peaks, a-apooxytetracycline having the relative retention time of about 2.1 to oxytetracycline, b-apooxytetracycline and the peaks, which appear between a-apooxytetracycline and b-apooxytetracycline, is not larger than the peak area of b-apooxytetracycline from the stand-ard solution. The peak area of 2-acetyl-2-decarboxamide oxytetracycline, which appears after the principal peak, from the sample solution is not larger than 4 times the peak area of 4-epioxytetracycline from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene copolymer for liquid chromatography (8 mm in particle di-ameter). Column temperature: A constant temperature of about 609C. Mobile phase A: Mix 60 mL of 0.33 mol/L potassium dihydrogen phosphate TS, 100 mL of a solution of tetrabut-ylammonium hydrogensulfate (1 in 100), 10 mL of a solution of disodium dihydrogen ethylenediamine tetraacetate dihy-drate (1 in 2500) and 200 mL of water, and adjust the pH to 7.5 with 2 mol/L sodium hydroxide TS. To this solution add 30 g of t-butyl alcohol and water to make 1000 mL. Mobile phase B: Mix 60 mL of 0.33 mol/L potassium dihydrogen phosphate TS, 50 mL of a solution of tetrabut-ylammonium hydrogensulfate (1 in 100), 10 mL of a solution of disodium dihydrogen ethylenediamine tetraacetate dihy-drate (1 in 2500) and 200 mL of water, and adjust the pH to 7.5 with 2 mol/L sodium hydroxide TS. To this solution add 100 g of t-butyl alcohol and water to make 1000 mL. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection Mobile phase A Mobile phase B of sample (min) (volz) (volz) 0 – 20 70 → 10 30 → 90 20 – 35 10 → 20 90 → 80 Flow rate: 1.0 mL per minute. Time span of measurement: About 3.5 times as long as the retention time of oxytetracycline, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of 4-epiox- ‌ytetracycline stock solution, and add 0.01 mol/L hydrochlo-ric acid TS to make exactly 200 mL. Pipet 4 mL of this solu-tion, and add 0.01 mol/L hydrochloric acid TS to make exactly 20 mL. Confirm that the peak area of 4-epiox-ytetracycline obtained with 20 mL of this solution is equiva-lent to 14 to 26z of that with 20 mL of the standard solu-tion. System performance: Dissolve 8 mg of a-apooxytetracy-cline in 5 mL of 0.01 mol/L sodium hydroxide TS, add 0.01 mol/L hydrochloric acid TS to make 100 mL, and use this solution as a-apooxytetracycline stock solution. Mix 3 mL of the sample solution, 2 mL of 4-epioxytetracycline stock solu-tion, 6 mL of tetracycline hydrochloride stock solution, 6 mL of b-apooxytetracycline stock solution and 6 mL of a-apooxytetracycline stock solution, and add 0.01 mol/L hy-drochloric acid TS to make 50 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, 4-epioxytetracycline, oxytetracycline, tetracy-cline, a-apooxytetracycline and b-apooxytetracycline are eluted in this order with the resolutions between the peaks, 4-epioxytetracycline and oxytetracycline, oxytetracycline and cline is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of the theoretical plates and the sym-metry factor of the peak of oxytetracycline are not less than 1000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of oxytetracycline is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

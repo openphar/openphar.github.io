@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/protamine-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Protamine Sulfate",
+    "ja": "プロタミン硫酸塩"
+  },
+  "monographId": "JP18-protamine-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Protamine Sulfate occurs as a white powder. It is sparingly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Protamine Sulfate in 2 mL of water, add 0.4 mL of sodium hydroxide TS, and im-mediately add 5 drops of a solution prepared by dissolving 0.1 g of 1-naphthol in 100 mL of diluted ethanol (7 in 10) and 5 drops of sodium hypochlorite TS: a vivid red color de-velops. Dissolve 5 mg of Protamine Sulfate in 1 mL of water by warming, add 1 drop of a solution of sodium hydroxide (1 in 10) and 2 drops of copper (II) sulfate TS: a red-purple color develops. An aqueous solution of Protamine Sulfate (1 in 20) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 1.0 g of Protamine Sulfate in 100 mL of water: the pH of this solution is between 6.5 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Protamine Sulfate in 10 mL of water: the solution is clear and colorless. ‌Absorbance—Dissolve 0.10 g of Protamine Sulfate in 10 mL of water, and determine the absorption spectrum as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance between 260 nm and 280 nm is not more than 0.1. Loss on drying <2.41> Not more than 5.0z (1 g, 1059C, 3 hours). Nitrogen content Weigh accurately about 10 mg of Prota-mine Sulfate, and perform the test as directed under Nitro-gen Determination <1.08>: the amount of nitrogen (N:14.01) is 22.5 – 25.5z, calculated on the dried basis. Heparin-binding capacity Sample solution (a)—Weigh accurately about 15 mg of Protamine Sulfate, and dissolve in water to make exactly 100 mL. Repeat this procedure 3 times, and use the solutions so obtained as the sample solutions (a1), (a2) and (a3). Sample solution (b)—Pipet 10 mL each of the sample solutions (a1), (a2) and (a3), add exactly 5 mL of water to them, and use these solutions as the sample solutions (b1), (b2) and (b3). Sample solution (c)—Pipet 10 mL each of the sam-ple solutions (a1), (a2) and (a3), add exactly 20 mL of water to them, and use these solutions as the sample solutions (c1), (c2) and (c3). Standard solution—Dissolve Heparin Sodium RS in water to make a solution containing exactly about 20 Units per mL. Procedure—Transfer exactly 2 mL of the sample solution to a cell for spectrophotometer, add the standard solution dropwise while mixing, and determine the transmit-tance at 500 nm as directed under Ultraviolet-visible Spectro-photometry <2.24>. Continue the addition until a sharp change in the transmittance is observed, and note the volume, V mL, of the standard solution added. Repeat this procedure 2 times for each sample solution. Calculation—Calculate the amount of heparin bound with 1 mg of the sample by the following formula from the volume of titrant on each sample solution, and cal-culate the average of 18 results obtained. The assay is not valid unless each relative standard deviation of 6 results ob-tained from the sample solution (a), sample solution (b) and sample solution (c) is not more than 5z, respectively, and also unless each relative standard deviation of 6 results ob-tained from 3 sets, (a1, b1, c1), (a2, b2, c2) and (a3, b3, c3) is not more than 5z, respectively. Amount (heparin Unit) of heparin bound to 1 mg of Protamine Sulfate ＝ S × V × 50/MT × d S: Amount (heparin Unit) of heparin sodium in 1 mL of the standard solution MT: Amount (mg) of Protamine Sulfate taken, calculated on the dried basis d: Dilution factor for each sample solution from the sam-ple solution (a) Sulfate content Weigh accurately about 0.15 g of Prota-mine Sulfate, dissolve in 75 mL of water, add 5 mL of 3 mol/L hydrochloric acid TS, and heat to boil. Add gradually 10 mL of barium chloride TS while boiling, and allow to stand for 1 hour while heating. Filter the precipitate formed, wash the precipitate with warm water several times, and transfer the precipitate into a tared crucible. Dry the precipi-tate, and incinerate by ignition to constant mass: the amount of sulfate (SO4) is 16 – 22z, calculated on the dried basis, where 1 g of the residue is equivalent to 0.4117 g of SO4."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

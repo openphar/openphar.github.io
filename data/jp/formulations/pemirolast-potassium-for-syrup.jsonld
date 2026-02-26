@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pemirolast-potassium-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Pemirolast Potassium for Syrup‌",
+    "ja": "シロップ用ペミロラストカリウム"
+  },
+  "monographId": "JP18-pemirolast-potassium-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ul-traviolet-visible Spectrophotometry <2.24>: it exhibits maxi-ma between 255 nm and 259 nm and between 355 nm and 359 nm. pH Being specified separately when the drug is granted ap-proval based on the Law. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Pemirolast Potassium for Syrup in single-dose packages meet the requirement of the Content uniformity test. Dissolve the total amount of the content of 1 package of Pemirolast Potassium for Syrup in water to make exactly V mL so that each mL contains about 50 mg of pemirolast potassium (C10H7KN6O). Pipet 10 mL of this solution, add water to make exactly 50 mL, and use this solution as the sample solution. Then, proceed as directed in the Assay. Pemirolast Potassium Tablets"
+      }
+    }
+  ],
+  "dosageForm": "Syrup"
+}

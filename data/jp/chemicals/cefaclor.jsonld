@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefaclor",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefaclor",
+    "ja": "セファクロル"
+  },
+  "monographId": "JP18-cefaclor",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H14ClN3O4S",
+  "molecularWeight": 367.81,
+  "casNumber": "53994-73-3",
+  "definition": {
+    "en": "Cefaclor contains not less than 950 mg (potency) and not more than 1020 mg (potency) per mg, calcu-lated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefaclor occurs as a white to yellow-white crystalline powder. It is slightly soluble in water and in methanol, and practi-cally insoluble in N,N-dimethylformamide and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefaclor (1 in 50,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cefaclor as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 40 mg of Cefaclor in 0.5 mL of heavy water for nuclear magnetic resonance spectroscopy and 1 drop of deuterated hydrochloric acid for nuclear magnetic resonance spectroscopy, and determine the 1H spectrum of this solution as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethylsilylpropanesulfonate for nuclear magnetic resonance spectroscopy as an internal ref-erence compound: it exhibits an AB type quartet signal A at around d 3.7 ppm, and a singlet signal or a sharp multiplet signal B at around d 7.6 ppm. The ratio of the integrated in-tensity of each signal, A:B, is about 2:5. Perform the test with Cefaclor as directed under Flame Coloration Test <1.04> (2): a green color appears. D Optical rotation <2.49> [a]20: ＋105 – ＋1209(0.1 g calcu-lated on the anhydrous basis, water, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Cefaclor according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution by suspend- ing 1.0 g of Cefaclor in 10 mL of N,N-dimethylformamide, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Cefaclor in 10 mL of sodium dihydrogen phosphate TS (pH 2.5), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add sodium dihydrogen phosphate TS (pH 2.5) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peaks other than cefaclor obtained from the sample solution are not larger than 1/2 times the peak area of cefaclor from the standard solution, and the total area of the peaks other than cefaclor from the sample solution is not larger than 2 times of the peak area of cefaclor from the standard solution. If necessary, proceed with 20 mL of sodium dihydrogen phosphate TS (pH 2.5) in the same manner as above to compensate the base line. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: Dissolve 7.8 g of sodium dihydrogen phosphate dihydrate in 1000 mL of water, and adjust the pH to 4.0 with phosphoric acid. Mobile phase B: To 550 mL of the mobile phase A add 450 mL of acetonitrile for liquid chromatography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 30 95 → 75 5 → 25 30 – 45 75 → 0 25 → 100 45 – 55 Flow rate: 1.0 mL per minute. Time span of measurement: About 2.5 times as long as the retention time of cefaclor, beginning after the solvent peak. System suitability— Test for required detectability: Measure exactly 1 mL of the standard solution, and add sodium dihydrogen phos-phate TS, pH 2.5 to make exactly 20 mL. Confirm that the peak area of cefaclor obtained with 20 mL of this solution is equivalent to 4 to 6z of that with 20 mL of the standard so-lution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefaclor are not less than 40,000 and 0.8 to 1.3, respectively. System repeatability: When the test is repeated 3 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak areas and the retention times of cefaclor are not more than 2.0z, respectively. Water <2.48> Not more than 6.5z (0.2 g, volumetric titra-tion, back titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefaclor and Cefaclor RS, equivalent to about 50 mg (potency), and dis-solve each in 0.1 mol/L phosphate buffer solution (pH 4.5) to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 10 mL of the internal standard solution, add 0.1 JP XVIII Official Monographs / Cefaclor Capsules 641 ‌mol/L phosphate buffer solution (pH 4.5) to make 50 mL, and use these solutions as the sample solution and the stand-ard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of cefaclor to that of the internal standard. Amount [mg (potency)] of cefaclor (C15H14ClN3O4S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Cefaclor RS taken Internal standard solution—A solution of 4-aminoacetophe-none in 0.1 mol/L phosphate buffer solution (pH 4.5) (1 in 700). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust the pH to 3.4 with diluted phosphoric acid (3 in 500). To 940 mL of this solution add 60 mL of acetonitrile. Flow rate: Adjust so that the retention time of cefaclor is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cefaclor and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefaclor to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

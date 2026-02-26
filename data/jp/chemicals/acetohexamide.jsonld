@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/acetohexamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Acetohexamide",
+    "ja": "アセトヘキサミド"
+  },
+  "monographId": "JP18-acetohexamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H20N2O4S",
+  "molecularWeight": 324.4,
+  "definition": {
+    "en": "Acetohexamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Acetohexamide occurs as a white to yellowish white powder. It is freely soluble in N,N-dimethylformamide, sparingly soluble in acetone, slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water. Melting point: about 1859C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.10 g of Acetohexamide in 100 mL of methanol. To 5 mL of the solution add 20 mL of 0.5 mol/L hydrochloric acid TS and 75 mL of methanol, and use the solution as the sample solution (1). Determine the absorption spectrum of the sample solution (1) as directed under Ultraviolet-visible Spectrophotometry <2.24>, using methanol as the blank, and compare the spectrum with the Reference Spectrum 1: both spectra exhibit similar intensities of absorption at the same wavelengths. Separately, to exactly 10 mL of the sample solution (1) add methanol to make ex-actly 50 mL, and use the solution as the sample solution (2). Determine the absorption spectrum of the sample solution (2) as directed under Ultraviolet-visible Spectrophotometry <2.24>, using methanol as the blank, and compare the spec-trum with the Reference Spectrum 2: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Acetohexamide, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.5 g of Aceto-hexamide in 40 mL of N,N-dimethylformamide, add 6 mL of dilute nitric acid and N,N-dimethylformamide to make 50 mL. Perform the test using this solution as the test solution. JP XVIII Official Monographs / Acetohexamide 405 Prepare the control solution as follows: to 0.45 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid and N,N-dimethylformamide to make 50 mL (not more than 0.011z). Sulfate <1.14>—Dissolve 2.0 g of Acetohexamide in 40 mL of N,N-dimethylformamide, and add 1 mL of dilute hydrochloric acid and N,N-dimethylformamide to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.40 mL of 0.005 mol/L sulfuric acid VS add 1 mL of dilute hydrochloric acid and N,N-dimethylformamide to make 50 mL (not more than 0.010z). Heavy metals <1.07>—Proceed with 1.0 g of Aceto- hexamide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances (i) Cyclohexylamine—Dissolve exactly 1.0 g of Acetohexamide in exactly 30 mL of 0.5 mol/L sodium hydroxide TS, add exactly 5 mL of hexane, shake vigorously for 60 minutes, allow to stand for 5 minutes, and use the upper layer as the sample solution. Separately, dissolve exactly 50 mg of cyclohexylamine in 0.5 mol/L sodium hydroxide TS to make exactly 50 mL. Pipet 2 mL of this solution, and add 0.5 mol/L sodium hydroxide TS to make exactly 300 mL. Pipet 30 mL of this solution, add exactly 5 mL of hexane, shake vigorously for 60 minutes, allow to stand for 5 minutes, and use the upper layer as the standard solution. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and determine the peak area of cyclo-hexylamine by the automatic integration method: the peak area of cyclohexylamine obtained from the sample solution is not more than that from the standard solution. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused-silica column 0.53 mm in inside diame- ter and 30 m in length, coated the inner surface with methyl-silicone polymer for gas chromatography 1.5 mm in thick-ness. Column temperature: A constant temperature of about 909C. Injection port temperature: A constant temperature of about 1509C. Detector temperature: A constant temperature of about 2109C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of cyclohex-ylamine is about 4 minutes. Split ratio: 1:1. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, the number of theoretical plates of the peak of cyclo-hexylamine is not less than 8000. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of cyclohexylamine is not more than 5z. Dicyclohexylurea—Dissolve exactly 1.0 g of Aceto-hexamide in exactly 10 mL of 0.5 mol/L sodium hydroxide TS, add exactly 20 mL of methanol, shake, then add exactly 5 mL of diluted hydrochloric acid (1 in 10), shake vigorously for 15 minutes, and centrifuge. Filter 10 mL or more of the supernatant liquid through a membrane filter with pore size of not larger than 0.5 mm. Discard the first 5 mL of the fil-trate, and use the subsequent filtrate as the sample solution. Separately, dissolve exactly 50 mg of dicyclohexylurea in methanol to make exactly 100 mL. Pipet 2 mL of this solu-tion, and add methanol to make exactly 100 mL. Pipet 20 mL of this solution, add exactly 10 mL of 0.5 mol/L sodium hydroxide TS, shake, then add exactly 5 mL of diluted hy-drochloric acid (1 in 10), shake, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak area of dicyclo-hexylurea by the automatic integration method: the peak area of dicyclohexylurea obtained from the sample solution is not more than that from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 0.5 g of sodium hydroxide in 1000 mL of 0.05 mol/L sodium dihydrogen phosphate TS, and adjust the pH to 6.5 with 0.5 mol/L sodium hydroxide TS. To 500 mL of this solution add 500 mL of acetonitrile. Flow rate: Adjust so that the retention time of dicyclo-hexylurea is about 10 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating conditions, the number of theoretical plates of the peak of dicyclohexylurea is not less than 10,000. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of dicyclohexylurea is not more than 2.0z. Other related substances—Dissolve 0.10 g of Aceto-hexamide in 10 mL of acetone, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add acetone to make exactly 20 mL. Pipet two 1 mL portions of this solution, add acetone to make exactly 10 mL and 25 mL, respectively, and use these solutions as the standard solution (1) and the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol, ammonia solution (28) and cyclohexane (6:2:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution (1), and the number of them which are more intense than the spot from the standard solution (2) is not more than 4. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Acetohexamide, previously dried, dissolve in 30 mL of N,N-dimethylfor-mamide, add 10 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same manner using a solution prepared by adding 19 mL of water to 30 mL of N,N-dimethylformamide, and make any necessary correc- ‌406‌ tion. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 32.44 mg of C15H20N2O4S of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

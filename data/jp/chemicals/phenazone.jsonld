@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenazone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenazone",
+    "ja": "アンチピリン"
+  },
+  "monographId": "JP18-phenazone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H12N2O",
+  "molecularWeight": 188.23,
+  "appearance": {
+    "en": "Antipyrine occurs as colorless or white crys-tals, or a white, crystalline powder. It is odorless, and has a slightly bitter taste. It is very soluble in water, freely soluble in ethanol (95), and sparingly soluble in diethyl ether. A solution of Antipyrine (1 in 10) is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Antipyrine (1 in 100) add 2 drops of sodium nitrite TS and 1 mL of dilute sulfuric acid: a deep green color develops. To 2 mL of a solution of Antipyrine (1 in 100) add 4 drops of dilute iron (III) chloride TS: a yellow-red color de-velops. Then add 10 drops of dilute sulfuric acid: the color changes to light yellow. To 5 mL of a solution of Antipyrine (1 in 100) add 2 to 3 drops of tannic acid TS: a white precipitate is produced. To 0.1 g of Antipyrine add 0.1 g of vanillin, 5 mL of water and 2 mL of sulfuric acid, boil the mixture, and cool: a yellow-red precipitate is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Perform the test with 1.0 g of Antipyrine. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Heavy metals <1.07>—Proceed with 1.0 g of Antipy-rine according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Readily carbonizable substances<1.15>—Perform the test with 0.5 g of Antipyrine: the solution remains colorless. Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.2 g of Antipyrine, previously dried and accurately weighed, in 20 mL of sodium acetate TS, add exactly 30 mL of 0.05 mol/L iodine VS, and allow to stand for 20 minutes with occasional shaking. Dissolve the precipi-tate in 10 mL of chloroform, and titrate <2.50> the excess iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 9.412 mg of C11H12N2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

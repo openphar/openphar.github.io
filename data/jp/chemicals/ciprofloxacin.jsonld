@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ciprofloxacin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ciprofloxacin",
+    "ja": "シプロフロキサシン"
+  },
+  "monographId": "JP18-ciprofloxacin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H18FN3O3",
+  "molecularWeight": 331.34,
+  "casNumber": "85721-33-1",
+  "definition": {
+    "en": "Ciprofloxacin, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ciprofloxacin occurs as a white to light yellow-white, crystalline powder. It is practically insoluble in water and in ethanol (99.5). It dissolves in ammonia TS. It is gradually colored to yellow tint by light. Melting point: about 2709C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Ciprofloxacin, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of the Ciprofloxacin RS: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. (2) Conduct this procedure using light-resistant vessels. Dissolve 50 mg each of Ciprofloxacin and Ciprofloxacin RS in 5 mL of ammonia TS, and use these solutions as the sam-ple solution and the standard solution, respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solu- tion and the standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. After allowing to stand this plate in the vapor of ammonia for 15 minutes, develop the plate with a mixture of methanol, dichloromethane, ammonia solution (28) and acetonitrile (4:4:2:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 1.5 g of Ciprofloxacin add 75 mL of water, and boil for 5 minutes. After cooling, add water to make 75 mL, and filter. To 25 mL of the fil-trate add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.30 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute sulfuric acid and water to make 50 mL (not more than 0.021z). Heavy metals <1.07>—Proceed with 2.0 g of Ciprofloxacin according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Fluoroquinolonic acid—Conduct this procedure using light-resistant vessels. Dissolve 50 mg of Ciprofloxacin in ammonia TS to make exactly 5 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of fluoro-quinolonic acid for thin-layer chromatography in 0.1 mL of ammonia TS and water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and the standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. After allowing to Time span of measurement: About 2.3 times as long as the retention time of ciprofloxacin, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of ciprofloxacin obtained with 50 mL of this solution is equivalent to 20 to 30z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ciprofloxacin are not less than 3500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ciprofloxacin is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (2 g, in vacu-um, 1209C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately about 25 mg each of Ciprofloxacin and Ciprofloxacin RS, both dried previously, add 2 mL of a mix-ture of water and phosphoric acid (13:1), add the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of ciprofloxacin in each solution. stand this plate in the vapor of ammonia for 15 minutes, de-velop the plate with a mixture of methanol, dichlorometh-ane, ammonia solution (28) and acetonitrile (4:4:2:1) to a Amount (mg) of ciprofloxacin (C ＝ MS × AT/AS 17H18FN3O3) distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample solution, corresponding to the spot obtained from the standard solution, is not more in-tense than that obtained from the standard solution. Related substances—Conduct this procedure using light-resistant vessels. To 25 mg of Ciprofloxacin add 2 mL of a mixture of water and phosphoric acid (13:1), then add the mobile phase to make 50 mL, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 20 mL. Pipet 1 mL of this so-lution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than ciprofloxacin obtained from the sample so-lution is not larger than the peak area of ciprofloxacin from the standard solution, and the total area of the peaks other than ciprofloxacin from the sample solution is not larger than 2.5 times the peak area of ciprofloxacin from the stand-ard solution. For the area of peak, having the relative reten-tion time of about 0.4, about 0.5, and about 1.2 to ciprofloxacin, multiply the correction factor, 6.7, 1.3, and 1.4, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. MS: Amount (mg) of Ciprofloxacin RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 278 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 2.88 g of phosphoric acid add water to make 1000 mL, and adjust to pH 3.0 with triethylamine. To 870 mL of this solution add 130 mL of acetonitrile. Flow rate: Adjust so that the retention time of ciprofloxa-cin is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ciprofloxacin are not less than 3500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ciprofloxacin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

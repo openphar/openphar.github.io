@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sulbactam-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sulbactam Sodium",
+    "ja": "スルバクタムナトリウム"
+  },
+  "monographId": "JP18-sulbactam-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulbactam Sodium contains not less than 875 mg (potency) and not more than 941 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Sulbactam Sodium occurs as a white to yellow-ish white crystalline powder. It is freely soluble in water, sparingly soluble in methanol, very slightly soluble in ethanol (99.5), and practically insolu-ble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Sulbactam Sodium as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) Sulbactam Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋219 – ＋2339(1 g, water, 100 mL, 100 mm). ‌pH <2.54> Dissolve 1.0 g of Sulbactam Sodium in 20 mL of water: the pH of the solution is between 5.2 and 7.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sulbactam Sodium in 20 mL of water: the solution is clear, and its absorbance at 430 nm determined as directed under Ultraviolet-visible Spectrophotometry <2.24> is not more than 0.10. Heavy metals <1.07>—Proceed with 1.0 g of Sulbac- tam Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Sulbactam penicillamine—Weigh accurately about 0.2 g of Sulbactam Sodium, dissolve in the mobile phase to make exactly 50 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 40 mg of sulbac-tam sodium for sulbactam penicillamine, dissolve in 2 mL of water, and add 0.5 mL of sodium hydroxide TS. Allow to stand at room temperature for 10 minutes, add 0.5 mL of 1 mol/L hydrochloric acid TS, and then add the mobile phase to make exactly 100 mL. Pipet 5 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of sulbactam penicillamine by the automatic integration method: the amount of sulbactam penicillamine is not more than 1.0z. Amount (z) of sulbactam penicillamine ＝ MS/MT × AT/AS × 5 MS: Amount (mg) of sulbactam sodium for sulbactam penicillamine taken MT: Amount (mg) of Sulbactam Sodium taken Operating conditions— Column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Detector: An ultraviolet absorption photometer (wave-length: 230 nm). System suitability— System performance: Proceed as directed in the system suitability in the Assay. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of sulbactam penicillamine is not more than 2.0z. Water <2.48> Not more than 1.0z (0.5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately amounts of Sulbactam Sodium and Sulbactam RS, equivalent to about 50 mg (potency), dis-solve each in a suitable amount of the mobile phase, add ex-actly 5 mL of the internal standard solution, then add the mobile phase to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of sulbactam to that of the internal standard. Amount [mg (potency)] of sulbactam (C8H11NO5S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Sulbactam RS taken Internal standard solution—A solution of ethyl parahy-droxybenzoate in the mobile phase (7 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: To 750 mL of 0.005 mol/L tetrabutylam-monium hydroxide TS add 250 mL of acetonitrile for liquid chromatography. Flow rate: Adjust so that the retention time of sulbactam is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, sulbactam and the internal standard are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of sulbactam is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

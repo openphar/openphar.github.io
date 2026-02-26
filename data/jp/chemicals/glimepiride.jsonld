@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glimepiride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glimepiride",
+    "ja": "グリメピリド"
+  },
+  "monographId": "JP18-glimepiride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H34N4O5S",
+  "molecularWeight": 490.62,
+  "definition": {
+    "en": "Glimepiride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Glimepiride occurs as a white crystalline pow-der. It is slightly soluble in dichloromethane, very slightly solu-ble in methanol and in ethanol (99.5), and practically insolu-ble in water. Melting point: about 2029C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Glimepiride in methanol (1 in 125,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Glimepiride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Glimepiride as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Glimepiride RS: both spectra exhibit similar intensi-ties of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Glimepiride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). cis-Isomer—Dissolve 10 mg of Glimepiride in 5 mL of dichloromethane, add the mobile phase to make 20 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area of both solutions by the automatic in-tegration method: the area of the peak, having the relative retention time of about 0.9 to glimepiride, obtained from the sample solution is not larger than 3/4 times the peak area of glimepiride from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 228 nm). Column: A stainless steel column 3 mm in inside diameter and 15 cm in length, packed with diol silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of heptane for liquid chromatog-raphy, 2-propanol for liquid chromatography, and acetic acid (100) (900:100:1). Flow rate: Adjust so that the retention time of glimepiride is about 14 minutes. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of glimepiride obtained with 10 mL of this solution is equivalent to 35 to 65z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of glimepiride are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glimepiride is not more than 2.0z. Related substances—Keep the sample solution and standard solution below 49C after preparing. Dissolve 20 mg of Glimepiride in 100 mL of a mixture of acetonitrile for liq-uid chromatography and water (4:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of the peak, having the relative retention time of about 0.25 to glimepiride, obtained from the sample solution is not larger than 4 times the peak area of glimepi-ride from the standard solution, the area of the peak, having the relative retention time of about 1.1, is not larger than 2 times the peak area of glimepiride from the standard solu-tion, the area of the peak, having the relative retention time of about 0.32, is not larger than 1.5 times the peak area of glimepiride from the standard solution, the area of peak other than glimepiride and above mentioned peak from the sample solution is not larger than the peak of glimepiride from the standard solution, and the total area of the peaks other than glimepiride and the peak, having the relative retention time of about 0.25, from the sample solution is not larger than 5 times the peak area of glimepiride from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of glimepiride, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of glimepiride obtained with 20 mL of this solution is equivalent to 35 to 65z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of glimepiride are not less than 9000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times ‌1070 with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glimepiride is not more than 2.0z. Water <2.48> Not more than 0.5z (0.25 g, coulometric titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Glimepiride and Glimepiride RS (separately determine the water <2.48> in the same manner as Glimepiride), dissolve each substance in a mixture of acetonitrile for liquid chromatography and water (4:1) to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with exactly 20 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of glimepi-ride in each solution. sure, suspend the residue with 1 mL of water, and filter under reduced pressure. Wash the residue with 1 mL of water, dry at 1059C for 1 hour. Determine the infrared ab-sorption spectrum as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 3370 cm－1, 3290 cm－1, 2930 cm－1, 1708 cm－1, 1674 cm－1, 1347 cm－1, 1156 cm－1 and 618 cm－1. Purity Related substances—Keep the sample solution and standard solution below 49C after preparation. To a quan-tity of powdered Glimepiride Tablets, equivalent to 9 mg of Glimepiride, wet with 0.5 mL of water, add a mixture of acetonitrile for liquid chromatography and water (4:1) to make 50 mL, shake, centrifuge, and use the supernatant liquid as the sample solution. Pipet 1 mL of the sample solu-tion, add a mixture of acetonitrile for liquid chromatogra-phy and water (4:1) to make exactly 100 mL, and use this so-lution as the standard solution. Perform the test with exactly Amount (mg) of glimepiride (C ＝ MS × AT/AS 24H34N4O5S) 5 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both MS: Amount (mg) of Glimepiride RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 228 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 0.5 g of sodium dihydrogen phos-phate dihydrate in 500 mL of water, adjust to pH 2.5 with phosphoric acid, and add 500 mL of acetonitrile for liquid chromatography. Flow rate: Adjust so that the retention time of glimepiride is about 17 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of glimepiride are not less than 9000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glimepiride is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

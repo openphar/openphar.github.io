@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nicergoline",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nicergoline",
+    "ja": "ニセルゴリン"
+  },
+  "monographId": "JP18-nicergoline",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H26BrN3O3",
+  "molecularWeight": 484.39,
+  "casNumber": "27848-84-6",
+  "definition": {
+    "en": "Nicergoline, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nicergoline occurs as white to light yellow, crystals or crystalline powder. It is soluble in acetonitrile, in ethanol (99.5) and in acetic anhydride, and practically insoluble in water. It is gradually colored to light brown by light. Melting point: about 1369C (with decomposition). ‌Identification (1) Determine the absorption spectrum of a solution of Nicergoline in ethanol (99.5) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Nicer-goline as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋5.2 – ＋6.29(after drying, 0.5 g, ethanol (95), 10 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Nicergoline according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 25 mg of Nicergoline in 25 mL of acetonitrile, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, and add aceto-nitrile to make exactly 100 mL. Pipet 10 mL of this solution, add acetonitrile to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak, having the relative retention time of about 0.5 to nicergoline obtained from the sample solution, is not larger than 4 times the peak area of nicergoline from the standard solution, and the area of the peak other than nicergoline and the peak mentioned above from the sample solution is not larger than 2.5 times the peak area of nicergoline from the standard solution. The peak which area is larger than the peak area of nicergoline from the standard solution is not more than two peaks, and the total area of the peaks other than nicergoline from the sample solution is not larger than 7.5 times the peak area of nicergoline from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 288 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Adjust the pH of 0.05 mol/L potassium di-hydrogen phosphate TS to 7.0 with triethylamine. To 350 mL of this solution add 350 mL of methanol and 300 mL of acetonitrile. Flow rate: Adjust so that the retention time of nicergoline is about 25 minutes. Time span of measurement: About 2 times as long as the retention time of nicergoline, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add acetonitrile to make exactly 50 mL, and use this solution as the solution for system suitability test. Pipet 5 mL of the solution for system suitability test, and add aceto-nitrile to make exactly 100 mL. Confirm that the peak area of nicergoline obtained with 20 mL of this solution is equiva-lent to 3 to 7z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the sample solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of nicergoline are not less than 8000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nicergoline is not more than 4.0z. Loss on drying <2.41> Not more than 0.5z (2 g, in vacu-um, 609C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Nicergoline, previ-ously dried, add 10 mL of acetic anhydride, and warm to dissolve. After cooling, add 40 mL of nitrobenzene, and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes to blue-green from red through a blue-purple (indicator: 10 drops of neutral red TS). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 24.22 mg of C24H26BrN3O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

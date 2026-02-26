@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/atropine-sulfate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Atropine Sulfate Hydrate",
+    "ja": "アトロピン硫酸塩水和物"
+  },
+  "monographId": "JP18-atropine-sulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "NO3)2.H2SO4.H2O",
+  "molecularWeight": 694.83,
+  "casNumber": "5908-99-6",
+  "definition": {
+    "en": "Atropine Sulfate Hydrate, when dried, contains not rately about 44 mg of Atorvastatin Calcium RS (separately determine the water <2."
+  },
+  "appearance": {
+    "en": "Atropine Sulfate Hydrate occurs as colorless crystals or a white crystalline powder. It is odorless. It is very soluble in water and in acetic acid (100), freely soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: 188 – 1949C (with decomposition). Intro-duce a capillary tube charged with dried sample into a bath previously heated to 1809C, and continue to heat at a rate of rise of about 39C per minute. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mg of Atropine Sulfate Hydrate add 3 drops of fuming nitric acid, and evaporate the mixture on a water bath to dryness. Dissolve the residue in 1 mL of N,N-dimethylformamide, and add 5 to 6 drops of tetraethyl-ammonium hydroxide TS: a red-purple color develops. To 2 mL of a solution of Atropine Sulfate Hydrate (1 in 50) add 4 to 5 drops of hydrogen tetrachloroaurate (III) TS: a lusterless, yellow-white precipitate is formed. To 5 mL of a solution of Atropine Sulfate Hydrate (1 in 25) add 2 mL of ammonia TS, and allow to stand for 2 to 3 minutes. Collect the precipitate, wash with water, and dry in a desiccator (in vacuum, silica gel) for 4 hours: it melts <2.60> between 1159C and 1189C. A solution of Atropine Sulfate Hydrate (1 in 20) re-sponds to Qualitative Tests <1.09> for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution —Dissolve 0.5 g JP XVIII Official Monographs / Atropine Sulfate Injection 495 of Atropine Sulfate Hydrate in 10 mL of water: the solution is clear and colorless. ‌Acidity—Dissolve 1.0 g of Atropine Sulfate Hydrate in 20 mL of water, and add 0.30 mL of 0.02 mol/L sodium hydroxide VS and 1 drop of methyl red-methylene blue TS: a green color develops. Related substances—Dissolve 0.25 g of Atropine Sul-fate Hydrate in 1 mL of diluted hydrochloric acid (1 in 10), add water to make 15 mL, and use this solution as the sam-ple solution. To 5 mL of the sample solution add 2 to 3 drops of hydrogen hexachloroplatinate (IV) TS: no precipitate is formed. To 5 mL of the sample solution add 2 mL of ammo-nia TS, and shake vigorously: the turbidity of the solution is not greater than that of the following control solution. Control solution: To 0.30 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid and water to make 50 mL. To this solution add 1 mL of silver nitrate TS, and allow 7 mL of the mixture to stand for 5 minutes. D Hyoscyamine—Weigh accurately about 1 g of Atro-pine Sulfate Hydrate, previously dried, and dissolve in water to make exactly 10 mL: the specific optical rotation [a]20 <2.49> of this solution in a 100-mm cell is between －0.609 and ＋0.109. Readily carbonizable substances <1.15>—Take 0.20 g of Atropine Sulfate Hydrate, and perform the test: the solu-tion has no more color than Matching Fluid A. Loss on drying <2.41> Not more than 4.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 1109C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.25 g of Atropine Sulfate Hydrate, previously dried and accurately weighed, in 30 mL of acetic acid (100). If necessary, dissolve it by warming, and cool. Titrate <2.50> with 0.05 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 33.84 mg of (C17H23NO3)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/primidone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Primidone‌",
+    "ja": "プリミドン"
+  },
+  "monographId": "JP18-primidone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H14N2O2",
+  "molecularWeight": 218.25,
+  "appearance": {
+    "en": "Primidone occurs as a white, crystalline pow-der or granules. It is odorless and has a slightly bitter taste. It is soluble in N,N-dimethylformamide, sparingly soluble in pyridine, slightly soluble in ethanol (95), very slightly soluble in water, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 0.5 g of Primidone with 5 mL of diluted sulfuric acid (1 in 2): the odor of formaldehyde is perceptible. (2) Mix 0.2 g of Primidone with 0.2 g of anhydrous sodi-um carbonate, and heat: the gas evolved changes moistened red litmus paper to blue."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Primidone in 10 mL of N,N-dimethylformamide: the so-lution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Primi- done according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). 2-Ethyl-2-phenylmalonediamide—Dissolve 0.10 g of Primidone in 2 mL of pyridine, add exactly 2 mL of the internal standard solution, then add 1 mL of bis-trimethyl silyl acetamide, shake well, and heat at 1009C for 5 minutes. Cool, add pyridine to make 10 mL, and use this solution as the sample solution. Separately, dissolve 50 mg of 2-ethyl-2-phenylmalonediamide in pyridine to make exactly 100 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solution, proceed in the same manner as Primi-done, and use this solution as the standard solution. Per-form the test with 2 mL of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of 2-ethyl-2-phenyl-malonediamide to that of the internal standard: QT is not more than QS. Internal standard solution—A solution of stearylalcohol in pyridine (1 in 2000). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 3 mm in inside diameter and 150 cm in length, packed with siliceous earth for gas chromatog-raphy (125 to 150 mm in particle diameter) coated with 50z phenyl-methyl silicon polymer for gas chromatography at the ratio of 3z. Column temperature: A constant temperature of about 1959C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of stearylalco- hol is about 10 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tion, 2-ethyl-2-phenylmalonediamide and the internal stand-ard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 5 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of 2-ethyl-2-phenylmalonediamide to that of the internal standard is not more than 1.5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Primidone and Primidone RS, previously dried, dissolve each in 20 mL of ethanol (95) by warming, and after cooling, add ethanol (95) to make exactly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Determine the absorbance, A1, of the sample solution and standard solution at the wavelength of maximum absorption at about 257 nm, and the absorbances, A2 and A3, at the wavelength of minimum absorption at about 254 nm and at about 261 nm, as directed under Ultraviolet-visible Spectro-photometry <2.24>, using ethanol (95) as the blank. Amount (mg) of primidone (C12H14N2O2) ＝ MS × (2A1 － A2 － A3)T/(2A1 － A2 － A3)S MS: Amount (mg) of Primidone RS taken where, (2A1 － A2 － A3)T is the value from the sample solu-tion, and (2A1 － A2 － A3)S is from the standard solution."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

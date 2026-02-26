@@ -1,0 +1,50 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-d3",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin D3",
+    "ja": "コレカルシフェロール"
+  },
+  "monographId": "JP18-vitamin-d3",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H44O",
+  "molecularWeight": 384.64,
+  "appearance": {
+    "en": "Cholecalciferol occurs as white crystals. It is odorless. It is freely soluble in ethanol (95), in chloroform, in diethyl ether and in isooctane, and practically insoluble in water. It is affected by air and by light. Melting point: 84 – 889C Transfer Cholecalciferol to a capillary tube, and dry for 3 hours in a desiccator (in vacu-um at a pressure not exceeding 2.67 kPa). Immediately fireseal the capillary tube, put it in a bath fluid, previously heated to a temperature about 109C below the expected melting point, and heat at a rate of rise of about 39C per minute, and read the melting point. Amount (mg) of chlorpropamide (C ＝ MS × AT/AS 10H13ClN2O3S)"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 mg of Cholecalciferol in 5 mL of chloroform, add 0.3 mL of acetic anhydride and 0.1 mL of sulfuric acid, and shake: a red color is produced, and MS: Amount (mg) of chlorpropamide for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). rapidly changes through purple and blue to green. Determine the infrared absorption spectrum of Cholecalciferol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cholecalciferol RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers. Column temperature: A constant temperature of about Absorbance <2.24> E 1z (265 nm): 450 – 490 (10 mg, 1 cm 259C. Mobile phase: A mixture of diluted acetic acid (100) (1 in 100) and acetonitrile (1:1). Flow rate: Adjust so that the retention time of chlor-propamide is about 5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of chlorpropamide are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times ethanol (95), 1000 mL). D Optical rotation <2.49> [a]20 ＋103 – ＋1129 (50 mg, ethanol (95), 10 mL, 100 mm). Prepare the solution without delay, using Cholecalciferol from a container opened not longer than 30 minutes, previously, and determine the rota-tion within 30 minutes after the solution has been prepared."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "7-Dehydrocholesterol—Dissolve 10 mg of Cholecal-ciferol in 2.0 mL of diluted ethanol (95) (9 in 10), add a solu-tion prepared by dissolving 20 mg of digitonin in 2.0 mL of diluted ethanol (95) (9 in 10), and allow the mixture to stand for 18 hours: no precipitate is formed. ‌JP XVIII Official Monographs / Cholesterol 749"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Chlorpropamide Tablets. Weigh accurately a quantity of the powder, equivalent to about 50 mg of chlorpropamide (C10H13ClN2O3S), add 75 mL of the mobile phase, shake for 10 minutes, and add the mobile phase to make exactly 100 mL. Centrifuge this solution, pipet 10 mL of the supernatant liquid, add the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of chlorpropamide for assay, previ-ously dried at 1059C for 3 hours, dissolve in the mobile phase to make exactly 100 mL. Pipet 10 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine the peak areas, AT and AS, of chlorpropamide in each solution. (3S,5Z,7E )-9,10-Secocholesta-5,7,10(19)-trien-3-ol [67-97-0] Cholecalciferol contains not less than 97.0z and not more than 103.0z of cholecalciferol (C27H44O). Description Cholecalciferol occurs as white crystals. It is odorless. It is freely soluble in ethanol (95), in chloroform, in diethyl ether and in isooctane, and practically insoluble in water. It is affected by air and by light. Melting point: 84 – 889C Transfer Cholecalciferol to a capillary tube, and dry for 3 hours in a desiccator (in vacu-um at a pressure not exceeding 2.67 kPa). Immediately fireseal the capillary tube, put it in a bath fluid, previously heated to a temperature about 109C below the expected melting point, and heat at a rate of rise of about 39C per minute, and read the melting point. Amount (mg) of chlorpropamide (C ＝ MS × AT/AS 10H13ClN2O3S) Identification (1) Dissolve 0.5 mg of Cholecalciferol in 5 mL of chloroform, add 0.3 mL of acetic anhydride and 0.1 mL of sulfuric acid, and shake: a red color is produced, and MS: Amount (mg) of chlorpropamide for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). rapidly changes through purple and blue to green. Determine the infrared absorption spectrum of Cholecalciferol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cholecalciferol RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers. Column temperature: A constant temperature of about Absorbance <2.24> E 1z (265 nm): 450 – 490 (10 mg, 1 cm 259C. Mobile phase: A mixture of diluted acetic acid (100) (1 in 100) and acetonitrile (1:1). Flow rate: Adjust so that the retention time of chlor-propamide is about 5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of chlorpropamide are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times ethanol (95), 1000 mL). D Optical rotation <2.49> [a]20 ＋103 – ＋1129 (50 mg, ethanol (95), 10 mL, 100 mm). Prepare the solution without delay, using Cholecalciferol from a container opened not longer than 30 minutes, previously, and determine the rota-tion within 30 minutes after the solution has been prepared. Purity 7-Dehydrocholesterol—Dissolve 10 mg of Cholecal-ciferol in 2.0 mL of diluted ethanol (95) (9 in 10), add a solu-tion prepared by dissolving 20 mg of digitonin in 2.0 mL of diluted ethanol (95) (9 in 10), and allow the mixture to stand for 18 hours: no precipitate is formed. ‌JP XVIII Official Monographs / Cholesterol 749 Assay Proceed with the operation avoiding contact with air or other oxidizing agents and using light-resistant containers. Dissolve separately about 30 mg each of Cholecalciferol and Cholecalciferol RS, accurately weighed, in isooctane to make exactly 50 mL. Pipet 10 mL each of these solutions, add 3 mL each of the internal standard solution, then add the mobile phase to make 50 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 10 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of cholecalciferol to that of the internal standard. Cholesterol"
+      }
+    }
+  ]
+}

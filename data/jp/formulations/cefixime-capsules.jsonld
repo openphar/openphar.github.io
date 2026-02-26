@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefixime-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefixime Capsules",
+    "ja": "セフィキシムカプセル"
+  },
+  "monographId": "JP18-cefixime-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefixime Capsules contain not less than 90.0z and not more than 105.0z of the labeled potency of cefixime (C16H15N5O7S2: 453.45). Method of preparation Prepare as directed under Cap-sules, with Cefixime Hydrate. Identification Take out the contents of Cefixime Capsules, solution, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL, and use this solution as the so-lution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 10 mL. Confirm that the peak area of cefixime obtained with 10 mL of this so-lution is equivalent to 7 to 13z of that with 10 mL of the so-lution for system suitability test. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of cefixime are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of cefixime is not more than 2.0z. Water <2.48> Not more than 12.0z (0.1 g of the contents, volumetric titration, direct titration). Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Take out the contents of 1 capsule of Cefixime Capsules, and to the contents and the capsule shells add 7V/10 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), shake for 30 minutes, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly V mL so that each mL contains about 1 mg (potency) of Cefixime Hydrate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take out the contents of Cefixime Capsules, solution, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL, and use this solution as the so-lution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 10 mL. Confirm that the peak area of cefixime obtained with 10 mL of this so-lution is equivalent to 7 to 13z of that with 10 mL of the so-lution for system suitability test. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of cefixime are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of cefixime is not more than 2.0z. Water <2.48> Not more than 12.0z (0.1 g of the contents, volumetric titration, direct titration). Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Take out the contents of 1 capsule of Cefixime Capsules, and to the contents and the capsule shells add 7V/10 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), shake for 30 minutes, and add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly V mL so that each mL contains about 1 mg (potency) of Cefixime Hydrate. Centrifuge this solu-tion, pipet 10 mL of the supernatant liquid, add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Cefixime RS, equivalent to about 20 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cefixime Hydrate. to a quantity of the contents of Cefixime Capsules, equiva-lent to 70 mg (potency) of Cefixime Hydrate, add 100 mL of mol/L phosphate buffer solution (pH 7.0), shake for 30 Amount [mg (potency)] of cefixime (C ＝ MS × AT/AS × V/20 16H15N5O7S2) minutes, and filter. To 1 mL of the filtrate add 0.1 mol/L phosphate buffer solution (pH 7.0) to make 50 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 286 nm and 290 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Take out the contents of Cefixime Capsules, to a quantity of the contents of Cefixime Capsules, equivalent to 0.1 g (potency) of Cefixime Hydrate, add 100 mL of 0.1 mol/L phosphate buffer solution (pH 7.0), shake for 30 minutes, filter, and use the filtrate as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area from the sample solution by the automatic integration method, and calculate the amount of them by the area per-centage method: the amount of each peak other than cefixime is not more than 1.0z, and the total amount of the peaks other than cefixime is not more than 2.5z. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay under Cefixime Hydrate. Time span for measurement: Proceed as directed in the operating conditions in the Purity under Cefixime Hydrate. System suitability— Test for required detectability: Pipet 1 mL of the sample MS: Amount [mg (potency)] of Cefixime RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of disodium hydrogen phosphate-citric acid buffer solution (pH 7.5) as the dissolution medium, the dissolution rates in 60 minutes of 50-mg (potency) capsule and in 90 minutes of 100-mg (potency) capsule are not less than 80z, respectively. Start the test with 1 capsule of Cefixime Capsules, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 56 mg (potency) of Cefixime Hydrate, and use this solution as the sample solution. Sepa-rately, weigh accurately an amount of Cefixime RS, equiva-lent to about 28 mg (potency), and dissolve in the dissolution medium to make exactly 100 mL. Pipet 4 mL of this solu-tion, add the dissolution medium to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefixime in each solution. Dissolution rate (z) with respect to the labeled amount of cefixime (C16H15N5O7S2) ＝ MS × AT/AS × V?/V × 1/C × 180 MS: Amount [mg (potency)] of Cefixime RS taken C: Labeled amount [mg (potency)] of Cefixime Hydrate in 1 capsule ‌Operating conditions— Proceed as directed in the operating conditions in the Assay under Cefixime Hydrate. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefixime are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefixime is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 20 Cefixime Capsules, weigh accurately the mass of the contents, and powder. Weigh accurately a portion of the powder, equiva-lent to about 0.1 g (potency) of Cefixime Hydrate, add 70 mL of 0.1 mol/L phosphate buffer solution (pH 7.0) and shake for 30 minutes, add 0.1 mol/L phosphate buffer solu-tion (pH 7.0) to make exactly 100 mL. Centrifuge this solu-tion, pipet 10 mL of the supernatant liquid, add 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Cefixime RS, equivalent to about 20 mg (potency), dissolve in 0.1 mol/L phosphate buffer solution (pH 7.0) to make exactly 100 mL, and use this solution as the standard solution. Then, proceed as di-rected in the Assay under Cefixime Hydrate. Amount [mg (potency)] of cefixime (C16H15N5O7S2) ＝ MS × AT/AS × 5 MS: Amount [mg (potency)] of Cefixime RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trientine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trientine Hydrochloride",
+    "ja": "トリエンチン塩酸塩"
+  },
+  "monographId": "JP18-trientine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H18N4.2HCl",
+  "molecularWeight": 219.16,
+  "appearance": {
+    "en": "Trientine Hydrochloride occurs as white to pale yellow, crystals or crystalline powder. It is odorless or has slightly an ammonia-like odor. It is freely soluble in water, soluble in methanol, and slightly soluble in ethanol (99.5). It is hygroscopic. Melting point: about 1219C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Trientine Hydrochloride, previously dried, as di-rected in the paste method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. (2) A solution of Trientine Hydrochloride (1 in 100) re-sponds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> The pH of a solution obtained by dissolving 1 g of Trientine Hydrochloride in 100 mL of water is between 7.0 and 8.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Trientine Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead solution (not more than 10 ppm). (2) Related substances—Dissolve 0.30 g of Trientine Hy-drochloride in 100 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 3 mL each of the sample solution and standard solution on two plates of silica gel for thin-layer chromatography. Develop the one plate with a mixture of 2-propanol and ammonia so-lution (28) (3:2) to a distance of about 6 cm, and air-dry the plate. Spray evenly ninhydrin-butanol TS on the plate, and heat the plate at 1309C for 5 minutes: the spots other than the principal spot and the spot nearby the starting point ob-tained from the sample solution is not more intense than the spot from the standard solution. Develop another plate with a mixture of ammonia solution (28), diethylether, aceto-nitrile, and ethanol (99.5) (10:4:3:3) to a distance of about 6 cm, and air-dry the plate. Spray evenly ninhydrin-butanol TS on the plate, and heat the plate at 1309C for 5 minutes: the spot nearby the starting point from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 2.0z (1 g, reduced pressure not exceeding 0.67 kPa, 409C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.22 g of Trientine Hydro- ‌chloride, and dissolve in 10 mL of 0.1 mol/L hydrochloric acid VS, 2 mL of a solution of sodium nitrate (9 in 20), 10 mL of acetic acid-ammonium acetate buffer solution (pH 4.8) and 50 mL of water. Titrate <2.50> with 0.1 mol/L cop-per (II) nitrate VS (potentiometric titration) using a copper electrode as the indicator electrode, a complex type silver-sil-ver chloride electrode as the reference electrode, and potas-sium chloride solution (1 in 4) as the inner solution. Perform a blank determination in the same manner, and make any necessary correction.‌ Each mL of 0.1 mol/L copper (II) nitrate VS ＝ 21.92 mg of C6H18N4.2HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, substituted by argon gas, at 2 –"
+  }
+}

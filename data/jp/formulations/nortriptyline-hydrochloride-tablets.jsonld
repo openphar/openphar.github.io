@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nortriptyline-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nortriptyline Hydrochloride Tablets",
+    "ja": "ノルトリプチリン塩酸塩錠"
+  },
+  "monographId": "JP18-nortriptyline-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nortriptyline Hydrochloride Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of nortriptyline (C19H21N: 263.38). Method of preparation Prepare as directed under Tablets, with Nortriptyline Hydrochloride. Identiˆcation (1) Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>, using diluted 0.1 mol/L hydrochloric acid TS (1 in 50) as the blank: it exhibits a maximum between 237 nm and 241 nm. (2) To a quantity of powdered Nortriptyline Hydrochlo-ride Tablets, equivalent to 10 mg of nortriptyline (C19H21N), add 10 mL of ethanol (99.5), shake thoroughly, centrifuge, and use the supernatant liquid as the sample solution. Sepa-rately, dissolve 11 mg of nortriptyline hydrochloride in 10 mL of ethanol (99.5), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with ‰uorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (4:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the test accord- the subsequent ˆltrate, add water to make exactly V? mL so that each mL contains about 11 mg of nortriptyline (C19H21N), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 tablets of Nortriptyline Hydrochloride Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of nortriptyline (C19H21N), add 50 mL of 0.1 mol/L hy-drochloric acid TS, sonicate, and extract for 15 minutes while occasional shaking. Shake for 15 minutes, and add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Centri-fuge this solution, pipet 2 mL of the supernatant liquid, add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 28 mg of nortriptyline hydrochloride for assay, previously dried at 1059C for 2 hours, and dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 50 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 239 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using diluted 0.1 mol/L hydrochloric acid TS (1 in 50) as the blank. ‌Amount (mg) of nortriptyline (C19H21N) ＝ MS × AT/AS × 2 × 0.878 MS: Amount (mg) of nortriptyline hydrochloride for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

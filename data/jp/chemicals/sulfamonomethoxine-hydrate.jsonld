@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfamonomethoxine-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfamonomethoxine Hydrate",
+    "ja": "スルファモノメトキシン水和物"
+  },
+  "monographId": "JP18-sulfamonomethoxine-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H12N4O3S.H2O",
+  "molecularWeight": 298.32,
+  "appearance": {
+    "en": "Sulfamonomethoxine Hydrate occurs as white to pale yellow, crystals, granules or crystalline powder. It is odorless. It is soluble in acetone, slightly soluble in ethanol (95), very slightly soluble in diethyl ether, and practically insolu-ble in water. It dissolves in dilute hydrochloric acid and in sodium hy-droxide TS. ‌It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Sulfamonomethoxine Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sulfamonomethoxine Hydrate in 5 mL of sodium hydrox-ide TS and 20 mL of water: the solution is clear and colorless to pale yellow. Dissolve 0.5 g of Sulfamonomethoxine Hy-drate in 5 mL of sodium hydroxide TS, and heat: no tur-bidity is produced. After cooling, add 5 mL of acetone: the solution is clear. Heavy metals <1.07>—Proceed with 1.0 g of Sul- famonomethoxine Hydrate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Sulfamonomethoxine Hydrate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.02 g of Sul-famonomethoxine Hydrate in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add ethanol (95) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol and ammonia solution (28) (4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solu-tion are not larger and not more intense than the spot from the standard solution. Loss on drying <2.41> 4.5 – 6.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.10z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Sulfamono-methoxine Hydrate, previously dried, dissolve in 5 mL of hy-drochloric acid and 50 mL of water, add 10 mL of a solution of potassium bromide (3 in 10), cool below 159C, and titrate <2.50> with 0.1 mol/L sodium nitrite VS (potentiometric titration or amperometric titration). Each mL of 0.1 mol/L sodium nitrite VS ＝ 28.03 mg of C11H12N4O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

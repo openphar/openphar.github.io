@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/phenytoin-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Phenytoin Tablets",
+    "ja": "フェニトイン錠"
+  },
+  "monographId": "JP18-phenytoin-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Phenytoin Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of phenytoin (C15H12N2O2: 252.27). Method of preparation Prepare as directed under Tablets, with Phenytoin. Identification Weigh a portion of powdered Phenytoin Tablets, equivalent to about 0.3 g of Phenytoin, transfer to a separator, and add 1 mL of dilute hydrochloric acid and 10 mL of water. Extract with 100 mL of diethyl ether, then with four 25-mL potions of diethyl ether. Combine the extracts, evaporate the diethyl ether on a water bath, and dry the residue at 1059C for 2 hours. Proceed with the residue as di-rected in the Identification under Phenytoin. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. ‌To 1 tablet of Phenytoin Tablets add 3V/5 mL of a mix-ture of water and acetonitrile (1:1), sonicate for 15 minutes with occasional shaking, shake for another 10 minutes, and add a mixture of water and acetonitrile (1:1) to make exactly V mL so that each mL contains about 1 mg of phenytoin (C15H12N2O2)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Weigh a portion of powdered Phenytoin Tablets, equivalent to about 0.3 g of Phenytoin, transfer to a separator, and add 1 mL of dilute hydrochloric acid and 10 mL of water. Extract with 100 mL of diethyl ether, then with four 25-mL potions of diethyl ether. Combine the extracts, evaporate the diethyl ether on a water bath, and dry the residue at 1059C for 2 hours. Proceed with the residue as di-rected in the Identification under Phenytoin. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. ‌To 1 tablet of Phenytoin Tablets add 3V/5 mL of a mix-ture of water and acetonitrile (1:1), sonicate for 15 minutes with occasional shaking, shake for another 10 minutes, and add a mixture of water and acetonitrile (1:1) to make exactly V mL so that each mL contains about 1 mg of phenytoin (C15H12N2O2). Centrifuge this solution, pipet 5 mL of the su-pernatant liquid, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Pro-ceed as directed in the Assay. Amount (mg) of phenytoin (C15H12N2O2) ＝ MS × QT/QS × V/25 MS: Amount (mg) of phenytoin for assay taken Internal standard solution—A solution of propyl parahy-droxybenzoate in the mobile phase (1 in 25,000). Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Phenytoin Tablets, and powder in an agate mortar. Weigh accurately a portion of the powder, equivalent to about 50 mg of phenytoin (C15H12N2O2), add 30 mL of a mixture of water and acetonitrile (1:1), sonicate for 15 minutes with oc-casional shaking, shake for another 10 minutes, and add a mixture of water and acetonitrile (1:1) to make exactly 50 mL. Centrifuge this solution, pipet 5 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of phenytoin for assay, previ-ously dried at 1059C for 2 hours, and dissolve in a mixture of water and acetonitrile (1:1) to make exactly 25 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal stand-ard solution, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of phenytoin to that of the internal standard. Amount (mg) of phenytoin (C15H12N2O2) ＝ MS × QT/QS × 2 MS: Amount (mg) of phenytoin for assay taken Internal standard solution—A solution of propyl parahy-droxybenzoate in the mobile phase (1 in 25,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 258 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol and 0.02 mol/L phosphate buffer solution (pH 3.5) (11:9). Flow rate: Adjust so that the retention time of phenytoin is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, phenytoin and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of phenytoin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

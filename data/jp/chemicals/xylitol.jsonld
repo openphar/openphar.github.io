@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/xylitol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Xylitol",
+    "ja": "キシリトール"
+  },
+  "monographId": "JP18-xylitol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H12O5",
+  "molecularWeight": 152.15,
+  "definition": {
+    "en": "Xylitol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Xylitol occurs as white, crystals or powder. It is odorless and has a sweet taste. It is very soluble in water, slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Xylitol (1 in 2) add 2 mL of iron (II) sulfate TS and 1 mL of a solution of sodium hydroxide (1 in 5): blue-green color is produced without turbidity. (2) Determine the infrared absorption spectrum of Xylitol, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 5.0 g of Xylitol in 10 mL of freshly boiled and cooled water: the pH of this solution is between 5.0 and 7.0. Melting point <2.60> 93.0 – 95.09C"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 5 g of Xylitol in 10 mL of water: the solution is clear and colorless. Chloride <1.03>—Perform the test with 2.0 g of Xylitol. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.005z). Sulfate <1.14>—Perform the test with 4.0 g of Xylitol. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.006z). Heavy metals <1.07>—Proceed with 4.0 g of Xylitol according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 5 ppm). Nickel—Dissolve 0.5 g of Xylitol in 5 mL of water, add 3 drops of dimethylglyoxime TS and 3 drops of ammo-nia TS, and allow to stand for 5 minutes: no red color is pro-duced. Arsenic <1.11>—Prepare the test solution with 1.5 g of Xylitol according to Method 1, and perform the test (not more than 1.3 ppm). Sugars—Dissolve 5.0 g of Xylitol in 15 mL of water, add 4.0 mL of dilute hydrochloric acid, and heat in a water bath for 3 hours under a reflux condenser. After cooling, neutralize with sodium hydroxide TS (indicator: 2 drops of methyl orange TS). Then add water to make 50 mL, transfer 10 mL of this solution to a flask, add 10 mL of water and 40 mL of Fehling's TS, boil gently for 3 minutes, and allow to stand to precipitate copper (I) oxide. Remove the superna-tant liquid through a glass filter (G4), and wash the precipi-tate with warm water until the last washing does not show alkalinity. Filter these washings through the glass filter men-tioned above. Dissolve the precipitate in the flask in 20 mL of iron (III) sulfate TS, filter the solution through the glass filter mentioned above, wash with water, combine the wash-ings with the filtrate, heat at 809C, and titrate <2.50> with 0.02 mol/L potassium permanganate VS: not more than 1.0 mL of 0.02 mol/L potassium permanganate VS is consumed. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, phosphorus (V) oxide, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Xylitol, previously dried, dissolve in water to make exactly 100 mL. Pipet 10 mL of this solution into an iodine flask, add 50 mL of potas-sium periodate TS exactly, and heat in a water bath for 15 minutes. After cooling, add 2.5 g of potassium iodide, stop-per, shake well, allow to stand for 5 minutes in a dark place, and titrate <2.50> with 0.1 mol/L sodium thiosulfate VS (in-dicator: 3 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L sodium thiosulfate VS It is hygroscopic. ＝ 1.902 mg of C5H 12O5 Identification (1) To 1 mL of a solution of Xylitol (1 in 2) add 2 mL of iron (II) sulfate TS and 1 mL of a solution of sodium hydroxide (1 in 5): blue-green color is produced without turbidity. (2) Determine the infrared absorption spectrum of Xylitol, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 5.0 g of Xylitol in 10 mL of freshly boiled and cooled water: the pH of this solution is between 5.0 and 7.0. Melting point <2.60> 93.0 – 95.09C"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

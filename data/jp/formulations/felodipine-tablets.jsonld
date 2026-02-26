@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/felodipine-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Felodipine Tablets",
+    "ja": "フェロジピン錠"
+  },
+  "monographId": "JP18-felodipine-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Felodipine Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of felodipine (C18H19Cl2NO4: 384.25). Method of preparation Prepare as directed under Tablets, with Felodipine. Identiˆcation To a quantity of powdered Felodipine Tablets, equivalent to 4 mg of Felodipine, add 200 mL of methanol, shake thoroughly, add methanol to make 250 mL, and centrifuge. Determine the absorption spectrum of the supernatant liquid as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits maxima between 235 nm and 239 nm, and between 357 nm and 363 nm. Uniformity of dosage units <6.02> Perform the Mass varia- tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Felodipine Tablets add 1 mL of water per 2.5 mg of felodipine (C18H19Cl2NO4), and shake thoroughly until the tablet is completely disintegrated. Add exactly 1 mL of the internal standard solution per 2.5 mg of felodipine (C 18H19Cl2NO4), and add methanol to make V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Felodipine Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 10 mg of felodipine (C18H19Cl2NO4), add 20 mL of water, add exactly 4 mL of the internal standard solution, add methanol to make 100 mL and shake. Centrifuge this solution, ˆlter the superna-tant liquid through a membrane ˆlter with a pore size not exceeding 0.45 mm, and use the ˆltrate as the sample solu-tion. Separately, weigh accurately about 10 mg of felodipine for assay (separately determine the loss on drying <2.41> in the same conditions as Felodipine), add 20 mL of water, add exactly 4 mL of the internal standard solution, add methanol to make 100 mL, and use this solution as the standard solu-tion. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and cal-culate the ratios, QT and QS, of the peak area of felodipine to that of the internal standard. Fenbufen"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

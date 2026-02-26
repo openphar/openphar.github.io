@@ -1,0 +1,38 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/storagelight-resistant",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Storage—Light-resistant.",
+    "ja": "レセルピン散 0.1"
+  },
+  "monographId": "JP18-storagelight-resistant",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.4 g of 0.1z Reserpine Powder add 20 mL of acetonitrile, shake for 30 minutes, and centrifuge. De-termine the absorption spectrum of the supernatant liquid as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 265 nm and 269 nm, and between 294 nm and 298 nm. Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately a quantity of 0.1z Reserpine Powder, equivalent to about 0.5 mg of reserpine (C33H40N2O9), disperse in 12 mL of water, add ex-actly 10 mL of the internal standard solution and 10 mL of acetonitrile, and dissolve by warming at 509C for 15 minutes, then add water to make 50 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 10 mg of Reserpine RS, previously dried at 609C in vacuum for 3 hours, dissolve in acetonitrile to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 10 mL of the internal standard solution, 5 mL of acetonitrile and water to make 50 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Reserpine. Amount (mg) of reserpine (C33H40N2O9) ＝ MS × QT/QS × 1/20 MS: Amount (mg) of Reserpine RS taken Internal standard solution—A solution of butyl parahydrox-ybenzoate in acetonitrile (1 in 50,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

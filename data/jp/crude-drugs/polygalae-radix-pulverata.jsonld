@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/polygalae-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Polygalae Radix Pulverata",
+    "ja": "オンジ末"
+  },
+  "monographId": "JP18-polygalae-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Polygala Root occurs as a light yel-low-grayish brown powder. It has a slight odor and a slightly acrid taste. Under a microscope <5.01>, Powdered Polygala Root re- veals fragments of cork layers, pitted vessels, reticulate ves-sels and tracheids; fragments of xylem fibers and xylem parenchyma cells with a small number of simple pits; frag-ments of parenchyma cells containing substances such as oil droplets, rosette aggregates and solitary crystals of calcium oxalate. Oil drop-like contents stained red with sudan III TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of Powdered Polygala Root with 10 mL of water: a lasting fine foam is produced. (2) To 1.0 g of Powdered Polygala Root add 10 mL of a solution of sodium hydroxide (1 in 10), and heat under a re‰ux condenser for 20 minutes. After cooling, add 10 mL of dilute hydrochloric acid, and shake. After cooling, add 10 mL of 1-butanol, shake for 10 minutes, centrifuge, and use the 1-butanol layer as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol, water and acetic acid (100) (20:4:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: a red-brown to light brown spot appears at an Rf value of about 0.35."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Polygala Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Polygala Root according to Method 4, and per-form the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow- dered Polygala Root does not show stone cells or starch grains. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Total ash <5.01> Not more than 6.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

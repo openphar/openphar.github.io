@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fluphenazine-enanthate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fluphenazine Enanthate",
+    "ja": "フルフェナジンエナント酸エステル"
+  },
+  "monographId": "JP18-fluphenazine-enanthate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C29H38F3N3O2S",
+  "molecularWeight": 549.69,
+  "casNumber": "2746-81-8",
+  "definition": {
+    "en": "Fluphenazine Enanthate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fluphenazine Enanthate is a light yellow to yellowish orange viscous liquid. It is generally clear, and can be opaque by producing crystals. It is freely soluble in methanol and in diethyl ether, soluble in ethanol (95) and in acetic acid (100), and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Prepare the test solution with 0.01 g of Fluphenazine Enanthate as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the test solution responds to Qualitative Tests <1.09> for fluoride. Dissolve 2 mg of Fluphenazine Enanthate in 200 mL of a solution of hydrochloric acid in methanol (17 in 2000). Determine the absorption spectrum of the solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the ard solution. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Fluphenazine Enan-thate, previously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). Perform a blank de-termination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 27.49 mg of C29H38F3N3O2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethionamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethionamide",
+    "ja": "エチオナミド"
+  },
+  "monographId": "JP18-ethionamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H10N2S",
+  "molecularWeight": 166.24,
+  "definition": {
+    "en": "Ethionamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethionamide occurs as yellow, crystals or crys-talline powder, having a characteristic odor. It is soluble in methanol and in acetic acid (100), sparingly soluble in ethanol (99.5) and in acetone, and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ethionamide in methanol (3 in 160,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ethionamide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 3.0 g of Ethionamide in 30 mL of methanol by warming, add 90 mL of water, allow to stand in ice water for 1 hour, and filter. To 80 mL of the fil-trate add 0.8 mL of cresol red TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Heavy metals <1.07>—Proceed with 1.0 g of Ethionamide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ethionamide according to Method 3. Add 10 mL of a so-lution of magnesium nitrate hexahydrate in ethanol (95) (1 in 50), then add 1.5 mL of hydrogen peroxide (30), and fire to burn (not more than 2 ppm). Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.20 g of Ethionamide in 10 mL of acetone, and use this solution as the sample solution. Pipet 0.5 mL of the sample solution, add acetone to make exactly 100 mL, and use this solution as the standard solution (1). Separately, pipet exactly 0.2 mL of the sample solution, add acetone to make exactly 100 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solu-tion and standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography, develop with a mixture of ethyl acetate, hexane and metha-nol (6:2:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution (1), and number of the spot other than the principal spot from the sample solution which is more in-tense than the spot from the standard solution (2) is not more than one. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Ethionamide, previ-ously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from orange-red to dark orange-brown (indicator: 2 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 16.62 mg of C8H10N2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

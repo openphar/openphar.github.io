@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/butenafine-hydrochloride-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Butenafine Hydrochloride Solution",
+    "ja": "ブテナフィン塩酸塩液"
+  },
+  "monographId": "JP18-butenafine-hydrochloride-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Butenafine Hydrochloride Solution is a liquid for external use. It contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Butenafine Hydrochloride Solution, equivalent to 10 mg of Butenafine Hydrochloride, add methanol to make 200 mL, and determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 272 nm and 276 nm, between 281 nm and 285 nm, be- tween 311 nm and 315 nm, and between 316 nm and 320 nm, and a shoulder between 289 nm and 299 nm."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exact volume of Butenafine Hydrochloride Solution, equivalent to about 20 mg of butenafine hydro-chloride (C23H27N.HCl), add methanol to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 4 mL of the in-ternal standard solution, then add methanol to make 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of butenafine hydrochloride for assay, previously dried in vacuum at 609C for 3 hours using phosphorus (V) oxide as desiccant, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solu-tion, add exactly 4 mL of the internal standard solution, then add methanol to make 25 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of butenafine to that of the internal standard. mol/L ammonium acetate TS (1 in 500) (4:1). Flow rate: Adjust so that the retention time of butenafine is about 2.5 minutes. Amount (mg) of butenafine hydrochloride (C ＝ MS × QT/QS 23H 27N.HCl) System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and butenafine are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of butenafine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-hydroxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Hydroxide",
+    "ja": "水酸化カルシウム"
+  },
+  "monographId": "JP18-calcium-hydroxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Hydroxide contains not less than 90."
+  },
+  "appearance": {
+    "en": "Calcium Hydroxide occurs as a white powder. It has a slightly bitter taste. It is slightly soluble in water, very slightly soluble in boil-ing water, and practically insoluble in ethanol (95) and in diethyl ether. It dissolves in dilute acetic acid, in dilute hydrochloric acid ‌JP XVIII Official Monographs / Calcium Lactate Hydrate 599 and in dilute nitric acid. It absorbs carbon dioxide from air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix Calcium Hydroxide with 3 to 4 times its mass of water: the mixture is slushy and is alkaline. Dissolve 1 g of Calcium Hydroxide in 30 mL of dilute acetic acid, and boil. After cooling, neutralize with ammonia TS: the solution responds to Qualitative tests <1.09> (2) and for calcium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid-insoluble substances—To 5 g of Calcium Hydroxide add 100 mL of water, add hydrochloric acid dropwise with strring until the solution becomes acidic, and further add 1 mL of hydrochloric acid. Boil this solution for 5 minutes, cool, and filter through a tared glass filter (G4). Wash the residue with boiling water until the last washing exhibits no turbidity upon addition of silver nitrate TS, and dry at 1059C to constant mass: the mass is not more than 25 mg. Heavy metals <1.07>—Dissolve 1.0 g of Calcium Hy- droxide in 10 mL of dilute hydrochloric acid, evaporate on a water bath to dryness, dissolve the residue in 40 mL of water, and filter. To 20 mL of the filtrate add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 5 mL of dilute hydrochloric acid on a water bath to dryness, and add 2 mL of dilute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 40 ppm). Magnesium and alkali metals—Dissolve 1.0 g of Cal-cium Hydroxide in a mixture of 20 mL of water and 10 mL of dilute hydrochloric acid, boil, neutralize with ammonia TS, and precipitate calcium oxalate completely by adding dropwise ammonium oxalate TS. Heat the mixture on a water bath for 1 hour, cool, dilute with water to 100 mL, shake, and filter. To 50 mL of the filtrate add 0.5 mL of sul-furic acid, evaporate to dryness, and ignite at 6009C to con-stant mass: the mass of the residue does not exceed 24 mg. Arsenic <1.11>—Dissolve 0.5 g of Calcium Hydroxide in 5 mL of dilute hydrochloric acid, and perform the test with this solution as the test solution (not more than 4 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Calcium Hydroxide, dissolve by adding 10 mL of dilute hydrochloric acid, and add water to make exactly 100 mL. Measure exactly 10 mL of this solution, add 90 mL of water and 1.5 mL of 8 mol/L potassium hydroxide TS, shake, allow to stand for 3 to 5 minutes, and then add 0.1 g of NN indicator. Titrate <2.50> immediately with 0.05 mol/L disodium dihydrogen ethylene-diamine tetraacetate VS, until the red-purple color of the so-lution changes to blue. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 3.705 mg of Ca(OH)2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/b-galactosidase-aspergillus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "b-Galactosidase (Aspergillus)",
+    "ja": "b-ガラクトシダーゼ（アスペルギルス）"
+  },
+  "monographId": "JP18-b-galactosidase-aspergillus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "9031-11-2",
+  "definition": {
+    "en": "b-Galactosidase (Aspergillus) contains an enzyme produced by Aspergillus oryzae."
+  },
+  "appearance": {
+    "en": "b-Galactosidase (Aspergillus) occurs as a white to light yellow powder. It is slightly soluble in water with a turbidity, and practi-cally insoluble in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 25 mg of b-Galactosidase (Aspergillus) in 100 mL of water, then to 1 mL of this solu-tion add 9 mL of lactose substrate TS, and stand at 309C for 10 minutes. To 1 mL of this solution add 6 mL of glucose detection TS, and stand at 309C for 10 minutes: a red to red-purple color develops. (2) Dissolve 0.1 g of b-Galactosidase (Asperigillus) in 100 mL of water, and filter the solution if necessary. Deter-mine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Odor—b-Galactosidase (Aspergillus) has no ‌1054 any rancid odor. Heavy metals <1.07>—Proceed with 1.0 g of b-Galac-tosidase (Aspergillus) according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of b-Galactosidase (Aspergillus) according to Method 3, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 9.0z (0.5 g, in vacu-um, 809C, 4 hours). Residue on ignition <2.44> Not more than 3z (0.5 g). Nitrogen content Weigh accurately about 70 mg of b-Galactosidase (Aspergillus), and perform the test as directed under Nitrogen Determination <1.08>: the amount of nitro-gen (N: 14.01) is between 0.5z and 5.0z, calculated on the dried basis."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Substrate solution—Dissolve 0.172 g of 2-nitrophenyl-b-D-galactopyranoside in disodium hydrogen-phosphate-citric acid buffer solution (pH 4.5) to make 100 mL. (ii) Procedure—Weigh accurately about 25 mg of b-Galactosidase (Aspergillus), dissolve in water to make ex-actly 100 mL, then pipet 2 mL of this solution, add water to make exactly 50 mL, and use this solution as the sample so-lution. Take exactly 3.5 mL of the substrate solution, stand at 30 ± 0.19C for 5 minutes, add exactly 0.5 mL of the sam-ple solution, immediately mix, and stand at 30 ± 0.19C for exactly 10 minutes, then add exactly 1 mL of sodium carbon-ate TS and mix immediately. Perfoum the test as directed under Ultraviolet-visible Spectrophotometry <2.24>, and de-termine the absorbance, A1, of this solution at 420 nm using water as the control. Separately, take exactly 3.5 mL of the substrate solution, add exactly 1 mL of sodium carbonate TS and mix, then add exactly 0.5 mL of the sample solution and mix. Determine the absorbance, A2, of this solution in the same manner as above. Units per g of b-Galactosidase (Aspergillus) ＝ 1/M × (A1 － A2)/0.917 × 1/0.5 × 1/10 0.917: Absorbance of 1 mmol/5 mL of o-nitrophenol M: Amount (g) of b-Galactosidase (Aspergillus) in the sample solution per mL Unit: One unit indicates an amount of the enzyme which decomposes 1 mmol of 2-nitrophenyl-b-D-galac-topyranoside in 1 minute under the above condi-tions."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/magnesium-oxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Magnesium Oxide",
+    "ja": "酸化マグネシウム"
+  },
+  "monographId": "JP18-magnesium-oxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Magnesium Oxide, when ignited, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Magnesium Oxide occurs as a white, powder or granules. It is odorless. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It dissolves in dilute hydrochloric acid. It absorbs moisture and carbon dioxide in air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Magnesium Oxide in dilute hy-drochloric acid (1 in 50) responds to Qualitative Tests <1.09> for magnesium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Alkali and soluble salts—Transfer 2.0 g of Magnesium Oxide to a beaker, add 100 mL of water, cover the beaker with a watch-glass, heat on a water bath for 5 minutes, and filter immediately. After cooling, to 50 mL of the filtrate add 2 drops of methyl red TS and 2.0 mL of 0.05 mol/L sulfuric acid VS: a red color develops. Evaporate 25 mL of the remaining filtrate to dryness, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 10 mg. Carbonate—Boil 0.10 g of Magnesium Oxide with 5 mL of water, cool, and add 5 mL of acetic acid (31): almost no effervescence occurs. Heavy metals <1.07>—Dissolve 1.0 g of Magnesium Oxide in 20 mL of dilute hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the residue in 35 mL of water, add 1 drop of phenolphthalein TS, neutralize with ammonia TS, add 2 mL of dilute acetic acid, and filter, if necessary. Wash the filter paper with water, add water to the combined washing and the filtrate to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: to 20 mL of dilute hydro-chloric acid add 1 drop of phenolphthalein TS, neutralize with ammonia TS, and add 2 mL of dilute acetic acid, 4.0 mL of Standard Lead Solution and water to make 50 mL (not more than 40 ppm). Iron <1.10>—Prepare the test solution with 40 mg of ‌Magnesium Oxide according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 500 ppm). Calcium oxide—Weigh accurately about 0.25 g of Magnesium Oxide, previously ignited, dissolve in 6 mL of dilute hydrochloric acid by heating. Cool, add 300 mL of water and 3 mL of a solution of L-tartaric acid (1 in 5), then add 10 mL of a solution of 2,2?,2!-nitrilotriethanol (3 in 10) and 10 mL of 8 mol/L potassium hydroxide TS, allow to stand for 5 minutes, and titrate <2.50> with 0.01 mol/L diso-dium dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue (indi-cator: 0.1 g of NN indicator). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 0.5608 mg of CaO The mass of calcium oxide (CaO: 56.08) is not more than 1.5z. Arsenic <1.11>—Dissolve 0.20 g of Magnesium Oxide in 5 mL of dilute hydrochloric acid, and perform the test with this solution as the test solution (not more than 10 ppm). Acid-insoluble substances—Mix 2.0 g of Magnesium Oxide with 75 mL of water, add 12 mL of hydrochloric acid dropwise, while shaking, and boil for 5 minutes. Collect the insoluble residue using filter paper for quantitative analysis, wash well with water until the last washing shows no tur-bidity with silver nitrate TS, and ignite the residue together with the filter paper: the mass of the ignited residue does not more than 2.0 mg. Fluoride—(i) Apparatus: Use a hard glass appa-ratus as illustrated in the figure. Ground-glass joints may be used. (ii) Procedure: Transfer 5.0 g of Magnesium Oxide to the distilling flask A with the aid of 20 mL of water, add about 1 g of glass wool and 50 mL of diluted purified sulfu-ric acid (1 in 2), and connect A to the distillation apparatus, previously washed with steam streamed through the steam introducing tube E. Connect the condenser C with the receiver D containing 10 mL of 0.01 mol/L sodium hydrox-ide VS and 10 mL of water so that the lower end of C is immersed in the solution. Heat A gradually until the temper-ature of the solution in A reaches 1309C, then open the rub-ber tube F, close the rubber tube G, boil water in the steam generator B vigorously, and introduce the generated steam into F. Simultaneously, heat A, and maintain the tempera-ture of the solution in A between 1359C and 1459C. Adjust the distilling rate to about 10 mL per minute. Collect about 170 mL of the distillate, then stop the distillation, wash C with a small quantity of water, combine the washings with the distillate, add water to make exactly 200 mL, and use this solution as the test solution. Perform the test with the test solution as directed in the procedure of determination for fluoride under Oxygen Flask Combustion Method <1.06>. No corrective solution is used in this procedure. The content of fluoride (F) is not more than 0.08z. Amount (mg) of fluoride (F: 19.00) in the test solution ＝ amount (mg) of fluoride in 5 mL of the standard solution × AT/AS × 200/V Loss on ignition <2.43> Not more than 10z (0.25 g, 9009C, constant mass)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Ignite Magnesium Oxide to constant mass at 9009C, weigh accurately about 0.2 g of the residue, dissolve in 10 mL of water and 4.0 mL of dilute hydrochloric acid, and add water to make exactly 100 mL. Pipet 25 mL of this solu-tion, add 50 mL of water and 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7) and titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylenediamine tetra-acetate VS (indicator: 40 mg of eriochrome black T-sodium chloride indicator). Perform a blank determination in the same manner, and make any necessary correction. From the volume of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS consumed, deduct the volume of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS corresponding to the content of calcium oxide (CaO) obtained in the Purity (5). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.015 mg of MgO Each mg of calcium oxide (CaO) ＝ 0.36 mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

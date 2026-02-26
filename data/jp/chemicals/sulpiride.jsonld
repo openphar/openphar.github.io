@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulpiride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulpiride",
+    "ja": "スルピリド"
+  },
+  "monographId": "JP18-sulpiride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H23N3O4S",
+  "molecularWeight": 341.43,
+  "casNumber": "15676-16-1",
+  "definition": {
+    "en": "Sulpiride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Sulpiride is a white crystalline powder. It is freely soluble in acetic acid (100) and in dilute acetic acid, sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. It is soluble in 0.05 mol/L sulfuric acid TS. A solution of Sulpiride in methanol (1 in 100) shows no optical rotation. Melting point: about 1789C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Sulpiride in 0.05 mol/L sulfuric acid TS to make 100 mL. Dilute 5 mL of the solution with water to make 100 mL. Determine the absorp-tion spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Sulpi-ride as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spec-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.4 g of Sulpiride, previously dried and accurately weighed, in 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS) until the color of the solution changes from violet through blue to bluish green. Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 34.14 mg of C H N O S 15 23 3 4 Description Sulpiride is a white crystalline powder. It is freely soluble in acetic acid (100) and in dilute acetic acid, sparingly soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in water. It is soluble in 0.05 mol/L sulfuric acid TS. A solution of Sulpiride in methanol (1 in 100) shows no optical rotation. Melting point: about 1789C (with decomposition). Identification (1) Dissolve 0.1 g of Sulpiride in 0.05 mol/L sulfuric acid TS to make 100 mL. Dilute 5 mL of the solution with water to make 100 mL. Determine the absorp-tion spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Sulpi-ride as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spec-"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

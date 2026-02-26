@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nicotinic-acid-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nicotinic Acid Injection",
+    "ja": "ニコチン酸注射液"
+  },
+  "monographId": "JP18-nicotinic-acid-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nicotinic Acid Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Nicotinic Acid Injection is a clear, colorless liquid. pH: 5.0 – 7.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Nicotinic Acid Injec-tion, equivalent to 0.1 g of Nicotinic Acid, add 0.3 mL of dilute hydrochloric acid, and evaporate on a water bath to 2 mL. After cooling, collect the crystals formed, wash with small portions of ice-cold water until the last washing shows no turbidity on the addition of silver nitrate TS, and dry at 1059C for 1 hour: the crystals melt <2.60> between 2349C and 2389C. With the crystals, proceed as directed in the Identification (1) under Nicotinic Acid. (2) Dissolve 0.02 g of the dried crystals obtained in (1) in water to make 1000 mL, and determine the absorption spec-trum as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits a maximum between 261 nm and 263 nm, and a minimum between 235 nm and 239 nm. Sepa-rately, determine the absorbances of this solution, A1 and A2, at each wavelength of maximum and minimum absorp-tion, respectively: the ratio A2/A1 is between 0.35 and 0.39. Bacterial endotoxins <4.01> Less than 3.0 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. MS: Amount (mg) of Nicotinic Acid RS taken Internal standard solution—A solution of caffeine in the mobile phase (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 260 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 1.1 g of sodium 1-octane sulfonate in a mixture of 0.05 mol/L sodium dihydrogenphosphate TS (pH 3.0) and methanol (4:1) to make 1000 mL. Flow rate: Adjust so that the retention time of caffeine is about 9 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, nicotinic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of nicotinic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

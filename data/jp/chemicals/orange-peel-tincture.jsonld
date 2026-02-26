@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/orange-peel-tincture",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Orange Peel Tincture",
+    "ja": "トウヒチンキ"
+  },
+  "monographId": "JP18-orange-peel-tincture",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Orange Peel Tincture is a yellowish brown liq-uid. It has a characteristic odor, and a bitter taste. Specific gravity d 20: about 0.90"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 5.0 mL of Orange Peel Tincture add 5 mL of ethanol (95), filter if necessary, and use the filtrate as the sample solution. Proceed as directed in the Identification under Bitter Orange Peel. Alcohol number <1.01> Not less than 6.6 (Method 2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

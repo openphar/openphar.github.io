@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/eplerenone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Eplerenone Tablets",
+    "ja": "エプレレノン錠"
+  },
+  "monographId": "JP18-eplerenone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Eplerenone Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of eplerenone (C24H30O6: 414.49). Method of preparation Prepare as directed under Tablets, with Eplerenone. Identification Determine the absorption spectrum of the sample solution obtained in the Uniformity of dosage units as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 240 nm and 244 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol- lowing method: it meets the requirement. To 1 tablet of Eplerenone Tablets add a suitable amount of a mixture of acetonitrile and water (3:2), shake, disinte-grate the tablet by sonicating, add a mixture of acetonitrile and water (3:2) to make exactly 100 mL, and centrifuge. Take exactly V mL of the supernatant liquid, add a mixture of acetonitrile and water (3:2) to make exactly V? mL so that each mL contains about 25 mg of eplerenone (C24H30O6), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Uniformity of dosage units as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 240 nm and 244 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol- lowing method: it meets the requirement. To 1 tablet of Eplerenone Tablets add a suitable amount of a mixture of acetonitrile and water (3:2), shake, disinte-grate the tablet by sonicating, add a mixture of acetonitrile and water (3:2) to make exactly 100 mL, and centrifuge. Take exactly V mL of the supernatant liquid, add a mixture of acetonitrile and water (3:2) to make exactly V? mL so that each mL contains about 25 mg of eplerenone (C24H30O6), and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Eplerenone RS (separately deter-mine the loss on drying <2.41> under the same conditions as Eplerenone), and dissolve in a mixture of acetonitrile and water (3:2) to make exactly 50 mL. Pipet 5 mL of this solu-tion, add a mixture of acetonitrile and water (3:2) to make exactly 100 mL, and use this solution as the standard solu-tion. Determine the absorbances, AT and AS, at 243 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of eplerenone (C24H30O6) ＝ MS × AT/AS × V?/V × 1/10 MS: Amount (mg) of Eplerenone RS taken, calculated on the dried basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 1st fluid for dissolution test as the dissolution me-dium, the dissolution rate in 30 minutes of Eplerenone Tablets is not less than 75z. Start the test with 1 tablet of Eplerenone Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 5 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 11 mg of eplerenone (C24H30 O6), and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Eplerenone RS (separately determine the loss on drying <2.41> under the same condi-tions as Eplerenone), dissolve in 5 mL of acetonitrile, and add the dissolution medium to make exactly 500 mL. Pipet 10 mL of this solution, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 243 nm of the sample solution and standard solution as directed under Ul-traviolet-visible Spectrophotometry <2.24> using the dissolu-tion medium as the blank. Dissolution rate (z) with respect to the labeled amount of eplerenone (C24H30O6) ＝ MS × AT/AS × V?/V × 1/C × 36 MS: Amount (mg) of Eplerenone RS taken, calculated on the dried basis C: Labeled amount (mg) of eplerenone (C24H30O6) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Eplerenone Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of eplerenone (C24H30O6), add a suitable amount of a mixture of aceto-nitrile and water (3:2), sonicate to disperse the particles, and add a mixture of acetonitrile and water (3:2) to make exactly 100 mL. Centrifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of Eplerenone RS (separately determine the loss on drying <2.41> under the same conditions as Eplerenone), dissolve in a mixture of acetonitrile and water (3:2) to make exactly 50 mL, and use this solution as the standard solution. ‌942 Perform the test with exactly 15 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of eplerenone in each solution. Amount (mg) of eplerenone (C24H30O6) ＝ MS × AT/AS × 2 MS: Amount (mg) of Eplerenone RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 243 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.4 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust to pH 3.0 with phosphoric acid. To 550 mL of this solution add 360 mL of methanol and 90 mL of acetonitrile. Flow rate: Adjust so that the retention time of eplerenone is about 12 minutes. System suitability— System performance: When the procedure is run with 15 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of eplerenone are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 15 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of eplerenone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

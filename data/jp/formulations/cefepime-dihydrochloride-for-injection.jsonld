@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefepime-dihydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefepime Dihydrochloride for Injection",
+    "ja": "注射用セフェピム塩酸塩"
+  },
+  "monographId": "JP18-cefepime-dihydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefepime Dihydrochloride for Injection is a prepa-ration for injection, which is dissolved before use. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Cefepime Dihydrochloride for Injection occurs as a white to pale yellow powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 40 mg of Cefepime Dihydro-chloride in 2 mL of water, add 1 mL of a solution of hydrox-ylammonium chloride (1 in 10) and 2 mL of sodium hydrox-ide TS, allow to stand for 5 minutes, then add 3 mL of 1 mol/L hydrochloric acid TS and 3 drops of iron (III) chlo-ride TS: a red-brown color develops. (2) Determine the absorption spectrum of a solution of Cefepime Dihydrochloride for Injection (1 in 12,500) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 233 nm and 237 nm and between 255 nm and 259 nm. pH <2.54> The pH of a solution obtained by dissolving an amount of Cefepime Dihydrochloride for Injection, equiva-lent to 0.5 g (potency) of Cefepime Dihydrochloride Hy-drate, in 5 mL of water is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve an amount of Cefepime Dihydrochloride for Injection, equiva-lent to 0.5 g (potency) of Cefepime Dihydrochloride Hy-drate, in 5 mL of water: the solution is clear and colorless or light yellow. The color is not darker than Matching Fluid I. N-Methylpyrrolidine—Weigh accurately an amount of Cefepime Dihydrochloride for Injection, equivalent to about 0.2 g (potency) of Cefepime Dihydrochloride Hydrate, dissolve in diluted nitric acid (2 in 625) to make exactly 20 mL, and use this solution as the sample solution. Separately, transfer 30 mL of water into a 100-mL volumetric flask, weigh accurately the mass of the flask, add about 0.125 g of N-methylpyrrolidine, then weigh accurately the mass, and add water to make exactly 100 mL. Pipet 4 mL of this solu-tion, add diluted nitric acid (2 in 3125) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 100 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas of N-methylpyrrolidine, AT and AS, by the automatic integration method within 20 minutes after the sample solution is prepared. Calculate the amount of N-methylpyrrolidine per mg (potency) of Cefepime Dihydro-chloride for Injection by the following formula: not more than 1.0z. Amount (z) of N-methylpyrrolidine ＝ (MS × f )/MT × AT/AS × 1/125 MS: Amount (mg) of N-methylpyrrolidine taken MT: Amount [mg (potency)] of Cefepime Dihydrochloride for Injection taken f: Purity (z) of N-methylpyrrolidine Operating conditions— Proceed as directed in the operating conditions in the Purity (3) under Cefepime Dihydrochloride Hydrate. System suitability— Proceed as directed in the system suitability in the Purity under Cefepime Dihydrochloride Hydrate. Water <2.48> Not more than 4.0z (Weigh accurately about 50 mg of Cefepime Dihydrochloride for Injection, dissolve in exactly 2 mL of methanol for water determination, and perform the test with exactly 0.5 mL of this solution: coulo-metric titration). Bacterial endotoxins <4.01> Less than 0.06 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 Cefepime Dihydrochloride for Injection. Weigh ac-curately an amount of the content, equivalent to about 60 mg (potency) of Cefepime Dihydrochloride Hydrate, dis-solve in the mobile phase to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accu- ‌672 rately an amount of Cefepime Dihydrochloride RS, equiva-lent to about 60 mg (potency), dissolve in the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Cefepime Dihydrochloride Hydrate. Amount [ mg (potency)] of cefepime (C19H24N6O5S2) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefepime Dihydrochloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

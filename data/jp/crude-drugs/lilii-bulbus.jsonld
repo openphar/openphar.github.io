@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/lilii-bulbus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Lilii Bulbus",
+    "ja": "ビャクゴウ"
+  },
+  "monographId": "JP18-lilii-bulbus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Lilium Bulb reveals oblong with narrowed apex, lanceolate, or narrowly triangular boat-shaped, trans-lucent, 1.3 – 6 cm in length, 0.5 – 2.0 cm in diameter, exter-nally milky white to light yellow-brown occasionally purplish in color, nearly smooth; central portion somewhat thick-ened, circumferential portion thin, slightly waved, occa-sionally rolled inside; usually several lines of vascular bun-dles longitudinally in parallel are seen through parenchyma; hard in texture, easy to break; fractured surface horny and flat. Almost odorless; taste, slightly acid and bitter. Under a microscope <5.01>, the surface reveals epidermal cells rectangular to almost square, stomata nearly circular, the cells adjacent to stomata mostly 4 in number. Under a microscope <5.01>, a transverse section reveals the outermost layer composed of epidermal cells covered with smooth cuti-cle; epidermis circular to quadrangular parenchymatous cells distributed evenly, palisade tissue not observed; in paren-chyma of mesophyll collateral vascular bundles extended from adaxial side to abaxial side of scaly leaves are arranged almost in a transverse line; starch grains contained in paren-chymatous cells, usually gelatinized."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of pulverized Lilium Bulb add 10 mL of 1-butanol, shake, add 10 mL of water, shake for 30 minutes, and centrifuge. Evaporate the solvent under low pressure (in vacuo), add 1 mL of methanol to the residue, shake gently, and use the supernatant liquid so obtained as the sample solution. Perform the test with the sample solu-tion as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate, methanol and water (12:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): two spots appear at an Rf value of about 0.3. When ex-amine these spots under ultraviolet light (main wavelength: 365 nm) after spraying with sodium carbonate TS, they ap-pear as blue-purple fluorescent spots. Loss on drying <5.01> Not more than 16.0z. Total ash <5.01> Not more than 4.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 8.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

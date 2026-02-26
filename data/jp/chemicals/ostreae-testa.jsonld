@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ostreae-testa",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ostreae Testa",
+    "ja": "ボレイ"
+  },
+  "monographId": "JP18-ostreae-testa",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregularly curved, foliaceous or lamellated broken pieces. The unbroken oyster shell forms a bivalve 6 – 10 cm in length and 2 – 5 cm in width. The upper valve is flat and the lower one is somewhat hollow. Both the upper and lower edges of the valve are irregularly curved and bite with each other. The surface of the valve is externally light green-gray-brown and internally milky in color. Almost odorless and tasteless."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 g of sample pieces of Oyster Shell in 10 mL of dilute hydrochloric acid by heating: it evolves a gas, and forms a very slightly red, turbid solution in which a transparent, thin suspended matter remains. Pass the evolved gas through calcium hydroxide TS: a white pre-cipitate is produced. The solution obtained in (1) has a slight, characteris-tic odor. Filter this solution and neutralize with ammonia TS: the solution responds to Qualitative Tests <1.09> for cal-cium salt. Ignite 1 g of pulverized Oyster Shell: it turns black-brown in color at first, and evolves a characteristic odor. Ignite it further: it becomes almost white."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Barium—Dissolve 1 g of pulverized Oyster Shell in 10 mL of dilute hydrochloric acid: the solution does not respond to Qualitative Tests (1) <1.09> for barium salt."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

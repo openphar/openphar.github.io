@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/tribuli-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Tribuli Fructus",
+    "ja": "シツリシ"
+  },
+  "monographId": "JP18-tribuli-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Pentagonal star shaped fruit, composed of five mericarps, 7 – 12 mm in diameter, often each mericarp sepa-rated; externally grayish green to grayish brown; a pair of longer and shorter spines on surface of each mericarp, the longer spine 3 – 7 mm in length, the shorter one 2 – 5 mm in length, numerous small processes on ridge; pericarp hard in texture, cut surface light yellow; each mericarp contains 1 – 3 seeds. Almost odorless; taste, mild at first, followed by bitter-ness. Under a microscope <5.01>, a transverse section reveals epicarp composed of an epidermis; mesocarp composed of parenchyma and sclerenchyma layer; endocarp composed of several-cellular-layered fiber cells; a single-layer of cell be-tween mesocarp and endocarp contain solitary crystals of calcium oxalate; cotyledons of seed contain oil drops and aleurone grains, and occasionally starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Tribulus Fruit add 5 mL of methanol, shake for 10 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample so-lution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of ethyl acetate and water (40:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, heat the plate at 1059C for 5 minutes, and examine under ultraviolet light (main wavelength: 365 nm): a bluish white fluorescent spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Peduncle—When perform the test of foreign matter <5.01>, the amount of peduncle contained in Tribulus Fruit does not exceed 4.0z. (2) Foreign matters <5.01>—Not more than 1.0z of for-eign matters other than peduncle. Loss on drying <5.01> Not more than 11.0z (6 hours). Total ash <5.01> Not more than 13.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 8.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

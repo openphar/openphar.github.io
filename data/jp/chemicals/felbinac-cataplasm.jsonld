@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/felbinac-cataplasm",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Felbinac Cataplasm",
+    "ja": "フェルビナクパップ"
+  },
+  "monographId": "JP18-felbinac-cataplasm",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "O2",
+  "molecularWeight": 212.24,
+  "definition": {
+    "en": "Felbinac Cataplasm contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Weigh a quantity of Felbinac Cataplasm, equivalent to 10 mg of Felbinac, cut into minute pieces, add 20 mL of methanol, shake for 30 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of felbinac for assay in 2 mL of methanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of hexane, acetone and acetic acid (100) (50:25:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the Rf value of the principal spot obtained from the sample solution and the spot from the standard solution is the same. pH Being specified separately when the drug is granted ap-proval based on the Law. Adhesiveness Being specified separately when the drug is granted approval based on the Law. Drug release Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take exactly a quantity of Felbinac Cataplasm, equivalent to 70 mg of felbinac (C14H12O2), cut into minute pieces, add 150 mL of methanol, and heat under a reflux condenser. After cooling, separate the extraction liquid, add 20 mL of water to the residue, heat in a water bath at 759C for 10 minutes, then add 150 mL of methanol, and heat under a reflux condenser. After cooling, separate the ex-traction liquid, add 150 mL of methanol to the residue, and heat under a reflux condenser. After cooling, separate the extraction liquid, wash the residue and vessels with a small amount of methanol, combine the extraction liquids and washings, and add methanol to make exactly 500 mL. Pipet 6 mL of this solution, add exactly 3 mL of the internal stand-ard solution, add methanol to make 50 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 35 mg of felbinac for assay, previously dried at 1059C for 3 hours, and dissolve in methanol to make exactly 250 mL. Pipet 6 mL of this solution, add exactly 3 mL of the in-ternal standard solution, add methanol to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of felbinac to that of the internal stand-ard. water to make 500 mL. To this solution add 500 mL of acetonitrile. Flow rate: Adjust so that the retention time of felbinac is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, felbinac and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of felbinac to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

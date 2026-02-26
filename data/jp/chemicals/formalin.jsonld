@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/formalin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Formalin",
+    "ja": "ホルマリン"
+  },
+  "monographId": "JP18-formalin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Formalin contains not less than 35."
+  },
+  "appearance": {
+    "en": "Formalin is a clear, colorless liquid. Its vapor is irritating to the mucous membrane. It is miscible with water and with ethanol (95). When stored for a long time, especially in a cold place, it may become cloudy."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dilute 2 mL of Formalin with 10 mL of water in a test tube, and add 1 mL of silver nitrate-ammonia TS: a gray precipitate is produced, or a silver mirror is formed on the wall of the test tube. (2) To 5 mL of sulfuric acid in which 0.1 g of salicylic acid has been dissolved add 2 drops of Formalin, and warm the solution: a persistent, dark red color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Acidity—Dilute 20 mL of Formalin with 20 mL of water, and add 5.0 mL of 0.1 mol/L sodium hydroxide VS and 2 drops of bromothymol blue TS: a blue color develops. Residue on ignition <2.44> Not more than 0.06 w/vz (5 mL, after evaporation)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a weighing bottle containing 5 mL of water, add about 1 g of Formalin, and weigh accurately again. Add water to make exactly 100 mL. Pipet 10 mL of this solution, add exactly 50 mL of 0.05 mol/L iodine VS and 20 mL of potassium hydroxide TS, and allow to stand for 15 minutes at an ordinary temperature. To this mixture add 15 mL of dilute sulfuric acid, and titrate <2.50> the excess iodine with 0.1 mol/L sodium thiosulfate VS (indica-tor: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 1.501 mg of CH2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

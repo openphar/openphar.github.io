@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/glehniae-radix-cum-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Glehniae Radix cum Rhizoma",
+    "ja": "ハマボウフウ"
+  },
+  "monographId": "JP18-glehniae-radix-cum-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Cylindrical to long conical root or rhizome, 10 – 20 cm in length, 0.5 – 1.5 cm in diameter; externally light yellow-brown to red-brown. Rhizome short, with fine ring nodes; roots having longitudinal wrinkles and numerous, dark red-brown, warty protrusions or transverse-ly elongated protuberances. Brittle and easily breakable. A transverse section white and powdery, and under a mag-nifying glass, oil canals scattered as brown dots. Odor, slight; taste, slightly sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Glehnia Root and Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Glehnia Root and Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

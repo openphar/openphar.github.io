@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/thiopental-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Thiopental Sodium for Injection",
+    "ja": "注射用チオペンタールナトリウム"
+  },
+  "monographId": "JP18-thiopental-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Thiopental Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Thiopental Sodium for Injection is a light yel-low, powder or mass, and has a slight, characteristic odor. It is very soluble in water, and practically insoluble in de-hydrated diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Thiopental Sodium for Injection in 10 mL of water, and add 0.5 mL of barium chloride TS: a white precipitate is formed. Collect the pre-cipitate, and add dilute hydrochloric acid dropwise: the pre-cipitate dissolves with effervescence. (2) Proceed as directed in the Identification under Thiopental Sodium. pH <2.54> Dissolve 1.0 g of Thiopental Sodium for Injec-tion in 40 mL of water: the pH of this solution is between 10.2 and 11.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Proceed as directed in the Purity under Thiopental Sodium. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, 809C, 4 hours). Bacterial endotoxins <4.01> Less than 0.30 EU/mg. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Open carefully 10 containers of Thiopental Sodium for Injection, dissolve each content with water, wash each container with water, combine the washings with the former solution, and add water to make exactly 1000 mL. Pipet 10 mL of this solution, and add water to make exactly 100 mL. Measure exactly a volume (V mL) of this solution, equiva-lent to about 15 mg of thiopental sodium (C11H17N2NaO2S), and add water to make exactly 1000 mL. Pipet 10 mL of this solution, add 15 mL of diluted dilute sodium hydroxide TS (1 in 100), add water to make exactly 30 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 46 mg of thiopental for assay, previously dried at 1059 C for 3 hours, dissolve in 50 mL of dilute sodium hydroxide TS, and add water to make exactly 200 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 304 nm. ‌Amount (mg) of thiopental sodium (C11H17N2NaO2S) in each sample of Thiopental Sodium for Injection‌ ＝ MS × AT/AS × 300/V × 1.091 MS: Amount (mg) of thiopental sodium for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

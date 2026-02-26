@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trichlormethiazide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trichlormethiazide",
+    "ja": "トリクロルメチアジド"
+  },
+  "monographId": "JP18-trichlormethiazide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H8Cl3N3O4S2",
+  "molecularWeight": 380.66,
+  "definition": {
+    "en": "Trichlormethiazide, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Trichlormethiazide occurs as a white powder. It is freely soluble in N,N-dimethylformamide and in ace- tone, slightly soluble in acetonitrile and in ethanol (95), and practically insoluble in water. A solution of Trichlormethiazide in acetone (1 in 50) shows no optical rotation. Melting point: about 2709C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Trichlormethiazide in ethanol (95) (3 in 250,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum or the spectrum of a solution of Trichlormethiazide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Trichlormethiazide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Trichlormethiazide RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Trichlormethiazide as directed under Flame Coloration Test <1.04> (2): a green color ap-pears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Trichlor-methiazide in 30 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.036z). Sulfate <1.14>—Dissolve 1.0 g of Trichlormethiazide in 30 mL of acetone, add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this so- lution as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.005 mol/L sulfuric acid VS add 30 mL of acetone, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Trichlor- methiazide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.6 g of Trichlormethiazide according to Method 5, using 20 mL of N,N-dimethylformamide, and perform the test (not more than 3.3 ppm). Related substances—Dissolve 25 mg of Trichlor-methiazide in 50 mL of acetonitrile, and use the solution as the sample solution. Perform the test with 10 mL of the sam-ple solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calcu-late the amount of related substances by the area percentage method: the amount of 4-amino-6-chlorobenzene-1,3-disul-fonamide, having the relative retention time of about 0.3 to trichlormethiazide, is not more than 2.0z, and the total amount of the related substances is not more than 2.5z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 268 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with phenylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (3:1). Mobile phase B: A mixture of acetonitrile and diluted phosphoric acid (1 in 1000) (3:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 10 10 – 20 100 → 0 0 → 100 Flow rate: 1.5 mL per minute. Time span of measurement: About 2.5 times as long as the retention time of trichlormethiazide, beginning after the sol-vent peak. System suitability— Test for required detectability: To exactly 1 mL of the sample solution add acetonitrile to make exactly 50 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add acetonitrile to make exactly 20 mL. Confirm that the peak area of trichlormethiazide obtained with 10 mL of this solution is equivalent to 3.5 to 6.5z of that with 10 mL of the solution for system suitability test. System performance: To 5 mL of the solution for system suitability test add 5 mL of water, and warm in a water bath at 609C for 30 minutes. When the procedure is run with 10 mL of this solution, after cooling, under the above operating conditions, 4-amino-6-chlorobenzene-1,3-disulfonamide and trichlormethiazide are eluted in this order, the relative reten-tion time of 4-amino-6-chlorobenzene-1,3-disulfonamide to trichlormethiazide is about 0.3, and the number of theoreti-cal plates and the symmetry factor of the peak of trichlor- ‌methiazide are not less than 5000 and not more than 1.2, respectively. System repeatability: When the test is repeated 3 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of trichlormethiazide is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg of Trichlormethiazide and Trichlormethiazide RS, previously dried, and dissolve separately in exactly 20 mL of the internal standard solution. To 1 mL of these solutions add acetonitrile to make 20 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of trichlormethiazide to that of the internal standard. Amount (mg) of trichlormethiazide (C H Cl N O S ) Identification To an amount of powdered Trichlor-methiazide Tablets, equivalent to 4 mg of Trichlor-methiazide, add 10 mL of acetone, shake vigorously for 5 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 4 mg of Trichlor-methiazide RS in 10 mL of acetone, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and methanol (10:4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spots from the sample solution and the standard solution show the same Rf value. Purity Related substances—Powder a suitable amount of Trichlormethiazide Tablets in an agate mortar. Take an amount of the powder, equivalent to 10 mg of Trichlor-methiazide, add 20 mL of acetonitrile, shake vigorously for 15 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with 10 mL of the sample ＝ MS × QT/QS 8 8 3 3 4 2 solution as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak MS: Amount (mg) of Trichlormethiazide RS taken Internal standard solution—A solution of 3-nitrophenol in acetonitrile (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 268 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with phenylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (3:1). Flow rate: Adjust so that the retention time of trichlor-methiazide is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating conditions, the internal standard and trichlormethiazide are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times area by the automatic integration method, and calculate the amount of each related substance by the area percentage method: the amount of 4-amino-6-chlorobenzene-1,3-disul-foneamide, having the relative retention time of about 0.3 to trichlormethiazide, is not more than 4.0z, and the total amount of the peaks other than trichlormethiazide is not more than 5.0z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 268 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with phenylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (3:1). Mobile phase B: A mixture of acetonitrile and diluted phosphoric acid (1 in 1000) (3:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) the peak area of trichlormethiazide to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

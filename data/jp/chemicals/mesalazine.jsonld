@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mesalazine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mesalazine",
+    "ja": "メサラジン"
+  },
+  "monographId": "JP18-mesalazine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H7NO3",
+  "molecularWeight": 153.14,
+  "casNumber": "89-57-6",
+  "definition": {
+    "en": "Mesalazine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Mesalazine occurs as white, light gray or red-dish-white, crystals or crystalline powder. It is very slightly soluble in water, and practically insoluble in ethanol (99.5). It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Mesalazine in 0.1 mol/L hydrochloric acid TS (1 in 80,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Mesalazine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Perform this procedure while keeping the solution at 409C. A solution ob-tained by dissolving 0.5 g of Mesalazine in 20 mL of 1 mol/L hydrochloric acid TS is clear, and its absorbance at 440 nm and 650 nm, determined immediately as directed under Ul-traviolet-visible Spectrophotometry <2.24>, is not more than 0.15 and not more than 0.10, respectively. Chloride <1.03>—Dissolve 0.30 g of Mesalazine in 6 mL of dilute nitric acid and 40 mL of water, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.80 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.095z). Sulfate—To 1.0 g of Mesalazine add 20 mL of water, shake for 1 minute, and filter. To 15 mL of the filtrate add Amount [mg (potency)] of meropenem (C ＝ MS × QT/QS 17H25N3O5S) 0.5 mL of acetic acid (31), then add 2.5 mL of the following solution A, and use this solution as the test solution. Solu-tion A: To 3 mL of barium chloride TS add 4.5 mL of a so- MS: Amount [mg (potency)] of Meropenem RS taken Internal standard solution—A solution of benzyl alcohol in triethylamine-phosphate buffer solution (pH 5.0) (1 in 300)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg of Mesalazine, previ-ously dried, dissolve in 100 mL of hot water, cool to room temperature quickly, and titrate <2.50> with 0.1 mol/L so- dium hydroxide VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 15.31 mg of C7H7NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  }
+}

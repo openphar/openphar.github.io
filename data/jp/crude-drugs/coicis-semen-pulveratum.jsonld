@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/coicis-semen-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Coicis Semen Pulveratum",
+    "ja": "ヨクイニン末"
+  },
+  "monographId": "JP18-coicis-semen-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Coix Seed occurs as a brownish, grayish white to grayish yellow-white powder, and has a slight odor and a slightly sweet taste. Under a microscope <5.01>, Powdered Coix Seed reveals starch grains, and fragments of endosperm containing them; fragments of tissue accompanied with epidermal cells of pericarp composed of yellowish and oblong cells, and frag-ments of parenchyma cells containing fixed oil, aleuron grains and starch grains; a very few fragments of spiral ves-sels. Starch grains are simple and 2-compound grains, simple grain nearly equidiameter to obtuse polygon, 10 – 20 mm in diameter, and have a stellate cleft-like hilum in the center. Spherical starch grains, coexisting with aleuron grains, are spherical simple grains, 3 – 7 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Place a small amount of Powdered Coix Seed on a slide glass, add dropwise iodine TS, and examine under a microscope <5.01>: nearly equidiameter and obtuse polygonal simple starch grains, usually 10 – 15 mm in diame-ter, and compound starch grains have a reddish brown color. Small spheroidal starch grains, coexisting with fixed oil and with aleuron grains in parenchymatous cells, have a blue-purple color."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter—Under a microscope <5.01>, Powdered Coix Seed reveals no fragments of tissue having silicified cell wall, no stone cells, no fragments of other thick-walled and lignified cells, no fragments of reticulate, scalariform and pitted vessels, no fragments of fibers and hairs, and no large starch grains, more than 10 mm in diame-ter, appearing blue-purple upon addition of iodine TS. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/probucol-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Probucol Tablets‌",
+    "ja": "プロブコール錠"
+  },
+  "monographId": "JP18-probucol-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Probucol Tablets, equivalent to 50 mg of Probucol, add 100 mL of methanol, shake, and filter. To 2 mL of the filtrate add methanol to make 100 mL. Determine the absorption spec-trum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 240 nm and 244 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Shake 1 tablet of Probucol Tablets with a suitable amount of methanol until the tablet is disintegrated, and add metha-nol to make exactly V mL so that each mL of the solution contains about 2.5 mg of probucol (C31H48O2S2). Centrifuge the solution, pipet 2 mL of the supernatant liquid, add ex-actly 5 mL of the internal standard solution, then add meth-anol to make 100 mL, and use this solution as the sample so-lution. Then, proceed as directed in the Assay. Amount (mg) of probucol (C31H48O2S2) ＝ MS × QT/QS × V/20 MS: Amount (mg) of Probucol RS taken Internal standard solution—A solution of bis(cis-3,3,5-trimethylcyclohexyl) phthalate in methanol (1 in 250). Disintegration <6.09> It meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of 20 Probucol Tablets, and powder the tablets. Weigh accurately a portion of the powder, equivalent to about 0.25 g of probucol (C31H48O2S2), add 70 mL of methanol, shake thoroughly, and add methanol to make exactly 100 mL. Centrifuge, pipet 2 mL of the supernatant liquid, add exactly 5 mL of the in-ternal standard solution, add methanol to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Probucol RS, previously dried under reduced pressure at 809C for 1 hour, and dissolve in methanol to make exactly 20 mL. Pipet 2 mL of this solu-tion, add exactly 5 mL of the internal standard solution, add methanol to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of probucol to that of the internal standard. Amount (mg) of probucol (C31H48O2S2) ＝ MS × QT/QS × 5 MS: Amount (mg) of Probucol RS taken Internal standard solution—A solution of bis(cis-3,3,5-trimethylcyclohexyl) phthalate in methanol (1 in 250). Operating conditions— Detector, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Probucol. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of probucol to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/rosae-fructus-pulveratus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Rosae Fructus Pulveratus",
+    "ja": "エイジツ末"
+  },
+  "monographId": "JP18-rosae-fructus-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Rose Fruit occurs as a grayish yel-low-brown powder. It has a slight odor, and has a slightly mucilaginous, astringent, bitter, and slightly acid taste. Under a microscope <5.01>, Powdered Rose Fruit reveals fragments of extremely thick-walled hairs 35 – 70 mm in di-ameter, fragments of epidermis and hypodermis containing brown tannin masses, fragments of thin-walled fundamental tissue containing grayish brown substances, fragments of fine vessels, and solitary or twin crystals or rosette agregates of calcium oxalate (components of fruit receptacle); frag-ments of sclerenchyma, fiber groups, fine vessels, and frag-ments of epidermis containing brown tannin and mucilage (components of pericarp); fragments of endosperm com-posed of polygonal cells containing aleuron grains and fatty oil, fragments of outer epidermis composed of polygonal cells containing tannin, and fragments of inner epidermis composed of elongated cells having wavy lateral walls (com-ponents of seed)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Boil gently 1 g of Powdered Rose Fruit with 20 mL of methanol for 2 minutes, and filter. To 5 mL of the filtrate add 0.1 g of magnesium in ribbon form and 0.5 mL of hydrochloric acid, and allow the mixture of stand: a light red to red color develops. Total ash <5.01> Not more than 6.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

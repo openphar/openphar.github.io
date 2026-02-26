@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/colistin-sodium-methanesulfonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Colistin Sodium Methanesulfonate",
+    "ja": "コリスチンメタンスルホン酸ナトリウム"
+  },
+  "monographId": "JP18-colistin-sodium-methanesulfonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Colistin Sodium Methanesulfonate is the sodium salt of colistin derivatives. It is a mixture of colistin A sodium methanesul-fonate and colistin B sodium methanesulfonate. It, when dried, contains not less than 11,500 Units and not more than 15,500 Units per mg."
+  },
+  "appearance": {
+    "en": "Colistin Sodium Methanesulfonate occurs as a white to light yellow-white powder. It is freely soluble in water, and practically insoluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 mg of Colistin Sodium Methanesulfonate in 2 mL of water, add 0.5 mL of sodium hydroxide TS, and add 5 drops of copper (II) sulfate TS while shaking: a blue-purple color develops. Dissolve 40 mg of Colistin Sodium Methanesulfonate in 1 mL of 1 mol/L hydrochloric acid TS, and add 0.5 mL of dilute iodine TS: the color of iodine disappears. Determine the infrared absorption spectrum of Colistin Sodium Methanesulfonate, previously dried, as di-rected in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with Sample solutions—Weigh accurately an amount of Colistin Sodium Methanesulfonate, previously dried, dis-solve in phosphate buffer solution (pH 6.0) to make a solu-tion containing about 100,000 Units per mL, and use this so-lution as the sample stock solution. Take exactly a suitable amount of the sample stock solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 10,000 Units and 2500 Units, and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.16 g of Colistin Sodium Methanesulfonate in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Colistin Sodium Methanesulfonate according to Method 4, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Colistin Sodium Methanesulfonate according to Method 4, and perform the test (not more than 2 ppm). Free colistin—Dissolve 80 mg of Colistin Sodium Methanesulfonate in 3 mL of water, add 0.05 mL of a solu-tion of silicotungstic acid 26-water (1 in 10), and immedi-ately compare the solution with the reference suspension described under Test Methods for Plastic Containers <7.02>: the turbidity is not greater than that of the reference suspen-sion (not more than 0.25z). Loss on drying <2.41> Not more than 3.0z (0.1 g, reduced pressure, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Escherichia coli NIHJ Culture medium—To 10.0 g of peptone, 30.0 g of so-dium chloride, 3.0 g of meat extract and 20.0 g of agar add 1000 mL of water, then add a suitable amount of sodium hy-droxide TS so that the pH of the medium is being 6.5 to 6.6 after sterilization, sterile, and use this as the seeded agar me-dium and the agar medium for base layer. Standard solutions—Weigh accurately an amount of Colistin Sodium Methanesulfonate RS, previously dried, dis-solve in phosphate buffer solution (pH 6.0) to make a solu-tion containing 100,000 Units per mL, and use this solution as the standard stock solution. Keep the standard stock solu-tion at 109C or below and use within 7 days. Take exactly a suitable amount of the standard stock solution before use, and add phosphate buffer solution (pH 6.0) to make solu-tions so that each mL contains 10,000 Units and 2500 Units, and use these solutions as the high concentration standard R? ＝ H; C 53H100 N16 O13 : 1169.46). solution and the low concentration standard solution, re-spectively. Description Colistin Sodium Methanesulfonate occurs as a white to light yellow-white powder. It is freely soluble in water, and practically insoluble in ethanol (95). Identification (1) Dissolve 20 mg of Colistin Sodium Methanesulfonate in 2 mL of water, add 0.5 mL of sodium hydroxide TS, and add 5 drops of copper (II) sulfate TS while shaking: a blue-purple color develops. Dissolve 40 mg of Colistin Sodium Methanesulfonate in 1 mL of 1 mol/L hydrochloric acid TS, and add 0.5 mL of dilute iodine TS: the color of iodine disappears. Determine the infrared absorption spectrum of Colistin Sodium Methanesulfonate, previously dried, as di-rected in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with Sample solutions—Weigh accurately an amount of Colistin Sodium Methanesulfonate, previously dried, dis-solve in phosphate buffer solution (pH 6.0) to make a solu-tion containing about 100,000 Units per mL, and use this so-lution as the sample stock solution. Take exactly a suitable amount of the sample stock solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 10,000 Units and 2500 Units, and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

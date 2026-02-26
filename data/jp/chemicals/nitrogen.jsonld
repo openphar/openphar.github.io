@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nitrogen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nitrogen",
+    "ja": "窒素"
+  },
+  "monographId": "JP18-nitrogen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "N2",
+  "molecularWeight": 28.01,
+  "definition": {
+    "en": "Nitrogen is the nitrogen produced by the air lique-faction separation method. It contains not less than 99."
+  },
+  "appearance": {
+    "en": "Nitrogen is a colorless gas at room tempera-ture and under atmospheric pressure, and is odorless. 1 mL of Nitrogen dissolves in 65 mL of water and in 9 mL of ethanol (95) at 209C and at a pressure of 101.3 kPa. 1000 mL of Nitrogen at 09C and at a pressure of 101.3 kPa weighs 1.251 g."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Introduce 1 mL each of Nitrogen and nitro-gen into a gas-measuring tube or syringe for gas chromatog-raphy from a cylinder with a pressure-reducing valve, through a directly connected polyvinyl chloride or stainless steel tube. Perform the test with these gases as directed under Gas Chromatography <2.02> according to the following con-ditions: the principal peak in the chromatogram obtained form Nitrogen has the same retention time as that from nitrogen. Operating conditions— Proceed as directed in the operating conditions in the Assay."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Oxygen—The peak area of oxygen obtained from Nitrogen in the Assay is not larger than 1/2 times that from the standard gas mixture."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Introduce 1.0 mL of Nitrogen into a gas-measuring Amount (mg) of nitrendipine (C H N O ) tube or syringe for gas chromatography from a cylinder with ＝ MS × QT/QS × 1/50 18 20 2 6 a pressure-reducing valve, through a directly connected poly-vinyl chloride or stainless steel tube. Perform the test with MS: Amount (mg) of nitrendipine for assay taken Internal standard solution—A solution of propyl parahy-droxybenzoate in diluted acetonitrile (4 in 5) (1 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter this gas as directed under Gas Chromatography <2.02> ac- cording to the following conditions. Measure the peak area AT of oxygen. Separately, introduce 1.0 mL of oxygen into the gas mixer, add carrier gas to make exactly 100 mL, mix thoroughly, and use this as the standard gas mixture. Pro-ceed with 1.0 mL of this mixture in the same manner under Nitrogen, and measure the peak area AS of oxygen. ‌Amount (volz) of nitrogen (N2) ＝ 100 － AT/AS Operating conditions— Detector: A thermal-conductivity detector. Column: A column 3 mm in inside diameter and 3 m in length, packed with zeolite for gas chromatography (250 to 355 mm in particle diameter; 0.5 nm in pore size). Column temperature: A constant temperature of about 509C. Carrier gas: Hydrogen or helium. Flow rate: Adjust so that the retention time of oxygen is about 3 minutes. System suitability— System performance: Introduce 1.0 mL of oxygen into the gas mixer, add Nitrogen to make 100 mL, and mix thor-oughly. When the procedure is run with 1.0 mL of this mix-ture under the above operating conditions, oxygen and nitro-gen are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 1.0 mL of the standard gas mixture under the above conditions, the relative standard deviation of the peak area of oxygen is not more than 2.0z. Containers and storage Containers—Pressure-resistant cylinders. Storage—Not exceeding 409C. Nitroglycerin Tablets"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dimercaprol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dimercaprol Injection",
+    "ja": "ジメルカプロール注射液"
+  },
+  "monographId": "JP18-dimercaprol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dimercaprol Injection is an oily solution for injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Dimercaprol Injection is a clear, colorless or light yellow liquid. It has an unpleasant odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Dimercaprol Injection, equivalent to 30 mg of Dimercaprol, and proceed as directed in the Identification (1) under Dimercaprol. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> Perform the test ac-cording to Method 2: it meets the requirement. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Dimercaprol Injection, equivalent to about 0.1 g of dimercaprol (C3H8OS2), into a flask, and rinse the pipet several times with a mixture of methanol and diethyl ether (3:1), adding the rinsings to the flask. Add the mixture of methanol and diethyl ether (3:1) to make 50 mL, and titrate <2.50> with 0.05 mol/L iodine VS until a yellow color persists. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L iodine VS ＝ 6.212 mg of C3H8OS2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—In a cold place."
+  },
+  "dosageForm": "Injection"
+}

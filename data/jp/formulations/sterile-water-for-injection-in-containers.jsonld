@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sterile-water-for-injection-in-containers",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sterile Water for Injection in Containers",
+    "ja": "注射用水（容器入り）"
+  },
+  "monographId": "JP18-sterile-water-for-injection-in-containers",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sterile Water for Injection in Containers is a clear and colorless liquid, having no odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Potassium permanganate-reducing substances—To 100 mL of Sterile Water for Injection in Containers add 10 mL of dilute sulfuric acid, boil, then add 0.10 mL of 0.02 mol/L potassium permanganate VS, and boil again for 10 minutes: the red color of the solution does not disappear. Conductivity <2.51> When the test is performed according to the following method, the conductivity (259C) is not more than 25 mS・cm－1 for containers with a nominal volume of 10 mL or less, and not more than 5 mS・cm－1 for containers with a nominal volume greater than 10 mL. Transfer a suitable amount of Sterile Water for Injection in Containers to a beaker, and stir the water specimen. Adjust the temperature to 25 ± 19C, and begin agitating the water specimen vigorously, while observing its conductivity periodically. When the change in conductivity becomes not greater than 0.1 mS・cm－1 per 5 minutes, adopt the observed value as the conductivity of the water specimen. Bacterial endotoxins <4.01> Less than 0.25 EU/mL. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> It meets the requirement."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections can be used in place of hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/butenafine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Butenafine Hydrochloride",
+    "ja": "ブテナフィン塩酸塩"
+  },
+  "monographId": "JP18-butenafine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H14O6S2",
+  "molecularWeight": 246.3,
+  "casNumber": "101827-46-7",
+  "definition": {
+    "en": "Butenafine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Busulfan occurs as a white crystalline powder. It is slightly soluble in diethyl ether, very slightly soluble in ethanol (95), and practically insoluble in water. C23H27N.HCl: 353.93 N-[4-(1,1-Dimethylethyl)benzyl]-N-methyl-1-(naphthalen-1-yl)methylamine monohydrochloride [101827-46-7] Butenafine Hydrochloride, when dried, contains not less than 99.0z and not more than 101.0z of butenafine hydrochloride (C23H27N.HCl). Description Butenafine Hydrochloride occurs as white, crystals or crystalline powder. JP XVIII Official Monographs / Butenafine Hydrochloride Cream 581 ‌It is very soluble in formic acid, freely soluble in methanol and in ethanol (99.5), and slightly soluble in water. The pH of a solution dissolved 0.20 g of Butenafine Hy-drochloride in 100 mL of water by warming and cooled is 3.0 to 4.0. Melting point: about 2149C (with decomposition). 0 – 10 60 → 20 40 → 80 10 – 60 Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz)"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Butenafine Hydrochloride in methanol (1 in 40,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Butenafine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Butenafine Hydrochloride in dilute ethanol (1 in 200) responds to Qualitative Tests <1.09> (1) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Dissolve 2.0 g of Butenafine Hydrochloride in 20 mL of ethanol (99.5), add 2 mL of dilute acetic acid and ethanol (99.5) to make 50 mL, and perform the test using this solution as the test solution. The control solution: To 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid, and add ethanol (99.5) to make 50 mL (not more than 10 ppm). (2) Related substances—Dissolve 30 mg of Butenafine Hydrochloride in 50 mL of a mixture of water and aceto-nitrile for liquid chromatography (3:2), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of water and acetonitrile for liquid chroma-tography (3:2) to make exactly 50 mL. Pipet 1 mL of this solution, add a mixture of water and acetonitrile for liquid chromatography (3:2) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area of both solutions by the automatic integration method: the area of the peak, having the relative retention time of about 0.16 to butenafine, obtained from the sample solution is not larger than 3/10 times the peak area of butenafine from the standard solution, and the area of the peak other than butenafine and the peak mentioned above from the sample solution is not larger than the peak area of butenafine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 217 nm). Column: A stainless steel column 3.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: Diluted 0.5 mol/L ammonium acetate TS (1 in 1000). Mobile phase B: Acetonitrile for liquid chromatography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Flow rate: 0.4 mL per minute. Time span of measurement: For 60 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add a mixture of water and acetonitrile for liq-uid chromatography (3:2) to make exactly 10 mL. Confirm that the peak area of butenafine obtained with 10 mL of this solution is equivalent to 14 to 26z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of butenafine are not less than 20,000 and 0.9 to 1.2, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of butenafine is not more than 2.0z. Loss on drying <2.41> Not more than 0.1z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Butenafine Hydro-chloride, previously dried, dissolve in 5 mL of formic acid, add 80 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.39 mg of C23H27N.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pivmecillinam-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pivmecillinam Hydrochloride",
+    "ja": "ピブメシリナム塩酸塩"
+  },
+  "monographId": "JP18-pivmecillinam-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H33N3O5S.HCl",
+  "molecularWeight": 476.03,
+  "definition": {
+    "en": "Pivmecillinam Hydrochloride contains not less than 630 mg (potency) and not more than 710 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Pivmecillinam Hydrochloride occurs as a white to yellowish white crystalline powder. It is very soluble in methanol and in acetic acid (100), freely soluble in water and in ethanol (99.5), and soluble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Pivmecillinam Hydrochloride as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Pivmecillinam Hy-drochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 0.5 g of Pivmecillinam Hydrochloride in 10 mL of water, and add 1 mL of dilute nitric acid and 1 drop of silver nitrate TS: a white precipitate is formed. D Optical rotation <2.49> [a]20: ＋200 – ＋2209(1 g calculated on the anhydrous basis, water, 100 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 1.0 g of Pivmecillin-am Hydrochloride in a crucible add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10), fire the ethanol to burn, and heat gradually to incinerate. If a carbonized substance remains, moisten with a small amount of nitric acid, and ignite to incinerate. Cool, add 3 mL of hydrochloric acid to the residue, dissolve by warming on a water bath, and heat to dryness. To the residue add 10 mL of water, and dissolve by warming on a water bath. After cool-ing, adjust the pH to 3 to 4 with ammonia TS, add 2 mL of dilute acetic acid, filter if necessary, and wash the crucible and the filter with 10 mL of water. Put the filtrate and the washings to a Nessler tube, add water to make 50 mL, and use this solution as the test solution. Prepare the control so-lution in the same manner as the test solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Pivmecillinam Hydrochloride according to Method 4, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Pivmecillin-am Hydrochloride in 4.0 mL of a mixture of acetonitrile and acetic acid (100) (97:3), and use this solution as the sample solution. Separately, dissolve 2.0 mg of Pivmecillinam Hy-drochloride RS in 4.0 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography, allow to stand for 30 minutes, then spot 2 mL of the sample solution on the plate. Immediately, develop the plate with a mixture of acetone, water and acetic acid (100) (10:1:1) to a distance of about 12 cm, and air-dry the plate. Allow the plate to stand for 10 minutes in iodine vapor: the spot obtained from the sample solution appeared at the position corresponding to the spot from the standard solution is not larger and not more intense than the spot from the standard solution, and any spot other than the principal spot and the above spot from the sample solution is not observable. Water <2.48> Not more than 1.0z (0.25 g, coulometric titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Pivmecillinam Hy-drochloride and Pivmecillinam Hydrochloride RS, equiva-lent to about 20 mg (potency), dissolve in a suitable amount of the mobile phase, add exactly 10 mL of the internal stand-ard solution and the mobile phase to make 100 mL, and use these solutions as the sample solution and the standard solu-tion, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of pivmecillinam to that of the internal standard. Amount [ mg (potency)] of mecillinam (C15H23N3O3S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Pivmecillinam Hydrochlo-ride RS taken Internal standard solution—A solution of diphenyl in the mobile phase (1 in 12,500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 0.771 g of ammonium acetate in about 900 mL of water, adjust the pH to 3.5 with acetic acid (100), and add water to make 1000 mL. To 400 mL of this solution add 600 mL of acetonitrile. Flow rate: Adjust so that the retention time of pivmecillin-am is about 6.5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, pivmecillinam and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat- ‌ing conditions, the relative standard deviation of the ratios of the peak area of pivmecillinam to that of the internal standard is not more than 1.0z.‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

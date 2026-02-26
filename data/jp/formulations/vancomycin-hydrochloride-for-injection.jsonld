@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/vancomycin-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Vancomycin Hydrochloride for Injection",
+    "ja": "注射用バンコマイシン塩酸塩"
+  },
+  "monographId": "JP18-vancomycin-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Vancomycin Hydrochloride for Injection is a prepa-ration for injection which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Vancomycin Hydrochloride for Injection oc-curs as white masses or a white powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve an amount of Vancomycin Hydrochloride for Injection, equivalent to 5 mg (potency) of"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, and standard solu-tions—Proceed as directed in the Assay under Vancomycin Hydrochloride. Sample solutions—Weigh accurately the contents of not less than 10 Vancomycin Hydrochloride for Injection. Weigh accurately an amount of the content, equivalent to about 25 mg (potency) of Vancomycin Hydrochloride, and dissolve in water to make exactly 25 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 4.5) to make solutions so that each mL contains 100 mg (potency) and 25 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

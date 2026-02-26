@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bromovalerylurea",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bromovalerylurea",
+    "ja": "ブロモバレリル尿素"
+  },
+  "monographId": "JP18-bromovalerylurea",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H11BrN2O2",
+  "molecularWeight": 223.07,
+  "definition": {
+    "en": "Bromovalerylurea, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bromovalerylurea occurs as colorless or white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is soluble in ethanol (95), sparingly soluble in diethyl ether, and very slightly soluble in water. It dissolves in sulfuric acid, in nitric acid and in hydro-chloric acid, and precipitates are produced on the addition of water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Boil 0.2 g of Bromovalerylurea with 5 mL of a solution of sodium hydroxide (1 in 10): the gas evolved changes moistened red litmus paper to blue. Boil this solution with an excess of dilute sulfuric acid: the odor of valeric acid is perceptible. (2) To 0.1 g of Bromovalerylurea add 0.5 g of anhydrous sodium carbonate, and decompose thoroughly by gentle heating. Dissolve the residue in 5 mL of hot water, cool, acidify with acetic acid (31), and filter: the filtrate responds to Qualitative Tests <1.09> (2) for bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 1.5 g of Bromovalerylurea add 30 mL of water, shake for 5 minutes, and filter: the filtrate is neutral. Chloride <1.03>—Perform the test with a 10-mL por- tion of the filtrate obtained in (1). Prepare the control solu-tion with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.028z). Sulfate <1.14>—Perform the test with 10 mL of the filtrate obtained in (1). Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.038z). Heavy metals <1.07>—Proceed with 2.0 g of Bromovalerylurea according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Dissolve 0.5 g of Bromovalerylurea in 5 mL of sodium hydroxide TS, use this solution as the test solution, and perform the test (not more than 4 ppm). Readily carbonizable substances <1.15>—Perform the test with 0.5 g of Bromovalerylurea: the solution is not more colored than Matching Fluid A. Loss on drying <2.41> Not more than 0.5z (1 g, 809C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Bromovalerylurea, previously dried, in a 300-mL conical flask, add 40 mL of sodium hydroxide TS, and boil gently for 20 minutes under a reflux condenser. Cool, wash the lower part of the reflux condenser and the mouth of the flask with 30 mL of water, and combine the washings with the solution in the conical flask. Add 5 mL of nitric acid and exactly 30 mL of 0.1 mol/L silver nitrate VS, and titrate <2.50> the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (indica-tor: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L silver nitrate VS ＝ 22.31 mg of C6H11BrN2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

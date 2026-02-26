@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mesalazine-extended-release-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Mesalazine Extended-release Tablets",
+    "ja": "メサラジン徐放錠"
+  },
+  "monographId": "JP18-mesalazine-extended-release-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mesalazine Extended-release Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of mesalazine (C7H7NO3: 153.14). Method of preparation Prepare as directed under Tablets, with Mesalazine. Identification Powder Mesalazine Extended-release Tablets. To a portion of the powder, equivalent to 20 mg of Mesalazine, add 100 mL of diluted phosphoric acid (1 in 1000) and shake vigorously. To 5 mL of this solution add diluted phosphoric acid (1 in 1000) to make 50 mL, filter, and determine the absorbance spectrum of the filtrate as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 227 nm and 231 nm, and between 298 nm and 302 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Mesalazine Extended-release Tablets add 6V/25 mL of diluted phosphoric acid (1 in 1000), shake until the tablet is disintegrated, then add 3V/5 mL of methanol, and sonicate for 30 minutes. Add diluted phosphoric acid (1 in 1000) to make exactly V mL so that each mL contains about 1 mg of mesalazine (C7H7NO3), and centrifuge."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Mesalazine Extended-release Tablets. To a portion of the powder, equivalent to 20 mg of Mesalazine, add 100 mL of diluted phosphoric acid (1 in 1000) and shake vigorously. To 5 mL of this solution add diluted phosphoric acid (1 in 1000) to make 50 mL, filter, and determine the absorbance spectrum of the filtrate as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 227 nm and 231 nm, and between 298 nm and 302 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Mesalazine Extended-release Tablets add 6V/25 mL of diluted phosphoric acid (1 in 1000), shake until the tablet is disintegrated, then add 3V/5 mL of methanol, and sonicate for 30 minutes. Add diluted phosphoric acid (1 in 1000) to make exactly V mL so that each mL contains about 1 mg of mesalazine (C7H7NO3), and centrifuge. Pipet 8 mL of the supernatant liquid, add exactly 2 mL of the in-ternal standard solution and 13 mL of methanol, then add diluted phosphoric acid (1 in 1000) to make 50 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay. Amount (mg) of mesalazine (C7H7NO3) ＝ MS × QT/QS × V/40 MS: Amount (mg) of mesalazine for assay taken Internal standard solution—A solution of ethyl aminobenzo-ate in methanol (1 in 800). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution me-dium, the dissolution rates in 3 hours, in 6 hours and in 24 hours of Mesalazine Extended-release Tablets are 10 to 40z, 30 to 60z, and not less than 80z, respectively. Start the test with 1 tablet of Mesalazine Extended-release Tablets, withdraw exactly 20 mL of the medium at the speci-fied minutes after starting the test and supply exactly 20 mL of dissolution medium warmed to 37 ± 0.59C immediately after withdrawing of the medium every time. Filter the with-drawn media through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the disso-lution medium to make exactly V? mL so that each mL con- ‌tains about 56 mg of mesalazine (C7H7NO3), and use these solutions as the sample solutions. Separately, weigh accu-rately about 28 mg of mesalazine for assay, previously dried at 1059C for 2 hours, and dissolve in the dissolution medium to make exactly 100 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 25 mL, and use this so-lution as the standard solution. Determine the absorbances, AT(n) and AS, of the sample solutions and standard solution at 330 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>. ＋ ∑ Dissolution rate (z) with respect to the labeled amount of mesalazine (C7H7NO3) on the nth medium withdrawing (n ＝ 1, 2, 3) System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of mesalazine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

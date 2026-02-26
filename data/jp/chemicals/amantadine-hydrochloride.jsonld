@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amantadine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amantadine Hydrochloride",
+    "ja": "アマンタジン塩酸塩"
+  },
+  "monographId": "JP18-amantadine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H17N.HCl",
+  "molecularWeight": 187.71,
+  "definition": {
+    "en": "Amantadine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Amantadine Hydrochloride occurs as a white crystalline powder. It is odorless, and has a bitter taste. It is very soluble in formic acid, freely soluble in water, in methanol and in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Amantadine Hydrochloride add 1 mL of pyridine and 0.1 mL of acetic anhydride, dis-solve by boiling for 1 minute, add 10 mL of dilute hydro-chloric acid, and cool in ice water. Filter the crystals sepa-rated, wash with water, and dry at 1059C for 1 hour: the residue melts <2.60> between 1479C and 1519C. Determine the infrared absorption spectrum of Amantadine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Amantadine Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Amantadine Hydrochloride in 5 mL of water: the pH of this solution is between 4.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Amantadine Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Amanta- dine Hydrochloride according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Amantadine Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.50 g of Amantadine Hydrochloride in 10 mL of water, add 10 mL of sodium hy-droxide TS and 10 mL of chloroform, and shake. Filter the chloroform layer through absorbent cotton with 3 g of anhy-drous sodium sulfate on a funnel, and use the filtrate as the sample solution. Pipet 1 mL of the sample solution, add chloroform to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the follow-ing conditions. Determine each peak area of these solutions by the automatic integration method: each peak area other than amantadine obtained from the sample solution is not larger than 1/3 times the peak area of amantadine from the standard solution, and the total area of each peak is not larger than the peak area of amantadine from the standard solution. Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column about 3 mm in inside diameter and about 2 m in length, packed with siliceous earth for gas chromatography (150 to 180 mm in particle diameter) coated with a mixture (L) of branched hydrocarbon of petroleum hexamethyltetracosane group for gas chromatography and potassium hydroxide at the ratios of 2z and 1z, respec-tively. Column temperature: Inject at a constant temperature of about 1259C, maintain the temperature for 5 minutes, raise at the rate of 59C per minute to 1509C, and maintain at a constant temperature of about 1509C for 15 minutes. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of amantadine is about 11 minutes. Selection of column: Dissolve 0.15 g of naphthalene in 5 mL of the sample solution, and add chloroform to make 100 mL. Proceed with 2 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of naphthalene and amantadine in this order with the resolution between these peaks being not less than 2.5. Detection sensitivity: Adjust the detection sensitivity so that the peak height of amantadine obtained from 2 mL of the standard solution composes about 10z of the full scale. Time span of measurement: About twice as long as the retention time of amantadine, beginning after the solvent ‌JP XVIII Official Monographs / Amidotrizoic Acid 445‌ peak. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Amantadine Hy-drochloride, previously dried, dissolve in 2 mL of formic acid, add exactly 15 mL of 0.1 mol/L perchloric acid VS, and heat on a water bath for 30 minutes. After cooling, add acetic acid (100) to make 70 mL, and titrate <2.50> the excess perchloric acid with 0.1 mol/L sodium acetate VS (potentio-metric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 18.77 mg of C10H17N.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

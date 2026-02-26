@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mefruside-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Mefruside Tablets",
+    "ja": "‌メフルシド錠"
+  },
+  "monographId": "JP18-mefruside-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Mefru-side Tablets, equivalent to 0.3 g of Mefruside, shake with 15 mL of heated methanol for 20 minutes, and filter. Add 25 mL of water to the filtrate, and allow to stand while ice-cool-ing for 30 minutes. Filter the white precipitate formed, wash with water, and dry at 1059C for 2 hours: the precipitate melts <2.60> between 1499C and 1529C. C: Labeled amount (mg) of mefruside (C13H19ClN2O5S2) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Mefruside Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 65 mg of mefruside (C13H19ClN2O5S2), shake with 70 mL of methanol for 15 minutes, then add methanol to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, take exactly 10 mL of the subsequent filtrate, add methanol to make exactly 50 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 65 mg of mefruside for assay, previously dried at 1059C for 2 hours, and dissolve in metha-nol to make exactly 100 mL. Pipet 10 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 285 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. (2) Weigh a quantity of powdered Mefruside Tablets, Amount (mg) of mefruside (C H ClN O S ) equivalent to 0.01 g of Mefruside, shake with 70 mL of methanol strongly for 15 minutes, add methanol to make ＝ MS × AT/AS 13 19 2 5 2 100 mL, and filter. Determine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 274 nm and 278 nm, and between 283 nm and 287 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Mefruside Tablets add 40 mL of methanol, disintegrate the tablet by sonicating with occasional stirring, then further sonicate for 10 minutes, and add methanol to make exactly V mL of a solution containing about 0.5 mg of mefruside (C13H19ClN2O5S2) per mL. Centrifuge the solu-tion, pipet 5 mL of the supernatant liquid, add methanol to make exactly 20 mL, and use this solution as the sample so-lution. Then, proceed as directed in the Assay. Amount (mg) of mefruside (C13H19ClN2O5S2) ＝ MS × AT/AS × V/125 MS: Amount (mg) of mefruside for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

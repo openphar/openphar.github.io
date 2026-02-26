@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/hydrocortisone-and-diphenhydramine-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Hydrocortisone and Diphenhydramine Ointment",
+    "ja": "ヒドロコルチゾン・ジフェンヒドラミン軟膏"
+  },
+  "monographId": "JP18-hydrocortisone-and-diphenhydramine-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Hydrocortisone and Diphenhydramine Oint-ment is white to pale yellow in color."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 g of Hydrocortisone and Diphen-hydramine Ointment add 10 mL of ethanol (95), heat on a water bath for 5 minutes with occasional shaking, cool, and filter. Take 5 mL of the filtrate, distill off the ethanol, and to the residue add 2 mL of sulfuric acid: the solution shows a yellow-green fluorescence immediately and the color of the solution gradually changes through yellow to yellow-brown. Add carefully 10 mL of water to this solution: the color changes to yellow with green fluorescence, and a light yel-low, flocculent precipitate is formed (hydrocortisone ace-tate). To 1 mL of the filtrate obtained in (1) add 5 mL of potassium hydrogen phthalate buffer solution (pH 4.6) and 2 mL of bromophenol blue TS, and add further 5 mL of chloroform. Shake well, and allow to stand: a yellow color develops in the chloroform layer (diphenhydramine). To 0.2 g of Hydrocortisone and Diphenhydramine Ointment add 0.5 mL of methanol, warm, and shake. After cooling, separate the methanol layer, and use this layer as the sample solution. Dissolve 10 mg each of hydrocortisone acetate and diphenhydramine in 10 mL each of methanol, and use these solutions as standard solutions (1) and (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel with ‰uorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of ethyl acetate and diethyl ether (4:1) to a distance of about 5 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): two spots obtained from the sample solution show the same Rf value as the corresponding spots from standard solutions (1) and (2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Ointment"
+}

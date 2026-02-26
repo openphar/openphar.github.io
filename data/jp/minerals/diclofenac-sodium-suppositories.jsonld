@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/diclofenac-sodium-suppositories",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Diclofenac Sodium Suppositories",
+    "ja": "ジクロフェナクナトリウム坐剤"
+  },
+  "monographId": "JP18-diclofenac-sodium-suppositories",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Diclofenac Sodium Suppositories contain not less than 93.0z and not more than 107.0z of the labeled as the sample solution. Pipet 2 mL of the sample solution, and add the mobile phase to make exactly 50 mL. Pipet 5 mL of this solution, add the mobile phase to make exactly amount of diclofenac sodium (C 318.13). 14H10Cl2NNaO2: 100 mL, and use this solution as the standard solution. Per-form the test with exactly 20 mL each of these solutions as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of these solutions by the automatic integration method: the area of each peak other than diclofenac obtained from the sample solution is not larger than the peak area of diclofenac from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol and diluted acetic acid (100) (3 in 2500) (4:3). Flow rate: Adjust so that the retention time of diclofenac is about 20 minutes. Time span of measurement: About twice as long as the retention time of diclofenac, beginning after the solvent peak. System suitability— System performance: Dissolve 35 mg of ethyl parahy-droxybenzoate and 0.05 g of propyl parahydroxybenzoate in 100 mL of the mobile phase. To 1 mL of this solution add the mobile phase to make 50 mL. When the procedure is run Method of preparation Prepare as directed under Supposi-tories for Rectal Application, with Diclofenac Sodium. Identiˆcation To an amount of Diclofenac Sodium Sup-positories, equivalent to 25 mg of Diclofenac Sodium, add 200 mL of a mixture of methanol and 0.01 mol/L sodium hydroxide TS (99:1), and dissolve by warming. Cool while shaking, add a mixture of methanol and 0.01 mol/L sodium hydroxide TS (99:1) to make 250 mL, and ˆlter through a pledget of absorbent cotton if necessary. To 10 mL of this solution add a mixture of methanol and 0.01 mol/L sodium hydroxide TS (99:1) to make 100 mL. Determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 280 nm and 284 nm. Uniformity of dosage unit <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 suppository of Diclofenac Sodium Suppositories add 5 mL of tetrahydrofuran, and sonicate to dissolve. Add a mixture of methanol and water (3:2) to make exactly 100 mL, shake, and ˆlter through a membrane ˆlter with a pore size not exceeding 0.5 mm. Discard the ˆrst 5 mL of the ˆl-trate, pipet V mL of the subsequent ˆltrate, add a mixture of methanol and water (3:2) to make exactly V? mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Diclofenac Sodium Suppositories, cut into small pieces care-fully, and mix uniformly. Weigh accurately a portion of the pieces, equivalent to about 25 mg of diclofenac sodium (C14H10Cl2NNaO2), add 5 mL of tetrahydrofuran, and sonicate to dissolve. Add a mixture of methanol and water (3:2) to make exactly 100 mL, shake, and ˆlter through a membrane ˆlter with a pore size not exceeding 0.5 mm. Discard the ˆrst 5 mL of the ˆltrate, pipet 10 mL of the sub-sequent ˆltrate, add a mixture of methanol and water (3:2) to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of diclofenac sodium for assay, previously dried, and dissolve in a mixture of methanol and water (3:2) to make exactly 100 mL. Pipet 5 mL of this solution, add a mixture of methanol and water (3:2) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of diclofenac in each solution. Amount (mg) of diclofenac sodium (C14H10Cl2NNaO2) ＝ MS × AT/AS × 1/2 MS: Amount (mg) of diclofenac sodium for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 12.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 13.6 g of sodium acetate trihydrate in water to make 1000 mL. To 200 mL of this solution add 300 mL of methanol. Flow rate: Adjust so that the retention time of diclofenac is about 3.5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of diclofenac are not less than 2000 and 0.7 to 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of diclofenac is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  }
+}

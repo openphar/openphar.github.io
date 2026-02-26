@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/alprazolam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Alprazolam",
+    "ja": "アルプラゾラム"
+  },
+  "monographId": "JP18-alprazolam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H13ClN4",
+  "molecularWeight": 308.76,
+  "appearance": {
+    "en": "Alprazolam occurs as white, crystals or crys-talline powder. It is freely soluble in chloroform, soluble in methanol and in ethanol (95), sparingly soluble in acetic anhydride, and practically insoluble in water. It dissolves in dilute nitric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Alprazolam in ethanol (95) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Dissolve 0.05 g of Alprazolam in 0.7 mL of deu-terochloroform for nuclear magnetic resonance spectros-copy, and determine the spectrum of this solution using of about 10 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, reduced pressure not exceeding 0.67 kPa, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Alprazolam, previously dried, dissolve in 100 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (poten-tiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 15.44 mg of C17H13ClN4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

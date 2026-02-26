@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/betamethasone-sodium-phosphate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Betamethasone Sodium Phosphate",
+    "ja": "ベタメタゾンリン酸エステルナトリウム"
+  },
+  "monographId": "JP18-betamethasone-sodium-phosphate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Betamethasone Sodium Phosphate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Betamethasone Sodium Phosphate occurs as white to pale yellow-white, crystalline powder or masses. It is odorless. It is freely soluble in water, sparingly soluble in methanol, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. It is hygroscopic. Melting point: about 2139C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Betamethasone So-dium Phosphate in 2 mL of sulfuric acid: a brown color de-velops, and gradually changes to blackish brown. Prepare the test solution with 0.01 g of Betametha-sone Sodium Phosphate as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as an absorbing liquid: the test solution responds to Qualitative Tests <1.09> (2) for fluoride. Take 40 mg of Betamethasone Sodium Phosphate in a platinum crucible, and carbonize by heating. After cool-ing, add 5 drops of nitric acid, and incinerate by heating. To the residue add 10 mL of diluted nitric acid (1 in 50), and boil for several minutes. After cooling, filter if necessary, and use this solution as the sample solution. The sample so-lution responds to Qualitative Tests <1.09> (2) for phosphate. The sample solution neutralized with ammonia TS responds to Qualitative Tests <1.09> for sodium salt, and to Qualita-tive Tests <1.09> (1) and (3) for phosphate. Determine the infrared absorption spectrum of Beta-methasone Sodium Phosphate, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Betamethasone Sodium Phosphate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋99 – ＋1059(0.1 g calcu-lated on the anhydrous basis, water, 10 mL, 100 mm). pH <2.54> Dissolve 0.10 g of Betamethasone Sodium Phos-phate in 20 mL of water: the pH of this solution is between 7.5 and 9.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.25 g of Betamethasone Sodium Phosphate in 10 mL of water: the solution is clear and colorless. Free phosphoric acid—Weigh accurately about 20 mg of Betamethasone Sodium Phosphate, dissolve in 20 mL of water, and use this solution as the sample solution. Sepa-rately, pipet 4 mL of Standard Phosphoric Acid Solution, add 20 mL of water, and use this solution as the standard so-lution. To each of the sample solution and the standard solu-tion add exactly 7 mL of dilute sulfuric acid, exactly 2 mL of hexaammonium heptamolybdate-sulfuric acid TS and ex-actly 2 mL of p-methylaminophenol sulfate TS, shake well, and allow to stand at 20 ± 19C for 15 minutes. To each add water to make exactly 50 mL, and allow to stand at 20 ± 19C for 15 minutes. Perform the test with these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared with 20 mL of water in the same manner as the blank. Determine the absorbances, AT and AS, of each solution from the sample solution and standard solution at 730 nm: the amount of free phosphoric acid is not more than 0.5z. Amount (z) of free phosphoric acid (H3PO4) ＝ AT/AS × 1/M × 10.32 M: Amount (mg) of Betamethasone Sodium Phosphate taken, calculated on the anhydrous basis Betamethasone—Dissolve 20 mg of Betamethasone Sodium Phosphate in exactly 2 mL of methanol, and use this solution as the sample solution. Separately, dissolve 20 mg of Betamethasone RS in exactly 10 mL of methanol. Pipet 1 mL of this solution, add methanol to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a freshly prepared mixture of 1-butanol, water and acetic anhydride (3:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot from the sample solution ‌542 corresponding to the spot obtained from the standard solu-tion is not more intense than the spot from the standard so-lution. Water <2.48> Not more than 10.0z (0.2 g, volumetric titration, back titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Betametha-sone Sodium Phosphate and Betamethasone Sodium Phos-phate RS (separately, determine the water <2.48> in the same manner as Betamethasone Sodium Phosphate), and dissolve each in methanol to make exactly 20 mL. Pipet 5 mL each of these solutions, and exactly 5 mL of the internal standard solution, then add methanol to make 50 mL, and use these solutions as the sample solution and standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of betamethasone phosphate to that of the internal standard. Amount (mg) of betamethasone sodium phosphate (C22H28FNa2O8P) ＝ MS × QT/QS MS: Amount (mg) of Betamethasone Sodium Phosphate RS taken, calculated on the anhydrous basis Internal standard solution—A solution of butyl parahy-droxybenzoate in methanol (1 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.6 g of tetra-n-butylammonium bromide, 3.2 g of disodium hydrogen phosphate dodecahy-drate and 6.9 g of potassium dihydrogen phosphate in 1000 mL of water, and add 1500 mL of methanol. Flow rate: Adjust so that the retention time of betametha-sone phosphate is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, betamethasone phosphate and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of betamethasone phosphate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

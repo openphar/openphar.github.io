@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethyl-loflazepate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethyl Loflazepate",
+    "ja": "ロフラゼプ酸エチル"
+  },
+  "monographId": "JP18-ethyl-loflazepate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H14ClFN2O3",
+  "molecularWeight": 360.77,
+  "casNumber": "29177-84-2",
+  "definition": {
+    "en": "Ethyl Loflazepate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethyl Loflazepate occurs as a white crystalline powder. It is freely soluble in dimethylsulfoxide, sparingly soluble in acetonitrile, slightly soluble in ethanol (99.5), and practi-cally insoluble in water. A solution of Ethyl Loflazepate in dimethylsulfoxide (1 in 50) shows no optical rotation. Melting point: about 1999C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ethyl Loflazepate in acetonitrile (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Ethyl Loflazepate RS prepared in the same manner as the sample solution: both spectra ex-hibit similar intensities of absorption at the same wave-lengths. (2) Determine the infrared absorption spectrum of Ethyl Loflazepate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of dried Ethyl Loflazepate RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Soluble halides—To 1.0 g of Ethyl Loflazepate add 50 mL of water, allow to stand for 1 hour with occa-sional shaking, and filter. Discard the first 10 mL of the fil-trate, transfer 25 mL of the subsequent filtrate to a Nessler tube, add 6 mL of dilute nitric acid and water to make 50 mL, and use this solution as the test solution. Proceed as di-rected under Chloride Limit Test <1.03>. Prepare the control solution as follows: to 0.20 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid and water to make 50 mL. Heavy metals <1.07>—Proceed with 1.0 g of Ethyl Loflazepate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ethyl Loflazepate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 20 mg of Ethyl Loflazepate in 20 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu- JP XVIII Official Monographs / Ethyl Loflazepate 977 tion, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with QS, of the peak area of ethyl loflazepate to that of the inter-nal standard. exactly 5 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each Amount (mg) of ethyl loflazepate (C ＝ MS × QT/QS 18H14ClFN2O3) peak area by the automatic integration method: the peak area of the related substance A, having the relative retention time of about 1.15 to ethyl loflazepate, obtained from the sample solution is not larger than 1/5 times the peak area of ethyl loflazepate from the standard solution, the peak area of the related substance B, having the relative retention time of about 1.38, from the sample solution is not larger than 7/10 times the peak area of ethyl loflazepate from the stand-ard solution, and the area of the peak other than ethyl loflazepate and the peaks mentioned above from the sample solution is not larger than 1/10 times the peak area of ethyl loflazepate from the standard solution. Furthermore, the total area of the peaks other than ethyl loflazepate from the sample solution is not larger than the peak area of ethyl loflazepate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3.9 g of sodium dihydrogen phos-phate dihydrate in water to make 1000 mL, and adjust to pH 6.0 with a solution prepared by dissolving 9.0 g of disodium hydrogen phosphate dodecahydrate in water to make 1000 mL. To 500 mL of this solution add 500 mL of acetonitrile for liquid chromatography. Flow rate: Adjust so that the retention time of ethyl loflazepate is about 10 minutes. Time span of measurement: About 3 times as long as the retention time of ethyl loflazepate. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of ethyl loflazepate obtained with 5 mL of this solution is equivalent to 4 to 6z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of ethyl loflazepate are not less than 2500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of ethyl loflazepate is not more than 2.0z. Loss on drying <2.41> Not more than 0.2z (0.2 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Ethyl Loflazepate and Ethyl Loflazepate RS, both previously dried, add the internal standard solution to dissolve to make exactly 100 mL, and use these solutions as the sample solu-tion and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and MS: Amount (mg) of Ethyl Loflazepate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in acetonitrile for liquid chromatography (1 in 3000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 229 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, acetonitrile for liquid chromatography and ethanol (95) (2:1:1). Flow rate: Adjust so that the retention time of ethyl loflazepate is about 13 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and ethyl loflazepate are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ethyl loflazepate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

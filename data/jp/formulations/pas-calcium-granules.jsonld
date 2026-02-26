@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pas-calcium-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Pas-calcium Granules",
+    "ja": "パラアミノサリチル酸カルシウム顆粒"
+  },
+  "monographId": "JP18-pas-calcium-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Calcium Paraaminosalicylate Gran-ules, weigh a portion of the powder, equivalent to 50 mg of Calcium Paraaminosalicylate Hydrate, add 100 mL of water, shake, and filter. To 10 mL of the filtrate add 1 mL of 1 mol/L hydrochloric acid TS, shake, and add 1 drop of iron (III) chloride TS: a red-purple color develops. Dissolution <6.10> When the test is performed at 75 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 60 minutes of Calcium Paraaminosalicylate Granules is not less than 75z. Start the test with an accurately weighed amount of Cal-cium Paraaminosalicylate Granules, equivalent to about 0.25 g of calcium paraaminosalicylate hydrate (C7H5CaNO3. 31/2H2O), withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet 5 mL of the subsequent filtrate, add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 28 mg of calcium paraaminosalicy-late hydrate for assay (separately determine the water <2.48> in the same manner as Calcium Paraaminosalicylate Hy-drate), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the ab-sorbances, AT and AS, at 300 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of calcium paraaminosalicylate hydrate (C7H5CaNO3.31/2H2O) ＝ MS/MT × AT/AS × 1/C × 900 × 1.330 MS: Amount (mg) of calcium paraaminosalicylate hydrate for assay taken, calculated on the anhydrous basis MT: Amount (g) of Calcium Paraaminosalicylate Gran-ules taken C: Labeled amount (mg) of calcium paraaminosalicylate hydrate (C7H5CaNO3.31/2H2O) in 1 g"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Calcium Paraaminosalicylate Granules, weigh accurately a portion of the powder, equivalent to about 0.2 g of calcium paraaminosalicylate hydrate (C7H5CaNO3.31/2H2O), add 60 mL of water and 0.75 mL of dilute hydrochloric acid, and dissolve by heating on a water bath. After cooling, add water to make exactly 100 mL, and filter. Pipet 30 mL of the filtrate, transfer to an iodine flask, and proceed as directed in the Assay under Calcium Para-aminosalicylate Hydrate. Each mL of 0.05 mol/L bromine VS ＝ 4.238 mg of C7H5CaNO3.31/2H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Granule"
+}

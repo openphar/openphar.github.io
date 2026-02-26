@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/latamoxef-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Latamoxef Sodium",
+    "ja": "ラタモキセフナトリウム"
+  },
+  "monographId": "JP18-latamoxef-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Latamoxef Sodium contains not less than 830 mg (potency) and not more than 940 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Latamoxef Sodium occurs as white to light yel-low-white, powder or masses. It is very soluble in water, freely soluble in methanol, and slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Latamoxef Sodium (3 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Latamoxef Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Latamox-ef Sodium in heavy water for nuclear magnetic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethyl-silylpropanesulfonate for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits single signals, A and B, at around d 3.5 ppm and at around d 4.0 ppm. The ratio of the integrated intensity of these sig-nals, A:B, is about 1:1. Latamoxef Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: －32 – －409(0.5 g calculated on the anhydrous basis, phosphate buffer solution (pH 7.0), 50 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Latamoxef Sodium in 10 mL of water is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Latamoxef Sodium in 10 mL of water: the solution is clear and has no more color than the following control solu-tion. Control solution: To a mixture of 3.0 mL of Cobalt (II) Chloride CS and 36 mL of Iron (III) Chloride CS add 11 mL of diluted dilute hydrochloric acid (1 in 10). To 2.5 mL of this solution add 7.5 mL of diluted dilute hydrochloric acid (1:10). Heavy metals <1.07>—Carbonize 1.0 g of Latamoxef Sodium by heating gently, previously powdered if it is masses. After cooling, add 10 mL of a solution of magne-sium nitrate hexahydrate in ethanol (1 in 10), and burn the ethanol. After cooling, add 1 mL of sulfuric acid. Proceed according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution by dissolv- ing 1.0 g of Latamoxef Sodium in 20 mL of water, and per-form the test (not more than 2 ppm). Related substances—Dissolve 25 mg of Latamoxef Sodium in water to make 50 mL, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the peak area of 1-methyl-1H-tetrazole-5-thiol, having the relative retention time of about 0.5 to the first eluted peak of the two peaks of latamoxef, obtained from the sample solution is not larger than the peak area of latamoxef from the standard solution, and the peak area of decarboxylatamoxef, having the relative retention time of about 1.7 to the first peak of the two peaks of latamoxef, is not larger than 2 times that of latamoxef from the standard solution. For the peak area of 1-methyl-1H-tetrazole-5-thiol, multiply its correction factor, 0.52. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: Proceed as directed in the system suitability in the Assay. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of latamoxef is not more than 2.0z. Water <2.48> Not more than 5.0z (0.5 g, volumetric titra-tion, back titration). Isomer ratio Dissolve 25 mg of Latamoxef Sodium in water to make 50 mL, and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the areas, Aa and Ab, of the two peaks in order of elution, which appear close to each other at the retention time of about 10 minutes: Aa/Ab is be-tween 0.8 and 1.4. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 7.7 g of ammonium acetate in water to make 1000 mL. To 950 mL of this solution add 50 mL of methanol. Flow rate: Adjust so that the retention time of the first eluted peak of latamoxef is about 8 minutes. System suitability— System performance: When the procedure is run with 5 mL of the sample solution under the above operating conditions, ‌1246‌ the resolution between the two peaks of latamoxef is not less than 3. System repeatability: When the test is repeated 3 times with 5 mL of the sample solution under the above operating conditions, the relative standard deviation of the area of the first eluted peak of latamoxef is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Latamoxef Sodium and Latamoxef Ammonium RS, equivalent to about 25 mg (potency) each, dissolve in exactly 5 mL of the internal standard solution, add water to make 50 mL, and use these solutions as the sample solution and standard solution. Per-form the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of latamoxef to that of the internal standard. Amount [ mg (potency)] of latamoxef (C20H20N6O9S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Latamoxef Ammonium RS taken Internal standard solution—A solution of m-cresol (3 in 200). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 6.94 g of potassium dihydrogen phosphate, 3.22 g of disodium hydrogen phosphate dodeca-hydrate and 1.60 g of tetra-n-butylammonium bromide in water to make exactly 1000 mL. To 750 mL of this solution add 250 mL of methanol. Flow rate: Adjust so that the retention time of latamoxef is about 7 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, latamoxef and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of latamoxef to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 59C."
+  }
+}

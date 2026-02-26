@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aldioxa",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aldioxa",
+    "ja": "アルジオキサ"
+  },
+  "monographId": "JP18-aldioxa",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H7AlN4O5",
+  "molecularWeight": 218.1,
+  "casNumber": "5579-81-7",
+  "definition": {
+    "en": "Aldioxa is a condensation product of allantoin and aluminum hydroxide. When dried, it contains not less than 65."
+  },
+  "appearance": {
+    "en": "Aldioxa occurs as a white powder. It is practically insoluble in water and in ethanol (99.5). It dissolves in dilute hydrochloric acid. A solution of Aldioxa in sodium fluoride-hydrochloric acid TS (1 in 100) shows no optical rotation. Melting point: about 2309C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Aldioxa, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. (2) To 0.2 g of Aldioxa add 10 mL of dilute hydrochloric acid, dissolve by warming, and cool: the solution responds to Qualitative Tests <1.09> for aluminum salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 0.10 g of Aldioxa add 6 mL of dilute nitric acid, boil to dissolve with shaking for 5 minutes, cool, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the con-trol solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.142z). (2) Heavy metals <1.07>—To 1.0 g of Aldioxa add 3 mL of hydrochloric acid and 3 mL of water, heat gently to boil with shaking, and evaporate on a water bath to dryness. To the residue add 30 mL of water, shake under warming, cool, filter, and to the filtrate add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 3 mL of hydrochloric acid on a water bath to dry-ness, and add 2.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Loss on drying <2.41> Not more than 4.0z (1 g, 1059C, 2 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Allantoin—Weigh accurately about 0.1 g of Aldioxa, previously dried, dissolve in 50 mL of dilute sulfu-ric acid by heating, cool, and add water to make exactly 100 mL. Pipet 10 mL of this solution, and perform the test as directed under Nitrogen Determination <1.08>. Each mL of 0.005 mol/L sulfuric acid VS ＝ 0.3953 mg of C4H6N4O3 (2) Aluminum—Weigh accurately about 0.2 g of Aldioxa, previously dried, dissolve carefully in 50 mL of dilute hydrochloric acid by heating, cool, and add dilute hydrochloric acid to make exactly 100 mL. Pipet 4 mL of this solution, add water to make exactly 25 mL, and use this solution as the sample solution. Separately, pipet a suitable quantity of Standard Aluminum Stock Solution, dilute with water so that each mL of the solution contains not less than 16.0 mg and not more than 64.0 mg of aluminum (Al: 26.98), and use this solution as the standard solution. Perform the test with the sample solution and standard solution as di-rected under Atomic Absorption Spectrophotometry <2.23> according to the following conditions, and calculate the alu-minum content of the sample solution from the calibration curve obtained from the absorbance of the standard solu-tion. Gas: Combustible gas—Acetylene. Supporting gas—Nitrous oxide. Lamp: An aluminum hollow cathode lamp. Wavelength: 309.2 nm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/piperacillin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Piperacillin Sodium",
+    "ja": "ピペラシリンナトリウム"
+  },
+  "monographId": "JP18-piperacillin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Piperacillin Sodium contains not less than 863 mg (potency) and not more than 978 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Piperacillin Sodium occurs as a white, powder or mass. It is very soluble in water, freely soluble in methanol and in ethanol (95), and practically insoluble in acetonitrile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Piperacillin Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) Piperacillin Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋175 – ＋1909(0.8 g calcu-lated on the anhydrous basis, water, 20 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Piperacillin Sodium in 4 mL of water: the pH of the solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Piperacillin Sodium in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Piper- acillin Sodium according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Piperacillin Sodium according to Method 4, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.10 g of Piperacillin Sodium in 50 mL of the mobile phase A, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add the mobile phase A to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the areas of each peak by the automatic integration method: the area of the peak of ampicillin appeared at the retention time of about 7 minutes obtained from the sample solution is not larger than 1/2 times that of piperacillin from the standard solution, the total area of related compounds 1 appeared at the retention times of about 17 minutes and about 21 minutes is not larger than 2 times of the peak area of piper-acillin from the standard solution, the peak area of related compound 2 appeared at the retention time of about 56 minutes is not larger than that of piperacillin from the stand-ard solution, and the total area of the peaks other than factor of the peak of piperacillin are not less than 15,000 and not more than 1.5, respectively. System repeatability:When the test is repeated 3 times with 20 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of piperacillin is not more than 2.0z. Water <2.48> Not more than 1.0z (3 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Piperacillin Sodium, equivalent to about 0.1 g (potency), and dissolve in water to make exactly 100 mL. To exactly 5 mL of this solution add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately an amount of Piperacillin RS, equivalent to about 0.1 g (po-tency), and dissolve in the mobile phase to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the in-ternal standard solution, and use this solution as the stand-ard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak height of piperacillin to that of the internal standard. piperacillin is not larger than 5 times of the peak area of Amount [ mg (potency)] of piperacillin (C H N O S) piperacillin from the standard solution. For the peak areas of ampicillin, related compound 1 and related compound 2, ＝ MS × QT/QS × 1000 23 27 5 7 multiply their correction factors, 1.39, 1.32 and 1.11, respec-tively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of water, acetonitrile and 0.2 mol/L potassium dihydrogen phosphate (45:4:1). Mobile phase B: A mixture of acetonitrile, water and 0.2 mol/L potassium dihydrogen phosphate (25:24:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 7 7 – 13 100 → 83 0 → 17 13 – 41 41 – 56 83 → 20 17 → 80 56 – 60 Flow rate: 1.0 mL per minute (the retention time of piper-acillin is about 33 minutes). Time span of measurement: About 1.8 times as long as the retention time of piperacillin, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase A to make exactly 20 mL. Confirm that the peak area of piperacillin obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry MS: Amount [mg (potency)] of Piperacillin RS taken Internal standard solution—A solution of acetanilide in the mobile phase (1 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 60.1 g of acetic acid (100) and 101.0 g of triethylamine add water to make exactly 1000 mL. To 25 mL of this solution add 25 mL of dilute acetic acid and 210 mL of acetonitrile, and add water to make exactly 1000 mL. Flow rate: Adjust so that the retention time of piperacillin is about 5 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and piperacillin are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak height of piperacillin to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

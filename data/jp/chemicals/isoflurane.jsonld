@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/isoflurane",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Isoflurane",
+    "ja": "イソフルラン"
+  },
+  "monographId": "JP18-isoflurane",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H2ClF5O",
+  "molecularWeight": 184.49,
+  "definition": {
+    "en": "Isoflurane contains not less than 99."
+  },
+  "appearance": {
+    "en": "Isoflurane occurs as a clear, colorless fluid liq-uid. tegration method: the area of the peak other than isoflurane from sample solution is not larger than the peak area of ‌1196 isoflurane from the standard solution, and the total area of the peaks other than isoflurane from the sample solution is not larger than 3 times the peak area of isoflurane from the standard solution. Operating conditions— Detector, column, column temperature, carrier gas, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 5 times as long as the retention time of isoflurane. System suitability— System performance and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 1 mL of the standard solution add o-xylene to make exactly 2 mL. Con-firm that the peak area of isoflurane obtained with 5 mL of this solution is equivalent to 35 to 65z of that with 5 mL of the standard solution. Peroxide—Take 10 mL of Isoflurane in a Nessler tube add 1 mL of a freshly prepared solution of potassium iodide (1 in 10), shake vigorously, and allow to stand in a dark place for 1 hour: the water layer is not yellow. Residue on evaporation—Pipet 65 mL of Isoflurane, evaporate on a water bath, and dry the residue at 1059C for 1 hour: not more than 1.0 mg. Water <2.48> Not more than 0.1z (2 g, Coulometric titra-tion)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) The test solution obtained by Oxygen Flask Combustion Method <1.06> with 50 mL of Isoflurane, using 40 mL of water as the absorbing liquid, responds to Qualitative Tests <1.09> for chloride and fluoride. (2) Determine the infrared absorption spectrum of Isoflurane as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Isoflurane RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Specific gravity <2.56> d 20: 1.500 – 1.520"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 10 mL of Isoflurane add 5 mL of freshly boiled and cooled water, and shake for 1 minute: the water layer is neutral. Soluble chloride—To 60 g of Isoflurane add 40 mL of water, shake thoroughly, and separate the water layer. To 20 mL of the layer add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test with this solution as di-rected under Chloride Limit Test <1.03>. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 3 ppm). Soluble fluoride—To 6 g of Isoflurane add 12 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20), and shake for 10 minutes. Transfer 4.0 mL of the water layer into a Nessler tube, add 30 mL of a mixture of alizarin com-plexone TS, acetic acid-potassium acetate buffer solution (pH 4.3) and cerium (III) nitrate TS (1:1:1), add water to make 50 mL, allow to stand for 60 minutes, and use this so-lution as the sample solution. Separately, to 0.4 mL of the fluorine standard solution and 4.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20) in a Nessler tube add 30 mL of the mixture of alizarin complexone TS, acetic acid-potas-sium acetate buffer solution (pH 4.3) and cerium (III) nitrate TS (1:1:1), then proceed in the same manner as for the preparation of the sample solution, and use the solution so obtained as the standard solution. Determine the absor-bances of the sample solution and standard solution at 600 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution, obtained by proceeding in the same manner as above with 4.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20), as the blank: the absorbance of the sample solution is not more than that of the standard solu-tion (not more than 2 ppm). Fluorine standard solution: Dissolve exactly 2.21 g of so-dium fluoride in water to make exactly 1000 mL. Pipet 10 mL of this solution, and add water to make exactly 1000 mL. Each mL of this solution contains 0.01 mg of fluorine (F). Related substances—Use Isoflurane as the sample so-lution. To exactly 1 mL of the sample solution add o-xylene to make exactly 100 mL. Pipet 1 mL of this solution, add o-xylene to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under lated on the anhydrous basis. 3 2 5 Gas Chromatography <2.02> according to the following con- ditions, and determine each peak area by the automatic in- Description Isoflurane occurs as a clear, colorless fluid liq-uid. tegration method: the area of the peak other than isoflurane from sample solution is not larger than the peak area of ‌1196 isoflurane from the standard solution, and the total area of the peaks other than isoflurane from the sample solution is not larger than 3 times the peak area of isoflurane from the standard solution. Operating conditions— Detector, column, column temperature, carrier gas, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 5 times as long as the retention time of isoflurane. System suitability— System performance and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 1 mL of the standard solution add o-xylene to make exactly 2 mL. Con-firm that the peak area of isoflurane obtained with 5 mL of this solution is equivalent to 35 to 65z of that with 5 mL of the standard solution. Peroxide—Take 10 mL of Isoflurane in a Nessler tube add 1 mL of a freshly prepared solution of potassium iodide (1 in 10), shake vigorously, and allow to stand in a dark place for 1 hour: the water layer is not yellow. Residue on evaporation—Pipet 65 mL of Isoflurane, evaporate on a water bath, and dry the residue at 1059C for 1 hour: not more than 1.0 mg. Water <2.48> Not more than 0.1z (2 g, Coulometric titra-tion)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To exactly 5 mL each of Isoflurane and Isoflurane RS (separately determined the water <2.48> in the same man-ner as Isoflurane), add exactly 3 mL of ethyl acetate as the internal standard, then add o-xylene to make 50 mL each. To 5 mL each of these solutions add o-xylene to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the follow-ing conditions, and calculate the ratios, QT and QS, of the peak area of isoflurane to that of the internal standard. Amount (mg) of isoflurane (C3H2ClF5O) in 5 mL of Isoflurane ＝ VS × QT/QS × 1000 × 1.506 VS: Amount (mL) of Isoflurane RS taken, calculated on the anhydrous basis 1.506: Specific gravity (d 20) of isoflurane Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A stainless steel column 3 mm in inside diameter and 3.5 m in length, packed with siliceous earth for gas chro-matography (125 – 149 mm in particle diameter), coated in 10z with nonylphenoxypoly(ethyleneoxy)ethanol for gas chromatography and in 15z with polyalkylene glycol for gas chromatography. Column temperature: A constant temperature of about 809C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of isoflurane is about 7 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, isoflurane and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of isoflurane is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—At a temperature not exceeding 309C."
+  }
+}

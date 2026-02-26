@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/idarubicin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Idarubicin Hydrochloride",
+    "ja": "イダルビシン塩酸塩"
+  },
+  "monographId": "JP18-idarubicin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H27NO9.HCl",
+  "molecularWeight": 533.95,
+  "definition": {
+    "en": "Idarubicin Hydrochloride contains not less than 960 mg (potency) and not more than 1030 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Idarubicin Hydrochloride occurs as a yellow-red powder. It is sparingly soluble in methanol, slightly soluble in water and in ethanol (95), and practically insoluble in aceto-nitrile and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectra of a solution of Idarubicin Hydrochloride in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Idarubicin Hydrochloride RS prepared in the same manner as the sam-ple solution: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectra of Idarubi-cin Hydrochloride and Idarubicin Hydrochloride RS as di-rected in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare these spectra: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 2 mg of Idarubicin Hydrochloride in 3 mL of water, and add 1 mL of dilute nitric acid and 3 drops of silver nitrate TS: a white turbidity is produced. D Optical rotation <2.49> [a]20: ＋188 – ＋2019(20 mg calcu-lated on the anhydrous basis, methanol, 20 mL, 100 mm). pH <2.54> Dissolve 10 mg of Idarubicin Hydrochloride in 10 mL of water: the pH of the solution is between 5.0 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 10 mg of Idarubicin Hydrochloride in 10 mL of water: the solution is clear and yellow-red in color. Silver— Dissolve exactly 0.10 g of Idarubicin Hydro-chloride in diluted nitric acid (1 in 200) to make exactly 20 mL, and use this solution as the sample solution. Separately, to exactly 5 mL of Standard Silver Solution for Atomic Ab-sorption Spectrophotometry add diluted nitric acid (1 in 200) to make exactly 50 mL. Pipet a suitable amount of this solu-tion, dilute exactly it with diluted nitric acid (1 in 200) so that each mL contains 0.05 mg, 0.075 mg, 0.1 mg and 0.2 mg of sil- ‌JP XVIII Official Monographs / Idarubicin Hydrochloride for Injection 1137 ver (Ag: 107.87), and use this solution as the standard solu-tion. Perform the test with the sample solution and standard solution as directed under Atomic Absorption Spectropho-tometry <2.23> according to the following conditions, and calculate the amount of silver in the sample solution using the calibration curve obtained with the absorbances of the standard solution: not more than 20 ppm. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Silver hollow-cathode lamp. Wavelength: 328.1 nm. Related substances—Conduct this procedure using light-resistant vessels. Perform the test with 20 mL of the sample solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak area by the automatic in-tegration method, and calculate their amounts by the area percentage method: the amount of the peak other than idarubicin is not more than 1.0z, and the total amount of the peaks other than idarubicin is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3.3 times as long as the retention time of idarubicin, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase without sodium lauryl sulfate to make exactly 100 mL, and use this solution as the solution for system suitability test. Pipet 2 mL of the solution for sys-tem suitability test, and add the mobile phase without so-dium lauryl sulfate to make exactly 20 mL. Confirm that the peak area of idarubicin obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 10.2 g of potassium dihydrogen-phosphate in a suitable amount of water, add 1 mL of phos-phoric acid and water to make 750 mL, and add 250 mL of tetrahydrofuran. To 500 mL of this solution add 0.72 g of sodium lauryl sulfate and 0.5 mL of N,N-dimethyl-n-octyla-mine, and adjust to pH 4 with 2 mol/L sodium hydroxide TS. Flow rate: Adjust so that the retention time of idarubicin is about 15 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating conditions, the number of theoretical plates of the peak of idarubicin is not less than 3000. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of idarubicin is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

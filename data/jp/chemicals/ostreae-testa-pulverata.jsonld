@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ostreae-testa-pulverata",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ostreae Testa Pulverata",
+    "ja": "ボレイ末"
+  },
+  "monographId": "JP18-ostreae-testa-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Oyster Shell occurs as a grayish white powder. It is almost odorless and tasteless."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 g of Powdered Oyster Shell in 10 mL of dilute hydrochloric acid by heating: it evolves a gas, and forms a very slightly red, turbid solution. Pass the gas evolved through calcium hydroxide TS: a white precipi-tate is produced. The solution obtained in (1) has a slight, characteris-tic odor. Filter this solution, and neutralize with ammonia TS: the solution responds to Qualitative Tests <1.09> for cal-cium salt. Ignite 1 g of Powdered Oyster Shell: it turns black-brown in color at first evolving a characteristic odor. Ignite it further: it becomes almost white."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water-soluble substances—Shake 3.0 g of Powdered Oyster Shell with 50 mL of freshly boiled and cooled water for 5 minutes, filter, and evaporate 25 mL of the filtrate to dryness. Dry the residue at 1059C for 1 hour, cool, and weigh: the mass of the residue does not exceed 15 mg. Acid-insoluble substances—To 5.0 g of Powdered Oyster Shell add 100 mL of water, and add hydrochloric acid in small portions with stirring until the solution becomes acid. Boil the acidic mixture with additional 1 mL of hydro-chloric acid. After cooling, collect the insoluble substance by filtration, and wash it with hot water until the last washing no longer gives any reaction in Qualitative Tests <1.09> (2) for chloride. Ignite the residue and weigh: the mass of the residue does not exceed 25 mg. Barium—Dissolve 1 g of Powdered Oyster Shell in 10 mL of dilute hydrochloric acid: the solution does not re-spond to Qualitative Tests <1.09> (1) for barium salt. Loss on drying <2.41> Not more than 4.0z (1 g, 1809C, 4 hours)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

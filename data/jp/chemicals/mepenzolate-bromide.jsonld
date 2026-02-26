@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mepenzolate-bromide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Mepenzolate Bromide",
+    "ja": "メペンゾラート臭化物"
+  },
+  "monographId": "JP18-mepenzolate-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H26BrNO3",
+  "molecularWeight": 420.34,
+  "casNumber": "76-90-4",
+  "appearance": {
+    "en": "Mepenzolate Bromide is white to pale yellow, crystals or crystalline powder. It is odorless, and has a bitter taste. It is very soluble in formic acid, freely soluble in metha-nol, soluble in hot water, slightly soluble in water and in ethanol (95), very slightly soluble in acetic anhydride, and practically insoluble in diethyl ether. Melting point: about 2309C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 30 mg of Mepenzolate Bromide add 10 drops of sulfuric acid: a red color develops. Dissolve 10 mg of Mepenzolate Bromide in 20 mL of water and 5 mL of dilute hydrochloric acid, and to 5 mL of this solution add 1 mL of Dragendorff's TS: an orange pre-cipitate is produced. Determine the absorption spectrum of a solution of Mepenzolate Bromide in 0.01 mol/L hydrochloric acid TS (1 in 2000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Dissolve 0.5 g of Mepenzolate Bromide in 50 mL of water and 3 mL of nitric acid by heating. This solution re-sponds to Qualitative Tests <1.09> for Bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy Metals <1.07>—Proceed with 1.0 g of Mepenzolate Bromide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not less than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Mepenzolate Bromide according to Method 3, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.40 g of Mepenzolate Bromide in exactly measured 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add methanol to make exactly 200 mL, and use this solution as the standard solution (1). Separately, dis-solve 40 mg of benzophenone in methanol to make exactly 100 mL. Pipet 2 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution, standard solutions (1) and (2) on a plate of silica gel with fluorecent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of methanol, 1-butanol, water and acetic acid (100) (3:3:2:1) to a distance of about 10 cm, and air-dry the plate and then at 809C for 30 minutes. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than either the principal spot or the spot corresponding to benzophenone obtained from the sam-ple solution are not more intense than the spot from stand-ard solution (1), and the spot corresponding to benzophe-none from the sample solution is not more intense than the spot from standard solution (2). Spray evenly Dragendorff's TS on the plate: the spots other than the principal spot from the sample solution are not more intense than the spot from standard solution (1). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.35 g of Mepenzolate Bromide, previously dried, dissolve in 2 mL of formic acid, add 60 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 42.03 mg of C21H26BrNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

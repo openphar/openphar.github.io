@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nizatidine-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nizatidine Capsules",
+    "ja": "ニザチジンカプセル"
+  },
+  "monographId": "JP18-nizatidine-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nizatidine Capsules contain not less than 95.0z and not more than 105.0z of the labeled amount of nizati-dine (C12H21N5O2S2: 331.46). Method of preparation Prepare as directed under Cap-sules, with Nizatidine. Identification Take out the contents of Nizatidine Cap-sules, and powder. To a portion of the powder, equivalent to 50 mg of Nizatidine, add 50 mL of methanol, shake well, and filter. Pipet 1 mL of the filtrate, and add methanol to make 100 mL. Determine the absorption spectrum of the so- MS: Amount (mg) of Nizatidine RS taken Internal standard solution—A solution of phenol in the mo-bile phase (1 in 100). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using a sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Nizatidine Capsules is not less than 80z. Start the test with 1 capsule of Nizatidine Capsules, with-draw not less than 10 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 2 mL of the first filtrate, pipet V mL of the subsequent filtrate, and add water to make exactly V? mL so that each mL contains about 10 mg of nizatidine (C12H21N5O2S2)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take out the contents of Nizatidine Cap-sules, and powder. To a portion of the powder, equivalent to 50 mg of Nizatidine, add 50 mL of methanol, shake well, and filter. Pipet 1 mL of the filtrate, and add methanol to make 100 mL. Determine the absorption spectrum of the so- MS: Amount (mg) of Nizatidine RS taken Internal standard solution—A solution of phenol in the mo-bile phase (1 in 100). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using a sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Nizatidine Capsules is not less than 80z. Start the test with 1 capsule of Nizatidine Capsules, with-draw not less than 10 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 2 mL of the first filtrate, pipet V mL of the subsequent filtrate, and add water to make exactly V? mL so that each mL contains about 10 mg of nizatidine (C12H21N5O2S2). Use this solution as the sample solution. Separately, weigh accu-rately about 25 mg of Nizatidine RS, previously dried at 100 9C for 1 hour, and dissolve in water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 314 nm. Dissolution rate (z) with respect to the labeled amount of nizatidine (C12H21N5O2S2) ＝ MS × AT/AS × V?/V × 1/C × 36 MS: Amount (mg) of Nizatidine RS taken C: Labeled amount (mg) of nizatidine (C12H21N5O2S2) in 1 capsule"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 10 Nizatidine Capsules, weigh accurately the mass of the contents, and powder. Weigh accurately a portion of the powder, equiva-lent to about 0.15 g of nizatidine (C12H21N5O2S2), add ex-actly 50 mL of the mobile phase, shake vigorously for 10 minutes, and centrifuge. Pipet 5 mL of the supernatant liq-uid, add exactly 5 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 15 mg of Nizatidine RS, previously dried at 1009C for 1 hour, dis-solve in 30 mL of the mobile phase, add exactly 5 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of nizatidine to that of the internal standard. lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 239 nm and 244 nm, and between 323 nm and 327 nm. Amount (mg) of nizatidine (C ＝ MS × QT/QS × 10 12H21N5O2S2) Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Take out the contents from 1 capsule of Nizatidine Cap-sules, add the mobile phase to make exactly V mL so that each mL contains about 1.5 mg of nizatidine (C12H21N5O2S 2). After shaking vigorously for 10 minutes, centrifuge. Pipet 10 mL of the supernatant liquid, add exactly 5 mL of the in-ternal standard solution and add the mobile phase to make 50 mL, and use this solution as the sample solution. Then, MS: Amount (mg) of Nizatidine RS taken Internal standard solution—A solution of phenol in the mo-bile phase (1 in 100). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about ‌409C.‌ Mobile phase: Dissolve 5.9 g of ammonium acetate in 760 mL of water, add 1 mL of diethylamine, and adjust to pH 7.5 with acetic acid (100). To this solution add 240 mL of methanol. Flow rate: Adjust so that the retention time of nizatidine is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and nizatidine are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of nizatidine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

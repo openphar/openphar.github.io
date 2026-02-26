@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/purified-shellac",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Purified Shellac‌",
+    "ja": "精製セラック"
+  },
+  "monographId": "JP18-purified-shellac",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Purified Shellac occurs as light yellow-brown to brown, lustrous, hard, brittle scutella. It is odorless or has a faint, characteristic odor. It is freely soluble in ethanol (95) and in ethanol (99.5), and practically insoluble in water and in diethyl ether. It dissolves in sodium hydroxide TS. Acid value <1.13> 60 – 80 Weigh accurately about 1 g of Purified Shellac, add 40 mL of neutralized ethanol, and dissolve by warming. After cooling, titrate <2.50> with 0.1 mol/L potassium hydroxide VS (potentiometric titration)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Purified Shellac according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Purified Shellac according to Method 3, and perform the test. Add 10 mL of a solution of magnesium nitrate hexahy-drate in ethanol (95) (1 in 50), then add 1.5 mL of hydrogen peroxide (30), and fire to burn (not more than 5 ppm). Ethanol-insoluble substances—Dissolve about 5 g of Purified Shellac, accurately weighed, in 50 mL of ethanol (95) on a water bath while shaking. Pour the ethanol solu-tion into a tared extraction thimble, previously dried at 1059C for 2 hours, in a Soxhlet extractor, and extract with ethanol (95) for 3 hours. Dry the extraction thimble at 1059C for 3 hours: the mass of the residue is not more than 2.0z. Use a cylindrical weighing bottle for taring the extraction thimble. Rosin—To 2.0 g of Purified Shellac add 10 mL of ethanol (99.5), shake thoroughly to dissolve, and add gradu-ally 50 mL of hexane while shaking. Transfer the solution to a separator, wash with two 50-mL portions of water, filter the upper layer, and evaporate the filtrate on a water bath to dryness. To the residue add 5 mL of acetic anhydride, and heat on a water bath to dissolve, if necessary. Transfer this solution to a Nessler tube, and add 1 drop of sulfuric acid: the color of the solution does not change from red-purple through purple to reddish yellow. Wax—Dissolve 10.0 g of Purified Shellac in 150 mL of a solution of sodium carbonate decahydrate (9 in 200) with shaking on a water bath, and continue the heating for 2 hours. After cooling, collect the floating wax by filtration, wash the wax and the filter paper with water, transfer to a beaker, and dry at 659C until the water is almost evaporated. Transfer the wax together with the filter paper to an ex-traction thimble in a Soxhlet extractor. Dissolve the wax remaining in the beaker with a suitable quantity of chlo-roform by warming. Pour the solution into the thimble, and extract with chloroform for 2 hours. Evaporate the chlo-roform solution to dryness, and dry the residue at 1059C for 3 hours: the mass of the residue is not more than 20 mg. Loss on drying Not more than 2.0z. Weigh accurately about 1 g of moderately fine powder of Purified Shellac, and dry at 409C for 4 hours, then for 15 hours in a desiccator (calcium chloride for drying). Total ash <5.01> Not more than 1.0z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

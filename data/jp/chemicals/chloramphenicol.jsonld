@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chloramphenicol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chloramphenicol",
+    "ja": "クロラムフェニコール"
+  },
+  "monographId": "JP18-chloramphenicol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H12Cl2N2O5",
+  "molecularWeight": 323.13,
+  "casNumber": "56-75-7",
+  "definition": {
+    "en": "Chloramphenicol contains not less than 980 mg (po-tency) and not more than 1020 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Chloramphenicol occurs as white to yellow-white, crystals or crystalline powder. It is freely soluble in methanol and in ethanol (99.5), and slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Chloramphenicol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Chloramphenicol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Chloramphenicol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋18.5 – ＋21.59 (1.25 g, ethanol (99.5), 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Chloramphenicol according to Method 2, and perform the test. Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 25 ppm). (2) Related substances—Dissolve 0.10 g of Chloram-phenicol in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution (1). Pipet 10 mL of the standard solu-tion (1), add methanol to make exactly 20 mL, and use this ‌JP XVIII Official Monographs / Chloramphenicol Palmitate 729 solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 20 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel with ‰uorescent indicator for thin-layer chromatography, develop the plate with a mixture of ethyl acetate, methanol and acetic acid (100) (10:1:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution (1), and the total amount of these spots from the sample so-lution is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Chloramphenicol and Chloramphenicol RS, equivalent to about 50 mg (po-tency), dissolve each in 10 mL of methanol, and add water to make exactly 50 mL. Pipet 20 mL each of these solutions, and add water to make exactly 100 mL. Pipet 10 mL each of these solutions, add water to make exactly 100 mL, and use these solutions as the sample solution and standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 278 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Dissolve 5 mg each of Chloramphenicol Palmitate and Chloramphenicol Palmitate RS in 1 mL of acetone, and use these solutions as the sample solution and standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of acetone and cyclohexane (1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution has the same Rf value as the spot from the standard solution. D Optical rotation <2.49> [a]25: ＋21 – ＋259(1 g calculated on the dried basis, ethanol (99.5), 20 mL, 100 mm). Melting point <2.60> 91 – 969C Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Chloramphenicol Palmitate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Chloramphenicol Palmitate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Chloram-phenicol Palmitate in 50 mL of methanol, and use this solu- Amount [mg (potency)] of chloramphenicol (C ＝ MS × AT/AS × 1000 11H12Cl2N2O5) tion as the sample solution. Pipet 1 mL of the sample solu-tion, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with MS: Amount [mg (potency)] of Chloramphenicol RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

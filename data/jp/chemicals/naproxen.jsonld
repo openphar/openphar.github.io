@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/naproxen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Naproxen",
+    "ja": "ナプロキセン"
+  },
+  "monographId": "JP18-naproxen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H14O3",
+  "molecularWeight": 230.26,
+  "definition": {
+    "en": "Naproxen, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Naproxen occurs as white, crystals or crystal-line powder. It is odorless. It is freely soluble in acetone, soluble in methanol, in ethanol (99.5) and in chloroform, sparingly soluble in diethyl ether, and practically insoluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Naproxen in 5 mL of methanol, add 5 mL of water, then add 2 mL of potassium iodide TS and 5 mL of a solution of potassium iodate (1 in 100), and shake: a yellow to yellow-brown color develops. To this solution add 5 mL of chloroform, and shake: a light red-purple color develops in the chloroform layer. To 1 mL of a solution of Naproxen in ethanol (99.5) (1 in 300) add 4 mL of hydroxylamine perchlorate-ethanol TS and 1 mL of N,N?-dicyclohexylcarbodiimide-ethanol TS, shake well, and allow to stand in lukewarm water for 20 minutes. After cooling, add 1 mL of iron (III) perchlorate-ethanol TS, and shake: a red-purple color develops. Determine the absorption spectrum of a solution of Naproxen in ethanol (99.5) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare (C16H19 ClN2.C4H4O4) the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave- ＝ MSb × QTb/QSb × 1/25 MSa: Amount (mg) of naphazoline nitrate for assay taken MSb: Amount (mg) of Chlorpheniramine Maleate RS taken Internal standard solution—A solution of ethenzamide in methanol (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column, about 4 mm in inside diameter and 25 to 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). lengths. Determine the infrared absorption spectrum of Naproxen, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]25: ＋63.0 – ＋68.59(after dry-ing, 0.1 g, chloroform, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.0 g of Naproxen in 20 mL of acetone: the solution is clear. Per- form the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance at 400 nm is not more than 0.070. ‌Heavy metals <1.07>—Proceed with 2.0 g of Napro-xen according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Naproxen according to Method 3, and perform the test (not more than 1 ppm). Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.10 g of Naproxen in 10 mL of a mixture of ethanol (99.5) and chloroform (1:1), and use this solution as the sample so-lution. Pipet 2 mL of the sample solution, and add a mixture of ethanol (99.5) and chloroform (1:1) to make exactly 100 mL. Pipet 5 mL of this solution, add a mixture of ethanol (99.5) and chloroform (1:1) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of hexane, dichloromethane, tetrahydrofuran and acetic acid (100) (50:30:17:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5g of Naproxen, previ-ously dried, add 100 mL of diluted methanol (4 in 5), dis-solve by gentle warming if necessary, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 3 drops of phe-nolphthalein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 23.03 mg of C14H14O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

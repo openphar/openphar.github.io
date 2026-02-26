@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dimemorfan-phosphate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dimemorfan Phosphate",
+    "ja": "ジメモルファンリン酸塩"
+  },
+  "monographId": "JP18-dimemorfan-phosphate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H25N.H3PO4",
+  "molecularWeight": 353.39,
+  "definition": {
+    "en": "Dimemorfan Phosphate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dimemorfan Phosphate occurs as white to pale yellow-white, crystals or crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in water and in methanol, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 2659C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dimemorfan Phosphate (1 in 5000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dimemorfan Phosphate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibits similar intensities of absorption at the same wave numbers. To 2 mL of a solution of Dimemorfan Phosphate (1 in 100) add 2 to 3 drops of silver nitrate TS: a yellow precipi-tate is formed, and it dissolves on the addition of dilute nitric acid. D Optical rotation <2.49> [a]20: ＋25 – ＋279(after drying, 1 g, methanol, 100 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Dimemorfan Phosphate in 100 mL of water: the pH of this solution is between 4.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Dimemorfan Phosphate according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Dimemorfan Phosphate according to Method 3, and per-form the test. Use 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10) (not more than 2 ppm). Related substances—Dissolve 0.10 g of Dimemorfan Phosphate in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of methanol, chloroform and am-monia solution (28) (150:150:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly the plate with Dragen-dorff's TS for spraying: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Dimemorfan Phos-phate, previously dried, dissolve in 100 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.34 mg of C18H25N.H3PO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

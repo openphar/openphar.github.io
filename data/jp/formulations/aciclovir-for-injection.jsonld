@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/aciclovir-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Aciclovir for Injection",
+    "ja": "注射用アシクロビル"
+  },
+  "monographId": "JP18-aciclovir-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aciclovir for Injection is a preparation for injection which is dissolved before use. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Aciclovir for Injection occurs as white to pale yellow-white, light masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 254 nm and 258 nm. pH Being specified separately when the drug is granted approval based on the Law. droxide TS to make exactly 100 mL. Pipet 15 mL of this solution, add 70 mL of water and 5 mL of 2 mol/L hy-drochloric acid TS, then add water to make exactly 100 mL. Pipet 5 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Aciclovir RS (separately determine the water <2.48> in the same manner as Aciclovir), and dissolve in dilute sodium hydroxide TS to make exactly 20 mL. Pipet 15 mL of this solution, add 70 mL of water and 5 mL of 2 mol/L hydro-chloric acid TS, then add water to make exactly 100 mL. Pipet 5 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 255 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using 0.1 mol/L hydrochloric acid TS as the blank. Amount (mg) of aciclovir (C8H11N5O3) ＝ MS × AT/AS × 5 MS: Amount (mg) of Aciclovir RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

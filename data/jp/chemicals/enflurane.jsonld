@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/enflurane",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Enflurane",
+    "ja": "エンフルラン"
+  },
+  "monographId": "JP18-enflurane",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H2ClF5O",
+  "molecularWeight": 184.49,
+  "appearance": {
+    "en": "Enflurane is a clear, colorless liquid. It is slightly soluble in water. It is miscible with ethanol (95) and with diethyl ether. It is a volatile, and not an inflammable. It shows no optical rotation. Boiling point: 54 – 579C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Take 50 mL of Enflurane, and prepare the test solution as directed to the Oxygen Flask Combustion Method <1.06> using 40 mL of water as the absorbing liquid. The test solution responds to Qualitative Tests <1.09> for chloride and fluoride. (2) Determine the infrared absorption spectrum of En-flurane as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.302 – 1.304 Specific gravity <2.56> d 20: 1.520 – 1.540"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 60 mL of Enflurane add 60 mL of freshly boiled and cooled water, shake for 3 minutes, separate the water later, and use the layer as the sample solution. To 20 mL of the sample solution add one drop of bromocresol purple TS and 0.10 mL of 0.01 mol/L sodium hydroxide VS: the color of the solution is purple. To 20 mL of the sample solution add one drop of bromocresol purple TS and 0.06 mL of 0.01 mol/L hydrochloric acid VS: the color of the solution is yellow. Chloride <1.03>—To 20 g of Enflurane add 20 mL of water, shake well, and separate the water layer. Take 10 mL of the water layer add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.001z). Related substances—Proceed the test with 5 mL of Enflurane as directed under Gas chromatography <2.02> ac-cording to the following conditions. Determine each peak area other than the peak of air which appears soon after in-jection of the sample by the automatic integration method, and calculate the amount of each peak by the area percen-tage method: the amount of the substances other than enflu-rane is not more than 0.10z. Operating conditions— Detector: A thermal conductivity detector. Column: A column 3 mm in inside diameter and 3 m in length, packed with siliceous earth for gas chromatography, 180 to 250 mm in particle diameter, coated with diethylene glycol succinate ester for gas chromatography in the ratio of 20z. Column temperature: A constant temperature of about 809C. Carrier gas: Helium. Flow rate: Adjust so that the retention time of enflurane is about 3 minutes. Time span of measurement: About 3 times as long as the retention time of enflurane. System suitability— Test for required detectability: To exactly 1 mL of enflu-rane add 2-propanol to make exactly 100 mL. To exactly 2 mL of this solution add 2-propanol to make exactly 10 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add 2-propanol to make exactly 10 mL. Confirm that the peak area of enflurane obtained with 5 mL of this solu-tion is equivalent to 7 to 13z of that with 5 mL of the solu-tion for system suitability test. System performance: Mix 5 mL of Enflurane and 5 mL of 2-propanol. When the procedure is run with 5 mL of this mixture under the above operating conditions, enflurane and 2-propanol are eluted in this order with the resolution be-tween these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 5 mL of the solution for system suitability test under the above operating conditions, the relative standard deviation of the peak area of enflurane is not more than 2.0z. ‌928 ‌Nonvolatile residue—Evaporate exactly 65 mL of En-flurane on a water bath to dryness, and dry the residue at 1059C for 1 hour: the residue is not more than 1.0 mg. Water <2.48> Not more than 0.10z (10 g, volumetric titra-tion, direct titration)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

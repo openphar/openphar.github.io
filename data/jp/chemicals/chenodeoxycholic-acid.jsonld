@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chenodeoxycholic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chenodeoxycholic Acid",
+    "ja": "ケノデオキシコール酸"
+  },
+  "monographId": "JP18-chenodeoxycholic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H40O4",
+  "molecularWeight": 392.57,
+  "definition": {
+    "en": "Chenodeoxycholic Acid, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chenodeoxycholic Acid occurs as white, crys- (2), and the spot corresponding to the spot from the stand- ‌728‌ ard solution (3) is not more intense than the spot from the standard solution (3). As compared to the spots with the standard solutions A, B, C, D and E, the spots other than the principal spot and the spots mentioned above from the sample solution are not more intense than the spot from the standard solution E, and the total amount of them is not more than 1.5z. Loss on drying <2.41> Not more than 1.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Chenodeoxycholic Acid, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋11.0 – ＋13.09(after dry-ing, 0.4 g, ethanol (99.5), 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.36 g of Chenodeoxycholic Acid in 30 mL of methanol, add 10 mL of dilute nitric acid and water to make 50 mL, and perform the test with this solution. Prepare the control solution as follows: To 1.0 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of methanol, 10 mL of dilute nitric acid and water to make 50 mL (not more than 0.1z). Heavy metals <1.07>—Proceed with 1.0 g of Chenodeoxycholic Acid according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Barium—To 2.0 g of Chenodeoxycholic Acid add 100 mL of water, and boil for 2 minutes. To this solution add 2 mL of hydrochloric acid, boil for 2 minutes, filter after cooling, and wash the filter with water until to get 100 mL of the filtrate. To 10 mL of the filtrate add 1 mL of dilute sulfuric acid: no turbidity appears. Related substances—Dissolve 0.20 g of Chenodeoxy-cholic Acid in a mixture of acetone and water (9:1) to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of lithocholic acid for thin-layer chromatography in the mixture of acetone and water (9:1) to make exactly 10 mL. Pipet 2 mL of this solution, add the mixture of acetone and water (9:1) to make exactly 100 mL, and use this solution as the standard solution (1). Separately, dissolve 10 mg of ursodeoxycholic acid in the mixture of ace-tone and water (9:1) to make exactly 100 mL, and use this solution as the standard solution (2). Separately, dissolve 10 mg of cholic acid for thin-layer chromatography in the mix-ture of acetone and water (9:1) to make exactly 100 mL, and use this solution as the standard solution (3). Pipet 1 mL of the sample solution, and add the mixture of acetone and water (9:1) to make exactly 20 mL. Pipet 0.5 mL, 1 mL, 2 mL, 3 mL and 5 mL of this solution, add the mixture of ace-tone and water (9:1) to each of them to make exactly 50 mL, and designate these solutions as standard solution A, stand-ard solution B, standard solution C, standard solution D and standard solution E, respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution, standard solu- tions (1), (2), (3) and standard solutions A, B, C, D and E on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 4-methyl-2-pentanone, toluene and formic acid (16:6:1) to a distance of about 15 cm, air-dry the plate, and further dry at 1209C for 30 minutes. Im-mediately, spray evenly a solution of phosphomolybdic acid n-hydrate in ethanol (95) (1 in 5) on the plate, and heat the plate at 1209C for 2 to 3 minutes: the spot corresponding to the spot obtained from the standard solution (1) is not more intense than the spot from the standard solution (1), the spot chenodeoxycholic acid (C 24H40 O4). corresponding to the spot from the standard solution (2) is not more intense than the spot from the standard solution Description Chenodeoxycholic Acid occurs as white, crys- (2), and the spot corresponding to the spot from the stand- ‌728‌ ard solution (3) is not more intense than the spot from the standard solution (3). As compared to the spots with the standard solutions A, B, C, D and E, the spots other than the principal spot and the spots mentioned above from the sample solution are not more intense than the spot from the standard solution E, and the total amount of them is not more than 1.5z. Loss on drying <2.41> Not more than 1.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Chenodeoxycholic Acid, previously dried, dissolve in 40 mL of ethanol (95) and 20 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 39.26 mg of C24H40O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/buformin-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Buformin Hydrochloride Tablets",
+    "ja": "ブホルミン塩酸塩錠"
+  },
+  "monographId": "JP18-buformin-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Buformin Hydrochloride Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of buformin hydrochloride (C6H15N5.HCl: 193.68). Method of preparation Prepare as directed under Tablets, with Buformin Hydrochloride. Identification To a quantity of powdered Buformin Hy-drochloride Tablets, equivalent to 1 g of Buformin Hydro- chloride, add 100 mL of water, shake well, and then filter. To 4 mL of the filtrate add 1 mL of dilute sodium penta-cyanonitrosylferrate (III)-potassium hexacyanoferrate (III) TS: the solution exhibits a red-brown color. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Take 1 tablet of Buformin Hydrochloride Tablets, add water to make exactly 200 mL, and then treat with ultrasonic waves for 5 minutes. Take 40 mL of this solution and centri-fuge. Pipet V mL of the supernatant liquid equivalent to about 0.5 mg of buformin hydrochloride (C6H15N5.HCl), add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of buformin hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 200 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 233 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of buformin hydrochloride (C6H15N5.HCl) ＝ MS × AT/AS × 2/V MS: Amount (mg) of buformin hydrochloride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Buformin Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Buformin Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Dis-card not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, and add water to make exactly V? mL so that each mL contains about 5."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Buformin Hy-drochloride Tablets, equivalent to 1 g of Buformin Hydro- chloride, add 100 mL of water, shake well, and then filter. To 4 mL of the filtrate add 1 mL of dilute sodium penta-cyanonitrosylferrate (III)-potassium hexacyanoferrate (III) TS: the solution exhibits a red-brown color. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. Take 1 tablet of Buformin Hydrochloride Tablets, add water to make exactly 200 mL, and then treat with ultrasonic waves for 5 minutes. Take 40 mL of this solution and centri-fuge. Pipet V mL of the supernatant liquid equivalent to about 0.5 mg of buformin hydrochloride (C6H15N5.HCl), add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of buformin hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 200 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 233 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of buformin hydrochloride (C6H15N5.HCl) ＝ MS × AT/AS × 2/V MS: Amount (mg) of buformin hydrochloride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Buformin Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Buformin Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Dis-card not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, and add water to make exactly V? mL so that each mL contains about 5.6 mg of buformin hy-drochloride (C6H15N5.HCl), and use this solution as the sam-ple solution. Separately, weigh accurately about 28 mg of buformin hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 233 nm. Dissolution rate (z) with respect to the labeled amount of buformin hydrochloride (C6H15N5.HCl) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of buformin hydrochloride for assay taken C: Labeled amount (mg) of buformin hydrochloride (C6H15N5.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Buformin Hydro-chloride Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 60 mg of buformin hydro-chloride (C6H15N5.HCl), add water to make exactly 200 mL, and treat with ultrasonic waves for 5 minutes. Take 40 mL of this solution, centrifuge, pipet 2 mL of the supernatant liquid, add water to make exactly 100 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 60 mg of buformin hydrochloride for assay, previ-ously dried at 1059C for 3 hours, and dissolve in water to ‌576 make exactly 200 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and determine the absorbances, AT and AS, at 233 nm. mix them, and add diluted hydrochloric acid (1 in 40) to make exactly 100 mL. (2) Chloride <1.03>—Mix well 0.5 g of Bumetanide with 0.7 g of potassium nitrate and 1.2 g of anhydrous sodium carbonate, transfer, in small portions, to a red-hot platinum crucible, and heat to red-hot until the reaction is complete. Amount (mg) of buformin hydrochloride (C H N .HCl) After cooling, to the residue add 14 mL of dilute sulfuric ＝ MS × AT/AS 6 15 5 acid and 6 mL of water, boil for 5 minutes, filter, wash the residue with 10 mL of water, combine the filtrate and the MS: Amount (mg) of buformin hydrochloride for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

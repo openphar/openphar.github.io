@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cyclophosphamide-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cyclophosphamide Hydrate",
+    "ja": "シクロホスファミド水和物"
+  },
+  "monographId": "JP18-cyclophosphamide-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H15Cl2N2O2P.H2O",
+  "molecularWeight": 279.1,
+  "definition": {
+    "en": "Cyclophosphamide Hydrate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Cyclophosphamide Hydrate occurs as white, crystals or crystalline powder. It is odorless. It is very soluble in acetic acid (100), freely soluble in ethanol (95), in acetic anhydride and in chloroform, and soluble in water and in diethyl ether. Melting point: 45 – 539C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Cyclophosphamide Hydrate in 10 mL of water, and add 5 mL of silver nitrate TS: no precipitate is produced. Then boil this solution: a white precipitate is produced. Collect the precipitate, and add dilute nitric acid to a portion of this precipitate: it does not dissolve. Add excess ammonia TS to another portion of the precipitate: it dissolves. (2) Add 1 mL of diluted sulfuric acid (1 in 25) to 0.02 g of Cyclophosphamide Hydrate, and heat until white fumes are evolved. After cooling, add 5 mL of water, and shake. Neutralize with ammonia TS, then acidify with dilute nitric acid: this solution responds to Qualitative Tests <1.09> (2) for phosphate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Cyclophosphamide Hydrate in 10 mL of water: the solu-tion is clear and colorless. Chloride <1.03>—Perform the test with 0.40 g of Cy- clophosphamide Hydrate at a temperature not exceeding 209C. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.036z). Heavy metals <1.07>—Proceed with 1.0 g of Cy- clophosphamide Hydrate according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Water <2.48> 5.5 – 7.0z (0.5 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Cyclophosphamide Hydrate, add 15 mL of hydrogen chloride-ethanol TS, and heat in a water bath under a reflux condenser for 3.5 hours while protecting from moisture. Distil the ethanol under reduced pressure. Dissolve the residue in 40 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid-dioxane VS (indicator: 2 drops of crystal violet TS) until the color of the solution changes from blue through green to yellow. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid-dioxane VS ＝ 13.96 mg of C7H15Cl2N2O2P.H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

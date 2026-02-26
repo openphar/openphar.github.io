@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aminophylline-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aminophylline Hydrate",
+    "ja": "アミノフィリン水和物"
+  },
+  "monographId": "JP18-aminophylline-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Aminophylline Hydrate occurs as white to pale yellow, granules or powder. It is odorless or slightly ammo-nia-like odor, and has a bitter taste. It is soluble in water, slightly soluble in methanol, and practically insoluble in ethanol (95) and in diethyl ether. To 1 g of Aminophylline Hydrate add 5 mL of water, and shake: it dissolves almost completely. Separation of crystals begins in 2 to 3 minutes, and these crystals dissolve on the addition of a small amount of ethylenediamine. It is gradually affected by light, and gradually loses ethyl-enediamine in air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.75 g of Aminophylline Hy-drate in 30 mL of water, and use this solution as the sample solution. To 20 mL of the sample solution add 1 mL of dilute hydrochloric acid: a precipitate is gradually formed. Filter the precipitate, recrystallize from water, and dry at 1059C for 1 hour: the crystals so obtained melt <2.60> between 2719C and 2759C. Dissolve 0.1 g of the crystals obtained in (1) in 50 mL of water, and to 2 mL of this solution add tannic acid TS dropwise: a white precipitate is produced, and this precipi-tate dissolves upon dropwise addition of tannic acid TS. To 0.01 g of the crystals obtained in (1) add 10 drops of hydrogen peroxide TS and 1 drop of hydrochloric acid, and evaporate on a water bath to dryness: the residue shows a yellow-red color. Invert the dish containing the residue over a vessel containing 2 to 3 drops of ammonia TS: the color of the residue changes to red-purple, which is des-troyed on the addition of 2 to 3 drops of sodium hydroxide TS. Dissolve 0.01 g of the crystals obtained in (1) in 5 mL of water, add 3 mL of ammonia-ammonium chloride buffer solution (pH 8.0) and 1 mL of copper (II) sulfate-pyridine TS, and mix. Add 5 mL of chloroform to the mixture, and shake: the chloroform layer develops a green color. To 5 mL of the sample solution obtained in (1) add 2 drops of copper (II) sulfate TS: a purple color develops. Add Amount [mg (potency)] of amikacin (C ＝ MS × HT/HS 22H43N5O13) 1 mL of copper (II) sulfate TS: the color changes to blue, and green precipitates are formed on standing. MS: Amount [mg (potency)] of Amikacin Sulfate RS taken pH <2.54> Dissolve 1.0 g of Aminophylline Hydrate in 25 mL of water: the pH of the solution is between 8.0 and 9.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g ‌JP XVIII Official Monographs / Aminophylline Injection 449 of Aminophylline Hydrate in 10 mL of hot water: the solu-tion is clear and colorless to pale yellow. (2) Heavy metals <1.07>—Proceed with 1.0 g of Aminophylline Hydrate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Water <2.48> Not more than 7.9z (0.3 g, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Theophylline—Weigh accurately about 0.25 g of Aminophylline Hydrate, and dissolve in 50 mL of water and 8 mL of ammonia TS by gentle warming on a water bath. Add exactly 20 mL of 0.1 mol/L silver nitrate VS, warm on a water bath for 15 minutes, allow to stand be-tween 59C and 109C for 20 minutes, collect the precipitate by suction, and wash with three 10-mL portions of water. Combine the filtrate and washings, and add dilute nitric acid to make neutral. Add 3 mL of dilute nitric acid, and titrate <2.50> the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L silver nitrate VS ＝ 18.02 mg of C7H8N4O2 (2) Ethylenediamine—Weigh accurately about 0.5 g of Aminophylline Hydrate, dissolve in 30 mL of water, and titrate <2.50> with 0.1 mol/L hydrochloric acid VS (indica-tor: 3 drops of bromophenol blue TS). Each mL of 0.1 mol/L hydrochloric acid VS ＝ 3.005 mg of C2H8N2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

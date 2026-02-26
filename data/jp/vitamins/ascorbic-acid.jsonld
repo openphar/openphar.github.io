@@ -1,0 +1,235 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/ascorbic-acid",
+  "@type": "VitaminMonograph",
+
+  "prefLabel": {
+    "en": "Ascorbic Acid",
+    "ja": "アスコルビン酸"
+  },
+
+  "altLabel": [
+    { "@value": "Vitamin C", "@language": "en" },
+    { "@value": "L-Ascorbic Acid", "@language": "en" },
+    { "@value": "ビタミンC", "@language": "ja" }
+  ],
+
+  "monographId": "JP18-0103",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Ascorbic Acid, when dried, contains not less than 99.0% of C6H8O6."
+  },
+
+  "molecularFormula": "C6H8O6",
+  "molecularWeight": 176.12,
+  "casNumber": "50-81-7",
+
+  "systematicName": {
+    "en": "(5R)-[(1S)-1,2-Dihydroxyethyl]-3,4-dihydroxyfuran-2(5H)-one"
+  },
+
+  "inchi": "InChI=1S/C6H8O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-10H,1H2/t2-,5+/m0/s1",
+  "inchiKey": "CIWBSHSKHKDKBQ-JLAZSCKPSA-N",
+  "smiles": "C(C(C1C(=C(C(=O)O1)O)O)O)O",
+
+  "vitaminType": "VitaminC",
+
+  "biologicalActivity": {
+    "en": "50 mg ascorbic acid"
+  },
+
+  "appearance": {
+    "en": "White crystals or crystalline powder, odorless, having an acid taste"
+  },
+
+  "solubility": {
+    "en": "Freely soluble in water, sparingly soluble in ethanol (95), slightly soluble in glycerin, and practically insoluble in diethyl ether."
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - Chemical"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 5 mL of a solution of Ascorbic Acid (1 in 50) add 1 drop of potassium permanganate TS: the color of the TS disappears immediately."
+      }
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification B - Chemical"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 mL of a solution of Ascorbic Acid (1 in 100) add 2 mL of sodium carbonate TS and 0.5 mL of sodium nitroferricyanide TS, then add 0.5 mL of sodium hydroxide TS: a blue color is produced."
+      }
+    },
+    {
+      "@type": "MeltingPointSpecification",
+      "testName": {
+        "en": "Melting Point"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "MeltingPoint",
+      "meltingPointRange": "187-192",
+      "temperatureUnit": "Celsius"
+    },
+    {
+      "@type": "SpecificRotationSpecification",
+      "testName": {
+        "en": "Specific Rotation"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "OpticalRotation",
+      "rotationRange": "+20.5 to +21.5",
+      "measurementConditions": {
+        "en": "Weigh accurately about 2.5 g of Ascorbic Acid, dissolve in water to make exactly 25 mL, and determine the optical rotation at 20°C in a 100-mm cell: [α]D20 = +20.5 to +21.5°"
+      }
+    },
+    {
+      "@type": "PHSpecification",
+      "testName": {
+        "en": "pH"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "pH",
+      "phRange": "2.2-2.5",
+      "solutionConditions": {
+        "en": "The pH of a solution (1 in 50)"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Clarity and Color of Solution"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Dissolve 1.0 g of Ascorbic Acid in 10 mL of water: the solution is clear and colorless."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method2",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "testConditions": {
+        "en": "Proceed according to Method 2 using 2.0 g of Ascorbic Acid. Prepare the control solution with 2.0 mL of Standard Lead Solution."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 10,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic-Method1",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "testConditions": {
+        "en": "Prepare the test solution with 1.0 g of Ascorbic Acid according to Method 1, and perform the test."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 4,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Oxalic Acid"
+      },
+      "testType": "TestType-Purity",
+      "impurityType": {
+        "en": "Oxalic Acid"
+      },
+      "testConditions": {
+        "en": "Dissolve 0.25 g of Ascorbic Acid in 5 mL of water, add 0.2 mL of dilute acetic acid and 0.5 mL of calcium chloride TS, and allow to stand for 1 minute: the solution is clear."
+      }
+    },
+    {
+      "@type": "LossOnDryingSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "dryingConditions": {
+        "en": "Dry in a desiccator (silica gel) for 3 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.4,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "ResidueOnIgnitionSpecification",
+      "testName": {
+        "en": "Residue on Ignition"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "ResidueOnIgnition",
+      "ignitionConditions": {
+        "en": "Proceed as directed under Residue on Ignition Test"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.1,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "Titrimetric-Iodine",
+      "assayTarget": {
+        "en": "Ascorbic Acid (C6H8O6)"
+      },
+      "assayExpression": "on dried basis",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Ascorbic Acid, previously dried, dissolve in 50 mL of freshly boiled and cooled water, add 2 mL of dilute sulfuric acid and 2 mL of starch TS, and titrate with 0.05 mol/L iodine VS until the color of the solution becomes pale blue and persists for 30 seconds. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L iodine VS = 4.403 mg of C6H8O6."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 99.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed containers"
+  },
+  "storageConditions": {
+    "en": "Store in a cool, dark place, protected from light and moisture"
+  }
+}

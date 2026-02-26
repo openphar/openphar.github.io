@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/magnesium-aluminosilicate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Magnesium Aluminosilicate",
+    "ja": "ケイ酸アルミン酸マグネシウム"
+  },
+  "monographId": "JP18-magnesium-aluminosilicate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Magnesium Aluminosilicate contains not less than 27."
+  },
+  "appearance": {
+    "en": "Magnesium Aluminosilicate occurs as a white, powder or grain. It is practically insoluble in water and in ethanol (99.5). When heat 1 g of Magnesium Aluminosilicate with 10 mL of dilute hydrochloric acid, most of it dissolves."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of Magnesium Aluminosilicate add 5 mL of diluted sulfuric acid (1 in 3), heat until white fumes are evolved, cool, add 20 mL of water, and filtrate. Neutralize the filtrate with ammonia TS, and filter the pre-cipitate produced. Dissolve the residue in dilute hydrochloric acid: the solution responds to Qualitative Tests <1.09> for aluminum salt. The filtrate obtained in (1) responds to Qualitative Tests <1.09> (2) for magnesium salt. Wash the residue obtained in (1) with 30 mL of water, add 2 mL of a solution of methylene blue trihydrate (1 in 10,000), and wash with 30 mL of water: the precipitate has a blue color."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Soluble salts—To 10.0 g of Magnesium Aluminosilicate add 150 mL of water, boil gently for 15 minutes while shaking thoroughly. After cooling, add water to make 150 mL, and centrifuge. To 75 mL of the superna-tant liquid add water to make 100 mL, and use this solution as the sample solution. Evaporate 25 mL of the sample solu-tion on a water bath to dryness, then ignite the residue at 7009C for 2 hours: the mass of the residue is not more than 20 mg. Alkalinity—To 20 mL of the sample solution ob-tained in (1), add 2 drops of phenolphthalein TS, and add 0.1 mol/L hydrochloric acid VS until the solution becomes colorless: the consumed volume is not more than 0.50 mL. Chloride <1.03>—To 10 mL of the sample solution obtained in (1), add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.75 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.053z). Sulfate <1.14>—To 2 mL of the sample solution ob- tained in (1), add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.480z). Heavy metals <1.07>—To 2.67 g of Magnesium Aluminosilicate add 20 mL of water and 8 mL of hydrochlo-ric acid, evaporate to dryness on a water bath. To the residue add 5 mL of dilute acetic acid and 20 mL of water, boil for 2 minutes, add 0.4 g of hydroxylammonium chloride, and heat to boiling. After cooling, add water to make exactly 100 mL, and filter. Pipet 25 mL of the filtrate, adjust to pH 3.0 with dilute acetic acid or ammonia TS, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: evaporate 2 mL of hydrochloric acid to dryness on a water bath, add 2.0 mL of Standard Lead Solution, 0.1 g of hydroxylammonium chlo-ride and water to make 25 mL, adjust to pH 3.0 with dilute acetic acid or ammonia TS, and add water to make 50 mL (not more than 30 ppm). Iron—To 0.11 g of Magnesium Aluminosilicate add 8 mL of 2 mol/L nitric acid TS, boil for 1 minute, cool, add water to make exactly 100 mL, and centrifuge. Pipet 30 mL of the supernatant liquid, add water to make 45 mL, add 2 mL of hydrochloric acid, and shake. Add 50 mg of ammo-nium peroxodisulfate and 3 mL of a solution of ammonium thiocyanate (3 in 10), and shake: the solution is not more colored than the following control solution (not more than 0.03z). Control solution: Pipet 1 mL of Standard Iron Solution, add water to make 45 mL, add 2 mL of hydrochloric acid, shake, and proceed in the same manner. Arsenic <1.11>—To 1.0 g of Magnesium Aluminosili- cate add 10 mL of water and 1 mL of sulfuric acid, and shake thoroughly. After cooling, perform the test using this solution as the test solution (not more than 2 ppm). Loss on drying <2.41> Not more than 20.0z (1 g, 1109C, 7 hours). Acid-consuming capacity <6.04> Weigh accurately about 0.2 g of Magnesium Aluminosilicate, transfer to a glass-stoppered flask, add exactly 100 mL of 0.1 mol/L hydro-chloric acid VS, stopper the flask tightly, shake at 37 ± 29C for 1 hour, and filter. Pipet 50 mL of the filtrate, and titrate <2.50> the excess hydrochloric acid, while stirring thor- oughly, with 0.1 mol/L sodium hydroxide VS until the pH of the solution becomes 3.5. Perform a blank determination in the same manner. The consumed volume of 0.1 mol/L hy-drochloric acid VS is not less than 250 mL per g of Magnesi-um Aluminosilicate calculated on the dried basis."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Aluminum oxide—Weigh accurately about 1.25 g of Magnesium Aluminosilicate, transfer to a conical flask, add 10 mL of 3 mol/L hydrochloric acid TS and 50 mL of water, and heat on a water bath for 15 minutes. To the solu-tion add 8 mL of hydrochloric acid, heat on a water bath for 10 minutes. After cooling, transfer to a 250-mL volumetric flask, rinse the flask with water, and add water to make 250 mL. Centrifuge the solution, and use the supernatant liquid as the sample solution. Pipet 20 mL of the sample solution, add exactly 20 mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS. To this solution add 15 mL of acetic acid–ammonium acetate buffer solution (pH 4.8) and 20 mL of water, and boil for 5 minutes. After cooling, add 50 mL of ethanol (95), and titrate <2.50> with 0.05 mol/L zinc sulfate VS until the color of the solution changes from light dark green to light red (indicator: 2 mL of dithi-zone TS). Perform a blank determination in the same man-ner. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.549 mg of Al2O3 ‌Magnesium oxide—Pipet 50 mL of the sample solu-tion obtained in (1), add 50 mL of water and 25 mL of a so-lution of 2,2?,2!-nitrilotriethanol (1 in 2), shake thoroughly, then add 25 mL of ammonia-ammonium chloride buffer so-lution (pH 10.7), and titrate <2.50> with 0.05 mol/L disodi-um dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue lasting for 30 seconds (indicator: 40 mg of eriochrome black T-sodi-um chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.015 mg of MgO Silicon dioxide—Weigh accurately about 1 g of Mag-nesium Aluminosilicate, add 30 mL of dilute hydrochloric acid, and evaporate to dryness on a water bath. Moisten the residue with hydrochloric acid, evaporate to dryness on a water bath. To the residue add 8 mL of hydrochloric acid, stir, then add 25 mL of hot water, and stir again. After allowing to stand, filter the supernatant liquid through a filter paper for quantitative analysis, add 10 mL of hot water to the residue, stir, and decant the supernatant liquid on a filter paper to filter. Then wash the residue with three 10-mL portions of hot water, add 50 mL of water to the residue, and heat on a water bath for 15 minutes. Transfer the residue onto the filter paper, wash the residue with hot water until the last 5 mL of washing yields no precipitate on addi-tion of 1 mL of silver nitrate TS, place the residue and the filter paper in a platinum crucible, ignite to ash, and then ignite at 800 ± 259C for 1 hour. After cooling, weigh the crucible, and designate the mass as a (g). Then add 6 mL of hydrofluoric acid, evaporate to dryness, ignite for 5 minutes, weigh the crucible after cooling, and designate the mass as b (g). Amount (g) of silicon dioxide (SiO2) ＝ a – b"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

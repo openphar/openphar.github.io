@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/precipitated-calcium-carbonate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Precipitated Calcium Carbonate",
+    "ja": "沈降炭酸カルシウム"
+  },
+  "monographId": "JP18-precipitated-calcium-carbonate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Precipitated Calcium Carbonate occurs as a white, fine crystalline powder. It is odorless and tasteless. It is practically insoluble in water, but its solubility in water is increased in the presence of carbon dioxide. It is practically insoluble in ethanol (95) and in diethyl ether. It dissolves with effervescence in dilute acetic acid, in dilute hydrochloric acid and in dilute nitric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of Precipitated Calcium Carbonate in 10 mL of dilute hydrochloric acid, boil, then cool, and neutralize with ammonia TS: the solution responds to Qualitative Tests <1.09> for calcium salt. (2) Precipitated Calcium Carbonate responds to Qualita-tive Tests <1.09> (1) for carbonate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid-insoluble substances—To 5.0 g of Precipitated Calcium Carbonate add 50 mL of water, then add 20 mL of hydrochloric acid dropwise with stirring, boil for 5 minutes, cool, add water to make 200 mL, and filter through filter paper for quantitative analysis. Wash the residue until the last washing shows no turbidity with silver nitrate TS, and ignite the residue together with the filter paper: the mass of the residue is not more than 10.0 mg. Heavy metals <1.07>—Mix 2.0 g of Precipitated Cal- cium Carbonate with 5 mL of water, add slowly 6 mL of dilute hydrochloric acid, and evaporate on a water bath to dryness. Dissolve the residue in 50 mL of water, and filter. To 25 mL of the filtrate add 2 mL of dilute acetic acid, 1 drop of ammonia TS and water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: evaporate 3 mL of hydro-chloric acid on a water bath to dryness, and add 2.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Barium—Mix 1.0 g of Precipitated Calcium Car-bonate with 10 mL of water, add dropwise 4 mL of hydro-chloric acid with stirring, boil for 5 minutes, cool, add water to make 40 mL, and filter. With the filtrate, perform the test tion, and perform the test (not more than 5 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, 1809C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.12 g of Precipitated Cal-cium Carbonate, previously dried, and dissolve in 20 mL of water and 3 mL of dilute hydrochloric acid. Add 80 mL of water, 15 mL of a solution of potassium hydroxide (1 in 10) and 0.05 g of NN indicator, and titrate <2.50> immediately with 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 5.005 mg of CaCO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

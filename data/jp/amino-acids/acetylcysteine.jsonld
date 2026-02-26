@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/acetylcysteine",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "Acetylcysteine",
+    "ja": "アセチルシステイン"
+  },
+  "monographId": "JP18-acetylcysteine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H9NO3S",
+  "molecularWeight": 163.19,
+  "definition": {
+    "en": "Acetylcysteine contains not less than 99."
+  },
+  "appearance": {
+    "en": "Acetylcysteine occurs as white, crystals or crys-talline powder. It is freely soluble in water and in ethanol (99.5). It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Acetylcysteine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋21.0 – ＋27.09Weigh accu-rately an amount of Acetylcysteine, equivalent to about 2.5 g calculated on the dried basis, and dissolve with 2 mL of a so-lution of disodium dihydrogen ethylenediamine tetraacetate dihydrate (1 in 100) and 15 mL of a solution of sodium hy-droxide (1 in 25). To this solution add a solution, prepared by adjusting the pH to 7.0 of 500 mL of a solution of potas-sium dihydrogen phosphate (17 in 125) with sodium hydrox-ide TS and adding water to make 1000 mL, to make exactly 50 mL. Determine the optical rotation of this solution using ‌JP XVIII Official Monographs / Aciclovir 407 a 100-mm cell."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.40 g of Acetyl-cysteine in 25 mL of sodium hydroxide TS, add 4 mL of hydrogen peroxide (30), heat in a water bath for 45 minutes, and cool. Then add 5 mL of nitric acid, add water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 0.45 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.040z). Sulfate <1.14>—Perform the test with 0.8 g of Acetyl- cysteine. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.030z). Ammonium <1.02>—Perform the test with 0.10 g of Acetylcysteine, using the distillation under reduced pressure. Prepare the control solution with 2.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Dissolve 1.0 g of Acetyl- cysteine in 40 mL of water, add 3 mL of sodium hydroxide TS, 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution as follows: To 1.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of Acetylcysteine according to Method 1, and perform the test according to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Dissolve 50 mg of Acetyl-cysteine in 25 mL of the mobile phase, and use this solution as the sample solution. The sample solution is prepared before using. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the area of the peak other than acetylcysteine is not more than 0.3z, and the total area of the peak other than acetylcysteine is not more than 0.6z. Operating conditions— Detector: An ultraviolet absorption photometer (wave- the symmetry factor of the peak of acetylcysteine are not less than 15,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of acetylcysteine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.3z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Acetylcysteine, place it in a stoppered flask, dissolve in 20 mL of water, add 4 g of potassium iodide and 5 mL of dilute hydrochloric acid, then add exactly 25 mL of 0.05 mol/L iodine VS, stop-per tightly, allow to stand for 20 minutes in an ice cold water in the dark, and titrate <2.50> the excess of iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 16.32 mg of C5H9NO3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lauromacrogol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lauromacrogol",
+    "ja": "ラウロマクロゴール"
+  },
+  "monographId": "JP18-lauromacrogol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Lauromacrogol is a colorless or light yellow, clear liquid or a white, petrolatum-like or waxy solid. It has a characteristic odor, and a somewhat bitter and slightly irritative taste. It is very soluble in ethanol (95) and in diethyl ether. It is freely soluble or dispersed as fine oily drops in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake throughly 0.5 g of Lauromacrogol with 10 mL of water and 5 mL of ammo-nium thiocyanate-cobalt nitrate TS, then shake with 5 mL of 1-butanol, and allow to stand: the 1-butanol layer becomes blue in color. (2) Warm Lauromacrogol to melt, if necessary, and de-termine the infrared absorption spectrum as directed in the liquid film method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of be-tween 3500 cm－1 and 3400 cm－1, and about 2920 cm－1, 1350 cm－1, 1250 cm－1, and 1115 cm－1."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Transfer 10.0 g of Lauromacrogol into a flask, and add 50 mL of neutralized ethanol. Heat on a water bath nearly to boil, shaking once or twice while heat-ing. Cool, and add 5.3 mL of 0.1 mol/L sodium hydroxide VS and 5 drops of phenolphthalein TS: a red color develops. (2) Unsaturated compound—Shake 0.5 g of Lauro-macrogol with 10 mL of water, and add 5 drops of bromine TS: the color of the solution does not disappear. Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

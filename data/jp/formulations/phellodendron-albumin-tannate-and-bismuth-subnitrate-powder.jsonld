@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/phellodendron-albumin-tannate-and-bismuth-subnitrate-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Phellodendron, Albumin Tannate and Bismuth Subnitrate Powder",
+    "ja": "オウバク・タンナルビン・ビスマス散"
+  },
+  "monographId": "JP18-phellodendron-albumin-tannate-and-bismuth-subnitrate-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Phellodendron, Albumin Tannate and Bis-muth Subnitrate Powder is brownish yellow in color, and has a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake thoroughly 0.1 g of Phelloden- ‌JP XVIII Crude Drugs and Related Drugs / Powdered Picrasma Wood 2099‌ dron, Albumin Tannate and Bismuth Subnitrate Powder with 5 mL of methanol, filter, and use the filtrate as the sam-ple solution. Separately, dissolve 1 mg of Berberine Chloride RS or berberine chloride hydrate for thin-layer chromatogra-phy in 1 mL of methanol, and use this solution as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 10 cm, air-dry the plate. Exa-mine under ultraviolet light (main wavelength: 365 nm): one spot of the several spots obtained from the sample solution and a spot with yellow to yellow-green fluorescence from the standard solution show the same color tone and the same Rf value (phellodendron bark). To 0.3 g of Phellodendron, Albumin Tannate and Bismuth Subnitrate Powder add 20 mL of ethanol (95), heat in a water bath for 3 minutes with shaking, cool, and filter. To 10 mL of the filtrate add 1 drop of iron (III) chloride TS: a blue-green color is produced. Allow to stand: a bluish black precipitate is produced (albumin tannate). To 0.3 g of Phellodendron, Albumin Tannate and Bismuth Subnitrate Powder add 10 mL of diluted pyridine (1 in 5), warm in a water bath for 3 minutes with shaking, cool, and filter. Add 1 mL of ninhydrin-ascorbic acid TS to the filtrate, and heat in a water bath: a blue color is produced (albumin tannate). To 0.5 g of Phellodendron, Albumin Tannate and Bismuth Subnitrate Powder add 5 mL of dilute hydrochloric acid and 10 mL of water, warm, shake thoroughly, and filter. The filtrate responds to the Qualitative Tests <1.09> for bismuth salt."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Phellodendron, Al-bumin Tannate and Bismuth Subnitrate Powder, shake well with 10 mL of water and 20 mL of diluted nitric acid (1 in 3), add water to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet the subsequent 10 mL of the filtrate, and add water to make exactly 100 mL. Pipet 25 mL of this solution, add diluted nitric acid (1 in 100) to make ex-actly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.23 g of bismuth nitrate pentahydrate, add 20 mL of diluted nitric acid (1 in 3) and water to make exactly 100 mL. Pipet 10 mL of this solution, and add water to make exactly 100 mL. Pipet 25 mL of this solution, add diluted nitric acid (1 in 100) to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution as directed under Atomic Absorption Spectrophotometry <2.23> according to the following condi-tions. On the other hand, determine the absorbance A0 of the solution prepared in the same manner using 20 mL of diluted nitric acid (1 in 3) instead of the standard solution. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: A bismuth hollow-cathode lamp. Wavelength: 223.1 nm. Amount (mg) of bismuth (Bi) ＝ M × (AT － A0)/(AS － A0) × 0.431 M: Amount (mg) of bismuth nitrate pentahydrate taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Powder"
+}

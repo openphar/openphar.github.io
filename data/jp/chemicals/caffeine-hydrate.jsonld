@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/caffeine-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Caffeine Hydrate",
+    "ja": "カフェイン水和物"
+  },
+  "monographId": "JP18-caffeine-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H10N4O2.H2O",
+  "molecularWeight": 212.21,
+  "casNumber": "5743-12-4",
+  "definition": {
+    "en": "Caffeine Hydrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Caffeine Hydrate occurs as white, soft crystals or powder. It is odorless, and has a slightly bitter taste. It is freely soluble in chloroform, sparingly soluble in water, in acetic acid (100) and in acetic anhydride, slightly soluble in ethanol (95), and very slightly soluble in diethyl ether. The pH of a solution of 1.0 g of Caffeine Hydrate in 100 mL of water is between 5.5 and 6.5. It effloresces in dry air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Caffeine Hy-drate (1 in 500) add tannic acid TS dropwise: a white precipi-tate, which dissolves upon the dropwise addition of tannic acid TS, is produced. To 0.01 g of Caffeine Hydrate add 10 drops of hydrogen peroxide TS and 1 drop of hydrochloric acid, and evaporate to dryness on a water bath: the residue acquires a yellow-red color. Invert the residue over a vessel containing 2 to 3 drops of ammonia TS: the color turns red-purple, and disappears upon the addition of 2 to 3 drops of sodium hy-droxide TS. Dissolve 0.01 g of Caffeine Hydrate in water to make 50 mL. To 5 mL of this solution add 3 mL of diluted acetic acid (31) (3 in 100) and 5 mL of a solution of pyridine (1 in 10), mix, add 2 mL of diluted sodium hypochlorite TS (1 in 5), and allow to stand for 1 minute. Add 2 mL of sodium thiosulfate TS and 5 mL of sodium hydroxide TS to the solu-tion: a yellow color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 2.0 g of Caffeine Hydrate in 80 mL of hot water, cool rapidly to 209C, add water to make 100 mL, and use this solution as the sample solution. To 40 mL of the sample solution add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.25 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.011z). Sulfate <1.14>—To 40 mL of the sample solution ob- tained in (1) add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Heavy metals <1.07>—Proceed with 2.0 g of Caffeine Hydrate according to Method 2, and perform the test. Pre- ‌590 pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Caffeine Hy-drate in 10 mL of chloroform, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add chloroform to make exactly 100 mL. Pipet 1 mL of this solu-tion, add chloroform to make exactly 10 mL, and use this solution as the standard solution. Perform the test as di-rected under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chroma-tography. Develop the plate with a mixture of chloroform and ethanol (95) (9:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wave-length: 254 nm): the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Readily carbonizable substances <1.15>—Perform the test using 0.5 g of Caffeine Hydrate: the solution is not more colored than Matching Fluid D. Loss on drying <2.41> 0.5 – 8.5z (1 g, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Caffeine Hydrate, previously dried, dissolve in 70 mL of a mixture of acetic an-hydride and acetic acid (100) (6:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the solution changes from purple through green to yellow (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.42 mg of C8H10N4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

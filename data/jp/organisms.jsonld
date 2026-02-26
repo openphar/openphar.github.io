@@ -1,0 +1,1937 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/organisms/",
+    "op": "https://www.openphar.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/achyranthes-bidentata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Achyranthes bidentata",
+      "scientificName": "Achyranthes bidentata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/akebia-quinata-decaisne-or-akebia-trifoliata-koidzumi",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Akebia quinata Decaisne or Akebia trifoliata Koidzumi",
+      "scientificName": "Akebia quinata Decaisne or Akebia trifoliata Koidzumi",
+      "family": "Lardizabalaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/akebia-quinata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Akebia quinata",
+      "scientificName": "Akebia quinata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alisma-orientale-juzepczuk",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alisma orientale Juzepczuk",
+      "scientificName": "Alisma orientale Juzepczuk",
+      "family": "Alismataceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alisma-orientale",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alisma orientale",
+      "scientificName": "Alisma orientale"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/aloe-ferox",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Aloe ferox",
+      "scientificName": "Aloe ferox"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alpinia-officinarum-hance",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alpinia officinarum Hance",
+      "scientificName": "Alpinia officinarum Hance",
+      "family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alpinia-officinarum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alpinia officinarum",
+      "scientificName": "Alpinia officinarum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/amomum-villosum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Amomum villosum",
+      "scientificName": "Amomum villosum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/anemarrhena-asphodeloides-bunge",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Anemarrhena asphodeloides Bunge",
+      "scientificName": "Anemarrhena asphodeloides Bunge",
+      "family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/anemarrhena-asphodeloides",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Anemarrhena asphodeloides",
+      "scientificName": "Anemarrhena asphodeloides"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/angelica-dahurica-bentham-et-hooker-filius-ex-franchet-et-savatier",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Angelica dahurica Bentham et Hooker filius ex Franchet et Savatier",
+      "scientificName": "Angelica dahurica Bentham et Hooker filius ex Franchet et Savatier",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/angelica-dahurica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Angelica dahurica",
+      "scientificName": "Angelica dahurica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunus-armeniaca",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunus armeniaca",
+      "scientificName": "Prunus armeniaca"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/aralia-cordata-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Aralia cordata Thunberg",
+      "scientificName": "Aralia cordata Thunberg",
+      "family": "Araliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/aralia-cordata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Aralia cordata",
+      "scientificName": "Aralia cordata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/areca-catechu",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Areca catechu",
+      "scientificName": "Areca catechu"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/artemisia-capillaris-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Artemisia capillaris Thunberg",
+      "scientificName": "Artemisia capillaris Thunberg",
+      "family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/artemisia-capillaris",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Artemisia capillaris",
+      "scientificName": "Artemisia capillaris"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/artemisia-princeps-pampanini-or-artemisia-montana-pampanini",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Artemisia princeps Pampanini or Artemisia montana Pampanini",
+      "scientificName": "Artemisia princeps Pampanini or Artemisia montana Pampanini",
+      "family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/artemisia-princeps",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Artemisia princeps",
+      "scientificName": "Artemisia princeps"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/asiasarum-heterotropoides-f-maekawa-var-mandshuricum-f-maekawa-or-asiasarum-sieboldii-f-maekawa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Asiasarum heterotropoides F. Maekawa var. mandshuricum F. Maekawa or Asiasarum sieboldii F. Maekawa",
+      "scientificName": "Asiasarum heterotropoides F. Maekawa var. mandshuricum F. Maekawa or Asiasarum sieboldii F. Maekawa",
+      "family": "Aristolochiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/asiasarum-heterotropoides",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Asiasarum heterotropoides",
+      "scientificName": "Asiasarum heterotropoides"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/asparagus-cochinchinensis-merrill",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Asparagus cochinchinensis Merrill",
+      "scientificName": "Asparagus cochinchinensis Merrill",
+      "family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/asparagus-cochinchinensis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Asparagus cochinchinensis",
+      "scientificName": "Asparagus cochinchinensis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/astragalus-membranaceus-bunge-or-astragalus-mongholicus-bunge",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Astragalus membranaceus Bunge or Astragalus mongholicus Bunge",
+      "scientificName": "Astragalus membranaceus Bunge or Astragalus mongholicus Bunge",
+      "family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/astragalus-membranaceus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Astragalus membranaceus",
+      "scientificName": "Astragalus membranaceus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/atractylodes-lancea",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Atractylodes lancea",
+      "scientificName": "Atractylodes lancea"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ursus-arctos",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ursus arctos",
+      "scientificName": "Ursus arctos"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/arctostaphylos-uvaursi-sprengel",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Arctostaphylos uvaursi Sprengel",
+      "scientificName": "Arctostaphylos uvaursi Sprengel",
+      "family": "Ericaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/arctostaphylos-uvaursi",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Arctostaphylos uvaursi",
+      "scientificName": "Arctostaphylos uvaursi"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/atropa-belladonna",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Atropa belladonna",
+      "scientificName": "Atropa belladonna"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alpinia-oxyphylla-miquel",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alpinia oxyphylla Miquel",
+      "scientificName": "Alpinia oxyphylla Miquel",
+      "family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/alpinia-oxyphylla",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Alpinia oxyphylla",
+      "scientificName": "Alpinia oxyphylla"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/citrus-aurantium",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Citrus aurantium",
+      "scientificName": "Citrus aurantium"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/oryza-sativa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Oryza sativa",
+      "scientificName": "Oryza sativa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/bupleurum-falcatum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Bupleurum falcatum",
+      "scientificName": "Bupleurum falcatum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/arctium-lappa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Arctium lappa",
+      "scientificName": "Arctium lappa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/theobroma-cacao",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Theobroma cacao",
+      "scientificName": "Theobroma cacao"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/jateorhiza-columba-miers",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Jateorhiza columba Miers",
+      "scientificName": "Jateorhiza columba Miers",
+      "family": "Menispermaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/jateorhiza-columba",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Jateorhiza columba",
+      "scientificName": "Jateorhiza columba"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/capsicum-annuum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Capsicum annuum",
+      "scientificName": "Capsicum annuum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/elettaria-cardamomum-maton",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Elettaria cardamomum Maton",
+      "scientificName": "Elettaria cardamomum Maton",
+      "family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/elettaria-cardamomum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Elettaria cardamomum",
+      "scientificName": "Elettaria cardamomum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cassia-obtusifolia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cassia obtusifolia",
+      "scientificName": "Cassia obtusifolia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/catalpa-ovata-g-don-or-catalpa-bungei-c-a-meyer",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Catalpa ovata G. Don or Catalpa bungei C. A. Meyer",
+      "scientificName": "Catalpa ovata G. Don or Catalpa bungei C. A. Meyer",
+      "family": "Bignoniaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/catalpa-ovata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Catalpa ovata",
+      "scientificName": "Catalpa ovata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunus-jamasakura-siebold-ex-koidzumi-or-prunus-verecunda-koehne",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunus jamasakura Siebold ex Koidzumi or Prunus verecunda Koehne",
+      "scientificName": "Prunus jamasakura Siebold ex Koidzumi or Prunus verecunda Koehne",
+      "family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunus-jamasakura",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunus jamasakura",
+      "scientificName": "Prunus jamasakura"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cimicifuga-dahurica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cimicifuga dahurica",
+      "scientificName": "Cimicifuga dahurica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cinnamomum-cassia-j-presl",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cinnamomum cassia J. Presl",
+      "scientificName": "Cinnamomum cassia J. Presl",
+      "family": "Lauraceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cinnamomum-cassia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cinnamomum cassia",
+      "scientificName": "Cinnamomum cassia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/citrus-unshiu-marcowicz-or-citrus-reticulata-blanco",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Citrus unshiu Marcowicz or Citrus reticulata Blanco",
+      "scientificName": "Citrus unshiu Marcowicz or Citrus reticulata Blanco",
+      "family": "Rutaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/citrus-unshiu",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Citrus unshiu",
+      "scientificName": "Citrus unshiu"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/standard-lead-solution",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Standard Lead Solution",
+      "scientificName": "Standard Lead Solution",
+      "family": "not more than 20 ppm"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/clematis-mandshurica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Clematis mandshurica",
+      "scientificName": "Clematis mandshurica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/syzygium-aromaticum-merrill-et-perry",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Syzygium aromaticum Merrill et Perry",
+      "scientificName": "Syzygium aromaticum Merrill et Perry",
+      "family": "Eugenia caryophyllata Thunberg"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/syzygium-aromaticum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Syzygium aromaticum",
+      "scientificName": "Syzygium aromaticum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cnidium-monnieri-cusson",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cnidium monnieri Cusson",
+      "scientificName": "Cnidium monnieri Cusson",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cnidium-monnieri",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cnidium monnieri",
+      "scientificName": "Cnidium monnieri"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cnidium-officinale-makino",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cnidium officinale Makino",
+      "scientificName": "Cnidium officinale Makino",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cnidium-officinale",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cnidium officinale",
+      "scientificName": "Cnidium officinale"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/codonopsis-pilosula-nannfeldt-or-codonopsis-tangshen-oliver",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Codonopsis pilosula Nannfeldt or Codonopsis tangshen Oliver",
+      "scientificName": "Codonopsis pilosula Nannfeldt or Codonopsis tangshen Oliver",
+      "family": "Campanulaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/codonopsis-pilosula",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Codonopsis pilosula",
+      "scientificName": "Codonopsis pilosula"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/coix-lachryma",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Coix lachryma",
+      "scientificName": "Coix lachryma"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/marsdenia-cundurango-reichenbach-filius",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Marsdenia cundurango Reichenbach filius",
+      "scientificName": "Marsdenia cundurango Reichenbach filius",
+      "family": "Asclepiadaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/marsdenia-cundurango",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Marsdenia cundurango",
+      "scientificName": "Marsdenia cundurango"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/coptis-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Coptis japonica",
+      "scientificName": "Coptis japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cornus-officinalis-siebold-et-zuccarini",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cornus officinalis Siebold et Zuccarini",
+      "scientificName": "Cornus officinalis Siebold et Zuccarini",
+      "family": "Cornaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cornus-officinalis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cornus officinalis",
+      "scientificName": "Cornus officinalis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/corydalis-turtschaninovii-basser-forma-yanhusuo-y-h-chou-et-c-c-hsu",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Corydalis turtschaninovii Basser forma yanhusuo Y. H. Chou et C. C. Hsu",
+      "scientificName": "Corydalis turtschaninovii Basser forma yanhusuo Y. H. Chou et C. C. Hsu",
+      "family": "Papaveraceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/corydalis-turtschaninovii",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Corydalis turtschaninovii",
+      "scientificName": "Corydalis turtschaninovii"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cyperus-rotundus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cyperus rotundus",
+      "scientificName": "Cyperus rotundus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/digenea-simplex-c-agardh",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Digenea simplex C. Agardh",
+      "scientificName": "Digenea simplex C. Agardh",
+      "family": "Rhodomelaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/digenea-simplex",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Digenea simplex",
+      "scientificName": "Digenea simplex"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/dioscorea-japonica-thunberg-or-dioscorea-batatas-decaisne",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Dioscorea japonica Thunberg or Dioscorea batatas Decaisne",
+      "scientificName": "Dioscorea japonica Thunberg or Dioscorea batatas Decaisne",
+      "family": "Dioscoreaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/dioscorea-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Dioscorea japonica",
+      "scientificName": "Dioscorea japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/dolichos-lablab",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Dolichos lablab",
+      "scientificName": "Dolichos lablab"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eleutherococcus-senticosus-maximowicz",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eleutherococcus senticosus Maximowicz",
+      "scientificName": "Eleutherococcus senticosus Maximowicz",
+      "family": "Acanthopanax senticosus Harms"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eleutherococcus-senticosus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eleutherococcus senticosus",
+      "scientificName": "Eleutherococcus senticosus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ephedra-sinica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ephedra sinica",
+      "scientificName": "Ephedra sinica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/epimedium-koreanum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Epimedium koreanum",
+      "scientificName": "Epimedium koreanum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eucommia-ulmoides-oliver",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eucommia ulmoides Oliver",
+      "scientificName": "Eucommia ulmoides Oliver",
+      "family": "Eucommiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eucommia-ulmoides",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eucommia ulmoides",
+      "scientificName": "Eucommia ulmoides"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/euodia-officinalis-dode",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Euodia officinalis Dode",
+      "scientificName": "Euodia officinalis Dode",
+      "family": "Evodia officinalis Dode"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/euodia-officinalis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Euodia officinalis",
+      "scientificName": "Euodia officinalis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/foeniculum-vulgare-miller",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Foeniculum vulgare Miller",
+      "scientificName": "Foeniculum vulgare Miller",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/foeniculum-vulgare",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Foeniculum vulgare",
+      "scientificName": "Foeniculum vulgare"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/forsythia-suspensa-vahl",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Forsythia suspensa Vahl",
+      "scientificName": "Forsythia suspensa Vahl",
+      "family": "Oleaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/forsythia-suspensa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Forsythia suspensa",
+      "scientificName": "Forsythia suspensa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/fritillaria-verticillata-willdenow-var-thunbergii-baker",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Fritillaria verticillata Willdenow var. thunbergii Baker",
+      "scientificName": "Fritillaria verticillata Willdenow var. thunbergii Baker",
+      "family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/fritillaria-verticillata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Fritillaria verticillata",
+      "scientificName": "Fritillaria verticillata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gardenia-jasminoides-ellis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gardenia jasminoides Ellis",
+      "scientificName": "Gardenia jasminoides Ellis",
+      "family": "Rubiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gardenia-jasminoides",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gardenia jasminoides",
+      "scientificName": "Gardenia jasminoides"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gastrodia-elata-blume",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gastrodia elata Blume",
+      "scientificName": "Gastrodia elata Blume",
+      "family": "Orchidaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gastrodia-elata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gastrodia elata",
+      "scientificName": "Gastrodia elata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gentiana-lutea",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gentiana lutea",
+      "scientificName": "Gentiana lutea"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/geranium-thunbergii-siebold-et-zuccarini",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Geranium thunbergii Siebold et Zuccarini",
+      "scientificName": "Geranium thunbergii Siebold et Zuccarini",
+      "family": "Geraniaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/geranium-thunbergii",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Geranium thunbergii",
+      "scientificName": "Geranium thunbergii"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/panax-ginseng-c-a-meyer",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Panax ginseng C. A. Meyer",
+      "scientificName": "Panax ginseng C. A. Meyer",
+      "family": "Panax schinseng Nees"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/panax-ginseng",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Panax ginseng",
+      "scientificName": "Panax ginseng"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/glehnia-littoralis-fr-schmidt-ex-miquel",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Glehnia littoralis Fr. Schmidt ex Miquel",
+      "scientificName": "Glehnia littoralis Fr. Schmidt ex Miquel",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/glehnia-littoralis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Glehnia littoralis",
+      "scientificName": "Glehnia littoralis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/hedysarum-polybotrys",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Hedysarum polybotrys",
+      "scientificName": "Hedysarum polybotrys"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cannabis-sativa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cannabis sativa",
+      "scientificName": "Cannabis sativa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/houttuynia-cordata-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Houttuynia cordata Thunberg",
+      "scientificName": "Houttuynia cordata Thunberg",
+      "family": "Saururaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/houttuynia-cordata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Houttuynia cordata",
+      "scientificName": "Houttuynia cordata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/imperata-cylindrica-beauvois",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Imperata cylindrica Beauvois",
+      "scientificName": "Imperata cylindrica Beauvois",
+      "family": "Gramineae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/imperata-cylindrica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Imperata cylindrica",
+      "scientificName": "Imperata cylindrica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cephaelis-ipecacuanha-a-richard-or-cephaelis-acuminata-karsten",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cephaelis ipecacuanha A. Richard or Cephaelis acuminata Karsten",
+      "scientificName": "Cephaelis ipecacuanha A. Richard or Cephaelis acuminata Karsten",
+      "family": "Rubiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cephaelis-ipecacuanha",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cephaelis ipecacuanha",
+      "scientificName": "Cephaelis ipecacuanha"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/glycerin-and",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Glycerin and",
+      "scientificName": "Glycerin and"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/angelica-acutiloba-kitagawa-or-angelica-acutiloba-kitagawa-var-sugiyamae-hikino",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Angelica acutiloba Kitagawa or Angelica acutiloba Kitagawa var. sugiyamae Hikino",
+      "scientificName": "Angelica acutiloba Kitagawa or Angelica acutiloba Kitagawa var. sugiyamae Hikino",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/angelica-acutiloba",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Angelica acutiloba",
+      "scientificName": "Angelica acutiloba"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/gentiana-scabra",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Gentiana scabra",
+      "scientificName": "Gentiana scabra"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/valeriana-fauriei-briquet",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Valeriana fauriei Briquet",
+      "scientificName": "Valeriana fauriei Briquet",
+      "family": "Valerianaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/valeriana-fauriei",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Valeriana fauriei",
+      "scientificName": "Valeriana fauriei"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ziziphus-jujuba-miller-var-inermis-rehder",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ziziphus jujuba Miller var. inermis Rehder",
+      "scientificName": "Ziziphus jujuba Miller var. inermis Rehder",
+      "family": "Rhamnaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ziziphus-jujuba",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ziziphus jujuba",
+      "scientificName": "Ziziphus jujuba"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ziziphus-jujuba-miller-var-spinosa-hu-ex-h-f-chow",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ziziphus jujuba Miller var. spinosa Hu ex H. F. Chow",
+      "scientificName": "Ziziphus jujuba Miller var. spinosa Hu ex H. F. Chow",
+      "family": "Rhamnaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/zea-mays",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Zea mays",
+      "scientificName": "Zea mays"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ovis-aries",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ovis aries",
+      "scientificName": "Ovis aries"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/leonurus-japonicus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Leonurus japonicus",
+      "scientificName": "Leonurus japonicus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lilium-lancifolium",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lilium lancifolium",
+      "scientificName": "Lilium lancifolium"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lindera-strychnifolia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lindera strychnifolia",
+      "scientificName": "Lindera strychnifolia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lithospermum-erythrorhizon-siebold-et-zuccarini",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lithospermum erythrorhizon Siebold et Zuccarini",
+      "scientificName": "Lithospermum erythrorhizon Siebold et Zuccarini",
+      "family": "Boraginaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lithospermum-erythrorhizon",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lithospermum erythrorhizon",
+      "scientificName": "Lithospermum erythrorhizon"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/euphoria-longana-lamarck",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Euphoria longana Lamarck",
+      "scientificName": "Euphoria longana Lamarck",
+      "family": "Sapindaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/euphoria-longana",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Euphoria longana",
+      "scientificName": "Euphoria longana"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lonicera-japonica-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lonicera japonica Thunberg",
+      "scientificName": "Lonicera japonica Thunberg",
+      "family": "Caprifoliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lonicera-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lonicera japonica",
+      "scientificName": "Lonicera japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eriobotrya-japonica-lindley",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eriobotrya japonica Lindley",
+      "scientificName": "Eriobotrya japonica Lindley",
+      "family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/eriobotrya-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Eriobotrya japonica",
+      "scientificName": "Eriobotrya japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/lycium-chinense",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Lycium chinense",
+      "scientificName": "Lycium chinense"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/magnolia-obovata-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Magnolia obovata Thunberg",
+      "scientificName": "Magnolia obovata Thunberg",
+      "family": "Magnolia hypoleuca Siebold et\nZuccarini"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/magnolia-obovata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Magnolia obovata",
+      "scientificName": "Magnolia obovata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/magnolia-biondii",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Magnolia biondii",
+      "scientificName": "Magnolia biondii"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/mallotus-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Mallotus japonica",
+      "scientificName": "Mallotus japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/hordeum-vulgare",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Hordeum vulgare",
+      "scientificName": "Hordeum vulgare"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/mentha-arvensis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Mentha arvensis",
+      "scientificName": "Mentha arvensis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/paeonia-suffruticosa-andrews",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Paeonia suffruticosa Andrews",
+      "scientificName": "Paeonia suffruticosa Andrews",
+      "family": "Paeonia moutan Sims"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/paeonia-suffruticosa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Paeonia suffruticosa",
+      "scientificName": "Paeonia suffruticosa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/morus-alba",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Morus alba",
+      "scientificName": "Morus alba"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/nelumbo-nucifera-gaertner",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Nelumbo nucifera Gaertner",
+      "scientificName": "Nelumbo nucifera Gaertner",
+      "family": "Nymphaeaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/nelumbo-nucifera",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Nelumbo nucifera",
+      "scientificName": "Nelumbo nucifera"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/notopterygium-incisum-ting-ex-h-t-chang-or-notopterygium-forbesii-boissieu",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Notopterygium incisum Ting ex H. T. Chang or Notopterygium forbesii Boissieu",
+      "scientificName": "Notopterygium incisum Ting ex H. T. Chang or Notopterygium forbesii Boissieu",
+      "family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/notopterygium-incisum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Notopterygium incisum",
+      "scientificName": "Notopterygium incisum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/nuphar-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Nuphar japonica",
+      "scientificName": "Nuphar japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/myristica-fragrans-houttuyn",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Myristica fragrans Houttuyn",
+      "scientificName": "Myristica fragrans Houttuyn",
+      "family": "Myristicaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/myristica-fragrans",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Myristica fragrans",
+      "scientificName": "Myristica fragrans"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/strychnos-nux",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Strychnos nux",
+      "scientificName": "Strychnos nux"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ophiopogon-japonicus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ophiopogon japonicus",
+      "scientificName": "Ophiopogon japonicus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/bos-taurus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Bos taurus",
+      "scientificName": "Bos taurus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ostrea-gigas-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ostrea gigas Thunberg",
+      "scientificName": "Ostrea gigas Thunberg",
+      "family": "Ostreidae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/ostrea-gigas",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Ostrea gigas",
+      "scientificName": "Ostrea gigas"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/panax-japonicus-c-a-meyer",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Panax japonicus C. A. Meyer",
+      "scientificName": "Panax japonicus C. A. Meyer",
+      "family": "Araliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/panax-japonicus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Panax japonicus",
+      "scientificName": "Panax japonicus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunus-persica-batsch-or-prunus-persica-batsch-var-davidiana-maximowicz",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunus persica Batsch or Prunus persica Batsch var. davidiana Maximowicz",
+      "scientificName": "Prunus persica Batsch or Prunus persica Batsch var. davidiana Maximowicz",
+      "family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunus-persica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunus persica",
+      "scientificName": "Prunus persica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/paeonia-lactiflora-pallas",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Paeonia lactiflora Pallas",
+      "scientificName": "Paeonia lactiflora Pallas",
+      "family": "Paeoniaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/paeonia-lactiflora",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Paeonia lactiflora",
+      "scientificName": "Paeonia lactiflora"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/perilla-frutescens-britton-var-crispa-w-deane",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Perilla frutescens Britton var. crispa W. Deane",
+      "scientificName": "Perilla frutescens Britton var. crispa W. Deane",
+      "family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/perilla-frutescens",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Perilla frutescens",
+      "scientificName": "Perilla frutescens"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pharbitis-nil-choisy",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pharbitis nil Choisy",
+      "scientificName": "Pharbitis nil Choisy",
+      "family": "Convolvulaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pharbitis-nil",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pharbitis nil",
+      "scientificName": "Pharbitis nil"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/phellodendron-amurense-ruprecht-or-phellodendron-chinense-schneider",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Phellodendron amurense Ruprecht or Phellodendron chinense Schneider",
+      "scientificName": "Phellodendron amurense Ruprecht or Phellodendron chinense Schneider",
+      "family": "Rutaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/phellodendron-amurense",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Phellodendron amurense",
+      "scientificName": "Phellodendron amurense"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/picrasma-quassioides-bennet",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Picrasma quassioides Bennet",
+      "scientificName": "Picrasma quassioides Bennet",
+      "family": "Simaroubaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/picrasma-quassioides",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Picrasma quassioides",
+      "scientificName": "Picrasma quassioides"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pinellia-ternata-breitenbach",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pinellia ternata Breitenbach",
+      "scientificName": "Pinellia ternata Breitenbach",
+      "family": "Araceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pinellia-ternata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pinellia ternata",
+      "scientificName": "Pinellia ternata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/plantago-asiatica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Plantago asiatica",
+      "scientificName": "Plantago asiatica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/platycodon-grandiflorus-a-de-candolle",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Platycodon grandiflorus A. De Candolle",
+      "scientificName": "Platycodon grandiflorus A. De Candolle",
+      "family": "Campanulaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/platycodon-grandiflorus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Platycodon grandiflorus",
+      "scientificName": "Platycodon grandiflorus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pogostemon-cablin-bentham",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pogostemon cablin Bentham",
+      "scientificName": "Pogostemon cablin Bentham",
+      "family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pogostemon-cablin",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pogostemon cablin",
+      "scientificName": "Pogostemon cablin"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygala-tenuifolia-willdenow",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygala tenuifolia Willdenow",
+      "scientificName": "Polygala tenuifolia Willdenow",
+      "family": "Polygalaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygala-tenuifolia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygala tenuifolia",
+      "scientificName": "Polygala tenuifolia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygonatum-kingianum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygonatum kingianum",
+      "scientificName": "Polygonatum kingianum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygonum-multiflorum-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygonum multiflorum Thunberg",
+      "scientificName": "Polygonum multiflorum Thunberg",
+      "family": "Polygonaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygonum-multiflorum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygonum multiflorum",
+      "scientificName": "Polygonum multiflorum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polyporus-umbellatus-fries",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polyporus umbellatus Fries",
+      "scientificName": "Polyporus umbellatus Fries",
+      "family": "Polyporaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polyporus-umbellatus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polyporus umbellatus",
+      "scientificName": "Polyporus umbellatus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/wolfiporia-cocos-ryvarden-et-gilbertson",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Wolfiporia cocos Ryvarden et Gilbertson",
+      "scientificName": "Wolfiporia cocos Ryvarden et Gilbertson",
+      "family": "Poria cocos Wolf"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/wolfiporia-cocos",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Wolfiporia cocos",
+      "scientificName": "Wolfiporia cocos"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/aconitum-carmichaeli-debeaux-or-aconitum-japonicum-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Aconitum carmichaeli Debeaux or Aconitum japonicum Thunberg",
+      "scientificName": "Aconitum carmichaeli Debeaux or Aconitum japonicum Thunberg",
+      "family": "Ranunculaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/aconitum-carmichaeli",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Aconitum carmichaeli",
+      "scientificName": "Aconitum carmichaeli"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/zingiber-officinale-roscoe",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Zingiber officinale Roscoe",
+      "scientificName": "Zingiber officinale Roscoe",
+      "family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/zingiber-officinale",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Zingiber officinale",
+      "scientificName": "Zingiber officinale"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/prunella-vulgaris",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Prunella vulgaris",
+      "scientificName": "Prunella vulgaris"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pueraria-lobata-ohwi",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pueraria lobata Ohwi",
+      "scientificName": "Pueraria lobata Ohwi",
+      "family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/pueraria-lobata",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Pueraria lobata",
+      "scientificName": "Pueraria lobata"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/quercus-acutissima",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Quercus acutissima",
+      "scientificName": "Quercus acutissima"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/rehmannia-glutinosa-liboschitz-var-purpurea-makino-or-rehmannia-glutinosa-liboschitz",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Rehmannia glutinosa Liboschitz var. purpurea Makino or Rehmannia glutinosa Liboschitz",
+      "scientificName": "Rehmannia glutinosa Liboschitz var. purpurea Makino or Rehmannia glutinosa Liboschitz",
+      "family": "Scrophulariaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/rehmannia-glutinosa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Rehmannia glutinosa",
+      "scientificName": "Rehmannia glutinosa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/rheum-palmatum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Rheum palmatum",
+      "scientificName": "Rheum palmatum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/rosa-multiflora-thunberg",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Rosa multiflora Thunberg",
+      "scientificName": "Rosa multiflora Thunberg",
+      "family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/rosa-multiflora",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Rosa multiflora",
+      "scientificName": "Rosa multiflora"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/apis-mellifera",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Apis mellifera",
+      "scientificName": "Apis mellifera"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/carthamus-tinctorius",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Carthamus tinctorius",
+      "scientificName": "Carthamus tinctorius"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/crocus-sativus",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Crocus sativus",
+      "scientificName": "Crocus sativus"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/salvia-miltiorrhiza-bunge",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Salvia miltiorrhiza Bunge",
+      "scientificName": "Salvia miltiorrhiza Bunge",
+      "family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/salvia-miltiorrhiza",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Salvia miltiorrhiza",
+      "scientificName": "Salvia miltiorrhiza"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/caesalpinia-sappan",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Caesalpinia sappan",
+      "scientificName": "Caesalpinia sappan"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/saussurea-lappa-clarke",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Saussurea lappa Clarke",
+      "scientificName": "Saussurea lappa Clarke",
+      "family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/saussurea-lappa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Saussurea lappa",
+      "scientificName": "Saussurea lappa"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/schisandra-chinensis-baillon",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Schisandra chinensis Baillon",
+      "scientificName": "Schisandra chinensis Baillon",
+      "family": "Schisandraceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/schisandra-chinensis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Schisandra chinensis",
+      "scientificName": "Schisandra chinensis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/schizonepeta-tenuifolia-briquet",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Schizonepeta tenuifolia Briquet",
+      "scientificName": "Schizonepeta tenuifolia Briquet",
+      "family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/schizonepeta-tenuifolia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Schizonepeta tenuifolia",
+      "scientificName": "Schizonepeta tenuifolia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/scopolia-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Scopolia japonica",
+      "scientificName": "Scopolia japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/scutellaria-baicalensis-georgi",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Scutellaria baicalensis Georgi",
+      "scientificName": "Scutellaria baicalensis Georgi",
+      "family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/scutellaria-baicalensis",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Scutellaria baicalensis",
+      "scientificName": "Scutellaria baicalensis"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/polygala-senega",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Polygala senega",
+      "scientificName": "Polygala senega"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cassia-angustifolia-vahl-or-cassia-acutifolia-delile",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cassia angustifolia Vahl or Cassia acutifolia Delile",
+      "scientificName": "Cassia angustifolia Vahl or Cassia acutifolia Delile",
+      "family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/cassia-angustifolia",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Cassia angustifolia",
+      "scientificName": "Cassia angustifolia"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/sesamum-indicum",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Sesamum indicum",
+      "scientificName": "Sesamum indicum"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/smilax-glabra-roxburgh",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Smilax glabra Roxburgh",
+      "scientificName": "Smilax glabra Roxburgh",
+      "family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/smilax-glabra",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Smilax glabra",
+      "scientificName": "Smilax glabra"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/sophora-flavescens-aiton",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Sophora flavescens Aiton",
+      "scientificName": "Sophora flavescens Aiton",
+      "family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/sophora-flavescens",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Sophora flavescens",
+      "scientificName": "Sophora flavescens"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/hydrangea-macrophylla-seringe-var-thunbergii-makino",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Hydrangea macrophylla Seringe var. thunbergii Makino",
+      "scientificName": "Hydrangea macrophylla Seringe var. thunbergii Makino",
+      "family": "Saxifragaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/hydrangea-macrophylla",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Hydrangea macrophylla",
+      "scientificName": "Hydrangea macrophylla"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/swertia-japonica-makino",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Swertia japonica Makino",
+      "scientificName": "Swertia japonica Makino",
+      "family": "Gentianaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/swertia-japonica",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Swertia japonica",
+      "scientificName": "Swertia japonica"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/bufo-gargarizans-cantor-or-bufo-melanostictus-schneider",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Bufo gargarizans Cantor or Bufo melanostictus Schneider",
+      "scientificName": "Bufo gargarizans Cantor or Bufo melanostictus Schneider",
+      "family": "Bufonidae"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/bufo-gargarizans",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Bufo gargarizans",
+      "scientificName": "Bufo gargarizans"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/tribulus-terrestris",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Tribulus terrestris",
+      "scientificName": "Tribulus terrestris"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/trichosanthes-kirilowii",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Trichosanthes kirilowii",
+      "scientificName": "Trichosanthes kirilowii"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/organisms/curcuma-longa",
+      "@type": [
+        "op:Organism"
+      ],
+      "name": "Curcuma longa",
+      "scientificName": "Curcuma longa"
+    }
+  ]
+}

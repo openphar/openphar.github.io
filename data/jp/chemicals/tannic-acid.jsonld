@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tannic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tannic Acid",
+    "ja": "タンニン酸"
+  },
+  "monographId": "JP18-tannic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Tannic Acid occurs as a yellow-white to light brown amorphous powder, glistening leaflets, or spongy masses. It is odorless or has a faint, characteristic odor, and has a strongly astringent taste. It is very soluble in water and in ethanol (95), and practi-cally insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Tannic Acid (1 in 400) add 2 drops of iron (III) chloride TS: a blue-black color develops. Allow the solution to stand: a blue-black precipitate is produced. (2) To 5 mL of a solution of Tannic Acid (1 in 20) add 1 drop each of albumin TS, gelatin TS, or 1 mL of starch TS: a precipitate is produced in each solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Gum, dextrin and sucrose—Dissolve 3.0 g of Tannic Acid in 15 mL of boiling water: the solution is clear or slightly turbid. Cool, and filter the solution. To 5 mL of the filtrate add 5 mL of ethanol (95): no turbidity is pro-duced. Add further 3 mL of diethyl ether to this solution: no turbidity is produced. (2) Resinous substances—To 5 mL of the filtrate ob-tained in (1) add 10 mL of water: no turbidity is produced. Loss on drying <2.41> Not more than 12.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 1.0z (0.5 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

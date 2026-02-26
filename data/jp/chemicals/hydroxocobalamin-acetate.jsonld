@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydroxocobalamin-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydroxocobalamin Acetate",
+    "ja": "ヒドロキソコバラミン酢酸塩"
+  },
+  "monographId": "JP18-hydroxocobalamin-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C62H89CoN13O15P.C2H4O2",
+  "molecularWeight": 1406.41,
+  "definition": {
+    "en": "Hydroxocobalamin Acetate contains not less than 96."
+  },
+  "appearance": {
+    "en": "Hydroxocobalamin Acetate occurs as dark red, crystals or powder. It is odorless. It is freely soluble in water and in methanol, slightly solu-ble in ethanol (95), and practically insoluble in diethyl ether. It is hygroscopic. ‌JP XVIII Official Monographs / Hydroxyethylcellulose 1121"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Hydroxocobalamin Acetate in acetic acid-sodium acetate buffer solution (pH 4.5) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Mix 1 mg of Hydroxocobalamin Acetate with 50 mg of potassium hydrogen sulfate, and fuse by igniting. Cool, break up the mass with a glass rod, add 3 mL of water, and dissolve by boiling. Add 1 drop of phenolphthalein TS, and add dropwise sodium hydroxide TS until the solution de-velops a light red. Then add 0.5 g of sodium acetate trihy-drate, 0.5 mL of dilute acetic acid and 0.5 mL of a solution of disodium 1-nitroso-2-naphthol-3,6-disulfonate (1 in 500): a red to orange-red color develops immediately. Then add 0.5 mL of hydrochloric acid, and boil for 1 minute: the red color does not disappear. Add 0.5 mL of ethanol (99.5) and 1 mL of sulfuric acid to 20 mg of Hydroxocobalamin Acetate, and heat the mixture: the odor of ethyl acetate is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Dissolve 75 mg of Hydroxocobalamin Acetate in 100 mL of the dissolving solution, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the dissolv-ing solution to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the total area of the peaks other than hydroxocobalamin obtained from the sample solution is not larger than the peak area of hydroxocobalamin from the standard solution. Dissolving solution: A mixture of water, mobile phase C and methanol (41:5:4). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 351 nm). Column: Connect two columns which are 4.6 mm in inside diameter and 10 cm in length, composed of octadecyl-silanized monolithic silica for liquid chromatography, hav-ing a bimodal pore structure with 2 mm macropore and 13 nm mesopore, coated with polyether ether ketone. Column temperature: A constant temperature of about 309C. Mobile phase A: Water. Mobile phase B: Methanol. Mobile phase C: Dissolve 15.6 g of sodium dihydrogen phosphate dihydrate in 1000 mL of water, and adjust to pH 3 with diluted phosphoric acid (1 in 100). Flowing of mobile phase: Control the gradient by mixing the mobile phase A, B and C as directed in the following table. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, add the dissolving solution to make exactly 50 mL. Confirm that the peak area of hydroxocobalamin obtained with 20 mL of this solution is equivalent to 1.4 to 2.6z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of hydroxocobalamin are not less than 4000 and not more than 2.4, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of hydroxocobalamin is not more than 2.0z. Water <2.48> 8.0 – 12.0z (50 mg, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Hydroxocobalamin Acetate, and dissolve in water to make exactly 500 mL. Pipet 5 mL of this solution, and add acetic acid-sodium acetate buffer solution (pH 4.5) to make exactly 25 mL. Determine the absorbance, A, of this solution at 351 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of hydroxocobalamin acetate (C62H89CoN13O15P.C2H4O2) ＝ A/187 × 25,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

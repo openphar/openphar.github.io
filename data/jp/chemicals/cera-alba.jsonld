@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cera-alba",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cera Alba",
+    "ja": "サラシミツロウ"
+  },
+  "monographId": "JP18-cera-alba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "White Beeswax occurs as white to yellowish white masses. It has a characteristic odor. It is comparatively brittle when cooled, and the fractured surface is granular, and non-crystalline. It is slightly soluble in diethyl ether, and practically insolu-ble in water and in ethanol (99.5). Acid value <1.13> 5 – 9 or 17 – 22 Weigh accurately about 6 g of White Beeswax, place in a glass-stoppered 250-mL flask, and add 50 mL of ethanol (99.5). Warm the mixture to dissolve the wax, add 1 mL of phenolphthalein TS, and proceed as directed in the Acid value. Perform a blank deter-mination using solvent which is not previously neutralized, and make any necessary correction. Saponification value <1.13> 80 – 100 Weigh accurately about 3 g of White Beeswax, place in a glass-stoppered 250-mL flask, and add exactly 25 mL of 0.5 mol/L potas-sium hydroxide-ethanol VS and 50 mL of ethanol (95), heat under a reflux condenser for 4 hours, and proceed as di-rected in the Saponification value."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Paraffin, fat, Japan wax or resin—Melt White Beeswax at the lowest possible temperature, drip the liquid into a vessel containing ethanol (95) to form granules, and allow them to stand in air for 24 hours. Drop the granules into two mixtures of ethanol (95) and water, one adjusted so as to have a specific gravity of 0.95 and the other 0.97: the granules sink or are suspended in the mixture with the spe-cific gravity of 0.95, and float or are suspended in the other mixture."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

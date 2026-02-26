@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/halothane",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Halothane",
+    "ja": "ハロタン"
+  },
+  "monographId": "JP18-halothane",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Halothane contains not less than 0."
+  },
+  "appearance": {
+    "en": "Halothane is a clear, colorless, and mobile liq-uid. It is miscible with ethanol (95), with diethyl ether and with isooctane. It is slightly soluble in water. It is a volatile, nonflammable liquid, and setting fire to its heated vapor does not support combustion. It is affected by light. D Refractive index n20: 1.369 – 1.371"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Transfer about 3 mL of Halothane to a gas cell having light path 10 cm in length, and determine the in-frared absorption spectrum as directed in the gas sampling method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Specific gravity <2.56> d 20: 1.872 – 1.877"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Shake 60 mL of Halo-thane with 60 mL of freshly boiled and cooled water vigor-ously for 3 minutes. Separate the water layer, and use this as the sample solution. To 20 mL of the sample solution add 1 drop of bromocresol purple TS and 0.10 mL of 0.01 mol/L sodium hydroxide VS: a red-purple color develops. To 20 mL of the sample solution add 1 drop of bromocresol purple TS and 0.6 mL of 0.01 mol/L hydrochloric acid VS: a yellow color is produced. (2) Halide and halogen—To 5 mL of the sample solution obtained in (1) add 1 drop of nitric acid and 0.20 mL of sil-ver nitrate TS: no turbidity is produced. To 10 mL of the sample solution obtained in (1) add 1 mL of potassium 509C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of the internal standard is 2 to 3 minutes. Selection of column: Mix 3 mL of Halothane and 1 mL of the internal standard. Proceed with 1 mL of this solution under the above operating conditions, and calculate the reso-lution. Use a column giving elution of the internal standard and halothane in this order with the resolution between these peaks being not less than 10. Detection sensitivity: Adjust the detection sensitivity so that the peak height of the internal standard obtained with 5 mL of the sample solution composes 30 to 70z of the full scale. Time span of measurement: About 3 times as long as the retention time of halothane. Distilling range <2.57> Not less than 95 volz distils within a 19C range between 499C and 519C. Thymol To 0.50 mL of Halothane add 5.0 mL of isooctane and 5.0 mL of titanium (IV) oxide TS, shake vigorously for 30 seconds, and allow to stand: the separated upper layer has more color than the following control solution A, and has no more color than the following control solution B. Control solution: Dissolve 0.225 g of thymol for assay in isooctane to make exactly 100 mL. To 10 mL each of this so-lution, accurately measured, add isooctane to make exactly 150 mL and 100 mL, respectively. Proceed with 0.50 mL each of these solutions in the same manner as Halothane, and use the separated upper layers so obtained as the control solution A and B, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 309C."
+  }
+}

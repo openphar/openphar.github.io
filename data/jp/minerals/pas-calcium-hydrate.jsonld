@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/pas-calcium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Pas-calcium Hydrate",
+    "ja": "パラアミノサリチル酸カルシウム水和物"
+  },
+  "monographId": "JP18-pas-calcium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Calcium Paraaminosalicylate Hydrate occurs as a white to slightly colored powder. It has a slightly bitter taste. It is very slightly soluble in water, and practically insoluble in methanol and in ethanol (99.5). It is gradually colored to brown by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 50 mg of Calcium Paraaminosalicy-late Hydrate add 100 mL of water, shake well, and filter. To 10 mL of the filtrate add 1 mL of 1 mol/L hydrochloric acid TS, shake, and add 1 drop of iron (III) chloride TS: a red-purple color develops. Determine the infrared absorption spectrum of Cal-cium Paraaminosalicylate Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. To 3 g of Calcium Paraaminosalicylate Hydrate add 15 mL of ammonium chloride TS and 15 mL of water, heat on a water bath until almost dissolved, and filter after cool-ing: the filtrate responds to Qualitative Tests <1.09> (1), (2) and (3) for calcium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Calcium Paraaminosalicylate Hydrate in 15 mL of dilute nitric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.70 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.025z). Heavy metals <1.07>—Proceed with 1.0 g of Calcium Paraaminosalicylate Hydrate according to method 3, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 0.40 g of Calcium Para- aminosalicylate Hydrate in 20 mL of 0.1 mol/L hydrochloric acid TS by warming on a water bath, use this solution as the test solution, and perform the test (not more than 5 ppm). 3-Aminophenol—To 0.10 g of Calcium Para-aminosalicylate Hydrate add 5 mL of 0.1 mol/L disodium dihydrogen ethylenediamine tetraacetate TS, previously cooled in ice-water, and dissolve by shaking vigorously. Add immediately 3 mL of ammonia-ammonium chloride buffer solution (pH 11.0) previously cooled in ice water, and shake. Add 2 mL of 4-amino-N,N-diethylaniline sulfate TS, shake, add 10.0 mL of cyclohexane and 4 mL of diluted potassium hexacyanoferrate (III) TS (1 in 10), and shake immediately for 20 seconds. Centrifuge this solution, wash the separated cyclohexane layer with two 5-mL portions of diluted ammo-nia TS (1 in 14), add 1 g of anhydrous sodium sulfate, shake, and allow to stand for 5 minutes: the clear cyclohexane layer is not more colored than the following control solution. Control solution: Dissolve 50 mg of 3-aminophenol in water, and dilute with water to exactly 500 mL. Measure ex-actly 20 mL of this solution, and add water to make exactly 100 mL. Take 5.0 mL of this solution, add 3 mL of ammo-nia-ammonium chloride buffer solution (pH 11.0) previously cooled in ice-water, and treat this solution in the same man-ner as the sample. Water <2.48> 23.3 – 26.3z (0.1 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Calcium Para-aminosalicylate Hydrate, dissolve in 60 mL of water and 0.75 mL of dilute hydrochloric acid by warming on a water bath. After cooling, add water to make exactly 100 mL, and use this solution as the sample solution. Measure exactly 30 mL of the sample solution, transfer to an iodine flask, and add exactly 25 mL of 0.05 mol/L bromine VS and 20 mL of a solution of potassium bromide (1 in 4). Add immediately 14 mL of a mixture of acetic acid (100) and hydrochloric acid (5:2), stopper the flask immediately, and allow to stand for 10 minutes with occasional shaking. Add cautiously 6 mL of potassium iodide TS, and shake gently. After 5 minutes, titrate <2.50> the produced iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Per-form a blank determination in the same manner. Each mL of 0.05 mol/L bromine VS ＝ 3.187 mg of C7H5CaNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dl-camphor",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "dl-Camphor",
+    "ja": "dl-カンフル"
+  },
+  "monographId": "JP18-dl-camphor",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H16O",
+  "molecularWeight": 152.23,
+  "definition": {
+    "en": "dl-Camphor contains not less than 96."
+  },
+  "appearance": {
+    "en": "dl-Camphor occurs as colorless or white, translucent crystals, crystalline powder or masses. It has a characteristic, agreeable odor, and has a slightly bitter taste followed by a pleasant, cooling sensation. It is freely soluble in ethanol (95), in diethyl ether and in carbon disulfide, and slightly soluble in water. It slowly volatilizes at room temperature."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 0.1 g of dl-Camphor in 2 mL of methanol, add 1 mL of 2,4-dinitrophenylhydradine TS, and heat for 5 minutes on a water bath: an orange-red precipitate is formed. D Optical rotation <2.49> [a]20: －1.5 – ＋1.59(5 g, ethanol System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of dl-camphor to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water—Shake 1.0 g of d-Camphor with 10 mL of carbon disulfide: the solution is clear. (2) Chlorinated compounds—Mix 0.20 g of finely pow- C10 H16O: 152.23 dered d-Camphor with 0.4 g of sodium peroxide in a dried porcelain crucible. Heat the crucible gently by the open flame until the incineration is complete. Dissolve the residue in 20 mL of warm water, acidify with 12 mL of dilute nitric acid, and filter the solution into a Nessler tube. Wash the (1RS,4RS )-1,7,7-Trimethylbicyclo[2.2.1]heptan-2-one [76-22-2] dl-Camphor contains not less than 96.0z of dl-cam-phor (C10H16O). ‌612 Description dl-Camphor occurs as colorless or white, translucent crystals, crystalline powder or masses. It has a characteristic, agreeable odor, and has a slightly bitter taste followed by a pleasant, cooling sensation. It is freely soluble in ethanol (95), in diethyl ether and in carbon disulfide, and slightly soluble in water. It slowly volatilizes at room temperature. Identification Dissolve 0.1 g of dl-Camphor in 2 mL of methanol, add 1 mL of 2,4-dinitrophenylhydradine TS, and heat for 5 minutes on a water bath: an orange-red precipitate is formed. D Optical rotation <2.49> [a]20: －1.5 – ＋1.59(5 g, ethanol System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of dl-camphor to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

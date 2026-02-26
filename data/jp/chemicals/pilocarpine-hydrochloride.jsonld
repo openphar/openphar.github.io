@@ -1,0 +1,37 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pilocarpine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pilocarpine Hydrochloride",
+    "ja": "ピロカルピン塩酸塩"
+  },
+  "monographId": "JP18-pilocarpine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H16N2O2.HCl",
+  "molecularWeight": 244.72,
+  "casNumber": "54-71-7",
+  "definition": {
+    "en": "Pilocarpine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Pilocarpine Hydrochloride occurs as colorless crystals or white powder. It is odorless, and has a slightly bitter taste. It is very soluble in acetic acid (100), freely soluble in water, in methanol and in ethanol (95), soluble in acetic an-hydride, and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Pilocarpine Hydrochlo- tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and ammonia TS (85:14:2) to a distance of about 13 cm, and dry the plate at 1059C for 10 minutes. Cool, and spray evenly bismuth potassium iodide TS on the plate: the spots other than the principal spot obtained from the sample solu-tion are not more intense than the spot from the standard so-lution. Readily carbonizable substances <1.15>—Take 0.25 g of Pilocarpine Hydrochloride, and perform the test: the so-lution has no more color than Matching Fluid B. Loss on drying <2.41> Not more than 3.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.5z (0.1 g)."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Pilocarpine Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 24.47 mg of C11H16N2O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

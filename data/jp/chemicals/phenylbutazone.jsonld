@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenylbutazone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenylbutazone",
+    "ja": "フェニルブタゾン"
+  },
+  "monographId": "JP18-phenylbutazone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H20N2O2",
+  "molecularWeight": 308.37,
+  "definition": {
+    "en": "Phenylbutazone, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Phenylbutazone occurs as a white to pale yel-low-white crystalline powder. It is odorless, and is at first tasteless but leaves a slightly bitter aftertaste. It is freely soluble in acetone, soluble in ethanol (95) and in diethyl ether, and practically insoluble in water. It dissolves in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Phenylbutazone add 1 mL of acetic acid (100) and 1 mL of hydrochloric acid, and heat on a water bath under a reflux condenser for 30 minutes. Add 10 mL of water, and cool with ice water. Filter, and to the filtrate add 3 to 4 drops of sodium nitrite TS. To 1 mL of this solution add 1 mL of 2-naphthol TS and 3 mL of chlo-roform, and shake: a deep red color develops in the chlo-roform layer. (2) Dissolve 1 mg of Phenylbutazone in 10 mL of dilute sodium hydroxide TS, and dilute with water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Phenyl-butazone in 20 mL of sodium hydroxide solution (2 in 25), and allow to stand at 25 ± 19C for 3 hours: the solution is clear. Determine the absorbance of this solution at 420 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: it is not more than 0.05. Heavy metals <1.07>—Proceed with 2.0 g of Phenyl-butazone according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of phenylbutazone, according to Method 3, and perform the test (not more than 2 ppm). Readily carbonizable substances—Dissolve 1.0 g of Phenylbutazone in 20 mL of sulfuric acid, and allow to stand at 25 ± 19C for exactly 30 minutes: the solution is clear. Determine the absorbance of this solution at 420 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: it is not more than 0.10. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Phenylbutazone, previously dried, dissolve in 25 mL of acetone, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until the solu- tion shows a blue color which persists for 15 seconds (indica-tor: 5 drops of bromothymol blue TS). Perform a blank de-termination with a mixture of 25 mL of acetone and 16 mL of water in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 30.84 mg of C19H20N2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

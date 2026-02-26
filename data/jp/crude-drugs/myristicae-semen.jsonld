@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/myristicae-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Myristicae Semen",
+    "ja": "ニクズク"
+  },
+  "monographId": "JP18-myristicae-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ovoid-globose to ellipsoidal seeds, 1.5 – 3.0 cm in length, 1.3 – 2.0 cm in diameter; externally grayish brown, with wide and shallow longitudinal furrows and fine wrinkles; usually, reveals a hilum at one end, the hilum grayish white to grayish yellow and slightly protruding, and a chalaza at the other end, the chalaza grayish brown to dark brown and slightly concave; dark brown thin perisperm ex-tending irregularly into the light yellow-white to light brown endosperm, by which cut surface exhibiting a marble-like ap-pearance. Odor, characteristic and strong; taste, acrid and slightly bitter. Under a microscope <5.01>, a transverse section reveals perisperm composed of outer and inner layers; the outer layer composed of parenchyma containing red-brown to dark red-brown contents; the inner layer, composed of parenchyma filled with red-brown to dark red-brown con-tents, often extends into endosperm, where numerous oil cells are scattered: several vascular bundles present in the inner layer, the vessels spiral; in parenchyma cells of en-dosperm, simple or compound starch grains and aleurone grains observed; and in the parenchyma cells in the outer layer of perisperm and the marginal part of endosperm, numerous crystals of calcium oxalate observed."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Nutmeg add 5 mL of methanol, allow to stand for 10 minutes with occasional shaking, filter, and use the filtrate as the sample solution. Separately, dissolve 2 mg of myristicin for thin-layer chro-matography in 1 mL of ethanol (95), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and acetone (9:1) to a dis-tance of about 7 cm, and air-dry the plate. Spray evenly diluted sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Loss on drying <5.01> Not more than 16.0z (6 hours). Total ash <5.01> Not more than 2.5z. Essential oil content <5.01> When the test is performed with 10.0 g of pulverized Nutmeg, the essential oil content is not less than 0.5 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

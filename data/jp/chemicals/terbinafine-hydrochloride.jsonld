@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/terbinafine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Terbinafine Hydrochloride",
+    "ja": "テルビナフィン塩酸塩"
+  },
+  "monographId": "JP18-terbinafine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H25N.HCl",
+  "molecularWeight": 327.89,
+  "casNumber": "78628-80-5",
+  "appearance": {
+    "en": "Terbinafine Hydrochloride occurs as a white to pale yellow-white crystalline powder. It is freely soluble in methanol, in ethanol (99.5) and in acetic acid (100), and slightly soluble in water. The pH of a solution of 1.0 g of Terbinafine Hydrochlo- ride in 1000 mL of water is 3.5 to 4.5. Melting point: about 2059C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Terbinafine Hydrochloride in methanol (1 in 40,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Ter-binafine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Terbinafine Hydrochloride in ethanol (99.5) (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Terbinafine Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure using light-resistant vessels. Dissolve 50 mg of Terbinafine Hydro-chloride in 100 mL of a mixture of water and acetonitrile (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add a mixture of water and acetonitrile (1:1) to make exactly 100 mL. Pipet 5 mL of this solution, add a mixture of water and acetonitrile (1:1) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the peak area of a dimer, having the relative retention time of about 1.7 to terbinafine obtained from the sample solution is not larger than 1/2 times the peak area of terbinafine from the standard solution, the area of the peaks other than terbinafine and the dimer from the sample solution is not larger than the peak area of terbina-fine from the standard solution, and the total area of the peaks other than terbinafine is not larger than 3 times the peak area of terbinafine from the standard solution. Flow rate: Adjust so that the retention time of terbinafine is about 15 minutes. Time span of measurement: About 2 times as long as the retention time of terbinafine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of water and acetonitrile (1:1) to make exactly 20 mL. Confirm that the peak area of terbina-fine obtained with 20 mL of this solution is equivalent to 18 to 32z of that with 20 mL of the standard solution. System performance: Dissolve 20 mg of Terbinafine Hy-drochloride in 20 mL of a mixture of water and acetonitrile (1:1), and irradiate under a short-wave lamp (main wave-length: 254 nm) for 1 hour. When the procedure is run with 20 mL of this solution under the above operating conditions, the resolution between the peak of cis-terbinafine, having the relative retention time of about 0.94 to terbinafine, and the peak of terbinafine is not less than 2.0. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of terbinafine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.26 g of Terbinafine Hy-drochloride, previously dried, dissolve in 5 mL of acetic acid (100), add 50 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.79 mg of C21H25N.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

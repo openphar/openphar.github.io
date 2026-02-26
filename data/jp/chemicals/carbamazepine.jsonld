@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/carbamazepine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Carbamazepine",
+    "ja": "カルバマゼピン"
+  },
+  "monographId": "JP18-carbamazepine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H12N2O",
+  "molecularWeight": 236.27,
+  "definition": {
+    "en": "Carbamazepine, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Carbamazepine occurs as a white to slightly yellow-white powder. It is odorless and tasteless at first, and leaves a slightly bitter aftertaste. It is freely soluble in chloroform, sparingly soluble in ethanol (95) and in acetone, and very slightly soluble in water and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Carbamazepine add 2 mL of nitric acid, and heat on a water bath for 3 minutes: an orange-red color is produced. To 0.1 g of Carbamazepine add 2 mL of sulfuric acid, and heat on a water bath for 3 minutes: a yellow color is produced with a green fluorescence. Examine Carbamazepine under ultraviolet light: the solution shows an intense blue fluorescence. Determine the absorption spectrum of the solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Carbamazepine in 10 mL of chloroform: the solution is clear and colorless to pale yellow. Acidity—To 2.0 g of Carbamazepine add exactly 40 mL of water, stir well for 15 minutes, and filter through a glass filter (G3). To 10 mL of this filtrate add 1 drop of phenolphthalein TS and 0.50 mL of 0.01 mol/L sodium hy-droxide VS: a red color is produced. Alkalinity—To 10 mL of the filtrate obtained in (2) add 1 drop of methyl red TS and 0.50 mL of 0.01 mol/L hydrochloric acid VS: a red color is produced. Chloride <1.03>—Dissolve 0.25 g of Carbamazepine in 30 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.20 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.028z). Heavy metals <1.07>—Proceed with 2.0 g of Car- bamazepine according to Method 2, and perform the test. ‌624 Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.25 g of Carbamaze-pine in 10 mL of chloroform, and use this solution as the sample solution. Separately, dissolve 5.0 mg of iminodiben-zyl in chloroform to make exactly 100 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of toluene and methanol (19:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly potassium dichromate-sulfuric acid TS on the plate: the spots other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 50 mg of Carbamazepine, previously dried and accurately weighed, in ethanol (95) to make ex-actly 250 mL. Pipet 5 mL of this solution and add ethanol (95) to make exactly 100 mL. Perform the test as directed under Ultraviolet-visible Spectrophotometry <2.24>, and de-termine the absorbance A of this solution at the wavelength of maximum absorption at about 285 nm. Amount (mg) of carbamazepine (C15H12N2O) ＝ A/490 × 50,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

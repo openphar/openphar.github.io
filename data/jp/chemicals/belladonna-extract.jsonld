@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/belladonna-extract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Belladonna Extract",
+    "ja": "ベラドンナエキス"
+  },
+  "monographId": "JP18-belladonna-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Belladonna Extract contains not less than 0."
+  },
+  "appearance": {
+    "en": "Belladonna Extract has a dark brown color, a characteristic odor and a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Mix 0.5 g of Belladonna Extract with 30 mL of ammonia TS in a flask, transfer the mixture to a separa-tor, then add 40 mL of ethyl acetate, and shake the mixture. Drain off the ethyl acetate layer, add 3 g of anhydrous so-dium sulfate to the ethyl acetate, shake, and filter after the ethyl acetate becomes clear. Evaporate the solvent to dryness under low pressure (in vacuo), dissolve the residue in 1 mL of ethanol (95), and use this solution as the sample solution. Proceed as directed in the Identification under Belladonna Root."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Prepare the test solution with 1.0 g of Belladonna Extract as directed under the Extracts (4), and perform the test (not more than 30 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Belladonna Extract, place in a glass-stoppered centrifuge tube, add 15 mL of am-monia TS, and shake. Add 25 mL of diethyl ether, stopper tightly, shake for 15 minutes, centrifuge, and separate the diethyl ether layer. Repeat this procedure twice with the aqueous layer, using 25 mL each of diethyl ether. Combine the extracts, and evaporate the solvent on a water bath. Dis-solve the residue in 5 mL of the mobile phase, add exactly 3 mL of the internal standard solution, and add the mobile phase to make exactly 25 mL. Proceed as directed under Bel-ladonna Root. Amount (mg) of hyoscyamine (C17H23NO3) ＝ MS × QT/QS × 1/5 × 0.855 MS: Amount (mg) of Atropine Sulfate RS taken, calcu-lated on the dried basis Internal standard solution—A solution of brucine dihydrate in the mobile phase (1 in 2500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

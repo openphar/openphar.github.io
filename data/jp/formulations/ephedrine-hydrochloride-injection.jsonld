@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ephedrine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ephedrine Hydrochloride Injection",
+    "ja": "エフェドリン塩酸塩注射液"
+  },
+  "monographId": "JP18-ephedrine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ephedrine Hydrochloride Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Ephedrine Hydrochloride Injection is a clear, colorless liquid. pH: 4.5 – 6.5 ‌936"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Ephedrine Hydrochloride Injection, equivalent to 0.05 g of Ephedrine Hydrochloride, add water to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 249 nm and 253 nm, between 255 nm and 259 nm, and between 261 nm and 265 nm. Bacterial endotoxins <4.01> Less than 7.5 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exact volume of Ephedrine Hydrochloride In-jection, equivalent to about 40 mg of ephedrine hydrochlo-ride (C10H15NO.HCl), add exactly 10 mL of the internal standard solution and water to make 200 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of ephedrine hydrochloride for assay, previ-ously dried at 1059C for 3 hours, add exactly 10 mL of the internal standard solution to dissolve, add water to make 200 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ephedrine to that of the internal standard. Amount (mg) of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS × QT/QS MS: Amount (mg) of ephedrine hydrochloride for assay taken Internal standard solution—A solution of etilefrine hydro-chloride (1 in 500). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (4) under Ephedrine Hydrochloride. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and ephedrine are eluted in this order with the resolution between these peaks being not less than 15. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ephedrine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

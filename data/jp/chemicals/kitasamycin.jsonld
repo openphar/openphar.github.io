@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kitasamycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kitasamycin",
+    "ja": "キタサマイシン"
+  },
+  "monographId": "JP18-kitasamycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Kitasamycin is a mixture of macrolide substances having antibacterial activity produced by the growth of Streptomyces kitasatoensis. It contains not less than 1450 mg (potency) and not more than 1700 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Kitasamycin occurs as a white to light yellow-white powder. It is very soluble in acetonitrile, in methanol and in ethanol (95), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of a so-lution of Kitasamycin in methanol (1 in 40,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Content ratio of the active principle Dissolve 20 mg of Kitasamycin in diluted acetonitrile (1 in 2) to make 20 mL, and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and measure each peak area by the automatic integra-tion method. Calculate the amounts of leucomycin A5, leu-comycin A4 and leucomycin A1 by the area percentage method: the amounts of leucomycin A5, leucomycin A4 and leucomycin A1 are 40 to 70z, 5 to 25z and 3 to 12z, re-spectively. Relative retention times of leucomycin A4 and leucomycin A1 to leucomycin A5 are about 1.2 and about 1.5, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To a volume of a solution of ammonium acetate (77 in 5000) add diluted phosphoric acid (1 in 150) to adjust to pH 5.5. To 370 mL of this solution add 580 mL of methanol and 50 mL of acetonitrile. Flow rate: Adjust so that the retention time of leucomycin A5 is about 8 minutes. Time span of measurement: About 3 times as long as the retention time of leucomycin A5. System suitability— System performance: Dissolve about 20 mg each of Leu-comycin A5 RS and Josamycin RS in 20 mL of diluted aceto-nitrile (1 in 2). When the procedure is run with 5 mL of this solution under the above operating conditions, leucomycin A5 and josamycin are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of leucomycin A5 is not more than 1.0z. Water <2.48> Not more than 3.0z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Leucomycin A5 RS equivalent to about 30 mg (potency), dis-solve in 10 mL of methanol, add water to make exactly 100 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 3 days. Take exactly a suitable amount of the stand-ard stock solution before use, add phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concentration standard solution and the low concentra-tion standard solution, respectively. Sample solutions—Weigh accurately an amount of Kitasamycin equivalent to about 30 mg (potency), dissolve in 10 mL of methanol, and add water to make exactly 100 mL. Take exactly a suitable amount of the solution, add phos-phate buffer solution (pH 8.0) to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

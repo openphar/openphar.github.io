@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sulpyrine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sulpyrine Injection",
+    "ja": "スルピリン注射液"
+  },
+  "monographId": "JP18-sulpyrine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulpyrine Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Sulpyrine Injection is a clear, colorless or pale yellow liquid. pH: 5.0 – 8.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Sulpyrine Injection, equivalent to 0.2 g of Sulpyrine Hydrate, add water to make 3 mL, then add 2 drops of dilute sulfuric acid and 1 mL of chlorinated lime TS: a deep blue color develops at first, and the color immediately turns red and gradually changes to yel-low. (2) To a volume of Sulpyrine Injection, equivalent to 0.2 g of Sulpyrine Hydrate, add water to make 5 mL, and boil this solution with 3 mL of dilute hydrochloric acid: the odor of sulfur dioxide is perceptible at first, and on further boiling the odor of formaldehyde is perceptible. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 2 mL of Sulpyrine Injection, dilute with water to exactly 100 mL. Measure exactly a volume (V mL) of this solution, equivalent to about 50 mg of sulpyrine hydrate (C13H16N3NaO4S.H2O), and add water to make exactly 100 mL. Pipet 5 mL of this solution, add water to exactly 100 mL, and use this solution as the sample solution. Weigh accurately about 50 mg of sulpyrine for assay (previously de-termine the loss on drying <2.41> under the same conditions as Sulpyrine Hydrate), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to exactly 100 mL, and use this solution as the standard solution. Pipet 2 mL each of the sample solution and standard solution into separate 25-mL volumetric flasks, add 5 mL of ethanol (95), 2 mL of a solution of 4-dimethylaminocinnamaldehyde in ethanol (95) (1 in 250) and 2 mL of acetic acid (100) to each ‌of these solutions, shake well, allow to stand for 15 minutes, and add water to make 25 mL. Perform the test with these solutions as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using a solution prepared with 2 mL of water in the same manner as the blank. Determine the absor-bances, AT and AS, of the subsequent solutions of the sam-ple solution and the standard solution at 510 nm. Amount (mg) of sulpyrine hydrate (C13H16N3NaO4S.H2O) in 1 mL of Sulpyrine Injection ＝ MS × AT/AS × 50/V × 1.054 MS: Amount (mg) of sulpyrine for assay taken, calculated on the dried basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

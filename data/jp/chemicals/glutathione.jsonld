@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glutathione",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glutathione",
+    "ja": "グルタチオン"
+  },
+  "monographId": "JP18-glutathione",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H17N3O6S",
+  "molecularWeight": 307.32,
+  "casNumber": "70-18-8",
+  "definition": {
+    "en": "Glutathione, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Glutathione occurs as a white crystalline pow-der. It is freely soluble in water, and practically insoluble in ethanol (99.5). Melting point: about 1859C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Glutathione, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. D Optical rotation <2.49> [a]20: －15.5 – －17.59(after dry-ing, 2 g, water, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Glutathione in 10 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Glutathione according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Glutathione according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Glutathione in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak having the relative retention time of about 4 to glutathione obtained from the sample solution is not larger than 3/4 times the peak area of glutathione from the standard solution, and the total area of the peaks other than glutathione is not larger than the peak area of glutathione from the standard solu-tion. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate and 2.02 g of sodium 1-heptane sulfonate in 1000 mL of water, and adjust the pH to 3.0 with phosphoric acid. To 970 mL of this solution add 30 mL of methanol. Flow rate: Adjust so that the retention time of glutathione is about 5 minutes. Time span of measurement: About 6 times as long as the retention time of glutathione, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 10 mL of the stand-ard solution, and add the mobile phase to make exactly 100 mL. Confirm that the peak area of glutathione obtained with 10 mL of this solution is equivalent to 8 to 12z of that with 10 mL of the standard solution. System performance: Dissolve 50 mg of glutathione, 10 mg of D-phenylglycine and 50 mg of ascorbic acid in 100 mL of water. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, ascorbic acid, glutathione and D-phenylglycine are eluted in this order, and the resolutions between the peaks of ascorbic acid and glutathione and between the peaks of glutathione and D-phenylglycine are not less than 5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glutathione is not more than 1.5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Glutathione, previ-ously dried, dissolve in 50 mL of a solution of metaphos- ‌1080 phoric acid (1 in 50), and titrate <2.50> with 0.05 mol/L iodine VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L iodine VS ＝ 30.73 mg of C10H17N3O6S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

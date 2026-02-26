@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amyl-nitrite",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amyl Nitrite",
+    "ja": "亜硝酸アミル"
+  },
+  "monographId": "JP18-amyl-nitrite",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H11NO2",
+  "molecularWeight": 117.15,
+  "definition": {
+    "en": "Amyl Nitrite is the nitrous acid ester of 3-methyl-butanol-1 and contains a small quantity of 2-methyl-butanol-1 and the nitrous acid esters of other homo-logues."
+  },
+  "appearance": {
+    "en": "Amyl Nitrite is a clear, light yellow-liquid, and has a characteristic, fruity odor. It is miscible with ethanol (95), and with diethyl ether. It is practically insoluble in water. It is affected by light and by heat. It is volatile at ordinary temperature and flammable even at a low temperature. Boiling point: about 979C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared spectrum of Amyl Nitrite as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi-ties of absorption at the same wave numbers. Specific gravity <2.56> d 20: 0.871 – 0.880"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—To 5 mL of Amyl Nitrite add a mix-ture of 1.0 mL of 1 mol/L sodium hydroxide VS, 10 mL of water and 1 drop of phenolphthalein TS, shake, and allow to stand for 1 minute: the light red color of the water layer does not disappear. Water—Allow 2.0 mL of Amyl Nitrite to stand in ice water: no turbidity is produced. Aldehyde—To 3 mL of a mixture of equal volumes of silver nitrate TS and aldehyde free-ethanol add ammonia TS dropwise until the precipitate first formed is redissolved. Add 1.0 mL of Amyl Nitrite, and warm between 609C and 709C for 1 minute: a brown to black color is not produced. Residue on evaporation—Evaporate 10.0 mL of ‌JP XVIII Official Monographs / Antipyrine 475‌ Amyl Nitrite on a water bath in a draft chamber, carefully protecting from flame, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a volumetric flask containing 10 mL of ethanol (95), add about 0.5 g of Amyl Nitrite, and weigh accurately again. Add exactly 25 mL of 0.1 mol/L silver nitrate VS, then add 15 mL of potassium chlorate solu-tion (1 in 20) and 10 mL of dilute nitric acid, stopper the flask immediately, and shake it vigorously for 5 minutes. Dilute with water to make exactly 100 mL, shake, and filter through dry filter paper. Discard the first 20 mL of the fil-trate, measure exactly 50 mL of the subsequent filtrate, and titrate <2.50> the excess silver nitrate with 0.1 mol/L ammo-nium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L silver nitrate VS ＝ 35.15 mg of C5H11NO2 ‌Containers and storage Containers—Hermetic containers not exceeding 10–ml capacity. Storage—Light-resistant, in a cold place, and remote from fire. Dental Antiformin Dental Sodium Hypochlorite Solution"
+      }
+    }
+  ]
+}

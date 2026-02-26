@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/argatroban-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Argatroban Hydrate",
+    "ja": "アルガトロバン水和物"
+  },
+  "monographId": "JP18-argatroban-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H36N6O5S.H2O",
+  "molecularWeight": 526.65,
+  "casNumber": "141396-28-3",
+  "appearance": {
+    "en": "Argatroban Hydrate occurs as white, crystals or crystalline powder. It has a bitter taste. It is freely soluble in acetic acid (100), sparingly soluble in methanol, slightly soluble in ethanol (99.5), and very slightly soluble in water. It is gradually decomposed on exposure to light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Argatroban Hydrate in ethanol (99.5) (1 in 20,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ar-gatroban Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋175 – ＋1859(0.2 g calcu-lated on the anhydrous basis, methanol, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Argatroban Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Incinerate 2.0 g of Argatroban Hy- drate according to Method 4. After cooling, add 10 mL of dilute hydrochloric acid to the residue, dissolve by warming on a water bath, and perform the test using this solution as the test solution. Add 10 mL of a solution of magnesium ni-trate hexahydrate in ethanol (95) (1 in 10), then add 1.5 mL of hydrogen peroxide (30), and fire to burn (not more than 1 ppm). Related substance 1—Dissolve 50 mg of Argatroban Hydrate in 40 mL of methanol, add water to make 100 mL, and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area from the sample solution by the automatic integration method, and calculate the amount of them by the area percentage method: the amount of each peak other than argatroban is not more than 0.1z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase A: To 2.5 mL of acetic acid (100) add water to make 1000 mL, and adjust the pH to 5.0 with ammonia TS. To 500 mL of this solution add 500 mL of methanol. Mobile phase B: To 2.5 mL of acetic acid (100) add water to make 1000 mL, and adjust the pH to 5.0 with ammonia TS. To 200 mL of this solution add 800 mL of methanol. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. the procedure is run with 10 mL of this solution under the above operating conditions, methyl benzoate and argatroban are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of argatroban is not more than 2.0z. Related substance 2—Dissolve 0.10 g of Argatroban Hydrate in 10 mL of methanol, and use this solution as the sample solution. Pipet 3 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 5 mL of this solu-tion, add methanol to make exactly 50 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of methanol, ethyl acetate and water (10:10:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm): the number of spots other than the principal spot obtained from the sample solu-tion is not more than 2, and they are not more intense than the spot from the standard solution. Water <2.48> 2.5 – 4.5z (0.2 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g). Isomer ratio Dissolve 50 mg of Argatroban Hydrate in 50 mL of methanol, add water to make 100 mL, and use this so-lution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatogra-phy <2.01> according to the following conditions. Determine the areas of two adjacent peaks, Aa and Ab, having the reten-tion times of about 40 minutes, where Aa is the peak area of shorter retention time and Ab is the peak area of longer retention time: Ab/(Aa ＋ Ab) is between 0.30 and 0.40. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Time after injection 0 – 5 5 – 35 100 → 5 0 → 95 of sample (min) Mobile phase A (volz) Mobile phase B (volz) Column temperature: A constant temperature of about 409C. Mobile phase: To 500 mL of water add 500 mL of metha-nol, 13 mL of diluted 40z tetrabutylammonium hydroxide TS (1 in 4) and 0.68 mL of phosphoric acid, and adjust the pH to 6.8 with ammonia TS and diluted ammonia solution Flow rate: About 1.0 mL per minute. Time span of measurement: About 1.5 times as long as the retention time of argatroban, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase A to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase A to make exactly 10 mL. Confirm that the peak area of argatroban obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: Dissolve 5 mg of Argatroban Hy-drate and 5 mL of methyl benzoate in 40 mL of methanol, and add water to make 100 mL. To 5 mL of this solution add 40 mL of methanol and water to make 100 mL. When (28) (1 in 20). Flow rate: Adjust so that the retention time of the peak having the shorter retention time of the two peaks of ar-gatroban is about 40 minutes. System suitability— System performance: When the procedure is run with 10 mL of the sample solution under the above operating condi-tions, the resolution between the two peaks is not less than 1.2. System repeatability: When the test is repeated 6 times with 10 mL of the sample solution under the above operating conditions, the relative standard deviation of the total area of the two separate peaks of argatroban is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Argatroban Hy-drate, dissolve in 20 mL of acetic acid for nonaqueous titra-tion, add 40 mL of acetone for nonaqueous titration, and ‌JP XVIII Official Monographs / L-Arginine Hydrochloride 481‌ titrate <2.50> with 0.1 mol/L perchloric acid VS (potentio-metric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 50.86 mg of C23H36N6O5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

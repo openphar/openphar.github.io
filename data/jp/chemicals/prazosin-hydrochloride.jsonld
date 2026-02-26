@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prazosin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Prazosin Hydrochloride",
+    "ja": "プラゾシン塩酸塩"
+  },
+  "monographId": "JP18-prazosin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H21N5O4.HCl",
+  "molecularWeight": 419.86,
+  "definition": {
+    "en": "Prazosin Hydrochloride, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Prazosin Hydrochloride occurs as a white crys-talline powder. It is slightly soluble in methanol, very slightly soluble in ethanol (99.5) and practically insoluble in water. It gradually turns pale yellow-white on exposure to light. Melting point: about 2709C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Prazosin Hydrochloride in 0.01 mol/L hydro-chloric acid-methanol TS (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum (100): the solution responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Prazosin Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 20 mg of Prazosin Hy-drochloride in 20 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine each peak area of both solutions by the automatic integration method: the area of each peak other than prazo-sin obtained from the sample solution is not larger than 2 times the peak area of prazosin from the standard solution, and the total area of the peaks other than prazosin from the sample solution is not larger than 5 times the peak area of prazosin from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3.484 g of sodium 1-pentane sul-fonate and 18 mL of tetramethylammonium hydroxide in 900 mL of water, adjust the pH to 5.0 with acetic acid (100), and add water to make 1000 mL. To this solution add 1000 mL of methanol. Flow rate: Adjust so that the retention time of prazosin is about 9 minutes. Time span of measurement: About 6 times as long as the retention time of prazosin. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of prazosin obtained with 20 mL of this solution is equivalent to 35 to 65z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of prazosin are not less than 4000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak ‌area of prazosin is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Prazosin Hy-drochloride and Prazosin Hydrochloride RS, previously dried, and dissolve each in methanol to make exactly 50 mL. Pipet 3 mL each of these solutions, and add a mixture of methanol and water (7:3) to make exactly 100 mL, and use these solutions as the sample solution and the standard solu-tion, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of prazosin in each solution. Description Prednisolone occurs as a white crystalline pow-der. It is soluble in methanol and in ethanol (95), slightly solu-ble in ethyl acetate, and very slightly soluble in water. Melting point: about 2359C (with decomposition). It shows crystal polymorphism. Identification (1) To 2 mg of Prednisolone add 2 mL of sulfuric acid, and allow to stand for 2 to 3 minutes: a deep red color, without fluorescence, develops. To this solution add 10 mL of water cautiously: the color disappears and a gray, flocculent precipitate is formed. (2) Determine the infrared absorption spectrum of Pred-nisolone, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Prednisolone RS: both Amount (mg) of prazosin hydrochloride (C ＝ MS × AT/AS 19H21N5O4.HCl) spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spec-tra, dissolve Prednisolone and Prednisolone RS in ethyl MS: Amount (mg) of Prazosin Hydrochloride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol, water, acetic acid (100) and diethylamine (3500:1500:50:1). Flow rate: Adjust so that the retention time of prazosin is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of prazosin are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of prazosin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

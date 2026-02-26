@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cinoxacin-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cinoxacin Capsules",
+    "ja": "シノキサシンカプセル"
+  },
+  "monographId": "JP18-cinoxacin-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cinoxacin Capsules contain not less than 95.0z and not more than 105.0z of the labeled amount of cinox-acin (C12H10N2O5: 262.22). Method of preparation Prepare as directed under Cap-sules, with Cinoxacin. Identification To a quantity of the contents of Cinoxacin Capsules, equivalent to 10 mg of Cinoxacin, add 20 mL of acetone, shake well, and centrifuge. To 3 mL of the superna-tant liquid add acetone to make 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of cinoxa- JP XVIII Official Monographs / Ciprofloxacin 763 ‌cin for assay in 20 mL of acetone. To 3 mL of this solution add acetone to make 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of aceto-nitrile, water and ammonia solution (28) (14:4:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show a blue-purple color and the same Rf value. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 capsule of Cinoxacin Capsules add 40 mL of dilute sodium hydroxide TS, and dissolve the capsule in lukewarm water with occasional shaking. After cooling, add water and shake well, add water to make exactly V mL so that each mL contains about 1 mg of cinoxacin (C H N O ), and filter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of the contents of Cinoxacin Capsules, equivalent to 10 mg of Cinoxacin, add 20 mL of acetone, shake well, and centrifuge. To 3 mL of the superna-tant liquid add acetone to make 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of cinoxa- JP XVIII Official Monographs / Ciprofloxacin 763 ‌cin for assay in 20 mL of acetone. To 3 mL of this solution add acetone to make 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of aceto-nitrile, water and ammonia solution (28) (14:4:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show a blue-purple color and the same Rf value. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 capsule of Cinoxacin Capsules add 40 mL of dilute sodium hydroxide TS, and dissolve the capsule in lukewarm water with occasional shaking. After cooling, add water and shake well, add water to make exactly V mL so that each mL contains about 1 mg of cinoxacin (C H N O ), and filter."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Cinoxacin Capsules, take out the contents, and powder. Wash the capsule shells with a small amount of diethyl ether, allow to stand at room temperature to vaporize the diethyl ether, weigh accurately the mass of the capsule shells, and calculate the mass of the contents. Weigh accurately a por-tion of the powder, equivalent to about 50 mg of cinoxacin (C12H10N2O5), add 10 mL of dilute sodium hydroxide TS, shake, add water to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet 1 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 50 mg of cinoxacin for assay, previously dried at 1059C for 1 hour, dissolve in 10 mL of dilute sodium hydroxide TS, and add water to make exactly 100 mL. Pipet 1 mL of this solution, add 0.1 mol/L hydro-chloric acid TS to make exactly 50 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absor-bances, AT and AS, at 354 nm. 12 10 2 5 Discard the first 20 mL of the filtrate, pipet 1 mL of the sub-sequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 0.2 g of cinoxacin for assay, previously dried at 1059C for 1 hour, dissolve in 40 mL of dilute sodium hydroxide TS, and add water to make exactly 200 mL. Pipet 1 mL of this solution, add 0.1 mol/L of hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and de-termine the absorbances, AT and AS, at 354 nm. Amount (mg) of cinoxacin (C12H10N2O5) ＝ MS × AT/AS × V/200 MS: Amount (mg) of cinoxacin for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of 2nd solution for dissolution test as the dissolution medium, the dissolution rate in 90 minutes of Cinoxacin Capsules is not less than 70z. Start the test with 1 capsule of Cinoxacin Capsules, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 11 mg of cinoxacin (C12H10N2O5), and use this solution as the sample solution. Separately, weigh accurately about 22 mg of cinoxacin for assay, previously dried at 1059C for 1 hour, and dissolve in the dissolution medium to make exactly 100 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 100 mL, and use this solution as the standard solution. Per-form the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 351 nm. Dissolution rate (z) with respect to the labeled amount of cinoxacin (C12H10N2O5) ＝ MS × AT/AS × V?/V × 1/C × 45 MS: Amount (mg) of cinoxacin for assay taken C: Labeled amount (mg) of cinoxacin (C12H10N2O5) in 1 capsule Amount (mg) of cinoxacin (C12H10N2O5) ＝ MS × AT/AS MS: Amount (mg) of cinoxacin for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Capsule"
+}

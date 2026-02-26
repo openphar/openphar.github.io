@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-hydroxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Hydroxide",
+    "ja": "水酸化カリウム"
+  },
+  "monographId": "JP18-potassium-hydroxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Hydroxide contains not less than 85."
+  },
+  "appearance": {
+    "en": "Potassium Hydroxide occurs as white fused masses, in small pellets, in flakes, in sticks and in other forms. It is hard and brittle, and shows a crystalline fracture. It is freely soluble in water and in ethanol (95), and practi- cally insoluble in diethyl ether. It rapidly absorbs carbon dioxide in air. It deliquesces in the presence of moisture."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Potassium Hydroxide (1 in 500) is alkaline. (2) A solution of Potassium Hydroxide (1 in 25) re-sponds to Qualitative Tests <1.09> for potassium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Potassium Hydroxide in 20 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 2.0 g of Potassium Hy- ‌droxide in water to make 100 mL. To 25 mL of the solution add 8 mL of dilute nitric acid and water to make 50 mL. Per-form the test using this solution as the test solution. Prepare the control solution with 0.7 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.050z). Heavy metals <1.07>—Dissolve 1.0 g of Potassium Hydroxide in 5 mL of water, add 7 mL of dilute hydrochlo-ric acid, and evaporate on a water bath to dryness. Dissolve the residue in 35 mL of water, 2 mL of dilute acetic acid and 1 drop of ammonia TS, add water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: evaporate 7 mL of dilute hy-drochloric acid on a water bath to dryness, dissolve the residue in 2 mL of dilute acetic acid and 3.0 mL of Standard Lead Solution, and add water to make 50 mL (not more than 30 ppm). Sodium—Dissolve 0.10 g of Potassium Hydroxide in 10 mL of dilute hydrochloric acid, and perform the test as directed under Flame Coloration Test <1.04> (1): no persis-tent yellow color develops. Potassium carbonate—The amount of potassium car-bonate (K2CO3: 138.21) is not more than 2.0z when calcu-lated by the following equation using B (mL) obtained in the Assay. Amount of potassium carbonate (mg) ＝ 138.21 × B"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Potassium Hydrox-ide, and dissolve in 40 mL of freshly boiled and cooled water. Cool the solution to 159C, add 2 drops of phenol-phthalein TS, and titrate <2.50> with 0.5 mol/L sulfuric acid VS until the red color of the solution disappears. Record the amount A (mL) of 0.5 mol/L sulfuric acid VS consumed, then add 2 drops of methyl orange TS, and titrate <2.50> again with 0.5 mol/L sulfuric acid VS until the solution changes to a persistent light red color. Record the amount B (mL) of 0.5 mol/L sulfuric acid VS consumed. Calculate the amount potassium hydroxide (KOH) from the amount, A (mL) － B (mL). Each mL of 0.5 mol/L sulfuric acid VS ＝ 56.11 mg of KOH"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

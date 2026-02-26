@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxygen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxygen",
+    "ja": "酸素"
+  },
+  "monographId": "JP18-oxygen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "O2",
+  "molecularWeight": 32.0,
+  "definition": {
+    "en": "Oxygen is oxygen produced by the air liquification separation method. It contains not less than 99."
+  },
+  "appearance": {
+    "en": "Oxygen is a colorless gas under atmospheric pressure, and is odorless. 1 mL of Oxygen dissolves in 32 mL of water, and in 7 mL of ethanol (95) at 209C and at a pressure of 101.3 kPa. 1000 mL of Oxygen at 09C and at a pressure of 101.3 kPa weighs 1.429 g."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Transfer 1 mL each of Oxygen and oxygen directly from cylinders with a pressure-reducing valve to gas-measuring tubes or syringes for gas chromatography, using a polyvinyl chloride induction tube. Perform the test with these gases as directed under Gas Chromatography <2.02> according to the following conditions: the retention time of principal peak in the chromatogram obtained from Oxygen is the same as that of the peak in the chromatogram from oxygen. Operating conditions— Proceed as directed in the operating conditions in the Purity."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Nitrogen—Transfer 1.0 mL of Oxygen directly from cylinder with a pressure-reducing valve to gas-measuring tube or syringe for gas chromatography, using a polyvinyl chloride induction tube. Perform the test with this gas as directed under Gas Chromatography <2.02> according to the following conditions, and determine the peak area AT of nitrogen. Introduce 0.50 mL of nitrogen into the gas mixer, draw carrier gas into the mixer to make exactly 100 mL, allow to mix thoroughly and use this gas as the standard mixed gas. Perform the test in the same manner with 1.0 mL of this mixture as directed above, and determine the peak area AS of nitrogen: AT is not larger than AS. Operating conditions— Detector: A thermal conductivity detector. Column: A column 3 mm in inside diameter and 3 m in length, packed with zeolite for gas chromatography 250- to 355-mm in particle diameter (a porosity of 0.5 nm). Column temperature: A constant temperature of about 509C. Carrier gas: Hydrogen or helium. Flow rate: Adjust so that the retention time of nitrogen is about 5 minutes. System suitability— System performance: Introduce 0.5 mL of nitrogen into a gas mixer, add Oxygen to make 100 mL, and mix thor-oughly. When the test is run with 1.0 mL of the mixture under the above operating conditions, oxygen and nitrogen are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 1.0 mL of the standard mixed gas under the above oper-ating conditions, the relative standard deviation of the peak area of nitrogen is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the assay by using the magnetic analysis. Apparatus—Oxygen zero gas for assay and oxygen span gas for assay are delivered individually into an appa- ratus via a sample gas-introducing system and a switching valve. An apparatus with a pressure detector of magnetic force method has an introducing system not only for the above gases but also for oxygen reference gas for assay. Each gas is delivered at the flow rate specified for the appa-ratus under control of a flow meter and a manometer. ‌Procedure—Inject oxygen zero gas for assay into the apparatus at the set flow rate, and set the zero after reaching a stable indication. Then inject oxygen span gas for assay at the specified flow rate, and set the span after reaching a sta-ble indication. Confirm that both these indicated values after the settings are within the specification of the apparatus to confirm the suitability of the apparatus. Stop injecting each calibration gas, inject the sample gas at the specified flow rate, and read the indication V (volz). Volume (volz) of oxygen ＝ V (volz) When the apparatus is controlled by periodic calibration, determine appropriately the frequency of calibration accord-ing to the apparatus manufacturer's recommendations, past control records, or statistical methods, and maintain the en-vironment for use and the conditions of injection of the sam-ple gas within the range recommended by the apparatus manufacturer."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Cylinders. Storage—Not exceeding 409C."
+  }
+}

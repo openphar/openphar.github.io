@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/testosterone-enanthate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Testosterone Enanthate",
+    "ja": "テストステロンエナント酸エステル"
+  },
+  "monographId": "JP18-testosterone-enanthate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H40O3",
+  "molecularWeight": 400.59,
+  "definition": {
+    "en": "Testosterone Enanthate, when dried, contains not less than 95."
+  },
+  "appearance": {
+    "en": "Testosterone Enanthate occurs as white to pale yellow, crystals or crystalline powder, or a pale yellow-brown viscous liquid. It is odorless or has a slight, character-istic odor. It is freely soluble in ethanol (99.5), and practically insolu-ble in water. Melting point: about 369C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Heat 25 mg of Testosterone Enanthate with 2 mL of a solution of potassium hydroxide in methanol (1 in 100) under a reflux condenser on a water bath for 1 hour, cool, and add 10 mL of water. Collect the produced precipi-tate by suction, wash with water until the last washing is neu-tral, and dry the precipitate in a desiccator (in vacuum, phos-phorus (V) oxide) for 4 hours: the precipitate melts <2.60> between 1519C and 1579C. D Optical rotation <2.49> [a]25: ＋76 – ＋869(after drying, 0.1 g, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Acidity—Dissolve 0.5 g of Testosterone Enanthate in 10 mL of ethanol (95) which has previously been rendered neutral to bromothymol blue TS, and add 2 drops of bromo-thymol blue TS and 0.50 mL of 0.01 mol/L sodium hydrox-ide VS: the color of the solution is light blue. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Testosterone Enan-thate, previously dried, and dissolve in ethanol (95) to make exactly 100 mL. Measure exactly 10 mL of this solution, and ‌dilute with ethanol (95) to make exactly 100 mL. Measure ex-actly 10 mL of this solution, and dilute with ethanol (95) to make exactly 100 mL. Perform the test as directed under Ultraviolet-visible Spectrophotometry <2.24> with this solu-tion. Determine the absorbance A of this solution at the wavelength of maximum absorption at about 241 nm.‌ Amount (mg) of testosterone enanthate (C26H40O3) ＝ A/426 × 100,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 309C."
+  }
+}

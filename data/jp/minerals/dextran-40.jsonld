@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/dextran-40",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dextran 40",
+    "ja": "デキストラン 40"
+  },
+  "monographId": "JP18-dextran-40",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dextran 40 is a product obtained by partial decom-position of polysaccharide, which is produced by fer-mentation of sucrose with Leuconostoc mesenteroides van Tieghem (Lactobacillaceae), and the average mo-lecular mass is about 40,000. When dried, it contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dextran 40 occurs as a white, amorphous pow-der. It is odorless and tasteless. It is practically insoluble in ethanol (95) and in diethyl ‌838 ether. It dissolves gradually in water. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 mL of a solution of Dextran 40 (1 in 3000) add 2 mL of anthrone TS: a blue-green color develops and turns gradually dark blue-green. Then to this solution add 1 mL of diluted sulfuric acid (1 in 2) or 1 mL of acetic acid (100): the solution does not change in color. pH <2.54> Dissolve 1.0 g of Dextran 40 in 10 mL of water: the pH of this solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dextran 40 in 10 mL of water by warming: the solution is clear and colorless. Chloride <1.03>—Perform the test with 2.0 g of Dextran 40. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.018z). the residue, and determine the intrinsic viscosity of the dried substance as directed in (1): the value is not more than 0.27. Low-molecular fraction—Weigh accurately about 6 g of Dextran 40, previously dried, dissolve in water to make exactly 100 mL, and transfer to a flask. Add slowly enough methanol to get 90z to 93z of the precipitate (usually 115 to 135 mL) at 25 ± 19C with stirring, centrifuge at 259C, and evaporate the supernatant liquid to dryness on a water bath. Dry the residue, and determined the intrinsic viscosity of the dried substance as directed in (1): the value is not less than 0.09."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 3 g of Dextran 40, previ-ously dried, dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Determine the opti-cal rotation aD with the sample solution as directed under Optical Rotation Determination <2.49> in a 100-mL cell at 20 ± 19C. Heavy metals <1.07>—Proceed with 1.0 g of Dextran 40 according to Method 1, and perform the test. Prepare the Amount (mg) of dextran 40 ＝ aD × 253.8 control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.5 g of Dextran 40 according to Method 1, and perform the test (not more than 1.3 ppm). Nitrogen—Weigh accurately about 2 g of Dextran 40, previously dried, and perform the test as directed under Nitrogen Determination <1.08>, where 10 mL of sulfuric acid is used for decomposition, and 45 mL of a solution of so-dium hydroxide (2 in 5) is added: the amount of nitrogen (N: 14.01) is not more than 0.010z. Reducing substances—Weigh exactly 3.00 g of Dex-tran 40, previously dried, dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Sepa-rately, weigh exactly 0.450 g of glucose, previously dried, dissolve in water to make exactly 500 mL, and use this solu-tion as the control solution. Pipet 5 mL each of the sample solution and the control solution, and add water to make exactly 50 mL, respectively. Pipet 5 mL each of these solu-tions, add 5 mL of alkaline copper TS, exactly measured, and heat for 15 minutes in a water bath. After cooling, add 1 mL of a solution of potassium iodine (1 in 40) and 1.5 mL of dilute sulfuric acid, and titrate <2.50> with 0.005 mol/L so-dium thiosulfate VS (indicator: 2 mL of starch TS). The titrant consumed for the sample solution is not less than that for the control solution. Loss on drying <2.41> Not more than 5.0z (1 g, 1059C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Bacterial endotoxins <4.01> Less than 2.5 EU/g. Viscosity <2.53> (1) Dextran 40—Weigh accurately 0.2 to 0.5 g of Dextran 40, previously dried, dissolve in water to make exactly 100 mL, and use this solution as the sample solution. Perform the test with the sample solution and with water as directed in Method 1 at 259C : the intrinsic viscosity is between 0.16 and 0.19. (2) High-molecular fraction—Weigh accurately about 6 g of Dextran 40, previously dried, dissolve in water to make exactly 100 mL, and transfer to a flask. Add slowly enough methanol to get 7z to 10z of the precipitate (usually 80 to 90 mL) at 25 ± 19C with stirring. Dissolve the precipitate at 359C in a water bath with occasional shaking, and allow to stand for more than 15 hours at 25 ± 19C. Remove the supernatant liquid by decantation, and heat the precipitate of the lower layer to dryness on a water bath. Dry"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

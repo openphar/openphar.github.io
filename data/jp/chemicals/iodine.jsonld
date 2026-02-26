@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iodine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iodine",
+    "ja": "ヨウ素"
+  },
+  "monographId": "JP18-iodine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Iodine contains not less than 99."
+  },
+  "appearance": {
+    "en": "Iodine occurs as grayish black, plates or granular, heavy crystals, having a metallic luster and a char-acteristic odor. It is freely soluble in diethyl ether, soluble in ethanol (95), sparingly soluble in chloroform, and very slightly soluble in water. It dissolves in potassium iodide TS. It sublimes at room temperature."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Iodine in ethanol (95) (1 in 50) shows a red-brown color. A solution of Iodine in chloroform (1 in 1000) shows a red-purple to purple color. Add 0.5 mL of starch TS to 10 mL of a saturated so-lution of Iodine: a dark blue color is produced. When the mixture is boiled, the color disappears, and it reappears on cooling. ‌Purity (1) Non-volatile residue—Sublime 2.0 g of Iodine on a water bath, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg. (2) Chloride or bromide—Mix 1.0 g of finely powdered Iodine with 20 mL of water, and filter the mixture. To 10 mL of the filtrate add dropwise diluted sulfurous acid solu-tion (1 in 5) until the yellow color disappears. Add 1 mL of ammonia TS, followed by 1 mL of silver nitrate TS in small portions, and add water to make 20 mL. Shake well, filter, and after discarding the first 2 mL of the filtrate, take 10 mL of the subsequent filtrate. To the filtrate add 2.0 mL of nitric acid and water to make 20 mL: the solution so ob-tained has no more turbidity than the following control solu-tion. Control solution: To 0.20 mL of 0.01 mol/L hydrochloric acid VS add 5 mL of water, 2.5 mL of ammonia TS, 1 mL of silver nitrate TS, 2.0 mL of nitric acid and water to make 20 mL."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Place 1 g of potassium iodide and 1 mL of water in a glass-stoppered flask, weigh accurately, add about 0.3 g of Iodine to the flask, and weigh accurately again. Dissolve the iodine by gentle shaking, add 20 mL of water and 1 mL of dilute hydrochloric acid, and titrate <2.50> with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 12.69 mg of I"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

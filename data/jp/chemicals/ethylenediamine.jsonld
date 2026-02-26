@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethylenediamine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethylenediamine",
+    "ja": "エチレンジアミン"
+  },
+  "monographId": "JP18-ethylenediamine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C2H8N2",
+  "molecularWeight": 60.1,
+  "definition": {
+    "en": "Ethylenediamine contains not less than 97."
+  },
+  "appearance": {
+    "en": "Ethylenediamine is a clear, colorless to pale yellow liquid. It has an ammonia-like odor. It is miscible with water, with ethanol (95) and with diethyl ether. It has a caustic nature and an irritating property. It is gradually affected by air. Specific gravity d 20: about 0.898"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Ethylenediamine (1 in 500) is alkaline. To 2 mL of copper (II) sulfate TS add 2 drops of Ethylenediamine: a blue-purple color develops. To 0.04 g of Ethylenediamine add 6 drops of benzoyl chloride and 2 mL of a solution of sodium hydroxide (1 in 10), warm for 2 to 3 minutes with occasional shaking, collect the white precipitate formed, and wash with water. Dissolve the precipitate in 8 mL of ethanol (95) by warming, promptly add 8 mL of water, cool, filter the crystals, wash with water, and dry at 1059C for 1 hour: it melts <2.60> between 2479C and 2519C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Place 1.0 g of Ethylene-diamine in a porcelain crucible, evaporate to dryness on a water bath, cover loosely, ignite at a low temperature until charred, proceed according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Residue on evaporation—Pipet 5 mL of Ethylene-diamine, heat on a water bath to dryness, and dry to con-stant mass at 1059C: the mass of the residue does not exceed 3.0 mg. Distilling range <2.57> 114 – 1199C, not less than 95 volz."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Ethylenediamine in a glass-stoppered conical flask, add 50 mL of water, and titrate <2.50> with 1 mol/L hydrochloric acid VS (indicator: 3 drops of bromophenol blue TS). Each mL of 1 mol/L hydrochloric acid VS ＝ 30.05 mg of C2H8N2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and almost well-filled."
+  }
+}

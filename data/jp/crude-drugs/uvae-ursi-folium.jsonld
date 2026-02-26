@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/uvae-ursi-folium",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Uvae Ursi Folium",
+    "ja": "ウワウルシ"
+  },
+  "monographId": "JP18-uvae-ursi-folium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Obovate to spatulate leaves, 1 – 3 cm in length, 0.5 – 1.5 cm in width; upper surface yellow-green to dark green; lower surface light yellow-green; margin entire; apex obtuse or round, sometimes retuse; base cuneate; petiole very short; lamina thick with characteristic reticulate vena- tion, and easily broken. Odor, slight; taste, slightly bitter and astringent. Under a microscope <5.01>, the transverse section reveals thick cuticule; parenchyma cells of palisade tissue and sponge tissue being similar in form; in the vascular bundle, medullary ray consisting of 2 to 7 rows of one-cell line, ap-pearing as bones of Japanese fan; polygonal solitary crystals and clustered crystals of calcium oxalate present sparsely in cells on both outer and inner sides of the vascular bundle, but no crystals in mesophyll."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Macerate 0.5 g of pulverized Bearberry Leaf with 10 mL of boiling water, shake the mixture for a few minutes, allow to cool, and filter. Place 1 drop of the fil-trate on filter paper, and add 1 drop of iron (III) chloride TS: a dark purple color appears. (2) To 0.2 g of pulverized Bearberry Leaf add 10 mL of a mixture of ethanol (95) and water (7:3), shake for 5 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of arbutin for thin-layer chromatography in 1 mL of a mixture of ethanol (95) and water (7:3), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl formate, water and formic acid (8:1:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid upon the plate, and heat the plate at 1059C for 10 minutes: one of the several spots obtained from the sample solution and the spot from the standard solution show the same color tone and the Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Twig—When perform the test of foreign mat-ter <5.01>, the amount of twigs contained in Bearberry Leaf does not exceed 4.5z. (2) Foreign matter <5.01>—The amount of foreign mat-ter other than twigs contained in Bearberry Leaf does not exceed 2.0z. Total ash <5.01> Not more than 4.0z. Acid-insoluble ash <5.01> Not more than 1.5z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Bear-berry Leaf in a glass-stoppered centrifuge tube, add 40 mL of water, shake for 30 minutes, centrifuge, and separate the supernatant liquid. To the residue add 40 mL of water, and proceed in the same manner. To the combined extracts add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of arbutin for assay, previously dried for 12 hours (in vacu-um, silica gel), dissolve in water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak areas, AT and AS, of arbutin in each solution. Amount (mg) of arbutin ＝ MS × AT/AS MS: Amount (mg) of arbutin for assay taken Operating conditions— Detector: An ultraviolet spectrophotometer (wavelength: 280 nm). Column: A stainless steel column 4 – 6 mm in inside diam-eter and 15 – 25 cm in length, packed with octadecylsilanized silica gel (5 – 10 mm in particle diameter). Column temperature: A constant temperature of about 209C. ‌1956‌‌ Beef Tallow / Crude Drugs and Related Drugs Mobile phase: A mixture of water, methanol and 0.1 mol/L hydrochloric acid TS (94:5:1). Flow rate: Adjust so that the retention time of arbutin is about 6 minutes. System suitability— System performance: Dissolve 50 mg each of arbutin for assay, hydroquinone and gallic acid in water to make 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, arbutin, hydroqui-none and gallic acid are eluted in this order with the resolu-tions among these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of arbutin is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

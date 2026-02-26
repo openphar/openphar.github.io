@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-picosulfate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Picosulfate Hydrate",
+    "ja": "ピコスルファートナトリウム水和物"
+  },
+  "monographId": "JP18-sodium-picosulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Picosulfate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Sodium Picosulfate Hydrate occurs as a white crystalline powder. It is odorless and tasteless. It is very soluble in water, soluble in methanol, slightly soluble in ethanol (99.5), and practically insoluble in diethyl ether. It is gradually colored by light. The pH of a solution of 1.0 g of Sodium Picosulfate Hy-drate in 20 mL of water is between 7.4 and 9.4."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 5 mg of Sodium Picosulfate Hy-drate with 0.01 g of 1-chloro-2,4-dinitrobenzene, and melt Heavy metals <1.07>—Proceed with 2.0 g of Sodium Picosulfate Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Sodium Picosulfate Hydrate according to Method 3, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.25 g of Sodium Picosulfate Hydrate in 5 mL of methanol, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add methanol to make exactly 500 mL, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (74:20:19) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Water <2.48> 3.0 – 4.5z (0.5 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Sodium Picosulfate Hydrate, dissolve in 50 mL of methanol, add 7 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 48.14 mg of C H NNa O S by gentle heating for 5 to 6 seconds. After cooling, add 4 mL 18 13 8 2 of potassium hydroxide-ethanol TS: an orange-red color de-velops. To 0.2 g of Sodium Picosulfate Hydrate add 5 mL of dilute hydrochloric acid, boil for 5 minutes, cool, and add 1 mL of barium chloride TS: a white precipitate is formed. Determine the absorption spectrum of a solution of Sodium Picosulfate Hydrate (1 in 25,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra ex-hibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of So-dium Picosulfate Hydrate, previously dried at 105°C in"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

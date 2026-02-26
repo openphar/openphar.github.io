@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mestranol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mestranol",
+    "ja": "メストラノール"
+  },
+  "monographId": "JP18-mestranol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H26O2",
+  "molecularWeight": 310.43,
+  "definition": {
+    "en": "Mestranol, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Mestranol occurs as a white to pale yellow-white crystalline powder. It is odorless. It is freely soluble in chloroform, sparingly soluble in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Mestranol in 1 mL of a mixture of sulfuric acid and ethanol (99.5) (2:1): a red-purple color develops with a yellow-green fluorescence. Determine the absorption spectrum of a solution of Mestranol in ethanol (99.5) (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Mestranol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi- Amount (mg) of mesalazine (C7H7NO3) ＝ M S × QT/QS ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mes- MS: Amount (mg) of mesalazine for assay taken Internal standard solution—A solution of ethyl aminobenzo-ate in methanol (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 300 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 400 mL of methanol, 1 mL of phosphoric acid, 0.865 g of sodium lauryl sulfate and 0.679 g of tetrabutylammonium hydrogensulfate in water to make 1000 mL. Flow rate: Adjust so that the retention time of mesalazine is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, mesalazine and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. tranol, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Mestranol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]25: ＋1 – ＋69 (after drying, 0.1 g, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Mestranol according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Mestranol according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Mestranol in 20 mL of chloroform, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, add chloroform to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each ‌of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform and ethanol (99.5) (29:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (1 in 5) on the plate, and heat the plate at 1059C for 15 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Mesalazine Extended-release Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 40 mg of mesalazine (C7H7NO3), add 100 mL of diluted phos-phoric acid (1 in 1000), shake vigorously, and sonicate for 5 minutes. Add exactly 10 mL of the internal standard solu-tion, then add 90 mL of methanol and diluted phosphoric acid (1 in 1000) to make 250 mL. Filter this solution through a membrane filter with a pore size 0.45 mm. Discard the first 5 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 40 mg of mesalazine for assay, previously dried at 1059C for 2 hours, add 100 mL of diluted phosphoric acid (1 in 1000), shake vigorously, and sonicate for 5 minutes to dissolve. Add exactly 10 mL of the internal standard solution, then add 90 mL of methanol and diluted phosphoric acid (1 in 1000) to make 250 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of mesalazine to that of the internal standard. C21H26O2: 310.43 Methoxy-19-nor-17a-pregna-1,3,5(10)-trien-20-yn-17-ol [72-33-3] Mestranol, when dried, contains not less than 97.0z and not more than 102.0z of mestranol (C21H26O2). Description Mestranol occurs as a white to pale yellow-white crystalline powder. It is odorless. It is freely soluble in chloroform, sparingly soluble in ethanol (99.5), and practically insoluble in water. Identification (1) Dissolve 2 mg of Mestranol in 1 mL of a mixture of sulfuric acid and ethanol (99.5) (2:1): a red-purple color develops with a yellow-green fluorescence. Determine the absorption spectrum of a solution of Mestranol in ethanol (99.5) (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Mestranol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensi- Amount (mg) of mesalazine (C7H7NO3) ＝ M S × QT/QS ties of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mes- MS: Amount (mg) of mesalazine for assay taken Internal standard solution—A solution of ethyl aminobenzo-ate in methanol (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 300 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 400 mL of methanol, 1 mL of phosphoric acid, 0.865 g of sodium lauryl sulfate and 0.679 g of tetrabutylammonium hydrogensulfate in water to make 1000 mL. Flow rate: Adjust so that the retention time of mesalazine is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, mesalazine and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. tranol, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Mestranol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]25: ＋1 – ＋69 (after drying, 0.1 g, ethanol (99.5), 10 mL, 100 mm). Melting point <2.60> 148 – 1549C Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Mestranol according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Mestranol according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Mestranol in 20 mL of chloroform, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, add chloroform to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each ‌of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform and ethanol (99.5) (29:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (1 in 5) on the plate, and heat the plate at 1059C for 15 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g). Assay Weigh accurately about 10 mg each of Mestranol and Mestranol RS, previously dried, dissolve in ethanol (99.5) to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. De-termine the absorbances, AT and AS, of the sample solution and the standard solution at 279 nm as directed under Ultra-violet-visible Spectrophotometry <2.24>. and stir for 15 minutes. Filter the precipitate so obtained by suction through a glass filter (G4), wash with 10 mL of water, and dry at 1059C for 1 hour: it melts <2.60> between 1579C and 1619C. Determine the infrared absorption spectrum of Metenolone Acetate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋39 – ＋429(after drying, 0.2 g, chloroform, 10 mL, 100 mm). Melting point <2.60> 141 – 1449C Purity (1) Clarity and color of solution—Dissolve 0.50 g of Metenolone Acetate in 10 mL of 1,4-dioxane: the solution is clear and colorless to pale yellow. (2) Heavy metals <1.07>—Proceed with 2.0 g of Meteno- lone Acetate according to Method 2, and perform the test. Amount (mg) of mestranol (C 21H26O2) ＝ M S × AT/AS Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). MS: Amount (mg) of Mestranol RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

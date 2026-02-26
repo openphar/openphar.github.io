@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cetotiamine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cetotiamine Hydrochloride Hydrate",
+    "ja": "セトチアミン塩酸塩水和物"
+  },
+  "monographId": "JP18-cetotiamine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H26N4O6S.HCl.H2O",
+  "molecularWeight": 480.96,
+  "definition": {
+    "en": "Cetotiamine Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Cetotiamine Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is odorless or has a faint characteristic odor. It is freely soluble in water and in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS. Melting point: about 1329C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cetotiamine Hydrochloride Hydrate in 0.01 mol/L hydrochloric acid TS (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cetotiamine Hydrochloride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cetotiamine Hydrochloride Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Cetotiamine Hydrochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Cetotiamine Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 1.0 g of Cetotiamine Hydrochloride Hy-drate in 10 mL of water is clear and has no more color than the following control solution. Control solution: Mix exactly 1.5 mL of Cobalt (II) Chlo-ride CS, exactly 36 mL of Iron (III) Chloride CS and exactly 12.5 mL of diluted dilute hydrochloric acid (1 in 10). Pipet 1 mL of this mixture, and add diluted dilute hydrochloric acid (1 in 10) to make exactly 100 mL. Heavy metals <1.07>—Proceed with 1.0 g of Cetotia- mine Hydrochloride Hydrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 50 mg of Cetotiamine Hydrochloride Hydrate in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than cetotiamine obtained from the sample solution is not larger than the peak area of cetotia-mine from the standard solution, and the total area of the peaks other than cetotiamine from the sample solution is not larger than 2 times the peak area of cetotiamine from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of cetotiamine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of cetotiamine obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cetotiamine are not less than 3000 and 0.7 – 1.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cetotiamine is not more than 2.0z. Water <2.48> 3.0 – 5.0z (40 mg, coulometric titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Cetotiamine Hydrochloride Hydrate and Cetotiamine Hydrochloride RS (separately determine the water <2.48> in the same manner as Cetotiamine Hydrochloride Hydrate), add exactly 10 mL each of the internal standard solution, then add a mixture of water and methanol (1:1) to make 50 mL. To 2 mL each of these solutions add a mixture of water and methanol (1:1) to make 10 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cetotiamine to that of the internal standard. Amount (mg) of cetotiamine hydrochloride (C18H26N4O6S.HCl) ＝ MS × QT/QS MS: Amount (mg) of Cetotiamine Hydrochloride RS taken, calculated on the anhydrous basis Internal standard solution—A solution of propyl parahy-droxybenzoate in a mixture of water and methanol (1:1) (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 245 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). ‌726 Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.0 g of sodium 1-heptanesul-fonate in diluted acetic acid (100) (1 in 100) to make 1000 mL. To 1 volume of this solution add 1 volume of methanol. Flow rate: Adjust so that the retention time of cetotiamine is about 10 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, cetotiamine and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of cetotiamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

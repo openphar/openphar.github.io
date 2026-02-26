@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/phellodendri-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Phellodendri Cortex",
+    "ja": "オウバク"
+  },
+  "monographId": "JP18-phellodendri-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flat or rolled semi-tubular pieces of bark, 2 – 4 mm in thickness; externally grayish yellow-brown to grayish brown, with numerous traces of lenticels; the internal sur-face yellow to dark yellow-brown in color, with fine vertical lines, and smooth; fractured surface fibrous and bright yel-low. Odor, slight; taste, extremely bitter; mucilaginous; it colors the saliva yellow on chewing. Under a microscope <5.01>, a transverse section reveals primary ray expands outward and looks fan shaped in sec-ondary cortex, and sometimes ray differentiated later con-verges outward; groups of stone cells yellow and scattered in primary ray; groups of phloem fibers light yellow to yellow, lined alternately with the other tissue of phloem between rays, and then these tissues show obviously latticework; soli-tary crystals of calcium oxalate, single and compound starch grains observed in parenchyma. JP XVIII Crude Drugs and Related Drugs / Powdered Phellodendron Bark 2097 ‌Identification (1) To 1 g of pulverized Phellodendron Bark add 10 mL of diethyl ether, allow to stand for 10 minutes with occasional shaking, and filter to remove the diethyl ether. Collect the powder on the filter paper, add 10 mL of ethanol (95), allow to stand for 10 minutes with occa-sional shaking, and filter. To 2 to 3 drops of the filtrate add 1 mL of hydrochloric acid, add 1 to 2 drops of hydrogen peroxide TS, and shake: a red-purple color develops. Use the filtrate obtained in (1) as the sample solution. Separately, dissolve 1 mg of Berberine Chloride RS or ber-berine chloride hydrate for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the sever-al spots obtained from the sample solution and a spot with yellow to yellow-green fluorescence from the standard solu-tion show the same color tone and the same Rf value. Stir up pulverized Phellodendron Bark with water: the solution becomes gelatinous owing to mucilage. Loss on drying <5.01> Not more than 11.0z (6 hours). Total ash <5.01> Not more than 7.5z. Acid-insoluble ash <5.01> Not more than 0.5z."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Phel-lodendron Bark, add 30 mL of a mixture of methanol and dilute hydrochloric acid (100:1), heat under a reflux con-denser for 30 minutes, cool, and filter. Repeat the above procedure twice with the residue, using 30-mL and 20-mL portions of a mixture of methanol and dilute hydrochloric acid (100:1). To the last residue add 10 mL of methanol, shake well, and filter. Combine the whole filtrates, add methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Berberine Chloride RS (separately determine the water <2.48> in the same manner as Berberine Chloride Hydrate), dissolve in methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of berberine in each solution. Amount (mg) of berberine [as berberine chloride (C20H18ClNO4)] ＝ MS × AT/AS MS: Amount (mg) of Berberine Chloride RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 345 nm). Column: A stainless steel column 4 to 6 mm in inside di-ameter and 15 to 25 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 409C Mobile phase: Dissolve 3.4 g of potassium dihydrogen-phosphate and 1.7 g of sodium lauryl sulfate in 1000 mL of a mixture of water and acetonitrile (1:1). Flow rate: Adjust so that the retention time of berberine is about 10 minutes. System suitability— System performance: Dissolve 1 mg each of Berberine Chloride RS and palmatine chloride in methanol to make 10 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, palmatine and berber-ine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of berberine is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

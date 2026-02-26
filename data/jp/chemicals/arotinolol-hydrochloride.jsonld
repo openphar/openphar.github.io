@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/arotinolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Arotinolol Hydrochloride",
+    "ja": "アロチノロール塩酸塩"
+  },
+  "monographId": "JP18-arotinolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H21N3O2S3.HCl",
+  "molecularWeight": 408.0,
+  "casNumber": "68377-91-3",
+  "definition": {
+    "en": "Arotinolol Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Arotinolol Hydrochloride occurs as a white to light yellow crystalline powder. It is freely soluble in dimethylsulfoxide, slightly soluble in methanol and in water, very slightly soluble in ethanol (99.5), and practically insoluble in diethyl ether. ‌JP XVIII Official Monographs / Arsenical Paste 483 A solution of Arotinolol Hydrochloride in methanol (1 in 125) does not show optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Arotinolol Hydrochloride in methanol (1 in 75,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Arotinolol Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Arotinolol Hydrochloride (1 in 200) responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Arotinolol Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.05 g of Arotinolol Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL. Pipet 1 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 40 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol, acetone and ammonia solution (28) (30:10:10:1) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.20z (1 g, in vacu-um, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Arotinolol Hydro-chloride, previously dried, dissolve in dimethylsulfoxide to make exactly 25 mL. Pipet 5 mL of this solution, add 100 mL of water and 5 mL of sodium hydroxide TS, and extract with three 50-mL portions of dichloromethane. Filter each dichloromethane extract through a pledget of absorbent cot-ton with anhydrous sodium sulfate on it. Evaporate com-bined filtrate to dryness in vacuum. Dissolve the residue in 70 mL of acetic acid (100), and titrate <2.50> with 0.05 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 20.40 mg of C15H21N3O2S3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

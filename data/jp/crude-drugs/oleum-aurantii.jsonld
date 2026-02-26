@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-aurantii",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Aurantii",
+    "ja": "オレンジ油"
+  },
+  "monographId": "JP18-oleum-aurantii",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Orange Oil is a yellow to yellow-brown liquid. It has a characteristic, aromatic odor, and a slightly bitter taste. It is miscible with an equal volume of ethanol (95) with turbidity. D Refractive index <2.45> n20: 1.472 – 1.474 D Optical rotation <2.49> a20: ＋43 – ＋509(50 mm). Specific gravity <1.13> d 20: 0.842 – 0.848"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 mL of Orange Oil according to Method 2, and perform the test. Prepare the control solution with 4.0 mL of Standard Lead Solution (not more than 40 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

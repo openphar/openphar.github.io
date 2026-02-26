@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/epimedii-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Epimedii Herba",
+    "ja": "インヨウカク"
+  },
+  "monographId": "JP18-epimedii-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Epimedium Herb is composed of a stem and a ternate to triternate compound leaf; leaflet ovate to broadly ovate or ovate-lanceolate, 3 – 20 cm in length, 2 – 8 cm in width, petiolule 1.5 – 7 cm in length, apex of leaflet acuminate, needle hair on margin 0.1 – 0.2 cm in length, base of leaflet cordate to deeply cordate, lateral leaflet asymmetry; upper surface green to green-brown, sometimes lustrous, lower surface light green to grayish green-brown, often pilose, especially on vein densely pilose, papery or coriaceous; petiole and stem cylindrical, light yellowish brown to slightly purplish and light green-brown, easily broken. ‌2002‌ Eucalyptus Oil / Crude Drugs and Related Drugs Odor, slight; taste, slightly bitter. Under a microscope <5.01>, a transverse section of the leaf reveals 3 – 6 vascular bundles in midvein; mesophyll composed of upper epidermis, single-layered palisade, spongy tissue and lower epidermis; leaf margins orbicular or oblong, sclerenchymatous; multi-cellular hairs on epidermis; 8 – 20 vascular bundles in petiole and 6 – 15 vascular bundles in petiolule. Under a microscope <5.01>, a transverse section of the stem reveals a single to several-layered hypodermis, cortex of 4 – 10 cellular layers of sclerenchyma, vascular bundle 13 – 30 in number, oblong to obovate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Epimedium Herb add 20 mL of methanol, shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of icariin for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Loss on drying <5.01> Not more than 12.5z (6 hours). Total ash <5.01> Not more than 8.5z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 17.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

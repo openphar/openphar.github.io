@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tobramycin-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tobramycin Injection",
+    "ja": "トブラマイシン注射液"
+  },
+  "monographId": "JP18-tobramycin-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tobramycin Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Tobramycin Injection occurs as a colorless or very pale yellow, clear liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Tobramycin Injection, equivalent to 10 mg (potency) of Tobramycin, add water to make 1 mL, and use this solution as the sample solution. Separately, dissolve 10 mg (potency) of Tobramycin RS in 1 mL of water, and use this solution as the standard solution. Then, proceed as directed in the Identification (2) under Tobramycin. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> 5.0 – 7.0 high and the low concentration sample solution, respec-tively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

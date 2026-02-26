@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/miglitol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Miglitol",
+    "ja": "ミグリトール"
+  },
+  "monographId": "JP18-miglitol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H17NO5",
+  "molecularWeight": 207.22,
+  "definition": {
+    "en": "Miglitol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Miglitol is a white to pale yellowish white pow-der. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Miglitol, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Miglitol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. (2) Dissolve 10 mg each of Miglitol and Miglitol RS in 1 mL of water, and use these solutions as the sample solution and the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of methanol, ethyl acetate and diluted ammonia solution (28) (9 in 10) (2:2:1) to a dis-tance of about 17 cm, and dry the plate at 1059C. Allow the plate to stand in iodine vapor: the principal spot obtained from the sample solution and the spot from the standard so-lution show a brown color and the same Rf value. D Optical rotation <2.49> [a]20: － 7.3 – － 8.39(1.2 g calcu-lated on the dried basis, water, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.5 g of Miglitol in 50 mL of water, and use this solution as the test solution. Determine the turbidity of the test solution as directed under Turbidity Measurement <2.61>: it exhibits no more turbidity than Reference suspension II, and has no more color than the following control solution. Control solution: To a mix of 0.3 mL of Cobalt (II) Chlo-ride CS and 1.2 mL of Iron (III) Chloride CS add 38.5 mL of diluted hydrochloric acid (1 in 100). Heavy metals—Dissolve 2.5 g of Miglitol in 25 mL of water, and use this solution as the sample solution. Sepa-rately, to 10 mL of a solution obtained by diluting Standard Lead Stock Solution to 50-fold with water before use, add 2 mL of the sample solution, and use this solution as the con-trol solution. To 12 mL of the sample solution and the con-trol solution add 2 mL of hydrochloric acid-ammonium ace-tate buffer solution (pH 3.5) and 1.2 mL of thioacetamide TS, mix, allow to stand for 2 minutes, and observe vertically or horizontally both Nessler tubes against a white back-ground: the color obtained with the sample solution is not more intense than that with the control solution (not more than 20 ppm). Related substances—Dissoble 0.19 g of Miglitol in 50 mL of the mobile phase, and use this solution as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amount of them by the area percentage method: the amount of the peaks having the relative retention time of about 0.9 and about 1.5 to miglitol is not more than 0.2z, and the amount of the peaks other than miglitol and the peaks mentioned above is not more than 0.1z. The total amount of the peaks other than miglitol is not more than 0.5z. For the area of the peak, having the relative retention time of about 1.5, multiply the correction factor 4.1. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of miglitol, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of miglitol obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of miglitol are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia- tion of the peak area of miglitol is not more than 5.0z. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, 609C, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Miglitol and Miglitol RS (separately determine the loss on drying <2.41> under the same conditions as Miglitol), dissolve each in the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with exactly 20 mL of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of miglitol in each solution. under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of methanol, ethyl acetate and diluted ammo-nia solution (28) (9 in 10) (2:2:1) to a distance of about 8 cm, and air-dry the plate. Allow the plate to stand in iodine vapors: the principal spot obtained from the sample solution and the spot from the standard solution show a brown color and the same Rf value. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Miglitol Tablets add 20 mL of a mixture of acetonitrile for liquid chromatography and water (4:1), soni-cate, and add a mixture of acetonitrile for liquid chromatog- ‌Amount (mg) of miglitol (C8H17NO5) ＝ M S × AT/AS raphy and water (4:1) to make exactly V mL so that each mL contains about 1 mg of miglitol (C8H17NO5). Centrifuge this MS: Amount (mg) of Miglitol RS taken, calculated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with pentaethylenehexaami-nated polyvinyl alcohol polymer beads for liquid chromatog-raphy (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 0.6 g of potassium dihydrogen phosphate and 0.28 g of anhydrous disodium hydrogen phosphate in water to make 1000 mL. To 300 mL of this solution add 900 mL of acetonitrile for liquid chromatogra-phy. Flow rate: Adjust so that the retention time of miglitol is about 11 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of miglitol are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above condi-tions, the relative standard deviation of the peak area of miglitol is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

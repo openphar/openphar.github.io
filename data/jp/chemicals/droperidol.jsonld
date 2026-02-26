@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/droperidol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Droperidol",
+    "ja": "ドロペリドール"
+  },
+  "monographId": "JP18-droperidol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H22FN3O2",
+  "molecularWeight": 379.43,
+  "casNumber": "548-73-2",
+  "definition": {
+    "en": "Droperidol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Droperidol occurs as a white to light yellow powder. It is freely soluble in acetic acid (100), soluble in dichloro-methane, slightly soluble in ethanol (99.5), and practically insoluble in water. MS: Amount [mg (potency)] of Doxycycline Hydrochlo-ride RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 7.0 g of sodium dihydrogen phos-phate dihydrate in 450 mL of water. Add to this solution 553 mL of a mixture of methanol and N,N-dimethyl-n-octyla-mine (550:3), and adjust to pH 8.0 with sodium hydroxide solution (43 in 200). Flow rate: Adjust so that the retention time of doxycycline is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and symmetry fac-tor of the peak of doxycycline are not less than 2200 and not more than 1.6, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of doxycycline is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Put 30 mg of Droperidol in a brown volumetric flask, and dissolve in 10 mL of 0.1 mol/L hydro-chloric acid TS and ethanol (95) to make 100 mL. Transfer 5 mL of the solution to a brown volumetric flask, and add 10 mL of 0.1 mol/L hydrochloric acid TS and ethanol (95) to make 100 mL. Determine the absorption spectrum of the so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wavelengths. (2) Determine the infrared absorption spectrum of Droperidol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve Droperidol in acetone, evaporate the acetone, dry the residue in a desiccator (in vacuum, silica gel, 709C) for 4 hours, and perform the test with the residue."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Droperidol in a platinum crucible according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 50 mg of Droperidol in 5 mL of dichloromethane, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add dichloromethane to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, chloroform, methanol and acetic acid-sodium acetate buffer solution (pH 4.7) (54:23:18:5) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 ‌JP XVIII Official Monographs / Droxidopa 905 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 3.0z (0.5 g, in vacu-um, silica gel, 709C, 4 hours). Residue on ignition <2.44> Not more than 0.2z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Droperidol, previ-ously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 37.94 mg of C22H22FN3O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

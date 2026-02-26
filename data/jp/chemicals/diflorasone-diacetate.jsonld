@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/diflorasone-diacetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Diflorasone Diacetate",
+    "ja": "ジフロラゾン酢酸エステル"
+  },
+  "monographId": "JP18-diflorasone-diacetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H32F2O7",
+  "molecularWeight": 494.52,
+  "casNumber": "33564-31-7",
+  "definition": {
+    "en": "Diflorasone Diacetate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Diflorasone Diacetate occurs as a white to pale yellow, crystals or crystalline powder. It is soluble in acetonitrile, slightly soluble in ethanol (99.5), and practically insoluble in water. Melting point: about 2229C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Diflorasone Diacetate, previously dried, as directed in the potassium bromide disk method under Infrared Spec-trophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Diflorasone Diacetate RS: both spectra exhibit similar inten-sities of absorption at the same wave numbers. (2) Prepare the test solution with 10 mg of Diflorasone Diacetate as directed under Oxygen Flask Combustion Method <1.06>, using 20 mL of diluted 0.01 mol/L sodium hydroxide VS (1 in 40) as the absorbing liquid: the test solu-tion responds to Qualitative Tests <1.09> for fluoride. D Optical rotation <2.49> [a]20: ＋ 88 – ＋ 939(after drying, 0.1 g, acetonitrile, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Diflorasone Diacetate according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 20 mg of Diflorasone Diacetate in 20 mL of acetonitrile, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add acetonitrile to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the areas of the peaks, having a relative retention time of about 0.5, about 0.7, about 0.9 and about 1.1 to diflorasone diacetate, obtained from the sample solution are respectively not larger than 1/4 times, 1/4 times, 1/2 times and 3/4 times the peak area of diflorasone dia-cetate from the standard solution, and the total area of the peaks other than diflorasone diacetate and the peaks men-tioned above from the sample solutions is not larger than 1/5 times the peak area of diflorasone diacetate from the stand-ard solution. Furthermore, the total area of the peaks other than diflorasone diacetate from the sample solution is not larger than 1.5 times the peak area of diflorasone diacetate from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.4 times as long as the retention time of diflorasone diacetate, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 2 mL of the standard solution, and add acetonitrile to make exactly 20 mL. Con-firm that the peak area of diflorasone diacetate obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution, the relative standard de-viation of the peak area of diflorasone diacetate is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (0.2 g, in vacu-um, phosphorus (V) oxide, 609C, 4 hours). ‌852 Residue on ignition <2.44> Not more than 0.2z (0.5 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Diflorasone Diacetate and Diflorasone Diacetate RS, both previously dried, dissolve in exactly 4 mL each of the internal standard solution, add acetonitrile to make them 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of diflorasone diacetate to that of the internal standard. Amount (mg) of diflorasone diacetate (C26H23F2O7) ＝ MS × QT/QS MS: Amount (mg) of Diflorasone Diacetate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in acetonitrile (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 6.8 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust to pH 4.0 with diluted phosphoric acid (1 in 200). To 550 mL of this solu-tion add 400 mL of acetonitrile and 100 mL of tetrahydrofu-ran. Flow rate: Adjust so that the retention time of diflorasone diacetate is about 15 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and diflorasone diacetate are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of diflorasone diacetate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

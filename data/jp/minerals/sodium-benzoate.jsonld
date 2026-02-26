@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-benzoate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Benzoate",
+    "ja": "安息香酸ナトリウム"
+  },
+  "monographId": "JP18-sodium-benzoate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Benzoate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sodium Benzoate occurs as white, granules, crystals or crystalline powder. It is odorless, and has a sweet and saline taste. It is freely soluble in water, slightly soluble in ethanol (95), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Benzoate (1 in 100) re-sponds to Qualitative Tests <1.09> for benzoate and Qualita-tive Tests <1.09> (1) and (2) for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Benzoate in 5 mL of water: the solution is clear and colorless. Acidity or alkalinity—Dissolve 2.0 g of Sodium Ben-zoate in 20 mL of freshly boiled and cooled water, and add 2 drops of phenolphthalein TS and 0.20 mL of 0.05 mol/L sul-furic acid VS: the solution remains colorless. To this solu-tion add 0.40 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Sulfate <1.14>—Dissolve 0.40 g of Sodium Benzoate in 40 mL of water, add slowly 3.5 mL of dilute hydrochloric acid with thorough stirring, allow to stand for 5 minutes, and filter. Discard the first 5 mL of the filtrate, take the sub-sequent 20 mL of the filtrate, add water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution with 0.40 mL of 0.005 mol/L sulfu-ric acid VS (not more than 0.120z). Heavy metals <1.07>—Dissolve 2.0 g of Sodium Ben- zoate in 44 mL of water, add gradually 6 mL of dilute hydro-chloric acid with thorough stirring, and filter. Discard the first 5 mL of the filtrate, take the subsequent 25 mL of the filtrate, neutralize with ammonia TS, add 2 mL of dilute ace-tic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Mix well 1.0 g of Sodium Benzoate with 0.40 g of calcium hydroxide, ignite, dissolve the residue in 10 mL of dilute hydrochloric acid, and perform the test using this solution as the test solution (not more than 2 ppm). Chlorinated compounds—Dissolve 1.0 g of Sodium Benzoate in 10 mL of water, add 10 mL of dilute sulfuric acid, and extract with two 20-mL portions of diethyl ether. Combine the diethyl ether extracts, and evaporate the diethyl ether on a water bath. Place 0.5 g of the residue and 0.7 g of calcium carbonate in a crucible, mix with a small amount of water, and dry. Ignite it at about 6009C, dissolve in 20 mL of dilute nitric acid, and filter. Wash the residue with 15 mL of water, combine the filtrate and the washing, add water to make 50 mL, and add 0.5 mL of silver nitrate TS: this solu-tion has no more turbidity than the following control solu-tion. Control solution: Dissolve 0.7 g of calcium carbonate in 20 mL of dilute nitric acid, and filter. Wash the residue with 15 mL of water, combine the filtrate and the washings, add 1.2 mL of 0.01 mol/L Hydrochloric acid VS and water to make 50 mL, and add 0.5 mL of silver nitrate TS. Phthalic acid—To 0.10 g of Sodium Benzoate add 1 mL of water and 1 mL of resorcinol-sulfuric acid TS, and heat the mixture in an oil bath heated at a temperature be-tween 1209C and 1259C to evaporate the water, then heat the residue for further 90 minutes, cool, and dissolve in 5 mL of water. To 1 mL of the solution add 10 mL of a solu-tion of sodium hydroxide (43 in 500), shake, then examine under light at a wavelength between 470 nm and 490 nm: the green fluorescence of the solution is not more intense than that of the following control solution. Control solution: Dissolve 61 mg of potassium hydrogen phthalate in water to make exactly 1000 mL. Pipet exactly 1 mL of the solution, add 1 mL of resorcinol-sulfuric acid TS, and proceed as directed above. Loss on drying <2.41> Not more than 1.5z (2 g, 1109C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Sodium Benzoate, previously dried, and transfer to a 300-mL glass-stoppered flask. Dissolve in 25 mL of water, add 75 mL of diethyl ether and 10 drops of bromophenol blue TS, and titrate <2.50> with 0.5 mol/L hydrochloric acid VS, while mixing the aqueous and diethyl ether layers by vigorous shaking, until a persistent, light green color is produced in the aqueous layer. Each mL of 0.5 mol/L hydrochloric acid VS ＝ 72.05 mg of C7H5NaO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

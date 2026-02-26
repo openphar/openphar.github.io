@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefotaxime-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefotaxime Sodium",
+    "ja": "セフォタキシムナトリウム"
+  },
+  "monographId": "JP18-cefotaxime-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefotaxime Sodium contains not less than 916 mg (potency) and not more than 978 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Cefotaxime Sodium occurs as white to light yellow-white crystalline powder. It is freely soluble in water, sparingly soluble in methanol, and very slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Cefotaxime Sodium in 0.01 mol/L hydrochloric acid TS to make 100 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both Amount [mg (potency)] of cefoperazone (C ＝ MS2 × QTb/QSb 25H27N9O8S2) spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of MS1: Amount [mg (potency)] of Sulbactam RS taken MS2: Amount [mg (potency)] of Cefoperazone RS taken Internal standard solution—A solution of ethyl parahy-droxybenzoate (7 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of 0.005 mol/L tetrabutylammo-nium hydroxide TS and acetonitrile for liquid chromatogra-phy (3:1). Flow rate: Adjust so that the retention time of sulbactam is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, sulbactam, the internal standard, and cefoperazone are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak of sulbactam is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefotaxime Sodium in 10 mL of water: the solution is clear, and its absorbance at 430 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.40. Sulfate <1.14>—Dissolve 2.0 g of Cefotaxime Sodium in 40 mL of water, add 2 mL of dilute hydrochloric acid and water to make 50 mL, shake well, and filter. Discard first 10 mL of the filtrate, and to the subsequent 25 mL of the fil-trate add water to make 50 mL. Perform the test with this JP XVIII Official Monographs / Cefotetan 685 ‌solution as the test solution. Prepare the control solution as follows: To 1.0 mL of 0.005 mol/L sulfuric acid VS add 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.048z). 600 mL of this solution add 400 mL of methanol. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Heavy metals <1.07>—Proceed with 1.0 g of Cefotaxime Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefotaxime Sodium according to Method 3, and perform the test (not more than 2 ppm). Related substances—Perform the test with 10 mL of the sample solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area obtained from the chromatogram by the automatic integration method, and calculated the amounts of them by the area percentage method: the amount of the peak other than cefotaxime is not more than 1.0z and the total amount of these peaks is not more than 3.0z. Operating conditions— Detector, column, column temperature, mobile phase A, mobile phase B, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3.5 times as long as the retention time of cefotaxime, beginning after the solvent peak. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 2 mL of the standard solution, and add the mobile phase A to make exactly 100 mL. Pipet 2 mL of this solution, and add the mobile phase A to make exactly 20 mL. Confirm that the peak area of cefotaxime obtained with 10 mL of this solution is equivalent to 0.15 to 0.25z of that with 10 mL of the standard solution. Loss on drying <2.41> Not more than 3.0z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefotaxime Sodium and Cefotaxime RS, equivalent to about 40 mg (potency), dissolve each in the mobile phase A to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefotaxime in each solution. Amount [ mg (potency)] of cefotaxime (C16H17N5O7S2) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefotaxime RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 235 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase A: To 0.05 mol/L disodium hydrogen phos-phate TS add phosphoric acid to adjust the pH to 6.25. To 860 mL of this solution add 140 mL of methanol. Mobile phase B: To 0.05 mol/L disodium hydrogen phos-phate TS add phosphoric acid to adjust the pH to 6.25. To 0 – 7 100 0 7 – 9 100 → 80 0 → 20 9 – 16 80 20 16 – 45 80 → 0 20 → 100 45 – 50 0 100 Flow rate: 1.3 mL per minute (the retention time of cefotaxime is about 14 minutes). System suitability— System performance: To 1 mL of the standard solution add 7.0 mL of water and 2.0 mL of methanol, mix, then add 25 mg of sodium carbonate decahydrate, and shake. After allowing to stand for 10 minutes, add 3 drops of acetic acid (100) and 1 mL of the standard solution, and mix. When the procedure is run with 10 mL of this solution under the above operating conditions, desacetyl cefotaxime with the relative retention time being about 0.3 to cefotaxime and cefotaxime are eluted in this order with the resolution between these peaks being not less than 20, and the symmetry factor of the peak of cefotaxime is not more than 2. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefotaxime is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  }
+}

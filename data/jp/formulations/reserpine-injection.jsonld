@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/reserpine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Reserpine Injection",
+    "ja": "レセルピン注射液"
+  },
+  "monographId": "JP18-reserpine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Reserpine Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Reserpine Injection is a clear, colorless or pale yellow liquid. pH: 2.5 – 4.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Reserpine Injection, equivalent to 1.5 mg of Reserpine, add 10 mL of diethyl ether, shake for 10 minutes, and take the aqueous layer. If necessary, add 10 mL of diethyl ether to the aqueous layer, and shake for 10 minutes to repeat the process. To the aqueous layer add water to make 50 mL, and determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 265 nm and 269 nm. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. ‌Assay Measure exactly a volume of Reserpine Injection, equivalent to about 4 mg of reserpine (C33H40N2O9). Sepa-rately, weigh accurately about 4 mg of Reserpine RS, previ-ously dried in vacuum at 609C for 3 hours. Transfer them to separate separator, add 10 mL each of water and 5 mL each of ammonia TS, and extract with one 20-mL portion of chlo-roform, then with three 10-mL portions of chloroform with shaking vigorously. Combine the chloroform extracts, wash with two 50-mL portions of diluted hydrochloric acid (1 in 1000), and combine the washings. Then wash the chloroform extract with two 50-mL portions of a solution of sodium hydrogen carbonate (1 in 100), and combine the all wash-ings. Extract the combined washing with two 10-mL portions of chloroform, and combine the washings with the former chloroform extract. Transfer the chloroform solution to a 100-mL volumetric flask through a pledget of absorbent cot-ton previously wetted with chloroform, wash with a small amount of chloroform, dilute with chloroform to make 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Determine the absorbances, AT and AS, of the sample solution and the standard solution, respectively, at 295 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>.‌ Amount (mg) of reserpine (C33H40N2O9) ＝ MS × AT/AS MS: Amount (mg) of Reserpine RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

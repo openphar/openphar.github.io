@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/irinotecan-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Irinotecan Hydrochloride Hydrate",
+    "ja": "イリノテカン塩酸塩水和物"
+  },
+  "monographId": "JP18-irinotecan-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C33H38N4O6.HCl.3H2O",
+  "molecularWeight": 677.18,
+  "definition": {
+    "en": "Irinotecan Hydrochloride Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Irinotecan Hydrochloride Hydrate occurs as pale yellow to light yellow, crystals or crystalline powder. It is sparingly soluble in methanol, and slightly soluble in water and in ethanol (99.5). It is gradually colored to yellow-brown and decomposed by light. Melting point: about 2559C (with decomposition). It shows crystal polymorphism. Identiˆcation (1) Determine the absorption spectrum of a solution of Irinotecan Hydrochloride Hydrate in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Irinotecan Hydrochloride Hydrate as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. To 1 g of Irinotecan Hydrochloride Hydrate add 50 mL of water, dissolve by heating, and cool: the solution re- 20 25 2 5 6 6 3 sponds to Qualitative Tests <1.09> (2) for chloride. ＝ MS × AT/AS × V?/V × 1/25 MS: Amount (mg) of Amlodipine Besilate RS taken, cal-culated on the anhydrous basis Operating conditions— Proceed as directed in the operating conditions in (1). System suitability— System performance: To 10 mL of the irbesartan standard stock solution obtained in (1) and 2 mL of the amlodipine besilate standard stock solution add 0.02 mol/L phosphate buffer solution (pH 3.0) to make 20 mL. When the proce-dure is run with 5 mL of this solution under the above operat-ing conditions, amlodipine and irbesartan are eluted in this Optical rotation <2.49> [a]20: + 64 – + 699(0.5 g calcu-lated on the anhydrous basis, water, heat, after cooling, 50 mL, 100 mm). D pH <2.54> Dissolve 1 g of Irinotecan Hydrochloride Hy-drate in 50 mL of water by heating, and cool: the pH of this solution is between 3.5 and 4.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Irinotecan Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 50 mg of Irinotecan Hydrochloride Hydrate in a suitable amount of a mixture of diluted 0.1 mol/L potassium dihydrogen phosphate TS (1 in 10), methanol and acetonitrile (6:4:3) and 1 mL of 1 mol/L hydrochloric acid TS, and add a mixture of diluted 0.1 mol/L potassium dihydrogen phosphate TS (1 in 10), methanol and acetonitrile (6:4:3) to make 20 mL, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add a mixture of diluted 0.1 mol/L potassium dihydrogen phosphate TS (1 in 10), methanol and aceto-nitrile (6:4:3) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the peak areas of the related sub-stances A and B, having the relative retention times of about 0.8 to irinotecan, and related substances C and D, having the relative retention times of about 1.6, obtained from the sam-ple solution are not larger than 1/5 times the peak area of irinotecan from the standard solution, and the area of the peak other than irinotecan and the peaks mentioned above from the sample solution is not larger than 1/10 times the peak area of irinotecan from the standard solution. Further-more, the total area of the peaks other than irinotecan from the sample solution is not larger than 4/5 times the peak area of irinotecan from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.22 g of sodium 1-decanesul-fonate in a mixture of diluted 0.1 mol/L potassium dihydro-gen phosphate TS (1 in 10), methanol and acetonitrile (6:4:3) to make 1000 mL. Flow rate: Adjust so that the retention time of irinotecan is about 12 minutes. Time span of measurement: About 3 times as long as the retention time of irinotecan. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add a mixture of diluted 0.1 mol/L potassium dihydrogen phosphate TS (1 in 10), methanol and aceto-nitrile (6:4:3) to make exactly 20 mL. Conˆrm that the peak area of irinotecan obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of irinotecan are not less than 6000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of irinotecan is not more than 2.0z. Enantiomer—Being speciˆed separately when the drug is granted approval based on the Law. Water <2.48> 7.5 – 9.5z (0.1 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.44 g of Irinotecan Hydro- chloride Hydrate, dissolve in 120 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 31.16 mg of C33H38N4O6.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

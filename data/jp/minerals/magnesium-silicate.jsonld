@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/magnesium-silicate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Magnesium Silicate",
+    "ja": "ケイ酸マグネシウム"
+  },
+  "monographId": "JP18-magnesium-silicate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Magnesium Silicate contains not less than 45."
+  },
+  "appearance": {
+    "en": "Magnesium Silicate occurs as a white, fine powder. It is odorless and tasteless. It is practically insoluble in water, in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 0.5 g of Magnesium Silicate with 10 mL of dilute hydrochloric acid, filter, and neutralize the filtrate with ammonia TS: the solution responds to Qualita-tive Tests <1.09> for magnesium salt. (2) Prepare a bead by fusing ammonium sodium hydro-genphosphate tetrahydrate on a platinum loop. Place the bead in contact with Magnesium Silicate, and fuse again: an infusible matter appears in the bead, which changes to an opaque bead with a web-like structure upon cooling."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Soluble salts—Add 150 mL of water to 10.0 g of Magnesium Silicate, heat on a water bath for 60 minutes with occasional shaking, then cool, dilute with water to 150 mL, and centrifuge. Dilute 75 mL of the resultant transpar-ent liquid with water to 100 mL, and use this solution as the sample solution. Evaporate 25 mL of the sample solution on a water bath to dryness, and ignite the residue at 7009C for 2 hours: the mass of the ignited residue is not more than 0.02 g. Alkalinity—To 20 mL of the sample solution ob-tained in (1) add 2 drops of phenolphthalein TS and 1.0 mL of 0.1 mol/L hydrochloric acid VS: no color develops. Chloride <1.03>—Take 10 mL of the sample solution obtained in (1), add 6 mL of dilute nitric acid, dilute with water to 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.75 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.053z). Sulfate <1.14>—To the residue obtained in (1) add about 3 mL of dilute hydrochloric acid, and heat on a water bath for 10 minutes. Add 30 mL of water, filter, wash the residue on the filter with water, combine the washings with the filtrate, and dilute to 50 mL with water. To 4 mL of the solution add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.480z). ‌Heavy metals <1.07>—To 1.0 g of Magnesium Silicate add 20 mL of water and 3 mL of hydrochloric acid, and boil for 2 minutes. Filter, and wash the residue on the filter with two 5-mL portions of water. Evaporate the combined filtrate and washings on a water bath to dryness, add 2 mL of dilute acetic acid to the residue, warm until solution is complete, filter, if necessary, add water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 3.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 30 ppm). Arsenic <1.11>—To 0.40 g of Magnesium Silicate add 5 mL of dilute hydrochloric acid, heat gently to boiling while shaking well, cool rapidly, and centrifuge. Mix the residue with 5 mL of dilute hydrochloric acid with shaking, centri-fuge, then add 10 mL of water to the residue, and repeat the extraction in the same manner. Concentrate the combined extracts on a water bath to 5 mL. Use this solution as the test solution, and perform the test (not more than 5 ppm). Loss on ignition <2.43> Not more than 34z (0.5 g, 8509C, 3 hours). Acid-consuming capacity <6.04> Place about 0.2 g of Mag-nesium Silicate, accurately weighed, in a glass-stoppered flask, add exactly 30 mL of 0.1 mol/L hydrochloric acid VS and 20 mL of water, shake at 37 ± 29C for 1 hour, and cool. Pipet 25 mL of the supernatant liquid, and titrate <2.50> the excess hydrochloric acid, while stirring well, with 0.1 mol/L sodium hydroxide VS until the pH becomes 3.5. 1 g of Magnesium Silicate, calculated on the anhydrous basis by making allowance for the observed loss on ignition determined as directed in the preceding Loss on ignition, consumes not less than 140 mL and not more than 160 mL of 0.1 mol/L hydrochloric acid VS."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Silicon dioxide—Weigh accurately about 0.7 g of Magnesium Silicate, add 10 mL of 0.5 mol/L sulfuric acid TS, evaporate on a water bath to dryness, add 25 mL of water to the residue, and heat on a water bath for 15 minutes with occasional stirring. Filter the supernatant liquid through filter paper for quantitative analysis, add 25 mL of hot water to the residue, stir, and decant the supernatant liq-uid on the filter paper to filter. Wash the residue in the same manner with two 25-mL portions of hot water, transfer the residue onto the filter paper, and wash with hot water until the last washing does not respond to Qualitative Tests <1.09> (1) for sulfate. Place the residue and the filter paper in a platinum crucible, incinerate with strong heating, and ignite between 7759C and 8259C for 30 minutes, then cool, and weigh the residue as a (g). Moisten the residue with water, and add 6 mL of hydrofluoric acid and 3 drops of sulfuric acid. Evaporate to dryness, ignite for 5 minutes, cool, and weigh the residue as b (g). Content (z) of silicon dioxide (SiO2) ＝ (a － b)/M × 100 M: Mass (g) of the Magnesium Silicate taken Magnesium oxide—Weigh accurately about 0.3 g of Magnesium Silicate, transfer to a 50-mL conical flask, add 10 mL of 0.5 mol/L sulfuric acid VS, and heat on a water bath for 15 minutes. Cool, transfer to a 100-mL volumetric flask, wash the conical flask with water, add the washings to the volumetric flask, dilute with water to 100 mL, and filter. Pipet 50 mL of the filtrate, shake with 50 mL of water and 5 mL of diluted 2,2?,2!-nitrilotriethanol (1 in 2), add 2.0 mL of ammonia TS and 10 mL of ammonia-ammonium chloride buffer solution (pH 10.7) and titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS (indi-cator: 40 mg of eriochrome black T-sodium chloride indi-cator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.015 mg of MgO Ratio of percentage (z) of magnesium oxide (MgO) to silicon dioxide (SiO2)—Calculate the quotient from the percentages obtained in (1) and (2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

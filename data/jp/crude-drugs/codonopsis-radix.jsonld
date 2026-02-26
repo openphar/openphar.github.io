@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/codonopsis-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Codonopsis Radix",
+    "ja": "トウジン"
+  },
+  "monographId": "JP18-codonopsis-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Codonopsis Root nearly cylindrical, 8 – 30 cm in length, 0.5 – 2.5 cm in diameter; gradually slender to the apex, often branched; outer surface light yellow to grayish brown; from the base to central part with ring-like wrinkles, and longitudinal wrinkles entirely obvious; numerous projec-tions composed of scars of stems at the crown, with a round dent at the distal end; blackish brown and tremellose secre-tion often at the scars of lateral roots; flexible and easily bendable or hard and easily breakable in texture; in cut sur-face yellow-white to light brown in cortex, light yellow in xylem, sometimes with slit in cortex. Odor, slight and characteristic; taste, slightly sweet. Under a microscope <5.01>, a transverse section reveals cork layer at the outermost portion, outer 1- to 10-layer con-sisting of cork stone cells; groups of laticifers containing light yellow substances arranged radially in phloem, intercel-lular spaces usually observed; vessels of xylem arranged radi-ally; starch grains and crystals of inulin usually contained in phloem parenchyma cells. ‌JP XVIII Crude Drugs and Related Drugs / Condurango 1987‌‌"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Codonopsis Root add 50 mL of water, and heat in a water bath for 1 hour. After cooling, filter, and wash the filtrate with two 20-mL portions of ethyl acetate. Separate the aqueous layer, extract with two 30-mL portions of water saturated 1-butanol. Combine the 1-butanol layers, and evaporate the solvent in a water bath under low pressure (in vacuo). Dissolve the residue in 1 mL of methanol, and use this solution as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of 1-propanol, water and ethyl acetate (6:5:2) to a distance of about 10 cm, and air-dry the plate. Spray evenly naphthoresorcin-phosphoric acid TS on the plate, and heat the plate at 1059C for 10 minutes: an orange to red-purple spot at an Rf value of about 0.5 is observed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Codonopsis Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Codonopsis Root according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 23.0z (6 hours). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 25.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

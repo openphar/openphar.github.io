@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/ginseng-radix-rubra",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Ginseng Radix Rubra",
+    "ja": "コウジン"
+  },
+  "monographId": "JP18-ginseng-radix-rubra",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thin and long cylindrical to fusiform root, often branching out into 2 to 5 lateral roots from the middle; 15 minutes, centrifuge, and separate the supernatant liquid. Repeat the procedure with the residue using 15 mL of diluted methanol (3 in 5), combine the supernatant liquids, and add diluted methanol (3 in 5) to make exactly 50 mL. Pipet 10 mL of this solution, add 3 mL of dilute sodium hydroxide TS, allow to stand for 30 minutes, add 3 mL of 0.1 mol/L hydrochloric acid TS and diluted methanol (3 in 5) to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Ginsenoside Rg1 RS (separately determine the water <2.48> by coulomet-ric titration, using 10 mg) dissolve in diluted methanol (3 in 5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of ginsenoside Rg1 in each solution. 5 – 25 cm in length, main root 0.5 – 3 cm in diameter; exter-nally light yellow-brown to red-brown, and translucent and with longitudinal wrinkles; crown somewhat constricted, and Amount (mg) of ginsenoside Rg1 ＝ MS × AT/AS (C42H 72O 14) sometimes with short remains of stem; fractured surface flat; horny and hard in texture. Odor, characteristic; taste, at first slightly sweet, followed by a slight bitterness."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.2 g of pulverized Red Ginseng add 2 mL of acetic anhydride, warm on a water bath for 2 minutes, and filter. To 1 mL of the filtrate add gently 0.5 mL of sulfuric acid to make two layers: a red-brown color develops at the zone of contact. (2) To 2.0 g of pulverized Red Ginseng add 10 mL of water and 10 mL of 1-butanol, shake for 15 minutes, centri-fuge, and use the 1-butanol layer as the sample solution. Separately, dissolve 1 mg of ginsenoside Rg1 for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl acetate, meth-anol and water (14:5:4) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 10 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Red Ginseng according to Method 4, and perform the test. Prepare the control solution with 1.5 mL of Stand-ard Lead Solution (not more than 15 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of pulverized Red Ginseng according to Method 4, and per-form the test (not more than 2 ppm). Foreign matter <5.01>—The amount of stems and other foreign matter contained in Red Ginseng does not exceed 2.0z. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 15.5z (6 hours). Total ash <5.01> Not more than 4.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 18.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Ginsenoside Rg1—Weigh accurately about 1 g of pulverized Red Ginseng, put in a glass-stoppered centri-fuge tube, add 30 mL of diluted methanol (3 in 5), shake for MS: Amount (mg) of Ginsenoside Rg1 RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 203 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of water and acetonitrile (4:1). Flow rate: Adjust so that the retention time of ginsenoside Rg1 is about 25 minutes. System suitability— System performance: Dissolve 1 mg each of Ginsenoside Rg1 RS and ginsenoside Re in diluted methanol (3 in 5) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, ginsenoside Rg1 and ginsenoside Re are eluted in this order with the reso-lution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ginsenoside Rg1 is not more than 1.5z. (2) Ginsenoside Rb1—Use the sample solution obtained in (1) as the sample solution. Separately, weigh accurately about 10 mg of Ginsenoside Rb1 RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dis-solve in diluted methanol (3 in 5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ginsenoside Rb1 in each solu-tion. Amount (mg) of ginsenoside Rb1 (C54H92O23) ＝ MS × AT/AS MS: Amount (mg) of Ginsenoside Rb1 RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 203 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). ‌JP XVIII Crude Drugs and Related Drugs / Rhubarb 2113‌ Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water and acetonitrile (7:3). Flow rate: Adjust so that the retention time of ginsenoside Rb1 is about 20 minutes. System suitability— System performance: Dissolve 1 mg each of Ginsenoside Rb1 RS and ginsenoside Rc in diluted methanol (3 in 5) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, ginsenoside Rb1 and ginsenoside Rc are eluted in this order with the reso-lution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ginsenoside Rb1 is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

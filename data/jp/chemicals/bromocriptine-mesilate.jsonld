@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bromocriptine-mesilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bromocriptine Mesilate",
+    "ja": "ブロモクリプチンメシル酸塩"
+  },
+  "monographId": "JP18-bromocriptine-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C32H40BrN5O5.CH4O3S",
+  "molecularWeight": 750.7,
+  "casNumber": "22260-51-1",
+  "definition": {
+    "en": "Bromocriptine Mesilate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bromocriptine Mesilate occurs as a white to pale yellowish white or pale brownish white crystalline powder. It is odorless, or has a faint characteristic odor. It is very soluble in acetic acid (100), freely soluble in methanol, sparingly soluble in ethanol (95), very slightly soluble in acetic anhydride, in dichloromethane and in chlo-roform, and practically insoluble in water and in diethyl ether. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Bromocriptine Mesi-late in 1 mL of methanol, add 2 mL of 4-dimethylaminoben-zaldehyde-ferric chloride TS, and shake: a purplish blue color develops. Determine the absorption spectrum of a solution of Bromocriptine Mesilate in methanol (3 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Bromocriptine Mesilate as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Bromocriptine Mesilate as di-rected under Flame Coloration Test <1.04> (2): a green color appears. D Optical rotation <2.49> [a]20: ＋95 – ＋1059[0.1 g, calcu-lated on the dried basis, a mixture of methanol and dichloro-methane (1:1), 10 mL, 100 mm]."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Bromocriptine Mesilate in 10 mL of methanol: the solu-tion is clear, and has no more color than the following con-trol solution. Control solution: To 2.5 mL of Cobalt (II) Chloride CS, 6.0 mL of Iron (III) Chloride CS and 1.0 mL of Copper (II) Sulfate CS add diluted hydrochloric acid (1 in 40) to make exactly 100 mL. Heavy metals <1.07>—Proceed with 1.0 g of Bromocriptine Mesilate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). ‌JP XVIII Official Monographs / Bromovalerylurea 567 Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.10 g of Bromocriptine Mesilate in 10 mL of a mixture of methanol and chloroform (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of methanol and chloroform (1:1) to make exactly 200 mL, and use this solution as the standard solution (1). Pipet 10 mL of the standard solution (1), add a mixture of methanol and chloroform (1:1) to make exactly 20 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL each of the sample solution and standard solutions (1) and (2), as a band with 1 cm in width, on a plate of silica gel for thin-layer chromatography. Develop the plate immediately with a mixture of dichloro-methane, 1,4-dioxane, ethanol (95) and ammonia solution (28) (1800:150:50:1) to a distance of about 10 cm, and dry the plate under reduced pressure for 30 minutes. Spray evenly Dragendorff's TS for spraying on the plate, then spray evenly hydrogen peroxide TS, cover the plate with a glass plate, and examine: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution (1), and the spot other than the principal spot, which is more intense than the spot from the standard solution (2), is not more than one. Loss on drying <2.41> Not more than 3.0z (1 g, in vacuum at a pressure not exceeding 0.67 kPa, 809C, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Bromocriptine Mesilate, dissolve in 80 mL of a mixture of acetic anhydride and acetic acid (100) (7:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 75.07 mg of C32H40BrN5O5.CH4O3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding －189C."
+  }
+}

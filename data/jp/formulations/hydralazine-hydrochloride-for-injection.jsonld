@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/hydralazine-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Hydralazine Hydrochloride for Injection",
+    "ja": "注射用ヒドララジン塩酸塩"
+  },
+  "monographId": "JP18-hydralazine-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Hydralazine Hydrochloride for Injection is a prepa-ration for injection which is dissolved before use. It contains not less than 99."
+  },
+  "appearance": {
+    "en": "Hydralazine Hydrochloride for Injection oc-curs as a white to pale yellow powder or mass. It is odorless, and has a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of a so-lution of Hydralazine Hydrochloride for Injection (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 238 nm and 242 nm, between 258 nm and 262 nm, between 301 nm and 305 nm, and between 313 nm and 317 nm. pH <2.54> Dissolve 1.0 g of Hydralazine Hydrochloride for Injection in 50 mL of water: the pH of this solution is be-tween 3.5 and 4.5. Bacterial endotoxins <4.01> Less than 5.0 EU/mg. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. (T: 106.0z) Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem- ‌1110‌ brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the contents of not less than 10 samples of Hydralazine Hydrochloride for Injection. Weigh accurately about 0.15 g of the contents, transfer it to a glass-stoppered flask, dissolve in 25 mL of water, add 25 mL of hydrochloric acid, cool to room temperature, and proceed as directed in the Assay under Hydralazine Hydrochloride. Each mL of 0.05 mol/L potassium iodate VS ＝ 9.832 mg of C8H8N4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

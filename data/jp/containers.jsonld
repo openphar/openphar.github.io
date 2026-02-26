@@ -1,0 +1,2299 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/containers/",
+    "op": "https://www.openphar.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/acacia-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-acacia-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/achyranthes-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/agar-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-agar-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/akebia-stem-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/alisma-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed contain"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-alisma-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/aloe-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-aloe-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/alpinia-officinarum-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/aluminum-silicate-hydrate-with-silicon-dioxide-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/amomum-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-amomum-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/anemarrhena-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/angelica-dahurica-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/apricot-kernel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/apricot-kernel-water-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/aralia-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/areca-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/artemisia-capillaris-flower-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/artemisia-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/asiasarum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/asparagus-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/astragalus-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/atractylodes-lancea-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-atractylodes-lancea-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/atractylodes-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-atractylodes-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bakumondoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bear-bile-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bearberry-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/beef-tallow-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/white-beeswax-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/yellow-beeswax-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/belladonna-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/belladonna-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/belladonna-total-alkaloids-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/benincasa-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/benzoin-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bitter-cardamon-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bitter-orange-peel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bitter-tincture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bofutsushosan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/boiogito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/brown-rice-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/bupleurum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/burdock-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/byakkokaninjinto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cacao-butter-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/calumba-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-calumba-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/camellia-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/capsicum-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-capsicum-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/capsicum-tincture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/capsicum-and-salicylic-acid-spirit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cardamon-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/carnauba-wax-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cassia-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/castor-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/aromatic-castor-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/catalpa-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cherry-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/chotosan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/chrysanthemum-flower-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cimicifuga-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cinnamon-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-cinnamon-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cinnamon-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cistanche-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/citrus-unshiu-peel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/clematis-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/clove-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-clove-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/clove-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cnidium-monnieri-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cnidium-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-cnidium-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/coconut-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/codonopsis-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/coix-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-coix-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/condurango-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/condurango-fluidextract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/coptis-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-coptis-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/corn-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cornus-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/corydalis-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-corydalis-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/crataegus-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/curcuma-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/cyperus-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-cyperus-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/daiokanzoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/daisaikoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/digenea-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/dioscorea-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-dioscorea-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/dolichos-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/eleutherococcus-senticosus-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ephedra-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/epimedium-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/eucalyptus-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/eucommia-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/euodia-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/fennel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-fennel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/fennel-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/foeniculated-ammonia-spirit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/forsythia-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/fritillaria-bulb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gambir-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-gambir-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed contain"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gardenia-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-gardenia-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gastrodia-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gentian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-gentian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gentian-and-sodium-bicarbonate-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/geranium-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-geranium-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ginger-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-ginger-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ginseng-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-ginseng-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/glehnia-root-and-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/glycyrrhiza-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-glycyrrhiza-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/glycyrrhiza-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/crude-glycyrrhiza-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/goreisan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/goshajinkigan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/goshuyuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/gypsum-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/exsiccated-gypsum-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hachimijiogan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hangekobokuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hangeshashinto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hedysarum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hemp-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hochuekkito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/honey-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/houttuynia-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/immature-orange-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/imperata-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ipecac-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-ipecac-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ipecac-syrup-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/japanese-angelica-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-japanese-angelica-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/japanese-gentian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-japanese-gentian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/japanese-valerian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-japanese-valerian-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/japanese-zanthoxylum-peel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-japanese-zanthoxylum-peel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/jujube-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/jujube-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/juzentaihoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/kakkonto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/kakkontokasenkyushin-i-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/kamikihito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/kamishoyosan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/keishibukuryogan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/koi-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/hydrous-lanolin-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/purified-lanolin-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lard-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/leonurus-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lilium-bulb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lindera-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lithospermum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/longan-aril-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/longgu-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-longgu-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lonicera-leaf-and-stem-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/loquat-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lycium-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/lycium-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/magnolia-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-magnolia-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/magnolia-flower-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mallotus-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/malt-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/maoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mentha-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mentha-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mentha-water-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/moutan-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-moutan-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mukoi-daikenchuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/mulberry-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nelumbo-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/notopterygium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nuphar-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nutmeg-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nux-vomica-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nux-vomica-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nux-vomica-extract-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/nux-vomica-tincture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/olive-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ophiopogon-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-opium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/diluted-opium-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/opium-tincture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/opium-ipecac-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/orange-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/orange-peel-syrup-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/orange-peel-tincture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/orengedokuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/oriental-bezoar-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/otsujito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/oyster-shell-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-oyster-shell-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/panax-japonicus-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-panax-japonicus-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/peach-kernel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-peach-kernel-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/peanut-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/peony-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-peony-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/perilla-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/peucedanum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/pharbitis-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/phellodendron-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-phellodendron-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/compound-phellodendron-powder-for-cataplasm-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/phellodendron-albumin-tannate-and-bismuth-subnitrate-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/picrasma-wood-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-picrasma-wood-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/pinellia-tuber-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/plantago-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/plantago-seed-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/platycodon-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-platycodon-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/platycodon-fluidextract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/pogostemi-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/polygala-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-polygala-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/polygonatum-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/polygonum-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/polyporus-sclerotium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-polyporus-sclerotium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/poria-sclerotium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-poria-sclerotium-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/prepared-glycyrrhiza-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/processed-aconite-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-processed-aconite-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/processed-ginger-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/prunella-spike-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/pueraria-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/quercus-bark-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rape-seed-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/red-ginseng-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rehmannia-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rhubarb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-rhubarb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/compound-rhubarb-and-senna-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed contain"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rikkunshito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rose-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-rose-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/rosin-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/royal-jelly-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/ryokeijutsukanto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/safflower-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saffron-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saibokuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saikokeishito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saireito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/salvia-miltiorrhiza-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saposhnikovia-root-and-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sappan-wood-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/saussurea-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/schisandra-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/schizonepeta-spike-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-extract-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-extract-and-carbon-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/compound-scopolia-extract-and-diastase-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-extract-and-ethyl-aminobenzoate-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scopolia-extract-and-tannic-acid-suppositories-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/scutellaria-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-scutellaria-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/senega-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-senega-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/senega-syrup-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/senna-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-senna-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sesame-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sesame-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/shakuyakukanzoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/shimbuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/shosaikoto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/shoseiryuto-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/simple-ointment-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sinomenium-stem-and-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/smilax-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-smilax-rhizome-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sodium-bicarbonate-and-bitter-tincture-mixture-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/anhydrous-sodium-sulfate-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sodium-sulfate-hydrate-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sophora-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-sophora-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/soybean-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/sweet-hydrangea-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-sweet-hydrangea-leaf-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/swertia-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-swertia-herb-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/swertia-and-sodium-bicarbonate-powder-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/toad-cake-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/tokakujokito-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/tokishakuyakusan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/tragacanth-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-tragacanth-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/tribulus-fruit-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/trichosanthes-root-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/turmeric-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/powdered-turmeric-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/turpentine-oil-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/uncaria-hook-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Well-closed containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/unseiin-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/uva-ursi-fluidextract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/wood-creosote-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/containers/yokukansan-extract-storage",
+      "@type": [
+        "op:ContainersAndStorage"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/containerType": "Tight containers."
+    }
+  ]
+}

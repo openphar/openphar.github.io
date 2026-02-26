@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ephedrine-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ephedrine Hydrochloride Tablets",
+    "ja": "エフェドリン塩酸塩錠"
+  },
+  "monographId": "JP18-ephedrine-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ephedrine Hydrochloride Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of ephedrine hydrochloride (C10H15NO.HCl: 201.69). Method of preparation Prepare as directed under Tablets, with Ephedrine Hydrochloride. Identification To an amount of powdered Ephedrine Hy-drochloride Tablets, equivalent to 0.05 g of Ephedrine Hy-drochloride, add 100 mL of water, shake for 20 minutes, and filter. Determine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 249 nm and 253 nm, between 255 nm and 259 nm, and between 261 nm and 265 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Ephedrine Hydrochloride Tablets add V mL of water so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Ephedrine Hy-drochloride Tablets, equivalent to 0.05 g of Ephedrine Hy-drochloride, add 100 mL of water, shake for 20 minutes, and filter. Determine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 249 nm and 253 nm, between 255 nm and 259 nm, and between 261 nm and 265 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Ephedrine Hydrochloride Tablets add V mL of water so that each mL contains about 0.25 mg of ephe-drine hydrochloride (C10H15NO.HCl), then add exactly V/4 mL of the internal standard solution, disperse the tablet into small particles by sonicating, then sonicate for a further 10 minutes. Shake this solution for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of ephedrine hydrochloride for assay, previously dried at 1059C for 3 hours, dissolve in water to make exactly 100 mL. Pipet 20 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the standard solution. Then, proceed as di-rected in the Assay. Amount (mg) of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS × QT/QS × V/100 MS: Amount (mg) of ephedrine hydrochloride for assay taken Internal standard solution—A solution of etilefrine hydro-chloride (1 in 2000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Ephedrine Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Ephedrine Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Dis-card not less than 10 mL of the first filtrate, and use the sub-sequent filtrate as the sample solution. Separately, weigh ac-curately about 28 mg of ephedrine hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed un-der Liquid Chromatography <2.01> according to the follow-ing conditions, and determine the peak areas, AT and AS, of ephedrine in each solution. Dissolution rate (z) with respect to the labeled amount of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS × AT/AS × 1/C × 90 MS: Amount (mg) of ephedrine hydrochloride for assay taken C: Labeled amount (mg) of ephedrine hydrochloride (C10H15NO.HCl) in 1 tablet Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Purity (4) under Ephedrine Hydrochloride. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ephedrine are not less than 10,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ephedrine is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 tablets of Ephe-drine Hydrochloride Tablets, and powder. Weigh accurately an amount of the powder, equivalent to about 40 mg of ‌ephedrine hydrochloride (C10H15NO.HCl), add 150 mL of water, and extract by sonicating for 10 minutes with occa-sional shaking. Shake more for 10 minutes, then add exactly 10 mL of the internal standard solution and water to make 200 mL, centrifuge, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 40 mg of ephedrine hydrochloride for assay, previously dried at 105 9C for 3 hours, add exactly 10 mL of the internal standard solution to dissolve, add water to make 200 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and Q S, of the peak area of ephedrine to that of the internal stand-ard. Amount (mg) of ephedrine hydrochloride (C10H15NO.HCl) ＝ MS × QT/QS MS: Amount (mg) of ephedrine hydrochloride for assay taken Internal standard solution—A solution of etilefrine hydro-chloride (1 in 500). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (4) under Ephedrine Hydrochloride. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and ephedrine are eluted in this order with the resolution between these peaks being not less than 15. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of ephedrine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

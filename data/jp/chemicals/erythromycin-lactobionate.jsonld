@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/erythromycin-lactobionate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Erythromycin Lactobionate",
+    "ja": "エリスロマイシンラクトビオン酸塩"
+  },
+  "monographId": "JP18-erythromycin-lactobionate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "3847-29-8",
+  "definition": {
+    "en": "Erythromycin Lactobionate is the lactobionate of erythromycin. It contains not less than 590 mg (potency) and not more than 700 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Erythromycin Lactobionate occurs as a white powder. It is freely soluble in water, in methanol and in ethanol (99.5), and very slightly soluble in acetone."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 3 mg of Erythromycin Lactobionate add 2 mL of acetone, and add 2 mL of hydrochloric acid: an orange color is produced, and it changes immediately to red to deep purple. Transfer about 0.3 g of Erythromycin Lactobionate to a separator, add 15 mL of ammonia TS and 15 mL of chloroform, shake, and take the separated aqueous layer. Wash the aqueous layer with three 15-mL portions of chlo-roform, and evaporate the aqueous liquid on a water bath to dryness. Dissolve the residue in 10 mL of a mixture of meth-anol and water (3:2), and use this solution as the sample so-lution. Separately, dissolve 0.10 g of lactobionic acid in 10 mL of a mixture of methanol and water (3:2), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromato-graphy. Develop the plate with the upper layer obtained from a mixture of water, 1-butanol and acetic acid (100) (3:3:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly dilute sulfuric acid, and heat at 1059C for 20 minutes: the principal spot obtained from the sample solu-tion shows a deep brown and the Rf value which are the same as those of the principal spot from the standard solu-tion. pH <2.54> The pH of a solution obtained by dissolving 0.5 g of Erythromycin Lactobionate in 10 mL of water is be-tween 5.0 and 7.5. Water <2.48> Not more than 5.0z (0.5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Staphylococcus aureus ATCC 6538 P Culture medium—Use the medium i in 3) Medium for other organisms under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 7.8 to 8.0 after sterilization. Standard solutions—Weigh accurately an amount of Erythromycin RS, equivalent to about 50 mg (potency), dissolve in 50 mL of methanol, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 100 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at not exceeding 59C and use within 7 C H NO .C H O : 1092.22 days. Take exactly a suitable amount of the standard stock 37 67 13 12 22 12 solution before use, add 0.1 mol/L phosphate buffer solu- (2R,3S,4S,5R,6R,8R,10R,11R,12S,13R)-5-(3,4,6- Trideoxy-3-dimethylamino-b-D-xylo-hexopyranosyloxy)-3-(2,6-dideoxy-3-C-methyl-3-O-methyl-a-L-ribo-hexopyranosyloxy)-6,11,12-trihydroxy-2,4,6,8,10,12-hexamethyl-9-oxopentadecan-13-olide mono(4-O-b- D-galactopyranosyl-D-gluconate) [3847-29-8] Erythromycin Lactobionate is the lactobionate of erythromycin. It contains not less than 590 mg (potency) and not more than 700 mg (potency) per mg, calculated on the anhydrous basis. The potency of Erythromycin Lac- tion (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration standard solution and the low con-centration standard solution, respectively. Sample solutions—Weigh accurately an amount of Erythromycin Lactobionate, equivalent to about 50 mg (po-tency), dissolve in 50 mL of methanol, and add 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 100 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample ‌958‌ solution and the low concentration sample solution, respec-tively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cannabis-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cannabis Fructus",
+    "ja": "マシニン"
+  },
+  "monographId": "JP18-cannabis-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Hemp Fruit is a slightly compressed void fruit, 4 – 5 mm in length, 3 – 4 mm in diameter; externally grayish green to grayish brown; pointed at one end, a scar of gyno-phore at the other end, and ridge on both sides; outer sur-face lustrous with white mesh-like pattern; slightly hard pericarp; seed, slightly green in color and internally has grayish white albumen; 100 fruits weigh 1.6 – 2.7 g. Practically odorless, aromatic on chewing; taste, mild and oily. Under a microscope <5.01>, a transverse section reveals the exocarp composed of an epidermis; mesocarp composed of parenchyma, a pigment cell layer and rows of short, small cells; endocarp made up of a single cellular layer of radially elongated stone cells; seed coat comprises a tubular cellular layer and spongy tissue. Inside of the seed; exosperm con- ‌2032 Hochuekkito Extract / Crude Drugs and Related Drugs sists of one cellular layer of parenchymatous cells, en-dosperm of one to several cellular layers of parenchymatous cells; most of the embryo composed of parenchyma, vascu-lar bundles occurring in the center of hypocotyls and cotyledons; embryo parenchyma contains aleurone grains and oil drops."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.3 g of pulverized Hemp Fruit add 3 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of hexane and ethyl acetate (9:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a dark blue-purple spot appears at an Rf value of about 0.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Bract—When perform the test of foreign matter <5.01>, Hemp Fruit does not contain bract. Loss on drying <5.01> Not more than 9.0z (6 hours). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fossilia-ossis-mastodi",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fossilia Ossis Mastodi",
+    "ja": "リュウコツ"
+  },
+  "monographId": "JP18-fossilia-ossis-mastodi",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregular masses or fragments, occasionally cylindrical masses; externally light grayish white, sometimes with grayish black or yellow-brown spots here and there; the outer part consists of a layer 2 – 10 mm in thickness, and is minute in texture, surrounding the light brown, porous por-tion; heavy and hard, but somewhat fragile in texture; when crushed, it changes into pieces and powder. Odorless, tasteless, and strongly adhesive to the tongue on licking."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.5 g of pulverized Longgu in 10 mL of dilute hydrochloric acid: it evolves a gas, and forms a slightly brownish and turbid solution. Pass the gas evolved through calcium hydroxide TS: a white precipitate is produced. The turbid solution obtained in (1) has a characteris-tic odor. Filter this solution and neutralize filtrate with am-monia TS: this solution responds to Qualitative Tests <1.09> (1), (2) and (3) for calcium salt. Dissolve 0.1 g of pulverized Longgu in 5 mL of nitric acid by warming, and add hexaammonium heptamolybdate TS: a yellow precipitate is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 2.0 g of pulverized Longgu, add 5 mL of water, shake, add gradually 6 mL of hydrochloric acid, evaporate on a water bath to dryness, dis-solve the residue in 50 mL of water, and filter. To 25 mL of the filtrate, add 2 mL of dilute acetic acid, 1 drop of ammo-nia TS and water to make 50 mL. Perform the test with this solution as the test solution. Prepare the control solution as follows: evaporate 3 mL of hydrochloric acid on a water bath to dryness, add 2 mL of dilute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL, and use this solution as the control solution (not more than 20 ppm). When being shown as extracts, infusions and decoctions on the label, the procedure and the limit are as follows. To 20.0 g of pulverized Longgu, add 80 mL of water, shake occasionally in a water bath, heat to make about 40 mL, allow to cool, and filter. Proceed with this solution ac-cording to Method 3, and perform the test. To the control solution, add 1.0 mL of Standard Lead Solution (not more than 0.5 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.20 g of pulverized Longgu according to Method 2, and perform the test (not more than 10 ppm). When being shown the restricted utilization forms as ``ex-tracts, infusions and decoctions only'', the procedure and the limit are as follows. Put 4.0 g of pulverized Longgu in a centrifuge tube, add 30 mL of water, and heat in a water bath with occasional shaking to make about 15 mL. After cooling, centrifuge, and perform the test using the supernatant liquid as the test solution (not more than 0.5 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

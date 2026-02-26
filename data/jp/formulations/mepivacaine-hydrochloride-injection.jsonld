@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mepivacaine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Mepivacaine Hydrochloride Injection",
+    "ja": "メピバカイン塩酸塩注射液"
+  },
+  "monographId": "JP18-mepivacaine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mepivacaine Hydrochloride Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Mepivacaine Hydrochloride Injection is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Mepivacaine Hydrochloride Injection, equivalent to 20 mg of Mepivacaine Hydrochlo-ride, add 1 mL of sodium hydrochloride TS, and extract with 20 mL of hexane. To 8 mL of the hexane extract add 20 mL of 1 mol/L hydrochloric acid TS, shake vigorously, and determine the absorption spectrum of the water layer sepa-rated as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 261 nm and 265 nm, and between 270 nm and 273 nm. pH Being specified separately when the drug is granted ap-proval based on the Law. Bacterial endotoxins <4.01> Less than 0.6 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Mepivacaine Hydrochloride Injec-tion, equivalent to about 40 mg of mepivacaine hydrochlo-ride (C15H22N2O.HCl), add exactly 4 mL of the internal standard solution and 0.001 mol/L hydrochloric acid TS to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of mepivacaine hy-drochloride for assay, previously dried at 1059C for 3 hours, dissolve in 0.001 mol/L hydrochloric acid TS, add exactly 4 mL of the internal standard solution and 0.001 mol/L hy-drochloride TS to make 20 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of mepivacaine to that of the internal standard. Amount (mg) of mepivacaine hydrochloride (C15H22N2O.HCl) ＝ MS × QT/QS MS: Amount (mg) of mepivacaine hydrochloride for assay taken Internal standard solution—A solution of benzophenone in methanol (1 in 4000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). ‌Column: A stainless steel column about 4 mm in inside di-ameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diam-eter).‌ Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 2.88 g of sodium lauryl sulfate in 1000 mL of a mixture of 0.02 mol/L phosphate buffer solu-tion (pH 3.0) and acetonitrile (11:9). Flow rate: Adjust so that the retention time of mepivacaine is about 6 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, mepivacaine and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of mepivacaine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

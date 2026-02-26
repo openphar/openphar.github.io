@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/acebutolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Acebutolol Hydrochloride",
+    "ja": "アセブトロール塩酸塩"
+  },
+  "monographId": "JP18-acebutolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H28N2O4.HCl",
+  "molecularWeight": 372.89,
+  "casNumber": "34381-68-5",
+  "definition": {
+    "en": "Acebutolol Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Acebutolol Hydrochloride occurs as white to pale yellow-white, crystals or crystalline powder. It is freely soluble in water, in methanol, in ethanol (95) and in acetic acid (100), and practically insoluble in diethyl ether. A solution of Acebutolol Hydrochloride (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Acebutolol Hydrochloride in 0.01 mol/L hydro-chloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Acebutolol Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Acebutolol Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Acebutolol Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Acebutolol Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 40 mg of Acebutolol Hydrochloride in 2 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 25 mL, and pipet 1 mL of this so-lution, add methanol to make exactly 20 mL, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with the upper layer of a mixture of water, 1-butanol and acetic acid (100) (5:4:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 365 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Acebutolol Hydro-chloride, previously dried, dissolve in 20 mL of acetic acid (100), add 80 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 37.29 mg of C18H28N2O4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/burnt-alum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Burnt Alum",
+    "ja": "乾燥硫酸アルミニウムカリウム"
+  },
+  "monographId": "JP18-burnt-alum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "AlK(SO4)2",
+  "molecularWeight": 258.21,
+  "appearance": {
+    "en": "Dried Aluminum Potassium Sulfate occurs as white masses or white powder. It is odorless. It has a slightly sweet, astringent taste. It is freely soluble in hot water and practically insoluble in ethanol (95). It dissolves slowly in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Dried Aluminum Potassium Sulfate (1 in 20) responds to Qualitative Tests <1.09> for alu-minum salt, to Qualitative Tests <1.09> (1), (3) and (4) for potassium salt, and to Qualitative Tests <1.09> (1) and (3) for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water-insoluble substances—To 2.0 g of Dried Aluminum Potassium Sulfate add 40 mL of water, shake frequently, and allow to stand for 48 hours. Collect the insoluble residue on a glass filter (G4), wash with 50 mL of water, and dry at 1059C for 2 hours: the mass of the residue is not more than 50 mg. Heavy metals <1.07>—Dissolve 0.5 g of Dried Alumi- num Potassium Sulfate in 45 mL of water, and filter, if necessary. Add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 2.0 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 40 ppm). Iron <1.10>—Prepare the test solution with 0.54 g of Dried Aluminum Potassium Sulfate according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 37 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Dried Aluminum Potassium Sulfate, according to Method 1, and perform the test (not more than 5 ppm). Loss on drying <2.41> Not more than 15.0z (2 g, 2009C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.2 g of Dried Aluminum Potassium Sulfate, previously dried, add 80 mL of water, and heat on a water bath with occasional shaking for 20 minutes. Cool, add water to make exactly 100 mL, and filter, if necessary. Discard the first 30 mL of the filtrate, take exactly the subsequent 20 mL of the filtrate, and add exactly 30 mL of 0.05 mol/L disodium dihydrogen ethylene-diamine tetraacetate VS and 20 mL of acetic acid-ammo-nium acetate buffer solution (pH 4.8), boil for 5 minutes, and cool. Add 55 mL of ethanol (95), and titrate <2.50> with 2 3 0.05 mol/L zinc acetate VS (indicator: 2 mL of dithizone TS), until the color of the solution changes from light dark ‌442‌ green to light red. Perform a blank determination in the same manner. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 12.91 mg of AlK (SO4)2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

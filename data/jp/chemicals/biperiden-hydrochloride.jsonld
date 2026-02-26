@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/biperiden-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Biperiden Hydrochloride",
+    "ja": "ビペリデン塩酸塩"
+  },
+  "monographId": "JP18-biperiden-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H29NO.HCl",
+  "molecularWeight": 347.92,
+  "casNumber": "1235-82-1",
+  "definition": {
+    "en": "Biperiden Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Biperiden Hydrochloride occurs as a white to brownish yellow-white crystalline powder. It is freely soluble in formic acid, slightly soluble in water, in methanol and in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 2709C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Biperiden Hydro-chloride in 5 mL of phosphoric acid: a green color develops. Dissolve 0.01 g of Biperiden Hydrochloride in 5 mL of water by heating, cool, and add 5 to 6 drops of bromine TS: a yellow precipitate is formed. Determine the absorption spectrum of a solution of Biperiden Hydrochloride (1 in 2000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Biperiden Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Dissolve 0.02 g of Biperiden Hydrochloride in 10 mL of water by heating, and cool: the solution responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 1.0 g of Biperiden Hydrochloride add 50 mL of water, shake vigorously, filter, and to 20 mL of the filtrate add 1 drop of methyl red TS: no red to yellow color develops. Heavy metals <1.07>—Proceed with 1.0 g of Biperiden Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Biperiden Hydrochloride according to Method 3, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Biperiden Hy-drochloride in 20 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 50 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and am-monia solution (28) (80:15:2) to a distance of about 15 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Biperiden Hydro-chloride, previously dried, dissolve in 5 mL of formic acid, add 60 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 34.79 mg of C21H29NO.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  }
+}

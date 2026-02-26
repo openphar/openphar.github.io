@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/glycyrrhizae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Glycyrrhizae Radix",
+    "ja": "カンゾウ"
+  },
+  "monographId": "JP18-glycyrrhizae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly cylindrical pieces, 0.5 – 3 cm in diame-ter, over 1 m in length; externally dark brown to red-brown, longitudinally wrinkled, and often having lenticels, small buds and scaly leaves; peeled Glycyrrhiza is externally light yellow and fibrous. The transverse section reveals a rather clear border between cortex and xylem, and a radial struc-ture which often has radiating splits. Glycyrrhiza originated from stolon has a pith, but those from root has no pith. Odor, slight; taste, sweet. Under a microscope <5.01>, a transverse section reveals multicellular layers of yellow-brown cork layers, and 1- to 3-cellular layer of cork cortex inside the cork layer; the sec-ondary cortex exhibiting medullary rays and phloems radiat-ed alternately; the phloem exhibiting fiber bundles with thick but incompletely lignified cell walls, surrounded by crystal cells; peeled Glycyrrhiza sometimes lacks a part of secondary cortex; the xylem exhibiting large yellow vessels and medul-lary rays in 3 to 10 rows radiated alternately; the vessels ‌2014 Powdered Glycyrrhiza / Crude Drugs and Related Drugs accompanied with xylem fibers surrounded by crystal cells, and with xylem parenchyma cells; the parenchymatous pith only in Glycyrrhiza originated from stolon. The parenchyma cells contain starch grains and often solitary crystals of cal-cium oxalate. Under a microscope <5.01>, a vertical section reveals crystal cells row observed along with phloem fibers or xylem fibers."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Glycyrrhiza add 10 mL of a mixture of ethanol (95) and water (7:3), heat by shaking on a water bath for 5 minutes, cool, filter, and use the fil-trate as the sample solution. Separately, dissolve 5 mg of Glycyrrhizic Acid RS or glycyrrhizic acid for thin-layer chro-matography in 1 mL of a mixture of ethanol (95) and water (7:3), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solu-tion and standard solution on a plate of silica gel with fluo-rescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solu-tion and a spot from the standard solution show the same color tone and the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Glycyrrhiza according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Glycyrrhiza according to Method 4, and per-form the test (not more than 5 ppm). Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 25.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Glycyr-rhiza in a glass-stoppered centrifuge tube, add 70 mL of dilute ethanol, shake for 15 minutes, centrifuge, and sepa-rate the supernatant liquid. To the residue add 25 mL of dilute ethanol, and proceed in the same manner. Combine all the extracts, add dilute ethanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Glycyrrhizic Acid RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dissolve in dilute ethanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of glycyrrhizic acid in each solution. Amount (mg) of glycyrrhizic acid (C42H62O16) ＝ MS × AT/AS MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 720 mL of water, and add 5 mL of acetic acid (100) and 280 mL of acetonitrile. Flow rate: Adjust so that the retention time of glycyrrhizic acid is about 15 minutes. System suitability— System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak with the relative retention time of about 0.9 to glycyrrhizic acid and the peak of glycyrrhizic acid is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glycyrrhizic acid is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

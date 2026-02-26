@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bamethan-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bamethan Sulfate",
+    "ja": "バメタン硫酸塩"
+  },
+  "monographId": "JP18-bamethan-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Bamethan Sulfate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Bamethan Sulfate occurs as white, crystals or crystalline powder. It is odorless, and has a bitter taste. It is freely soluble in water and in acetic acid (100), soluble in methanol, slightly soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 1699C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Bamethan Sulfate (1 in 1000) add 5 mL of a solution of 4-nitroben-zenediazonium fluoroborate (1 in 2000) and 10 mL of boric acid-potassium chloride-sodium hydroxide buffer solution (pH 9.2): an orange-red color develops. Determine the absorption spectrum of a solution of Bamethan Sulfate in 0.01 mol/L hydrochloric acid TS (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Bamethan Sulfate, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>: it exhibits absorption at the wave numbers of about 1618, 1597, 1518, 1118 and 833 cm－1. A solution of Bamethan Sulfate (1 in 100) responds to Qualitative Tests <1.09> for sulfate. spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.75 g of Bamethan Sulfate, previously dried, dissolve in 80 mL of acetic acid (100), and titrate with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 51.67 mg of (C12H19NO2)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

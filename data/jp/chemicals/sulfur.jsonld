@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfur",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfur",
+    "ja": "イオウ"
+  },
+  "monographId": "JP18-sulfur",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulfur, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sulfur occurs as a light yellow to yellow pow-der. It is odorless and tasteless. It is freely soluble in carbon disulfide, and practically in-soluble in water, in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Ignite Sulfur: it burns with a blue flame and gives a pungent odor of sulfur dioxide. Dissolve 5 mg of Sulfur in 5 mL of sodium hydroxide TS by heating in a water bath, cool, and add 1 drop of sodi- um pentacyanonitrosylferrate (III) TS: a blue-purple color develops. Boil 1 mg of Sulfur with 2 mL of pyridine and 0.2 mL of sodium hydrogen carbonate TS: a blue color devel-ops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Sulfur in a mixture of 20 mL of a solution of sodium hydroxide (1 in 6) and 2 mL of ethanol (95) by boiling: the solution is clear. Dissolve 2.0 g of Sulfur in 10 mL of carbon disulfide: the so-lution is almost clear or slightly opalescent. Acidity or alkalinity—Shake 2.0 g of Sulfur with 50 mL of freshly boiled and cooled water, and add 2 drops of phenolphthalein TS: no red color develops. Further add 1.0 mL of 0.1 mol/L sodium hydroxide VS: a red color devel-ops. Arsenic <1.11>—Prepare the test solution with 0.20 g of Sulfur according to Method 3, and perform the test (not more than 10 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, not more than 0.67 kPa, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Sulfur, previously dried, dissolve in 20 mL of potassium hydroxide-ethanol TS and 10 mL of water by boiling, cool, and add water to make exactly 100 mL. Transfer exactly 25 mL of the solution to a 400-mL beaker, add 50 mL of hydrogen peroxide TS, and heat on a water bath for 1 hour. Acidify the solution with dilute hydrochloric acid, add 200 mL of water, heat to boil, add hot barium chloride TS dropwise until no more precipi-tate is formed, and heat on a water bath for 1 hour. Collect the precipitate, and wash with water until the last washing shows no opalescence with silver nitrate TS. Dry the precipi-tate, heat strongly to constant mass, and weigh as barium sulfate (BaSO4: 233.39). Perform a blank determination in the same manner, and make any necessary correction. Amount (mg) of sulfur (S) ＝ amount (mg) of barium sulfate (BaSO4) × 0.13739"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

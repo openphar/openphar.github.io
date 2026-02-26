@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/vincristine-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Vincristine Sulfate",
+    "ja": "ビンクリスチン硫酸塩"
+  },
+  "monographId": "JP18-vincristine-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Vincristine Sulfate contains not less than 95."
+  },
+  "appearance": {
+    "en": "Vincristine Sulfate occurs as a white to light yellow-white powder. It is very soluble in water, and practically insoluble in ethanol (99.5). It is hygroscopic. D Optical rotation [a]20: ＋28.5 – ＋35.59(0.2 g calculated on the dried basis, water, 10 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Vincristine Sulfate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Vincristine Sulfate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Vin-cristine Sulfate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Vincristine Sulfate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Vincristine Sulfate (1 in 100) responds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 10 mg of Vincristine Sulfate in 10 mL of water: the pH of this solution is between 3.5 and 4.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 50 mg of Vincristine Sulfate in 10 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve 10 mg of Vincristine Sulfate in 10 mL of water, and use this solution as the sam-ple solution. Pipet 2 mL of the sample solution, add water to Amount (mg) of vinblastine sulfate (C ＝ MS × AT/AS × 10 46H58N4O9.H2SO4) make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 200 mL each of the sample solution and standard solution as directed under MS: Amount (mg) of Vinblastine Sulfate RS taken, calcu-lated on the dried basis"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Vincristine Sulfate and Vincristine Sulfate RS (separately determine the loss on drying under the same conditions as Vincristine Sul-fate), dissolve each in water to make exactly 10 mL, and use these solutions as the sample solution and the standard solu- procedure is run with 10 mL of this solution under the above operating conditions, vincristine and vinblastine are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of vincristine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers,"
+  }
+}

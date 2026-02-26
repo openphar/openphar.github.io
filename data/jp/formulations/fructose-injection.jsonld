@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/fructose-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Fructose Injection",
+    "ja": "果糖注射液"
+  },
+  "monographId": "JP18-fructose-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Fructose Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Fructose Injection is a colorless to pale yellow, clear liquid. It has a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Take a volume of Fructose Injection, equivalent to 1 g of Fructose, dilute with water or concen-trate on a water bath to 20 mL, if necessary, and use this so-lution as the sample solution. Add 2 to 3 drops of the sample solution to 5 mL of boiling Fehling's TS: a red precipitate is produced. (2) To 10 mL of the sample solution obtained in (1) add 0.1 g of resorcinol and 1 mL of hydrochloric acid, and warm in a water bath for 3 minutes: a red color develops. pH <2.54> 3.0 – 6.5 In the case where the labeled concen-tration of the injection exceeds 5z, dilute to 5z with water before the test."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Take a volume of Fruc-tose Injection, equivalent to 5.0 g of Fructose, and evaporate on a water bath to dryness. With the residue, proceed ac-cording to Method 2, and perform the test. Prepare the con-trol solution with 2.0 mL of Standard Lead Solution. (2) Arsenic <1.11>—Take a volume of Fructose Injec- tion, equivalent to 1.5 g of Fructose, dilute with water or concentrate on a water bath to 5 mL, if necessary, and add 5 mL of dilute sulfuric acid and 1 mL of bromine TS. Proceed as directed in the purity (8) under Fructose. Residue on ignition <2.44> Measure exactly a volume of Fructose Injection, equivalent to 2 g of Fructose, evaporate on a water bath to dryness, and perform the test: the residue weighs not more than 2 mg. ‌JP XVIII Official Monographs / Fudosteine 1047 Bacterial endotoxins <4.01> Less than 0.5 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Fructose Injection, equivalent to about 4 g of fructose (C6H12O6), add 0.2 mL of ammonia TS, dilute with water to make exactly 100 mL, shake well, and after allowing to stand for 30 minutes, deter- mine the optical rotation, aD, in a 100-mm cell at 20 ± 19C as directed under Optical Rotation Determination <2.49>. Amount (mg) of fructose (C6H12O6) ＝ |aD| × 1087.0"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/saponated-cresol-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Saponated Cresol Solution",
+    "ja": "クレゾール石ケン液"
+  },
+  "monographId": "JP18-saponated-cresol-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Saponated Cresol Solution contains not less than 42 volz and not more than 52 volz of cresol."
+  },
+  "appearance": {
+    "en": "Saponated Cresol Solution is a yellow-brown to red-brown, viscous liquid. It has the odor of cresol. It is miscible with water, with ethanol (95) and with glyce-rin. It is alkaline."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification un-der Cresol, using the distillate in the Purity (3)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Alkalinity—Mix well 0.50 mL of Saponated Cresol Solution with 10 mL of neutralized ethanol, add 2 to 3 drops of phenolphthalein TS and 0.10 mL of 1 mol/L hy-drochloric acid VS: no red color develops. Unsaponified matter—To 1.0 mL of Saponated Cresol Solution add 5 mL of water, and shake: the solution is clear. ‌JP XVIII Official Monographs / Croconazole Hydrochloride 817 Cresol fraction—Transfer 180 mL of Saponated Cresol Solution to a 2000-mL distilling flask, add 300 mL of water and 100 mL of dilute sulfuric acid, and distil with steam until the distillate becomes clear. Draw off the water from the condenser, and continue the distillation until water vapor begins to come out of the tip of the condenser. Cool the condenser again, and continue distillation for 5 minutes. Dissolve 20 g of sodium chloride per 100 mL of the distillate, allow to stand, and collect the separated clear oil layer. After adding about 15 g of powdered calcium chloride for drying in small portions with frequent shaking, allow to stand for 4 hours. Filter, and distil exactly 50 mL of the filtrate: the dis-tillate is not less than 43 mL between 1969C and 2069C."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer 5 mL of Saponated Cresol Solution, ex-actly measured, to a 500-mL distilling flask, holding the pipet vertically for 15 minutes to draw off the solution into the flask. Add 200 mL of water, 40 g of sodium chloride and 3 mL of dilute sulfuric acid, connect the distilling apparatus with the distilling flask, and distil into a cassia flask which contains 30 g of powdered sodium chloride and exactly 3 mL of kerosene, until the distillate reaches 90 mL. Draw off the water from the condenser, and continue the distillation until water vapor begins to come out of the tip of the condenser. Allow the cassia flask to stand in warm water for 15 minutes to dissolve the sodium chloride with frequent shaking. Cool to 159C, add a saturated solution of sodium chloride, and allow to stand for more than 3 hours with occasional shak-ing. Allow to stand for 1 to 2 minutes with gentle shaking, and combine the separated oil drops with the oil layer. The volume (mL) subtracted 3 (mL) from the oil layer measured represents the amount (mL) of cresol."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

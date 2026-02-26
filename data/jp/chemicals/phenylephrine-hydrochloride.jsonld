@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenylephrine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Phenylephrine Hydrochloride‌",
+    "ja": "フェニレフリン塩酸塩"
+  },
+  "monographId": "JP18-phenylephrine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H13NO2.HCl",
+  "molecularWeight": 203.67,
+  "casNumber": "61-76-7",
+  "appearance": {
+    "en": "Phenylephrine Hydrochloride occurs as white crystals or crystalline powder. It is odorless, and has a bitter taste. It is very soluble in water, freely soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Phenylephrine Hydro-chloride in 100 mL of water is 4.5 to 5.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Phenylephrine Hydrochloride (1 in 100) add 1 drop of copper (II) sulfate TS and 1 mL of a solution of sodium hydroxide (1 in 5): a blue color is produced. To the solution so obtained add 1 mL of diethyl ether, and shake vigorously: no blue color develops in the diethyl ether layer. To 1 mL of a solution of Phenylephrine Hydrochlo-ride (1 in 100) add 1 drop of iron (III) chloride TS: a persis-tent purple color is produced. Dissolve 0.3 g of Phenylephrine Hydrochloride in 3 mL of water, add 1 mL of ammonia TS, and rub the inner side of the test tube with a glass rod: a precipitate is pro-duced. Collect the precipitate, wash with a few drops of ice-cold water, and dry at 1059C for 2 hours: it melts <2.60> be-tween 1709C and 1779C. A solution of Phenylephrine Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －42.0 – －47.59(after dry-ing, 0.5 g, water, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Phenylephrine Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. Sulfate <1.14>—Take 0.5 g of Phenylephrine Hydro- chloride, and perform the test. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Ketone—Dissolve 0.20 g of Phenylephrine Hydro-chloride in 1 mL of water, and add 2 drops of sodium penta-cyanonitrosylferrate (III) TS, 1 mL of sodium hydroxide TS and then 0.6 mL of acetic acid (100): the solution has no more color than the following control solution. Control solution: Prepare as directed above without Phenylephrine Hydrochloride. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Phenylephrine Hy-drochloride, previously dried, dissolve in 40 mL of water contained in an iodine flask, add exactly measured 50 mL of 0.05 mol/L bromine VS, then add 5 mL of hydrochloric acid, and immediately stopper tightly. Shake the mixture, and allow to stand for 15 minutes. To this solution add 10 mL of potassium iodide TS carefully, stopper tightly imme-diately, shake thoroughly, allow to stand for 5 minutes, and titrate <2.50> with 0.1 mol/L sodium thiosulfate VS (indica-tor: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L bromine VS ＝ 3.395 mg of C9H13NO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

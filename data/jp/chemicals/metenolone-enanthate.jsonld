@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/metenolone-enanthate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Metenolone Enanthate‌",
+    "ja": "メテノロンエナント酸エステル"
+  },
+  "monographId": "JP18-metenolone-enanthate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H42O3",
+  "molecularWeight": 414.62,
+  "appearance": {
+    "en": "Metenolone Enanthate occurs as white, crys-tals or crystalline powder. It is odorless. It is very soluble in ethanol (95), in acetone, in 1,4-dioxane and in chloroform, freely soluble in methanol, in ethyl ace-tate, in diethyl ether, in cyclohexane, in petroleum ether and in toluene, soluble in sesame oil, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 1 mg of Metenolone Enanthate with 5 mL of a mixture of sulfuric acid and ethanol (95) (1:1) on a water bath for 30 minutes: a red-brown color develops. (2) Dissolve 50 mg of Metenolone Enanthate in 3 mL of methanol, add 0.3 mL of a solution of potassium carbonate (1 in 6), boil under a reflux condenser for 2 hours, cool, add slowly this solution to 50 mL of cold water, and stir for 15 minutes. Filter the produced precipitate by suction through a glass filter (G4), wash with water until the washings become neutral, and dry at 1059C for 1 hour: it melts <2.60> between 1569C and 1629C. D Optical rotation <2.49> [a]20: ＋39 – ＋439(after drying, 0.2 g, chloroform, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Metenolone Enanthate in 10 mL of 1,4-dioxane: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Meteno- lone Enanthate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 20 mg of Metenolone Enanthate in exactly 10 mL of chloroform, and use this solu-tion as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl acetate and cyclohexane (1:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): any spot other than the principal spot does not appear. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Metenolone Enan- thate, previously dried, and dissolve in methanol to make ex-actly 100 mL. Pipet 10 mL of this solution, and dilute with methanol to make exactly 100 mL. Pipet 10 mL of this solu-tion, and dilute again with methanol to make exactly 100 mL. Determine the absorbance, A, of this solution at the wavelength of maximum absorption at about 242 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of metenolone enanthate (C27H42O3) ＝ A/325 × 100,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

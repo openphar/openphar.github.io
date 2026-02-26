@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/trientine-hydrochloride-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Trientine Hydrochloride Capsules",
+    "ja": "トリエンチン塩酸塩カプセル"
+  },
+  "monographId": "JP18-trientine-hydrochloride-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Trientine Hydrochloride Capsules contain not less than 90.0z and not more than 110.0z of the labeled amount of trientine hydrochloride (C6H18N4.2HCl: 219.16). Method of preparation Prepare as directed under Cap-sules, with Trientine Hydrochloride. Identification Take out the contents of Trientine Hydro-chloride Capsules, dry under reduced pressure not exceeding 0.67 kPa at 409C for 4 hours, and determine the infrared absorption spectrum as directed in the paste method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 3220 cm－1, 2120 cm－1, 1641 cm－1, 1620 cm－1, 1556 cm－1, 1502 cm－1 and 1116 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Trientine Hydrochloride Capsules is not less than 85z. Start the test with 1 capsule of Trientine Hydrochloride Capsules, withdraw not less than 25 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take out the contents of Trientine Hydro-chloride Capsules, dry under reduced pressure not exceeding 0.67 kPa at 409C for 4 hours, and determine the infrared absorption spectrum as directed in the paste method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 3220 cm－1, 2120 cm－1, 1641 cm－1, 1620 cm－1, 1556 cm－1, 1502 cm－1 and 1116 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Trientine Hydrochloride Capsules is not less than 85z. Start the test with 1 capsule of Trientine Hydrochloride Capsules, withdraw not less than 25 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 0.28 mg of trientine hydro-chloride (C6H18N4.2HCl), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of trien-tine hydrochloride for assay, previously dried under reduced pressure not exceeding 0.67 kPa at 409C for 4 hours, dis-solve in water to make exactly 100 mL, and use this solution as the standard solution. Pipet 10 mL each of the sample so-lution and standard solution separately, add exactly 5 mL of a mixture of disodium hydrogen phosphate-citric acid buffer solution (pH 8.2) and cupper (II) sulfate pentahydrate solu-tion (1 in 20) (4:1). Determine the absorbances, AT1 and AS1 at 580 nm, and AT2 and AS2 at 410 nm, of these solutions as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution obtained in the same manner with 10 mL of water as the blank. Dissolution rate (z) with respect to the labeled amount of trientine hydrochloride (C6H18N4.2HCl) ＝ Ms × (AT1 － AT2)/(AS1 － AS2) × V?/V × 1/C × 900 MS: Amount (mg) of trientine hydrochloride for assay taken C: Labeled amount (mg) of trientine hydrochloride (C6H18N4.2HCl) in 1 capsule"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 20 Trientine Hydrochloride Capsules, weigh accurately the mass of the contents, and powder. Weigh accurately a portion of the powder, equivalent to about 0.25 g of trientine hydrochlo-ride (C6H18N4.2HCl), add 70 mL of methanol, dissolve by sonicating if necessary, and add methanol to make exactly 100 mL. Filter through a membrane filter with a pore size not exceeding 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Sepa-rately, weigh accurately about 0.25 g of trientine hydrochlo-ride for assay, previously dried under reduced pressure not exceeding 0.67 kPa at 409C for 4 hours, dissolve in methanol to make exactly 100 mL, and use this solution as the stand-ard solution. Pipet 5 mL each of the sample solution and standard solution separately, add exactly 10 mL of disodium hydrogen phosphate-citric acid buffer solution (pH 8.2) and exactly 1 mL of cupper (II) sulfate pentahydrate solution (1 in 20), and shake. Determine the absorbances, AT and AS, at 580 nm of these solutions, obtained with the sample solution and the standard solution, as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution obtained in the same manner with 5 mL of methanol as a blank. Amount (mg) of trientine hydrochloride (C6H18N4.2HCl) ＝ MS × AT/AS MS: Amount (mg) of trientine hydrochloride for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—At 2 – 89C."
+  },
+  "dosageForm": "Capsule"
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/norepinephrine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Norepinephrine Injection",
+    "ja": "ノルアドレナリン注射液"
+  },
+  "monographId": "JP18-norepinephrine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Norepinephrine Injection is a clear, colorless liquid. It gradually becomes a pale red color by light and by air. pH: 2.3 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Transfer a volume of Noradrenaline Injec-tion, equivalent to 1 mg of Noradrenaline, to each of two test tubes A and B, and add 1 mL of water to each tube. Add 10 mL of potassium hydrogen phthalate buffer solution (pH 3.5) to A, and 10 mL of phosphate buffer solution (pH 6.5) to B. To each of these solutions add 1.0 mL of iodine TS, allow to stand for 5 minutes, and add 2.0 mL of sodium thiosulfate TS: no color or a pale red color develops in test tube A, and a deep red-purple color develops in test tube B."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Arterenone—Measure a volume of Noradrena-line Injection, equivalent to 10 mg of Noradrenaline, add water to make exactly 20 mL, and determine the absorbance of this solution at 310 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance is not more than 0.10. (2) Adrenaline—Measure a volume of Noradrenaline In-jection, equivalent to 5 mg of Noradrenaline, add 1 mL of diluted acetic acid (100) (1 in 2) and water to make exactly 10 mL, and proceed as directed in the Purity (3) under Noradrenaline. Bacterial endotoxins <4.01> Less than 300 EU/mg. ‌Extractable volume <6.05> It meets the requirement.‌ Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Noradrenaline Injection, equiva-lent to about 5 mg of dl-noradrenaline (C8H11NO3), add water to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Noradrenaline Bitartrate RS, previously dried in a desic-cator (in vacuum, silica gel) for 24 hours, dissolve in water to make exactly 25 mL, and use this solution as the standard solution. Pipet 5 mL each of the sample solution and stand-ard solution, add 0.2 mL each of starch TS, then add iodine TS dropwise with swirling until a persistent blue color is produced. Add 2 mL of iodine TS, and shake. Adjust the pH of the solution to 6.5 with 0.05 mol/L disodium hydro-genphosphate TS, add 10 mL of phosphate buffer solution slightly soluble in water. It is affected by light. Identification (1) To 2 mg of Norethisterone add 2 mL of sulfuric acid: the solution shows a red-brown color and a yel-low-green fluorescence. Add 10 mL of water to this solution cautiously: a yellow color develops and a yellow-brown pre-cipitate is formed. (2) Determine the infrared absorption spectrum of Norethisterone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －32 – －379(after drying, 0.25 g, acetone, 25 mL, 100 mm). Melting point <2.60> 203 – 2099C Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g). Assay Weigh accurately about 0.2 g of Norethisterone, previously dried, dissolve in 40 mL of tetrahydrofuran, add 10 mL of a solution of silver nitrate (1 in 20), and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS (pH 6.5), and shake. Immediately after allowing to stand for 3 minutes, add sodium thiosulfate TS dropwise until a red- ＝ 29.84 mg of C20 H26O2 purple color develops, then add water to make exactly 50 mL. Determine the absorbances, AT and AS, of the subse-quent solutions of the sample solution and the standard solu-tion at 515 nm within 5 minutes as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of dl-noradrenaline (C8H11NO3) ＝ MS × AT/AS × 0.502 MS: Amount (mg) of Noradrenaline Bitartrate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

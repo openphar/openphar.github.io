@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/lincomycin-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Lincomycin Hydrochloride Injection",
+    "ja": "リンコマイシン塩酸塩注射液"
+  },
+  "monographId": "JP18-lincomycin-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Lincomycin Hydrochloride Injection is an aqueous injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Lincomycin Hydrochloride Injection is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Lincomycin Hydrochloride Injection, equivalent to 30 mg (potency) of Lincomycin Hy-drochloride Hydrate, add 30 mL of water, and use this solu-tion as the sample solution. Separately, dissolve 10 mg (po-tency) of Lincomycin Hydrochloride RS in 10 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Dissolve 150 g of ammonium acetate in 800 mL of water, adjust the pH to 9.6 with ammonia solu-tion (28), and add water to make 1000 mL. To 80 mL of this solution add 40 mL of 2-propanol and 90 mL of ethyl ace-tate, shake, develop the plate with the upper layer of this so-lution to a distance of about 15 cm, and air-dry the plate. Spray evenly a solution of potassium permanganate (1 in 1000) on the plate: the principal spot obtained from the sam-ple solution and the spot from the standard solution show the same Rf value. pH <2.54> 3.5 – 5.5 Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Lincomycin Hydrochloride Injec-tion, equivalent to about 0.3 g (potency) of Lincomycin Hy-drochloride Hydrate, add the mobile phase to make exactly 30 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 20 mL, and use this solution as the sample so-lution. Separately, weigh accurately an amount of Lincomy-cin Hydrochloride RS, equivalent to 20 mg (potency), dis-solve in the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Then, proceed as di-rected in the Assay under Lincomycin Hydrochloride Hy-drate. Liothyronine Sodium"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

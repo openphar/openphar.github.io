@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mepitiostane",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mepitiostane",
+    "ja": "メピチオスタン"
+  },
+  "monographId": "JP18-mepitiostane",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H40O2S",
+  "molecularWeight": 404.65,
+  "definition": {
+    "en": "Mepitiostane contains not less than 96."
+  },
+  "appearance": {
+    "en": "Mepitiostane occurs as white to pale yellow, crystals or crystalline powder. It is freely soluble in triethylamine, in chloroform, in diethyl ether and in cyclohexane, soluble in diethylene glycol dimethyl ether and in petroleum ether, sparingly soluble in acetone, slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water. It is hydrolyzed in moist air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Mepitiostane in 1 mL of methanol, and add 0.5 mL of palladium (II) chloride TS: an orange precipitate is formed. To this suspension add 1 mL of water and 2 mL of chloroform, shake well, and allow to stand: an orange color develops in the chloroform layer. Dissolve 0.1 g of Mepitiostane in 2 mL of diethylene glycol dimethyl ether, shake with 1 mL of 1 mol/L hydro-chloric acid TS, and filter. To the filtrate add 1.5 mL of 2,4-dinitrophenylhydrazine-diethylene glycol dimethyl ether TS and 1.5 mL of diluted ethanol (95) (2 in 3): an orange-yellow precipitate is formed. Filter the precipitate, recrystallize from ethanol (99.5), and dry in a desiccator (in vacuum, phosphorus (V) oxide) for 4 hours: the crystals melt <2.60> between 1449C and 1499C. ‌Determine the infrared absorption spectrum of Mepitiostane as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋20 – ＋239 (0.1 g, chlo-roform, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Mepitiostane in 4 mL of petroleum ether: the solution is clear and colorless to pale yellow. Heavy metals <1.07>—Proceed with 1.0 g of Mepitiostane according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 20 mg of Mepitiostane in exactly 5 mL of a mixture of acetone and triethylamine (1000:1), and use this solution as the sample solution. Sepa-rately, dissolve 10 mg of Epitiostanol RS in a mixture of acetone and triethylamine (1000:1) to make exactly 10 mL. Pipet 1 mL and 3 mL of this solution, to each add a mixture of acetone and triethylamine (1000:1) to make exactly 25 mL, and use these solutions as the standard solution (1) and the standard solution (2), respectively. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solutions (1) and (2) on a plate of silica gel with fluores-cent indicator for thin-layer chromatography. Develop the plate with a mixture of hexane and acetone (3:1) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (1 in 5) on the plate, heat the plate be-tween 1209C and 1309C for 5 minutes, and examine under ultraviolet light (main wavelength: 365 nm): the spots other than the principal spot obtained from the sample solution showing the same Rf value as the standard solutions are not more intense than the spot from the standard solution (2), and the remaining spots other than the principal spot are not more intense than the spot from the standard solution (1). Water <2.48> Not more than 0.7z (0.3 g, volumetric titra-tion, back titration). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Mepitiostane, and dissolve in cyclohexane to make exactly 10 mL. Pipet 2 mL of this solution, add 10 mL of ethanol (99.5), mix with ex-actly 2 mL each of 0.01 mol/L hydrochloric acid TS and the internal standard solution, add ethanol (99.5) to make 20 mL, allow to stand at ordinary temperature for 30 minutes, and use this solution as the sample solution. Separately, weigh accurately about 45 mg of Epitiostanol RS, dissolve in exactly 2 mL of the internal standard solution, add ethanol (99.5) to make 20 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of epitiostanol to that of the internal standard, respectively. Amount (mg) of mepitiostane (C25H40O2S) ＝ MS × QT/QS × 5 × 1.320 MS: Amount (mg) of Epitiostanol RS taken, calculated on the anhydrous basis Internal standard solution—A solution of n-octylbenzene in ethanol (99.5) (1 in 300). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and water (20:3). Flow rate: Adjust so that the retention time of epitiostanol is about 6 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, epitiostanol and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of epitiostanol to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

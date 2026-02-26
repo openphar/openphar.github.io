@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sorbitan-sesquioleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sorbitan Sesquioleate",
+    "ja": "ソルビタンセスキオレイン酸エステル"
+  },
+  "monographId": "JP18-sorbitan-sesquioleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sorbitan Sesquioleate is a pale yellow to light yellow-brown, viscous oily liquid. It has a faint, characteris-tic odor and a slightly bitter taste. It is freely soluble in diethyl ether, slightly soluble in ethanol (95), and very slightly soluble in methanol. It is dispersed as fine oily drops in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of Sorbitan Sesquioleate add 5 mL of ethanol (95) and 5 mL of dilute sulfuric acid, and heat on a water bath for 30 minutes. Cool, shake with 5 mL of petroleum ether, and allow to stand, and separate the upper layer and the lower layer. Shake 2 mL of the lower layer with 2 mL of freshly prepared catechol solution (1 in 10), then with 5 mL of sulfuric acid: a red to red-brown color devel-ops. (2) Heat the upper layer obtained in (1) on a water bath, and evaporate petroleum ether. To the residue add 2 mL of diluted nitric acid (1 in 2), and then add 0.5 g of potassium nitrite between 309C and 359C with stirring: the solution develops an opalescence, and, when cooled, crystals are formed. Specific gravity <1.13> d 25: 0.960 – 1.020 Saponification value <1.13> 150 – 168"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—To 2.0 g of Sorbitan Sesquioleate add 50 mL of neutralized ethanol, and heat on a water bath nearly to boiling with stirring once or twice. Cool, add 4.3 mL of 0.1 mol/L sodium hydroxide VS and 5 drops of phe-nolphthalein TS: a red color develops. Heavy metals <1.07>—Proceed with 1.0 g of Sorbitan Sesquioleate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Sorbitan Sesquioleate according to Method 2, and per- ‌form the test (not more than 2 ppm).‌ Water <2.48> Not more than 3.0z (1 g, volumetric titra-tion, direct titration, stir for 30 minutes). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

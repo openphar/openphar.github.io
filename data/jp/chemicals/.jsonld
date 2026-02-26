@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "—",
+    "ja": "L-グルタミン"
+  },
+  "monographId": "JP18-",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "— — Benzyl alcohol — — — 5 mL — Lauromacrogol solution (1 in 4) 4 mL 4 mL 4 mL 4 mL 4 mL L-Glutamine, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "L-Glutamine occurs as white, crystals or a crys- Water a sufficient a sufficient a sufficient a sufficient a sufficient amount amount amount amount amount Total amount 1000 mL 1000 mL 1000 mL 1000 mL 1000 mL Changing of mobile phase: Switch the mobile phases A, B, C, D and E sequentially so that when proceed with 20 mL of the standard solution under the above conditions, aspartic acid, threonine, serine, glutamic acid, glycine, alanine, cystine, valine, methionine, isoleucine, leucine, tyrosine, phenylalanine, lysine, ammonia, histidine and arginine are eluted in this order with the resolution between the peaks of isoleucine and leucine being not less than 1.2. Reaction reagent: Dissolve 204 g of lithium acetate dihy-drate in an appropriate amount of water, add 123 mL of acetic acid (100), 401 mL of 1-methoxy-2-propanol and water to make 1000 mL, introduce nitrogen for 10 minutes, and use this solution as Solution (I). Separately, to 979 mL of 1-methoxy-2-propanol add 39 g of ninhydrin, introduce nitrogen for 5 minutes, add 81 mg of sodium borohydride, introduce nitrogen for 30 minutes, and use this solution as Solution (II). Prepare a mixture with an equal volume of the Solution (I) and Solution (II) (Prepare before use). Flow rate of mobile phase: 0.20 mL per minute. Flow rate of reaction regent: 0.24 mL per minute. System suitability— System performance: When the test is run with 20 mL of the standard solution under the above operating conditions, the resolution between the peaks of glycine and L-alanine is not less than 1.2. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak height of each amino acid in the standard solution is not more than 5.0z, and the relative standard deviation of the retention time of them is not more than 1.0z. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). talline powder. It has a slight characteristic taste. It is freely soluble in formic acid, soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Glutamine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋6.3 – ＋7.39Weigh accu-rately about 2 g of L-Glutamine, previously dried, add 45 mL of water, warm to 409C to dissolve, and after cooling, add water to make exactly 50 mL. Determine the optical ro-tation of this solution in a 100-mm cell, within 60 minutes. pH <2.54> The pH of a solution prepared by dissolving 1.0 g of L-Glutamine in 50 mL of water is between 4.5 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 0.5 g of L-Glutamine in 20 mL of water is clear and colorless. Chloride <1.03>—Perform the test with 0.5 g of L-Glutamine. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Perform the test with 0.6 g of L-Glutamine. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.028z). Ammonium <1.02>—Perform the test with 0.10 g of L-Glutamine, using the distillation under reduced pressure. Prepare the control solution with 10.0 mL of Standard Am-monium Solution. The temperature of the water bath is 459C (not more than 0.1z). Heavy metals <1.07>—Proceed with 1.0 g of L-Gluta- mine according to Method 1, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of ‌JP XVIII Official Monographs / Glutathione 1079 L-Glutamine according to Method 1, and perform the test according to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of L-Glutamine in 10 mL of water, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add water to make exactly 10 mL. Pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Then develop with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and dry the plate at 809C for 30 minutes. Spray evenly a solution of ninhydrin in a mixture of methanol and acetic acid (100) (97:3) (1 in 100) on the plate, and heat the plate at 809C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on Ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of L-Glutamine, pre-viously dried, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 14.61 mg of C5H10N2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

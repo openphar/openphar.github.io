@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/talc",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Talc",
+    "ja": "タルク"
+  },
+  "monographId": "JP18-talc",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Talc is a powdered, selected, natural, hydrated mag-nesium silicate. Pure talc is Mg3Si4O10(OH)2: 379.27. It may contain related mineral substances consisting chiefly of chlorite (hydrous magnesium aluminum silicate), magnesite (magnesium carbonate), calcite (calcium carbonate) and dolomite (calcium magnesium carbonate). It contains no asbestos."
+  },
+  "appearance": {
+    "en": "Talc occurs as a white to grayish white, fine, crystalline powder. It is unctuous, and adheres readily to the skin. It is practically insoluble in water and in ethanol (99.5).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Talc as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorp-tion at the wave numbers of about 3680 cm－1, 1018 cm－1 and 669 cm－1."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—To 2.5 g of Talc add 50 mL of freshly boiled and cooled water, and heat under a reflux condenser. Filter the liquid by suction, add 0.1 mL of bromothymol blue-sodium hydroxide-ethanol TS to 10 mL of the filtrate, and add 0.01 mol/L hydrochloric acid VS until the color of the solution changes: the necessary volume of the VS is not more than 0.4 mL. Separately, to 10 mL of the filtrate add 0.1 mL of phenolphthalein TS, and add 0.01 mol/L sodium hydroxide VS until the color of the solution changes to light red: the necessary volume of the VS is not more than 0.3 mL. (2) Acid-soluble substances—Weigh accurately about g of Talc, heat with 20 mL of dilute hydrochloric acid at 509C for 15 minutes with stirring. Cool, add water to make exactly 50 mL, and filter. Centrifuge, if necessary, until the filtrate becomes clear. To 25 mL of the filtrate add 1 mL of dilute sulfuric acid, evaporate to dryness, and ignite to con-stant mass at 800 ± 259C: the amount of the residue is not more than 2.0z.◆ (3) Water-soluble substances—To 10.0 g of Talc add 50 mL of water, weigh the mass, and boil for 30 minutes, sup-plying water lost by evaporation. Cool, add water to restore and heat under a reflux condenser on a water bath for 30 minutes. After cooling, transfer the content to a beaker, and allow to settle the insoluble matter. Filter the supernatant liquid through a filter paper for quantitative analysis (No. 5B), leaving the precipitate in the beaker as much as possi-ble, wash the remaining precipitate in the beaker with three 10-mL portions of hot water, and also wash the filter paper with 15 mL of hot water, and combine the washings and the filtrate. After cooling, add water to make exactly 100 mL, and use this solution as the sample stock solution. Pipet 2.5 mL of the stock solution, add 50 mL of 0.5 mol/L hydro-chloric acid TS, then add water to make exactly 100 mL, and use this solution as the sample solution. Separately, to 50 mL each of 0.5 mol/L hydrochloric acid TS add exactly 2 mL, 2.5 mL, 3 mL and 4 mL of Standard Iron Solution for Atomic Absorption Spectrophotometry, add water to make them exactly 100 mL, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following condi-tions, and calculate the amount of iron from the calibration curve prepared from the absorbances of the standard solu-tions: not more than 0.25z. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Iron hollow-cathode lamp. Wavelength: 248.3 nm. Aluminum—Pipet 5 mL of the sample stock solution obtained in the Assay, add 10 mL of cesium chloride TS and 10 mL of hydrochloric acid, then add water to make exactly 100 mL, and use this solution as the sample solution. Sepa-rately, to 10 mL of hydrochloric acid and 10 mL of cesium chloride TS add exactly 5 mL, 10 mL, 15 mL and 20 mL of Standard Aluminum Solution for Atomic Absorption Spec-trophotometry, add water to make them exactly 100 mL, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following conditions, and calculate the amount of aluminum from the calibration curve pre-pared from the absorbances of the standard solutions: not more than 2.0z. Gas: Combustible gas—Acetylene. Supporting gas—Nitrous oxide. Lamp: Aluminum hollow-cathode lamp. Wavelength: 309.3 nm. Lead—Use the sample stock solution obtained in (4) as the sample solution. Separately, to 50 mL of 0.5 mol/L hydrochloric acid TS add exactly 5 mL, 7.5 mL, 10 mL and 12.5 mL of Standard Lead Solution, add water to make them exactly 100 mL, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following condi-tions, and calculate the amount of lead from the calibration curve prepared from the absorbances of the standard solu-tions: not more than 10 ppm. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Lead hollow-cathode lamp. Wavelength: 217.0 nm. ‌Calcium—Pipet 5 mL of the sample stock solution obtained in the Assay, add 10 mL of hydrochloric acid and 10 mL of lanthanum chloride TS, then add water to make exactly 100 mL, and use this solution as the sample solution. Separately, to 10 mL of hydrochloric acid and 10 mL of lan-thanum chloride TS add exactly 1 mL, 2 mL, 3 mL and 5 mL of Standard Calcium Solution, add water to make them exactly 100 mL, and use these solutions as the standard solu-tions. Perform the test with the sample solution and stand-ard solutions as directed under Atomic Absorption Spectro-photometry <2.23> according to the following conditions, and calculate the amount of calcium from the calibration curve prepared from the absorbances of the standard solu-tions: not more than 0.9z. Gas: Combustible gas—Acetylene. Supporting gas—Nitrous oxide. Lamp: Calcium hollow-cathode lamp. Wavelength: 422.7 nm. (8) Arsenic <1.11>—To 0.5 g of Talc add 5 mL of dilute sulfuric acid, and heat gently to boiling with shaking. Cool immediately, filter, and wash the residue with 5 mL of dilute sulfuric acid, then with 10 mL of water. Combine the filtrate and the washings, evaporate to 5 mL on a water bath, and perform the test with this solution as the test solution (not more than 4 ppm).◆ Loss on ignition <2.43> Not more than 7.0z (1 g, 1050 – 11009C, constant mass)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Talc in a poly-tetrafluoroethylene dish, add 5 mL of hydrochloric acid, 5 mL of nitric acid and 5 mL of perchloric acid, then add 35 mL of hydrofluoric acid while mixing gently, and evaporate to dryness on a hot plate by heating gradually. Add 5 mL of hydrochloric acid to the residue, cover the dish with a watch glass, and heat to boil. After cooling, transfer the content to a volumetric flask while washing the watch glass and dish with water, further wash the dish with water, transfer the washings to the flask, then add water to make exactly 50 mL, and use this solution as the sample stock solution. Pipet 0.5 mL of the sample stock solution, and add water to make exactly 100 mL. Pipet 4 mL of this solution, add 10 mL of hydrochloric acid and 10 mL of lanthanum chloride TS, then add water to make exactly 100 mL, and use this solution as the sample solution. Separately, to 10 mL of hydrochloric acid and 10 mL of lanthanum chloride TS add exactly 2.5 mL, 3 mL, 4 mL and 5 mL of Standard Magnesium Solution for Atomic Absorption Spectrophotometry, add water to make them exactly 100 mL, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> according to the following condi-tions, and calculate the amount of magnesium from the calibration curve prepared from the absorbances of the standard solutions. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: Magnesium hollow-cathode lamp. Wavelength: 285.2 nm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

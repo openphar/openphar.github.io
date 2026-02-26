@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ethinylestradiol-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ethinylestradiol Tablets",
+    "ja": "エチニルエストラジオール錠"
+  },
+  "monographId": "JP18-ethinylestradiol-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Evaporate to dryness 5 mL of the sam-ple solution obtained in Assay, and add 2 mL of a mixture of sulfuric acid and ethanol (95) (2:1) to the residue: a light red color with a yellow fluorescence develops. To the solution add carefully 4 mL of water: the color of the solution changes to red-purple. (2) Evaporate to dryness 10 mL of the sample solution obtained in Assay, add 0.2 mL of acetic acid (31) and 2 mL of phosphoric acid to the residue, and heat on a water bath for 5 minutes: a red color with a yellow-green fluorescence develops. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Place 1 tablet of Ethinylestradiol Tablets in a separator, add 10 mL of 2nd fluid for disintegration test, and shake until the tablet is disintegrated. Add 10 mL of dilute sulfuric acid and 20 mL of chloroform, shake vigorously for 5 minutes, and filter the chloroform layer into a conical flask through filter paper on which 5 g of anhydrous sodium sul-fate is placed. Extract the aqueous layer with two 20-mL portions of chloroform, proceed with the extracts in the same manner as before, and combine the filtrates with the previous one. Evaporate gently the combined filtrate on a water bath with the aid of a current of nitrogen, dissolve the residue in exactly 100 mL of methanol, and centrifuge, if necessary. Pipet x mL of the supernatant liquid, add metha-nol to make exactly V mL of a solution containing about 40 ng of ethinylestradiol (C20H24O2) per mL, and use this so-lution as the sample solution. Separately, weigh accurately about 10 mg of Ethinylestradiol RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 4 hours, dissolve in methanol, dilute to a volume containing about 40 ng of ethinylestradiol (C20H24O2) per mL, and use this solution as the standard solution. Pipet 4 mL each of sulfu-ric acid-methanol TS into three glass-stoppered test tubes, T, S and B, cool in ice, to each tube add exactly 1 mL each of the sample solution, the standard solution and methanol, shake immediately, and allow to stand in a water bath at 309C for 40 minutes, then allow to stand in a water bath at 209C for 5 minutes. Perform the test with these solutions as directed under Fluorometry <2.22>. Determine the fluores- cence intensities, FT, FS and FB, of these solutions using the fluorophotometer, at about 460 nm of the excitation and at about 493 nm of the fluorescence. Amount (mg) of ethinylestradiol (C20H24O2) ＝ MS × (FT － FB)/(FS － FB) × V/2500 × 1/x MS: Amount (mg) of Ethinylestradiol RS taken Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Chromatographic tube: Pack a pledget of glass wool in the bottom of a tube 25 mm in inside diameter and 300 mm in length, and place 5 g of anhydrous sodium sulfate on the glass wool. Chromatographic column: Place 5 g of siliceous earth for chromatography in a 200-mL beaker, soak well in 4 mL of 1 mol/L hydrochloric acid TS, and mix uniformly. Put the siliceous earth into the chromatographic tube in small portions to make 60 to 80 mm in height in proper hard-ness with a tamping rod. Standard solution: Weigh accurately about 10 mg of Ethinylestradiol RS, previously dried in a desiccator (in vacuum, phosphorus (V) oxide) for 4 hours, and dissolve in chloroform to make exactly 100 mL. Pipet 5 mL of this solu-tion, and add chloroform to make exactly 100 mL. Sample: Weigh accurately not less than 20 Ethinyles-tradiol Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 0.5 mg of ethinylestradiol (C20H24O2), place in a 50-mL beaker, add 2 mL of water, shake well, add 3 mL of chloroform, and shake well again. Add 4 g of siliceous earth for chromatography, mix well until the contents do not stick to the inner wall of the beaker, and use the substance as the sample. Procedure: To the chromatographic column add the sample with a funnel, and pack in proper hardness. Mix well the sample sticking to the beaker with 0.5 g of siliceous earth for chromatography, and place in the chromatographic tube. Wipe off the sample solution sticking to the beaker and the tamping rod with glass wool, and place it in the chromato-graphic tube. Push down the sample, and press lightly on the chromatographic column to make the height of the column 110 mm to 130 mm. Take 70 mL of chloroform, rinse the in-ner wall of the chromatographic tube with a portion of the chloroform, and transfer the remaining portion to the chro-matographic tube. Collect the effluent solution at a flow rate not more than 0.8 mL per minute. After completing the elu-tion, rinse the lower end of the chromatographic tube with a small quantity of chloroform, add chloroform to make exactly 100 mL, and use this solution as the sample solution. Transfer 6 mL each of the sample solution and standard so-lution to each separators, and add 20 mL each of isooctane. Add exactly 10 mL of a mixture of sulfuric acid and metha-nol (7:3), shake vigorously for 5 minutes, allow to stand in a dark place for 15 minutes, and centrifuge. Perform the test with the resulting color solutions as directed under Ultravio-let-visible Spectrophotometry <2.24>, using a solution, pre-pared with 6 mL of chloroform in the same manner, as the blank. Determine the absorbances, AT and AS, of the subse-quent solutions obtained from the sample solution and standard solution at 540 nm, respectively. Amount (mg) of ethinylestradiol (C20H24O2) ＝ MS × AT/AS × 1/20 MS: Amount (mg) of Ethinylestradiol RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Coniners—Well-closed containers."
+  },
+  "dosageForm": "Tablet"
+}

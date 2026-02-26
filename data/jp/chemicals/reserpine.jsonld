@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/reserpine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Reserpine",
+    "ja": "レセルピン"
+  },
+  "monographId": "JP18-reserpine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C33H40N2O9",
+  "molecularWeight": 608.68,
+  "definition": {
+    "en": "Reserpine, when dried, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Reserpine occurs as white to light yellow, crys-tals or crystalline powder. It is freely soluble in acetic acid (100) and in chloroform, slightly soluble in acetonitrile, very slightly soluble in ethanol (95), and practically insoluble in water and in diethyl ether. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mg of Reserpine add 1 mL of vanillin-hydrochloric acid TS, and warm: a vivid red-purple color develops. Determine the absorption spectrum of a solution of Reserpine in acetonitrile (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Reserpine RS prepared in the same manner as the sample solution: both spectra exhibit similar inten-sities of absorption at the same wavelengths. ‌Determine the infrared absorption spectrum of Reserpine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Reserpine RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －114 – －1279(after drying, 0.25 g, chloroform, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure with-out exposure to light, using light-resistant vessels. Dissolve 50 mg of Reserpine in 50 mL of acetonitrile, and use this so-lution as the sample solution. Pipet 3 mL of the sample solu-tion, add acetonitrile to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area from these solutions by the automatic integration method: the total area of the peaks other than reserpine ob-tained from the sample solution is not larger than the peak area of reserpine from the standard solution. Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Assay. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogen phosphate (pH 3.0) and acetonitrile (13:7). Flow rate: Adjust so that the retention time of reserpine is about 20 minutes. Time span of measurement: About 2 times as long as the retention time of reserpine. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add acetonitorile to make exactly 50 mL. Confirm that the peak area of reserpine obtained with 10 mL of this solution is equivalent to 3 to 5z of that with 10 mL of the standard solution. System performance: Dissolve 0.01 g of Reserpine and 4 mg of butyl parahydroxybenzoate in 100 mL of acetonitrile. To 5 mL of this solution add acetonitrile to make 50 mL. When the procedure is run with 20 mL of this solution ac-cording to the operating conditions in the Assay, reserpine and butyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of reserpine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (0.2 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (0.2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately about 10 mg each of Reserpine and Reserpine RS, previously dried, and dissolve each in acetonitrile to make exactly 100 mL. Pipet 5 mL each of these solutions, add exactly 10 mL of the inter-nal standard solution, 5 mL of acetonitrile and water to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of reserpine to that of the internal standard. Amount (mg) of reserpine (C33H40N2O9) ＝ MS × QT/QS MS: Amount (mg) of Reserpine RS taken Internal standard solution—A solution of butyl parahydrox-ybenzoate in acetonitrile (1 in 50,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 268 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogen phosphate (pH 3.0) and acetonitrile (11:9). Flow rate: Adjust so that the retention time of reserpine is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, reserpine and the internal standard are eluted in this order with the resolution between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of reserpine to that of the internal standard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/salicylated-alum-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Salicylated Alum Powder",
+    "ja": "サリチル・ミョウバン散"
+  },
+  "monographId": "JP18-salicylated-alum-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Salicylated Alum Powder contains not less than 2."
+  },
+  "appearance": {
+    "en": "Salicylated Alum Powder occurs as a white powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) The colored solution obtained in the Assay has a red-purple color. Determine the absorption spec-trum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 520 nm and 535 nm (salicylic acid). (2) Shake 0.3 g of Salicylated Alum Powder with 5 mL of methanol, filter, and use the filtrate as the sample solu-tion. Separately, dissolve 0.01 g of salicylic acid in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on the plate of silica gel with fluorescent indicator for thin-layer chromatography. Devel-op the plate with a mixture of chloroform, acetone and ace-tic acid (100) (45:5:1) to a distance of about 10 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample so-lution and that from the standard solution show the same Rf value. Spray evenly iron (III) chloride TS upon the plate: the spot from the standard solution and the corresponding spot from the sample solution reveal a purple color."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.33 g of Salicylated Alum Powder, add 80 mL of ethanol (95), and shake vigorously. Dilute with ethanol (95) to make exactly 100 mL, filter, and discard the first 10 mL of the filtrate. Use the subsequent fil-trate as the sample solution. Dissolve about 0.1 g of salicylic acid for assay, previously dried in a desiccator (silica gel) for 3 hours and accurately weighed, in sufficient ethanol (95) to make exactly 100 mL. Pipet 10 mL of this solution, dilute with ethanol (95) to make exactly 100 mL, and use the solu-tion as the standard solution. Pipet 10 mL each of the sam-ple solution and standard solution, to each add exactly 5 mL of a solution of iron (III) nitrate enneahydrate (1 in 200), and dilute with hydrochloric acid-potassium chloride buffer solution (pH 2.0) to make exactly 25 mL. Determine the ab-sorbances, AT and AS, of both solutions at 530 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared in the same manner with 10 mL of ethanol (95) as the blank. Amount (mg) of salicylic acid (C7H6O3) ＝ MS × AT/AS × 1/10 MS: Amount (mg) of salicylic acid for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  },
+  "dosageForm": "Powder"
+}

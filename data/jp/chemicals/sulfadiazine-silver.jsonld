@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sulfadiazine-silver",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sulfadiazine Silver",
+    "ja": "スルファジアジン銀"
+  },
+  "monographId": "JP18-sulfadiazine-silver",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H9AgN4O2S",
+  "molecularWeight": 357.14,
+  "casNumber": "22199-08-2",
+  "definition": {
+    "en": "Sulfadiazine Silver, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sulfadiazine Silver occurs as a white to pale yellow crystalline powder. It is odorless. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It dissolves in ammonia TS. It is gradually colored by light. Melting point: about 2759C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Sulfadiazine Silver, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of previously dried Sulfadiazine Silver RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Nitrate—To 250 mL of water add 1.0 g of Sul-fadiazine Silver, shake well for 50 minutes, filter, and use this filtrate as the sample solution. Separately, weigh accu-rately 0.25 g of potassium nitrate, and dissolve in water to make exactly 2000 mL. Pipet 5 mL of this solution and add water to make exactly 200 mL, and use this solution as the standard solution. Pipet 2.0 mL each of the sample solution ‌and standard solution, and add 5 mL of a solution of disodium chromotropate dihydrate in sulfuric acid (1 in 10,000) and sulfuric acid to make exactly 10 mL. Determine the absorbances, AT and AS, of the sample solution and standard solution at 408 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution, prepared with exactly 2.0 mL of water in the same manner, as the blank: AT is not larger than AS (not more than 0.05z). (2) Related substances—Dissolve 50 mg of Sulfadiazine Silver in 5 mL of a mixture of ethanol (95) and ammonia so-lution (28) (3:2), and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add a mixture of ethanol (95) and ammonia solution (28) (3:2) to make exactly 20 mL. Pipet 2 mL of this solution, add a mixture of ethanol (95) and ammonia solution (28) (3:2) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol and ammonia solu-tion (28) (10:5:2) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot and spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 809C, 4 hours). Residue on ignition <2.44> 41 – 45z (1 g). Silver content Weigh accurately about 50 mg of Sulfadia-zine Silver, previously dried, dissolve in 2 mL of nitric acid, and add water to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this so-lution as the sample solution. Measure accurately a suitable quantity of Standard Silver Solution for Atomic Absorption Spectrophotometry, dilute with water to make solutions con-taining 1.0 to 2.0 mg of silver (Ag:107.87) per mL, and use these solutions as the standard solutions. Perform the test with the sample solution and standard solutions as directed under Atomic Absorption Spectrophotometry <2.23> accord-ing to the following conditions, and calculate the silver con-tent of the sample solution from the calibration curve ob-tained from the absorbances of the standard solutions: it contains not less than 28.7z and not more than 30.8z of silver. Gas: Combustible gas—Acetylene. Supporting gas—Air. Lamp: A silver hollow cathode lamp. Wavelength: 328.1 nm."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g each of Sulfadiazine Silver and Sulfadiazine Silver RS, each previously dried, and add ammonia TS to make exactly 100 mL, respectively. Pipet 1 mL each of these solutions, add water to make ex-actly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Determine the absor-bances, AT and AS, of the sample solution and standard so-lution at 255 nm, as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using a solution, prepared with ex-actly 1 mL of ammonia TS and a sufficient water to make exactly 100 mL, as the blank."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

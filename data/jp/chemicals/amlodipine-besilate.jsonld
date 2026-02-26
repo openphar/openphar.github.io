@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/amlodipine-besilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Amlodipine Besilate",
+    "ja": "アムロジピンベシル酸塩"
+  },
+  "monographId": "JP18-amlodipine-besilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "111470-99-6",
+  "definition": {
+    "en": "Amlodipine Besilate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Amlodipine Besilate occurs as a white to yel-lowish white crystalline powder. It is freely soluble in methanol, sparingly soluble in ethanol (99.5), and slightly soluble in water. A solution of Amlodipine Besilate in methanol (1 in 100) shows no optical rotation. Melting point: about 1989C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Amlodipine Besilate in 0.01 mol/L hydrochloric acid-methanol TS (1 in 40,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Amlodipine Besilate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Am-lodipine Besilate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Amlodipine Besilate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. To 30 mg of Amlodipine Besilate add 0.1 g of sodium nitrate and 0.1 g of anhydrous sodium carbonate, mix, and gradually ignite. After cooling, dissolve the residue in 2 mL of dilute hydrochloric acid and 10 mL of water, filter if nec-essary, and add barium chloride TS: a white precipitate is formed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Amlodipine Besilate according to Method 4, and perform the test. Prepare the control solution with 2.5 mL of Stand-ard Lead Solution (not more than 25 ppm). Related substances—Dissolve 0.10 g of Amlodipine Besilate in 50 mL of a mixture of water and acetonitrile (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add the mixture of water and acetonitrile (1:1) to make exactly 100 mL. Pipet 3 mL of this solution, add the mixture of water and acetonitrile (1:1) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak having the relative Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 30 80 → 20 20 → 80 30 – 45 Flow rate: 1.0 mL per minute. Time span of measurement: About 3 times as long as the retention time of amlodipine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add a mixture of water and acetonitrile (1:1) to make exactly 10 mL. Confirm that the peak area of amlodi-pine obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of amlodipine are not less than 70,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amlodipine is not more than 2.0z. Water <2.48> Not more than 0.5z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 35 mg each of Amlodipine Besilate and Amlodipine Besilate RS (separately determine the water <2.48> using the same manner as Amlodipine Besi-late), dissolve them separately in the mobile phase to make exactly 250 mL. Pipet 5 mL each of these solutions, add ex-actly 5 mL each of the internal standard solution, add the mobile phase to make 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and ‌JP XVIII Official Monographs / Amlodipine Besilate Orally Disintegrating Tablets 457 QS, of the peak area of amlodipine to that of the internal standard. Amount (mg) of amlodipine besilate (C H ClN O .C H O S) lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak having the relative retention time of about 0.45 to amlodipine obtained from the sample solution is not larger than the peak area of 20 25 2 5 6 6 3 amlodipine from the standard solution, the area of the peak ＝ MS × QT/QS MS: Amount (mg) of Amlodipine Besilate RS taken, cal-culated on the anhydrous basis Internal standard solution—A solution of isobutyl para-hydroxybenzoate in the mobile phase (3 in 20,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 237 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and a solution of potassium dihydrogen phosphate (41 in 10,000) (13:7). Flow rate: Adjust so that the retention time of amlodipine is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, amlodipine and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of amlodipine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

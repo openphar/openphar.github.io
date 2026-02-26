@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorobutanol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorobutanol",
+    "ja": "クロロブタノール"
+  },
+  "monographId": "JP18-chlorobutanol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H7Cl3O",
+  "molecularWeight": 177.46,
+  "definition": {
+    "en": "Chlorobutanol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chlorobutanol occurs as colorless or white crystals. It has a camphoraceous odor. It is very soluble in methanol, in ethanol (95) and in diethyl ether, and slightly soluble in water. It slowly volatilizes in air. Melting point: not lower than about 769C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Chlo-robutanol (1 in 200) add 1 mL of sodium hydroxide TS, then slowly add 3 mL of iodine TS: a yellow precipitate is pro-duced and the odor of iodoform is perceptible. (2) To 0.1 g of Chlorobutanol add 5 mL of sodium hy-droxide TS, shake well the mixture, add 3 to 4 drops of ani-line, and warm gently: the disagreeable odor of phenyl isoc-yanide (poisonous) is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Shake thoroughly 0.10 g of the pow-der of Chlorobutanol with 5 mL of water: the solution is neutral. (2) Chloride <1.03>—Dissolve 0.5 g of Chlorobutanol in 25 mL of dilute ethanol, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS by adding 25 mL of dilute ethanol, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.071z). Water <2.48> Not more than 6.0z (0.2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 20 mg each of Chlormadi-none Acetate and Chlormadinone Acetate RS, previously dried, and dissolve in ethanol (95) to make exactly 100 mL. Pipet 5 mL each of these solutions, to each add ethanol (95) to make exactly 100 mL, and use these solutions as the sam-ple solution and the standard solution, respectively. Perform the test with these solutions as directed under Ultraviolet- Description Chlorobutanol occurs as colorless or white crystals. It has a camphoraceous odor. It is very soluble in methanol, in ethanol (95) and in diethyl ether, and slightly soluble in water. It slowly volatilizes in air. Melting point: not lower than about 769C. Identification (1) To 5 mL of a solution of Chlo-robutanol (1 in 200) add 1 mL of sodium hydroxide TS, then slowly add 3 mL of iodine TS: a yellow precipitate is pro-duced and the odor of iodoform is perceptible. (2) To 0.1 g of Chlorobutanol add 5 mL of sodium hy-droxide TS, shake well the mixture, add 3 to 4 drops of ani-line, and warm gently: the disagreeable odor of phenyl isoc-yanide (poisonous) is perceptible. Purity (1) Acidity—Shake thoroughly 0.10 g of the pow-der of Chlorobutanol with 5 mL of water: the solution is neutral. (2) Chloride <1.03>—Dissolve 0.5 g of Chlorobutanol in 25 mL of dilute ethanol, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution with 1.0 mL of 0.01 mol/L hydrochloric acid VS by adding 25 mL of dilute ethanol, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.071z). Water <2.48> Not more than 6.0z (0.2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Transfer about 0.1 g of Chlorobutanol, accurately weighed, to a 200-mL conical flask, and dissolve in 10 mL of ethanol (95). Add 10 mL of sodium hydroxide TS, boil under a reflux condenser for 10 minutes, cool, add 40 mL of dilute nitric acid and exactly 25 mL of 0.1 mol/L silver ni-trate VS, and shake well. Add 3 mL of nitrobenzene, and shake vigorously until the precipitate is coagulated. Titrate <2.50> the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (indicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. ‌738 Each mL of 0.1 mol/L silver nitrate VS ＝ 5.915 mg of C4H7Cl3O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

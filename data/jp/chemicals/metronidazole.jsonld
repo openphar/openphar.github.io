@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/metronidazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Metronidazole",
+    "ja": "メトロニダゾール"
+  },
+  "monographId": "JP18-metronidazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H9N3O3",
+  "molecularWeight": 171.15,
+  "definition": {
+    "en": "Metronidazole, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Metronidazole occurs as white to pale yellow-white, crystals or crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in ethanol (99.5) and in acetone, and slightly soluble in water. It dissolves in dilute hydrochloric acid. It is colored to yellow-brown by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Metronidazole in 0.1 mol/L hydrochloric acid TS (1 in 100,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Metronidazole as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Metronidazole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) 2-Methyl-5-nitroimidazol—Dissolve 0.10 g of Metro-nidazole in acetone to make exactly 10 mL, and use this solu-tion as the sample solution. Separately, dissolve 20 mg of 2-methyl-5-nitroimidazole for thin-layer chromatography in acetone to make exactly 20 mL, then pipet 5 mL of this solu-tion, add acetone to make exactly 100 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Immediately develop the plate with a mixture of acetone, water and ethyl acetate (8:1:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample solution corresponding to the spot from the standard solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Metronidazole, pre-viously dried, and dissolve in 30 mL of acetic acid (100). Titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 0.5 mL of p-naphtholbenzein TS) until the color of the solu-tion changes from orange-yellow to green. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 17.12 mg of C6H9N3O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

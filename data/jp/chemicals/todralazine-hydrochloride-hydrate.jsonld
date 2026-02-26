@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/todralazine-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Todralazine Hydrochloride Hydrate",
+    "ja": "トドララジン塩酸塩水和物"
+  },
+  "monographId": "JP18-todralazine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H12N4O2.HCl.H2O",
+  "molecularWeight": 286.71,
+  "definition": {
+    "en": "Todralazine Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Todralazine Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It has a slight, charac-teristic odor, and has a bitter taste. It is very soluble in formic acid, freely soluble in metha-nol, soluble in water, sparingly soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Todralazine Hydrochlo-ride Hydrate in 200 mL of water is between 3.0 and 4.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Todralazine Hydrochloride Hydrate (1 in 200) add 5 mL of silver nitrate-ammonia TS: the solution becomes turbid, and a black pre-cipitate is formed. Determine the absorption spectrum of a solution of Todralazine Hydrochloride Hydrate in 0.1 mol/L hydro-chloric acid TS (3 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Todralazine Hydrochloride Hydrate as directed in the potas-sium chloride disk method under the Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Todralazine Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> (1) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.30 g of Todralazine Hydrochloride Hydrate in 10 mL of water: the solution is clear and colorless to pale yellow. Sulfate <1.14>—Proceed the test with 2.0 g of Todralazine Hydrochloride Hydrate. Prepare the control so-lution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.012z). Heavy metals <1.07>—Proceed with 1.0 g of Todrala- zine Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Todralazine Hydrochloride Hydrate according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Todralazine Hydrochloride Hydrate in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the total area of the peaks other than todralazine obtained from the sample solution is not larger than the peak area of todrala-zine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.10 g of sodium 1-heptane sul-fonate in 1000 mL of diluted methanol (2 in 5). Adjust the pH of the solution to between 3.0 and 3.5 with acetic acid (100). Flow rate: Adjust so that the retention time of todralazine is about 8 minutes. Time span of measurement: About twice as long as the retention time of todralazine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add the mobile phase to make exactly 25 mL. Confirm that the peak area of todralazine obtained with 10 mL of this solution is equivalent to 15 to 25z of that with 10 mL of the standard solution. System performance: Dissolve 5 mg each of Todralazine Hydrochloride Hydrate and potassium hydrogen phthalate in 100 mL of the mobile phase. When the procedure is run with 10 mL of this solution under the above operating condi-tions, phthalic acid and todralazine are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of todralazine is not more than 2.0z. Water <2.48> 6.0 – 7.5z (0.5 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Todralazine Hydro-chloride Hydrate, dissolve in 5 mL of formic acid, add 70 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L ‌perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction.‌ Each mL of 0.1 mol/L perchloric acid VS ＝ 26.87 mg of C11H12N4O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

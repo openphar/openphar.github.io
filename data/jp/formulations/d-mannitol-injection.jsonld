@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/d-mannitol-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "D-Mannitol Injection",
+    "ja": "D-マンニトール注射液"
+  },
+  "monographId": "JP18-d-mannitol-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "D-Mannitol Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "D-Mannitol Injection is a clear, colorless liq-uid. It has a sweet taste. It may precipitate crystals."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Concentrate D-Mannitol Injection on a water bath to make a saturated solution. To 5 drops of this solution add 1 mL of iron (III) chloride TS and 5 drops of a solution of sodium hydroxide (1 in 5): a yellow precipitate is produced. Shake this solution vigorously: a clear solution is produced. On addition of a solution of sodium hydroxide (1"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

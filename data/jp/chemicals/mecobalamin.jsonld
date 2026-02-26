@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mecobalamin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mecobalamin",
+    "ja": "メコバラミン"
+  },
+  "monographId": "JP18-mecobalamin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Mecobalamin contains not less than 98."
+  },
+  "appearance": {
+    "en": "Mecobalamin occurs as dark red, crystals or crystalline powder. It is sparingly soluble in water, slightly soluble in ethanol (99.5), and practically insoluble in acetonitrile. It decomposes on exposure to light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Conduct this procedure without ex-posure to light, using light-resistant vessels. Determine the absorption spectrum of a solution of Mecobalamin in hydro-chloric acid-potassium chloride buffer solution (pH 2.0) (1 in 20,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer- Water <2.48> Not more than 12z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 20 mg of Mecobalamin in 10 mL of water: the solution is clear and red color. (2) Related substances—Perform the test with 10 mL of the sample solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: each area of the peaks other than mecobalamin is not more than 0.5z of the peak area of mecobalamin, and the total area of the peaks other than mecobalamin is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of mecobalamin. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 1 mL of the sample solution add the mobile phase to make exactly 100 mL, and use this solution as the solution for system suita-bility test. Pipet 1 mL of the solution for system suitability C H CoN O P: 1344.38 test, add the mobile phase to make exactly 10 mL. Confirm 63 91 13 14 that the peak area of mecobalamin obtained with 10 mL of Coa-[a-(5,6-Dimethyl-1H-benzimidazol-1-yl)]-Cob- methylcobamide [13422-55-4] Mecobalamin contains not less than 98.0z and not more than 101.0z of mecobalamin this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia- (C63H 91CoN13 O14 P), calculated on the anhydrous tion of the peak areas of mecobalamin is not more than 3.0z. basis. Description Mecobalamin occurs as dark red, crystals or crystalline powder. It is sparingly soluble in water, slightly soluble in ethanol (99.5), and practically insoluble in acetonitrile. It decomposes on exposure to light. Identification (1) Conduct this procedure without ex-posure to light, using light-resistant vessels. Determine the absorption spectrum of a solution of Mecobalamin in hydro-chloric acid-potassium chloride buffer solution (pH 2.0) (1 in 20,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer- Water <2.48> Not more than 12z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately about 50 mg of Mecobalamin and Mecobalamin RS (separately, deter-mine the water <2.48> in the same manner as Mecobalamin), dissolve each in the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the stand-ard solution, respectively. Perform the test with exactly 10 mL of each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of mecobalamin in each solution. add 10 mL of phosphate buffer solution (pH 7.0), sonicate, and add phosphate buffer solution (pH 7.0) to make 20 mL. Amount (mg) of mecobalamin (C ＝ MS × AT/AS 63H 91CoN 13O 14P) Centrifuge this solution, and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.8 mm. Determine the absorption spectrum of the filtrate as di- MS: Amount (mg) of Mecobalamin RS taken, calculated on the anhydrous basis Operating conditions— ‌Detector: An ultraviolet absorption photometer (wave-length: 266 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 200 mL of acetonitrile add 800 mL of 0.02 mol/L phosphate buffer solution (pH 3.5), then add 3.76 g of sodium 1-hexane sulfonate to dissolve. Flow rate: Adjust so that the retention time of mecobala-min is about 12 minutes. System suitability— System performance: Dissolve 5 mg each of cyanocobala-min and hydroxocobalamin acetate in the mobile phase to make 100 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, cyanocobala-min and hydroxocobalamin are eluted in this order with the resolution between these peaks being not less than 3. And when the procedure is run with 10 mL of the standard solu-tion under the above operating conditions, the number of theoretical plates of the peak of mecobalamin is not less than rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 264 nm and 268 nm, between 339 nm and 343 nm, and between 520 nm and 524 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Conduct this procedure without exposure to light, using light-resistant vessels. Take 1 tablet of Mecobalamin Tablets, and disintegrate the tablet by adding V/5 mL of water. Add methanol to make exactly V mL so that each mL contains about 25 mg of mecobalamin (C63H91CoN13O14P). After shaking for 5 minutes, allow to stand for not less than 10 minutes. Filter thus obtained supernatant liquid through a membrane filter with a pore size not exceeding 0.45 mm. Dis-card the first 5 mL of the filtrate, and use the subsequent fil-trate as the sample solution. Separately, weigh accurately about 25 mg of Mecobalamin RS (separately determine the water <2.48> in the same manner as Mecobalamin), and dis-solve in water to make exactly 100 mL. Pipet 5 mL of this solution, add 5 mL of water and methanol to make exactly 50 mL. Use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of mecobalamin in each solution. 6000. Amount (mg) of mecobalamin (C H CoN O P) System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat- ＝ MS × AT/AS × V/1000 63 91 13 14 ing conditions, the relative standard deviation of the peak areas of mecobalamin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

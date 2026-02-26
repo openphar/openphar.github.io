@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethyl-parahydroxybenzoate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethyl Parahydroxybenzoate",
+    "ja": "パラオキシ安息香酸エチル"
+  },
+  "monographId": "JP18-ethyl-parahydroxybenzoate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H10O3",
+  "molecularWeight": 166.17,
+  "definition": {
+    "en": "Ethyl Parahydroxybenzoate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ethyl Parahydroxybenzoate occurs as color-less crystals or a white crystalline powder. It is freely soluble in methanol, in ethanol (95) and in ace-tone, and very slightly soluble in water.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Ethyl Parahydroxybenzoate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Ethyl Parahydroxybenzoate RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Ethyl Parahydroxybenzoate in ethanol (95) to make 10 mL: the solution is clear and not more intensely colored than the following control solution. Control solution: To 5.0 mL of Cobalt (II) Chloride CS, ‌12.0 mL of Iron (III) Chloride CS and 2.0 mL of Copper (II) Sulfate CS add diluted dilute hydrochloric acid (1 in 10) to make 1000 mL. Acidity—To 2 mL of the solution of Ethyl Parahy-droxybenzoate obtained in (1) add 3 mL of ethanol (95), add 5 mL of freshly boiled and cooled water and 0.1 mL of bromocresol green-sodium hydroxide-ethanol TS, then add 0.1 mol/L sodium hydroxide VS until the solution shows a blue color: the volume of 0.1 mol/L sodium hydroxide VS"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50.0 mg each of Ethyl Par-ahydroxybenzoate and Ethyl Parahydroxybenzoate RS, dis-solve separately in 2.5 mL each of methanol, and add the mobile phase to make exactly 50 mL. Pipet 10 mL each of these solutions, add the mobile phase to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of ethyl parahydroxybenzoate in each solution. used does not exceed 0.1 mL. (3) Heavy metals <1.07>—Dissolve 1.0 g of Ethyl Par-ahydroxybenzoate in 25 mL of acetone, add 2 mL of dilute Amount (mg) of ethyl parahydroxybenzoate (C9H ＝ MS × AT/AS 10O3) acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 25 mL of acetone, 2 mL of dilute acetic acid, and water to make 50 mL (not more than 20 ppm).◆ Related substances—Dissolve 50.0 mg of Ethyl Par-ahydroxybenzoate in 2.5 mL of methanol, and add the mo-bile phase to make exactly 50 mL. Pipet 10 mL of this solu-tion, add the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, and add the mobile phase to make exactly 20 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the peak area of parahydroxybenzoic acid having a relative retention time of about 0.5 to ethyl parahy-droxybenzoate obtained from the sample solution is not larger than the peak area of ethyl parahydroxybenzoate from the standard solution (0.5z). For the peak area of para-hydroxybenzoic acid, multiply its correction factor, 1.4. Fur-thermore, the area of the peak other than ethyl parahydroxy-benzoate and parahydroxybenzoic acid from the sample so-lution is not larger than the peak area of ethyl parahydroxy-benzoate from the standard solution (0.5z), and the total area of the peaks other than ethyl parahydroxybenzoate is not larger than 2 times the peak area of ethyl parahydroxy-benzoate from the standard solution (1.0z). For this calcu-lation the peak area not larger than 1/5 times the peak area of ethyl parahydroxybenzoate from the standard solution is excluded (0.1z). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of ethyl parahydroxybenzoate. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 10 mL. Confirm that the peak area of ethyl parahydroxybenzo-ate obtained with 10 mL of this solution is equivalent to 14 to 26z of that with 10 mL of the standard solution.◆ System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ethyl parahydroxybenzoate is not more than 2.0z.◆ Residue on ignition <2.44> Not more than 0.1z (1 g). MS: Amount (mg) of Ethyl Parahydroxybenzoate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 272 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of methanol and potassium dihy-drogen phosphate solution (17 in 2500) (13:7). Flow rate: 1.3 mL per minute. System suitability— System performance: Dissolve 5 mg each of Ethyl Parahy-droxybenzoate, methyl parahydroxybenzoate and para-hydroxybenzoic acid in the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, and add the mobile phase to make exactly 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, parahydroxybenzoic acid, methyl parahydroxybenzoate and ethyl parahydroxybenzoate are eluted in this order, the rela-tive retention times of parahydroxybenzoic acid and methyl parahydroxybenzoate to ethyl parahydroxybenzoate are about 0.5 and about 0.8, respectively, and the resolution be-tween the peaks of methyl parahydroxybenzoate and ethyl parahydroxybenzoate is not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ethyl parahydroxybenzoate is not more than 0.85z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

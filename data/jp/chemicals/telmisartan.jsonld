@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/telmisartan",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Telmisartan",
+    "ja": "テルミサルタン"
+  },
+  "monographId": "JP18-telmisartan",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C33H30N4O2",
+  "molecularWeight": 514.62,
+  "definition": {
+    "en": "Telmisartan, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Telmisartan occurs as a white to pale yellow crystalline powder. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) It is freely soluble in formic acid, slightly soluble in metha-nol, very slightly soluble in ethanol (99.5), and practically in-soluble in water. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Telmisartan in methanol (7 in 1,000,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Tel-misartan as directed in the potassium bromide disk method 0 – 25 70 → 20 30 → 80 Flow rate: 1.0 mL per minute. Time span of measurement: About 2 times as long as the retention time of telmisartan, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, add methanol to make exactly 100 mL. Confirm that the peak area of telmisartan obtained with 2 mL of this solution is equivalent to 3.5 to 6.5z of that with 2 mL of the standard solution. ‌System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of telmisartan are not less than 45,000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of telmisartan is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Telmisartan according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead solution (not more than 10 ppm). (2) Related substances—To 25 mg of Telmisartan add 5 mL of methanol and 0.1 mL of sodium hydroxide TS, and dissolve by sonicating. To this solution add methanol to make 10 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine each peak area by the automatic in-tegration method: the area of the peak, having the relative retention time of about 1.7 to telmisartan, obtained from the sample solution is not larger than 1/5 times the peak area of telmisartan from the standard solution, the area of the peak other than telmisartan and the peak mentioned above from the sample solution is not larger than 1/10 times the peak area of telmisartan from the standard solution, and the total area of the peaks other than telmisartan from the sample so-lution is not larger than the peak area of telmisartan from the standard solution. For the area of the peak, having the relative retention time of about 0.7, multiply its correction factor 1.2. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 12.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 409C. Mobile phase A: Dissolve 2.0 g of potassium dihydrogen phosphate and 3.4 g of sodium 1-pentanesulfonate in 1000 mL of water, and adjust to pH 3.0 with diluted phosphoric acid (1 in 10). Mobile phase B: A mixture of acetonitrile and methanol (4:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Description Telmisartan occurs as a white to pale yellow crystalline powder. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) It is freely soluble in formic acid, slightly soluble in metha-nol, very slightly soluble in ethanol (99.5), and practically in-soluble in water. It shows crystal polymorphism. Identification (1) Determine the absorption spectrum of a solution of Telmisartan in methanol (7 in 1,000,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Tel-misartan as directed in the potassium bromide disk method 0 – 25 70 → 20 30 → 80 Flow rate: 1.0 mL per minute. Time span of measurement: About 2 times as long as the retention time of telmisartan, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, add methanol to make exactly 100 mL. Confirm that the peak area of telmisartan obtained with 2 mL of this solution is equivalent to 3.5 to 6.5z of that with 2 mL of the standard solution. ‌System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of telmisartan are not less than 45,000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of telmisartan is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.19 g of Telmisartan, pre-viously dried, dissolve in 5 mL of formic acid, add 75 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchlo-ric acid VS (potentiometric titration). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L perchloric acid VS ＝ 25.73 mg of C33H30N4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

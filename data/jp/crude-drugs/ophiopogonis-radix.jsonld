@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/ophiopogonis-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Ophiopogonis Radix",
+    "ja": "バクモンドウ"
+  },
+  "monographId": "JP18-ophiopogonis-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fusiform root, 1 – 2.5 cm in length, 0.3 – 0.5 cm in diameter, somewhat sharp at one end, and somewhat rounded at the other; externally light yellow to light yellow-brown, with longitudinal wrinkles of various sizes; when fractured, cortex flexible and friable, stele strong; fractured surface of cortex light yellow-brown in color, slightly trans-lucent and viscous. Odor, slight; taste, slightly sweet and mucous. Under a microscope <5.01>, a transverse section reveals brown, 4- to 5-cellular layer velamen internally adjoining the epidermis; a single-layer exodermis inside the velamen, and cortex of parenchyma cells inside the exodermis; endodermis is distinct; about 20 protoxylems in actionstele; cortex paren-chyma contains columnar crystals and raphides of calcium oxalate; oil drops in the exodermis."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Ophiopogon Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Ophiopogon Root according to Method 4, and perform the test (not more than 5 ppm). Rootlets—When perform the test of foreign matter <5.01>, the amount of the rootlets contained in Ophiopogon Root is not exceed 1.0z. ‌2082‌ Powdered Opium / Crude Drugs and Related Drugs Total ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

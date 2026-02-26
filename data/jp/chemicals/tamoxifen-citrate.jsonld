@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tamoxifen-citrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tamoxifen Citrate",
+    "ja": "タモキシフェンクエン酸塩"
+  },
+  "monographId": "JP18-tamoxifen-citrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H29NO.C6H8O7",
+  "molecularWeight": 563.64,
+  "definition": {
+    "en": "Tamoxifen Citrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Tamoxifen Citrate occurs as a white crystalline powder. It is freely soluble in acetic acid (100), sparingly soluble in methanol, and slightly soluble in water and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Tamoxifen Citrate in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Tamoxifen Citrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Tamoxifen Citrate (1 in 100) responds to Qualitative Tests <1.09> (1) for citrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Tamoxifen Citrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Conduct this procedure rapidly, using light-resistant vessels. Dissolve 15 mg of Tamoxifen Citrate in 10 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than tamoxifen obtained from the sample solution is not larger than 3/10 times the peak area of tamoxifen from the standard solution, and the total area of the peaks other than tamoxifen from the sample solution is not larger than 4/5 times the peak area of tamoxifen from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 4.8 g of N,N-dimethyl-n-octyla-mine in 1000 mL of water. Separately, dissolve 0.9 g of so-dium dihydrogen phosphate dihydrate in 1000 mL of water. Mix these solutions, and adjust to pH 3.0 with phosphoric acid. To 600 mL of this solution add 400 mL of acetonitrile. Flow rate: Adjust so that the retention time of tamoxifen is about 21 minutes. Time span of measurement: About 2.5 times as long as the retention time of tamoxifen, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of tamoxifen obtained with 10 mL of this solution is equivalent to 8 to 12z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of tamoxifen are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tamoxifen is not more than 1.5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Tamoxifen Citrate, previously dried, dissolve in 150 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentio-metric titration). Perform the blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 56.36 mg of C26H29NO.C6H8O7"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

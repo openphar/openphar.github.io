@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/propafenone-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Propafenone Hydrochloride Tablets",
+    "ja": "プロパフェノン塩酸塩錠"
+  },
+  "monographId": "JP18-propafenone-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of Propafenone Hydrochlo-ride Tablets, equivalent to 0.3 g of Propafenone Hydrochlo-ride, add 60 mL of water, and disintegrate by warming. After cooling, centrifuge, and to 3 mL of the supernatant liquid add water to make 500 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 247 nm and 251 nm, and between 302 nm and 306 nm. Separately, determine the both maximal absorbances, A1 and A2, of the solution, the ratio of A1/A2 is between 2.30 and 2.55. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Propafenone Hydrochloride Tablets add 30 mL of a mixture of water and acetonitrile (1:1), shake well to disintegrate, add a mixture of water and acetonitrile (1:1) to make exactly 50 mL, and centrifuge. Pipet V mL of the su-pernatant liquid, equivalent to about 6 mg of propafenone hydrochloride (C21H27NO3.HCl), add exactly 5 mL of the in-ternal standard solution, add methanol to make 50 mL, and use this solution as the sample solution. Proceed as directed in the Assay. ‌Amount (mg) of propafenone hydrochloride (C21H27NO3.HCl) ＝ MS × QT/QS × 10/V MS: Amount (mg) of propafenone hydrochloride for assay taken Internal standard solution—A solution of isopropyl benzo-ate in methanol (1 in 200). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Propafenone Hydrochloride Tables is not less than 75z. Start the test with 1 tablet of Propafenone Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Dis-card not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 67 mg of propafenone hydro-chloride (C21H27NO3.HCl), and use this solution as the sam-ple solution. Separately, weigh accurately about 13 mg of propafenone hydrochloride for assay, previously dried at 1059C for 2 hours, dissolve in water to make exactly 200 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, of the sample solution and standard solution at 305 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of propafenone hydrochloride (C21H27NO3.HCl) ＝ MS × AT/AS × V?/V × 1/C × 450 MS: Amount (mg) of propafenone hydrochloride for assay taken C: Labeled amount (mg) of propafenone hydrochloride (C21H27NO3.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To a quantity of Propafenone Hydrochloride Tablets, equivalent to 1.5 g of propafenone hydrochloride (C21H27NO3.HCl), add 70 mL of a mixture of water and acetonitrile (1:1), shake well to disintegrate, shake well for another 5 minutes, add a mixture of water and acetonitrile (1:1) to make exactly 100 mL, and centrifuge. Pipet 4 mL of the supernatant liquid, and add methanol to make exactly 50 mL. Pipet 5 mL of the solution, add exactly 5 mL of the in-ternal standard solution, add methanol to make 50 mL, and Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 4.6 g of sodium 1-nonanesulfonate and 2.3 g of phosphoric acid in water to make 1000 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To 900 mL of the filtrate add 600 mL of acetonitrile. Flow rate: Adjust so that the retention time of propafe-none is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, propafenone and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of propafenone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

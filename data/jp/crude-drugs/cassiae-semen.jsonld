@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cassiae-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cassiae Semen",
+    "ja": "ケツメイシ"
+  },
+  "monographId": "JP18-cassiae-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Short cylindrical seed, 3 – 6 mm in length, 2 – 3.5 mm in diameter; acuminate at one end and flat at the other; externally green-brown to brown and lustrous, with light yellow-brown longitudinal lines or bands on both sides; hard in texture; cross section round or obtuse polygonal; under a magnifying glass, albumen enclosing a bent, dark-colored cotyledon. When ground, characteristic odor and taste. Identiˆcation To 1.0 g of pulverized Cassia Seed add 10 mL of diluted methanol (4 in 5), heat on a water bath for 5 minutes, and ˆlter. Evaporate the solvent of the ˆltrate, dis-solve the residue in 5 mL of water, add 2 mL of ethyl acetate, and shake for 10 minutes. Centrifuge this solution, and use the ethyl acetate layer as the sample solution. Per-form the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sam-ple solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of diethyl ether, cyclohexane and formic acid (5:5:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly potassium hydroxide-ethanol TS on the plate: an orange to yellow-brown spot appears at an Rf value of about 0.35."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of foreign mat-ter contained in Cassia Seed does not exceed 1.0z. Total ash <5.01> Not more than 5.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

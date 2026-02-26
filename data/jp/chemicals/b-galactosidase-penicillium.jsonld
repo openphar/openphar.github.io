@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/b-galactosidase-penicillium",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "b-Galactosidase (Penicillium)",
+    "ja": "b-ガラクトシダーゼ（ペニシリウム）"
+  },
+  "monographId": "JP18-b-galactosidase-penicillium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "9031-11-2",
+  "definition": {
+    "en": "b-Galactosidase (Penicillium) contains an enzyme, having lactose decomposition activity, produced by Penicillium multicolor."
+  },
+  "appearance": {
+    "en": "b-Galactosidase (Penicillium) occurs as a white to pale yellow-white, crystalline powder or powder. It is soluble in water with a turbidity, and practically in-soluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of b-Galactosidase (Penicillium) in 100 mL of water, then to 0.2 mL of this so-lution add 0.2 mL of lactose substrate TS for b-galactosidase (penicillium), and allow to stand at 309C for 10 minutes. To this solution add 3 mL of glucose detection TS for penicilli-um origin b-galactosidase, and allow to stand at 309C for 10 minutes: a red to red-purple color develops. (2) Dissolve 0.15 g of b-Galactosidase (Penicillium) in 100 mL of water, filter if necessary, and determine the ab-sorption spectrum of this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: it exhibits a maxi-mum between 278 nm and 282 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Odor—b-Galactosidase (Penicillium) has no any rancid odor. Heavy metals <1.07>—Proceed with 1.0 g of b-Galac- tosidase (Penicillium) according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of b-Galactosidase (Penicillium) according to Method 3, and perform the test (not more than 2 ppm). Nitrogen—Weigh accurately about 0.1 g of b-Galac-tosidase (Penicillium), and perform the test as directed under Nitrogen Determination <1.08>: not more than 3 mg of nitro-gen (N: 14.01) is found for each labeled 1000 Units. Protein contaminants—Dissolve 0.15 g of b-Galac-tosidase (Penicillium) in 4 mL of water, and use this solution as the sample solution. Perform the test with 15 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the total area of the peaks other than the peak having retention time of about 19 minutes is not more than 75z of the total area of all peaks, and the areas of peaks other than the peaks having retention times of about 3, 16 and 19 minutes are not more than 15z of the total area of all peaks. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column about 7.5 mm in inside diameter and about 75 mm in length, packed with strongly acidic ion-exchange resin for liquid chromatography of sul-fopropyl group-binding hydrophilic polymer (10 mm in parti-cle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A solution obtained by dissolving 2.83 g of sodium acetate in 1000 mL of water, and adjusting to pH 4.5 with acetic acid (100) (mobile phase A), and a solution ob-tained by dissolving 29.2 g of sodium chloride in 1000 mL of mobile phase A (mobile phase B). Flow system: Adjust a linear concentration gradient from the mobile phase A to the mobile phase B immediately after injection of the sample so that the retention times of non-retaining protein and the enzyme protein are about 3 minutes and 19 minutes, respectively, when the flow runs 0.8 mL per minute, and then continue the running of the mobile phase B. Selection of column: Dissolve 15 mg of b-lactoglobulin in 4.5 mL of water, add 0.5 mL of a solution of cytosine (1 in 5000), and use this solution as the column-selecting solution. Proceed with 15 mL of the column-selecting solution under ‌JP XVIII Official Monographs / Gati‰oxacin Hydrate 1055‌ the above operating conditions, and calculate the resolution. Use a column giving elution of cytosine and b-lactoglobulin in this order with the resolution between these peaks being not less than 4. Detection sensitivity: Adjust the detection sensitivity so that the peak height of b-lactoglobulin from 15 mL of the column-selecting solution is between 5 cm and 14 cm. Time span of measurement: About 1.4 times as long as the retention time of b-lactoglobulin. Loss on drying <2.41> Not more than 5.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Substrate solution—Dissolve 0.603 g of 2-nitrophenyl-b-D-galactopyranoside in disodium hydrogen phosphate-citric acid buffer solution for penicillium origin b-galactosidase (pH 4.5) to make 100 mL. (ii) Procedure—Weigh accurately about 0.15 g of b-Galactosidase (Penicillium), dissolve in water with thorough shaking to make exactly 100 mL, and allow to stand at room temperature for an hour. Pipet 2 mL of this solution, add disodium hydrogen phosphate-citric acid buffer solution for penicillium origin b-galactosidase (pH 4.5) to make exactly 100 mL, and use this solution as the sample solution. Trans-fer exactly 0.5 mL of the sample solution to a test tube, stand at 30 ± 0.19C for 10 minutes, add exactly 0.5 mL of the substrate solution previously kept at 30 ± 0.19C, then mix immediately, and stand at 30 ± 0.19C for exactly 10 minutes. Then add exactly 1 mL of sodium carbonate TS, mix immediately to stop the reaction. To this solution add exactly 8 mL of water, mix, and use as the colored sample solution. Separately, pipet 0.5 mL of disodium hydrogen phosphate-citric acid buffer solution for penicillium origin b-galactosidase (pH 4.5), then proceed in the same manner as the sample solution, and use the solution so obtained as the colored blank solution. Perform the test with the colored sample solution and the colored blank solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank, and determine the absorbances, AT and AB, at 420 nm. Units per g of b-Galactosidase (Penicillium) ＝ 1/M × (AT － AB)/0.459 × 1/10 0.459: Absorbance of 1 mmol/10 mL of o-nitrophenol M: Amount (g) of b-Galactosidase (Penicillium) in 0.5 mL of the sample solution Unit: One unit indicates an amount of the enzyme which decomposes 1 mmol of 2-nitrophenyl-b-D-galac-topyranoside in 1 minute under the above condi-tions."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

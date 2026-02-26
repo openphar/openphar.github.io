@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fentanyl-citrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fentanyl Citrate",
+    "ja": "フェンタニルクエン酸塩"
+  },
+  "monographId": "JP18-fentanyl-citrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "990-73-8",
+  "definition": {
+    "en": "Fentanyl Citrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fentanyl Citrate occurs as white, crystals or crystalline powder. It is freely soluble in methanol and in acetic acid (100), sparingly soluble in water and in ethanol (95), and very slightly soluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Fentanyl Citrate in 10 mL of 0.1 mol/L hydrochloric acid TS and ethanol (95) to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Fen-tanyl Citrate, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Fentanyl Citrate (1 in 100) responds to Qualitative Tests <1.09> (1) for citrate. pH <2.54> Dissolve 0.10 g of Fentanyl Citrate in 10 mL of water: the pH of this solution is between 3.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 0.5 g of Fentanyl Citrate according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 0.10 g of Fentanyl Citrate in 5 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: the spots other than the principal spot obtained from ‌1004‌ the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.2 g, in vacu-um, silica gel, 609C, 2 hours). Residue on ignition <2.44> Not more than 0.2z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately the mass of not less than 20 tablets of Fenofibrate Tablets, and powder. Weigh accurately a por-tion of the powder, equivalent to about 50 mg of fenofibrate (C20H21ClO4), add 30 mL of a mixture of acetonitrile and water (7:3), shake thoroughly, and add a mixture of aceto-nitrile and water (7:3) to make exactly 50 mL. Centrifuge this solution, pipet 2 mL of the supernatant liquid, add ex-actly 2 mL of the internal standard solution, add a mixture of acetonitrile and water (7:3) to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Fenofibrate RS, previously dried in vacuum over phosphorus (V) oxide at 609C for 4 hours, and dissolve in a mixture of acetonitrile and water (7:3) to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solution, add a mixture of acetonitrile and water (7:3) to make 50 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of fenofibrate to that of the internal standard. Amount (mg) of fenofibrate (C20H21ClO4) ＝ MS × QT/QS MS: Amount (mg) of Fenofibrate RS for assay taken Internal standard solution—A solution of 4-chloroben-zophenon in a mixture of acetonitrile and water (7:3) (11 in 10,000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Fenofibrate. System suitability— Proceed as directed in the system suitability in the Assay under Fenofibrate."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

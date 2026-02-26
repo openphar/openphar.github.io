@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-caryophylli",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Caryophylli",
+    "ja": "チョウジ油"
+  },
+  "monographId": "JP18-oleum-caryophylli",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Clove Oil is a colorless or light yellow-brown, clear liquid. It has a characteristic aroma and a burning taste. It is miscible with ethanol (95) and with diethyl ether. ‌JP XVIII Crude Drugs and Related Drugs / Cnidium Rhizome 1985‌ It is slightly soluble in water. It acquires a brown color upon aging or by air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 drops of Clove Oil add 10 mL of calcium hydroxide TS, and shake vigorously: the oil forms a flocculent mass, and a white to light yellow color develops. (2) Dissolve 2 drops of Clove Oil in 4 mL of ethanol (95), and add 1 to 2 drops of iron (III) chloride TS: a green color is produced. D Refractive index <2.45> n20: 1.527 – 1.537 Specific gravity <1.13> d 20: 1.040 – 1.068"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 mL of Clove Oil in 2.0 mL of diluted ethanol (7 in 10): the solution is clear. Water-soluble phenols—To 1.0 mL of Clove Oil add 20 mL of boiling water, shake vigorously, filter the aqueous layer after cooling, and add 1 to 2 drops of iron (III) chloride TS: a yellow-green, but no blue or violet, color develops. Heavy metals <1.07>—Proceed with 1.0 mL of Clove Oil according to Method 2, and perform the test. Prepare the control solution with 4.0 mL of Standard Lead Solution (not more than 40 ppm). D Optical rotation <2.49> a20: 0 – －1.59(100 mm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take 10.0 mL of Clove Oil in a Cassia flask, add 70 mL of sodium hydroxide TS, shake for 5 minutes and warm for 10 minutes in a water bath with occasional shaking, add sodium hydroxide TS to the volume after cooling, and allow to stand for 18 hours. Measure the volume (mL) of the sepa-rated oily layer. Total eugenol (volz) ＝ {10 － (volume of separated oily layer)}× 10"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ringers-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ringer's Solution",
+    "ja": "リンゲル液"
+  },
+  "monographId": "JP18-ringers-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ringer's Solution is an aqueous injection. It contains not less than 0."
+  },
+  "appearance": {
+    "en": "Ringer's Solution is a clear and colorless liq-uid. It has a slightly saline taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Chlorine—To 20 mL of Ringer's Solution, accurately measured, add 30 mL of water. Titrate <2.50> with 0.1 mol/L silver nitrate VS while shaking vigorously (indicator: 3 drops of fluorescein sodium TS). Each mL of 0.1 mol/L silver nitrate VS ＝ 3.545 mg of Cl (2) Calcium chloride Hydrate—To 50 mL of Ringer's Solution, exactly measured, add 2 mL of 8 mol/L potassium hydroxide TS and 50 mg of NN indicator, and titrate <2.50> immediately with 0.01 mol/L disodium dihydrogen ethylene-diamine tetraacetate VS, until the color of the solution changes from red-purple to blue. Each mL of 0.01 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.470 mg of CaCl2.2H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous infusions may be used."
+  },
+  "dosageForm": "Solution"
+}

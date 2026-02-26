@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/prednisolone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Prednisolone",
+    "ja": "プレドニゾロン"
+  },
+  "monographId": "JP18-prednisolone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H28O5",
+  "molecularWeight": 360.44,
+  "definition": {
+    "en": "Prednisolone, when dried, contains not less than 97."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Selenium—To 0.10 g of Prednisolone add 0.5 mL of a mixture of perchloric acid and sulfuric acid (1:1) and 2 mL of nitric acid, and heat on a water bath until no more brown gas evolves and the solution becomes to be a light yellow clear solution. After cooling, add 4 mL of nitric acid to this solution, then add water to make exactly 50 mL, and use this solution as the sample solution. Separately, pipet 3 mL of Standard Selenium Solution, add 0.5 mL of a mixture of perchloric acid and sulfuric acid (1:1) and 6 mL of nitric acid, then add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Atomic Absorption Spectrophotometry <2.23> accord-ing to the following conditions, and determine constant ab-sorbances, AT and AS, obtained on a recorder after rapid increasing of the absorption: AT is smaller than AS (not more than 30 ppm). Perform the test by using a hydride generating system and a thermal absorption cell. Lamp: A selenium hollow cathode lamp. Wavelength: 196.0 nm. Temperature of sample atomizer: When an electric fur-nace is used, about 10009C. Carrier gas: Nitrogen or argon. (2) Related substances—Dissolve 20 mg of Prednisolone in exactly 2 mL of a mixture of methanol and chloroform (1:1), and use this solution as the sample solution. Sepa-rately, dissolve 20 mg of hydrocortisone and 10 mg of pred-nisolone acetate each in a mixture of methanol and chlo-roform (1:1) to make exactly 100 mL, and use these solutions as the standard solution (1) and standard solution (2). Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of acetone, toluene and diethylamine (55:45:2) to a distance of about 15 cm, and air-dry the plate (do not dip the filter paper in the developing vessel). Spray evenly alkaline blue tetrazolium TS on the plate: the spots obtained from the sample solution corresponding to those from the standard solutions (1) and (2) are not more intense than the spots from the standard solutions (1) and (2), and ‌no spots other than the principal spot, hydrocortisone and prednisolone acetate appear from the sample solution. Loss on drying <2.41> Not more than 1.0z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 25 mg each of Prednisolone and Prednisolone RS, previously dried, and accurately weighed, in 50 mL of methanol, add exactly 25 mL of the internal standard solution to each, and add methanol to make 100 mL. To 1 mL each of these solutions add the mobile phase to make 10 mL, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL each of these solutions as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of prednisolone to that of the internal standard. (2) Determine the infrared absorption spectra of the residue obtained in (1) and Prednisolone RS, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: both spectra ex-hibit similar intensities of absorption at the same wave num-bers. If any difference appears, dissolve the sample and the RS in ethyl acetate, evaporate to dryness, and repeat the test on the residues. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. Transfer 1 tablet of Prednisolone Tablets to a volumetric flask, and shake with 10 mL of water until the tablet is disin-tegrated. Add 50 mL of methanol, shake for 30 minutes, and add methanol to make exactly 100 mL. Centrifuge this solu-tion, pipet V mL of the supernatant liquid, and add metha-nol to make exactly V? mL to provide a solution that con- Amount (mg) of prednisolone (C 21H28O5) ＝ M S × QT/QS tains about 10 mg of prednisolone (C21H28O5) per ml, and use this solution as the sample solution. Separately, weigh accu- MS: Amount (mg) of Prednisolne RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in methanol (1 in 2000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 247 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with fluorosilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water and methanol (13:7). Flow rate: Adjust so that the retention time of predniso- lone is about 15 minutes. System suitability— System performance: Dissolve 25 mg of Prednisolone and 25 mg of hydrocortisone in 100 mL of methanol. To 1 mL of this solution add the mobile phase to make 10 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, hydrocortisone and prednisolone are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of prednisolone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

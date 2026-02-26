@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/alcohol-for-disinfection",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Alcohol for Disinfection",
+    "ja": "消毒用エタノール"
+  },
+  "monographId": "JP18-alcohol-for-disinfection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ethanol for Disinfection is a colorless, clear liquid. It is miscible with water. It burns with a light blue flame on ignition. It is volatile."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Ethanol for Disinfection add 2 mL of iodine TS and 1 mL of sodium hydroxide TS, and mix: light yellow precipitates appear. (2) To 1 mL of Ethanol for Disinfection add 1 mL of acetic acid (100) and 3 drops of sulfuric acid, and heat: the odor of ethyl acetate is produced. Specific gravity <2.56> d 15: 0.86027 – 0.87264"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Proceed as directed in the Purity under Ethanol, with the exeption of (4), which is changed as follows. (4) Other impurities (absorbance)—Perform the test with Ethanol for Disinfection as directed under Ultraviolet-visible Spectorophotometry <2.24>: the absorbances at 240 nm, be-tween 250 nm and 260 nm and between 270 nm and 340 nm are not more than 0.40, 0.30, and 0.10, respectively. The ab-sorption spectrum determined in a 5-cm cell using water as a ‌JP XVIII Official Monographs / Ether 967‌ blank shows a smooth absorption curve between 235 nm and 340 nm."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

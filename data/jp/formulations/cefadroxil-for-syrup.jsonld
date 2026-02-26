@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefadroxil-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefadroxil for Syrup",
+    "ja": "シロップ用セファドロキシル"
+  },
+  "monographId": "JP18-cefadroxil-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefadroxil for Syrup is a preparation for syrup, which is suspended before use. It contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve an amount of Cefadroxil for Syrup, equivalent to 10 mg (potency) of Cefadroxil, in 500 mL of water, and determine the absorption spectrum of this solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 228 nm and 232 nm, and between 261 nm and 265 nm. Water <2.48> Not more than 3.0z (0.5 g, volumetric titra-tion, direct titration). Uniformity of dosage units <6.02> The syrup in single-dose packages meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method (put the sample in the dissolution medium so that it disperses), using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Cefadroxil for Syrup is not less than 85z. Start the test with accurately weighed amount of Cefadroxil for Syrup, equivalent to about 0.1 g (potency) of Cefadroxil, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet 4 mL of the subsequent filtrate, add water to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 22 mg (potency) of Cefadroxil RS, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, at 263 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Amount [mg (potency)] of cefadroxil (C16H17N3O5S) ＝ MS × AT/AS × 5/2 MS: Amount [mg (potency)] of Cefadroxil RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

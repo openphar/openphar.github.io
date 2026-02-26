@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/angelicae-acutilobae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Angelicae Acutilobae Radix",
+    "ja": "トウキ"
+  },
+  "monographId": "JP18-angelicae-acutilobae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thick and short main root, with numerous branched roots, nearly fusiform; 10 – 25 cm in length; exter-nally dark brown to red-brown, with longitudinal wrinkles and horizontal protrusions composed of numerous scars of fine rootlets; fractured surface is dark brown to yellow-brown in color, and smooth; and with a little remains of leaf sheath at the crown. Odor, characteristic; taste, slightly sweet, followed by slight pungency. Under a microscope <5.01>, a transverse section reveals to 10 cellular layers of cork, with several cellular layers of collenchyma inside of the layer; the cortex exhibits many oil canals surrounded by secretory cells and often large hollows appear; boundary of cortex and xylem is distinct; in the xylem, numerous vessels radiate alternately with medullary rays; vessels in the outer part of the xylem are singly or in several groups, and disposed rather densely in a cuneiform pattern, but vessels in the region of the center are scattered very sparsely; starch grains are simple grains, not more than 20 mm in diameter, and rarely 2- to 5-compound grains, some times up to 25 mm in diameter; starch grains often gelatinized. Identiˆcation To 1.0 g of pulverized Japanese Angelica Root add 5 mL of methanol, shake for 10 minutes, cen-trifuge, and use the supernatant liquid as the sample solu-tion. Separately, use (Z)-ligustilide TS for thin-layer chro-matography as the standard solution (1). Dissolve 1 mg of scopoletin for thin-layer chromatography in 10 mL of methanol, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample so-lution and 5 mL each of the standard solutions (1) and (2) on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, acetone and acetic acid (100) (30:25:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): two of the several spots obtained from the sample solu-tion have the same color tones and Rf values with the corre-sponding blue-white ‰uorescent spots from the standard so-lutions (1) and (2)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Japanese Angelica Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Japanese Angelica Root according to Method 4, and perform the test (not more than 5 ppm). Leaf sheath—When perform the test of foreign mat- ter <5.01>, the amount of leaf sheath contained in Japanese Angelica Root does not exceed 3.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than leaf sheath contained in Japanese Angelica Root does not exceed 1.0z. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 35.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

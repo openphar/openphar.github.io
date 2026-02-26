@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nitrendipine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nitrendipine",
+    "ja": "ニトレンジピン"
+  },
+  "monographId": "JP18-nitrendipine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H20N2O6",
+  "molecularWeight": 360.36,
+  "casNumber": "39562-70-4",
+  "definition": {
+    "en": "Nitrendipine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nitrendipine occurs as a yellow crystalline powder. It is soluble in acetonitrile, sparingly soluble in methanol and in ethanol (99.5), and practically insoluble in water. It is gradually colored to brownish yellow by light. A solution of Nitrendipine in acetonitrile (1 in 50) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nitrendipine in methanol (1 in 80,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Nitrendipine as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Nitrendipine according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Conduct this procedure rapidly using light-resistant vessels. Dissolve 40 mg of Nitrendipine ‌in 5 mL of acetonitrile, add the mobile phase to make 25 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Per-form the test immediately with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine each peak area by the automatic integra-tion method, and calculate the amount of related substances by the following equation: the amount of the related sub-stance, having the relative retention time of about 0.8 to nitrendipine, is not more than 1.0z, the related substance, having the relative retention time of about 1.3, is not more than 0.25z, and other related substances are not more than 0.2z, respectively. The total amount of the related sub-stances other than nitrendipine is not more than 2.0z. Amount (z) of related substance ＝ AT/AS AT: Each peak area other than nitrendipine obtained from the sample solution AS: Peak area of nitrendipine obtained from the standard solution Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, tetrahydrofuran and acetonitrile (14:6:5). Flow rate: Adjust so that the retention time of nitrendi-pine is about 12 minutes. Time span of measurement: About 2.5 times as long as the retention time of nitrendipine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the Each mL of 0.1 mol/L serium (IV) tetraammonium sulfate VS ＝ 18.02 mg of C18H20N2O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

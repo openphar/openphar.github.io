@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/paraffin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Paraffin",
+    "ja": "パラフィン"
+  },
+  "monographId": "JP18-paraffin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Paraffin occurs as a colorless or white, more or less transparent, crystalline mass. It is odorless and taste-less. It is sparingly soluble in diethyl ether and practically in-soluble in water, in ethanol (95) and in ethanol (99.5). Specific gravity d 20: about 0.92 (proceed as directed in 4.2. in 4. Specific gravity under Fats and Fatty Oils Test <1.13>)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat Paraffin strongly in a porcelain dish, and ignite: it burns with a bright flame and the odor of paraffin vapor is perceptible. (2) Heat 0.5 g of Paraffin with 0.5 g of sulfur with shak-ing carefully: the odor of hydrogen sulfide is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Boil 10.0 g of Paraffin with 10 mL of hot water and 1 drop of phenolphthalein TS in a water bath for 5 minutes, and shake vigorously: a red color is not produced. Add 0.20 mL of 0.02 mol/L sodium hydroxide VS to this solution, and shake: a red color is pro-duced. Heavy metals <1.07>—Ignite 2.0 g of Paraffin in a ‌crucible, first moderately until charred, then between 4509C and 5509C to ash. Cool, add 2 mL of hydrochloric acid, and evaporate on a water bath to dryness. To the residue add 2 mL of dilute acetic acid and water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Paraffin according to Method 3, and perform the test (not more than 2 ppm). Sulfur compounds—To 4.0 g of Paraffin add 2 mL of ethanol (99.5), further add 2 drops of a clear saturated so-lution of lead (II) oxide in a solution of sodium hydroxide (1 in 5), and heat for 10 minutes at 709C with occasional shak-ing: no dark brown color develops in the aqueous layer. Readily carbonizable substances—Melt 5.0 g of Paraffin placed in a Nessler tube at a temperature near the melting point. Add 5 mL of sulfuric acid for readily car-bonizable substances, and warm at 709C for 5 minutes in a water bath. Remove the tube from the water bath, immedi-ately shake vigorously and vertically for 3 seconds, and warm for 1 minute in a water bath at 709C. Repeat this procedure 5 times: the color of the sulfuric acid layer is not darker than that of the following control solution. Control solution: Add 1.5 mL of Cobalt (II) Chloride CS, 0.5 mL of Copper (II) Sulfate CS and 5 mL of liquid paraffin to 3.0 mL of Iron (III) Chloride CS, and shake vigorously."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

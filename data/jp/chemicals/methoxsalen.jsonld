@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/methoxsalen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Methoxsalen",
+    "ja": "メトキサレン"
+  },
+  "monographId": "JP18-methoxsalen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H8O4",
+  "molecularWeight": 216.19,
+  "definition": {
+    "en": "Methoxsalen contains not less than 98."
+  },
+  "appearance": {
+    "en": "Methoxsalen occurs as white to pale yellow, crystals or crystalline powder. It is odorless and tasteless. It is freely soluble in chloroform, slightly soluble in meth- Amount (mg) of methotrexate (C H N O ) anol, in ethanol (95) and in diethyl ether, and practically in- ＝ MS × AT/AS × 2/5 20 22 8 5 soluble in water. MS: Amount (mg) of Methotrexate RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 302 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of disodium hydrogen phos-phate-citric acid buffer solution (pH 6.0) and acetonitrile (89:11). Flow rate: Adjust so that the retention time of metho-trexate is about 8 minutes. System suitability— System performance: Dissolve 10 mg each of methotrexate and folic acid in 100 mL of the mobile phase. When the procedure is run with 20 mL of this solution under the above operating conditions, folic acid and methotrexate are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of methotrexate is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mg of Methoxsalen add 5 mL of dilute nitric acid, and heat: a yellow color develops. Make this solution alkaline with a solution of sodium hydroxide (2 in 5): the color changes to red-brown. To 10 mg of Methoxsalen add 5 mL of sulfuric acid, and shake: a yellow color develops. Determine the absorption spectrum of a solution of Methoxsalen in ethanol (95) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Methoxsalen RS prepared in the same man-ner as the sample solution: both spectra exhibit similar inten-sities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Methoxsalen according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Methoxsalen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Methoxsalen in 10 mL of chloroform, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add chloroform to make exactly 50 mL. Pipet 1 mL of this solution, add chloroform to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chlo-roform, hexane and ethyl acetate (40:10:3) to a distance of about 10 cm, and air-dry the plate. Examine under ultravio-let light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> Not more than 0.5z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Methoxsalen and Methoxsalen RS, and dissolve each in ethanol (95) to ‌make exactly 100 mL. Pipet 2 mL each of these solutions, and dilute each with ethanol (95) to make exactly 25 mL. Pipet 10 mL each of these solutions, and dilute each again with ethanol (95) to make exactly 50 mL, and use these solu-tions as the sample solution and the standard solution, re-spectively. Determine the absorbances, AT and AS, of the sample solution and the standard solution at 300 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. ‌Amount (mg) of methoxsalen (C12H8O4) ＝ MS × AT/AS MS: Amount (mg) of Methoxsalen RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

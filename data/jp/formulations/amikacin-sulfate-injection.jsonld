@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amikacin-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amikacin Sulfate Injection",
+    "ja": "アミカシン硫酸塩注射液"
+  },
+  "monographId": "JP18-amikacin-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amikacin Sulfate Injection is an aqueous injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Amikacin Sulfate Injection occurs as a color-less or pale yellow clear liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Amikacin Sulfate Injection, equivalent to 0.1 g (potency) of Amikacin Sulfate, add water to make 4 mL, and use this solution as the sample solution. Separately, dissolve 25 mg (potency) of Amikacin Sulfate RS in 1 mL of water, and use this solution as the standard solu-tion. Then, proceed as directed in the Identifiction (2) under Amikacin Sulfate. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> 6.0 – 7.5 Amount [ mg (potency)] of amikacin (C ＝ MS × HT/HS × 1000 22H43N5O13) Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po- tency). MS: Amount [mg (potency)] of Amikacin Sulfate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 340 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 2.72 g of potassium dihydrogen-phosphate in 800 mL of water, adjust to pH 6.5 with a solu-tion of potassium hydroxide (1 in 40), and add water to make 1000 mL. To 280 mL of this solution add 720 mL of methanol, and mix. Flow rate: Adjust so that the retention time of amikacin Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take exactly a volume of Amikacin Sulfate Injec-tion, equivalent to about 0.1 g (potency) of Amikacin Sul-fate, and add water to make exactly 100 mL. Separately, weigh accurately an amount of Amikacin Sulfate RS, equivalent to about 50 mg (potency), and add water to make exactly 50 mL. Take exactly 200 mL each of these solutions into stoppered test tubes, then proceed as directed in the Assay under Amikacin Sulfate. derivative is about 9 minutes. System suitability— System performance: Dissolve about 5 mg (potency) of Amount [mg (potency)] of amikacin (C ＝ MS × HT/HS × 2 22H43N5O13) Amikacin Sulfate and about 5 mg (potency) of Kanamycin Sulfate in 5 mL of water. Transfer 200 mL of this solution in a glass-stoppered test tube, add 3 mL of pyridine and 2 mL of a solution of 2,4,6-trinitrobenzenesulfonic acid (1 in 100), stopper tightly, heat in a water bath at 709C for 30 minutes. After cooling, add 2 mL of acetic acid (100). When the procedure is run with 20 mL of this solution under the above operating conditions, amikacin derivative and kanamycin derivative are eluted in this order with the resolution between MS: Amount [mg (potency)] of Amikacin Sulfate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

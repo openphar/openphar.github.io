@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/schisandrae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Schisandrae Fructus",
+    "ja": "ゴミシ"
+  },
+  "monographId": "JP18-schisandrae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sap fruit of irregular sphere or spheroid, about 6 mm in diameter; externally dark red to black-brown in color, with wrinkles, and occasionally with white powder; seeds, kidney-shaped, externally yellow-brown to dark red-brown, lustrous, with distinct raphe on the dorsal side; exter-nal seed coat easily peeled but internal seed coat adhering closely to the albumen. Odor, slight; taste, acid, later astringent and bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Schisandra Fruit add 10 mL of methanol, warm on a water bath for 3 minutes with shaking, cool, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of schisandrin for thin-layer chromatography in 1 mL of methanol, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, hexane and acetic acid (100) (10:10:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the sever-al spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard so-lution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of fruit recep-tacle, peduncle and other foreign matter contained in Schisandra Fruit is not more than 1.0z. Total ash <5.01> Not more than 5.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

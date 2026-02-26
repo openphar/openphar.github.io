@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-sodium-edetate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Sodium Edetate Hydrate",
+    "ja": "エデト酸カルシウムナトリウム水和物"
+  },
+  "monographId": "JP18-calcium-sodium-edetate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Sodium Edetate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Calcium Sodium Edetate Hydrate occurs as JP XVIII Official Monographs / Calcium Stearate 609 white, powder or particles. It is freely soluble in water, sparingly soluble in methanol, and practically insoluble in ethanol (99.5). It is hygroscopic.◆ ‌Identification (1) Dissolve 2 g of Calcium Sodium Edetate Hydrate in 10 mL of water, add 6 mL of a solution of lead (II) nitrate (33 in 1000), shake, and add 3 mL of po-tassium iodide TS: no yellow precipitate is formed. Make this solution alkaline by the addition of diluted ammonia so-lution (28) (7 in 50), and add 3 mL of ammonium oxalate TS: a white precipitate is formed. (2) Determine the infrared absorption spectrum of Cal- cium Sodium Edetate Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers.◆ A solution of Calcium Sodium Edetate Hydrate (1 in 20) responds to Qualitative Tests <1.09> (2) for sodium salt. pH <2.54> The pH of a solution of 2.0 g of Calcium So-dium Edetate Hydrate in 10 mL of water is 6.5 to 8.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "◆(1) Clarity and color of solution—Dissolve 0.25 g of Calcium Sodium Edetate Hydrate in 10 mL of water: the solution is clear and colorless.◆ (2) Chloride <1.03>—Dissolve 0.70 g of Calcium Sodium Edetate Hydrate in water to make 20 mL. To this solution add 30 mL of dilute nitric acid, allow to stand for 30 minutes, and filter. To 10 mL of the filtrate add water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.10z). (3) Heavy metals <1.07>—Proceed with 1.0 g of Cal-cium Sodium Edetate Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm).◆ Disodium edetate—Dissolve 1.00 g of Calcium So-dium Edetate Hydrate in 50 mL of water, add 5 mL of am-monia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.01 mol/L magnesium chloride VS until the color of the solution changes from blue to red-purple (in-dicator: 40 mg of eriochrome black T-sodium chloride indi-cator): the amount of 0.01 mol/L magnesium chloride VS consumed is not more than 3.0 mL (not more than 1.0z). (5) Nitrilotriacetic acid—Conduct this procedure using light-resistant vessels. Dissolve 0.100 g of Calcium Sodium Edetate Hydrate in diluting solution to make exactly 25 mL, and use this solution as the sample solution. Separately, dis-solve 40.0 mg of nitrilotriacetic acid in diluting solution to make exactly 100 mL. Pipet 1 mL of this solution, add 0.1 mL of the sample solution, then add diluting solution to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of nitrilotriacetic acid in each solution: AT is not larger than AS (not more than 0.1z). Diluting solution: Dissolve 10.0 g of iron (III) sulfate n-hydrate in 20 mL of 0.5 mol/L sulfuric acid TS and 780 mL of water, adjust to pH 2.0 with sodium hydroxide TS, and add water to make 1000 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 273 nm). Column: A stainless steel column 4.6 mm in inside diame- ter and 10 cm in length, packed with graphite carbon for liq-uid chromatography (mean pore size: 25 nm, specific sur-face: 120 m2/g, 5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 50.0 mg of iron (III) sulfate n-hydrate in 50 mL of 0.5 mol/L sulfuric acid TS, add 750 mL of water, adjust to pH 1.5 with 0.5 mol/L sulfuric acid TS or sodium hydroxide TS, and add 20 mL of ethylene glycol and water to make 1000 mL. Flow rate: 1.0 mL per minute (the retention time of nitrilotriacetic acid is about 5 minutes). System suitability— Test for required detectability: When perform the test with 20 mL of the standard solution under the above operating conditions, the SN ratio of the peak of nitrilotriacetic acid is not less than 50. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, nitrilotriacetic acid and edetic acid are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nitrilotriacetic acid is not more than 1.0z.◆ Water <2.48> 5.0 – 13.0z (0.2 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Calcium Sodium Edetate Hydrate, and dissolve in water to make exactly 200 mL. Pipet 20 mL of this solution, add 80 mL of water, adjust to pH 2 – 3 with dilute nitric acid, and titrate <2.50> with 0.01 mol/L bismuth nitrate VS until the color of the so-lution changes from yellow to red (indicator: 2 drops of xylenol orange TS). Each mL of 0.01 mol/L bismuth nitrate VS ＝ 3.743 mg of C10H12CaN2Na2O8 ◆Containers and storage Containers—Tight containers.◆ Calcium Stearate"
+      }
+    }
+  ]
+}

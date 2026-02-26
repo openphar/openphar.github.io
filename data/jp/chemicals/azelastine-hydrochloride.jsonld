@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/azelastine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Azelastine Hydrochloride",
+    "ja": "アゼラスチン塩酸塩"
+  },
+  "monographId": "JP18-azelastine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H24ClN3O.HCl",
+  "molecularWeight": 418.36,
+  "casNumber": "79307-93-0",
+  "appearance": {
+    "en": "Azelastine Hydrochloride occurs as a white crystalline powder. It is freely soluble in formic acid, and slightly soluble in water and in ethanol (99.5). Melting point: about 2259C (with decomposition). A solution of Azelastine Hydrochloride (1 in 200) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Azelastine Hydrochloride (3 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Azelastine Hydrochloride as directed in the potassium chlo-ride disk method under Infrared Spectrophotometry <2.25>: both spectra exhibit similar intensities of absorption at the same wave numbers. To 10 mL of a saturated solution of Azelastine Hydrochloride add 1 mL of dilute nitric acid, and filter to separate formed crystals: the filtrate responds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Azelastine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). each peak area other than azelastine obtained from the sam-ple solution is not larger than 1/10 times the peak area of azelastine from the standard solution, and the total area of the peaks other than the peak of azelastine from the sample solution is not larger than 1/2 times the peak area of azelastine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of water, acetonitrile and per-chloric acid (660:340:1). Flow rate: Adjust so that the retention time of azelastine is about 10 minutes. Time span of measurement: About 2 times as long as the retention time of azelastine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the mobile phase to make exactly 50 mL. Confirm that the peak area of azelastine obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of azelastine is not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of azelastine is not more than 1.0z. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of previously dried Azelastine Hydrochloride, dissolve in 5 mL of formic acid, add 70 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 41.84 mg of C22H24ClN3O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

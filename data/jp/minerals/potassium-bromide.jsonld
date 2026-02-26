@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-bromide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Bromide",
+    "ja": "臭化カリウム"
+  },
+  "monographId": "JP18-potassium-bromide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Bromide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Potassium Bromide occurs as colorless or white crystals, granules or crystalline powder. It is odorless. It is freely soluble in water and in glycerin, soluble in hot ethanol (95), and slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Bromide (1 in 10) responds to Qualitative Tests <1.09> for potassium salt and for bromide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Potassium Bromide in 3 mL of water: the solution is clear and colorless. Alkalinity—Dissolve 1.0 g of Potassium Bromide in 10 mL of water, add 0.10 mL of 0.05 mol/L sulfuric acid VS and 1 drop of phenolphthalein TS, heat to boiling, and cool: no color develops. Chloride—Make a calculation from the result ob-tained in the Assay: not more than 84.5 mL of 0.1 mol/L silver nitrate VS is consumed for 1 g of Potassium Bromide. Sulfate <1.14>—Proceed with 2.0 g of Potassium Bromide, and perform the test. Prepare the control solution with 1.0 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Iodide—Dissolve 0.5 g of Potassium Bromide in 10 mL of water, add 2 to 3 drops of iron (III) chloride TS and 1 mL of chloroform, and shake: no red-purple to purple color develops in the chloroform layer. Bromate—Dissolve 1.0 g of Potassium Bromide in 10 mL of freshly boiled and cooled water, and add 0.1 mL of potassium iodide TS, 1 mL of starch TS and 3 drops of dilute sulfuric acid. Shake the mixture gently, and allow to stand for 5 minutes: no blue color develops. Heavy metals <1.07>—Proceed with 2.0 g of Potas- sium Bromide according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Barium—Dissolve 0.5 g of Potassium Bromide in 10 mL of water, add 0.5 mL of dilute hydrochloric acid and 1 mL of potassium sulfate TS, and allow to stand for 10 minutes: no turbidity is produced. Arsenic <1.11>—Prepare the test solution with 1.0 g of Potassium Bromide according to Method 1, and perform the test (not more than 2 ppm). ‌Loss on drying <2.41> Not more than 1.0z (1 g, 1109C, 4 hours).‌"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Potassium Bromide, previously dried, and dissolve in 50 mL of water. Add 10 mL of dilute nitric acid and exactly measured 50 mL of 0.1 mol/L silver nitrate VS, and titrate <2.50> the excess silver nitrate with 0.1 mol/L ammonium thiocyanate VS (in-dicator: 2 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L silver nitrate VS ＝ 11.90 mg of KBr"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

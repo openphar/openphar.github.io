@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/suxamethonium-chloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Suxamethonium Chloride Injection",
+    "ja": "スキサメトニウム塩化物注射液"
+  },
+  "monographId": "JP18-suxamethonium-chloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Suxamethonium Chloride Injection is an aqueous injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Suxamethonium Chloride Injection is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take a volume of Suxamethonium Chloride Injection, equivalent to 0.05 g of Suxamethonium Chloride Hydrate, add water to make 10 mL, and use this solution as accurately measured 25 mL of 0.1 mol/L sodium hydroxide VS, and boil for 40 minutes under a reflux condenser, and cool. Titrate <2.50> the excess sodium hydroxide with 0.1 mol/L hydrochloric acid VS. Transfer 50 mL of the freshly boiled and cooled water to a flask, add 2 drops of bromo-thymol blue TS, neutralize the solution with 0.1 mol/L sodi-um hydroxide VS, and perform a blank determination in the same manner. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 18.07 mg of C14H30Cl2N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Not exceeding 59C, and avoid freezing."
+  },
+  "dosageForm": "Injection"
+}

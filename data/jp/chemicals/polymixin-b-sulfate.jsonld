@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polymixin-b-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Polymixin B Sulfate",
+    "ja": "ポリミキシン B 硫酸塩"
+  },
+  "monographId": "JP18-polymixin-b-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Polymixin B Sulfate occurs as a white powder. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Polymixin B Sulfate (1 in 10) add 5 mL of a solution of sodium hydroxide (1 in 10), add 5 drops of a solution of copper (II) sulfate pen-tahydrate (1 in 100) while shaking: a purple color develops. (2) Transfer 5 mg each of Polymixin B Sulfate and Poly-mixin B Sulfate RS separately into two glass stoppered test tubes, add 1 mL of diluted hydrochloric acid (1 in 2), stopper the tube, heat at 1359C for 5 hours, then heat to dryness on a water bath, and keep the heating until no more hydrochloric acid odor is evolved. Dissolve the residue in 0.5 mL of water, and use these solutions as the sample solution and standard solution (1). Separately, dissolve 20 mg each of L-leucine, L-threonine, phenylalanine and L-serine separately in 10 mL of water, and use these solutions as the standard solutions (2), (3), (4) and (5), respectively. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 3 mL each of the sample solution, the standard solutions (1), (2), (3), (4) and (5) on a plate of silica gel for thin-layer chromatography, and expose the plate to a saturated vapor of the developing solvent for 15 hours. De-velop the plate with a mixture of phenol and water (3:1) to a distance of about 13 cm while without exposure to light, and dry the plate at 1109C for 5 minutes. Spray evenly nin-hydrin-acetic acid TS on the plate, and heat at 1109C for 5 minutes: Rf value of each spot obtained from the sample so-lution is the same with Rf value of the corresponding spots from the standard solution (1). Each of the spots from the sample solution appears at the position corresponding to each of the spots from the standard solutions (2), (3) and (4), but not appears at the position corresponding to the spot from the standard solution (5). A solution of Polymixin B Sulfate (1 in 20) responds to Qualitative Tests <1.09> for sulfate. D Optical rotation <2.49> [a]20: －78 – －909(0.5 g calculated on the dried basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.0 g of Polymixin B Sulfate in 50 mL of water is between 5.0 and 7.0. Phenylalanine Weigh accurately about 0.375 g of Polymix-in B Sulfate, dissolve in 0.1 mol/L hydrochloric acid VS to make exactly 100 mL. Determine absorbances, A1, A2, A3, A4 and A5, of this solution at 252 nm, at 258 nm, at 264 nm, at 280 nm and at 300 nm, respectively, as directed under Ultraviolet-visible Spectrophotometry <2.24>, and calculate the amount of phenylalanine by the following equation: the amount of phenylalanine is not less than 9.0z and not more than 12.0z. Amount (z) of phenylalanine ＝ (A2 － 0.5A1 ＋ 0.5A3 － 1.8A4 ＋ 0.8A5)/MT × 9.4787 MT: Amount (g) of Polymixin B Sulfate taken, calculated on the dried basis"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Poly-mixin B Sulfate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 6.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.75z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Escherichia coli NIHJ Agar media for seed and base layer Peptone 10.0 g Meat extract 3.0 g Sodium chloride 30.0 g Agar 20.0 g Water 1000 mL Mix all the ingredients, and sterilize. Adjust the pH <2.54> of the solution so that it will be 6.5 to 6.6 after sterilization. Standard solutions—Weigh accurately an amount of Polymixin B Sulfate RS, equivalent to about 200,000 units, dissolve in phosphate buffer solution (pH 6.0) to make ex-actly 20 mL, and use this solution as the standard stock solu-tion. Keep the standard stock solution at not exceeding 59C and use within 14 days. Take exactly a suitable amount of the standard stock solution before use, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 4000 units and 1000 units, and use these solutions as the high concentration standard solution and the low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Polymixin B Sulfate, equivalent to about 200,000 units, and dissolve in phosphate buffer solution (pH 6.0) to make ex-actly 20 mL. Take exactly a suitable amount of this solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 4000 units and 1000 units, and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

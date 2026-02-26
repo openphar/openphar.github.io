@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/residue-on-ignition-244-not-more-than-02z-1-g",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Residue on ignition <2.44> Not more than 0.2z (1 g).",
+    "ja": "チアミン塩化物塩酸塩注射液"
+  },
+  "monographId": "JP18-residue-on-ignition-244-not-more-than-02z-1-g",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thiamine Chloride Hydrochloride Injection is a clear, colorless liquid. pH: 2.5 – 4.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Thiamine Chloride Hydro- ‌chloride Injection, equivalent to 0.05 g of Thiamine Chloride Hydrochloride, add water to make 25 mL. Proceed with 5 mL of this solution as directed in the Identification (1) under Thiamine Chloride Hydrochloride.‌ Bacterial endotoxins <4.01> Less than 6.0 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Rancidity—Thiamine Chloride Hydrochloride Pow-der has no unpleasant or rancid odor. It is tasteless."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dilute with 0.001 mol/L hydrochloric acid TS if nec-essary, then measure exactly a volume of Thiamine Chloride Hydrochloride Injection, equivalent to about 20 mg of thia-mine chloride hydrochloride (C12H17ClN4OS.HCl), and add 20 mL of methanol and 0.001 mol/L hydrochloric acid TS to make exactly 100 mL. To 25 mL of this solution, exactly measured, add exactly 5 mL of the internal standard solu-tion, add 0.001 mol/L hydrochloric acid TS to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g of Thiamine Chloride Hydro-chloride RS (separately determine the water <2.48> in the same manner as Thiamine Chloride Hydrochloride), and dis-solve in 0.001 mol/L hydrochloric acid TS to make exactly 50 mL. To 10 mL of this solution, exactly measured, add 20 mL of methanol and 0.001 mol/L hydrochloric acid TS to make exactly 100 mL. To 25 mL of this solution, exactly measured, add exactly 5 mL of the internal standard solu-tion, add 0.001 mol/L hydrochloric acid TS to make 50 mL, and use this solution as the standard solution. Proceed as di-rected in the Assay under Thiamine Chloride Hydrochloride. Amount (mg) of thiamine chloride hydrochloride (C12H17ClN4OS.HCl) ＝ MS × QT/QS × 1/5 MS: Amount (mg) of Thiamine Chloride Hydrochloride RS taken, calculated on the anhydrous basis Internal standard solution—A solution of methyl benzoate in methanol (1 in 200)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  }
+}

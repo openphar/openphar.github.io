@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/roxatidine-acetate-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Roxatidine Acetate Hydrochloride for Injection",
+    "ja": "注射用ロキサチジン酢酸エステル塩酸塩"
+  },
+  "monographId": "JP18-roxatidine-acetate-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Roxatidine Acetate Hydrochloride for Injection is a preparation for injection which is dissolved before use. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "It occurs as white, masses or powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Roxatidine Acetate Hydro-chloride for Injection, equivalent to 75 mg of Roxatidine Acetate Hydrochloride, add 30 mL of ethanol (99.5), shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To 1 mL of the filtrate add ethanol (99.5) to make 20 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 275 nm and 279 nm and between 282 nm and 286 nm. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution Dissolve an amount of Roxatidine Acetate Hydrochloride for Injection, equiva-lent to 75 mg of Roxatidine Acetate Hydrochloride, in 20 mL of isotonic sodium chloride solution: the solution is clear and colorless. Bacterial endotoxins <4.01> Less than 4.0 EU/mg. Uniformity of dosage units <6.02> It meets the require-ments of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve with water each content of 10 Roxatidine Acetate Hydrochloride for Injection, wash the containers with water, combine the solution of the content and wash-ings, and add water to make exactly V mL so that each mL contains about 3.75 mg of roxatidine acetate hydrochloride (C19H28N2O4.HCl). Pipet 5 mL of this solution, add water to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Roxatidine Acetate Hydrochloride RS, previously dried in a desiccator (in vacuum, phosphorous (V) oxide) for 4 hours, dissolve in water to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the standard solution. Per-form the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of roxatidine acetate ‌to that of the internal standard. Amount (mg) of roxatidine acetate hydrochloride (C19H28N2O4.HCl) in 1 Roxatidine Acetate Hydrochloride for Injection ＝ MS × QT/QS × V/50 MS: Amount (mg) of Roxatidine Acetate Hydrochloride RS taken Internal standard solution—Dissolve 20 mg of guanine in 10 mL of 2 mol/L hydrochloric acid TS, add 50 mL of water, then add 20 mL of a solution of sodium hydroxide (1 in 25) and water to make 100 mL. To 10 mL of this solution add water to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 274 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, acetonitrile, triethyla-mine and acetic acid (100) (340:60:2:1). Flow rate: Adjust so that the retention time of roxatidine acetate is about 14 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and roxatidine acetate are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of roxatidine acetate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

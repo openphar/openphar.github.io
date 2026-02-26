@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/nelumbinis-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Nelumbinis Semen",
+    "ja": "レンニク"
+  },
+  "monographId": "JP18-nelumbinis-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ovoid to ellipsoidal seed, at the base a papil-late protuberance surrounded with shallow depression, 1.0 – 1.7 cm in length, 0.5 – 1.2 cm in width; externally light red-brown to light yellow-brown; projection part dark reddish brown; endocarp not lustrous and hardly peeled off; en-dosperm yellow-white, a green embryo in the center. Almost odorless; taste, slightly sweet and oily, embryo is extremely bitter. Under a microscope <5.01>, a transverse section of the seed at central portion reveals endocarp composed of paren-chyma or endocarp occasionally left out; seed coat com-posed of epidermis and parenchyma of compressed cells; vascular bundles scattered in parenchyma; endosperm com-posed of epidermis and parenchyma; aggregate crystals of calcium oxalate and tannin-like substances contained in en-docarp remained; parenchymatous cells of seed coat contain tannin-like substances; parenchyma of endosperm contain starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Nelumbo Seed add 5 mL of water, shake for 5 minutes, and centrifuge. To 0.5 mL of the supernatant liquid add 1 drop of a solution of 1-naphthol in ethanol (99.5) (1 in 5), mix, then add gently 1 mL of sulfuric acid: the solution shows a purple color. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 14.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

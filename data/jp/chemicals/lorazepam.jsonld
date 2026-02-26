@@ -1,0 +1,34 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lorazepam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lorazepam",
+    "ja": "ロラゼパム"
+  },
+  "monographId": "JP18-lorazepam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H10Cl2N2O2",
+  "molecularWeight": 321.16,
+  "casNumber": "846-49-1",
+  "definition": {
+    "en": "Lorazepam, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Lorazepam occurs as a white crystalline pow-der. It is odorless. It is sparingly soluble in ethanol (95) and in acetone, slightly soluble in diethyl ether, and practically insoluble in water. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.02 g of Lorazepam add 15 mL of dilute hydrochloric acid, boil for 5 minutes, and cool: the so-lution responds to Qualitative Tests <1.09> for primary aro-matic amines. Determine the absorption spectrum of a solution of Lorazepam in ethanol (95) (1 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra ex-hibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of ‌1274 Lorazepam, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Lorazepam as directed under Flame Coloration Test <1.04> (2): a green color appears. Losartan Potassium"
+      }
+    }
+  ]
+}

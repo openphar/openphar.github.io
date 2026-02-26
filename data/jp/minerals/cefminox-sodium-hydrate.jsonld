@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefminox-sodium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefminox Sodium Hydrate",
+    "ja": "セフミノクスナトリウム水和物"
+  },
+  "monographId": "JP18-cefminox-sodium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefminox Sodium Hydrate contains not less than 900 mg (potency) and not more than 970 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefminox Sodium Hydrate occurs as a white to light yellow-white crystalline powder. It is freely soluble in water, sparingly soluble in methanol, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefminox Sodium Hydrate (1 in 50,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefminox Sodium RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wave- ‌JP XVIII Official Monographs / Cefodizime Sodium 679 lengths. Determine the infrared absorption spectrum of Cef-minox Sodium Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Cefminox Sodium RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefmi-nox Sodium Hydrate in heavy water for nuclear magnetic resonance spectroscopy (1 in 30) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethylsilylpropanesulfonate for nuclear magnetic reso-nance spectroscopy as an internal reference compound: it exhibits a multiplet signal, A, at around d 3.2 ppm, a singlet signal, B, at around d 3.5 ppm, a singlet signal, C, at around d 4.0 ppm, and a singlet signal, D, at around d 5.1 ppm. The ratio of integrated intensity of each signal, A:B:C:D, is about 2:3:3:1. Cefminox Sodium Hydrate responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋62 – ＋729(50 mg, water, 10 mL, 100 mm). pH <2.54> Dissolve 0.70 g of Cefminox Sodium Hydrate in 10 mL of water: the pH of the solution is between 4.5 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Cefminox Sodium Hydrate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Cefminox Sodium Hydrate according to Method 3, and perform the test (not more than 1 ppm). Water <2.48> Not less than 18.0z and not more than 20.0z (0.1 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Escherichia coli NIHJ Culture medium—Use the medium iii in 3) under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 6.5 to 6.6 after sterilization. Standard solution—Weigh accurately an amount of Cefminox Sodium RS, equivalent to about 40 mg (potency), dissolve in 0.05 mol/L phosphate buffer solution (pH 7.0) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 7 days. Take exactly a suitable amount of the standard stock solution before use, add 0.05 mol/L phosphate buffer solution (pH 7.0) to make solutions so that each mL contains 40 mg (potency) and 20 mg (potency), and use these solutions as the high concentration standard solu-tion and the low concentration standard solution, respec-tively. Sample solution—Weigh accurately an amount of Cefminox Sodium Hydrate equivalent to about 40 mg (po-tency), dissolve in 0.05 mol/L phosphate buffer solution (pH 7.0) to make exactly 50 mL. Take exactly a suitable amount of this solution, add 0.05 mol/L phosphate buffer solution (pH 7.0) to make solutions so that each mL contains 40 mg (potency) and 20 mg (potency), and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively. Procedure—Incubate between 329C and 359C."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

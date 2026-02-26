@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/deferoxamine-mesilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Deferoxamine Mesilate",
+    "ja": "デフェロキサミンメシル酸塩"
+  },
+  "monographId": "JP18-deferoxamine-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H48N6O8.CH4O3S",
+  "molecularWeight": 656.79,
+  "definition": {
+    "en": "Deferoxamine Mesilate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Deferoxamine Mesilate occurs as a white to pale yellow-white crystalline powder. It is freely soluble in water, and practically insoluble in ethanol (99.5), in 2-propanol and in diethyl ether. Melting point: about 1479C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Deferoxamine Mesilate (1 in 500) add 1 drop of iron (III) chloride TS: a deep red color develops. A 50 mg portion of Deferoxamine Mesilate responds to Qualitative Tests <1.09> (1) for mesilate. Determine the infrared absorption spectrum of Deferoxamine Mesilate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Deferoxamine Mesilate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. pH <2.54> Dissolve 1.0 g of Deferoxamine Mesilate in 10 mL of water: the pH of this solution is between 3.5 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Deferoxamine Mesilate in 10 mL of water: the solution is clear and colorless to pale yellow. Chloride <1.03>—Perform the test with 1.0 g of Deferoxamine Mesilate. Prepare the control solution with 0.90 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.032z). Sulfate <1.14>—Perform the test with 0.6 g of Deferoxamine Mesilate. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.040z). Heavy metals <1.07>—Proceed with 2.0 g of Deferox- amine Mesilate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Deferoxamine Mesilate according to Method 3, and per-form the test. Use a solution of magnesium nitrate hexahy-drate in ethanol (95) (1 in 10) (not more than 2 ppm). Related substances—Dissolve 50 mg of Deferoxa-mine Mesilata in 50 mL of the mobile phase, and use this so-lution as the sample solution. Pipet 3 mL of the sample solu-tion, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area of both solutions by the automatic integration method: the total area of peaks other than deferoxamine obtained from the sample solution is not larger than the peak area of deferoxamine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4 mm in inside diameter and 20 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.32 g of diammonium hydrogen phosphate, 0.37 g of disodium dihydrogen ethylenediamine tetraacetate dihydrate and 1.08 g of sodium 1-heptanesul-fonate in 950 mL of water, and adjust the pH of this solu-tion to 2.8 with phosphoric acid. To 800 mL of this solution add 100 mL of 2-propanol. Flow rate: Adjust so that the retention time of deferoxa-mine is about 15 minutes. Time span of measurement: About two times as long as the retention time of deferoxamine, beginning after the sol-vent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 100 mL. Confirm that the peak area of deferoxamine obtained with 20 mL of this solution is equivalent to 1.5 to 2.5z of that with 20 mL of the standard solution. System performance: Dissolve 16 mg of Deferoxamine Mesilate and 4 mg of methyl parahydroxybenzoate in 50 mL of the mobile phase. When the procedure is run with 20 mL of this solution under the above operating conditions, deferoxamine and methyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of deferoxamine is not more than 3.0z. Water <2.48> Not more than 2.0z (0.2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 60 mg of Deferoxamine Mesilate and Deferoxamine Mesilate RS (previously deter-mine the water <2.48> in the same manner as Deferoxamine ‌832 ‌Mesilate), dissolve each in 20 mL of water, add exactly 10 mL of 0.05 mol/L sulfuric acid TS, and add water to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of 0.05 mol/L sulfuric acid TS and exactly 0.2 mL of iron (III) chloride TS, then add water to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution prepared by adding 0.05 mol/L sulfuric acid TS to 0.2 mL of iron (III) chloride TS to make exactly 50 mL as the blank, and determine the absor-bances, AT and AS, of each solution from the sample solu-tion and the standard solution at 430 nm. Amount (mg) of deferoxamine mesilate (C25H48N6O8.CH4O3S) ＝ MS × AT/AS MS: Amount (mg) of Deferoxamine Mesilate RS taken, calculated on the anhydrous basis"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/dorzolamide-hydrochloride-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Dorzolamide Hydrochloride Ophthalmic Solution",
+    "ja": "ドルゾラミド塩酸塩点眼液"
+  },
+  "monographId": "JP18-dorzolamide-hydrochloride-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dorzolamide Hydrochloride Ophthalmic Solution is an aqueous ophthalmic preparation. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Dorzolamide Hydrochloride Ophthalmic Solu-tion occurs as a clear and colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Dorzolamide Hydrochloride Ophthalmic Solution, equivalent to about 1.2 mg of dor-zolamide (C10H16N2O4S3), add 0.1 mol/L hydrochloric acid TS to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum between 252 nm and 256 nm. pH Being specified separately when the drug is granted ap-proval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "cis-Isomer—Use the sample solution obtained in the Assay as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatogra-phy <2.01> according to the following conditions, and deter-mine the peak area of dorzolamide, A2, and that of cis-isomer, having the relative retention time of about 1.1 to dorzolamide, A1, by the automatic integration method: A1/ (A1 ＋ A2) is not larger than 0.020. Diluting solution: To 2 mL of phosphoric acid add 900 mL of water, adjust to pH 3.0 with triethylamine, then add water to make 1000 mL. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the sample solution add the diluting solution to make exactly 100 mL. Pipet 1 mL of this solution, add the diluting solu-tion to make exactly 20 mL, and use this solution as the solu-tion for system suitability test. Confirm that the peak area of dorzolamide obtained with 20 mL of the solution for system suitability test is equivalent to 0.07 to 0.13z of that with 20 mL of the sample solution. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of dorzolamide is not more than 7z. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Direct in-oculation method, using the culture medium containing 0.7z polysorbate 80 and 0.1z of lecithin: it meets the re-quirement. JP XVIII Official Monographs / Dorzolamide Hydrochloride and Timolol Maleate Ophthalmic Solution 893"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a portion of Dorzolamide Hydro-chloride Ophthalmic Solution, equivalent to about 5 mg of dorzolamide (C10H16N2O4S3), add the diluting solution to make exactly 50 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 20 mg of Dor-zolamide Hydrochloride RS (separately determine the water <2.48> in the same manner as Dorzolamide Hydrochloride), dissolve in the diluting solution to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of dorzolamide in each solution. ‌Diluting solution: To 2 mL of phosphoric acid add 900 mL of water, adjust to pH 3.0 with triethylamine, then add water to make 1000 mL. Amount (mg/mL) of dorzolamide (C10H16N2O4S3) ＝ MS/MT × AT/AS × 1/4 × d × 0.899 MS: Amount (mg) of Dorzolamide Hydrochloride RS taken, calculated on the anhydrous basis MT: Amount (g) of Dorzolamide Hydrochloride Ophthal-mic Solution taken d: Density (g/mL) of Dorzolamide Hydrochloride Oph-thalmic Solution Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 253 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of the diluting solution and acetonitrile (19:1). Flow rate: Adjust so that the retention time of dorzola-mide is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of dorzolamide are not less than 6000 and not more than 1.8, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of dorzolamide is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

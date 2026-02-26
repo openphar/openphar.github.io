@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/faropenem-sodium-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Faropenem Sodium Tablets",
+    "ja": "ファロペネムナトリウム錠"
+  },
+  "monographId": "JP18-faropenem-sodium-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To powdered Faropenem Sodium Tablets, equivalent to 70 mg (potency) of Faropenem Sodium Hy-drate, add water to make 100 mL. To 5 mL of this solution add water to make 100 mL, filter, if necessary, and deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its maxima between 254 nm and 258 nm and between 304 nm and 308 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Powder not less than 5 Faro-penem Sodium Tablets. To a part of the powder, equivalent to about 25 mg (potency) of Faropenem Sodium Hydrate, add about 10 mL of water, shake well, then add water to make exactly 50 mL, and filter. Discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample so-lution. Pipet 2 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area of both solutions by the automatic integration method: the area of the peak of cleaved derivative, having the relative retention time of about 0.71 to faropenem, obtained from the sample solution is not larger than 1.5 times the peak area of faropenem from the standard solution, and the total area of the peaks other than faropenem from the sample solution is not larger than 2.5 times the peak area of faropenem from the standard so- 0 – 54 84 → 30 16 → 70 Flow rate: 1.5 mL per minute. Time span of measurement: About 2.5 times as long as the retention time of faropenem, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add water to make exactly 20 mL. Con-firm that the peak area of faropenem obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution obtained in the Assay under the above operating conditions, the internal standard and faro-penem are eluted in this order with the resolution between these peaks being not less than 11. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of faropenem is not more than 3.0z. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Faropenem Sodium Tablets add 130 mL of water, shake vigorously until the tablets are disintegrated, and add water to make exactly V mL so that each mL con-tains about 1 mg (potency) of Faropenem Sodium Hydrate. Pipet 5 mL of this solution, add water to make exactly 100 mL, and filter. Discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Sepa-rately, weigh accurately about 25 mg (potency) of Faro-penem Sodium RS, and dissolve in water to make exactly 50 mL. Pipet 10 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT275, AT305, AT354, AS275, AS305 and AS354, of the sample solution and standard solution at 275 nm, 305 nm and 354 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, and calculate AT and AS, using the following equations. AT ＝ AT305 － (49 × AT275 ＋ 30 × AT354)/79 AS ＝ AS305 － (49 × AS275 ＋ 30 × AS354)/79 ‌996 Amount [mg (potency)] of faropenem (C12H15NO5S) ＝ MS × AT/AS × V/25 MS: Amount [mg (potency)] of Faropenem Sodium RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Faropenem Sodium Tablets is not less than 85z. Start the test with 1 tablet of Faropenem Sodium Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less Felbinac"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

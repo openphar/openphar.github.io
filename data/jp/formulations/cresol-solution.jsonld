@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cresol-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cresol Solution",
+    "ja": "クレゾール水"
+  },
+  "monographId": "JP18-cresol-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cresol Solution contains not less than 1."
+  },
+  "appearance": {
+    "en": "Cresol Solution is a clear or slightly turbid, yellow solution. It has the odor of cresol."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake 0.5 mL of the oily layer obtained in the Assay with 30 mL of water, filter, and perform the fol-lowing tests using this filtrate as the sample solution: To 5 mL of the sample solution add 1 to 2 drops of iron (III) chloride TS: a blue-purple color develops. To 5 mL of the sample solution add 1 to 2 drops of bromine TS: a light yellow, flocculent precipitate is pro-duced."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer 200 mL of Cresol Solution, exactly meas-ured, to a 500-mL distilling flask. Add 40 g of sodium chlo-ride and 3 mL of dilute sulfuric acid, and connect the distil-ling apparatus with the distilling flask, and distil into a cassia flask which contains 30 g of powdered sodium chloride and 3 mL of kerosene, exactly measured, until the distillate meas-ures 90 mL. Draw off the water from the condenser, and continue the distillation until water vapor begins to come out of the tip of the condenser. Shake often the cassia flask in warm water to dissolve the sodium chloride, and allow to stand for 15 minutes. After cooling to 159C, add a saturated solution of sodium chloride, and allow to stand for more than 3 hours with occasional shaking. Allow to stand for 1 to 2 minutes with gentle shaking to combine the separated oil drops with the oil layer. The difference between the number of mL of the oil layer measured and 3 mL represents the amount (mL) of cresol."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

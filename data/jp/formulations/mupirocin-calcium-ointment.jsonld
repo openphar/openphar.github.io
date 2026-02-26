@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/mupirocin-calcium-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Mupirocin Calcium Ointment",
+    "ja": "ムピロシンカルシウム軟膏"
+  },
+  "monographId": "JP18-mupirocin-calcium-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Mupirocin Calcium Oint-ment, equivalent to 10 mg (potency) of Mupirocin Calcium Hydrate, add 5 mL of water, and warm on a water bath at 609C for 10 minutes while occasional shaking. After cooling, filter, and to 1 mL of the filtrate add water to make 100 mL. Determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 220 nm and 224 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—To an amount of Mupirocin Calcium Ointment, equivalent to 50 mg (potency) of Mupirocin Calcium Hydrate, add 5 mL of diluted tetra-hydrofuran (3 in 4), and shake vigorously. Then, add 5 mL of 0.1 mol/L acetic acid-sodium acetate buffer solution (pH 4.0), shake vigorously, filter through a glass wool filter, and use the filtrate as the sample solution. Pipet 2 mL of the sample solution, add a mixture of 0.1 mol/L acetic acid-so-dium acetate buffer solution (pH 4.0) and diluted tetra-hydrofuran (3 in 4) (1:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the area of the peak other than mupirocin obtained from the sample solution and the peak area of mupirocin from the standard solution by the automatic integration method. Calculate the amount of each related substance using the following equa-tion: the amount of the related substance having the relative retention time of about 0.7 to mupirocin is not more than 4.0z, the amount of the related substance other than that is not more than 1.5z, and the total amount of the related substances is not more than 6.0z. Amount (z) of each related substance ＝ A/(SA ＋ Am) × 100 A: Peak area of each related substance obtained from the sample solution. SA: Total area of the peaks other than mupirocin ob-tained from the sample solution. Am: Amount of 50 times the peak area of mupirocin ob-tained from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Mupirocin Calcium Hydrate. Time span of measurement: About 5 times as long as the retention time of mupirocin, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay under Mupirocin Calcium Hydrate. Test for required detectability: To exactly 1 mL of the standard solution add a mixture of 0.1 mol/L acetic acid- sodium acetate buffer solution (pH 4.0) and diluted tetra-hydrofuran (3 in 4) (1:1) to make exactly 20 mL. Confirm that the peak area of mupirocin obtained with 20 mL of this solution is equivalent to 4 to 6z of that with 20 mL of the standard solution. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of mupirocin is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Mupirocin Calcium Ointment, equivalent to about 2 mg (potency) of Mupirocin Calcium Hydrate, add exactly 10 mL of diluted tetra-hydrofuran (3 in 4), and shake vigorously. To this solution add exactly 10 mL of 0.1 mol/L acetic acid-sodium acetate buffer solution (pH 4.0), shake vigorously, filter through a glass wool filter, and use the filtrate as the sample solution. Separately, weigh accurately an amount of Mupirocin Lithi-um RS, equivalent to about 20 mg (potency), dissolve in a mixture of 0.1 mol/L acetic acid-sodium acetate buffer solu-tion (pH 4.0) and diluted tetrahydrofuran (3 in 4) (1:1) to make exactly 200 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Mupirocin Calcium Hydrate. Amount [mg (potency)] of mupirocin (C26H44O9) ＝ MS × AT/AS × 1/10 MS: Amount [mg (potency)] of Mupirocin Lithium RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

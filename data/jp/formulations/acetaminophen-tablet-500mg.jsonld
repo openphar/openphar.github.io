@@ -1,0 +1,174 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/acetaminophen-tablet-500mg",
+  "@type": "FormulationMonograph",
+
+  "prefLabel": {
+    "en": "Acetaminophen Tablets 500 mg",
+    "ja": "アセトアミノフェン錠500mg"
+  },
+
+  "altLabel": [
+    { "@value": "Paracetamol Tablets 500 mg", "@language": "en" },
+    { "@value": "Acetaminophen 500 mg Tablet", "@language": "en" }
+  ],
+
+  "monographId": "JP18-4013",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Acetaminophen Tablets contain not less than 95% and not more than 105% of the labeled amount of Acetaminophen (C8H9NO2)."
+  },
+
+  "dosageForm": "Tablet",
+  "routeOfAdministration": "Oral",
+  "strength": {
+    "en": "500 mg per tablet"
+  },
+
+  "hasComponent": [
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/monograph/jp/acetaminophen"
+      },
+      "componentRole": "ActiveIngredient",
+      "componentQuantity": 500,
+      "componentUnit": "mg",
+      "componentStrength": {
+        "en": "500 mg per tablet"
+      }
+    },
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/excipient/lactose-hydrate"
+      },
+      "componentRole": "Filler",
+      "componentPercentage": 45.0
+    },
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/excipient/corn-starch"
+      },
+      "componentRole": "Binder",
+      "componentPercentage": 10.0
+    },
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/excipient/corn-starch"
+      },
+      "componentRole": "Disintegrant",
+      "componentPercentage": 5.0
+    },
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/excipient/stearic-acid"
+      },
+      "componentRole": "Lubricant",
+      "componentPercentage": 1.0
+    },
+    {
+      "@type": "FormulationComponent",
+      "componentSubstance": {
+        "@id": "https://www.openphar.org/data/excipient/hypromellose"
+      },
+      "componentRole": "CoatingAgent",
+      "componentPercentage": 3.0
+    }
+  ],
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "HPLC-UV",
+      "testConditions": {
+        "en": "To one tablet add 50 mL of diluted methanol (3 in 5), shake vigorously, and filter. Use the filtrate as the sample solution. Separately, dissolve 10 mg of Acetaminophen RS in diluted methanol (3 in 5) to make 100 mL, and use this solution as the standard solution. Perform the test with 10 μL each of the sample solution and standard solution as directed under Liquid Chromatography according to the following conditions: the retention time of the principal peak from the sample solution agrees with that from the standard solution."
+      }
+    },
+    {
+      "@type": "DissolutionSpecification",
+      "testName": {
+        "en": "Dissolution"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "Dissolution-Paddle",
+      "dissolutionMedium": {
+        "en": "900 mL of phosphate buffer solution, pH 5.8"
+      },
+      "dissolutionApparatus": "Paddle method (Method 2)",
+      "dissolutionTime": {
+        "en": "30 minutes"
+      },
+      "dissolutionLimit": "Not less than 85% of the labeled amount of acetaminophen dissolves in 30 minutes",
+      "testConditions": {
+        "en": "Use one tablet as the sample. Perform the test at 50 revolutions per minute. Withdraw not less than 20 mL of the dissolution medium at the specified time, and filter through a membrane filter with a pore size not exceeding 0.45 μm. Discard the first 10 mL of the filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V' mL so that each mL contains about 7 μg of acetaminophen. Determine the absorbance of this solution at 243 nm as directed under Ultraviolet-visible Spectrophotometry, using a solution prepared by adding the dissolution medium to 5 mL of Acetaminophen RS solution in methanol (1 in 10,000) to make exactly 100 mL as the standard solution. Calculate the dissolution rate of Acetaminophen Tablets."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 85,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "ContentUniformitySpecification",
+      "testName": {
+        "en": "Content Uniformity"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "ContentUniformity",
+      "testConditions": {
+        "en": "Take 1 tablet of Acetaminophen Tablets, add 50 mL of diluted methanol (3 in 5), shake vigorously for 10 minutes, add diluted methanol (3 in 5) to make exactly V mL so that each mL contains about 10 mg of acetaminophen, and filter through a membrane filter with a pore size not exceeding 0.45 μm. Discard the first 5 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add diluted methanol (3 in 5) to make exactly 50 mL. Pipet 5 mL of this solution, add diluted methanol (3 in 5) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Acetaminophen RS, add diluted methanol (3 in 5) to make exactly 100 mL. Pipet 5 mL of this solution, add diluted methanol (3 in 5) to make exactly 50 mL. Pipet 5 mL of this solution, add diluted methanol (3 in 5) to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbance of the sample solution and standard solution at 243 nm as directed under Ultraviolet-visible Spectrophotometry. Calculate the content uniformity of 10 tablets."
+      },
+      "acceptanceValue": 15.0
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "HPLC-UV",
+      "assayTarget": {
+        "en": "Acetaminophen (C8H9NO2)"
+      },
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Acetaminophen Tablets. Weigh accurately a portion of the powder, equivalent to about 50 mg of acetaminophen, add 20 mL of diluted methanol (3 in 5), shake for 10 minutes, add diluted methanol (3 in 5) to make exactly 50 mL, and filter through a membrane filter with a pore size not exceeding 0.45 μm. Discard the first 5 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add diluted methanol (3 in 5) to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Acetaminophen RS, add diluted methanol (3 in 5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 μL each of the sample solution and standard solution as directed under Liquid Chromatography according to the following conditions. Calculate the amount of acetaminophen."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-Range",
+        "lowerLimit": 95.0,
+        "upperLimit": 105.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed containers"
+  },
+  "storageConditions": {
+    "en": "Store at room temperature, protect from moisture"
+  },
+
+  "packSize": {
+    "en": "100 tablets, 500 tablets, 1000 tablets"
+  },
+
+  "shelfLife": {
+    "en": "36 months from date of manufacture"
+  }
+}

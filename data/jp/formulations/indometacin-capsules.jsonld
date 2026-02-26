@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/indometacin-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Indometacin Capsules",
+    "ja": "インドメタシンカプセル"
+  },
+  "monographId": "JP18-indometacin-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Indometacin Capsules contain not less than 90.0z and not more than 110.0z of the labeled amount of minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 28 mg of indometacin (C19H16ClNO4), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder the contents of Indometacin Cap-sules. To a quantity of the powder, equivalent to 0.1 g of Indometacin, add 20 mL of chloroform, shake well, and centrifuge. Filter the supernatant liquid, and evaporate the filtrate to dryness. After cooling, dissolve the residue in 20 mL of methanol. To 10 mL of this solution add methanol to trophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of indometacin (C19H16ClNO4) ＝ MS × AT/AS × 1/C × 90 MS: Amount (mg) of Indometacin RS taken C: Labeled amount (mg) of indometacin (C19H16ClNO4) in 1 capsule ‌1154"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the contents of not less than 20 Indometacin Capsules. Powder the combined contents, and weigh accurately a portion of the powder, equivalent to about 50 mg of indometacin (C19H16ClNO4). Dissolve in 40 mL of methanol, and add methanol to make exactly 50 mL. Filter this solution, discarding the first 10-mL portion of the filtrate. Pipet 5 mL of the subsequent filtrate, add exactly 3 Indometacin Suppositories"
+      }
+    }
+  ],
+  "dosageForm": "Capsule"
+}

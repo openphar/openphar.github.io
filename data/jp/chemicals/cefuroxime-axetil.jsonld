@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefuroxime-axetil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefuroxime Axetil",
+    "ja": "セフロキシム アキセチル"
+  },
+  "monographId": "JP18-cefuroxime-axetil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H22N4O10S",
+  "molecularWeight": 510.47,
+  "casNumber": "64544-07-6",
+  "definition": {
+    "en": "Cefuroxime Axetil contains not less than 800 mg (potency) and not more than 850 mg (potency) per mg, calculated on the anhydrous and acetone-free basis."
+  },
+  "appearance": {
+    "en": "Cefuroxime Axetil occurs as white to yellow-white non-crystalline powder. It is freely soluble in dimethylsulfoxide, soluble in metha-nol, sparingly soluble in ethanol (95), and very slightly solu-ble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefuroxime Axetil in methanol (3 in 200,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefuroxime Axetil RS pre-pared in the same manner as the sample solution: both spec-tra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Cefuroxime Axetil as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cefuroxime Axetil RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefuroxime Axetil in deuterated dimethylsulfoxide for nuclear magnetic resonance spectroscopy (1 in 20) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using tetramethylsilane for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits a doublet signal or a pair of doublet signals A at around d 1.5 ppm, a pair of singlet signals B at around d 2.1 ppm, and a singlet signal C at around d 3.9 ppm. The ratio of the inte-grated intensity of each signal, A:B:C, is about 1:1:1. D Optical rotation <2.49> [a]20: ＋41 – ＋479(0.5 g, metha-nol, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Cefuroxime Axetil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 25 mg of Cefuroxime Axetil in 4 mL of methanol, add a solution of ammonium dihydrogenphosphate (23 in 1000) to make 10 mL, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add 40 mL of methanol and a solution of am-monium dihydrogenphosphate (23 in 1000) to make exactly JP XVIII Official Monographs / Cefuroxime Axetil 713 100 mL, and use this solution as the standard solution. Per-form the test with exactly 2 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine each peak area by the automatic integration method: the area of the peak other than cefuroxime axetil obtained from the sample solution is not larger than 1.5 times the total area of the two peaks of cefuroxime axetil from the standard solution, and the total area of the peaks other than cefuroxime axetil from the sample solution is not larger than 4 times the total area of the two peaks of cefuroxime axetil from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of the peak having the larger retention time of the two peaks of cefuroxime axetil, beginning after the sol-vent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add 4 mL of methanol and a solution of am-monium dihydrogenphosphate (23 in 1000) to make exactly 10 mL. Confirm that the total area of the two peaks of cefuroxime axetil obtained with 2 mL of this solution is equivalent to 7 to 13z of that with 2 mL of the standard so-lution. System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, the resolution between the two peaks of cefuroxime axetil is not less than 1.5. System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the total area of the two peaks of cefuroxime axetil is not more than 2.0z. Acetone—Weigh accurately about 1 g of Cefuroxime Axetil, add exactly 0.2 mL of the internal standard solution and dimethylsulfoxide to make 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.5 g of acetone, and add dimethylsulfoxide to make exactly 100 mL. Pipet 0.2 mL of this solution, add exactly 0.2 mL of the internal standard solution and dimethylsulfoxide to make 10 mL, and use this solution as the standard solution. Perform the test with 1 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of acetone to that of Temperature of injection port: A constant temperature of about 1159C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of the internal standard is about 4 minutes. System suitability— System performance: When the procedure is run with 1 mL of the standard solution under the above operating condi-tions, acetone and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of acetone to that of the internal standard is not more than 5.0z. Water <2.48> Not more than 2.0z (0.4 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.2z (0.5 g). Isomer ratio Perform the test with 10 mL of the sample so-lution obtained in the Assay as directed under Liquid Chro-matography <2.01> according to the following conditions, and determine the area, Aa, of the peak having the smaller retention time and the area, Ab, of the peak having the big-ger retention time of the two peaks of cefuroxime axetil: Ab/(Aa ＋ Ab) is between 0.48 and 0.55. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefuroxime Axetil and Cefuroxime Axetil RS, equivalent to about 50 mg (po-tency), and dissolve each in methanol to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 5 mL of the internal standard solution, 5 mL of methanol and a solution of ammonium dihydrogen phosphate (23 in 1000) to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the sum area of the two peaks of cefuroxime axetil to the peak area of the internal standard. the internal standard: the amount of acetone is not more Amount [ mg (potency)] of cefuroxime (C H N O S) than 1.3z. ＝ MS × QT/QS × 1000 16 16 4 8 Amount (z) of acetone ＝ MS/MT × QT/QS × 1/5 MS: Amount (g) of acetone taken MT: Amount (g) of Cefuroxime Axetil taken Internal standard solution—A solution of 1-propanol in dimethylsulfoxide (1 in 200). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 3 mm in inside diameter and 2 m in length, packed with siliceous earth for gas chromatogra-phy coated with a mixture of polyethylene glycol 600 for gas chromatography and polyethylene glycol 1500 for gas chro-matography (1:1) in the ratio of 20z (125 – 150 mm in parti-cle diameter). Column temperature: A constant temperature of about 909C. MS: Amount [mg (potency)] of Cefuroxime Axetil RS taken Internal standard solution—A solution of acetanilide in methanol (27 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 278 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 20 cm in length, packed with trimethylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of a solution of ammonium di-hydrogen phosphate (23 in 1000) and methanol (5:3). Flow rate: Adjust so that the retention time of the peak ‌714 having the smaller retention time of the two peaks of cefuroxime axetil is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and cefuroxime axetil are eluted in this order with the resolution between the two peaks of cefuroxime axetil being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the sum area of the two peaks of cefuroxime axetil to the peak area of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

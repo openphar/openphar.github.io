@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/albumin-tannate",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Albumin Tannate",
+    "ja": "タンニン酸アルブミン"
+  },
+  "monographId": "JP18-albumin-tannate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Albumin Tannate occurs as a light brown powder. It is odorless, or has a faint, characteristic odor. It is practically insoluble in water and in ethanol (95). It dissolves in sodium hydroxide TS with turbidity."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Albumin Tannate add 10 amount amount amount amount amount mL of ethanol (95), and heat in a water bath for 3 minutes Total volume 1000 mL 1000 mL 1000 mL 1000 mL 1000 mL Changing mobile phases: When the procedure is run with 20 mL of the standard solution under the above operating conditions, switchover in sequence to mobile phases A, B, C, D and E so that aspartic acid, threonine, serine, glutamic acid, glycine, alanine, cystine, valine, methionine, isoleu-cine, leucine, tyrosine, phenylalanine, lysine, ammonia, histidine, and arginine are eluted in this order with the reso-lution between the peaks of isoleucine and leucine being not less than 1.2. Reaction reagents: Dissolve 204 g of lithium acetate dihy-drate in water, add 123 mL of acetic acid (100) and 401 mL of 1-methoxy-2-propanol, and water to make 1000 mL, introduce nitrogen for 10 minutes, and use this solution as solution (I). Separately, add 39 g of ninhydrin to 979 mL of 1-methoxy-2-propanol, introduce nitrogen for 5 minutes, add 81 mg of sodium borohydride, introduce nitrogen for 30 minutes, and use this solution as solution (II). To 1 volume of solution (I) add 1 volume of solution (II). Prepare before use. Flow rate of mobile phase: 0.20 mL per minute. Flow rate of reaction reagent: 0.24 mL per minute. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating conditions, the resolution between the peaks of glycine and alanine is not less than 1.2. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak height and retention time of each amino acid obtained from the standard solution are not more than 5.0z and not more than 1.0z, respectively. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Shake 1.0 g of Albumin Tannate with 50 mL of water for 5 minutes, and filter. To 25 mL of the fil-trate add 1.0 mL of 0.1 mol/L sodium hydroxide VS and 2 drops of phenolphthalein TS: a red color develops. (2) Fats—To 2.0 g of Albumin Tannate add 20 mL of petroleum benzine, shake vigorously for 15 minutes, and filter. Evaporate 10 mL of the filtrate on a water bath: the mass of the residue is not more than 50 mg. Loss on drying <2.41> Not more than 6.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 1.0z (0.5 g). Digestion test To 1.00 g of Albumin Tannate add 0.25 g of saccharated pepsin and 100 mL of water, shake well, and allow to stand for 20 minutes at 40 ± 19C in a water bath. Add 1.0 mL of dilute hydrochloric acid, shake, and allow to stand for 3 hours at 40 ± 19C. Cool rapidly to ordinary tem-perature, and filter. Wash the residue with three 10-mL por-tions of water, dry in a desiccator (silica gel) for 18 hours, and dry at 1059C for 5 hours: the mass of the residue is 0.50 to 0.58 g."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 90 mg of L-Alanine, previ-ously dried, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 8.909 mg of C3H7NO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

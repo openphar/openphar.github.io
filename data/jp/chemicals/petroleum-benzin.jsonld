@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/petroleum-benzin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Petroleum Benzin‌",
+    "ja": "石油ベンジン"
+  },
+  "monographId": "JP18-petroleum-benzin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Petroleum Benzin occurs as a colorless, clear, volatile liquid. It shows no fluorescence. It has a chracteris-tic odor. It is miscible with ethanol (99.5) and with diethyl ether. It is practically insoluble in water. It is very flammable. Specific gravity d 20: 0.65 – 0.71"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid—Shake vigorously 10 mL of Petroleum Benzin with 5 mL of water for 2 minutes, and allow to stand: the separated aqueous layer does not change moistened blue litmus paper to red. Sulfur compounds and reducing substances—To 10 mL of Petroleum Benzin add 2.5 mL of ammonia-ethanol TS and 2 to 3 drops of silver nitrate TS, and warm the mix-ture at about 509C for 5 minutes, protected from light: no brown color develops. Fatty oil and sulfur compounds—Drop and evapo-rate 10 mL of Petroleum Benzin in small portions on odor-less filter paper spread on a previously warmed glass plate: no spot or no foreign odor is perceptible. Benzene—Warm 5 drops of Petroleum Benzin with 2 mL of sulfuric acid and 0.5 mL of nitric acid for about 10 minutes, allow to stand for 30 minutes, transfer the mixture to a porcelain dish, and dilute with water: no odor of nitrobenzene is perceptible. Residue on evaporation—Evaporate 140 mL of Petroleum Benzin on a water bath to dryness, and heat the residue at 1059C to constant mass: the mass is not more than 1 mg. Readily carbonizable substances—Shake vigorously 5 mL of Petroleum Benzin with 5 mL of sulfuric acid for rea-dily carbonizable substances for 5 minutes in a Nessler tube, and allow to stand: the sulfuric acid layer has no more color than Matching Fluid A. Distilling range <2.57> 50 – 809C, not less than 90 volz."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Remote from fire, and not exceeding 309C."
+  }
+}

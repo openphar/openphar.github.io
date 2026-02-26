@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/gentamicin-sulfate-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Gentamicin Sulfate Ophthalmic Solution",
+    "ja": "ゲンタマイシン硫酸塩点眼液"
+  },
+  "monographId": "JP18-gentamicin-sulfate-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Gentamicin Sulfate Ophthalmic Solution is an aque-ous ophthalmic preparation. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Gentamicin Sulfate Ophthalmic Solution is a clear, colorless or pale yellow liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Gentamicin Sulfate Ophthal-mic Solution, equivalent to 10 mg (potency) of Gentamicin Sulfate, add water to make 5 mL, and use this solution as the sample solution. Separately, dissolve an amount of Gentami-cin Sulfate RS, equivalent to 10 mg (potency), in 5 mL of water, and use this solution as the standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with the lower layer of a mixture of chloroform, ammonia solution (28) and methanol (2:1:1) to a distance of about 15 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 5 minutes: three principal spots obtained from the sample so-lution are the same with the corresponding spots from the standard solution in color tone and the Rf value, respec-tively. pH <2.54> 5.5 – 7.5 Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, agar media for seed and base layer, agar medium for transferring test organism, and standard solutions—Proceed as directed in the Assay under Gentami-cin Sulfate. Sample solutions—Pipet a volume of Gentamicin Sulfate Ophthalmic Solution, equivalent to about 12 mg (potency) of Gentamicin Sulfate, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make a solution so that each mL contains about 1 mg (potency). Pipet a suitable volume of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 4 mg (potency) and 1 mg (potency), and use these solutions as the high concentration sample solution and the low concentra-tion sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

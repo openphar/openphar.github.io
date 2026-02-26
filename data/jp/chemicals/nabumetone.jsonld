@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nabumetone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nabumetone",
+    "ja": "ナブメトン"
+  },
+  "monographId": "JP18-nabumetone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H16O2",
+  "molecularWeight": 228.29,
+  "definition": {
+    "en": "Nabumetone contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nabumetone occurs as white to yellowish white, crystals or a crystalline powder. It is soluble in acetonitrile, sparingly soluble in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nabumetone in methanol (1 in 30,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Nabumetone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Nabumetone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Nabumetone RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Nabumetone according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 20 mg of Nabumetone in 20 mL of acetonitrile, and use this solution as the sample solution. Pipet 5 mL of the sample solution, add acetonitrile nitrile to make exactly 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak area, AT and AS, of nabumetone in each so-lution. to make exactly 50 mL. Pipet 1 mL of this solution, add acetonitrile to make exactly 20 mL, and use this solution as Amount (mg) of nabumetone (C 15H 16O2) ＝ MS × AT/AS ‌the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of both solu-tions by the automatic integration method: the peak area of the related substance G obtained from the sample solution is not larger than 3/5 times the peak area of nabumetone from the standard solution, and each peak area other than nabu-metone and the related substance G is not larger than 1/5 times the peak area of nabumetone from the standard solu-tion. Furthermore, the total area of the peaks other than nabumetone from the sample solution is not larger than 1.6 times the peak area of nabumetone from the standard solu-tion. For each peak area of the related substances A, B, C, D, E, F and G, which are having the relative retention time of about 0.73, 0.85, 0.93, 1.2, 1.9, 2.6 and 2.7 to nabume- tone, multiply their correction factors, 0.12, 0.94, 0.25, 0.42, 1.02, 0.91 and 0.1, respectively. Operating conditions— Detector, column, and column temperature: Proceed as directed in the operating conditions in the Assay. Mobile phase A: A mixture of water and acetic acid (100) (999:1). Mobile phase B: A mixture of acetonitrile and tetra-hydrofuran (7:3). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. MS: Amount (mg) of Nabumetone RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (4 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 600 mL of a mixture of water and acetic acid (100) (999:1) add 400 mL of a mixture of acetonitrile and tetrahydrofuran (7:3). Flow rate: Adjust so that the retention time of nabume-tone is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of nabumetone are not less than 6000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nabumetone is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

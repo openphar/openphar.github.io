@@ -1,0 +1,193 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/methods/jp-method-references",
+  "@type": "Collection",
+  "prefLabel": {
+    "en": "Japanese Pharmacopoeia General Test Methods"
+  },
+  "description": {
+    "en": "Reference to general test methods defined in the Japanese Pharmacopoeia (JP-XVIII)"
+  },
+  "hasMember": [
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-03",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Loss on Drying Test"
+      },
+      "methodNumber": "<1.03>",
+      "jpReference": "as directed under Loss on Drying Test",
+      "description": {
+        "en": "Determines the amount of volatile matter removed under specified conditions"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-07",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Residue on Ignition Test"
+      },
+      "methodNumber": "<1.07>",
+      "jpReference": "as directed under Residue on Ignition Test",
+      "description": {
+        "en": "Determines the amount of residual substance remaining after ignition"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-09",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Acid-Insoluble Ash Test"
+      },
+      "methodNumber": "<1.09>",
+      "jpReference": "as directed under Acid-Insoluble Ash Test",
+      "description": {
+        "en": "Determines the amount of ash insoluble in dilute hydrochloric acid"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-11",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Total Ash Test"
+      },
+      "methodNumber": "<1.11>",
+      "jpReference": "as directed under Total Ash Test",
+      "description": {
+        "en": "Determines the total amount of ash remaining after ignition"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/1-13",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Extractive Content Test"
+      },
+      "methodNumber": "<1.13>",
+      "jpReference": "as directed under Extractive Content Test",
+      "description": {
+        "en": "Determines the amount of extractable matter using specified solvents"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-01",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Liquid Chromatography"
+      },
+      "methodNumber": "<2.01>",
+      "jpReference": "as directed under Liquid Chromatography",
+      "description": {
+        "en": "High-performance liquid chromatography (HPLC) for separation and quantification"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-02",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Gas Chromatography"
+      },
+      "methodNumber": "<2.02>",
+      "jpReference": "as directed under Gas Chromatography",
+      "description": {
+        "en": "Gas chromatography for separation and analysis of volatile compounds"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-03",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Thin-Layer Chromatography"
+      },
+      "methodNumber": "<2.03>",
+      "jpReference": "as directed under Thin-Layer Chromatography",
+      "description": {
+        "en": "Thin-layer chromatography for identification and purity testing"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-23",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Ultraviolet-Visible Spectrophotometry"
+      },
+      "methodNumber": "<2.23>",
+      "jpReference": "as directed under Ultraviolet-visible Spectrophotometry",
+      "description": {
+        "en": "UV-Vis spectrophotometry for identification and quantification"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-24",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Infrared Spectrophotometry"
+      },
+      "methodNumber": "<2.24>",
+      "jpReference": "as directed under Infrared Spectrophotometry",
+      "description": {
+        "en": "IR spectrophotometry for identification of chemical compounds"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-41",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Heavy Metals Test"
+      },
+      "methodNumber": "<2.41>",
+      "jpReference": "according to Method 1, 2, 3, or 4",
+      "description": {
+        "en": "Tests for heavy metal contamination in pharmaceutical substances"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-49",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Arsenic Limit Test"
+      },
+      "methodNumber": "<2.49>",
+      "jpReference": "as directed under Arsenic Limit Test",
+      "description": {
+        "en": "Test for arsenic contamination in pharmaceutical substances"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/2-50",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Water Content Test"
+      },
+      "methodNumber": "<2.50>",
+      "jpReference": "as directed under Water Content Test",
+      "description": {
+        "en": "Karl Fischer titration for water content determination"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/5-01",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Microbial Limit Test"
+      },
+      "methodNumber": "<5.01>",
+      "jpReference": "as directed under Microbial Limit Test",
+      "description": {
+        "en": "Tests for microbial contamination in pharmaceutical products"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/methods/5-05",
+      "@type": "HarmonizedMethod",
+      "prefLabel": {
+        "en": "Sterility Test"
+      },
+      "methodNumber": "<5.05>",
+      "jpReference": "as directed under Sterility Test",
+      "description": {
+        "en": "Tests for sterility of pharmaceutical products"
+      }
+    }
+  ]
+}

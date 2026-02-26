@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/nicardipine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Nicardipine Hydrochloride Injection",
+    "ja": "ニカルジピン塩酸塩注射液"
+  },
+  "monographId": "JP18-nicardipine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nicardipine Hydrochloride Injection is an aqueous injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Nicardipine Hydrochloride Injection occurs as a clear, pale yellow liquid. It is gradually changed by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Nicardipine Hydrochloride Injection, equivalent to 1 mg of Nicardipine Hydrochloride, add ethanol (99.5) to make 100 mL. Determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima be-tween 235 nm and 239 nm, and between 351 nm and 355 nm. pH <2.54> 3.0 – 4.5 ‌Purity Related substances—Conduct the procedure with-out exposure to light, using light-resistant vessels. To a volume of Nicardipine Hydrochloride Injection, equivalent to 5 mg of Nicardipine Hydrochloride, add the mobile phase to make 10 mL, and use this solution as the sample solution. To exactly 2 mL of the sample solution add the mobile phase to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas of these solutions by the automatic integration method: the areas of the peaks other than nicardipine obtained from the sample solution are not larger than the peak area of nicardipine from the stand-ard solution, and the total of the areas of the peaks other than nicardipine is not larger than 2 times of the peak area of nicardipine from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of nicardipine, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of nicardipine obtained with 10 mL of this solution is equivalent to 8 to 12z of that with 10 mL of the standard solution. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of nicardipine is not more than 1.0z. Bacterial endotoxins <4.01> Less than 8.33 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct the procedure without exposure to light, using light-resistant vessels. To an exact volume of Nicar-dipine Hydrochloride Injection, equivalent to about 2 mg of nicardipine hydrochloride (C26H29N3O6.HCl), add exactly 5 mL of the internal standard solution and methanol to make 50 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 50 mg of nicardipine hydro-chloride for assay, previously dried at 1059C for 2 hours, dissolve in methanol to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 5 mL of the internal standard solu-tion and methanol to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of nicardipine to that of the internal standard. Amount (mg) of nicardipine hydrochloride (C26H29N3O6.HCl) ＝ MS × QT/QS × 1/25 MS: Amount (mg) of nicardipine hydrochloride for assay taken Internal standard solution—A solution of di-n-butyl phtha-late in methanol (1 in 625). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.36 g of potassium dihydrogen phosphate in water to make 1000 mL. To 320 mL of this so-lution add 680 mL of methanol. Flow rate: Adjust so that the retention time of nicardipine is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, nicardipine and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of nicardipine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

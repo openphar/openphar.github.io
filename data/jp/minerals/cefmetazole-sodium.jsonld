@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefmetazole-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefmetazole Sodium",
+    "ja": "セフメタゾールナトリウム"
+  },
+  "monographId": "JP18-cefmetazole-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefmetazole Sodium contains not less than 860 mg (potency) and not more than 965 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefmetazole Sodium occurs as a white to light yellow-white, powder or mass. It is very soluble in water, freely soluble in methanol, slightly soluble in ethanol (95), and very slightly soluble in tetrahydrofuran. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefmetazole Sodium (1 in 40,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cef-metazole Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefmeta-zole Sodium in heavy water for nuclear magnetic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethyl-silylpropanesulfonate for nuclear magnetic resonance spec-troscopy as an internal reference compound: it exhibits singlet signals, A, B and C, at around d 3.6 ppm, at around d 4.1 ppm and at around d 5.2 ppm, respectively. The ratio of integrated intensity of each signal, A:B:C, is about 3:3:1. Cefmetazole Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋73 – ＋859(0.25 g, water, 25 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cefmetazole Sodium in 10 mL of water: the pH of the solution is between 4.2 and 6.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cefmetazole Sodium in 10 mL of water: the solution is clear, and has no more color than the following control solution. Control solution: To a mixture of exactly 0.5 mL of Cobalt (II) Chloride CS and exactly 5 mL of Iron (III) Chloride CS add water to make exactly 50 mL. To exactly 15 mL of this solution add water to make exactly 20 mL. Heavy metals <1.07>—Proceed with 1.0 g of Cef-metazole Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefmetazole Sodium according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.50 g of Cefmetazole Sodium in 10 mL of water, and use this solution as the sam-ple solution. Pipet 4 mL, 2 mL, 1 mL, 0.5 mL and 0.25 mL of the sample solution, add water to them to make exactly 100 mL, and use these solutions as the standard solutions (1), (2), (3), (4) and (5), respectively. Separately, dissolve 0.10 g of 1-methyl-1H-tetrazole-5-thiol in water to make ex-actly 100 mL, and use this solution as the standard solution (6). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solutions (1) to (6) on a plate of silica gel for thin-layer chromatography. Develop with a mixture of 1-butanol, water and acetic acid (100) (4:1:1) to a distance of about 12 cm, and air-dry the plate. Allow the plate to stand in iodine vapor: the spot obtained from the sample solution corresponding to the spot from the standard solution (6) is not more intense than the spot from the stand-ard solution (6), and the spots other than this spot and other than the principal spot are not more intense than the spot from the standard solution (1). Furthermore, the total amount of the spots other than the principal spot from the sample solution, calculated by the comparison with the spots from the standard solutions (1), (2), (3), (4) and (5), is not more than 8.0z. Water <2.48> Not more than 1.0z (1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefmetazole So-dium and Cefmetazole RS, equivalent to about 50 mg (po-tency), and dissolve each in the mobile phase to make exactly 25 mL. Pipet 1 mL each of these solutions, add exactly 10 mL of the internal standard solution, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with 10 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefmeta-zole to that of the internal standard. Amount [mg (potency)] of cefmetazole (C15H17N7O5S3) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Cefmetazole RS taken Internal standard solution—A solution of methyl para-hydroxybenzoate in the mobile phase (1 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 214 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 5.75 g of ammonium dihydrogen-phosphate in 700 mL of water, add 280 mL of methanol, 20 mL of tetrahydrofuran and 3.2 mL of 40z tetrabutylammo-nium hydroxide TS, and adjust to pH 4.5 with phosphoric acid. Flow rate: Adjust so that the retention time of cefmetazole is about 8 minutes. ‌678‌ System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cefmetazole and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefmetazole to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

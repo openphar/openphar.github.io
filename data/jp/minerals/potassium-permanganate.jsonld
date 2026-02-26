@@ -1,0 +1,48 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-permanganate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Potassium Permanganate‌",
+    "ja": "過マンガン酸カリウム"
+  },
+  "monographId": "JP18-potassium-permanganate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Potassium Permanganate occurs as dark pur-ple crystals and has a metallic luster. It is soluble in water. A solution of Potassium Permanganate (1 in 1000) has a slightly sweet, astringent taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Permanganate (1 in 100) responds to Qualitative Tests <1.09> for permanganate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water-insoluble substances—Dissolve 2.0 g of Potassium Permanganate, previously powdered, in 200 mL of water. Filter the insoluble substances through a tared glass filter (G4), wash with water until the last washing shows no color, and dry at 1059C for 2 hours: the mass of the residue is not more than 4 mg. (2) Arsenic <1.11>—Dissolve 0.40 g of Potassium Per- manganate in 10 mL of water, add 1 mL of sulfuric acid, add hydrogen peroxide (30) dropwise until the solution remains colorless, and evaporate on a sand bath nearly to dryness. Dissolve the residue in 5 mL of water, and perform the test with this solution as the test solution: the color pro-duced is not more intense than the following color standard. Color standard: To 10 mL of water add 1 mL of sulfuric acid and the same volume of hydrogen peroxide (30) as used for the preparation of the test solution. Evaporate the solu-tion on a sand bath nearly to dryness, add 2.0 mL of Stand-ard Arsenic Solution and water to make 5 mL, and carry out the test with this solution in the same manner as the test solu- tion (not more than 5 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 18 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Potassium Perman-ganate, previously dried, dissolve in water to make exactly 200 mL, and use this solution as the sample solution. Pipet 25 mL of 0.05 mol/L oxalic acid VS into a 500-mL conical flask, add 200 mL of diluted sulfuric acid (1 in 20), and keep at a temperature between 309C and 359C. Transfer the sam-ple solution to a buret. Add quickly 23 mL of the sample so-lution from the buret to the flask while shaking gently, and then allow the flask to stand until the red color disappears. Potassium Sulfate"
+      }
+    }
+  ]
+}

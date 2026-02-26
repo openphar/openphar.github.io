@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/aluminum-acetylsalicylate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Aluminum Acetylsalicylate",
+    "ja": "アスピリンアルミニウム"
+  },
+  "monographId": "JP18-aluminum-acetylsalicylate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Aspirin Aluminum occurs as a white crystal-line powder. It is odorless or has a slight, acetic odor. It is practically insoluble in water, in methanol, in ethanol (95) and in diethyl ether. It dissolves, with decomposition, in sodium hydroxide TS and in sodium carbonate TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Aspirin Aluminum in 10 mL of sodium hydroxide TS by heating, if necessary. Neutralize 2 mL of the solution with hydrochloric acid, and add 1 to 2 drops of iron (III) chloride TS: a red-purple color develops. Determine the absorption spectrum of the sample so-lution obtained in the Assay (1) as directed under Ultravio-let-visible Spectrophotometry <2.24>: it exhibits a maximum between 277 nm and 279 nm. Place 2 g of Aspirin Aluminum in a platinum cruci-ble, and ignite until charred. To the residue add 1 g of anhy-drous sodium carbonate, and ignite for 20 minutes. After cooling, to the residue add 15 mL of dilute hydrochloric acid, shake, and filter: the filtrate responds to Qualitative Tests <1.09> for aluminum salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Salicylate—Using AT2 and AS2 obtained in the Assay (1), calculate the amount of salicylate [as salicylic acid (C7H6O3: 138.12)] by the following equation: salicylate con-tent is not more than 7.5z, calculated on the anhydrous basis. Amount (mg) of salicylic acid (C7H6O3) ＝ MS × AT2/AS2 × 1/4 MS: Amount (mg) of salicylic acid for assay taken Heavy metals <1.07>—Place 2.0 g of Aspirin Alumi-num in a porcelain crucible, cover the crucible loosely, and ignite at a low temperature until charred. After cooling, add 2 mL of nitric acid and 1 mL of sulfuric acid to the content of the crucible, heat gently the crucible until white fumes are evolved, and continue the heating until white fumes are no longer evolved, then ignite between 5009C and 6009C until the carbon is incinerated. When the incineration is not com-pleted, add 2 mL of nitric acid and 1 mL of sulfuric acid, and heat gently in the same manner, then ignite between 5009C and 6009C to incinerate completely. After cooling, add 2 mL of hydrochloric acid, and proceed as directed in Method 2, and perform the test. Prepare the control solution by using the same quantities of the same reagents as directed for the preparation of the test solution, and add 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Dissolve 1.0 g of Aspirin Aluminum in 15 mL of sodium hydroxide TS. To this solution add 1 drop of phenolphthalein TS, and with stirring, add dropwise hydrochloric acid until the red color of the solution disap-pears. Then add 2 mL of hydrochloric acid, cool with occa-sional shaking for 10 minutes, and filter with a glass filter (G3). Wash the residue with two 5 mL portions of 1 mol/L hydrochloric acid TS, and combine the filtrate and the wash-ings. Use this solution as the test solution, and perform the test (not more than 2 ppm). Water <2.48> Not more than 4.0z (0.15 g, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Aspirin—Weigh accurately about 0.1 g of Aspi-rin Aluminum, add 40 mL of sodium fluoride TS, and shake for 5 minutes. Allow the solution to stand for 10 minutes with frequent shaking. Extract the solution with six 20-mL portions of chloroform. Combine all chloroform extracts, and add chloroform to make exactly 200 mL. Measure ex-actly 10 mL of this solution, add chloroform to make exactly 100 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 90 mg of salicylic acid for assay, previously dried in a desiccator (silica gel) for 3 hours, and dissolve in chloroform to make exactly 200 mL. Meas-ure exactly 5 mL of this solution, add chloroform to make exactly 200 mL, and use this solution as the standard solu-tion (1). Then weigh accurately about 90 mg of Aspirin RS, previously dried in a desiccator (silica gel) for 5 hours, and dissolve in chloroform to make exactly 200 mL. Measure ex-actly 10 mL of this solution, add chloroform to make exactly 100 mL, and use this solution as the standard solution (2). Perform the test with these solutions as directed under Ultra-violet-visible Spectrophotometry <2.24>. Determine the ab-sorbances, AT1 and AS1, of the sample solution and standard ‌490 solution (1) at 278 nm, and absorbances, AT2 and AS2, of these solution, at 308 nm, respectively. Then determine the absorbance AS3 of the standard solution (2) at 278 nm. Amount (mg) of aspirin (C9H8O4)   A －  AT2 × AS1  (2) Determine the infrared absorption spectrum of Aspoxicillin Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or spec-trum of Aspoxicillin RS: both spectra exhibit similar intensi- ties of absorption at the same wave numbers. D T1 S ＝ M ×  AS3 AS2   Optical rotation <2.49> [a]20: ＋170 – ＋1859(0.2 g calcu-lated on the anhydrous bases, water, 20 mL, 100 mm). MS: Amount (mg) of Aspirin RS taken (2) Aluminum—Weigh accurately about 0.4 g of Aspirin Aluminum, and dissolve in 10 mL of sodium hydroxide TS. Add dropwise 1 mol/L hydrochloric acid TS to adjust the solution to a pH of about 1, add 20 mL of acetic acid-ammonium acetate buffer solution (pH 3.0) and 0.5 mL of Cu-PAN TS, and heat. While boiling, titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylenediamine tetraace-tate VS until the color of the solution changes from red to yellow and persists for 1 minute. Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.349 mg of Al"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

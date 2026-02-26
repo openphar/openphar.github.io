@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/phenolsulfonphthalein-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Phenolsulfonphthalein Injection",
+    "ja": "フェノールスルホンフタレイン注射液"
+  },
+  "monographId": "JP18-phenolsulfonphthalein-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Phenolsulfonphthalein Injection is an aqueous in-jection. It contains not less than 0."
+  },
+  "appearance": {
+    "en": "Phenolsulfonphthalein Injection is a clear, orange-yellow to red liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 mL of Phenolsulfonphthalein Injection add 2 to 3 drops of sodium hydroxide TS, and proceed as di-rected in the Identification (1) under Phenolsulfonphthalein. pH <2.54> 6.0 – 7.6 Bacterial endotoxins <4.01> Less than 7.5 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> Perform the test ac-cording to Method 2: it meets the requirement. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Sensitivity To 1.0 mL of Phenolsulfonphthalein Injection add 5 mL of water. To 0.20 mL of this solution add 50 mL of freshly boiled and cooled water and 0.40 mL of 0.01 mol/L sodium hydroxide VS: a deep red-purple color devel-ops, and it changes to light yellow on the addition of 0.40 mL of 0.005 mol/L sulfuric acid VS."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 5 mL of Phenolsulfonphthalein Injection, and Amount (mg) of phenolsulfonphthalein (C19H14O5S) ＝ MS × AT/AS MS: Amount (mg) of phenolsulfonphthalein for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clobetasol-propionate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clobetasol Propionate",
+    "ja": "クロベタゾールプロピオン酸エステル"
+  },
+  "monographId": "JP18-clobetasol-propionate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H32ClFO5",
+  "molecularWeight": 466.97,
+  "definition": {
+    "en": "Clobetasol Propionate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Clobetasol Propionate occurs as a white to pale yellow-white crystalline powder. It is soluble in methanol and in ethanol (99.5), and practi-cally insoluble in water. It gradually turns yellow by light. Melting point: about 1969C (with decomposition). ‌Identification Determine the infrared absorption spectra of Clobetasol Propionate as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spec-trum with the Reference Spectrum or the spectrum of Clobetasol Propionate RS: both spectra exhibit similar in-tensities of absorbance at the same wave numbers. D Optical rotation <2.49> [a]20: ＋109 – ＋1159(after drying, 0.1 g, methanol, 10 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Clobetasol Propionate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 10 mg of Clobetasol Propionate in 100 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 5 mL of the sample solu-tion, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area of these solutions by the automatic integration method: the area of the peak other than clobetasol propionate obtained from the sample solution is not larger than 2/5 times the peak area of clobetasol propionate from the standard solution. Furthermore, the total area of the peaks other than clobetasol propionate from the sample so-lution is not larger than the peak area of clobetasol propionate from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of clobetasol propionate, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add the mobile phase to make exactly 50 mL. Confirm that the peak area of clobetasol propionate ob-tained with 10 mL of this solution is equivalent to 2.8 to 5.2z of that with 10 mL of the standard solution. System performance: Dissolve 20 mg of Clobetasol Propionate in 20 mL of methanol. To 5 mL of this solution add 10 mL of a solution of beclometasone dipropionate in methanol (1 in 1000), and then add the mobile phase to make 50 mL. When the procedure is run with 10 mL of this solu-tion under the above conditions, clobetasol propionate and beclometasone dipropionate are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above condi-tions, the relative standard deviation of the peak area of clobetasol propionate is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g, plati-num crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Clobetasol Propionate and Clobetasol Propionate RS, both previously dried, dissolve each in the mobile phase, add exactly 100 mL of the internal standard solution, add the mobile phase to make 250 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of clobetasol propionate to that of the internal stand-ard. Amount (mg) of clobetasol propionate (C25H32ClFO5) ＝ MS × QT/QS MS: Amount (mg) of Clobetasol Propionate RS taken Internal standard solution—A solution of beclometasone dipropionate in the mobile phase (1 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 7.80 g of sodium dihydrogen phos-phate dihydrate in 900 mL of water, adjust the pH to 2.5 with phosphoric acid, and then add water to make 1000 mL. To 425 mL of this solution add 475 mL of acetonitrile and 100 mL of methanol. Flow rate: Adjust so that the retention time of clobetasol propionate is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above conditions, clobetasol propionate and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above condi-tions, the relative standard deviation of the ratio of the peak area of clobetasol propionate to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

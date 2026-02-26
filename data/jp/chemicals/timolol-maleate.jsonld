@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/timolol-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Timolol Maleate",
+    "ja": "チモロールマレイン酸塩"
+  },
+  "monographId": "JP18-timolol-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Timolol Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Timolol Maleate occurs as a white to pale yel-low-white crystalline powder. It is freely soluble in acetic acid (100), and soluble in water and in ethanol (99.5). It dissolves in 0.1 mol/L hydrochloric acid TS. Melting point: about 1979C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Timolol Maleate in 0.1 mol/L hydrochloric acid TS (3 in 100,000) as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Timolol Maleate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 5 mL of a solution of Timolol Maleate (1 in 500) add 1 drop of potassium permanganate TS: the red color of the TS disappears immediately. D Optical rotation <2.49> [a]20: －5.7 – －6.29(after drying, 1.25 g, 1 mol/L hydrochloric acid TS, 25 mL, 100 mm). pH <2.54> The pH of a solution prepared by dissolving 1.0 g of Timolol Maleate in 20 mL of water is between 3.8 and 4.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Timepidium Bromide Hydrate in 10 mL of water: the so-lution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Timepidium Bromide Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.10 g of Timepidium Bromide Hydrate in 10 mL of methanol, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add methanol to make exactly 100 mL. Pipet 1 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, methanol, water, acetic acid (100) and ethyl acetate (5:4:1:1:1) to a distance of about 13 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> 3.5 – 5.0z (0.4 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Timepidium Bromide Hydrate, dissolve in 60 mL of a mixture of acetic anhydride and acetic acid (100) (2:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 40.04 mg of C17H22BrNOS2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/nupharis-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Nupharis Rhizoma",
+    "ja": "センコツ"
+  },
+  "monographId": "JP18-nupharis-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Usually, longitudinally split irregular column, twisted, bent or somewhat pressed, 20 – 30 cm in length, about 2 cm in width; the outer surface, dark brown, and the cut surface, white to grayish white in color; one side shows nearly round to blunt triangular scars of petiole about 1 cm in diameter, and the other side numerous scars of roots less than 0.3 cm in diameter; light, spongy in texture, and easily broken; fractured surface flat and powdery. Under a mag-nifying glass, a transverse section reveals a black outer por- ‌2078‌ Nutmeg / Crude Drugs and Related Drugs tion, and porous tissue with scattered vascular bundles in the inner portion. Odor, slight; taste, slightly bitter and unpleasant."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Nuphar Rhizome add 5 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography, de-velop the plate with a mixture of ethyl acetate, methanol and ammonia solution (28) (20:3:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying on the plate: a yellow-brown spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Nuphar Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Nuphar Rhizome according to Method 4, and perform the test (not more than 5 ppm). Petiole—When perform the test of foreign matter <5.01>, the amount of the petioles contained in Nuphar Rhi-zome does not exceed 3.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than petioles is not more than 1.0z. Loss on drying <5.01> Not more than 15.0z (6 hours). Total ash <5.01> Not more than 10.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

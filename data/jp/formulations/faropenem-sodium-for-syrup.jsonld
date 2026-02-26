@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/faropenem-sodium-for-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Faropenem Sodium for Syrup",
+    "ja": "シロップ用ファロペネムナトリウム"
+  },
+  "monographId": "JP18-faropenem-sodium-for-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Faropenem Sodium for Syrup is a preparation for syrup, which is dissolved before use. It contains not less than 93."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve an amount of powdered Faropenem Sodium for Syrup, equivalent to 25 mg (potency) of Faro-penem Sodium Hydrate, in water to make 50 mL. To 5 mL of this solution add water to make 50 mL, filter, if neces-sary, and determine the absorption spectrum of the solution so obtained as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 254 nm and 258 0 – 54 84 → 30 16 → 70 Flow rate: 1.5 mL per minute. Time span of measurement: 2.5 times as long as the reten-tion time of faropenem, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add water to make exactly 20 mL. Con-firm that the peak area of faropenem obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution obtained in the Assay under the above operating conditions, the internal standard and faro-penem are eluted in this order with the resolution between these peaks being not less than 11. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of faropenem is not more than 3.0z. Water <2.48> Not less than 1.5z and not more than 2.1z (80 mg, coulometric titration). ‌JP XVIII Official Monographs / Faropenem Sodium Tablets 995 Uniformity of dosage units <6.02> Faropenem Sodium for Syrup in single-dose packages meet the requirement of the Mass variation test."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder, if necessary, and weigh accurately an amount of Faropenem Sodium for Syrup, equivalent to lution. For the area of the peak, having the relative retention time of about 0.71 to faropenem, multiply its correction fac-tor 0.37. Operating conditions— Detector: An ultraviolet absorption photometer (wave- about 25 mg (potency) of faropenem (C 12H 15NO5S), add length: 240 nm). Column: A stainless steel column 4 mm in inside diameter exactly 10 mL of the internal standard solution and a suita-ble amount of water, shake well, and add water to make 50 mL. Filter, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 25 mg (potency) of Faropenem Sodium RS, add exactly 10 mL of the internal standard solution and water to make 50 mL, and use this solution as the standard solution. Preceed as directed in the Assay under Faropenem Sodium Hydrate. Amount [mg (potency)] of faropenem (C12H15NO5S) ＝ MS × QT/QS MS: Amount [mg (potency)] of Faropenem Sodium RS taken and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: Dissolve 6.12 g of potassium dihydrogen phosphate, 1.79 g of disodium hydrogen phosphate dodeca-hydrate and 1.61 g of tetra n-butylammonium bromide in water to make 1000 mL. Mobile phase B: A mixture of the mobile phase A and acetonitrile (1:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Internal standard solution—Dissolve 0.5 g of m-hydroxya-cetophenone in 20 mL of acetonitrile, and add water to make Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 200 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Syrup"
+}

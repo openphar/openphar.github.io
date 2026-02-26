@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aclarubicin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aclarubicin Hydrochloride",
+    "ja": "アクラルビシン塩酸塩"
+  },
+  "monographId": "JP18-aclarubicin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C42H53NO15.HCl",
+  "molecularWeight": 848.33,
+  "definition": {
+    "en": "Aclarubicin Hydrochloride is the hydrochloride of an anthracycline substance having antitumor activity produced by the growth of Streptomyces galilaeus. It contains not less than 920 mg (potency) and not more than 975 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Aclarubicin Hydrochloride occurs as a yellow to pale orange-yellow powder. It is very soluble in chloroform and in methanol, freely soluble in water, and slightly soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Aclarubicin Hydrochloride in diluted methanol (4 in 5) (3 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensi- ties of absorption at the same wavelengths. ‌Determine the infrared absorption spectrum of Aclarubicin Hydrochloride as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Aclarubicin Hydrochloride in methanol (1 in 200) responds to Qualitative Tests <1.09> (2) for chlo-ride. D Optical rotation <2.49> [a]20: －146 – －1629(50 mg calcu-lated on the anhydrous basis, water, 10 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.05 g of Aclarubicin Hydrochloride in 10 mL of water is between 5.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Aclarubicin Hydrochloride in 10 mL of water: the solu-tion is clear and yellow to pale orange-yellow. Heavy metals <1.07>—Proceed with 1.0 g of Aclaru- bicin Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related substances—Dissolve 10 mg of Aclarubicin Hydrochloride in 10 mL of the mobile phase, and use this solution as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine each peak area by the automatic integration method. Calculate the amount of the related substances by the area and allow to stand for 60 minutes. To 1.0 mL of this solu-tion add 1.0 mL of 0.2 mol/L sodium hydroxide TS, 1.0 mL of phosphate buffer solution (pH 8.0) and 1.0 mL of chlo-roform, shake vigorously, and take the chloroform layer. When the procedure is run with 20 mL of the chloroform under the above operating conditions, aclarubicin and 1-deoxypyrromycin are eluted in this order with the resolution between these peaks being not less than 3.0. System repeatability: When the test is repeated 5 times with 20 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of aclarubicin is not more than 2.0z. Water <2.48> Not more than 3.5z (0.1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Aclarubicin Hydro-chloride, equivalent to about 20 mg (potency), and dissolve in diluted methanol (4 in 5) to make exactly 100 mL. Pipet 15 mL of this solution, add diluted methanol (4 in 5) to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Aclarubicin RS, equivalent to about 20 mg (potency), add 0.6 mL of diluted hydrochloric acid (1 in 250) and diluted methanol (4 in 5) to make exactly 100 mL. Pipet 15 mL of this solution, add diluted methanol (4 in 5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and determine the absorbances, AT and AS, at 433 nm. percentage method: the amount of aklavinone having the relative retention time of about 0.6 to aclarubicin is not more than 0.2z, aclacinomycin L1 having the relative retention Amount [ mg (potency)] of aclarubicin (C ＝ MS × AT/AS × 1000 42H53NO15) time of about 0.75 is not more than 0.5z, 1-deoxypyrromy-cin having the relative retention time of about 1.7 is not more than 1.5z and aclacinomycin S1 having the relative retention time of about 2.3 is not more than 0.5z, and the total amount of the peaks other than aclarubicin and the peaks mentioned above is not more than 1.0z of the peak area of aclarubicin. Operating conditions— Detector: A visible absorption photometer (wavelength: 436 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of chloroform, methanol, acetic acid (100), water and triethylamine (6800:2000:1000:200:1). Flow rate: Adjust so that the retention time of aclarubicin is about 5 minutes. Time span of measurement: As long as about 4 times of the retention time of aclarubicin, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution, add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of aclarubicin obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution for system suitability test. System performance: Dissolve 5 mg of Aclarubicin Hy-drochloride in 10 mL of 0.1 mol/L hydrochloric acid TS, MS: Amount [mg (potency)] of Aclarubicin RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant and at 59C or below."
+  }
+}

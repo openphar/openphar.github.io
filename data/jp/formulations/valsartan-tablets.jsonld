@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/valsartan-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Valsartan Tablets",
+    "ja": "バルサルタン錠"
+  },
+  "monographId": "JP18-valsartan-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Valsartan Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of val-sartan (C24H29N5O3: 435.52). Method of preparation Prepare as directed under Tablets, with Valsartan. Identification Determine the absorption spectra of the sample solution and the standard solution in the range 220 to 350 nm, which are obtained in the Uniformity of dosage units, as directed under Ultraviolet-visible Spectrophotome-try <2.24>, and compare the spectrums with each other: both spectra exhibit similar intensities of absorption at the same wavelengths. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Valsartan Tablets add V/10 mL of water, and shake until the tablet is disintegrated. Add V/2 mL of methanol, shake thoroughly, add methanol to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectra of the sample solution and the standard solution in the range 220 to 350 nm, which are obtained in the Uniformity of dosage units, as directed under Ultraviolet-visible Spectrophotome-try <2.24>, and compare the spectrums with each other: both spectra exhibit similar intensities of absorption at the same wavelengths. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Valsartan Tablets add V/10 mL of water, and shake until the tablet is disintegrated. Add V/2 mL of methanol, shake thoroughly, add methanol to make exactly V mL so that each mL contains about 0.4 mg of valsartan (C24H29N5O3) for 20-mg tablet and 40-mg tablet, or contains about 0.8 mg of valsartan (C24H29N5O3) for 80-mg tablet and 160-mg tablet, and centrifuge. Pipet V? mL of the superna-tant liquid, equivalent to 0.8 mg of valsartan (C24H29N5O3), add methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 40 mg of Valsartan RS (separately determine the water <2.48> and the residual solvent in the same manner as Valsar- tan), dissolve in 10 mL of water, and add methanol to make exactly 100 mL. Pipet 2 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, at 250 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of valsartan (C24H29N5O3) ＝ MS × AT/AS × V/V? × 1/50 MS: Amount (mg) of Valsartan RS taken, calculated on the anhydrous and residual solvent-free basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate of a 20-mg tablet, 40-mg tablet and 80-mg tablet in 30 minutes are not less than 75z, 75z and 80z, respectively, and of a 160-mg tablet in 45 minutes is not less than 75z. Start the test with 1 tablet of Valsartan Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent fil-trate, add water to make exactly V? mL so that each mL con-tains about 22 mg of valsartan (C24H29N5O3), and use this so-lution as the sample solution. Separately, weigh accurately about 22 mg of Valsartan RS (separately determine the water <2.48> and the residual solvent in the same manners as Val- sartan), and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 250 nm of the sample solution and standard solution as directed under Ultraviolet- ‌visible Spectrophotometry <2.24>, using water as the control. Dissolution rate (z) with respect to the labeled amount of valsartan (C24H29N5O3) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of Valsartan RS taken, calculated on the anhydrous and residual solvent-free basis C: Labeled amount (mg) of valsartan (C24H29N5O3) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Val-sartan Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of valsartan (C24H29N5O3), add 60 mL of the mobile phase, shake thor-oughly, add the mobile phase to make exactly 100 mL, and centrifuge. Pipet 5 mL of the supernatant liquid, add exactly 3 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Valsartan RS (separately, determine the water <2.48> and the residual sol-vent in the same manner as Valsartan), and dissolve in the mobile phase to make exactly 100 mL. Pipet 5 mL of this so-lution, add exactly 3 mL of the internal standard solution, add the mobile phase to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of valsartan to that of the internal standard. Amount (mg) of valsartan (C24H29N5O3) ＝ MS × QT/QS MS: Amount (mg) of Valsartan RS taken, calculated on the anhydrous and residual solvent-free basis Internal standard solution—A solution of diclofenac sodium in the mobile phase (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 225 nm). Column: A stainless steel column 3 mm in inside diameter and 12.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, acetonitrile, and acetic acid (100) (500:500:1). Flow rate: Adjust so that the retention time of valsartan is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, valsartan and the internal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of valsartan to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

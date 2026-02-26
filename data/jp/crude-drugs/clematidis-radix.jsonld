@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/clematidis-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Clematidis Radix",
+    "ja": "イレイセン"
+  },
+  "monographId": "JP18-clematidis-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Clematis Root consists of short rhizome and numerous slender roots. The root, 10 – 20 cm in length, 1 – 2 mm in diameter, externally brown to blackish brown, with fine longitudinal wrinkles, brittle. The cortex easily separa-ble from central cylinder; root, grayish white to light yellow-brown in the transverse section, light grayish yellow to yel-low in the central cylinder; under a magnifying glass, central cylinder almost round, slight 2 – 4 sinuses on xylem. The rhizome, 2 – 4 cm in length, 5 – 20 mm in diameter, exter-nally light grayish brown to grayish brown; cortex peeled off and fibrous, often with rising node; apex having the residue of lignified stem. Odor, slight; practically tasteless. Under a microscope, <5.01> transverse section of root reveals an epidermis in the outermost layer; with exodermis lying just inside of the epidermis; cortex and stele divided by endodermis; cortex composed of parenchymatous tissue; xylem with 2 – 4 small concavities where phloem is present; parenchymatous cells contain both simple and 2- to 8-com-pound starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of pulverized Clematis Root add 10 mL of water, and boil for 2 to 3 minutes. After cool-ing, shake vigorously: lasting fine foams appear. (2) To 0.5 g of pulverized Clematis Root add 3 mL of acetic anhydride, warm on a water bath for 2 minutes, and filter. To the filtrate add 1 mL of sulfuric acid gently: a brown color appears at the zone of contact."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Clematis Root according to Method 3, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Clematis Root according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 13.0z (6 hours). ‌1984‌‌ Clove / Crude Drugs and Related Drugs Total ash <5.01> Not more than 8.5z. Acid-insoluble ash <5.01> Not more than 3.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

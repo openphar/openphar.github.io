@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/opium-alkaloids-hydrochlorides",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Opium Alkaloids Hydrochlorides",
+    "ja": "アヘンアルカロイド塩酸塩"
+  },
+  "monographId": "JP18-opium-alkaloids-hydrochlorides",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Opium Alkaloids Hydrochlorides consist of the hy-drochlorides of some of the main alkaloids obtained from opium. It contains not less than 47."
+  },
+  "appearance": {
+    "en": "Opium Alkaloids Hydrochlorides occur as a white to light brown powder. It is soluble in water, and slightly soluble in ethanol (99.5). It is colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Opium Alkaloids Hy-drochlorides in 10 mL of diluted ethanol (1 in 2), and use this solution as the sample solution. Separately, dissolve 60 mg of Morphine Hydrochloride Hydrate, 40 mg of Nosca-pine Hydrochloride Hydrate, 10 mg of Codein Phosphate Hydrate and 10 mg of Papaverine Hydrochloride in 10 mL each of diluted ethanol (1 in 2), and use these solutions as the standard solutions (1), (2), (3) and (4), respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solu-tion and standard solutions on a plate of silica gel with fluo-rescent indicator for thin-layer chromatography. Develop the plate with a mixture of acetone, toluene, ethanol (99.5) and ammonia solution (28) (20:20:3:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): each spot obtained from the sample solution is the same in color tone and Rf value with the corresponding spot from the standard solutions (1), (2), (3) and (4) (morphine, noscapine, codeine and papaverine). (2) A solution of Opium Alkaloids Hydrochlorides (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> Dissolve 1.0 g of Opium Alkaloids Hydrochlo-rides in 50 mL of water: the pH of the solution is between ‌3.0 and 4.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Opium Alkaloids Hydrochlorides in 10 mL of water: the solution is clear, and its absorbance <2.24> at 420 nm is not more than 0.20. (2) Meconic acid—Dissolve 0.1 g of Opium Alkaloids Hydrochlorides in 2 mL of water, and pour into a polyethy-lene column 1 cm in inside diameter, packed with about 0.36 g of aminopropylsilanized silica gel for pretreatment (55 – 105 mm in particle diameter) and previously washed through with 5 mL of water. Then, wash the column with 5 mL of water, 5 mL of methanol and 10 mL of 0.1 mol/L hy-drochloric acid in this order, then elute with 2 mL of 1 mol/L hydrochloric acid, and use the eluate as the test solu-tion. To the test solution add 2 mL of dilute sodium hydrox-ide TS and 1 drop of iron (III) chloride TS: no red color de-velops. Loss on drying <2.41> Not more than 6.0z (0.5 g, 1209C, 8 hours). Residue on ignition <2.44> Not more than 0.5z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Opium Alkaloids Hydrochlorides, and dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 60 mg of morphine hydrochloride hydrate for assay, dissolve in water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and Flow rate: Adjust so that the retention time of morphine is about 10 minutes. System suitability— System performance: Dissolve 60 mg of Morphine Hydro-chloride Hydrate, 10 mg of Codeine Phosphate Hydrate, 10 mg of Papaverine Hydrochloride and 40 mg of Noscapine Hydrochloride Hydrate in water to make 50 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, morphine, codeine, papaverine and noscapine are eluted in this order with the complete separa-tion between these peaks and with the resolution between the peaks of morphine and codeine being not less than 1.5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of morphine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-clavulanate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Clavulanate",
+    "ja": "クラブラン酸カリウム"
+  },
+  "monographId": "JP18-potassium-clavulanate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Clavulanate is the potassium salt of a substance having b-lactamase inhibiting activity pro-duced by the growth of Streptomyces clavuligerus. It contains not less than 810 mg (potency) and not more than 860 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Potassium Clavulanate occurs as a white to light yellow-white, crystalline powder. It is very soluble in water, soluble in methanol, and slightly soluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Potassium Clavulanate (1 in 50,000) add 5 mL of imidazole TS, and warm in a water bath at 309C for 12 minutes. After cooling, determine the absorption spectrum of this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Po-tassium Clavulanate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Potassium Clavulanate responds to Qualitative Tests <1.09> (1) for potassium salt. D Optical rotation <2.49> [a]20: ＋53 – ＋639(0.5 g calculated on the anhydrous basis, water, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Potassium Clavulanate according to Method 2, and perform the test. Prepare the control solution with 4.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Potassium Clavulanate according to Method 3, and per-form the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Potassium Clavulanate in 10 mL of the mobile phase A, and use this so-lution as the sample solution. Pipet 1 mL of the sample solu-tion, add the mobile phase A to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> acid and amoxycillin are eluted in this order with the resolu-tion between these peaks being not less than 8 and the num-ber of theoretical plates of the peak of clavulanic acid is not less than 2500. System repeatability: When the test is repeated 3 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clavulanic acid is not more than 2.0z. Water <2.48> Not more than 1.5z (5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Potassium Clavu-lanate and Lithium Clavulanate RS, equivalent to about 12.5 mg (potency), dissolve each in 30 mL of water, add exactly 5 mL of the internal standard solution and water to make 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of clavularic acid to that of the internal stand-ard. Amount [ mg (potency)] of clavularic acid (C H NO ) according to the following conditions, and determine each peak area by the automatic integration method: the area of ＝ MS × QT/QS × 1000 8 9 5 each peak other than clavulanic acid obtained from the sam-ple solution is not larger than the peak area of clavulanic acid from the standard solution, and the total area of the peaks other than clavulanic acid from the sample solution is not larger than 2 times of the peak area of clavulanic acid from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: Adjust the pH of 0.05 mol/L sodium dihydrogen phosphate TS to 4.0 with phosphoric acid. Mobile phase B: A mixture of the mobile phase A and methanol (1:1). Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 4 4 – 15 100 → 0 0 → 100 15 – 25 Flow rate: 1.0 mL per minute. Time span of measurement: About 6 times as long as the retention time of clavulanic acid. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase A to make exactly 10 mL. Confirm that the peak area of clavulanic acid obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: Dissolve 10 mg each of Potassium Clavulanate and amoxycillin hydrate in 100 mL of the mo-bile phase A. When the procedure is run with 20 mL of this solution under the above operating conditions, clavulanic MS: Amount [mg (potency)] of Lithium Clavulanate RS taken Internal standard solution—Dissolve 0.3 g of sulfanilamide in 30 mL of methanol, and add water to make 100 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.36 g of sodium acetate trihydrate in 900 mL of water, adjust to pH 4.5 with diluted acetic acid (31) (2 in 5), and add 30 mL of methanol and water to make 1000 mL. Flow rate: Adjust so that the retention time of clavularic acid is about 6 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, clavularic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of clavularic acid to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

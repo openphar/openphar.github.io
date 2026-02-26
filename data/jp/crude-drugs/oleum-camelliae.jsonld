@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-camelliae",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Camelliae",
+    "ja": "ツバキ油"
+  },
+  "monographId": "JP18-oleum-camelliae",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Camellia Oil is a colorless or pale yellow, clear oil. It is nearly odorless and tasteless. It is miscible with diethyl ether and with petroleum ether. It is slightly soluble in ethanol (95). It congeals partly at －109C, and completely at －159C. Specific gravity d 25: 0.910 – 0.914"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 mL of Camellia Oil add dropwise 10 mL of a mixture of fuming nitric acid, sulfuric acid, and water (1:1:1), previously cooled to room temperature: a bluish green color develops at the zone of contact. Acid value <1.13> Not more than 2.8. Saponification value <1.13> 188 – 194 ‌JP XVIII Crude Drugs and Related Drugs / Powdered Capsicum 1973‌ Unsaponifiable matters <1.13> Not more than 1.0z. Iodine value <1.13> 78 – 83 capsaicin and dihydrocapsaicin (the relative retention time to (E)-capsaicin is about 1.3) obtained with the sample solu-tion, and the peak area, AS, of (E)-capsaicin obtained with"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

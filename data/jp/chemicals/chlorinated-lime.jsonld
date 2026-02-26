@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorinated-lime",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorinated Lime",
+    "ja": "サラシ粉"
+  },
+  "monographId": "JP18-chlorinated-lime",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Chlorinated Lime contains not less than 30."
+  },
+  "appearance": {
+    "en": "Chlorinated Lime occurs as a white powder. It has a chlorine-like odor. It dissolves partially in water. The solution changes red litmus paper to blue, then gradually decolorizes."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To Chlorinated Lime add dilute hydro-chloric acid: a gas, which has the odor of chlorine, evolves, and the gas changes moistened starch-potassium iodide paper to blue. (2) Shake 1 g of Chlorinated Lime with 10 mL of water, and filter: the filtrate responds to Qualitative Tests <1.09> (2) and (3) for calcium salt."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 5 g of Chlorinated Lime, transfer to a mortar, and triturate thoroughly with 50 mL of water. Transfer to a 500-mL volumetric flask with the aid of water, and add water to make 500 mL. Mix well, imme-diately take exactly 50 mL of the mixture in an iodine flask, add 10 mL of potassium iodide TS and 10 mL of dilute hy-drochloric acid, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 3 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 3.545 mg of Cl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and in a cold place."
+  }
+}

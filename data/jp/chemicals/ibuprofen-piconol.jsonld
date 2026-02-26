@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ibuprofen-piconol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ibuprofen Piconol",
+    "ja": "イブプロフェンピコノール"
+  },
+  "monographId": "JP18-ibuprofen-piconol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H23NO2",
+  "molecularWeight": 297.39,
+  "casNumber": "64622-45-3",
+  "definition": {
+    "en": "Ibuprofen Piconol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ibuprofen Piconol occurs as a clear, colorless to pale yellow liquid. It is odorless or has a slight characteris-tic odor. It is miscible with methanol, with ethanol (95), with ace-tone and with acetic acid (100). It is practically insoluble in water. It decomposes on exposure to light. It shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Ibuprofen Piconol in 250 mL of ethanol (95). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ibuprofen Piconol as directed in the liquid film method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.529 – 1.532 Specific gravity <2.56> d 20: 1.046 – 1.050"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Ibuprofen Piconol in 20 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution as follows: to 0.30 mL of 0.01 mol/L hydrochloric acid VS add 20 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.021z). Sulfate <1.14>—Dissolve 0.5 g of Ibuprofen Piconol in 20 mL of acetone, add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution as follows: to 0.40 mL of 0.005 mol/L sulfuric acid VS add 20 mL of acetone, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.038z). Heavy metals <1.07>—Proceed with 4.0 g of Ibuprofen Piconol according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 5 ppm). Related substances—Dissolve 0.10 g of Ibuprofen Piconol in 5 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, ethyl acetate, acetic acid (100) and methanol (30:10:2:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of phos-phomolybdic acid n-hydrate in ethanol (95) (1 in 10) on the plate, and heat the plate at 1709C for 10 minutes: the num-ber of spots other than the dark brown principal spot ob-tained from the sample solution is two or less, and they are not more intense than the dark brown spot from the stand-ard solution. Water <2.48> Not more than 0.1z (5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Ibuprofen Piconol, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.74 mg of C19H23NO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

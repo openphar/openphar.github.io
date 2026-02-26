@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pazufloxacin-mesilate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Pazufloxacin Mesilate",
+    "ja": "パズフロキサシンメシル酸塩"
+  },
+  "monographId": "JP18-pazufloxacin-mesilate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H15FN2O4.CH4O3S",
+  "molecularWeight": 414.41,
+  "casNumber": "163680-77-1",
+  "appearance": {
+    "en": "Pazufloxacin Mesilate occurs as a white to light yellow crystalline powder. It is freely soluble in water, and slightly soluble in ethanol (99.5). It dissolves in sodium hydroxide TS. The pH of a solution prepared by dissolving 0.4 g of Pazufloxacin Mesilate in 10 mL of water is between 3.0 and 4.0. Melting point: about 2589C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Pazufloxacin Mesilate in a mixture of methanol and 1 mol/L hydrochloric acid TS (49:1) (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Pazufloxacin Mesilate RS pre-pared in the same manner as the sample solution: both spec-tra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Pazufloxacin Mesilate, previously dried, as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of dried Pazufloxacin Mesilate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Pazufloxacin Mesilate responds to Qualitative Tests <1.09> for mesilate. D Optical rotation <2.49> [a]20: －61 – －659(after drying, 0.2 g, sodium hydroxide TS, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Pazufloxacin Mesilate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 26 mg of Pazufloxacin Mesilate in 100 mL of the mobile phase, and use this solu-tion as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatogra-phy <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calculate the amounts of them by the area percentage method: the amount of the peak other than pazufloxacin is not more than 0.10z. For the area of the peak, having the relative retention time of about 2.7 to pazufloxacin, multiply the correction factor, 1.6. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.08 g of sodium 1-octanesul-fonate in 1000 mL of a mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (39:11). Flow rate: Adjust so that the retention time of pazufloxa-cin is about 8 minutes. Time span of measurement: About 6 times as long as the retention time of pazufloxacin, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of pazufloxacin obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of pazufloxacin are not less than 2500 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of pazufloxacin is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.2 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 26 mg each of Pazufloxacin Mesilate and Pazufloxacin Mesilate RS, both previously dried, dissolve each in water to make exactly 100 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of the internal standard solution, and use these solutions as the sample so-lution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of pazufloxacin to that of the internal standard. Amount (mg) of pazufloxacin mesilate (C16H15FN2O4.CH4O3S) ＝ MS × QT/QS MS: Amount (mg) of Pazufloxacin Mesilate RS taken Internal standard solution—A solution of acetanilide in the mobile phase (3 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 200 mL of water add gradually 30 mL ‌of methanesulfonic acid while ice-cooling, then add 30 mL of triethylamine in the same manner, and add water to make 300 mL. To 50 mL of this solution add 150 mL of aceto-nitrile, 35 mL of 1 mol/L dipotassium hydrogen phosphate TS for buffer solution and water to make 1000 mL.‌ Flow rate: Adjust so that the retention time of pazufloxa-cin is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, pazufloxacin and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of pazufloxacin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

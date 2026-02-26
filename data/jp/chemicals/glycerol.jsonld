@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glycerol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glycerol",
+    "ja": "グリセリン"
+  },
+  "monographId": "JP18-glycerol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H8O3",
+  "molecularWeight": 92.09,
+  "appearance": {
+    "en": "Glycerin is a clear, colorless, viscous liquid. It has a sweet taste. It is miscible with water and with ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Glycerin as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.449 – 1.454 Fatty acids and esters—Mix 50 g of Glycerin with 50 mL of freshly boiled and cooled water, add exactly 10 mL of 0.1 mol/L sodium hydroxide VS, boil the mixture for 15 minutes, cool, and titrate <2.50> the excess sodium hydroxide with 0.1 mol/L hydrochloric acid VS: 0.1 mol/L sodium hydroxide VS consumed is not more than 3.0 mL (indicator: 3 drops of phenolphthalein TS). Perform a blank determina-tion in the same manner. Ethylene glycol, diethylene glycol and related sub-stances—Weigh accurately about 5.88 g of Glycerin, mix with methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g each of ethylene glycol and diethylene glycol, mix with methanol to make exactly 100 mL. Pipet 5 mL of this solu-tion and transfer into a 100-mL volumetric flask. Separately, weigh 5.0 g of glycerin for gas chromatography, mix with a suitable amount of methanol and put in the volumetric flask, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 1 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the follow-ing conditions, and determine the peak areas, AT1 and AS1, of ethylene glycol and, AT2 and AS2, of diethylene glycol by the automatic integration method. The amounts of ethylene glycol and diethylene glycol, calculated by the following equations, are not more than 0.1z, respectively. The amount of the peak other than glycerin, ethylene glycol and diethylene glycol obtained from the sample solution, calcu-lated by the area percentage method, is not more than 0.1z, and the total amount of the peaks other than glycerin is not more than 1.0z. Amount (z) of ethylene glycol Specific gravity <2.56> d 20: 1.221 – 1.230 ＝ MS1/MT × AT1/AS1 × 5"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Color—Place 50 mL of Glycerin in a Nessler tube, and observe downward: the solution has no more color than the following control solution. Control solution: Place 0.40 mL of Iron (III) Chloride CS in a Nessler tube, and add water to make 50 mL. Acidity or alkalinity—To 2 mL of Glycerin add 8 mL of water and mix: the solution is neutral. Chloride <1.03>—Take 10.0 g of Glycerin, and per- form the test: Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.001z). Sulfate <1.14>—Take 10.0 g of Glycerin, and perform the test. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.002z). Ammonium—To 5 mL of Glycerin add 5 mL of a so-lution of sodium hydroxide (1 in 10), and boil: the gas evolved does not change moistened red litmus paper to blue. Heavy metals <1.07>—Proceed with 5.0 g of Glycerin according to Method 1, and perform the test: Prepare the control solution with 2.5 mL of Standard Lead Solution (not more than 5 ppm). Calcium—To 5 mL of the solution obtained in (2) add 3 drops of ammonium oxalate TS: the solution remains unchanged. Arsenic <1.11>—Prepare the test solution with 1.0 g of Glycerin according to Method 1, and perform the test (not more than 2 ppm). Acrolein, glucose, and other reducing sub-stances—To 1.0 g of Glycerin add 1 mL of ammonia TS, mix, and warm in a water bath at 609C for 5 minutes: no yel-low color is produced. Take the solution out of the water bath, add 3 drops of silver nitrate TS immediately, and allow to stand in a dark place for 5 minutes: the color of the solu-tion does not change, and no turbidity is produced. Amount (z) of diethylene glycol ＝ MS2/MT × AT2/AS2 × 5 MS1: Amount (g) of ethylene glycol taken MS2: Amount (g) of diethylene glycol taken MT: Amount (g) of Glycerin taken Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A fused-silica column 0.32 mm in inside diame- ter and 30 m in length, coated the inner surface with 14z cyanopropylphenyl-86z dimethyl silicone polymer for gas chromatography 1 mm in thickness. Column temperature: Inject at a constant temperature of about 1009C, raise the temperature at the rate of 7.59C per minute to 2209C, and maintain at a constant temperature of about 2209C. Injection port temperature: A constant temperature of about 2209C. Detector temperature: A constant temperature of about 2509C. Carrier gas: Helium. Flow rate: about 38 cm per second. Split ratio: 1:20. Time span of measurement: About 3 times as long as the retention time of glycerin, beginning after the solvent peak. System suitability— System performance: Mix 50 mg each of ethylene glycol, diethylene glycol and glycerin for gas chromatography with 100 mL of methanol. When the procedure is run with 1 mL of this solution under the above operating conditions, ethyl-ene glycol, diethylene glycol and glycerin are eluted in this order, and the resolution between the peaks of ethylene glycol and diethylene glycol is not less than 40, and between ‌JP XVIII Official Monographs / Concentrated Glycerin 1081 the peaks of diethylene glycol and glycerin is not less than 10. System repeatability: When the test is repeated 6 times with 1 mL of the standard solution under the above operating conditions, the relative standard deviations of the peak area of ethylene glycol and diethylene glycol are not more than 10z, respectively. Readily carbonizable substances—To 5 mL of Glycerin add carefully 5 mL of sulfuric acid for readily car-bonizable substances, mix gently at a temperature between 189C and 209C, and allow to stand for 1 hour between 159C and 259C: the solution has not more color than Matching Fluid H. Water <2.48> 13 – 17z (0.1 g, volumetric titration, direct titration). Residue on ignition <2.44> Weigh accurately about 10 g of Glycerin in a tared crucible, heat to boiling, and fire to burn immediately. After cooling, moisten the residue with 1 to 2 drops of sulfuric acid, and ignite cautiously to constant mass: the mass of the residue is not more than 0.01z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Glycerin, transfer into a glass-stoppered flask, add 50 mL of water, mix, add exactly 50 mL of sodium periodate TS, shake, and allow to stand in a dark place at a room temperature for about 30 minutes. Add 10 mL of a mixture of water and ethylene glycol (1:1), allow to stand for about 20 minutes, add 100 mL of water, and titrate <2.50> with 0.1 mol/L sodium hy-droxide VS (indicator: 2 drops of phenolphthalein TS). Per-form a blank determination in the same manner, and make the necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 9.209 mg of C3H8O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

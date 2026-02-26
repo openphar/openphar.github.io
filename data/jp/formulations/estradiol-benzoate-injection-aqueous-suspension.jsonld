@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/estradiol-benzoate-injection-aqueous-suspension",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Estradiol Benzoate Injection (Aqueous Suspension)",
+    "ja": "エストラジオール安息香酸エステル水性懸濁注射液"
+  },
+  "monographId": "JP18-estradiol-benzoate-injection-aqueous-suspension",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Estradiol Benzoate Injection (Aqueous Suspension) is an aqueous suspension for injection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Estradiol Benzoate Injection (Aqueous Sus-pension) produces a white turbidity on shaking."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Extract a volume of Estradiol Benzoate In-jection (Aqueous Suspension), equivalent to 1 mg of Estra-diol Benzoate, with 5 mL of chloroform, and use this extract as the sample solution. Separately, dissolve 1 mg of Es-tradiol Benzoate RS in 5 mL of chloroform, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 50 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform and methanol (99:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Sterility <4.06> Perform the test according to the Direct in-oculation method: it meets the requirement. MS: Amount (mg) of Estradiol Benzoate RS taken Internal standard solution—A solution of progesterone in methanol (13 in 100,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

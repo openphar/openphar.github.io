@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/diclofenac-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Diclofenac Sodium",
+    "ja": "ジクロフェナクナトリウム"
+  },
+  "monographId": "JP18-diclofenac-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Diclofenac Sodium, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Diclofenac Sodium occurs as white to pale yel- ‌JP XVIII Official Monographs / Diclofenac Sodium Suppositories 847 low-white, crystals or crystalline powder. It is freely soluble in methanol and in ethanol (95), spar-ingly soluble in water and in acetic acid (100), and practically insoluble in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Diclofenac Sodium in methanol (1 in 250) add 1 mL of nitric acid: a dark red color develops. Perform the test with 5 mg of Diclofenac Sodium as directed under Flame Coloration Test <1.04> (2): a light green color appears. Determine the infrared absorption spectrum of Diclofenac Sodium, previously dried, as directed in the po-tassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Diclofenac Sodium (1 in 100) responds to Qualitative Tests <1.09> for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Diclofenac Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Diclofenac Sodium according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.05 g of Diclofenac Sodium in 50 mL of the mobile phase, and use this solution areas of diclofenac is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Diclofenac Sodium, previously dried, dissolve in 40 mL of water in a separator, add 2 mL of dilute hydrochloric acid, and extract the pre-cipitate formed with 50 mL of chloroform. Extract again with two 20-mL portions of chloroform, and filter the ex-tract each time through a pledget of absorbent cotton moistened with chloroform. Wash the tip of the separator and the absorbent cotton with 15 mL of chloroform, com-bine the washing with the extracts, add 10 mL of a solution of 1 mol/L hydrochloric acid TS in ethanol (99.5) (1 in 100), and titrate <2.50> with 0.1 mol/L potassium hydroxide-ethanol VS from the first equivalent point to the second equivalent point (potentiometric titration). Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 31.81 mg of C14H10Cl2NNaO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

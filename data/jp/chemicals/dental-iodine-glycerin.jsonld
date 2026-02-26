@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dental-iodine-glycerin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dental Iodine Glycerin",
+    "ja": "歯科用ヨード・グリセリン"
+  },
+  "monographId": "JP18-dental-iodine-glycerin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dental Iodine Glycerin contains not less than 9."
+  },
+  "appearance": {
+    "en": "Dental Iodine Glycerin is a dark red-brown liq-uid, having the odor of iodine."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) The colored solution obtained in the Assay (1) acquires a red color. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 510 nm and 514 nm (iodine). The colored solution obtained in the Assay (2) acquires a red color. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum between 510 nm and 514 nm (potassium iodide). Put 1 mL of Dental Iodine Glycerin in a glass-stoppered, test tube, add 10 mL of ethanol (95), and mix. Then add 2 mL of sodium hydroxide TS, add 1 mL of a so-lution of copper (II) chloride dihydrate in ethanol (95) (1 in 10), and shake: a blue color develops (glycerin). The colored solution obtained in the Assay (3) acquires a red-purple to purple color. Determine the absorp-tion spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 618 nm and 622 nm (zinc sulfate hydrate)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Iodine—Pipet 5 mL of Dental Iodine Glycerin, ‌JP XVIII Official Monographs / Iodine, Salicylic Acid and Phenol Spirit 1173 and add diluted ethanol (3 in 10) to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 200 mL, and use this solution as the sample solution. On the other hand, weigh accurately about 0.5 g of iodine for assay and about 0.4 g of potassium iodide for assay, previously dried at 1059C for 4 hours, and dissolve in diluted ethanol (3 in 10) to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 200 mL, and use this solution as the standard solution. Pipet 10 mL each of the sample solu-tion and standard solution, to each add exactly 20 mL of a mixture of chloroform and hexane (2:1), shake immediately, and separate the chloroform-hexane layer [use the water layer in (2)]. Filter through a pledget of cotton. Determine the absorbances, AT and AS, of the filtrates obtained from the sample solution and standard solution, respectively, at 512 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using a mixture of chloroform and hexane (2:1) as the blank. Amount (mg) of iodine (I) ＝ MS × AT/AS MS: Amount (mg) of iodine for assay taken Potassium iodide—Separate the water layers of the sample solution and standard solution obtained in (1), pipet 7 mL each of the water layers, and to each add exactly 1 mL of diluted hydrochloric acid (1 in 2), 1 mL of sodium nitrite TS and 10 mL of a mixture of chloroform and hexane (2:1), and shake immediately. Separate the chloroform-hexane layer, and filter through a pledget of cotton. Determine the absorbances, AT and AS, of the filtrates obtained from the sample solution and standard solution, respectively, at 512 nm as directed under Ultraviolet-visible Spectrophotometry, using a mixture of chloroform and hexane (2:1) as the blank. Amount (mg) of potassium iodide (KI) ＝ MS × AT/AS MS: Amount (mg) of potassium iodide for assay taken Zinc sulfate hydrate—Pipet 5 mL of Dental Iodine Glycerin, and add diluted ethanol (3 in 10) to make exactly 50 mL. Pipet 5 mL of this solution, add water to make ex-actly 100 mL, and use this solution as the sample solution. On the other hand, pipet 10 mL of Standard Zinc Stock So-lution, add diluted ethanol (3 in 200) to make exactly 1000 mL, and use this solution as the standard solution. Pipet 10 mL each of the sample solution and standard solution, to each add 10 mL of a mixture of chloroform and hexane (2:1), shake, and allow to stand. Pipet 3 mL each of the water layers, and to each add 2 mL of boric acid-potassium chloride-sodium hydroxide buffer solution (pH 10.0), 2 mL of zincon TS and water to make exactly 25 mL. Determine the absorbances, AT and AS, obtained from the sample solu-tion and standard solution, respectively, at 620 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using the solution prepared in the same manner with 3 mL of water as the blank. Amount (mg) of zinc sulfate hydrate (ZnSO4.7H2O) ＝ MS × AT/AS × 4.398 MS: Amount (mg) of zinc in 10 mL of Standard Zinc Stock Solution"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

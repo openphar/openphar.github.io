@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/saposhnikoviae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Saposhnikoviae Radix",
+    "ja": "ボウフウ"
+  },
+  "monographId": "JP18-saposhnikoviae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Long and narrow, conical rhizome and root, 15 – 20 cm in length, 0.7 – 1.5 cm in diameter; externally light brown; rhizome reveals dense crosswise wrinkles like ring nodes, and sometimes reveals brown and hair-like remains of leaf sheath; the root reveals many longitudinal wrinkles and scars of rootlets; in a transverse section, cortex is grayish brown in color and reveals many lacunae, and xylem is yellow in color. Odor, slight; taste, slightly sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Saposhnikovia Root and Rhizome, add 5 mL of methanol, shake for 10 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of 4?-O-glucosyl-5-O-methylvisamminol for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 4 mL of the sample solution and 1 mL of the standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of ethyl formate, formic acid, 2-butanone, and water (20:5:5:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of pulverized Saposhnikovia Root and Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 15 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Saposhnikovia Root and Rhizome according to Method 4, and perform the test (not more than 5 ppm). Foreign matter <5.01>—The amount of stems and other foreign matter is not more than 2.0z. Peucedanum ledebourielloides—Place 1.0 g of pul-verized Saposhnikovia Root and Rhizome in a glass-stop-pered centrifuge tube, add 5 mL of hexane, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, place 1.0 g of peucedanum・ ledebourielloides for purity in a glass-stoppered centrifuge tube, add 5 mL of hexane, shake for 10 minutes, centrifuge, and use the supernatant liquid as the standard solution. Per-form the test with these solutions as directed under Thin-lay-er Chromatography <2.03>. Spot 5 mL each of the sample so-lution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, ethyl acetate and acetic acid (100) (20:10:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): the sample solu-tion shows no spot corresponding to the blue ‰uorescent spot at an Rf value of about 0.4 obtained from the standard solution. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 20.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

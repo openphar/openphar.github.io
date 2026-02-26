@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/adeps-lanae-purificatus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Adeps Lanae Purificatus",
+    "ja": "精製ラノリン"
+  },
+  "monographId": "JP18-adeps-lanae-purificatus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Purified Lanolin is a light yellow to yellowish brown, viscous, ointment-like substance, and has a faint, ‌2062 Lard / Crude Drugs and Related Drugs characteristic but not rancid odor. It is very soluble in diethyl ether and in cyclohexane, freely soluble in tetrahydrofuran and in toluene, and very slightly soluble in ethanol (95). It is practically insoluble in water, but miscible without separation with about twice its mass of water, retaining ointment-like viscosity. Melting point: 37 – 439C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Superimpose carefully 1 mL of a solution of Purified Lanolin in cyclohexane (1 in 50) on 2 mL of sulfuric acid: a red-brown color develops at the zone of contact, and the sulfuric acid layer shows a green fluorescence. Acid value <1.13> Not more than 1.0. Iodine value 18 – 36 Weigh accurately about 0.8 g of Purified Lanolin in a glass-stoppered 500-mL flask, add 20 mL of cyclohexane to dissolve, and add exactly 25 mL of Hanus' TS, and mix well. If a clear solution is not obtained, add more cyclohexane to make clear, and allow the mixture to stand for 1 hour between 209C and 309C in light-resistant, well-closed containers, with occasional shaking. Add 20 mL of a solution of potassium iodide (1 in 10) and 100 mL of water, shake, and titrate the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Per-form a blank determination in the same manner. Iodine value ＝ (a － b) × 1.269/M M: amount (g) of Purified Lanolin taken a: Volume (mL) of 0.1 mol/L sodium thiosulfate VS used in the blank determination b: Volume (mL) of 0.1 mol/L sodium thiosulfate VS used in the titration of the sample"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid or alkali—To 5 g of Purified Lanolin add 25 mL of water, boil for 10 minutes, and cool. Add water to restore the previous mass, and separate the aqueous layer: the aqueous layer is neutral. Chloride <1.03>—To 2.0 g of Purified Lanolin add 40 mL of water, boil for 10 minutes, and cool. Add water to re-store the previous mass, and filter. To 20 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL. Use this solution as the test solution, and perform the test. Pre-pare the control solution with 1.0 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.036z). Ammonia—To 10 mL of the aqueous layer obtained in (1) add 1 mL of sodium hydroxide TS, and boil: the gas evolved does not turn moistened red litmus paper to blue. Water-soluble organic substances—To 5 mL of the aqueous layer obtained in (1) add 0.25 mL of 0.002 mol/L potassium permanganate VS, and allow to stand for 5 minutes: the red color of the solution does not disappear. Petrolatum—Dissolve 1.0 g of Purified Lanolin in 10 mL of a mixture of tetrahydrofuran and isooctane (1:1), and use this solution as the sample solution. And dissolve 20 mg of vaseline in 10 mL of a mixture of tetrahydrofuran and isooctane (1:1), and use this solution as the standard solu-tion. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 25 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with isooctane to a distance of about 10 cm, and air-dry the plate. Spray evenly diluted sulfuric acid (1 in 2) on the plate, heat the plate at 809C for 5 minutes, cool, and examine under ultraviolet light (main wavelength: 365 nm): no fluo-rescent spot is observable same level of the spot of standard solution. Use a thin-layer plate previously developed with isooctane to the upper end, dried in air, and heated at 1109C for 60 minutes. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Total ash <5.01> Not more than 0.1z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/diagnostic-sodium-citrate-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Diagnostic Sodium Citrate Solution",
+    "ja": "診断用クエン酸ナトリウム液"
+  },
+  "monographId": "JP18-diagnostic-sodium-citrate-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Diagnostic Sodium Citrate Solution contains not less than 3."
+  },
+  "appearance": {
+    "en": "Diagnostic Sodium Citrate Solution is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Diagnostic Sodium Citrate Solution re-sponds to Qualitative Tests <1.09> for sodium salt and for citrate. pH <2.54> 7.0 – 8.5"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 5 mL of Diagnostic Sodium Citrate Solution, evaporate on a water bath to dryness, dry the residue at 1809C for 2 hours, and dissolve in 30 mL of acetic acid (100) by warming. Cool, and titrate <2.50> with 0.1 mol/L per-chloric acid VS (indicator: 3 drops of crystal violet TS). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 9.803 mg of C6H5Na3O7.2H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Solution"
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glacial-acetic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glacial Acetic Acid",
+    "ja": "氷酢酸"
+  },
+  "monographId": "JP18-glacial-acetic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C2H4O2",
+  "molecularWeight": 60.05,
+  "definition": {
+    "en": "Glacial Acetic Acid contains not less than 99."
+  },
+  "appearance": {
+    "en": "Glacial Acetic Acid is a clear, colorless, vola-tile liquid, or colorless or white, crystalline masses. It has a pungent, characteristic odor. It is miscible with water, with ethanol (95) and with diethyl ether. Boiling point: about 1189C Specific gravity d 20: about 1.049"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Glacial Acetic Acid (1 in 3) changes blue litmus paper to red, and responds to Qualitative Tests <1.09> for acetate. Congealing point <2.42> Not less than 14.59C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride—To 10 mL of Glacial Acetic Acid add water to make 100 mL, and use this solution as the sam-ple solution. To 10 mL of the sample solution add 5 drops of silver nitrate TS: no opalescence is produced. Sulfate—To 10 mL of the sample solution obtained in (1) add 1 mL of barium chloride TS: no turbidity is pro-duced. Heavy metals <1.07>—Evaporate 2.0 mL of Glacial Acetic Acid on a water bath to dryness. Dissolve the residue in 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution by adding 2.0 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Potassium permanganate-reducing substances—To 20 mL of the sample solution obtained in (1) add 0.10 mL of 0.02 mol/L potassium permanganate VS: the red color does not disappear within 30 minutes. Non-volatile residue—Evaporate 10 mL of Glacial Acetic Acid on a water bath to dryness, and dry at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Place 10 mL of water in a glass-stoppered flask, and weigh accurately. Add about 1.5 g of Glacial Acetic Acid, weigh accurately again, then add 30 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 drops of phenolphthalein TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 60.05 mg of C2H4O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

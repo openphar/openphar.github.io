@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ipecac-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ipecac Syrup",
+    "ja": "トコンシロップ"
+  },
+  "monographId": "JP18-ipecac-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ipecac Syrup is a yellow-brown, viscous liquid. It has a sweet taste and a bitter aftertaste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take 2 mL of Ipecac Syrup into an evaporat-ing dish, mix with 1 mL of hydrochloric acid, and add small pieces of chlorinated lime: circumference of it turns orange."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Ethanol—Take exactly 5 mL of Ipecac Syrup, add exactly 5 mL of the internal standard solution and water to make 50 mL, and use this solution as the sample solution. Separately, pipet 5 mL of ethanol (99.5), and add water to make exactly 100 mL. To exactly 5 mL of this solution add exactly 5 mL of the internal standard solution and water to make 50 mL, and use this solution as the standard solution. Perform the test with 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and calculate the rate of peak height of ethanol to that of the internal standard, QT and QS: QT is not larger than QS. Internal standard solution—A solution of acetonitrile (1 in 20). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass-column about 3 mm in inside diameter and about 1.5 m in length, packed with ethylvinylbenzene-divinylbenzene porous co-polymer for gas chromatography (150 to 180 mm in particle diameter). Column temperature: A constant temperature of between 1059C and 1159C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of ethanol is 5 to 10 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, ethanol and the internal standard are eluted in this order with the resolution between these peaks being not less than 1.5. Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 103 CFU/mL and 102 CFU/mL, respectively. Escherichia coli, Salmonella, Pseudomonas aeruginosa and Staphylococcus aureus are not observed."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take exactly 5 mL of Ipecac Syrup, add 0.01 mol/L hydrochloric acid TS to make exactly 50 mL, and use the so-lution as the sample solution. Separately, weigh accurately about 10 mg of emetine hydrochloride for assay, previously dried in a desiccator (in vacuum, phosphorus (V) oxide, 509C) for 5 hours, dissolve in 0.01 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine the peak areas, ATE and ATC, of emetine and cephaeline with the sample solution, and the peak area, ASE, of emetine with the standard solution. Amount (mg) of total alkaloids (emetine and cephaeline) ＝ MS ×{ATE ＋ (ATC × 0.971)}/ASE × 1/2 × 0.868 MS: Amount (mg) of emetine hydrochloride for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 283 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: Dissolve 2.0 g of sodium l-heptane sul-fonate in 500 mL of water, adjust the pH to 4.0 with acetic acid (100), and add 500 mL of methanol. Flow rate: Adjust so that the retention time of emetine is about 14 minutes. System suitability— System performance: Dissolve 1 mg each of emetine hy-drochloride for assay and cephaeline hydrobromide in 10 mL of 0.01 mol/L hydrochloric acid TS. When the procedure is run with 10 mL of this solution under the above operating conditions, cephaeline and emetine are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat- ‌JP XVIII Crude Drugs and Related Drugs / Powdered Japanese Angelica Root 2039‌‌ ing conditions, the relative standard deviation of the peak area of emetine is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Syrup"
+}

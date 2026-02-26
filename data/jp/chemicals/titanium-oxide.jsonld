@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/titanium-oxide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Titanium Oxide",
+    "ja": "酸化チタン"
+  },
+  "monographId": "JP18-titanium-oxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "TiO2",
+  "molecularWeight": 79.87,
+  "definition": {
+    "en": "Titanium Oxide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Titanium Oxide occurs as a white powder. It is odorless and tasteless. It is practically insoluble in water, in ethanol (99.5) and in diethyl ether. It dissolves in hot sulfuric acid and in hydrofluoric acid, and does not dissolve in hydrochloric acid, in nitric acid and in dilute sulfuric acid. sample stock solution. Take 25 mL of the sample stock solu-tion to a separator, add 10 mL of a solution of ammonium sulfate (2 in 5) and 5 drops of thymol blue TS, neutralize with ammonia TS, and add 2.5 mL of ammonia TS. To this solution add exactly 20 mL of a solution of dithizone in n-butyl acetate (1 in 500), shake for 10 minutes, and use this n-butyl acetate solution as the sample solution. Separately, place 6.0 mL of Standard Lead Solution in a platinum cruci-ble, proceed as directed in the sample solution, and use this solution as the standard solution. Determine the absorbances of the sample solution and standard solution as directed under Atomic Absorption Spectrophotometry <2.23> accord-ing to the following conditions: the absorbance of the sam-ple solution is smaller than that of the standard solution (not more than 60 ppm). Gas: Combustible gas—Acetylene gas or hydrogen gas. Supporting gas—Air. Lamp: Lead hollow-cathode lamp. Wavelength: 283.3 nm. Arsenic <1.11>—Perform the test with 20 mL of the sample stock solution obtained in (1) as the test solution: the color is not deeper than the following color standard. Color standard: Proceed in the same manner without Titanium Oxide, transfer 20 mL of the obtained solution to a generator bottle, add 2.0 mL of Standard Arsenic Solution, and proceed in the same manner as the test with the test solu-tion (not more than 10 ppm). Water-soluble substances—Shake thoroughly 4.0 g of Titanium Oxide with 50 mL of water, and allow to stand overnight. Shake thoroughly with 2 mL of ammonium chlo-ride TS, add further 2 mL of ammonium chloride TS if nec-essary, and allow titanium oxide to settle. Add water to make 200 mL, shake thoroughly, and filter through double filter paper. Discard the first 10 mL of the filtrate, evaporate 100 mL of the clear filtrate on a water bath, and heat strongly at 8009C to constant mass: the mass of the residue is not more than 5.0 mg. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours)."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Titanium Oxide, previously dried, transfer to a crucible, and add 3 g of potas-sium disulfate. Cover, and heat gently at first, gradually raise the temperature, and then heat the fused contents for 30 minutes. Continue heating for 30 minutes at a higher tem-perature to make the fused mixture a deep yellow-red, almost clear liquid. Cool, transfer the contents of the cruci-ble to a 250-mL beaker, wash the crucible with a mixture of ‌75 mL of water and 2.5 mL of sulfuric acid into the beaker, and heat on a water bath until the solution becomes almost clear. Dissolve 2 g of L-tartaric acid in the solution, add 2 to 3 drops of bromothymol blue TS, neutralize with ammonia TS, and acidify with 1 to 2 mL of diluted sulfuric acid (1 in 2). Pass hydrogen sulfide sufficiently through the solution, add 30 mL of ammonia TS, again saturate the solution with hydrogen sulfide, allow to stand for 10 minutes, and filter. Wash the precipitate on the filter paper with ten 25-mL por-tions of a mixture of ammonium L-tartrate solution (1 in 100) and ammonium sulfide TS (9:1). When the precipitate is filtered and washed, prevent iron (II) sulfide from oxidation by filling the solution on the filter paper. Combine the fil-trate and the washings, add 40 mL of diluted sulfuric acid (1 in 2), and boil to expel hydrogen sulfide. Cool, and dilute with water to make 400 mL. Add gradually 40 mL of cupfer-ron TS to the solution with stirring, and allow to stand. After sedimentation of a yellow precipitate, add again cup-ferron TS until a white precipitate is produced. Filter by slight suction using quantitative filter paper, wash with twenty portions of diluted hydrochloric acid (1 in 10), and remove water by stronger suction at the last washing. Dry the precipitate together with the filter paper at 709C, trans-fer to a tared crucible, and heat very gently at first, and raise the temperature gradually after smoke stops evolving. Heat strongly between 9009C and 9509C to constant mass, cool, and weigh as titanium oxide (TiO2)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/amomi-semen-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Amomi Semen Pulveratum",
+    "ja": "シュクシャ末"
+  },
+  "monographId": "JP18-amomi-semen-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Amomum Seed occurs as a grayish brown powder, and has a characteristic aroma and an acrid taste. Under a microscope <5.01>, Powdered Amomum Seed reveals fragments of wavy perisperm cells filled with starch grains and containing in each cell a calcium oxalate crystal; yellow and long epidermal cells of seed coat and fragments of thin-walled tissue perpendicular to them; fragments of groups of brown, thick-walled polygonal stone cells."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of Powdered Amomum Seed add 20 mL of hexane, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, use a mixture of hexane and borneol acetate (1000:1) as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane, diethyl ether and metha-nol (15:5:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Total ash <5.01> Not more than 9.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Essential oil content <5.01> Perform the test with 30.0 g of Powdered Amomum Seed: the volume of essential oil is not less than 0.4 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

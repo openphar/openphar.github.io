@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kitasamycin-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kitasamycin Tartrate",
+    "ja": "キタサマイシン酒石酸塩"
+  },
+  "monographId": "JP18-kitasamycin-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Kitasamycin Tartrate is the tartrate of kitasamycin. It contains not less than 1300 mg (potency) and not more than 1500 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Kitasamycin Tartrate occurs as a white to light yellow-white powder. It is very soluble in water, in methanol and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Kitasamycin Tartrate in methanol (1 in 40,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Kitasamycin Tartrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 1 g of Kitasamycin Tartrate in 20 mL of water, add 3 mL of sodium hydroxide TS, add 20 mL of n-butyl acetate, shake well, and discard the n-butyl acetate layer. To the aqueous layer add 20 mL of n-butyl acetate, and shake well. The aqueous layer so obtained responds to Qualitative Tests <1.09> (1) for tartrate. pH <2.54> Dissolve 3.0 g of Kitasamycin Tartrate in 100 mL of water: the pH of the solution is between 3.0 and 5.0. Content ratio of the active principle Dissolve 20 mg of Kitasamycin Tartrate in diluted acetonitrile (1 in 2) to make 20 mL, and use this solution as the sample solution. Perform the test with 5 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, determine the peak areas by the automatic in-tegration method, and calculate the amounts of leucomycin A5, leucomycin A4 and leucomycin A1 by the area percentage method: the amount of leucomycin A5 is 40 – 70z, leucomy-cin A4 is 5 – 25z, and leucomycin A1 is 3 – 12z. The rela-tive retention times of leucomycin A4 and leucomycin A1 to leucomycin A5 are about 1.2 and about 1.5, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.0 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To a suitable amount of a solution of am-monium acetate (77 in 5000) add diluted phosphoric acid (1 in 150) to adjust the pH to 5.5. To 370 mL of this solution add 580 mL of methanol and 50 mL of acetonitrile. Flow rate: Adjust so that the retention time of leucomycin A5 is about 8 minutes. Time span of measurement: About 3 times as long as the retention time of leucomycin A5. System suitability— System performance: Dissolve about 20 mg each of Leuco-mycin A5 RS and Josamycin RS in 20 mL of diluted aceto-nitrile (1 in 2). When the procedure is run with 5 mL of this solution under the above operating conditions, leucomycin A5 and josamycin are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the sample solution under the above operating conditions, the relative standard deviation of the peak area of leucomycin A5 is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Kitasamycin Tartrate in 10 mL of water: the solution is clear and colorless or light yellow. Heavy metals <1.07>—Proceed with 1.0 g of Kitasamycin Tartrate according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 30 ppm). Water <2.48> Not more than 3.0z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of ‌1230‌ Leucomycin A5 RS, equivalent to about 30 mg (potency), dissolve in 10 mL of methanol, add water to make exactly 100 mL, and use this solution as the standard stock solution. Keep the standard stock solution at not exceeding 59C, and use within 3 days. Take exactly a suitable amount of the standard stock solution before use, add phosphate buffer so-lution (pH 8.0) to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concentration standard solution and the low con-centration standard solution, respectively. Sample solutions—Weigh accurately an amount of Kitasamycin Tartrate, equivalent to about 30 mg (potency), and dissolve in water to make exactly 100 mL. Take exactly a suitable amount of this solution, add phosphate buffer solu-tion (pH 8.0) to make solutions so that each mL contains 30 mg (potency) and 7.5 mg (potency), and use these solutions as the high concentration sample solution and the low concen-tration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

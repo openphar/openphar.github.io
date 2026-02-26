@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/clofibrate-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Clofibrate Capsules",
+    "ja": "クロフィブラートカプセル"
+  },
+  "monographId": "JP18-clofibrate-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Cut and open Clofibrate Capsules, and use the contents as the sample. Determine the absorption spectrum of a solution of the sample in ethanol (99.5) (1 in 10,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits a maximum between 278 nm and 282 nm, and it exhibits a maximum between 224 nm and 228 nm after diluting this solution 10 times with ethanol (99.5)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "p-Chlorophenol—Cut and open not less than 20 Clofibrate Capsules, and proceed with 1.0 g of the well- mixed contents as directed in the Purity (4) under Clofibrate. Internal standard solution—A solution of 4-ethoxyphenol in the mobile phase (1 in 30,000)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Clofibrate Cap-sules, cut and open the capsules, rinse the inside of the cap-sules with a small amount of diethyl ether after taking out the contents, evaporate the diethyl ether by allowing the cap-sules to stand at room temperature, and weigh the capsules accurately. Weigh accurately an amount of the contents, equivalent to about 0.1 g of clofibrate (C12H15ClO3), dissolve in acetonitrile to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 0.1 g of Clofibrate RS, proceed in the same manner as directed for the sample solution, and use the solution so obtained as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of clofibrate to that of the internal standard. Amount (mg) of clofibrate (C12H15ClO3) ＝ MS × QT/QS MS: Amount (mg) of Clofibrate RS taken Internal standard solution—A solution of ibuprofen in the mobile phase (1 in 100). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 275 nm). Column: A stainless steel column about 4 mm in inside diameter and about 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of acetonitrile and diluted phos-phoric acid (1 in 1000) (3:2). Flow rate: Adjust so that the retention time of clofibrate is about 10 minutes. Selection of column: Dissolve 0.05 g of clofibrate and 0.3 g of ibuprofen in 50 mL of acetonitrile. Proceed with 10 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of ibuprofen and clofibrate in this order with the resolution be-tween these peaks being not less than 6."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Capsule"
+}

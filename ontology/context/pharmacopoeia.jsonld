@@ -1,0 +1,625 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://www.openphar.org/data/",
+    "@vocab": "https://www.openphar.org/ontology/core/",
+
+    "op": "https://www.openphar.org/ontology/core/",
+    "method": "https://www.openphar.org/ontology/method/",
+    "unit": "https://www.openphar.org/ontology/core/unit/",
+    "bib": "https://www.openphar.org/ontology/bibliographic/",
+    "phint": "https://www.openphar.org/ontology/publisher/phint/",
+    "sf": "https://www.openphar.org/ontology/substance-form/",
+    "idt": "https://www.openphar.org/ontology/identification/",
+    "herbapedia": "https://www.herbapedia.org/entity/",
+    "tcm": "https://www.herbapedia.org/ontology/tcm/",
+    "ayurveda": "https://www.herbapedia.org/ontology/ayurveda/",
+    "western": "https://www.herbapedia.org/ontology/western/",
+
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+
+    "Edition": {
+      "@id": "bib:Edition",
+      "@context": {
+        "@base": "https://www.openphar.org/data/edition/"
+      }
+    },
+    "Supplement": { "@id": "bib:Supplement" },
+    "VersionHistory": { "@id": "bib:VersionHistory" },
+    "MonographVersion": { "@id": "bib:MonographVersion" },
+
+    "editionNumber": { "@id": "bib:editionNumber", "@type": "xsd:string" },
+    "editionLabel": { "@id": "bib:editionLabel", "@container": "@language" },
+    "publicationDate": { "@id": "bib:publicationDate", "@type": "xsd:date" },
+    "effectiveDate": { "@id": "bib:effectiveDate", "@type": "xsd:date" },
+    "hasPublisher": { "@id": "bib:hasPublisher", "@type": "@id" },
+    "hasSupplement": { "@id": "bib:hasSupplement", "@type": "@id", "@container": "@set" },
+    "containsMonograph": { "@id": "bib:containsMonograph", "@type": "@id", "@container": "@set" },
+    "monographCount": { "@id": "bib:monographCount", "@type": "xsd:integer" },
+    "officialLanguage": { "@id": "bib:officialLanguage", "@type": "xsd:string" },
+    "editionUrl": { "@id": "bib:editionUrl", "@type": "@id" },
+    "supplementNumber": { "@id": "bib:supplementNumber", "@type": "xsd:string" },
+    "supplementTo": { "@id": "bib:supplementTo", "@type": "@id" },
+    "supplementPublicationDate": { "@id": "bib:supplementPublicationDate", "@type": "xsd:date" },
+    "supplementEffectiveDate": { "@id": "bib:supplementEffectiveDate", "@type": "xsd:date" },
+    "addsMonograph": { "@id": "bib:addsMonograph", "@type": "@id", "@container": "@set" },
+    "revisesMonograph": { "@id": "bib:revisesMonograph", "@type": "@id", "@container": "@set" },
+    "deletesMonograph": { "@id": "bib:deletesMonograph", "@type": "@id", "@container": "@set" },
+
+    "PharmacopoeiaMonograph": {
+      "@id": "op:PharmacopoeiaMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "CrudeDrugMonograph": {
+      "@id": "op:CrudeDrugMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+
+    "ChemicalDrugMonograph": {
+      "@id": "op:ChemicalDrugMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "VitaminMonograph": {
+      "@id": "op:VitaminMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "AminoAcidMonograph": {
+      "@id": "op:AminoAcidMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "MineralSubstanceMonograph": {
+      "@id": "op:MineralSubstanceMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "BiologicalSubstanceMonograph": {
+      "@id": "op:BiologicalSubstanceMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "EnzymePreparationMonograph": {
+      "@id": "op:EnzymePreparationMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "HormonePreparationMonograph": {
+      "@id": "op:HormonePreparationMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "FormulationMonograph": {
+      "@id": "op:FormulationMonograph",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "FormulationComponent": { "@id": "op:FormulationComponent" },
+
+    "PowderedCrudeDrug": {
+      "@id": "op:PowderedCrudeDrug",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "Extract": {
+      "@id": "op:Extract",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "Tincture": {
+      "@id": "op:Tincture",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "EssentialOil": {
+      "@id": "op:EssentialOil",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "FixedOil": {
+      "@id": "op:FixedOil",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "MedicinalWater": {
+      "@id": "op:MedicinalWater",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "Wax": {
+      "@id": "op:Wax",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "Spirit": {
+      "@id": "op:Spirit",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+    "Fluidextract": {
+      "@id": "op:Fluidextract",
+      "@context": {
+        "@base": "https://www.openphar.org/data/monograph/"
+      }
+    },
+
+    "Test": { "@id": "op:Test" },
+    "IdentificationTest": { "@id": "op:IdentificationTest" },
+    "PurityTest": { "@id": "op:PurityTest" },
+    "LimitTest": { "@id": "op:LimitTest" },
+    "AssayTest": { "@id": "op:AssayTest" },
+
+    "PreparationMethod": { "@id": "op:PreparationMethod" },
+    "Ingredient": { "@id": "op:Ingredient" },
+    "MarkerCompound": { "@id": "op:MarkerCompound" },
+    "ContainersAndStorage": { "@id": "op:ContainersAndStorage" },
+    "Organism": { "@id": "op:Organism" },
+    "TherapeuticCategory": { "@id": "op:TherapeuticCategory" },
+    "PlantPart": { "@id": "op:PlantPart" },
+
+    "TestSpecification": { "@id": "op:TestSpecification" },
+    "AssaySpecification": { "@id": "op:AssaySpecification" },
+    "PuritySpecification": { "@id": "op:PuritySpecification" },
+    "IdentificationSpecification": { "@id": "op:IdentificationSpecification" },
+    "PhysicalSpecification": { "@id": "op:PhysicalSpecification" },
+    "MicrobiologicalSpecification": { "@id": "op:MicrobiologicalSpecification" },
+    "MeltingPointSpecification": { "@id": "op:MeltingPointSpecification" },
+    "SpecificRotationSpecification": { "@id": "op:SpecificRotationSpecification" },
+    "LossOnDryingSpecification": { "@id": "op:LossOnDryingSpecification" },
+    "ResidueOnIgnitionSpecification": { "@id": "op:ResidueOnIgnitionSpecification" },
+    "PHSpecification": { "@id": "op:PHSpecification" },
+    "DissolutionSpecification": { "@id": "op:DissolutionSpecification" },
+    "ContentUniformitySpecification": { "@id": "op:ContentUniformitySpecification" },
+    "DisintegrationSpecification": { "@id": "op:DisintegrationSpecification" },
+    "WeightVariationSpecification": { "@id": "op:WeightVariationSpecification" },
+    "Limit": { "@id": "op:Limit" },
+    "BotanicalSource": { "@id": "op:BotanicalSource" },
+
+    "SubstanceForm": { "@id": "sf:SubstanceForm" },
+    "FormType": { "@id": "sf:FormType" },
+    "AnhydrousForm": { "@id": "sf:AnhydrousForm", "@type": "@id" },
+    "HydrateForm": { "@id": "sf:HydrateForm", "@type": "@id" },
+    "MonohydrateForm": { "@id": "sf:MonohydrateForm", "@type": "@id" },
+    "DihydrateForm": { "@id": "sf:DihydrateForm", "@type": "@id" },
+    "TrihydrateForm": { "@id": "sf:TrihydrateForm", "@type": "@id" },
+    "PentahydrateForm": { "@id": "sf:PentahydrateForm", "@type": "@id" },
+    "SolvateForm": { "@id": "sf:SolvateForm", "@type": "@id" },
+    "SubstanceTypeVariant": { "@id": "sf:SubstanceTypeVariant" },
+    "SaltBaseEquivalence": { "@id": "sf:SaltBaseEquivalence" },
+
+    "formOf": { "@id": "sf:formOf", "@type": "@id" },
+    "formType": { "@id": "sf:formType", "@type": "@id" },
+    "waterContent": { "@id": "sf:waterContent", "@type": "xsd:string" },
+    "waterMolecules": { "@id": "sf:waterMolecules", "@type": "xsd:integer" },
+    "solventType": { "@id": "sf:solventType", "@type": "xsd:string" },
+    "solventMolecules": { "@id": "sf:solventMolecules", "@type": "xsd:integer" },
+    "typeVariantOf": { "@id": "sf:typeVariantOf", "@type": "@id" },
+    "variantIdentifier": { "@id": "sf:variantIdentifier", "@type": "xsd:string" },
+    "particleSizeRange": { "@id": "sf:particleSizeRange", "@type": "xsd:string" },
+    "crystallineForm": { "@id": "sf:crystallineForm", "@type": "xsd:string" },
+    "saltForm": { "@id": "sf:saltForm", "@type": "@id" },
+    "baseForm": { "@id": "sf:baseForm", "@type": "@id" },
+    "equivalenceFactor": { "@id": "sf:equivalenceFactor", "@type": "xsd:decimal" },
+    "equivalenceRatio": { "@id": "sf:equivalenceRatio", "@type": "xsd:string" },
+    "hasSubstanceForm": { "@id": "op:hasSubstanceForm", "@type": "@id", "@container": "@set" },
+    "hasTypeVariant": { "@id": "op:hasTypeVariant", "@type": "@id", "@container": "@set" },
+    "hasSaltEquivalence": { "@id": "op:hasSaltEquivalence", "@type": "@id" },
+
+    "IdentificationTestComposite": { "@id": "idt:IdentificationTest" },
+    "SingleIdentificationTest": { "@id": "idt:SingleIdentificationTest" },
+    "CompositeIdentificationTest": { "@id": "idt:CompositeIdentificationTest" },
+    "IdentityTestAlternative": { "@id": "idt:IdentityTestAlternative" },
+    "GeneralIdentificationTest": { "@id": "idt:GeneralIdentificationTest" },
+    "SpectroscopicIdentification": { "@id": "idt:SpectroscopicIdentification" },
+    "ChromatographicIdentification": { "@id": "idt:ChromatographicIdentification" },
+    "ChemicalReactionIdentification": { "@id": "idt:ChemicalReactionIdentification" },
+    "PhysicalPropertyIdentification": { "@id": "idt:PhysicalPropertyIdentification" },
+    "MicrobiologyIdentification": { "@id": "idt:MicrobiologyIdentification" },
+    "IdentificationTestComponent": { "@id": "idt:IdentificationTestComponent" },
+    "LogicalOperator": { "@id": "idt:LogicalOperator" },
+    "AndOperator": { "@id": "idt:AndOperator", "@type": "@id" },
+    "OrOperator": { "@id": "idt:OrOperator", "@type": "@id" },
+    "TestOrganism": { "@id": "idt:TestOrganism" },
+    "OrganismType": { "@id": "idt:OrganismType" },
+    "Bacteria": { "@id": "idt:Bacteria", "@type": "@id" },
+    "Fungus": { "@id": "idt:Fungus", "@type": "@id" },
+    "Yeast": { "@id": "idt:Yeast", "@type": "@id" },
+    "Mold": { "@id": "idt:Mold", "@type": "@id" },
+    "Virus": { "@id": "idt:Virus", "@type": "@id" },
+    "CultureMedium": { "@id": "idt:CultureMedium" },
+    "MediumType": { "@id": "idt:MediumType" },
+    "SolidMedium": { "@id": "idt:SolidMedium", "@type": "@id" },
+    "LiquidMedium": { "@id": "idt:LiquidMedium", "@type": "@id" },
+    "SemiSolidMedium": { "@id": "idt:SemiSolidMedium", "@type": "@id" },
+    "SoybeanCaseinDigestMedium": { "@id": "idt:SoybeanCaseinDigestMedium", "@type": "@id" },
+    "FluidThioglycollateMedium": { "@id": "idt:FluidThioglycollateMedium", "@type": "@id" },
+    "SabouraudDextroseAgar": { "@id": "idt:SabouraudDextroseAgar", "@type": "@id" },
+    "PotatoDextroseAgar": { "@id": "idt:PotatoDextroseAgar", "@type": "@id" },
+
+    "componentTest": { "@id": "idt:componentTest", "@type": "@id" },
+    "logicalOperator": { "@id": "idt:logicalOperator", "@type": "@id" },
+    "componentOrder": { "@id": "idt:componentOrder", "@type": "xsd:integer" },
+    "alternativePattern": { "@id": "idt:alternativePattern", "@type": "xsd:string" },
+    "minimumTestsRequired": { "@id": "idt:minimumTestsRequired", "@type": "xsd:integer" },
+    "generalTestReference": { "@id": "idt:generalTestReference", "@type": "xsd:string" },
+    "generalTestMethod": { "@id": "idt:generalTestMethod", "@type": "@id" },
+    "organismName": { "@id": "idt:organismName", "@type": "xsd:string" },
+    "organismStrain": { "@id": "idt:organismStrain", "@type": "xsd:string" },
+    "organismType": { "@id": "idt:organismType", "@type": "@id" },
+    "mediumName": { "@id": "idt:mediumName", "@type": "xsd:string" },
+    "mediumType": { "@id": "idt:mediumType", "@type": "@id" },
+    "mediumPH": { "@id": "idt:mediumPH", "@type": "xsd:decimal" },
+    "incubationTemperature": { "@id": "idt:incubationTemperature", "@type": "xsd:decimal" },
+    "incubationTime": { "@id": "idt:incubationTime", "@type": "xsd:string" },
+    "usesTestOrganism": { "@id": "op:usesTestOrganism", "@type": "@id", "@container": "@set" },
+    "usesCultureMedium": { "@id": "op:usesCultureMedium", "@type": "@id", "@container": "@set" },
+    "MacroscopicDescription": { "@id": "op:MacroscopicDescription" },
+    "MicroscopicDescription": { "@id": "op:MicroscopicDescription" },
+    "HarmonizedMethod": { "@id": "op:HarmonizedMethod" },
+    "PublisherMethod": { "@id": "op:PublisherMethod" },
+
+    "Publisher": { "@id": "op:Publisher" },
+    "MonographStatus": { "@id": "op:MonographStatus" },
+    "TestType": { "@id": "op:TestType" },
+    "LimitType": { "@id": "op:LimitType" },
+    "Unit": { "@id": "op:Unit" },
+    "DosageForm": { "@id": "op:DosageForm" },
+    "ComponentRole": { "@id": "op:ComponentRole" },
+    "VitaminType": { "@id": "op:VitaminType" },
+    "AminoAcidType": { "@id": "op:AminoAcidType" },
+    "MineralType": { "@id": "op:MineralType" },
+    "BiologicalSourceType": { "@id": "op:BiologicalSourceType" },
+    "HormoneType": { "@id": "op:HormoneType" },
+    "TemperatureUnit": { "@id": "op:TemperatureUnit" },
+
+    "AHP": { "@id": "op:AHP", "@type": "@id" },
+    "API": { "@id": "op:API", "@type": "@id" },
+    "JP": { "@id": "op:JP", "@type": "@id" },
+    "HKCMMS": { "@id": "op:HKCMMS", "@type": "@id" },
+    "THP": { "@id": "op:THP", "@type": "@id" },
+    "CMHerbarium": { "@id": "op:CMHerbarium", "@type": "@id" },
+    "WHO": { "@id": "op:WHO", "@type": "@id" },
+    "UPB": { "@id": "op:UPB", "@type": "@id" },
+    "UPI": { "@id": "op:UPI", "@type": "@id" },
+    "APB": { "@id": "op:APB", "@type": "@id" },
+    "APS": { "@id": "op:APS", "@type": "@id" },
+
+    "Official": { "@id": "op:Official", "@type": "@id" },
+    "Withdrawn": { "@id": "op:Withdrawn", "@type": "@id" },
+    "Draft": { "@id": "op:Draft", "@type": "@id" },
+    "Revised": { "@id": "op:Revised", "@type": "@id" },
+
+    "TestType-Assay": { "@id": "op:TestType-Assay", "@type": "@id" },
+    "TestType-Purity": { "@id": "op:TestType-Purity", "@type": "@id" },
+    "TestType-Identification": { "@id": "op:TestType-Identification", "@type": "@id" },
+    "TestType-Physical": { "@id": "op:TestType-Physical", "@type": "@id" },
+    "TestType-Microbiological": { "@id": "op:TestType-Microbiological", "@type": "@id" },
+    "TestType-ForeignMatter": { "@id": "op:TestType-ForeignMatter", "@type": "@id" },
+    "TestType-Extractive": { "@id": "op:TestType-Extractive", "@type": "@id" },
+    "TestType-MeltingPoint": { "@id": "op:TestType-MeltingPoint", "@type": "@id" },
+    "TestType-SpecificRotation": { "@id": "op:TestType-SpecificRotation", "@type": "@id" },
+    "TestType-pH": { "@id": "op:TestType-pH", "@type": "@id" },
+    "TestType-Dissolution": { "@id": "op:TestType-Dissolution", "@type": "@id" },
+    "TestType-ContentUniformity": { "@id": "op:TestType-ContentUniformity", "@type": "@id" },
+
+    "LimitType-Minimum": { "@id": "op:LimitType-Minimum", "@type": "@id" },
+    "LimitType-Maximum": { "@id": "op:LimitType-Maximum", "@type": "@id" },
+    "LimitType-Range": { "@id": "op:LimitType-Range", "@type": "@id" },
+    "LimitType-Exact": { "@id": "op:LimitType-Exact", "@type": "@id" },
+    "LimitType-NotMoreThan": { "@id": "op:LimitType-NotMoreThan", "@type": "@id" },
+    "LimitType-NotLessThan": { "@id": "op:LimitType-NotLessThan", "@type": "@id" },
+
+    "Tablet": { "@id": "op:Tablet", "@type": "@id" },
+    "Capsule": { "@id": "op:Capsule", "@type": "@id" },
+    "Injection": { "@id": "op:Injection", "@type": "@id" },
+    "Solution": { "@id": "op:Solution", "@type": "@id" },
+    "Suspension": { "@id": "op:Suspension", "@type": "@id" },
+    "Syrup": { "@id": "op:Syrup", "@type": "@id" },
+    "Ointment": { "@id": "op:Ointment", "@type": "@id" },
+    "Cream": { "@id": "op:Cream", "@type": "@id" },
+    "Suppository": { "@id": "op:Suppository", "@type": "@id" },
+    "Powder": { "@id": "op:Powder", "@type": "@id" },
+    "Granule": { "@id": "op:Granule", "@type": "@id" },
+
+    "ActiveIngredient": { "@id": "op:ActiveIngredient", "@type": "@id" },
+    "Excipient": { "@id": "op:Excipient", "@type": "@id" },
+    "Binder": { "@id": "op:Binder", "@type": "@id" },
+    "Disintegrant": { "@id": "op:Disintegrant", "@type": "@id" },
+    "Filler": { "@id": "op:Filler", "@type": "@id" },
+    "Lubricant": { "@id": "op:Lubricant", "@type": "@id" },
+    "Preservative": { "@id": "op:Preservative", "@type": "@id" },
+    "CoatingAgent": { "@id": "op:CoatingAgent", "@type": "@id" },
+    "Solvent": { "@id": "op:Solvent", "@type": "@id" },
+    "Buffer": { "@id": "op:Buffer", "@type": "@id" },
+
+    "VitaminA": { "@id": "op:VitaminA", "@type": "@id" },
+    "VitaminB1": { "@id": "op:VitaminB1", "@type": "@id" },
+    "VitaminB2": { "@id": "op:VitaminB2", "@type": "@id" },
+    "VitaminB3": { "@id": "op:VitaminB3", "@type": "@id" },
+    "VitaminB5": { "@id": "op:VitaminB5", "@type": "@id" },
+    "VitaminB6": { "@id": "op:VitaminB6", "@type": "@id" },
+    "VitaminB7": { "@id": "op:VitaminB7", "@type": "@id" },
+    "VitaminB9": { "@id": "op:VitaminB9", "@type": "@id" },
+    "VitaminB12": { "@id": "op:VitaminB12", "@type": "@id" },
+    "VitaminC": { "@id": "op:VitaminC", "@type": "@id" },
+    "VitaminD": { "@id": "op:VitaminD", "@type": "@id" },
+    "VitaminE": { "@id": "op:VitaminE", "@type": "@id" },
+    "VitaminK": { "@id": "op:VitaminK", "@type": "@id" },
+
+    "SimpleMineral": { "@id": "op:SimpleMineral", "@type": "@id" },
+    "MineralMixture": { "@id": "op:MineralMixture", "@type": "@id" },
+    "MineralSalt": { "@id": "op:MineralSalt", "@type": "@id" },
+
+    "Celsius": { "@id": "op:Celsius", "@type": "@id" },
+    "Fahrenheit": { "@id": "op:Fahrenheit", "@type": "@id" },
+    "Kelvin": { "@id": "op:Kelvin", "@type": "@id" },
+
+    "percent": { "@id": "unit:percent", "@type": "@id" },
+    "percent_w_w": { "@id": "unit:percent_w_w", "@type": "@id" },
+    "percent_w_v": { "@id": "unit:percent_w_v", "@type": "@id" },
+    "ppm": { "@id": "unit:ppm", "@type": "@id" },
+    "ppb": { "@id": "unit:ppb", "@type": "@id" },
+    "mg_per_g": { "@id": "unit:mg_per_g", "@type": "@id" },
+    "mg_per_mL": { "@id": "unit:mg_per_mL", "@type": "@id" },
+    "degC": { "@id": "unit:degC", "@type": "@id" },
+    "pH_unit": { "@id": "unit:pH", "@type": "@id" },
+
+    "HPLC": { "@id": "method:HPLC", "@type": "@id" },
+    "HPLC-UV": { "@id": "method:HPLC-UV", "@type": "@id" },
+    "GC": { "@id": "method:GC", "@type": "@id" },
+    "TLC": { "@id": "method:TLC", "@type": "@id" },
+    "UV-Vis": { "@id": "method:UV-Vis", "@type": "@id" },
+    "IR": { "@id": "method:IR", "@type": "@id" },
+    "LossOnDrying": { "@id": "method:LossOnDrying", "@type": "@id" },
+    "ResidueOnIgnition": { "@id": "method:ResidueOnIgnition", "@type": "@id" },
+    "TotalAsh": { "@id": "method:TotalAsh", "@type": "@id" },
+    "AcidInsolubleAsh": { "@id": "method:AcidInsolubleAsh", "@type": "@id" },
+    "WaterContent": { "@id": "method:WaterContent", "@type": "@id" },
+    "HeavyMetals": { "@id": "method:HeavyMetals", "@type": "@id" },
+    "HeavyMetals-Method1": { "@id": "method:HeavyMetals-Method1", "@type": "@id" },
+    "HeavyMetals-Method2": { "@id": "method:HeavyMetals-Method2", "@type": "@id" },
+    "HeavyMetals-Method3": { "@id": "method:HeavyMetals-Method3", "@type": "@id" },
+    "Arsenic": { "@id": "method:Arsenic", "@type": "@id" },
+    "Arsenic-Method1": { "@id": "method:Arsenic-Method1", "@type": "@id" },
+    "Lead": { "@id": "method:Lead", "@type": "@id" },
+    "Cadmium": { "@id": "method:Cadmium", "@type": "@id" },
+    "Iron": { "@id": "method:Iron", "@type": "@id" },
+    "ForeignMatter": { "@id": "method:ForeignMatter", "@type": "@id" },
+    "AlcoholSolubleExtractive": { "@id": "method:AlcoholSolubleExtractive", "@type": "@id" },
+    "WaterSolubleExtractive": { "@id": "method:WaterSolubleExtractive", "@type": "@id" },
+    "MeltingPoint": { "@id": "method:MeltingPoint", "@type": "@id" },
+    "OpticalRotation": { "@id": "method:OpticalRotation", "@type": "@id" },
+    "pH": { "@id": "method:pH", "@type": "@id" },
+    "Dissolution-Paddle": { "@id": "method:Dissolution-Paddle", "@type": "@id" },
+    "ContentUniformity": { "@id": "method:ContentUniformity", "@type": "@id" },
+    "Titrimetric-Neutralization": { "@id": "method:Titrimetric-Neutralization", "@type": "@id" },
+    "Titrimetric-Iodine": { "@id": "method:Titrimetric-Iodine", "@type": "@id" },
+    "Titrimetric-Complexometric": { "@id": "method:Titrimetric-Complexometric", "@type": "@id" },
+
+    "monographId": { "@id": "op:monographId", "@type": "xsd:string" },
+    "publisher": { "@id": "op:publisher", "@type": "@id" },
+    "status": { "@id": "op:status", "@type": "@id" },
+    "effectiveDate": { "@id": "op:effectiveDate", "@type": "xsd:date" },
+    "version": { "@id": "op:version", "@type": "xsd:string" },
+
+    "referencesPreparation": { "@id": "op:referencesPreparation", "@type": "@id" },
+    "referencesTCMProfile": { "@id": "op:referencesTCMProfile", "@type": "@id" },
+    "referencesAyurvedaProfile": { "@id": "op:referencesAyurvedaProfile", "@type": "@id" },
+    "referencesWesternProfile": { "@id": "op:referencesWesternProfile", "@type": "@id" },
+    "referencesPlantSpecies": { "@id": "op:referencesPlantSpecies", "@type": "@id" },
+
+    "testSpecification": { "@id": "op:testSpecification", "@type": "@id", "@container": "@set" },
+    "testName": { "@id": "op:testName", "@container": "@language" },
+    "testType": { "@id": "op:testType", "@type": "@id" },
+    "harmonizedMethod": { "@id": "op:harmonizedMethod", "@type": "@id" },
+    "publisherMethod": { "@id": "op:publisherMethod", "@type": "@id" },
+    "testConditions": { "@id": "op:testConditions", "@container": "@language" },
+    "referenceSpectrum": { "@id": "op:referenceSpectrum", "@type": "@id" },
+    "testDescription": { "@id": "op:testDescription", "@container": "@language" },
+    "identificationMethod": { "@id": "op:identificationMethod", "@type": "xsd:string" },
+    "expectedResult": { "@id": "op:expectedResult", "@type": "xsd:string" },
+
+    "hasIdentificationTest": { "@id": "op:hasIdentificationTest", "@type": "@id", "@container": "@set" },
+    "hasPurityTest": { "@id": "op:hasPurityTest", "@type": "@id", "@container": "@set" },
+    "hasLimitTest": { "@id": "op:hasLimitTest", "@type": "@id", "@container": "@set" },
+    "hasAssayTest": { "@id": "op:hasAssayTest", "@type": "@id", "@container": "@set" },
+    "usesTestMethod": { "@id": "op:usesTestMethod", "@type": "@id" },
+
+    "isPowderedFormOf": { "@id": "op:isPowderedFormOf", "@type": "@id" },
+    "derivedFrom": { "@id": "op:derivedFrom", "@type": "@id" },
+
+    "hasPreparationMethod": { "@id": "op:hasPreparationMethod", "@type": "@id" },
+    "methodLabel": { "@id": "op:methodLabel", "@container": "@language" },
+    "methodDescription": { "@id": "op:methodDescription", "@container": "@language" },
+    "hasIngredientItem": { "@id": "op:hasIngredientItem", "@type": "@id", "@container": "@set" },
+
+    "usesCrudeDrug": { "@id": "op:usesCrudeDrug", "@type": "@id" },
+    "ingredientAmount": { "@id": "op:ingredientAmount", "@type": "xsd:decimal" },
+    "ingredientAmountUnit": { "@id": "op:ingredientAmountUnit", "@type": "xsd:string" },
+    "ingredientRatio": { "@id": "op:ingredientRatio", "@type": "xsd:decimal" },
+
+    "extractionRatio": { "@id": "op:extractionRatio", "@type": "xsd:string" },
+    "extractionSolvent": { "@id": "op:extractionSolvent", "@container": "@language" },
+    "ethanolContent": { "@id": "op:ethanolContent", "@type": "xsd:string" },
+    "drugStrength": { "@id": "op:drugStrength", "@type": "xsd:string" },
+    "volatileContent": { "@id": "op:volatileContent", "@type": "xsd:string" },
+    "acidValue": { "@id": "op:acidValue", "@type": "xsd:decimal" },
+    "soluteConcentration": { "@id": "op:soluteConcentration", "@container": "@language" },
+    "meltingPoint": { "@id": "op:meltingPoint", "@type": "xsd:string" },
+    "waxType": { "@id": "op:waxType", "@container": "@language" },
+
+    "hasIngredient": { "@id": "op:hasIngredient", "@type": "@id", "@container": "@set" },
+    "hasMarkerCompound": { "@id": "op:hasMarkerCompound", "@type": "@id", "@container": "@set" },
+    "referenceStandard": { "@id": "op:referenceStandard", "@type": "xsd:string" },
+    "concentrationRange": { "@id": "op:concentrationRange", "@type": "xsd:string" },
+    "activeComponent": { "@id": "op:activeComponent", "@type": "xsd:string" },
+
+    "hasContainersAndStorage": { "@id": "op:hasContainersAndStorage", "@type": "@id" },
+    "lightProtection": { "@id": "op:lightProtection", "@type": "xsd:boolean" },
+    "humidityControl": { "@id": "op:humidityControl", "@type": "xsd:string" },
+
+    "hasPlantPart": { "@id": "op:hasPlantPart", "@type": "@id" },
+    "plantPartCode": { "@id": "op:plantPartCode", "@type": "xsd:string" },
+    "plantPartName": { "@id": "op:plantPartName", "@container": "@language" },
+
+    "belongsToTherapeuticCategory": { "@id": "op:belongsToTherapeuticCategory", "@type": "@id" },
+    "categoryCode": { "@id": "op:categoryCode", "@type": "xsd:string" },
+    "categoryName": { "@id": "op:categoryName", "@container": "@language" },
+    "therapeuticClass": { "@id": "op:therapeuticClass", "@container": "@language" },
+    "hasTherapeuticUse": { "@id": "op:hasTherapeuticUse", "@container": "@language" },
+    "hasContraindication": { "@id": "op:hasContraindication", "@container": "@language" },
+    "contraindications": { "@id": "op:contraindications", "@container": "@language" },
+
+    "chromatographyType": { "@id": "op:chromatographyType", "@type": "xsd:string" },
+    "usesStandardSubstance": { "@id": "op:usesStandardSubstance", "@type": "xsd:string" },
+
+    "prescriptionNumber": { "@id": "op:prescriptionNumber", "@type": "xsd:string" },
+    "japaneseStandardName": { "@id": "op:japaneseStandardName", "@container": "@language" },
+
+    "limit": { "@id": "op:limit", "@type": "@id" },
+    "limitType": { "@id": "op:limitType", "@type": "@id" },
+    "limitValue": { "@id": "op:limitValue", "@type": "xsd:decimal" },
+    "lowerLimit": { "@id": "op:lowerLimit", "@type": "xsd:decimal" },
+    "upperLimit": { "@id": "op:upperLimit", "@type": "xsd:decimal" },
+    "limitUnit": { "@id": "op:limitUnit", "@type": "@id" },
+
+    "assayTarget": { "@id": "op:assayTarget", "@container": "@language" },
+    "assayExpression": { "@id": "op:assayExpression", "@type": "xsd:string" },
+    "impurityType": { "@id": "op:impurityType", "@container": "@language" },
+    "physicalProperty": { "@id": "op:physicalProperty", "@container": "@language" },
+
+    "botanicalSource": { "@id": "op:botanicalSource", "@type": "@id" },
+    "plantPartUsed": { "@id": "op:plantPartUsed", "@container": "@language" },
+    "collectionPeriod": { "@id": "op:collectionPeriod", "@container": "@language" },
+
+    "macroscopicDescription": { "@id": "op:macroscopicDescription", "@type": "@id" },
+    "color": { "@id": "op:color", "@container": "@language" },
+    "shape": { "@id": "op:shape", "@container": "@language" },
+    "texture": { "@id": "op:texture", "@container": "@language" },
+    "odor": { "@id": "op:odor", "@container": "@language" },
+    "taste": { "@id": "op:taste", "@container": "@language" },
+    "fracture": { "@id": "op:fracture", "@container": "@language" },
+    "size": { "@id": "op:size", "@container": "@language" },
+
+    "microscopicDescription": { "@id": "op:microscopicDescription", "@type": "@id" },
+    "transverseSection": { "@id": "op:transverseSection", "@container": "@language" },
+    "powderCharacteristics": { "@id": "op:powderCharacteristics", "@container": "@language" },
+    "diagnosticFeatures": { "@id": "op:diagnosticFeatures", "@container": "@language" },
+
+    "definition": { "@id": "op:definition", "@container": "@language" },
+    "storageContainer": { "@id": "op:storageContainer", "@container": "@language" },
+    "storageConditions": { "@id": "op:storageConditions", "@container": "@language" },
+
+    "equivalentMethod": { "@id": "op:equivalentMethod", "@type": "@id", "@container": "@set" },
+    "jpReference": { "@id": "op:jpReference", "@type": "xsd:string" },
+
+    "molecularFormula": { "@id": "op:molecularFormula", "@type": "xsd:string" },
+    "molecularWeight": { "@id": "op:molecularWeight", "@type": "xsd:decimal" },
+    "casNumber": { "@id": "op:casNumber", "@type": "xsd:string" },
+    "systematicName": { "@id": "op:systematicName", "@container": "@language" },
+    "chemicalStructure": { "@id": "op:chemicalStructure", "@type": "@id" },
+    "inchi": { "@id": "op:inchi", "@type": "xsd:string" },
+    "inchiKey": { "@id": "op:inchiKey", "@type": "xsd:string" },
+    "smiles": { "@id": "op:smiles", "@type": "xsd:string" },
+    "appearance": { "@id": "op:appearance", "@container": "@language" },
+    "solubility": { "@id": "op:solubility", "@container": "@language" },
+
+    "vitaminType": { "@id": "op:vitaminType", "@type": "@id" },
+    "biologicalActivity": { "@id": "op:biologicalActivity", "@container": "@language" },
+    "aminoAcidType": { "@id": "op:aminoAcidType", "@type": "@id" },
+    "essentialAminoAcid": { "@id": "op:essentialAminoAcid", "@type": "xsd:boolean" },
+    "stereochemistry": { "@id": "op:stereochemistry", "@type": "xsd:string" },
+
+    "mineralType": { "@id": "op:mineralType", "@type": "@id" },
+    "mineralFormula": { "@id": "op:mineralFormula", "@type": "xsd:string" },
+    "mineralSource": { "@id": "op:mineralSource", "@container": "@language" },
+    "elementalComposition": { "@id": "op:elementalComposition", "@container": "@language" },
+
+    "biologicalSourceType": { "@id": "op:biologicalSourceType", "@type": "@id" },
+    "biologicalOrigin": { "@id": "op:biologicalOrigin", "@container": "@language" },
+    "sourceOrganism": { "@id": "op:sourceOrganism", "@container": "@language" },
+    "activityUnit": { "@id": "op:activityUnit", "@container": "@language" },
+    "enzymeCommissionNumber": { "@id": "op:enzymeCommissionNumber", "@type": "xsd:string" },
+    "enzymeActivity": { "@id": "op:enzymeActivity", "@container": "@language" },
+    "optimalPH": { "@id": "op:optimalPH", "@type": "xsd:decimal" },
+    "optimalTemperature": { "@id": "op:optimalTemperature", "@type": "xsd:decimal" },
+    "hormoneType": { "@id": "op:hormoneType", "@type": "@id" },
+    "biologicalPotency": { "@id": "op:biologicalPotency", "@container": "@language" },
+
+    "dosageForm": { "@id": "op:dosageForm", "@type": "@id" },
+    "routeOfAdministration": { "@id": "op:routeOfAdministration", "@type": "@id" },
+    "strength": { "@id": "op:strength", "@container": "@language" },
+    "hasComponent": { "@id": "op:hasComponent", "@type": "@id", "@container": "@set" },
+    "packSize": { "@id": "op:packSize", "@container": "@language" },
+    "shelfLife": { "@id": "op:shelfLife", "@container": "@language" },
+
+    "componentSubstance": { "@id": "op:componentSubstance", "@type": "@id" },
+    "componentRole": { "@id": "op:componentRole", "@type": "@id" },
+    "componentQuantity": { "@id": "op:componentQuantity", "@type": "xsd:decimal" },
+    "componentUnit": { "@id": "op:componentUnit", "@type": "@id" },
+    "componentStrength": { "@id": "op:componentStrength", "@container": "@language" },
+    "componentPercentage": { "@id": "op:componentPercentage", "@type": "xsd:decimal" },
+
+    "meltingPointRange": { "@id": "op:meltingPointRange", "@type": "xsd:string" },
+    "temperatureUnit": { "@id": "op:temperatureUnit", "@type": "@id" },
+    "rotationRange": { "@id": "op:rotationRange", "@type": "xsd:string" },
+    "measurementConditions": { "@id": "op:measurementConditions", "@container": "@language" },
+    "dryingConditions": { "@id": "op:dryingConditions", "@container": "@language" },
+    "ignitionConditions": { "@id": "op:ignitionConditions", "@container": "@language" },
+    "phRange": { "@id": "op:phRange", "@type": "xsd:string" },
+    "solutionConditions": { "@id": "op:solutionConditions", "@container": "@language" },
+
+    "dissolutionMedium": { "@id": "op:dissolutionMedium", "@container": "@language" },
+    "dissolutionApparatus": { "@id": "op:dissolutionApparatus", "@type": "xsd:string" },
+    "dissolutionTime": { "@id": "op:dissolutionTime", "@container": "@language" },
+    "dissolutionLimit": { "@id": "op:dissolutionLimit", "@type": "xsd:string" },
+    "dissolutionPercentage": { "@id": "op:dissolutionPercentage", "@type": "xsd:decimal" },
+    "acceptanceValue": { "@id": "op:acceptanceValue", "@type": "xsd:decimal" },
+
+    "sameSubstanceAs": { "@id": "op:sameSubstanceAs", "@type": "@id" },
+    "hasEquivalentIn": { "@id": "op:hasEquivalentIn", "@type": "@id" },
+    "similarTo": { "@id": "op:similarTo", "@type": "@id" },
+    "relatedTo": { "@id": "op:relatedTo", "@type": "@id" },
+    "hasComparableSpecification": { "@id": "op:hasComparableSpecification", "@type": "@id" },
+    "specificationDifference": { "@id": "op:specificationDifference", "@container": "@language" },
+    "matchConfidence": { "@id": "op:matchConfidence", "@type": "xsd:decimal" },
+    "matchMethod": { "@id": "op:matchMethod", "@type": "xsd:string" },
+    "belongsToEdition": { "@id": "op:belongsToEdition", "@type": "@id" },
+
+    "prefLabel": { "@id": "skos:prefLabel", "@container": "@language" },
+    "altLabel": { "@id": "skos:altLabel", "@container": "@set" },
+    "definition_skos": { "@id": "skos:definition", "@container": "@language" },
+
+    "label": { "@id": "rdfs:label", "@container": "@language" },
+    "comment": { "@id": "rdfs:comment", "@container": "@language" },
+
+    "id": "@id",
+    "type": "@type"
+  }
+}

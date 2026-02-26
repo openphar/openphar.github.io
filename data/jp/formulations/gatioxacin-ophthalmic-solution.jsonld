@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/gatioxacin-ophthalmic-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Gati‰oxacin Ophthalmic Solution",
+    "ja": "ガチフロキサシン点眼液"
+  },
+  "monographId": "JP18-gatioxacin-ophthalmic-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Gati‰oxacin Ophthalmic Solution is an aqueous ophthalmic preparation. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Gati‰oxacin Ophthalmic Solution is a clear, pale yellow liquid. Identiˆcation To a volume of Gati‰oxacin Ophthalmic So-lution, equivalent to 6 mg of gati‰oxacin (C19H22FN3O4), add diluted sodium hydroxide TS (1 in 10) to make 30 mL. To 1 mL of this solution add diluted sodium hydroxide TS (1 in 10) to make 20 mL, and determine the absorption spec-trum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 238 nm and 242 nm, between 287 nm and 291 nm, and between 336 nm and 340 nm. Osmotic pressure ratio Being speciˆed separately when the drug is granted approval based on the Law. pH Being speciˆed separately when the drug is granted approval based on the Law."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substance—To a volume of Gati‰oxacin Ophthalmic Solution, equivalent to 6 mg of gati‰oxacin (C19H22FN3O4), add the diluting solution to make 30 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the diluting solution to make ex-actly 100 mL. Pipet 2 mL of this solution, add the diluting solution to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 40 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the peak area of the related sub-stance A, having the relative retention time of about 1.2 to gati‰oxacin, obtained from the sample solution is not larger than 2 times the peak area of gati‰oxacin from the standard solution, and the area of the peak other than gati‰oxacin and the peak mentioned above from the sample solution is not larger than the peak area of gati‰oxacin from the stand-ard solution. Furthermore, the total area of the peaks other than gati‰oxacin from the sample solution is not larger than 3 times the peak area of gati‰oxacin from the standard solu-tion. Diluting solution: A mixture of diluted phosphoric acid (1 in 1000) and acetonitrile (4:1). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 325 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase A: A mixture of diluted triethylamine (1 in 100) and acetonitrile (22:3), adjusted to pH 4.3 with phos-phoric acid. Mobile phase B: A mixture of diluted triethylamine (1 in 0 – 15 100 0 15 – 30 100 → 0 0 → 100 30 – 40 0 100 Flow rate: 0.9 mL per minute (the retention time of gati‰oxacin is about 16 minutes). Time span of measurement: For 40 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add the diluting solution to make exactly 10 mL. Conˆrm that the peak area of gati‰oxacin obtained with 40 mL of this solution is equivalent to 40 to 60z of that with 40 mL of the standard solution. System performance: Dissolve 20 mg of methyl 4-aminobenzoate in 100 mL of the diluting solution. To 5 mL of this solution and 1 mL of the sample solution add the diluting solution to make 100 mL. When the procedure is run with 40 mL of this solution under the above operating conditions, gati‰oxacin and methyl 4-aminobenzoate are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 40 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of gati‰oxacin is not more than 3.0z. Foreign insoluble matter <6.11> It meets the requirement. Insoluble particulate matter <6.08> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane ˆltration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Gati‰oxacin Ophthalmic Solution, equivalent to about 6 mg of gati‰oxacin (C19H22FN3O4), and add the diluting solution to make ex-actly 30 mL. Pipet 2 mL of this solution, add exactly 3 mL of the internal standard solution, add the diluting solution to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 22 mg of Gati‰oxacin RS (separately determine the water <2.48> in the same manner as Gati‰oxacin Hydrate), and dissolve in the diluting solution to make exactly 100 mL. Pipet 2 mL of this solution, add ex-actly 3 mL of the internal standard solution, add the diluting solution to make 20 mL, and use this solution as the stand-ard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of gati‰oxacin to that of the internal standard. Amount (mg) of gati‰oxacin (C19H22FN3O4) ＝ MS × QT/QS × 3/10 MS: Amount (mg) of Gati‰oxacin RS taken, calculated on the anhydrous basis Internal standard solution—A solution of methyl 4-aminobenzoate in the diluting solution (1 in 10,000). Diluting solution: A mixture of diluted phosphoric acid (1 ‌1058 in 1000) and acetonitrile (4:1). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, acetonitrile and triethylamine (81:18:1), adjusted to pH 4.5 with phosphoric acid. Flow rate: Adjust so that the retention time of gati‰oxacin is about 6 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, gati‰oxacin and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of gati‰oxacin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Solution"
+}

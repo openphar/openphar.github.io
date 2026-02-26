@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cholesterol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cholesterol",
+    "ja": "コレステロール"
+  },
+  "monographId": "JP18-cholesterol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H46O",
+  "molecularWeight": 386.65,
+  "appearance": {
+    "en": "Cholesterol occurs as white to pale yellow, crystals or grains. It is odorless, or has a slight odor. It is tasteless. It is freely soluble in chloroform and in diethyl ether, spar-ingly soluble in ethanol (99.5) and in acetone, and practically insoluble in water. It gradually changes to a yellow to light yellow-brown color by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Cholesterol in 1 mL of chloroform, add 1 mL of sulfuric acid, and shake: a red color develops in the chloroform layer, and the sulfuric acid layer shows a green fluorescence. (2) Dissolve 5 mg of Cholesterol in 2 mL of chloroform, add 1 mL of acetic anhydride and 1 drop of sulfuric acid, and shake: a red color is produced, and it changes to green through blue. D Optical rotation <2.49> [a]25: －29 – －369(after drying, 0.2 g, acetone, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Place 0.5 g of Cholesterol in a glass-stoppered flask, dissolve in 50 mL of warm ethanol (95), and allow to stand at room temperature for 2 hours: no turbidity or deposit is produced. (2) Acidity—Place 1.0 g of Cholesterol in a flask, dis-solve in 10 mL of diethyl ether, add 10.0 mL of 0.1 mol/L sodium hydroxide VS, and shake for 1 minute. Expel the diethyl ether, and boil for 5 minutes. Cool, add 10 mL of water, and titrate <2.50> with 0.05 mol/L sulfuric acid VS (indicator: 2 drops of phenolphthalein TS). Perform a blank determination in the same manner. The volume of 0.1 mol/L sodium hydroxide VS consumed is not more than 0.30 mL. Loss on drying <2.41> Not more than 0.30z (1 g, in vacu-um, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

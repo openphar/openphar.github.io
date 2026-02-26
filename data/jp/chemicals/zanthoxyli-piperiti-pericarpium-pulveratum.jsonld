@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/zanthoxyli-piperiti-pericarpium-pulveratum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Zanthoxyli Piperiti Pericarpium Pulveratum",
+    "ja": "サンショウ末"
+  },
+  "monographId": "JP18-zanthoxyli-piperiti-pericarpium-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Japanese Zanthoxylum Peel occurs as a dark yellow-brown powder. It has a strong, characteris-tic aroma and an acrid taste, leaving a sensation of numb-ness on the tongue. Under a microscope <5.01>, Powdered Japanese Zanthox- ylum Peel reveals fragments of inner tissue of endocarp consisting of stone cells with cell walls about 2.5 mm in thick-ness; fragments of spiral and ring vessels 10 – 15 mm in diam-eter; fragments of oil sacs containing essential oil or resin; fragments of epidermal cells, polygonal in surface view, con-taining tannin; numerous oil drops; masses of tannin, colored red by adding vanillin-hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of Powdered Japanese Zanthoxylum Peel add 10 mL of water, shake for 5 minutes, add 5 mL of diethyl ether, shake, centrifuge, and use the diethyl ether layer as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl acetate, hexane, methanol and acetic acid (100) (20:20:1:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot with an Rf value of about 0.3 is observed. Total ash <5.01> Not more than 8.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 30.0 g of Powdered Japanese Zanthoxylum Peel: the volume of essen-tial oil is not less than 0.8 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

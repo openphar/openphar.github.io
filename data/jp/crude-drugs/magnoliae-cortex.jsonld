@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/magnoliae-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Magnoliae Cortex",
+    "ja": "コウボク"
+  },
+  "monographId": "JP18-magnoliae-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Plate-like or semi-tubular bark, 2 – 7 mm in thickness; externally grayish white to grayish brown, and rough, sometimes cork layer removed, and externally red-brown; internally light brown to dark purple-brown; cut surface extremely fibrous, and light red-brown to purple-brown. Odor, slight; taste, bitter. Under a microscope <5.01>, a transverse section reveals a thick cork layer or several thin cork layers, and internally adjoining the circular tissue of stone cells of approximately equal in diameter; primary cortex thin; fiber groups scat-tered in the pericycle; groups of phloem fibers lined alter-nately with the other tissue of phloem between medullary rays in the secondary cortex, and then these tissues show a latticework; oil cells scattered in the primary and secondary cortex, but sometimes observed in the narrow medullary rays."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Magnolia Bark add 10 mL of methanol, stir for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (4:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS on the plate: a yellow ‌2068 Powdered Magnolia Bark / Crude Drugs and Related Drugs spot appears at an Rf value of about 0.3. Total ash <5.01> Not more than 6.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 11.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Magno-lia Bark, add 40 mL of diluted methanol (7 in 10), heat under a reflux condenser for 20 minutes, cool, and filter. Repeat the above procedure with the residue, using 40 mL of diluted methanol (7 in 10). Combine the whole filtrates, add diluted methanol (7 in 10) to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 10 mg of magnolol for assay, dissolve in diluted methanol (7 in 10) to make exactly 100 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of magnolol in each solution. Amount (mg) of magnolol ＝ MS × AT/AS MS: Amount (mg) of magnolol for assay taken, calculated on the basis of the content obtained by qNMR Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 289 nm). Column: A stainless steel column 4 to 6 mm in inside di-ameter and 15 to 25 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of water, acetonitrile and acetic diameter; yellow-red-brown cork tissue; oil cells containing a yellow-brown to red-brown substance. Simple starch grains about 10 mm in diameter and 2- to 4-compound starch grains. Identification To 1.0 g of Powdered Magnolia Bark add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of 1-butanol, water and acetic acid (100) (4:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly Dragendorff's TS on the plate: a yellow spot appears at an Rf value of about 0.3. Total ash <5.01> Not more than 6.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 11.0z. Assay Weigh accurately about 0.5 g of Powdered Magnolia Bark, add 40 mL of diluted methanol (7 in 10), heat under a reflux condenser for 20 minutes, cool, and filter. Repeat the above procedure with the residue, using 40 mL of diluted methanol (7 in 10). Combine the whole filtrates, add diluted methanol (7 in 10) to make exactly 100 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 10 mg of magnolol for assay, dissolve in diluted meth-anol (7 in 10) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of magnolol in each solution. acid (100) (50:50:1). Flow rate: Adjust so that the retention time of magnolol is Amount (mg) of magnolol ＝ MS × AT/AS about 14 minutes. System suitability— System performance: Dissolve 1 mg each of magnolol for assay and honokiol in diluted methanol (7 in 10) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, honokiol and mag-nolol are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of magnolol is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-b2",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin B2",
+    "ja": "リボフラビン"
+  },
+  "monographId": "JP18-vitamin-b2",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H20N4O6",
+  "molecularWeight": 376.36,
+  "appearance": {
+    "en": "Riboflavin occurs as yellow to orange-yellow crystals. It has a slight odor. It is very slightly soluble in water, practically insoluble in ethanol (95), in acetic acid (100), and in diethyl ether. It dissolves in sodium hydroxide TS. A saturated solution of Riboflavin is neutral. It is decomposed by light. Melting point: about 2909C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Riboflavin (1 in 100,000) is light yellow-green in color and has an intense yellow-green fluorescence. The color and fluorescence of the solution dis-appear upon the addition of 0.02 g of sodium hydrosulfite to 5 mL of the solution, and reappear on shaking the mixture in air. This fluorescence disappears upon the addition of dilute hydrochloric acid or sodium hydroxide TS. To 10 mL of a solution of Riboflavin (1 in 100,000) placed in a glass-stoppered test tube add 1 mL of sodium hy-droxide TS, and after illumination with a fluorescence lamp of 10 to 30 watts at 20-cm distance for 30 minutes between 209C and 409C, acidify with 0.5 mL of acetic acid (31), and shake with 5 mL of chloroform: the chloroform layer shows a yellow-green fluorescence. Determine the absorption spectrum of a solution of Riboflavin in phosphate buffer solution (pH 7.0) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Rivoflavin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. D Optical rotation <2.49> [a]20: －128 – －1429 Weigh accu-rately about 0.1 g of dried Riboflavin, dissolve in exactly 4 mL of dilute sodium hydroxide TS, add 10 mL of freshly boiled and cooled water, add exactly 4 mL of aldehyde-free ethanol while shaking, add freshly boiled and cooled water to make exactly 20 mL, and determine the rotation in a 100-mm cell within 30 minutes after preparing the solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Lumiflavin—Shake 25 mg of Riboflavin with 10 mL of ethanol-free chloroform for 5 minutes, and filter: the fil-trate has no more color than the following control solution. Control solution: To 2.0 mL of 1/60 mol/L potassium dichromate VS add water to make 1000 mL. MS: Amount (mg) of Riboflavin RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately about 15 mg of Riboflavin, previously dried, dissolve in 800 mL of diluted acetic acid (100) (1 in 400) by warming, cool, add water to make exactly 1000 mL, and use this solution as the sample solution. Dry Riboflavin RS at 1059C for 2 hours, weigh accurately about 15 mg, dissolve in 800 mL of diluted acetic acid (100) (1 in 400) by warming, cool, add water to make exactly 1000 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using water as the blank, and deter-mine the absorbances, AT and AS, at 445 nm. Add 0.02 g of sodium hydrosulfite to 5 mL of each solution, shake until decolorized, and immediately measure the absorbances, AT? and AS?, of the solutions. Amount (mg) of riboflavin (C17H20N4O6) ＝ MS × (AT － AT?)/(AS － AS?) 17 20 4 6 Description Riboflavin occurs as yellow to orange-yellow crystals. It has a slight odor. It is very slightly soluble in water, practically insoluble in ethanol (95), in acetic acid (100), and in diethyl ether. It dissolves in sodium hydroxide TS. A saturated solution of Riboflavin is neutral. It is decomposed by light. Melting point: about 2909C (with decomposition). Identification (1) A solution of Riboflavin (1 in 100,000) is light yellow-green in color and has an intense yellow-green fluorescence. The color and fluorescence of the solution dis-appear upon the addition of 0.02 g of sodium hydrosulfite to 5 mL of the solution, and reappear on shaking the mixture in air. This fluorescence disappears upon the addition of dilute hydrochloric acid or sodium hydroxide TS. To 10 mL of a solution of Riboflavin (1 in 100,000) placed in a glass-stoppered test tube add 1 mL of sodium hy-droxide TS, and after illumination with a fluorescence lamp of 10 to 30 watts at 20-cm distance for 30 minutes between 209C and 409C, acidify with 0.5 mL of acetic acid (31), and shake with 5 mL of chloroform: the chloroform layer shows a yellow-green fluorescence. Determine the absorption spectrum of a solution of Riboflavin in phosphate buffer solution (pH 7.0) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Rivoflavin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. D Optical rotation <2.49> [a]20: －128 – －1429 Weigh accu-rately about 0.1 g of dried Riboflavin, dissolve in exactly 4 mL of dilute sodium hydroxide TS, add 10 mL of freshly boiled and cooled water, add exactly 4 mL of aldehyde-free ethanol while shaking, add freshly boiled and cooled water to make exactly 20 mL, and determine the rotation in a 100-mm cell within 30 minutes after preparing the solution. Purity Lumiflavin—Shake 25 mg of Riboflavin with 10 mL of ethanol-free chloroform for 5 minutes, and filter: the fil-trate has no more color than the following control solution. Control solution: To 2.0 mL of 1/60 mol/L potassium dichromate VS add water to make 1000 mL. MS: Amount (mg) of Riboflavin RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxycodone-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxycodone Hydrochloride Hydrate",
+    "ja": "オキシコドン塩酸塩水和物"
+  },
+  "monographId": "JP18-oxycodone-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H21NO4.HCl.3H2O",
+  "molecularWeight": 405.87,
+  "definition": {
+    "en": "Oxycodone Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Oxycodone Hydrochloride Hydrate occurs as a white crystalline powder. larger than 3/5 times the peak area of oxycodone from the standard solution. For the area of the peak, having the rela-tive retention time of about 1.8 to oxycodone, multiply the correction factor 0.17. Operating conditions— Detector: An ultraviolet absorption photometer (wavelength: 280 nm). Column: A stainless steel column 4.6 mm in inside di-ameter and 10 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle di-ameter). Column temperature: A constant temperature of about 409C. Mobile phase A: Dissolve 1.0 g of sodium lauryl sulfate in 500 mL of diluted phosphoric acid (1 in 1000), and adjust to pH 3.0 with sodium hydroxide TS. To 4 volumes of this so-lution add 1 volume of tetrahydrofuran for liquid chro-matography. Mobile phase B: Dissolve 1.0 g of sodium lauryl sulfate in 500 mL of diluted phosphoric acid (1 in 1000), and adjust to pH 3.0 with sodium hydroxide TS. To 1 volume of this solu-tion add 1 volume of tetrahydrofuran for liquid chro-matography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. It is freely soluble in water, in methanol and in acetic acid (100), sparingly soluble in ethanol (95), slightly soluble in acetic anhydride. The pH of a solution dissolved 1.0 g of Oxycodone Hy-drochloride Hydrate in 10 mL of water is between 3.8 and 5.8. Time after injection 0 – 30 30 – 70 100 → 0 0 → 100 of sample (min) Mobile phase A (volz) Mobile phase B (volz) It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Oxycodone Hydrochloride Hydrate (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Oxyc-odone Hydrochloride Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Oxycodone Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －140 – －1499(0.5 g calcu-lated on the anhydrous basis, water, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Oxycodone Hydrochloride Hydrate in 10 mL of water: the solution is clear and colorless. (2) Related substances—Dissolve 26 mg of Oxycodone Hydrochloride Hydrate in 20 mL of the mobile phase A, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase A to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than oxycodone obtained from the sample so-lution is not larger than 1/5 times the peak area of oxyco-done from the standard solution, and the total area of the peaks other than oxycodone from the sample solution is not Flow rate: 1.0 mL per minute. Time span of measurement: About 5 times as long as the retention time of oxycodone, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 2.5 mL of the stan-dard solution, add the mobile phase A to make exactly 50 mL. Confirm that the peak area of oxycodone obtained with 50 mL of this solution is equivalent to 3.5 to 6.5z of that with 50 mL of the standard solution. System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of oxycodone are not less than 3000 and between 0.7 and 1.3, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of oxycodone is not more than 2.0z. Water <2.48> 12 – 15z (0.2 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Oxycodone Hydro-chloride Hydrate, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 35.18 mg of C18H21NO4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

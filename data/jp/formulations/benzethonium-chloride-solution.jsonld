@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/benzethonium-chloride-solution",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Benzethonium Chloride Solution",
+    "ja": "ベンゼトニウム塩化物液"
+  },
+  "monographId": "JP18-benzethonium-chloride-solution",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Benzethonium Chloride Solution contains not less than 93."
+  },
+  "appearance": {
+    "en": "Benzethonium Chloride Solution is a clear, colorless liquid. It is odorless. It foams strongly when shaken."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Evaporate a volume of Benzethonium Chloride Solution, equivalent to 0.2 g of Benzethonium Chloride, on a water bath to dryness, and proceed with the residue as directed in the Identification (1) under Benzetho-nium Chloride. To a volume of Benzethonium Chloride Solution, equivalent to 0.01 g of Benzethonium Chloride, add water to make 10 mL, proceed with 2 mL of this solution as directed in the Identification (2) under Benzethonium Chloride. To a volume of Benzethonium Chloride Solution, equivalent to 1 g of Benzethonium Chloride, and add water or concentrate on a water bath to make 10 mL. To 1 mL of this solution add 0.1 mol/L hydrochloric acid TS to make 500 mL, and determine the abosorption spectrum as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its maxima between 262 nm and 264 nm, between 268 nm and 270 nm, and between 274 nm and 276 nm. To a volume of Benzethonium Chloride Solution, equivalent to 0.1 g of Benzethonium Chloride, add water, or concentrate on a water bath, if necessary, to make 10 mL, and proceed with 1 mL of this solution as directed in the Identification (4) under Benzethonium Chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Nitrite—Add 1.0 mL of Benzethonium Chlo-ride Solution to a mixture of 1 mL of a solution of glycine (1 in 10) and 0.5 mL of acetic acid (31): no gas is evolved. (2) Oxidizing substances—To 5 mL of Benzethonium Chloride Solution add 0.5 mL of potassium iodide TS and 2 to 3 drops of dilute hydrochloric acid: no yellow color is produced."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet a volume of Benzethonium Chloride Solution, equivalent to about 0.2 g of benzethonium chloride (C27H42ClNO2), dilute with water to make 75 mL, if neces-sary, and proceed as directed in the Assay under Benzetho-nium Chloride. ‌JP XVIII Official Monographs / Benzyl Alcohol 523‌ Each mL of 0.02 mol/L sodium tetraphenylboron VS ＝ 8.962 mg of C27H42ClNO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Solution"
+}

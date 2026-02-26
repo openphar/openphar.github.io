@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/schizonepetae-spica",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Schizonepetae Spica",
+    "ja": "ケイガイ"
+  },
+  "monographId": "JP18-schizonepetae-spica",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Oblong spike, 5 – 10 cm in length, 0.5 – 0.8 cm in diameter, purplish green-brown to green-brown in color. Spike, with calyx-tubes containing small labiate flower or often fruits; sometimes leaves under spike; leaf, linear or small lanceolate; stem, prismatic, purple-brown in color. Under a magnifying glass, it reveals short hairs. It has a characteristic aroma and slightly cool feeling on keeping in the mouth."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Schizonepeta Spike add 10 mL of ethyl acetate, shake for 15 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (3:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes. After cooling for more than 10 minutes under an adequate humidity, examine under ultraviolet light (main wavelength: 365 nm): two spots, one is a blue fluorescent spot with an Rf value of about 0.5 and the another is a yellow fluorescent spot with an Rf value of about 0.1, are observed. Total ash <5.05> Not more than 11.0z. Acid-insoluble ash <5.05> Not more than 3.0z. Extract content <5.05> Dilute ethanol-soluble extract: not less than 8.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

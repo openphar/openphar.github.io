@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-ricini",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Ricini",
+    "ja": "ヒマシ油"
+  },
+  "monographId": "JP18-oleum-ricini",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Castor Oil is a colorless or pale yellow, clear, viscous oil. It has a slight, characteristic odor, and has a bland at first, and afterwards slightly acrid taste. It is miscible with ethanol (99.5) and with diethyl ether. It is freely soluble in ethanol (95), and practically insoluble in water. When cooled to 09C, it becomes more viscous, and tur-bidity is gradually formed."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of Castor Oil add 1 g of potassium hydroxide, and heat the mixture carefully to fuse: a charac-teristic odor is perceptible. Dissolve the fused matter in 30 mL of water, add an excess of magnesium oxide, and filter. Acidify the filtrate with hydrochloric acid: white crystals is produced. Specific gravity <1.13> d 25: 0.953 – 0.965 Acid value <1.13> Not more than 1.5. Saponification value <1.13> 176 – 187 Hydroxyl value <1.13> 155 – 177 Iodine value <1.13> 80 – 90"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Adulteration—Shake to mix 1.0 g of Castor Oil with 4.0 mL of ethanol (95): it dissolves clearly. Add 15 mL of ethanol (95): no turbidity is produced."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

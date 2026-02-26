@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clofibrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clofibrate",
+    "ja": "クロフィブラート"
+  },
+  "monographId": "JP18-clofibrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H15ClO3",
+  "molecularWeight": 242.7,
+  "definition": {
+    "en": "Clofibrate contains not less than 98."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Clofibrate, add exactly 50 mL of 0.1 mol/L potassium hydroxide-ethanol VS, and heat in a water bath under a reflux condenser with a carbon dioxide absorbing tube (soda-lime) for 2 hours with frequent shaking. Cool, and titrate <2.50> immediately the excess potassium hydroxide with 0.1 mol/L hydrochloric acid VS (indicator: 3 drops of phenolphthalein TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 24.27 mg of C12H15ClO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

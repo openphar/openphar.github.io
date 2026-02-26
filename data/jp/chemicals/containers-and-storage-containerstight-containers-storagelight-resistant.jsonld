@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/containers-and-storage-containerstight-containers-storagelight-resistant",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Containers and storage Containers—Tight containers. Storage—Light-resistant.",
+    "ja": "ジヒドロコデインリン酸塩散 1"
+  },
+  "monographId": "JP18-containers-and-storage-containerstight-containers-storagelight-resistant",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of a so-lution of 1z Dihydrocodeine Phosphate Powder (1 in 100) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 281 nm and 285 nm. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of 1z Dihydrocodeine Phosphate Powder is not less than 85z. Start the test with about 1 g of 1z Dihydrocodeine Phos-phate Powder, accurately weighed, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 5 mL of the first filtrate, and use the subsequent filtrate as the sample so-lution. Separately, weigh accurately about 50 mg of dihydro-codeine phosphate for assay (separately determine the loss on drying <2.41> at 1059C for 4 hours), and dissolve in water to make exactly 100 mL. Pipet 2 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of dihydrocodeine in each solution. ‌858 Dissolution rate (z) with respect to the labeled amount of dihydrocodeine phosphate (C18H23NO3.H3PO4) ＝ MS/MT × AT/AS × 9/5 MS: Amount (mg) of dihydrocodeine phosphate for assay taken, calculated on the dried basis MT: Amount (g) of 1z Dihydrocodeine Phosphate Pow-der taken Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry ing conditions, the relative standard deviation of the ratios of the peak area of dihydrocodeine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

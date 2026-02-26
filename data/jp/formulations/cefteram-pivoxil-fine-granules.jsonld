@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/cefteram-pivoxil-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Cefteram Pivoxil Fine Granules",
+    "ja": "セフテラム ピボキシル細粒"
+  },
+  "monographId": "JP18-cefteram-pivoxil-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Cefteram Pivoxil Fine Granules. To a portion of the powder, equivalent to 0.1 g (potency) of Cefteram Pivoxil, add 20 mL of methanol, shake well, and filter. To 1 mL of the filtrate add 0.05 mol/L hydrochloric acid-methanol TS to make 500 mL, and determine the ab-sorption spectrum as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a maximum between 262 nm and 266 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Powder Cefteram Pivoxil Fine Granules, if necessary. To a portion, equivalent to 0.1 g (po-tency) of Cefteram Pivoxil, add diluted acetonitrile (1 in 2) to make 100 mL, disperse the particle by sonicating, then filter, and use the filtrate as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine each peak area by the automatic integration method: the area of the peak, having the relative retention time of about 0.9 to cefteram pivoxil obtained from the sample solu-tion, is not larger than 1.75 times the peak area of cefteram pivoxil obtained from the standard solution, the area of the peak, having the relative retention time of about 0.1 from the sample solution, is not larger than 17/25 times the peak area of cefteram pivoxil from the standard solution, and the total area of the peaks other than cefteram pivoxil from the sample solution is not larger than 3.7 times the peak area of cefteram pivoxil from the standard solution. For the area of the peak, having the relative retention time of about 0.1 to cefteram pivoxil, multiply the correction factor, 0.74. Operating conditions— Proceed as directed in the operating conditions in the Purity (2) under Cefteram Pivoxil. System suitability— Proceed as directed in the system suitability in the Purity (2) under Cefteram Pivoxil. Water <2.48> Not more than 0.3z (0.1 g (potency), coulo-metric titration). Uniformity of dosage units <6.02> The Granules in single-dose packages meet the requirement of the Mass variation test. Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Powder Cefteram Pivoxil Fine Granules, if neces-sary. Weigh accurately an amount of the powder, equivalent to about 0.3 g (potency) of Cefteram Pivoxil, add exactly 30 mL of the internal standard solution and diluted acetonitrile (1 in 2) to make 300 mL. Disperse the particle by sonicating, then filter, and use the filtrate as the sample solution. Sepa-rately, weigh accurately an amount of Cefteram Pivoxil Mesitylene Sulfonate RS, equivalent to about 50 mg (poten-cy), dissolve in 20 mL of diluted acetonitrile (1 in 2), add ex- actly 5 mL of the internal standard solution and diluted acetonitrile (1 in 2) to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefteram pivoxil to that of the internal standard. Amount [mg (potency)] of cefteram (C16H17N9O5S2) ＝ MS × QT/QS × 6 MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in diluted acetonitrile (1:2) (1 in 1000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Cefteram Pivoxil. System suitability— Proceed as directed in the system suitability in the Assay under Cefteram Pivoxil."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

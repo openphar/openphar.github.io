@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/barium-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Barium Sulfate",
+    "ja": "硫酸バリウム"
+  },
+  "monographId": "JP18-barium-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "BaSO4",
+  "molecularWeight": 233.39,
+  "appearance": {
+    "en": "Barium Sulfate occurs as a white powder. It is odorless and tasteless. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It does not dissolve in hydrochloric acid, in nitric acid and in sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Mix 0.5 g of Barium Sulfate with 2 g each of anhydrous sodium carbonate and potassium carbon-ate in a crucible, heat the mixture until fusion is complete, treat the cooled mass with hot water, and filter. The filtrate, acidified with hydrochloric acid, responds to Qualitative Tests <1.09> for sulfate. (2) Wash the hot water-insoluble residue obtained in (1) with water, dissolve in 2 mL of acetic acid (31), and filter, if necessary: the solution responds to Qualitative Tests <1.09> for barium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Agitate 1.0 g of Barium Sulfate with 20 mL of water for 5 minutes: the solution is neutral. Phosphate—Boil 1.0 g of Barium Sulfate with 3 mL of nitric acid and 5 mL of water for 5 minutes, cool, and add water to restore the original volume. Filter through a filter paper, previously washed with dilute nitric acid, to the fil-trate add an equal volume of hexaammonium heptamolyb-date TS, and allow to stand between 509C and 609C for 1 hour: no yellow precipitate is produced. Sulfide—Place 10 g of Barium Sulfate in a 250-mL conical flask, add 10 mL of dilute hydrochloric acid and water to make 100 mL, and boil for 10 minutes: the gas evolved does not darken moistened lead (II) acetate paper. Heavy metals <1.07>—Boil 5.0 g of Barium Sulfate with 2.5 mL of acetic acid (100) and 50 mL of water for 10 minutes, cool, add 0.5 mL of ammonia TS and water to make 100 mL, and filter. Perform the test with a 50-mL por-tion of this filtrate. Prepare the control solution with 2.5 mL of Standard Lead Solution, 1.25 mL of acetic acid (100), 0.25 mL of ammonia TS and water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Barium Sulfate according to Method 1, and perform the test (not more than 1 ppm). Hydrochloric acid-soluble substances and soluble barium salts—Cool the solution obtained in (3), add water to make 100 mL, and filter. Evaporate 50 mL of the filtrate on a water bath to dryness, add 2 drops of hydrochloric acid and 10 mL of warm water, filter through a filter paper for quantitative analysis, and wash with 10 mL of warm water. Evaporate the combined filtrate and washings on a water bath to dryness, and dry the residue at 1059C for 1 hour: the residue weighs not more than 15 mg. Shake the residue, if any, with 10 mL of water, and filter. To the filtrate add 0.5 mL of dilute sulfuric acid, and allow to stand for 30 minutes: no turbidity is produced. ‌514‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

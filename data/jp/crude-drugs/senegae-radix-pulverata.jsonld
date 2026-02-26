@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/senegae-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Senegae Radix Pulverata",
+    "ja": "セネガ末"
+  },
+  "monographId": "JP18-senegae-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Senega occurs as a light brown pow-der, and has a characteristic odor resembling the aroma of methyl salicylate; taste, sweet at first, but later acrid. Under a microscope <5.01>, Powdered Senega reveals frag- ments of pitted vessels, reticulate vessels and tracheids; frag-ments of xylem fibers with oblique pits; fragments of xylem parenchyma cells with simple pits; fragments of phloem parenchyma containing oily droplets; fragments of exoder-mis often composed of cells suberized and divided into daughter cells; oily droplets stained red by sudan III TS. The parenchyma cells of Powdered Senega do not contain starch grains and crystals of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of Powdered Senega with 10 mL of water: a lasting fine foam is produced. (2) Shake 0.5 g of Powdered Senega with 30 mL of water for 15 minutes, and filter. Take 1 mL of the filtrate, mix with 50 mL of water, and determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum at about 317 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Senega according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Senega according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, stone cells, starch grains or crystals of calcium oxalate are not ob-served. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 30.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

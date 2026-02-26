@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/compound-phellodendron-powder-for-cataplasm",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Compound Phellodendron Powder for Cataplasm",
+    "ja": "パップ用複方オウバク散"
+  },
+  "monographId": "JP18-compound-phellodendron-powder-for-cataplasm",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Compound Phellodendron Powder for Cataplasm occurs as a yellow-brown powder, having a char-acteristic odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake thoroughly 0.2 g of Compound Phel-lodendron Powder for Cataplasm with 5 mL of methanol, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of Berberine Chloride RS or berberine chloride hydrate for thin-layer chromatography in 1 mL of methanol, and use the solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 10 cm, air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): one of the several spots ob-tained from the sample solution has the same color tone and Rf value with the yellow to yellow-green fluorescent spot from the standard solution (phellodendron bark)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Powder"
+}

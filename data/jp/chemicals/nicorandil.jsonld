@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nicorandil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Nicorandil",
+    "ja": "ニコランジル"
+  },
+  "monographId": "JP18-nicorandil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H9N3O4",
+  "molecularWeight": 211.17,
+  "appearance": {
+    "en": "Nicorandil occurs as white crystals. It is freely soluble in methanol, in ethanol (99.5) and in acetic acid (100), soluble in acetic anhydride, and sparingly soluble in water. Melting point: about 929C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nicorandil (1 in 50,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Nicorandil as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Dissolve 2.0 g of Nicorandil in 20 mL of dilute ethanol, add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS, 20 mL of dilute ethanol and 1 mL of dilute hydrochloric acid, and dilute with water to make 50 mL (not more than 0.010z). Heavy metals <1.07>—Proceed with 2.0 g of Nicoran- dil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 20 mg of Nicorandil in 10 mL of the mobile phase, and use this solution as the sam-ple solution. Perform the test with 10 mL of the sample solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the peak area of N-(2-hydroxyethyl)isonicotinamide nitric ester, having the relative retention time of about 0.86 to nicoran-dil, is not more than 0.5z of the peak area of nicorandil, the area of all other peaks is less than 0.1z, and the sum area of the peaks other than nicorandil and N-(2-hydrox-yethyl)isonicotinamide nitric ester is not more than 0.25z of the total peak area. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, tetrahydrofuran, triethylamine and trifluoroacetic acid (982:10:5:3). sample solution. When the procedure is run with 10 mL of this solution under the above operating conditions, N-(2-hydroxyethyl)isonicotinamide nitric ester and nicorandil are eluted in this order with the resolution between these peaks being not less than 3.0. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of nicorandil is not more than 1.5z. Water <2.48> Not more than 0.1z (2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Nicorandil, dissolve in 30 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 21.12 mg of C8H9N3O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—At a temperature between 29C and 89C."
+  }
+}

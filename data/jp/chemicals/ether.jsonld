@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ether",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ether",
+    "ja": "エーテル"
+  },
+  "monographId": "JP18-ether",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H10O",
+  "molecularWeight": 74.12,
+  "definition": {
+    "en": "Ether contains not less than 96z and not more than 98z (by specific gravity) of ether (C4H10O)."
+  },
+  "appearance": {
+    "en": "Ether is a colorless, clear, mobile liquid, hav-ing a characteristic odor. It is miscible with ethanol (95). It is soluble in water. It is highly volatile and flammable. It is slowly oxidized by the action of air and light, with the formation of peroxides. Its vapor, when mixed with air and ignited, may explode violently. Boiling point: 35 – 379C Specific gravity <2.56> d 20: 0.718 – 0.721"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Foreign odor—Place 10 mL of Ether in an evaporating dish, and allow it to evaporate spontaneously to a volume of about 1 mL: no foreign odor is perceptible. Drop this residue onto a piece of clean, odorless filter paper to evaporate the ether: no foreign odor is perceptible. Acidity—Place 10 mL of diluted ethanol (95) (4 in 5) and 0.5 mL of phenolphthalein TS in a 50-mL glass-stoppered flask, and add 0.02 mol/L sodium hydroxide VS dropwise to produce a red color which persists after shaking for 30 seconds. Add 25 mL of Ether, stopper the flask, shake gently, and add 0.40 mL of 0.02 mol/L sodium hy-droxide VS with shaking: a red color develops. Aldehyde—Place 10 mL of Ether in a Nessler tube, add 1 mL of potassium hydroxide TS, and allow the mixture ‌968‌ to stand for 2 hours, protecting from light, with occasional shaking: no color is produced in the ether layer and the aqueous layer. Peroxide—Place 10 mL of Ether in a Nessler tube, add 1 mL of a freshly prepared solution of potassium iodide (1 in 10), shake for 1 minute, then add 1 mL of starch TS, and shake well: no color is produced in the ether layer and in the aqueous layer. Residue on evaporation—Evaporate 140 mL of Ether, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 1.0 mg."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

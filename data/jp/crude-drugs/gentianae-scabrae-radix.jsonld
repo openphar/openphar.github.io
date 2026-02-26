@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/gentianae-scabrae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Gentianae Scabrae Radix",
+    "ja": "リュウタン"
+  },
+  "monographId": "JP18-gentianae-scabrae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregular, cylindrical, short rhizome with numerous, slender roots around, and externally yellow-brown to grayish yellow-brown. The root is 10 – 15 cm in length, about 0.3 cm in diameter, and has longitudinal, coarse wrinkles on the outer surface; flexible; fractured surface, smooth and yellow-brown in color. The rhizome is about 2 cm in length, about 0.7 cm in diameter, and has buds or short remains of stems at the top. Odor, slight; taste, extremely bitter and lasting. Under a microscope <5.01>, a transverse section of the young root reveals epidermis, exodermis and a few cellular layers of primary cortex; usually, the outermost layer is endodermis consisting of characteristic cells divided into a few daughter cells, often with collenchyma of 1 to 2 cellular layers contacting the inner side; secondary cortex having rents here and there, and irregularly scattered sieve tubes; vessels arranged rather radially in xylem, sieve tubes existing in xylem; the rhizome has a large pith, rarely with sieve tubes; parenchyma cells contain small needle, plate or sand crystals of calcium oxalate and oil drops; starch grains usu-ally absent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Japanese Gentian add 10 mL of methanol, shake for 20 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of gentiopicroside for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solu-tion has the same color tone and the same Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Japanese Gentian according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Japanese Gentian according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

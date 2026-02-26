@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/epinephrine-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Epinephrine Injection",
+    "ja": "アドレナリン注射液"
+  },
+  "monographId": "JP18-epinephrine-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Adrenaline Injection is a colorless, clear liq-uid. It changes gradually to pale red and then to brown on exposure to air and light. pH: 2.3 – 5.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Adrenaline Injection add 4 mL of water and 1 drop of iron (III) chloride TS: a deep green color is produced, and it gradually changes to red. (2) Place 1 mL each of Adrenaline Injection in test tubes A and B, and proceed as directed in the Identification (2) under Adrenaline. Extractable volume <6.05> It meets the requirement. D"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 30 mL of Adrenaline Injection into a separa-tor, add 25 mL of carbon tetrachloride, shake vigorously for 1 minute, allow the liquids to separate, and discard the car-bon tetrachloride. Repeat this procedure three times. Rinse the stopper and mouth of the separator with a small amount of water. Add 0.2 mL of starch TS, then while swirling the separator add iodine TS dropwise until a persistent blue color develops, and immediately add sodium thiosulfate TS to discharge the blue color. Add 2.1 g of sodium hydrogen carbonate to the liquid in the separator, preventing it from coming in contact with the mouth of the separator, and shake until most of the sodium hydrogen carbonate dis-solves. Rapidly inject 1.0 mL of acetic anhydride into the contents of the separator. Immediately stopper the separator loosely, and allow to stand until the evolution of gas ceases. Shake vigorously, allow to stand for 5 minutes, extract with six 25-mL portions of chloroform, and filter each chlo-roform extract through a pledget of absorbent cotton. Evaporate the combined chloroform extracts on a water bath in a current of air to 3 mL, completely transfer this residue by means of small portions of chloroform to a tared beaker, and heat again to evaporate to dryness. Dry the residue at 1059C for 30 minutes, cool in a desiccator (silica gel), and accurately measure the mass M (mg) of the dried residue. Dissolve in chloroform to make exactly 5 mL, and determine the optical rotation <2.49> [a]20 using a 100-mm cell. Amount (mg) of adrenaline (C9H13NO3) D ＝ M ×{0.5 ＋ (0.5 ×|[a]20|)/93}× 0.592"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Injection"
+}

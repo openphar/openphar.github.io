@@ -1,0 +1,2555 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/bio-sources/",
+    "op": "https://www.openphar.org/ontology/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/achyranthes-root-achyranthes-bidentata-blume-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Achyranthes bidentata Blume or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/achyranthes-bidentata-blume-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/agar-gelidium-elegans-kuetzing",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Gelidium\nelegans Kuetzing",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/gelidium-elegans-kuetzing"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/akebia-stem-akebia-quinata-decaisne-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Akebia\nquinata Decaisne or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/akebia-quinata-decaisne-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "climbing stem"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/akebia-stem-akebia-quinata-decaisne",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Akebia\nquinata Decaisne",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/akebia-quinata-decaisne"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "climbing stem",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Lardizabalaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/alisma-tuber-alisma-orientale-juzepczuk",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Alisma orientale Juzepczuk",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/alisma-orientale-juzepczuk"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tuber",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Alismataceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/aloe-the-leaves-mainly-of",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the leaves mainly of",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-leaves-mainly-of"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "dried juice"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/aloe-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this\nsolution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/aloe-aloe-ferox-miller",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Aloe\nferox Miller",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/aloe-ferox-miller"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "dried juice"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/alpinia-officinarum-rhizome-alpinia-officinarum-hance",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Alpinia officinarum Hance",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/alpinia-officinarum-hance"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/amomum-seed-amomum-villosum-loureiro-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Amomum villosum Loureiro var",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/amomum-villosum-loureiro-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "seed mass"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/anemarrhena-rhizome-anemarrhena-asphodeloides-bunge",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Anemarrhena asphodeloides Bunge",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/anemarrhena-asphodeloides-bunge"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/angelica-dahurica-root-angelica-dahurica-bentham-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Angelica\ndahurica Bentham et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/angelica-dahurica-bentham-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/apricot-kernel-prunus-armeniaca-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Prunus armeniaca\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/prunus-armeniaca-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/aralia-rhizome-aralia-cordata-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Aralia cordata Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/aralia-cordata-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "usually the rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Araliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/areca-areca-catechu-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Areca catechu Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/areca-catechu-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/artemisia-capillaris-flower-artemisia-capillaris-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Artemisia capillaris Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/artemisia-capillaris-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Flower is the capitulum",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/artemisia-leaf-artemisia-princeps-pampanini-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Artemisia\nprinceps Pampanini or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/artemisia-princeps-pampanini-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaf and twig"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/artemisia-leaf-artemisia-princeps-pampanini",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Artemisia\nprinceps Pampanini",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/artemisia-princeps-pampanini"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaf and twig",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/asiasarum-root-asiasarum-heterotropoides-f",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Asiasarum heterotropoides F",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/asiasarum-heterotropoides-f"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/asparagus-root-asparagus-cochinchinensis-merrill",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Asparagus cochinchinensis Merrill",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/asparagus-cochinchinensis-merrill"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/astragalus-root-astragalus-membranaceus-bunge-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Astragalus membranaceus Bunge or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/astragalus-membranaceus-bunge-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/astragalus-root-astragalus-membranaceus-bunge",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Astragalus membranaceus Bunge",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/astragalus-membranaceus-bunge"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/atractylodes-lancea-rhizome-atractylodes-lancea-de-candolle",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Atractylodes lancea De Candolle",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/atractylodes-lancea-de-candolle"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/atractylodes-rhizome-light-yellow",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "light yellow",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/light-yellow"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "fibrous. A transverse section, with fine dots"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bear-bile-ursus-arctos-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ursus arctos Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ursus-arctos-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "dried bile"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bearberry-leaf-arctostaphylos-uvaursi-sprengel",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Arctostaphylos uvaursi Sprengel",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/arctostaphylos-uvaursi-sprengel"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the leaf",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Ericaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bearberry-leaf-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/yellow-beeswax-apis-mellifera-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Apis mellifera Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/apis-mellifera-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "honeycombs such as those"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/belladonna-root-atropa-belladonna-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Atropa belladonna\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/atropa-belladonna-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/belladonna-root-diethyl-ether",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "diethyl ether",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/diethyl-ether"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "add 25 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/belladonna-total-alkaloids-the-extract-from-belladonna",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the extract from Belladonna",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-extract-from-belladonna"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "prepared by purification"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/belladonna-total-alkaloids-the-internal-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the internal\nstandard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-internal-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add exactly 3 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/benincasa-seed-slightly-sclerified-parenchyma-beneath",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "slightly sclerified parenchyma beneath",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/slightly-sclerified-parenchyma-beneath"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "composed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bitter-cardamon-alpinia-oxyphylla-miquel",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Alpinia oxyphylla\nMiquel",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/alpinia-oxyphylla-miquel"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bitter-orange-peel-the-ripe-fruit-of",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the ripe fruit of",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-ripe-fruit-of"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "pericarp"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/brown-rice-oryza-sativa-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Oryza sativa Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/oryza-sativa-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bupleurum-root-bupleurum-falcatum-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Bupleurum falcatum\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/bupleurum-falcatum-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/bupleurum-root-dilute-sodium-hydroxide-ts",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "dilute sodium hydroxide\nTS",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dilute-sodium-hydroxide-ts"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add 2.5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/burdock-fruit-arctium-lappa-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Arctium lappa Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/arctium-lappa-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cacao-butter-theobroma-cacao-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Theobroma cacao Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/theobroma-cacao-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fat obtained from the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/calumba-jateorhiza-columba-miers",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Jateorhiza\ncolumba Miers",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/jateorhiza-columba-miers"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "cross-sectioned root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Menispermaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/capsicum-capsicum-annuum-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Capsicum annuum Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/capsicum-annuum-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cardamon-elettaria-cardamomum-maton",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Elettaria cardamomum\nMaton",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/elettaria-cardamomum-maton"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cassia-seed-cassia-obtusifolia-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cassia obtusifolia Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cassia-obtusifolia-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/catalpa-fruit-catalpa-ovata-g",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Catalpa ovata G",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/catalpa-ovata-g"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cherry-bark-prunus-jamasakura-siebold-ex",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Prunus jamasakura\nSiebold ex",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/prunus-jamasakura-siebold-ex"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cimicifuga-rhizome-cimicifuga-dahurica-maximowicz",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cimicifuga\ndahurica Maximowicz",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cimicifuga-dahurica-maximowicz"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cinnamon-bark-cinnamomum-cassia-j",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cinnamomum cassia J",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cinnamomum-cassia-j"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "bark of the trunk"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/citrus-unshiu-peel-the-ripe-fruit-of",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the ripe fruit of",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-ripe-fruit-of"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "pericarp"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/citrus-unshiu-peel-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/citrus-unshiu-peel-citrus-unshiu-marcowicz",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Citrus unshiu Marcowicz",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/citrus-unshiu-marcowicz"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "pericarp of the ripe fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Rutaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/clematis-root-clematis-mandshurica-ruprecht",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Clematis\nmandshurica Ruprecht",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/clematis-mandshurica-ruprecht"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Root is the root with rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/clematis-root-short-rhizome-and-numerous",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "short rhizome and\nnumerous",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/short-rhizome-and-numerous"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Root consists"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/clematis-root-acetic-anhydride",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "acetic anhydride",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/acetic-anhydride"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Root add 3 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/clove-syzygium-aromaticum-merrill-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Syzygium aromaticum\nMerrill et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/syzygium-aromaticum-merrill-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "flowering bud"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cnidium-monnieri-fruit-cnidium-monnieri-cusson",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cnidium\nmonnieri Cusson",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cnidium-monnieri-cusson"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cnidium-rhizome-cnidium-officinale-makino",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cnidium\nofficinale Makino",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cnidium-officinale-makino"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/codonopsis-root-codonopsis-pilosula-nannfeldt-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Codonopsis pilosula\nNannfeldt or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/codonopsis-pilosula-nannfeldt-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Root is the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/codonopsis-root-codonopsis-pilosula-nannfeldt",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Codonopsis pilosula\nNannfeldt",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/codonopsis-pilosula-nannfeldt"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Root is the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Campanulaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/coix-seed-coix-lachryma",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Coix lachryma",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/coix-lachryma"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/condurango-marsdenia-cundurango-reichenbach-filius",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Marsdenia\ncundurango Reichenbach filius",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/marsdenia-cundurango-reichenbach-filius"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "bark of the trunk",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Asclepiadaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/coptis-rhizome-the-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the standard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "not more than that",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "not more than 5 ppm"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/coptis-rhizome-coptis-japonica-makino",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Coptis japonica\nMakino",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/coptis-japonica-makino"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Rhizome is the rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/coptis-rhizome-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 20 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cornus-fruit-cornus-officinalis-siebold-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cornus officinalis Siebold et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cornus-officinalis-siebold-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "pulp of the pseudocarp"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cornus-fruit-the-spot",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the\nspot",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-spot"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "found immediately below"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/corydalis-tuber-corydalis-turtschaninovii-basser-forma",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Corydalis turtschaninovii Basser forma",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/corydalis-turtschaninovii-basser-forma"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Tuber is the tuber"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/corydalis-tuber-sodium-perchlorate",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "sodium perchlorate",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sodium-perchlorate"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution add 14.05 g"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/corydalis-tuber-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/crataegus-fruit-parenchyma-cells-beneath-these",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "parenchyma cells beneath these",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/parenchyma-cells-beneath-these"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "or 2- to 3-cellular layer"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/cyperus-rhizome-cyperus-rotundus-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cyperus rotundus Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cyperus-rotundus-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/digenea-digenea-simplex-c",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Digenea simplex C",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/digenea-simplex-c"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "whole algae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/dioscorea-rhizome-dioscorea-japonica-thunberg-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Dioscorea japonica Thunberg or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dioscorea-japonica-thunberg-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome (rhizophore)"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/dioscorea-rhizome-dioscorea-japonica-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Dioscorea japonica Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dioscorea-japonica-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome (rhizophore)",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Dioscoreaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/dolichos-seed-dolichos-lablab-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Dolichos lablab Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dolichos-lablab-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/dolichos-seed-sclerenchymatous-and-sandglass-like",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "sclerenchymatous and sandglass\nlike",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sclerenchymatous-and-sandglass-like"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "a single layer"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/eleutherococcus-senticosus-rhizome-eleutherococcus-senticosus-maximowicz",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Eleutherococcus senticosus Maximowicz",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/eleutherococcus-senticosus-maximowicz"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Acanthopanax senticosus Harms"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ephedra-herb-ephedra-sinica-stapf",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ephedra\nsinica Stapf",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ephedra-sinica-stapf"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "terrestrial stem"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ephedra-herb-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/epimedium-herb-epimedium-koreanum-nakai",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Epimedium koreanum Nakai",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/epimedium-koreanum-nakai"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "terrestrial part"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/eucommia-bark-eucommia-ulmoides-oliver",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Eucommia ulmoides\nOliver",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/eucommia-ulmoides-oliver"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Eucommiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/euodia-fruit-euodia-officinalis-dode",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Euodia officinalis Dode",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/euodia-officinalis-dode"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Evodia officinalis Dode"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/fennel-foeniculum-vulgare-miller",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Foeniculum vulgare Miller",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/foeniculum-vulgare-miller"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Umbelliferae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/forsythia-fruit-forsythia-suspensa-vahl",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Forsythia suspensa\nVahl",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/forsythia-suspensa-vahl"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Oleaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/fritillaria-bulb-fritillaria-verticillata-willdenow-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Fritillaria verticillata\nWilldenow var",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/fritillaria-verticillata-willdenow-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "the bulb"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/gambir-the-leaves-and-young",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the leaves and young",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-leaves-and-young"
+      }
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/gardenia-fruit-gardenia-jasminoides-ellis",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Gardenia jasminoides\nEllis",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/gardenia-jasminoides-ellis"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Rubiaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/gardenia-fruit-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/gastrodia-tuber-gastrodia-elata-blume",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Gastrodia elata\nBlume",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/gastrodia-elata-blume"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tuber",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Orchidaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/gentian-gentiana-lutea-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Gentiana lutea\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/gentiana-lutea-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/geranium-herb-geranium-thunbergii-siebold-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Geranium\nthunbergii Siebold et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/geranium-thunbergii-siebold-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "terrestrial part"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ginseng-panax-ginseng-c",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Panax ginseng C",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/panax-ginseng-c"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ginseng-dilute-sodium-hydroxide-ts",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "dilute sodium hydroxide\nTS",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dilute-sodium-hydroxide-ts"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add 3 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ginseng-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this\nsolution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/glehnia-root-and-rhizome-glehnia-littoralis-fr",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Glehnia littoralis Fr",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/glehnia-littoralis-fr"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/glycyrrhiza-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/hedysarum-root-hedysarum-polybotrys-handel",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Hedysarum polybotrys Handel",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/hedysarum-polybotrys-handel"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/hemp-fruit-cannabis-sativa-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cannabis sativa Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cannabis-sativa-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/honey-apis-mellifera-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Apis mellifera Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/apis-mellifera-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "honeycomb"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/houttuynia-herb-houttuynia-cordata-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Houttuynia cordata Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/houttuynia-cordata-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "terrestrial part",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Saururaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/imperata-rhizome-imperata-cylindrica-beauvois",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Imperata cylindrica Beauvois",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/imperata-cylindrica-beauvois"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Gramineae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/imperata-rhizome-sulfuric-acid-to-make",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "sulfuric\nacid to make",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sulfuric-acid-to-make"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution in a test tube, and add carefully 0.5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ipecac-cephaelis-ipecacuanha-a",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cephaelis ipecacuanha A",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cephaelis-ipecacuanha-a"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ipecac-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ipecac-syrup-glycerin-and-simple-syrup",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Glycerin and Simple Syrup",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/glycerin-and-simple-syrup"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution add 100 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ipecac-syrup-the-standard-solution-under",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the standard solution under",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-standard-solution-under"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 2 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/japanese-angelica-root-angelica-acutiloba-kitagawa-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Angelica\nacutiloba Kitagawa or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/angelica-acutiloba-kitagawa-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/japanese-gentian-gentiana-scabra-bunge",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Gentiana scabra Bunge",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/gentiana-scabra-bunge"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/japanese-gentian-characteristic-cells-divided-into",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "characteristic cells divided into",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/characteristic-cells-divided-into"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "consisting"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/japanese-valerian-valeriana-fauriei-briquet",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Valeriana fauriei Briquet",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/valeriana-fauriei-briquet"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root and rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Valerianaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/japanese-zanthoxylum-peel-the-ripe-fruit-of",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the\nripe fruit of",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-ripe-fruit-of"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "pericarps"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/jujube-ziziphus-jujuba-miller-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ziziphus jujuba Miller var",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ziziphus-jujuba-miller-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/jujube-seed-ziziphus-jujuba-miller-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ziziphus jujuba Miller\nvar",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ziziphus-jujuba-miller-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/koi-the-starch-of-zea",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the starch of Zea",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-starch-of-zea"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "a saccharized substance obtained by hydrolysis"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/purified-lanolin-the-fatlike-substance-obtained",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the fatlike substance obtained",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-fatlike-substance-obtained"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "purified product"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/purified-lanolin-the-spot-of-standard",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the spot of standard",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-spot-of-standard"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "observable same level"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/purified-lanolin-ovis-aries-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ovis aries\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ovis-aries-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "the wool"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/leonurus-herb-leonurus-japonicus-houttuyn-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Leonurus\njaponicus Houttuyn or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/leonurus-japonicus-houttuyn-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "aerial part"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lilium-bulb-lilium-lancifolium-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lilium lancifolium\nThunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lilium-lancifolium-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "scaly leaves"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lindera-root-lindera-strychnifolia-fernandez",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lindera strychnifolia\nFernandez",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lindera-strychnifolia-fernandez"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lithospermum-root-lithospermum-erythrorhizon-siebold-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lithospermum\nerythrorhizon Siebold et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lithospermum-erythrorhizon-siebold-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/longan-aril-euphoria-longana-lamarck",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Euphoria longana\nLamarck",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/euphoria-longana-lamarck"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "the aril",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Sapindaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/longan-aril-depressed-parenchyma-cells",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "depressed parenchyma\ncells",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/depressed-parenchyma-cells"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "observed parenchyma consisting"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/longgu-large-mammal",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "large mammal",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/large-mammal"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "ossified bone"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lonicera-leaf-and-stem-lonicera-japonica-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lonicera japonica Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lonicera-japonica-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaves and stems",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Caprifoliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/loquat-leaf-eriobotrya-japonica-lindley",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Eriobotrya japonica\nLindley",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/eriobotrya-japonica-lindley"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the leaf",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lycium-bark-lycium-chinense-miller-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lycium chinense\nMiller or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lycium-chinense-miller-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/lycium-fruit-lycium-chinense-miller-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Lycium chinense Miller\nor",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/lycium-chinense-miller-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/magnolia-bark-magnolia-obovata-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Magnolia\nobovata Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/magnolia-obovata-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "bark of the trunk"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/magnolia-bark-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/magnolia-flower-magnolia-biondii-pampanini",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Magnolia\nbiondii Pampanini",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/magnolia-biondii-pampanini"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "flower bud"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/mallotus-bark-mallotus-japonica-m",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Mallotus japonica\nM",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/mallotus-japonica-m"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/malt-hordeum-vulgare-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Hordeum vulgare\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/hordeum-vulgare-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "dried ripe caryopsis"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/mentha-herb-mentha-arvensis-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Mentha arvensis Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/mentha-arvensis-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "terrestrial part"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/mentha-water-mentha-oil",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "mentha oil",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/mentha-oil"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "a clear, colorless liquid, having the odor"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/moutan-bark-paeonia-suffruticosa-andrews",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Paeonia suffruticosa Andrews",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/paeonia-suffruticosa-andrews"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root bark",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Paeonia moutan Sims"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/mulberry-bark-morus-alba-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Morus alba Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/morus-alba-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nelumbo-seed-nelumbo-nucifera-gaertner",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Nelumbo nucifera\nGaertner",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/nelumbo-nucifera-gaertner"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Nymphaeaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nelumbo-seed-compressed-cells",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "compressed cells",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/compressed-cells"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "and parenchyma"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nelumbo-seed-calcium-oxalate-and-tannin",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "calcium oxalate and tannin",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/calcium-oxalate-and-tannin"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "and parenchyma; aggregate crystals"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/notopterygium-notopterygium-incisum-ting-ex",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Notopterygium incisum Ting ex",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/notopterygium-incisum-ting-ex"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome and root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nuphar-rhizome-nuphar-japonica-de-candolle",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Nuphar japonica De Candolle",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/nuphar-japonica-de-candolle"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "longitudinally split rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nutmeg-myristica-fragrans-houttuyn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Myristica fragrans Houttuyn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/myristica-fragrans-houttuyn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Myristicaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nux-vomica-strychnos-nux",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Strychnos nux",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/strychnos-nux"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nux-vomica-diethyl-ether",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "diethyl ether",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/diethyl-ether"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution add 20 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nux-vomica-the-internal-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the internal standard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-internal-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add exactly 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/nux-vomica-the-standard-solution-under",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the standard solution under",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-standard-solution-under"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/ophiopogon-root-the-root-of-ophiopogon",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the root of\nOphiopogon",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-root-of-ophiopogon"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "enlarged part"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/oriental-bezoar-bos-taurus-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Bos taurus Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/bos-taurus-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "a stone formed in the gall sac"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/oyster-shell-ostrea-gigas-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Ostrea gigas Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ostrea-gigas-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "shell",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Ostreidae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/panax-japonicus-rhizome-panax-japonicus-c",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Panax\njaponicus C",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/panax-japonicus-c"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/peach-kernel-prunus-persica-batsch-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Prunus persica Batsch or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/prunus-persica-batsch-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/peony-root-paeonia-lactiflora-pallas",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Paeonia lactiflora Pallas",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/paeonia-lactiflora-pallas"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Paeoniaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/peony-root-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/perilla-herb-branches-of-perilla-frutescens",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "branches\nof Perilla frutescens",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/branches-of-perilla-frutescens"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaves and the tips"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/pharbitis-seed-pharbitis-nil-choisy",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Pharbitis nil Choisy",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/pharbitis-nil-choisy"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "Seed is the seed",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Convolvulaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/phellodendron-bark-phellodendron-amurense-ruprecht-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Phellodendron\namurense Ruprecht or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/phellodendron-amurense-ruprecht-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/phellodendron-bark-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution\nunder the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 20 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/phellodendron-bark-phellodendron-amurense-ruprecht",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Phellodendron\namurense Ruprecht",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/phellodendron-amurense-ruprecht"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Rutaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/picrasma-wood-picrasma-quassioides-bennet",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Picrasma quassioides Bennet",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/picrasma-quassioides-bennet"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the wood",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Simaroubaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/pinellia-tuber-pinellia-ternata-breitenbach",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Pinellia ternata\nBreitenbach",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/pinellia-ternata-breitenbach"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tuber",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Araceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/plantago-herb-plantago-asiatica-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Plantago asiatica Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/plantago-asiatica-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "entire plant"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/plantago-seed-plantago-asiatica-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Plantago asiatica Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/plantago-asiatica-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/plantago-seed-cells-containing-mucilage",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "cells containing mucilage",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cells-containing-mucilage"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "composed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/platycodon-root-platycodon-grandiflorus-a",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Platycodon grandiflorus A",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/platycodon-grandiflorus-a"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/pogostemi-herb-pogostemon-cablin-bentham",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Pogostemon cablin Bentham",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/pogostemon-cablin-bentham"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "terrestrial part",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/polygala-root-polygala-tenuifolia-willdenow",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Polygala tenuifolia Willdenow",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/polygala-tenuifolia-willdenow"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "root or the root bark",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Polygalaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/polygonatum-rhizome-polygonatum-kingianum-collett-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Polygonatum kingianum Collett et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/polygonatum-kingianum-collett-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/polygonatum-rhizome-epidermis-parenchyma-lie",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "epidermis parenchyma lie",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/epidermis-parenchyma-lie"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "coated with cuticle; inside"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/polygonum-root-polygonum-multiflorum-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Polygonum multiflorum Thunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/polygonum-multiflorum-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Polygonaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/polyporus-sclerotium-polyporus-umbellatus-fries",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Polyporus\numbellatus Fries",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/polyporus-umbellatus-fries"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "sclerotium",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Polyporaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/poria-sclerotium-wolfiporia-cocos-ryvarden-et",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Wolfiporia\ncocos Ryvarden et",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/wolfiporia-cocos-ryvarden-et"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "sclerotium"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/prepared-glycyrrhiza-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/processed-aconite-root-aconitum-carmichaeli-debeaux-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Aconitum carmichaeli Debeaux or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/aconitum-carmichaeli-debeaux-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tuberous root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/processed-aconite-root-aconitum-carmichaeli-debeaux",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Aconitum carmichaeli Debeaux",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/aconitum-carmichaeli-debeaux"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tuberous root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Ranunculaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/processed-ginger-zingiber-officinale-roscoe",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Zingiber\nofficinale Roscoe",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/zingiber-officinale-roscoe"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Zingiberaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/prunella-spike-prunella-vulgaris-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Prunella vulgaris\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/prunella-vulgaris-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "spike"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/pueraria-root-pueraria-lobata-ohwi",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Pueraria lobata Ohwi",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/pueraria-lobata-ohwi"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/quercus-bark-quercus-acutissima-carruthers",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Quercus acutissima\nCarruthers",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/quercus-acutissima-carruthers"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the bark"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/red-ginseng-panax-ginseng-c",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Panax ginseng C",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/panax-ginseng-c"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/red-ginseng-dilute-sodium-hydroxide-ts",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "dilute sodium hydroxide\nTS",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dilute-sodium-hydroxide-ts"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add 3 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/red-ginseng-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this\nsolution under the",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/rehmannia-root-rehmannia-glutinosa-liboschitz-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Rehmannia glutinosa\nLiboschitz var",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/rehmannia-glutinosa-liboschitz-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/rhubarb-rheum-palmatum-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Rheum palmatum\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/rheum-palmatum-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "usually the rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/rhubarb-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under\nthe",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 20 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/rose-fruit-rosa-multiflora-thunberg",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Rosa multiflora\nThunberg",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/rosa-multiflora-thunberg"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "false or true fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Rosaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/rosin-plants-of-pinus-species",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "plants of Pinus species",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/plants-of-pinus-species"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "resin obtained from the exudation",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Pinaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/royal-jelly-the-supernatant-liquid",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the supernatant liquid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-supernatant-liquid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, pipet 2 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/royal-jelly-the-internal-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the internal\nstandard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-internal-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add exactly 2 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/safflower-carthamus-tinctorius-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Carthamus tinctorius Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/carthamus-tinctorius-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "tubulous flower"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/saffron-crocus-sativus-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Crocus sativus Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/crocus-sativus-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "stigma"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/saffron-the-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the standard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "larger than that"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/salvia-miltiorrhiza-root-salvia-miltiorrhiza-bunge",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Salvia miltiorrhiza Bunge",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/salvia-miltiorrhiza-bunge"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/salvia-miltiorrhiza-root-the-cork-layer",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the cork layer",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-cork-layer"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "at the outside"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/sappan-wood-caesalpinia-sappan-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Caesalpinia sappan\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/caesalpinia-sappan-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "duramen"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/saussurea-root-saussurea-lappa-clarke",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Saussurea lappa\nClarke",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/saussurea-lappa-clarke"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Compositae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/schisandra-fruit-schisandra-chinensis-baillon",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Schisandra chinensis\nBaillon",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/schisandra-chinensis-baillon"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Schisandraceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/schizonepeta-spike-schizonepeta-tenuifolia-briquet",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Schizonepeta\ntenuifolia Briquet",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/schizonepeta-tenuifolia-briquet"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "spike",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/scopolia-rhizome-scopolia-japonica-maximowicz",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Scopolia japonica Maximowicz",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/scopolia-japonica-maximowicz"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome with root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/scopolia-rhizome-diethyl-ether",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "diethyl ether",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/diethyl-ether"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "add 25 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/scopolia-rhizome-scopolamine-and-atropine-being",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "scopolamine and atropine being",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/scopolamine-and-atropine-being"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "order with the resolution between the peaks"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/scutellaria-root-scutellaria-baicalensis-georgi",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Scutellaria baicalensis\nGeorgi",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/scutellaria-baicalensis-georgi"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Labiatae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/senega-polygala-senega-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Polygala senega Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/polygala-senega-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/senna-leaf-cassia-angustifolia-vahl-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cassia angustifolia Vahl\nor",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cassia-angustifolia-vahl-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaflets"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/senna-leaf-the-leaf",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the leaf",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-leaf"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "in parallel with the surface"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/senna-leaf-foreign-matter",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "foreign matter",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/foreign-matter"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "and fruit—When perform the test"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/senna-leaf-cassia-angustifolia-vahl",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Cassia angustifolia Vahl",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/cassia-angustifolia-vahl"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaflets",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/sesame-sesamum-indicum-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Sesamum indicum Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sesamum-indicum-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the seed"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/smilax-rhizome-smilax-glabra-roxburgh",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Smilax glabra\nRoxburgh",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/smilax-glabra-roxburgh"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Liliaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/sodium-sulfate-hydrate-sodium-sulfate",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "sodium sulfate",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sodium-sulfate"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "mainly decahydrate",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Na2SO4"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/sophora-root-sophora-flavescens-aiton",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Sophora flavescens\nAiton",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/sophora-flavescens-aiton"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Leguminosae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/sweet-hydrangea-leaf-hydrangea-macrophylla-seringe-var",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Hydrangea macrophylla Seringe var",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/hydrangea-macrophylla-seringe-var"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "leaf and twig"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/swertia-herb-swertia-japonica-makino",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Swertia japonica\nMakino",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/swertia-japonica-makino"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "whole herb",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Gentianaceae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/swertia-herb-this-solution-under-the",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "this solution under\nthe",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/this-solution-under-the"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "run with 10 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/swertia-herb-these-peaks-being-not",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "these peaks\nbeing not",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/these-peaks-being-not"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "order with the resolution"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/toad-cake-bufo-gargarizans-cantor-or",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Bufo gargarizans Cantor or",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/bufo-gargarizans-cantor-or"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "parotoid secretion"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/toad-cake-the-internal-standard-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "the internal standard solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/the-internal-standard-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution, add exactly 5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/toad-cake-bufo-gargarizans-cantor",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Bufo gargarizans Cantor",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/bufo-gargarizans-cantor"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "parotoid secretion",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/family": "Bufonidae"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/tragacanth-hydrochloric-acid",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "hydrochloric\nacid",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/hydrochloric-acid"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "formed, add 5 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/tragacanth-astragalus-gummifer-labillardi",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Astragalus gummifer Labillardi",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/astragalus-gummifer-labillardi"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "trunks"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/tribulus-fruit-tribulus-terrestris-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Tribulus terrestris\nLinn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/tribulus-terrestris-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "fruit"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/trichosanthes-root-trichosanthes-kirilowii-maximowicz",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Trichosanthes\nkirilowii Maximowicz",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/trichosanthes-kirilowii-maximowicz"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "the root"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/turmeric-curcuma-longa-linn",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "Curcuma longa Linn",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/curcuma-longa-linn"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismPart": "rhizome"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/uncaria-hook-ammonia-solution",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "ammonia solution",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/ammonia-solution"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "solution add 1 mL"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/wood-creosote-phenols-obtained-from-by",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "phenols obtained\nfrom by",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/phenols-obtained-from-by"
+      },
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/substanceType": "a mixture"
+    },
+    {
+      "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/biological-sources/wood-creosote-dry-distillation-of-stems",
+      "@type": [
+        "op:BiologicalSource"
+      ],
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/organismName": "dry distillation\nof stems",
+      "https://www.herbapedia.com/pharmacopoeia/jpr/ontology/derivedFromOrganism": {
+        "@id": "https://www.openphar.org/pharmacopoeia/jpr/data/jp/organisms/dry-distillation-of-stems"
+      }
+    }
+  ]
+}

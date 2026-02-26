@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-bisulfite",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Bisulfite",
+    "ja": "亜硫酸水素ナトリウム"
+  },
+  "monographId": "JP18-sodium-bisulfite",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Bisulfite is a mixture of sodium hydrogen-sulfite and sodium pyrosulfite. It contains not less than 64."
+  },
+  "appearance": {
+    "en": "Sodium Bisulfite occurs as white, granules or powder, having the odor of sulfur dioxide. It is freely soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. A solution of Sodium Bisulfite (1 in 20) is acid. Sodium Bisulfite is slowly affected by air or by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Sodium Bisulfite (1 in 20) re-sponds to Qualitative Tests <1.09> for sodium salt and for bi-sulfite."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Bisulfite in 10 mL of water: the solution is clear and colorless. Thiosulfate—Dissolve 1.0 g of Sodium Bisulfite in 15 mL of water, add slowly 5 mL of dilute hydrochloric acid, shake, and allow to stand for 5 minutes: no turbidity is pro-duced. Heavy metals <1.07>—Dissolve 1.0 g of Sodium Bi- sulfite in 10 mL of water, add 5 mL of hydrochloric acid, and evaporate on a water bath to dryness. To the residue add 2 mL of dilute acetic acid and water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution as follows: evaporate 5 mL of hy-drochloric acid on a water bath to dryness, and add 2 mL of dilute acetic acid and 2.0 mL of Standard Lead Solution, and dilute with water to make 50 mL (not more than 20 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of Sodium Bisulfite according to Method 1, and perform the test according to Method A. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 0.5 g of Sodium Bisulfite in mL of water. Add 1 mL of sulfuric acid, heat on a sand bath until white fumes are evolved, add water to make 5 mL, and perform the test with this solution as the test solution (not more than 4 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Sodium Bisulfite, and transfer immediately into an iodine flask containing ‌exactly 50 mL of 0.05 mol/L iodine VS, stopper, shake, and allow to stand for 5 minutes in a dark place. Add 1 mL of hydrochloric acid, and titrate <2.50> the excess iodine with‌ 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner. Each mL of 0.05 mol/L iodine VS ＝ 3.203 mg of SO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

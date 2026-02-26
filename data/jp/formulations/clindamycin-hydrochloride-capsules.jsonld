@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/clindamycin-hydrochloride-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Clindamycin Hydrochloride Capsules",
+    "ja": "クリンダマイシン塩酸塩カプセル"
+  },
+  "monographId": "JP18-clindamycin-hydrochloride-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Clindamycin Hydrochloride Capsules contain not less than 93.0z and not more than 107.0z of the labeled potency of clindamycin (C H ClN O S: ride. Centrifuge this solution, and use the supernatant liquid as the sample solution. Then, proceed as directed in the Assay. Amount [mg (potency)] of clindamycin (C18H33ClN2O5S) ＝ MS × AT/AS × V/100 MS: Amount [mg (potency)] of Clindamycin Hydrochlo-ride RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate of a 75-mg capsule in 15 minutes and that of a 150-mg capsule in 30 minutes are not less than 80z, respectively. Start the test with 1 capsule of Clindamycin Hydrochlo-ride Capsules, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make ex-actly V? so that each mL contains about 83 mg (potency) of Clindamycin Hydrochloride, and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of the contents of Clindamy-cin Hydrochloride Capsules, equivalent to 10 mg (potency) of Clindamycin Hydrochloride, add 2 mL of methanol, shake well, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 10 mg of Clindamycin Hydrochloride RS in 2 mL of methanol, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of methanol, toluene and ammonia solution (28) (140:60:3) to a distance of about 12 cm, and air-dry the plate. Spray evenly a mixture of 500 mL of a solution of L-tartaric acid (1 in 5) and 50 mL of bismuth subnitrate TS on the plate: the Rf values of the principal spot with the sample solution and the spot with the standard solution are not different each other. Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Adjust the pH of 0.05 mol/L potassium di-hydrogen phosphate TS to 7.5 with 8 mol/L potassium hy-droxide TS. To 550 mL of this solution add 450 mL of aceto-nitrile. Flow rate: Adjust so that the retention time of clindamy-cin is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of clindamycin are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times ‌JP XVIII Official Monographs / Clindamycin Phosphate 777 with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of clindamycin is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take out the contents of not less than 20 Clindamy-cin Hydrochloride Capsules, weigh accurately the mass of the contents, and powder. Weigh accurately a portion of the powder, equivalent to about 75 mg (potency) of Clindamycin Hydrochloride, add the mobile phase, shake for 30 minutes, and add the mobile phase to make exactly 100 mL. Centri-fuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately an amount of Clindamycin Hydrochloride RS, equivalent to about 75 mg (potency), dissolve in the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of clindamycin in each solution. Clindamycin Phosphate"
+      }
+    }
+  ],
+  "dosageForm": "Capsule"
+}

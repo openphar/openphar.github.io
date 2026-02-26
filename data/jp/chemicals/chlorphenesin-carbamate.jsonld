@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chlorphenesin-carbamate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chlorphenesin Carbamate",
+    "ja": "クロルフェネシンカルバミン酸エステル"
+  },
+  "monographId": "JP18-chlorphenesin-carbamate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H12ClNO4",
+  "molecularWeight": 245.66,
+  "definition": {
+    "en": "Chlorphenesin Carbamate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Chlorphenesin Carbamate occurs as white, crystals or a crystalline powder. It is freely soluble in methanol, in ethanol (95) and in pyri-dine, and slightly soluble in water. A solution of Chlorphenesin Carbamate in ethanol (95) (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Chlorphenesin Carbamate in ethanol (95) (3 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Chlorphenesin Carbamate, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Perform the test with Chlorphenesin Carbamate as directed under Flame Coloration Test <1.04> (2): a green color appears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Dissolve 2.0 g of Chlor-phenesin Carbamate in 20 mL of ethanol (95), and add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the con-trol solution as follows: to 2.0 mL of Standard Lead Solu-tion add 20 mL of ethanol (95), 2 mL of dilute acetic acid and water to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Chlorphenesin Carbamate according to Method 3, and perform the test (not more than 2 ppm). Chlorphenesin-2-carbamate—Dissolve 0.10 g of Chlorphenesin Carbamate in 20 mL of a mixture of hexane for liquid chromatography and 2-propanol (7:3), and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine the peak area, Aa, of chlorphenesin carbamate and the peak area, Ab, of chlorphenesin-2-carbamate by the au-tomatic integration method: the ratio, Ab/(Aa ＋ Ab), is not more than 0.007. Operating conditions— Detector: An ultraviolet absorption photometer (wave- System performance: Dissolve 0.1 g of Chlorphenesin Carbamate in 50 mL of methanol. To 25 mL of this solution add 25 mL of dilute sodium hydroxide TS, and warm at 609C for 20 minutes. To 20 mL of this solution add 5 mL of 1 mol/L hydrochloric acid TS, shake well with 20 mL of ethyl acetate, and allow to stand to separate the upper layer. When the procedure is run with 10 mL of this layer under the above operating conditions, chlorphenesin, chlorphenesin carbamate and chlorphenesin-2-carbamate are eluted in this order, with the relative retention times of chlorphenesin and chlorphenesin-2-carbamate to chlorphenesin carbamate being about 0.7 and about 1.2, respectively, and with the resolution between the peaks of chlorphenesin and chlor-phenesin carbamate being not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak areas of chlorphenesin carbamate is not more than 2.0z. Related substances—Dissolve 0.10 g of Chlorphene-sin Carbamate in 10 mL of ethanol (95), and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, add ethanol (95) to make exactly 20 mL. Pipet 2 mL of this solution, add ethanol (95) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 50 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl ace-tate, methanol and ammonia solution (28) (17:2:1) to a dis-tance of about 10 cm, and air-dry the plate. Allow the plate to stand in iodine vapor for 20 minutes: the spot other than the principal spot obtained from the sample solution is not more than one, and it is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.20z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Chlorphenesin Car-bamate, previously dried, dissolve in 20 mL of pyridine, add exactly 50 mL of 0.1 mol/L potassium hydroxide-ethanol TS, and warm at 709C for 40 minutes. After cooling, add 100 mL of ethanol (95), and titrate <2.50> the excess potas-sium hydroxide with 0.1 mol/L hydrochloric acid VS until ‌JP XVIII Official Monographs / Chlorphenesin Carbamate Tablets 739 the color of the solution changes from blue through blue-green to yellow (indicator: 1 mL of thymol blue TS). Per-form a blank determination in the same manner. Each mL of 0.1 mol/L potassium hydroxide-ethanol TS ＝ 24.57 mg of C10H12ClNO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

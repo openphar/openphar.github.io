@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sulpiride-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sulpiride Capsules",
+    "ja": "スルピリドカプセル"
+  },
+  "monographId": "JP18-sulpiride-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulpiride Capsules contain not less than 95.0z and not more than 105.0z of the labeled amount of sulpi-ride (C15H23N3O4S: 341.43). Method of preparation Prepare as directed under Cap-sules, with Sulpiride. Identification Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank: it exhibits a maximum between 289 nm and 293 ‌nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 capsule of Sulpiride Capsules add 30 mL of 0.05 mol/L sulfuric acid TS, shake for 30 minutes, add 0.05 mol/L sulfuric acid TS to make exactly V mL so that each mL contains about 1 mg of sulpiride (C15H23N3O4S), and filter the solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the absorption spectrum of the sample solution obtained in the Assay as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank: it exhibits a maximum between 289 nm and 293 ‌nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 capsule of Sulpiride Capsules add 30 mL of 0.05 mol/L sulfuric acid TS, shake for 30 minutes, add 0.05 mol/L sulfuric acid TS to make exactly V mL so that each mL contains about 1 mg of sulpiride (C15H23N3O4S), and filter the solution. Discard the first 20 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add water to make ex-actly 100 mL, and use this solution as the sample solution. Proceed as directed in the Assay. tion. Discard the first 20 mL of the filtrate, pipet 5 mL of the subsequent filtrate, add water to make exactly 100 mL, and use this solution as the sample solution. Proceed as di-rected in the Assay. Amount (mg) of sulpiride (C15H23N3O4S) ＝ MS × AT/AS × V/50 MS: Amount (mg) of sulpiride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medi-um, the dissolution rate of a 50-mg tablet in 30 minutes is Amount (mg) of sulpiride (C ＝ MS × AT/AS × V/50 15H23N3O4S) not less than 80z, that of a 100-mg tablet in 45 minutes is not less than 75z, and that of a 200-mg tablet in 45 minutes is not less than 70z. MS: Amount (mg) of sulpiride for assay taken Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Cut the capsule of not less than 20 Sulpiride Cap-sules, weigh accurately the mass of the contents, and pow-der. Weigh accurately a portion of the powder, equivalent to about 0.1 g of sulpiride (C15H23N3O4S), add 70 mL of 0.05 mol/L sulfuric acid TS, shake for 30 minutes, and add 0.05 mol/L sulfuric acid TS to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet 5 mL of the sub-sequent filtrate, add water to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 50 mg of sulpiride for assay, previously dried at 1059C for 3 hours, and dissolve in 0.05 m/L sulfuric acid TS to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 291 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank. Start the test with 1 tablet of Sulpiride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.5 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 56 mg of sulpiride (C15H23N3 O4S), and use this solution as the sample solution. Sepa-rately, weigh accurately about 28 mg of sulpiride for assay, previously dried at 1059C for 3 hours, and dissolve in the dissolution medium to make exactly 100 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 25 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 291 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of sulpiride (C15H23N3O4S) ＝ MS × AT/AS × V?/V × 1/C × 180 MS: Amount (mg) of sulpiride for assay taken Amount (mg) of sulpiride (C ＝ MS × AT/AS × 2 15H23N3O4S) C: Labeled amount (mg) of sulpiride (C15H23N3O4S) in 1 tablet MS: Amount (mg) of sulpiride for assay taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

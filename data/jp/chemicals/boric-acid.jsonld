@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/boric-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Boric Acid",
+    "ja": "ホウ酸"
+  },
+  "monographId": "JP18-boric-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H3BO3",
+  "molecularWeight": 61.83,
+  "definition": {
+    "en": "Boric Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Boric Acid occurs as colorless or white, crys-tals or crystalline powder. It is odorless, and has a slight, characteristic taste. It is freely soluble in warm water, in hot ethanol (95) and in glycerin, soluble in water and in ethanol (95), and practi-cally insoluble in diethyl ether. The pH of a solution of 1.0 g of Boric Acid in 20 mL of water is between 3.5 and 4.1."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Boric Acid (1 in 20) responds to Qualitative Tests <1.09> for borate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Boric Acid in 25 mL of water or in 10 mL of hot ethanol (95): the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Boric Acid according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution ‌JP XVIII Official Monographs / Bromfenac Sodium Hydrate 563‌‌ (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Boric Acid according to Method 1, and perform the test (not more than 5 ppm). Loss on drying <2.41> Not more than 0.5z (2 g, silica gel, 5 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Boric Acid, previ-ously dried, add 15 g of D-sorbitol and 50 mL of water, and dissolve by warming. After cooling, titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 drops of phenol-phthalein TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 61.83 mg of H3BO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

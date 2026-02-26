@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/etacrynic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Etacrynic Acid",
+    "ja": "エタクリン酸"
+  },
+  "monographId": "JP18-etacrynic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C13H12Cl2O4",
+  "molecularWeight": 303.14,
+  "definition": {
+    "en": "Etacrynic Acid, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Etacrynic Acid occurs as a white crystalline powder. It is odorless, and has a slightly bitter taste. It is very soluble in methanol, freely soluble in ethanol (95), in acetic acid (100) and in diethyl ether, and very slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Etacrynic Acid in 10 mL of acetic acid (100), and to 5 mL of this solution add 0.1 mL of bromine TS: the color of the test solution disappears. To the remaining 5 mL of the solution add 0.1 mL of potas-sium permanganate TS: the color of the test solution changes to light orange immediately. To 0.01 g of Etacrynic Acid add 1 mL of sodium hy-droxide TS, and heat in a water bath for 3 minutes. After cooling, add 1 mL of chromotropic acid TS, and heat in a water bath for 10 minutes: a deep purple color develops. Determine the absorption spectrum of a solution of Etacrynic Acid in methanol (1 in 20,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. JP XVIII Official Monographs / Etacrynic Acid Tablets 963 Perform the test with Etacrynic Acid as directed under Flame Coloration Test <1.04> (2): a green color ap-pears."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Etacrynic Acid in 10 mL of methanol: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Eta- ‌crynic Acid according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Etacrynic Acid according to Method 3, and perform the test. Add 10 mL of a solution of magnesium nitrate hexahy-drate in ethanol (95) (1 in 50), then add 1.5 mL of hydrogen peroxide (30), and fire to burn (not more than 2 ppm). Related substances—Dissolve 0.20 g of Etacrynic Acid in 10 mL of ethanol (95), and use this solution as the sample solution. Pipet 3 mL of the sample solution, add ethanol (95) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of chlo-roform, ethyl acetate and acetic acid (100) (6:5:2) to a dis-tance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Loss on drying <2.41> Not more than 0.25z (1 g, in vacu-um, 609C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Etacrynic Acid, pre-viously dried, place in an iodine bottle, dissolve in 20 mL of acetic acid (100), and add exactly 20 mL of 0.05 mol/L bro-mine VS. To this solution add 3 mL of hydrochloric acid, stopper tightly at once, shake, and allow to stand in a dark place for 60 minutes. Add carefully 50 mL of water and 15 mL of potassium iodide TS, stopper tightly at once, shake well, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Per-form a blank determination in the same manner. Each mL of 0.05 mol/L bromine VS ＝ 15.16 mg of C13H12Cl2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefteram-pivoxil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefteram Pivoxil",
+    "ja": "セフテラム ピボキシル"
+  },
+  "monographId": "JP18-cefteram-pivoxil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H27N9O7S2",
+  "molecularWeight": 593.64,
+  "definition": {
+    "en": "Cefteram Pivoxil contains not less than 743 mg (po-tency) and not more than 824 mg (potency) per mg, JP XVIII Official Monographs / Cefteram Pivoxil 705 calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefteram Pivoxil occurs as a white to pale yellow-white powder. It is very soluble in acetonitrile, freely soluble in metha-nol, in ethanol (95) and in chloroform, and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefteram Pivoxil in 0.05 mol/L hydrochloric acid-methanol TS (1 in 100,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cefteram Pivoxil as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefteram Pivoxil in deuterated chloroform for nuclear magnetic reso-nance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using tetramethy-lsilane for nuclear magnetic resonance spectroscopy as an mL. Confirm that the peak area of cefteram pivoxil obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of cefteram pivoxil are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of cefteram pivoxil is not more than 3.0z. Water <2.48> Not more than 3.0z (0.3 g, coulometric titration)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Cefteram Pivoxil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Cefteram Pivoxil in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the each area of the peaks, having the relative retention time of about 0.2 and about 0.9 to cefteram pivoxil, obtained from the sample so-lution is not larger than 1/2 times and 1.25 times the peak area of cefteram pivoxil from the standard solution, respec-tively, the area of the peak other than cefteram pivoxil and the peaks mentioned above is not larger than 1/4 times the peak area of cefteram pivoxil from the standard solution, and the total area of the peaks other than cefteram pivoxil is not larger than 2.75 times the peak area of cefteram pivoxil from the standard solution. For the area of the peak, having the relative retention time of about 0.1 to cefteram pivoxil, multiply the correction factor, 0.74. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of cefteram pivoxil. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add the mobile phase to make exactly 10 MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in diluted acetonitrile (1 in 2) (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 100 mL of acetic acid-sodium acetate buffer solution (pH 5.0) add 375 mL of acetonitrile and water to make 1000 mL. Flow rate: Adjust so that the retention time of cefteram pivoxil is about 14 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and cefteram pivoxil are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefteram pivoxil to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefteram Pivoxil and Cefteram Pivoxil Mesitylene Sulfonate RS, equivalent to about 40 mg (potency), dissolve each in 20 mL of diluted acetonitrile (1 in 2), add exactly 5 mL of the internal stand-ard solution and diluted acetonitrile (1 in 2) to make 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefteram pivoxil to that of the internal standard. internal reference compound: it exhibits singlet signals A, B Amount [ mg (potency)] of cefteram (C H N O S ) and C, at around d 1.2 ppm, at around d 2.5 ppm and at around d 4.0 ppm, respectively. The ratio of the integrated ＝ MS × QT/QS × 1000 16 17 9 5 2 intensity of these signals, A:B:C, is about 3:1:1. D Optical rotation <2.49> [a]20: ＋35 – ＋439(0.4 g calculated on the anhydrous basis, methanol, 20 mL, 100 mm). Purity (1) Heavy metals <1.07>—Proceed with 1.0 g of Cefteram Pivoxil according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Cefteram Pivoxil in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL, and use this so-lution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the each area of the peaks, having the relative retention time of about 0.2 and about 0.9 to cefteram pivoxil, obtained from the sample so-lution is not larger than 1/2 times and 1.25 times the peak area of cefteram pivoxil from the standard solution, respec-tively, the area of the peak other than cefteram pivoxil and the peaks mentioned above is not larger than 1/4 times the peak area of cefteram pivoxil from the standard solution, and the total area of the peaks other than cefteram pivoxil is not larger than 2.75 times the peak area of cefteram pivoxil from the standard solution. For the area of the peak, having the relative retention time of about 0.1 to cefteram pivoxil, multiply the correction factor, 0.74. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of cefteram pivoxil. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add the mobile phase to make exactly 10 MS: Amount [mg (potency)] of Cefteram Pivoxil Mesity-lene Sulfonate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in diluted acetonitrile (1 in 2) (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 100 mL of acetic acid-sodium acetate buffer solution (pH 5.0) add 375 mL of acetonitrile and water to make 1000 mL. Flow rate: Adjust so that the retention time of cefteram pivoxil is about 14 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and cefteram pivoxil are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefteram pivoxil to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  }
+}

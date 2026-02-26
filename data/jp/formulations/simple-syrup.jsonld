@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/simple-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Simple Syrup",
+    "ja": "単シロップ"
+  },
+  "monographId": "JP18-simple-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Simple Syrup is a clear, colorless to pale yel-low, viscous liquid. It is odorless and has a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Evaporate Simple Syrup on a water bath to dryness. 1 g of the residue so obtained, when ignited, melts to swell, and decomposes, emitting an odor of caramel, to bulky charcoal. (2) To 0.1 g of the residue obtained in (1) add 2 mL of dilute sulfuric acid, boil, add 4 mL of sodium hydroxide TS and 3 mL of Fehling's TS, and heat to boiling: a red to dark red precipitate is produced. Specific gravity <2.56> d 20: 1.310 – 1.325"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Artificial sweetening agents—To 100 mL of Simple Syrup add 100 mL of water, shake, acidify a 50-mL portion of the solution with dilute sulfuric acid, and make another 50-mL portion alkaline with sodium hydroxide TS. To each portion add 100 mL of diethyl ether, shake, separate the diethyl ether layer, and evaporate the combined diethyl ether extract on a water bath to dryness: the residue has no sweet taste. (2) Salicylic acid—To the residue obtained in (1) add 2 to 3 drops of dilute iron (III) chloride TS: no purple color de-velops."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Syrup"
+}

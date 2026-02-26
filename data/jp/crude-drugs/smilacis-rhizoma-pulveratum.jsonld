@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/smilacis-rhizoma-pulveratum",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Smilacis Rhizoma Pulveratum",
+    "ja": "サンキライ末"
+  },
+  "monographId": "JP18-smilacis-rhizoma-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Smilax Rhizome occurs as a light yellow-brown powder, and has a slight odor, and is practi-cally tasteless. Under a microscope <5.01>, Powdered Smilax Rhizome reveals starch grains and fragments of parenchyma cells containing them; fragments of raphides of calcium oxalate contained in mucilage masses; fragments of lignified paren-chyma cells of cortical layer; fragments of cork cells and scalariform vessels; starch grains composed mostly of simple grains, and mixed with a few 2- to 4-compound grains 12 – 36 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Smilax Rhizome according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Smilax Rhizome according to Method 4, and perform the test (not more than 5 ppm). Foreign matter—Under a microscope <5.01>, Pow- dered Smilax Rhizome does not show a large quantity of stone cells or thick-walled fibers. Total ash <5.01> Not more than 5.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-lactate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Lactate Hydrate",
+    "ja": "乳酸カルシウム水和物"
+  },
+  "monographId": "JP18-calcium-lactate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Lactate Hydrate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Calcium Lactate Hydrate occurs as white, powder or granules. It is odorless, and has a slightly acid taste. A 1 g portion of it dissolves gradually in 20 mL of water, and it is slightly soluble in ethanol (95), and practically in-soluble in diethyl ether. It is partly efflorescent at ordinary temperature, and yields the anhydride at 1209C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Calcium Lactate Hydrate (1 in 20) responds to Qualitative Tests <1.09> for calcium salt and for lactate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Calcium Lactate Hydrate in 20 mL of water by warming: the solution is clear. Acidity or alkalinity—To the solution obtained in (1) add 2 drops of phenolphthalein TS: no red color is pro-duced. Then add 0.50 mL of 0.1 mol/L sodium hydroxide VS: a red color develops. Heavy metals <1.07>—Dissolve 1.0 g of Calcium Lac- tate Hydrate in 30 mL of water and 5 mL of dilute acetic acid by warming, cool, add water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution from 2.0 mL of Standard Lead Solution and 2 mL of dilute acetic acid, and dilute with water to 50 mL (not more than 20 ppm). Magnesium or alkali metals—Dissolve 1.0 g of Cal-cium Lactate Hydrate in 40 mL of water, add 0.5 g of am-monium chloride, boil, then add 20 mL of ammonium oxa-late TS. Heat the mixture on a water bath for 1 hour, cool, dilute with water to 100 mL, and filter. To 50 mL of the fil-trate add 0.5 mL of sulfuric acid, evaporate to dryness, and ignite between 4509C and 5509C to constant mass: the mass of the residue is not more than 5 mg. Arsenic <1.11>—Dissolve 0.5 g of Calcium Lactate Hydrate in 2 mL of water and 3 mL of hydrochloric acid, and perform the test with this solution as the test solution (not more than 4 ppm). Volatile fatty acid—Warm 1.0 g of Calcium Lactate Hydrate with 2 mL of sulfuric acid: an odor of acetic acid or butyric acid is not perceptible. Loss on drying <2.41> 25.0 – 30.0z (1 g, 809C, 1 hour at first, then 1209C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Calcium Lactate Hydrate, previously dried, add water, dissolve by heating on a water bath, cool, and add water to make exactly 100 mL. Pipet 20 mL of this solution, then 80 mL of water and 1.5 mL of 8 mol/L potassium hydroxide TS, and allow to stand for 3 to 5 minutes. Add 0.1 g of NN indicator, and titrate ‌600 <2.50> immediately with 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solu-tion changes from red to blue. Each mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 4.364 mg of C6H10CaO6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

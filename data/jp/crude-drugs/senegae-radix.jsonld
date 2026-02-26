@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/senegae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Senegae Radix",
+    "ja": "セネガ"
+  },
+  "monographId": "JP18-senegae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Slender, conical root often branched, 3 – 10 cm in length; main root 0.5 – 1.5 cm in diameter; externally light grayish brown to grayish brown; with many longitudi-nal wrinkles and sometimes with twisted protruding lines; tuberously enlarged crown, with remains of stems and red buds; branched rootlets twisted; a transverse section reveals grayish brown cortex and yellowish white xylem; usually round, and sometimes cuneate to semicircular; cortex on the opposite side is thickened. Odor, characteristic, resembling the aroma of methyl salicylate; taste, sweet at first but leaving an acrid taste. Under a microscope <5.01>, a transverse section of the main root reveals a cork layer consisting of several cell rows of light brown cork cells; secondary cortex composed of parenchyma cells and phloen, traversed by medullary rays, 1 to 3 cells wide; medullary rays on xylem not distinct. Its parenchyma cells contain oil droplets, but starch grains and calcium oxalate crystals are absent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of pulverized Senega with 10 mL of water: a lasting fine foam is produced. (2) Shake 0.5 g of pulverized Senega with 30 mL of water for 15 minutes, and filter. Take 1 mL of the filtrate, mix with 50 mL of water, and determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits a maximum at about 317 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Senega according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Senega according to Method 4, and perform the test (not more than 5 ppm). Stem—When perform the test of foreign matter <5.01>, the amount of the stems contained in Senega does not exceed 2.0z. Foreign matter <5.01>—The amount of foreign mat-ter other than the stems is not more than 1.0z. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 30.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

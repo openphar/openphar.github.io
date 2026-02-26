@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrochlorothiazide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrochlorothiazide",
+    "ja": "ヒドロクロロチアジド"
+  },
+  "monographId": "JP18-hydrochlorothiazide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H8ClN3O4S2",
+  "molecularWeight": 297.74,
+  "casNumber": "58-93-5",
+  "definition": {
+    "en": "Hydrochlorothiazide, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Hydrochlorothiazide occurs as white, crystals or crystalline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in acetone, sparingly soluble in aceto-nitrile, very slightly soluble in water and in ethanol (95), and practically insoluble in diethyl ether. It dissolves in sodium hydroxide TS. Melting point: about 2679C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mg of Hydrochlorothiazide add 5 mL of chromotropic acid TS, and allow to stand for 5 minutes: a purple color develops. Fuse a mixture of 0.1 g of Hydrochlorothiazide and 0.5 g of sodium carbonate decahydrate cautiously: the gas evolved changes moistened red litmus paper to blue. After cooling, crush with a glass rod, add 10 mL of water, stir, and filter. To 4 mL of the filtrate add 2 drops of hydrogen peroxide (30), 5 mL of diluted hydrochloric acid (1 in 5) and 2 to 3 drops of barium chloride TS: a white precipitate is produced. To 4 mL of the filtrate obtained in (2) add 5 mL of dilute nitric acid and 3 drops of silver nitrate TS: a white precipitate is produced. Dissolve 12 mg of Hydrochlorothiazide in 100 mL of sodium hydroxide TS. Dilute 10 mL of the solution with water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum or the spectrum of a solution of Hydro-chlorothiazide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Hydrochlo-rothiazide in 30 mL of acetone, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.036z). Sulfate <1.14>—Dissolve 1.0 g of Hydrochloro- thiazide in 30 mL of acetone, add 1 mL of dilute hydrochlo-ric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.005 mol/L sulfuric acid VS add 30 mL of acetone, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Hydro- chlorothiazide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). ‌JP XVIII Official Monographs / Hydrocortisone 1113 Primary aromatic amines—Dissolve 80 mg of Hydro-chlorothiazide in acetone to make exactly 100 mL. Measure exactly 1 mL of the solution, add 3.0 mL of dilute hydro-chloric acid, 3.0 mL of water and 0.15 mL of sodium nitrite TS, shake, and allow to stand for 1 minute. Shake this solu-tion with 1.0 mL of ammonium amidosulfate TS, allow to stand for 3 minutes, then add 1.0 mL of N,N-diethyl-N?-1-naphthylenediamine oxalate TS, shake, and allow to stand for 5 minutes. Perform the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared with 1.0 mL of acetone in the same man-ner as the blank: the absorbance at 525 nm is not more than 0.10. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg each of Hydrochloro-thiazide and Hydrochlorothiazide RS, previously dried, and dissolve in 150 mL of the mobile phase, add exactly 10 mL each of the internal standard solution, then add the mobile phase to make 200 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of hydrochlorothiazide to that of the internal standard. Amount (mg) of hydrochlorothiazide (C7H8ClN3O4S2) ＝ MS × QT/QS MS: Amount (mg) of Hydrochlorothiazide RS taken Internal standard solution—A solution of 4-aminoacetophe-none in acetonitrile (9 in 2000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.1 mol/L sodium dihydrogen phosphate TS (pH 3.0) and acetonitrile (9:1). Flow rate: Adjust so that the retention time of hydrochlo-rothiazide is about 10 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, hydrochlorothiazide and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of hydrochlorothiazide to that of the inter-nal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

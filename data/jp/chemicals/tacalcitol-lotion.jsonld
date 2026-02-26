@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tacalcitol-lotion",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tacalcitol Lotion",
+    "ja": "タカルシトールローション"
+  },
+  "monographId": "JP18-tacalcitol-lotion",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tacalcitol Lotion contains not less than 90."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Perform the test with 30 mL each of the sam-ple solution and standard solution, both are obtained in the Assay, as directed under Liquid Chromatography <2.01> ac-cording to the following conditions: the retention time of the principal peaks in the chromatograms obtained from the sample solution and standard solution is the same, and both adsorption spectra of these peaks exhibit similar intensities of absorption at the same wavelengths. Operating conditions— Column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Detector: A photodiode array detector (wavelength: 265 nm; spectrum range of measurement: 210 – 400 nm). System suitability— System performance: Proceed as directed in the system suitability in the Assay."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Tacalcitol Lotion, equivalent to about 2 mg of tacalcitol (C27H44O3), add exactly 4 mL of methanol and exactly 1 mL of the internal standard solution, and shake. Add 5 mL of hexane, shake thoroughly for 30 minutes, centrifuge at 49C, filter the lower layer through a membrane filter with a pore size not exceeding 0.2 mm, and use the filtrate as the sample solution. Separately, weigh accurately about 1 mg of Tacalcitol RS (separately de-termine the water <2.48> in the same manner as Tacalcitol Hydrate), and dissolve in methanol to make exactly 20 mL. Pipet 1 mL of this solution, and add methanol to make ex-actly 100 mL. Pipet 4 mL of this solution, add exactly 1 mL of the internal standard solution, shake, add 5 mL of hexane and shake well for 30 minutes, then centrifuge at 49C, filter the lower layer through a membrane filter with a pore size ‌not exceeding 0.2 mm, and use the filtrate as the standard so-lution. Perform the test with 30 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of tacalcitol to that of the internal standard. Amount (mg) of tacalcitol (C27H44O3) ＝ MS × QT/QS × 2 MS: Amount (mg) of Tacalcitol RS taken, calculated on the anhydrous basis Internal standard solution—A solution of hexyl parahy-droxybenzoate in methanol (3 in 2,500,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of acetonitrile for liquid chroma-tography and diluted 0.25 mol/L acetic acid TS (1 in 10) (13:7). Flow rate: Adjust so that the retention time of tacalcitol is about 18 minutes. System suitability— System performance: When the procedure is run with 30 mL of the standard solution under the above operating con-ditions, the internal standard and tacalcitol are eluted in this order with the resolution between these peaks being not less than 14. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of tacalcitol to that of the internal standard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/citri-unshiu-pericarpium",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Citri Unshiu Pericarpium",
+    "ja": "チンピ"
+  },
+  "monographId": "JP18-citri-unshiu-pericarpium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregular pieces of pericarp, about 2 mm in thickness; externally yellow-red to dark yellow-brown, with numerous small dents associated with oil sacs; internally white to light grayish yellow-brown; light and brittle in texture. Odor, characteristic aroma; taste, bitter and slightly pun-gent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Citrus Unshiu Peel add 10 mL of methanol, warm on a water bath for 2 minutes, and filter. To 5 mL of the filtrate add 0.1 g of mag-nesium in ribbon-form and 1 mL of hydrochloric acid, and allow to stand: a red-purple color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 4.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 30.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Citrus Unshiu Peel provided that 1 mL of silicon resin is previously added to the sample in the flask: the volume of essential oil is not less than 0.2 mL."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of pulverized Citrus Unshiu Peel, add 30 mL of methanol, heat under a reflux condenser for 15 minutes, centrifuge after cooling, and sepa-rate the supernatant liquid. To the residue add 20 mL of methanol, and proceed in the same manner. Combine the ex-tracts, and add methanol to make exactly 50 mL. Pipet 5 mL of this solution, add water to make exactly 10 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 10 mg of hesperidin for assay, previously dried in a desiccator (silica gel) for not less than 24 hours, and dis-solve in methanol to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 10 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of hesperidin in each solution. Amount (mg) of hesperidin ＝ MS × AT/AS × 1/2 MS: Amount (mg) of hesperidin for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 285 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water, acetonitrile and acetic acid (100) (82:18:1). Flow rate: 1.0 mL per minute (the retention time of hesperidin is about 15 minutes). System suitability— System performance: Dissolve 1 mg each of hesperidin for assay and naringin for thin-layer chromatography in 10 mL of methanol, and add water to make 20 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, naringin and hesperidin are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of hesperidin is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

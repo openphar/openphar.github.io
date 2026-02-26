@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/penicillin-g-potassium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Penicillin G Potassium for Injection",
+    "ja": "注射用ベンジルペニシリンカリウム"
+  },
+  "monographId": "JP18-penicillin-g-potassium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Benzylpenicillin Potassium for Injection oc-curs as white, crystals or crystalline powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Proceed as directed in the Identification (2) under Benzylpenicillin Potassium. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> The pH of a solution prepared by dissolving an amount of Benzylpenicillin Potassium for Injection, equiva-lent to 1.0 × 105 Units of Benzylpenicillin Potassium, in 10 mL of water is 5.0 to 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—A solution prepared by dissolving an amount of Benzylpenicillin Potassium for Injection, equivalent to 1.0 × 106 Units of Benzylpenicillin Potassium, in 10 mL of water is clear. Perform the test with this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: the absorbance at 400 nm is not more than 0.10. Loss on drying <2.41> Not more than 1.2z (3 g, in vacu-um, below 0.67 kPa, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 1.25 × 10－4 EU/ Unit. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Benzylpenicillin Potassium for Injec-tion. Weigh accurately an amount of a portion of the con-tents, equivalent to about 6 × 104 Units of Benzylpenicillin Potassium, dissolve in water to make exactly 20 mL, and use this solution as the sample solution. Separately, weigh accu-rately an amount of Benzylpenicillin Potassium RS, equiva-lent to about 6 × 104 Units, dissolve in water to make ex-actly 20 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine the peak areas, AT and AS, of benzylpenicillin in each solution. Amount (unit) of Benzylpenicillin Potassium (C16H17KN2O4S) ＝ MS × AT/AS MS: Amount (unit) of Benzylpenicillin Potassium RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To a mixture of diammonium hydrogen phosphate solution (33 in 5000) and acetonitril (19:6), add phosphoric acid to adjust the pH of this solution to 8.0. Flow rate: Adjust so that the retention time of benzyl-penicillin is about 7.5 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of benzylpenicillin are not less than 6000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of benzylpenicillin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

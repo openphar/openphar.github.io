@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-terebinthinae",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Terebinthinae",
+    "ja": "テレビン油"
+  },
+  "monographId": "JP18-oleum-terebinthinae",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Turpentine Oil is a clear, colorless to pale yel-low liquid. It has a characteristic odor and a pungent, bitter taste. Turpentine Oil (1 mL) is miscible with 5 mL of ethanol (95) and this solution is neutral. D Refractive index <2.45> n20: 1.465 – 1.478 Specific gravity <1.13> d 20: 0.860 – 0.875"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Foreign matter—Turpentine Oil has no offen-sive odor. Shake 5 mL of Turpentine Oil with 5 mL of a so-lution of potassium hydroxide (1 in 6): the aqueous layer does not show a yellow-brown to dark brown color. Hydrochloric acid-coloring substances—Shake 5 mL of Turpentine Oil with 5 mL of hydrochloric acid, and allow to stand for 5 minutes: the hydrochloric acid layer is light yellow and not brown in color. Mineral oil—Place 5 mL of Turpentine Oil in a Cas-sia flask, cool to a temperature not exceeding 159C, add dropwise 25 mL of fuming sulfuric acid while shaking, warm between 609C and 659C for 10 minutes, and add sulfuric acid to raise the lower level of the oily layer to the graduated portion of the neck: not more than 0.1 mL of oil separates. Distilling range <2.57> 150 – 1709C, not less than 90 volz."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

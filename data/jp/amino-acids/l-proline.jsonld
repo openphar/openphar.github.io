@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/l-proline",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "L-Proline",
+    "ja": "L-プロリン"
+  },
+  "monographId": "JP18-l-proline",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H9NO2",
+  "molecularWeight": 115.13,
+  "definition": {
+    "en": "L-Proline contains not less than 99."
+  },
+  "appearance": {
+    "en": "L-Proline occurs as white, crystals or crystal-line powder. It has a slightly sweet taste. It is very soluble in water and in formic acid, and slightly soluble in ethanol (99.5). It is deliquescent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum 1 cm Absorbance <2.24> E1z 4 mg, methanol, 250 mL). (225 nm): 384 – 414 (after drying, of L-Proline as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Proglumide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—To 1.0 g of Proglumide add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 10) and 1.5 mL of hydrogen peroxide (30), burn the ethanol, and prepare the test solution according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Proglumide in 5 mL of methanol, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －84.0 – －86.09(1 g calculated on the dried basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution of 1.0 g of L-Proline in 10 mL of water is 5.9 to 6.9. Purity (1) Clarity and color of solution—Dissolve 1.0 g of L-Proline in 10 mL of water: the solution is clear and col-orless. Chloride <1.03>—Perform the test with 0.5 g of L-Proline. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.021z). Sulfate <1.14>—Perform the test with 0.6 g of L-Pro-line. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.028z). Ammonium <1.02>—Perform the test with 0.25 g of L-Proline. Prepare the control solution with 5.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Proceed with 1.0 g of L-Pro-line according to Method 1, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of L-Proline according to Method 1, and perform the test ac-cording to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Weigh accurately about 0.5 g of L-Proline, and dissolve in 0.5 mL of hydrochloric acid and water to make exactly 100 mL. Pipet 10 mL of this solution, add 0.02 mol/L hydrochloric acid TS to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately an amount, equivalent to 2.5 mmol, of L-aspartic acid, L-threonine, L-serine, L-glutamic acid, L-pro-line, glycine, L-alanine, L-cystine, L-valine, L-methionine, L-isoleucine, L-leucine, L-tyrosine, L-phenylalanine, L-lysine hydrochloride, ammonium chloride, L-histidine and L-argi-nine, dissolve them in 0.1 mol/L hydrochloric acid TS to make exactly 1000 mL, and use this solution as the standard stock solution. Pipet 5 mL of the standard stock solution, and add 0.02 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 4 mL of this solution, add 0.02 mol/L hydro-chloric acid TS to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the mass percentage of each amino acid, using the mass of amino acid other than proline in 1 mL of the sample solution from the height of the peaks obtained from the sample and standard solution: the amount of each amino acid other than proline is not more than 0.1 z. Operating conditions— Detector: A visible absorption photometer (wavelength: 570 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 8 cm in length, packed with strongly acidic ion-exchange resin for liquid chromatography composed with a sulfonated polystyrene (3 mm in particle diameter) (Na type). Column temperature: A constant temperature of about 579C. Chemical reaction vessel temperature: A constant temper-ature of about 1309C. Reaction time: About 1 minute. Mobile phase: Prepare the mobile phases A, B, C, D and E according to the following table, and add 0.1 mL each of caprylic acid. Mobile phase A B C D E Citric acid 19.80 g monohydrate 22.00 g 12.80 g 6.10 g — Trisodium citrate 6.19 g dihydrate 7.74 g 13.31 g 26.67 g — Sodium chlo- ride 5.66 g 7.07 g 3.74 g 54.35 g — Sodium hydroxide — — — — 8.00 g Ethanol (99.5) 130 mL 20 mL 4 mL — 100 mL Thiodiglycol 5 mL 5 mL 5 mL — — Benzyl alcohol — — — 5 mL — Lauromacrogol solution (1 in 4) 4 mL 4 mL 4 mL 4 mL 4 mL Water a sufficient a sufficient a sufficient a sufficient a sufficient amount amount amount amount amount Total amount 1000 mL 1000 mL 1000 mL 1000 mL 1000 mL Switching of mobile phase: Switch the mobile phases A, B, C, D and E sequentially so that when proceed with 20 mL of the standard solution under the above conditions, aspartic acid, threonine, serine, glutamic acid, proline, glycine, ala-nine, cystine, valine, methionine, isoleucine, leucine, tyro-sine, phenylalanine, lysine, ammonia, histidine and arginine are eluted in this order with the resolution between the peaks of isoleucine and leucine being not less than 1.2. Reaction reagent: Dissolve 204 g of lithium acetate dihy-drate in an appropriate amount of water, add 123 mL of acetic acid (100), 401 mL of 1-methoxy-2-propanol and water to make 1000 mL, pass nitrogen for 10 minutes, and use this solution as Solution (I). Separately, to 979 mL of 1-methoxy-2-propanol add 39 g of ninhydrin, pass nitrogen for 5 minutes, add 81 mg of sodium borohydride, pass nitrogen for 30 minutes, and use this solution as Solution (II). Pre-pare a mixture with an equal volume of the Solution (I) and (Prepare before use). Flow rate of mobile phase: 0.20 mL per minute. Flow rate of reaction regent: 0.24 mL per minute. System suitability— System performance: When the test is run with 20 mL of the standard solution under the above operating conditions, the resolution between the peaks of glycine and alanine is not less than 1.2. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviations of the peak height of each amino acid other than proline in the standard solution is not more than 5.0z, and the relative standard deviation of the retention time is not more than 1.0z. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.12 g of L-Proline, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentio-metric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 11.51 mg of C5H9NO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/diluted-opium-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Diluted Opium Powder",
+    "ja": "アヘン散"
+  },
+  "monographId": "JP18-diluted-opium-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Diluted Opium Powder contains not less than 0."
+  },
+  "appearance": {
+    "en": "Diluted Opium Powder occurs as a light brown powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Proceed with 1 g of Diluted Opium Powder as directed in the Identification (1) under Powdered Opium. (2) Proceed with 1 g of Diluted Opium Powder as di-rected in the Identification (2) under Powdered Opium."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Place about 5 g of Powdered Opium, accurately weighed, in a mortar, and triturate it with exactly 10 mL of water. Add 2 g of calcium hydroxide and exactly 40 mL of water, and stir the mixture for 20 minutes. Filter, and shake 30 mL of the filtrate with 0.1 g of magnesium sulfate hepta-hydrate for 1 minute. To the mixture add 0.3 g of calcium hydroxide, shake for 1 minute, and allow to stand for 1 hour. Filter, place 20 mL of the filtrate, exactly measured, in a glass-stoppered flask, and add 10 mL of diethyl ether and 0.3 g of ammonium chloride. Shake vigorously with caution. When crystals begin to separate out, shake for 30 minutes with a mechanical shaker, and set aside overnight at a tem- Method of preparation Powdered Opium 100 g Starch or a suitable diluent a sufficient quantity To make 1000 g Prepare as directed under Powders, with the above ingre-dients. Lactose Hydrate should not be used. Description Diluted Opium Powder occurs as a light brown powder. Identification (1) Proceed with 1 g of Diluted Opium Powder as directed in the Identification (1) under Powdered Opium. (2) Proceed with 1 g of Diluted Opium Powder as di-rected in the Identification (2) under Powdered Opium. Assay Place about 50 g of Diluted Opium Powder, accu-rately weighed, in a glass-stoppered flask, and stir with 250 mL of dilute ethanol in a water bath at 409C for 1 hour. Filter the mixture through a glass filter (G3). Transfer the residue on the filter to the first glass-stoppered flask, and add 50 mL of dilute ethanol. Stir the mixture in a water bath at 409C for 10 minutes, and filter through the same glass filter. Repeat the extraction with three 50-mL portions of di-lute ethanol. Evaporate the combined filtrate in a mortar to dryness on a water bath. Add 10 mL of ethanol (99.5) to the residue, evaporate to dryness again, and, after cooling, triturate it with exactly 10 mL of water. Proceed with this so-lution as directed in Assay under Powdered Opium. Each mL of 0.05 mol/L sulfuric acid VS ＝ 28.53 mg of C17H19NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Powder"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/water-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Water for Injection",
+    "ja": "注射用水"
+  },
+  "monographId": "JP18-water-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Water for Injection is a clear and colorless liquid, having no odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Total organic carbon <2.59>—Not more than 0.50 mg/L. Conductivity <2.51> When the test is performed according to the following method, the conductivity (259C) is not more than 2.1 mS・cm－1. Transfer a suitable amount of Water for Injection to a beaker, and stir the water specimen. Adjust the temperature to 25 ± 19C, and begin agitating the water specimen vigorously, while observing its conductivity periodically. When the change in conductivity becomes not greater than 0.1 mS・cm－1 per 5 minutes, adopt the observed value as the conductivity of the water specimen. Bacterial endotoxins <4.01> Less than 0.25 EU/mL. Sterile Water for Injection in Containers"
+      }
+    }
+  ],
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sivelestat-sodium-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sivelestat Sodium for Injection",
+    "ja": "注射用シベレスタットナトリウム"
+  },
+  "monographId": "JP18-sivelestat-sodium-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sivelestat Sodium for Injection is a preparation for injection which is dissolved before use. It contains not less than 95."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve an amount of Sivelestat Sodium for Injection, equivalent to 1.0 g of Sivelestat Sodium Hydrate, in water to make 100 mL. To 1 mL of this solution add 9 mL of a mixture of acetonitrile and water (5:4), and use the solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of water and acetonitrile (1:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with ex-actly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peak, having the relative retention time of about 0.25 to sivelestat, obtained from the sample solution is not larger than 3 times the peak area of sivelestat from the standard so-lution. Operating conditions— Column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay under Sivelestat Sodium Hydrate. Detector: An ultraviolet absorption photometer (wave-length: 220 nm). System suitability— Proceed as directed in the system suitability in the Purity (2) under Sivelestat Sodium Hydrate. Bacterial endotoxins <4.01> Less than 25 EU/mg. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem- ‌brane filtration method: it meets the requirement.‌‌"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take a number of Sivelestat Sodium for Injection, equivalent to about 1 g of sivelestat sodium hydrate (C20H21N2NaO7S.4H2O), and dissolve all the contents in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL. Pipet 10 mL of this solu-tion, add exactly 5 mL of the internal standard solution and 5 mL of acetonitrile. To 2 mL of this solution add 3 mL of a mixture of water and acetonitrile (1:1), and use the solution as the sample solution. Then, proceed as directed in the Assay under Sivelestat Sodium Hydrate. Amount (mg) of sivelestat sodium hydrate (C20H21N2NaO7S.4H2O) ＝ MS × QT/QS × 20 × 1.216 MS: Amount (mg) of Sivelestat RS taken Internal standard solution—A solution of propyl para-hydroxybenzoate in acetonitrile (1 in 2500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

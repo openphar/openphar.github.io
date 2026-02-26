@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cinnamomi-cortex",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cinnamomi Cortex",
+    "ja": "ケイヒ"
+  },
+  "monographId": "JP18-cinnamomi-cortex",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Usually semi-tubular or tubularly rolled pieces of bark, 0.1 – 0.5 cm in thickness, 5 – 50 cm in length, 1.5 – 5 cm in diameter; the outer surface dark red-brown, and the inner surface red-brown and smooth; brittle; the fractured surface is slightly fibrous, red-brown, exhibiting a light brown, thin layer. Characteristic aroma; taste, sweet and pungent at first, later rather mucilaginous and slightly astringent. Under a microscope <5.01>, a transverse section of Cinna- mon Bark reveals a primary cortex and a secondary cortex divided by an almost continuous ring consisting of stone cells; nearly round bundles of fibers in the outer region of the ring; cell wall of each stone cell often thickened in a U-shape; secondary cortex lacking stone cells, and with a small number of sclerenchymatous fibers coarsely scattered; parenchyma scattered with oil cells, mucilage cells and cells containing starch grains; medullary rays with cells contain-ing fine needles of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Cinnamon Bark add 10 mL of diethyl ether, shake for 3 minutes, filter, and use the filtrate as the sample solution. Perform the test with this solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of hexane and ethyl acetate (2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a purple spot develops at an Rf value of about 0.4. Spray evenly 2,4-dinitrophenylhydrazine TS upon the spot: a yellow-orange color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 15.5z (6 hours). Total ash <5.01> Not more than 6.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Cinnamon Bark provided that 1 mL of silicon resin is previously added to the sample in the flask: the volume of essential oil is not less than 0.5 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

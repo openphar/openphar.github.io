@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/203-spot-2-ml-each-of-the-sample-solution-and-standard",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "<2.03>. Spot 2 mL each of the sample solution and standard",
+    "ja": "ピリドキシン塩酸塩注射液"
+  },
+  "monographId": "JP18-203-spot-2-ml-each-of-the-sample-solution-and-standard",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Pyridoxine Hydrochloride Injection is a color-less or pale yellow, clear liquid. It is gradually affected by light. pH: 3.0 – 6.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a volume of Pyridoxine Hydrochlo-ride Injection, equivalent to 0.05 g of Pyridoxine Hydrochlo-ride, add 0.1 mol/L hydrochloric acid TS to make 100 mL. To 2 mL of this solution add 0.1 mol/L hydrochloric acid TS to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible spectro-photometry <2.24>: it exhibits a maximum between 288 nm and 292 nm. (2) To a volume of Pyridoxine Hydrochloride Injection, equivalent to 0.01 g of Pyridoxine Hydrochloride, add water to make 10 mL, and use this solution as the sample solution. Separately, dissolve 0.01 g of Pyridoxine Hydrochloride RS in 10 mL of water, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography, and air-dry the plate. Devel-op the plate with a mixture of acetone, tetrahydrofuran, hexane and ammonia solution (28) (65:13:13:9) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solu-tion of sodium carbonate in diluted ethanol (3 in 10) (1 in 20) ‌on the plate. After air-drying, spray evenly a solution of 2,6-dibromo-N-chloro-1,4-benzoquinone monoimine in ethanol (99.5) (1 in 1000) on the plate: the spots obtained from the sample solution and the standard solution are blue in color and have the same Rf value.‌ Bacterial endotoxins <4.01> Less than 3.0 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Pyridoxine Hydrochlo-ride Injection, equivalent to about 20 mg of pyridoxine hy-drochloride (C8H11NO3.HCl), dilute with water, if necessary, and add water to make exactly 100 mL. Pipet 25 mL of this solution, add water to make exactly 200 mL, and use this so-lution as the sample solution. Separately, weigh accurately about 0.1 g of Pyridoxine Hydrochloride RS, previously dried in a desiccator (in vacuum, silica gel) for 4 hours, and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 200 mL, and use this so-lution as the standard solution. Pipet 1 mL each of the sam-ple solution and standard solution, add 2.0 mL of barbital buffer solution, 9.0 mL of 2-propanol and 2.0 mL of a freshly prepared solution of 2,6-dibromo-N-chloro-1,4-ben-zoquinone monoimine in ethanol (95) (1 in 4000), shake well, add 2-propanol to make exactly 25 mL, and allow to stand for 90 minutes. Determine the absorbances, AT and AS, of the subsequent sample solution and subsequent standard so-lution, respectively, at 650 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution, prepared in the same manner with 1 mL of water, as the blank. Amount (mg) of pyridoxine hydrochloride (C8H11NO3.HCl) ＝ MS × AT/AS × 1/5 MS: Amount (mg) of Pyridoxine Hydrochloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers, and colored containers may be used."
+  },
+  "dosageForm": "Solution",
+  "strength": "2 mL"
+}

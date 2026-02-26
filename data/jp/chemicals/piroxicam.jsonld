@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/piroxicam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Piroxicam",
+    "ja": "ピロキシカム"
+  },
+  "monographId": "JP18-piroxicam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H13N3O4S",
+  "molecularWeight": 331.35,
+  "definition": {
+    "en": "Piroxicam contains not less than 98."
+  },
+  "appearance": {
+    "en": "Piroxicam occurs as a white to light yellow crystalline powder. It is slightly soluble in acetonitrile and in ethanol (99.5), and practically insoluble in water. Melting point: about 2009C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Piroxicam in a mix-ture of methanol and 0.5 mol/L hydrochloric acid TS (490:1) to make 200 mL. To 1 mL of this solution add the mixture of methanol and 0.5 mol/L hydrochloric acid TS (490:1) to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Piroxicam as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve the Piroxicam with dichloromethane, evaporate the solvent, dry the residue on a water bath, and perform the test."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Piroxicam according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). (2) Related substances—Dissolve 75 mg of Piroxicam in 50 mL of acetonitrile for liquid chromatography, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add acetonitrile for liquid chromatography to make exactly 10 mL. Pipet 1 mL of this solution, add aceto-nitrile for liquid chromatography to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of piroxicam are not less than 6000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of piroxicam is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Piroxicam, dis-solve in 60 mL of a mixture of acetic anhydride and acetic acid (100) (1:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 33.14 mg of C15H13N3O4S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

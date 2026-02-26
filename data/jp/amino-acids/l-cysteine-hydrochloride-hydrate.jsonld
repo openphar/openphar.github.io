@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/l-cysteine-hydrochloride-hydrate",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "L-Cysteine Hydrochloride Hydrate",
+    "ja": "L-システイン塩酸塩水和物"
+  },
+  "monographId": "JP18-l-cysteine-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H7NO2S.HCl.H2O",
+  "molecularWeight": 175.63,
+  "casNumber": "7048-04-6",
+  "definition": {
+    "en": "L-Cysteine Hydrochloride Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "L-Cysteine Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It has a characteristic odor and a strong acid taste. It is very soluble in water, and soluble in ethanol (99.5). It dissolves in 6 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of L-Cysteine Hydrochloride Hydrate as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. (2) To 10 mL of a solution of L-Cysteine Hydrochloride Hydrate (1 in 50) add 1 mL of hydrogen peroxide (30), heat on a water bath for 20 minutes, and cool: the solution re-sponds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: ＋6.0 – ＋7.59(2 g, calculated on the dried basis, 6 mol/L hydrochloric acid TS, 25 mL, 100 mm). pH <2.54> The pH of a solution prepared by dissolving 1.0 g of L-Cysteine Hydrochloride Hydrate in 100 mL of water is between 1.3 and 2.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—A solution ob-tained by dissolving 1.0 g of L-Cysteine Hydrochloride Hy-drate in 10 mL of water is clear and colorless. Sulfate <1.14>—Dissolve 0.8 g of L-Cysteine Hydro-chloride Hydrate in 30 mL of water and 3 mL of dilute hy- drochloric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the con-trol solution as follows: To 0.35 mL of 0.005 mol/L sulfuric acid VS add 3 mL of dilute hydrochloric acid and water to make 50 mL. To both of the test solution and the control solution add 4 mL of barium chloride TS (not more than 0.021z). Ammonium <1.02>—Perform the test with 0.25 g of L-Cysteine Hydrochloride Hydrate using the distillation under reduced pressure. Prepare the control solution with 5.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Proceed with 1.0 g of L-Cysteine Hydrochloride Hydrate according to Method 4, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Iron <1.10>—Prepare the test solution with 1.0 g of L-Cysteine Hydrochloride Hydrate according to Method 1, and perform the test according to Method A. Prepare the control solution with 1.0 mL of Standard Iron Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of L-Cysteine Hydrochloride Hydrate in N-ethylmaleimide solution (1 in 50) to make 10 mL, allow to stand for 30 minutes, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add water to make exactly 10 mL. Pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-Layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chromatog-raphy. Then develop with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 10 cm, and dry the plate at 809C for 30 minutes. Spray evenly a solution of ninhydrin in a mixture of methanol and acetic acid (100) (97:3) (1 in 100) on the plate, and then heat at 809C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> 8.5 – 12.0z (1 g, in vacuum, phos-phorus (V) oxide, 20 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of L-Cysteine Hydro-chloride Hydrate, place in a glass-stoppered flask, and dis-solve in 20 mL of water. Dissolve 4 g of potassium iodide in this solution, soak immediately in ice cold water, add 5 mL of dilute hydrochloric acid and exactly 25 mL of 0.05 mol/L iodine VS, allow to stand for 20 minutes in a dark place, titrate <2.50> the excess of iodine with 0.1 mol/L sodium thiosulfate VS (indicator: starch TS). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.05 mol/L iodine VS ＝ 15.76 mg of C3H7NO2S.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

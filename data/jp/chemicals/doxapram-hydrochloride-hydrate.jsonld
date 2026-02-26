@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/doxapram-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Doxapram Hydrochloride Hydrate",
+    "ja": "ドキサプラム塩酸塩水和物"
+  },
+  "monographId": "JP18-doxapram-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C24H30N2O2.HCl.H2O",
+  "molecularWeight": 432.98,
+  "appearance": {
+    "en": "Doxapram Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is freely soluble in methanol and in acetic acid (100), sparingly soluble in water, in ethanol (95) and in acetic anhy-dride, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Doxapram Hydrochloride Hydrate (1 in 2500) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dox-apram Hydrochloride Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Doxapram Hydrochloride Hydrate (1 in 50) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Doxapram Hydrochloride Hy-drate in 50 mL of water: the pH of this solution is between 3.5 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Doxapram Hydrochloride Hydrate in 50 mL of water: the solution is clear and colorless. Sulfate <1.14>—Perform the test with 1.0 g of Dox- apram Hydrochloride Hydrate. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.024z). Heavy metals <1.07>—Proceed with 2.0 g of Dox- apram Hydrochloride Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Doxapram Hydrochloride Hydrate according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.5 g of Doxapram Hy-drochloride Hydrate in 10 mL of methanol, and use this so-lution as the sample solution. Pipet 3 mL of the sample solu-tion, and add methanol to make exactly 100 mL. Pipet 5 mL of this solution, add methanol to make exactly 50 mL, and use this solution as the standard solution. Perform the test ‌896 with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 6 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of chlo-roform, formic acid, ethyl formate and methanol (8:3:3:2) to a distance of about 10 cm, and air-dry the plate. Allow the plate to stand in iodine vapor: the spots other than the prin-cipal spot obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> 3.5 – 4.5z (0.5 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.3z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Doxapram Hydro-chloride Hydrate, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 41.50 mg of C24H30N2O2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

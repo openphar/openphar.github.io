@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-sesami",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Sesami",
+    "ja": "ゴマ油"
+  },
+  "monographId": "JP18-oleum-sesami",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sesame Oil is a clear, pale yellow oil. It is odorless or has a faint, characteristic odor, and has a bland taste. It is miscible with diethyl ether and with petroleum ether. It is slightly soluble in ethanol (95). It congeals between 09C and －59C. Congealing point of the fatty acids: 20 – 259C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 mL of Sesame Oil add 0.1 g of sucrose and 10 mL of hydrochloric acid, and shake for 30 seconds: the acid layer becomes light red and changes to red on stand-ing. Specific gravity <1.13> d 25: 0.914 – 0.921 Acid value <1.13> Not more than 0.2. Saponification value <1.13> 187 – 194 Unsaponifiable matters <1.13> Not more than 2.0z. Iodine value <1.13> 103 – 118"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

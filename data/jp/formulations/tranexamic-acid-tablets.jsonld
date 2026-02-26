@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tranexamic-acid-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tranexamic Acid Tablets",
+    "ja": "トラネキサム酸錠"
+  },
+  "monographId": "JP18-tranexamic-acid-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Tranexamic Acid Tablets, equivalent to 0.5 g of Tranexamic Acid, add 50 mL of water, shake well, and filter. To 5 mL of the fil-trate add 1 mL of ninhydrin TS, and heat for 3 minutes: a dark purple color develops. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Tranexamic Acid Tablets, and powder. Weigh accurately a quantity of the powder, equivalent to about 5 g of tranexam-ic acid (C8H15NO2), add 150 mL of water, disintegrate the Sterility <4.06> Perform the test according to the Mem- brane filtration method: it meets the requirement. Assay Pipet a volume of Tranexamic Acid Injection, equivalent to about 0.1 g of tranexamic acid (C8H15NO2), add water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Tranexamic Acid RS, previously dried at 1059C for 2 hours, dissolve in water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with ex-actly 30 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the peak areas, AT and AS, of tranexamic acid in each solution. Amount (mg) of tranexamic acid (C8H15NO2) ＝ MS × AT/AS × 2 MS: Amount (mg) of Tranexamic Acid RS taken Operating conditions— Detector, column, and mobile phase: Proceed as directed in the operating conditions in the Assay under Tranexamic Acid. Column temperature: A constant temperature of about 359C. Flow rate: Adjust so that the retention time of tranexamic acid is about 16 minutes. System suitability— System performance: To 5 mL of the standard solution add 1 mL of a solution of 4-(aminomethyl)benzoic acid (1 in 10,000) and water to make 50 mL. When the procedure is run with 30 mL of this solution under the above operating conditions, tranexamic acid and 4-(aminomethyl)benzoic tablets completely by sonicating, and add water to make ex-actly 200 mL. Centrifuge, pipet 4 mL of the supernatant liq-uid, and add water to make exactly 50 mL. Filter through a membrane filter with a pore size of not more than 0.45 mm, discard the first 10 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 50 mg of Tranexamic Acid RS, previously dried at 105 9C for 2 hours, dissolve in water to make exactly 25 mL, and use this solution as the standard solution. Perform the test with exactly 30 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of tranexamic acid in each solution. Amount (mg) of tranexamic acid (C8H15NO2) ＝ MS × AT/AS × 100 MS: Amount (mg) of Tranexamic Acid RS taken Operating conditions— Detector, column, and mobile phase: Proceed as directed in the operating conditions in the Assay under Tranexamic Acid. Column temperature: A constant temperature of about 359C. Flow rate: Adjust so that the retention time of tranexamic acid is about 16 minutes. System suitability— System performance: To 5 mL of the standard solution add 1 mL of a solution of 4-(aminomethyl)benzoic acid (1 in 10,000) and water to make 50 mL. When the procedure is run with 30 mL of this solution under the above operating conditions, tranexamic acid and 4-(aminomethyl)benzoic acid are eluted in this order with the resolution between these ‌peaks being not less than 3. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tranexamic acid is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

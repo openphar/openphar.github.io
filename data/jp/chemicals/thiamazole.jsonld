@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/thiamazole",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Thiamazole",
+    "ja": "チアマゾール"
+  },
+  "monographId": "JP18-thiamazole",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H6N2S",
+  "molecularWeight": 114.17,
+  "definition": {
+    "en": "Thiamazole, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Thiamazole occurs as white to pale yellow-white, crystals or crystalline powder. It has a faint, charac-teristic odor, and has a bitter taste. It is freely soluble in water and in ethanol (95), and slightly soluble in diethyl ether. The pH of a solution of 1.0 g of Thiamazole in 50 mL of water is between 5.0 and 7.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 5 mg of Thiamazole in 1 mL of water, shake with 1 mL of sodium hydroxide TS, and add 3 drops of sodium pentacyanonitrosylferrate (III) TS: a yel-low color develops, and it gradually changes to yellow-green to green. To this solution add 1 mL of acetic acid (31): it changes to blue. To 2 mL of a solution of Thiamazole (1 in 200) add 1 mL of sodium carbonate TS and 1 mL of diluted Folin's TS (1 in 5): a deep blue color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Selenium—Proceed with 0.10 g of Thiamazole as directed under Oxygen Flask Combustion Method <1.06>, using 25 mL of diluted nitric acid (1 in 30) as the absorbing liquid, and prepare the test solution. Apply a small amount of water to the upper part of apparatus A, pull out C care-fully, and transfer the test solution to a beaker. Wash C, B and the inner side of A with 25 mL of water, and combine the washings with the test solution. Boil gently for 10 minutes, cool to room temperature, add water to make ex-actly 50 mL, and use this solution as the sample solution. Separately, weigh exactly 40 mg of selenium, dissolve in 100 mL of diluted nitric acid (1 in 2), heat to dissolve on a water bath if necessary, and add water to make exactly 1000 mL. Pipet 5 mL of this solution, and add water to make exactly 200 mL. To 2 mL of this solution, exactly measured, add di-luted nitric acid (1 in 60) to make exactly 50 mL, and use this solution as the standard solution. Pipet 40 mL each of the sample solution and standard solution into separate beakers, and adjust each solution with ammonia solution (28) to a pH of 1.8 to 2.2. To each solution add 0.2 g of hydroxylammo-nium chloride, shake gently to dissolve. To these solutions add 5 mL of a solution prepared by dissolving 0.10 g of 2,3-diaminonaphthalene and 0.5 g of hydroxylammonium chlo-ride in 0.1 mol/L hydrochloric acid TS to make 100 mL, shake, and allow to stand for 100 minutes. Transfer these so-lutions to corresponding separators, rinse the beakers with 10 mL of water, combine the rinsings in the respective sepa-rators, shake well with 5.0 mL of cyclohexane for 2 minutes, and extract. Centrifuge the cyclohexane extracts to remove any water remaining in these solutions. Perform the test with these solutions as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution prepared with 40 mL of diluted nitric acid (1 in 60) in the same manner as the blank. ‌The absorbance of of the sample solution at the wavelength of maximum absorbance at about 378 nm does not exceed the absorbance of the standard solution.‌ Heavy metals <1.07>—Proceed with 1.0 g of Thiama- zole according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Thiamazole according to Method 1, and perform the test (not more than 2 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Thiamazole, previ-ously dried, dissolve in 75 mL of water, add 15 mL of 0.1 mol/L sodium hydroxide VS from a burette, and add 30 mL of 0.1 mol/L silver nitrate VS with stirring. Add 1 mL of bromothymol blue TS, and titrate <2.50> with 0.1 mol/L so-dium hydroxide VS, until a persistent blue-green color is produced. Determine the total volume of 0.1 mol/L sodium hydroxide VS consumed. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 11.42 mg of C4H6N2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

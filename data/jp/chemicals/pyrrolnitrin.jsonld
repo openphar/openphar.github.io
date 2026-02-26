@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pyrrolnitrin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pyrrolnitrin",
+    "ja": "ピロールニトリン"
+  },
+  "monographId": "JP18-pyrrolnitrin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H6Cl2N2O2",
+  "molecularWeight": 257.07,
+  "definition": {
+    "en": "Pyrrolnitrin contains not less than 970 mg (potency) and not more than 1020 mg (potency) per mg, calcu-lated on the dried basis."
+  },
+  "appearance": {
+    "en": "Pyrrolnitrin occurs as yellow to yellow-brown, crystals or crystalline powder. It is freely soluble in methanol and in ethanol (95), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Pyrrolnitrin in ethanol (95) (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Pyrrolnitrin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Pyr-rolnitrin as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Pyrrolnitrin RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 0.10 g of Pyrrolnitrin in 10 mL of methanol, and use this solution as the sample so-lution. Pipet 1 mL of the sample solution, and add methanol to make exactly 100 mL. Pipet 3 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 ‌mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of xylene, ethyl acetate and formic acid (18:2:1) to a distance of about 10 cm, and dry the plate at 809C for 30 minutes. Spray evenly diluted sulfuric acid (1 in 3) on the plate, and heat the plate at 1009C for 30 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution.‌ Loss on drying <2.41> Not more than 0.5z (1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately an amount of Pyrrolnitrin and Pyrrolnitrin RS, equivalent to about 50 mg (potency) each, and dissolve separetely in diluted acetonitrile (3 in 5) to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 10 mL of the internal standard solution, add diluted acetonitrile (3 in 5) to make 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of pyrrolnitrin to that of the internal standard. Amount [ mg (potency)] of pyrrolnitrin (C10H6Cl2N2O2) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Pyrrolnitrin RS taken Internal standard solution—A solution of benzyl benzoate in diluted acetonitrile (3 in 5) (3 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (11:9). Flow rate: Adjust so that the retention time of pyrrolnitrin is about 9 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, pyrrolnitrin and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of pyrrolnitrin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

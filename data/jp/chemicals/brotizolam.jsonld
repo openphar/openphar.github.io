@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/brotizolam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Brotizolam",
+    "ja": "ブロチゾラム"
+  },
+  "monographId": "JP18-brotizolam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H10BrClN4S",
+  "molecularWeight": 393.69,
+  "definition": {
+    "en": "Brotizolam, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Brotizolam occurs as a white or pale yellow crystalline powder. It is sparingly soluble in methanol, slightly soluble in acetonitrile and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Brotizolam in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Brotizolam as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Brotizolam according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Brotizolam in 50 mL of acetonitrile, and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add aceto-nitrile to make exactly 100 mL. Pipet 1 mL of this solution, add acetonitrile to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: each peak area other than brotizolam obtained from the sample solution is not larger than 1/2 times the peak area of brotizolam from the stand-ard solution, and the total area of the peaks other than brotizolam from the sample solution is not larger than the peak area of brotizolam from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 242 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 15 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Flow rate: About 2 mL per minute. Time span of measurement: About 2 times as long as the retention time of brotizolam, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add acetonitrile to make exactly 20 mL. Con-firm that the peak area of brotizolam obtained with 5 mL of this solution is equivalent to 18 to 32z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of brotizolam are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of brotizolam is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Brotizolam, previ-ously dried, dissolve in 75 mL of a mixture of acetic anhy-dride and acetic acid (100) (2:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.68 mg of C15H10BrClN4S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

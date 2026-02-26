@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenolated-water",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenolated Water",
+    "ja": "フェノール水"
+  },
+  "monographId": "JP18-phenolated-water",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Phenolated Water contains not less than 1."
+  },
+  "appearance": {
+    "en": "Phenolated Water is a colorless, clear liquid, having the odor of phenol."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 1 drop of iron (III) chloride TS to 10 mL of Phenolated Water: a blue-purple color develops. (2) To 5 mL of a solution of Phenolated Water (1 in 200) add bromine TS dropwise: a white precipitate is formed, and it dissolves at first upon shaking but becomes permanent as excess of the reagent is added."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take exactly 2 mL of Phenolated Water into an iodine flask, add 25 mL of water, then add exactly 40 mL of 0.05 mol/L bromine VS and 5 mL of hydrochloric acid, Method of preparation Phenol for Disinfection 31 g Water, Purified Water or Purified Water in Containers a sufficient quantity To make 1000 mL Mix the above ingredients. Description Phenolated Water for Disinfection is a clear, colorless liquid, having the odor of phenol. Identification (1) Add 1 drop of iron (III) chloride TS to 10 mL of Phenolated Water for Disinfection: a blue-purple color develops. (2) Proceed with 5 mL of a solution of Phenolated Water for Disinfection (1 in 200) as directed in the Identifi-cation (2) under Phenol for Disinfection. Assay Take exactly 5 mL of Phenolated Water for Disin-fection, add water to make exactly 100 mL, then pipet 25 mL of the solution into an iodine flask, and proceed as directed in the Assay under Phenol for Disinfection. Each mL of 0.05 mol/L bromine VS ＝ 1.569 mg of C6H6O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mitomycin-c",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mitomycin C",
+    "ja": "マイトマイシン C"
+  },
+  "monographId": "JP18-mitomycin-c",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H18N4O5",
+  "molecularWeight": 334.33,
+  "definition": {
+    "en": "Mitomycin C is a substance having antitumor activity produced by the growth of Streptomyces caespitosus. It contains not less than 970 mg (potency) and not more than 1030 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Mitomycin C occurs as blue-purple, crystals or crystalline powder. It is freely soluble in N,N-dimethylacetamide, slightly soluble in water and in methanol, and very slightly soluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Mitomycin C (1 in 100,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Mitomycin C RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Mitomycin C as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Mitomycin C RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure rapidly after the sample and the standard solutions are prepared. Dissolve 50 mg of Mitomycin C in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: each area of the peak other than mitomycin C obtained from the sample solution is not larger than the peak area of mitomycin C from the standard solution, and the total area of the peaks other than mitomycin C from the sample solution is not larger than 3 times the peak area of mitomycin C from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase A: To 20 mL of 0.5 mol/L ammonium ace-tate TS add water to make 1000 mL. To 800 mL of this solu-tion add 200 mL of methanol. Mobile phase B: To 20 mL of 0.5 mol/L ammonium ace-tate TS add water to make 1000 mL. To this solution add 1000 mL of methanol. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 0 – 10 10 – 30 100 → 0 0 → 100 30 – 45 Flow rate: About 1.0 mL per minute. Time span of measurement: About 2 times as long as the retention time of mitomycin C, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 10 mL of the stand-ard solution, and add methanol to make exactly 100 mL. Confirm that the peak area of mitomycin C obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 25 mg of Mitomycin C and 40 mg of 3-ethoxy-4-hydroxybenzaldehyde in 50 mL of methanol. When the procedure is run with 10 mL of this so-lution under the above operating conditions, mitomycin C and 3-ethoxy-4-hydroxybenzaldehyde are eluted in this order with the resolution between these peaks being not less than 15. System repeatability: When the test is repeated 3 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of mitomycin C is not more than 3.0z. Loss on drying <2.41> Not more than 1.0z (0.1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Mitomycin C and Mitomycin C RS, equivalent to about 25 mg (potency), dissolve each in N,N-dimethylacetamide to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine the peak areas, AT and AS, of mitomycin C in each solution. Amount [ mg (potency)] of mitomycin C (C15H18N4O5) ＝ MS × AT/AS × 1000 ‌MS: Amount [mg (potency)] of Mitomycin C RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 365 nm). ‌Column: A stainless steel column 4 mm in inside diameter and 30 cm in length, packed with phenylated silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: To 40 mL of 0.5 mol/L ammonium acetate TS add 5 mL of diluted acetic acid (100) (1 in 20) and water to make 1000 mL. To 600 mL of this solution add 200 mL of methanol. Flow rate: Adjust so that the retention time of mitomycin C is about 7 minutes. System suitability— System performance: Dissolve about 25 mg of Mitomycin C RS and about 0.375 g of 3-ethoxy-4-hydroxybenzaldehyde in 50 mL of N,N-dimethylacetamide. When the procedure is run with 10 mL of this solution under the above operating conditions, mitomycin C and 3-ethoxy-4-hydroxybenzalde-hyde are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of mitomycin C is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/fluvoxamine-maleate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Fluvoxamine Maleate Tablets",
+    "ja": "フルボキサミンマレイン酸塩錠"
+  },
+  "monographId": "JP18-fluvoxamine-maleate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Fluvoxamine Maleate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of fluvoxamine maleate (C15H21F3N2O2. C4H4O4: 434.41). Method of preparation Prepare as directed under Tablets, with Fluvoxamine Maleate. Identification Powder Fluvoxamine Maleate Tablets. To a portion of the powder, equivalent to 0.1 g of Fluvoxamine Maleate, add 50 mL of water, shake, then allow to stand, and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.45 mm. To 0.5 mL of the fil-trate add 50 mL of water, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 243 nm and 247 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Fluvoxamine Maleate Tablets add 4 mL of water, disintegrate the tablet by sonicating, add a mixture of methanol for liquid chromatography and water (7:3) to make exactly 50 mL, and filter. Pipet V mL of the filtrate, equivalent to about 6 mg of fluvoxamine maleate (C15H21F3N2O2.C4H4O4), add exactly 2 mL of the internal standard solution, then add a mixture of methanol for liquid chromatography and water (7:3) to make 50 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay. Amount (mg) of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) ＝ MS × QT/QS × 6/V MS: Amount (mg) of Fluvoxamine Maleate RS taken, cal-culated on the dried basis Internal standard solution—A solution of diphenylamine in methanol for liquid chromatography (3 in 1000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 20 minutes of Fluvoxamine Maleate Tablets is not less than 80z. Start the test with 1 tablet of Fluvoxamine Maleate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 20 mg of fluvoxamine male-ate (C15H21F3N2O2."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Fluvoxamine Maleate Tablets. To a portion of the powder, equivalent to 0.1 g of Fluvoxamine Maleate, add 50 mL of water, shake, then allow to stand, and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.45 mm. To 0.5 mL of the fil-trate add 50 mL of water, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum be-tween 243 nm and 247 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Fluvoxamine Maleate Tablets add 4 mL of water, disintegrate the tablet by sonicating, add a mixture of methanol for liquid chromatography and water (7:3) to make exactly 50 mL, and filter. Pipet V mL of the filtrate, equivalent to about 6 mg of fluvoxamine maleate (C15H21F3N2O2.C4H4O4), add exactly 2 mL of the internal standard solution, then add a mixture of methanol for liquid chromatography and water (7:3) to make 50 mL, and use this solution as the sample solution. Then, proceed as di-rected in the Assay. Amount (mg) of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) ＝ MS × QT/QS × 6/V MS: Amount (mg) of Fluvoxamine Maleate RS taken, cal-culated on the dried basis Internal standard solution—A solution of diphenylamine in methanol for liquid chromatography (3 in 1000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 20 minutes of Fluvoxamine Maleate Tablets is not less than 80z. Start the test with 1 tablet of Fluvoxamine Maleate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 20 mg of fluvoxamine male-ate (C15H21F3N2O2.C4H4O4), and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Fluvoxamine Maleate RS (separately determine the loss on drying <2.41> under the same condition as Fluvoxamine Maleate), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 245 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of Fluvoxamine Maleate RS taken, cal-culated on the dried basis C: Labeled amount (mg) of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To 10 Fluvoxamine Maleate Tablets add 20 mL of water, disintegrate the tablets by sonicating, then add a mix-ture of methanol for liquid chromatography and water (7:3) to make exactly 250 mL, and filter. Pipet V mL of the fil-trate, equivalent to about 6 mg of fluvoxamine maleate (C15H21F3N2O2.C4H4O4), add exactly 2 mL of the internal standard solution, then add a mixture of methanol for liquid chromatography and water (7:3) to make 50 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 50 mg of Fluvoxamine Maleate RS (separately determine the loss on drying <2.41> under the same condition as Fluvoxamine Maleate), and dissolve in a mixture of meth-anol for liquid chromatography and water (7:3) to make ex-actly 25 mL. Pipet 3 mL of this solution, add exactly 2 mL of the internal standard solution, then add a mixture of methanol for liquid chromatography and water (7:3) to make exactly 50 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample so-lution and standard solution as directed under Liquid Chro-matography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of fluvoxamine to that of the internal standard. Amount (mg) of fluvoxamine maleate (C15H21F3N2O2.C4H4O4) in 1 tablet ＝ MS × QT/QS × 3/V MS: Amount (mg) of Fluvoxamine Maleate RS taken, cal-culated on the dried basis Internal standard solution—A solution of diphenylamine in methanol for liquid chromatography (3 in 1000). Operating conditions— Proceed as directed in the operating conditions in the Assay under Fluvoxamine Maleate. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, fluvoxamine and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of fluvoxamine to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/betamethasone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Betamethasone",
+    "ja": "ベタメタゾン"
+  },
+  "monographId": "JP18-betamethasone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H29FO5",
+  "molecularWeight": 392.46,
+  "casNumber": "378-44-9",
+  "definition": {
+    "en": "Betamethasone, when dried, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Betamethasone occurs as a white to pale yel-low-white crystalline powder. It is sparingly soluble in methanol, in ethanol (95) and in acetone, and practically insoluble in water. Melting point: about 2409C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Proceed with 10 mg of Betamethasone as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid: the test solu-tion so obtained responds to Qualitative Tests <1.09> for fluoride. Dissolve 1.0 mg of Betamethasone in 10 mL of ethanol (95). Mix 2.0 mL of the solution with 10 mL of phenylhydrazinium hydrochloride TS, heat in a water bath at 609C for 20 minutes, and cool the solution. Determine the absorption spectrum of the solution as directed under Ultra-violet-visible Spectrophotometry <2.24>, using as the blank the solution prepared with 2.0 mL of ethanol (95) in the same manner as the former solution, and compare the spec-trum with the Reference Spectrum or the spectrum of a solu-tion of Betamethasone RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Beta-methasone, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Betamethasone RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve Betamethasone and Betamethasone RS in acetone, respectively, then evaporate the acetone to dryness, and repeat the test on the residues. D Optical rotation <2.49> [a]20: ＋118 – ＋1269(after drying, 0.1 g, methanol, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 0.5 g of Betamethasone according to Method 2, and perform the test. Prepare the control solution with 1.5 mL of Standard Lead Solution (not more than 30 ppm). (2) Related substances—Dissolve 10 mg of Betametha-sone in 5 mL of a mixture of chloroform and methanol (9:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of chloroform and meth-anol (9:1) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of dichloromethane, diethyl ether, methanol and water (385:75:40:6) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.5z (0.1 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 20 mg each of Betamethasone and Betamethasone RS, previously dried and accurately weighed, in methanol to make exactly 50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL each of the internal stand-ard solution, then add methanol to make 50 mL, and use these solutions as the sample solution and standard solution, respectively. Perform the test with 10 mL each of these solu-tions as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of betamethasone to that of the internal standard. Amount (mg) of betamethasone (C22H29FO5) ＝ MS × QT/QS MS: Amount (mg) of Betamethasone RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in methanol (1 in 1750). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 240 nm). Column: A stainless steel column about 4.0 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diame-ter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (3:2). Flow rate: Adjust so that the retention time of betametha- sone is about 4 minutes. System suitability— System performance: When proceed the test with 10 mL of the standard solution under the above operating conditions, betamethasone and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of betamethasone to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

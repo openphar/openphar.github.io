@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/chloramphenicol-palmitate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Chloramphenicol Palmitate",
+    "ja": "クロラムフェニコールパルミチン酸エステル"
+  },
+  "monographId": "JP18-chloramphenicol-palmitate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H42Cl2N2O6",
+  "molecularWeight": 561.54,
+  "casNumber": "530-43-8",
+  "definition": {
+    "en": "Chloramphenicol Palmitate contains not less than 558 mg (potency) and not more than 587 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Chloramphenicol Palmitate occurs as a white to grayish white, crystalline powder. It is freely soluble in acetone, sparingly soluble in metha-nol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Chloramphenicol Palmitate in ethanol (99.5) (1 in 33,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Chloram-phenicol Palmitate RS prepared in the same manner as the exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. The test should be performed within 30 minutes after the sample solution and standard solution are prepared. Determine each peak area by the automatic integration method: the total area of the peaks other than the peak of chloramphenicol palmitate obtained from the sample solution is not larger than 3.5 times the peak area of chloramphenicol palmitate from the standard solution. For the peak areas for chloramphenicol, having the relative retention time of about 0.5 to chloramphenicol palmitate, and for chloramphenicol dipalmitate, having the relative retention time of about 5.0, multiply their correction factors, 0.5 and 1.4, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 6.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: Methanol. Flow rate: Adjust so that the retention time of chloram-phenicol palmitate is about 5 minutes. Time span of measurement: About 6 times as long as the retention time of chloramphenicol palmitate. System suitability— Test for required detectability: Dissolve 50 mg of Chlo-ramphenicol Palmitate in 50 mL of methanol. To 1 mL of this solution, add methanol to make 100 mL, and use this so-lution as the solution for system suitability test. Pipet 5 mL of the solution for system suitability test, and add methanol to make exactly 50 mL. Confirm that the peak area of chlo-ramphenicol palmitate obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the solution ‌730 for system suitability test. System performance: When the procedure is run with 20 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates of the peak of chloramphenicol palmitate is not less than 5000. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of chloramphenicol palmitate is not more than 1.0z. Loss on drying <2.41> Not more than 1.0z (1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Chloramphenicol Palmitate and Chloramphenicol Palmitate RS, equivalent to about 37 mg (potency), dissolve each in 40 mL of methanol and 1 mL of acetic acid (100), and add methanol to make ex-actly 50 mL. Pipet 10 mL each of these solutions, add the mobile phase to make exactly 25 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of chloramphenicol palmitate in each solution. Amount [ mg (potency)] of chloramphenicol (C11H12Cl2N2O5) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Chloramphenicol Palmitate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol, water and acetic acid (100) (172:27:1). Flow rate: Adjust so that the retention time of chloram-phenicol palmitate is about 7 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates of the peak of chlo-ramphenicol palmitate is not less than 2400. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of chloramphenicol palmitate is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

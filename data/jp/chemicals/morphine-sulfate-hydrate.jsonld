@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/morphine-sulfate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Morphine Sulfate Hydrate",
+    "ja": "モルヒネ硫酸塩水和物"
+  },
+  "monographId": "JP18-morphine-sulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "6211-15-0",
+  "definition": {
+    "en": "Morphine Sulfate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Morphine Sulfate Hydrate occurs as a white, crystals or crystalline powder. It is very soluble in formic acid, soluble in water, slightly soluble in methanol, and very slightly soluble in ethanol (99.5). It dissolves in dilute sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Morphine Sulfate Hydrate (1 in 10,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum 1: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the absorption spectrum of a sities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mor-phine Sulfate Hydrate as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. A solution of Morphine Sulfate Hydrate (1 in 25) re-sponds to Qualitative Tests <1.09> (1) and (3) for sulfate. D Optical rotation <2.49> [a]20: －107 – －1129(0.2 g calcu-lated on the anhydrous basis, water, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 0.5 g of Morphine Sulfate Hydrate in 15 mL of water, add 2 drops of methyl red TS, and neutralize with 0.02 mol/L sodium hydroxide VS: the necessary volume of 0.02 mol/L sodium hydroxide VS is not more than 0.50 mL. Ammonium—Being specified separately when the drug is granted approval based on the Law. Chloride—Dissolve 0.10 g of Morphine Sulfate Hy-drate in 10 mL of water, add 1 mL of dilute nitric acid, then add 1 mL of silver nitrate TS: no turbidity is produced. Meconic acid—Dissolve 0.20 g of Morphine Sulfate Hydrate in 5 mL of water, add 5 mL of dilute hydrochloric acid and 2 drops of iron (III) chloride TS: no red color de-velops. Related substances—Dissolve 0.20 g of Morphine Sulfate Hydrate in 10 mL of diluted methanol (4 in 5), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted methanol (4 in 5) to make ex-actly 100 mL, and use this solution as the standard solution (1). Pipet 5 mL of the standard solution (1), add diluted methanol (4 in 5) to make exactly 10 mL, and use this solu-tion as the standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and the standard solutions (1) and (2) on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of acetone, ethanol (99.5) and ammonia solution (28) (21:14:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot at an Rf value of about 0.17 obtained from the sample solution is not more intense than the spot from the standard solution (1), and the spot other than the principle spot, the spot at an Rf value of about 0.17 and the spot at original point from the sample so-lution is not more intense than the spot from the standard solution (2). Water <2.48> 11.0 – 13.0z (0.1 g, volumetric titration, direct titration). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Morphine Sulfate Hydrate, dissolve in 3 mL of formic acid, add 100 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.05 mol/L perchloric acid VS (potentio-metric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 33.44 mg of (C17H19NO3)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

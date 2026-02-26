@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kanamycin-monosulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kanamycin Monosulfate",
+    "ja": "カナマイシン一硫酸塩"
+  },
+  "monographId": "JP18-kanamycin-monosulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H36N4O11.H2SO4",
+  "molecularWeight": 582.58,
+  "definition": {
+    "en": "Kanamycin Monosulfate is the sulfate of an amino-glycoside substance having antibacterial activity pro-duced by the growth of Streptomyces kanamyceticus. It contains not less than 750 mg (potency) and not more than 832 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Kanamycin Monosulfate occurs as a white crystalline powder. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 50 mg of Kanamycin Monosulfate in 3 mL of water, and add 6 mL of anthrone TS: a blue-purple color develops. Dissolve 20 mg each of Kanamycin Monosulfate and Kanamycin Monosulfate RS in 1 mL of water, and use these solutions as the sample solution and standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with the su-pernatant layer of a mixture of chloroform, ammonia solu-tion (28) and methanol (2:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of 0.2z nin- ‌JP XVIII Official Monographs / Kanamycin Sulfate 1219 hydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the principal spot ob-tained from the sample solution and the spot from the stand-ard solution show a purple-brown color and the same Rf value. To a solution of Kanamycin Monosulfate (1 in 5) add 1 drop of barium chloride TS: a white precipitate is formed. D Optical rotation <2.49> [a]20: ＋112 – ＋1239(0.2 g calcu-lated on the dried basis, water, 20 mL, 100 mm). Sulfuric acid Weigh accurately about 0.25 g of Kanamycin Monosulfate, dissolve in 100 mL of water, adjust the pH to 11.0 with ammonia solution (28), add exactly 10 mL of 0.1 mol/L barium chloride VS, and titrate <2.50> with 0.1 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solution, blue-purple, disappears (indicator: 0.5 mg of phthalein purple). At a near of the end-point add 50 mL of ethanol (99.5). Perform a blank determination in the same manner. The amount of sulfuric acid (SO4) is not less than 15.0z and not more than 17.0z, calculated on the dried basis. Each mL of 0.1 mol/L barium chloride VS ＝ 9.606 mg of SO4"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Kanamycin Monosulfate according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Kanamycin Monosulfate according to Method 4, and per-form the test (not more than 1 ppm). Related substances—Dissolve 0.30 g of Kanamycin Monosulfate in water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 45 mg of Kanamycin Monosulfate RS in water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solu-tion and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potassium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in 1-butanol (1 in 100) on the plate, and heat the plate at 1109C for 10 minutes: the spot other than the the high concentration standard solution and the low con-centration standard solution, respectively. Sample solutions—Weigh accurately an amount of Kanamycin Monosulfate, equivalent to about 20 mg (po-tency), and dissolve in water to make exactly 50 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 20 mg (potency) and 5 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

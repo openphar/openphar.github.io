@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/etidronate-disodium-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Etidronate Disodium Tablets",
+    "ja": "エチドロン酸二ナトリウム錠"
+  },
+  "monographId": "JP18-etidronate-disodium-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Etidronate Disodium Tablets contain not less than 93.0z and not more than 107.0z of the labeled amount of etidronate disodium (C2H6Na2O7P2: 249.99). Method of preparation Prepare as directed under Tablets, with Etidronate Disodium. Identification (1) Shake an amount of powdered Etidronate Disodium Tablets, equivalent to 0.2 g of Etidronate Disodium, with 20 mL of water, and filter. Pro-ceed with the filtrate as directed in the Identification (1) under Etidronate Disodium. (2) Shake an amount of powdered Etidronate Disodium Tablets, equivalent to 0.4 g of Etidronate Disodium, with 10 mL of water, and filter. Evaporate total amount of the fil-trate to dryness under reduced pressure, shake the residue with 15 mL of ethanol (99.5), centrifuge, and dry the precipi-tate at 1509C for 4 hours. Determine the infrared absorption spectrum of the precipitate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 1170 cm－1, 1056 cm－1, 916 cm－1 and 811 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 60 minutes of Etidronate Disodium Tablets is not less than 85z. ‌Start the test with 1 tablet of Etidronate Disodium Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, take exactly V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake an amount of powdered Etidronate Disodium Tablets, equivalent to 0.2 g of Etidronate Disodium, with 20 mL of water, and filter. Pro-ceed with the filtrate as directed in the Identification (1) under Etidronate Disodium. (2) Shake an amount of powdered Etidronate Disodium Tablets, equivalent to 0.4 g of Etidronate Disodium, with 10 mL of water, and filter. Evaporate total amount of the fil-trate to dryness under reduced pressure, shake the residue with 15 mL of ethanol (99.5), centrifuge, and dry the precipi-tate at 1509C for 4 hours. Determine the infrared absorption spectrum of the precipitate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 1170 cm－1, 1056 cm－1, 916 cm－1 and 811 cm－1. Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 60 minutes of Etidronate Disodium Tablets is not less than 85z. ‌Start the test with 1 tablet of Etidronate Disodium Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, take exactly V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 0.22 mg of etidronate disodium (C2H6Na2O7P2), and use this solution as the sample solution. Separately, weigh accurately about 30 mg of etidronate disodium for assay, previously dried at 2109C for 2 hours, and dissolve in water to make exactly 100 mL. Di-lute exactly a suitable amount of this solution with water to make solutions so that each mL contains about 0.12 mg, about 0.21 mg and about 0.24 mg of etidronate disodium (C2H6Na2O7P2), and use these solutions as the standard solu-tions. Pipet 2 mL each of the sample solution and standard solutions, add exactly 2 mL of a solution of copper (II) sul-fate (7 in 10,000) and water to make exactly 10 mL. Deter-mine the absorbances of these solutions at 233 nm as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared by diluting exactly 2 mL of the so-lution of copper (II) sulfate (7 in 10,000) with water to make exactly 10 mL as the control. From the calibration curve ob-tained with the standard solutions calculate the concentra-tion of etidronate disodium, CT, in the sample solution. Dissolution rate (z) with respect to the labeled amount of etidronate disodium (C2H6Na2O7P2) ＝ CT × V?/V × 1/C × 90 CT: Concentration (mg/mL) of etidronate disodium (C2H6Na2O7P2) in the sample solution C: Labeled amount (mg) of etidronate disodium (C2H6Na2O7P2) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Etidronate Disodium Tablets. Weigh accurately a portion of the powder, equivalent to about 0.5 g of etidronate disodium (C2H6Na2O7P2), add 30 mL of water, shake vigorously for 10 minutes, add water to make exactly 50 mL, and filter. Proceed with exactly 15 mL of the filtrate as directed in the Assay under Etidronate Disodium."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/houttuyniae-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Houttuyniae Herba",
+    "ja": "ジュウヤク"
+  },
+  "monographId": "JP18-houttuyniae-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Stem with alternate leaves and spikes; stem light brown, with longitudinal furrows and protruded nodes; when soaked in water and smoothed out, leaves wide ovate and cordate, 3 – 8 cm in length, 3 – 6 cm in width; light green-brown; margin entire, apex acuminate; petiole long, and membranous stipule at the base; spike, 1 – 3 cm in length, with numerous light yellow-brown achlamydeous florets, and the base enclosed by 4 long ovate, light yellow to light yellow-brown involucres. Odor, slight; taste, slight."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Heat 2 g of pulverized Houttuynia Herb with 20 mL of ethyl acetate under a reflux condenser for 15 minutes, and filter. Evaporate the filtrate to dryness, add 10 mL of water to the residue, warm the mixture on a water bath for 2 minutes, and, after cooling, filter. Shake well the filtrate with 20 mL of ethyl acetate in a separator, take 15 mL of ethyl acetate solution, and evaporate the solution on a water bath to dryness. Dissolve the residue in 5 mL of meth-anol, add 0.1 g of magnesium ribbon and 1 mL of hydro-chloric acid, and allow the mixture to stand: a light red to red color develops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of the rhizome, roots and other foreign matter contained in Houttuynia Herb is not more than 2.0z. Total ash <5.01> Not more than 14.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 10.0z. ‌2036‌‌‌ Immature Orange / Crude Drugs and Related Drugs"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+
+  "@id": "https://www.openphar.org/data/monograph/jp/acetaminophen",
+  "@type": "ChemicalDrugMonograph",
+
+  "prefLabel": {
+    "en": "Acetaminophen",
+    "ja": "アセトアミノフェン"
+  },
+
+  "altLabel": [
+    { "@value": "Paracetamol", "@language": "en" },
+    { "@value": "N-Acetyl-p-aminophenol", "@language": "en" },
+    { "@value": "APAP", "@language": "en" }
+  ],
+
+  "monographId": "JP18-0099",
+  "publisher": "JP",
+  "status": "Official",
+  "effectiveDate": "2021-06-25",
+  "version": "18",
+
+  "definition": {
+    "en": "Acetaminophen, when dried, contains not less than 98.0% of C8H9NO2."
+  },
+
+  "molecularFormula": "C8H9NO2",
+  "molecularWeight": 151.16,
+  "casNumber": "103-90-2",
+
+  "systematicName": {
+    "en": "N-(4-Hydroxyphenyl)acetamide"
+  },
+
+  "inchi": "InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)",
+  "inchiKey": "RZVAJINKPMORJF-UHFFFAOYSA-N",
+  "smiles": "CC(=O)NC1=CC=C(C=C1)O",
+
+  "chemicalStructure": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=1983&t=l",
+
+  "appearance": {
+    "en": "White crystals or crystalline powder, odorless, slightly bitter taste"
+  },
+
+  "solubility": {
+    "en": "Freely soluble in ethanol (95), sparingly soluble in water, slightly soluble in diethyl ether. Dissolves in sodium hydroxide TS."
+  },
+
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification A - IR"
+      },
+      "testType": "TestType-Identification",
+      "harmonizedMethod": "IR",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of the sample as directed in the potassium bromide disk method under Infrared Spectrophotometry, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      },
+      "referenceSpectrum": {
+        "@id": "https://www.openphar.org/data/reference/ir/acetaminophen"
+      }
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification B - Chemical"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.1 g of Acetaminophen add 10 mL of dilute hydrochloric acid, boil for 1 minute, cool, add 1 drop of sodium nitrite TS, allow to stand for 2 minutes, then add 2 mL of ammonium sulfamate TS, mix, and allow to stand for 10 minutes. Add 2 mL of N-(1-naphthyl)-N'-diethyl ethylenediamine oxalate TS: a red-purple color develops."
+      }
+    },
+    {
+      "@type": "MeltingPointSpecification",
+      "testName": {
+        "en": "Melting Point"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "MeltingPoint",
+      "meltingPointRange": "169-172",
+      "temperatureUnit": "Celsius"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Clarity and Color of Solution"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Dissolve 1.0 g of Acetaminophen in 20 mL of ethanol (95): the solution is clear and colorless to pale yellow."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Related Substances"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HPLC-UV",
+      "impurityType": {
+        "en": "p-Aminophenol and other related substances"
+      },
+      "testConditions": {
+        "en": "Dissolve 0.10 g of Acetaminophen in 10 mL of a mixture of water and methanol (1:1), and use this solution as the sample solution. Perform the test with 10 μL of this solution as directed under Liquid Chromatography according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak appearing at the retention time of p-aminophenol is not more than 0.05% of the peak area of acetaminophen, and the area of any peak other than acetaminophen and p-aminophenol is not more than 0.1% of the peak area of acetaminophen."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.05,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Heavy Metals"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "HeavyMetals-Method1",
+      "impurityType": {
+        "en": "Heavy Metals as Pb"
+      },
+      "testConditions": {
+        "en": "Proceed according to Method 1 using 2.0 g of Acetaminophen. Prepare the control solution with 2.0 mL of Standard Lead Solution (for the test, use a quartz or porcelain crucible)."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 10,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Arsenic"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "Arsenic-Method1",
+      "impurityType": {
+        "en": "Arsenic"
+      },
+      "testConditions": {
+        "en": "Prepare the test solution with 1.0 g of Acetaminophen according to Method 1, and perform the test (not more than 2 ppm)."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 2,
+        "limitUnit": "ppm"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "p-Chloroacetanilide"
+      },
+      "testType": "TestType-Purity",
+      "harmonizedMethod": "GC",
+      "impurityType": {
+        "en": "p-Chloroacetanilide"
+      },
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Acetaminophen, add exactly 5 mL of the internal standard solution, and dissolve by warming if necessary. Cool, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of p-Chloroacetanilide for thin-layer chromatography, add methanol to make exactly 100 mL. Pipet 1 mL of this solution, add exactly 5 mL of the internal standard solution, and use this solution as the standard solution. Perform the test with 1 μL each of the sample solution and standard solution as directed under Gas Chromatography according to the following conditions. Calculate the ratios of the peak area of p-chloroacetanilide to that of the internal standard from the sample solution and the standard solution."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.001,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "LossOnDryingSpecification",
+      "testName": {
+        "en": "Loss on Drying"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "LossOnDrying",
+      "dryingConditions": {
+        "en": "Dry at 105°C for 2 hours"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.5,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "ResidueOnIgnitionSpecification",
+      "testName": {
+        "en": "Residue on Ignition"
+      },
+      "testType": "TestType-Physical",
+      "harmonizedMethod": "ResidueOnIgnition",
+      "ignitionConditions": {
+        "en": "Proceed as directed under Residue on Ignition Test"
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotMoreThan",
+        "limitValue": 0.1,
+        "limitUnit": "percent"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "harmonizedMethod": "Titrimetric-Neutralization",
+      "assayTarget": {
+        "en": "Acetaminophen (C8H9NO2)"
+      },
+      "assayExpression": "on dried basis",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Acetaminophen, previously dried, add 40 mL of water and 40 mL of hydrochloric acid, and dissolve by heating. After cooling, add 0.2 g of potassium bromide, titrate with 0.1 mol/L sodium nitrite VS (potentiometric titration) while cooling the solution in ice water and stirring. Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium nitrite VS = 15.12 mg of C8H9NO2."
+      },
+      "limit": {
+        "@type": "Limit",
+        "limitType": "LimitType-NotLessThan",
+        "limitValue": 98.0,
+        "limitUnit": "percent"
+      }
+    }
+  ],
+
+  "storageContainer": {
+    "en": "Well-closed containers"
+  },
+  "storageConditions": {
+    "en": "Store at room temperature"
+  }
+}

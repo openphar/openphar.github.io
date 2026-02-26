@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/rifampicin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Rifampicin",
+    "ja": "リファンピシン"
+  },
+  "monographId": "JP18-rifampicin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C43H58N4O12",
+  "molecularWeight": 822.94,
+  "casNumber": "13292-46-1",
+  "definition": {
+    "en": "Rifampicin is a derivative of a substance having an-tibacterial activity produced by the growth of Strep-tomyces mediterranei. It contains not less than 970 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the dried basis."
+  },
+  "appearance": {
+    "en": "Rifampicin occurs as orange-red to red-brown, crystals or crystalline powder. It is slightly soluble in water, in acetonitrile, in methanol and in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Rifampicin in methanol (1 in 5000) add 0.05 mol/L phosphate buffer solu-tion (pH 7.0) to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Rifampicin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorp-tion at the same wavelengths. (2) Determine the infrared absorption spectrum of Rifampicin as directed in the potassium bromide disk method under the Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Rifampicin RS: both spectra exhibit similar in-tensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Rifampicin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Rifampicin according to Method 3, and perform the test (not more than 2 ppm). Related substances—Perform the test immediately after preparing of the sample and standard solutions. Dis-solve 0.10 g of Rifampicin in 50 mL of acetonitrile, and use this solution as the sample stock solution. Pipet 5 mL of the sample stock solution, add citric acid-phosphate-acetonitrile TS to make exactly 50 mL, and use this solution as the sam-ple solution. Separately, pipet 1 mL of the sample stock so- ‌lution, and add acetonitrile to make exactly 100 mL. Pipet 5 mL of this solution, add citric acid-phosphate-acetonitrile TS to make exactly 50 mL, and use this solution as the stand-ard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic inte-gration method: the area of the peak appeared at the relative retention time of about 0.7 to rifampicin obtained from the sample solution is not larger than 1.5 times the peak area of rifampicin from the standard solution, the area of the peak other than rifampicin and the peak mentioned above from the sample solution is not larger than the peak area of rifam-picin from the standard solution, and the total area of the peaks other than rifampicin and the peak mentioned above from the sample solution is not larger than 3.5 times the peak area of rifampicin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of rifampicin, beginning after the peak of the solvent. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 2 mL of the standard solution, and add citric acid-phosphate-acetoni-trile TS to make exactly 20 mL. Confirm that the peak area of rifampicin obtained with 50 mL of this solution is equiva-lent to 7 to 13z of that with 50 mL of the standard solution. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rifampicin is not more than 2.0z. Loss on drying <2.41> Not more than 2.0z (1 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Rifampicin and Rifampicin RS, equivalent to about 40 mg (potency), and dissolve each in acetonitrile to make exactly 200 mL. Pipet 10 mL each of these solutions, add citric acid-phosphate-acetonitrile TS to make exactly 100 mL, and use these solu-tions as the sample solution and standard solution. Perform the test with exactly 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of rifampicin in each solution. Flow rate: Adjust so that the retention time of rifampicin is about 8 minutes. System suitability— System performance: To 5 mL of a solution of Rifampicin in acetonitrile (1 in 5000) add 1 mL of a solution of butyl parahydroxybenzoate in acetonitrile (1 in 5000) and citric acid-phosphate-acetonitrile TS to make 50 mL. When the procedure is run with 50 mL of this solution under the above operating conditions, butyl parahydroxybenzoate and rifam-picin are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 5 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rifampicin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

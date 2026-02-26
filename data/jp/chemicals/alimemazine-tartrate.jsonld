@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/alimemazine-tartrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Alimemazine Tartrate",
+    "ja": "アリメマジン酒石酸塩"
+  },
+  "monographId": "JP18-alimemazine-tartrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "41375-66-0",
+  "definition": {
+    "en": "Alimemazine Tartrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Alimemazine Tartrate occurs as a white pow-der. It is odorless, and has a bitter taste. It is freely soluble in water and in acetic acid (100), spar-ingly soluble in ethanol (95), and practically insoluble in diethyl ether. The pH of a solution of 1.0 g of Alimemazine Tartrate in 50 mL of water is between 5.0 and 6.5. It is gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Alimemazine Tartrate (1 in 100) add 1 drop of iron (III) chloride TS: a red-brown color is produced, and immediately a yellow pre-cipitate is formed. Dissolve 1 g of Alimemazine Tartrate in 5 mL of water, add 3 mL of sodium hydroxide TS, extract with two 10-mL portions of diethyl ether [use the aqueous layer ob-tained in the Identification (4)]. Shake the combined diethyl ether extracts with 3 g of anhydrous sodium sulfate, filter, and evaporate the diethyl ether with the aid of a current of air. Dry the residue in a desiccator (in vacuum, phosphorus (V) oxide) for 16 hours: it melts <2.60> between 669C and 709C. Determine the absorption spectrum of a solution of Alimemazine Tartrate (1 in 100,000) as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. The aqueous layer, obtained in the identification (2), when neutralized with dilute acetic acid, responds to Qualita-tive Tests <1.09> (1) and (2) for tartrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Alimemazine Tartrate in 20 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Alimemazine Tartrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Alimemazine Tartrate according to Method 3, and per-form the test. Use a solution of magnesium nitrate hexahy-drate in ethanol (95) (1 in 5) (not more than 2 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Alimemazine Tar-trate, previously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from red through brown to green-brown (indicator: 2 mL of p-naphtholbenzein TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 37.35 mg of (C18H22N2S)2.C4H6O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

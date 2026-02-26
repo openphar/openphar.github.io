@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/zinc-oxide",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Zinc Oxide",
+    "ja": "酸化亜鉛"
+  },
+  "monographId": "JP18-zinc-oxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Oxide, when ignited, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Zinc Oxide occurs as a white, amorphous pow-der. It is odorless and tasteless. It is practically insoluble in water, in ethanol (95), in acetic acid (100) and in diethyl ether. It dissolves in dilute hydrochloric acid and in sodium hy-droxide TS. It gradually absorbs carbon dioxide from air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat Zinc Oxide strongly: a yellow color develops on strong heating, and disappears on cooling. ‌(2) A solution of Zinc Oxide in dilute hydrochloric acid (1 in 10) responds to Qualitative Tests <1.09> for zinc salt.‌"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Carbonate, and clarity and color of solu-tion—Mix 2.0 g of Zinc Oxide with 10 mL of water, add 30 mL of dilute sulfuric acid, and heat on a water bath with stirring: no effervescence occurs, and the solution obtained is clear and colorless. Alkalinity—To 1.0 g of Zinc Oxide add 10 mL of water, and boil for 2 minutes. Cool, filter through a glass filter (G3), and to the filtrate add 2 drops of phenolphthalein TS and 0.20 mL of 0.1 mol/L hydrochloric acid VS: no color develops. Sulfate <1.14>—Shake 0.5 g of Zinc Oxide with 40 mL of water, and filter. Take 20 mL of the filtrate, add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.096z). Iron—Dissolve 1.0 g of Zinc Oxide in 50 mL of di-luted hydrochloric acid (1 in 2), dissolve 0.1 g of ammonium peroxodisulfate in this solution, and extract with 20 mL of 4-methyl-2-pentanone. Add 30 mL of acetic acid-sodium ace-tate buffer solution for Iron Limit Test (pH 4.5) to the 4-methyl-2-pentanone layer, extract again, and use the layer of the buffer solution as the test solution. Separately, perform the test in the same manner with 1.0 mL of Standard Iron Solution, and use the layer so obtained as the control solu-tion. Add 2 mL each of L-ascorbic acid solution for Iron Limit Test (1 in 100) to the test solution and the control solu-tion, respectively, mix, allow to stand for 30 minutes, add 5 mL of a solution of 2,2?-bipyridyl in ethanol (95) (1 in 200) and water to make 50 mL. After allowing to stand for 30 minutes, compare the color of the both liquids against a white back: the color of the liquid from the test solution is not stronger than that from the control solution (not more than 10 ppm). Lead—To 2.0 g of Zinc Oxide add 20 mL of water, then add 5 mL of acetic acid (100) with stirring, and heat on a water bath until solution is complete. Cool, and add 5 drops of potassium chromate TS: no turbidity is produced. Arsenic <1.11>—Dissolve 0.5 g of Zinc Oxide in 5 mL of dilute hydrochloric acid, use this solution as the test solu-tion, and perform the test (not more than 4 ppm). Loss on ignition <2.43> Not more than 1.0z (1 g, 8509C, 1 hour)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Zinc Oxide, previ-ously ignited at 8509C for 1 hour, dissolve in 2 mL of water and 3 mL of hydrochloric acid, and add water to make exactly 100 mL. Pipet 10 mL of this solution, add 80 mL of water, then add a solution of sodium hydroxide (1 in 50) until a slight precipitate is produced. Add 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.05 mol/L disodium dihydrogen ethylene- diamine tetraacetate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 4.069 mg of ZnO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benserazide-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benserazide Hydrochloride",
+    "ja": "ベンセラジド塩酸塩"
+  },
+  "monographId": "JP18-benserazide-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H15N3O5.HCl",
+  "molecularWeight": 293.7,
+  "casNumber": "14919-77-8",
+  "definition": {
+    "en": "Benserazide Hydrochloride contains not less than 98."
+  },
+  "appearance": {
+    "en": "Benserazide Hydrochloride occurs as a white to grayish white crystalline powder. It is freely soluble in water and in formic acid, soluble in methanol, very slightly soluble in ethanol (95). It dissolves in 0.1 mol/L hydrochloric acid TS. The pH of a solution of 1.0 g of Benserazide Hydrochlo-ride in 100 mL of water is between 4.0 and 5.0. It is hygroscopic. It is gradually colored by light. A solution of Benserazide Hydrochloride (1 in 100) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Benserazide Hydrochloride in 0.1 mol/L hydro-chloric acid TS (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Ben-serazide Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 10 mL of a solution of Benserazide Hydrochloride (1 in 30) add silver nitrate TS: a white precipitate is formed. To a portion of this precipitate add dilute nitric acid: the precipitation does not dissolve."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Benserazide Hydrochloride in 10 mL of water, and per-form the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absorbance of this so-lution at 430 nm is not more than 0.10. Heavy metals <1.07>—Proceed with 1.0 g of Benser- azide Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.25 g of Benserazide Hydrochloride in 10 mL of methanol, and use this solution as the sample solution. Pipet 1 mL and 3 mL of the sample solution, add methanol to make exactly 200 mL, and use these solutions as the standard solution (1) and (2), respectively. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solution and standard solutions (1) and (2) on a plate of cellulose for thin-layer chromatogra- ‌JP XVIII Official Monographs / Benzalkonium Chloride 519‌ phy. Develop the plate with a solution of formic acid in so-dium chloride TS (1 in 1000) to a distance of about 10 cm, and air-dry the plate. Spray evenly sodium carbonate TS, air-dry, and then spray evenly Folin's TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the stand-ard solution (2), and the number of the spots which intense more than the spot from the standard solution (1) are not more than 2. Water <2.48> Not more than 2.5z (0.5 g, volumetric titra-tion, direct titration). Use a solution of salicylic acid in methanol for water determination (3 in 20) instead of metha-nol for water determination. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Benserazide Hydro-chloride, dissolve in 5 mL of formic acid, add 50 mL of ace-tic acid (100), and titrate <2.50> immediately with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.37 mg of C10H15N3O5.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

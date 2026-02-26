@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/l-arginine-hydrochloride-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "L-Arginine Hydrochloride Injection",
+    "ja": "L-アルギニン塩酸塩注射液"
+  },
+  "monographId": "JP18-l-arginine-hydrochloride-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "L-Arginine Hydrochloride Injection is an aqueous injection. It contains not less than 9."
+  },
+  "appearance": {
+    "en": "L-Arginine Hydrochloride Injection is a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of L-Arginine Hydrochloride Injection (1 in 100) add 1 mL of ninhydrin TS, and heat for 3 minutes: a blue-purple color develops. (2) To 5 mL of a solution of L-Arginine Hydrochloride Injection (1 in 10) add 2 mL of sodium hydroxide TS and 1 to 2 drops of a solution of 1-naphthol in ethanol (95) (1 in 1000), allow to stand for 5 minutes, and add 1 to 2 drops of sodium hypochlorite TS: a red-orange color develops. pH <2.54> 5.0 – 6.0 Bacterial endotoxins <4.01> Less than 0.50 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 20 mL of L-Arginine Hydrochloride Injection, add 7.5 mol/L hydrochloric acid TS to make exactly 100 mL, and determine the optical rotation aD as directed under Optical Rotation Determination <2.49> at 20 ± 19C in a 100-mm cell. Amount (mg) of L-arginine hydrochloride (C6H14N4O2.HCl) ＝ aD × 4444"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

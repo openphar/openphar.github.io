@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/famotidine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Famotidine",
+    "ja": "ファモチジン"
+  },
+  "monographId": "JP18-famotidine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H15N7O2S3",
+  "molecularWeight": 337.45,
+  "definition": {
+    "en": "Famotidine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Famotidine occurs as white to yellowish white crystals. It is freely soluble in acetic acid (100), slightly soluble in ethanol (95), and very slightly soluble in water. It dissolves in 0.5 mol/L hydrochloric acid TS. It is gradually colored by light. Melting point: about 1649C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Famotidine in 0.05 mol/L potassium dihydrogen phosphate TS (1 in 50,000) as directed under Ultraviolet- Amount (mg) of etoposide (C29 H32O 13) ＝ MS × QT/QS visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in- MS: Amount (mg) of Etoposide RS taken, calculated on the anhydrous basis Internal standard solution—A solution of 2,6-dichloro-phenol in methanol (3 in 2500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 290 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with phenylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 6.44 g of sodium sulfate decahy-drate in diluted acetic acid (100) (1 in 100) to make 1000 mL, and add 250 mL of acetonitrile. tensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Famotidine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Famotidine in 10 mL of 0.5 mol/L hydrochloric acid TS: the solution is clear and colorless to pale yellow. Heavy metals <1.07>—Proceed with 2.0 g of Famoti- dine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.20 g of Famotidine in ‌JP XVIII Official Monographs / Famotidine Injection 989 10 mL of acetic acid (100), and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, and add ace-tic acid (100) to make exactly 100 mL. Pipet 1 mL, 2 mL and 3 mL of this solution, add acetic acid (100) to make exactly 10 mL, respectively, and use these solutions as the standard solution (1), the standard solution (2) and the standard solu-tion (3). Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solutions (1), (2) and (3) on a plate of silica gel (5 to 7 mm) with fluorescent indicator for thin-layer chromatography, and dry in a stream of nitrogen. Develop the plate with a mixture of ethyl acetate, methanol, toluene and ammonia solution (28) (40:25:20:2) to a distance of about 8 cm, and air-dry the plate. Examine under ultravi-olet light (main wavelength: 254 nm): the spots other than the principal spot and the spot of the starting point obtained from the sample solution are not more intense than the spot from the standard solution (3). Total intensity of the spots other than the principal spot and the spot of the starting point from the sample solution is not more than 0.5z calcu-lated on the basis of intensities of the spots from the stand-ard solution (1) and the standard solution (2). Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Famotidine, previ-ously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 16.87 mg of C8H15N7O2S3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/potato-starch",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Potato Starch",
+    "ja": "バレイショデンプン"
+  },
+  "monographId": "JP18-potato-starch",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Potato Starch occurs as a white powder. It is practically insoluble in water and in ethanol (99.5).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Examined under a microscope <5.01> using a mixture of water and glycerin (1:1), Potato Starch presents granules, either irregularly shaped, ovoid or pear-shaped, usually 30 – 100 mm in size but occasionally exceeding 100 mm, or rounded, 10 – 35 mm in size. There are occasional compound granules having two to four compo-nents. The ovoid and pear-shaped granules have an eccentric hilum and the rounded granules acentric or slightly eccentric hilum. All granules show clearly visible concentric striations. Between orthogonally oriented polarizing plates or prisms, the granules show a distinct black cross intersecting at the hilum. To 1 g of Potato Starch add 50 mL of water, boil for 1 minute, and allow to cool: a thick, opalescent mucilage is formed. To 1 mL of the mucilage obtained in (2) add 0.05 mL of diluted iodine TS (1 in 10): an orange-red to deep blue color is formed, and the color disappears by heating. pH <2.54> Put 5.0 g of Potato Starch in a non-metal vessel, add 25.0 mL of freshly boiled and cooled water, mix gently for 1 minute, and allow to stand for 15 minutes: the pH of the solution is between 5.0 and 8.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Iron—To 1.5 g of Potato Starch add 15 mL of 2 mol/L hydrochloric acid TS, mix, filter, and use the fil-trate as the test solution. To 2.0 mL of Standard Iron Solu-tion add water to make 20 mL, and use this solution as the control solution. Put 10 mL each of the test solution and the ‌control solution in test tubes, add 2 mL of a solution of citric acid (1 in 5) and 0.1 mL of mercapto acetic acid, and mix. Alkalize with ammonia solution (28) to litmus paper, add water to make 20 mL, and mix. Transfer 10 mL each of these solutions into test tubes, allow to stand for 5 minutes, and compare the color of these solutions against a white background: the color of the test solution is not more intense than that of the control solution (not more than 10 ppm). Oxidizing substances—To 4.0 g of Potato Starch add 50.0 mL of water, shake for 5 minutes, and centrifuge. To 30.0 mL of the supernatant liquid add 1 mL of acetic acid (100) and 0.5 to 1.0 g of potassium iodide, shake, and allow to stand for 25 to 30 minutes at a dark place. Add 1 mL of starch TS, and titrate <2.50> with 0.002 mol/L sodium thio-sulfate VS until the color of the solution disappears. Per-form a blank determination in the same manner, and make any necessary correction: the volume of 0.002 mol/L sodium thiosulfate VS consumed is not more than 1.4 mL (not more than 20 ppm, calculated as hydrogen peroxide). Sulfur dioxide— Apparatus Use as shown in the figure. A: Three-necked round-bottom flask (500 mL) B: Cylindrical dropping funnel (100 mL) C: Condenser D: Test tube E: Tap Procedure Introduce 150 mL of water into the three-necked round-bottom flask, close the tap of the cylindrical dropping funnel, and pass carbon dioxide through the whole system at a rate of 100 ± 5 mL per minute. Pass cooling water through the condenser, and place 10 mL of hydrogen peroxide-sodium hydroxide TS in the test tube. After 15 minutes, remove the funnel without interrupt-ing the stream of carbon dioxide, and introduce through the opening into the flask about 25 g of Potato Starch, accu-rately weighed, with the aid of 100 mL of water. Apply tap grease to the outside of the connection part of the funnel, and load the funnel. Close the tap of the funnel, pour 80 mL of 2 mol/L hydrochloric acid TS into the funnel, open the tap to introduce the hydrochloric acid into the flask, and close the tap while several mL of the hydrochloric acid remains, in order to avoid losing sulfur dioxide. Place the flask in a water bath, and heat the mixture for 1 hour. Transfer the contents of the test tube with the aid of a little water to a wide-necked conical flask. Heat in a water bath for 15 minutes, and cool. Add 0.1 mL of bromophenol blue TS, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS until the color changes from yellow to violet-blue lasting for at least 20 seconds. Perform a blank determination in the same manner, and make any necessary correction. Calculate the amount of sulfur dioxide by applying the following for-mula: it is not more than 50 ppm. Amount (ppm) of sulfur dioxide ＝ V/M × 1000 × 3.203 M: Amount (g) of Potato Starch taken V: Amount (mL) of 0.1 mol/L sodium hydroxide VS con-sumed (4) Foreign matter—Under a microscope <5.01>, Potato Starch does not contain starch granules of any other origin. It may contain a minute quantity, if any, of frag-ments of the tissue of the original plant.◆ Loss on drying <2.41> Not more than 20.0z (1 g, 1309C, 90 minutes). Residue on ignition <2.44> Not more than 0.6z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers.◆"
+  }
+}

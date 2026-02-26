@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tobramycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tobramycin",
+    "ja": "トブラマイシン"
+  },
+  "monographId": "JP18-tobramycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H37N5O9",
+  "molecularWeight": 467.51,
+  "casNumber": "32986-56-4",
+  "definition": {
+    "en": "Tobramycin is an aminoglycoside substance having antibacterial activity produced by the growth of Strep-tomyces tenebrarius. It contains not less than 900 mg (potency) and not more than 1060 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Tobramycin occurs as a white to pale yellow-white powder. It is very soluble in water, freely soluble in formamide, slightly soluble in methanol, and very slightly soluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the 1H spectrum of a solu-tion of Tobramycin in heavy water for nuclear magnetic resonance spectroscopy (1 in 125) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethylsilylpropanesulfonate for nuclear magnetic reso-nance spectroscopy as an internal reference compound: it exhibits a doublet signal A at around d 5.1 ppm, a multiplet signal B between d 2.6 ppm and d 4.0 ppm, and a multiplet signal C between d 1.0 ppm and d 2.1 ppm. The ratio of the integrated intensity of these signals, A:B:C, is about 1:8:2. (2) Dissolve 10 mg each of Tobramycin and Tobramycin RS in 1 mL of water, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 4 mL of the sample solution and standard solu- tion on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ammonia TS, 1-butanol and methanol (5:5:2) to a distance of about 10 cm, and air-dry the plate. Spray evenly ninhydrin TS on the plate, and heat the plate at 1009C for 5 minutes: the Rf values of the principal spots obtained from the sample solution and the standard solution are the same. D Optical rotation <2.49> [a]20: ＋138 – ＋1489(1 g calculated on the anhydrous basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.10 g of Tobramycin in 10 mL of water is between 9.5 and 11.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Tobramycin in 10 mL of water: the solution is clear, and its absorbance at 400 nm, determined as directed under Ultraviolet-visible Spectrophotometry <2.24>, is not more than 0.05. Heavy metals <1.07>—Proceed with 1.0 g of Tobramycin according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Related substances—Dissolve 80 mg of Tobramycin in 10 mL of diluted ammonia solution (28) (1 in 250), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add diluted ammonia solution (28) (1 in 250) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ammonia solution (28), ethanol (95) and 2-butanone (1:1:1) to a distance of about 10 cm, air-dry the plate, then further dry at 1109C for 10 minutes. Immedi-ately spray evenly a mixture of water and sodium hypochlorite TS (4:1) on the plate, air-dry the plate, then spray potassium iodide-starch TS on the plate: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Water <2.48> Not more than 11.0z (0.1 g, volumetric titration, direct titration). Use a mixture of formamide for water determination and methanol for water determination (3:1) instead of methanol for water determination. Residue on ignition <2.44> Not more than 1.0z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Standard solutions—Weigh accurately an amount of Tobramycin RS, equivalent to about 25 mg (potency), dis-solve in 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 25 mL, and use this solution as the standard stock solution. Keep the standard stock solution between 59C and 159C, and use within 30 days. Take exactly a suita-ble amount of the standard stock solution before use, add ‌0.1 mol/L phosphate buffer solution (pH 8.0) to make solu-tions so that each mL contains 8 mg (potency) and 2 mg (po-tency), and use these solutions as the high concentration standard solution and the low concentration standard solu-tion, respectively.‌ Sample solutions—Weigh accurately an amount of Tobramycin, equivalent to about 25 mg (potency), and dis-solve in 0.1 mol/L phosphate buffer solution (pH 8.0) to make exactly 25 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 8 mg (potency) and 2 mg (potency), and use these solutions as the high con-centration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

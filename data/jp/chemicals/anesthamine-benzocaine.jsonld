@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/anesthamine-benzocaine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Anesthamine Benzocaine",
+    "ja": "アミノ安息香酸エチル"
+  },
+  "monographId": "JP18-anesthamine-benzocaine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H11NO2",
+  "molecularWeight": 165.19,
+  "appearance": {
+    "en": "Ethyl Aminobenzoate occurs as white, crystals or crystalline powder. It is odorless. It has a slightly bitter taste, numbing the tongue. It is freely soluble in ethanol (95) and in diethyl ether, and very slightly soluble in water. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Ethyl Aminobenzo-ate in 1 mL of dilute hydrochloric acid and 4 mL of water. This solution responds to Qualitative Tests <1.09> for prima-ry aromatic amines. Dissolve 0.1 g of Ethyl Aminobenzoate in 5 mL of water with the aid of dilute hydrochloric acid added drop-wise, and add iodine TS dropwise: a brown precipitate is produced. Warm 50 mg of Ethyl Aminobenzoate with 2 drops of acetic acid (31) and 5 drops of sulfuric acid: the odor of ethyl acetate is perceptible."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 1.0 g of Ethyl Aminobenzo-ate in 10 mL of neutralized ethanol, and add 10 mL of water, 2 drops of phenolphthalein TS and 0.50 mL of 0.01 mol/L sodium hydroxide VS: a red color is produced. Chloride—Dissolve 0.20 g of Ethyl Aminobenzoate in 5 mL of ethanol (95), add 2 to 3 drops each of dilute nitric acid and of silver nitrate TS: no change occurs immediately. Heavy metals <1.07>—Dissolve 2.0 g of Ethyl Amino- benzoate in 20 mL of ethanol (95), add 2 mL of dilute acetic acid and ethanol (95) to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and sufficient ethanol (95) to make 50 mL (not more than 10 ppm). Readily carbonizable substances <1.15>—Perform the test with 0.5 g of Ethyl Aminobenzoate: the solution has no more color than Matching Fluid A. Loss on drying <2.41> Not more than 1.0z (1 g, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Ethyl Aminoben-zoate, previously dried, dissolve in 10 mL of hydrochloric acid and 70 mL of water, add 10 mL of a solution of potas-sium bromide (3 in 10), and cool to a temperature below 159C. Then titrate <2.50> with 0.1 mol/L sodium nitrite VS by the potentiometric titration or the amperometric titration. Each mL of 0.1 mol/L sodium nitrite VS ＝ 16.52 mg of C9H11NO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

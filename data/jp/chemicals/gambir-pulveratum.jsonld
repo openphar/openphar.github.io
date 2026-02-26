@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gambir-pulveratum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gambir Pulveratum",
+    "ja": "アセンヤク末"
+  },
+  "monographId": "JP18-gambir-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Gambir occurs as a red-brown to dark brown powder. It has a slight odor, and an extremely astringent and bitter taste. Under a microscope <5.01>, Powdered Gambir, immersed in olive oil or liquid paraffin, consists of masses of needle crystals or yellow-brown to red-brown angular fragments, and reveals epidermal tissue and thick-walled hairs."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.2 g of Powdered Gambir add 10 mL of water, warm in a water bath for 5 minutes with occa-sional shaking, and filter. Cool the filtrate, and add 2 to 3 drops of gelatin TS: a white turbidity or precipitate is pro-duced. (2) Shake 0.1 g of Powdered Gambir with 20 mL of dilute ethanol for 2 minutes, and filter. Mix 1 mL of the fil-trate with 9 mL of dilute ethanol, and to the solution add 1 mL of vanillin-hydrochloric acid TS: a light red to red-brown color develops. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 70.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  }
+}

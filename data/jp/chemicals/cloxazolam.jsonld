@@ -1,0 +1,34 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cloxazolam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cloxazolam",
+    "ja": "クロキサゾラム"
+  },
+  "monographId": "JP18-cloxazolam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H14Cl2N2O2",
+  "molecularWeight": 349.21,
+  "casNumber": "24166-13-0",
+  "definition": {
+    "en": "Cloxazolam, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Cloxazolam occurs as white, crystals or crys-talline powder. It is odorless and tasteless. It is freely soluble in acetic acid (100), sparingly soluble in dichloromethane, slightly soluble in ethanol (99.5) and in diethyl ether, very slightly soluble in ethanol (95), and practi-cally insoluble in water. It dissolves in dilute hydrochloric acid. It is gradually colored by light. Melting point: about 2009C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Cloxazolam in 10 mL of ethanol (99.5) by heating, and add 1 drop of hydrochloric acid: the solution shows a light yellow color and a yellow-green fluorescence under ultraviolet light (main wavelength: 365 nm). Add 1 mL of sodium hydroxide TS to this solution: the color and fluorescence of this solution disappear immedi-ately. Dissolve 0.01 g of Cloxazolam in 5 mL of dilute hy-drochloric acid by heating in a water bath for 10 minutes. After cooling, 1 mL of this solution responds to Qualitative Tests <1.09> for primary aromatic amines. Place 2 g of Cloxazolam in a 200-mL flask, add 50 mL of ethanol (95) and 25 mL of sodium hydroxide TS, and boil under a reflux condenser for 4 hours. After cooling, neutralize with dilute hydrochloric acid, and extract with 30 mL of dichloromethane. Dehydrate with 3 g of anhydrous sodium sulfate, filter, and evaporate the dichloromethane of the filtrate. Dissolve the residue in 5 mL of methanol by heating on a water bath, and cool immediately in an ice bath. Collect the crystals, and dry the crystals is vacuum at 609C for 1 hour: it melts <2.60> between 879C and 919C. Determine the absorption spectrum of a solution of Cloxazolam in ethanol (99.5) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare ‌802 the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Proceed with Cloxazolam as directed under Flame Coloration Test <1.04> (2), and perform the test: a green color appears. Cocaine Hydrochloride"
+      }
+    }
+  ]
+}

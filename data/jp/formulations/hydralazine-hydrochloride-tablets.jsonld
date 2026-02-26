@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/hydralazine-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Hydralazine Hydrochloride Tablets",
+    "ja": "ヒドララジン塩酸塩錠"
+  },
+  "monographId": "JP18-hydralazine-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Hydralazine Hydrochloride Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of hydralazine hydrochloride (C8H8N4.HCl: 196.64). Method of preparation Prepare as directed under Tablets, with Hydralazine Hydrochloride. Identification Weigh a quantity of powdered Hydralazine Hydrochloride Tablets, equivalent to 25 mg of Hydralazine Hydrochloride, add 100 mL of water, mix well, and filter if necessary. To 2 mL of this solution add water to make 50 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 238 nm and 242 nm, be- tween 258 nm and 262 nm, between 301 nm and 305 nm and between 313 nm and 317 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Hydralazine Hydrochloride Tablets add 25 mL of 0.1 mol/L hydrochloric acid TS, disperse the tablet into a small particles by sonicating, then shake well, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and centrifuge. Pipet V mL of the supernatant liquid, add 0.1 mol/L hydrochloric acid TS to make exactly V? mL so that each mL contains about 10 mg of hydralazine hydrochloride (C8H8N4."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Weigh a quantity of powdered Hydralazine Hydrochloride Tablets, equivalent to 25 mg of Hydralazine Hydrochloride, add 100 mL of water, mix well, and filter if necessary. To 2 mL of this solution add water to make 50 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 238 nm and 242 nm, be- tween 258 nm and 262 nm, between 301 nm and 305 nm and between 313 nm and 317 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Hydralazine Hydrochloride Tablets add 25 mL of 0.1 mol/L hydrochloric acid TS, disperse the tablet into a small particles by sonicating, then shake well, add 0.1 mol/L hydrochloric acid TS to make exactly 50 mL, and centrifuge. Pipet V mL of the supernatant liquid, add 0.1 mol/L hydrochloric acid TS to make exactly V? mL so that each mL contains about 10 mg of hydralazine hydrochloride (C8H8N4.HCl), and use this solution as the sample solution. Separately, weigh accurately about 25 mg of hydralazine hy-drochloride for assay, previously dried at 1059C for 3 hours, dissolve in 0.1 mol/L hydrochloric acid TS to make exactly 50 mL. Pipet 2 mL of this solution, add 0.1 mol/L hydro-chloric acid TS to make exactly 100 mL, and use this solu-tion as the standard solution. Determine the absorbances at 260 nm, AT1 and AS1, and at 350 nm, AT2 and AS2, of the sample solution and standard solution as directed under Ul-traviolet-visible Spectrophotometry <2.24>. Amount (mg) of hydralazine hydrochloride (C8H8N4.HCl) ＝ MS × (AT1 － AT2)/(AS1 － AS2) × V?/V × 1/50 MS: Amount (mg) of hydralazine hydrochloride for assay taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Hydralazine Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Hydralazine Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. ‌JP XVIII Official Monographs / Dilute Hydrochloric Acid 1111‌ Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 11 mg of hydralazine hydro-chloride (C8H8N4.HCl), and use this solution as the sample solution. Separately, weigh accurately about 50 mg of hydralazine hydrochloride for assay, previously dried at 1059C for 3 hours, and dissolve in water to make exactly 50 mL. Pipet 1 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 260 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of hydralazine hydrochloride (C8H8N4.HCl) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of hydralazine hydrochloride for assay taken C: Labeled amount (mg) of hydralazine hydrochloride (C8H8N4.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Hydralazine Hy-drochloride Tablets, and powder. Weigh accurately a por-tion of the powder, equivalent to about 0.15 g of hydralazine hydrochloride (C8H8N4.HCl), transfer it to a glass-stoppered flask, and proceed as directed in the Assay under Hydrala-zine Hydrochloride. Each mL of 0.05 mol/L potassium iodate VS ＝ 9.832 mg of C8H8N4.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/lactulose",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Lactulose",
+    "ja": "ラクツロース"
+  },
+  "monographId": "JP18-lactulose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H22O11",
+  "molecularWeight": 342.3,
+  "definition": {
+    "en": "Lactulose is a solution of lactulose prepared by isomerizing lactose under the existing of alkaline and purified by ion-exchange resin. It contains not less than 50."
+  },
+  "appearance": {
+    "en": "Lactulose occurs as a clear, colorless or light yellow, viscous liquid. It is odorless, and has a sweet taste. It is miscible with water and with formamide."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.7 g of Lactulose add 10 mL of water, 10 mL of a solution of hexaammonium heptamolyb-date tetrahydrate (1 in 25) and 0.2 mL of acetic acid (100), and heat in a water bath for 5 to 10 minutes: a blue color de-velops. (2) Mix 0.3 g of Lactulose and 30 mL of water, add 16 mL of 0.5 mol/L iodine TS, then immediately add 2.5 mL of 8 mol/L sodium hydroxide TS, allow to stand for 7 minutes, and add 2.5 mL of diluted sulfuric acid (3 in 20). To this so-lution add a saturated solution of sodium sulfite heptahy-drate until the solution turns light yellow, then add 3 drops of methyl orange TS, neutralize with a solution of sodium hydroxide (4 in 25), and add water to make 100 mL. To 10 mL of this solution add 5 mL of Fehling's TS, and boil for 5 minutes: a red precipitate is produced. pH <2.54> To 2.0 g of Lactulose add 15 mL of water: the pH of the solution is between 3.5 and 5.5. Specific gravity <2.56> d 20: 1.320 – 1.360"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 5.0 g of Lactulose according to Method 4, and perform the test. Pre-pare the control solution with 2.5 mL of Standard Lead So-lution (not more than 5 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Lactulose according to Method 1, and perform the test (not more than 2 ppm). Galactose and lactose—Determine the heights of the peaks corresponding to galactose and lactose respectively, on the chromatogram obtained in Assay from the sample solu-tion and the standard solution, and calculate the ratios of the peak heights of galactose and lactose to that of the internal standard from the sample solution, QTa and QTb, and then from the standard solution, QSa and QSb: it contains galac-tose of not more than 11z, and lactose of not more than 6z. Amount (mg) of galactose (C6H12O6) ＝ MS × QTa/QSa ‌1236 MS: Amount (mg) of galactose taken Amount (mg) of lactose (C ＝ MS × QTb/QSb 12H22O11.H2O) Lafutidine"
+      }
+    }
+  ]
+}

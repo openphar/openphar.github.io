@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/alprostadil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Alprostadil",
+    "ja": "アルプロスタジル"
+  },
+  "monographId": "JP18-alprostadil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H34O5",
+  "molecularWeight": 354.48,
+  "definition": {
+    "en": "Alprostadil, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Alprostadil occurs as white, crystals or crystal-line powder. It is freely soluble in ethanol (99.5) and in tetrahydrofu-ran, slightly soluble in acetonitrile, and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) The absorption spectrum of a solution of Alprostadil in ethanol (99.5) (1 in 100,000) determined as directed under Ultraviolet-visible Spectrophotometry <2.24> shows no absorption between 210 nm and 350 nm. Sepa-rately, to 10 mL of this solution add 1 mL of potassium hy-droxide-ethanol TS, allow to stand for 15 minutes, and de-termine the absorption spectrum in the same way. Compare the spectrum so obtained with the Reference Spectrum or the spectrum of a solution of Alprostadil RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Alprostadil, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of previously dried Alprostadil RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －53 – －619(after drying, 25 mg, tetrahydrofuran, 5 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 4 mg of Alprostadil in 2 mL of a mixture of acetonitrile for liquid chromatography and water (9:1), and use this solution as the sample solution. Pipet 0.5 mL of the sample solution, and add the mixture of acetonitrile for liquid chromatography and water (9:1) to make exactly 10 mL. Pipet 2 mL of this solution, add the mixture of acetonitrile for liquid chromatography and water (9:1) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peaks, having the relative retention time of about 0.70 and 1.26 to alprostadil, ob-tained from the sample solution is not larger than 1/2 times the peak area of alprostadil from the standard solution, the area of the peaks, having the relative retention time of about 0.88 and 1.18 to alprostadil, is not larger than the peak area of alprostadil from the standard solution, the area of the peaks other than alprostadil and the peaks mentioned above is not larger than 1/10 times the peak area of alprostadil from the standard solution and the total area of the peaks other than alprostadil is not larger than 2 times the peak area of alprostadil from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 5 times as long as the retention time of alprostadil, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 2 mL of the standard solution, add the mixture of acetonitrile for liq-uid chromatography and water (9:1) to make exactly 20 mL. Confirm that the peak area of alprostadil obtained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of ‌436 the standard solution. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of alprostadil is not more than 1.5z. Loss on drying <2.41> Not more than 1.0z (0.1 g, in vacu-um, phosphorus (V) oxide, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 5 mg each of Alprostadil and Alprostadil RS, previously dried, dissolve in exactly 5 mL of the internal standard solution, add a mixture of aceto-nitrile for liquid chromatography and water (9:1) to make 50 mL, and use these solutions as the sample solution and standard solution, respectively. Perform the test with 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of alprostadil to that of the internal standard. Alprostadil Injection"
+      }
+    }
+  ]
+}

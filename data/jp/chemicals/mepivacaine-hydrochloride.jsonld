@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/mepivacaine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Mepivacaine Hydrochloride",
+    "ja": "メピバカイン塩酸塩"
+  },
+  "monographId": "JP18-mepivacaine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H22N2O.HCl",
+  "molecularWeight": 282.81,
+  "casNumber": "1722-62-9",
+  "definition": {
+    "en": "Mepivacaine Hydrochloride, when dried, contains not less than 98."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Mepivacaine Hydrochloride (1 in 2500) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Mepivacaine Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Mepivacaine Hydrochloride (1 in 50) responds to Qualitative Tests <1š.09> for chloride. pH <2.54> Dissolve 0.2 g of Mepivacaine Hydrochloride in 10 mL of water: the pH of this solution is between 4.0 and 5.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Mepivacaine Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. Sulfate <1.14>—Perform the test with 0.5 g of Mepivacaine Hydrochloride. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.038z). Heavy metals <1.07>—Proceed with 2.0 g of Mepivacaine Hydrochloride according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.10 g of Mepivacaine Hydrochloride in 5 mL of methanol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add methanol to make exactly 20 mL. Pipet 2 mL of this so-lution, add methanol to make exactly 50 mL, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of diethyl ether, meth-anol and ammonia solution (28) (100:5:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly bismuth ni-trate-potassium iodide TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Mepivacaine Hy-drochloride, previously dried, dissolve in 10 mL of acetic acid (100) and add 70 mL of acetic anhydride. Titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 28.28 mg of C15H22N2O.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

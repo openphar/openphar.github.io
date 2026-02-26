@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/anemarrhenae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Anemarrhenae Rhizoma",
+    "ja": "チモ"
+  },
+  "monographId": "JP18-anemarrhenae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Rather flat and cord-like rhizome, 3 – 15 cm in length, 0.5 – 1.5 cm in diameter, slightly bent and branched; externally yellow-brown to brown; on the upper surface, a longitudinal furrow and hair-like remains or scars of leaf sheath forming fine ring-nodes; on the lower surface, scars of root appearing as numerous round spot-like hollows; light and easily broken. Under a magnifying glass, a light yellow-brown transverse section reveals an extremely narrow cortex; stele porous, with many irregularly scattered vascular bun-dles. Odor, slight; taste, slightly sweet and mucous, followed by bitterness."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake vigorously 0.5 g of pulverized Anemarrhena Rhizome with 10 mL of water in a test tube: a lasting fine foam is produced. Filter the mixture, and to 2 mL of the filtrate add 1 drop of iron (III) chloride TS: a dark green precipitate is produced. (2) To 1 g of pulverized Anemarrhena Rhizome add 10 mL of 1 mol/L hydrochloric acid TS, and heat under a reflux condenser for 30 minutes. After cooling, centrifuge, and remove the supernatant liquid. To the residue add 10 mL of diethyl ether, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, dissolve 1 mg of sarsasapogenin for thin-layer chromatogra-phy in 1 mL of methanol, and use this solution as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate ‌1946‌ Angelica Dahurica Root / Crude Drugs and Related Drugs of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and acetone (7:3) to a dis-tance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 2 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Anemarrhena Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Anemarrhena Rhizome according to Method 4, and perform the test (not more than 5 ppm). Foreign matter <5.01>—The amount of fiber, originating from the dead leaves, and other foreign matters contained in Anemarrhena Rhizome is not more than 3.0z. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 2.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

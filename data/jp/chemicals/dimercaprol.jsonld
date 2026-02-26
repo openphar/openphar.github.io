@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dimercaprol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dimercaprol",
+    "ja": "ジメルカプロール"
+  },
+  "monographId": "JP18-dimercaprol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C3H8OS2",
+  "molecularWeight": 124.23,
+  "definition": {
+    "en": "Dimercaprol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dimercaprol is a colorless or pale yellow liq-uid. It has a mercaptan-like, disagreeable odor. It is miscible with methanol and with ethanol (99.5) It is soluble in peanut oil, and sparingly soluble in water. It shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 1 drop of Dimercaprol to a mix-ture of 1 drop of a solution of cobalt (II) chloride hexahy-drate (1 in 200) and 5 mL of water: a yellow-brown color de-velops. (2) Determine the infrared absorption spectrum of Dimercaprol as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.570 – 1.575 Specific gravity <2.56> d 20: 1.238 – 1.248"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 mL of Dimercaprol in 20 mL of peanut oil: the solution is clear and colorless to pale yellow. Bromide—To 2.0 g of Dimercaprol add 25 mL of dilute potassium hydroxide-ethanol TS, and heat in a water bath under a reflux condenser for 2 hours. Evaporate the ethanol in a current of warm air, add 20 mL of water, and cool. Add a mixture of 10 mL of hydrogen peroxide (30) and 17 21 7 7 4 2 40 mL of water, boil gently under a reflux condenser for 10 ethanol (95), and heat with swirling on a water bath until the solution just boils. Continue to heat for 30 seconds, and filter through a glass filter (G4). Wash the filter with warm ethanol (95), transfer the filtrate and washings to a flask, and evaporate the ethanol on a water bath to make 5 mL. Add 50 mL of water, 3 mL of ammonia TS and 6 mL of a solution of ammonium nitrate (1 in 10), heat the mixture on a water bath for 5 minutes, add exactly 25 mL of 0.1 mol/L silver nitrate VS, and heat on a water bath for 15 minutes with occasional shaking. Transfer the mixture to a 200-mL volumetric flask, using water to rinse the flask, cool, add water to make exactly 200 mL, and proceed as directed in the Assay (2) under Dimenhydrinate. Each mL of 0.1 mol/L silver nitrate VS ＝ 47.00 mg of C17H21NO.C7H7ClN4O2"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Dimercaprol into a glass-stoppered flask, dissolve in 10 mL of methanol, and titrate <2.50> immediately with 0.05 mol/L iodine VS until a pale yellow color is produced. Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.05 mol/L iodine VS ＝ 6.212 mg of C3H8OS2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

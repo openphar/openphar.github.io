@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-poria-sclerotium",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-poria-sclerotium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Poria Sclerotium",
+    "la": "Poria Pulveratum",
+    "ja": "ブクリョウ末"
+  },
+  "definition": {
+    "en": "produced"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/poria-sclerotium"
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

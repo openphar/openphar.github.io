@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/compound-rhubarb-and-senna-powder",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Compound Rhubarb and Senna Powder",
+    "ja": "複方ダイオウ・センナ散"
+  },
+  "monographId": "JP18-compound-rhubarb-and-senna-powder",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Compound Rhubarb and Senna Powder oc-curs as a yellow-brown powder, having a characteristic odor and a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of Compound Rhubarb and Senna Powder add 50 mL of water, warm on a water bath for 30 minutes, and filter. Add 2 drops of dilute hydrochloric acid to the filtrate, shake with two 20-mL portions of diethyl ether, and remove the diethyl ether layer. Add 5 mL of hy-drochloric acid to the aqueous layer, and heat it on a water bath for 30 minutes. Cool, shake with 20 mL of diethyl ether, take the diethyl ether layer, add 10 mL of sodium hydrogen carbonate TS, and shake: the aqueous layer is red in color."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-"
+  },
+  "dosageForm": "Powder"
+}

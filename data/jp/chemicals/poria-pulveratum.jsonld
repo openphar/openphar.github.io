@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/poria-pulveratum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Poria Pulveratum",
+    "ja": "ブクリョウ末"
+  },
+  "monographId": "JP18-poria-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Poria Sclerotium occurs as a white to grayish white powder. It is almost odorless and almost tasteless, but is slightly mucous. Under a microscope <5.01>, Powdered Poria Sclerotium reveals colorless and transparent hyphae strongly refracting material. Description Usually cut; external surface dark brown to dark red-brown and with longitudinal wrinkles; cut surface brown to light yellow-brown; in case periderm fallen off, ex-ternal surface brown to light yellow-brown and fibrous; on transversely cut surface cortex and xylem almost distinctly defined, and exhibits radial structure; sometimes radial cleft observed. Odor, fragrant; taste sweet, followed by slight bitterness."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Prepared Glycyrrhiza add 10 mL of ethyl acetate, shake for 15 minutes, centrifuge, and separate the ethyl acetate layer. Shake the residue with 5 mL of ethyl acetate and 5 mL of 0.1 mol/L hydrochloric acid TS for 15 minutes, centrifuge, and use the ethyl acetate layer as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol and water (7:2:1) to a dis-tance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, heat the plate at 1059C for 3 minutes, and allow to cool: a red-purple spot is observed at an Rf value of about 0.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Prepared Glycyrrhiza according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g ‌2106 Processed Aconite Root / Crude Drugs and Related Drugs of pulverized Prepared Glycyrrhiza according to Method 4, and perform the test (not more than 5 ppm). Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 8.0z (6 hours). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 2.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 25.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of pulverized Prepared Glycyrrhiza in a glass-stoppered centrifuge tube, add 70 mL of dilute ethanol, shake for 15 minutes, centrifuge, and sepa-rate the supernatant liquid. To the residue add 25 mL of dilute ethanol, and proceed in the same manner. Combine all the extracts, add dilute ethanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Glycyrrhizic Acid RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dissolve in dilute ethanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of glycyrrhizic acid in each solution. Amount (mg) of glycyrrhizic acid (C42H62O16) ＝ MS × AT/AS MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 720 mL of water, and add 5 mL of acetic acid (100) and 280 mL of acetonitrile. Flow rate: Adjust so that the retention time of glycyrrhizic acid is about 15 minutes. System suitability— System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak with the relative retention time of about 0.9 to glycyrrhizic acid, and the peak of glycyrrhizic acid is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glycyrrhizic acid is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

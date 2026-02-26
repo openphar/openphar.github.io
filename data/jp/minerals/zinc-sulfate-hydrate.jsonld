@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/zinc-sulfate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Zinc Sulfate Hydrate",
+    "ja": "硫酸亜鉛水和物"
+  },
+  "monographId": "JP18-zinc-sulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Sulfate Hydrate contains not less than 99."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2 g of Zinc Oxide Ointment, place in a crucible, melt by warming, heat gradually raising the temperature until the mass is thoroughly charred, and then ignite until the residue becomes uniformly yellow, and cool. Dissolve the residue in 1 mL of water and 1.5 mL of hydrochloric acid, and add water to make exactly 100 mL. Add 80 mL of water to exactly 20 mL of this solution, and add a solution of sodium hydroxide (1 in 50) until a small amount of precipitates begins to form in the solution. Add 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate <2.50> with 0.05 mol/L disodium dihy-drogen ethylenediamine tetraacetate VS (indicator: 0.04 g of eriochrome black T-sodium chloride indicator). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 4.069 mg of ZnO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

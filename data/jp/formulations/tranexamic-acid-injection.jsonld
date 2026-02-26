@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/tranexamic-acid-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Tranexamic Acid Injection",
+    "ja": "トラネキサム酸注射液"
+  },
+  "monographId": "JP18-tranexamic-acid-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Tranexamic Acid Injection is an aqueous injection. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Tranexamic Acid Injection is a clear and color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Tranexamic Acid Injection, equivalent to 50 mg of Tranexamic Acid, add water to make 5 mL, add 1 mL of ninhydrin TS, and heat: a dark purple color develops. pH <2.54> 7.0 – 8.0 Bacterial endotoxins <4.01> Not more than 0.12 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. acid are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tranexamic acid is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

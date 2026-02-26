@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sulfur-salicylic-acid-and-thianthol-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sulfur, Salicylic Acid and Thianthol Ointment",
+    "ja": "イオウ・サリチル酸・チアントール軟膏"
+  },
+  "monographId": "JP18-sulfur-salicylic-acid-and-thianthol-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sulfur, Salicylic Acid and Thianthol Ointment is light yellow in color."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Stir well 0.5 g of Sulfur, Salicylic Acid and Thianthol Ointment with 10 mL of water while heating, cool, and filter. To 1 mL of the filtrate add 5 mL of iron (III) nitrate TS: a purple color is produced (salicylic acid). Shake 1 g of Sulfur, Salicylic Acid and Thianthol Ointment with 20 mL of diethyl ether, remove the superna-tant liquid and floating materials. Wash the residue with 10 mL of diethyl ether, and remove the diethyl ether by suction. To the residue add 2 mL of pyridine and 0.2 mL of sodium hydrogen carbonate TS, and boil: a light blue to blue color is produced (sulfur). To 1 g of Sulfur, Salicylic Acid and Thianthol Oint-ment add 15 mL of ethanol (95), stir well while warming on a water bath, cool, and filter. Use the filtrate as the sample so-lution. Dissolve 0.01 g each of salicylic acid and thianthol in mL of ethanol (95), and use these solutions as the standard solution (1) and standard solution (2). Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solutions (1) and (2) on a plate of silica gel with fluores-cent indicator for thin-layer chromatography. Develop the plate with a mixture of chloroform, acetone and acetic acid (100) (45:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots of each component obtained from the sample solution and standard solutions (1) and (2) show the same Rf value. Spray iron (III) chloride TS upon the plate evenly: the spot from the standard solution (1) and that from the cor-responding sample solution reveal a purple color."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

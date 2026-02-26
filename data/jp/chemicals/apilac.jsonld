@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/apilac",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Apilac",
+    "ja": "ローヤルゼリー"
+  },
+  "monographId": "JP18-apilac",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Slightly viscous liquid or powder, milky white to light yellow in color. Odor, characteristic; taste, astrin-gent and acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a portion of Royal Jelly, equivalent to 0.2 g of dried substance, add 5 mL of water, 1 mL of dilute hydrochloric acid and 10 mL of diethyl ether, shake for 15 minutes, and centrifuge. Take the diethyl ether layer, evapo-rate the solvent under low pressure (in vacuo), dissolve the residue in 5 mL of methanol, and use this solution as the sample solution. Separately, dissolve 2 mg of 10-hydroxy-2-(E)-decenoic acid for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography, de-velop the plate with a mixture of 1-propanol and ammonia solution (28) (7:3) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spot obtained from the sample solution has the same color tone and Rf value with the spot from the stand-ard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with a portion of Royal Jelly, equivalent to 1.0 g of the dried substance, according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). (2) Arsenic <1.11>—Prepare the test solution with an amount of Royal Jelly, equivalent to 0.40 g of the dried sub-stance according to Method 3, and perform the test (not more than 5 ppm). Loss on drying <5.01> The slightly viscous liquid: Not less than 57.0z and not more than 77.0z (6 hours). The powder: Not less than 7.0z and not more than 13.0z (6 hours). Total ash <5.01> Not more than 4.0z, calculated on the dried basis. Acid-insoluble ash <5.01> Not more than 0.5z, calculated on the dried basis."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately a portion of Royal Jelly, equiva-lent to 0.2 g of the dried substance, add 20 mL of methanol, sonicate for 30 minutes, and add methanol to make exactly 50 mL. Centrifuge this solution, pipet 2 mL of the superna-tant liquid, add exactly 2 mL of the internal standard solu-tion, then add 25 mL of water and methanol to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of 10-hydroxy-2-(E)-decenoic acid for assay, dissolve in methanol to make exactly 100 mL. Pipet 3 mL of this solution, add exactly 2 mL of the internal standard solution, then add 25 mL of water and methanol to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of 10-hydroxy-2-(E)-decenoic acid to that of the internal standard. Amount (mg) of 10-hydroxy-2-(E)-decenoic acid ＝ MS × QT/QS × 3/4 MS: Amount (mg) of 10-hydroxy-2-(E)-decenoic acid for assay taken Internal standard solution—A solution of propyl parahy-droxybenzoate in methanol (1 in 5000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 215 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of water, methanol for liquid chromatography and phosphoric acid (550:450:1). Flow rate: Adjust so that the retention time of 10-hydroxy-2-(E)-decenoic acid is about 10 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, 10-hydroxy-2-(E)-decenoic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of 10-hydroxy-2-(E)-decenoic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—At not exceeding 109C."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxazolam",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Oxazolam",
+    "ja": "オキサゾラム"
+  },
+  "monographId": "JP18-oxazolam",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H17ClN2O2",
+  "molecularWeight": 328.79,
+  "casNumber": "24143-17-7",
+  "appearance": {
+    "en": "Oxazolam occurs as white, crystals or crystal-line powder. It is odorless and tasteless. It is freely soluble in acetic acid (100), soluble in 1,4-dioxane and in dichloromethane, slightly soluble in ethanol (95) and in diethyl ether, and practically insoluble in water. It dissolves in dilute hydrochloric acid. It gradually changes in color by light. Melting point: about 1879C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Oxazolam in 10 mL of ethanol (95) by heating, and add 1 drop of hydrochloric acid: a light yellow color develops, and the solution shows a yellow-green fluorescence under ultraviolet light (main wave-length: 365 nm). Add 1 mL of sodium hydroxide TS to this solution: the color and fluorescence of this solution disap-pear immediately. Dissolve 0.01 g of Oxazolam in 5 mL of dilute hydro-chloric acid by heating in a water bath for 10 minutes. After cooling, 1 mL of this solution responds to Qualitative Tests <1.09> for primary aromatic amines. Place 2 g of Oxazolam in a 200-mL flask, add 50 mL of ethanol (95) and 25 mL of 6 mol/L hydrochloric acid TS, and boil under a reflux condenser for 5 hours. After cooling, neutralize with a solution of sodium hydroxide (1 in 4), and extract with 30 mL of dichloromethane. Dehydrate with 3 g of anhydrous sodium sulfate, filter, and evaporate the dichloromethane of the filtrate. Dissolve the residue in 20 mL of methanol by heating on a water bath, and cool imme-diately in an ice bath. Collect the crystals, and dry in vacuum at 609C for 1 hour: the crystals melt <2.60> between 969C and 1009C. Determine the absorption spectrum of a solution of Oxazolam in ethanol (95) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. Proceed with Oxazolam as directed under Flame Coloration Test <1.04> (2), and perform the test: a green color appears. using this solution as the test solution. Prepare the control solution with 0.20 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Heavy metals <1.07>—Proceed with 1.0 g of Oxazol- am according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Place 1.0 g of Oxazolam in a Kjel- dahl flask, add 5 mL of sulfuric acid and 5 mL of nitric acid, and heat gently. Repeat the addition of 2 to 3 mL of nitric acid at times, and continue to heat until a colorless to light yellow solution is obtained. After cooling, add 15 mL of saturated ammonium oxalate monohydrate solution, heat the solution until dense white fumes are evolved, and evapo-rate to a volume of 2 to 3 mL. After cooling, dilute with water to 10 mL, and perform the test with this solution as the test solution (not more than 2 ppm). Related substances—Dissolve 0.05 g of Oxazolam in 10 mL of dichloromethane, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add dichloromethane to make exactly 200 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Immediately air-dry, develop the plate with a mixture of toluene and acetone (8:1) to a dis-tance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 1.0 g of Oxazolam add 50 mL of water, allow to stand for 1 hour with occasional shak-ing, and filter. To 25 mL of this filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test ‌Oxethazaine‌ Oxetacaine"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.65 g of Oxazolam, previ-ously dried, dissolve in 100 mL of a mixture of acetic acid (100) and 1,4-dioxane (1:1). Titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 2 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.88 mg of C18H17ClN2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

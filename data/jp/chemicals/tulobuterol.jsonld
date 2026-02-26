@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tulobuterol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tulobuterol",
+    "ja": "ツロブテロール"
+  },
+  "monographId": "JP18-tulobuterol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H18ClNO",
+  "molecularWeight": 227.73,
+  "definition": {
+    "en": "Tulobuterol contains not less than 98."
+  },
+  "appearance": {
+    "en": "Tulobuterol occurs as white, crystals or crys-talline powder. It is very soluble in methanol, freely soluble in ethanol (99.5) and in acetic acid (100), and practically insoluble in water. It dissolves in 0.1 mol/L hydrochloric acid TS. It gradually sublimes at 409C. A solution of Tulobuterol in methanol (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Tulobuterol in 0.1 mol/L hydrochloric acid TS (3 in 5000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Tulobuterol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Tulobuterol according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 5 ppm). Related substances—Dissolve 25 mg of Tulobuterol in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL. Pipet 5 mL of this so-lution, add the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Perform the test with exactly 25 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: each peak area other than tulobuterol obtained from the sample solu-tion is not larger than the peak area of tulobuterol from the standard solution, and the total area of the peaks other than tulobuterol from the sample solution is not larger than 5 times the peak area of tulobuterol from the standard solu-tion. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 215 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: Dissolve 3 g of sodium 1-octanesulfonate in 900 mL of water, and add 5 mL of diluted phosphoric acid (1 in 150). To 650 mL of this solution add 350 mL of aceto-nitrile for liquid chromatography. Flow rate: Adjust so that the retention time of tulobuterol is about 7 minutes. Time span of measurement: About 5 times as long as the retention time of tulobuterol, beginning after the solvent peak. System suitability— System performance: To 1 mL of the sample solution add the mobile phase to make 100 mL. To 5 mL of this solution add the mobile phase to make 10 mL, and use this solution as the solution for system suitability test. When the proce-dure is run with 25 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of tulobuterol are not less than 5000 and not more than 2.0, re-spectively. System repeatability: When the test is repeated 6 times with 25 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of tulobuterol is not more than 2.0z. Boron—Put 50 mg of Tulobuterol and 3.0 mL of Standard Boron Solution separately in platinum crucibles, and add 5 mL of potassium carbonate-sodium carbonate TS to them. After evaporating to dryness on a water bath, dry them at 1209C for 1 hour, and immediately incinerate by ignition. After cooling, add 0.5 mL of water and 3 mL of curcumin TS to the residue in the crucibles, and warm gently on a water bath for 5 minutes. After cooling, add 3 mL of acetic acid-sulfuric acid TS, and allow to stand for 30 minutes. Then add ethanol (95) to make them exactly 100 mL, filter, discard the first 10 mL of the filtrate, and use these subsequent filtrates as the sample solution and the ‌standard solution, respectively. Perform the test with these solutions as directed under Ultraviolet-visible Spectropho-tometry <2.24> using methanol (95) as a blank: the absor-bance at 555 nm of the sample solution is not more than that of the standard solution. Water <2.48> Not more than 0.2z (2 g, volumetric titra-tion, direct titration). is granted approval based on the Law. Drug release Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "After removing the liner from 10 tapes of Tulobuterol Transdermal Tape, add V mL of hexane so that each mL contains 0.5 mg of tulobuterol (C12H18ClNO), then add exactly V/10 mL of the internal Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Weigh accurately about 0.5 g of Tulobuterol, dis-solve in 20 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple to blue-green through blue (indicator: 2 drops of crystal violet TS ). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 22.77 mg of C12H18ClNO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

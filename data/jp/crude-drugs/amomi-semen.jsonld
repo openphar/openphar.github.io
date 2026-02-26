@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/amomi-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Amomi Semen",
+    "ja": "シュクシャ"
+  },
+  "monographId": "JP18-amomi-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Approximately spherical or ellipsoidal mass, 1 – 1.5 cm in length, 0.8 – 1 cm in diameter; externally grayish brown to dark brown, and with white powder in those dried by spreading lime over the seeds; the seed mass is divided into three loculi by thin membranes, and each locu-lus contains 10 to 20 seeds joining by aril; each seed is poly-gonal and spherical, 0.3 – 0.5 cm in length, about 0.3 cm in diameter, externally dark brown, with numerous, fine pro-trusions; hard tissue; under a magnifying glass, a longitu-dinal section along the raphe reveals oblong section, with deeply indented hilum and with slightly indented chalaza; white perisperm covering light yellow endosperm and long embryo. Characteristic aroma when cracked, and taste acrid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of coarse powdered Amomum Seed add 20 mL of hexane, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Separately, use a mixture of hexane and borneol acetate (1000:1) as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution and 2 mL of the standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of hexane, diethyl ether and methanol (15:5:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution. Total ash <5.01> Not more than 9.0z. Acid-insoluble ash <5.01> Not more than 3.0z. Essential oil content <5.01> Perform the test with 30.0 g of pulverized Amomum Seed: the volume of essential oil is not less than 0.6 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

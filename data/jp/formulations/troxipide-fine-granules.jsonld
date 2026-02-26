@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/troxipide-fine-granules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Troxipide Fine Granules",
+    "ja": "トロキシピド細粒"
+  },
+  "monographId": "JP18-troxipide-fine-granules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Troxipide Fine Granules contain not less than 93.0z and not more than 107.0z of the labeled amount of troxipide (C15H22N2O4: 294.35). Method of preparation Prepare as directed under Gran-ules, with Troxipide. Identification To a quantity of Troxipide Fine Granules, equivalent to 20 mg of Troxipide, add 100 mL of 0.1 mol/L hydrochloric acid TS, stir, and filter. To 4 mL of the filtrate add 0.1 mol/L hydrochloric acid TS to make 50 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 256 nm and 260 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Troxipide Fine Granules in single-dose packages meet the requirement of the Content uniformity test. To the total amount of the content of 1 package of Troxi-pide Fine Granules, add 80 mL of 0.1 mol/L hydrochloric acid TS, stir for 10 minutes, and add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 1 mg of troxipide (C15H22N2O4)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of Troxipide Fine Granules, equivalent to 20 mg of Troxipide, add 100 mL of 0.1 mol/L hydrochloric acid TS, stir, and filter. To 4 mL of the filtrate add 0.1 mol/L hydrochloric acid TS to make 50 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 256 nm and 260 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Troxipide Fine Granules in single-dose packages meet the requirement of the Content uniformity test. To the total amount of the content of 1 package of Troxi-pide Fine Granules, add 80 mL of 0.1 mol/L hydrochloric acid TS, stir for 10 minutes, and add 0.1 mol/L hydrochloric acid TS to make exactly V mL so that each mL contains about 1 mg of troxipide (C15H22N2O4). Centrifuge this solu-tion, pipet 2 mL of the supernatant liquid, add exactly 3 mL of the internal standard solution, and water to make 100 mL, and use this solution as the sample solution. Proceed as directed in the Assay. Amount (mg) of troxipide (C15H22N2O4) ＝ MS × QT/QS × V/25 MS: Amount (mg) of Troxipide RS taken Internal standard solution—A solution of 4-aminoacetophe-none in 0.1 mol/L hydrochloric acid TS (3 in 2000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 ‌mL of water as the dissolution medium, the dissolution rate in 60 minutes of Troxipide Fine Granules is not less than 85z. Weigh accurately an amount of Troxipide Fine Granules, equivalent to about 0.1 g of troxipide (C15H22N2O4), with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet 4 mL of the subsequent filtrate, add water to make exactly 20 mL, and use this solu-tion as the sample solution. Separately, weigh accurately about 20 mg of Troxipide RS, previously dried at 1059C for 2 hours, and dissolve in water to make exactly 200 mL. Pipet 4 mL of this solution, add water to make exactly 20 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and de-termine the absorbances, AT and AS, at 258 nm. Dissolution rate (z) with respect to the labeled amount of troxipide (C15H22N2O4) ＝ MS/MT × AT/AS × 1/C × 450 System suitability— System performance: When the procedure is run with 20 mL of standard solution under the above operating condi-tions, troxipide and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of troxipide to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Granule"
+}

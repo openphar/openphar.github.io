@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/clorazepate-dipotassium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Clorazepate Dipotassium",
+    "ja": "クロラゼプ酸二カリウム"
+  },
+  "monographId": "JP18-clorazepate-dipotassium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Clorazepate Dipotassium, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Clorazepate Dipotassium occurs as white to light yellow, crystals or crystalline powder. It is freely soluble in water, and very slightly soluble in ethanol (99.5). It dissolves in acetic acid (100). The pH of a solution obtained by dissolving 1 g of Clorazepate Dipotassium in 100 mL of water is between 11.5 and 12.5. It gradually turns yellow on exposure to light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Carefully and gradually ignite to red-ness 30 mg of Clorazepate Dipotassium with 50 mg of so-dium. After cooling, add 3 drops of ethanol (99.5) and 5 mL of water, mix well, and filter: the filtrate responds to Qualitative Tests <1.09> for chloride. Determine the absorption spectrum of a solution of Clorazepate Dipotassium (1 in 200,000) as directed under Ul-traviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Clorazepate Dipotassium as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Clorazepate Dipotassium responds to Qualitative Tests <1.09> (1) for potassium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Clorazepate Dipotassium in 20 mL of water, add 20 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL. Perform the test with this solution as the test solution. Prepare the con-trol solution as follows: To 0.40 mL of 0.01 mol/L hydro-chloric acid VS add 20 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.014z). Heavy metals <1.07>—Proceed with 1.0 g of Cloraze-pate Dipotassium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Clorazepate Dipotassium according to Method 3, and per-form the test (not more than 2 ppm). Related substances—Dissolve 15 mg of Clorazepate Dipotassium in 25 mL of a mixture of water, potassium car-bonate solution (97 in 1000) and acetonitrile (3:1:1), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add the mixture of water, potassium carbonate solution (97 in 1000) and acetonitrile (3:1:1) to make exactly 200 mL, and use this solution as the standard solution. Pre-pare these solutions quickly and perform the test within 3 minutes. Perform the test with exactly 5 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine each peak area by the automatic in-tegration method: the peak area of nordiazepam, having the relative retention time of about 3.0 to clorazepic acid, ob-tained from the sample solution is not larger than the peak area of clorazepic acid from the standard solution, the area of the peak other than clorazepic acid and nordiazepam is not larger than 1/5 times the peak area of clorazepic acid from the standard solution, and the total area of the peaks other than clorazepic acid is not larger than 2 times the peak area of clorazepic acid from the standard solution. For the area of the peak of nordiazepam, multiply the correction factor, 0.64. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 13.8 g of sodium dihydrogen phos-phate dihydrate in 500 mL of water, and adjust to pH 8.0 with sodium hydroxide TS. To 100 mL of this solution add 400 mL of acetonitrile and 300 mL of water. Flow rate: Adjust so that the retention time of clorazepic acid is about 1.3 minutes. Time span of measurement: About 10 times as long as the retention time of clorazepic acid, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add the mixture of water, potassium car-bonate solution (97 in 1000) and acetonitrile (3:1:1) to make exactly 25 mL. Confirm that the peak area of clorazepic acid obtained with 5 mL of this solution is equivalent to 15 to 25z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of clorazepic acid are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of clorazepic acid is not more than 1.5z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 609C, 5 hours). ‌JP XVIII Official Monographs / Clorazepate Dipotassium Capsules 797"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Clorazepate Dipotassium, previously dried, dissolve in 100 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of solution changes from violet to blue-green through blue (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 13.63 mg of C16H10ClKN2O3.KOH"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

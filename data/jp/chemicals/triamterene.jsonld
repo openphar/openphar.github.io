@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/triamterene",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Triamterene",
+    "ja": "トリアムテレン"
+  },
+  "monographId": "JP18-triamterene",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H11N7",
+  "molecularWeight": 253.26,
+  "definition": {
+    "en": "Triamterene, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Triamterene occurs as a yellow crystalline powder. It is odorless, and tasteless. It is sparingly soluble in dimethylsulfoxide, very slightly soluble in acetic acid (100), and practically insoluble in water, in ethanol (95), and in diethyl ether. It dissolves in nitric acid and in sulfuric acid, but does not dissolve in dilute nitric acid, in dilute sulfuric acid and in di-lute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.01 g of Triamterene add 10 mL of water, heat, and filter after cooling: the filtrate shows a pur-ple fluorescence. To 2 mL of the filtrate add 0.5 mL of hy-drochloric acid: the fluorescence disappears. The filtrate obtained in (1) responds to Qualitative Tests <1.09> for primary aromatic amines. Dissolve 0.01 g of Triamterene in 100 mL of acetic acid (100), and to 10 mL of the solution add water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Triamterene according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Triamterene according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Triamterene in 20 mL of dimethylsulfoxide. To 2 mL of this solution add methanol to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add methanol to make exactly 200 mL, and use this solution as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ammonia solution (28) and methanol (9:1:1) to a distance of about 10 cm, and air-dry the plate. Examine the plate under ultraviolet light (main wavelength: 365 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.10z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of Triamterene, pre-viously dried, and dissolve in 100 mL of acetic acid (100) by warming. Titrate <2.50> with 0.05 mol/L perchloric acid VS (indicator: 2 drops of crystal violet TS). Perform a blank de-termination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 12.66 mg of C12H11N7"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/eriobotryae-folium",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Eriobotryae Folium",
+    "ja": "ビワヨウ"
+  },
+  "monographId": "JP18-eriobotryae-folium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Loquat Leaf is an oblong to wide lanceolate leaf, 12 – 30 cm in length, 4 – 9 cm in width; pointed at the apex and wedge-shaped at the base; roughly serrate leaf with short petiole; occasionally being cut into strips 5 – 10 mm in shorter diameter and several cm in longer diameter; upper surface green to green-brown in color, lower surface light green-brown with light brown woolly hairs; vein, light yel-low-brown in color, raised out on the lower surface of the leaf. Odor, slight; practically tasteless. Under a microscope <5.01>, a transverse section of Loquat Leaf reveals thick cuticle on both surfaces; palisade tissue, mostly 4 to 5 cellular layers with several large cells without chloroplast; at main vein, ring of collateral bundle partly cut by intruding fundamental tissue at xylem side, and group of fiber attaching to phloem; solitary and clustered crystals of calcium oxalate in mesophyll; woolly hair, unicellular and curved, about 25 mm in thickness, and up to 1.5 mm in length."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.3 g of pulverized Loquat Leaf add 10 mL of methanol, warm on a water bath for 5 minutes with occasional shaking, cool, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of water and acetonitrile (3:2) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: a red-pur-ple principal spot appears at an Rf value of about 0.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 15.0z (6 hours). Total ash <5.01> Not more than 10.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 16.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/magnesium-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Magnesium Sulfate Injection",
+    "ja": "硫酸マグネシウム注射液"
+  },
+  "monographId": "JP18-magnesium-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Magnesium Sulfate Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Magnesium Sulfate Injection is a clear, color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Measure a volume of Magnesium Sulfate In-jection, equivalent to 0.5 g of Magnesium Sulfate Hydrate, and add water to make 20 mL: the solution responds to Qualitative Tests <1.09> for magnesium salt and for sulfate. pH <2.54> 5.5 – 7.0 When the labeled concentration exceeds 5z, prepare a solution of 5z with water, and per-form the test. Bacterial endotoxins <4.01> Less than 0.09 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Magnesium Sulfate Injection, equivalent to about 0.3 g of magnesium sulfate hydrate (MgSO4.7H2O), and add water to make 75 mL. Then add 5 mL of ammonia-ammonium chloride buffer so-lution (pH 10.7), and proceed as directed in the Assay under Magnesium Sulfate Hydrate. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 12.32 mg of MgSO .7H O of Magnesium Sulfate Hydrate according to Method 1, and 4 2 perform the test (not more than 2 ppm). Loss on ignition <2.43> 45.0 – 52.0z (1 g, after drying at 1059C for 2 hours, ignite at 4509C for 3 hours). Assay Weigh accurately about 0.6 g of Magnesium Sulfate Hydrate, previously ignited at 4509C for 3 hours after drying at 1059C for 2 hours, and dissolve in 2 mL of dilute hydro-chloric acid and water to make exactly 100 mL. Pipet 25 mL of this solution, add 50 mL of water and 5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), and titrate"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Injection"
+}

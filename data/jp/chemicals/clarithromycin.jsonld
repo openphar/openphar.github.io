@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/clarithromycin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Clarithromycin",
+    "ja": "クラリスロマイシン"
+  },
+  "monographId": "JP18-clarithromycin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C38H69NO13",
+  "molecularWeight": 747.95,
+  "definition": {
+    "en": "Clarithromycin is a derivative of erythromycin. It contains not less than 950 mg (potency) and not more than 1050 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Clarithromycin occurs as a white crystalline powder and has a bitter taste. It is soluble in acetone and in chloroform, slightly soluble in methanol and in ethanol (95), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mg of Clarithromycin add 2 mL of sulfuric acid, and shake gently: a red-brown color develops. Dissolve 3 mg of Clarithromycin in 2 mL of acetone, and add 2 mL of hydrochloric acid: an orange color develops and changes immediately to red to deep purple. Determine the infrared absorption spectra of Clarithromycin and Clarithromycin RS as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare these spectra: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －96 – －1069(0.25 g calcu-lated on the anhydrous basis, acetone, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Clarithromycin according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Weigh accurately about 0.1 g of Clarithromycin, dissolve in the mobile phase to make exactly 20 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately about 10 mg of Clarithromycin RS, dissolve in the mobile phase to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the each peak area by the automatic integration method: the amount of each related substance calculated on the anhydrous basis is not more than 2.0z, and the total amount of them is not more than 5.0z. For these calculations, exclude any peak with an area of less than 0.05z. Amount (z) of each related substance calculated on the anhydrous basis ＝ MS/MT × AT/AS × 100 Total amount (z) of the related substances calculated on the anhydrous basis ＝ MS/MT × SAT/AS × 100 MS: Amount (mg) of Clarithromycin RS taken MT: Amount (mg) of Clarithromycin taken, calculated on the anhydrous basis AS: Peak area of clarithromycin obtained with the stand-ard solution AT: Peak area of each related substance obtained with the sample solution SAT: Total area of the peaks other than clarithromycin obtained with the sample solution Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 5 times as long as the retention time of the main peak, beginning from 2 minutes after injection of the sample solution. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 10 mL, and use this solution as the solution for system suitabil-ity test. Pipet 1 mL of the solution for system suitability test, add the mobile phase to make exactly 10 mL. Pipet 2.5 mL of this solution, add the mobile phase to make exactly 10 mL. Confirm that the peak area of clarithromycin obtained with 10 mL of this solution is equivalent to 0.25 – 0.75z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of clarithromycin are not less than 2500 and not more than 2.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of clarithromycin is not more than 3.0z. Water <2.48> Not more than 2.0z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Clarithromycin and Clarithromycin RS, equivalent to about 50 mg (potency), JP XVIII Official Monographs / Clarithromycin for Syrup 771 ‌and dissolve each in the mobile phase to make exactly 10 mL. Pipet 2 mL each of these solutions, add exactly 2 mL of the internal standard solution, add the mobile phase to make 20 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak methanol, ethyl acetate and acetic acid (100) (90:10:1) to a distance of about 15 cm, and air-dry the plate. Spray evenly sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: the principal spot obtained from the sample solu-tion and the spot from the standard solution show a black-purple color and the same Rf value. Water <2.48> Not more than 3.0z (0.5 g, volumetric titra-tion, direct titration). area of clarithromycin to that of the internal standard. Amount [mg (potency)] of clarithromycin (C ＝ MS × QT/QS × 1000 38H69NO13) Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: Clarithromycin for Syrup in single-dose packages meet the requirement of the Content MS: Amount [mg (potency)] of Clarithromycin RS taken Internal standard solution—A solution of butyl parahy-droxybenzoate in the mobile phase (1 in 20,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 509C. Mobile phase: A mixture of diluted 0.2 mol/L potassium dihydrogen phosphate TS (1 in 3) and acetonitrile (13:7). Flow rate: Adjust so that the retention time of clarithromycin is about 8 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, clarithromycin and the internal standard are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of clarithromycin to that of the internal standard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

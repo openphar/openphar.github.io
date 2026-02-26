@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/aspoxicillin-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Aspoxicillin Hydrate",
+    "ja": "アスポキシシリン水和物"
+  },
+  "monographId": "JP18-aspoxicillin-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H27N5O7S.3H2O",
+  "molecularWeight": 547.58,
+  "definition": {
+    "en": "Aspoxicillin Hydrate contains not less than 950 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Aspoxicillin Hydrate occurs as a white, crys-tals or crystalline powder. It is freely soluble in N,N-dimethylformamide, sparingly soluble in water, and practically insoluble in acetonitrile, in methanol and in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Aspoxicillin Hydrate (1 in 4000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Aspoxicillin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. pH <2.54> Dissolve 1.0 g of Aspoxicillin Hydrate in 50 mL of water: the pH of the solution is between 4.2 and 5.2."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Aspoxicillin Hydrate in 50 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Aspoxi- cillin Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Aspoxicillin Hydrate according to Method 5, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.05 g of Aspoxicillin Hydrate in 10 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of these solutions as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the areas of each peak by the au-tomatic integration method: the area of each peak other than aspoxicillin obtained from the sample solution is not larger than 3/10 times the peak area of aspoxicillin from the stand-ard solution, and the total of peak areas other than aspox-icillin from the sample solution is not larger than the peak area of aspoxicillin from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 6 times as long as the retention time of aspoxicillin. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 2 mL of the standard solution, add the mobile phase to make exactly 10 mL. Con-firm that the peak area of aspoxicillin obtained with 10 mL of this solution is equivalent to 15 to 25z of that with 10 mL of the standard solution. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of aspoxicillin is not more than 5z. Water <2.48> Not less than 9.5z and not more than 13.0z (0.2 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Aspoxicillin Hy-drate and Aspoxicillin RS, equivalent to about 0.1 g (po-tency), dissolve each in a suitable amount of water, add exactly 10 mL of the internal standard solution, 6.5 mL of acetonitrile and water to make 50 mL, and use these solu-tions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of these solu-tions as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of aspoxicillin to that of the in- ‌JP XVIII Official Monographs / Atenolol 491 ternal standard. Amount [ mg (potency)] of aspoxicillin (C21H27N5O7S) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Aspoxicillin RS taken Internal standard solution—A solution of N-(3-hydroxy-phenyl)acetamide (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 130 mL of acetonitrile add potassium dihydrogenphosphate TS (pH 3.0) to make 1000 mL. Flow rate: Adjust so that the retention time of aspoxicillin is about 3 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, aspoxicillin and the internal standard are eluted in this order with the resolution between these peaks being not less than 8. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of aspoxicillin to that of the internal stand-ard is not more than 0.8z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

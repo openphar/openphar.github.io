@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cellulose-acetate-phthalate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cellulose Acetate Phthalate",
+    "ja": "セラセフェート"
+  },
+  "monographId": "JP18-cellulose-acetate-phthalate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "9004-38-0",
+  "appearance": {
+    "en": "Cellacefate occurs as a white, powder or grain. It is freely soluble in acetone, and practically insoluble in water and in ethanol (99.5).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Cellacefate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Cellacefate for Identification RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Viscosity <2.53> Weigh accurately a quantity of Cellace-fate, equivalent to 15 g calculated on the anhydrous basis, dissolve in 85 g of a mixture of acetone and water (249: 1 in mass), and use this solution as the sample solution. Perform the test with the sample solution at 25 ± 0.29C as directed in Method 1 to obtain the kinematic viscosity n. Separately, de-termine the density, r, of the sample solution as directed under Determination of Specific Gravity and Density <2.56>, and calculate the viscosity of the sample solution, h, as h ＝ rn: not less than 45 mPa･s and not more than 90 mPa･s."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) ◆Heavy metals <1.07>—Proceed with 2.0 g of Cellacefate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm).◆ (2) Free acids—Weigh accurately about 3 g of Cellace-fate, put in a glass-stoppered conical flask, add 100 mL of diluted methanol (1 in 2), stopper tightly, and filter after shaking for 2 hours. Wash both the flask and residue with two 10-mL portions each of diluted methanol (1 in 2), com-bine the washes to the filtrate, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (indicator: 2-3 drops of phenol-phthalein TS). Perform the blank determination with 120 mL of diluted methanol (1 in 2), and make any necessary correction. Amount (z) of free acids ＝ 0.8306A/M A: Amount (mL) of 0.1 mol/L sodium hydroxide VS con-sumed M: Amount (g) of Cellacefate taken, calculated on the an-hydrous basis The amount of free acids is not more than 3.0z, calcu-lated as phthalic acid (C8H6O4: 166.13). Water <2.48> Not more than 5.0z (0.5 g, volumetric titra-tion, direct titration, using a mixture of ethanol (99.5) and dichloromethane (3:2) instead of methanol for water deter-mination). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Carboxybenzoyl group—Weigh accurately about 1 g of Cellacefate, dissolve in 50 mL of a mixture of ethanol (95) and acetone (3:2), and titrate <2.50> with 0.1 mol/L so- dium hydroxide VS (indicator: 2 – 3 drops of phenolphthal-ein TS). Perform a blank determination in the same manner, and make any necessary correction. Content (z) of carboxybenzoyl group (C8H5O3) 1.491 × A－(1.795 × B) M ＝ 100 － B ×100 A: Amount (mL) of 0.1 mol/L sodium hydroxide VS con-sumed B: Amount (z) of free acids obtained in the Purity (2) M: Amount (g) of Cellacefate taken, calculated on the an-hydrous basis (2) Acetyl group—Weigh accurately about 0.1 g of Cel-lacefate, put in a glass-stoppered conical flask, add exactly 25 mL of 0.1 mol/L sodium hydroxide VS, and boil for 30 minutes under a reflux condenser. After cooling, add 2 – 3 drops of phenolphthalein TS, and titrate <2.50> the excess of sodium hydroxide with 0.1 mol/L hydrochloric acid VS. Perform a blank determination in the same manner. Content (z) of free acids and bound acetyl group (C2H3O) ＝ 0.4305A/M A: Amount (mL) of 0.1 mol/L sodium hydroxide VS con-sumed, corrected by the blank determination M: Amount (g) of Cellacefate taken, calculated on the an-hydrous basis ‌716 Content (z) of acetyl group (C2H3O) ＝100 × (P － 0.5182B)/(100 － B) － 0.5772C B: Amount (z) of free acids obtained in the Purity (2) C: Content (z) of carboxybenzoyl group P: Content (z) of free acids and bound acetyl group (C2H3O) ◆Containers and storage Containers—Tight containers.◆ Microcrystalline Cellulose"
+      }
+    }
+  ]
+}

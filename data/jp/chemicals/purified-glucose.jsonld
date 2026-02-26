@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/purified-glucose",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Purified Glucose",
+    "ja": "精製ブドウ糖"
+  },
+  "monographId": "JP18-purified-glucose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H12O6",
+  "molecularWeight": 180.16,
+  "casNumber": "50-99-7",
+  "definition": {
+    "en": "Purified Glucose is D-glucopyranose derived from starch. It contains not less than 97."
+  },
+  "appearance": {
+    "en": "Purified Glucose occurs as white, crystals or crystalline powder, and has a sweet taste. It is freely soluble in water, and slightly soluble in metha-nol and in ethanol (95).◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "◇(1) Add 2 to 3 drops of a solution of Purified Glucose (1 in 20) to 5 mL of boiling Fehling's TS: a red precipitate is produced.◇ Perform the test with 20 mL each of the sample solu-tion and standard solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions: the principal peak in the chromatogram obtained from the sample solution is similar in retention time and size to the principal peak in the chromatogram from the standard solution. Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— Proceed as directed in the system suitability in the Assay."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 10.0 g of Purified Glucose in 15 mL of water by heating on a water bath, and allow to cool to room temperature, and use this solution as the test solution. Perform the test with the test solution as directed under Turbidity Measurement <2.61>: the solution is clear. Perform the test with the test solution according to Method 2 under Methods for Color Matching <2.65>: the solution is not more colored than Matching Fluid BY7. (2) Heavy metals <1.07>—Proceed with 5.0 g of Puri- ‌fied Glucose according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 4 ppm).◆ Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 250 mL, and use this solution as the standard solution (1). Pipet 25 mL of the standard solution (1), add water to make exactly 200 mL, and use this solution as the standard solution (2). Perform the test with exactly 20 mL each of the sample solution, the"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g each of Purified Glu-cose and ◆Glucose RS◆ (separately determine the water <2.48> in the same manner as Purified Glucose), dissolve separately in water to make exactly 10 mL, and use these so-lutions as the sample solution and the standard solution, re-spectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine the peak areas, AT and AS, of glucose in each solution. standard solution (1) and the standard solution (2) as di-rected under Liquid Chromatography <2.01> according to Amount (g) of glucose (C6H12O6) ＝ M S × AT/AS the following conditions. Determine each peak area by the automatic integration method: the total area of the peaks of maltose and isomaltose, having the relative retention time of about 0.8 to glucose, obtained from the sample solution, is not larger than the peak area of glucose from the standard solution (1) (not more than 0.4z), and the peak area of mal-totriose, having the relative retention time of about 0.7 from the sample solution, is not larger than 1/2 times the peak area of glucose from the standard solution (1) (not more than 0.2z), and the peak area of fructose, having the rela-tive retention time of about 1.3 from the sample solution, is not larger than 3 times the peak area of glucose from the standard solution (2) (not more than 0.15z), and the area of the peak other than glucose and the peaks mentioned above from the sample solution is not larger than 2 times the peak area of glucose from the standard solution (2) (not more than 0.10z). Furthermore, the total area of the peaks other than glucose from the sample solution is not larger than 1.25 times the peak area of glucose from the standard solution (1) (not more than 0.5z). For these calculations the peak areas not larger than the peak area of glucose from the standard solution (2) are excluded (disregard limit: 0.05z). Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 1.5 times as long as the retention time of glucose. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Confirm that the peak area of glucose obtained with 20 mL of the standard solution (2) is equivalent to 8.8 to 16.3z of that with 20 mL of the standard solution (1). System repeatability: When the test is repeated 6 times with 20 mL of the standard solution (1) under the above op-erating conditions, the relative standard deviation of the peak area of glucose is not more than 1.0z.◇ Dextrin—To 1.0 g of powdered Purified Glucose add 20 mL of ethanol (95), and boil under a reflux condenser: the solution is clear. Soluble starch and sulfite—To 6.7 g of Purified Glu-cose add 15 mL of water, dissolve by heating on a water bath, cool, and add 25 mL of 0.05 mol/L iodine VS: a yellow color develops (not more than 15 ppm as SO3). Conductivity <2.51> Dissolve 20.0 g of Purified Glucose in a fleshly boiled and cooled distilled water to make 100 mL, and use this solution as the sample solution. Measure the conductivity of the sample solution at 25 ± 0.19C while gently stirring with a magnetic stirrer: not more than 20 mS･ cm－1. Water <2.48> Not more than 1.0z (0.5 g, volumetric titra-tion, direct titration). MS: Amount (g) of Glucose RS taken, calculated on the anhydrous basis Operating conditions— Detector: A differential refractometer maintained at a constant temperature (409C for example). Column: A stainless steel column 7.8 mm in inside diame-ter and 30 cm in length, packed with strongly acidic ion-ex-change resin for liquid chromatography (Ca type) composed with a sulfonated polystyrene cross-linked with divinylben-zene (degree of cross-linkage: 8z) (9 mm in particle diame-ter). Column temperature: A constant temperature of about 859C. Mobile phase: Water. Flow rate: 0.3 mL per minute (the retention time of glu-cose is about 21 minutes). System suitability— System performance: Dissolve 5 mg of maltose, 5 mg of maltotriose and 5 mg of fructose in 50 mL of water, and use this solution as the solution for system suitability test. When the procedure is run with 20 mL each of the solution for sys-tem suitability test and the standard solution (2) in Purity (3) under the above operating conditions, maltotriose, maltose, glucose and fructose are eluted in this order, the relative retention times of maltotriose, maltose, isomaltose and fruc-tose to glucose are about 0.7, about 0.8, about 0.8 and about 1.3, respectively, and the resolution between the peaks of maltotriose and maltose is not less than 1.3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glucose is not more than 1.0z.◇ ◆Containers and storage Containers—Tight containers.◆ Glucose Injection"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-levofolinate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Levofolinate Hydrate",
+    "ja": "レボホリナートカルシウム水和物"
+  },
+  "monographId": "JP18-calcium-levofolinate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Calcium Levofolinate Hydrate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Calcium Levofolinate Hydrate occurs as a white to light yellow crystalline powder. It is sparingly soluble in water, and practically insoluble in methanol and in ethanol (99.5). It is hygroscopic. D Optical rotation [a]25: －10 – －159(0.25 g calculated on the anhydrous and residual solvent-free basis, 0.2 mol/L tris buffer solution (pH 8.1), 25 mL, 100 mm)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Calcium Levofolinate Hydrate (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cal-cium Levofolinate Hydrate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Calcium Levofolinate Hydrate (1 in 200) responds to Qualitative Tests <1.09> (2) and (3) for cal-cium salt. pH <2.54> To 0.4 g of Calcium Levofolinate Hydrate add 50 mL of freshly boiled and cooled water, and warm to 409C, if necessary, to dissolve: the pH of the solution is be-tween 7.0 and 8.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—To 0.4 g of Cal-cium Levofolinate Hydrate add 50 mL of water, and warm to 409C, if necessary, to dissolve: the solution is clear, and its absorbance at 420 nm determined as directed under Ultra-violet-visible Spectrophotometry <2.24> is not more than 0.25. (2) Chloride—To 0.300 g of Calcium Levofolinate Hy- automatic integration method: the area of the peak other than levofolinate obtained from the sample solution is not larger than the peak area of levofolinate from the standard solution, and the total area of the peaks other than levofolinate from the sample solution is not larger than 5 times the peak area of levofolinate from the standard solu-tion. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of levofolinate, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 5 mL of the standard solution add water to make exactly 25 mL. Con-firm that the peak area of levofolinate obtained with 20 mL of this solution is equivalent to 14 to 26z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of levofolinate are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of levofolinate is not more than 2.0z. Diastereomer—Dissolve 50 mg of Calcium Levofo-linate Hydrate in 100 mL of water, and use this solution as the sample solution. Perform the test with 10 mL of the sam-ple solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method, and calcu-late their amounts by the area percentage method: the amount of the peak of the diastereomer, having the relative retention time of about 2.0 to levofolinate, is not more than 0.3z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 286 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with human albumin chemically bonded silica gel for liquid chromatography (5 mm in particle ‌JP XVIII Official Monographs / Calcium Oxide 601 diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.4 g of sodium dihydrogen phos-phate dihydrate in 870 mL of water, adjust to pH 4.9 with sodium hydroxide TS or phosphoric acid, and add 110 mL of 2-propanol and 20 mL of acetonitrile. Flow rate: Adjust so that the retention time of levofolinate is about 16 minutes. System suitability— Test for required detectability: Dissolve 10 mg of Calcium Folinate RS in water to make 50 mL. To 1 mL of this solu-tion add the sample solution to make 20 mL, and use this so-lution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add water to make exactly 10 mL. Confirm that the peak area of the di-astereomer obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, levofolinate and the diastereomer are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of the diastereomer is not more than 2.0z. Water <2.48> 12.0 – 17.0z (0.2 g, volumetric titration, direct titration )."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg each of Calcium Levofolinate Hydrate and Calcium Folinate RS (separately determine the water <2.48> in the same manner as Calcium Folinate Hydrate), and dissolve each in water to make ex-actly 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak area, AT, of levofolinate with the sample solution, and the peak area, AS, of folinate with the standard solution. Amount (mg) of calcium levofolinate (C20H21CaN7O7) ＝ MS × AT/AS MS: Amount (mg) of Calcium Folinate RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase: Adjust the pH of a mixture of diluted 0.05 mol/L disodium hydrogen phosphate TS (4 in 25), methanol and tetrabutylammonium hydroxide TS (385:110:4) to 7.5 with phosphoric acid. Flow rate: Adjust so that the retention time of folinate is about 10 minutes. System suitability— System performance: Dissolve 10 mg of folic acid in 50 mL of the mobile phase. To 5 mL of this solution add 5 mL of the standard solution. When the procedure is run with 20 mL of this solution under the above operating conditions, folinate and folic acid are eluted in this order with the reso-lution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of folinate is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nitrous-oxide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nitrous Oxide",
+    "ja": "亜酸化窒素"
+  },
+  "monographId": "JP18-nitrous-oxide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "N2O",
+  "molecularWeight": 44.01,
+  "definition": {
+    "en": "Nitrous Oxide contains not less than 97."
+  },
+  "appearance": {
+    "en": "Nitrous Oxide is a colorless gas at room tem-perature and at atmospheric pressure, and is odorless. 1 mL of Nitrous Oxide dissolves in 1.5 mL of water and in 0.4 mL of ethanol (95) at 209C and at a pressure of 101.3 kPa. It is soluble in diethyl ether and in fatty oils. 1000 mL of Nitrous Oxide at 09C and at a pressure of 101.3 kPa weighs about 1.96 g."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A glowing splinter of wood held in Nitrous Oxide: it bursts into flame immediately. (2) Transfer 1 mL each of Nitrous Oxide and nitrous oxide directly from metal cylinders with a pressure-reducing valve to gas measuring tubes or syringes for gas chromatog-raphy, using a polyvinyl chloride induction tube. Perform the test with these gases as directed under Gas Chromatogra-phy <2.02> according to the operating conditions of the Assay: the retention time of the main peak in the chromato-gram obtained with Nitrous Oxide coincides with that in the chromatogram obtained with nitrous oxide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Maintain the containers of Nitrous Oxide between 189C and 229C for more than 6 hours before the test, and correct the volume at 209C and at a pressure of 101.3 kPa. Acidity or alkalinity—To 400 mL of freshly boiled and cooled water add 0.3 mL of methyl red TS and 0.3 mL of bromothymol blue TS, and boil for 5 minutes. Transfer 50 mL of this solution to each of three Nessler tubes marked A, B and C. Add 0.10 mL of 0.01 mol/L hydrochloric acid VS to tube A, 0.20 mL of 0.01 mol/L hydrochloric acid VS to tube B, stopper each of the tubes, and cool. Pass 1000 mL of Nitrous Oxide through the solution in tube A for 15 minutes, employing delivery tube with an orifice approxi-mately 1 mm in diameter and extending to within 2 mm of the bottom of the Nessler tube: the color of the solution in tube A is not deeper orange-red than that of the solution in tube B and not deeper yellow-green than that of the solution in tube C. Carbon dioxide—Pass 1000 mL of Nitrous Oxide through 50 mL of barium hydroxide TS in a Nessler tube, in the same manner as directed in (1): any turbidity produced does not exceed that produced in the following control solu- tion. Control solution: To 50 mL of barium hydroxide TS in a Nessler tube add 1 mL of a solution of 0.1 g of sodium hydrogen carbonate in 100 mL of freshly boiled and cooled water. Oxidizing substances—Transfer 15 mL of potassium iodide-starch TS to each of two Nessler tubes marked A and B, add 1 drop of acetic acid (100) to each of the tubes, shake, and use these as solution A and solution B, respec-tively. Pass 2000 mL of Nitrous Oxide through solution A for 30 minutes in the same manner as directed in (1): the color of solution A is the same as that of the stoppered, un-treated solution B. Potassium permanganate-reducing substance—Pour 50 mL of water into each of two Nessler tubes marked A and B, add 0.10 mL of 0.02 mol/L potassium permanganate VS to each of the tubes, and use these as solution A and solution B, respectively. Pass 1000 mL of Nitrous Oxide through so-lution A in the manner as directed in (1): the color of solu-tion A is the same as that of solution B. Chloride—Pour 50 mL of water into each of two Nessler tubes marked A and B, add 0.5 mL of silver nitrate TS to each of the tubes, shake, and use these as solution A and solution B, respectively. Pass 1000 mL of Nitrous Oxide through solution A in the same manner as directed in (1): the turbidity of solution A is the same as that of solution B. Carbon monoxide—Introduce 5.0 mL of Nitrous Oxide into a gas-cylinder or a syringe for gas chromatogra-phy from a metal cylinder holding gas under pressure and fitted with a pressure-reducing valve, through a directly con-nected polyvinyl tube. Perform the test with this under Gas Chromatography <2.02> according to the following condi-tions: no peak is observed at the same retention time as that of carbon monoxide. Operating conditions— Detector: A thermal conductivity detector. Column: A column about 3 mm in inside diameter and about 3 m in length, packed with 300 to 500 mm zeolite for gas chromatography (0.5 nm in pore size). Column temperature: A constant temperature of about 509C. Carrier gas: Hydrogen or helium. Flow rate: Adjust so that the retention time of carbon monoxide is about 20 minutes. Selection of column: To 0.1 mL each of carbon monoxide and air in a gas mixer add carrier gas to make 100 mL, and mix well. Proceed with 5.0 mL of the mixed gas under the above operating conditions. Use a column giving well-resolved peaks of oxygen, nitrogen and carbon monoxide in this order. Detection sensitivity: Adjust the sensitivity so that the peak height of carbon monoxide obtained from 5.0 mL of the mixed gas used in the selection of column is about 10 cm."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Withdraw Nitrous Oxide as directed in the Purity. Introduce 1.0 mL of Nitrous Oxide into a gas-measuring tube or syringe for gas chromatography from a metal cylin-der under pressure through a pressure-reducing valve and a directly connected polyvinyl tube. Perform the test with this solution as directed under Gas Chromatography <2.02> ac-cording to the following conditions, and determine the peak area AT of air. Separately, introduce 3.0 mL of nitrogen into a gas mixer, add carrier gas to make exactly 100 mL, mix thoroughly, and use this as the standard mixed gas. Proceed with 1.0 mL of this mixture as directed in the case of Nitrous Oxide, and determine the peak area AS of nitrogen in the same manner. ‌Amount (volz) of nitrous oxide (N2O) ＝ 100 － 3 × AT/AS Operating conditions— Detector: A thermal conductivity detector. Column: A column about 3 mm in inside diameter and about 3 m in length, packed with silica gel for gas chroma-tography (300 to 500 mm in particle diameter). Column temperature: A constant temperature of about 509C. Carrier gas: Hydrogen or helium. Flow rate: Adjust so that the retention time of nitrogen is about 2 minutes. Selection of column: To 3.0 mL of nitrogen in a gas mixer add Nitrous Oxide to make 100 mL, and mix well. Proceed with 1.0 mL of the mixed gas under the above operating con-ditions. Use a column giving well-resolved peaks of nitrogen and nitrous oxide in this order. System repeatability: Repeat the test five times with the standard mixed gas under the above operating conditions: the relative standard deviation of the peak area of nitrogen is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Metal cylinders. Storage—Not exceeding 409C."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amphotericin-b-syrup",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amphotericin B Syrup",
+    "ja": "アムホテリシン B シロップ"
+  },
+  "monographId": "JP18-amphotericin-b-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amphotericin B Syrup contain not less than 90.0z and not more than 115.0z of the labeled potency of amphotericin B (C47H73NO17: 924.08). Method of preparation Prepare as directed under Syrup, with Amphotericin B. Identification To an amount of Amphotericin B Syrup, equivalent to 25 mg (potency) of Amphotericin B, add 5 mL of dimethylsulfoxide and 45 mL of methanol, and shake. To 1 mL of this solution add methanol to make 50 mL, and filter, if necessary. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 361 nm and 365 nm, between 380 nm and 384 nm and between 403 nm and 407 nm. pH <2.54> 5.0 – 7.0 Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 102 CFU/mL and 5 × 101 CFU/mL, respec-tively. Assay Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, preparation of cylin-der-agar plate and standard solutions—Proceed as directed ‌JP XVIII Official Monographs / Anhydrous Ampicillin 467‌ in the Assay under Amphotericin B. Sample solutions—Prepare using light-resistant con-tainers. Weigh accurately an amount of Amphotericin B Syrup, equivalent to about 0.1 g (potency), add about 70 mL of dimethylsulfoxide, shake, then add dimethylsulfoxide to make exactly 100 mL, and use this solution as the sample stock solution. Measure exactly a suitable amount of the sample stock solution, add dimethylsulfoxide to make solu-tions so that each mL contains about 200 mg (potency) and 50 mg (potency)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Amphotericin B Syrup, equivalent to 25 mg (potency) of Amphotericin B, add 5 mL of dimethylsulfoxide and 45 mL of methanol, and shake. To 1 mL of this solution add methanol to make 50 mL, and filter, if necessary. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>: it exhibits maxima between 361 nm and 365 nm, between 380 nm and 384 nm and between 403 nm and 407 nm. pH <2.54> 5.0 – 7.0 Microbial limit <4.05> The acceptance criteria of TAMC and TYMC are 102 CFU/mL and 5 × 101 CFU/mL, respec-tively."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, preparation of cylin-der-agar plate and standard solutions—Proceed as directed ‌JP XVIII Official Monographs / Anhydrous Ampicillin 467‌ in the Assay under Amphotericin B. Sample solutions—Prepare using light-resistant con-tainers. Weigh accurately an amount of Amphotericin B Syrup, equivalent to about 0.1 g (potency), add about 70 mL of dimethylsulfoxide, shake, then add dimethylsulfoxide to make exactly 100 mL, and use this solution as the sample stock solution. Measure exactly a suitable amount of the sample stock solution, add dimethylsulfoxide to make solu-tions so that each mL contains about 200 mg (potency) and 50 mg (potency). Pipet 1 mL each of these solutions, add 0.2 mol/L phosphate buffer solution (pH 10.5) to make exactly 20 mL, and use these solutions as the high concentration sample solution and low concentration sample solution, re-spectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Syrup"
+}

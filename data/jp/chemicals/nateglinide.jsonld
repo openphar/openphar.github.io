@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nateglinide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nateglinide",
+    "ja": "ナテグリニド"
+  },
+  "monographId": "JP18-nateglinide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H27NO3",
+  "molecularWeight": 317.42,
+  "definition": {
+    "en": "Nateglinide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nateglinide occurs as a white crystalline pow-der. It is freely soluble in methanol and in ethanol (99.5), spar-ingly soluble in acetonitrile, and practically insoluble in water. It dissolves in dilute sodium hydroxide TS. It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nateglinide in methanol (1 in 1000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Nateglinide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Nateglinide as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Nateglinide RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, recrystallize the sample and the reference standard according to the method otherwise specified, filter and dry the crystals, and perform the test with the crystals. D Optical rotation <2.49> [a]20: －36.5 – －40.09(after drying, 0.2 g, dilute sodium hydroxide TS, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Nateglinide according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 0.25 g of Nateglinide in 20 mL of acetonitrile. To 4 mL of this solution add the mo-bile phase to make 25 mL, and use this solution as the sam-ple solution. Pipet 2.5 mL of the sample solution, and add the mobile phase to make exactly 50 mL. Pipet 2 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than nateglinide obtained from the sample so-lution is not larger than the peak area of nateglinide from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and ‌flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of nateglinide, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of nateglinide are not less than 6000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of nateglinide is not more than 2.0z. Loss on drying <2.41> Not more than 0.2z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Nateglinide, previ-ously dried, and dissolve in acetonitrile to make exactly 20 mL. Pipet 5 mL of this solution, add exactly 5 mL of the in-ternal standard solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Nateglinide RS, previously dried, and dissolve in acetonitrile to make exactly 20 mL. Pipet 10 mL of this solution, add exactly 5 mL of the inter-nal standard solution, add the mobile phase to make 50 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of nateglinide to that of the internal standard. Amount (mg) of nateglinide (C19H27NO3) ＝ MS × QT/QS × 2 MS: Amount (mg) of Nateglinide RS taken Internal standard solution—A solution of propyl parahy-droxybenzoate in the mobile phase (1 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/naphazoline-nitrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Naphazoline Nitrate",
+    "ja": "ナファゾリン硝酸塩"
+  },
+  "monographId": "JP18-naphazoline-nitrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C14H14N2.HNO3",
+  "molecularWeight": 273.29,
+  "casNumber": "5144-52-5",
+  "definition": {
+    "en": "Naphazoline Nitrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Naphazoline Nitrate occurs as a white crystal-line powder. It is odorless, and has a bitter taste. It is freely soluble in acetic acid (100), soluble in ethanol (95), sparingly soluble in water, slightly soluble in acetic an-hydride, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mL of a solution of Naphazoline Nitrate (1 in 100) add 5 mL of bromine TS, and boil: a deep purple color develops. To 20 mL of a solution of Naphazoline Nitrate (1 in 100) add 5 mL of sodium hydroxide TS, and extract with two 25-mL portions of diethyl ether. Combine the diethyl ether extracts, evaporate to dryness with the aid of a current of air, and dry the residue at 809C for 1 hour: the residue so obtained melts <2.60> between 1179C and 1209C. A solution of Naphazoline Nitrate (1 in 20) responds to Qualitative Tests <1.09> for nitrate. pH <2.54> Dissolve 0.1 g of Naphazoline Nitrate in 10 mL of freshly boiled and cooled water: the pH of the solution is between 5.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Naphazoline Nitrate in 50 mL of water: the solution is clear and colorless. (2) Heavy metals <1.07>—Proceed with 1.0 g of Napha- zoline Nitrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Naphazoline Nitrate, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (4:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 27.33 mg of C14H14N2.HNO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

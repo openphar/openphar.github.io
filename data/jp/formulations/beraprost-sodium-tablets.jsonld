@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/beraprost-sodium-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Beraprost Sodium Tablets",
+    "ja": "ベラプロストナトリウム錠"
+  },
+  "monographId": "JP18-beraprost-sodium-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Beraprost Sodium Tablets contain not less than 95.0z and not more than 105.0z of the labeled System performance: When the procedure is run with 15 mL of the solution for system suitability test under the above amount of beraprost sodium (C 24H29 NaO5: 420.47). operating conditions, the resolution between the two peaks of beraprost is not less than 1.5. System repeatability: When the test is repeated 6 times with 15 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the total area of the two peaks of beraprost is not more than 2.0z. Loss on drying <2.41> Not more than 3.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, silica gel, 609C, 5 hours). Isomer ratio Dissolve 10 mg of Beraprost Sodium in 5 mL of methanol, and use this solution as the sample solution. Perform the test with 15 mL of the sample solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and determine the areas, Aa of the peak which appears at the retention time about 25 minutes, and Ab of the peak which appears at about 27 minutes: Ab/ Aa is between 0.90 and 1.10. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 285 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanol, water and acetic acid (100) (600:400:1). Flow rate: Adjust so that the retention time of the second eluting peak of beraprost is about 27 minutes. System suitability— System performance: When the procedure is run with 15 mL of the sample solution under the above operating condi-tions, the resolution between the two peaks of beraprost is not less than 1.2. Method of preparation Prepare as directed under Tablets, with Beraprost Sodium. Identification Powder Beraprost Sodium Tablets. To a portion of the powder, equivalent to 0.2 mg of Beraprost Sodium, add 10 mL of water, shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To the filtrate add 1 mL of 0.1 mol/L hydrochloric acid TS, ex-tract with two 50-mL portions of ethyl acetate, combine the extracts, and evaporate in reduced pressure at 409C. Dis-solve the residue in 1 mL of methanol, use this solution as the sample solution. Separately, dissolve 1 mg of beraprost sodium in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography, develop the plate with the upper layer of a mixture of 11 volumes of ethyl acetate, 10 volumes of water, 4 volumes of isooctane and 2 volumes of acetic acid (100) to a distance of about 10 cm, air-dry the plate, and heat at 1209C for 30 minutes. After cooling, spray evenly a mixture of ethanol (99.5), water, sulfuric acid and 4-methoxybenzaldehide (17:2:1:1) on the plate, and heat the plate at 1209C for 3 minutes: the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Beraprost Sodium Tablets add exactly V mL of the internal standard solution so that each mL contains about 2 mg of beraprost sodium (C24H29NaO5), shake at 309C for 30 minutes, filter through a membrane filter with a pore size not exceeding 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Beraprost Sodium Tablets. To a portion of the powder, equivalent to 0.2 mg of Beraprost Sodium, add 10 mL of water, shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To the filtrate add 1 mL of 0.1 mol/L hydrochloric acid TS, ex-tract with two 50-mL portions of ethyl acetate, combine the extracts, and evaporate in reduced pressure at 409C. Dis-solve the residue in 1 mL of methanol, use this solution as the sample solution. Separately, dissolve 1 mg of beraprost sodium in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography, develop the plate with the upper layer of a mixture of 11 volumes of ethyl acetate, 10 volumes of water, 4 volumes of isooctane and 2 volumes of acetic acid (100) to a distance of about 10 cm, air-dry the plate, and heat at 1209C for 30 minutes. After cooling, spray evenly a mixture of ethanol (99.5), water, sulfuric acid and 4-methoxybenzaldehide (17:2:1:1) on the plate, and heat the plate at 1209C for 3 minutes: the principal spot obtained from the sample solution and the spot from the standard solution show the same Rf value. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Beraprost Sodium Tablets add exactly V mL of the internal standard solution so that each mL contains about 2 mg of beraprost sodium (C24H29NaO5), shake at 309C for 30 minutes, filter through a membrane filter with a pore size not exceeding 0.45 mm, and use the filtrate as the sample solution. Then, proceed as directed in the Assay. System repeatability: When the test is repeated 6 times with 15 mL of the sample solution under the above operating conditions, the relative standard deviation of the total area Amount (mg) of beraprost sodium (C ＝ MS × QT/QS × V/10,000 24H 29NaO5) of the two peak of beraprost is not more than 2.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Beraprost Sodium, previously dried, dissolve in 30 mL of diluted ethanol with freshly boiled and cooled water (7 in 10), add exactly 2 mL of 0.2 mol/L hydrochloric acid TS, and titrate <2.50> with 0.025 mol/L sodium hydroxide-ethanol VS from the first equivalence point to the second equivalence point (potentio-metric titration). Each mL of 0.025 mol/L sodium hydroxide-ethanol VS ＝ 10.51 mg of C24H29NaO5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

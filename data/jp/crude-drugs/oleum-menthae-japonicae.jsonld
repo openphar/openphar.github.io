@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-menthae-japonicae",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Menthae Japonicae",
+    "ja": "ハッカ油"
+  },
+  "monographId": "JP18-oleum-menthae-japonicae",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Mentha Oil is a colorless or pale yellow, clear ‌JP XVIII Crude Drugs and Related Drugs / Moutan Bark 2073‌ liquid. It has a characteristic, pleasant aroma and has a pun-gent taste, followed by a cool aftertaste. It is miscible with ethanol (95), with ethanol (99.5), with warm ethanol (95), and with diethyl ether. It is practically insoluble in water. D Refractive index <2.45> n20: 1.455 – 1.467 D Optical rotation <2.49> a20: －17.0 – －36.09(100 mm). Specific gravity <1.13> d 25: 0.885 – 0.910 Acid value <1.13> Not more than 1.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—To 1.0 mL of Mentha Oil add 3.5 mL of diluted ethanol (7 in 10), and shake: Mentha Oil dissolves clearly. To the solution add 10 mL of ethanol (95): the solution is clear or has no more tur-bidity, if any, than the following control solution. Control solution: To 0.70 mL of 0.01 mol/L hydrochloric acid VS add 6 mL of dilute nitric acid and water to make 50 mL, add 1 mL of silver nitrate TS, and allow to stand for 5 minutes. (2) Heavy metals <1.07>—Proceed with 1.0 mL of Men- tha Oil according to Method 2, and perform the test. Pre-pare the control solution with 4.0 mL of Standard Lead So-lution (not more than 40 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 5 g of Mentha Oil, and dis-solve in ethanol (95) to make exactly 20 mL. Pipet 10 mL of this solution, add exactly 10 mL of the internal standard so-lution, and use this solution as the sample solution. Sepa-rately, weigh accurately about 10 g of l-menthol for assay, and dissolve in ethanol (95) to make exactly 100 mL. Pipet 10 mL of this solution, add exactly 10 mL of the internal standard solution, and use this solution as the standard solu-tion. Perform the test with 1 mL each of the sample solution and standard solution as directed under Gas Chromatogra-phy <2.02> according to the following conditions. Calculate the ratios, QT and QS, of the peak area of menthol to that of the internal standard. Amount (mg) of menthol ＝ MS × QT/QS × 1/5 MS: Amount (mg) of l-menthol for assay taken Internal standard solution—A solution of n-ethyl caprylate in ethanol (95) (1 in 25). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column about 3 mm in inside diameter and about 2 m in length, packed with 25z of polyethylene glycol 6000 for gas chromatography supported on acid-washed 180 – 250 mm siliceous earth for gas chromatogra-phy. Column temperature: A constant temperature of about 1509C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of the internal standard is about 10 minutes. System suitability— System performance: When the procedure is run with 1 mL of the standard solution under the above operating condi-tions, the internal standard and l-menthol are eluted in this order with the resolution between these peaks being not less than 5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

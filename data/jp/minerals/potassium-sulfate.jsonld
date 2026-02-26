@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/potassium-sulfate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Potassium Sulfate",
+    "ja": "硫酸カリウム"
+  },
+  "monographId": "JP18-potassium-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Potassium Sulfate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Potassium Sulfate occurs as colorless crystals or a white, crystalline powder. It has a slightly saline, some-what bitter taste. It is soluble in water and practically insoluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Potassium Sulfate (1 in 20) re-sponds to Qualitative Tests <1.09> for potassium salt and for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution, and acid or alkali—Dissolve 1.0 g of Potassium Sulfate in 20 mL of water: the solution is clear, colorless and neutral. Chloride <1.03>—Perform the test with 0.5 g of Potassium Sulfate. Prepare the control solution with 0.40 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.028z). Heavy metals <1.07>—Proceed with 2.0 g of Potas- sium Sulfate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Sodium—Dissolve 1.0 g of Potassium Sulfate in 20 mL of water, and perform the test as directed under Flame Coloration Test <1.04> (1): no persistent yellow color devel-ops. Arsenic <1.11>—Prepare the test solution with 0.40 g of Potassium Sulfate according to Method 1, and perform the test (not more than 5 ppm). Loss on drying <2.41> Not more than 1.0z (1 g, 1109C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Potassium Sulfate, previously dried, boil with 200 mL of water and 1.0 mL of hydrochloric acid, and add gradually 8 mL of boiling barium chloride TS. Heat the mixture on a water bath for 1 hour, collect the precipitate, and wash the precipitate with water until the last washing shows no opalescence on the addition of silver nitrate TS. Dry, heat strongly to constant mass be-tween 5009C and 6009C by raising the temperature gradu-ally, and weigh as barium sulfate (BaSO4: 233.39). Amount (mg) of potassium sulfate (K SO ) Warm the mixture to a temperature between 559C and 609C, 2 4 and continue the titration <2.50> slowly until the red color persists for 30 seconds. Each mL of 0.05 mol/L oxalic acid VS ＝ 3.161 mg of KMnO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

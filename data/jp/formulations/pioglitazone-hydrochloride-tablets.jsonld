@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/pioglitazone-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Pioglitazone Hydrochloride Tablets",
+    "ja": "ピオグリタゾン塩酸塩錠"
+  },
+  "monographId": "JP18-pioglitazone-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Pioglitazone Hydrochloride Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of pioglitazone hydrochloride (C19H20N2O3S. HCl: 392.90). Method of preparation Prepare as directed under Tablets, with Pioglitazone Hydrochloride. Identification To an amount of powdered Pioglitazone Hy-drochloride Tablets, equivalent to 2.8 mg of Pioglitazone Hydrochloride, add 100 mL of 0.1 mol/L hydrochloric acid TS, shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Determine the absorption spec-trum of the filtrate as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a maximum between 267 nm and 271 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol- ‌lowing method: it meets the requirement. Disintegrate 1 tablet of Pioglitazone Hydrochloride Tablets with 10 mL of 0.1 mol/L hydrochloric acid TS, add 70 mL of methanol, shake vigorously for 10 minutes, then add methanol to make exactly 100 mL, and centrifuge. Take exactly V mL of the supernatant liquid, add a mixture of methanol and 0.1 mol/L hydrochloric acid TS (9:1) to make exactly V? mL so that each mL contains about 26 mg of pioglitazone hydrochloride (C19H20N2O3S."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Pioglitazone Hy-drochloride Tablets, equivalent to 2.8 mg of Pioglitazone Hydrochloride, add 100 mL of 0.1 mol/L hydrochloric acid TS, shake, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Determine the absorption spec-trum of the filtrate as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a maximum between 267 nm and 271 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol- ‌lowing method: it meets the requirement. Disintegrate 1 tablet of Pioglitazone Hydrochloride Tablets with 10 mL of 0.1 mol/L hydrochloric acid TS, add 70 mL of methanol, shake vigorously for 10 minutes, then add methanol to make exactly 100 mL, and centrifuge. Take exactly V mL of the supernatant liquid, add a mixture of methanol and 0.1 mol/L hydrochloric acid TS (9:1) to make exactly V? mL so that each mL contains about 26 mg of pioglitazone hydrochloride (C19H20N2O3S.HCl), and use this solution as the sample solution. Separately, weigh accurately about 33 mg of Pioglitazone Hydrochloride RS (separately, determine the water <2.48> in the same manner as Pioglita-zone Hydrochloride), dissolve in 10 mL of 0.1 mol/L hydro-chloric acid TS, and add methanol to make exactly 100 mL. Pipet 4 mL of this solution, add a mixture of methanol and 0.1 mol/L hydrochloric acid TS (9:1) to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and stand-ard solution at 269 nm as directed under Ultraviolet-visible Spectrophotometry <2.24> using a mixture of methanol and 0.1 mol/L hydrochloric acid TS (9:1) as the blank. Amount (mg) of pioglitazone hydrochloride (C19H20N2O3S.HCl) ＝ MS × AT/AS × V?/V × 2/25 MS: Amount (mg) of Pioglitazone Hydrochloride RS taken, calculated on the anhydrous basis Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of a solution, which is prepared by mixing 50 mL of 0.2 mol/L hydrochloric acid TS and 150 mL of potassium chlo-ride solution (3 in 20), adding water to make 1000 mL and adjusting to pH 2.0 with 5 mol/L hydrochloric acid TS, as the dissolution medium, the dissolution rate in 45 minutes of Pioglitazone Hydrochloride Tablets is not less than 80z. Start the test with 1 tablet of Pioglitazone Hydrochloride Tablets, withdraw 10 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 5 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 18 mg of pioglitazone hydro-chloride (C19H20N2O3S.HCl), and use this solution as the sample solution. Separately, weigh accurately about 23 mg of Pioglitazone Hydrochloride RS (separately determine the water <2.48> in the same manner as Pioglitazone Hydrochlo-ride), dissolve in 10 mL of methanol, and add the dissolution medium to make exactly 50 mL. Pipet 2 mL of this solution, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, of the sample solution and standard so-lution at 269 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24> using the dissolution medium as the blank. Dissolution rate (z) with respect to the labeled amount of pioglitazone hydrochloride (C19H20N2O3S.HCl) ＝ MS × AT/AS × V?/V × 1/C × 72 MS: Amount (mg) of Pioglitazone Hydrochloride RS taken, calculated on the anhydrous basis C Labeled amount (mg) of pioglitazone hydrochloride (C19H20N2O3S.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Accurately weigh the mass of not less than 20 Pioglitazone Hydrochloride Tablets, and powder. Weigh ac-curately a portion of the powder, equivalent to about 25 mg of pioglitazone hydrochloride (C19H20N2O3S.HCl), add 45 mL of methanol and exactly 5 mL of the internal standard solution, sonicate, and centrifuge. To 2 mL of the superna-tant liquid add the mobile phase to make 20 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of Pioglitazone Hydrochloride RS (separately, determine the water <2.48> in the same manner as Pioglita-zone Hydrochloride), dissolve in 45 mL of methanol, and add exactly 5 mL of the internal standard solution. Pipet 2 mL of this solution, add the mobile phase to make 20 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of pioglitazone to that of the in-ternal standard. Amount (mg) of pioglitazone hydrochloride (C19H20N2O3S.HCl) ＝ MS × QT/QS MS: Amount (mg) of Pioglitazone Hydrochloride RS taken, calculated on the anhydrous basis Internal standard solution—A solution of benzophenone in methanol (1 in 750). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 269 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of ammonium acetate solution (77 in 10,000), acetonitrile and acetic acid (100) (25:25:1). Flow rate: Adjust so that the retention time of pioglita-zone is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, pioglitazone and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of pioglitazone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

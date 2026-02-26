@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/zinc-oxide-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Zinc Oxide Ointment",
+    "ja": "亜鉛華軟膏"
+  },
+  "monographId": "JP18-zinc-oxide-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zinc Oxide Ointment contains not less than 18."
+  },
+  "appearance": {
+    "en": "Zinc Oxide Ointment is white in color. ‌Identification Place 1 g of Zinc Oxide Ointment in a cruci-ble, melt by warming, heat gradually raising the temperature until the mass is thoroughly charred, and then ignite it strongly: a yellow color is produced, and disappears on cool-ing. To the residue add 10 mL of water and 5 mL of dilute hydrochloric acid, shake well, and filter. To the filtrate add 2 to 3 drops of potassium hexacyanoferrate (II) TS: a white precipitate is formed (zinc oxide).‌"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Calcium, magnesium and other foreign inorganic matters—Place 2.0 g of Zinc Oxide Ointment in a crucible, melt by warming, and heat gradually raising the tempera- filter. Boil the residue on a filter paper with 10 mL of water, cool, and add 1 drop of iodine TS: a dark blue-purple color is produced (starch)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Ointment"
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pilsicainide-hydrochloride-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pilsicainide Hydrochloride Hydrate",
+    "ja": "ピルシカイニド塩酸塩水和物"
+  },
+  "monographId": "JP18-pilsicainide-hydrochloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Pilsicainide Hydrochloride Hydrate contains not less than 99."
+  },
+  "appearance": {
+    "en": "Pilsicainide Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is very soluble in acetic acid (100), and freely soluble in water, in methanol and in ethanol (99.5). It dissolves in 0.1 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Pilsicainide Hydrochloride Hydrate in 0.1 mol/L hydrochloric acid TS (1 in 2000) as directed under Ultravio- with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of pilsicainide is not more than 2.0z. Water <2.48> 2.5 – 3.3z (50 mg, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Pilsicainide Hydrochloride Hydrate according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 40 mg of Pilsicainide Hydrochloride Hydrate in 20 mL of water, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add water to make exactly 20 mL. Pipet 1 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine each peak area by the automatic integration method: the area of the peaks other than pilsicainide obtained from the sample solution is not larger than the peak area of pilsicainide from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 750 mL of water add 5 mL of triethyla-mine, adjust to pH 4.0 with phosphoric acid, and add water to make 1000 mL. To this solution add 200 mL of aceto-nitrile for liquid chromatography. Flow rate: Adjust so that the retention time of pilsicainide is about 5 minutes. Time span of measurement: About 5 times as long as the retention time of pilsicainide, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry sicainide hydrochloride hydrate (C 1/2 H2O). 17H24 N2O.HCl. factor of the peak of pilsicainide are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times Description Pilsicainide Hydrochloride Hydrate occurs as white, crystals or crystalline powder. It is very soluble in acetic acid (100), and freely soluble in water, in methanol and in ethanol (99.5). It dissolves in 0.1 mol/L hydrochloric acid TS. Identification (1) Determine the absorption spectrum of a solution of Pilsicainide Hydrochloride Hydrate in 0.1 mol/L hydrochloric acid TS (1 in 2000) as directed under Ultravio- with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of pilsicainide is not more than 2.0z. Water <2.48> 2.5 – 3.3z (50 mg, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Pilsicainide Hydro-chloride Hydrate, dissolve it in 10 mL of acetic acid (100), ‌add 40 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 31.79 mg of C17H24N2O.HCl.1/2 H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

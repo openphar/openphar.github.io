@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/menatetrenone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Menatetrenone",
+    "ja": "メナテトレノン"
+  },
+  "monographId": "JP18-menatetrenone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C31H40O2",
+  "molecularWeight": 444.65,
+  "casNumber": "863-61-6",
+  "definition": {
+    "en": "Menatetrenone contains not less than 98."
+  },
+  "appearance": {
+    "en": "Menatetrenone occurs as yellow, crystals, crys-talline powder, waxy mass or oily material. It is very soluble in hexane, soluble in ethanol (99.5), spar-ingly soluble in 2-propanol, slightly soluble in methanol, and practically insoluble in water. It decomposes and the color becomes more intense by light. Melting point: about 379C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.1 g of Menatetrenone in 5 mL of ethanol (99.5) by warming, cool, and add 1 mL of a solution of potassium hydroxide in ethanol (95) (1 in 10): a blue color develops, and upon standing it changes from blue-purple to red-brown through red-purple. Determine the infrared absorption spectrum of Menatetrenone, after melting by warming if necessary, as di-rected in the liquid film method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of Menatetrenone RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Menatetrenone according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Menadione—To 0.20 g of Menatetrenone add 5 mL of diluted ethanol (1 in 2), shake well, and filter. To 0.5 mL of the filtrate add 1 drop of a solution of 3-methyl-1-phenyl-5-pyrazorone in ethanol (99.5) (1 in 20) and 1 drop of ammo-nia water (28), and allow to stand for 2 hours: no blue-pur-ple color develops. 254 nm): the spot corresponding to relative Rf value 1.1 regarding to the principal spot obtained from the sample so-lution is not more intense than the spot from the standard solution. (4) Related substances—Conduct this procedure without exposure to light, using a light-resistant vessel. Dissolve 0.10 g of Menatetrenone in 100 mL of ethanol (99.5), and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add ethanol (99.5) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area of these solutions by the automatic integration method: the total area of peaks other than the peak of menatetrenone obtained from the sample solution is not larger than the peak area of menatetrenone from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 6 times as long as the retention time of menatetrenone, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 5 mL of the standard solution add ethanol (99.5) to make exactly 50 mL. Confirm that the peak area of menatetrenone obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of menatetrenone is not more than 1.0z. Water <2.48> Not more than 0.5z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using a light-resistant vessel. Weigh accurately about 0.1 g each of Menatetrenone and Menatetrenone RS (separately, determine the water <2.48> in the same manner as Menatetre-none), dissolve each in 50 mL of 2-propanol, and add ethanol (99.5) to make exactly 100 mL. Pipet 10 mL of these solutions, and add ethanol (99.5) to make exactly 100 mL. Pipet 2 mL each of these solutions, add exactly 4 mL each of the internal standard solution, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of menatetrenone to that of the internal standard. (3) cis Isomer—Dissolve 0.10 g of Menatetrenone in 10 mL of hexane, and use this solution as the sample solution. Amount (mg) of menatetrenone (C 31H40O2) ＝ M S × QT/QS Pipet 1 mL of the sample solution, add hexane to make ex-actly 50 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the chromatogram with a mixture of hexane and di-n-butyl ether (17:3) to a distance of about 12 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: MS: Amount (mg) of Menatetrenone RS taken, calculated on the dehydrated basis Internal standard solution—A solution of phytonadione in 2-propanol (1 in 20,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica ‌gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Methanol. ‌Flow rate: Adjust so that the retention time of menatetre-none is about 7 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, menatetrenone and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of menatetrenone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

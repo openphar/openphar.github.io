@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/quinapril-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Quinapril Hydrochloride",
+    "ja": "キナプリル塩酸塩"
+  },
+  "monographId": "JP18-quinapril-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C25H30N2O5.HCl",
+  "molecularWeight": 474.98,
+  "casNumber": "82586-55-8",
+  "appearance": {
+    "en": "Quinapril Hydrochloride occurs as a white Amount (mg) of quetiapine (C21 of Quetiapine Fumarate Tablets H25N3O2S) in 1 tablet powder. It is very soluble in methanol, freely soluble in water and in ethanol (99.5), and soluble in acetic acid (100). ＝ MS × AT/AS × V/16 × 0.869 MS: Amount (mg) of Quetiapine Fumarate RS taken, cal-culated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol, diammonium hydrogen phosphate solution (33 in 12,500) and acetonitrile (54:39:7). Flow rate: Adjust so that the retention time of quetiapine is about 15 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of quetiapine are not less than 7000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of quetiapine is not more than 1.0z."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Quinapril Hydrochloride in methanol (1 in 2000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Quinapril Hydrochloride as directed in the potassium chlo-ride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Quinapril Hydrochloride (1 in 20) re-sponds to Qualitative Tests <1.09> for chloride. D Optical rotation <2.49> [a]20: ＋14.4 – ＋16.09(0.5 g calcu-lated on the anhydrous basis, methanol, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Quinapril Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 50 mg of Quinapril Hy-drochloride in 50 mL of a mixture of phosphate buffer solu-tion (pH 7.0) and acetonitrile for liquid chromatography (1:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of phosphate buffer solution (pH 7.0) and acetonitrile for liquid chroma-tography (1:1) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area by the auto-matic integration method: the area of the peaks, having the relative retention time of about 0.5 and about 2.0 to quinapril, obtained from the sample solution are not larger than the peak area of quinapril from the standard solution, respectively, the area of peak other than quinapril and the peak mentioned above from the sample solution are not larger than 2/5 times the peak area of quinapril from the standard solution, and the total area of the peaks other than ‌quinapril from the sample solution is not larger than 3 times the peak area of quinapril from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 214 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: While keeping the temperature not below 259C, adjust to pH 2.0 of 0.2 mol/L potassium dihydrogen phosphate TS with perchloric acid. To 1000 mL of this solu-tion add 1000 mL of acetonitrile for liquid chromatography. Flow rate: Adjust so that the retention time of quinapril is about 7 minutes. Time span of measurement: About 4 times as long as the retention time of quinapril, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 10 mL of the stand-ard solution, and add a mixture of phosphate buffer solution (pH 7.0) and acetonitrile for liquid chromatography (1:1) to make exactly 100 mL. Confirm that the peak area of quinapril obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of quinapril are not less than 5000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of quinapril is not more than 2.0z. Water <2.48> Not more than 1.0z (0.2 g, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Start to titrate within 3 minutes after dissolving Quinapril Hydrochloride. Weigh accurately about 0.5 g of Quinapril Hydrochloride, dissolve in 70 mL of acetic acid (100), add 4 mL of bismuth nitrate TS, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 47.50 mg of C25H30N2O5.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

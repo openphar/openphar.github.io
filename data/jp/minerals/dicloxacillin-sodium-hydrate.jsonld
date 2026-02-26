@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/dicloxacillin-sodium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dicloxacillin Sodium Hydrate",
+    "ja": "ジクロキサシリンナトリウム水和物"
+  },
+  "monographId": "JP18-dicloxacillin-sodium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dicloxacillin Sodium Hydrate contains not less than 910 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Dicloxacillin Sodium Hydrate occurs as a white to light yellow-white crystalline powder. It is freely soluble in water and in methanol, and soluble in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dicloxacillin Sodium Hydrate (1 in 2500) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Dicloxacillin Sodium RS pre-pared in the same manner as the sample solution: both spec-tra exhibit similar intensities of absorption at the same wave-lengths. Determine the infrared absorption spectrum of Dicloxacillin Sodium Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Dicloxacillin Sodium RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. Dicloxacillin Sodium Hydrate responds to Quali-tative Tests <1.09> (1) for sodium salt. Water <2.48> Not less than 3.0z and not more than 4.5z (0.1 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 6.5 to 6.6 after sterilization. Standard solutions—Weigh accurately an amount of Dicloxacillin Sodium RS equivalent to about 50 mg (po-tency), dissolve in phosphate buffer solution (pH 6.0) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the standard stock solution at 59C or below and use within 24 hours. Take exactly a suitable amount of the standard stock solution before use, add phos-phate buffer solution (pH 6.0) to make solutions so that each mL contains 10 mg (potency) and 2.5 mg (potency), and use these solutions as the high concentration standard solution and the low concentration standard solution, respectively. ‌JP XVIII Official Monographs / Diethylcarbamazine Citrate Tablets 849‌ Sample solutions—Weigh accurately an amount of Dicloxacillin Sodium Hydrate equivalent to about 50 mg (potency), dissolve in phosphate buffer solution (pH 6.0) to make exactly 50 mL. Take exactly a suitable amount of the solution, add phosphate buffer solution (pH 6.0) to make solutions so that each mL contains 10 mg (potency) and 2.5 mg (potency), and use these solutions as the high concentra-tion sample solution and the low concentration sample solu- Assay Weigh accurately about 0.75 g of Diethylcarbama-zine Citrate, previously dried, dissolve in 50 mL of acetic acid (100) by warming, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 39.14 mg of C H N O.C H O tion, respectively. 10 21 3 6 8 7"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

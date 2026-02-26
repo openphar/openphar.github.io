@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/insulin-glargine-genetical-recombination-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Insulin Glargine (Genetical Recombination) Injection",
+    "ja": "インスリン グラルギン（遺伝子組換え）注射液"
+  },
+  "monographId": "JP18-insulin-glargine-genetical-recombination-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Insulin Glargine (Genetical Recombination) Injection occurs as a clear, colorless liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Insulin Glargine (Genetical Recombina-tion) Injection forms a precipitate when adjusted to pH 5.7 – 6.5 with dilute sodium hydroxide TS, and the precipitate dis-appears when adjusted to pH 3.5 – 4.5 with 0.1 mol/L hy-drochloric acid TS. (2) Perform the test with 5 mL each of the sample solu- Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. Zinc content Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Related substances—Keep the sample solution at 2 – 89C. Perform the test with 5 mL of the sample solution obtained in the Assay as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak other than insulin glargine is not more than 0.5z, and the total amount of the peaks other than insulin glargine is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phases A and B, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Insulin Glargine (Genetical Recombination). Time span of measurement: For 40 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make ex-actly 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add 0.01 mol/L hydrochloric acid TS to make exactly 10 mL. Confirm that the peak area of insulin glargine obtained with 5 mL of this solution is equivalent to 5 to 15z of that with 5 mL of the solution for system suitabil-ity test. System performance: When the procedure is run with 5 mL of the standard solution obtained in the Assay under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of insulin glargine are not less than 20,000 and not more than 1.8, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution obtained in the Assay under the above operating conditions, the relative standard deviation of the peak area of insulin glargine is not more than 2.0z. (2) High-molecular mass proteins—To a suitable amount of Insulin Glargine (Genetical Recombination) Injection add water so that each mL contains 40 Insulin Units, and use this solution as the sample solution. Then, proceed as directed in the Purity (2) under Insulin Glargine (Genetical Recombina-tion). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. MS: Amount (mg) of insulin glargine in 1 mL of the stand-ard solution d: Dilution factor of the sample solution 0.0364: Mass (mg) of insulin glargine equivalent to 1 Insu-lin Unit"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To a suitable amount of Insulin Glargine (Genetical Recombination) Injection add exactly water so that each mL contains 40 Insulin Units, and use this solution as the sample solution. Then, proceed as directed in the Assay under Insu-lin Glargine (Genetical Recombination). tion and the standard solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the conditions described in the Assay: the retention times of the principal peaks obtained from the sample solution and Amount (Insulin Unit) of insulin glargine (C in 1 mL ＝ MS × AT/AS × d × 1/0.0364 H404 N72 O78 S6) standard solution are the same. pH Being specified separately when the drug is granted ap-proval based on the Law. Purity (1) Related substances—Keep the sample solution at 2 – 89C. Perform the test with 5 mL of the sample solution obtained in the Assay as directed under Liquid Chromatog-raphy <2.01> according to the following conditions. Deter-mine each peak area by the automatic integration method, and calculate their amounts by the area percentage method: the amount of the peak other than insulin glargine is not more than 0.5z, and the total amount of the peaks other than insulin glargine is not more than 2.0z. Operating conditions— Detector, column, column temperature, mobile phases A and B, flowing of mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay under Insulin Glargine (Genetical Recombination). Time span of measurement: For 40 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the sample solution, add 0.01 mol/L hydrochloric acid TS to make ex-actly 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add 0.01 mol/L hydrochloric acid TS to make exactly 10 mL. Confirm that the peak area of insulin glargine obtained with 5 mL of this solution is equivalent to 5 to 15z of that with 5 mL of the solution for system suitabil-ity test. System performance: When the procedure is run with 5 mL of the standard solution obtained in the Assay under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of insulin glargine are not less than 20,000 and not more than 1.8, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution obtained in the Assay under the above operating conditions, the relative standard deviation of the peak area of insulin glargine is not more than 2.0z. (2) High-molecular mass proteins—To a suitable amount of Insulin Glargine (Genetical Recombination) Injection add water so that each mL contains 40 Insulin Units, and use this solution as the sample solution. Then, proceed as directed in the Purity (2) under Insulin Glargine (Genetical Recombina-tion). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. MS: Amount (mg) of insulin glargine in 1 mL of the stand-ard solution d: Dilution factor of the sample solution 0.0364: Mass (mg) of insulin glargine equivalent to 1 Insu-lin Unit"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

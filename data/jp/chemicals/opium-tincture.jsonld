@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/opium-tincture",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Opium Tincture",
+    "ja": "アヘンチンキ"
+  },
+  "monographId": "JP18-opium-tincture",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Opium Tincture contains not less than 0."
+  },
+  "appearance": {
+    "en": "Opium Tincture is a dark red-brown liquid. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of Opium Tincture add di-luted ethanol (7 in 10) to make 10 mL, filter, and use the fil-trate as the sample solution. Proceed as directed in the Iden-tification (1) under Powdered Opium. (2) Evaporate 1 mL of Opium Tincture to dryness on a water bath, and proceed with the residue as directed in the Identification (2) under Powdered Opium. Alcohol number <1.01> Not less than 3.5 (Method 1)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Evaporate 50 mL of Opium Tincture, accurately measured, on a water bath to dryness. Add 10 mL of ethanol (99.5) to the residue, evaporate to dryness again, cool, and triturate with exactly 10 mL of water. Proceed with this solu-tion as directed in the Assay under Powdered Opium. Each mL of 0.05 mol/L sulfuric acid VS ＝ 28.53 mg of C17H19NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

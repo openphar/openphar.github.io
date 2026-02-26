@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/benzoinum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Benzoinum",
+    "ja": "アンソッコウ"
+  },
+  "monographId": "JP18-benzoinum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Benzoin occurs as grayish brown to dark red-brown blocks varying in size; the fractured surface exhibiting whitish to light yellow-red grains in the matrix; hard and brittle at ordinary temperature but softened by heat. Odor, characteristic and aromatic; taste, slightly pungent and acrid. ‌Identification (1) Heat a fragment of Benzoin in a test tube: it evolves an irritating vapor, and a crystalline subli-mate is produced. (2) Digest 0.5 g of Benzoin with 10 mL of diethyl ether, decant 1 mL of the diethyl ether into a porcelain dish, and add 2 to 3 drops of sulfuric acid: a deep red-brown to deep red-purple color develops."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Ethanol-insoluble substances—Boil gently 1.0 g of Benzoin with 30 mL of ethanol (95) for 15 minutes under a reflux condenser. After cooling, collect the insoluble sub-stances through a tared glass filter (G3), and wash with three 5-mL portions of ethanol (95). Dry the residue at 1059C for 4 hours: the mass of the residue does not exceed 0.30 g. Total ash <5.01> Not more than 2.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

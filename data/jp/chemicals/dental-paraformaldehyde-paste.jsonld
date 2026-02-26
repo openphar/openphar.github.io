@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dental-paraformaldehyde-paste",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dental Paraformaldehyde Paste",
+    "ja": "歯科用パラホルムパスタ"
+  },
+  "monographId": "JP18-dental-paraformaldehyde-paste",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Dental Paraformaldehyde Paste is yellowish white in color. It has a characteristic odor."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.15 g of Dental Paraformaldehyde Paste add 20 mL of diethyl ether and 20 mL of 0.5 mol/L sodium hydroxide TS, shake well, separate the water layer, and dilute with water to make 100 mL. To 1 mL of this solu-tion add 10 mL of acetylacetone TS, and heat on a water bath for 10 minutes: a yellow color is produced (paraformal-dehyde). To the diethyl ether layer obtained in (1) add 5 mL of dilute hydrochloric acid and 20 mL of water, shake well, and separate the water layer: the solution responds to Qualitative Tests <1.09> for primary aromatic amines (procaine hydro-chloride). To 0.15 g of Dental Paraformaldehyde Paste add 25 mL of diethyl ether and 25 mL of water, shake, separate the water layer, filter, and use the filtrate as the sample solution. Separately, dissolve 0.01 g of procaine hydrochloride in 5 mL of water, and use this solution as standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Devel-op the plate with a mixture of ethyl acetate, ethanol (99.5) and ammonia solution (28) (50:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): spots obtained from the sample solution and standard solution show the same Rf value."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iodoform",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iodoform",
+    "ja": "ヨードホルム"
+  },
+  "monographId": "JP18-iodoform",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "CHI3",
+  "molecularWeight": 393.73,
+  "definition": {
+    "en": "Iodoform, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Iodoform occurs as lustrous, yellow crystals or crystalline powder. It has a characteristic odor. It is freely soluble in diethyl ether, sparingly soluble in ethanol (95), and practically insoluble in water. It is slightly volatile at ordinary temperature. Melting point: about 1209C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Heat 0.1 g of Iodoform: a purple gas is evolved."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Water-soluble colored substances and acidity or alkalinity—Shake well 2.0 g of Iodoform, previously powdered, with 5 mL of water for 1 minute, allow to stand, and filter the supernatant liquid: the filtrate is colorless and neutral. Chloride <1.03>—Shake well 3.0 g of Iodoform, pre- viously powdered, with 75 mL of water for 1 minute, allow to stand, and filter the supernatant liquid. To 25 mL of the filtrate add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solu-tion. Prepare the control solution with 0.30 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.011z). Sulfate <1.14>—To 25 mL of the filtrate obtained in ‌JP XVIII Official Monographs / Iohexol 1175 (2) add 1 mL of dilute hydrochloric acid and water to make 50 mL, and perform the test using this solution as the test so-lution. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.017z). Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Iodoform, previ-ously dried, in a 500-mL glass-stoppered flask, and dissolve it in 20 mL of ethanol (95). Add exactly 30 mL of 0.1 mol/L silver nitrate VS and 10 mL of nitric acid, stopper the flask, shake well, and allow to stand in a dark place over 16 hours. Add 150 mL of water, and titrate <2.50> the excess silver ni-trate with 0.1 mol/L ammonium thiocyanate VS (indicator: 5 mL of ammonium iron (III) sulfate TS). Perform a blank determination in the same manner. Each mL of 0.1 mol/L silver nitrate VS ＝ 13.12 mg of CHI3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

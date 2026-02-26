@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trimebutine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trimebutine Maleate",
+    "ja": "トリメブチンマレイン酸塩"
+  },
+  "monographId": "JP18-trimebutine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H29NO5.C4H4O4",
+  "molecularWeight": 503.54,
+  "casNumber": "34140-59-5",
+  "definition": {
+    "en": "Trimebutine Maleate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Trimebutine Maleate occurs as white, crystals or crystalline powder. It is freely soluble in N,N-dimethylformamide and in ace-tic acid (100), soluble in acetonitrile, and slightly soluble in water and in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS. A solution of Trimebutine Maleate in N,N-dimethyl-formamide (1 in 20) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Trimebutine Maleate in 0.01 mol/L hydrochloric acid TS (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Trimebutine Maleate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Trimebutine Maleate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Trimebutine Maleate according to Method 3, and perform the test (not more than 1 ppm). Related substances—Dissolve 0.10 g of Trimebutine Maleate in 100 mL of a mixture of 0.01 mol/L hydrochloric acid TS and acetonitrile (13:7), and use this solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of 0.01 mol/L hydrochloric acid TS and acetonitrile (13:7) to make exactly 250 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the area of the peak other than maleic acid and trimebutine obtained from the sample solu-tion is not larger than 1/2 times the peak area of trimebutine from the standard solution, and the total area of the peaks other than maleic acid and trimebutine is not larger than the peak area of trimebutine from the standard solution. ‌Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 650 mL of diluted perchloric acid (17 in 20,000), previously adjusted the pH to 3.0 with a solution of ammonium acetate (1 in 1000), add 1 g of sodium 1-pen-tanesulfonate to dissolve. To 650 mL of this solution add 350 mL of acetonitrile. Flow rate: Adjust so that the retention time of trimebutine is about 9 minutes. Time span of measurement: About 2 times as long as the retention time of trimebutine, beginning after the peak of maleic acid. System suitability— Test for required detectability: Measure exactly 5 mL of the standard solution, and add a mixture of 0.01 mol/L hy-drochloric acid TS and acetonitrile (13:7) to make exactly 20 mL. Confirm that the peak area of trimebutine obtained with 20 mL of this solution is equivalent to 20 to 30z of that with 20 mL of the standard solution. System performance: Dissolve 40 mg of Trimebutine Maleate and 20 mg of imipramine hydrochloride in 100 mL of a mixture of 0.01 mol/L hydrochloric acid TS and aceto-nitrile (13:7). When the procedure is run with 20mL of this solution under the above operating conditions, trimebutine and imipramine are eluted in this order with the resolution between these peaks being not less than 2.5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of trimebutine is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Trimebutine Male-ate, previously dried, dissolve in 70 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 3 drops of crystal violet TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS Trimetazidine Hydrochloride"
+      }
+    }
+  ]
+}

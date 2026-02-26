@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bentonite",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bentonite",
+    "ja": "ベントナイト"
+  },
+  "monographId": "JP18-bentonite",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Bentonite occurs as a very fine, white to light yellow-brown powder. It is odorless. It has a slightly earthy taste. It is practically insoluble in water, in ethanol (95) and in diethyl ether. It swells in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 0.5 g of Bentonite to 3 mL of diluted sulfuric acid (1 in 3), and heat until white fumes are evolved. Cool, add 20 mL of water, and filter. To 5 mL of the filtrate add 3 mL of ammonia TS: a white, gelatinous precipitate is produced, which turns red on the addition of 5 drops of alizarin red S TS. (2) Wash the residue obtained in (1) with water, add 2 mL of a solution of methylene blue trihydrate (1 in 10,000), and wash again with water: the residue is blue in color. pH <2.54> To 1.0 g of Bentonite add 50 mL of water, and shake: the pH of the suspension is between 9.0 and 10.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—To 1.5 g of Bentonite add 80 mL of water and 5 mL of hydrochloric acid, and boil gently for 20 minutes with thorough stirring. Cool, centri-fuge, collect the supernatant liquid, wash the residue with two 10-mL portions of water, and centrifuge each. Combine the supernatant liquid and the washings, and add dropwise ammonia solution (28). When a precipitate is produced, add dropwise dilute hydrochloric acid with vigorous stirring, and dissolve. To the solution add 0.45 g of hydroxylammonium chloride, and heat. Cool, and add 0.45 g of sodium acetate trihydrate, 6 mL of dilute acetic acid and water to make 150 mL. Pipet 50 mL of the solution, and perform the test using this solution as the test solution. Prepare the control solution as follows: mix 2.5 mL of Standard Lead Solution, 0.15 g of hydroxylammonium chloride, 0.15 g of sodium acetate trihy-drate, and 2 mL of dilute acetic acid, and add water to make 50 mL (not more than 50 ppm). Arsenic <1.11>—To 1.0 g of Bentonite add 5 mL of dilute hydrochloric acid, and gently heat to boil while stir-ring well. Cool immediately, and centrifuge. To the residue add 5 mL of dilute hydrochloric acid, shake well, and centri-fuge. To the residue add 10 mL of water, and perform the same operations. Combine all the extracts, and heat on a water bath to concentrate to 5 mL. Perform the test with this solution as the test solution (not more than 2 ppm). Foreign matter—Place 2.0 g of Bentonite in a mor-tar, add 20 mL of water to swell, disperse evenly with a pes-tle, and dilute with water to 100 mL. Pour the suspension through a No. 200 (74 mm) sieve, and wash the sieve thor-oughly with water. No grit is felt when the fingers are rubbed over the wire mesh of the sieve. Loss on drying <2.41> 5.0 – 10.0z (2 g, 1059C, 2 hours). Gel formation Mix 6.0 g of Bentonite with 0.30 g of mag-nesium oxide. Add the mixture, in several portions, to 200 mL of water contained in a glass-stoppered 500-mL cylinder. Agitate for 1 hour, transfer 100 mL of the suspension to a 100-mL graduated cylinder, and allow to stand for 24 hours: not more than 2 mL of supernatant appears on the surface. Swelling power To 100 mL of water in a glass-stoppered 100-mL cylinder add 2.0 g of Bentonite in ten portions, allowing each portion to settle before adding the next, and allow to stand for 24 hours: the apparent volume of the sedi-ment at the bottom is not less than 20 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

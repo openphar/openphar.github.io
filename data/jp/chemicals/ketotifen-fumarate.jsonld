@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ketotifen-fumarate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ketotifen Fumarate",
+    "ja": "ケトチフェンフマル酸塩"
+  },
+  "monographId": "JP18-ketotifen-fumarate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "34580-14-8",
+  "definition": {
+    "en": "Ketotifen Fumarate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Ketotifen Fumarate occurs as a white to light yellow-white crystalline powder. It is sparingly soluble in methanol and in acetic acid (100), and slightly soluble in water, in ethanol (99.5) and in acetic anhydride. Melting point: about 1909C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Prepare the test solution with 30 mg of Ketotifen Fumarate as directed under Oxygen Flask Com-bustion Method <1.06> using 20 mL of water as the absorb-ing liquid: the test solution responds to Qualitative Tests <1.09> for sulfate. Determine the absorption spectrum of a solution of Ketotifen Fumarate in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Ketotifen Fumarate, previously dried, as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.6 g of Ketotifen Fumarate in 2.5 mL of sodium carbonate TS in a crucible, heat on a water bath to dryness, and ignite at about 5009C. Dissolve the residue in 15 mL of water, filter if necessary, neutralize with diluted nitric acid (3 in 10), and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: To 0.25 mL of 0.01 mol/L hydrochloric acid VS add 2.5 mL of sodium carbonate TS, the used amount of diluted nitric acid (3 in 10) for the neutralization, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.015z). Heavy metals <1.07>—Proceed with 1.0 g of Ketotifen Fumarate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.10 g of Ketotifen Fumarate in 10 mL of a mixture of methanol and ammonia TS (99:1), and use this solution as the sample solution. Pipet 1 mL of the sample solution, and add a mixture of methanol ‌1226 and ammonia TS (99:1) to make exactly 25 mL. Pipet 1 mL of this solution, add a mixture of methanol and ammonia TS (99:1) to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of acetonitrile, water and ammonia solution (28) (90:10:1) to a distance of about 15 cm, and air-dry the plate. Spray evenly Dragendorff's TS for spraying and then hydrogen peroxide TS on the plate: the number of the spot other than the principal spot obtained from the sam-ple solution is not more than four, and they are not more in-tense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Ketoprofen, previ-ously dried, dissolve in 25 mL of ethanol (95), add 25 mL of water, and titrate <2.50> with 0.1 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 25.43 mg of C16H14O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

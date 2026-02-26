@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tartaric-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tartaric Acid",
+    "ja": "酒石酸"
+  },
+  "monographId": "JP18-tartaric-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H6O6",
+  "molecularWeight": 150.09,
+  "definition": {
+    "en": "Tartaric Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Tartaric Acid occurs as colorless crystals or a white crystalline powder. It is odorless, and has a strong acid taste. It is very soluble in water, freely soluble in ethanol (95), and slightly soluble in diethyl ether. A solution of Tartaric Acid (1 in 10) is dextrorotatory."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Ignite Tartaric Acid gradually: it decomposes and an odor of burning sugar is perceptible. (2) A solution of Tartaric Acid (1 in 10) changes blue litmus paper to red, and responds to Qualitative Tests <1.09> for tartrate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Perform the test with 0.5 g of Tartaric Acid. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Oxalate—Dissolve 1.0 g of Tartaric Acid in 10 mL of water, and add 2 mL of calcium chloride TS: no turbidity is produced. Heavy metals <1.07>—Proceed with 2.0 g of Tartaric Acid according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Calcium—Neutralize a solution of 1.0 g of Tartaric Acid in 10 mL of water with ammonia TS, and add 1 mL of ammonium oxalate TS: no turbidity is produced. Arsenic <1.11>—Prepare the test solution with 2.0 g of Tartaric Acid according to Method 1, and perform the test (not more than 1 ppm). Loss on drying <2.41> Not more than 0.5z (3 g, silica gel, 3 hours). Residue on ignition <2.44> Not more than 0.05z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1.5 g of Tartaric Acid, pre-viously dried, dissolve in 40 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 2 drops of phenolphthalein TS). Each mL of 1 mol/L sodium hydroxide VS ＝ 75.05 mg of C4H6O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

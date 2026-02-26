@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nadolol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nadolol",
+    "ja": "ナドロール"
+  },
+  "monographId": "JP18-nadolol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H27NO4",
+  "molecularWeight": 309.4,
+  "casNumber": "42200-33-9",
+  "definition": {
+    "en": "Nadolol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Nadolol occurs as a white to yellowish-brown-white crystalline powder. It is freely soluble in methanol and in acetic acid (100), soluble in ethanol (95), and slightly soluble in water and in chloroform. A solution of Nadolol in methanol (1 in 100) shows no op-tical rotation. Melting point: about 1379C."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nadolol in methanol (1 in 5000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. (2) Determine the infrared absorption spectrum of Nadolol, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: it exhibits absorption at the wave numbers of about 1585 cm－1, 1460 cm－1, 1092 cm－1, 935 cm－1 and 770 cm－1."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Nadolol according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). (2) Related substances—Dissolve 0.5 g of Nadolol in 10 mL of a mixture of methanol and chloroform (1:1), and use this solution as the sample solution. Perform the test with ‌the sample solution as directed under Thin-layer Chromatog-raphy <2.03>. Spot 100 mL each of the sample solution and a mixture of methanol and chloroform (1:1) as a control solu-tion with 25 mm each of width at an interval of about 10 mm on the starting line of a plate 0.25 mm in thickness of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of acetone, chlo-roform and diluted ammonia TS (1 in 3) (8:1:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm), and confirm the po-sitions of the principal spot and the spots other than the principal spot obtained from the sample solution. Scratch and collect the silica gel of the positions of the plate cor-responding to the principal spot and the spots other than the principal spot. To the silica gel collected from the principal spot add exactly 30 mL of ethanol (95), and to the silica gel from the spots other than the principal spot add exactly 10 mL of ethanol (95). After shaking them for 60 minutes, cen-trifuge, and determine the absorbances of these supernatant liquids at 278 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Separately, proceed in the same man-ner with each position of the silica gel from the control solu-tion corresponding to the principal spot and the spots other than the principal spot of the sample solution, and perform a blank determination to make correction. Amount of the related substances calculated by the following equation is not more than 2.0z. Amount (z) of related substances ＝ Ab/(Ab ＋ 3Aa) × 100 Aa: Corrected absorbance of the principle spot Ab: Corrected absorbance of the spots other than the prin-ciple spot Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Isomer ratio Prepare a paste with 0.01 g of Nadolol as di-rected in the paste method under Infrared Spectrophotome-try <2.25> so that its transmittance at an absorption band at a wave number of about 1585 cm－1 is 25 to 30z, and deter- mine the infrared absorption spectrum between 1600 cm－1 Nafamostat Mesilate"
+      }
+    }
+  ]
+}

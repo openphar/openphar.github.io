@@ -1,0 +1,34 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/formalin-water",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Formalin Water",
+    "ja": "ホルマリン水"
+  },
+  "monographId": "JP18-formalin-water",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Formalin Water contains not less than 0."
+  },
+  "appearance": {
+    "en": "Formalin Water is a clear, colorless liquid. It has a slight odor of formaldehyde. It is almost neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer 20 mL of Formalin Water, measured exactly, to a 100-mL volumetric flask containing 2.5 mL of 1 mol/L sodium hydroxide VS, and add water to make 100 mL. Pipet 10 mL of this solution, and proceed as directed in the Assay under Formalin. Each mL of 0.05 mol/L iodine VS ＝ 1.501 mg of CH2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

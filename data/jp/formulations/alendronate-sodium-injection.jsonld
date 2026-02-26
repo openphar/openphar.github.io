@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/alendronate-sodium-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Alendronate Sodium Injection",
+    "ja": "アレンドロン酸ナトリウム注射液"
+  },
+  "monographId": "JP18-alendronate-sodium-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Alendronate Sodium Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Alendronate Sodium Injection is a clear, color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Use Alendronate Sodium Injection as the sample solution. Separately, dissolve 33 mg of alendronate sodium hydrate in 10 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of water, pyridine, acetic acid (100) and ethyl acetate (1:1:1:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in ace-tone (1 in 50) on the plate, and heat at 1009C for 10 minutes: the principal spots from the sample solution and standard solution show a blue-purple color and the same Rf value. pH Being specified separately when the drug is granted ap-proval based on the Law. Bacterial endotoxins <4.01> Less than 119 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to Membrane-filter method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exactly measured volume of Alendronate So-dium Injection, equivalent to about 5 mg of alendronic acid (C4H13NO7P2), add a solution of disodium dihydrogen ethyl-enediamine tetraacetate dihydrate (1 in 500) to make exactly 100 mL, and use this solution as the sample stock solution. Separately, weigh accurately about 33 mg of Alendronate Sodium RS (separately determine the loss on drying <2.41> under the same conditions as Alendronate Sodium Hydrate), and dissolve in a solution of disodium dihydrogen ethylene-diamine tetraacetate dihydrate (1 in 500) to make exactly 100 mL. Pipet 10 mL of this solution, add a solution of diso-dium dihydrogen ethylenediamine tetraacetate dihydrate (1 in 500) to make exactly 50 mL, and use this solution as the standard stock solution. Pipet 5 mL each of the sample stock solution and standard stock solution, add exactly 5 mL of a solution of sodium tetraborate decahydrate (19 in 500) and exactly 4 mL of a solution of 9-fluorenylmethyl chlorofor-mate in acetonitrile (1 in 1000), shake for 30 seconds, and allow to stand at room temperature for 25 minutes. Then, add 25 mL of dichloromethane to them, shake for 45 seconds, centrifuge, and use the supernatant liquid so ob-tained as the sample solution and the standard solution, respectively. Perform the test with 50 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of alen-dronic acid in each solution. Amount (mg) of alendronic acid (C4H13NO7P2) ＝ MS × AT/AS × 1/5 × 0.919 MS: Amount (mg) of Alendronate Sodium RS taken, cal-culated on the dried basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 265 nm). Column: A stainless steel column 4.1 mm in inside diame-ter and 25 cm in length, packed with styrene-divinylbenzene copolymer for liquid chromatography (10 mm in particle di-ameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 14.7 g of trisodium citrate dihy-drate and 8.7 g of dipotassium hydrogen phosphate in 900 ‌JP XVIII Official Monographs / Alendronate Sodium Tablets 429 mL of water, adjust to pH 8.0 with phosphoric acid, and add water to make 1000 mL. To 750 mL of this solution add 200 mL of acetonitrile for liquid chromatography and 50 mL of methanol. Flow rate: Adjust so that the retention time of alendronic acid is about 7 minutes. System suitability— System performance: When the procedure is run with 50 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of alendronic acid are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 50 mL of the standard solution under the above opera-tions conditions, the relative standard deviation of the peak of alendronic acid is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

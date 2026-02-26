@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/cacao-butter",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-cacao-butter",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Cacao Butter",
+    "la": "Oleum Cacao",
+    "ja": "カカオ脂"
+  },
+  "definition": {
+    "en": "the fat obtained from the seed of"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/cacao-butter-theobroma-cacao-linn"
+    }
+  }
+}

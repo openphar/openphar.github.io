@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/naftopidil-orally-disintegrating-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Naftopidil Orally Disintegrating Tablets",
+    "ja": "ナフトピジル口腔内崩壊錠"
+  },
+  "monographId": "JP18-naftopidil-orally-disintegrating-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Naftopidil Orally Disintegrating Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of naftopidil (C24H28N2O3: 392.49). Method of preparation Prepare as directed under Tablets, with Naftopidil. Identification Powder Naftopidil Orally Disintegrating Tablets. To a portion of the powder, equivalent to 25 mg of Naftopidil add 100 mL of methanol, shake thoroughly, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To 6 mL of the filtrate add methanol to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 281 nm and 285 nm, and between 318 nm and 322 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Naftopidil Orally Disintegrating Tablets add V/10 mL of water, disintegrate and disperse the tablet by sonicating. To this solution add V/2 mL of methanol, shake thoroughly, then add methanol to make exactly V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Powder Naftopidil Orally Disintegrating Tablets. To a portion of the powder, equivalent to 25 mg of Naftopidil add 100 mL of methanol, shake thoroughly, and filter through a membrane filter with a pore size not exceeding 0.45 mm. To 6 mL of the filtrate add methanol to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 281 nm and 285 nm, and between 318 nm and 322 nm. Uniformity of dosage units <6.02> Perform the Mass varia-tion test, or the Content uniformity test according to the fol-lowing method: it meets the requirement. To 1 tablet of Naftopidil Orally Disintegrating Tablets add V/10 mL of water, disintegrate and disperse the tablet by sonicating. To this solution add V/2 mL of methanol, shake thoroughly, then add methanol to make exactly V mL so that each mL contains about 0.25 mg of naftopidil (C24H28N2 O3), and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet 6 mL of the subsequent filtrate, add methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of naftopidil for assay, previously dried at 1059C for 3 hours, dissolve in methanol to make exactly 100 mL. Pipet 3 mL of this solu-tion, add methanol to make exactly 50 mL, and use this solu-tion as the standard solution. Determine the absorbances, AT and AS, at 283 nm of the sample solution and standard solu-tion as directed under Ultraviolet-visible Spectrophotometry <2.24>. Amount (mg) of naftopidil (C24H28N2O3) ＝ MS × AT/AS × V/200 MS: Amount (mg) of naftopidil for assay taken Disintegration Being specified separately when the drug is granted approval based on the Law. Dissolution <6.10> When the test is performed at 50 revolu-tion per minute according to the Paddle method, using 900 mL of 0.05 mol/L acetic acid-sodium acetate buffer solution (pH 4.0) as the dissolution medium, the dissolution rate in 30 minutes of Naftopidil Orally Disintegrating Tablets is not less than 75z. Start the test with 1 tablet of Naftopidil Orally Disin-tegrating Tablets, withdraw not less than 20 mL of the me-dium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 28 mg of naftopidil (C24H28N2O3), and use this solution as the sample solution. Separately, weigh accurately about 28 mg of naftopidil for assay, previously dried at 1059C for 3 hours, dissolve in 50 mL of methanol, then add the disso-lution medium to make exactly 100 mL. Pipet 5 mL of this solution, add the dissolution medium to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 283 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using the dissolution me-dium as the control. Dissolution rate (z) with respect to the labeled amount of naftopidil (C24H28N2O3) ＝ MS × AT/AS × V?/V × 1/C × 90 MS: Amount (mg) of naftopidil for assay taken C: Labeled amount (mg) of naftopidil (C24H28N2O3) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Naftopidil Orally Disintegrating Tablets, and powder. Weigh accurately a portion of the powder, equivalent to about 50 mg of naftopidil (C H N O ), add 30 mL of meth- 24 28 2 3 ‌anol, shake thoroughly, add diluted 0.1 mol/L potassium di-hydrogen phosphate TS (pH 2.0) (1 in 2) to make exactly 50 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the fil-trate, pipet 10 mL of the subsequent filtrate, add exactly 10 mL of the internal standard solution, add a mixture of meth-anol and water (3:2) to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of naftopidil for assay, previously dried at 1059C for 3 hours, dissolve in 30 mL of methanol, add diluted 0.1 mol/L potassium dihydrogen phosphate TS (pH 2.0) (1 in 2) to make exactly 50 mL. Pipet 10 mL of this solution, add ex-actly 10 mL of the internal standard solution, add a mixture of methanol and water (3:2) to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS of the peak area of naftopidil to that of the internal stand-ard. Amount (mg) of naftopidil (C24H28N2O3) ＝ MS × QT/QS MS: Amount (mg) of naftopidil for assay taken Internal standard solution—A solution of butyl para-hydroxybenzoate in a mixture of methanol and water (3:2) (3 in 2000). Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Purity (2) under Naftopidil. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, naftopidil and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of naftopidil to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

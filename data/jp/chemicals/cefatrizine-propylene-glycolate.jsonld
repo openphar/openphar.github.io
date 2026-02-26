@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefatrizine-propylene-glycolate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefatrizine Propylene Glycolate",
+    "ja": "セファトリジンプロピレングリコール"
+  },
+  "monographId": "JP18-cefatrizine-propylene-glycolate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C18H18N6O5S2.C3H8O2",
+  "molecularWeight": 538.6,
+  "definition": {
+    "en": "Cefatrizine Propylene Glycolate contains not less than 816 mg (potency) and not more than 876 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefatrizine Propylene Glycolate occurs as a white to yellowish white powder. It is sparingly soluble in water, and practically insoluble in methanol and in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefatrizine Propylene Glycolate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefatrizine Propylene Glyco-late RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cefatrizine Propylene Glycolate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Cefatrizine Propylene Glycolate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cefatri-zine Propylene Glycolate in a mixture of heavy water for nuclear magnetic resonance spectroscopy and deuterated hy-drochloric acid for nuclear magnetic resonance spectroscopy (3:1) (1 in 10), using sodium 3-(trimethylsilyl)propionate-d4 for nuclear magnetic resonance spectroscopy as an internal reference compound, as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>: it exhibits a doublet signal A at around d 1.2 ppm, a doublet signal B at around d 7.0 ppm, a doublet signal C at around d 7.5 ppm and a singlet signal D at around d 8.3 ppm. The ratio of integrated inten-sity of these signals, A:B:C:D, is about 3:2:2:1. D Optical rotation <2.49> [a]20: ＋52 – ＋589(2.5 g calculated on the anhydrous bases, 1 mol/L hydrochloric acid TS, 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Cefatrizine Propylene Glycolate according to Method 2, and ‌JP XVIII Official Monographs / Cefatrizine Propylene Glycolate for Syrup 655 perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefatrizine Propylene Glycolate according to Method 3, and perform the test (not more than 2 ppm). Use a solution of magnesium nitrate hexahydrate in ethanol (1 in 25). Related substances—Dissolve 25 mg of Cefatrizine Propylene Glycolate in 5 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 20 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop with a mixture of 1-butanol, water and acetic acid (100) (3:1:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly ninhydrin-citric acid-acetic acid TS on the plate, and heat the plate at 1009C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the stand-ard solution. Water <2.48> Not more than 2.0z (0.5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefatrizine Propy-lene Glycolate and Cefatrizine Propylene Glycolate RS, equivalent to about 0.1 g (potency), dissolve each in water to make exactly 500 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefatrizine in each solution. Cefatrizine Propylene Glycolate for Syrup"
+      }
+    }
+  ]
+}

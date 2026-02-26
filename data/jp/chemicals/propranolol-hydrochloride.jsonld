@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/propranolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Propranolol Hydrochloride",
+    "ja": "プロプラノロール塩酸塩"
+  },
+  "monographId": "JP18-propranolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H21NO2.HCl",
+  "molecularWeight": 295.8,
+  "casNumber": "318-98-9",
+  "definition": {
+    "en": "Propranolol Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Propranolol Hydrochloride occurs as a white crystalline powder. It is freely soluble in methanol, soluble in water and in acetic acid (100), and sparingly soluble in ethanol (99.5). A solution of Propranolol Hydrochloride in methanol (1 in 40) shows no optical rotation. It is gradualy colored to yellowish white to light brown by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Propranolol Hydrochloride in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Propranolol Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Propranolol Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> (2) for chloride. pH <2.54> The pH of a solution prepared by dissolving 0.5 g of Propranolol Hydrochloride in 50 mL of water is 5.0 – 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Propranolol Hydrochloride in 20 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Propranolol Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 20 mg of Propranolol Hydrochloride in 10 mL of the mobile phase, and use this solution as the sample solution. Pipet 2 mL of the sample so-lution, and add the mobile phase to make exactly 100 mL. ‌Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than propranolol ob-tained from the sample solution is not larger than 1/2 times the peak area of propranolol from the standard solution, and the total area of the peaks other than the peak of propranolol from the sample solution is not larger than 2 times the peak area of propranolol from the standard solu-tion. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 292 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.6 g of sodium lauryl sulfate and 0.31 g of tetrabutylammonium dihydrogen phosphate in 450 mL of water, add 1 mL of sulfuric acid and 550 mL of aceto-nitrile for liquid chromatography, and adjust to pH 3.3 with 2 mol/L sodium hydroxide TS. Flow rate: Adjust so that the retention time of propranolol is about 4 minutes. Time span of measurement: About 5 times as long as the retention time of propranolol. System suitability— Test for required detectability: Measure exactly 5 mL of the standard solution, and add the mobile phase to make ex-actly 20 mL. Confirm that the peak area of propranolol ob-tained with 20 mL of this solution is equivalent to 17 to 33z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of propranolol is not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of propranolol is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Propranolol Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 29.58 mg of C16H21NO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

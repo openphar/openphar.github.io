@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/silver-protein",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Silver Protein",
+    "ja": "プロテイン銀"
+  },
+  "monographId": "JP18-silver-protein",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Silver Protein is a compound of silver and proteins. It contains not less than 7."
+  },
+  "appearance": {
+    "en": "Silver Protein occurs as a light yellow-brown to brown powder. It is odorless. It (1 g) dissolves slowly in 2 mL of water. It is practically insoluble in ethanol (95), in diethyl ether and in chloroform. The pH of a solution of 1.0 g of Silver Protein in 10 mL of water is between 7.0 and 8.5. It is slightly hygroscopic. It is affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 10 mL of a solution of Silver Pro-tein (1 in 100) add 2 mL of dilute hydrochloric acid, shake frequently for 5 minutes, and filter. To the filtrate add 5 mL of a solution of sodium hydroxide (1 in 10), and add 2 mL of diluted copper (II) sulfate TS (2 in 25): a purple color devel-ops. To 5 mL of a solution of Silver Protein (1 in 100) add dropwise iron (III) chloride TS: the color of the solution fades and a precipitate is gradually formed. Incinerate 0.2 g of Silver Protein by strong heating, dissolve the residue in 1 mL of nitric acid by warming, and add 10 mL of water: this solution responds to Qualitative Tests <1.09> (1) for silver salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Silver salt—Dissolve 0.10 g of Silver Protein in 10 mL of water, and filter. To the filtrate add 1 mL of potas- sium chromate TS: no turbidity is produced."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer about 1 g of Silver Protein, accurately weighed, to a 100-mL decomposition flask, add 10 mL of sulfuric acid, cover the flask with a funnel, and boil for 5 minutes. Cool, add dropwise 3 mL of nitric acid with cau-tion, and heat for 30 minutes without boiling. Cool, add 1 mL of nitric acid, boil, and, if necessary, repeat this opera-tion until the solution becomes colorless. After cooling, transfer the solution to a 250-mL conical flask with 100 mL of water, and titrate <2.50> with 0.1 mol/L ammonium thiocyanate VS (indicator: 3 mL of ammonium iron (III) sul-fate TS). Each mL of 0.1 mol/L ammonium thiocyanate VS ＝ 10.79 mg of Ag"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

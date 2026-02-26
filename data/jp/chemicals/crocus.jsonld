@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/crocus",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Crocus",
+    "ja": "サフラン"
+  },
+  "monographId": "JP18-crocus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Thin cord-like stigma, externally dark yellow-red to red-brown, 1.5 – 3.5 cm in length, tripartite or sepa-rate; the end of partite part widened and the other end nar-rowed gradually. Odor, strong and characteristic; taste, bitter; colors the saliva yellow on chewing. Under a microscope <5.01>, when softened by immersion in water, the upper end has numerous tubular protrusions about 150 mm in length, with a small number of pollen grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Use the sample solution obtained in the Purity (1) as the sample solution. Perform the test with this solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol, water and acetic acid (100) (20:5:4:1) to a distance of about 10 cm, and air-dry the plate: three yellow spots appear at the Rf values of about 0.1, about 0.25 and about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Synthetic dye—To 0.10 g of pulverized Saffron add 5 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate, methanol, water and acetic acid (100) (20:5:4:1) to a distance of about 10 cm, and air-dry the plate: any spot other than yellow spots does not appear upper in position than a yellow spot at an Rf value of about 0.4 and any yellow spot does not ap-pear between yellow spots at Rf values of about 0.25 and about 0.4. Spray evenly diluted sulfuric acid on the plate, and heat the plate at 1059C for 10 minutes: any clear yellow spot does not appear at an Rf value of less than 0.1, and any orange spot does not appear between blue-purple spots at Rf values of about 0.1 and about 0.25. Glycerol, sugar or honey—Saffron has no sweet taste. Press it between two pieces of paper: no spot is left on the paper. Yellow style—When perform the test of foreign matter <5.01>, the yellow style in Saffron does not exceed 10.0z. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 7.5z. Content of the active principle Crocin—Dry Saffron in a desiccator (silica gel) for 24 hours, and powder. To exactly 0.100 g of the powder add 150 mL of warm water, warm the mixture between 609C and 709C for 30 minutes with fre-quent shaking, cool, and filter. Pipet 1 mL of the filtrate, add water to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve exactly 98 mg of carbazochrome sodium sulfonate trihydrate in water to make exactly 100 mL. Pipet 5 mL of this solution, add water to make exactly 100 mL, and use this solution as the stand-ard solution. Determine the absorbances of the sample solu-tion and standard solution at 438 nm as directed under Ul-traviolet-visible Spectrophotometry <2.24>: the absorbance of the sample solution is larger than that of the standard so-lution."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

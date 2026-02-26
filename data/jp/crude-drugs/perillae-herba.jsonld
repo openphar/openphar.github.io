@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/perillae-herba",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Perillae Herba",
+    "ja": "ソヨウ"
+  },
+  "monographId": "JP18-perillae-herba",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Usually, contracted and wrinkled leaves, often with thin stems. Both surfaces of the leaf are brownish pur-ple, or the upper surface is grayish green to brownish green, and the lower surface is brownish purple in color. When smoothed by immersion in water, the lamina is ovate to ob-cordate, 5 – 12 cm in length, 5 – 8 cm in width; the apex, acuminate; the margin, serrate; the base, broadly cuneate; petiole, 3 – 5 cm in length; cross sections of stem and petiole, square. Under a magnifying glass, hairs are observed on both surfaces of the leaf, but abundantly on the vein and sparsely on other parts; small glandular hairs are observed on the lower surface. Odor, characteristic; taste slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.6 g of pulverized Perilla Herb, add 10 mL of diethyl ether, shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of perillaldehyde for thin-layer chromatography in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of hexane and ethyl acetate (3:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid-acetic acid-ethanol TS for spray on the plate, and heat the plate at 1059C for 2 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Stem—When perform the test of foreign mat-ter <5.01>, Perilla Herb does not contain its stems equal to or greater than 3 mm in diameter. Foreign matter <5.01>—The amount of foreign mat-ter other than the stems contained in Perilla Herb does not exceed 1.0z. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 16.0z. Acid-insoluble ash <5.01> Not more than 2.5z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of freshly prepared pulverized Perilla Herb, put in a glass-stoppered centrifuge tube, add 20 mL of methanol, shake for 10 minutes, centri-fuge, and separate the supernatant liquid. To the residue, add 20 mL of methanol, and proceed in the same manner. Combine all the extracts, add methanol to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of diphenyl sulfone for assay, and dissolve in methanol to make exactly 100 mL. Pipet 10 mL of this solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT of perillaldehyde and As of diphenyl sul-fone, in each solution. Amount (mg) of perillaldehyde ＝ MS × AT/AS × 1/20 × 0.700 MS: Amount (mg) of diphenyl sulfone for assay taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 234 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of water and acetonitrile (13:7). Flow rate: 1.0 mL per minute. System suitability— System performance: Dissolve 1 mg of (E )-asarone and 1 mg of perillaldehyde for thin-layer chromatography in the standard solution to make 50 mL. When the procedure is run with 10 mL of this solution under the above operating condi-tions, diphenyl sulfone, perillaldehyde, and (E )-asarone are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of diphenyl sulfone is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ephedrine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ephedrine Hydrochloride",
+    "ja": "‌エフェドリン塩酸塩"
+  },
+  "monographId": "JP18-ephedrine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H15NO.HCl",
+  "molecularWeight": 201.69,
+  "casNumber": "50-98-6",
+  "definition": {
+    "en": "Ephedrine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Ephedrine Hydrochloride occurs as white, crystals or crystalline powder. It is freely soluble in water, soluble in ethanol (95), slightly soluble in acetic acid (100), and practically insoluble in acetonitrile and in acetic anhydride."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Ephedrine Hydrochloride (1 in 2000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Ephe-drine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Ephedrine Hydrochloride (1 in 15) responds to Qualitative Tests <1.09> for chloride. D Optical rotation <2.49> [a]20: －33.0 – －36.09(after dry-ing, 1 g, water, 20 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Ephedrine Hydrochloride in 20 mL of water: the pH of this solution is between 4.5 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Ephedrine Hydrochloride in 10 mL of water: the solution is clear and colorless. Sulfate—Dissolve 0.05 g of Ephedrine Hydrochloride in 40 mL of water, add 1 mL of dilute hydrochloric acid and 1 mL of barium chloride TS, and allow to stand for 10 minutes: no turbidity is produced. Heavy metals <1.07>—Proceed with 1.0 g of Ephe- drine Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 1.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Related substances—Dissolve 0.05 g of Ephedrine Hydrochloride in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the areas of each peak by the automatic integration method: the total area of the peaks other than ephedrine obtained from the sample solution is not larger than the peak area of ephe-drine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase: A mixture of a solution of sodium lauryl sulfate (1 in 128), acetonitrile and phosphoric acid (640:360:1). Flow rate: Adjust so that the retention time of ephedrine is about 14 minutes. Time span of measurement: About 3 times as long as the retention time of ephedrine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 1 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of ephedrine obtained with 10 mL of this solution is equivalent to 4 to 6z of that with 10 mL of the standard solution. System performance: Dissolve 1 mg of ephedrine hydro-chloride for assay and 4 mg of atropine sulfate hydrate in 100 mL of diluted methanol (1 in 2). When the procedure is run with 10 mL of this solution under the above operating conditions, ephedrine and atropine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of ephedrine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Ephedrine Hydro-chloride, previously dried, and dissolve in 50 mL of a mix-ture of acetic anhydride and acetic acid (100) (7:3) by warm-ing. Cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 20.17 mg of C10H15NO.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

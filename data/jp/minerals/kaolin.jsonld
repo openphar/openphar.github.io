@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/kaolin",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Kaolin",
+    "ja": "カオリン"
+  },
+  "monographId": "JP18-kaolin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Kaolin occurs as white or nearly white, frag-mentary masses or powder. It has a slightly clay-like odor. It is practically insoluble in water, in ethanol (99.5) and in diethyl ether. It is insoluble in dilute hydrochloric acid and in sodium hydroxide TS. When moistened with water, it darkens and becomes plas-tic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 1 g of Kaolin with 10 mL of water and 5 mL of sulfuric acid in a porcelain dish, and evaporate the mixture nearly to dryness. Cool, add 20 mL of water, boil for 2 to 3 minutes, and filter: the color of the residue is gray. (2) The filtrate obtained in (1) responds to Qualitative Tests <1.09> (1), (2) and (4) for aluminum salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acid or alkali—Add 25 mL of water to 1.0 g of Kaolin, agitate thoroughly, and filter: the pH <2.54> of the filtrate is between 4.0 and 7.5. Acid-soluble substances—Add 20 mL of dilute hy-drochloric acid to 1.0 g of Kaolin, agitate for 15 minutes, and filter. Evaporate 10 mL of the filtrate to dryness, and heat strongly between 4509C and 5509C to constant mass: the mass of the ignited residue is not more than 10 mg. Carbonate—Stir 1.0 g of Kaolin with 5 mL of water, then add 10 mL of diluted sulfuric acid (1 in 2): no efferves-cence occurs. Heavy metals <1.07>—Boil 1.5 g of Kaolin gently with 50 mL of water and 5 mL of hydrochloric acid for 20 minutes with frequent agitation, cool, centrifuge, and sepa-rate the supernatant liquid. Wash the precipitate twice with 10 mL of water, centrifuge each time, and combine the su-pernatant liquid and the washings. Add dropwise ammonia solution (28) to this solution until a slight precipitate occurs, then add dilute hydrochloric acid dropwise while agitating strongly to complete solution. Add 0.45 g of hydroxylammo-nium chloride, and heat. Cool, add 0.45 g of sodium acetate trihydrate and 6 mL of dilute acetic acid, filter if necessary, and wash with 10 mL of water. Combine the filtrate and the washings, and add water to make 150 mL. Perform the test using 50 mL of this solution as the test solution. To 2.5 mL of Standard Lead Solution add 0.15 g of hydroxylammo-nium chloride, 0.15 g of sodium acetate trihydrate, 2 mL of dilute acetic acid and water to make 50 mL, and use this so-lution as the control solution (not more than 50 ppm). Iron <1.10>—Add 10 mL of dilute hydrochloric acid to 40 mg of Kaolin, and heat for 10 minutes with shaking in a water bath. After cooling, add 0.5 g of L-tartaric acid, dis-solve with shaking, prepare the test solution with this solu-tion according to Method 2, and perform the test according to Method B. Prepare the control solution with 2.0 mL of Standard Iron Solution (not more than 500 ppm). Arsenic <1.11>—Add 5 mL of water and 1 mL of sul- furic acid to 1.0 g of Kaolin, and heat on a sand bath until white fumes begin to evolve. Cool, and add water to make 5 mL. Perform the test with this solution as the test solution (not more than 2 ppm). Foreign matter—Place 5 g of Kaolin in a beaker, add 100 mL of water, stir, and decant to leave sand. Repeat this procedure several times with 100-mL portions of water: no ‌JP XVIII Official Monographs / Ketoconazole 1221‌ sandy residue remains. Loss on ignition <2.43> Not more than 15.0z (1 g, 6009C, 5 hours). Plasticity Add 7.5 mL of water to 5.0 g of Kaolin, and agitate thoroughly: the resultant mass has no remarkable fluidity."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

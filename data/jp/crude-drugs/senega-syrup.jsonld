@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/senega-syrup",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-senega-syrup",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Senega Syrup",
+    "la": "Method of preparation",
+    "ja": "セネガシロップ"
+  },
+  "definition": {
+    "en": "a yellow-brown, viscous liquid"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

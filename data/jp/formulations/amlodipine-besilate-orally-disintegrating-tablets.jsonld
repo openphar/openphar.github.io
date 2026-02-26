@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amlodipine-besilate-orally-disintegrating-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amlodipine Besilate Orally Disintegrating Tablets",
+    "ja": "アムロジピンベシル酸塩口腔内崩壊錠"
+  },
+  "monographId": "JP18-amlodipine-besilate-orally-disintegrating-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of powdered Amlodipine Besilate Orally Disintegrating Tablets, equivalent to 7 mg of Amlodipine Besilate, add 200 mL of 0.01 mol/L hydrochlo-ric acid-methanol TS, treat with ultrasonic waves, and filter. Determine the absorption spectrum of the filtrate as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhib-its a maximum between 358 nm and 362 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Use the sample solution ob-tained in the Assay as the sample solution. Pipet 1 mL of the sample solution, add a mixture of methanol and the mobile phase A (3:2) to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 30 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol- having the relative retention time of about 4.5 to amlodipine from the sample solution is not larger than 1.8 times the peak area of amlodipine from the standard solution, and the area of the peak having the relative retention time of about 0.16 to amlodipine and the peaks other than mentioned above from the sample solution is not larger than 2/5 times the peak area of amlodipine from the standard solution. Furthermore, the total area of the peaks other than amlodi-pine and the peak having the relative retention time of about 0.16 to amlodipine from the sample solution is not larger than 2.8 times the peak area of amlodipine from the stand-ard solution. For the areas of the peaks, having the relative retention time of about 0.45 and about 4.5 to amlodipine, multiply their correction factors, 2.0 and 1.9, respectively. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 237 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: Dissolve 4.1 g of potassium dihydrogen phosphate in 1000 mL of water, adjust to pH 6.0 with a solu-tion of 5.4 g of disodium hydrogen phosphate dodecahy-drate in 500 mL of water. To 500 mL of this solution add 500 mL of methanol. Mobile phase B: Dissolve 4.1 g of potassium dihydrogen phosphate in 1000 mL of water, adjust to pH 6.0 with a solu-tion of 5.4 g of disodium hydrogen phosphate dodecahy-drate in 500 mL of water. To 50 mL of this solution add 950 mL of methanol. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. Flow rate: Adjust so that the retention time of amlodipine is about 10 minutes. Time span of measurement: About 5 times as long as the retention time of amlodipine. System suitability— Test for required detectability: Pipet 10 mL of the stand-ard solution, and add a mixture of methanol and the mobile phase A (3:2) to make exactly 50 mL. Confirm that the peak area of amlodipine obtained with 30 mL of this solution is equivalent to 14 to 26z of that with 30 mL of the standard solution. System performance: When the procedure is run with 30 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of amlodipine are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amlodipine is not more than 2.0z. ‌458 Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Amlodipine Besilate Orally Disintegrating Tablets add 4V/5 mL of a mixture of the mobile phase and methanol (1:1), disperse the particles by sonicating, add a mixture of the mobile phase and methanol (1:1) to make exactly V mL so that each mL of the solution contains about 0.14 mg of amlodipine besilate (C20H25ClN2O5.C6H6O3S). Centrifuge this solution, and use the supernatant liquid as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of amlodipine besilate (C20H25ClN2O5.C6H6O3S) ＝ MS × AT/AS × V × 1/250 MS: Amount (mg) of Amlodipine Besilate RS taken, cal-culated on the anhydrous basis Disintegration Being specified separately when the drug is granted approval based on the Law. Dissolution Being specified separately when the drug is granted approval based on the Law."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 Am-lodipine Besilate Orally Disintegrating Tablets, and powder them. Weigh accurately a portion of this powder, equivalent to about 7 mg of amlodipine besilate (C20H25ClN2O5. C6H6O3S), add 40 mL of a mixture of the mobile phase and methanol (1:1), disperse the particles with the aid of ultra-sonic waves, and add a mixture of the mobile phase and methanol (1:1) to make exactly 50 mL. Centrifuge this solu-tion, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 35 mg of Amlodipine Besilate RS (separately, determine the water <2.48> in the same manner as Amlodipine Besilate), add 150 mL of a mix-ture of the mobile phase and methanol (1:1), dissolve with the aid of ultrasonic waves, then add a mixture of the mobile phase and methanol (1:1) to make exactly 250 mL, and use this solution as the standard solution. Perform the test with exactly 30 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01>, and determine the peak areas, AT and AS, of amlodipine in each solution. Amount (mg) of amlodipine besilate (C20H25ClN2O5.C6H6O3S) ＝ MS × AT/AS × 1/5 MS: Amount (mg) of Amlodipine Besilate RS taken, cal-culated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 237 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 4.1 g of potassium dihydrogen phosphate in 1000 mL of water, adjust to pH 6.0 with a solu-tion of 5.4 g of disodium hydrogen phosphate dodecahy-drate in 500 mL of water. To 400 mL of this solution add 600 mL of methanol. Flow rate: Adjust so that the retention time of amlodipine is about 10 minutes. System suitability— System performance: When the procedure is run with 30 mL of the standard solution under the above operating con- ditions, the number of theoretical plates and the symmetry factor of the peak of amlodipine are not less than 3000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 30 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of amlodipine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

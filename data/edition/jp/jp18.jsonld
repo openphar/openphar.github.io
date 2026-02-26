@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://www.openphar.org/data/edition/",
+    "@vocab": "https://www.openphar.org/ontology/bibliographic/",
+
+    "op": "https://www.openphar.org/ontology/core/",
+    "bib": "https://www.openphar.org/ontology/bibliographic/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Edition": { "@id": "bib:Edition" },
+    "Supplement": { "@id": "bib:Supplement" },
+
+    "prefLabel": { "@id": "skos:prefLabel", "@container": "@language" },
+    "altLabel": { "@id": "skos:altLabel", "@container": "@set" },
+
+    "editionNumber": { "@id": "bib:editionNumber", "@type": "xsd:string" },
+    "hasPublisher": { "@id": "bib:hasPublisher", "@type": "@id" },
+    "publicationDate": { "@id": "bib:publicationDate", "@type": "xsd:date" },
+    "effectiveDate": { "@id": "bib:effectiveDate", "@type": "xsd:date" },
+    "monographCount": { "@id": "bib:monographCount", "@type": "xsd:integer" },
+    "editionUrl": { "@id": "bib:editionUrl", "@type": "@id" },
+    "officialLanguage": { "@id": "bib:officialLanguage", "@type": "xsd:string" },
+    "hasSupplement": { "@id": "bib:hasSupplement", "@type": "@id", "@container": "@set" },
+
+    "supplementNumber": { "@id": "bib:supplementNumber", "@type": "xsd:string" },
+    "supplementTo": { "@id": "bib:supplementTo", "@type": "@id" },
+    "supplementPublicationDate": { "@id": "bib:supplementPublicationDate", "@type": "xsd:date" },
+    "supplementEffectiveDate": { "@id": "bib:supplementEffectiveDate", "@type": "xsd:date" },
+
+    "description": { "@id": "dct:description", "@container": "@language" }
+  },
+  "@graph": [
+    {
+      "@id": "jp/jp18",
+      "@type": "Edition",
+      "prefLabel": {
+        "en": "Japanese Pharmacopoeia 18th Edition",
+        "ja": "第十八改正日本薬局方"
+      },
+      "altLabel": ["JP18", "JP 18"],
+      "editionNumber": "18",
+      "hasPublisher": { "@id": "op:JP" },
+      "publicationDate": "2021-06-25",
+      "effectiveDate": "2021-12-01",
+      "monographCount": 327,
+      "editionUrl": { "@id": "https://www.mhlw.go.jp/topics/bukyoku/iyaku/yakkyoku/index.html" },
+      "officialLanguage": ["ja", "en"],
+      "hasSupplement": [
+        { "@id": "jp/jp18-supplement1" },
+        { "@id": "jp/jp18-supplement2" }
+      ],
+      "description": {
+        "en": "The Japanese Pharmacopoeia (JP) 18th Edition is the official pharmacopoeia of Japan, published by the Ministry of Health, Labour and Welfare (MHLW). It contains standards for pharmaceuticals, including chemical drugs, crude drugs, biological products, and formulations."
+      }
+    },
+    {
+      "@id": "jp/jp18-supplement1",
+      "@type": "Supplement",
+      "prefLabel": {
+        "en": "Japanese Pharmacopoeia 18th Edition Supplement 1",
+        "ja": "第十八改正日本薬局方 第一追補"
+      },
+      "supplementNumber": "1",
+      "supplementTo": { "@id": "jp/jp18" },
+      "supplementPublicationDate": "2022-12-12",
+      "supplementEffectiveDate": "2023-06-12"
+    },
+    {
+      "@id": "jp/jp18-supplement2",
+      "@type": "Supplement",
+      "prefLabel": {
+        "en": "Japanese Pharmacopoeia 18th Edition Supplement 2",
+        "ja": "第十八改正日本薬局方 第二追補"
+      },
+      "supplementNumber": "2",
+      "supplementTo": { "@id": "jp/jp18" },
+      "supplementPublicationDate": "2023-12-25",
+      "supplementEffectiveDate": "2024-06-28"
+    },
+    {
+      "@id": "jp/jp19",
+      "@type": "Edition",
+      "prefLabel": {
+        "en": "Japanese Pharmacopoeia 19th Edition",
+        "ja": "第十九改正日本薬局方"
+      },
+      "altLabel": ["JP19"],
+      "editionNumber": "19",
+      "hasPublisher": { "@id": "op:JP" },
+      "publicationDate": "2024-06-28",
+      "effectiveDate": "2024-12-27",
+      "editionUrl": { "@id": "https://www.mhlw.go.jp/topics/bukyoku/iyaku/yakkyoku/index.html" },
+      "officialLanguage": ["ja", "en"]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-c",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin C",
+    "ja": "アスコルビン酸"
+  },
+  "monographId": "JP18-vitamin-c",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H8O6",
+  "molecularWeight": 176.12,
+  "casNumber": "50-81-7",
+  "appearance": {
+    "en": "Ascorbic Acid occurs as white crystals or a white crystalline powder. It is odorless, and has an acid taste. It is freely soluble in water, sparingly soluble in ethanol (95), and practically insoluble in diethyl ether. Melting point: about 1909C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL each of a solution of Ascorbic Acid (1 in 50) add 1 drop of potassium permanganate TS or 1 to 2 drops of 2,6-dichloroindophenol sodium TS: the color of the solution is discharged immediately in each case. (2) Dissolve 0.1 g of Ascorbic Acid in 100 mL of a solu-tion of metaphosphoric acid (1 in 50). To 5 mL of the solu-tion add iodine TS until the color of the solution becomes light yellow. Then add 1 drop of a solution of copper (II) sulfate pentahydrate (1 in 1000) and 1 drop of pyrrole, and warm the mixture at 509C for 5 minutes: a blue color de-velops. D Optical rotation <2.49> [a]20: ＋20.5 – ＋21.59 (2.5 g, water, 25 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Ascorbic Acid in 20 mL of water: the pH of this solution is between 2.2 and 2.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Ascorbic Acid in 20 mL of water: the solution is clear and colorless. (2) Heavy metals <1.07>—Perform the test with 1.0 g of Ascorbic Acid according to Method 1. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 0.20z (1 g, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Ascorbic Acid, previously dried, dissolve in 50 mL of a solution of meta-phosphoric acid (1 in 50), and titrate <2.50> with 0.05 mol/L iodine VS (indicator: 1 mL of starch TS). Each mL of 0.05 mol/L iodine VS ＝ 8.806 mg of C6H8O6"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

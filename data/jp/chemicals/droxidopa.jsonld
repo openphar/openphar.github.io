@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/droxidopa",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Droxidopa",
+    "ja": "ドロキシドパ"
+  },
+  "monographId": "JP18-droxidopa",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H11NO5",
+  "molecularWeight": 213.19,
+  "casNumber": "23651-95-8",
+  "definition": {
+    "en": "Droxidopa, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Droxidopa occurs as white to light brown, crystals or crystalline powder. It is slightly soluble in water and practically insoluble in ethanol (99.5). It dissolves in 0.1 mol/L hydrochloric acid TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Droxidopa in 0.1 mol/L hydrochloric acid TS (1 in 25,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Drox-idopa as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: －38 – －439(after drying, 0.1 g, 0.1 mol/L hydrochloric acid TS, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.40 g of Droxidopa in 6 mL of dilute nitric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution with 0.40 mL of 0.01 mol/L hydro-chloric acid VS (not more than 0.036z). Heavy metals <1.07>—Proceed with 2.0 g of Droxido- pa according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Droxidopa according to Method 3, and perform the test (not more than 2 ppm). Related substances—To 0.10 g of Droxidopa add 50 mL of 0.1 mol/L hydrochloric acid TS, dissolve by shaking while cooling in an ice bath, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL. Pipet 5 mL of this solution, add 0.1 mol/L hydrochloric acid TS to make 50 mL, and use this solution as the standard so-lution. Perform the test with exactly 10 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of both solutions by the au-tomatic integration method: the area of each peak other than droxidopa obtained from the sample solution is not larger than the peak area of droxidopa from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 1.0 g of sodium 1-heptanesul-fonate and 1.36 g of potassium dihydrogen phosphate in 1000 mL of water, and adjust the pH to 2.0 with phosphoric acid. To 930 mL of this solution add 70 mL of acetonitrile. Flow rate: Adjust so that the retention time of droxidopa is about 5 minutes. Time span of measurement: About 12 times as long as the retention time of droxidopa, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of droxidopa are not less than 10,000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of droxidopa is not more than 2.0z. Loss on drying <2.41> Not more than 0.1z (1 g, in vacu-um, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Droxidopa, previ-ously dried, dissolve in exactly 20 mL of 0.1 mol/L perchlo-ric acid VS, add 50 mL of acetic acid (100), and titrate <2.50> the excess perchloric acid with 0.1 mol/L sodium acetate VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 21.32 mg of C9H11NO5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

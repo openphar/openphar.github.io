@@ -1,0 +1,76 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/crude-glycyrrhiza-extract",
+  "@type": "Extract",
+  "monographId": "JP18-crude-glycyrrhiza-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Crude Glycyrrhiza Extract",
+    "la": "Crude Glycyrrhiza Extract contains not less than",
+    "ja": "カンゾウ粗エキス"
+  },
+  "definition": {
+    "en": "not more than 1"
+  },
+  "hasMarkerCompound": [
+    {
+      "@id": "https://www.openphar.org/data/jp/markers/crude-glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822"
+    },
+    {
+      "@id": "https://www.openphar.org/data/jp/markers/crude-glycyrrhiza-extract-glycyrrhizic-acid-c42h62o16-822-93"
+    }
+  ],
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 2"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 3"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 4"
+      },
+      "testType": "TestType-Purity"
+    },
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

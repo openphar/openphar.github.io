@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amitriptyline-hydrochloride-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amitriptyline Hydrochloride Tablets",
+    "ja": "アミトリプチリン塩酸塩錠"
+  },
+  "monographId": "JP18-amitriptyline-hydrochloride-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amitriptyline Hydrochloride Tablets contain not less than 90.0z and not more than 110.0z of the labeled amount of amitriptyline hydrochloride (C20H23N.HCl: 313.86). Method of preparation Prepare as directed under Tablets, with Amitriptyline Hydrochloride. Identification (1) Weigh a quantity of powdered Ami-triptyline Hydrochloride Tablets, equivalent to 0.1 g of Ami-triptyline Hydrochloride. Add 10 mL of chloroform, shake thoroughly, and filter. Evaporate the filtrate on a water bath to about 2 mL, add diethyl ether until turbidity is produced, and allow to stand. Filter the crystals formed through a glass filter (G4), and proceed as directed in the Identification (1) and (2) under Amitriptyline Hydrochloride. (2) Determine the absorption spectrum of a solution of the crystals obtained in (1) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 238 nm and 240 nm, and a minimum be-tween 228 nm and 230 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Amitriptyline Hydrochloride Tablets add 50 mL of diluted methanol (1 in 2), shake to disintegrate the tablet, then add diluted methanol (1 in 2) to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 10 mg of amitriptyline hydrochloride (C20H23N."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Ami-triptyline Hydrochloride Tablets, equivalent to 0.1 g of Ami-triptyline Hydrochloride. Add 10 mL of chloroform, shake thoroughly, and filter. Evaporate the filtrate on a water bath to about 2 mL, add diethyl ether until turbidity is produced, and allow to stand. Filter the crystals formed through a glass filter (G4), and proceed as directed in the Identification (1) and (2) under Amitriptyline Hydrochloride. (2) Determine the absorption spectrum of a solution of the crystals obtained in (1) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 238 nm and 240 nm, and a minimum be-tween 228 nm and 230 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Amitriptyline Hydrochloride Tablets add 50 mL of diluted methanol (1 in 2), shake to disintegrate the tablet, then add diluted methanol (1 in 2) to make exactly 100 mL, and filter. Discard the first 20 mL of the filtrate, pipet V mL of the subsequent filtrate, add methanol to make exactly V? mL so that each mL contains about 10 mg of amitriptyline hydrochloride (C20H23N.HCl), and use this so-lution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of amitriptyline hydrochloride (C20H23N.HCl) ＝ MS × AT/AS × V?/V × 1/20 MS: Amount (mg) of Amitriptyline Hydrochloride RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 2nd fluid for dissolution test as the dissolution medium, the dissolution rate in 60 minutes of Amitriptyline Hydrochloride Tablets is not less than 70z. Start the test with 1 tablet of Amitriptyline Hydrochloride Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet the subsequent V mL of the filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 11 mg of amitriptyline hydrochloride (C20H23N.HCl), and use this solution as the sample solution. Separately, weigh accurately about 55 mg of Amitriptyline Hydrochloride RS, previously dried at 1059C for 2 hours, and dissolve in the dissolution medium to make exactly 250 mL. Pipet 5 mL of this solu-tion, add the dissolution medium to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and stand- ard solution at 239 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of amitriptyline hydrochloride (C20H23N.HCl) ＝ MS × AT/AS × V?/V × 1/C × 18 MS: Amount (mg) of Amitriptyline Hydrochloride RS taken C: Labeled amount (mg) of amitriptyline hydrochloride (C20H23N.HCl) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Amitriptyline Hydrochloride Tablets. Weigh accurately a portion of the powder, equivalent to about 20 mg of ami-triptyline hydrochloride (C20H23N.HCl), and add 75 mL of diluted methanol (1 in 2). After shaking for 30 minutes, add diluted methanol (1 in 2) to make exactly 100 mL, and filter. Discard the first 20-mL portion of the filtrate, measure exactly the subsequent 5-mL portion, add methanol to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of Amitriptyline Hydrochloride RS, previously dried at 1059C for 2 hours, and dissolve in diluted methanol (1 in 2) to make exactly 100 mL. Measure exactly 5 mL of this solution, add methanol to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 239 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, respec-tively. Amount (mg) of amitriptyline hydrochloride (C20H23N.HCl) ＝ MS × AT/AS MS: Amount (mg) of Amitriptyline Hydrochloride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

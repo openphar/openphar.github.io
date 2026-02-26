@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/epirubicin-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Epirubicin Hydrochloride",
+    "ja": "エピルビシン塩酸塩"
+  },
+  "monographId": "JP18-epirubicin-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H29NO11.HCl",
+  "molecularWeight": 579.98,
+  "casNumber": "56390-09-1",
+  "definition": {
+    "en": "Epirubicin Hydrochloride is the hydrochloride of a derivative of daunorubicin. It contains not less than 970 mg (potency) and not more than 1020 mg (potency) per mg, calculated on the anhydrous and residual solvent-free basis."
+  },
+  "appearance": {
+    "en": "Epirubicin Hydrochloride occurs as a pale yel-lowish red to brownish red powder. It is soluble in water and in methanol, slightly soluble in ethanol (95), and practically insoluble in acetonitrile. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Epirubicin Hydrochloride in methanol (3 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Epirubicin Hydrochloride and Epirubicin Hydrochloride RS as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare these spec-tra: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋310 – ＋3409(10 mg calcu-lated on the anhydrous and residual solvent-free basis, meth-anol, 20 mL, 100 mm). pH <2.54> Dissolve 10 mg of Epirubicin Hydrochloride in 2 mL of water: the pH of the solution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 50 mg of Epirubicin Hydrochloride in 5 mL of water: the solution is clear and dark red. Heavy metals <1.07>—Proceed with 1.0 g of Epirubi- cin Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Perform the test with 10 mL of the sample solution obtained in the Assay as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak area by the automatic in-tegration method, and calculate the total amount of the peaks other than epirubicin and 2-naphthalenesulfonic acid by the area percentage method: not more than 5.0z. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of epirubicin, beginning after the solvent peak. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: To 1 mL of the sample so-lution add the mobile phase to make 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of epirubicin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. Water <2.48> Not more than 8.0z (0.1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.5z (0.1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Epirubicin Hydro-chloride and Epirubicin Hydrochloride RS, equivalent to about 50 mg (potency), dissolve each in the internal standard solution to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of epirubicin to that of the internal standard. Amount [ mg (potency)] of epirubicin hydrochloride (C27H29NO11.HCl) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Epirubicin Hydrochloride RS taken Internal standard solution—A solution of sodium 2-naphthalene sulfonate in a mixture of water, acetonitrile, methanol and phosphoric acid (540:290:170:1) (1 in 2000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 25 cm in length, packed with trimethylsilanized silica gel for liquid chromatography (6 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 2 g of sodium lauryl sulfate in a ‌940 mixture of water, acetonitrile, methanol and phosphoric acid (540:290:170:1) to make 1000 mL. Flow rate: Adjust so that the retention time of epirubicin is about 9.5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and epirubicin are eluted in this order with the resolution between these peaks being not less than 20. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of epirubicin to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—At a temperature between 09C and 59C."
+  }
+}

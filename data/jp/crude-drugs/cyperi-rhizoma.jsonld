@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/cyperi-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Cyperi Rhizoma",
+    "ja": "コウブシ"
+  },
+  "monographId": "JP18-cyperi-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Fusiform rhizome, 1.5 – 2.5 cm in length, 0.5 – 1 cm in diameter; externally grayish brown to grayish blackish brown, with 5 to 8 irregular ring nodes, and with hair-like fiber bundles on each node; hard in texture. The transverse section red-brown to light yellow in color, with waxy luster; thickness of cortex approximately equal to or slightly smaller than the diameter of stele. Under a mag-nifying glass, a cut surface reveals fiber bundles as brown spots lined in rings along circumference; here and there in the cortex, vascular bundles appear as red-brown spots, and numerous secretory cells scattered as minute yellow-brown spots; in the stele, numerous vascular bundles scattered as spots or lines. Characteristic odor and taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Cyperus Rhizome add 10 mL of diethyl ether, shake for 5 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether, cyclohexane and formic acid (10:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a red-purple spot appears at an Rf value of about 0.35."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Cyperus Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Cyperus Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 3.0z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Cyperus Rhizome, provided that 1 mL of silicon resin is previously added on the sample in the flask: the volume of essential oil is not less than 0.3 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

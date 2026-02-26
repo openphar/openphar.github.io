@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/condurango-fluidextract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Condurango Fluidextract",
+    "ja": "コンズランゴ流エキス"
+  },
+  "monographId": "JP18-condurango-fluidextract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Condurango Fluidextract is a brown liquid. It has a characteristic odor and a bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Mix 1 mL of Condurango Fluidextract with 5 mL of water, filter, if necessary, and heat the clear solu-tion: turbidity is produced. However, it becomes almost clear upon cooling."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Prepare the test solution with 1.0 g of Condurango Fluidextract as direct under the Fluidextracts (4), and perform the test (not more than 30 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

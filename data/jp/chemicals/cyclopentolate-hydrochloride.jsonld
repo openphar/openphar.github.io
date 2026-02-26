@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cyclopentolate-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cyclopentolate Hydrochloride",
+    "ja": "シクロペントラート塩酸塩"
+  },
+  "monographId": "JP18-cyclopentolate-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H25NO3.HCl",
+  "molecularWeight": 327.85,
+  "appearance": {
+    "en": "Cyclopentolate Hydrochloride occurs as a white crystalline powder. It is odorless, or has a characteris-tic odor. It is very soluble in water, freely soluble in ethanol (95), in acetic acid (100) and in chloroform, sparingly soluble in ace-tic anhydride, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mL of a solution of Cyclopento-late Hydrochloride (1 in 100) add 1 mL of Reinecke salt TS: a light red precipitate is formed. Dissolve 0.2 g of Cyclopentolate Hydrochloride in 2 mL of water, add 2 mL of sodium hydroxide TS, and boil for 1 minute. After cooling, add 2 drops of nitric acid: a phenylacetic acid-like odor is perceptible. Determine the infrared absorption spectrum of Cy-clopentolate Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Cyclopentolate Hydrochloride (1 in 50) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 0.20 g of Cyclopentolate Hydrochlo-ride in 20 mL of water: the pH of this solution is between 4.5 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Cyclopentolate Hydrochloride in 10 mL of water: the so-lution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Cy- clopentolate Hydrochloride according to Method 1, and per- 63 88 14 14 form the test. Prepare the control solution with 2.0 mL of use this solution as the sample solution. Separately, weigh accurately about 20 mg of Cyanocobalamin RS (previously determine the loss on drying <2.41> under the same condi-tions as Cyanocobalamin), add water to make exactly 1000 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Cyanocobalamin. Amount (mg) of cyanocobalamin (C63H88CoN14O14P) ＝ MS × AT/AS × 1/10 Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 0.20 g of Cyclopento-late Hydrochloride in 10 mL of chloroform, and use this so-lution as the sample solution. Pipet 1 mL of the sample solu-tion, and add chloroform to make exactly 20 mL. Pipet 1 mL of this solution, add chloroform to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro- ‌822‌ matography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of 2-propanol, n-butyl acetate, water and ammonia solution (28) (100:60:23:17) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of sulfuric acid in ethanol (99.5) (1 in 10) on the plate, and heat the plate at 1209C for 30 minutes. Examine under ultraviolet light (main wave-length: 254 nm): the spots other than the principal spot ob-tained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.05z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Cyclopentolate Hy-drochloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (4:1), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue-green to yel-low-green (indicator: 2 drops of crystal violet TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 32.79 mg of C17H25NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

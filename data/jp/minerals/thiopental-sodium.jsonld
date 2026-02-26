@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/thiopental-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Thiopental Sodium",
+    "ja": "チオペンタールナトリウム"
+  },
+  "monographId": "JP18-thiopental-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Thiopental Sodium, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Thiopental Sodium occurs as a light yellow powder. It has a faint, characteristic odor. It is very soluble in water, freely soluble in ethanol (95), ＝ MSa × QTa/QSa × 1/5 7 6 3 and practically insoluble in diethyl ether. A solution of Thiopental Sodium (1 in 10) is alkaline. Amount (mg) of phenol (C6H6O) ＝ MSb × QTb/QSb × 1/5 MSa: Amount (mg) of salicylic acid for assay taken MSb: Amount (mg) of phenol for assay taken Internal standard solution—A solution of theophylline in methanol (1 in 10,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column about 4 mm in inside di-ameter and 25 to 30 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: Room temperature. Mobile phase: A mixture of 0.1 mol/L phosphate buffer solution (pH 7.0) and methanol (3:1). Flow rate: Adjust so that the retention time of salicylic acid is about 6 minutes. Selection of column: Dissolve 0.2 g of benzoic acid, 0.2 g of salicylic acid and 0.05 g of theophylline in 100 mL of di-luted methanol (1 in 2). To 10 mL of this solution add 90 mL of diluted methanol (1 in 2). Proceed with 10 mL of this solu-tion under the above operating conditions. Use a column giving elution of benzoic acid, salicylic acid and theophylline in this order, and clearly dividing each peak."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.2 g of Thiopental Sodium in 5 mL of sodium hydroxide TS, and add 2 mL of lead (II) acetate TS: a white precipitate, which dissolves upon heat-ing, is produced. Boil the solution thus obtained: a black precipitate forms gradually, and the precipitate responds to Qualitative Tests <1.09> for sulfide. Dissolve 0.5 g of Thiopental Sodium in 15 mL of water, add 10 mL of dilute hydrochloric acid to produce white precipitate, and extract with four 25-mL portions of chloroform. Combine the chloroform extracts, evaporate on a water bath, and dry at 1059C for 2 hours: the residue melts <2.60> between 1579C and 1629C. A solution of Thiopental Sodium (1 in 10) responds to Qualitative Tests <1.09> (1) and (2) for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Thiopental Sodium in 10 mL of freshly boiled and cooled water: the solution is clear and light yellow. Heavy metals <1.07>—Dissolve 2.0 g of Thiopental Sodium in 76 mL of water, add 4 mL of dilute hydrochloric acid, shake, and filter through a glass filter (G4). To 40 mL of the filtrate add 2 mL of ammonium acetate TS, dilute with water to 50 mL, and perform the test using this solution as the test solution. Prepare a control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid, 2 mL of ammonium acetate TS and water to make 50 mL (not more than 20 ppm). Neutral and basic substances—Weigh accurately about 1 g of Thiopental Sodium, dissolve in 10 mL of water and 5 mL of sodium hydroxide TS, and shake vigorously with 40 mL of chloroform. Separate the chloroform layer, wash with two 5-mL portions of water, filter, and evaporate the filtrate on a water bath to dryness. Dry the residue at 1059C for 1 hour: the amount of the residue is not more than 0.50z. Related substances—Dissolve 50 mg of Thiopental Sodium in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with ex-actly 20 mL each of the sample solution and the standard so-lution as directed under Liquid Chromatography <2.01> ac- ‌cording to the following conditions. Determine each peak area by the automatic integration method: the total area of peaks other than thiopental obtained from the sample solu-tion is not larger than the peak area of thiopental from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1 g of potassium dihydrogen phos-phate in 1000 mL of water, and adjust the pH to 3.0 with phosphoric acid. To 700 mL of this solution add 300 mL of acetonitrile. Flow rate: Adjust so that the retention time of thiopental is about 15 minutes. Time span of measurement: About 1.5 times as long as the retention time of thiopental. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 10 mL. Confirm that the peak area of thiopental obtained with 20 mL of this solution is equivalent to 15 to 25z of that with 20 mL of the standard solution. System performance: Dissolve 5 mg each of isopropyl par-ahydroxybenzoate and propyl parahydroxybenzoate in 50 mL of acetonitrile, and add water to make 100 mL. When the procedure is run with 20 mL of this solution under the above operating conditions, isopropyl parahydroxybenzoate and propyl parahydroxybenzoate are eluted in this order with the resolution between these peaks being not less than 1.9. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of thiopental is not more than 2.0z. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, 809C, 4 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Thiopental Sodium, previously dried, transfer to a separator, dissolve in 20 mL of water, add 5 mL of ethanol (95) and 10 mL of dilute hy-drochloric acid, and extract with 50 mL of chloroform, then with three 25-mL portions of chloroform. Combine the chlo-roform extracts, wash with two 5-mL portions of water, and extract the washings with two 10-mL portions of chlo-roform. Filter the combined chloroform extracts into a coni-cal flask, and wash the filter paper with three 5-mL portions of chloroform. Combine the filtrate and the washings, and add 10 mL of ethanol (95). Titrate <2.50> with 0.1 mol/L po-tassium hydroxide-ethanol VS until the color of the solution changes from yellow through light blue to purple (indicator: 2 mL of alizarin yellow GG-thymolphthalein TS). Perform a blank determination in the same manner with a mixture of 160 mL of chloroform and 30 mL of ethanol (95), and make any necessary correction. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 26.43 mg of C11H17N2NaO2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 259C."
+  }
+}

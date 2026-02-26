@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-menthol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "l-Menthol",
+    "ja": "l-メントール"
+  },
+  "monographId": "JP18-l-menthol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H20O",
+  "molecularWeight": 156.27,
+  "definition": {
+    "en": "l-Menthol contains not less than 98."
+  },
+  "appearance": {
+    "en": "l-Menthol occurs as colorless crystals. It has a characteristic and refreshing odor and a burning taste, fol-lowed by a cool taste. It is very soluble in ethanol (95) and in diethyl ether, and very slightly soluble in water. It sublimes gradually at room temperature."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Triturate l-Menthol with an equal amount of camphor, chloral hydrate or thymol: the mixture liquefies. (2) Shake 1 g of l-Menthol with 20 mL of sulfuric acid: the mixture becomes turbid with a yellow-red color. Allow to stand for 3 hours: a clear, oily layer which possesses no aro-ma of menthol is separated. D Optical rotation <2.49> [a]20: －45.0 – －51.09 (2.5 g, ethanol (95), 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Non-volatile residue—Volatilize 2.0 g of l-Menthol on a water bath, and dry the residue at 1059C for 2 hours: the residue weighs not more than 1.0 mg. Thymol—Add 0.20 g of l-Menthol to a cold mixture of 2 mL of acetic acid (100), 6 drops of sulfuric acid and 2 drops of nitric acid: no green to blue-green color immedi-ately develops. Nitromethane or nitroethane—To 0.5 g of l-Menthol placed in a flask add 2 mL of a solution of sodium hydroxide (1 in 2) and 1 mL of hydrogen peroxide (30), connect a reflux condenser to the flask, and boil the mixture gently for 10 ‌minutes. After cooling, add water to make exactly 20 mL, and filter. Take 1 mL of the filtrate in a Nessler tube, add water to make 10 mL, neutralize with dilute hydrochloric acid, add 1 mL of dilute hydrochloric acid, and cool. To the mixture add 1 mL of a solution of sulfanilic acid (1 in 100), allow to stand for 2 minutes, and then add 1 mL of a solu-tion of N,N-diethyl-N?-1-naphthylethylenediamine oxalate (1 in 1000) and water to make 25 mL: no red-purple color immediately develops."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 2 g of l-Menthol, add ex-actly 20 mL of a mixture of dehydrated pyridine and acetic anhydride (8:1), connect a reflux condenser, and heat on a water bath for 2 hours. Wash the condenser with 20 mL of water, and titrate <2.50> with 1 mol/L sodium hydroxide VS (indicator: 5 drops of phenolphthalein TS). Perform a blank determination in the same manner. Each mL of 1 mol/L sodium hydroxide VS ＝ 156.3 mg of C10H20O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—In a cold place."
+  }
+}

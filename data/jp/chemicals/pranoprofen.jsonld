@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pranoprofen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pranoprofen",
+    "ja": "プラノプロフェン"
+  },
+  "monographId": "JP18-pranoprofen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H13NO3",
+  "molecularWeight": 255.27,
+  "definition": {
+    "en": "Pranoprofen, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Pranoprofen occurs as a white to pale yellow-white crystalline powder. It is freely soluble in N,N-dimethylformamide, soluble in acetic acid (100), sparingly soluble in methanol, slightly solu-ble in acetonitrile, in ethanol (95) and in acetic anhydride, very slightly soluble in diethyl ether, and practically insolu-ble in water. A solution of Pranoprofen in N,N-dimethylformamide (1 in 30) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Pranoprofen in 1 mol/L hydrochloric acid TS to make 100 mL, and dilute 10 mL of the solution with water to make 100 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave-lengths. (2) Determine the infrared absorption spectrum of Pranoprofen as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 0.5 g of Prano-profen in 40 mL of methanol, and 6 mL of dilute nitric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows. To 0.30 mL of 0.01 mol/L hydrochloric acid VS add 40 mL of methanol, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.021z). Heavy metals <1.07>—Proceed with 2.0 g of Prano- profen according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of the Standard Lead Solu-tion (not more than 10 ppm). Related Substances—Dissolve 50 mg of Pranoprofen in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area from both so-lutions by the automatic integration method: the each area of the peaks other than pranoprofen obtained from the sam-ple solution is not larger than the peak area of pranoprofen from the standard solution, and the total peak area of them is not larger than 2 times the peak area of pranoprofen from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 275 nm). Column: A stainless steel column about 6 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 7.02 g of sodium perchlorate monohydrate in 1000 mL of water, and adjust the pH to 2.5 with perchloric acid. To 2 volumes of this solution add 1 volume of acetonitrile. Flow rate: Adjust so that the retention time of pranoprofen is about 10 minutes. Selection of column: Dissolve 4 mg each of Pranoprofen and ethyl parahydroxybenzoate in 200 mL of the mobile phase. Proceed with 10 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of pranoprofen and ethyl parahydrox-ybenzoate in this order with the resolution between these peaks being not less than 2.1. Detection sensitivity: Adjust the detection sensitivity so that the peak height of pranoprofen obtained from 10 mL of the standard solution is between 10 mm and 20 mm. Time span of measurement: About three times as long as the retention time of pranoprofen. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Pranoprofen, previ-ously dried, dissolve in 70 mL of a mixture of acetic anhy-dride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 25.53 mg of C15H13NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

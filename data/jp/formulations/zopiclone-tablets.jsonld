@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/zopiclone-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Zopiclone Tablets",
+    "ja": "ゾピクロン錠"
+  },
+  "monographId": "JP18-zopiclone-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zopiclone Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of zopiclone (C17H17ClN6O3: 388.81). Method of preparation Prepare as directed under Tablets, with Zopiclone. Identification To a quantity of powdered Zopiclone Tablets, equivalent to 30 mg of Zopiclone, add 60 mL of 0.1 mol/L hydrochloric acid TS, shake thoroughly, add 0.1 mol/L hydrochloric acid TS to make 100 mL, and filter. To 2 mL of the filtrate add 0.1 mol/L hydrochloric acid TS to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 214 nm and 218 nm, and between 302 nm and 306 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Zopiclone Tablets add the mobile phase, sonicate while occasional shaking to disintegrate the tablet, add the mobile phase to make exactly 50 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet V mL of the subsequent filtrate, add exactly V?/10 mL of the inter-nal standard solution, add the mobile phase to make V? mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of powdered Zopiclone Tablets, equivalent to 30 mg of Zopiclone, add 60 mL of 0.1 mol/L hydrochloric acid TS, shake thoroughly, add 0.1 mol/L hydrochloric acid TS to make 100 mL, and filter. To 2 mL of the filtrate add 0.1 mol/L hydrochloric acid TS to make 50 mL. Determine the absorption spectrum of this so-lution as directed under Ultraviolet-visible Spectrophotome-try <2.24>: it exhibits maxima between 214 nm and 218 nm, and between 302 nm and 306 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 tablet of Zopiclone Tablets add the mobile phase, sonicate while occasional shaking to disintegrate the tablet, add the mobile phase to make exactly 50 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet V mL of the subsequent filtrate, add exactly V?/10 mL of the inter-nal standard solution, add the mobile phase to make V? mL so that each mL contains about 0.1 mg of zopiclone (C17H17ClN6O3), and use this solution as the sample solution. Then, proceed as directed in the Assay. Amount (mg) of zopiclone (C17H17ClN6O3) ＝ MS × QT/QS × V?/V × 1/10 MS: Amount (mg) of zopiclone for assay taken Internal standard solution—A solution of salicylic acid in the mobile phase (1 in 800). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of 0.05 mol/L acetic acid-sodium acetate buffer solution (pH 4.0) as the dissolution medium, the dissolution rate in 30 minutes of Zopiclone Tablets is not less than 80z. Start the test with 1 tablet of Zopiclone Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add the dissolution medium to make exactly V? mL so that each mL contains about 8.3 mg of zopiclone (C17H17ClN6O3), and use this solution as the sample solution. Separately, weigh accurately about 21 mg of zopiclone for assay (separately determine the loss on drying <2.41> in the same conditions as Zopiclone), and dissolve in the dissolu-tion medium to make exactly 100 mL. Pipet 4 mL of this so-lution, add the dissolution medium to make exactly 100 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sample solution and stand-ard solution at 304 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of zopiclone (C17H17ClN6O3) ＝ MS × AT/AS × V?/V × 1/C × 36 MS: Amount (mg) of zopiclone for assay taken, calculated on the dried basis C: Labeled amount (mg) of zopiclone (C17H17ClN6O3) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To 20 tablets of Zopiclone Tablets add the mobile phase, sonicate while occasional shaking to disintegrate the tablets, add the mobile phase to make exactly 500 mL, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 10 mL of the filtrate, pipet V mL of the subsequent filtrate, add exactly V?/10 mL of the internal standard solution, add the mobile phase to make V? mL so that each mL contains about 0.1 mg of zopiclone (C17H17ClN6O3), and use this solution as the sam-ple solution. Separately, weigh accurately about 50 mg of zopiclone for assay (separately determine the loss on drying <2.41> in the same conditions as Zopiclone), and dissolve in the mobile phase to make exactly 20 mL. Pipet 4 mL of this solution, add exactly 10 mL of the internal standard solu-tion, add the mobile phase to make 100 mL, and use this so-lution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of zopiclone to that of the internal standard. Amount (mg) of zopiclone (C17H17ClN6O3) in 1 tablet of Zopiclone Tablet ＝ MS × QT/QS × V?/V × 1/20 MS: Amount (mg) of zopiclone for assay taken, calculated on the dried basis Internal standard solution—A solution of salicylic acid in the mobile phase (1 in 800). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 304 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: To 378 mL of diluted acetic acid (100) (57 in 5000), add 222 mL of a solution of sodium acetate trihy-drate (17 in 625), and add 400 mL of acetonitrile. Flow rate: Adjust so that the retention time of zopiclone is about 9.5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and zopiclone are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of zopiclone to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

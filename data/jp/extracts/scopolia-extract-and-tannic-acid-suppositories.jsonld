@@ -1,0 +1,40 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/scopolia-extract-and-tannic-acid-suppositories",
+  "@type": "Extract",
+  "monographId": "JP18-scopolia-extract-and-tannic-acid-suppositories",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Scopolia Extract and Tannic Acid Suppositories",
+    "la": "Method of preparation",
+    "ja": "ロートエキス・タンニン坐剤"
+  },
+  "definition": {
+    "en": "formed (tannic acid)"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 1"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 2"
+      },
+      "testType": "TestType-Identification"
+    },
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification Test 3"
+      },
+      "testType": "TestType-Identification"
+    }
+  ]
+}

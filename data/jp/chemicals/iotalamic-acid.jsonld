@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/iotalamic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Iotalamic Acid",
+    "ja": "イオタラム酸"
+  },
+  "monographId": "JP18-iotalamic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H9I3N2O4",
+  "molecularWeight": 613.91,
+  "definition": {
+    "en": "Iotalamic Acid, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Iotalamic Acid occurs as a white powder. It is odorless. It is sparingly soluble in ethanol (95), very slightly soluble in water, and practically insoluble in diethyl ether. It dissolves in sodium hydroxide TS. It gradually colored by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 0.1 g of Iotalamic Acid over a flame: a purple gas is evolved. Determine the infrared spectrum of Iotalamic Acid, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.0 g of Iotalamic Acid in 10 mL of sodium hydroxide TS: the so-lution is clear and colorless. Primary aromatic amines—To 0.50 g of Iotalamic ‌1180 Acid add 15 mL of water, and dissolve it in 1 mL of sodium hydroxide TS while ice-cooling. Add 4 mL of a solution of sodium nitrite (1 in 100) to the solution, immediately add 12 mL of 1 mol/L hydrochloric acid TS, and shake gently. Then allow the mixture to stand for exactly 2 minutes, add 8 mL of ammonium amidosulfate TS, and shake occasionally for 5 minutes. Add 3 drops of a solution of 1-naphthol in ethanol (95) (1 in 10), allow to stand for 1 minute, add 3.5 mL of ammonia-ammonium chloride buffer solution (pH 10.7), mix, and immediately add water to make 50 mL. De-termine within 20 minutes the absorbance of this solution at 485 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>, using a solution, prepared in the same man-ner, as the blank: the absorbance is not more than 0.25. Soluble halides—Dissolve 0.5 g of Iotalamic Acid in 20 mL of diluted ammonia TS (1 in 40), add 6 mL of dilute nitric acid, shake, allow to stand for 5 minutes, and filter. Transfer the filtrate to a Nessler tube, wash the residue with 20 mL of water, combine the filtrate and the washings, and add water to make 50 mL. Proceed as directed for Chloride Limit Test <1.03> using this solution as the test solution. Pre-pare the control solution as follows: to 0.10 mL of 0.01 mol/L hydrochloric acid VS and add 20 mL of diluted am-monia TS (1 in 40), 6 mL of dilute nitric acid and water to make 50 mL. Iodine—Dissolve 0.20 g of Iotalamic Acid in 2.0 mL of sodium hydroxide TS, add 2.5 mL of 0.5 mol/L sulfuric acid TS, and allow to stand for 10 minutes with occasional shaking. Add 5 mL of chloroform, shake well, and allow to stand: the chloroform layer remains colorless. Heavy metals <1.07>—Proceed with 1.0 g of Iotalam- ic Acid according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 0.6 g of Iotalamic Acid according to Method 3, and perform the test (not more than 3.3 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Iotalamic Acid, pre-viously dried, place it in a saponification flask, dissolve in 40 mL of sodium hydroxide TS, add 1 g of zinc powder, and heat for 30 minutes under a reflux condenser. Cool, filter, wash the flask and the filter paper with 50 mL of water, and combine the washings and the filtrate. Add 5 mL of acetic acid (100) to this solution, and titrate <2.50> with 0.1 mol/L silver nitrate VS, until the color of the precipitate changes from yellow to green (indicator: 1 mL of tetrabromophenol-phthalein ethyl ester TS). Each mL of 0.1 mol/L silver nitrate VS ＝ 20.46 mg of C11H9I3N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

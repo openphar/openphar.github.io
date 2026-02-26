@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/diphenhydramine-tannate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Diphenhydramine Tannate",
+    "ja": "タンニン酸ジフェンヒドラミン"
+  },
+  "monographId": "JP18-diphenhydramine-tannate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Diphenhydramine Tannate occurs as a grayish white to light brown powder. It is odorless or has a slight, characteristic odor. It is tasteless. It is slightly soluble in ethanol (95), and practically insolu-ble in water and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 g of Diphenhydramine Tannate add 15 mL of water and 0.3 mL of dilute hydrochloric acid, shake thoroughly for 1 minute, filter, and use this filtrate as the sample solution. Transfer 10 mL of the sample solution to a separator, extract with two 20-mL portions of chlo-roform, combine the chloroform extracts, and evaporate on a water bath to dryness. To 5 mL of a solution of the residue (1 in 100) add 5 drops of Reinecke salt TS: a light red pre-cipitate is produced. To 10 mL of a solution of the residue obtained in (1) (1 in 100) add 10 mL of 2,4,6-trinitrophenol TS dropwise, and allow to stand for 30 minutes. Collect the precipitate by filtration, recrystallize from dilute ethanol, and dry at 1059C for 30 minutes: the crystals melt <2.60> between 1289C and 1339C. To 1 mL of the sample solution obtained in (1) add 1 drop of iron (III) chloride TS: a dark blue-purple color de-velops."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 1.0 g of Diphenhydramine Tannate according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Loss on drying <2.41> Not more than 7.0z (1 g, 1059C, 5 hours). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Transfer about 1.7 g of Diphenhydramine Tannate, accurately weighed, to a separator, dissolve in 20 mL of water and 3.0 mL of dilute hydrochloric acid with thorough shaking, add 20 mL of a solution of sodium hydroxide (1 in 10) and exactly 25 mL of isooctane, shake vigorously for 5 minutes, dissolve 2 g of sodium chloride with shaking, and allow to stand. To 20 mL of the isooctane layer add exactly 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 25.54 mg of C17H21NO"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

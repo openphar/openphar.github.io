@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/biologicals/saccharated-pepsin",
+  "@type": "BiologicalSubstanceMonograph",
+  "prefLabel": {
+    "en": "Saccharated Pepsin",
+    "ja": "含糖ペプシン"
+  },
+  "monographId": "JP18-saccharated-pepsin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Saccharated Pepsin is a mixture of pepsin obtained from the gastric mucosa of hog or cattle and Lactose Hydrate, and it is an enzyme drug having a proteolytic activity. It contains not less than 3800 units and not more ‌than 6000 units per g."
+  },
+  "appearance": {
+    "en": "Saccharated Pepsin occurs as a white powder. It has a characteristic odor, and has a slightly sweet taste. It dissolves in water to give a slightly turbid liquid, and does not dissolve in ethanol (95) and in diethyl ether. It is slightly hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rancidity—Saccharated Pepsin has no un-pleasant or rancid odor. (2) Acidity—Dissolve 0.5 g of Saccharated Pepsin in 50 mL of water, and add 0.50 mL of 0.1 mol/L sodium hydrox-ide VS and 2 drops of phenolphthalein TS: the solution is red in color. Loss on drying <2.41> Not more than 1.0z (1 g, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Substrate solution—Use the substrate solution 1 described in Assay for protein digestive activity under Diges-tion Test <4.03> after adjusting the pH to 2.0. Sample solution—Weigh accurately an amount of Saccharated Pepsin equivalent to about 1250 units, dissolve in ice-cold 0.01 mol/L hydrochloric acid TS to make exactly 50 ml. Standard solution—Weigh accurately a suitable amount of Saccharated Pepsin RS, and dissolve in ice-cold 0.01 mol/L hydrochloric acid TS to make a solution contain-ing about 25 units per mL. Procedure—Proceed as directed in Assay for protein digestive activity under Digestion Test <4.03>, and determine the absorbances, AT and ATB, of the sample solution, using trichloroacetic acid TS A as the precipitation reagent. Sepa-rately, determine the absorbances, AS and ASB, of the stand-ard solution in the same manner as the sample solution. Units in 1 g of Saccharated Pepsin ＝ US × (AT － ATB)/(AS － ASB) × 1/M US: Units per mL of the standard solution M: Amount (g) of Saccharated Pepsin per mL of the sam-ple solution taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/danazol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Danazol",
+    "ja": "ダナゾール"
+  },
+  "monographId": "JP18-danazol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H27NO2",
+  "molecularWeight": 337.46,
+  "definition": {
+    "en": "Danazol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Danazol occurs as a white to pale yellow crys-talline powder. It is soluble in acetone, sparingly soluble in ethanol (99.5), and practically insoluble in water. Melting point: about 2259C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Danazol in ethanol (95) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Danazol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Danazol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Danazol RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋8 – ＋119 (after drying, 0.25 g, ethanol (99.5), 50 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—To 2.0 g of Danazol add 80 mL of water, shake well, and boil for 5 minutes. After cool-ing, add water to make 100 mL, and filter through a glass filter (G4). Discard the first 30 mL of the filtrate, take 40 mL of the subsequent filtrate, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solu- Amount (mg) of danazol (C22H27NO2) ＝ MS × AT/AS MS: Amount (mg) of Danazol RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Danazol and Danazol RS, previously dried, dissolve separately in ethanol (95) to make exactly 50 mL. Pipet 2 mL each of these solu-tions, add ethanol (95) to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>, and determine the absorbances, AT and AS, at 285 nm. Danazol, when dried, contains not less than 98.5z and not more than 101.0z of danazol (C22H27NO2). Description Danazol occurs as a white to pale yellow crys-talline powder. It is soluble in acetone, sparingly soluble in ethanol (99.5), and practically insoluble in water. Melting point: about 2259C (with decomposition). Identification (1) Determine the absorption spectrum of a solution of Danazol in ethanol (95) (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Danazol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Danazol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Danazol RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋8 – ＋119 (after drying, 0.25 g, ethanol (99.5), 50 mL, 100 mm). Purity (1) Chloride <1.03>—To 2.0 g of Danazol add 80 mL of water, shake well, and boil for 5 minutes. After cool-ing, add water to make 100 mL, and filter through a glass filter (G4). Discard the first 30 mL of the filtrate, take 40 mL of the subsequent filtrate, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solu- Amount (mg) of danazol (C22H27NO2) ＝ MS × AT/AS MS: Amount (mg) of Danazol RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

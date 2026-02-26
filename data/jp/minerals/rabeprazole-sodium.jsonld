@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/rabeprazole-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "‌Rabeprazole Sodium‌",
+    "ja": "ラベプラゾールナトリウム"
+  },
+  "monographId": "JP18-rabeprazole-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Rabeprazole Sodium occurs as a white to pale yellow-white powder. It is very soluble in water, and freely soluble in ethanol (99.5). It dissolves in 0.01 mol/L sodium hydroxide TS. It is hygroscopic. A solution of Rabeprazole Sodium (1 in 20) shows no opti-cal rotation. Rabeprazole Sodium shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Rabeprazole Sodium in 0.01 mol/L sodium hy-droxide TS (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Rabeprazole Sodium RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Rabeprazole Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Rabeprazole Sodium RS: both spectra exhibit similar intensities of absorption at the same wave numbers. If any difference appears between the spectra, dissolve the sample, or the sample and the RS separately in ethanol (99.5), evaporate the ethanol at 409C, dry the residues in vacuum at 559C for 24 hours, and perform the test with the residues. A solution of Rabeprazole Sodium (1 in 10) responds to Qualitative Tests <1.09> for sodium salt. sample solution is not larger than 4/5 times the peak area of rabeprazole from the standard solution, the area of the peak other than rabeprazole and the peak mentioned above from the sample solution is not larger than 1/10 times the peak area of rabeprazole from the standard solution, and the total area of the peaks other than rabeprazole from the sample so-lution is not larger than the peak area of rabeprazole from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of rabeprazole, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of methanol and 0.01 mol/L so-dium hydroxide TS (3:2) to make exactly 100 mL. Confirm that the peak area of rabeprazole obtained with 10 mL of this solution is equivalent to 3.5 to 6.5z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of rabeprazole are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of rabeprazole is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, phosphorus (V) oxide, 24 hours. Take the sample to be tested while avoiding moisture absorption.)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Rabeprazole Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand- internal standard. Amount (mg) of sodium rabeprazole (C ＝ MS × QT/QS 18H20N3NaO3S) ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Rabeprazole Sodium in 50 mL of a mixture of methanol and 0.01 mol/L sodium hydroxide TS (3:2), and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add a mix-ture of methanol and 0.01 mol/L sodium hydroxide TS (3:2) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak having the relative retention time of about 0.7 to rabeprazole obtained from the MS: Amount (mg) of Rabeprazole Sodium RS taken, cal-culated on the dried basis Internal standard solution—A solution of 1-amino-2-methyl-naphthalene in a mixture of methanol and 0.01 mol/L so-dium hydroxide TS (3:2) (1 in 250). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 290 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about ‌309C.‌ Mobile phase: A mixture of methanol and 0.05 mol/L phosphate buffer solution (pH 7.0) (3:2). Flow rate: Adjust so that the retention time of rabeprazole is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, rabeprazole and the internal standard are eluted in this order with the resolution between these peaks being not less than 4, and the symmetry factor of the peak of rabepra-zole is not more than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of rabeprazole to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Take the sample to be tested while avoiding moisture absorption. Weigh accurately about 0.1 g each of Rabepra-zole Sodium and Rabeprazole Sodium RS (separately deter-mine the loss on drying <2.41> under the same conditions as Rabeprazole Sodium), dissolve each in a mixture of metha-nol and 0.01 mol/L sodium hydroxide TS (3:2) to make ex-actly 25 mL. Pipet 5 mL each of these solutions, add exactly 10 mL of the internal standard solution to each, then add a mixture of methanol and 0.01 mol/L sodium hydroxide TS (3:2) to make 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with 10 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of rabeprazole to that of the Purity (1) Heavy metals <1.07>—Proceed with 2.0 g of Rabeprazole Sodium according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand- internal standard. Amount (mg) of sodium rabeprazole (C ＝ MS × QT/QS 18H20N3NaO3S) ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Rabeprazole Sodium in 50 mL of a mixture of methanol and 0.01 mol/L sodium hydroxide TS (3:2), and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add a mix-ture of methanol and 0.01 mol/L sodium hydroxide TS (3:2) to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and determine each peak area by the automatic in-tegration method: the area of the peak having the relative retention time of about 0.7 to rabeprazole obtained from the MS: Amount (mg) of Rabeprazole Sodium RS taken, cal-culated on the dried basis Internal standard solution—A solution of 1-amino-2-methyl-naphthalene in a mixture of methanol and 0.01 mol/L so-dium hydroxide TS (3:2) (1 in 250). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 290 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about ‌309C.‌ Mobile phase: A mixture of methanol and 0.05 mol/L phosphate buffer solution (pH 7.0) (3:2). Flow rate: Adjust so that the retention time of rabeprazole is about 5 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, rabeprazole and the internal standard are eluted in this order with the resolution between these peaks being not less than 4, and the symmetry factor of the peak of rabepra-zole is not more than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of rabeprazole to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

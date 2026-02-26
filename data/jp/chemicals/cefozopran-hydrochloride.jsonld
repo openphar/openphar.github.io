@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefozopran-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefozopran Hydrochloride",
+    "ja": "セフォゾプラン塩酸塩"
+  },
+  "monographId": "JP18-cefozopran-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C19H17N9O5S2.HCl",
+  "molecularWeight": 551.99,
+  "definition": {
+    "en": "Cefozopran Hydrochloride contains not less than 860 mg (potency) and not more than 960 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefozopran Hydrochloride occurs as white to pale yellow, crystals or crystalline powder. It is freely soluble in dimethylsulfoxide and in formamide, slightly soluble in water, in methanol and in ethanol (95), and practically insoluble in acetonitrile and diethyleter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Cefozopran Hydro-chloride in 10 mL of water, add 1 mL of a solution of hy-droxylammonium chloride (1 in 10) and 2 mL of sodium hy-droxide TS, allow to stand for 5 minutes, then add 3 mL of 1 mol/L hydrochloric acid TS and 3 drops of iron (III) chlo-ride TS, and mix: a red-purple color develops. Determine the absorption spectra of solutions of Cefozopran Hydrochloride and Cefozopran Hydrochloride RS in a mixture of sodium chloride TS and methanol (3:2) (1 in 100,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare these spectra: both spectra exhibit similar intensities of absorption at the same wave-lengths. Determine the 1H spectrum of a solution of Cefozopran Hydrochloride in deuterated dimethylsulfoxide for nuclear magnetic resonance spectroscopy (1 in 20) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using tetramethylsilane for nuclear magnetic reso- nance spectroscopy as an internal reference compound: it exhibits a singlet signal A at around d 3.9 ppm, a doublet signal B at around d 5.2 ppm, and a quartet signal C at around d 8.0 ppm, and the ratio of integrated intensity of each signal, A:B:C, is about 3:1:1. Dissolve 0.01 g of Cefozopran Hydrochloride in 1 mL of water and 2 mL of acetic acid (100), add 2 drops of silver nitrate TS, and mix: a white turbidity is formed. 1 cm Absorbance <2.24> E 1z (238 nm): 455 – 485 (50 mg calcu-lated on the anhydrous basis, a mixture of sodium chloride TS and methanol (3:2), 5000 mL). D Optical rotation <2.49> [a]20: －73 – －789(0.1 g calculated on the anhydrous basis, a mixture of sodium chloride TS and methanol (3:2), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Being specified separately when the drug is granted approval based on the Law. Heavy metals <1.07>—Proceed with 2.0 g of Cefozopran Hydrochloride according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic—Being specified separately when the drug is granted approval based on the Law. Related substances—Being specified separately when the drug is granted approval based on the Law. Water <2.48> Not more than 2.5z (0.5 g, volumetric titra-tion, direct titration. Use a mixture of formamide for water determination and methanol for water determination (2:1) instead of methanol for water determination). Residue on ignition Being specified separately when the drug is granted approval based on the Law. Bacterial endotoxins <4.01> Less than 0.05 EU/mg (po-tency)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefozopran Hydro-chloride and Cefozopran Hydrochloride RS, equivalent to about 50 mg (potency), and dissolve each in the mobile phase to make exactly 50 mL. Pipet 10 mL each of these solutions, add exactly 10 mL of the internal standard solution and the mobile phase to make 25 mL, and use these solutions as the sample solution and the standard solution, respectively. Per-form the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of cefozopran to that of the internal standard. Amount [ mg (potency)] of cefozopran (C19H17N9O5S2) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Cefozopran Hydrochlo-ride RS taken Internal standard solution—A solution of 2,4-dihydroxyben-zoic acid in the mobile phase (1 in 1250). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Mix 0.366 g of diethylamine with water to make 1000 mL, and add 60 mL of acetonitrile and 5 mL of acetic acid (100). Flow rate: Adjust so that the retention time of cefozopran ‌692‌ is about 9 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, cefozopran and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of cefozopran to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  }
+}

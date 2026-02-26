@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/olopatadine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Olopatadine Hydrochloride",
+    "ja": "オロパタジン塩酸塩"
+  },
+  "monographId": "JP18-olopatadine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H23NO3.HCl",
+  "molecularWeight": 373.87,
+  "casNumber": "140462-76-6",
+  "definition": {
+    "en": "Olopatadine Hydrochloride, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Olopatadine Hydrochloride occurs as white, ‌crystals or crystalline powder. It is very soluble in formic acid, sparingly soluble in water, and very slightly soluble in ethanol (99.5). It dissolves in 0.01 mol/L hydrochloric acid TS. The pH of a solution obtained by dissolving 1.0 g of Olopatadine Hydrochloride in 100 mL of water is 2.3 to 3.3. Melting point: about 2509C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Olopatadine Hydrochloride in 0.01 mol/L hy-drochloric acid TS (1 in 40,000) as directed under Ultravio-let-visible Spectrophotometry <2.24>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Olopatadine Hydrochloride as directed in the potassium chloride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 5 mL of a solution of Olopatadine Hydrochloride (1 in 100) add 1 mL of dilute nitric acid: this solution re-sponds to Qualitative Tests <1.09> (2) for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Olopatadine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Olopatadine Hydrochloride in 100 mL of a mixture of 0.05 mol/L phos-phate buffer solution (pH 3.5) and acetonitrile (3:2), and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, add a mixture of 0.05 mol/L phosphate buffer solution (pH 3.5) and acetonitrile (3:2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the area of the peak other than olopatadine obtained from the sample solution is not larger than 1/10 times the peak area of olopatadine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 299 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.3 g of sodium lauryl sulfate in a mixture of 0.05 mol/L phosphate buffer solution (pH 3.5) and acetonitrile (11:9) to make 1000 mL. Flow rate: Adjust so that the retention time of olopatadine is about 11 minutes. Time span of measurement: About 2 times as long as the retention time of olopatadine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, add a mixture of 0.05 mol/L phosphate buffer so-lution (pH 3.5) and acetonitrile (3:2) to make exactly 20 mL. Confirm that the peak area of olopatadine obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of olopatadine are not less than 8000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of olopatadine is not more than 2.0z. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Olopatadine Hy-drochloride, previously dried, dissolve in 3 mL of formic acid, add 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 37.39 mg of C21H23NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

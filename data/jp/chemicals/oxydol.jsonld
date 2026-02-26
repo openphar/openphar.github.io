@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxydol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxydol",
+    "ja": "オキシドール"
+  },
+  "monographId": "JP18-oxydol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Oxydol contains not less than 2."
+  },
+  "appearance": {
+    "en": "Oxydol occurs as a clear, colorless liquid. It is odorless or has an odor resembling that of ozone. It gradually decomposes upon standing or upon vigorous agitation. It rapidly decomposes when in contact with oxidizing sub-stances as well as reducing substances. It, when alkalized, decomposes with effervescence. It is affected by light. pH: 3.0 – 5.0 Specific gravity d 20: about 1.01"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "1 mL of Oxydol responds to Qualitative Tests <1.09> for peroxide."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—To 25.0 mL of Oxydol add 2 drops of phenolphthalein TS and 2.5 mL of 0.1 mol/L sodium hy-droxide VS: a red color develops. Heavy metals <1.07>—To 5.0 mL of Oxydol add 20 mL of water and 2 mL of ammonia TS, evaporate on a water bath to dryness, dissolve the residue in 2 mL of dilute acetic acid by heating, add water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 2.5 mL of Standard Lead Solution, 2 mL of dilute acetic acid and water to make 50 mL (not more than 5 ppm). Arsenic <1.11>—To 1.0 mL of Oxydol add 1 mL of ammonia TS, evaporate on a water bath to dryness, take the residue, prepare the test solution according to Method 1, and perform the test (not more than 2 ppm). Organic stabilizer—Extract 100 mL of Oxydol with 50-mL, 25-mL and 25-mL portions of a mixture of chlo-roform and diethyl ether (3:2) successively, combine the ex-tracts in a tared vessel, and evaporate the combined extract on a water bath. Dry the residue over silica gel to constant mass: the mass of the residue is not more than 50 mg. Nonvolatile residue—Evaporate 20.0 mL of Oxydol on a water bath to dryness, and dry the residue at 1059C for 1 hour: the mass of the residue is not more than 20 mg."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 1.0 mL of Oxydol, transfer it to a flask con-taining 10 mL of water and 10 mL of dilute sulfuric acid, and titrate <2.50> with 0.02 mol/L potassium permanganate VS. Each mL of 0.02 mol/L potassium permanganate VS ＝ 1.701 mg of H2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant, and not exceeding 309C."
+  }
+}

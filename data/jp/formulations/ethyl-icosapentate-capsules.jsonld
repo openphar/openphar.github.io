@@ -1,0 +1,49 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ethyl-icosapentate-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ethyl Icosapentate Capsules",
+    "ja": "イコサペント酸エチルカプセル"
+  },
+  "monographId": "JP18-ethyl-icosapentate-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take out the content of Ethyl Icosapentate Capsules, to a quantity of the contents, equivalent to 20 mg of Ethyl Icosapentate, add 3 mL of a solution of potassium hydroxide in ethylene glycol (21 in 100), stopper the vessel tightly while passing a current of nitrogen, and heat at 1809C for 15 minutes. After cooling, add methanol to make 100 mL. To 1 mL of this solution add methanol to make 25 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24> using a solution, obtained by proceeding as above with 3 mL of a solution of potassium hydroxide in ethylene glycol (21 in 100), as a blank: it exhibits maxima between 298 nm and 302 nm, between 311 nm and 315 nm, between 325 nm and 329 nm, and between 343 nm and 347 nm."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Peroxide—Take out the content of Ethyl Icosapen-tate Capsules. Weigh accurately about 1 g of the content, dissolve in 25 mL of a mixture of acetic acid (100) and isooc-tane (3:2), replace the air of the inside gently with Nitrogen, then add 1 mL of saturated potassium iodide TS under a current of Nitrogen, stopper immediately and shake gently, and allow to stand in a dark place for 10 minutes. Then, add ‌976 30 mL of water, shake vigorously, and titrate <2.50> with 0.01 mol/L sodium thiosulfate VS (indicator: 1 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction. The amount of peroxide calculated by the following formula is not more than 20 mEq/kg. Amount (mEq/kg) of peroxide ＝ V/M × 10 V: Amount (mL) of 0.01 mol/L sodium thiosulfate VS consumed M: Amount (g) of Ethyl Icosapentate Capsules taken Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Disintegration <6.09> Perform the test using the disk: it meets the requirement. However, for the preparations in single-dose packages, carry out the test for 10 minutes."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of an amount of not less than 20 Ethyl Icosapentate Capsules, then open the capsules and take out the contents. Wash the empty capsules with a little amount of hexane, volatilize the hexane by allowing them to stand at the room temperature, and weigh the mass of the total empty capsules accurately. Weigh accurately a portion of the content, equivalent to about 0.4 g of ethyl icosapentate (C22H34O2), add exactly 40 mL of the internal standard solution, then add hexane to make 200 mL, and use this solution as the sample solution. For the preparations in single-dose packages, weigh accurately the mass of the total capsules of not less than 20 packages, and mix them well. Weigh accurately a portion of the capsules, equivalent to about 0.4 g of ethyl icosapentate (C22H34O2), add 15 mL of hexane, then extract the content by opening the capsules. Separate the hexane extract from the residual solids, wash the residues with three 10-mL portions of hexane, combine the washings and the hexane extract, add exactly 40 mL of the internal standard solution, then add hexane to make 200 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Ethyl Icosapentate RS, add exactly 5 mL of the internal standard solution, then add hexane to make 25 mL, and use this solution as the standard solution. Perform the test with 4 mL each of the sample solu-tion and standard solution as directed under Gas Chroma-tography <2.02> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ethyl icosapentate to that of the internal standard. Amount (mg) of ethyl icosapentate (C22H34O2) ＝ MS × QT/QS × 8 MS: Amount (mg) of Ethyl Icosapentate RS taken Internal standard solution—A solution of methyl docosanate in hexane (1 in 200). Operating conditions— Proceed as directed in the operating conditions in the Assay under Ethyl Icosapentate. System suitability— System performance: When the procedure is run with 4 mL of the standard solution under the above operating condi-tions, the internal standard and ethyl icosapentate are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 4 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of ethyl icosapentate to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

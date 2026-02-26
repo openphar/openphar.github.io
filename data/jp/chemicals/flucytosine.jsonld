@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/flucytosine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Flucytosine",
+    "ja": "フルシトシン"
+  },
+  "monographId": "JP18-flucytosine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H4FN3O",
+  "molecularWeight": 129.09,
+  "definition": {
+    "en": "Flucytosine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Flucytosine occurs as a white crystalline pow-der. It is odorless. It is sparingly soluble in water, slightly soluble in metha-nol, in ethanol (95), in acetic anhydride and in acetic acid (100), and practically insoluble in diethyl ether. It dissolves in 0.1 mol/L hydrochloric acid TS. The pH of a solution of 1.0 g of Flucytosine in 100 mL of water is between 5.5 and 7.5. It is slightly hygroscopic. Melting point: about 2959C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 0.2 mL of bromine TS to 5 mL of a solution of Flucytosine (1 in 500): a yellow-brown color of bromine TS is immediately discharged. Further add 2 mL of barium hydroxide TS: a purple precipitate is formed. Proceed with 0.1 g of Flucytosine as directed under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide TS and 20 mL of water as the absorbing liquid. The solution responds to Qualitative Tests <1.09> (2) for fluoride. Determine the absorption spectrum of a solution of Flucytosine in 0.1 mol/L hydrochloric acid TS (1 in 125,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Flucytosine in 100 mL of water: the solution is clear and colorless. Chloride <1.03>—Dissolve 1.0 g of Flucytosine in 80 mL of water by heating on a water bath. After cooling, to 40 mL of this solution add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.20 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.014z). Fluoride—Dissolve 0.10 g of Flucytosine in 10.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20). Trans-fer 5.0 mL of this solution to a 20-mL volumetric flask, add 10 mL of a mixture of alizarin complexone TS, acetic acid-potassium acetate buffer solution (pH 4.3) and cerrous ni-trate TS (1:1:1), and add water to make 20 mL. Allow the mixture to stand for 1 hour, and use this solution as the sam-ple solution. Separately, transfer 4.0 mL of Standard Fluo-rine Solution to a 20-mL volumetric flask, add 5.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20), add 10 mL of a mixture of alizarin complexone TS, acetic acid-potassium acetate buffer solution (pH 4.3) and cerrous ni-trate TS (1:1:1). Proceed in the same manner as directed in the preparation of the sample solution, and use this solution as the standard solution. Transfer 5.0 mL of diluted 0.01 mol/L sodium hydroxide TS (1 in 20) to a 20-mL volumetric flask, proceed in the same manner as directed in the prepara-tion of the standard solution, and use this solution as the blank solution. Determine the absorbances, AT and AS, of the sample solution and standard solution at 600 nm, using the blank solution as the control as directed under Ultravio-let-visible Spectrophotometry <2.24>: AT is not larger than AS (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Flucyto- sine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Flucytosine according to Method 2, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Flucytosine in 5 mL of diluted methanol (1 in 2), and use this solution as the sample solution. Measure accurately 1 mL of the sample solution, add diluted methanol (1 in 2) to make exactly 25 mL. Measure accurately 1 mL of this solution, add diluted methanol (1 in 2) to make exactly 20 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, methanol and water (5:3:2) to a distance of about 12 cm, air-dry the plate, and observe the spots under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solu-tion. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Flucytosine—Weigh accurately about 0.2 g of Flucytosine, previously dried, dissolve in 40 mL of acetic acid (100), add 100 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 12.91 mg of C4H4FN3O (2) Fluorine—Weigh accurately about 10 mg of Flucyto-sine, previously dried, and proceed as directed in the deter-mination of fluorine under Oxygen Flask Combustion Method <1.06>, using a mixture of 0.5 mL of 0.01 mol/L sodium hydroxide VS and 20 mL of water as the absorbing liquid."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

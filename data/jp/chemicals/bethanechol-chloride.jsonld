@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bethanechol-chloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bethanechol Chloride",
+    "ja": "ベタネコール塩化物"
+  },
+  "monographId": "JP18-bethanechol-chloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C7H17ClN2O2",
+  "molecularWeight": 196.68,
+  "definition": {
+    "en": "Bethanechol Chloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bethanechol Chloride occurs as colorless or white crystals or a white, crystalline powder. It is very soluble in water, freely soluble in acetic acid (100), and sparingly soluble in ethanol (99.5). It is hygroscopic. A solution of Bethanechol Chloride (1 in 10) shows no optical rotation."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Bethanechol Chloride (1 in 40) add 0.1 mL of a solution of cobalt (II) chloride hexahydrate (1 in 100), then add 0.1 mL of potas-sium hexacyanoferrate (II) TS: A green color is produced, and almost entirely fades within 10 minutes. To 1 mL of a solution of Bethanechol Chloride (1 in 100) add 0.1 mL of iodine TS: a brown precipitate is pro-duced, and the solution shows a greenish brown color. Determine the infrared absorption spectrum of Bethanechol Chloride as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. A solution of Bethanechol Chloride (1 in 100) re-sponds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Bethanechol Chloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 1.0 g of Bethanechol Chloride in 2.5 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 1 mL each of the sample solution and standard solution on a plate of cellulose for thin-layer chromatography. Develop the plate with a mixture of a solution of ammonium acetate (1 in 100), acetone, 1-butanol and formic acid (20:20:20:1) to a distance of about 10 cm, and dry the plate at 1059C for 15 minutes. Spray evenly hydrogen hexachloroplatinate (IV)-potassium iodide TS on the plate, and allow to stand for 30 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). ‌548"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Bethanechol Chlo-ride, previously dried, dissolve in 2 mL of acetic acid (100), add 40 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 19.67 mg of C7H17ClN2O2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

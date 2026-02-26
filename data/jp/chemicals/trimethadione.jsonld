@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trimethadione",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trimethadione",
+    "ja": "トリメタジオン"
+  },
+  "monographId": "JP18-trimethadione",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C6H9NO3",
+  "molecularWeight": 143.14,
+  "definition": {
+    "en": "Trimethadione, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Trimethadione occurs as white, crystals or crystalline powder. It has a camphor-like odor. It is very soluble in ethanol (95) and in chloroform, freely soluble in diethyl ether, and soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Trimetha-dione (1 in 50) add 2 mL of barium hydroxide TS: a precipi-tate is formed immediately. (2) Determine the infrared absorption spectrum of a so-lution of Trimethadione in chloroform (1 in 50) as directed in the solution method under Infrared Spectrophotometry <2.25>, using a 0.1-mm fixed sodium chloride cell, and com- pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Proceed with 2.0 g of Trimethadione according to Method 1, and perform the test. 14 22 2 3 S T S Prepare the control solution with 2.0 mL of Standard Lead MS: Amount (mg) of trimetazidine hydrochloride for assay taken, calculated on the anhydrous basis Internal standard solution—A solution of parahy-droxybenzoic acid in the mixture of 0.1 mol/L hydrochloric acid TS and ethanol (99.5) (1:1) (7 in 40,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of 0.05 mol/L potassium dihy-drogen phosphate TS (pH 3.0) and methanol (17:3). Flow rate: Adjust so that the retention time of trimetazi-dine is about 7 minutes. Solution (not more than 10 ppm). Loss on drying <2.41> Not more than 0.5z (1 g, silica gel, 6 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Trimethadione, pre-viously dried, in a glass-stoppered conical flask, dissolve in 5 mL of ethanol (95), add exactly measured 50 mL of 0.1 mol/L sodium hydroxide VS, stopper, and allow to stand for 15 minutes with occasional shaking. Titrate <2.50> the ex-cess sodium hydroxide with 0.1 mol/L hydrochloric acid VS (indicator: 4 drops of cresol red TS). Perform a blank deter-mination in the same manner. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 14.31 mg of C6H9NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 309C."
+  }
+}

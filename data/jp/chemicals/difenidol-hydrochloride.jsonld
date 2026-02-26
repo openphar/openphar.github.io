@@ -1,0 +1,47 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/difenidol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Difenidol Hydrochloride",
+    "ja": "ジフェニドール塩酸塩"
+  },
+  "monographId": "JP18-difenidol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H27NO.HCl",
+  "molecularWeight": 345.91,
+  "casNumber": "3254-89-5",
+  "definition": {
+    "en": "Difenidol Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Difenidol Hydrochloride occurs as white, crys-tals or crystalline powder. It is odorless. It is freely soluble in methanol, soluble in ethanol (95), sparingly soluble in water and in acetic acid (100), and prac-tically insoluble in diethyl ether. Melting point: about 2179C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.01 g of Difenidol Hydro-chloride in 1 mL of sulfuric acid: an orange-red color de-velops. To this solution add carefully 3 drops of water: the solution becomes yellowish brown, and colorless on the ad-dition of 10 mL of water. To 5 mL of a solution of Difenidol Hydrochloride (1 in 100) add 2 mL of Reinecke salt TS: a light red precipitate is formed. To 10 mL of a solution of Difenidol Hydrochloride (1 in 100) add 2 mL of sodium hydroxide TS, and extract with two 15-mL portions of chloroform. Combine the ex-tracts, wash with three 10-mL portions of water, evaporate the chloroform on a water bath, and dry the residue in a desiccator (in vacuum, silica gel, 559C) for 5 hours: the residue melts <2.60> between 1039C and 1069C. A solution of Difenidol Hydrochloride (1 in 100) responds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Difenidol Hydrochloride in 100 mL of freshly boiled and cooled water: the pH of this solu-tion is between 4.7 and 6.5. JP XVIII Official Monographs / Diflorasone Diacetate 851 ‌Purity (1) Clarity and color of solution—Dissolve 1.0 g of Difenidol Hydrochloride in 10 mL of methanol: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Difenidol Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Difenidol Hydrochloride according to Method 3, and per-form the test (not more than 1 ppm). Related substances—Dissolve 0.10 g of Difenidol Hydrochloride in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 10 mg of 1,1-diphenyl-4-piperidino-1-butene hydrochloride for thin-layer chromatography in methanol to make exactly 20 mL, pipet 1 mL of this solution, add methanol to make exactly 10 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. De-velop the plate with a mixture of toluene, methanol and acetic acid (100) (10:2:1) to a distance of about 15 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.35 g of Difenidol Hydro-chloride, previously dried, dissolve in 30 mL of acetic acid (100) by warming if necessary, cool, add 30 mL of acetic an-hydride, and titrate <2.50> with 0.05 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 17.30 mg of C21H27NO.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

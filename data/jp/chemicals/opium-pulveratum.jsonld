@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/opium-pulveratum",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Opium Pulveratum",
+    "ja": "アヘン末"
+  },
+  "monographId": "JP18-opium-pulveratum",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Opium occurs as a yellow-brown to dark brown powder."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Powdered Opium add 5 mL of diluted ethanol (7 in 10), dissolve by sonicating for 10 minutes, and add diluted ethanol (7 in 10) to make 10 mL. Filter this solution, and use the filtrate as the sample solu-tion. Separately, dissolve 25 mg of Morphine Hydrochloride Hydrate, 12 mg of Codeine Phosphate Hydrate, 2 mg of perature of 59C to 109C. Decant the diethyl ether layer and filter first, and then the aqueous layer through filter paper 7 cm in diameter. Wash the adhering crystals in the flask with three 5-mL portions of water saturated with diethyl ether, and wash the crystals on the filter paper with each of these washings. Wash the top of the glass-stoppered flask and the upper part of the filter paper with final 5 mL of water satu-rated with diethyl ether. Transfer the crystals and the filter paper to a beaker. Dissolve the crystals remaining in the glass-stoppered flask with the aid of 15 mL of 0.05 mol/L sulfuric acid VS, accurately measured, and pour the solution into the beaker. Wash the glass-stoppered flask with four 5-mL portions of water, and add the washings to the solu-tion in the beaker. Titrate <2.50> the excess sulfuric acid with 0.1 mol/L sodium hydroxide VS (indicator: 4 drops of methyl red-methylene blue TS). Each mL of 0.05 mol/L sulfuric acid VS ＝ 28.53 mg of C17H19NO3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/lanoconazole-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Lanoconazole Ointment",
+    "ja": "ラノコナゾール軟膏"
+  },
+  "monographId": "JP18-lanoconazole-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Lanoconazole Ointment contains not less than 93."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure using light-resistant vessels. Weigh accurately a quantity of Lanoconazole Ointment, equivalent to about 15 mg of lanoconazole (C14H10ClN3S2), add 20 mL of tetrahydrofuran, sonicate to disperse, and add exactly 10 mL of the internal standard solution. Add metha-nol to make 100 mL, and use this solution as the sample so-lution. Separately, weigh accurately about 15 mg of Lanoconazole RS, previously dried at 1059C for 2 hours, dissolve in methanol, and add exactly 10 mL of the internal standard solution. Add methanol to make 100 mL, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of lanoconazole to that of the internal standard. Lansoprazole"
+      }
+    }
+  ],
+  "dosageForm": "Ointment"
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/shakuyakukanzoto-extract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Shakuyakukanzoto Extract",
+    "ja": "芍薬甘草湯エキス"
+  },
+  "monographId": "JP18-shakuyakukanzoto-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Shakuyakukanzoto Extract contains not less than 50 mg and not more than 150 mg of paeoniflorin parenchyma; in the interior, endosperm and cotyledon; epidermal cells contain orbicular crystals of calcium oxalate (C23H 28O 11: 480."
+  },
+  "appearance": {
+    "en": "Shakuyakukanzoto Extract occurs as a light brown powder or brown viscous extract. It has slightly an odor, and a sweet taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Grind a suitable amount of Sesame. To 1.0 g of the ground add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solu-tion. Separately, dissolve 1 mg of sesamin for thin-layer chromatography in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solu-tions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of hexane, ethyl acetate and acetic acid (100) (10:5:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard so-lution. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 0.5z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Prepare the test solution with 1.0 g of the dry extract (or an amount of the viscous extract, equivalent to 1.0 g of dried substance) as directed under Extracts (4), and perform the test (not more than 30 ppm). (2) Arsenic <1.11>—Prepare the test solution with 1.0 g of the dry extract (or an amount of the viscous extract, equivalent to 1.0 g of dried substance) according to Method 3, and perform the test (not more than 2 ppm). Loss on drying <2.41> The dry extract: Not more than 8.0z (1 g, 1059C, 5 hours). The viscous extract: Not more than 66.7z (1 g, 1059C, 5 hours). Total ash <5.01> Not more than 9.0z, calculated on the dried basis."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Paeoniflorin—Weigh accurately about 0.2 g of the dry extract (or an amount of the viscous extract, equiva-lent to 0.2 g of dried substance), add exactly 50 mL of diluted methanol (1 in 2), shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, weigh ac-curately about 10 mg of Paeoniflorin RS (separately deter-mine the water <2.48> by coulometric titration, using 10 mg), dissolve in diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of paeoniflorin in each solution. Amount (mg) of paeoniflorin (C23H28O11) ＝ MS × AT/AS × 1/2 MS: Amount (mg) of Paeoniflorin RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 209C. Mobile phase: A mixture of water, acetonitrile and phos-phoric acid (850:150:1). Flow rate: 1.0 mL per minute (the retention time of paeoniflorin is about 9 minutes). System suitability— System performance: Dissolve 1 mg each of Paeoniflorin RS and albiflorin in diluted methanol (1 in 2) to make 10 mL. When the procedure is run with 10 mL of this solution under the above operating conditions, albiflorin and paeoniflorin are eluted in this order with the resolution be-tween these peaks being not less than 2.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of paeoniflorin is not more than 1.5z. (2) Glycyrrhizic acid—Weigh accurately about 0.2 g of the dry extract (or an amount of the viscous extract, equiva-lent to about 0.2 g of the dried substance), add exactly 50 mL of diluted methanol (1 in 2), shake for 15 minutes, filter, and use the filtrate as the sample solution. Separately, weigh accurately about 10 mg of Glycyrrhizic Acid RS (separately determine the water <2.48> by coulometric titration, using 10 mg), dissolve in diluted methanol (1 in 2) to make exactly 100 mL, and use this solution as the standard solution. Per-form the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine the peak areas, AT and AS, of glycyrrhizic acid in each solution. Amount (mg) of glycyrrhizic acid (C42H62O16) ＝ MS × AT/AS × 1/2 MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.85 g of ammonium acetate in 720 mL of water, and add 5 mL of acetic acid (100) and 280 mL of acetonitrile. Flow rate: 1.0 mL per minute (the retention time of glycyr-rhizic acid is about 15 minutes). System suitability— System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak having the relative retention time of about 0.9 to glycyrrhizic acid and the peak of glycyrrhizic acid is not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of glycyrrhizic acid is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

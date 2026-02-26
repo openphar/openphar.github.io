@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/gefitinib",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Gefitinib",
+    "ja": "ゲフィチニブ"
+  },
+  "monographId": "JP18-gefitinib",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H24ClFN4O3",
+  "molecularWeight": 446.9,
+  "casNumber": "184475-35-2",
+  "definition": {
+    "en": "Gefitinib contains not less than 98."
+  },
+  "appearance": {
+    "en": "Gefitinib occurs as a white powder. It is slightly soluble in ethanol (99.5), and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Gefitinib in a mixture of trifluoroacetic acid so-lution (1 in 500) and acetonitrile (3:2) (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Gefitinib RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Gefitinib as directed in the potassium bromide disk method under Infrared Spectrometry <2.25>, and compare the spec-trum with the Reference Spectrum or the spectrum of Gefitinib RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. Or, perform the test by the diffuse reflectance method, and compare the spectrum with the spectrum of Gefitinib RS: both spectra exhibit simi-lar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals—Being specified separately when the drug is granted approval based on the Law. (2) Related substances－Use the sample solution ob- tained in the Assay as the sample solution. Pipet 1 mL of the sample solution, add a mixture of trifluoroacetic acid solu-tion (1 in 500) and acetonitrile (3:2) to make exactly 100 mL. Pipet 1 mL of this solution, and add a mixture of trifluoroa-cetic acid solution (1 in 500) and acetonitrile (3:2) to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine each peak area by the automatic integration method: the peak area of related substance A having the rel-ative retention time of about 0.13 to gefitinib obtained from the sample solution is not larger than the peak area of gefitinib from the standard solution, the peak area of related substance B having the relative retention time of about 1.3 from the sample solution is not larger than 2 times the peak area of gefitinib from the standard solution, and the area of the peak other than gefitinib and the peaks mentioned above from the sample solution is not larger than the peak area of gefitinib from the standard solution. Furthermore, the total area of the peaks other than gefitinib from the sample solu-tion is not larger than 4 times the peak area of gefitinib from ‌the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 5 times as long as the retention time of gefitinib, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: Pipet 5 mL of the standard solution, and add a mixture of trifluoroacetic acid solution (1 in 500) and acetonitrile (3:2) to make exactly 10 mL. When the procedure is run with 5 mL of this solution under the above operating conditions, the SN ratio of the peak of gefitinib is not less than 10. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of gefitinib is not more than 2.0z. Water <2.48> Not more than 0.4z (0.1 g, coulometric titration). Residue on ignition <2.44> Not more than 0.2z (1.0 g, platinum crucible)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 35 mg each of Gefitinib and Gefitinib RS (separately determine the water <2.48> in the same manner as Gefitinib), add 85 mL of a mixture of trifluoroacetic acid solution (1 in 500) and acetonitrile (3:2) to each, sonicate to dissolve, add a mixture of trifluoroacetic acid solution (1 in 500) and acetonitrile (3:2) to make exactly 100 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with ex-actly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of gefitinib in each solution. Amount (mg) of gefitinib (C22H24ClFN4O3) ＝ MS × AT/AS MS: Amount (mg) of Gefitinib RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 247 nm). Column: A stainless steel column 3 mm in inside diameter and 10 cm in length, packed with octadesylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 609C. Mobile phase: A mixture of ammonium acetate solution (3 in 310) and acetonitrile (31:19). Flow rate: 0.9 mL per minute (the retention time of gefitinib is about 5.5 minutes). System suitability— System performance: Dissolve 15 mg of 3,4-dichloroani-line in 60 mL of the standard solution. When the procedure is run with 5 mL of this solution under the above operating conditions, 3,4-dichloroaniline and gefitinib are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of gefitinib is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

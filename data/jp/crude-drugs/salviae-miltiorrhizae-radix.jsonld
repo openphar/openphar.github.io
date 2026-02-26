@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/salviae-miltiorrhizae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Salviae Miltiorrhizae Radix",
+    "ja": "タンジン"
+  },
+  "monographId": "JP18-salviae-miltiorrhizae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly cylindrical root, 5 – 25 cm in length, 0.3 – 1.5 cm in diameter; slightly curved, often with lateral roots; outer surface red-brown, dark red-brown or black-brown; with irregular rough wrinkles; hard in texture, and easily broken; fracture surface fine or rough with clefts; cor-tex grayish yellow-white or red-brown, xylem light yellow-white or black-brown. Odor, slight; taste, sweet at first and followed by slight bitterness and astringency. Under a microscope <5.01>, a transverse section reveals usually cork layer in the outermost part, or rarely paren-chyma or endodermis at the outside of the cork layer; several sclerenchyma cells observed or not in secondary cortex; cam-bium obvious; vessels radially arranged in secondary xylem, sometimes radial lines of vessels unite in the center of root; xylem fibers surrounding vessels; primary xylem divided into 2 – 3; vessels of secondary xylem mainly pitted vessels and reticulate vessels in a longitudinal section."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Salvia Miltiorrhiza Root add 10 mL of diethyl ether, allow to stand for 10 minutes with occasional shaking, and filter. Evaporate the filtrate on a water bath to dryness, dissolve the residue in 1 mL of ethyl acetate, and use this solution as the sample solu-tion. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chroma-tography. Develop the plate with a mixture of hexane and ethyl acetate (3:1) to a distance of about 10 cm, and air-dry the plate: a red-brown spot at an Rf value of about 0.4 is observed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Salvia Miltiorrhiza Root according to Method 3, and perform the test. Prepare the control solution with 3.0 Amount (mg) of glycyrrhizic acid (C ＝ MS × AT/AS × 1/2 42H 62O 16) mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Salvia Miltiorrhiza Root according to Method MS: Amount (mg) of Glycyrrhizic Acid RS taken, calcu-lated on the anhydrous basis Operating conditions— Proceed as directed in the operating conditions in i). System suitability— System repeatability: Proceed as directed in the system suitability in i). System performance: Dissolve 5 mg of monoammonium glycyrrhizinate for resolution check in 20 mL of dilute ethanol. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, the resolution be-tween the peak having the relative retention time of about 0.9 to glycyrrhizic acid and the peak of glycyrrhizic acid is not less than 1.5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

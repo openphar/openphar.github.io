@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/dolichi-semen",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Dolichi Semen",
+    "ja": "ヘンズ"
+  },
+  "monographId": "JP18-dolichi-semen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened ellipsoidal to flattened orbicular-ovate seed, 9 – 14 mm in length, 6 – 10 mm in width, 4 – 7 mm in thickness; externally light yellowish white to light yel-low, smooth and somewhat lustrous; caruncle white, like a half-moon, protrudent at one side; hard in texture. Almost odorless; taste, slightly sweet and acid. Under a microscope <5.01>, a transverse section reveals the outermost layer of seed coat composed of a single layer of palisade like epidermal cells coated with cuticle; beneath epidermis a single layer of sclerenchymatous and sandglass like cells; inside of the layer mentioned above parenchyma lie, the innermost portion of the parenchyma decayed; cotyledons occur inside of the seed coat; the outermost layer of cotyledon composed of a single layer of epidermal cells, inner part of cotyledon mainly parenchyma, containing aleu-rone grains and oil drops, and occasionally starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 3 g of pulverized Dolichos Seed add 30 mL of methanol, shake for 10 minutes, centrifuge, and take the supernatant liquid. Evaporate the solvent of the superna-tant liquid, add 30 mL of water and 50 mL of ethyl acetate to the residue, shake, and take the ethyl acetate layer. To the ethyl acetate add 10 g of anhydrous sodium sulfate, shake, and filter. Evaporate the solvent of the filtrate, add 1 mL of ethyl acetate to the residue, and use this solution as the sam-ple solution. Perform the test with the sample solution as di-rected under Thin-layer Chromatography <2.03>. Spot 20 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of ethyl acetate and acetic acid (100) (100:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): a blue-white fluorescent spot ap-pears at an Rf value of about 0.4. Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 4.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 9.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

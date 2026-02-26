@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sodium-thiosulfate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sodium Thiosulfate Hydrate",
+    "ja": "チオ硫酸ナトリウム水和物"
+  },
+  "monographId": "JP18-sodium-thiosulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Thiosulfate Hydrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Sodium Thiosulfate Hydrate occurs as color-less, crystals or crystalline powder. It is odorless. It is very soluble in water, and practically insoluble in ethanol (99.5). It effloresces in dry air, and is deliquescent in moist air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Sodium Thiosulfate Hy-drate (1 in 10) responds to Qualitative Tests <1.09> for thio-sulfate. (2) A solution of Sodium Thiosulfate Hydrate (1 in 10) responds to Qualitative Tests <1.09> for sodium salt. pH <2.54> Dissolve 1.0 g of Sodium Thiosulfate Hydrate in 10 mL of water: the pH of the solution is between 6.0 and 8.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sodium Thiosulfate Hydrate in 10 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Dissolve 1.0 g of Sodium Thiosulfate Hydrate in 10 mL of water, add slowly 5 mL of dilute hydrochloric acid, and evaporate on a water bath to dryness. Add 15 mL of water to the residue, boil gently for 2 minutes, and filter. Heat the filtrate to boil, and add bro-mine TS to the hot filtrate to produce a clear solution and provide a slight excess of bromine. Boil the solution to expel the bromine. Cool, add 1 drop of phenolphthalein TS, and add dropwise sodium hydroxide TS until a slight red color is produced. Add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Prepare the control solution as follows: to 2.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and water to make 50 mL (not more than 20 ppm). Calcium—Dissolve 1.0 g of Sodium Thiosulfate in 10 mL of water, add 2 mL of ammonium oxalate TS, and allow to stand for 4 minutes: no turbidity is produced. Arsenic <1.11>—To 0.40 g of Sodium Thiosulfate add mL of nitric acid and 5 mL of water, evaporate on a water bath to dryness, and perform the test with the residue. Pre-pare the test solution according to Method 2, and perform the test (not more than 5 ppm). Loss on drying <2.41> 32.0 – 37.0z (1 g, in vacuum, 40 – 459C, 16 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Sodium Thiosul-fate, previously dried, dissolve in 30 mL of water, and titrate <2.50> with 0.05 mol/L iodine VS (indicator: 1 mL of starch TS). Each mL of 0.05 mol/L iodine VS ＝ 15.81 mg of Na2S2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/thianthol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Thianthol",
+    "ja": "チアントール"
+  },
+  "monographId": "JP18-thianthol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Thianthol consists of dimethylthianthrene and ditol-uene disulfide. It contains not less than 23."
+  },
+  "appearance": {
+    "en": "Thianthol is a yellowish, viscous liquid. It has a faint, agreeable odor. It is freely soluble in diethyl ether, slightly soluble in ethanol (95), and practically insoluble in water. It, when cold, may separate crystals, which melt on warm-ing. Specific gravity d 20: 1.19 – 1.23"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.1 g of Thianthol add cautiously 5 mL of sulfuric acid: a blue-purple color develops. Add 5 to 6 drops of nitric acid to the solution: the color of the solution changes to yellow-red with evolution of gas."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Shake 10 g of Thianthol with 20 mL of water, allow to stand, and separate the water layer. The solution is neutral. (2) Sulfate—To 10 mL of the water layer obtained in (1) add 2 to 3 drops of barium chloride TS: no opalescence is produced. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 10 mg of Thianthol, and proceed as directed in the sulfur determination of Oxygen Flask Combustion Method <1.06>, using a mixture of 5 mL of diluted sodium hydroxide TS (1 in 10) and 1.0 mL of hydrogen peroxide TS as an absorbing liquid."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

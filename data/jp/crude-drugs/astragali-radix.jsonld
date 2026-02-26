@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/astragali-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Astragali Radix",
+    "ja": "オウギ"
+  },
+  "monographId": "JP18-astragali-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly cylindrical root, 30 – 100 cm in length, 0.7 – 2 cm in diameter, with small bases of lateral root dis-persed on the surface, twisted near the crown; externally light grayish yellow to light yellow-brown, and covered with irregular, dispersed longitudinal wrinkles and horizontal JP XVIII Crude Drugs and Related Drugs / Powdered Atractylodes Lancea Rhizome 1951 ‌lenticel-like patterns; difficult to break; fractured surface fibrous. Under a magnifying glass, a transverse section reveals an outer layer composed of periderm; cortex light yellowish white, xylem light yellow, and zone near the cam-bium somewhat brown in color; thickness of cortex from about one-third to one-half of the diameter of xylem; white medullary ray from xylem to cortex in thin root, but often appearing as radiating cracks in thick root; usually pith unobservable.‌ Odor, slight; taste, sweet."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Astragalus Root add 5 mL of potassium hydroxide TS and 5 mL of acetonitrile in a glass-stoppered centrifuge tube. After shaking this for 10 minutes, centrifuge, and use the acetonitrile layer as the sam-ple solution. Separately, dissolve 1 mg of astragaloside IV for thin-layer chromatography in 10 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl ace-tate, methanol and water (20:5:4) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, heat the plate at 1059C for 5 minutes, and exa-mine under ultraviolet light (main wavelength: 365 nm): one of the several spots obtained from the sample solution has the same color tone and Rf value with the yellow-brown fluorescent spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Astragalus Root according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Astragalus Root according to Method 4, and perform the test (not more than 5 ppm). Root of Hedysarum species and others—Under a microscope <5.01>, a vertical section of Astragalus Root re-veals no crystal fiber containing solitary crystals of calcium oxalate outside the fiber bundle. Total BHC's and total DDT's <5.01>—Not more than 0.2 ppm, respectively. Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

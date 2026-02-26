@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/cefsulodin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Cefsulodin Sodium",
+    "ja": "セフスロジンナトリウム"
+  },
+  "monographId": "JP18-cefsulodin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Cefsulodin Sodium contains not less than 900 mg (potency) and not more than 970 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefsulodin Sodium occurs as white to light yel-low, crystals or crystalline powder. It is freely soluble in water and in formamide, slightly soluble in methanol, and very slightly soluble in ethanol (95). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Cefsulodin Sodium (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Cefsulodin Sodium RS prepared in the same manner as sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Cef-sulodin Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Cefsulodin Sodium RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Determine the 1H spectrum of a solution of Cef-sulodin Sodium in heavy water for nuclear magnetic resonance spectroscopy (1 in 10) as directed under Nuclear Magnetic Resonance Spectroscopy <2.21>, using sodium 3-trimethylsilylpropanesulfonate for nuclear magnetic reso-nance spectroscopy as an internal reference compound: it ex-hibits a multiplet signal A between d 7.3 ppm and d 7.7 ppm, and doublet signals, B and C, at around d 8.4 ppm and at around d 9.1 ppm, respectively. The ratio of integrated in-tensity of these signals, A:B:C, is about 5:2:2. Cefsulodin Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋16.5 – ＋20.09(0.1 g calcu-lated on the anhydrous basis, water, 10 mL, 100 mm). pH <2.54> Dissolve 1.0 g of Cefsulodin Sodium in 10 mL of water: the pH of the solution is not less than 3.3 and not more than 4.8."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Cef-sulodin Sodium in 10 mL of water: the solution is clear. Heavy metals <1.07>—To 1.0 g of Cefsulodin Sodium add 10 mL of a solution of magnesium nitrate hexahydrate in ethanol (95) (1 in 5), mix, fire the ethanol to burn, then heat gradually to carbonize. After cooling, add 2 mL of nitric acid, heat carefully, then heat at 500 – 6009C to incin-erate. If a carbonized residue still retains, add a little amount of nitric acid, and heat again to incinerate. After cooling, add 6 mL of hydrochloric acid to the residue, heat to dryness on a water bath, then moisten the residue with 3 drops of hy-drochloric acid, add 10 mL of hot water, and heat on a water bath to dissolve. Add ammonia TS dropwise to adjust to pH 3 – 4, and add 2 mL of dilute acetic acid. If necessary, filter, wash the crucible and residue on the filter with 10 mL of water, transfer the filtrate and washings into a Nessler tube, add water to make 50 mL, and use this solution as the test solution. Prepare the control solution as follows: To 2.0 mL of Standard Lead Solution add 10 mL of a solution of mag-nesium nitrate hexahydrate in ethanol (95) (1 in 5), fire the ethanol to burn. After cooling, add 2 mL of nitric acid, heat carefully, then heat at 500 – 6009C. After cooling, add 6 mL of hydrochloric acid, then proceed in the same manner as for the preparation of the test solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Cefsulodin Sodium according to Method 3, using a solu-tion of magnesium nitrate hexahydrate in ethanol (95) (1 in 5) and 15 mL of dilute hydrochloric acid instead of a solu-tion of magnesium nitrate hexahydrate in ethanol (95) (1 in 50) and 3 mL of hydrochloric acid, and perform the test (not more than 2 ppm). Related substances—Weigh accurately 0.10 g of Cef-sulodin Sodium, dissolve in water to make exactly 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of isonicotinic acid amide and about 20 mg of Cefsulodin Sodium RS (separately determine the water <2.48> in the same manner as Cefsulodin Sodium), and dissolve in water to make exactly 100 mL. Pipet 10 mL of this solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and determine the areas of each peak by the automatic integration method. Calculate the amount of the related substances by the following for-mula: the amount of isonicotinic acid amide is not more than 1.0z, and the total amount of other related substances is not more than 1.2z. Amount (z) of isonicotinic acid amide ＝ A/BI × MI/MT × 5 Total amount (z) of the other related substances ＝ B/BS × MS/MT × 5 A: Peak area of isonicotinic acid amide from the sample solution B: Total peak area other than cefsulodin and other than isonicotinic acid amide from the sample solution BI: Peak area of isonicotinic acid amide from the standard solution BS: Peak area of cefsulodin from the standard solution MT: Amount (g) of Cefsulodin Sodium taken MS: Amount (g) of Cefsulodin Sodium RS taken MI: Amount (g) of isonicotinic acid amide taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase A: A mixture of a solution of ammonium sulfate (1 in 100) and acetonitrile (97:3). Mobile phase B: A mixture of a solution of ammonium ‌702 sulfate (1 in 100) and acetonitrile (23:2). Flowing of mobile phase: Change the mobile phase A to B at 14 minutes after the injection of sample. Flow rate: Adjust so that the retention time of cefsulodin is about 9 minutes. Time span of measurement: About 4 times as long as the retention time of cefsulodin. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, add water to make exactly 10 mL. Confirm that the peak areas of isonicotinic acid amide and cefsulodin ob-tained with 10 mL of this solution are equivalent to 7 to 13z of those with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, isonicotinic acid amide and cefsulodin are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of cefsulodin is not more than 1.0z. Water <2.48> Not more than 5.0z (1 g, volumetric titra-tion, direct titration, avoiding moisture absorption of the sample, using a mixture of formamide for water determina-tion and methanol for water determination (2:1) instead of methanol for water determination)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefsulodin Sodium and Cefsulodin Sodium RS, equivalent to about 0.1 g (po-tency), dissolve each in water to make exactly 50 mL, and use these solutions as the sample solution and standard solu-tion. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of cef-sulodin in each solution. Amount [ mg (potency)] of cefsulodin (C22H20N4O8S2) ＝ MS × AT/AS × 1000 MS: Amount [mg (potency)] of Cefsulodin Sodium RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of a solution of ammonium sul-fate (1 in 100) and acetonitrile (97:3). Flow rate: Adjust so that the retention time of cefsulodin is about 9 minutes. System suitability— System performance: Dissolve 40 mg of isonicotinic acid amide in 25 mL of the standard solution. When the proce-dure is run with 10 mL of this solution under the above oper-ating conditions, isonicotinic acid amide and cefsulodin are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 5 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of cefsulodin is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

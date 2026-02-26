@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/glycine",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "Glycine",
+    "ja": "グリシン"
+  },
+  "monographId": "JP18-glycine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C2H5NO2",
+  "molecularWeight": 75.07,
+  "definition": {
+    "en": "Glycine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Glycine occurs as white, crystals or crystalline powder. It has a sweet taste. It is freely soluble in water and in formic acid, and practi-cally insoluble in ethanol (95). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Glycine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry Gonadorelin Acetate"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 80 mg of Glycine, previ-ously dried, dissolve in 3 mL of formic acid, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 7.507 mg of C2H5NO2"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

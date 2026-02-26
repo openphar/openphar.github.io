@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-e-calcium-succinate",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin E Calcium Succinate",
+    "ja": "トコフェロールコハク酸エステルカルシウム"
+  },
+  "monographId": "JP18-vitamin-e-calcium-succinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C66H106CaO10",
+  "molecularWeight": 1099.62,
+  "appearance": {
+    "en": "Tocopherol Calcium Succinate occurs as a white to yellowish white powder. It is odorless. It is freely soluble in chloroform and in carbon tetrachlo-ride, and practically insoluble in water, in ethanol (95) and in acetone. Shake 1 g of Tocopherol Calcium Succinate with 7 mL of acetic acid (100): it dissolves, and produces a turbidity after being allowed to stand for a while. It dissolves in acetic acid (100). It is optically inactive."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.05 g of Tocopherol Calcium Succinate in 1 mL of acetic acid (100), add 9 mL of ethanol (99.5), and mix. To this solution add 2 mL of fuming nitric acid, and heat at 759C for 15 minutes: a red to orange color develops. Dissolve 0.08 g of Tocopherol Calcium Succinate, previously dried, in 0.2 mL of carbon tetrachloride. Deter-mine the infrared absorption spectrum of the solution as directed in the liquid film method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 5 g of Tocopherol Calcium Succinate in 30 0.5 mol/L hydrochloric acid TS to make 100 mL. Alkalinity—To 0.20 g of Tocopherol Calcium Suc-cinate add 10 mL of diethyl ether, 2 mL of water, 1 drop of phenolphthalein TS and 0.10 mL of 0.1 mol/L hydrochloric acid VS, and shake: no red color develops in the water layer. Chloride <1.03>—Dissolve 0.10 g of Tocopherol Cal- cium Succinate in 4 mL of acetic acid (100), add 20 mL of water and 50 mL of diethyl ether, shake thoroughly, and col-lect the water layer. To the diethyl ether layer add 10 mL of water, shake, and collect the water layer. Combine the water layers, add 6 mL of dilute nitric acid and water to make 50 mL, and perform the test using this solution as the test solu-tion. Prepare the control solution in the same manner using 0.60 mL of 0.01 mol/L hydrochloric acid VS in place of Tocopherol Calcium Succinate (not more than 0.212z). Heavy metals <1.07>—Proceed with 1.0 g of Tocopherol Calcium Succinate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Tocopherol Calcium Succinate according to Method 3, and perform the test (not more than 2 ppm). a-Tocopherol—Dissolve 0.10 g of Tocopherol Cal-cium Succinate in exactly 10 mL of chloroform, and use this solution as the sample solution. Separately, dissolve 50 mg of Tocopherol RS in chloroform to make exactly 100 mL. Pipet 1 mL of this solution, add chloroform to make exactly 10 mL, and use this solution as the standard solution. Per-form the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of toluene and acetic acid (100) (19:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solution of iron (III) chloride hexahydrate in ethanol (99.5) (1 in 500) on the plate, then spray evenly a solution of 2,2?-bipyridyl in ethanol (99.5) (1 in 200) on the same plate, and allow to stand for 2 to 3 minutes: the spots obtained from the sample solution corresponding to the spots from the standard solu-tion is not larger and not more intense than the spots from the standard solution. Loss on drying <2.41> Not more than 2.0z (1 g, in vacu-um, phosphorus (V) oxide, 24 hours)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.10 g of Tocopherol Calcium Succinate in 10 mL of chloroform: the solution is clear, and has no more color than the follow-ing control solution. Control solution: To 0.5 mL of Iron (III) Chloride CS add length: 284 nm). Column: A stainless steel column about 4 mm in inside di-ameter and 15 to 30 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: Room temperature. ‌Mobile phase: A mixture of methanol, water and acetic acid (100) (97:2:1). Flow rate: Adjust so that the retention time of tocopherol succinate is about 8 minutes. Selection of column: Dissolve 0.05 g each of tocopherol succinate and tocopherol in 50 mL of a mixture of ethanol (99.5) and diluted acetic acid (100) (1 in 5) (9:1). Proceed with 20 mL of this solution under the above operating condi-tions, and calculate the resolution. Use a column giving elu-tion of tocopherol succinate and tocopherol in this order with the resolution between these peaks being not less than 2.0. System repeatability: Repeat the test 5 times with 20 mL of the standard solution under the above operating conditions: the relative standard deviation of the peak height of tocopherol succinate is not more than 0.8z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Tocopherol Calcium Succinate and Tocopherol Succinate RS, previously dried, dissolve in a mixture of ethanol (99.5) and diluted ace-tic acid (100) (1 in 5) (9:1) to make exactly 50 mL, and use these solutions as the sample solution and standard solution. Pipet exactly 20 mL each of the sample solution and standard solution, and perform the test as directed under Liquid Chromatography <2.01> according to the following operat-ing conditions. Determine the peak heights, HT and HS, of tocopherol succinate in each solution. Amount (mg) of tocopherol calcium succinate mL of chloroform, add 10 mL of hydrochloric acid, shake for 10 minutes, then draw off the water layer, and neutralize (C66 H106 CaO 10) with ammonia TS: the solution responds to Qualitative Tests <1.09> for calcium salt. ＝ MS × HT/HS × 1.036 MS: Amount (mg) of Tocopherol Succinate RS taken 1 cm Absorbance <2.24> E1z chloroform, 100 mL). (286 nm): 36.0 – 40.0 (10 mg, Operating conditions— Detector: An ultraviolet absorption photometer (wave- Purity (1) Clarity and color of solution—Dissolve 0.10 g of Tocopherol Calcium Succinate in 10 mL of chloroform: the solution is clear, and has no more color than the follow-ing control solution. Control solution: To 0.5 mL of Iron (III) Chloride CS add length: 284 nm). Column: A stainless steel column about 4 mm in inside di-ameter and 15 to 30 cm in length, packed with octadecyl-silanized silica gel (5 to 10 mm in particle diameter). Column temperature: Room temperature. ‌Mobile phase: A mixture of methanol, water and acetic acid (100) (97:2:1). Flow rate: Adjust so that the retention time of tocopherol succinate is about 8 minutes. Selection of column: Dissolve 0.05 g each of tocopherol succinate and tocopherol in 50 mL of a mixture of ethanol (99.5) and diluted acetic acid (100) (1 in 5) (9:1). Proceed with 20 mL of this solution under the above operating condi-tions, and calculate the resolution. Use a column giving elu-tion of tocopherol succinate and tocopherol in this order with the resolution between these peaks being not less than 2.0. System repeatability: Repeat the test 5 times with 20 mL of the standard solution under the above operating conditions: the relative standard deviation of the peak height of tocopherol succinate is not more than 0.8z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

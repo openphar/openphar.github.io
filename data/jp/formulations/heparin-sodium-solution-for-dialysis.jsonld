@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/heparin-sodium-solution-for-dialysis",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Heparin Sodium Solution for Dialysis",
+    "ja": "透析用ヘパリンナトリウム液"
+  },
+  "monographId": "JP18-heparin-sodium-solution-for-dialysis",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Heparin Sodium Solution for Dialysis is a prepara-tion used to prevent coagulation of perfused blood during hemodialysis. It contains not less than 90z and not more than 110z of the labeled Heparin Unit."
+  },
+  "appearance": {
+    "en": "Heparin Sodium Solution for Dialysis is a clear, colorless to light yellow liquid. Osmotic pressure ratio: 0.9 – 1.1 pH <2.54> 5.5 – 8.0 Bacterial endotoxins <4.01> Less than 0.0030 EU/unit. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in the Assay under Heparin So-dium, replacing (vii) Heparin sample solutions and (ix) Cal-culations with the following. (vii) Heparin sample solutions: Pipet a suitable volume of Heparin Sodium Solution for Dialysis, dilute exactly with the buffer solution so that each mL contains 0.1 Heparin Units, and use this solution as the sample solution. Prepare heparin sample solutions T1, T2, T3 and T4 respectively by adding the sample solution to the buffer solution as directed in the following table. Heparin sample solution Buffer solution (mL) Sample solution (mL) No. Heparin concentration (Unit/mL) T1 0.005 T2 0.010 T3 0.015 T4 0.020 (ix) Calculations: When the regression expression, y ＝ Ic s t ＋ AX ＋ BX , is obtained using y as log of the absorbance values, xs as the concentration of the heparin standard solu-tions and xt as the concentration of the heparin sample solu-tions, the potency ratio R is B/A. Ic: Common intercept A: Slope of regression expression of the heparin standard solution ‌1106‌ B: Slope of regression expression of the heparin sample solution Calculate Heparin Units (anti-factor IIa activity) in 1 mL of Heparin Sodium Solution for Dialysis by the following formula. Heparin Units (anti-factor IIa activity) in 1 mL of Heparin Sodium Solution for Dialysis ＝ 0.1 × R × V/a V: Total volume (mL) of the sample solution prepared as containing 0.1 Heparin Units (anti-factor IIa activity) per mL a: Amount (mL) of Heparin Sodium Solution for Dialysis taken s t However, when a 90z confidence interval of D of the regression expression y ＝ I?c ＋ A?X ＋ B?X ＋ D, where D is a constant term showing the difference between the inter-cepts assumed from the measurement of the blank and the two lines, is not in the range of between －0.2 and 0.2, ana-lyze by excluding the measurements of the blank. The criteria for the test suitability are followed as directed in the Assay under Heparin Sodium. When these criteria are not satisfied, repeat the test after changing the dilution rate so that the potency ratio becomes about 1 using the obtained potency as reference."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  },
+  "dosageForm": "Solution"
+}

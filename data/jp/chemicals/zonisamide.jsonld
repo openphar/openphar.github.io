@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/zonisamide",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Zonisamide",
+    "ja": "ゾニサミド"
+  },
+  "monographId": "JP18-zonisamide",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H8N2O3S",
+  "molecularWeight": 212.23,
+  "casNumber": "68291-97-4",
+  "definition": {
+    "en": "Zonisamide, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Zonisamide occurs as white to pale yellow, crystals or crystalline powder. It is freely soluble in acetone and in tetrahydrofuran, spar-ingly soluble in methanol, slightly soluble in ethanol (99.5), and very slightly soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Zonisamide in methanol (3 in 200,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Zonisamide RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Zonisamide, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of dried Zonisamide RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Zonisamide in 30 mL of acetone, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.036z). Sulfate <1.14>—Dissolve 1.0 g of Zonisamide in 30 mL of acetone, and add 1 mL of dilute hydrochloric acid and water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution as follows: to 1.0 mL of 0.005 mol/L sulfuric acid VS add 30 mL of acetone, 1 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 2.0 g of Zonisa- mide according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Dissolve 25 mg of Zonisamide in 8 mL of tetrahydrofuran, add water to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak other than zonisamide obtained from the sample ‌solution is not larger than 1/5 times the peak area of zonisamide from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of zonisamide, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 3 mL of the standard solution, add the mobile phase to make exactly 50 mL. Con-firm that the peak area of zonisamide obtained with 10 mL of this solution is equivalent to 4.2 to 7.8z of that with 10 mL of the standard solution. System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of zonisamide are not less than 8000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of zonisamide is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Zonisamide, previ-ously dried, and dissolve in methanol to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the in-ternal standard solution, add the mobile phase to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 50 mg of Zonisamide RS, previously dried, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solution, add exactly 5 mL of the internal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Perform the less than 5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of zonisamide to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

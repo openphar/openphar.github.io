@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/containers-and-storage-containerstight-containers",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "◆Containers and storage Containers—Tight containers.◆",
+    "ja": "10 塩化ナトリウム注射液"
+  },
+  "monographId": "JP18-containers-and-storage-containerstight-containers",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "10z Sodium Chloride Injection is a clear, col-orless liquid. It has a saline taste. It is neutral."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "10z Sodium Chloride Injection responds to Qualitative Tests <1.09> for sodium salt and for chloride. Bacterial endotoxins <4.01> Less than 3.6 EU/mL. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 10 mL of 10z Sodium Chloride Injection, and add water to make exactly 100 mL. Pipet 20 mL of this solu-tion, add 30 mL of water, and titrate <2.50>, with vigorous shaking, with 0.1 mol/L silver nitrate VS (indicator: 3 drops of fluorescein sodium TS). Each mL 0.1 mol/L silver nitrate VS ＝ 5.844 mg of NaCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Plastic containers for aqueous injections may be used."
+  }
+}

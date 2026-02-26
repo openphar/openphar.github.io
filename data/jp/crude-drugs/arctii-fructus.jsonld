@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/arctii-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Arctii Fructus",
+    "ja": "ゴボウシ"
+  },
+  "monographId": "JP18-arctii-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Burdock Fruit is slightly curved, long obovate achene, 5 – 7 mm in length, 2.0 – 3.2 mm in width, 0.8 to 1.5 mm in thickness; externally grayish brown to brown, with black spots; hollow about 1 mm in diameter at one broad end; flat, indistinct, longitudinal ridge at the other narrow end. 100 fruits weigh 1.0 – 1.5 g. Practically odorless; taste, bitter and oily. Under a microscope <5.01>, transverse section reveals an exocarp composed of an epidermis, mesocarp of slightly sclerified parenchyma, and endocarp of a single cellular layer of stone cells; seed coat composed of radially elongat-ed, sclerified epidermis, and parenchyma of several cellular layers; parenchymatous cells of the mesocarp contain a brown substance; stone cells of endocarp contain solitary, discrete crystals of calcium oxalate; cotyledons with starch grains, oil drops, aleurone grains, and minute crystals of cal-cium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Burdock Fruit add 20 mL of methanol, shake for 10 minutes, filter, and use filtrate as the sample solution. Perform the test with the sample so-lution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of acetone, ethyl acetate and water (15:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfu-ric acid on the plate, and heat the plate at 1059C for 5 minutes: a red-purple spot appears at an Rf value of about 0.4. Loss on drying <5.01> Not more than 12.0z (6 hours). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.0z. Extract content <5.01> Dilute ethanol-extract: not less than 15.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

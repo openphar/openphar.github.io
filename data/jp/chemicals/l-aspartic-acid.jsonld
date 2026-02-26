@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-aspartic-acid",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "L-Aspartic Acid",
+    "ja": "L-アスパラギン酸"
+  },
+  "monographId": "JP18-l-aspartic-acid",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C4H7NO4",
+  "molecularWeight": 133.1,
+  "definition": {
+    "en": "L-Aspartic Acid, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "L-Aspartic Acid occurs as white, crystals or crystalline powder. It is sparingly soluble in water, and practically insoluble in ethanol (99.5). It dissolves in dilute hydrochloric acid and in 0.2 mol/L sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of L-Aspartic Acid as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋24.0 – ＋26.09(2 g, after drying, 6 mol/L hydrochloric acid TS, 25 mL, 100 mm). pH <2.54> Dissolve 0.4 g of L-Aspartic Acid in 100 mL of water by warming, and allow to cool: between 2.5 and 3.5. Amount (mg) of calcium pantothenate (C H CaN O )"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g ＝ MS × QT/QS × 1/10 18 32 2 10 of L-Aspartic Acid in 20 mL of 1 mol/L hydrochloric acid TS: the solution is clear and colorless. MS: Amount (mg) of Calcium Pantothenate RS taken, cal-culated on the dried basis Internal standard solution—A solution of acetaminophen (1 in 50,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 200 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L sodium dihydro-gen phosphate TS and acetonitrile for liquid chromatogra-phy (97:3). Flow rate: Adjust so that the retention time of pantothenic acid is about 3 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, pantothenic acid and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of pantothenic acid to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.15 g of L-Aspartic Acid, previously dried, dissolve in 50 mL of water by warming. After cooling, titrate <2.50> with 0.1 mol/L sodium hydrox-ide VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 13.31 mg of C4H7NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

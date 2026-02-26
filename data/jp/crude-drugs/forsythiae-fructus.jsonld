@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/forsythiae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Forsythiae Fructus",
+    "ja": "レンギョウ"
+  },
+  "monographId": "JP18-forsythiae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Ovoid to long ovoid capsule, 1.5 – 2.5 cm in length, 0.5 – 1 cm in width, with acute apex, and sometimes with a peduncle at the base; externally light gray to dark brown, scattered with light gray and small ridged dots, and with two longitudinal furrows; a capsule dehiscing along the longitudinal furrows has the apexes bent backward; the inner surface of dehisced pericarp is yellow-brown in color, with a longitudinal partition-wall in the middle; seeds, slender and oblong, 0.5 – 0.7 cm in length, and usually with a wing. Odor, slight; taste, slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Forsythia Fruit add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of ethyl acetate, methanol and water (20:3:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-methoxybenzaldehyde-sulfuric acid TS on the plate, and heat the plate at 1059C for 5 minutes: a red-purple to red-brown spot is observed at an Rf value of about 0.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Branchlet—When perform the test of foreign matter <5.01>, the amount of branchlets contained in For-sythia Fruit does not exceed 5.0z. (2) Foreign matter <5.01>—The amount of foreign mat-ter other than branchlets contained in Forsythia Fruit does not exceed 1.0z. Total ash <5.01> Not more than 5.0z. Extract content <5.01> Dilute ethanol-soluble extract: not ‌JP XVIII Crude Drugs and Related Drugs / Powdered Gambir 2005‌‌‌ less than 10.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/powdered-longgu",
+  "@type": "PowderedCrudeDrug",
+  "monographId": "JP18-powdered-longgu",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Powdered Longgu",
+    "la": "Fossilia Ossis Mastodi Pulveratum",
+    "ja": "リュウコツ末"
+  },
+  "definition": {
+    "en": "solution as the test solution"
+  },
+  "isPowderedFormOf": {
+    "@id": "https://www.openphar.org/data/monograph/jp/longgu"
+  }
+}

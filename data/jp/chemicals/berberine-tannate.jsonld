@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/berberine-tannate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Berberine Tannate",
+    "ja": "タンニン酸ベルベリン"
+  },
+  "monographId": "JP18-berberine-tannate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Berberine Tannate is a compound of berberine and tannic acid. It contains not less than 27."
+  },
+  "appearance": {
+    "en": "Berberine Tannate occurs as a yellow to light yellow-brown powder. It is odorless or has a faint, charac-teristic odor, and is tasteless. It is practically insoluble in water, in acetonitrile, in meth-anol and in ethanol (95)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Berberine Tannate add 10 mL of ethanol (95), and heat in a water bath for 3 minutes with shaking. Cool, filter, and to 5 mL of the filtrate add 1 drop of iron (III) chloride TS: a blue-green color is pro-duced, and on allowing to stand, a bluish black precipitate is formed. Dissolve 0.01 g of Berberine Tannate in 10 mL of methanol and 0.4 mL of 1 mol/L hydrochloric acid TS, and add water to make 200 mL. To 8 mL of the solution add water to make 25 mL. Determine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Ber-berine Tannate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com- Amount (mg) of berberine chloride (C ＝ MS × AT/AS 20H18ClNO4) pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. MS: Amount (mg) of Berberine Chloride RS taken, calcu-lated on the anhydrous basis"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—To 0.10 g of Berberine Tannate add ‌JP XVIII Official Monographs / Betahistine Mesilate 535 30 mL of water, and filter after shaking well. To the filtrate add 2 drops of phenolphthalein TS and 0.10 mL of 0.1 mol/L sodium hydroxide VS: the color of the solution changes from yellow to orange to red. Chloride <1.03>—Shake 1.0 g of Berberine Tannate with 38 mL of water and 12 mL of dilute nitric acid for 5 to make exactly 100 mL, and use this solution as the stand-ard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions. Determine the peak areas, AT and AS, of berberine in each solution. minutes, and filter. Discard the first 5 mL of the filtrate, to 25 mL of the subsequent filtrate add water to make 50 mL, and perform the test using this solution as the test solution. Amount (mg) of berberine (C ＝ MS × AT/AS × 0.950 20H19NO5) Prepare the control solution with 0.50 mL of 0.01 mol/L hy-drochloric acid VS by adding 6 mL of dilute nitric acid, 10 to 15 drops of bromophenol blue TS and water to make 50 mL (not more than 0.035z). Sulfate <1.14>—Shake 1.0 g of Berberine Tannate with 48 mL of water and 2 mL of dilute hydrochloric acid for 1 minute, and filter. Discard the first 5 mL of the filtrate, take the subsequent 25 mL of the filtrate, add water to make 50 mL, and perform the test using this solution as the test solution. Prepare the control solution with 0.50 mL of 0.005 mol/L sulfuric acid VS, 1 mL of dilute hydrochloric acid, 5 to 10 drops of bromophenol blue TS and water to make 50 mL (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Berber- ine Tannate according to Method 2, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Related substances—Dissolve 10 mg of Berberine Tannate in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 4 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the total area of the peaks other than berberine obtained from the sample solution is not larger than the peak area of berberine from the standard solution. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2 times as long as the retention time of berberine, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of berberine obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of berberine is not more than 3.0z. Water <2.48> Not more than 6.0z (0.7 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 1.0z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 30 mg of Berberine Tan-nate, dissolve in the mobile phase to make exactly 100 mL, and use this solution as the sample solution. Separately, weigh accurately about 10 mg of Berberine Chloride RS (separately, determine the water <2.48> in the same manner as Berberine Chloride Hydrate), dissolve in the mobile phase MS: Amount (mg) of Berberine Chloride RS taken, calcu-lated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 345 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.4 g of potassium dihydrogen phosphate and 1.7 g of sodium lauryl sulfate in 1000 mL of a mixture of water and acetonitrile (1:1). Flow rate: Adjust so that the retention time of berberine is about 10 minutes. System suitability— System performance: Dissolve 1 mg each of berberine chloride and palmatin chloride in the mobile phase to make 10 mL. When the procedure is run with 10 mL of this solu-tion under the above operating conditions, palmatin and ber-berine are eluted in this order with the resolution between these peaks being not less than 1.5. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of berberine is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

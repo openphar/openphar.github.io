@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/zolpidem-tartrate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Zolpidem Tartrate Tablets",
+    "ja": "ゾルピデム酒石酸塩錠"
+  },
+  "monographId": "JP18-zolpidem-tartrate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Zolpidem Tartrate Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of zolpidem tartrate [(C19H21N3O)2.C4H6O6: 764.87]. Method of preparation Prepare as directed under Tablets, with Zolpidem Tartrate. Identification To 1 tablet of Zolpidem Tartrate Tablets add 100 mL of 0.1 mol/L hydrochloric acid TS, shake for 30 minutes, and filter. Discard the first 20 mL of the filtrate, to a volume of the subsequent filtrate, equivalent to 1 mg of Zolpidem Tartrate, add 0.1 mol/L hydrochloric acid TS to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 235 nm and 239 nm and between 292 nm and 296 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirements of the Content uniformity test. To 1 tablet of Zolpidem Tartrate Tablets add V/10 mL of 0.1 mol/L hydrochloric acid TS, and disintegrate the tablet by shaking for 15 minutes. Add 2V/5 mL of methanol, then add exactly V/10 mL of the internal standard solution, shake for 15 minutes, and add methanol to make V mL so that each mL contains about 0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 tablet of Zolpidem Tartrate Tablets add 100 mL of 0.1 mol/L hydrochloric acid TS, shake for 30 minutes, and filter. Discard the first 20 mL of the filtrate, to a volume of the subsequent filtrate, equivalent to 1 mg of Zolpidem Tartrate, add 0.1 mol/L hydrochloric acid TS to make 100 mL, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 235 nm and 239 nm and between 292 nm and 296 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirements of the Content uniformity test. To 1 tablet of Zolpidem Tartrate Tablets add V/10 mL of 0.1 mol/L hydrochloric acid TS, and disintegrate the tablet by shaking for 15 minutes. Add 2V/5 mL of methanol, then add exactly V/10 mL of the internal standard solution, shake for 15 minutes, and add methanol to make V mL so that each mL contains about 0.1 mg of zolpidem tartrate [(C19H21N3O)2.C4H6O6]. Centrifuge this solution, and use the supernatant liquid as the sample solution. Separately, weigh accurately about 25 mg of zolpidem tartrate for assay (separately determine the water <2.48> in the same manner as Zolpidem Tartrate), and dissolve in 25 mL of 0.1 mol/L hy-drochloric acid TS, add exactly 25 mL of the internal stand-ard solution, then add methanol to make 250 mL, and use this solution as the standard solution. Then, proceed as di-rected in the Assay. Amount (mg) of zolpidem tartrate [(C19H21N3O)2.C4H6O6] ＝ MS × QT/QS × V/250 MS: Amount (mg) of zolpidem tartrate for assay taken, calculated on the anhydrous basis Internal standard solution—A solution of benzyl parahy-droxybenzoate in methanol (1 in 1000). Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 15 minutes of Zolpidem Tartrate Tablets is not less than 80z. Start the test with 1 tablet of Zolpidem Tartrate Tablets, withdraw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add 2nd fluid for dissolution test to make exactly V? mL so that each mL contains about 2.8 mg of zolpidem tartrate [(C19H21N3O)2.C4H6O6], and use this solution as the sample solution. Separately, weigh accurately about 22 mg of zolpidem tartrate for assay (separately determine the water <2.48> in the same manner as Zolpidem Tartrate), and dissolve in water to make exactly 100 mL. Pipet 5 mL of this solution, and add water to make exactly 200 mL. Pipet 25 mL of this solution, add 2nd fluid for dissolution test to make exactly 50 mL, and use this solution as the standard solution. Determine the absorbances, AT and AS, of the sam-ple solution and standard solution at 242 nm as directed under Ultraviolet-visible Spectrophotometry <2.24> using diluted 2nd fluid for dissolution test (1 in 2) as the blank. Dissolution rate (z) with respect to the labeled amount of zolpidem tartrate [(C19H21N3O)2.C4H6O6] ＝ MS × AT/AS × V?/V × 1/C × 45/4 MS: Amount (mg) of zolpidem tartrate for assay taken, calculated on the anhydrous basis C: Labeled amount (mg) of zolpidem tartrate [(C19H21N3O)2.C4H6O6] in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To 20 Zolpidem Tartrate Tablets add V/10 mL of 0.1 mol/L hydrochloric acid TS, and disintegrate the tablet by shaking for 15 minutes. Add 2V/5 mL of methanol, then add exactly V/10 mL of the internal standard solution, shake for 15 minutes, and add methanol to make V mL so that each mL contains about 1 mg of zolpidem tartrate [(C19H21N3O)2.C4H6O6]. Centrifuge this solution, add to 1 ‌mL of the supernatant liquid add a mixture of methanol and 0.1 mol/L hydrochloric acid TS (9:1) to make 10 mL, and use this solution as the sample solution. Separately, weigh accurately about 25 mg of zolpidem tartrate for assay (separately determine the water <2.48> in the same manner as Zolpidem Tartrate), and dissolve in 25 mL of 0.1 mol/L hy-drochloric acid TS, add exactly 2.5 mL of the internal stand-ard solution, then add methanol to make 250 mL, and use this solution as the standard solution. Perform the test with 5 mL each of the sample solution and standard solution as di-rected under Liquid Chromatography <2.01>, and calculate the ratios, QT and QS, of the peak area of zolpidem to that of the internal standard. Amount (mg) of zolpidem tartrate [(C19H21N3O)2.C4H6O6] in 1 tablet of Zolpidem Tartrate Tablets ＝ MS × QT/QS × V/500 Zonisamide"
+      }
+    }
+  ],
+  "dosageForm": "Tablet"
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/media/images/",
+    "schema": "https://schema.org/",
+    "op": "https://www.openphar.org/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "contentUrl": "schema:contentUrl",
+    "encodingFormat": "schema:encodingFormat",
+    "width": "schema:width",
+    "height": "schema:height",
+    "sha256": {
+      "@type": "xsd:string"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "publisher": {
+      "@type": "@id"
+    },
+    "downloaded": {
+      "@type": "xsd:date"
+    },
+    "attribution": {
+      "@type": "op:Attribution"
+    }
+  },
+  "@id": "https://www.openphar.org/data/jp/media/images/chemicals/ethyl-loflazepate/structure",
+  "@type": [
+    "schema:ImageObject",
+    "op:PharmacopoeiaImage"
+  ],
+  "name": {
+    "en": "Chemical Structure - Ethyl Loflazepate",
+    "ja": "化学構造 - ロフラゼプ酸エチル"
+  },
+  "contentUrl": "https://www.openphar.org/data/jp/media/images/chemicals/ethyl-loflazepate/structure.gif",
+  "encodingFormat": "image/gif",
+  "width": 201,
+  "height": 85,
+  "sha256": "1c7eb7220487fd86",
+  "isPartOf": {
+    "@id": "https://www.openphar.org/data/jp/chemicals/ethyl-loflazepate",
+    "@type": "op:PharmacopoeiaMonograph",
+    "name": {
+      "en": "Ethyl Loflazepate",
+      "ja": "ロフラゼプ酸エチル"
+    }
+  },
+  "attribution": {
+    "@type": "op:Attribution",
+    "op:copyright": "Japanese Ministry of Health, Labour and Welfare",
+    "op:license": "Japanese Pharmacopoeia XVIII - Official Publication",
+    "op:licenseUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000064398.html",
+    "op:source": "Japan Pharmacopoeia (JP XVIII)",
+    "op:sourceFile": "jp18-3-monographs-1.html",
+    "op:sourceImage": "jp18-3-monographs-1_files/Image_499.gif",
+    "op:note": "Chemical structure image from official JP XVIII monograph",
+    "spdxId": "NONE",
+    "spdxUrl": null
+  },
+  "downloaded": "2026-02-24",
+  "publisher": {
+    "@id": "https://www.openphar.org/ontology/publisher/JP",
+    "name": "Japan Pharmacopoeia"
+  }
+}

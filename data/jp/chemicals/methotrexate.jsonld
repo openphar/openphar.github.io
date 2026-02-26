@@ -1,0 +1,43 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/methotrexate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Methotrexate",
+    "ja": "メトトレキサート"
+  },
+  "monographId": "JP18-methotrexate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C20H22N8O5",
+  "molecularWeight": 454.44,
+  "definition": {
+    "en": "Methotrexate is a mixture of 4-amino-10-methylfolic acid and closely related compounds. It contains not less than 94."
+  },
+  "appearance": {
+    "en": "Methotrexate occurs as a yellow-brown crys-talline powder. It is slightly soluble in pyridine, and practically insoluble in water, in acetonitrile, in ethanol (95) and in diethyl ether. It dissolves in dilute sodium hydroxide TS and in dilute so- dium carbonate TS. It is gradually affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 1 mg of Methotrexate in 100 mL of 0.1 mol/L hydrochloric acid TS. Determine the ab-sorption spectrum of this solution as directed under Ultra- ‌violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Methotrexate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Methotrexate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Methotrexate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. Water <2.48> Take 5 mL of pyridine for water determina-tion and 20 mL of methanol for water determination in a dried titration flask, and titrate with Karl Fischer TS until the end point. Weigh accurately about 0.2 g of Methotrexate, immediately place in the titration flask, and add a known excess volume of Karl Fischer TS for water determination. Mix well for 30 minutes, and perform the test: the water content is not more than 12.0z. Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 25 mg each of Methotrexate and Methotrexate RS, dissolve in the mobile phase to make exactly 250 mL, and use these solutions as the sample solu-tion and standard solution. Perform the test with exactly 10 mL each of these solutions as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of methotrexate in each solution. Amount (mg) of methotrexate (C20H22N8O5) ＝ MS × AT/AS MS: Amount (mg) of Methotrexate RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 302 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of disodium hydrogen phos-phate-citric acid buffer solution (pH 6.0) and acetonitrile Methotrexate Capsules"
+      }
+    }
+  ]
+}

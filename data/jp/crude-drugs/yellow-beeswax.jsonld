@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/yellow-beeswax",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-yellow-beeswax",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Yellow Beeswax",
+    "la": "Cera Flava",
+    "ja": "ミツロウ"
+  },
+  "definition": {
+    "en": "granular, and non-crystalline"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/yellow-beeswax-apis-mellifera-linn"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/catalpae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Catalpae Fructus",
+    "ja": "キササゲ"
+  },
+  "monographId": "JP18-catalpae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Slender stick-like fruit, 30 – 40 cm in length and about 0.5 cm in diameter; externally, dark brown; inner part contains numerous seeds; seed compressed or semitubu-lar, about 3 cm in length and about 0.3 cm in width, exter-nally grayish brown; hairs, about 1 cm in length, attached to both ends of seed; pericarp, thin and brittle. Odor, slight; taste, slightly astringent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Catalpa Fruit add 20 mL of water, warm on a water bath for 5 minutes, and filter immediately. Transfer the filtrate to a separator, and extract with two 20-mL portions of 1-butanol. Combine the ex-tracts, evaporate the solvent under low pressure (in vacuo) on a water bath, dissolve the residue in 1 mL of methanol, ‌JP XVIII Crude Drugs and Related Drugs / Chotosan Extract 1977 ‌and use this solution as the sample solution. Separately, dis-solve 1 mg of parahydroxybenzoic acid in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (20:2:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultra-violet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution and a dark purple spot from the standard solution show the same color tone and the same Rf value. Prescribe that the moving distance of the spot corresponding to parahydrox-ybenzoic acid from the sample solution is 1: a dark purple spot develops at the relative moving distance of about 0.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Peduncle—When perform the test of foreign matter <5.01>, the amount of peduncles contained in Catalpa Fruit does not exceed 5.0z. Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 0.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 8.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

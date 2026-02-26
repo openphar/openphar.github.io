@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sulfobromophthalein-sodium-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Sulfobromophthalein Sodium Injection‌‌",
+    "ja": "スルホブロモフタレインナトリウム注射液"
+  },
+  "monographId": "JP18-sulfobromophthalein-sodium-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Sulfobromophthalein Sodium Injection is a clear and colorless or pale yellow liquid. pH: 5.0 – 6.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Measure a volume of Sulfobromo-phthalein Sodium Injection, equivalent to 0.02 g of Sulfo-bromophthalein Sodium, and proceed as directed in the Identification (1) under Sulfobromophthalein Sodium. (2) Measure a volume of Sulfobromophthalein Sodium Injection, equivalent to 0.1 g of Sulfobromophthalein So-dium, add 0.5 g of anhydrous sodium carbonate, and evapo-rate on a water bath to dryness. Ignite the residue until it is charred. Proceed as directed in the Identification (2) under Sulfobromophthalein Sodium. Extractable volume <6.05> It meets the requirement. Pyrogen <4.04> Add isotonic sodium chloride solution to Sulfobromophthalein Sodium Injection to make a 0.5 w/vz solution of Sulfobromophthalein Sodium. Inject into each of the rabbits 5 mL of this solution per kg of body mass: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Sulfobromophthalein Sodium Injection, equivalent to about 0.1 g of sulfobromo-phthalein sodium (C20H8Br4Na2O10S2), add water to make exactly 500 mL, and proceed as directed in the Assay under Sulfobromophthalein Sodium. Amount (mg) of sulfobromophthalein sodium (C20H8Br4Na2O10S2) ＝ A/881 × 200,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

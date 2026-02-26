@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/neostigmine-methylsulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Neostigmine Methylsulfate Injection",
+    "ja": "ネオスチグミンメチル硫酸塩注射液"
+  },
+  "monographId": "JP18-neostigmine-methylsulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Neostigmine Methylsulfate Injection is an aqueous injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Neostigmine Methylsulfate Injection is a clear, colorless liquid. It is slowly affected by light. pH: 5.0 – 6.5"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take a volume of Neostigmine Methylsul-fate Injection, equivalent to 5 mg of neostigmine methylsul-fate, add water to make 10 mL if necessary, and determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits a maximum between 257 nm and 261 nm. Bacterial endotoxins <4.01> Less than 5 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. and AS, of neostigmine in each solution. Amount (mg) of neostigmine methylsulfate (C ＝ MS × AT/AS 13H22N2O6S) Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement. MS: Amount (mg) of Neostigmine Methylsulfate RS taken Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 259 nm). Column: A stainless steel column 4.6 mm in inside diame-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Use Neostigmine Methylsulfate Injection as the sample solution. Separately, weigh accurately about 25 mg of Neostigmine Methylsulfate RS, previously dried at 1059C for 3 hours, dissolve in the mobile phase to make exactly 50 mL, and use this solution as the standard solution. Proceed as directed in the Assay under Neostigmine Methylsulfate. ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about Amount (mg) of neostigmine methylsulfate (C ＝ MS × AT/AS 13H22N2O6S) 259C. Mobile phase: Dissolve 3.12 g of sodium dihydrogenphos-phate dihydrate in 1000 mL of water, adjust to pH 3.0 with phosphoric acid, and add 0.871 g of sodium 1-pentanesul-fonate to dissolve. To 890 mL of this solution add 110 mL of acetonitrile. Flow rate: Adjust so that the retention time of neostig-mine is about 9 minutes. System suitability— System performance: Dissolve 25 mg of Neostigmine Methylsulfate and 4 mg of dimethylaminophenol in 50 mL of the mobile phase. When the procedure is run with 10 mL of this solution under the above operating conditions, dimethylaminophenol and neostigmine are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak MS: Amount (mg) of Neostigmine Methylsulfate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

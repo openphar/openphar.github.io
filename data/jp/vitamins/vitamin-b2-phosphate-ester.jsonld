@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/vitamins/vitamin-b2-phosphate-ester",
+  "@type": "VitaminMonograph",
+  "prefLabel": {
+    "en": "Vitamin B2 Phosphate Ester",
+    "ja": "リボフラビンリン酸エステルナトリウム"
+  },
+  "monographId": "JP18-vitamin-b2-phosphate-ester",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H20N4NaO9P",
+  "molecularWeight": 478.33,
+  "casNumber": "130-40-5",
+  "appearance": {
+    "en": "Riboflavin Sodium Phosphate is a yellow to orange-yellow crystalline powder. It is odorless, and has a slightly bitter taste. It is soluble in water, and practically insoluble in ethanol (95), in chloroform and in diethyl ether. It is decomposed on exposure to light. It is very hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) A solution of Riboflavin Sodium Phos-phate (1 in 100,000) is light yellow-green in color and has an intense yellow-green fluorescence. The color and fluores-cence of the solution disappear upon the addition of 0.02 g of sodium hydrosulfite to 5 mL of the solution, and reappear on shaking the mixture in air. This fluorescence disappears upon the addition of dilute hydrochloric acid or sodium hy-droxide TS. To 10 mL of a solution of Riboflavin Sodium Phos-phate (1 in 100,000) placed in a glass-stoppered test tube add 1 mL of sodium hydroxide TS, and after illumination with a fluorescence lamp of 10 to 30 watts at 20-cm distance for 30 minutes between 209C and 409C, acidify with 0.5 mL of ace-tic acid (31), and shake with 5 mL of chloroform: the chlo-roform layer shows a yellow-green fluorescence. Determine the absorption spectrum of a solution of Riboflavin Sodium Phosphate in phosphate buffer solution (pH 7.0) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wavelengths. To 0.05 g of Riboflavin Sodium Phosphate add 10 mL of nitric acid, evaporate on a water bath to dryness, and ignite. Boil the residue with 10 mL of diluted nitric acid (1 in 50) for 5 minutes, after cooling, neutralize this solution with ammonia TS, and filter, if necessary: the solution responds to Qualitative Tests <1.09> for sodium salt and phosphate. D Optical rotation <2.49> [a]20: ＋38 – ＋439(0.3 g calculated on the anhydrous basis, 5 mol/L hydrochloric acid TS, 20 mL, 100 mm). pH <2.54> Dissolve 0.20 g of Riboflavin Sodium Phosphate in 20 mL of water: the pH of the solution is between 5.0 and 6.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.20 g of Riboflavin Sodium Phosphate in 10 mL of water: the so-lution is clear and yellow to orange-yellow in color. Lumiflavin—To 35 mg of Riboflavin Sodium Phos-phate add 10 mL of ethanol-free chloroform, and shake for 5 minutes, then filter: the filtrate has no more color than the control solution. Control solution: To 3.0 mL of 1/60 mol/L potassium dichromate VS add water to make 1000 mL. Free phosphoric acid—Weigh accurately about 0.4 g of Riboflavin Sodium Phosphate, dissolve in water to make exactly 100 mL, and use this solution as the sample solution. Measure exactly 5 mL each of the sample solution and Standard Phosphoric Acid Solution, transfer to separate 25-mL volumetric flasks, add 2.5 mL of hexaammonium heptamolybdate-sulfuric acid TS and 1 mL of 1-amino-2-naphthol-4-sulfonic acid TS to each of these flasks, mix, and add water to make 25 mL. Allow to stand for 30 minutes at 20 ± 19C, and perform the test with these solutions as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared with 5 mL of water in the same manner as a blank. Determine the absorbances, AT and AS, of the subsequent solutions of the sample solution and Standard Phosphoric Acid Solution at 740 nm: the free phosphoric acid content is not more than 1.5z. Content (z) of free phosphoric acid (H3PO4) ＝ 1/M × AT/AS × 258.0 M: Amount (mg) of Riboflavin Sodium Phosphate taken, calculated on the anhydrous basis Water <2.48> Place 25 mL of a mixture of methanol for water determination and ethylene glycol for water determi-nation (1:1) in a dry flask for titration, and titrate with Karl Fischer TS for water determination to the end point. Weigh accurately about 0.1 g of Riboflavin Sodium Phosphate, place quickly into the flask, add a known excess volume of Karl Fischer TS for water determination, mix for 10 minutes, and perform the test: the water content is not more than 10.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. To about 0.1 g of Riboflavin So-dium Phosphate, accurately weighed, dissolve in diluted ace-tic acid (100) (1 in 500) to make exactly 1000 mL, then pipet 10 mL of this solution, and add diluted acetic acid (100) (1 in 500) to make exactly 50 mL. Use this solution as the sample solution. Separately, dry Riboflavin RS at 1059C for 2 hours, weigh accurately about 15 mg, dissolve in 800 mL of diluted acetic acid (100) (1 in 400) by warming, cool, add water to make exactly 1000 mL, and use this solution as the standard solution. Perform the test with the sample solution and standard solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, using water as the blank, and de-termine the absorbances, AT and AS, at 445 nm. Add 0.02 g ‌of sodium hydrosulfite to 5 mL of each solution, shake until decolorized, and immediately measure the absorbances, AT? and AS?, of the solutions.‌ Amount (mg) of riboflavin sodium phosphate (C17H20N4NaO9P) ＝ MS × (AT － AT?)/(AS － AS?) × 5 × 1.271 MS: Amount (mg) of Riboflavin RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

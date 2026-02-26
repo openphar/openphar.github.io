@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/amphotericin-b-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Amphotericin B for Injection",
+    "ja": "注射用アムホテリシン B"
+  },
+  "monographId": "JP18-amphotericin-b-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Amphotericin B for Injection is a preparation for injection which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Amphotericin B for Injection occurs as yellow to orange, powder or masses."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To an amount of Amphotericin B for Injec-tion, equivalent to 25 mg (potency) of Amphotericin B, add 5 mL of dimethylsulfoxide and 45 mL of methanol, and shake. To 1 mL of this solution add methanol to make 50 mL, and filter if necessary. Determine the absorption spec-trum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: it exhibits maxima between 361 nm and 365 nm, between 380 nm and 384 nm and between 403 nm and 407 nm. pH <2.54> Dissolve an amount of Amphotericin B for In-jection, equivalent to 50 mg (potency) of Amphotericin B, in 10 mL of water. To 1 mL of this solution add water to make 50 mL: 7.2 – 8.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Clarity and color of solution—Dissolve an amount of Amphotericin B for Injection, equivalent to 50 mg (po-tency) of Amphotericin B, in 10 mL of water: the solution is clear and yellow to orange. Loss on drying <2.41> Not more than 8.0z (0.3 g, in vacu- um, 609C, 3 hours). Bacterial endotoxins <4.01> Less than 3.0 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test (T: 105.0z). Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, culture medium, preparation of cylin-der-agar plate and standard solutions—Proceed as directed in the Assay under Amphotericin B. Sample solutions—Prepare using light-resistant con-tainers. Weigh accurately an amount of Amphotericin B for Injection, equivalent to about 50 mg (potency), dissolve in dimethylsulfoxide to make exactly 50 mL, and use this solu-tion as the sample stock solution. Measure exactly a suitable quantity of the sample stock solution, add dimethylsulfoxide to make solutions so that each mL contains about 200 mg (potency) and 50 mg (potency). Pipet 1 mL each of these so-lutions, add 0.2 mol/L phosphate buffer solution (pH 10.5) to make exactly 20 mL, and use these solutions as the high concentration sample solution and low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant, at a cold place."
+  },
+  "dosageForm": "Injection"
+}

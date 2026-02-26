@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nux-vomica-tincture",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nux Vomica Tincture",
+    "ja": "ホミカチンキ"
+  },
+  "monographId": "JP18-nux-vomica-tincture",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nux Vomica Tincture contains not less than 0."
+  },
+  "appearance": {
+    "en": "Nux Vomica Tincture is a yellow-brown liquid. It has an extremely bitter taste. Specific gravity d 20: about 0.90"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Heat 20 mL of Nux Vomica Tincture on a water bath to remove ethanol, cool, transfer to a separator, add 2 mL of ammonia TS and 20 mL of chloroform, and shake well for 2 to 3 minutes. Filter the chloroform layer through a pledget of absorbent cotton, warm the filtrate on a water bath to remove most of chloroform, and proceed as directed in the Identification under Nux Vomica. Alcohol number <1.01> Not less than 6.7 (Method 2)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 3 mL of Nux Vomica Tincture into a glass-stoppered centrifuge tube, add 10 mL of ammonia TS and 20 mL of diethyl ether, stopper tightly, shake for 15 minutes, centrifuge to separate the diethyl ether layer. To the aqueous layer add 20 mL of diethyl ether, proceed in the same man-ner, and repeat this procedure twice. Combine the extracts, ‌JP XVIII Crude Drugs and Related Drugs / Ophiopogon Root 2081‌‌ and evaporate the solvent on a water bath. Dissolve the residue with 10 mL of the mobile phase, add exactly 5 mL of the internal standard solution, and add the mobile phase to make 50 mL. Filter the solution through a membrane filter with a pore size not exceeding 0.8-mm, discard the first 2 mL of the filtrate, and use the subsequent filtrate as the sample solution. Separately, weigh accurately about 75 mg of strychnine nitrate for assay (separately determine the loss on drying), and dissolve in the mobile phase to make exactly 100 mL. Pipet 5 mL of this solution, add exactly 5 mL of the in-ternal standard solution, add the mobile phase to make 50 mL, and use this solution as the standard solution. Proceed with the sample solution and the standard solution as di-rected in the Assay under Nux Vomica. using the former separator. Combine all the filtrates, distil the solvent on a water bath, passing nitrogen. Dissolve the residue in acetone to make exactly 20 mL, and use this solu-tion as the sample solution. Separately, dissolve 0.067 g of methyl behenate in acetone to make exactly 50 mL. Pipet 2 mL of this solution, add acetone to make exactly 20 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> ac-cording to the following conditions. Measure the peak heights, HT and HS, of methyl behenate of respective solu-tions: HT is not higher than HS. Operating conditions— Detector: A hydrogen flame-ionization detector. Amount (mg) of strychnine ＝ MS × QT/QS × 1/20 × 0.841 Column: A glass column about 3 mm in inside diameter and about 2 m in length, packed with silanized siliceous MS: Amount (mg) of strychnine nitrate for assay taken, calculated on the dried basis Internal standard solution—A solution of barbital sodium in the mobile phase (1 in 500)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

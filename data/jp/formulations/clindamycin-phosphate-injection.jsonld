@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/clindamycin-phosphate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Clindamycin Phosphate Injection",
+    "ja": "クリンダマイシンリン酸エステル注射液"
+  },
+  "monographId": "JP18-clindamycin-phosphate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Clindamycin Phosphate Injection is an aqueous in-jection. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Clindamycin Phosphate Injection is a clear, colorless or light yellow liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a volume of Clindamycin Phosphate Injection, equivalent to 0.15 g (potency) of Clindamycin Phosphate, add 4 mL of water, 2 mL of 8 mol/L sodium hy-droxide TS and 0.1 mL of sodium pentacyanonitrosylferrate (III) TS, mix, heat in a water bath for 10 minutes, and add 2 mL of hydrochloric acid: a blue-green color develops. Osmotic pressure ratio Being specified separately when the drug is granted approval based on the Law. pH <2.54> 6.0 – 7.0 Bacterial endotoxins <4.01> Less than 0.1 EU/mg (po-tency). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Clindamycin Phos-phate Injection, equivalent to about 0.3 g (potency) of Clin-damycin Phosphate, and add the mobile phase to make ex-actly 100 mL. Pipet 7 mL of this solution, add exactly 25 mL of the internal standard solution and the mobile phase to make 100 mL, and use this solution as the sample solution. Separately, weigh accurately an amount of Clindamycin Phosphate RS, equivalent to about 20 mg (potency), dissolve in exactly 25 mL of the internal standard solution, add the mobile phase to make 100 mL, and use this solution as the standard solution. Then, proceed as directed in the Assay under Clindamycin Phosphate. Amount [mg (potency)] of clindamycin phosphate (C18H34ClN2O8PS) ＝ MS × QT/QS × 100/7 MS: Amount [mg (potency)] of Clindamycin Phosphate RS taken Internal standard solution—A solution of methyl parahy-droxybenzoate in the mobile phase (3 in 50,000)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

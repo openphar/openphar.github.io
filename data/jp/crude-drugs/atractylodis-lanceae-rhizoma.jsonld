@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/atractylodis-lanceae-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Atractylodis Lanceae Rhizoma",
+    "ja": "ソウジュツ"
+  },
+  "monographId": "JP18-atractylodis-lanceae-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregularly curved, cylindrical rhizome, 3 – 10 cm in length, 1 – 2.5 cm in diameter; externally dark grayish brown to dark yellow-brown; a transverse section nearly orbicular, with light brown to red-brown secretes as fine points. Often white cotton-like crystals produced on its surface. Odor, characteristic; taste, slightly bitter. Under a microscope <5.01>, a transverse section usually reveals periderm with stone cells; parenchyma of cortex, usually without any fiber bundle; oil sacs, containing light brown to yellow-brown substances, located at the end region of medullary rays; xylem exhibits vessels surrounded by fiber bundles and arranged radially on the region adjoining the cambium; pith and medullary rays exhibit the same oil sacs as in the cortex; parenchyma cells contain spherocrystals of inulin and small needle crystals of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Atractylodes Lancea Rhizome add 5 mL of hexane, shake for 5 minutes, filter, and use the filtrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chro-matography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography, develop the plate with a mixture of hexane and acetic acid (100) (10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly 4-dimethylaminobenzaldehyde TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: a grayish green spot appears at an Rf value of about 0.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Atractylodes Lancea Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Atractylodes Lancea Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 50.0 g of pulverized Atractylodes Lancea Rhizome: the volume of essential oil is not less than 0.7 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/trichosanthis-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Trichosanthis Radix",
+    "ja": "カロコン"
+  },
+  "monographId": "JP18-trichosanthis-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregular cylindrical root, 5 – 10 cm in length, 3 – 5 cm in diameter, often cut lengthwise; externally light yellow-white, and with irregular pattern of vascular bundles appearing as brownish yellow lines; fractured surface some-what fibrous and light yellow in color; under a magnifying glass, the transverse section reveals wide medullary rays and brownish yellow spots or small holes formed by vessels. Almost odorless; taste, slightly bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2.0 g of pulverized Trichosanthes Root add 5 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of hexane, ethyl acetate and acetic acid (100) (20:10:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, heat the plate at 1059C for 10 minutes, and examine under ultraviolet light (main wavelength: 365 nm): a light yellow to light yellow-green fluorescent spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Trichosanthes Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Trichosanthes Root according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 4.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

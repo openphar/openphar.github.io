@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/calcium-chloride-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Calcium Chloride Hydrate",
+    "ja": "塩化カルシウム水和物"
+  },
+  "monographId": "JP18-calcium-chloride-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Calcium Chloride Hydrate, and dissolve in water to make exactly 200 mL. Measure exactly 20 mL of this solution, add 40 mL of water, 2 mL of 8 mol/L potassium hydroxide TS and 0.1 g of NN indicator, and titrate <2.50> immediately with 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS until the color of the solution changes from red-purple to blue. Each mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 2.940 mg of CaCl2.2H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

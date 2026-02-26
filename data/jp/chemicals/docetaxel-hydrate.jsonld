@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/docetaxel-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Docetaxel Hydrate",
+    "ja": "ドセタキセル水和物"
+  },
+  "monographId": "JP18-docetaxel-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C43H53NO14.3H2O",
+  "molecularWeight": 861.93,
+  "definition": {
+    "en": "Docetaxel Hydrate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Docetaxel Hydrate occurs as a white crystalline powder. It is freely soluble in N,N-dimethylformamide and in ethanol (99.5), soluble in methanol and in dichloromethane, and practically insoluble in water. It decomposes on exposure to light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Docetaxel Hydrate in methanol (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Docetaxel Hydrate RS pre-pared in the same manner as the sample solution: both spec-tra exhibit similar intensities of absorption at the same wave-lengths. (2) Dissolve 60 mg of Docetaxel Hydrate in 1 mL of dichloromethane. Perform the test with this solution as di-rected in the solution method under Infrared Spectropho-tometry <2.25> using a fixed cell composed of potassium bromide optical plates with the cell length of 0.1 mm, and compare the spectrum with the Reference Spectrum or the spectrum of Docetaxel Hydrate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. ‌JP XVIII Official Monographs / Docetaxel Injection 879 Optical rotation <2.49> [a]20: －39 – －419(0.2 g calculated Amount (mg) of docetaxel (C H NO ) ＝ M × A /A D 43 53 14 S T S on the anhydrous and residual solvent-free basis, methanol, 20 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Docetaxel Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Perform the test with 10 mL of the sample solution obtained in the Assay, as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic in-tegration method, and calculate the amount of them by the area percentage method: the amount of each peak, having the relative retention time of about 0.97, about 1.08, and about 1.13 to docetaxel, is not more than 0.50z, not more than 0.30z, and not more than 0.30z, respectively, the amount of each peak other than docetaxel and the peaks MS: Amount (mg) of Docetaxel RS taken, calculated on the anhydrous and residual solvent-free basis Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 232 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3.5 mm in particle diameter). Column temperature: A constant temperature of about 459C. Mobile phase A: Water. Mobile phase B: Acetonitrile for liquid chromatography. Flowing of mobile phase: Control the gradient by mixing the mobile phases A and B as directed in the following table. mentioned above is not more than 0.10z, and the total amount of the peaks other than docetaxel is not more than Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) 1.0z. For the area of the peak, having the relative retention time of about 0.97 to docetaxel, multiply the correction factor 1.6. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: For 39 minutes after injec-tion, beginning after the solvent peak. System suitability— Test for required detectability: To 1 mL of the sample so-lution add a mixture of water, acetonitrile for liquid chroma-tography and acetic acid (100) (1000:1000:1) to make 100 mL. To 1 mL of this solution add a mixture of water, aceto-nitrile for liquid chromatography and acetic acid (100) (1000:1000:1) to make 10 mL, and use this solution as the so-lution for system suitability test. Pipet 5 mL of the solution for system suitability test, add a mixture of water, aceto-nitrile for liquid chromatography and acetic acid (100) (1000:1000:1) to make exactly 10 mL. Confirm that the peak area of docetaxel obtained with 10 mL of this solution is equivalent to 35 to 65z of that with 10 mL of the solution for system suitability test. System performance: When the procedure is run with 10 mL of the solution for system suitability test under the above operating conditions, the number of theoretical plates and the symmetry factor of the peak of docetaxel are not less than 100,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of docetaxel is not more than 2.0z. Water <2.48> 5.0 – 7.0z (50 mg, coulometric titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Docetaxel Hydrate and Docetaxel RS (separately determine the water <2.48> and the residual solvent in the same manner as Docetaxel Hydrate), dissolve them separately in 2.5 mL of ethanol (99.5), add a mixture of water, acetonitrile for liquid chromatography and acetic acid (100) (1000:1000:1) to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of docetaxel in each solution. 0 – 9 72 28 9 – 39 72 → 28 28 → 72 Flow rate: 1.2 mL per minute. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of docetaxel are not less than 100,000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of docetaxel is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

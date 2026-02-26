@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyethylene-glycol-6000",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Polyethylene Glycol 6000",
+    "ja": "マクロゴール 6000"
+  },
+  "monographId": "JP18-polyethylene-glycol-6000",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Macrogol 6000 is a white, paraffin-like solid, occurring as flakes or powder. It is odorless or has a faint, characteristic odor. It is very soluble in water, freely soluble in pyridine, and practically insoluble in methanol, in ethanol (95), in ethanol (99.5) and in diethyl ether. Congealing point: 56 – 619C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 50 mg of Macrogol 6000 in 5 mL of dilute hydrochloric acid, add 1 mL of barium chloride TS, shake, and filter, if necessary. To the filtrate add 1 mL of a solution of phosphomolybdic acid n-hydrate (1 in 10): a yellow-green precipitate is formed. pH <2.54> Dissolve 1.0 g of Macrogol 6000 in 20 mL of water: the pH of this solution is between 4.5 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 5.0 g of Macrogol 6000 in 50 mL of water: the solution is clear and colorless. ‌(2) Acidity—Dissolve 5.0 g of Macrogol 6000 in 20 mL of neutralized ethanol by warming, cool, and add 0.20 mL of 0.1 mol/L sodium hydroxide VS and 1 drop of phenol-phthalein TS: the color of the solution is red.‌ Average molecular mass Weigh accurately about 12.5 g of Macrogol 6000, transfer to an about 200-mL glass-stoppered pressure bottle, add about 25 mL of pyridine, dissolve by warming, and allow to cool. Separately, pipet 300 mL of freshly distilled pyridine into a 1-L light-resistant, glass-stoppered bottle, add 42 g of phthalic anhydride, dissolve with vigorous shaking, and allow to stand for 16 hours or more. Pipet 25 mL of this solution, transfer to the former pressure bottle, stopper the bottle tightly, wrap it securely with strong cloth, and immerse in a water bath, previously heated at 98 ± 29C, to the level so that the mixture in the bottle soaks completely in water. Maintain the temperature of the bath at 98 ± 29C for 30 minutes. Remove the bottle from the bath, and allow to cool in air to room temperature. Add exactly 50 mL of 0.5 mol/L sodium hydroxide VS and 5 drops of a solution of phenolphthalein in pyridine (1 in 100). Titrate <2.50> with 0.5 mol/L sodium hydroxide VS until a light red color remains for not less than 15 seconds. Perform a blank determination in the same manner. Average molecular mass ＝ (M × 4000)/(a － b) M: Amount (g) of Macrogol 6000 taken a: Volume (mL) of 0.5 mol/L sodium hydroxide VS con-sumed in the blank determination b: Volume (mL) of 0.5 mol/L sodium hydroxide VS con-sumed in the test of the sample Average molecular mass is between 7300 and 9300. Water <2.48> Not more than 1.0z (2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

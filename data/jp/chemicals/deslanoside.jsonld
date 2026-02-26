@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/deslanoside",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Deslanoside",
+    "ja": "デスラノシド"
+  },
+  "monographId": "JP18-deslanoside",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C47H74O19",
+  "molecularWeight": 943.08,
+  "definition": {
+    "en": "Deslanoside, when dried, contains not less than 90."
+  },
+  "appearance": {
+    "en": "Deslanoside occurs as colorless or white crys-tals or a white, crystalline powder. It is odorless. It is freely soluble in dehydrated pyridine, sparingly solu-ble in methanol, slightly soluble in ethanol (95), and practi- MS: Amount (mg) of Deslanoside RS taken"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Transfer 1 mg of Deslanoside to a small test tube about 10 mm in inside diameter, dissolve in 1 mL of a solution of iron (III) chloride hexahydrate in acetic acid (100) (1 in 1000), and underlay gently with 1 mL of sulfuric acid: at the zone of contact of two liquids a brown ring is produced, and the color of the upper layer near to the con-tact zone changes gradually to blue through purple, and the entire acetic acid layer shows a blue-green color through a deep blue color."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 20 mg of Deslanoside in 10 mL of ethanol (95) and 3 mL of water by warming, cool, and dilute to 100 mL with water: the solu-tion is clear and colorless. (2) Related substances—Dissolve 10 mg of Deslanoside in exactly 5 mL of methanol, and use this solution as the sample solution. Dissolve 1.0 mg of Deslanoside RS in exactly 5 mL of methanol, and use this solution as the stand-ard solution. Perform the test with these solutions as di-rected under Thin-layer Chromatography <2.03>. Spot 20 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of dichloromethane, methanol and water (84:15:1) to a distance of about 13 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1109C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not larger and not more intense than the spot from the standard solution. D Optical rotation <2.49> [a]20: ＋6.5 – ＋8.59(after drying, 0.5 g, dehydrated pyridine, 25 mL, 100 mm). Loss on drying <2.41> Not more than 8.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 609C, 4 hours). Residue on ignition <2.44> Not more than 0.5z (0.1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 12 mg each of Deslanoside and Des-lanoside RS, previously dried and accurately weighed, in 20 mL each of methanol, add water to make exactly 100 mL, and use these solutions as the sample solution and the stand-ard solution, respectively. Pipet 5 mL each of these solu-tions, transfer to light-resistant, 25-mL volumetric flasks, shake well with 5 mL each of 2,4,6-trinitrophenol TS and 0.5 mL each of a solution of sodium hydroxide (1 in 10), add diluted methanol (1 in 4) to make 25 mL, and allow to stand at a temperature between 189C and 229C for 25 minutes. De-termine the absorbances, AT and AS, of the subsequent solu-tions of the sample solution and the standard solution, re-spectively, at 485 nm as directed under Ultraviolet-visible Spectrophotometry <2.24>, using a solution prepared with 5 mL of diluted methanol (1 in 5) in the same manner as the blank. hexopyranosyl-(1→4)-2,6-dideoxy-b-D-ribo-hexopyranosyloxy]-12b,14-dihydroxy-5b,14b-card-20(22)- Amount (mg) of deslanoside (C 47H 74O 19) ＝ MS × AT/AS enolide [17598-65-1] Deslanoside, when dried, contains not less than 90.0z and not more than 102.0z of deslanoside (C47H74O19). Description Deslanoside occurs as colorless or white crys-tals or a white, crystalline powder. It is odorless. It is freely soluble in dehydrated pyridine, sparingly solu-ble in methanol, slightly soluble in ethanol (95), and practi- MS: Amount (mg) of Deslanoside RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

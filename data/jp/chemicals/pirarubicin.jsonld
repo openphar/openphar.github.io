@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pirarubicin",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Pirarubicin",
+    "ja": "ピラルビシン"
+  },
+  "monographId": "JP18-pirarubicin",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C32H37NO12",
+  "molecularWeight": 627.64,
+  "casNumber": "72496-41-4",
+  "appearance": {
+    "en": "Pirarubicin occurs as a red-orange crystalline powder. It is soluble in chloroform, very slightly soluble in aceto-nitrile, in methanol and in ethanol (99.5), and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Pirarubicin in 80 mL of methanol and 6 mL of diluted hydrochloric acid (1 in 5000), and add water to make 100 mL. To 10 mL of this so-lution add diluted methanol (4 in 5) to make 100 mL. Deter-mine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Pirarubicin RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Dissolve 5 mg each of Pirarubicin and Pirarubicin RS in 5 mL of chloroform, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of chloroform and methanol (5:1) to a distance of about 10 cm, and air-dry the plate. Examine the spots: the principal spot obtained from the sample solution and the spot from the standard solution show a red-orange color and the same Rf value. D Optical rotation <2.49> [a]20: ＋195 – ＋2159(10 mg, chlo-roform, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 10 mg of Pirarubicin in 10 mL of 0.01 mol/L hydrochloric acid TS: the solution is clear and red. Heavy metals <1.07>—Proceed with 1.0 g of Pirarubi- cin according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 10 mg of Pirarubicin in 20 mL of the mobile phase, and use this solution as the sam- ple solution. Pipet 1 mL of the sample solution, add the mo-bile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and determine each peak area by the au-tomatic integration method: the peak area of doxorubicin, having the relative retention time of about 0.45 to pirarubi-cin, and the area of the peak, having the relative retention time of about 1.2, obtained from the sample solution are not larger than the peak area of pirarubicin from the standard solution, respectively, and the sum of the areas of the peaks, having the relative retention times of about 1.9 and about 2.0, from the sample solution is not larger than 5 times the peak area of pirarubicin from the standard solution. For the peak area for doxorubicin, multiply the correction factor 0.94 and the area for the two peaks, having the relative retention times of about 1.9 and about 2.0, multiply their correction factors, 1.09, respectively. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 4 times as long as the retention time of pirarubicin. System suitability— System performance, and system repeatability: Proceed as directed in the system suitability in the Assay. Test for required detectability: Measure exactly 2 mL of the standard solution, and add the mobile phase to make ex-actly 10 mL. Confirm that the peak area of pirarubicin ob-tained with 20 mL of this solution is equivalent to 14 to 26z of that with 20 mL of the standard solution. Water <2.48> Not more than 2.0z (0.1 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Pirarubicin and Pirarubicin RS, equivalent to about 10 mg (potency), and dissolve in the mobile phase to make exactly 10 mL. Pipet 5 mL of these solutions, add exactly 5 mL of the internal standard solution, and use these solutions as the sample so-lution and standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions, and calculate the ratios, QT and QS, of the peak area of pirarubicin to that of the internal standard. Amount [ mg (potency)] of pirarubicin (C32H37NO12) ＝ MS × QT/QS × 1000 MS: Amount [mg (potency)] of Pirarubicin RS taken Internal standard solution—A solution of 2-naphthol in the mobile phase (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 6 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L ammonium for-mate buffer solution (pH 4.0) and acetonitrile (3:2). Flow rate: Adjust so that the retention time of pirarubicin is about 7 minutes. System suitability— System performance: When the procedure is run with 20 ‌mL of the standard solution under the above operating con-ditions, pirarubicin and the internal standard are eluted in this order with the resolution between these peaks being not less than 9. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of pirarubicin to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

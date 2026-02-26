@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/zanthoxyli-piperiti-pericarpium",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Zanthoxyli Piperiti Pericarpium",
+    "ja": "サンショウ"
+  },
+  "monographId": "JP18-zanthoxyli-piperiti-pericarpium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Pericarps of capsules of 2 or 3 flattened spheroidal mericarps, which are dehiscent in 2 pieces about 5 mm in diameter; the outer surface of pericarp, dark yellow-red to dark red-brown, with numerous dented spots originat-ed from oil sacs; the inner surface, light yellow-white. Odor, characteristically aromatic; taste, acrid, which gives numbing sensation to the tongue. Under a microscope <5.01>, a transverse section of Japanese Zanthoxylum Peel reveals the external epidermis and the adjoined unicellular layer containing red-brown tan-nin; the mesocarp holds oil sacs being up to approximately 500 mm in diameter and sporadically vascular bundles con-sisting mainly of spiral vessels; the endocarp consists of stone cell layers; inner epidermal cells very small."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of pulverized Japanese Zanthoxylum Peel add 10 mL of water, shake for 5 minutes, add 5 mL of diethyl ether, shake, centrifuge, and use the diethyl ether layer as the sample solution. Perform the test with the sam-ple solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel with fluorescent indicator for thin-layer chromatogra-phy. Develop the plate with a mixture of ethyl acetate, hexane, methanol and acetic acid (100) (20:20:1:1) to a dis-tance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): a spot with an Rf value of about 0.3 is observed."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Seed—When perform the test of foreign matter <5.01>, the amount of the seeds contained in Japanese Zan-thoxylum Peel does not exceed 20.0z. Peduncle and twig—The amount of the peduncles and twigs contained in Japanese Zanthoxylum Peel does not exceed 5.0z. Foreign matter <5.01>—The amount of foreign mat- ter other than peduncles and twigs contained in Japanese Zanthoxylum Peel does not exceed 1.0z. Total ash <5.01> Not more than 8.0z. Acid-insoluble ash <5.01> Not more than 1.5z. Essential oil content <5.01> Perform the test with 30.0 g of pulverized Japanese Zanthoxylum Peel: the volume of essen-tial oil is not less than 1.0 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

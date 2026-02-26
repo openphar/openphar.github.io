@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bisacodyl",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bisacodyl",
+    "ja": "ビサコジル"
+  },
+  "monographId": "JP18-bisacodyl",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H19NO4",
+  "molecularWeight": 361.39,
+  "definition": {
+    "en": "Bisacodyl, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Bisacodyl occurs as a white crystalline powder. It is freely soluble in acetic acid (100), soluble in acetone, slightly soluble in ethanol (95) and in diethyl ether, and prac- tically insoluble in water. It dissolves in dilute hydrochloric acid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Bisacodyl in ethanol (95) (3 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Bisacodyl RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Bi-sacodyl, previously dried, as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of dried Bisacodyl RS: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Chloride <1.03>—Dissolve 1.0 g of Bisacodyl in 30 mL of acetone, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: to 0.35 mL of 0.01 mol/L hydrochloric acid VS add 30 mL of acetone, 6 mL of dilute nitric acid and water to make 50 mL (not more than 0.012z). Sulfate <1.14>—Dissolve 1.0 g of Bisacodyl in 2 mL of dilute hydrochloric acid, and add water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution as follows: to 0.35 mL of 0.005 mol/L sulfuric acid VS add 2 mL of dilute hydrochloric acid and water to make 50 mL (not more than 0.017z). Heavy metals <1.07>—Proceed with 2.0 g of Bi- sacodyl according to Method 4, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Related substances—Dissolve 0.20 g of Bisacodyl in 10 mL of acetone, and use this solution as the sample solu-tion. Pipet 1 mL of the sample solution, add acetone to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatog-raphy. Develop the plate with a mixture of 2-butanone, chlo- roform and xylene (1:1:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Bisacodyl, previ-ously dried, dissolve in 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from orange-yellow to green (indicator: 0.5 mL of p-naphtholbenzein TS). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L perchloric acid VS ＝ 36.14 mg of C22H19NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

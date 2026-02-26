@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/bekanamycin-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Bekanamycin Sulfate",
+    "ja": "ベカナマイシン硫酸塩"
+  },
+  "monographId": "JP18-bekanamycin-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Bekanamycin Sulfate occurs as a white pow-der. It is freely soluble in water, and practically insoluble in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 mg of Bekanamycin Sulfate in 2 mL of 1/15 mol/L phosphate buffer solution (pH 5.6), add 1 mL of ninhydrin TS, and boil: a blue-purple color develops. Dissolve 30 mg each of Bekanamycin Sulfate and Bekanamycin Sulfate RS in 5 mL of water, and use these solutions as the sample solution and standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solu-tion of potassium dihydrogen phosphate (3 in 40) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the principal spots obtained from the sample solution and the standard solution show a purple-brown color and the same Rf value. To a solution of Bekanamycin Sulfate (1 in 5) add 1 drop of barium chloride TS: a white turbidity is produced. D Optical rotation <2.49> [a]20: ＋102 – ＋1169(after drying, 0.25 g, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 0.50 g of Bekanamycin Sulfate in 10 mL of water is between 6.0 and 8.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Bekanamycin Sulfate in 5 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 1.0 g of Bekana- mycin Sulfate according to Method 4, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 30 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Bekanamycin Sulfate according to Method 1, and per-form the test (not more than 1 ppm). Related substances—Dissolve 60 mg of Bekanamycin Sulfate in 10 mL of water, and use this solution as the sam-ple solution. Pipet 3 mL of the sample solution, add water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a solution of potassium dihydrogen phosphate (3 in 40) to a distance of about 10 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: the spot other than the principal spot obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 5.0z (0.5 g, reduced pressure not exceeding 0.67 kPa, 609C, 3 hours). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer having pH <2.54> 7.8 to 8.0 after sterilization. Standard solutions—Weigh accurately an amount of Bekanamycin Sulfate RS, previously dried, equivalent to about 20 mg (potency), dissolve in diluted phosphate buffer solution (pH 6.0) (1 in 2) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the stand-ard stock solution at 5 to 159C and use within 30 days. Take exactly a suitable amount of the standard stock solution before use, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 10 mg (po-tency) and 2.5 mg (potency), and use these solutions as the high concentration standard solution and low concentration standard solution, respectively. Sample solutions—Weigh accurately an amount of Bekanamycin Sulfate, equivalent to about 20 mg (potency), and dissolve in water to make exactly 50 mL. Take exactly a suitable amount of this solution, add 0.1 mol/L phosphate buffer solution (pH 8.0) to make solutions so that each mL contains 10 mg (potency) and 2.5 mg (potency), and use these solutions as the high concentration sample solution and low concentration sample solution, respectively. ‌516"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

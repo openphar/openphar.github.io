@@ -1,0 +1,35 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/gentamicin-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Gentamicin Sulfate Injection",
+    "ja": "ゲンタマイシン硫酸塩注射液"
+  },
+  "monographId": "JP18-gentamicin-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Gentamicin Sulfate Injection is an aqueous injec-tion. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Gentamicin Sulfate Injection is a clear and col-orless liquid. Identiˆcation To a volume of Gentamicin Sulfate Injec-tion, equivalent to 40 mg (potency) of Gentamicin Sulfate, add water to make 10 mL, and use this solution as the sam-ple solution. Separately, dissolve an amount of Gentamicin Sulfate RS, equivalent to 20 mg (potency), in 5 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chro-matography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with the lower layer of a mixture of chloroform, ammonia solution (28) and methanol (2:1:1) to a distance of about 15 cm, and air-dry the plate. Spray evenly 0.2z ninhydrin-water saturated 1-butanol TS on the plate, and heat the plate at 1009C for 10 minutes: three principal spots obtained from the sample solution are the same with the corresponding spots from the standard so-lution in color tone and the Rf value, respectively. Osmotic pressure ratio Being speciˆed separately when the drug is granted approval based on the Law. pH <2.54> 4.0 – 6.0 Bacterial endotoxins <4.01> Less than 0.50 EU/mg (po-tency). Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane ˆltration method: it meets the requirement."
+  },
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism, agar media for base and seed layer, agar medium for transferring test organisms, and standard solutions—Proceed as directed in the Assay under Gentami-cin Sulfate. Sample solutions—Pipet a volume of Gentamicin Sulfate Injection, equivalent to about 40 mg (potency) of Gentamicin Sulfate, add 0.1 mol/L phosphate buŠer solu-tion (pH 8.0) to make exactly 200 mL. Pipet a suitable volume of this solution, add 0.1 mol/L phosphate buŠer so-lution (pH 8.0) to make solutions so that each mL contains 4 mg (potency) and 1 mg (potency), and use these solutions as the high concentration sample solution and the low concen-tration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

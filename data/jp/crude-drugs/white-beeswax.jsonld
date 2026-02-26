@@ -1,0 +1,26 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/white-beeswax",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-white-beeswax",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "White Beeswax",
+    "la": "Cera Alba",
+    "ja": "サラシミツロウ"
+  },
+  "definition": {
+    "en": "slightly soluble in diethyl ether, and practically insoluble in water and in ethanol (99"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity Test 1"
+      },
+      "testType": "TestType-Purity"
+    }
+  ]
+}

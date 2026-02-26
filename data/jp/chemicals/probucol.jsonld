@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/probucol",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Probucol",
+    "ja": "プロブコール"
+  },
+  "monographId": "JP18-probucol",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C31H48O2S2",
+  "molecularWeight": 516.84,
+  "casNumber": "23288-49-5",
+  "definition": {
+    "en": "Probucol, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Probucol occurs as a white crystalline powder. It is very soluble in tetrahydrofuran, freely soluble in ethanol (99.5), soluble in methanol, and practically insoluble in water. It gradually turns light yellow on exposure to light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Probucol in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Probucol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Probucol as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Probucol RS: both spectra exhibit similar intensities of ab-sorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Probucol according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). (2) Related substances—Conduct this procedure using light-resistant vessels. Dissolve 0.40 g of Probucol in 5 mL of ethanol (99.5), add the mobile phase to make 20 mL, and use this solution as the sample solution. Pipet 1 mL of the sam-ple solution, and add the mobile phase to make exactly 50 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of both solutions by the au-tomatic integration method: the area of the peak having the relative retention time of about 0.9 to probucol obtained from the sample solution is not larger than the peak area of probucol from the standard solution, and the area of peak having the relative retention time of about 1.9 from the sam-ple solution is not larger than 25 times the peak area of probucol from the standard solution, and the area of each peak other than probucol and the peaks mentioned above from the sample solution is not larger than 5 times the peak area of probucol from the standard solution. Furthermore, the total area of the peaks other than probucol from the sample solution is not larger than 50 times the peak area of probucol from the standard solution. For the areas of the peaks, having the relative retention times of about 0.9 and about 1.9 to probucol, multiply their correction factors, 1.2 and 1.4, respectively. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 3 times as long as the retention time of probucol, beginning after the solvent peak, excluding the peak having the relative retention time of about 0.5 to probucol. System suitability— Test for required detectability: Pipet 2 mL of the standard solution, and add the mobile phase to make exactly 10 mL. Confirm that the peak area of probucol obtained with 5 mL of this solution is equivalent to 14 to 26z of that with 5 mL of the standard solution. System performance: To 1 mL of the sample solution add the mobile phase to make 50 mL. To 1 mL of this solution add 1 mL of a solution of phthalic acid bis(cis-3,3,5-trimethylcyclohexyl) in the mobile phase (1 in 1000), 5 mL of ethanol (99.5), and the mobile phase to make 20 mL. When the procedure is run with 5 mL of this solution under the above operating conditions, phthalic acid bis(cis-3,3,5-trimethylcyclohexyl) and probucol are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of probucol is not more than 5z. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, 809C, 1 hour). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 60 mg each of Probucol and Probucol RS, previously dried, dissolve each in 5 mL of tetrahydrofuran, and add the mobile phase to make exactly ‌50 mL. Pipet 5 mL each of these solutions, add exactly 5 mL of the internal standard solution and the mobile phase to make 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of probucol to that of the internal standard. Amount (mg) of probucol (C31H48O2S2) ＝ MS × QT/QS MS: Amount (mg) of Probucol RS taken Internal standard solution—Dissolve 0.2 g of bis(cis-3,3,5-trimethylcyclohexyl) phthalate in 1 mL of tetrahydrofuran, and add the mobile phase to make 50 mL. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 242 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of acetonitrile and water (93:7). Flow rate: Adjust so that the retention time of probucol is about 13 minutes. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and probucol are eluted in this order with the resolution between these peaks being not less than 6. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of probucol to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

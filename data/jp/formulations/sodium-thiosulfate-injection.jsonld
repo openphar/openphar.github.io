@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sodium-thiosulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Sodium Thiosulfate Injection",
+    "ja": "チオ硫酸ナトリウム注射液"
+  },
+  "monographId": "JP18-sodium-thiosulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sodium Thiosulfate Injection is an aqueous injec-tion. It contains not less than 95."
+  },
+  "appearance": {
+    "en": "Sodium Thiosulfate Injection is a clear, color-less liquid."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Sodium Thiosulfate Injection responds to Qualitative Tests <1.09> for sodium salt and for thiosulfate. ‌Bacterial endotoxins <4.01> Less than 0.01 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Measure exactly a volume of Sodium Thiosulfate In-jection, equivalent to about 0.5 g of sodium thiosulfate hy-drate (Na2S2O3.5H2O), add water to make 30 mL, and titrate <2.50> with 0.05 mol/L iodine VS (indicator: 1 mL of starch TS). Each mL of 0.05 mol/L iodine VS ＝ 24.82 mg of Na2S2O3.5H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/carthami-flos",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Carthami Flos",
+    "ja": "コウカ"
+  },
+  "monographId": "JP18-carthami-flos",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Red to red-brown corolla, yellow style and sta-men, rarely mixed with immature ovary; total length about 1 cm; corolla, tubular and with 5 lobes; 5 stamens surrounding long pistil; pollen grains yellow and approximately spherical, about 50 mm in diameter, with fine protrusions on the sur-face. The pressed slab, about 0.5 cm in thickness, consists of a collection of numerous corollas. Odor, characteristic; taste, slightly bitter. ‌2122‌ Saffron / Crude Drugs and Related Drugs Identiˆcation To 1.0 g of pulverized SaŠlower add 10 mL of a mixture of acetone and water (4:1), shake for 10 minutes, ˆlter, and use the ˆltrate as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chro-matography. Develop the plate with a mixture of ethyl acetate, water, formic acid and methanol (35:15:10:2) to a distance of about 7 cm, and air-dry the plate: a red spot ap-pears at an Rf value of about 0.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—The amount of ovaries, stems, leaves and other foreign matter contained in Safflow-er does not exceed 2.0z. Total ash <5.01> Not more than 18.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/oleum-cinnamomi",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Oleum Cinnamomi",
+    "ja": "ケイヒ油"
+  },
+  "monographId": "JP18-oleum-cinnamomi",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Cinnamon Oil is a yellow to brown liquid. It has a characteristic, aromatic odor and a sweet, pungent taste. It is clearly miscible with ethanol (95) and with diethyl ether. It is practically insoluble in water. It is weakly acidic. Upon aging or long exposure to air, it darkens and becomes viscous. Specific gravity d 20: 1.010 – 1.065"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake 4 drops of Cinnamon Oil with 4 drops of nitric acid: the mixture forms white to light yellow crystals at a temperature below 59C."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Rosin—Mix 1.0 mL of Cinnamon Oil with 5 mL of ethanol (95), then add 3 mL of freshly prepared, saturated ethanol solution of lead (II) acetate trihydrate: no precipitate is produced. (2) Heavy metals <1.07>—Proceed with 1.0 mL of Cinna- mon Oil according to Method 2, and perform the test. Pre-pare the control solution with 4.0 mL of Standard Lead So-lution (not more than 40 ppm)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Pipet 5.0 mL of Cinnamon Oil into a cassia flask, add 70 mL of sodium hydrogensulfite TS, and heat the mix-ture in a water bath with frequent shaking to dissolve com-pletely. To this solution add sodium hydrogensulfite TS to raise the lower level of the oily layer within the graduate por-tion of the neck. Allow to stand for 2 hours, and measure the volume (mL) of the separated oily layer. Total aldehydes (volz) ＝ {5.0 － (volume of separated oily layer)}× 20"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

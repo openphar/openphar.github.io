@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/acrinol-and-zinc-oxide-ointment",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Acrinol and Zinc Oxide Ointment",
+    "ja": "アクリノール・亜鉛華軟膏"
+  },
+  "monographId": "JP18-acrinol-and-zinc-oxide-ointment",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Acrinol and Zinc oxide Ointment is yellow in color."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Shake 0.5 g of Acrinol and Zinc Oxide Ointment with 5 mL of diethyl ether, 5 mL of dilute hydro-chloric acid and 2 to 3 drops of sodium nitrite TS, and allow to stand: a dark red color develops in the water layer (acrinol). Ignite 0.5 g of Acrinol and Zinc Oxide Ointment to char, and dissolve the residue in 5 mL of dilute hydrochloric acid: the solution responds to Qualitative Tests <1.09> for zinc salt. Shake 0.5 g of Acrinol and Zinc Oxide Ointment with 5 mL of diethyl ether, 1 mL of acetic acid (100) and 5 mL of water, separate the water layer, and use the water layer as the sample solution. Dissolve 5 mg of acrinol in 1 mL of acetic acid (100) and 5 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of diethyl ether, ethanol (95) and acetic acid (100) (40:10:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): the spots from the sample solution and the standard solution exhibit a blue fluorescence and show the same Rf value. ‌JP XVIII Official Monographs / Adrenaline 417‌"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Ointment"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/polygoni-multiflori-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Polygoni Multiflori Radix",
+    "ja": "カシュウ"
+  },
+  "monographId": "JP18-polygoni-multiflori-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Polygonum Root is nearly fusiform, 10 – 15 cm in length, 2 – 5 cm in diameter; externally red-brown to dark brown; roughly wrinkled; a cross section light red-brown or light grayish brown, with numerous abnormal vas-cular bundles scattering irregularly around the large vascular bundles near center; heavy and hard in texture. Odor, slight and characteristic; taste, astringent and slightly bitter. Under a microscope <5.01>, transverse section reveals the outermost layer to be several cells thick and composed of cork; cork cells contain brown substances; cortex composed of parenchyma; abnormal vascular bundles, exhibiting a ring of cambium; xylem lies inside of the cambium, and phloem outside; fibers lie outside the phloem; central portion of root lignified; parenchymatous cells contain aggregated crystals of calcium oxalate, and both simple and 2- to 8-compound starch grains; navel of starch grain obvious."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Polygonum Root add 10 mL of methanol, shake for 15 minutes, and filter. Evaporate the filtrate to dryness, dissolve the residue in 2 mL of methanol, and use this as the sample solution. Per-form the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 5 mL of the sample solution on a plate of silica gel for thin-layer chromatogra-phy, develop the plate with a mixture of ethyl acetate, water, methanol and acetic acid (100) (200:10:10:3) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): a fluorescent blue-white spot appears at an Rf value of about 0.3."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Polygonum Root according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Polygonum Root according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 14.0z (6 hours). Total ash <5.01> Not more than 5.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 17.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

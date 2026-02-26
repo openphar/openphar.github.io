@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/azathioprine-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Azathioprine Tablets",
+    "ja": "アザチオプリン錠"
+  },
+  "monographId": "JP18-azathioprine-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Azathioprine Tablets contain not less than 95.0z and not more than 105.0z of the labeled amount of azathioprine (C9H7N7O2S: 277.26). Method of preparation Prepare as directed under Tablets, with Azathioprine. Identification (1) Weigh a quantity of powdered Azathioprine Tablets, equivalent to 0.01 g of Azathioprine. Add 50 mL of water, shake well while warming, and filter. Proceed with 5 mL of the filtrate as directed in the Identifi-cation (1) under Azathioprine. Proceed with 1 mL of the filtrate obtained in (1) as directed in the Identification (2) under Azathioprine. Determine the absorption spectrum of the sample so-lution in the Assay as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a maximum between 278 nm and 282 nm. Weigh a quantity of powdered Azathioprine Tablets, equivalent to 0.1 g of Azathioprine to the labeled amount. Add 10 mL of a solution of ammonia solution (28) in ethanol (95) (1 in 10), shake well, filter, and use the filtrate MS: Amount (mg) of Azathioprine RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Azathioprine Tablets is not less than 80z. Start the test with 1 tablet of Azathioprine Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 11 mg of azathioprine (C9H7N7O2S), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Weigh a quantity of powdered Azathioprine Tablets, equivalent to 0.01 g of Azathioprine. Add 50 mL of water, shake well while warming, and filter. Proceed with 5 mL of the filtrate as directed in the Identifi-cation (1) under Azathioprine. Proceed with 1 mL of the filtrate obtained in (1) as directed in the Identification (2) under Azathioprine. Determine the absorption spectrum of the sample so-lution in the Assay as directed under Ultraviolet-visible Spec-trophotometry <2.24>: it exhibits a maximum between 278 nm and 282 nm. Weigh a quantity of powdered Azathioprine Tablets, equivalent to 0.1 g of Azathioprine to the labeled amount. Add 10 mL of a solution of ammonia solution (28) in ethanol (95) (1 in 10), shake well, filter, and use the filtrate MS: Amount (mg) of Azathioprine RS taken Dissolution <6.10> When the test is performed at 50 revolu-tions per minute according to the Paddle method, using 900 mL of water as the dissolution medium, the dissolution rate in 45 minutes of Azathioprine Tablets is not less than 80z. Start the test with 1 tablet of Azathioprine Tablets, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.8 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add water to make exactly V? mL so that each mL contains about 11 mg of azathioprine (C9H7N7O2S), and use this solution as the sample solution. Separately, weigh accu-rately about 10 mg of Azathioprine RS, previously dried at 1059C for 5 hours, and dissolve in water to make exactly 100 mL. Pipet 6 mL of this solution, add water to make exactly 50 mL, and use this solution as the standard solution. Deter-mine the absorbances, AT and AS, at 280 nm of the sample solution and standard solution as directed under Ultraviolet- visible Spectrophotometry <2.24>. Dissolution rate (z) with respect to the labeled amount of azathioprine (C9H7N7O2S) ＝ MS × AT/AS × V?/V × 1/C × 108 MS: Amount (mg) of Azathioprine RS taken C: Labeled amount (mg) of azathioprine (C9H7N7O2S) in 1 tablet"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Azathioprine Tablets. Weigh accurately a portion of the powder, equivalent to about 0.1 g of azathioprine (C9H7N7O2S), add 20 mL of dimethylsulfoxide for ultravio-let-visible spectrophotometry, shake well, add 0.1 mol/L hydrochloric acid TS to make exactly 500 mL, and filter. Discard the first 20 mL of the filtrate, measure exactly 3 mL of the subsequent filtrate, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the sam-ple solution. Separately, weigh accurately about 0.1 g of ‌500 Azathioprine RS, previously dried at 1059C for 5 hours, dis-solve in 20 mL of dimethylsulfoxide for ultraviolet-visible spectrophotometry, and add 0.1 mol/L hydrochloric acid TS to make exactly 500 mL. Measure exactly 3 mL of this solu-tion, add 0.1 mol/L hydrochloric acid TS to make exactly 100 mL, and use this solution as the standard solution. De-termine the absorbances, AT and AS, of the sample solution and standard solution at 280 nm as directed under Ultravio-let-visible Spectrophotometry <2.24>. Amount (mg) of azathioprine (C H N O S) Arsenic <1.11>—Prepare the test solution with 1.0 g of Azelastine Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 50 mg of Azelastine Hydrochloride in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> ＝ MS × AT/AS 9 7 7 2 according to the following conditions. Determine each peak area of these solutions by the automatic integration method: MS: Amount (mg) of Azathioprine RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Tablet"
+}

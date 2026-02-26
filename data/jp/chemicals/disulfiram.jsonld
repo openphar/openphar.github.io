@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/disulfiram",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Disulfiram",
+    "ja": "ジスルフィラム"
+  },
+  "monographId": "JP18-disulfiram",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H20N2S4",
+  "molecularWeight": 296.54,
+  "appearance": {
+    "en": "Disulfiram occurs as white to yellowish white, crystals or crystalline powder. It is freely soluble in acetone and in toluene, sparingly soluble in methanol and in ethanol (95), and practically in-soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Disulfiram in ethanol (95) (1 in 100,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Disul-firam, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Disulfiram according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Disulfiram according to Method 4, and perform the test (not more than 2 ppm). Diethyldithiocarbamic acid—Dissolve 0.10 g of Dis-ulfiram in 10 mL of toluene, and shake with 10 mL of diluted sodium carbonate TS (1 in 20). Discard the toluene layer, wash the water layer with 10 mL of toluene, shake with 5 drops of a solution of cupric sulfate (1 in 250) and 2 mL of toluene, and allow to stand: no light yellow color de-velops in the toluene layer. Related substances—Dissolve 50 mg of Disulfiram in 40 mL of methanol, add water to make 50 mL, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and the stand-ard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the total area of the peaks other than disulfiram ob-tained from the sample solution is not larger than the peak area of disulfiram from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column about 5 mm in inside di-ameter and about 15 cm in length, packed with octadecyl- silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol and water (7:3). Flow rate: Adjust so that the retention time of disulfiram is about 8 minutes. Selection of column: Dissolve 50 mg of Disulfiram and 50 mg of benzophenone in 40 mL of methanol, and add water to make 50 mL. To 1 mL of this solution add the mobile phase to make 200 mL. Proceed with 10 mL of this solution under the above operating conditions, and calculate the reso-lution. Use a column giving elution of benzophenone and disulfiram in this order with the resolution between these peaks being not less than 4. Detection sensitivity: Adjust so that the peak height of dis-ulfiram obtained from 10 mL of the standard solution is 15 – 30 mm. Time span of measurement: About 3.5 times of the reten-tion time of disulfiram. Loss on drying <2.41> Not more than 0.20z (2 g, silica gel, 24 hours). Residue on ignition <2.44> Not more than 0.1z (2 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Disulfiram, previ-ously dried, in an iodine bottle, dissolve in 20 mL of ace-tone, add 1.5 mL of water and 1.0 g of potassium iodide, and dissolve by shaking thoroughly. To this solution add 3.0 mL of hydrochloric acid, stopper the bottle tightly, shake, and allow to stand in a dark place for 3 minutes. Add 70 mL of water, and titrate <2.50> with 0.1 mol/L sodium thiosul-fate VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 14.83 mg of C10H20N2S4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/pirenoxine",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Pirenoxine",
+    "ja": "ピレノキシン"
+  },
+  "monographId": "JP18-pirenoxine",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "1043-21-6",
+  "definition": {
+    "en": "Pirenoxine, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Pirenoxine occurs as a yellow-brown powder. It is odorless, and has a slightly bitter taste. It is very slightly soluble in dimethylsulfoxide, and practi-cally insoluble in water, in acetonitrile, in ethanol (95), in tetrahydrofuran and in diethyl ether. Melting point: about 2509C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Pirenoxine in 10 mL of phosphate buffer solution (pH 6.5), add 5 mL of a solu-tion of L-ascorbic acid (1 in 50), and shake vigorously: a dark purple precipitate is formed. Determine the absorption spectrum of a solution of Pirenoxine in phosphate buffer solution (pH 6.5) (1 in 200,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Pirenoxine, previously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Pirenoxine according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Dissolve 10 mg of Pirenoxine in 50 mL of the mobile phase, and use this solution as the sam-ple solution. Pipet 3 mL of the sample solution, add the mo-bile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of both solu-tions by the automatic integration method: the total area of the peaks other than pirenoxine obtained from the sample solution is not larger than the peak area of pirenoxine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 230 nm). Column: A stainless steel column 4 mm in inside diameter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: Dissolve 1.39 g of tetra n-butylammonium chloride and 4.5 g of disodium hydrogen phosphate dodeca-hydrate in 1000 mL of water, and adjust the pH to 6.5 with phosphoric acid. To 700 mL of this solution add 200 mL of acetonitrile and 30 mL of tetrahydrofuran, and mix. Flow rate: Adjust so that the retention time of pirenoxine is about 10 minutes. Time span of measurement: About 3 times as long as the retention time of pirenoxine. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 30 mL. Confirm that the peak area of pirenoxine obtained with 5 mL of this solution is equivalent to 5 to 8z of that with 5 mL of the standard solution. System performance: Dissolve 3 mg of Pirenoxine and 16 mg of methyl parahydroxybenzoate in 100 mL of the mobile phase. When the procedure is run with 5 mL of this solution under the above operating conditions, pirenoxine and methyl parahydroxybenzoate are eluted in this order with the resolu-tion between these peaks being not less than 2.0. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of pirenoxine is not more than 1.0z. Loss on drying <2.41> Not more than 1.5z (0.5 g, in vacu-um, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g of Pirenoxine, previ-ously dried, dissolve in 140 mL of dimethylsulfoxide by heat-ing on a water bath. After cooling, add 30 mL of water, and titrate <2.50> immediately with 0.02 mol/L sodium hydrox-ide VS (potentiometric titration). Perform a blank determi-nation in the same manner, and make any necessary correc-tion. Each mL of 0.02 mol/L sodium hydroxide VS ＝ 6.165 mg of C16H8N2O5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

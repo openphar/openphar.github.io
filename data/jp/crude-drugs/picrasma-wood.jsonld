@@ -1,0 +1,32 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/monograph/jp/picrasma-wood",
+  "@type": "CrudeDrugMonograph",
+  "monographId": "JP18-picrasma-wood",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "prefLabel": {
+    "en": "Picrasma Wood",
+    "la": "Picrasmae Lignum",
+    "ja": "ニガキ"
+  },
+  "definition": {
+    "en": "wood of Picrasma quassioides Bennet (Simaroubaceae)"
+  },
+  "botanicalSource": {
+    "@type": "BotanicalSource",
+    "referencesPlantSpecies": {
+      "@id": "https://www.openphar.org/data/jp/biological-sources/picrasma-wood-picrasma-quassioides-bennet"
+    }
+  },
+  "testSpecification": [
+    {
+      "@type": "PhysicalSpecification",
+      "testName": {
+        "en": "Limit Test 1"
+      },
+      "testType": "TestType-Physical"
+    }
+  ]
+}

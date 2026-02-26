@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/dopamine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Dopamine Hydrochloride",
+    "ja": "ドパミン塩酸塩"
+  },
+  "monographId": "JP18-dopamine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C8H11NO2.HCl",
+  "molecularWeight": 189.64,
+  "appearance": {
+    "en": "Dopamine Hydrochloride occurs as white, crystals or crystalline powder. It is freely soluble in water and in formic acid, and spar-ingly soluble in ethanol (95). Melting point: about 2489C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dopamine Hydrochloride in 0.1 mol/L hydro-chloric acid TS (1 in 25,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar in-tensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Dopamine Hydrochloride as directed in the potassium chlo-ride disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. A solution of Dopamine Hydrochloride (1 in 50) re-sponds to Qualitative Tests <1.09> (1) for chloride. pH <2.54> Dissolve 1.0 g of Dopamine Hydrochloride in 50 mL of water: the pH of this solution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Dopamine Hydrochloride in 10 mL of water: the solution is clear and colorless. Sulfate <1.14>—Perform the test with 0.8 g of Dopa- mine Hydrochloride. Prepare the control solution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.021z). Heavy metals <1.07>—Proceed with 1.0 g of Dopa- mine Hydrochloride according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Dopamine Hydrochloride according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.1 g of Dopamine Hydrochloride in 10 mL of water, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add water to make exactly 250 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of cellulose with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-propanol, water and acetic acid (100) (16:8:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly a solu-tion of ninhydrin in acetone (1 in 50) on the plate, and heat the plate at 909C for 10 minutes: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Dopamine Hydro-chloride, previously dried, dissolve in 5 mL of formic acid, add exactly 15 mL of 0.1 mol/L perchloric acid VS, and heat on a water bath for 15 minutes. After cooling, add 50 mL of acetic acid (100), and titrate <2.50> the excess perchloric acid with 0.1 mol/L sodium acetate VS (potentiometric titration). Perform a blank determination in the same manner. Each mL of 0.1 mol/L perchloric acid VS ＝ 18.96 mg of C8H11NO2.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

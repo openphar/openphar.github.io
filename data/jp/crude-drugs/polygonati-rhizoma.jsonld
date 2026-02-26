@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/polygonati-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Polygonati Rhizoma",
+    "ja": "オウセイ"
+  },
+  "monographId": "JP18-polygonati-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Irregularly cylindrical rhizome, 3 – 10 cm in length, 0.5 – 3 cm in diameter; or irregular massive rhizome, 5 – 10 cm in length, 2 – 6 cm in diameter, occasionally bran-ched; both rhizomes with many cyclic nodes and longitudi-nally striate; externally yellow-brown to black-brown; stem scars, round, concave at their center, and protuberant on the upper surface; root scars on the lower surface; cut surface flat and horny. Odor, slight; taste, slightly sweet. Under a microscope <5.01>, a transverse section of the rhi-zome reveals an epidermis coated with cuticle; inside of epidermis parenchyma lie; numerous vascular bundles and mucilage cells scattered in parenchyma; vascular bundles col-lateral or amphivasal concentric; mucilage cells contain raphides of calcium oxalate."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.5 g of fine cutted Polygonatum Rhizome add 2 mL of acetic anhydride, warm on a water bath for 2 minutes, and filter. To 1 mL of the filtrate add gently 0.5 mL of sulfuric acid: a red-brown color appears at the zone of contact. (2) To 1.0 g of fine cutted Polygonatum Rhizome add 10 mL of dilute hydrochloric acid, boil gently for 2 minutes, and filter. Neutralize the filtrate with sodium hydroxide TS. To 3 mL of this solution add 1 mL of Fehling's TS, and warm: red precipitates appear. ‌2104‌ Polygonum Root / Crude Drugs and Related Drugs"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Polygonutum Rhizome according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g ‌of pulverized Polygonutum Rhizome according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 5.0z. Acid-insoluble ash <5.01> Not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

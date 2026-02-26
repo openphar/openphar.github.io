@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/sucralfate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Sucralfate Hydrate",
+    "ja": "スクラルファート水和物"
+  },
+  "monographId": "JP18-sucralfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sucralfate Hydrate contains not less than 17."
+  },
+  "appearance": {
+    "en": "Sucralfate Hydrate occurs as a white powder. It is odorless and tasteless. It is practically insoluble in water, in hot water, in ethanol (95) and in diethyl ether. It dissolves in dilute hydrochloric acid and in sulfuric acid-sodium hydroxide TS."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.05 g of Sucralfate Hydrate in a small test tube add 0.05 g of fresh pieces of sodium, and melt by careful heating. Immerse the test tube immediately in 100 mL of water, break the test tube, shake well, and filter. To 5 mL of the filtrate add 1 drop of sodium pentacyanonitro-sylferrate (III) TS: a red-purple color develops. Dissolve 40 mg of Sucralfate Hydrate in 2 mL of di-lute sulfuric acid, and add gently 2 mL of anthrone TS to make 2 layers: a blue color develops at the zone of contact, and gradually changes to blue-green. Dissolve 0.5 g of Sucralfate Hydrate in 10 mL of di-lute hydrochloric acid: the solution responds to Qualitative Tests <1.09> for aluminum."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Sucralfate Hydrate in 10 mL of dilute sulfuric acid: the solution is clear and colorless. Chloride <1.03>—Dissolve 0.5 g of Sucralfate Hy- drate in 30 mL of dilute nitric acid, and heat gently to boil-ing. After cooling, add water to make 100 mL, and to 10 mL of this solution add 3 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution with 0.70 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.50z). Heavy metals <1.07>—Dissolve 1.0 g of Sucralfate Hydrate in 20 mL of a solution of sodium chloride (1 in 5) and 1 mL of dilute hydrochloric acid, and to this solution add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solution. Pre-pare the control solution as follows: evaporate 1 mL of di-lute hydrochloric acid on a water bath to dryness, and add 20 mL of a solution of sodium chloride (1 in 5), 2 mL of di-lute acetic acid, 2.0 mL of Standard Lead Solution and water to make 50 mL (not more than 20 ppm). Arsenic <1.11>—Dissolve 1.0 g of Sucralfate Hydrate in 5 mL of dilute hydrochloric acid, use this solution as the test solution, and perform the test (not more than 2 ppm). Free aluminum—To 3.0 g of Sucralfate Hydrate add 50 mL of water, heat in a water bath for 5 minutes, cool, and filter. Wash the residue with four 5-mL portions of water, combine the filtrate with the washings, add 2 mL of dilute hydrochloric acid, and heat in a water bath for 30 minutes. After cooling, neutralize the solution with sodium hydroxide TS, add water to make exactly 100 mL, and use this solution as the sample solution. Pipet 50 mL of the sample solution, add exactly 25 mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS and 20 mL of acetic acid-ammonium acetate buffer solution (pH 4.5) and boil for 5 minutes. After cooling, add 50 mL of ethanol (95), and titrate <2.50> the excess disodium dihydrogen ethylene-diamine tetraacetate with 0.05 mol/L zinc acetate VS until the color of the solution changes from green-purple through purple to red (indicator: 3 mL of dithizone TS). Perform a blank determination in the same manner (not more than 0.2 z). Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.349 mg of Al Related substances—Proceed with 50 mL of the sam-ple solution obtained in the Assay (2) Sucrose octasulfate ester as directed in the Assay (2) Sucrose octasulfate ester, and perform the test as directed under Liquid Chromatogra-phy <2.01>. Determine the peak area of sucrose octasulfate ester obtained from the sample solution and that of a related substance with the relative retention time about 0.7 to su-crose octasulfate ester by the automatic integration method, and calculate the ratio of the peak area of the related sub-stance to that of sucrose octasulfate ester: it is not more than 0.1. Detection sensitivity: Adjust so that the peak height of su-crose octasulfate ester from 50 mL of the standard solution obtained in the Assay (2) Sucrose octasulfate ester composes 60 to 100z of the full scale. Loss on drying <2.41> Not more than 14.0z (1 g, 1059C, 3 hours). Acid-consuming capacity Weigh accurately about 0.25 g of Sucralfate Hydrate, previously dried, place in a 200-mL glass-stoppered conical flask, add exactly 100 mL of 0.1 mol/L hydrochloric acid VS, stopper the flask tightly, and shake at 37 ± 29C for exactly 1 hour (150 shakings per minute, amplitude: 20 mm). After cooling in water for 5 minutes, pipet 10 mL of the supernatant liquid, and titrate <2.50> the excess acid with 0.1 mol/L sodium hydroxide VS until the pH becomes 3.5. Perform a blank determination in the same manner. The amount of 0.1 mol/L hydrochloric acid VS consumed per g of Sucralfate Hydrate is not less than 130 mL."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Aluminum—Weigh accurately about 1 g of Sucralfate Hydrate, dissolve in 10 mL of dilute hydrochloric acid by warming on a water bath, cool, and add water to make exactly 250 mL. Pipet 25 mL of this solution, add ex-actly 25 mL of 0.05 mol/L disodium dihydrogen ethylene-diamine tetraacetate VS and 20 mL of acetic acid-ammoni-um acetate buffer solution (pH 4.5) and boil for 5 minutes. After cooling, add 50 mL of ethanol (95), and titrate <2.50> the excess disodium dihydrogen ethylenediamine tetraacetate with 0.05 mol/L zinc acetate VS until the color of the solu-tion changes from green-purple through purple to red (indi- cator: 3 mL of dithizone TS). Perform a blank determina-tion in the same manner. Each mL of 0.05 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 1.349 mg of Al (2) Sucrose octasulfate ester—Weigh accurately about 0.55 g of Sucralfate Hydrate, add exactly 10 mL of sulfuric acid-sodium hydroxide TS, shake vigorously, and dissolve by sonicating at below 309C for 5 minutes. To this solution add 0.1 mol/L sodium hydroxide VS to make exactly 25 mL, and use this solution as the sample solution. Separately, weigh accurately about 0.25 g of Potassium Sucrose Octasul-fate RS, add the mobile phase to make exactly 25 mL, and use this solution as the standard solution. Prepare rapidly the sample solution and the standard solution, and perform the test immediately. Pipet 50 mL each of the sample solution and standard solution, and perform the test as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine the peak areas, AT and AS, of sucrose octasulfate ester in each solution. Amount (mg) of sucrose octasulfate ester (C12H22O35S8) ＝ MS × AT/AS × 0.763 MS: Amount (mg) of Potassium Sucrose Octasulfate RS taken, calculated on the anhydrous basis Operating conditions— Detector: A differential refractometer. Column: A stainless steel column about 4 mm in inside di-ameter and about 30 cm in length, packed with amino-propylsilanized silica gel for liquid chromatography (about 8 mm in particle diameter). Column temperature: Room temperature. Mobile phase: Dissolve a suitable amount (26 to 132 g) of ammonium sulfate in 1000 mL of water, and adjust with phosphoric acid to pH 3.5. Allow a solution of Potassium Sucrose Octasulfate RS in dilute hydrochloric acid (1 in 100) to stand at 609C for 10 minutes, cool, and perform the test immediately. Adjust the amount of ammonium sulfate in the mobile phase so that the peak of a related substance with the relative retention time about 0.7 to sucrose octasulfate ester almost returns to the base line, and the peak of sucrose oc-tasulfate ester elutes most rapidly. Flow rate: Adjust so that the retention time of sucrose oc-tasulfate ester is between 6 and 11 minutes. Selection of column: Allow a solution of Potassium Su-crose Octasulfate RS in dilute hydrochloric acid (1 in 100) to stand at 609C for 10 minutes, cool, and proceed immediately with 50 mL of this solution under the above operating condi-tions. Use a column with a resolution being not less than 1.5 between sucrose octasulfate ester and a related substance with the relative retention time about 0.7 to sucrose octasul-fate ester. System repeatability: Repeat the test 6 times with the standard solution under the above operating conditions: the relative standard deviation of the peak area of sucrose oc-tasulfate ester is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

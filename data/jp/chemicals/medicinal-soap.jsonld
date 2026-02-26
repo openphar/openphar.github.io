@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/medicinal-soap",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Medicinal Soap",
+    "ja": "薬用石ケン"
+  },
+  "monographId": "JP18-medicinal-soap",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Medicinal Soap occurs as a white to light yel-low, powder or granules. It has a characteristic odor free from rancidity. Medicinal Soap is sparingly soluble in water, and slightly soluble in ethanol (95). A solution of Medicinal Soap (1 in 100) is alkaline. Fatty acid Dissolve 25 g of Medicinal Soap in 300 mL of hot water, add 60 mL of dilute sulfuric acid slowly, and warm in a water bath for 20 minutes. After cooling, filter off the precipitate, and wash with warm water until the washing no longer shows acidity to methyl orange TS. Transfer the precipitate to a small beaker, and heat on a water bath to complete separation of water and transparent fatty acids. Filter the fatty acid into a small beaker while warm, dry at 1009C for 20 minutes, and perform the test with this mate-rial as directed under Fats and Fatty Oils <1.13>. The con-gealing point of the fatty acid is between 189C and 289C. The acid value is 185 – 205. The iodine value is 82 – 92."
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity or alkalinity—Dissolve 5.0 g of Medici-nal Soap in 85 mL of neutralized ethanol by warming on a water bath, filter while hot through absorbent cotton, and wash the filter and the residue with three 5-mL portions of hot neutralized ethanol. Combine the filtrate and the wash-ings, add hot neutralized ethanol to make exactly 100 mL, and perform the following tests quickly using this as the sample solution at 709C. Add 3 drops of phenolphthalein TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS to 40 mL of the sample so-lution: a red color develops. Add 3 drops of phenolphthalein TS and 0.20 mL of 0.05 mol/L sulfuric acid VS to 40 mL of the sample solu-tion: no red color develops. Heavy metals <1.07>—Proceed with 1.0 g of Medici- nal Soap according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 20 ppm). Ethanol-insoluble substances—Weigh accurately about 2 g of Medicinal Soap, dissolve by warming in 100 mL of neutralized ethanol, filter the solution through a glass filter (G4), wash the residue with 100 mL of hot neutralized ethanol, and dry at 1059C for 4 hours: the mass of the residue is not more than 1.0z. Water-insoluble substances—Wash thoroughly the dried substances obtained in (3) with 200 mL of water, and dry at 1059C for 4 hours: the mass of the residue is not more than 0.15z. Alkali carbonates—To the washings obtained in (4) add 3 drops of methyl orange TS and 2 mL of 0.05 mol/L sulfuric acid VS: a red color develops. Loss on drying Not more than 5.0z in the case of the pow-der, and not more than 10.0z in the case of the granules. Weigh accurately about 0.5 g of Medicinal Soap in a tared beaker, add 10 g of sea sand (No. 1), previously dried at 1059C for 1 hour, and again weigh the beaker. Add 10 mL of ethanol (95), evaporate on a water bath to dryness with thorough stirring, and dry at 1059C for 3 hours."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

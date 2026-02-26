@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/emedastine-fumarate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Emedastine Fumarate",
+    "ja": "エメダスチンフマル酸塩"
+  },
+  "monographId": "JP18-emedastine-fumarate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H26N4O.2C4H4O4",
+  "molecularWeight": 534.56,
+  "casNumber": "87233-62-3",
+  "definition": {
+    "en": "Emedastine Fumarate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Emedastine Fumarate occurs as a white to pale yellow crystalline powder. It is freely soluble in water, soluble in methanol, sparingly soluble in ethanol (99.5), and slightly soluble in acetic acid (100). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Emedastine Fuma-rate in 10 mL of water. To 2 mL of this solution add 1 mol/L hydrochloric acid TS to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit F? ＝ (－ Y1 ＋ Y2 ＋ Y3 － Y4)2/4 fs2 similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of f: Number of the animals of each group s2 ＝ {Sy2 － (Y/f )}/n Sy2: The sum of squares of y1, y2, y3 and y4 in each group Y ＝ Y12 ＋ Y22 ＋ Y32 ＋ Y42 n ＝ 4 ( f － 1) (C － 1)(CM2 ＋ 0.09062) L ＝ 2 C ＝ Yb2/(Yb2 － 4 fs2t2) t2: Value shown in the following table against n used to calculate s 2 n t2 ＝ F n t2 ＝ F n t2 ＝ F Emedastine Fumarate as directed in the paste method under Infrared Spectrophotometry <2.25>, and compare the spec-trum with the Reference Spectrum: both spectra exhibit simi-lar intensities of absorption at the same wave numbers. Dissolve 30 mg of Emedastine Fumarate in 5 mL of methanol, and use this solution as the sample solution. Sepa-rately, dissolve 10 mg of fumaric acid for thin-layer chroma-tography in 5 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of isopropyl ether, formic acid and water (90:7:3) to a distance 161.45 4.667 4.242 of about 10 cm, and air-dry the plate. Examine under ultra- 18.51 4.600 4.225 violet light (main wavelength: 254 nm): the spots other than 10.129 4.543 4.210 the spot on the starting point obtained from the sample solu- 7.709 4.494 4.196 tion and the spot from the standard solution show the same 6.608 4.451 4.183 Rf value. 6 5.987 18 4.414 30 4.171 7 5.591 19 4.381 40 4.085 8 5.318 20 4.351 60 4.001 9 5.117 21 4.325 120 3.920 10 4.965 22 4.301 ∞ 3.841 11 4.844 23 4.279 12 4.747 24 4.260"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Emedastine Fumarate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 10 mg of Emedastine Fumarate in 10 mL of the mobile phase, and use this solu-tion as the sample solution. Pipet 1 mL of the sample solu-tion, and add the mobile phase to make exactly 100 mL. Pipet 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solu- ‌tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions. De-termine each peak area by the automatic integration method: the area of the peak other than emedastine and fumaric acid obtained from the sample solution is not larger than the peak area of emedastine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 280 nm). Column: A stainless steel column 6.0 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 3.9 g of sodium dihydrogen phos-phate dihydrate and 2.5 g of sodium lauryl sulfate in 1000 mL of water, and adjust to pH 2.4 with phosphoric acid. To 550 mL of this solution add 450 mL of acetonitrile. Flow rate: Adjust so that the retention time of emedastine is about 18 minutes. Time span of measurement: About 2 times as long as the retention time of emedastine, beginning after the solvent peak. System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of emedastine are not less than 10,000 and not more than 1.2, respectively. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of emedastine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Emedastine Fumarate, previously dried, dissolve in 80 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 26.73 mg of C17H26N4O.2C4H4O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Not exceeding 89C."
+  }
+}

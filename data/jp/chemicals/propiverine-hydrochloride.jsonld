@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/propiverine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Propiverine Hydrochloride",
+    "ja": "プロピベリン塩酸塩"
+  },
+  "monographId": "JP18-propiverine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H29NO3.HCl",
+  "molecularWeight": 403.94,
+  "casNumber": "54556-98-8",
+  "definition": {
+    "en": "Propiverine Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Propiverine Hydrochloride occurs as white, crystals or crystalline powder. It is soluble in water and in ethanol (99.5)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 50 mg of Propiverine Hydro-chloride in 20 mL of water, and add acetonitrile to make 100 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Propiverine Hydrochroride RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Propiverine Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum or the spectrum of dried Propiverine Hy-drochloride RS: both spectra exhibit similar intensities of absorption at the same wave numbers. To 5 mL of a solution of Propiverine Hydrochloride (1 in 100) add 6 mL of ethyl acetate, and add 3 drops of sil-ver nitrate TS: a white precipitate is formed, which does not dissolve on the addition of 0.5 mL of dilute nitric acid and shaking. The precipitate dissolves on the addition of 2 mL of ammonia TS and shaking."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Perform the test with 0.40 g of Propiverine Hydrochloride. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.048z). Heavy metals <1.07>—Proceed with 1.0 g of Propiverine Hydrochloride according to Method 2, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 50 mg of Propiverine Hydrochloride in 100 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample so-lution, add the mobile phase to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 15 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area by the automatic integration method: the area of the peak, having the relative retention time about 0.28 to propiverine, obtained from the sample solution is not larger than 3/10 times the peak area of propiverine from the stand-ard solution, the area of the peak other than propiverine and the peak mentioned above from the sample solution is not larger than 1/10 times the peak area of propiverine from the standard solution, and the total area of the peaks other than propiverine from the sample solution is not larger than 1/2 times the peak area of propiverine from the standard solu-tion. Operating conditions— Detector, column, column temperature, mobile phase, and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of propiverine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase to make exactly 20 mL. Confirm that the peak area of propiverine obtained with 15 mL of this solution is equivalent to 3.5 to 6.5z of that with 15 mL of the standard solution. System performance: When the procedure is run with 15 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of propiverine are not less than 7000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 15 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of propiverine is not more than 2.0z. ‌Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 1 hour). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 50 mg each of Propiverine Hydrochloride and Propiverine Hydrachloride RS, both pre-viously dried, and dissolve each in the mobile phase to make exactly 100 mL. Pipet 10 mL each of these solutions, add the mobile phase to make exactly 50 mL, and use these solutions as the sample solution and the standard solution, respec-tively. Perform the test with exactly 15 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions, and determine the peak areas, AT and AS, of propiver-ine in each solution. Amount (mg) of propiverine hydrochloride (C23H29NO3.HCl) ＝ MS × AT/AS MS: Amount (mg) of Propiverine Hydrochloride RS taken System suitability— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with phenylated silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 2.21 g of potassium dihydrogen phosphate and 1.51 g of sodium 1-octane sulfonate in 650 mL of water, adjust to pH 3.2 with phosphoric acid, and add 350 mL of acetonitrile. Flow rate: Adjust so that the retention time of propiverine is about 17 minutes. System suitability— System performance: When the procedure is run with 15 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of propiverine are not less than 6000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 15 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of propiverine is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/glyceryl-monostearate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Glyceryl Monostearate",
+    "ja": "モノステアリン酸グリセリン"
+  },
+  "monographId": "JP18-glyceryl-monostearate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Glyceryl Monostearate occurs as white to light yellow, waxy masses, thin flakes, or granules. It has a char-acteristic odor and taste. It is very soluble in hot ethanol (95), soluble in chlo-roform, sparingly soluble in diethyl ether, and practically in-soluble in water and in ethanol (95). It is slowly affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 0.2 g of Glyceryl Monostearate with 0.5 g of potassium hydrogen sulfate until thoroughly charred: the irritative odor of acrolein is perceptible. (2) Dissolve 0.1 g of Glyceryl Monostearate in 2 mL of ethanol (95) by warming, heat with 5 mL of dilute sulfuric acid in a water bath for 30 minutes, and cool: a white to yel-low solid is produced. This separated solid dissolves when shaken with 3 mL of diethyl ether. ‌JP XVIII Official Monographs / Gonadorelin Acetate 1083‌ Melting point <1.13> Not below 559C. Acid value <1.13> Not more than 15. Saponification value <1.13> 157 – 170 Iodine value <1.13> Not more than 3.0. Use chloroform in-stead of cyclohexane."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "<1.13> Acidity or alkalinity—To 1.0 g of Glyceryl Monostearate add 20 mL of boiling water, and cool with swirling: the solution is neutral. Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

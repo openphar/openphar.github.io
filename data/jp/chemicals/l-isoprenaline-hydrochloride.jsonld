@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/l-isoprenaline-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "l-Isoprenaline Hydrochloride",
+    "ja": "l-イソプレナリン塩酸塩"
+  },
+  "monographId": "JP18-l-isoprenaline-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C11H17NO3.HCl",
+  "molecularWeight": 247.72,
+  "casNumber": "5984-95-2",
+  "definition": {
+    "en": "l-Isoprenaline Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "l-Isoprenaline Hydrochloride occurs as a white, crystalline powder. It is odorless. It is freely soluble in water, sparingly soluble in ethanol (95), and practically insoluble in acetic acid (100), in acetic anhydride, in diethyl ether and in chloroform. It gradually changes in color by air and by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of l-Isoprenaline Hy-drochloride in 5 mL of water, and add 1 drop of iron (III) chloride TS: a deep green color develops, and changes through yellow-green to brown on standing. Dissolve 1 mg each of l-Isoprenaline Hydrochloride in 1 mL of water in the test tubes A and B. Add 10 mL of potassium hydrogen phthalate buffer solution (pH 3.5) to A, and add 10 mL of phosphate buffer solution (pH 6.5) to B. To each of the test tubes add 1 mL of iodine TS, allow to stand for 5 minutes, and add 2 mL each of sodium thiosul-fate TS: a red color develops in the test tube A, and a deep red color develops in the test tube B. Dissolve 10 mg of l-Isoprenaline Hydrochloride in 1 mL of water, and add 1 mL of phosphotungstic acid TS: a light brown precipitate is produced. Determine the absorption spectrum of a solution of l-Isoprenaline Hydrochloride in 0.1 mol/L hydrochloric acid TS (1 in 20,000) as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. A solution of l-Isoprenaline Hydrochloride (1 in 10) responds to Qualitative Tests <1.09> (2) for chloride. D Optical rotation <2.49> [a]20: －36 – －419(after drying, 0.25 g, water, 25 mL, 100 mm). pH <2.54> Dissolve 0.10 g of l-Isoprenaline Hydrochloride in 10 mL of water: the pH of the solution is between 4.5 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of l-Isoprenaline Hydrochloride in 20 mL of 0.1 mol/L hy-drochloric acid TS: the solution is clear and colorless. Sulfate <1.14>—Perform the test with 0.10 g of l- ‌JP XVIII Official Monographs / Isopropylantipyrine 1203‌ Isoprenaline Hydrochloride. Prepare the control solution with 0.40 mL of 0.005 mol/L sulfuric acid VS (not more than 0.192z). Heavy metals <1.07>—Proceed with 1.0 g of l- Isoprenaline Hydrochloride according to Method 1, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Isoproterenone—Dissolve 50 mg of l-Isoprenaline Hydrochloride in 0.01 mol/L hydrochloric acid TS to make exactly 25 mL, and determine the absorbance of the solution at 310 nm as directed under Ultraviolet-visible Spectropho-tometry <2.24>: not more than 0.040. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, silica gel, 4 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of l-Isoprenaline Hy-drochloride, previously dried, dissolve in 100 mL of a mix-ture of acetic acid (100) and acetic anhydride (3:2) by warm-ing, cool, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 24.77 mg of C11H17NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

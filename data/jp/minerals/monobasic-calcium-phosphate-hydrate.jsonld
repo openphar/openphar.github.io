@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/monobasic-calcium-phosphate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Monobasic Calcium Phosphate Hydrate",
+    "ja": "リン酸二水素カルシウム水和物"
+  },
+  "monographId": "JP18-monobasic-calcium-phosphate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Monobasic Calcium Phosphate Hydrate, previously dried, dissolve in 3 mL of dilute hydrochloric acid, and add water to make exactly 100 mL. Pipet 20 mL of this solution, add exactly 25 mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS, 50 mL of water and 5 mL of ammonia-ammonium chlo-ride buffer solution (pH 10.7), and titrate <2.50> the excess ‌JP XVIII Official Monographs / Calcium Polystyrene Sulfonate 607 disodium dihydrogen ethylenediamine tetraacetate with 0.02 mol/L zinc acetate VS (indicator: 25 mg of eriochrome black T-sodium chloride indicator). Perform a blank determina-tion in the same manner. Each mL of 0.02 mol/L disodium dihydrogen ethylenediamine tetraacetate VS ＝ 5.041 mg of Ca(H2PO4)2.H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

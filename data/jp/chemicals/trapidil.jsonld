@@ -1,0 +1,36 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/trapidil",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Trapidil",
+    "ja": "トラピジル"
+  },
+  "monographId": "JP18-trapidil",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H15N5",
+  "molecularWeight": 205.26,
+  "definition": {
+    "en": "Trapidil, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Trapidil occurs as a white to pale yellow-white crystalline powder. ‌It is very soluble in water and in methanol, freely soluble in ethanol (95), in acetic anhydride and in acetic acid (100), and sparingly soluble in diethyl ether. The pH of a solution of 1.0 g of Trapidil in 100 mL of water is between 6.5 and 7.5."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Trapidil (1 in 50) add 3 drops of Dragendorff's TS: an orange color devel-ops. (2) Determine the absorption spectrum of a solution of Trapidil (1 in 125,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wavelengths."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

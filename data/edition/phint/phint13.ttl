@@ -1,0 +1,72 @@
+# Open Pharmacopoeia - Ph.Int.13 Edition Metadata
+#
+# International Pharmacopoeia 13th Edition (Ph.Int.13)
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix bib: <https://www.openphar.org/ontology/bibliographic/> .
+@prefix edition: <https://www.openphar.org/data/edition/> .
+
+# =============================================================================
+# INTERNATIONAL PHARMACOPOEIA 13TH EDITION
+# =============================================================================
+
+edition:phint/phint13
+    a bib:Edition ;
+    skos:prefLabel "International Pharmacopoeia 13th Edition"@en ;
+    skos:prefLabel "Pharmacopée Internationale 13e Édition"@fr ;
+    skos:altLabel "Ph.Int.13"@en ;
+    skos:altLabel "PhInt 13"@en ;
+    skos:altLabel "The International Pharmacopoeia"@en ;
+
+    bib:editionNumber "13" ;
+    bib:hasPublisher op:PhInt ;
+
+    # Dates - Ph.Int.13 was published in 2023
+    bib:publicationDate "2023-01-01"^^xsd:date ;
+    bib:effectiveDate "2023-01-01"^^xsd:date ;
+
+    # Statistics
+    bib:monographCount 989 ;
+
+    # Official URL
+    bib:editionUrl <https://digicollections.net/phint/> ;
+
+    # Languages
+    bib:officialLanguage "en" ;
+    bib:officialLanguage "fr" ;
+
+    dct:description """
+The International Pharmacopoeia (Ph.Int.) comprises a collection of quality specifications
+for pharmaceutical substances and dosage forms. It is published by the World Health
+Organization (WHO) and provides international standards for medicines.
+
+The Ph.Int.13 includes:
+- Pharmaceutical substances (chemical drugs)
+- Radiopharmaceuticals
+- Specific monographs for dosage forms
+- General methods of analysis
+- Reagents, test solutions, and reference substances
+
+Unlike national pharmacopoeias, the International Pharmacopoeia is intended to serve
+as a basis for national pharmacopoeias and to provide standards for medicines that
+are internationally traded, particularly for use in developing countries.
+"""@en .
+
+# =============================================================================
+# WHO PUBLISHER
+# =============================================================================
+
+op:PhInt
+    a op:Publisher ;
+    skos:prefLabel "International Pharmacopoeia"@en ;
+    skos:prefLabel "Pharmacopée Internationale"@fr ;
+    skos:altLabel "Ph.Int."@en ;
+    skos:altLabel "WHO Pharmacopoeia"@en ;
+    rdfs:comment "Published by the World Health Organization (WHO)"@en ;
+    op:publisherCountry "INT" ;
+    op:publisherUrl <https://www.who.int/teams/health-product-and-policy-standards/inn-and-pharmacopoeia> .

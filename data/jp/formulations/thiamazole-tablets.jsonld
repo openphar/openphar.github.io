@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/thiamazole-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Thiamazole Tablets",
+    "ja": "チアマゾール錠"
+  },
+  "monographId": "JP18-thiamazole-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To a quantity of powdered Thiamazole Tablets, equivalent to 0.05 g of Thiamazole, add 20 mL of hot ethanol (95), shake for 15 minutes, filter, and evaporate the filtrate on a water bath to dryness. Dissolve the residue in 10 mL of water, filter if necessary, and use this solution as the sample solution. To 1 mL of the sample solution add 1 mL of sodium hydroxide TS, shake, and add 3 drops of so-dium pentacyanonitrosylferrate (III) TS: a yellow color de-velops, and it gradually changes to yellow-green to green. To this solution add 1 mL of acetic acid (31): it changes to blue. (2) With 2 mL of the sample solution obtained in (1), proceed as directed in the Identification (2) under Thiama-zole."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately and powder not less than 20 Thiamazole Tablets. Weigh accurately a quantity of the powder, equivalent to about 0.15 g of thiamazole (C4H6N2S), add 80 mL of water, shake for 15 minutes, add water to make exactly 100 mL, and centrifuge. Filter, dis-card the first 20 mL of the filtrate, pipet 50 mL of the subse-quent filtrate, add 1 mL of bromothymol blue TS, and if a blue color develops, neutralize with 0.1 mol/L hydrochloric acid VS until the color of the solution changes to green. To this solution add 4.5 mL of 0.1 mol/L sodium hydroxide VS from a burette, add 15 mL of 0.1 mol/L silver nitrate VS while stirring, and titrate <2.50> with 0.1 mol/L sodium hy- droxide VS. Continue the titration until a persistent blue-green color is produced, and determine the total volume of 0.1 mol/L sodium hydroxide VS consumed. Each mL of 0.1 mol/L sodium hydroxide VS ＝ 11.42 mg of C4H6N2S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  },
+  "dosageForm": "Tablet"
+}

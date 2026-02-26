@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sulfobromophthalein-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sulfobromophthalein Sodium",
+    "ja": "スルホブロモフタレインナトリウム"
+  },
+  "monographId": "JP18-sulfobromophthalein-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulfobromophthalein Sodium, when dried, contains not less than 96."
+  },
+  "appearance": {
+    "en": "Sulfobromophthalein Sodium occurs as a white crystalline powder. It is odorless. It is soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 0.02 g of Sulfobromophthalein Sodium in 10 mL of water, and add 1 mL of sodium carbon-ate TS: a blue-purple color is produced. Add 1 mL of dilute hydrochloric acid to the solution: the color of the solution disappears. Transfer 0.2 g of Sulfobromophthalein Sodium to a porcelain crucible, mix well with 0.5 g of anhydrous sodium carbonate, and ignite until the mixture is charred. After cooling, add 15 mL of hot water to the residue, heat for 5 minutes on a water bath, filter, and render the filtrate slightly acid with hydrochloric acid: the solution responds to Qualitative Tests <1.09> for bromide, and (1) and (2) for sul-fate. Sulfobromophthalein Sodium responds to Qualita-tive Tests <1.09> (1) for sodium salt. pH <2.54> The pH of a solution of 1.0 g of Sulfobromo-phthalein Sodium in 20 mL of water is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Sulfobromophthalein Sodium in 10 mL of water: the so-lution is clear and colorless to pale yellow. Loss on drying <2.41> Not more than 5.0z (0.5 g, 1059C, hours). Residue on ignition <2.44> 14 – 19z (after drying, 0.5 g, 700 – 7509C)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 0.1 g of Sulfobromophthalein So-dium, previously dried and accurately weighed, in water to make exactly 500 mL. Pipet 5 mL of this solution, and add a solution of anhydrous sodium carbonate (1 in 100) to make exactly 200 mL. Perform the test with this solution as di-rected under Ultraviolet-visible Spectrophotometry <2.24>. Determine the absorbance A of this solution at the wave-length of maximum absorption at about 580 nm, using water as the blank. Amount (mg) of sulfobromophthalein sodium (C20H8Br4Na2O10S2) ＝ A/881 × 200,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

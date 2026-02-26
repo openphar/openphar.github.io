@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/kainic-acid-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Kainic Acid Hydrate",
+    "ja": "カイニン酸水和物"
+  },
+  "monographId": "JP18-kainic-acid-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H15NO4.H2O",
+  "molecularWeight": 231.25,
+  "definition": {
+    "en": "Kainic Acid Hydrate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Kainic Acid Hydrate occurs as white, crystals or crystalline powder. It is odorless, and has an acid taste. It is sparingly soluble in water and in warm water, very slightly soluble in acetic acid (100) and in ethanol (95), and practically insoluble in diethyl ether. It dissolves in dilute hydrochloric acid and in sodium hy-droxide TS. The pH of a solution of 1.0 g of Kainic Acid Hydrate in 100 mL of water is between 2.8 and 3.5. Melting point: about 2529C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 5 mL of a solution of Kainic Acid Hydrate (1 in 5000) add 1 mL of ninhydrin TS, and warm in a water bath at a temperature between 609C and 709C for 5 minutes: a yellow color is produced. Dissolve 50 mg of Kainic Acid Hydrate in 5 mL of acetic acid (100), and add 0.5 mL of bromine TS: the color of bromine disappears immediately. D Optical rotation <2.49> [a]20: －13 – －179(0.5 g, water, 50 directed above (not more than 0.021z). Sulfate <1.14>—Dissolve 0.5 g of Kainic Acid Hy-drate in 40 mL of water by warming. Cool, add 1 mL of dilute hydrochloric acid and water to make 50 mL, and per-form the test using this solution as the test solution. Prepare the control solution with 0.30 mL of 0.005 mol/L sulfuric acid VS (not more than 0.028z). Ammonium <1.02>—Take 0.25 g of Kainic Acid Hy- drate, and perform the test. Prepare the control solution with 5.0 mL of Standard Ammonium Solution (not more than 0.02z). Heavy metals <1.07>—Proceed with 1.0 g of Kainic Acid Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Dissolve 1.0 g of Kainic Acid Hy- drate in 5 mL of dilute hydrochloric acid, and perform the test with this solution as the test solution (not more than 2 ppm). Amino acid and other imino acid—Dissolve 0.10 g of Kainic Acid Hydrate in 10 mL of water, and use this solution as the sample solution. Pipet 2 mL of the sample solution, and add water to make exactly 100 mL. Pipet 1 mL of this solution, add water to make exactly 20 mL, and use this so-lution as the standard solution. Perform the test as directed under Thin-layer Chromatography <2.03> with these solu-tions. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with the supernatant liquid of a mix-ture of water, 1-butanol and acetic acid (100) (5:4:1) to a dis-tance of about 10 cm, and air-dry the plate. Spray evenly a solution of ninhydrin in acetone (1 in 50) on the plate, and dry the plate at 809C for 5 minutes: the spots other than the principal spot from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> 6.5 – 8.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Kainic Acid Hy-drate, previously dried, and dissolve in 50 mL of warm water, cool and titrate <2.50> with 0.1 mol/L sodium hy-droxide VS (indicator: 10 drops of bromothymol blue TS). Each mL of 0.1 mol/L sodium hydroxide VS ＝ 21.32 mg of C10H15NO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

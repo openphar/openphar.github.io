@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyethylene-glycol-400",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Polyethylene Glycol 400",
+    "ja": "‌マクロゴール 400"
+  },
+  "monographId": "JP18-polyethylene-glycol-400",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Macrogol 400 occurs as a clear, colorless and viscous liquid. It has no odor or a slight, characteristic odor. It is miscible with water, with methanol, with ethanol (95) and with pyridine. It is soluble in diethyl ether. It is slightly hygroscopic. Congealing point: 4 – 89C Specific gravity d 20: 1.110 – 1.140"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 50 mg of Macrogol 400 in 5 mL of dilute hydrochloric acid, add 1 mL of barium chloride TS, shake, and filter, if necessary. To the filtrate add 1 mL of a solution of phosphomolybdic acid n-hydrate (1 in 10): a yellow-green precipitate is formed. pH <2.54> Dissolve 1.0 g of Macrogol 400 in 20 mL of water: the pH of this solution is between 4.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Acidity—Dissolve 5.0 g of Macrogol 400 in 20 mL of neutralized ethanol, and add 2 drops of phenol-phthalein TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS: the solution is red in color. (2) Ethylene glycol and diethylene glycol—Dissolve 4.0 g of Macrogol 400 in water to make exactly 10 mL, and use this solution as the sample solution. Weigh accurately about 50 mg each of ethylene glycol and diethylene glycol, dissolve in water to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following con-ditions. Determine the peak heights, HTa and HSa, of ethyl-ene glycol of each solution, and the peak heights, HTb and HSb, of diethylene glycol, and calculate the amount of ethyl-ene glycol and diethylene glycol: the sum of the contents of ethylene glycol and diethylene glycol is not more than 0.25z. Amount (mg) of ethylene glycol ＝ MSa × HTa/HSa × 1/10 Amount (mg) of diethylene glycol solution under the above operating conditions, and calculate the resolution. Use a column clearly dividing peaks of ethyl-ene glycol and diethylene glycol in this order. Detection sensitivity: Adjust the detection sensitivity so that the peak height of diethylene glycol obtained from 2 mL of the standard solution composes about 80z of the full scale. Average molecular mass Add 42 g of phthalic anhydride to 300 mL of freshly distilled pyridine, exactly measured, in a 1-L light-resistant glass-stoppered bottle. Shake the bottle vigorously to dissolved the solid, and allow to stand for 16 hours or more. Pipet 25 mL of this solution into an about 200-mL glass-stoppered pressure bottle. Add about 1.5 g of Macrogol 400, accurately weighed, stopper the bottle, wrap it securely with strong cloth, and immerse in a water bath, having a temperature of 98 ± 29C, to the level so that the mixture in the bottle soaks completely in water. Maintain the temperature of the bath at 98 ± 29C for 30 minutes. Re-move the bottle from the bath, and allow to cool in air to room temperature. Add exactly 50 mL of 0.5 mol/L sodium hydroxide VS and 5 drops of a solution of phenolphthalein in pyridine (1 in 100). Titrate <2.50> with 0.5 mol/L sodium hydroxide VS until a light red color remains for not less than 15 seconds. Perform a blank determination in the same man-ner. Average molecular mass ＝ (M × 4000)/(a － b ) M: Amount (g) of Macrogol 400 taken a: Volume (mL) of 0.5 mol/L sodium hydroxide VS used in the blank determination b: Volume (mL) of 0.5 mol/L sodium hydroxide VS used in the test of the sample Average molecular mass is between 380 and 420. Water <2.48> Not more than 1.0z (2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

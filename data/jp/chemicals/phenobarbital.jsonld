@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/phenobarbital",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Phenobarbital",
+    "ja": "フェノバルビタール"
+  },
+  "monographId": "JP18-phenobarbital",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C12H12N2O3",
+  "molecularWeight": 232.24,
+  "definition": {
+    "en": "Phenobarbital, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Phenobarbital occurs as white, crystals or crys-talline powder. It is very soluble in N,N-dimethylformamide, freely solu-ble in ethanol (95) and in acetone, sparingly soluble in aceto-nitrile, and very slightly soluble in water. It dissolves in sodium hydroxide TS. The pH of a saturated solution of Phenobarbital is be-tween 5.0 and 6.0."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Phenobarbital in boric acid-potassium chloride-sodium hydroxide buffer solution (pH 9.6) (1 in 100,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Phenobarbital as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Phenobarbital in 5 mL of sodium hydroxide TS: the solu-tion is clear and colorless. Chloride <1.03>—Dissolve 0.30 g of Phenobarbital in 20 mL of acetone, and add 6 mL of dilute nitric acid and water to make 50 mL. Perform the test using this solution as the test solution. Prepare the control solution as follows: Amount (unit) of phenethicillin potassium (C ＝ MS × VT/VS 17H19KN2O5S) take 0.30 mL of 0.01 mol/L hydrochloric acid VS, 20 mL of acetone and 6 mL of dilute nitric acid, and add water to make 50 mL (not more than 0.035z). MS: Amount (unit) of Phenethicillin Potassium RS taken"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Phenobarbital, pre-viously dried, dissolve in 50 mL of N,N-dimethylformamide, and titrate <2.50> with 0.1 mol/L potassium hydroxide-ethanol VS until the color of the solution change from yel-low to yellow-green (indicator: 1 mL of alizarin yellow GG-thymolphthalein TS). Perform a blank determination using a mixture of 50 mL of N,N-dimethylformamide and 22 mL of ethanol (95) in the same manner, and make any necessary correction. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 23.22 mg of C12H12N2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

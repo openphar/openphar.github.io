@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/notopterygii-rhizoma",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Notopterygii Rhizoma",
+    "ja": "キョウカツ"
+  },
+  "monographId": "JP18-notopterygii-rhizoma",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Notopterygium is slightly curved, cylindrical to conical, 3 – 10 cm in length, 5 – 20 mm in diameter; rhizome occasionally branched; externally yellow-brown to dark brown. The rhizome with nearly orbicular, hollowed stem scars at the apex, sometimes having short residue of stem; externally node rising, internode short; root scars in warty processes on the node; externally root has coarse lon-gitudinal wrinkles and lateral root scars in warty processes; light and slightly brittle in texture, easy to break. The trans-verse section of the rhizome reveals numerous radial cracks; cortex yellow-brown to brown; xylem light yellow to light grayish yellow; pith grayish white to light brown. Under a magnifying glass, the rhizome reveals brown, fine points of resin canals in the cortex and pith. Odor, characteristic; taste, a slight characteristic taste at first, followed by a slightly pungent and slightly numbing aftertaste. Under a microscope <5.01>, transverse section shows the outermost layer to be composed of a cork layer several to a dozen or so cells thick; several-layered collenchyma just in-side of the cork layer; oil canals scattered in cortex, large ones more than 300 mm in diameter; intercellular space oc-curring in radial direction in cortex; oil canals scattered in pith, large ones more than 500 mm in diameter; parenchyma-tous cells contain simple and 2- to 3-compound starch grains."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.3 g of pulverized Notopterygium add 3 mL of hexane in a glass-stoppered centrifuge tube, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of octadecylsilanized silica gel with fluorescent indicator for thin-layer chromatog-raphy, develop the plate with a mixture of methanol and water (9:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): a blue-white fluorescent spot appears at an Rf value of about 0.5, which shows a dark purple color under ultraviolet light (main wavelength: 254 nm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Notopterygium according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Notopterygium according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 13.0z (6 hours). Total ash <5.01> Not more than 6.5z. Acid-insoluble ash <5.01> Not more than 1.5z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 20.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

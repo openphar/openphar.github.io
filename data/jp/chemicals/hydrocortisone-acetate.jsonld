@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydrocortisone-acetate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydrocortisone Acetate",
+    "ja": "ヒドロコルチゾン酢酸エステル"
+  },
+  "monographId": "JP18-hydrocortisone-acetate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C23H32O6",
+  "molecularWeight": 404.5,
+  "definition": {
+    "en": "Hydrocortisone Acetate, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Hydrocortisone Acetate occurs as white, crys-tals or crystalline powder. It is freely soluble in dimethylsulfoxide, slightly soluble in methanol and in ethanol (95), and practically insoluble in water. Melting point: about 2209C (with decomposition). It shows crystal polymorphism."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Add 2 mL of sulfuric acid to 2 mg of Hydrocortisone Acetate: the solution shows a yellowish green fluorescence immediately, and the color of the solution gradually changes through orange-yellow to dark red. This solution shows a strong light green fluorescence under ultra-violet light. Add carefully 10 mL of water to this solution: the color changes from yellow to orange-yellow with a light green fluorescence, and a yellow-brown, flocculent precipi-tate is formed. Dissolve 0.01 g of Hydrocortisone Acetate in 1 mL of methanol by warming, add 1 mL of Fehling's TS, and heat: an orange to red precipitate is formed. To 0.05 g of Hydrocortisone Acetate add 2 mL of po-tassium hydroxide-ethanol TS, and heat on a water bath for 5 minutes. Cool, add 2 mL of diluted sulfuric acid (2 in 7), and boil gently for 1 minute: the odor of ethyl acetate is per-ceptible. Determine the infrared absorption spectra of Hydro-cortisone Acetate and Hydrocortisone Acetate RS, previ-ously dried, as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>: both the sample and the RS exhibit similar intensities of absorption at the same wave numbers. If any difference appears, dissolve the sample and the Reference Standard in ethanol (95), respectively, evaporate to dryness, and repeat the test on the residues. D Optical rotation <2.49> [a]25: ＋154 – ＋1649(after drying, 50 mg, dimethylsulfoxide, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Dissolve 40 mg of Hydrocorti-sone Acetate in 25 mL of a mixture of chloroform and meth-anol (9:1), and use this solution as the sample solution. Pipet 2 mL of the sample solution, add a mixture of chloroform and methanol (9:1) to make exactly 100 mL, and use this so-lution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatogra-phy. Develop the plate with a mixture of dichloromethane, diethyl ether, methanol and water (160:30:8:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly alkaline blue tetrazolium TS on the plate: the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (0.5 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Dissolve about 20 mg each of Hydrocortisone Ace-tate and Hydrocortisone Acetate RS, previously dried and accurately weighed, in methanol, add exactly 10 mL each of the internal standard solution, then add methanol to make 100 mL, and use these solutions as the sample solution and standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liq-uid Chromatography <2.01> according to the following con-ditions, and calculate the ratios, QT and QS, of the peak area of hydrocortisone acetate to that of the internal standard, re-spectively. Amount (mg) of hydrocortisone acetate (C23H32O6) ＝ MS × QT/QS MS: Amount (mg) of Hydrocortisone Acetate RS taken ‌JP XVIII Official Monographs / Hydrocortisone Butyrate 1115‌ Internal standard solution—A solution of benzyl parahy-droxybenzoate in methanol (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water and acetonitrile (13:7). Flow rate: Adjust so that the retention time of hydrocorti- sone acetate is about 8 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, hydrocortisone acetate and the internal standard are eluted in this order with the resolution between these peaks being not less than 4. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratios of the peak area of hydrocortisone acetate to that of the in-ternal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

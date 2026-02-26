@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/euodiae-fructus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Euodiae Fructus",
+    "ja": "ゴシュユ"
+  },
+  "monographId": "JP18-euodiae-fructus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Flattened spheroidal or globular fruit, 2 – 5 mm in diameter; externally dark brown to grayish brown, with many oil sacs appearing as hollow pits, and often with peduncle, 2 – 5 mm in length, covered densely with hairs; pericarp in matured split to five loculi, and each loculus containing obovoid or globular seeds of a lustrous brown to black-brown or bluish black color. Odor, characteristic; taste, acrid, followed by a lasting bitterness."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.0 g of pulverized Euodia Fruit add 10 mL of methanol, shake for 10 minutes, centrifuge, and use the supernatant liquid as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography. De-velop the plate with a mixture of acetone, 2-propanol, water and formic acid (7:7:1:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 365 nm): a blue-white fluorescent spot is ob-served at an Rf value of about 0.6. The spot shows a yellow-red color after being sprayed evenly Dragendorff's TS for spraying."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Peduncle—The amount of peduncles contained in Euodia Fruit does not exceed 5.0z. (2) Foreign matter <5.01>—The amount of foreign mat- ter other than peduncles contained in Euodia Fruit does not exceed 1.0z. Total ash <5.01> Not more than 8.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

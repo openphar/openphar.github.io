@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/fenbufen",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Fenbufen",
+    "ja": "フェンブフェン"
+  },
+  "monographId": "JP18-fenbufen",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C16H14O3",
+  "molecularWeight": 254.28,
+  "definition": {
+    "en": "Fenbufen, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Fenbufen occurs as a white crystalline powder. It has a bitter taste. It is sparingly soluble in acetone, slightly soluble in metha-nol, in ethanol (95) and in diethyl ether, and practically in-soluble in water. Melting point: about 1889C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a Amount (mg) of felodipine (C18H19Cl2NO4) ＝ M S × QT/QS solution of Fenbufen in ethanol (95) (1 in 200,000) as di-rected under Ultraviolet-visible Spectrophotometry <2.24>, MS: Amount (mg) of felodipine for assay taken, calcu-lated on the dried basis Internal standard solution—A solution of butyl para-hydroxybenzoate in methanol (1 in 6000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 264 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of methanol, water, a solution of sodium perchlorate monohydrate (281 in 2000) and diluted perchloric acid (17 in 200) (65:25:8:2). Flow rate: Adjust so that the retention time of felodipine is about 12 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard and felodipine are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of felodipine is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Take 2.0 g of Fenbufen, add 2 mL of sulfuric acid, and carbonize by gentle heating, proceed according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So-lution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Fenbufen according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.1 g of Fenbufen in 20 mL of acetone, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add acetone to make exactly 100 mL, and use this solution as the standard solu-tion. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of dichloromethane, meth-anol and water (80:20:3) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the principal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.3z (1 g, 1059C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Fenbufen, previ-ously dried, dissolve in 100 mL of ethanol (99.5), and titrate <2.50> with 0.1 mol/L potassium hydroxide-ethanol VS (potentiometric titration). Perform a blank determination in ‌JP XVIII Official Monographs / Fenofibrate 1001 the same manner, and make any necessary correction. Each mL of 0.1 mol/L potassium hydroxide-ethanol VS ＝ 25.43 mg of C16H14O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@base": "https://www.openphar.org/data/jp/media/images/",
+    "schema": "https://schema.org/",
+    "op": "https://www.openphar.org/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "contentUrl": "schema:contentUrl",
+    "encodingFormat": "schema:encodingFormat",
+    "width": "schema:width",
+    "height": "schema:height",
+    "sha256": {
+      "@type": "xsd:string"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "publisher": {
+      "@type": "@id"
+    },
+    "downloaded": {
+      "@type": "xsd:date"
+    },
+    "attribution": {
+      "@type": "op:Attribution"
+    }
+  },
+  "@id": "https://www.openphar.org/data/jp/media/images/general-tests/viscosity/diagram24",
+  "@type": [
+    "schema:ImageObject",
+    "op:MethodImage"
+  ],
+  "name": {
+    "en": "Diagram 24 - viscosity",
+    "ja": "viscosity - 図24"
+  },
+  "description": {
+    "en": "Illustration from JP XVIII General Tests, Processes and Apparatus"
+  },
+  "contentUrl": "https://www.openphar.org/data/jp/media/images/general-tests/viscosity/diagram24.png",
+  "encodingFormat": "image/png",
+  "width": 313,
+  "height": 0,
+  "sha256": "440029ca013af19b",
+  "isPartOf": {
+    "@id": "https://www.openphar.org/ontology/method/viscosity",
+    "@type": "op:TestMethod",
+    "name": {
+      "en": "viscosity"
+    }
+  },
+  "attribution": {
+    "@type": "op:Attribution",
+    "op:copyright": "Japanese Ministry of Health, Labour and Welfare",
+    "op:license": "Japanese Pharmacopoeia XVIII - Official Publication",
+    "op:licenseUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000064398.html",
+    "op:source": "Japan Pharmacopoeia (JP XVIII)",
+    "op:sourceFile": "jp18-1-general-tests.html",
+    "op:sourceImage": "jp18-1-general-tests_files/Image_176.png",
+    "op:note": "Test method illustration from JP XVIII General Tests",
+    "spdxId": "NONE",
+    "spdxUrl": null
+  },
+  "downloaded": "2026-02-24",
+  "publisher": {
+    "@id": "https://www.openphar.org/ontology/publisher/JP",
+    "name": "Japan Pharmacopoeia"
+  }
+}

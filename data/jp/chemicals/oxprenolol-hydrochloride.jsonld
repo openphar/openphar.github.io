@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxprenolol-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxprenolol Hydrochloride",
+    "ja": "オクスプレノロール塩酸塩"
+  },
+  "monographId": "JP18-oxprenolol-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C15H23NO3.HCl",
+  "molecularWeight": 301.81,
+  "definition": {
+    "en": "Oxprenolol Hydrochloride, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Oxprenolol Hydrochloride occurs as a white crystalline powder. It is very soluble in water, freely soluble in ethanol (95) and in acetic acid (100), slightly soluble in acetic anhydride, and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 2 mL of a solution of Oxprenolol Hydrochloride (1 in 100) add 1 drop of copper (II) sulfate TS and 2 mL of sodium hydroxide TS: a blue-purple color de-velops. To this solution add 1 mL of diethyl ether, shake well, and allow to stand: a red-purple color develops in the diethyl ether layer, and a blue-purple color develops in the water layer. To 3 mL of a solution of Oxprenolol Hydrochloride (1 in 150) add 3 drops of Reinecke salt TS: a light red pre-cipitate is formed. Determine the infrared absorption spectrum of Ox-prenolol Hydrochloride, previously dried, as directed in the potassium chloride disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Oxprenolol Hydrochloride (1 in 50) re-sponds to Qualitative Tests <1.09> for chloride. pH <2.54> Dissolve 1.0 g of Oxprenolol Hydrochloride in 10 mL of water: the pH of this solution is between 4.5 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Oxprenolol Hydrochloride in 10 mL of water: the solu-tion is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Ox- prenolol Hydrochloride according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g ‌of Oxprenolol Hydrochloride according to Method 3, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.25 g of Oxprenolol Hydrochloride in 10 mL of water, and use this solution as the sample solution. Pipet 4 mL of the sample solution, and add water to make exactly 100 mL. Pipet 5 mL of this solu-tion, add water to make exactly 100 mL, and use this solu-tion as the standard solution. Perform the test with these so-lutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solu-tion on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate in a devel-oping chamber saturated with ammonia vapor with a mix-ture of chloroform and methanol (9:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): the spots other than the princi-pal spot obtained from the sample solution are not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 0.5z (1 g, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Oxprenolol Hydro-chloride, previously dried, dissolve in 50 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 30.18 mg of C15H23NO3.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/scopolamine-hydrobromide-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Scopolamine Hydrobromide Hydrate",
+    "ja": "スコポラミン臭化水素酸塩水和物"
+  },
+  "monographId": "JP18-scopolamine-hydrobromide-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C17H21NO4.HBr.3H2O",
+  "molecularWeight": 438.31,
+  "definition": {
+    "en": "Scopolamine Hydrobromide Hydrate, when dried, contains not less than 98."
+  },
+  "appearance": {
+    "en": "Scopolamine Hydrobromide Hydrate occurs as colorless or white crystals, or white granules or powder. It is odorless. It is freely soluble in water, sparingly soluble in ethanol (95) and in acetic acid (100), and practically insoluble in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 1 mg of Scopolamine Hydro-bromide Hydrate add 3 to 4 drops of fuming nitric acid, evaporate on a water bath to dryness, and cool. Dissolve the residue in 1 mL of N,N-dimethylformamide, and add 6 drops of tetraethylammonium hydroxide TS: a red-purple color is produced. (2) A solution of Scopolamine Hydrobromide Hydrate (1 in 20) responds to Qualitative Tests <1.09> for bromide. D Optical rotation <2.49> [a]20: －24.0 – －26.09(after dry-ing, 0.5 g, water, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Scopolamine Hydrobromide Hydrate in 10 mL of water: the solution is clear and colorless. Acidity—Dissolve 0.50 g of Scopolamine Hydro-bromide Hydrate in 15 mL of water, and add 0.50 mL of 0.02 mol/L sodium hydroxide VS and 1 drop of methyl red-methylene blue TS: a green color develops. Apoatropine—Dissolve 0.20 g of Scopolamine Hydrobromide Hydrate in 20 mL of water, add 0.60 mL of 0.002 mol/L potassium permanganate VS, and allow to stand for 5 minutes: the red color in the solution does not disappear. Related substances—Dissolve 0.15 g of Scopolamine Hydrobromide Hydrate in 3 mL of water, and use this solu-tion as the sample solution. To 1 mL of the sample solution add 2 to 3 drops of ammonia TS: no turbidity is produced. To 1 mL of the sample solution add 2 to 3 drops of potassium hydroxide TS: a transient white turbidity might be produced, and disappears clearly in a little while. Loss on drying <2.41> Not more than 13.0z [1.5 g, first dry in a desiccator (silica gel) for 24 hours, then dry at 1059C for 3 hours]. Residue on ignition <2.44> Not more than 0.1z (1 g). ‌Assay Weigh accurately about 0.5 g of Scopolamine Hydrobromide Hydrate, previously dried, in 10 mL of acetic acid (100) by warming. After cooling, add 40 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction.‌ Each mL of 0.1 mol/L perchloric acid VS ＝ 38.43 mg of C17H21NO4.HBr"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.8 g of Scopolamine Butyl-bromide, previously dried, dissolve in 40 mL of acetic acid (100) and 30 mL of acetic anhydride, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 44.04 mg of C21H30BrNO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

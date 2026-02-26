@@ -1,0 +1,38 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/glycyrrhizae-radix-pulverata",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Glycyrrhizae Radix Pulverata",
+    "ja": "カンゾウ末"
+  },
+  "monographId": "JP18-glycyrrhizae-radix-pulverata",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Glycyrrhiza is light yellow-brown or light yellow to grayish yellow (powder of peeled Glycyrrhiza) in color. It has a slight odor and a sweet taste. Under a microscope <5.01>, Powdered Glycyrrhiza reveals mainly yellow sclerenchymatous fiber bundles accompanied with crystal cell rows; vessels, 80 – 200 mm in diameter, with pitted, reticulate and scalariform pits, and with round perfo-rations; parenchyma cells, containing starch grains and soli-tary crystals of calcium oxalate, their fragments, and cork tissues; but powder of peeled Glycyrrhiza shows no cork tissue; if any, a very few. Starch grains are simple grains, 2 – 20 mm in diameter; solitary crystals of calcium oxalate, 10 – 30 mm in a diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 2 g of Powdered Glycyrrhiza add 10 mL of a mixture of ethanol (95) and water (7:3), heat by shaking on a water bath for 5 minutes, cool, filter, and use the fil-trate as the sample solution. Separately, dissolve 5 mg of Glycyrrhizic Acid RS or glycyrrhizic acid for thin-layer chro-matography in 1 mL of a mixture of ethanol (95) and water (7:3), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 2 mL each of the sample solu-tion and standard solution on a plate of silica gel with fluo-rescent indicator for thin-layer chromatography. Develop the plate with a mixture of 1-butanol, water and acetic acid (100) (7:2:1) to a distance of about 7 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solu-tion and a spot from the standard solution show the same color tone and the same Rf value. ‌JP XVIII Crude Drugs and Related Drugs / Glycyrrhiza Extract 2015"
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of Powdered Glycyrrhiza according to Method 3, and perform the test. Prepare the control solution with 3.0 mL of Stand-ard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.40 g of Powdered Glycyrrhiza according to Method 4, and per- Glycyrrhiza Extract"
+      }
+    }
+  ]
+}

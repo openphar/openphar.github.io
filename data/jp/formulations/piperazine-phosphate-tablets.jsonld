@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/piperazine-phosphate-tablets",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Piperazine Phosphate Tablets",
+    "ja": "ピペラジンリン酸塩錠"
+  },
+  "monographId": "JP18-piperazine-phosphate-tablets",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Take a quantity of Piperazine Phosphate Tablets equivalent to 0.1 g of Piperazine Phosphate Hy-drate, previously powdered, add 10 mL of water, shake while warming for 10 minutes, allow to cool, and filter. To 3 mL of the filtrate add 3 drops of Reinecke salt TS: a light red precipitate is formed. Disintegration <6.09> It meets the requirement. The time limit of the test is 10 minutes."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately not less than 20 Piperazine Phos-phate Tablets, and powder. Weigh accurately a quantity of the powder, equivalent to about 0.15 g of piperazine phos-phate hydrate (C4H10N2.H3PO4.H2O). Add 5 mL of formic acid, shake for 5 minutes, centrifuge, and collect the super-natant liquid. To the residue add 5 mL of formic acid, shake for 5 minutes, centrifuge, and collect the supernatant liquid. Repeat twice the same procedure with 5 mL each of acetic acid (100), combine all the supernatant liquids, add 50 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determi-nation, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 10.11 mg of C4H10N2.H3PO4.H2O"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

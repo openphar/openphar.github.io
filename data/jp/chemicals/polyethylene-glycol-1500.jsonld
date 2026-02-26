@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyethylene-glycol-1500",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Polyethylene Glycol 1500",
+    "ja": "マクロゴール 1500"
+  },
+  "monographId": "JP18-polyethylene-glycol-1500",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Macrogol 1500 occurs as a white, smooth petrolatum-like solid. It is odorless or has a faint, character-istic odor. It is very soluble in water, in pyridine and in diphenyl ether, freely soluble in methanol, sparingly soluble in ethanol (95), very slightly soluble in ethanol (99.5), and prac-tically insoluble in diethyl ether. Congealing point: 37 – 419C"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 50 mg of Macrogol 1500 in 5 mL of dilute hydrochloric acid, add 1 mL of barium chloride TS, shake, and filter, if necessary. To the filtrate add 1 mL of a solution of phosphomolybdic acid n-hydrate (1 in 10): a yellow-green precipitate is formed. pH <2.54> Dissolve 1.0 g of Macrogol 1500 in 20 mL of water: the pH of the solution is between 4.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 5.0 g of Macrogol 1500 in 50 mL of water: the solution is clear and colorless. Acidity—Dissolve 5.0 g of Macrogol 1500 in 20 mL of neutralized ethanol, and add 2 drops of phenolphthalein TS and 0.20 mL of 0.1 mol/L sodium hydroxide VS: the so-lution is red in color. ‌Ethylene glycol and diethylene glycol—Place 50.0 g of Macrogol 1500 in a distilling flask, add 75 mL of diphenyl ether, warm to dissolve if necessary, distil slowly under a reduced pressure of 0.13 to 0.27 kPa and take 25 mL of the distillate in a 100-mL container with 1-mL graduation. To the distillate add exactly 20 mL of water, shake vigorously, cool in ice water, congeal the diphenyl ether, and filtrate into a 25-mL volumetric flask. Wash the residue with 5.0 mL of ice-cold water, combine the washings with the filtrate, warm to room temperature, and add water to make 25 mL. Trans-fer this solution to a glass-stoppered flask, shake with 25.0 mL of freshly distilled acetonitrile, and use this solution as the sample solution. Separately, to 62.5 mg of diethylene glycol add a mixture of water and freshly distilled aceto-nitrile (1:1) to make exactly 25 mL, and use this solution as the standard solution. Take exactly 10 mL each of the sam-ple solution and the standard solution, and add to each exactly 15 mL of cerium (IV) diammonium nitrate TS. Per-form the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24> within 2 to 5 minutes: the absorbance of the solution obtained from the sample solu-tion at the wavelength of maximum absorption at about 450 nm is not larger than the absorbance of the solution obtained from the standard solution.‌ Water <2.48> Not more than 1.0z (2 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

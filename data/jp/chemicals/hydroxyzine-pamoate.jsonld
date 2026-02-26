@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/hydroxyzine-pamoate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Hydroxyzine Pamoate",
+    "ja": "ヒドロキシジンパモ酸塩"
+  },
+  "monographId": "JP18-hydroxyzine-pamoate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H27ClN2O2.C23H16O6",
+  "molecularWeight": 763.27,
+  "casNumber": "10246-75-0",
+  "definition": {
+    "en": "Hydroxyzine Pamoate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Hydroxyzine Pamoate occurs as a light yellow crystalline powder. It is odorless, and has a slightly bitter taste. It is freely soluble in N,N-dimethylformamide, slightly soluble in acetone, and practically insoluble in water, in methanol, in ethanol (95) and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 0.1 g of Hydroxyzine Pamoate add 25 mL of sodium hydroxide TS, and shake well. Extract with 20 mL of chloroform, and use the chloroform layer as the sample solution. Use the water layer for test (4). To 5 mL of the sample solution add 2 mL of ammonium thiocyanate-cobalt (II) nitrate TS, shake well, and allow to stand: a blue color is produced in the chloroform layer. Evaporate 2 mL of the sample solution obtained in on a water bath to dryness, and dissolve the residue in 0.1 mol/L hydrochloric acid TS to make 500 mL. Determine the absorption spectrum of the solution as directed under Ultra-violet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Perform the test with Hydroxyzine Pamoate as di-rected under Flame Coloration Test <1.04> (2): a green color appears. To 1 mL of the water layer obtained in (1), add 2 mL of 1 mol/L hydrochloric acid TS: a yellow precipitate is pro-duced. Collect the precipitate, dissolve the precipitate in 5 mL of methanol, and add 1 drop of iron (III) chloride TS: a green color is produced."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Hydroxyzine Pamoate in 10 mL of N,N-dimethylfor-mamide: the solution is clear, and shows a slightly greenish, light yellow-brown color. Chloride <1.03>—To 0.3 g of Hydroxyzine Pamoate add 6 mL of dilute nitric acid and 10 mL of water, shake for 5 minutes, and filter. Wash the residue with two 10-mL por-tions of water, combine the washings with the filtrate, and add water to make 50 mL. Perform the test using this solu-tion as the test solution. Prepare the control solution with 0.80 mL of 0.01 mol/L hydrochloric acid VS (not more than 0.095z). Heavy metals <1.07>—Proceed with 1.0 g of Hydro- xyzine Pamoate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 2.0 g of Hydroxyzine Pamoate according to Method 3, and per-form the test (not more than 1 ppm). Related substances—Dissolve 0.40 g of Hydroxyzine Pamoate in 10 mL of a mixture of sodium hydroxide TS and acetone (1:1), and use the solution as the sample solution. Pipet 1 mL of the sample solution, add a mixture of sodium hydroxide TS and acetone (1:1) to make exactly 20 mL. Pipet 5 mL of this solution, add a mixture of sodium hy-droxide TS and acetone (1:1) to make exactly 50 mL, and use the solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 5 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chromatog-raphy. Develop the plate with a mixture of ethyl acetate, ethanol (95) and ammonia TS (150:95:1) to a distance of about 10 cm, and air-dry the plate. Spray evenly hydrogen hexachloroplatinate (IV)-potassium iodide TS on the plate: the spots other than hydroxyzine and pamoic acid obtained from the sample solution are not more intense than the spot from the standard solution. Water <2.48> Not more than 3.0z (1 g, volumetric titra-tion, direct titration). Residue on ignition <2.44> Not more than 0.5z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.6 g of Hydroxyzine Pamo-ate, add 25 mL of sodium hydroxide TS, shake well, and ex-tract with six 25-mL portions of chloroform. Filter each ex-tract through 5 g of anhydrous sodium sulfate on a pledget of absorbent cotton. Combine the chloroform extracts, and evaporate the combined chloroform extracts on a water bath to about 30 mL. Add 30 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS until the color of the solution changes from purple through blue to blue-green (indicator: 2 drops of crystal violet TS). Perform a blank de- ‌JP XVIII Official Monographs / Hypromellose 1127 ‌termination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 38.16 mg of C H ClN O .C H O water (2:1) to make 50 mL (not more than 0.024z). (3) Heavy metals <1.07>—Proceed with 2.0 g of Hymecromone according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead 21 27 2 2 23 16 6 Solution (not more than 10 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

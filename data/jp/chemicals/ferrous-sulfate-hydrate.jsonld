@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ferrous-sulfate-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ferrous Sulfate Hydrate",
+    "ja": "硫酸鉄水和物"
+  },
+  "monographId": "JP18-ferrous-sulfate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "FeSO4.7H2O",
+  "molecularWeight": 278.01,
+  "definition": {
+    "en": "Ferrous Sulfate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Ferrous Sulfate Hydrate occurs as pale green, crystals or crystalline powder. It is odorless, and has an astringent taste. It is freely soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. It is efflorescent in dry air, and its surface becomes yellow-ish brown in moist air."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "A solution of Ferrous Sulfate Hydrate (1 in 10) responds to Qualitative Tests <1.09> for ferrous salt and for sulfate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity of solution—Dissolve 1.0 g of Ferrous Sulfate Hydrate in 20 mL of water and 1 mL of dilute sulfu-ric acid: the solution is clear. Acidity—To 5.0 g of powdered Ferrous Sulfate Hy-drate add 50 mL of ethanol (95), shake well for 2 minutes, and filter the mixture. To 25 mL of the filtrate add 50 mL of water, 3 drops of bromothymol blue TS and 0.5 mL of dilute sodium hydroxide TS: a blue color develops. Heavy metals <1.07>—Take 1.0 g of Ferrous Sulfate Hydrate in a porcelain dish, add 3 mL of aqua regia, and dissolve. Then evaporate on a water bath to dryness. To the residue add 5 mL of 6 mol/L hydrochloric acid TS, and dis-solve. Transfer this solution to a separator. Wash the por-celain dish with two 5-mL portions of 6 mol/L hydrochloric acid TS, and combine the washings and the solution in the separator. Pour two 40-mL portions and one 20-mL portion of diethyl ether in the separator, shaking each time to mix. Allow to stand, and discard each separated diethyl ether layer. To the aqueous layer add 0.05 g of hydroxylammo-nium chloride, dissolve, and heat on a water bath for 10 minutes. Cool, adjust the solution to a pH of 3 to 4 by drop-ping ammonia solution (28), add water to make 50 mL, and perform the test using this solution as the test solution. Pre-pare the control solution as follows: take 2.5 mL of Stand-ard Lead Solution in a porcelain dish, add 3 mL of aqua re-gia, and proceed as directed for the preparation of the test solution (not more than 25 ppm)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/irsogladine-maleate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Irsogladine Maleate",
+    "ja": "イルソグラジンマレイン酸塩"
+  },
+  "monographId": "JP18-irsogladine-maleate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H7Cl2N5.C4H4O4",
+  "molecularWeight": 372.16,
+  "casNumber": "84504-69-8",
+  "definition": {
+    "en": "Irsogladine Maleate, when dried, contains not less than 99."
+  },
+  "appearance": {
+    "en": "Irsogladine Maleate occurs as white, crystals or crystalline powder. It has a slightly bitter taste. It is sparingly soluble in acetic acid (100) and in ethylene-glycol, slightly soluble in methanol and in ethanol (99.5), and practically insoluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 20 mg of Irsogladine Maleate in methanol to make 20 mL. Take 2 mL of this solution, and add water to make 20 mL. To 2 mL of this solution add water to make 50 mL. Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Irso-gladine Maleate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 10 mg of Irsogladine Maleate in 1 mL of dilute hydrochloric acid and 4 mL of water, and add 3 drops of potassium permanganate TS: the color of the solution is discharged immediately."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 2.0 g of Irsogladine Maleate according to Method 4, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Related substances—Dissolve 50 mg of Irsogladine Maleate in 10 mL of ethylene glycol, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add ethylene glycol to make exactly 100 mL, and use this solution as the standard solution. Perform the test with exactly 5 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the fol-lowing conditions. Determine each peak area of both solu-tions by the automatic integration method: the area of each peak other than the peaks of maleic acid and irsogladine ob-tained from the sample solution is not larger than 1/10 times the peak area of irsogladine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 250 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 7.5 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (3 mm in particle diame- ‌JP XVIII Official Monographs / Irsogladine Maleate Fine Granules 1191 ter). Column temperature: A constant temperature of about 409C. Mobile phase: A mixture of methanesulfonic acid solution (1 in 1000) and methanol (4:1). Flow rate: Adjust so that the retention time of irsogladine is about 8 minutes. Time span of measurement: About 3 times as long as the retention time of irsogladine, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add ethylene glycol to make exactly 10 mL. Confirm that the peak area of irsogladine obtained with 5 mL of this solution is equivalent to 7 to 13z of that with 5 mL of the standard solution. System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the number of theoretical plates and the symmetry fac-tor of the peak of irsogladine are not less than 3000 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 5 mL of the standard solution under the above operating conditions, the relative standard deviation of the peak area of irsogladine is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (1 g, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Irsogladine Male-ate, previously dried, dissolve in 25 mL of acetic acid (100), add 25 mL of acetic anhydride, and titrate <2.50> with 0.05 mol/L perchloric acid VS (potentiometric titration). Per-form a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L perchloric acid VS ＝ 18.61 mg of C9H7Cl2N5.C4H4O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

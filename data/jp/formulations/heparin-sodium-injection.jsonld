@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/heparin-sodium-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Heparin Sodium Injection",
+    "ja": "ヘパリンナトリウム注射液"
+  },
+  "monographId": "JP18-heparin-sodium-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Heparin Sodium Injection is an aqueous injection. It contains not less than 90z and not more than 110z of the labeled heparin Units."
+  },
+  "appearance": {
+    "en": "Heparin Sodium Injection is a clear, colorless to light yellow liquid. pH <2.54> 5.5 – 8.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Barium—Measure exactly a volume of Heparin So-dium Injection, equivalent to 3000 Units of Heparin So-dium, add water to make 3.0 mL and use this solution as the sample solution. To 1.0 mL of the sample solution add 3 drops of dilute sulfuric acid, and allow to stand for 10 minutes: no turbidity is produced. Bacterial endotoxins <4.01> Less than 0.0030 EU/unit. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Proceed as directed in the Assay under Heparin Sodium, replacing (vii) Heparin sample solutions and (ix) Calculations with the following. (vii) Heparin sample solutions: Take exactly an ap-propriate amount of Heparin Sodium Injection, dilute ex-actly with buffer solution so that each mL contains 0.1 Heparin Units, and use this solution as the sample solution. Make heparin sample solutions T1, T2, T3 and T4 respectively by adding the sample solution to buffer solution as directed in the following table. Heparin sample solution Buffer solution (mL) Sample solution (mL) No. Heparin concentration (Unit/mL) T1 0.005 T2 0.010 T3 0.015 T4 0.020 (ix) Calculations: When the regression expression, y ＝ Ic ＋ AXs ＋ BXt, is obtained using y as log of the absorbance values, Xs as the concentration of the heparin standard solutions and Xt as the concentration of the heparin sample solutions, the potency ratio R is B/A. Ic: Common intercept A: Slope of regression expression of the heparin standard solution B: Slope of regression expression of the heparin sample solution Calculate Heparin Units (anti-factor IIa activity) in 1 mL of Heparin Sodium Injection by the following formula. Heparin Units (anti-factor IIa activity) in 1 mL of Heparin Sodium Injection ＝ 0.1 × R × V/a V: Total volume (mL) of the sample solution prepared as containing 0.1 Heparin Units (anti-factor IIa activity) per mL a: Amount (mL) of Heparin Sodium Injection taken for the sample solution However, when a 90z confidence interval of D of the regression expression y ＝ I?c ＋ A?Xs ＋ B?Xt ＋ D, where D is a constant term showing the difference between the inter-cepts assumed from the measurement of the blank and the two lines, is not in the range of between －0.2 and 0.2, ana-lyze by excluding the measurements of the blank. The criteria for the test suitability are followed as directed in the Assay under Heparin Sodium. When these criteria are not satisfied, repeat the test after changing the dilution rate so that the potency ratio becomes about 1 using the obtained potency as reference."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

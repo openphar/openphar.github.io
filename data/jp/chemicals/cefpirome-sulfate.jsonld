@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/cefpirome-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Cefpirome Sulfate",
+    "ja": "セフピロム硫酸塩"
+  },
+  "monographId": "JP18-cefpirome-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H22N6O5S2.H2SO4",
+  "molecularWeight": 612.66,
+  "definition": {
+    "en": "Cefpirome Sulfate contains not less than 760 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Cefpirome Sulfate occurs as a white to pale yellow-white crystalline powder, and has a slight, character-istic odor. It is soluble in water, and practically insoluble in ethanol (95) and in diethyl ether. It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 10 mg of Cefpirome Sulfate in 2 mL of water, add 3 mL of hydroxylammonium hydrochlo-ride-ethanol TS, allow to stand for 5 minutes, add 1 mL of acidic ammonium iron (III) sulfate TS, and shake: a red-brown color develops. Dissolve 1 mg of Cefpirome Sulfate in 4 mL of water, add 1 mL of dilute hydrochloric acid while cooling in ice, add 1 mL of a freshly prepared solution of sodium nitrite (1 in 100), and allow to stand for 2 minutes. Add 1 mL of am-monium amidosulfuric acid TS while cooling in ice bath, allow to stand for 1 minute, and add 1 mL of a solution of lated on the anhydrous basis, 0.01 mol/L hydrochloric acid TS, 2500 mL). D Optical rotation <2.49> [a]20: －27 – －339(50 mg calcu-lated on the anhydrous basis, a solution prepared by addi-tion of water to 25 mL of acetonitrile to make 50 mL, 20 mL, 100 mm). pH <2.54> Dissolve 0.1 g of Cefpirome Sulfate in 10 mL of water: the pH of the solution is between 1.6 and 2.6."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Being specified separately when the drug is granted approval based on the Law. Heavy metals <1.07>—Proceed with 1.0 g of Cefpi- rome Sulfate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic—Being specified separately when the drug is granted approval based on the Law. Related substances—Being specified separately when the drug is granted approval based on the Law. Water <2.48> Not more than 2.5z (0.5 g, volumetric titra-tion, direct titration). Residue on ignition Being specified separately when the drug is granted approval based on the Law. Bacterial endotoxins <4.01> Less than 0.10 EU/mg (po-tency)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Cefpirome Sulfate and Cefpirome Sulfate RS, equivalent to about 50 mg (po-tency), dissolve each in water to make exactly 100 mL. Pipet 5 mL of these solutions, add each in water to make exactly 20 mL, and use these solutions as the sample solution and standard solution. Perform the test with exactly 20 mL of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of cefpirome in each solution. N-1-naphthylethylene dihydrochloride (1 in 1000): a purple color develops. Take 5 mg of Cefpirome Sulfate, dissolve in 1 mL of Amount [ mg (potency)] of cefpirome (C ＝ MS × AT/AS × 1000 22H22N6O5S2) ethanol (95) and 1 mL of water, add 100 mg of 1-chloro-2,4-dinitrobenzene, and heat on a water bath for 5 minutes. After cooling, add 2 or 3 drops of a solution of sodium hy-droxide (1 in 10) and 3 mL of ethanol (95): a red-brown color develops. MS: Amount [mg (potency)] of Cefpirome Sulfate RS taken ‌JP XVIII Official Monographs / Cefpodoxime Proxetil 695 Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 270 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 3.45 g of ammonium dihydrogen-phosphate in 1000 mL of water, and adjust the pH to 3.3 with phosphoric acid. To 800 mL of this solution add 100 mL of acetonitrile. Flow rate: Adjust so that the retention time of cefpirome is about 7.5 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates of the peak of cefpi-rome is not less than 3600. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of cefpirome is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—At a temperature between 29C and 89C."
+  }
+}

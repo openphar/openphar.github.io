@@ -1,0 +1,55 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/minocycline-hydrochloride-for-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Minocycline Hydrochloride for Injection",
+    "ja": "注射用ミノサイクリン塩酸塩"
+  },
+  "monographId": "JP18-minocycline-hydrochloride-for-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Minocycline Hydrochloride for Injection is a prepa-ration for injection, which is dissolved before use. It contains not less than 90."
+  },
+  "appearance": {
+    "en": "Minocycline Hydrochloride for Injection oc-curs as a yellow to yellow-brown, powder or flakes."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 4 mg of Minocycline Hydrochloride for Injection in 250 mL of a solution of hydrochloric acid in methanol (19 in 20,000). Determine the absorption spectrum of this solution as directed under Ultraviolet-visible Spectro-photometry <2.24>: it exhibits maxima between 221 nm and 225 nm, between 261 nm and 265 nm, and between 354 nm and 358 nm. pH <2.54> The pH of a solution, prepared by dissolving an amount of Minocycline Hydrochloride for Injection, equiva-lent to 0.1 g (potency) of Minocycline Hydrochloride, in 10 mL of water is 2.0 to 3.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Related substances—Conduct this procedure rapidly after the preparation of the sample solution. Take an amount of Minocycline Hydrochloride for Injection, equiva-lent to 0.1 g (potency) of Minocycline Hydrochloride, dis-solve in the mobile phase to make 100 mL. To 25 mL of this solution, add the mobile phase to make 50 mL, and use this solution as the sample solution. Perform the test with 20 mL of the sample solution as directed under Liquid Chromatog-raphy <2.01> according to the following conditions, and de-termine each peak area by the automatic integration method. Calculate the amounts of each peak by the area percentage method: the amount of epiminocycline, having the relative retention time of about 0.83 to minocycline, is not more than 6.0z. Operating conditions— Detector, column, column temperature, mobile phase and flow rate: Proceed as directed in the operating conditions in the Assay under Minocycline Hydrochloride. Time span of measurement: About 2.5 times as long as the retention time of minocycline, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay under Minocycline Hydrochloride. Test for required detectability: Pipet 2 mL of the standard solution obtained in the Assay, add the mobile phase to make exactly 100 mL, and use this solution as the solution for system suitability test. Pipet 5 mL of the solution for sys-tem suitability test, add the mobile phase to make exactly 100 mL. Confirm that the peak area of minocycline obtained with 20 mL of this solution is equivalent to 3.5 to 6.5z of that with 20 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 20 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of minocycline is not more than 2.0z. Water <2.48> Weigh accurately the mass of the content of one container of Minocycline Hydrochloride for Injection, dissolve in exactly 2 mL of methanol for water determina-tion, and perform the test with exactly 1 mL of this solution as directed in the Volumetric titration (back titration): not more than 3.0z. Bacterial endotoxins <4.01> Less than 1.25 EU/mg (po-tency). Uniformity of dosage units <6.02> It meets the requirement of the Mass variation test. Foreign insoluble matter <6.06> Perform the test according to Method 2: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of the contents of not less than 10 containers of Minocycline Hydrochloride for Injec- ‌tion. Weigh accurately an amount of the contents, equiva-lent to about 0.1 g (potency) of Minocycline Hydrochloride, dissolve in the mobile phase to make exactly 100 mL. Pipet 25 mL of this solution, add the mobile phase to make exactly 50 mL, and use this solution as the sample solution. Sepa-rately, weigh accurately an amount of Minocycline Hydro-chloride RS, equivalent to about 25 mg (potency), dissolve in the mobile phase to make exactly 50 mL, and use this solu-tion as the standard solution. Then, proceed as directed in the Assay under Minocycline Hydrochloride. Amount [mg (potency)] of minocycline (C23H27N3O7) ＝ MS × AT/AS × 4 MS: Amount [mg (potency)] of Minocycline Hydrochlo-ride RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

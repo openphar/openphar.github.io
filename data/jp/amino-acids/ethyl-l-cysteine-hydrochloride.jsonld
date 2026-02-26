@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/amino-acids/ethyl-l-cysteine-hydrochloride",
+  "@type": "AminoAcidMonograph",
+  "prefLabel": {
+    "en": "Ethyl L-Cysteine Hydrochloride",
+    "ja": "L-エチルシステイン塩酸塩"
+  },
+  "monographId": "JP18-ethyl-l-cysteine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C5H11NO2S.HCl",
+  "molecularWeight": 185.67,
+  "casNumber": "868-59-7",
+  "appearance": {
+    "en": "Ethyl L-Cysteine Hydrochloride occurs as white, crystals or crystalline powder. It has a characteristic odor, and has a bitter taste at first with a burning aftertaste. It is very soluble in water, and freely soluble in ethanol (95). Melting point: about 1269C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Ethyl L-Cysteine Hydrochloride as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. (2) A solution of Ethyl L-Cysteine Hydrochloride (1 in 20) responds to Qualitative Tests <1.09> (1) for chloride. D Optical rotation <2.49> [a]20: －10.0 – －13.09(after dry-ing, 2.0 g, 1 mol/L hydrochloric acid TS, 25 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Sulfate <1.14>—Perform the test with 0.6 g of Ethyl L-Cysteine Hydrochloride. Prepare the the control so-lution with 0.35 mL of 0.005 mol/L sulfuric acid VS (not more than 0.028z). Heavy metals <1.07>—Proceed with 1.0 g of Ethyl L-Cysteine Hydrochloride according to Method 1, and per- form the test. Prepare the control solution with 1.0 mL of Standard Lead Solution (not more than 10 ppm). Related substances—Conduct this procedure rapidly. Dissolve 0.05 g each of Ethyl L-Cysteine Hydrochloride and N-ethylmaleimide in 5 mL of mobile phase, allow to stand for 30 minutes, and use this solution as the sample solution. Pipet 3 mL of the sample solution, add the mobile phase to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 2 mL each of the sam-ple solution and standard solution as directed under Liquid Chromatography <2.01> according to the following condi-tions. Determine each peak area of these solutions by the automatic integration method: a peak area obtained from the sample solution with the relative retention time to ethyl L-cysteine-N-ethylmaleimide complex from the standard so-lution being about 0.7 is not larger than the peak area of ethyl L-cysteine-N-ethylmaleimide complex from the stand-ard solution. Each area of all peaks other than ethyl L-cysteine-N-ethylmaleimide complex and N-ethylmaleimide from the sample solution is not larger than 1/3 times the peak area of ethyl L-cysteine N-ethylmaleimide complex from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 250 nm). Column: A stainless steel column about 6 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.02 mol/L potassium dihy-drogenphoshate TS and acetonitrile (2:1). Flow rate: Adjust so that the retention time of ethyl L-cysteine-N-ethylmaleimide complex is about 4 minutes. Selection of column: Dissolve 0.05 g of Ethyl L-Cysteine Hydrochloride, 0.01 g of L-cysteine hydrochloride and 0.05 g of N-ethylmaleimide in 25 mL of the mobile phase, and allow to stand for 30 minutes. Proceed with 2 mL of this solution under the above operating conditions, and calculate the resolution. Use a column giving elution of L-cysteine-N-ethylmaleimide complex, ethyl L-cysteine-N-ethylmaleimide complex and N-ethylmaleimide in this order, complete reso-lution of each component, and the resolution of the peaks of L-cysteine-N-ethylmaleimide complex and ethyl L-cysteine- N-ethylmaleimide complex being not less than 3. Detection sensitivity: Adjust the detection sensitivity so that the peak height of ethyl L-cysteine-N-ethylmaleimide complex obtained from 2 mL of the standard solution is be-tween 10 mm and 20 mm. Time span of measurement: About 3 times as long as the retention time of ethyl L-cysteine-N-ethylmaleimide com-plex. Loss on drying <2.41> Not more than 0.5z (1 g, in vacu-um, phosphorus oxide (V), 5 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Ethyl L-Cysteine Hydrochloride, previously dried, transfer into a glass-stoppered flask, and dissolve in 10 mL of water previously freshly boiled and cooled to a temperature not exceeding 59C in a stream of nitrogen. Add exactly 20 mL of 0.05 mol/L iodine VS, previously cooled to a temperature not exceeding 59C, and allow to stand for 30 seconds, then titrate <2.50> with 0.1 mol/L sodium thiosulfate VS, on cool-ing below 59C (indicator: 1 mL of starch TS). Perform a blank determination in the same manner, and make any nec-essary correction. Each mL of 0.05 mol/L iodine VS ＝ 18.57 mg of C5H11NO2S.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

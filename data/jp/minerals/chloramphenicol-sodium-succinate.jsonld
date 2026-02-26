@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/chloramphenicol-sodium-succinate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Chloramphenicol Sodium Succinate",
+    "ja": "クロラムフェニコールコハク酸エステルナトリウム"
+  },
+  "monographId": "JP18-chloramphenicol-sodium-succinate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Chloramphenicol Sodium Succinate contains not less than 711 mg (potency) and not more than 740 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Chloramphenicol Sodium Succinate occurs as white to yellowish white, crystals or crystalline powder. It is very soluble in water, and freely soluble in methanol and in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Chloramphenicol Sodium Succinate (1 in 50,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Chlo-ramphenicol Sodium Succinate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum: both spectra exhibit similar intensities of absorption at the same wave numbers. Chloramphenicol Sodium Succinate responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]25: ＋5 – ＋89(1.25 g calculated on the anhydrous basis, water, 25 mL, 100 mm). pH <2.54> The pH of a solution obtained by dissolving 1.4 g of Chloramphenicol Sodium Succinate in 5 mL of water is between 6.0 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Chloramphenicol Sodium Succinate in 10 mL of water: the solution is clear, and the absorbance at 420 nm of the so-lution determined as directed under Ultraviolet-visible Spec-trophotometry <2.24> is not more than 0.30. (2) Heavy metals <1.07>—Proceed with 1.0 g of Chlo- ramphenicol Sodium Succinate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Water <2.48> Not more than 2.0z (1.0 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately an amount of Chloramphenicol Sodium Succinate, equivalent to about 20 mg (potency), dis-solve in water to make exactly 1000 mL, and use this solu-tion as the sample solution. Separately, weigh accurately an amount of Chloramphenicol Succinate RS, equivalent to about 20 mg (potency), add about 50 mL of water to make a ‌JP XVIII Official Monographs / Chloramphenicol and Colistin Sodium Methanesulfonate Ophthalmic Solution 731 suspension, and add gradually about 7 mL of 0.01 mol/L so-dium hydroxide TS while stirring to adjust the pH to 7.0. To this solution add water to make exactly 1000 mL, and use this solution as the standard solution. Determine the absor-bances, AT and AS, at 276 nm of the sample solution and standard solution as directed under Ultraviolet-visible Spec-trophotometry <2.24>. Agar media for base layer and seed layer—Use the medium ii in 3) under (1) Agar media for seed and base layer. Agar medium for transferring test organisms—Use the medium i in 2) under (2) Agar media for transferring test organisms. Liquid medium for suspending test organisms—Use Amount [ mg (potency)] of chloramphenicol (C ＝ MS × AT/AS × 1000 11H12Cl2N2O5) the medium (2) Liquid media for suspending test organisms of 3.2. Culture media. Standard solutions—Weigh accurately an amount of MS: Amount [mg (potency)] of Chloramphenicol Suc-cinate RS taken"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

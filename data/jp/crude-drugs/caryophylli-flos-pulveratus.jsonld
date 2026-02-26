@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/caryophylli-flos-pulveratus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Caryophylli Flos Pulveratus",
+    "ja": "チョウジ末"
+  },
+  "monographId": "JP18-caryophylli-flos-pulveratus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Powdered Clove occurs as a dark brown pow-der. It has a strong, characteristic odor and a pungent taste, leaving a sensation of numbness on the tongue. Under a microscope <5.01>, Powdered Clove reveals epidermal tissue with stomata, collenchyma, parenchyma with oil sacs, and spongy parenchyma or its fragments; fur-thermore, a few fusiform thick-walled fibers, spiral vessels 6 – 10 mm in diameter, anther and pollen grains, and rosette aggregates of calcium oxalate 10 – 15 mm in diameter. Epidermis of anther shows characteristically reticulated walls; pollen grains tetrahedral 10 – 20 mm in diameter; rosette aggregates of calcium oxalate arranged in crystal cell rows, or contained in collenchyma cells and parenchyma cells."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1.5 g of Powdered Clove add 20 mL of ethyl acetate, shake for 5 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 5 mg of eugenol for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 1 mL each of the sample solution and stand-ard solution on a plate of silica gel for thin-layer chromatog-raphy. Develop the plate with a mixture of hexane and ace-tone (2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid-ethanol TS for spraying on the plate, and heat the plate at 1059C for 5 minutes: one of the several spots obtained from the sample solution has the same color tone and Rf value with the spot from the standard solution."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Foreign matter <5.01>—Under a microscope, Pow-dered Clove does not contain stone cells or starch grains. Total ash <5.01> Not more than 7.0z. Acid-insoluble ash <5.01> Not more than 0.5z. Essential oil content <5.01> Perform the test with 10.0 g of Powdered Clove: the volume of essential oil is not less than 1.3 mL."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

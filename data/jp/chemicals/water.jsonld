@@ -1,0 +1,27 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/water",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Water",
+    "ja": "常水"
+  },
+  "monographId": "JP18-water",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "H2O",
+  "molecularWeight": 18.02,
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Ammonium <1.02>—Perform the test with 30 mL of Water as directed under Ammonium Limit Test. Prepare the control solution as follows: to 0.15 mL of Standard Ammo-nium Solution add water for ammonium limit test to make 30 mL (not more than 0.05 mg/L). Purified Water"
+      }
+    }
+  ]
+}

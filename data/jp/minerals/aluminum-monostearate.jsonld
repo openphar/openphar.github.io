@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/aluminum-monostearate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Aluminum Monostearate",
+    "ja": "モノステアリン酸アルミニウム"
+  },
+  "monographId": "JP18-aluminum-monostearate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Aluminum Monostearate is mainly aluminum com- test (not more than 5 ppm). Acid-consuming capacity Weigh accurately about 0.2 g of pounds of stearic acid (C acid (C16H32O2: 256.42). 18H 36O2: 284.48) and palmitic Dried Aluminum Hydroxide Gel, and transfer to a glass-stoppered flask. Add exactly 100 mL of 0.1 mol/L hydro-chloric acid VS, stopper the flask, shake at 37 ± 29C for 1 hour, and filter. Measure exactly 50 mL of the filtrate, and titrate <2.50> while thoroughly stirring, the excess hydrochlo-ric acid with 0.1 mol/L sodium hydroxide VS until the pH of the solution becomes to 3.5. The volume of 0.1 mol/L hy-drochloric acid VS consumed is not less than 250 mL per g of Dried Aluminum Hydroxide Gel. Aluminum Monostearate, when dried, contains not less than 7."
+  },
+  "appearance": {
+    "en": "Aluminum Monostearate occurs as a white to yellow-white powder. It is odorless or has a faint, character-istic odor. It is practically insoluble in water, in ethanol (95) and in diethyl ether. ‌JP XVIII Official Monographs / Dried Aluminum Potassium Sulfate 441"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Heat 3 g of Aluminum Monostearate with 30 mL of hydrochloric acid in a water bath with occa-sional shaking for 10 minutes. After cooling, shake the mix-ture vigorously with 50 mL of water and 30 mL of diethyl ether for 3 minutes, and allow to stand. To the separated aqueous layer add sodium hydroxide TS until the solution becomes slightly turbid, and filter: the filtrate responds to Qualitative Tests <1.09> for aluminum salt. (2) Wash the diethyl ether layer separated in (1) with two 20-mL portions of water, and evaporate the diethyl ether layer on a water bath: the residue melts <1.13> at above 549C. Acid value for fatty acid <1.13> 193 – 210. Weigh accu-rately about 1 g of fatty acid obtained in the Identification (2), transfer a 250-mL glass-stoppered flask, add 100 mL of a mixture of diethyl ether and ethanol (95) (2:1), warm to dissolve, add several drops of phenolphthalein TS, and proceed as directed under Acid Value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Free fatty acid—Mix 1.0 g of Aluminum Monostearate with about 50 mL of a mixture of neutralized ethanol and diethyl ether (1:1), filter through dry filter paper, wash the vessel and the filter paper with a small amount of a mixture of neutralized ethanol and diethyl ether (1:1), combine the filtrate and the washings, and add 2.1 mL of 0.1 mol/L potassium hydroxide VS: a red color develops. Water-soluble salts—Heat 2.0 g of Aluminum Monostearate with 80 mL of water in a loosely stoppered conical flask on a water bath for 30 minutes with occasional shaking. After cooling, filter through dry filter paper, wash the residue with a small amount of water, combine the wash-ings with the filtrate, add water to make 100 mL, evaporate 50 mL of this solution on a water bath, and heat strongly at 6009C: the mass of the residue is not more than 10.0 mg. Heavy metals <1.07>—Heat 1.0 g of Aluminum Monostearate over a small flame with caution at the begin-ning, and continue the heating, gradually raising the temper-ature, to ash. After cooling, add 10 mL of diluted hydro-chloric acid (1 in 2), evaporate on a water bath, and boil the residue with 20 mL of water for 1 minute. Cool, filter, wash the residue with water, combine the filtrate and the wash-ings, and add 2 mL of dilute acetic acid and water to make 50 mL. Perform the test using this solution as the test solu-tion. Evaporate 10 mL of diluted hydrochloric acid (1 in 2) on a water bath to dryness, add 2 mL of dilute acetic acid and 5.0 mL of Standard Lead Solution, dilute with water to make 50 mL, and use this solution as the control solution (not more than 50 ppm). Arsenic <1.11>—Mix 1.0 g of Aluminum Monostearate with 2 g of magnesium nitrate hexahydrate, ignite over a small flame, moisten the residue after cooling with 0.5 mL of nitric acid, and heat. Heat again the residue with 10 mL of dilute sulfuric acid until white fumes evolve, add water to make 5 mL, and perform the test with this solu-tion as the test solution (not more than 2 ppm). Loss on drying <2.41> Not more than 3.0z (1 g, 1059C, 3 hours)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 1 g of Aluminum Monostearate, previously dried, ignite gently to ash, and cool. Add dropwise 0.5 mL of nitric acid, evaporate on a water bath by heating, and then heat strongly between 9009C and 11009C to a constant mass. After cooling, weigh rapidly the ignited residue, and designate the mass as aluminum oxide (Al O : 101.96). Amount (mg) of aluminum (Al) ＝ amount (mg) of aluminum oxide (Al2O3) × 0.529"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

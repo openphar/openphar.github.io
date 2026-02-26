@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/low-substituted-hydroxypropylcellulose",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Low Substituted Hydroxypropylcellulose",
+    "ja": "低置換度ヒドロキシプロピルセルロース"
+  },
+  "monographId": "JP18-low-substituted-hydroxypropylcellulose",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Low Substituted Hydroxypropylcellulose is a low substituted hydroxypropyl ether of cellulose. It contains not less than 5."
+  },
+  "appearance": {
+    "en": "Low Substituted Hydroxypropylcellulose occurs as a white to yellowish white, powder or granules. It is practically insoluble in ethanol (99.5). It dissolves in a solution of sodium hydroxide (1 in 10), and produces a viscous solution. It swells in water, in sodium carbonate TS and in 2 mol/L hydrochloric acid TS.◆"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Shake thoroughly 0.1 g of Low Substituted Hydrox-ypropylcellulose with 10 mL of water: it does not dissolve. To the dispersed solution obtained in (1) add 1 g of sodium hydroxide, and shake until the solution becomes uniform. Transfer 5 mL of this solution to a suitable vessel, add 10 mL of a mixture of acetone and methanol (4:1), and shake: a white, flocculent precipitate is formed. Determine the infrared absorption spectrum of Low Substituted Hydroxypropylcellulose as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorp-tion at the same wave numbers. pH <2.54> To 1.0 g of Low Substituted Hydroxypropylcel-lulose add 100 mL of freshly boiled and cooled water, and shake: the pH of the solution is between 5.0 and 7.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "◇Heavy metals <1.07>—Proceed with 2.0 g of Low Substituted Hydroxypropylcellulose according to Method 2, ‌JP XVIII Official Monographs / Hydroxyzine Hydrochloride 1125 and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm).◇ Loss on drying <2.41> Not more than 5.0z (1 g, 1059C, 1 hour). Residue on ignition <2.44> Not more than 0.8z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(i) Apparatus—Reaction vial: A 5-mL pressure-tight serum vial, 20 mm in outside diameter and 50 mm in height, 20 mm in outside diameter and 13 mm in inside di-ameter at the neck, equipped with a septum made of butyl-rubber whose surface is processed with fluoroplastics, which can be fixed to the vial and stoppered tightly with an aluminum cap or another system providing an equivalent air-tightness. Heater: A square-shaped aluminum block, having holes 20 mm in diameter and 32 mm in depth, adopted to the reaction vial. Capable of stirring the content of the reaction vial by means of a magnetic stirrer or of a reciprocal shaker about 100 times per minute. (ii) Procedure—Weigh accurately about 65 mg of Low Substituted Hydroxypropylcellulose, transfer to a reaction vial, add 0.06 to 0.10 g of adipic acid, 2.0 mL of the internal standard solution and 2.0 mL of hydroiodic acid, immedi-ately stopper the vial tightly, and weigh accurately. Using a magnetic stirrer equipped in the heating module, or using a shaker, mix for 60 minutes while heating so that the temper-ature of the vial content is 130 ± 29C. In the case when a magnetic stirrer or shaker is not available, heat for 30 minutes with repeated shaking at 5-minutes intervals by hand, and continue heating for an additional 30 minutes. Allow the vial to cool, and again weigh accurately. If the mass loss is less than 26 mg and there is no evidence of a leak of the content, use the upper layer of the mixture as the sam-ple solution. Separately, put 0.06 to 0.10 g of adipic acid, 2.0 mL of the internal standard solution and 2.0 mL of hydroiodic acid in a reaction vial, immediately stopper the vial tightly, and weigh accurately. Add 15 to 22 mL of isopropyl iodide for assay through the septum using a micro-syringe, and weigh accurately. Shake the reaction vial thor-oughly, and use the upper layer of the content as the stand-ard solution. Perform the test with 1 to 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of isopropyl iodide to that of the internal standard. Amount (z) of hydroxypropoxy group (C H O ) Carrier gas: Helium. Flow rate: 4.3 mL per minute (the retention time of the in-ternal standard is about 10 minutes). Split ratio: 1:40. System suitability— System performance: When the procedure is run with 1 to 2 mL of the standard solution under the above operating con-ditions, isopropyl iodide and the interal standard are eluted in this order with the resolution between these peaks being not less than 5. System repeatability: When the test is repeated 6 times with 1 to 2 mL of the standard solution under the above oper-ating conditions, the relative standard deviation of the ratio of the peak area of isopropyl iodide to that of the internal standard is not more than 2.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

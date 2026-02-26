@@ -1,0 +1,56 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/ethyl-icosapentate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Ethyl Icosapentate",
+    "ja": "イコサペント酸エチル"
+  },
+  "monographId": "JP18-ethyl-icosapentate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C22H34O2",
+  "molecularWeight": 330.5,
+  "definition": {
+    "en": "Ethyl Icosapentate contains not less than 96."
+  },
+  "appearance": {
+    "en": "Icosapentate is a colorless or pale yellow, clear liquid. It has a faint, characteristic odor. It is miscible with ethanol (99.5), with acetic acid (100) and with hexane. It is practically insoluble in water and in ethyl-ene glycol."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) To 20 mg of Ethyl Icosapentate add 3 mL of a solution of potassium hydroxide in ethylene glycol (21 in 100), stopper tightly while passing a current of nitro-gen, and heat at 1809C for 15 minutes. After cooling, add methanol to make 100 mL. To 4 mL of this solution add methanol to make 100 mL, and use this solution as the sample solution. Determine the absorption spectrum of the sample solution as directed under Ultraviolet-visible Spectro-photometry <2.24>, using a solution, prepared in the same manner as the sample solution with 3 mL of the solution of potassium hydroxide in ethylene glycol (21 in 100), as a con-trol, and compare the spectrum with the Reference Spectrum or the spectrum of a solution of Ethyl Icosapentate RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Ethyl Icosapentate as directed in the liquid film method under In-frared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum or the spectrum of Ethyl Icosapentate RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Refractive index <2.45> n20: 1.481 – 1.491 Specific gravity <2.56> d 20: 0.905 – 0.915 Acid value <1.13> Not more than 0.5. Saponification value <1.13> 165 – 175 Iodine value <1.13> 365 – 395 Perform the test with 20 mg of Ethyl Icosapentate."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Mix 1.0 g of Ethyl Icosapentate with ethanol (99.5), and add 2 mL of dilute ace-tic acid and ethanol (99.5) to make 50 mL. Perform the test with this solution as the test solution. Control solution: To 1.0 mL of Standard Lead Solution add 2 mL of dilute acetic acid and ethanol (99.5) to make 50 mL (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Ethyl Icosapentate according to Method 3, and perform the test (not more than 2 ppm). Related substances—To 0.40 g of Ethyl Icosapentate add hexane to make 50 mL, and use this solution as the sam-ple solution. Perform the test with 1.5 mL of the sample solu- JP XVIII Official Monographs / Ethyl Icosapentate Capsules 975 ‌tion as directed under Gas Chromatography <2.02> accord-ing to the following conditions. Determine each peak area by the automatic integration method, and calculate the amounts of these peaks by the area percentage method: the amount of the peak, having the relative retention time of about 0.53 to ethyl icosapentate, is not more than 0.5z, the amount of each peak, having the relative retention time of about 0.80 and 0.93, is not more than 1.0z, the amount of each peak other than the principal peak and the peak mentioned above is not more than 1.0z, and the total amount of these peaks other than the principal peak is not more than 3.5z. Operating conditions— Detector, column, column temperature, carrier gas and flow rate: Proceed as directed in the operating conditions in the Assay. Time span of measurement: About 2.5 times as long as the retention time of ethyl icosapentate, beginning after the solvent peak. System suitability— System performance: Proceed as directed in the system suitability in the Assay. Test for required detectability: To exactly 1 mL of the sample solution add hexane to make exactly 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suitability test, and add hexane to make exactly 10 mL. Confirm that the peak area of ethyl icosapentate obtained with 1.5 mL of this solution is equivalent to 7 to 13z of that with 1.5 mL of the solution for system suitability test. System repeatability: When the test is repeated 6 times with 1.5 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the peak area of ethyl icosapentate is not more than 2.0z. Peroxide—Weigh accurately about 1 g of Ethyl Icosapentate, put in a 200-mL glass-stoppered conical flask, add 25 mL of a mixture of acetic acid (100) and chloroform (3:2), and dissolve by gentle shaking. Add 1 mL of saturated potassium iodide solution TS, immediately stopper tightly, shake gently, and allow to stand in a dark place for 10 minutes. Then add 30 mL of water, shake vigorously for 5 to 10 seconds, and titrate <2.50> with 0.01 mol/L sodium thio-sulfate VS until the blue color of the solution disappears after addition of 1 mL of starch TS. Calculate the amount of peroxide by the following equation: not more than 2 mEq/kg. Amount (mEq/kg) of peroxide ＝ V/M × 10 V: Volume (mL) of 0.01 mol/L sodium thiosulfate VS consumed M: Amount (g) of Ethyl Icosapentate taken Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.4 g of Ethyl Icosapentate, and add hexane to make exactly 50 mL. Pipet 2 mL of this solution, add exactly 2 mL of the internal standard solution, and use this solution as the sample solution. Separately, weigh accurately about 80 mg of Ethyl Icosapentate RS, and add hexane to make exactly 10 mL. Pipet 2 mL of this solu-tion, add exactly 2 mL of the internal standard solution, and use this solution as the standard solution. Perform the test with 3 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ethyl icosapentate to that of the internal standard. Amount (mg) of ethyl icosapentate (C22H34O2) ＝ MS × QT/QS × 5 MS: Amount (mg) of Ethyl Icosapentate RS taken Internal standard solution—A solution of methyl docosanate in hexane (1 in 125). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column in 4 mm inside diameter and 1.8 m in length, packed with siliceous earth for gas chroma-tography (175 to 246 mm in particle diameter), coated with diethylene glycol succinate polyester for gas chromatography in the ratio of 25z. Column temperature: A constant temperature of about 1909C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of ethyl icosapentate is about 30 minutes. System suitability— System performance: When the procedure is run with 3 mL of the standard solution under the above operating condi-tions, the internal standard and ethyl icosapentate are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 3 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratio of the peak area of ethyl icosapentate to that of the internal stand-ard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Being fully filled, or replacing the air with Nitro-"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/aurantii-fructus-immaturus",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Aurantii Fructus Immaturus",
+    "ja": "キジツ"
+  },
+  "monographId": "JP18-aurantii-fructus-immaturus",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly spherical fruit, 1 – 2 cm in diameter, or semispherical, 1.5 – 4.5 cm in diameter; external surface, deep green-brown to brown, and without luster, with numerous small dents associated with oil sacs; the outer por-tion of transverse section exhibits pericarp and mesocarp about 0.4 cm in thickness, yellow-brown in color in the region contacting epidermis, and light grayish brown color in the other parts; the central portion is radially divided into 8 to 16 small loculi; each loculus is brown and indented, often containing immature seeds. Odor, characteristic; taste, bitter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 0.5 g of pulverized Immature Orange add 10 mL of methanol, boil gently for 2 minutes, and filter. To 5 mL of the filtrate add 0.1 g of magnesium ribbon and 1 mL of hydrochloric acid, and allow to stand: a red-purple color develops. Total ash <5.01> Not more than 7.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

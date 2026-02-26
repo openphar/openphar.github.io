@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/gentianae-radix",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Gentianae Radix",
+    "ja": "ゲンチアナ"
+  },
+  "monographId": "JP18-gentianae-radix",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Nearly cylindrical pieces, 10 – 50 cm in length, 2 – 4 cm in diameter; externally dark brown; the rhizome short, with fine, transverse wrinkles, and sometimes with ‌2008‌ Powdered Gentian / Crude Drugs and Related Drugs buds and remains of leaves at the upper edge. The root lon-gitudinally and deeply wrinkled, and more or less twisted; fractured surface yellow-brown and not fibrous, and a cam-bium and its neighborhood tinged dark brown. Odor, characteristic; taste, sweet at first, later persistently bitter. Under a microscope <5.01>, a transverse section of the root reveals several cellular layers of collenchyma adjoined internally to 4 to 6 cellular layers of thin-walled cork; secondary cortex with irregularly distributed phloem; xylem consisting chiefly of parenchyma, with individual or clustered vessels and tracheids, and exhibiting some sieve tubes of xylem; parenchyma of the xylem and the cortex con-taining oil droplets, minute needle crystals of calcium oxa-late and very rarely starch grains 10 – 20 mm in diameter."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Place 0.1 g of pulverized Gentian, pre-viously dried in a desiccator (silica gel) for 48 hours, on a slide glass, put a glass ring 10 mm in both inside diameter and in height on it, then cover with another slide, and heat gently and gradually: pale yellow crystals are sublimed on the upper slide. The crystals are insoluble in water and in ethanol (95), and soluble in potassium hydroxide TS. (2) To 0.5 g of pulverized Gentian add 10 mL of metha-nol, shake for 5 minutes, filter, and use the filtrate as the sample solution. Separately, dissolve 1 mg of gentiopicroside for thin-layer chromatography in 1 mL of methanol, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatogra-phy <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent indicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and water (8:2:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wavelength: 254 nm): one of the several spots obtained from the sample solution and a spot from the standard solution show the same color tone and the same Rf value."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of pulverized Gentian according to Method 3, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Gentian according to Method 4, and perform the test (not more than 5 ppm). Total ash <5.01> Not more than 6.0z. Acid-insoluble ash <5.01> Not more than 3.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

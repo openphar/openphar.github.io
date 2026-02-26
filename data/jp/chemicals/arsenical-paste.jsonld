@@ -1,0 +1,44 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/arsenical-paste",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Arsenical Paste",
+    "ja": "亜ヒ酸パスタ"
+  },
+  "monographId": "JP18-arsenical-paste",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Arsenical Paste contains not less than 36."
+  },
+  "appearance": {
+    "en": "Arsenical Paste is grayish black and has the odor of clove oil."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Place 0.1 g of Arsenical Paste in a small flask, add 5 mL of fuming nitric acid and 5 mL of sulfuric acid, and heat over a flame until the reacting liquid becomes colorless and white fumes begin to evolve. After cooling, add the reacting liquid to 20 mL of water cautiously, and add 10 mL of hydrogen sulfide TS while warming: a yellow precipitate is produced (arsenic trioxide). Shake thoroughly 0.5 g of Arsenical Paste with 25 mL of diethyl ether, 5 mL of dilute hydrochloric acid and 20 mL of water, separate the water layer, and filter: 5 mL of the filtrate responds to Qualitative Tests <1.09> for primary aro-matic amines (procaine hydrochloride). Shake thoroughly 0.5 g of Arsenical Paste with 25 mL of diethyl ether and 25 mL of water, separate the water layer, filter, and use the filtrate as the sample solution. Dis-solve 0.01 g of procaine hydrochloride in 5 mL of water, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chroma-tography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel with fluorescent in-dicator for thin-layer chromatography. Develop the plate with a mixture of ethyl acetate, ethanol (99.5) and ammonia solution (28) (50:5:1) to a distance of about 10 cm, and air-dry the plate. Examine under ultraviolet light (main wave-length: 254 mm): the spots obtained from the sample solu-tion and standard solution exhibit the same Rf value."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Arsenical Paste into a 150-mL Kjeldahl flask, add 5 mL of fuming nitric acid and 10 mL of sulfuric acid, and shake thoroughly. Heat cau-tiously the mixture, gently at first, and then continue strong heating, until red fumes of nitrogen oxide are sparingly evolved. After cooling, add 5 mL of fuming nitric acid, heat again until red fumes of nitrogen oxide are no longer evolved and the reacting liquid becomes clear, and cool. Add 30 mL of a saturated solution of ammonium oxalate monohydrate, heat again until white fumes of sulfuric acid are evolved, and continue the heating for 10 minutes. Decompose completely oxalic acid, cool, transfer cautiously the colorless reacting liquid to a glass-stoppered flask, containing 40 mL of water. Wash thoroughly the Kjeldahl flask with 60 mL of water, add the washings to the content of the glass-stoppered flask, and cool. Dissolve 3 g of potassium iodide in this solution, ‌484‌‌ allow to stand in a dark place at room temperature for 45 minutes, and titrate <2.50> the liberated iodine with 0.1 mol/L sodium thiosulfate VS (indicator: 5 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L sodium thiosulfate VS ＝ 4.946 mg of As2O3"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

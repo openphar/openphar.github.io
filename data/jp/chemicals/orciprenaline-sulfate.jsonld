@@ -1,0 +1,52 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/orciprenaline-sulfate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Orciprenaline Sulfate‌",
+    "ja": "オルシプレナリン硫酸塩"
+  },
+  "monographId": "JP18-orciprenaline-sulfate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "casNumber": "5874-97-5",
+  "appearance": {
+    "en": "Orciprenaline Sulfate occurs as white, crystals or crystalline powder. It is freely soluble in water, slightly soluble in ethanol (95) and in acetic acid (100), and practically insoluble in diethyl ether. A solution of Orciprenaline Sulfate (1 in 20) shows no op-tical rotation. Melting point: about 2209C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Orciprenaline Sulfate in 0.01 mol/L hydrochloric acid TS (1 in 10,000) as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar inten-sities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Orci-prenaline Sulfate, previously dried, as directed in the potas-sium bromide disk method under Infrared Spectrophotome-try <2.25>: it exhibits absorption at the wave numbers of about 1607 cm－1, 1153 cm－1, 1131 cm－1 and 1110 cm－1. A solution of Orciprenaline Sulfate (1 in 100) re-sponds to Qualitative Tests <1.09> for sulfate. pH <2.54> Dissolve 1.0 g of Orciprenaline Sulfate in 10 mL of water: the pH of this solution is between 4.0 and 5.5."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Orciprenaline Sulfate in 10 mL of water: the solution is clear, and has no more color than the following control solu-tion. Control solution: To 3 mL of Matching Fluid T add 1 mL of diluted hydrochloric acid (1 in 40). Heavy metals <1.07>—Proceed with 2.0 g of Orci- prenaline Sulfate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Orciprenalone—Dissolve 0.200 g of Orciprenaline Sulfate in 0.01 mol/L hydrochloric acid TS to make exactly 20 mL. Perform the test with this solution as directed under Ultraviolet-visible Spectrophotometry <2.24>: the absor-bance at 328 nm is not more than 0.075. Loss on drying <2.41> Not more than 1.5z (1 g, in vacu-um, 1059C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Orciprenaline Sul-fate, dissolve in 100 mL of acetic acid (100) by warming on a water bath, and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determina-tion in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 52.06 mg of (C11H17NO3)2.H2SO4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

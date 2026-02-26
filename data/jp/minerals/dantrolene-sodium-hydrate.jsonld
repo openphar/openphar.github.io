@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/dantrolene-sodium-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Dantrolene Sodium Hydrate",
+    "ja": "ダントロレンナトリウム水和物"
+  },
+  "monographId": "JP18-dantrolene-sodium-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Dantrolene Sodium Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Dantrolene Sodium Hydrate occurs as a yel-lowish orange to deep orange, crystalline powder. It is soluble in propylene glycol, sparingly soluble in meth- ‌JP XVIII Official Monographs / Daunorubicin Hydrochloride 829 anol, slightly soluble in ethanol (95), very slightly soluble in water and in acetic acid (100), and practically insoluble in acetone, in tetrahydrofuran and in diethyl ether."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Dantrolene Sodium Hydrate in methanol (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Dan-trolene Sodium Hydrate as directed in the potassium bro-mide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. To 0.1 g of Dantrolene Sodium Hydrate add 20 mL of water and 2 drops of acetic acid (100), shake well, and filter: the filtrate responds to Qualitative Tests <1.09> (1) for sodium salt."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Alkalinity—To 0.7 g of Dantrolene Sodium Hydrate add 10 mL of water, shake well, and centrifuge or filter through a membrane filter. To 5 mL of the supernatant liquid or the filtrate add 45 mL of water, 3 drops of phenol-phthalein TS and 0.10 mL of 0.1 mol/L hydrochloric acid VS: a red color is not produced. Heavy metals <1.07>—Proceed with 1.0 g of Dantro- lene Sodium Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Stand-ard Lead Solution (not more than 20 ppm). Related Substances—Dissolve 50 mg of Dantrolene Time span of measurement: About twice as long as the retention time of dantrolene, beginning after the solvent peak. Water <2.48> 14.5 – 17.0z (0.2 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.7 g of Dantrolene Sodium Hydrate, dissolve in 180 mL of a mixture of propylene glycol and acetone (1:1), and titrate <2.50> with 0.1 mol/L perchlo-ric acid VS (potentiometric titration). Perform a blank deter-mination in the same manner, and make any necessary cor-rection. Each mL of 0.1 mol/L perchloric acid VS ＝ 33.62 mg of C14H9N4NaO5"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

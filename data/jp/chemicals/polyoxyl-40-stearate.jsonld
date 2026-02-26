@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/polyoxyl-40-stearate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Polyoxyl 40 Stearate‌",
+    "ja": "ステアリン酸ポリオキシル 40"
+  },
+  "monographId": "JP18-polyoxyl-40-stearate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Polyoxyl 40 Stearate occurs as a white to light yellow, waxy solid or powder. It is odorless or has a faint fat-like odor. It is soluble in water, in ethanol (95) and in diethyl ether. Congealing point <2.42> 39.0 – 44.09C Congealing point of the fatty acid <1.13> Not below 539C. Acid value <1.13> Not more than 1. Saponification value <1.13> 25 – 35"
+  },
+  "testSpecification": [
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Polyoxyl 40 Stearate in 20 mL of water: the solution is clear and colorless. Heavy metals <1.07>—Proceed with 2.0 g of Polyoxyl 40 Stearate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 10 ppm). Arsenic <1.11>—Prepare the test solution with 0.67 g of Polyoxyl 40 Stearate, according to Method 3, and per-form the test (not more than 3 ppm). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

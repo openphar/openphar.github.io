@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/oxymetholone",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Oxymetholone",
+    "ja": "オキシメトロン"
+  },
+  "monographId": "JP18-oxymetholone",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C21H32O3",
+  "molecularWeight": 332.48,
+  "casNumber": "434-07-1",
+  "definition": {
+    "en": "Oxymetholone, when dried, contains not less than 97."
+  },
+  "appearance": {
+    "en": "Oxymetholone occurs as a white to pale yel-low-white crystalline powder. It is odorless. It is freely soluble in chloroform, soluble in 1,4-dioxane, sparingly soluble in methanol, in ethanol (95) and in ace-tone, slightly soluble in diethyl ether, and practically insolu-ble in water. It is gradually colored and decomposed by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dissolve 2 mg of Oxymetholone in 1 mL of ethanol (95), and add 1 drop of iron (III) chloride TS: a purple color develops. Dissolve 0.01 g of Oxymetholone in methanol to make 50 mL. To 5 mL of the solution add 5 mL of sodium hydroxide-methanol TS and methanol to make 50 mL. De-termine the absorption spectrum of the solution as directed under Ultraviolet-visible Spectrophotometry <2.24>, and compare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wavelengths. Determine the infrared absorption spectrum of Oxymetholone as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋34 – ＋389(after drying, 0.2 g, 1,4-dioxane, 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 0.5 g of Oxymetholone in 25 mL of 1,4-dioxane: the solution is clear, and shows a colorless to pale yellow color. (2) Related substances—Dissolve 50 mg of Oxymetho-lone in 5 mL of chloroform, and use this solution as the sam-ple solution. Pipet 1 mL of the sample solution, add chlo-roform to make exactly 200 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography, and air-dry the spot. Develop immediately the plate with a mixture of toluene and ethanol (99.5) (49:1) to a distance of about 12 cm, and air-dry the plate. Spray evenly vanillin-sulfuric acid TS on the plate, and heat the plate at 1009C for 3 to 5 minutes: any spot other than the principal spot and starting point obtained from the sample solution is not more intense than the spot from the standard solution. Loss on drying <2.41> Not more than 1.0z (0.5 g, in vacu-um, phosphorus (V) oxide, 4 hours). Residue on ignition <2.44> Not more than 0.1z (0.5 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 40 mg of Oxymetholone, previously dried, and dissolve in methanol to make exactly 50 mL. Pipet 5 mL of this solution, and add methanol to make exactly 50 mL. To exactly measured 5 mL of this solu-tion add 5 mL of sodium hydroxide-methanol TS and methanol to make exactly 50 mL. Determine the absorbance A of this solution at the wavelength of maximum absorption at about 315 nm as directed under Ultraviolet-visible Spec-trophotometry <2.24>, using a solution, prepared by adding methanol to 5 mL of sodium hydroxide-methanol TS to make 50 mL, as the blank. Amount (mg) of oxymetholone (C21H32O3) ＝ A/541 × 50,000"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers. Storage—Light-resistant."
+  }
+}

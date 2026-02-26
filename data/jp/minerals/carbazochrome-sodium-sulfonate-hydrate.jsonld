@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/carbazochrome-sodium-sulfonate-hydrate",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Carbazochrome Sodium Sulfonate Hydrate",
+    "ja": "カルバゾクロムスルホン酸ナトリウム水和物"
+  },
+  "monographId": "JP18-carbazochrome-sodium-sulfonate-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Carbazochrome Sodium Sulfonate Hydrate contains not less than 98."
+  },
+  "appearance": {
+    "en": "Carbazochrome Sodium Sulfonate Hydrate occurs as orange-yellow, crystals or crystalline powder. It is sparingly soluble in water, very slightly soluble in methanol and in ethanol (95), and practically insoluble in diethyl ether. A solution of Carbazochrome Sodium Sulfonate Hydrate (1 in 100) shows no optical rotation. Melting point: about 2109C (with decomposition)."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Carbazochrome Sodium Sulfonate Hydrate (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer- ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Car-bazochrome Sodium Sulfonate Hydrate as directed in the potassium bromide disk method under Infrared Spectropho-tometry <2.25>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wave numbers. A solution of Carbazochrome Sodium Sulfonate Hy-drate (1 in 100) responds to Qualitative Tests <1.09> (1) for sodium salt. pH <2.54> Dissolve 0.8 g of Carbazochrome Sodium Sul-fonate Hydrate in 50 mL of water by warming, and cool: the pH of this solution is between 5.0 and 6.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 1.0 g of Carbazochrome Sodium Sulfonate Hydrate in 50 mL of water by warming, and allow to cool: the solution is clear. Perform the test with this solution as directed under Ultravi-olet-visible Spectrophotometry <2.24>: the absorbance at 590 nm is not more than 0.070. Heavy metals <1.07>—Proceed with 1.0 g of Car-bazochrome Sodium Sulfonate Hydrate according to Method 2, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Related substances—Dissolve 50 mg of Carbazo-chrome Sodium Sulfonate Hydrate in 100 mL of water, and use this solution as the sample solution. Pipet 2 mL of the sample solution, add water to make exactly 200 mL, and use this solution as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solu-tion as directed under Liquid Chromatography <2.01> ac-cording to the following conditions. Determine each peak area of these solutions by the automatic integration method: the total area of the peaks other than carbazochrome sul-fonate obtained from the sample solution is not larger than the peak area of carbazochrome sulfonate from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 360 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (7 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: Dissolve 1.2 g of ammonium dihydrogen phosphate in 1000 mL of water, and filter through a mem-brane filter (0.4 mm in pore size) if necessary. To 925 mL of this solution add 75 mL of ethanol (95), shake, and adjust the pH to 3 with phosphoric acid. Flow rate: Adjust so that the retention time of car-bazochrome sulfonate is about 7 minutes. Time span of measurement: About 3 times as long as the retention time of carbazochrome sulfonate, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of carbazochrome sulfonate obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the standard solution. System performance: Dissolve 10 mg each of Carbazo-chrome Sodium Sulfonate Hydrate and carbazochrome in 100 mL of water by warming. When the procedure is run with 10 mL of this solution under the above operating condi- ‌JP XVIII Official Monographs / Carbidopa Hydrate 625 tions, carbazochrome sulfonate and carbazochrome are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of carbazochrome sulfonate is not more than 2.0z. Water <2.48> 13.0 – 16.0z (0.3 g, volumetric titration, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.25 g of Carbazochrome Sodium Sulfonate Hydrate, dissolve in 50 mL of water, apply to a chromatographic column, 10 mm in diameter, previously prepared with 20 mL of strongly acidic ion exchange resin for column chromatography (type H), and allow to flow at a rate of 4 mL per minute. Wash the column with 150 mL of water, combine the washing and the former effluent solution, and titrate <2.50> with 0.05 mol/L sodium hydroxide VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.05 mol/L sodium hydroxide VS ＝ 16.11 mg of C10H11N4NaO5S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

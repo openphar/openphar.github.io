@@ -1,0 +1,29 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/sodium-valproate-extended-release-tablets-a",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "‌Sodium Valproate Extended-release Tablets A",
+    "ja": "バルプロ酸ナトリウム徐放錠 A"
+  },
+  "monographId": "JP18-sodium-valproate-extended-release-tablets-a",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "testSpecification": [
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately the mass of not less than 20 So-dium Valproate Extended-release Tablets A, and powder. Weigh accurately a portion of the powder, equivalent to about 0.1 g of sodium valproate (C8H15NaO2), add about 80 mL of the mobile phase, shake thoroughly, add the mobile phase to make exactly 100 mL, and centrifuge. Pipet 20 mL of the supernatant liquid, add exactly 5 mL of the internal standard solution, and use this solution as the sample solu-tion. Separately, weigh accurately about 0.1 g of sodium val-proate for assay, previously dried at 1059C for 3 hours, dis-solve in the mobile phase to make exactly 100 mL. Pipet 20 mL of this solution, add exactly 5 mL of the internal stand-ard solution, and use this solution as the standard solution. Perform the test with 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of valproic acid to that of the internal standard. Amount (mg) of sodium valproate (C8H15NaO2) ＝ MS × QT/QS MS: Amount (mg) of sodium valproate for assay taken Internal standard solution—A solution of ethyl para-hydroxybenzoate in the mobile phase (1 in 50,000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of 0.05 mol/L sodium dihydro-gen phosphate TS (pH 3.0) and acetonitrile for liquid chro-matography (1:1). Flow rate: Adjust so that the retention time of valproic acid is about 6 minutes. ‌System suitability— System performance: When the procedure is run with 10 mL of the standard solution under the above operating con-ditions, the internal standard and valproic acid are eluted in this order with the resolution between these peaks being not less than 7. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of valproic acid to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Tablet"
+}

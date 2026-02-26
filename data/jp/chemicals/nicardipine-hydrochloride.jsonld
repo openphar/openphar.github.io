@@ -1,0 +1,53 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nicardipine-hydrochloride",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "‌Nicardipine Hydrochloride",
+    "ja": "ニカルジピン塩酸塩"
+  },
+  "monographId": "JP18-nicardipine-hydrochloride",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C26H29N3O6.HCl",
+  "molecularWeight": 515.99,
+  "appearance": {
+    "en": "Nicardipine Hydrochloride occurs as a slightly greenish yellow crystalline powder. It is freely soluble in methanol and in acetic acid (100), sparingly soluble in ethanol (99.5), and slightly soluble in water, in acetonitrile and in acetic anhydride. A solution of Nicardipine Hydrochloride in methanol (1 in 20) shows no optical rotation. It is gradually affected by light."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Nicardipine Hydrochloride in ethanol (99.5) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum: both spectra exhibit similar intensities of ab-sorption at the same wavelengths. Determine the infrared absorption spectrum of Nicardipine Hydrochloride, previously dried, as directed in the potassium bromide disk method under Infrared Spectro-photometry <2.25>, and compare the spectrum with the Ref-erence Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. Dissolve 0.02 g of Nicardipine Hydrochloride in 10 mL of water and 3 mL of nitric acid: the solution responds to Qualitative Tests <1.09> for chloride."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Nicardipine Hydrochloride according to Method 4, and per-form the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). (2) Related substances—Conduct this procedure without exposure to light, using light-resistant vessels. Dissolve 0.10 g of Nicardipine Hydrochloride in 50 mL of the mobile phase, and use this solution as the sample solution. Pipet 1 mL of the sample solution, add the mobile phase to make exactly 50 mL, then take exactly 1 mL of this solution, add the mobile phase to make exactly 10 mL, and use this solu-tion as the standard solution. Perform the test with exactly 10 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine each peak area of both solutions by the automatic integration method: the area of each peak other than nicardipine obtained from the sample solution is not larger than the peak area of nicardipine from the standard solution, and the total area of each peak other than nicardipine is not larger than 2 times the peak area of nicardipine from the standard solution. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 309C. Mobile phase: A mixture of a solution of perchloric acid (43 in 50,000) and acetonitrile (3:2). Flow rate: Adjust so that the retention time of nicardipine is about 6 minutes. Time span of measurement: About 4 times as long as the retention time of nicardipine, beginning after the solvent peak. System suitability— Test for required detectability: To exactly 2 mL of the standard solution add the mobile phase to make exactly 20 mL. Confirm that the peak area of nicardipine obtained with 10 mL of this solution is equivalent to 8 to 12z of that with 10 mL of the standard solution. System performance: Dissolve 2 mg each of Nicardipine Hydrochloride and nifedipine in 50 mL of the mobile phase. When the procedure is run with 10 mL of this solution under the above operating conditions, nicardipine and nifedipine are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 10 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of nicardipine is not more than 3z. Loss on drying <2.41> Not more than 1.0z (1 g, 1059C, 2 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure without exposure to light, using light-resistant vessels. Weigh accurately about 0.9 g of Nicardipine Hydrochloride, previously dried, dissolve in 100 mL of a mixture of acetic anhydride and acetic acid (100) (7:3), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 51.60 mg of C26H29N3O6.HCl"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

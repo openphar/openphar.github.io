@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/atropine-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Atropine Sulfate Injection",
+    "ja": "アトロピン硫酸塩注射液"
+  },
+  "monographId": "JP18-atropine-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Atropine Sulfate Injection is an aqueous injection. It contains not less than 93."
+  },
+  "appearance": {
+    "en": "Atropine Sulfate Injection is a clear, colorless liquid. pH: 4.0 – 6.0"
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Evaporate a volume of Atropine Sul-fate Injection, equivalent to 1 mg of Atropine Sulfate Hy-drate, on a water bath to dryness. Proceed with the residue as directed in the Identification (1) under Atropine Sulfate Hydrate. Evaporate an exactly measured volume of Atropine Sulfate Injection, equivalent to 5 mg of Atropine Sulfate Hydrate, on a water bath to dryness. After cooling, dissolve the residue in 1 mL of ethanol (95), and use this solution as the sample solution. If insoluble substance remains, crush it, allow to stand, and use the supernatant liquid as the sample solution. Separately, dissolve 10 mg of Atropine Sulfate RS in 2 mL of ethanol (95), and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 5 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop the plate with a mixture of acetone, water and ammonia water (28) (90:7:3) to a distance of about 10 cm, and dry the plate at 809C for 10 minutes. After cooling, spray evenly Dragendorff's TS for spraying on the plate: the spots obtained from the sample solution and the standard solution show an orange color and the same Rf value. Atropine Sulfate Injection responds to Qualitative Tests <1.09> for sulfate. Bacterial endotoxins <4.01> Less than 75 EU/mg. Extractable volume <6.05> It meets the requirements. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "To an exactly measured volume of Atropine Sulfate Injection, equivalent to about 5 mg of atropine sulfate hy-drate [(C17H23NO3)2.H2SO4.H2O], add exactly 3 mL of the internal standard solution and water to make 50 mL, and use this solution as the sample solution. Separately, weigh accu-rately about 25 mg of Atropine Sulfate RS (separately deter-mine the loss on drying <2.41> under the same conditions as Atropine Sulfate Hydrate), and dissolve in water to make ex-actly 50 mL. Pipet 10 mL of this solution, add exactly 3 mL of the internal standard solution and water to make 50 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard so-lution as directed under Liquid Chromatography <2.01> ac-cording to the following conditions, and calculate the ratios, QT and QS, of the peak area of atropine to that of the inter-nal standard. Amount (mg) of atropine sulfate hydrate [(C17H23NO3)2.H2SO4.H2O] ＝ MS × QT/QS × 1/5 × 1.027 MS: Amount (mg) of Atropine Sulfate RS taken, calcu-lated based on the dried basis Internal standard solution—A solution of etilefrine hydro-chloride (1 in 1000). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 15 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 409C. Mobile phase: To 0.4 g of sodium lauryl sulfate add 500 mL of diluted phosphoric acid (1 in 1000) to dissolve, and adjust the pH to 3.0 with sodium hydroxide TS. To 240 mL ‌496 of this solution add 70 mL of tetrahydrofuran, and mix. Flow rate: Adjust so that the retention time of atropine is about 16 minutes. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the internal standard and atropine are eluted in this order with the resolution between these peaks being not less than 3. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of atropine to that of the internal standard is not more than 1.5z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. Storage—Light-resistant."
+  },
+  "dosageForm": "Injection"
+}

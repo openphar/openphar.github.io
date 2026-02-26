@@ -1,0 +1,46 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/d-camphor",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "d-Camphor",
+    "ja": "d-カンフル"
+  },
+  "monographId": "JP18-d-camphor",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C10H16O",
+  "molecularWeight": 152.23,
+  "definition": {
+    "en": "d-Camphor contains not less than 96."
+  },
+  "appearance": {
+    "en": "d-Camphor occurs as colorless or white, trans-lucent crystals, crystalline powder or masses. It has a charac-teristic, agreeable odor, and a slightly bitter taste, followed by a pleasant, cooling sensation. It is freely soluble in ethanol (95), in diethyl ether and in carbon disulfide, and slightly soluble in water. It slowly volatilizes at room temperature."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Dissolve 0.1 g of d-Camphor in 2 mL of methanol, add 1 mL of 2,4-dinitrophenylhydradine TS, and heat for 5 minutes on a water bath: an orange-red precipitate is formed. D Optical rotation <2.49> [a]20: ＋41.0 – ＋43.09(5 g, ethanol System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of d-camphor to that of the internal standard is not more than 1.0z."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.1 g each of d-Camphor and d-Camphor RS, add exactly 5 mL each of the internal standard solution, dissolve in ethanol (99.5) to make 100 mL, and use these solutions as the sample solution and the standard solution. Perform the test with 2 mL each of the sample solution and standard solution as directed under Gas Chromatography <2.02> according to the following condi-tions, and calculate the ratios, QT and QS, of the peak area of d-camphor to that of the internal standard. Amount (mg) of d-camphor (C10H16O) ＝ MS × QT/QS MS: Amount (mg) of d-Camphor RS taken Internal standard solution—A solution of methyl salicylate in ethanol (99.5) (1 in 25). Operating conditions— Detector: A hydrogen flame-ionization detector. Column: A glass column 3 mm in inside diameter and 3 m in length, which is packed with 10z of polyethylene glycol 20 M for gas chromatography supported on 180 to 250 mm mesh silanized siliceous earth for gas chromatography. Column temperature: A constant temperature of about 1609C. Carrier gas: Nitrogen. Flow rate: Adjust so that the retention time of d-camphor is about 6 minutes. System suitability— System performance: When the procedure is run with 2 mL of the standard solution under the above operating condi-tions, d-camphor and the internal standard are eluted in this phor (C 10H16 O). order with the resolution between these peaks being not less than 7. Description d-Camphor occurs as colorless or white, trans-lucent crystals, crystalline powder or masses. It has a charac-teristic, agreeable odor, and a slightly bitter taste, followed by a pleasant, cooling sensation. It is freely soluble in ethanol (95), in diethyl ether and in carbon disulfide, and slightly soluble in water. It slowly volatilizes at room temperature. Identification Dissolve 0.1 g of d-Camphor in 2 mL of methanol, add 1 mL of 2,4-dinitrophenylhydradine TS, and heat for 5 minutes on a water bath: an orange-red precipitate is formed. D Optical rotation <2.49> [a]20: ＋41.0 – ＋43.09(5 g, ethanol System repeatability: When the test is repeated 6 times with 2 mL of the standard solution under the above operating conditions, the relative standard deviation of the ratios of the peak area of d-camphor to that of the internal standard is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}

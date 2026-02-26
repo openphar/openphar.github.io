@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/minerals/sulbenicillin-sodium",
+  "@type": "MineralSubstanceMonograph",
+  "prefLabel": {
+    "en": "Sulbenicillin Sodium",
+    "ja": "スルベニシリンナトリウム"
+  },
+  "monographId": "JP18-sulbenicillin-sodium",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Sulbenicillin Sodium contains not less than 900 mg (potency) and not more than 970 mg (potency) per mg, calculated on the anhydrous basis."
+  },
+  "appearance": {
+    "en": "Sulbenicillin Sodium occurs as white to light yellow-white powder. It is very soluble in water, freely soluble in methanol, and slightly soluble in ethanol (99.5). It is hygroscopic."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the infrared absorption spec-trum of Sulbenicillin Sodium as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and compare the spectrum with the Reference Spec- trum or the spectrum of Sulbenicillin Sodium RS: both spec-tra exhibit similar intensities of absorption at the same wave numbers. (2) Sulbenicillin Sodium responds to Qualitative Tests <1.09> (1) for sodium salt. D Optical rotation <2.49> [a]20: ＋167 – ＋1829(1 g calculated on the anhydrous basis, water, 20 mL, 100 mm). ‌pH <2.54> The pH of a solution obtained by dissolving 0.20 g of Sulbenicillin Sodium in 10 mL of water is between 4.5 and 7.0."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Clarity and color of solution—Dissolve 2.5 g of Sulbenicillin Sodium in 5 mL of water: the solution is clear and colorless to pale yellow. Heavy metals <1.07>—Proceed with 1.0 g of Sul- benicillin Sodium according to Method 1, and perform the test. Prepare the control solution with 2.0 mL of Standard Lead Solution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Sulbenicillin Sodium according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.10 g of Sulbenicillin Sodium in 15 mL of the mobile phase, and use this solution as the sample solution. Perform the test with 10 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions, determine each peak area by the automatic integration method, and calcu-late the amount of these peaks by the area percentage method: the amount of the each peak other than the two peaks of sulbenicillin is not more than 2.0z, and the total amount of the peaks other than the two peaks of sulbenicil-lin is not more than 5.0z. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 254 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: Dissolve 10 g of potassium dihydrogen phosphate in 750 mL of water, adjust the pH to 6.0 ± 0.1 with sodium hydroxide TS, and add water to make 1000 mL. To 940 mL of this solution add 60 mL of acetonitrile. Flow rate: Adjust so that the retention time of the lately eluted peak of sulbenicillin is about 18 minutes. Time span of measurement: About 1.5 times as long as the retention time of the lately eluted peak of sulbenicillin, be-ginning after the solvent peak. System suitability— Test for required detectability: Measure exactly 1 mL of the sample solution, add the mobile phase to make exactly 100 mL, and use this solution as the solution for system suitability test. Pipet 1 mL of the solution for system suita-bility test, and add the mobile phase to make exactly 10 mL. Confirm that the total area of the two peaks of sulbenicillin obtained with 10 mL of this solution is equivalent to 7 to 13z of that with 10 mL of the solution for system suitability test. System performance: When the procedure is run with 10 mL of the sample solution under the above operating condi-tions, the resolution between the two peaks of sulbenicillin is not less than 2.0. System repeatability: When the test is repeated 6 times with 10 mL of the solution for system suitability test under the above operating conditions, the relative standard devia-tion of the total areas of the two peaks of sulbenicillin is not more than 5.0z. Water <2.48> Not more than 6.0z (0.5 g, volumetric titra-tion, direct titration)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Perform the test according to the Cylinder-plate method as directed under Microbial Assay for Antibiotics <4.02> according to the following conditions. Test organism—Bacillus subtilis ATCC 6633 Culture medium—Use the medium i in 1) under (1) Agar media for seed and base layer. Adjust the pH of the medium so that it will be 6.4 to 6.6 after sterilization. Standard solutions—Weigh accurately an amount of Sulbenicillin Sodium RS, equivalent to about 50 mg (po-tency), dissolve in phosphate buffer solution (pH 6.0) to make exactly 50 mL, and use this solution as the standard stock solution. Keep the standard stock solution in a freezer, and use within 4 days. Take exactly a suitable amount of the standard stock solution before use, add phosphate buffer so-lution (pH 6.0) to make solutions so that each mL contains 40 mg (potency) and 10 mg (potency), and use these solutions as the high concentration standard solution and the low con-centration standard solution, respectively. Sample solutions—Weigh accurately an amount of Sulbenicillin Sodium, equivalent to about 50 mg (potency), and dissolve in phosphate buffer solution (pH 6.0) to make exactly 50 mL. Take exactly a suitable amount of this solu-tion, add phosphate buffer solution (pH 6.0) to make solu-tions so that each mL contains 40 mg (potency) and 10 mg (potency), and use these solutions as the high concentration sample solution and the low concentration sample solution, respectively."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  }
+}

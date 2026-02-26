@@ -1,0 +1,54 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/nux-vomica-extract",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Nux Vomica Extract",
+    "ja": "ホミカエキス"
+  },
+  "monographId": "JP18-nux-vomica-extract",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Nux Vomica Extract contains not less than 6."
+  },
+  "appearance": {
+    "en": "Nux Vomica Extract occurs as yellow-brown to brown powder. It has a slight characteristic odor, and an extremely bitter taste."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Extract 0.5 g of Nux Vomica Extract with 0.5 mL of ammonia TS and 10 mL of chloroform with occa-sional shaking. Filter the chloroform extract, evaporate the filtrate on a water bath until most of the chloroform is re-moved, and proceed as directed in the Identification under Nux Vomica."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "Heavy metals <1.07>—Prepare the test solution with 1.0 g of Nux Vomica Extract as directed in the Extracts (4), and perform the test (not more than 30 ppm). Amount (mg) of strychnine ＝ MS × QT/QS × 1/5 × 0.841"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.2 g of Nux Vomica Ex-tract, place in a glass-stoppered centrifuge tube, add 15 mL MS: Amount (mg) of strychnine nitrate for assay taken, calculated on the dried basis Internal standard solution—A solution of barbital sodium in the mobile phase (1 in 500). Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 210 nm). Column: A stainless steel column about 4 mm in inside di-ameter and about 15 cm in length, packed with octadecyl-silanized silica gel for liquid chromatography (5 mm in parti-cle diameter). Column temperature: Room temperature. Mobile phase: Dissolve 6.8 g of potassium dihydrogen-phosphate in water to make 1000 mL, and mix with aceto-nitrile and triethylamine (45:5:1), and adjust the mixture with phosphoric acid to pH 3.0. Flow rate: Adjust so that the retention time of Strychnine is about 17 minutes. System suitability— System performance: When the procedure is run with 5 mL of the standard solution under the above operating condi-tions, the internal standard and strychnine are eluted in this order with the resolution between these peaks being not less than 1.5."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/protamine-sulfate-injection",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Protamine Sulfate Injection",
+    "ja": "プロタミン硫酸塩注射液"
+  },
+  "monographId": "JP18-protamine-sulfate-injection",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Protamine Sulfate Injection is an aqueous injection. It contains not less than 92."
+  },
+  "appearance": {
+    "en": "Protamine Sulfate Injection is a colorless liq-uid. It is odorless or has the odor of preservatives."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Dilute a volume of Protamine Sulfate Injection, equivalent to 1 mg of Protamine Sulfate, with water to make 2 mL, and proceed as directed in the Identifi-cation (1) under Protamine Sulfate. (2) Dilute a volume of Protamine Sulfate Injection, equivalent to 5 mg of Protamine Sulfate, with water to make 1 mL, and proceed as directed in the Identification (2) under Protamine Sulfate. pH <2.54> 5.0 – 7.0 Bacterial endotoxins <4.01> Less than 6.0 EU/mg. Extractable volume <6.05> It meets the requirement. Foreign insoluble matter <6.06> Perform the test according to Method 1: it meets the requirement. Insoluble particulate matter <6.07> It meets the require-ment. Sterility <4.06> Perform the test according to the Mem-brane filtration method: it meets the requirement."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "(1) Protein—Pipet a volume of Protamine Sulfate Injection, equivalent to about 10 mg of Protamine Sulfate, transfer to a Kjeldahl flask, evaporate on a water bath to dryness with the aid of a current of air, determine the nitro-gen as directed under Nitrogen Determination <1.08>, and calculate the amount of protein by converting 0.24 mg of nitrogen (N: 14.01) to 1 mg of protein. Heparin-binding activity—Proceed the test as di-rected in the Heparin-binding capacity under Protamine Sulfate, changing the sample solution (a) as below, and de-termine the amount of heparin bound to 1 mg of protein by dividing by the amount of protein. Sample solution (a)—Pipet a volume of Protamine Sulfate Injection, equivalent to 15.0 mg of Protamine Sul-fate, and add water to make exactly 100 mL. Repeat this procedure two more times, and designate the solutions so obtained as the sample solutions (a1), (a2) and (a3)."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers."
+  },
+  "dosageForm": "Injection"
+}

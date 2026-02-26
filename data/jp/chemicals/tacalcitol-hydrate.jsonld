@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/tacalcitol-hydrate",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Tacalcitol Hydrate",
+    "ja": "タカルシトール水和物"
+  },
+  "monographId": "JP18-tacalcitol-hydrate",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C27H44O3.H2O",
+  "molecularWeight": 434.65,
+  "casNumber": "93129-94-3",
+  "definition": {
+    "en": "Tacalcitol Hydrate contains not less than 97."
+  },
+  "appearance": {
+    "en": "Tacalcitol Hydrate occurs as white, crystals or crystalline powder. It is very soluble in methanol and in ethanol (99.5), and practically insoluble in water. It decomposes on exposure to light. Melting point: about 1009C. Place Tacalcitol Hydrate in a capillary tube and immediately flame-seal, put the tube in a bath heated at a temperature of about 109C below the predicted melting point, then start the determination by ris-ing the temperature at the rate of 19C per minute."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "(1) Determine the absorption spectrum of a solution of Tacalcitol Hydrate in ethanol (99.5) (1 in 100,000) as directed under Ultraviolet-visible Spectropho-tometry <2.24>, and compare the spectrum with the Refer-ence Spectrum or the spectrum of a solution of Tacalcitol RS prepared in the same manner as the sample solution: both spectra exhibit similar intensities of absorption at the same wavelengths. (2) Determine the infrared absorption spectrum of Tacalcitol Hydrate as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum or the spec-trum of Tacalcitol RS: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]20: ＋58 – ＋639(25 mg calcu-lated on the anhydrous basis, ethanol (99.5), 5 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) 1a,24(S)-Dihydroxycolecalciferol — Conduct this procedure avoiding contact to the air as possible and using light-resistant vessels. Dissolve 1 mg of Tacalcitol Hydrate in 20 mL of methanol, and use this solution as the sample solution. Perform the test with 30 mL of the sample solution as directed under Liquid Chromatography <2.01> according to the following conditions. Determine the peak area of tacalcitol, Aa, and the area of a peak, having the rel-ative retention time of about 1.1 to tacalcitol, Ab, by the au-tomatic integration method: Ab/(Aa ＋ Ab) is not more than 0.02. ＝ 18.07 mg of C14H30 Cl2N2O4 Operating conditions— Detector: An ultraviolet absorption photometer (wave-"
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Conduct this procedure avoiding contact to the air as possible and using light-resistant vessels. Weigh accurately about 1 mg each of Tacalcitol Hydrate and Tacalcitol RS (separately determine the water <2.48> in the same manner as Tacalcitol Hydrate), and dissolve each in methanol to make exactly 50 mL. Pipet 5 mL each of these solutions, add methanol to make exactly 20 mL, and use these solutions as the sample solution and the standard solution, respectively. Perform the test with exactly 40 mL each of the sample solu-tion and standard solution as directed under Liquid Chroma-tography <2.01> according to the following conditions, and determine the peak area, AT and AS, of tacalcitol in each so-lution. Amount (mg) of tacalcitol (C27H44O3) ＝ MS × AT/AS MS: Amount (mg) of Tacalcitol RS taken, calculated on the anhydrous basis Operating conditions— Detector: An ultraviolet absorption photometer (wave- length: 265 nm). Column: A stainless steel column 4.6 mm in inside diame-ter and 25 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (5 mm in particle diameter). Column temperature: A constant temperature of about 359C. Mobile phase: A mixture of acetonitrile and water (3:1). Flow rate: Adjust so that the retention time of tacalcitol is about 10 minutes. System suitability— System performance: When the procedure is run with 40 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of tacalcitol are not less than 1500 and not more than 1.5, respectively. System repeatability: When the test is repeated 6 times with 40 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of tacalcitol is not more than 1.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Hermetic containers. length: 265 nm)."
+  }
+}

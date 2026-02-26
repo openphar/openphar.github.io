@@ -1,0 +1,41 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/crude-drugs/gastrodiae-tuber",
+  "@type": "CrudeDrugMonograph",
+  "prefLabel": {
+    "en": "Gastrodiae Tuber",
+    "ja": "テンマ"
+  },
+  "monographId": "JP18-gastrodiae-tuber",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "appearance": {
+    "en": "Gastrodia Tuber is an irregularly curved and flattened cylindrical to flattened fusiform tuber, 5 – 15 cm in length, 2 – 5 cm in diameter, 1 – 2 cm in thickness; externally light yellow-brown to light yellow-white; with ring nodes, and irregular longitudinal wrinkles; hard in texture; frac-tured surface, dark brown to yellow-brown in color, with luster, horny and gluey. Odor, characteristic; practically tasteless. Under a microscope <5.01>, a transverse section reveals parenchyma cells containing raphides of calcium oxalate; starch grain absent."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To 1 g of pulverized Gastrodia Tuber add 5 mL of methanol, shake for 15 minutes, and filter. Evaporate the filtrate to dryness, dissolve the residue in 1 mL of metha-nol, and use this solution as the sample solution. Perform the test with the sample solution as directed under Thin-layer Chromatography <2.03>. Spot 10 mL of the sample solution on a plate of silica gel for thin-layer chromatography, de-velop the plate with a mixture of ethyl acetate, methanol and water (8:2:1) to a distance of about 7 cm, and air-dry the plate. Spray evenly dilute sulfuric acid on the plate, and heat the plate at 1059C for 5 minutes: a red-purple to light brown spot appears at an Rf value of about 0.4."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 3.0 g of pulverized Gastrodia Tuber according to Method 3, and per-form the test. Prepare the control solution with 3.0 mL of Standard Lead Solution (not more than 10 ppm). (2) Arsenic <1.11>—Prepare the test solution with 0.40 g of pulverized Gastrodia Tuber according to Method 4, and perform the test (not more than 5 ppm). Loss on drying <5.01> Not more than 16.0z (6 hours). Total ash <5.01> Not more than 4.0z. Extract content <5.01> Dilute ethanol-soluble extract: not less than 16.0z."
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Well-closed contain-ers."
+  }
+}

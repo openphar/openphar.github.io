@@ -1,0 +1,42 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/formulations/ubenimex-capsules",
+  "@type": "FormulationMonograph",
+  "prefLabel": {
+    "en": "Ubenimex Capsules",
+    "ja": "ウベニメクスカプセル"
+  },
+  "monographId": "JP18-ubenimex-capsules",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "definition": {
+    "en": "Ubenimex Capsules contain not less than 93.0z and not more than 107.0z of the labeled amount of ubeni-mex (C16H24N2O4: 308.37). Method of preparation Prepare as directed under Cap-sules, with Ubenimex. Identification To a quantity of the contents of Ubenimex Capsules, equivalent to 25 mg of Ubenimex, add water to make 50 mL, shake well, and filter. Determine the absorp-tion spectrum of the filtrate as directed under Ultraviolet- Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) visible Spectrophotometry <2.24>: it exhibits maxima be-tween 250 nm and 254 nm, between 255 nm and 259 nm, and 0 – 20 100 0 20 – 60 100 → 0 0 → 100 60 – 70 0 100 Flow rate: Adjust so that the retention time of ubenimex is about 14 minutes. Time span of measurement: About 5 times as long as the retention time of ubenimex, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase A to make exactly 10 mL. Confirm that the peak area of ubenimex obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ubenimex are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ubenimex is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g). Assay Weigh accurately about 0.5 g of Ubenimex, previ-ously dried, dissolve in 60 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 30.84 mg of C16H24N2O4 Containers and storage Containers—Tight containers. between 261 nm and 265 nm. Uniformity of dosage units <6.02> Perform the test accord-ing to the following method: it meets the requirement of the Content uniformity test. To 1 capsule of Ubenimex Capsules add 30 mL of a mix-ture of water and acetonitrile (7:3), shake well for 30 minutes, and add a mixture of water and acetonitrile (7:3) to make exactly 50 mL. Centrifuge this solution and filter the supernatant liquid through a membrane filter with a pore size not exceeding 0.45 mm. Discard the first 5 mL of the filtrate, pipet V mL of the subsequent filtrate, equivalent to about 3 mg of ubenimex (C16H24N2O4), add exactly 4 mL of the internal standard solution, add a mixture of water and acetonitrile (7:3) to make 50 mL, and use this solution as the sample solution. Separately, weigh accurately about 20 mg of ubenimex for assay, previously dried at 809C for 4 hours under reduced pressure, and dissolve in a mixture of water and acetonitrile (7:3) to make exactly 100 mL. Pipet 15 mL of this solution, add exactly 4 mL of the internal standard solution, add a mixture of water and acetonitrile (7:3) to make 50 mL, and use this solution as the standard solution. Perform the test with 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and calculate the ratios, QT and QS, of the peak area of ubenimex to that of the internal standard. Amount (mg) of ubenimex (C16H24N2O4) ＝ MS × QT/QS × 1/V × 15/2 MS: Amount (mg) of ubenimex for assay taken Internal standard solution—A solution of ethyl parahy-droxybenzoate in a mixture of water and acetonitrile (7:3) (1 in 2000). Operating conditions— Proceed as directed in the operating conditions in the Assay. System suitability— System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, ubenimex and the internal standard are eluted in this order with the resolution between these peaks being not less than 10. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the ratio of the peak area of ubenimex to that of the internal standard is not more than 2.0z. Dissolution <6.10> When the test is performed at 50 revolu- ‌tions per minute according to the Paddle method using the sinker, using 900 mL of water as the dissolution medium, the dissolution rate in 30 minutes of Ubenimex Capsules is not less than 70z. Start the test with 1 capsule of Ubenimex Capsules, with-draw not less than 20 mL of the medium at the specified minute after starting the test, and filter through a membrane filter with a pore size not exceeding 0.45 mm. Discard not less than 10 mL of the first filtrate, pipet V mL of the subsequent filtrate, add a mixture of water and acetonitrile (7:3) to make exactly V? mL so that each mL contains about 11 mg of ubenimex (C16H24N2O4), and use this solution as the sample solution."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "To a quantity of the contents of Ubenimex Capsules, equivalent to 25 mg of Ubenimex, add water to make 50 mL, shake well, and filter. Determine the absorp-tion spectrum of the filtrate as directed under Ultraviolet- Time after injection of sample (min) Mobile phase A (volz) Mobile phase B (volz) visible Spectrophotometry <2.24>: it exhibits maxima be-tween 250 nm and 254 nm, between 255 nm and 259 nm, and 0 – 20 100 0 20 – 60 100 → 0 0 → 100 60 – 70 0 100 Flow rate: Adjust so that the retention time of ubenimex is about 14 minutes. Time span of measurement: About 5 times as long as the retention time of ubenimex, beginning after the solvent peak. System suitability— Test for required detectability: Pipet 1 mL of the standard solution, and add the mobile phase A to make exactly 10 mL. Confirm that the peak area of ubenimex obtained with 20 mL of this solution is equivalent to 7 to 13z of that with 20 mL of the standard solution. System performance: When the procedure is run with 20 mL of the standard solution under the above operating con-ditions, the number of theoretical plates and the symmetry factor of the peak of ubenimex are not less than 5000 and not more than 2.0, respectively. System repeatability: When the test is repeated 6 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak area of ubenimex is not more than 2.0z. Loss on drying <2.41> Not more than 0.5z (0.5 g, in vacu-um, 809C, 4 hours). Residue on ignition <2.44> Not more than 0.1z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.5 g of Ubenimex, previ-ously dried, dissolve in 60 mL of acetic acid (100), and titrate <2.50> with 0.1 mol/L perchloric acid VS (potentiometric titration). Perform a blank determination in the same man-ner, and make any necessary correction. Each mL of 0.1 mol/L perchloric acid VS ＝ 30.84 mg of C16H24N2O4"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  },
+  "dosageForm": "Capsule"
+}

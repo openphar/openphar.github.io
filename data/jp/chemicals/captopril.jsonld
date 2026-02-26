@@ -1,0 +1,57 @@
+{
+  "@context": "https://www.openphar.org/ontology/context/pharmacopoeia.jsonld",
+  "@id": "https://www.openphar.org/data/jp/chemicals/captopril",
+  "@type": "ChemicalDrugMonograph",
+  "prefLabel": {
+    "en": "Captopril",
+    "ja": "カプトプリル"
+  },
+  "monographId": "JP18-captopril",
+  "publisher": "JP",
+  "status": "Official",
+  "version": "18",
+  "molecularFormula": "C9H15NO3S",
+  "molecularWeight": 217.29,
+  "casNumber": "62571-86-2",
+  "definition": {
+    "en": "Captopril contains not less than 98."
+  },
+  "appearance": {
+    "en": "Captopril occurs as white, crystals or crystal-line powder. It is very soluble in methanol, freely soluble in ethanol (99.5), and soluble in water."
+  },
+  "testSpecification": [
+    {
+      "@type": "IdentificationSpecification",
+      "testName": {
+        "en": "Identification"
+      },
+      "testType": "TestType-Identification",
+      "testConditions": {
+        "en": "Determine the infrared absorption spectrum of Captopril as directed in the potassium bromide disk method under Infrared Spectrophotometry <2.25>, and com-pare the spectrum with the Reference Spectrum: both spectra exhibit similar intensities of absorption at the same wave numbers. D Optical rotation <2.49> [a]25: －125 – －1349(after drying, 0.1 g, ethanol (99.5), 10 mL, 100 mm)."
+      }
+    },
+    {
+      "@type": "PuritySpecification",
+      "testName": {
+        "en": "Purity"
+      },
+      "testType": "TestType-Purity",
+      "testConditions": {
+        "en": "(1) Heavy metals <1.07>—Proceed with 1.0 g of Captopril according to Method 2, and perform the test. Pre-pare the control solution with 2.0 mL of Standard Lead So- ‌JP XVIII Official Monographs / Carbamazepine 623 lution (not more than 20 ppm). Arsenic <1.11>—Prepare the test solution with 1.0 g of Captopril according to Method 1, and perform the test (not more than 2 ppm). Related substances—Dissolve 0.20 g of Captopril in methanol to make exactly 10 mL, and use this solution as the sample solution. Separately, dissolve 15 mg of 1,1?-[3,3?-dithiobis(2-methyl-1-oxopropyl)]-L-diproline in methanol to make exactly 250 mL, and use this solution as the standard solution. Perform the test with these solutions as directed under Thin-layer Chromatography <2.03>. Spot 10 mL each of the sample solution and standard solution on a plate of silica gel for thin-layer chromatography. Develop with a mixture of toluene and acetic acid (100) (13:7) to a distance of about 15 cm, and air-dry the plate. Place the plate in a chamber filled with iodine vapor, and allow to stand for 30 minutes: the number of the spots other than the spot cor-responding to that obtained from the standard solution and the principal spot from the sample solution is not more than two, and they are not more intense than the spot from the standard solution. 1,1?-[3,3?-Dithiobis(2-methyl-1-oxopropyl)]-L-diproline—Dissolve 0.10 g of Captopril in methanol to make exactly 20 mL, and use this solution as the sample solution. Separately, dissolve 25 mg of 1,1?-[3,3?-dithiobis(2-methyl-1-oxopropyl)]-L-diproline in methanol to make exactly 250 mL, and use this solution as the standard solution. Perform the test with exactly 20 mL each of the sample solution and standard solution as directed under Liquid Chromatography <2.01> according to the following conditions, and determine the peak areas, AT and AS, of 1,1?-[3,3?-dithiobis(2-methyl-1- oxopropyl)]-L-diproline in each solution: AT is not larger than AS. Operating conditions— Detector: An ultraviolet absorption photometer (wave-length: 220 nm). Column: A stainless steel column 3.9 mm in inside diame-ter and 30 cm in length, packed with octadecylsilanized silica gel for liquid chromatography (10 mm in particle diameter). Column temperature: A constant temperature of about 259C. Mobile phase: A mixture of water, methanol and phos-phoric acid (1000:1000:1). Flow rate: Adjust so that the retention time of 1,1?-[3,3?- dithiobis(2-methyl-1-oxopropyl)]-L-diproline is about 10 minutes. System suitability— System performance: Dissolve 25 mg each of Captopril and 1,1?-[3,3?-dithiobis(2-methyl-1-oxopropyl)]-L-diproline in 200 mL of methanol. When the procedure is run with 20 mL of this solution under the above operating conditions, captopril and 1,1?-[3,3?-dithiobis(2-methyl-1-oxopropyl)]-L-diproline are eluted in this order with the resolution be-tween these peaks being not less than 3. System repeatability: When the test is repeated 5 times with 20 mL of the standard solution under the above operat-ing conditions, the relative standard deviation of the peak areas of 1,1?-[3,3?-dithiobis(2-methyl-1-oxopropyl)]-L-dipro-line is not more than 2.0z. Loss on drying <2.41> Not more than 1.0z (1 g, in vacu-um, 809C, 3 hours). Residue on ignition <2.44> Not more than 0.2z (1 g)."
+      }
+    },
+    {
+      "@type": "AssaySpecification",
+      "testName": {
+        "en": "Assay"
+      },
+      "testType": "TestType-Assay",
+      "testConditions": {
+        "en": "Weigh accurately about 0.3 g of Captopril, dissolve in 100 mL of water, add 20 mL of dilute sulfuric acid and 1 g of potassium iodide, and shake. Titrate <2.50> with 1/60 mol/L potassium iodate VS (indicator: 2 mL of starch TS). Perform a blank determination in the same manner, and make any necessary correction. Each mL of 1/60 mol/L potassium iodate VS ＝ 21.73 mg of C9H15NO3S"
+      }
+    }
+  ],
+  "storageConditions": {
+    "en": "Containers—Tight containers."
+  }
+}
