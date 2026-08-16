@@ -264,9 +264,14 @@ for (const e of registryOut) {
     const title = label.en || label.ja || label.la || Object.values(label)[0]
     if (!title) continue
     const s = m['@id'].split('/').pop()
+    // category must match the route generator (vite.config.js): explicit field,
+    // else the second path segment of @id (/data/{d}/{category}/{slug})
+    const cat = (typeof m.category === 'string' && m.category)
+      || ((m['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//) || [])[1]
+      || 'monographs'
     const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
     searchIndex.push({
-      d: e.id, s, c: m.category || 'monographs', t: String(title), k: restricted ? 0 : 1,
+      d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
       ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {})
     })
     for (const v of Object.values(label)) {
@@ -274,7 +279,7 @@ for (const e of registryOut) {
       if (!key) continue
       if (!groups.has(key)) groups.set(key, [])
       if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
-        groups.get(key).push({ d: e.id, s, c: m.category || 'monographs', t: String(title), k: restricted ? 0 : 1 })
+        groups.get(key).push({ d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 })
       }
     }
   }
