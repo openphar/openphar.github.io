@@ -120,10 +120,12 @@ function buildGraph(id, cfg) {
     const rel = path.relative(globRoot, file)
     const docEdition = typeof doc.edition === 'string' ? doc.edition : null
     const labels = labelsOf(doc)
+    const sectionId = doc.classification?.section_id
     const entry = {
       '@id': `https://www.openphar.org/data/${id}/monographs/${slug}`,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
+      monographId: (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
       edition: docEdition || cfg.edition,
       category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel)
     }

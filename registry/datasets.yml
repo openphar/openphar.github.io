@@ -44,6 +44,10 @@ datasets:
       url: https://www.who.int/teams/health-product-and-policy-standards/standards-and-specifications/pharmaceuticals/international-pharmacopoeia
     repo: openphar/data-international-pharmacopoeia
     browser: { path: /data-international-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-international-pharmacopoeia
+      glob: data/PhInt-13/semantic-yaml/*.yaml
+      mode: full
 
   thp:
     name: Thai Pharmacopoeia
@@ -78,7 +82,7 @@ datasets:
     generate:
       repo: ../data-china-pharmacopoeia
       glob: data/2025/semantic-yaml/*.yaml
-      mode: titles
+      mode: full
 
   kp:
     name: Korean Pharmacopoeia
@@ -115,7 +119,7 @@ datasets:
     generate:
       repo: ../data-india-pharmacopoeia
       glob: data/ip/*.yaml
-      mode: definition
+      mode: full
 
   ayp:
     name: Ayurvedic Pharmacopoeia of India
@@ -133,7 +137,7 @@ datasets:
       repo: ../data-india-ayurvedic-pharmacopoeia
       glob: data/yaml/**/*.yaml
       exclude: _*.yaml
-      mode: definition
+      mode: full
 
   hk:
     name: Hong Kong Chinese Materia Medica Standards
@@ -150,7 +154,7 @@ datasets:
     generate:
       repo: ../data-hkcmms
       glob: data/HKCMMS-1/yaml/*.yaml
-      mode: definition
+      mode: full
 
   ich:
     name: ICH Q4 Harmonization

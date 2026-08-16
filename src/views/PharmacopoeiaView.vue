@@ -33,8 +33,10 @@ function extractString(value) {
 
 function isEntry(item) {
   const type = item['@type']
-  const types = Array.isArray(type) ? type : [type]
-  return types.some(t => typeof t === 'string' && (t.endsWith('Monograph') || t === 'TitleIndexEntry'))
+  const types = Array.isArray(type) ? type : (type ? [type] : [])
+  if (types.some(t => typeof t === 'string' && (t.endsWith('Monograph') || t === 'TitleIndexEntry'))) return true
+  // typeless SSOT entries (older phint shape) still count if labeled
+  return types.length === 0 && !!(item.prefLabel || item['rdfs:label'])
 }
 
 function entryCategory(m) {
