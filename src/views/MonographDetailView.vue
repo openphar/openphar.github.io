@@ -23,6 +23,10 @@ function extractString(value) {
   return String(value)
 }
 
+function shortOf(id) {
+  return registryList.value.find(d => d.id === id)?.short || id.toUpperCase()
+}
+
 function extractArray(value) {
   if (!value) return []
   return Array.isArray(value) ? value : [value]
@@ -40,6 +44,11 @@ const isRestricted = computed(() => {
   return Array.isArray(t) ? t.includes('TitleIndexEntry') : t === 'TitleIndexEntry'
 })
 
+const registryList = ref([])
+const counterparts = ref([])
+
+const labelPairs = computed(() => Object.entries(monograph.value?.prefLabel || {}))
+
 const sections = computed(() => extractArray(monograph.value?.sections))
 const testSpecifications = computed(() => extractArray(monograph.value?.testSpecification))
 const assaySpecs = computed(() => extractArray(monograph.value?.assay))
@@ -49,7 +58,14 @@ onMounted(async () => {
   loading.value = true
   error.value = null
   try {
-    loadRegistry().then(r => { meta.value = r.find(d => d.id === publisher.value) }).catch(() => {})
+    loadRegistry().then(r => {
+      registryList.value = r
+      meta.value = r.find(d => d.id === publisher.value)
+    }).catch(() => {})
+
+    fetch('/data/cross-links.json').then(r => r.json()).then(links => {
+      counterparts.value = links[`${publisher.value}/${slug.value}`] || []
+    }).catch(() => {})
 
     const response = await fetch(`/data/${publisher.value}/${publisher.value}-monographs.jsonld`)
     const data = await response.json()
@@ -100,6 +116,9 @@ onMounted(async () => {
           <h1 class="mt-3 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
             {{ extractString(monograph.prefLabel) }}
           </h1>
+          <p v-if="labelPairs.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
+            <span v-for="[lang, val] in labelPairs.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
+          </p>
           <dl class="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 text-sm sm:grid-cols-3">
             <div>
               <dt class="font-mono text-[10px] uppercase tracking-wider text-ink/50">Pharmacopoeia</dt>
@@ -127,15 +146,20 @@ onMounted(async () => {
               >
                 Official source ↗
               </a>
-              <RouterLink
-                to="/search"
-                class="rounded-sm border border-pine px-4 py-2 font-mono text-[11px] uppercase tracking-[0.12em] text-pine hover:bg-wash"
-              >
-                Find open counterparts
-              </RouterLink>
             </div>
+            <ul v-if="counterparts.length" class="mt-5 flex flex-wrap gap-2">
+              <li v-for="c in counterparts" :key="c.d + c.s">
+                <RouterLink
+                  :to="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
+                  class="flex items-center gap-2 rounded-sm border border-moss/40 bg-paper px-3 py-1.5 text-sm transition-colors hover:border-pine"
+                >
+                  <span class="font-mono text-[9px] uppercase tracking-wider text-pine">{{ shortOf(c.d) }}</span>
+                  <span class="text-ink/85">{{ c.t }}</span>
+                </RouterLink>
+              </li>
+            </ul>
             <p class="mt-4 font-mono text-[10px] uppercase tracking-wider text-ink/45">
-              Linked via ICH Q4 harmonized methods and cross-publisher identity
+              Linked via cross-publisher identity and ICH Q4 harmonized methods
             </p>
           </div>
         </div>
@@ -151,6 +175,9 @@ onMounted(async () => {
               <h1 class="mt-3 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
                 {{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}
               </h1>
+              <p v-if="labelPairs.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
+                <span v-for="[lang, val] in labelPairs.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
+              </p>
               <p v-if="monograph.monographId" class="mt-2 font-mono text-xs text-ink/50">{{ monograph.monographId }}</p>
             </div>
             <span class="flex-shrink-0 rounded-sm bg-pine/10 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-pine">
@@ -176,6 +203,11 @@ onMounted(async () => {
               <dd class="mt-0.5 font-mono text-sm">{{ monograph.version }}</dd>
             </div>
           </dl>
+
+          <div v-if="monograph.harmonisationStatus || monograph.ichAnnex" class="mt-4 flex flex-wrap gap-2 font-mono text-[10px] uppercase tracking-wider">
+            <span v-if="monograph.ichAnnex" class="rounded-sm bg-pine/10 px-2 py-1 text-pine">{{ monograph.ichAnnex }}</span>
+            <span v-if="monograph.harmonisationStatus" class="rounded-sm bg-brass/15 px-2 py-1 text-brass">ICH Q4B · {{ monograph.harmonisationStatus }}</span>
+          </div>
 
           <section v-if="monograph.definition" class="mt-6">
             <h2 class="eyebrow">Definition</h2>
@@ -222,6 +254,25 @@ onMounted(async () => {
                 </div>
               </div>
             </dl>
+          </section>
+
+          <section v-if="counterparts.length" class="mt-8 border-t border-line pt-6" aria-label="Counterparts in other pharmacopoeias">
+            <p class="eyebrow">Same substance in other pharmacopoeias</p>
+            <ul class="mt-3 flex flex-wrap gap-2">
+              <li v-for="c in counterparts" :key="c.d + c.s">
+                <RouterLink
+                  :to="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
+                  class="flex items-center gap-2 rounded-sm border px-3 py-1.5 text-sm transition-colors"
+                  :class="c.k === 0
+                    ? 'border-oxblood/40 bg-oxblood/[0.05] hover:border-oxblood'
+                    : 'border-line bg-paper hover:border-moss'"
+                >
+                  <span class="font-mono text-[9px] uppercase tracking-wider" :class="c.k === 0 ? 'text-oxblood' : 'text-pine'">{{ shortOf(c.d) }}</span>
+                  <span class="text-ink/85">{{ c.t }}</span>
+                  <span v-if="c.k === 0" class="font-mono text-[9px] uppercase tracking-wider text-oxblood/70">index</span>
+                </RouterLink>
+              </li>
+            </ul>
           </section>
 
           <details class="mt-8 border-t border-line pt-5">

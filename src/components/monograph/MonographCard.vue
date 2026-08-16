@@ -21,6 +21,11 @@ function extractString(value) {
 
 const name = computed(() => extractString(props.monograph.prefLabel || props.monograph['rdfs:label']))
 const isLatin = computed(() => /^[A-Z][a-z]+ [a-z]+/.test(name.value))
+const native = computed(() => {
+  const labels = props.monograph.prefLabel || {}
+  const entry = Object.entries(labels).find(([lang, v]) => lang !== 'en' && v && v !== name.value)
+  return entry ? { lang: entry[0], value: entry[1] } : null
+})
 </script>
 
 <template>
@@ -32,9 +37,12 @@ const isLatin = computed(() => /^[A-Z][a-z]+ [a-z]+/.test(name.value))
       : 'border-line bg-paper hover:border-moss'"
   >
     <div class="flex items-start justify-between gap-2">
-      <h3 class="line-clamp-2 text-[0.95rem] font-medium text-ink" :class="isLatin && !restricted ? 'latin' : ''">
-        {{ name }}
-      </h3>
+      <div class="min-w-0">
+        <h3 class="line-clamp-2 text-[0.95rem] font-medium text-ink" :class="isLatin && !restricted ? 'latin' : ''">
+          {{ name }}
+        </h3>
+        <p v-if="native" class="line-clamp-1 text-xs text-ink/55" :lang="native.lang">{{ native.value }}</p>
+      </div>
       <span
         class="flex-shrink-0 rounded-sm px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
         :class="restricted ? 'bg-oxblood/10 text-oxblood' : 'bg-pine/10 text-pine'"

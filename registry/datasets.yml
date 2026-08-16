@@ -21,6 +21,7 @@ datasets:
   jp:
     name: Japanese Pharmacopoeia
     short: JP
+    nativeName: 日本薬局方
     country: JP
     organization: Ministry of Health, Labour and Welfare (PMDA)
     edition: JP18
@@ -35,6 +36,7 @@ datasets:
   phint:
     name: The International Pharmacopoeia
     short: Ph.Int.
+    nativeName: Pharmacopoea Internationalis
     country: INTL
     organization: World Health Organization
     edition: 13th edition
@@ -163,11 +165,15 @@ datasets:
     organization: International Council for Harmonisation
     edition: Q4B current
     rights: full
-    status: reference   # pharmacopoeial harmonization texts — the base layer anchor
+    status: published   # pharmacopoeial harmonization texts — the base layer anchor
     source:
       url: https://www.ich.org/page/quality-guidelines
     repo: openphar/data-ich-q4
     browser: { path: /data-ich-q4/, status: pending }
+    generate:
+      repo: ../data-ich-q4
+      file: data/equivalence/methods.yaml
+      kind: ich-methods
 
   us:
     name: United States Pharmacopeia–NF

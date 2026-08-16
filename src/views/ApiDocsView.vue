@@ -29,6 +29,12 @@ const endpoints = [
   },
   {
     method: 'GET',
+    path: '/data/cross-links.json',
+    description: 'Cross-dataset link index — {dataset}/{slug} → counterpart entries in other pharmacopoeias (open and restricted)',
+    format: 'JSON'
+  },
+  {
+    method: 'GET',
     path: '/ontology/context/pharmacopoeia.jsonld',
     description: 'Get the JSON-LD context for pharmacopoeia data',
     format: 'JSON-LD'

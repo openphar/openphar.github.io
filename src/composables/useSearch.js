@@ -29,10 +29,13 @@ export function useSearch() {
         tokenize: 'forward',
         document: {
           id: 'i',
-          index: [{ field: 't', tokenize: 'forward' }]
+          index: [
+            { field: 't', tokenize: 'forward' },
+            { field: 'n', tokenize: 'forward' }
+          ]
         }
       })
-      entriesData.forEach((e, i) => searchIndex.add({ i, t: e.t }))
+      entriesData.forEach((e, i) => searchIndex.add({ i, t: e.t, n: e.n || e.t }))
       isInitialized = true
       initialized.value = true
     } catch (e) {
@@ -48,8 +51,14 @@ export function useSearch() {
     if (!searchIndex || !query || query.length < 2) return []
     const { dataset, restricted, limit = 60 } = options
 
-    const field = searchIndex.search(query, { field: 't', limit: 2000, suggest: true })
-    const ids = (Array.isArray(field) ? field : field?.result || []).map(r => (typeof r === 'object' ? r.i : r))
+    const tRes = searchIndex.search(query, { field: 't', limit: 2000, suggest: true })
+    const nRes = searchIndex.search(query, { field: 'n', limit: 2000, suggest: true })
+    const ids = new Set()
+    for (const field of [tRes, nRes]) {
+      for (const r of (Array.isArray(field) ? field : field?.result || [])) {
+        ids.add(typeof r === 'object' ? r.i : r)
+      }
+    }
 
     let results = ids.map(i => entriesData[i]).filter(Boolean)
     if (dataset) results = results.filter(r => r.d === dataset)

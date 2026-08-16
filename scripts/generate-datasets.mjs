@@ -95,6 +95,10 @@ function walk(globBase, pattern, exclude) {
 }
 
 function buildGraph(id, cfg) {
+  // Single-file list corpora (e.g. ICH Q4B equivalence table)
+  if (cfg.generate.kind === 'ich-methods') {
+    return buildIchMethods(id, cfg)
+  }
   const repoDir = path.resolve(ROOT, cfg.generate.repo)
   const globRoot = path.join(repoDir, cfg.generate.glob.split('/**')[0].replace(/\/[^/]*\.yaml$/, ''))
   // derive the static base dir of the glob (strip ** and file patterns)
@@ -156,6 +160,34 @@ function buildGraph(id, cfg) {
   return { graph, skipped, total: files.length }
 }
 
+// ICH Q4B harmonized-method equivalence table → one entry per method concept,
+// with per-publisher chapter codes as sections.
+function buildIchMethods(id, cfg) {
+  const file = path.resolve(ROOT, cfg.generate.repo, cfg.generate.file)
+  const rows = yamlLoad(fs.readFileSync(file, 'utf-8'))
+  const graph = rows.map(r => {
+    const slug = String(r.concept).replace(/_/g, '-').toLowerCase()
+    const chapters = (r.chapters || []).map(c => ({
+      name: `${c.publisher} ${c.code || ''}`.trim(),
+      text: `Chapter ${c.code} (${c.publisher}) — ${c.source === 'ich_official' ? 'ICH Q4B official equivalence' : `${c.source} (confidence: ${c.confidence || 'n/a'})`}`
+    }))
+    return {
+      '@id': `https://www.openphar.org/data/${id}/methods/${slug}`,
+      '@type': 'IndexedMonograph',
+      prefLabel: { en: r.name_en },
+      edition: cfg.edition,
+      category: 'methods',
+      harmonisationStatus: r.harmonisation_status,
+      ichAnnex: r.ich_annex,
+      definition: {
+        en: `${r.name_en} — ICH Q4B harmonised analytical method (${r.ich_annex}, ${r.harmonisation_status}). Equivalent chapters: ${chapters.map(c => c.name).join(' · ')}.`
+      },
+      sections: chapters
+    }
+  })
+  return { graph, skipped: 0, total: rows.length }
+}
+
 // An indexable entry: a monograph type, a generated entry type, or
 // (phint SSOT shape) a node without @type that still carries a label.
 function isEntry(m) {
@@ -211,18 +243,64 @@ for (const [id, cfg] of Object.entries(datasets)) {
   registryOut.push(entry)
 }
 
-// slim cross-dataset search index (titles only — no restricted body fields)
+// Slim cross-dataset search index (titles only — no restricted body fields)
+// plus a cross-dataset link index: entries sharing a normalized title across
+// two or more datasets link to each other (open and restricted alike).
+function normTitle(t) {
+  return String(t).normalize('NFKC').toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+const groups = new Map() // normTitle -> [{d, s, c, t, k}]
 for (const e of registryOut) {
   const f = path.join(DATA_DIR, e.id, `${e.id}-monographs.jsonld`)
   if (!fs.existsSync(f)) continue
   const g = JSON.parse(fs.readFileSync(f, 'utf-8'))['@graph'] || []
+  const restricted = e.rights === 'title-only'
   for (const m of g.filter(isEntry)) {
     const label = m.prefLabel || {}
     const title = label.en || label.ja || label.la || Object.values(label)[0]
     if (!title) continue
-    searchIndex.push({ d: e.id, s: m['@id'].split('/').pop(), c: m.category || 'monographs', t: String(title), k: e.rights === 'title-only' ? 0 : 1 })
+    const s = m['@id'].split('/').pop()
+    const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
+    searchIndex.push({
+      d: e.id, s, c: m.category || 'monographs', t: String(title), k: restricted ? 0 : 1,
+      ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {})
+    })
+    for (const v of Object.values(label)) {
+      const key = normTitle(v)
+      if (!key) continue
+      if (!groups.has(key)) groups.set(key, [])
+      if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
+        groups.get(key).push({ d: e.id, s, c: m.category || 'monographs', t: String(title), k: restricted ? 0 : 1 })
+      }
+    }
   }
 }
+
+const crossLinks = {}
+for (const members of groups.values()) {
+  const datasets = new Set(members.map(m => m.d))
+  if (datasets.size < 2) continue
+  for (const m of members) {
+    const key = `${m.d}/${m.s}`
+    const rest = members.filter(x => !(x.d === m.d && x.s === m.s))
+    ;(crossLinks[key] ||= []).push(...rest)
+  }
+}
+for (const key of Object.keys(crossLinks)) {
+  const seen = new Set()
+  crossLinks[key] = crossLinks[key].filter(x => {
+    const id = x.d + '/' + x.s
+    if (seen.has(id)) return false
+    seen.add(id)
+    return true
+  }).sort((a, b) => a.k === b.k ? a.d.localeCompare(b.d) : b.k - a.k)
+}
+fs.writeFileSync(path.join(DATA_DIR, 'cross-links.json'), JSON.stringify(crossLinks))
+console.log(`✓ cross-links.json (${Object.keys(crossLinks).length} linked entries)`)
 
 fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOut))
 fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(searchIndex))

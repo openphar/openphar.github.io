@@ -118,6 +118,7 @@ function isRestricted(r) {
                 {{ datasetMeta(r.d)?.short || r.d }}
               </span>
               <span class="truncate text-[0.95rem] font-medium text-ink group-hover:text-pine">{{ r.t }}</span>
+              <span v-if="r.n" class="hidden truncate text-sm text-ink/50 sm:inline" :lang="r.l">{{ r.n }}</span>
             </span>
             <span class="font-mono text-[10px] uppercase tracking-wider text-ink/45">
               {{ isRestricted(r) ? 'index only' : r.c }}
