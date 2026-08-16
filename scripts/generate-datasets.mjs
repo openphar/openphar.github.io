@@ -154,6 +154,15 @@ function buildGraph(id, cfg) {
   return { graph, skipped, total: files.length }
 }
 
+// An indexable entry: a monograph type, a generated entry type, or
+// (phint SSOT shape) a node without @type that still carries a label.
+function isEntry(m) {
+  const type = m['@type']
+  const types = Array.isArray(type) ? type : (type ? [type] : [])
+  if (types.some(t => typeof t === 'string' && (t.endsWith('Monograph') || t === 'TitleIndexEntry'))) return true
+  return types.length === 0 && !!(m.prefLabel || m['rdfs:label'])
+}
+
 // ---- run ----
 const registryOut = []
 const searchIndex = []
@@ -192,10 +201,7 @@ for (const [id, cfg] of Object.entries(datasets)) {
       const f = path.join(DATA_DIR, vendored, `${vendored}-monographs.jsonld`)
       if (fs.existsSync(f)) {
         const g = JSON.parse(fs.readFileSync(f, 'utf-8'))['@graph'] || []
-        entry.count = g.filter(m => {
-          const t = m['@type']
-          return Array.isArray(t) ? t.some(x => String(x).endsWith('Monograph')) : String(t).endsWith('Monograph')
-        }).length
+        entry.count = g.filter(isEntry).length
       }
     }
   }
@@ -208,7 +214,7 @@ for (const e of registryOut) {
   const f = path.join(DATA_DIR, e.id, `${e.id}-monographs.jsonld`)
   if (!fs.existsSync(f)) continue
   const g = JSON.parse(fs.readFileSync(f, 'utf-8'))['@graph'] || []
-  for (const m of g) {
+  for (const m of g.filter(isEntry)) {
     const label = m.prefLabel || {}
     const title = label.en || label.ja || label.la || Object.values(label)[0]
     if (!title) continue

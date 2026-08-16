@@ -131,6 +131,12 @@ export default defineConfig({
           const graph = JSON.parse(fs.readFileSync(file, 'utf-8'))['@graph'] || []
           let count = 0
           for (const m of graph) {
+            // Only monograph-like entries — skip support nodes (op:ChemicalCompound etc.)
+            const type = m['@type']
+            const types = Array.isArray(type) ? type : (type ? [type] : [])
+            const isEntry = types.some(t => typeof t === 'string' && (t.endsWith('Monograph') || t === 'TitleIndexEntry'))
+              || (types.length === 0 && !!(m.prefLabel || m['rdfs:label']))
+            if (!isEntry) continue
             const entryId = m['@id'] || ''
             const slug = entryId.split('/').pop()
             const category = (typeof m.category === 'string' && m.category) || (entryId.match(/\/data\/[^/]+\/([^/]+)\//) || [])[1] || 'monographs'
