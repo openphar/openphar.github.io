@@ -31,7 +31,7 @@ Deploy the Open Pharmacopoeia site network on GitHub Pages:
 | Japanese (JP) | `data-japan-pharmacopia` | openphar (private) | yes (Astro) | full | TODO 03 |
 | International (Ph.Int.) | `data-international-pharmacopoeia` | none | none | full | TODO 03 (create browser) |
 | Chinese (ChP) | `chp-browser` + `data-china-pharmacopoeia` | none / openphar (private) | yes (chp-browser) / none | full | TODO 03 (consolidate the two repos) |
-| Korean (KP) | `data-korea-pharmacopoeia` | none | yes (Astro) | full | TODO 03 |
+| Korean (KP) | `data-korea-pharmacopoeia` | none | yes (Astro) | full | TODO 03 — KP13-ko fully extracted (1,771 monographs + notices/tests/dosage forms/general info); MFDS has not published a KP13-en cell |
 | Thai (TP) | `data-thai-pharmacopoeia` | none | none | full | TODO 03 (create browser) |
 | India (IP) | `data-india-pharmacopoeia` | openphar (private) | yes (Astro) | full | TODO 03 |
 | India (API/AYP) | `data-india-ayurvedic-pharmacopoeia` | none | none | full | TODO 03 (create browser) |

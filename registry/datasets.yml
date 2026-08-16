@@ -88,11 +88,17 @@ datasets:
     organization: Ministry of Food and Drug Safety
     edition: KP13
     rights: full
-    status: raw   # source documents acquired (KP10–KP13); monograph extraction pending
+    status: published
+    languages: [ko]   # KP13 Korean cell complete (1,773 monographs); MFDS has not published an EN cell yet
     source:
       url: https://www.mfds.go.kr/brd/m_211/view.do?seq=14975
     repo: openphar/data-korea-pharmacopoeia
     browser: { path: /data-korea-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-korea-pharmacopoeia
+      glob: data/KP13/ko/yaml/monograph/**/*.yaml
+      mode: full
+      # non-monograph corpora (general notices, tests, dosage forms, general info) stay in the KP repo; not indexed yet
 
   ip:
     name: Indian Pharmacopoeia

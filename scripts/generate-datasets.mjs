@@ -25,21 +25,39 @@ const datasets = registry.datasets
 const MAX_DEF_CHARS = 4000
 const MAX_SECTION_CHARS = 6000
 
-function titleOf(doc, file) {
+// Language-tagged labels from the various SSOT shapes (en preferred, kept
+// alongside ko/zh/etc. when present)
+function labelsOf(doc) {
   const pick = (v) => (v && typeof v === 'string' ? v.trim() : null)
-  if (typeof doc.title === 'string') return pick(doc.title)
-  if (doc.title && typeof doc.title === 'object') {
-    const t = pick(doc.title.en) || pick(doc.title.english) || pick(doc.title.latin) || pick(doc.title.zh)
-    if (t) return t
+  const out = {}
+  const set = (k, v) => { if (v && !out[k]) out[k] = v }
+
+  if (typeof doc.title === 'string') {
+    set('en', pick(doc.title))
+  } else if (doc.title && typeof doc.title === 'object') {
+    set('en', pick(doc.title.en) || pick(doc.title.english))
+    set('la', pick(doc.title.latin))
+    set('zh', pick(doc.title.zh))
+    set('ko', pick(doc.title.ko))
   }
+
   const names = doc.names || {}
-  return pick(names.en)
-    || pick(names.la)
-    || pick(names.zh)
-    || pick(names.ko)
-    || pick(names.first)
-    || (Array.isArray(names.english) ? pick(names.english[0]) : null)
-    || (names.canonical ? (pick(names.canonical.en) || pick(names.canonical.iast) || pick(names.canonical.latin) || pick(names.canonical.zh)) : null)
+  set('en', pick(names.en))
+  set('la', pick(names.la))
+  set('zh', pick(names.zh))
+  set('ko', pick(names.ko))
+  if (Array.isArray(names.english)) set('en', pick(names.english[0]))
+  if (names.canonical) {
+    set('en', pick(names.canonical.en))
+    set('la', pick(names.canonical.latin) || pick(names.canonical.iast))
+    set('zh', pick(names.canonical.zh))
+  }
+  return out
+}
+
+function titleOf(doc) {
+  const labels = labelsOf(doc)
+  return Object.values(labels)[0] || null
 }
 
 function slugOf(doc, file) {
@@ -57,8 +75,8 @@ function categoryOf(relativePath) {
 
 function sectionTexts(doc) {
   return (doc.sections || doc.raw_sections || [])
-    .filter(s => s && s.name && s.text)
-    .map(s => ({ name: String(s.name), text: String(s.text).trim() }))
+    .filter(s => s && (s.name || s.label || s.key) && s.text)
+    .map(s => ({ name: String(s.name || s.label || s.key), text: String(s.text).trim() }))
 }
 
 function walk(globBase, pattern, exclude) {
@@ -101,27 +119,34 @@ function buildGraph(id, cfg) {
     const slug = slugOf(doc, file)
     const rel = path.relative(globRoot, file)
     const docEdition = typeof doc.edition === 'string' ? doc.edition : null
+    const labels = labelsOf(doc)
     const entry = {
       '@id': `https://www.openphar.org/data/${id}/monographs/${slug}`,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
-      prefLabel: { en: title },
+      prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
       edition: docEdition || cfg.edition,
       category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel)
     }
 
     if (cfg.rights !== 'title-only') {
+      const chem = doc.chemistry || {}
+      if (chem.molecular_formula) entry.molecularFormula = chem.molecular_formula
+      if (chem.cas_rn) entry.casNumber = chem.cas_rn
+      if (chem.molecular_weight) entry.molecularWeight = chem.molecular_weight
+      const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labels)[0] || 'en'
+
       const sections = sectionTexts(doc)
       const plainDef = typeof doc.definition === 'string' ? doc.definition.trim() : null
       if (sections.length) {
         const def = sections.find(s => /definition/i.test(s.name)) || sections[0]
-        entry.definition = { en: (plainDef || def.text).slice(0, MAX_DEF_CHARS) }
+        entry.definition = { [defLang]: (plainDef || def.text).slice(0, MAX_DEF_CHARS) }
         if (cfg.generate.mode === 'full') {
           entry.sections = sections.slice(0, 20).map(s => ({
             name: s.name, text: s.text.slice(0, MAX_SECTION_CHARS)
           }))
         }
       } else if (plainDef) {
-        entry.definition = { en: plainDef.slice(0, MAX_DEF_CHARS) }
+        entry.definition = { [defLang]: plainDef.slice(0, MAX_DEF_CHARS) }
       }
     }
     graph.push(entry)
