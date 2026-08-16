@@ -1,0 +1,30 @@
+# Open Pharmacopoeia - American Herbal Pharmacopoeia (AHP) Extensions
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix ahp: <https://www.openphar.org/ontology/publisher/ahp/> .
+
+<https://www.openphar.org/ontology/publisher/ahp/>
+    a owl:Ontology ;
+    rdfs:label "American Herbal Pharmacopoeia Extensions"@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+<https://www.openphar.org/data/publisher/ahp>
+    a op:Publisher ;
+    op:publisherCode "AHP" ;
+    rdfs:label "American Herbal Pharmacopoeia"@en ;
+    rdfs:seeAlso <https://www.herbal-ahp.org/> .
+
+ahp:Monograph a owl:Class ; rdfs:subClassOf op:Monograph .
+ahp:HerbalMonograph a owl:Class ; rdfs:subClassOf ahp:Monograph, op:CrudeDrugMonograph .
+ahp:Formulation a owl:Class ; rdfs:subClassOf ahp:Monograph, op:FormulationMonograph .
+
+ahp:commonName a owl:DatatypeProperty ; rdfs:domain ahp:Monograph ; rdfs:range xsd:string .
+ahp:latinName a owl:DatatypeProperty ; rdfs:domain ahp:Monograph ; rdfs:range xsd:string .
+ahp:partsUsed a owl:DatatypeProperty ; rdfs:domain ahp:HerbalMonograph ; rdfs:range xsd:string .
+ahp:therapeuticAction a owl:DatatypeProperty ; rdfs:domain ahp:HerbalMonograph ; rdfs:range xsd:string .
+ahp:safetyRating a owl:DatatypeProperty ; rdfs:domain ahp:HerbalMonograph ; rdfs:range xsd:string .
+ahp:contraindication a owl:DatatypeProperty ; rdfs:domain ahp:HerbalMonograph ; rdfs:range xsd:string .
+ahp:drugInteraction a owl:DatatypeProperty ; rdfs:domain ahp:HerbalMonograph ; rdfs:range xsd:string .

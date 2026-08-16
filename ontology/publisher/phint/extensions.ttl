@@ -1,0 +1,327 @@
+# Open Pharmacopoeia - International Pharmacopoeia (Ph.Int.) Extensions
+#
+# This module defines extensions specific to the International Pharmacopoeia,
+# including radiopharmaceuticals, gradient chromatography, and reagent registry.
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix phint: <https://www.openphar.org/ontology/publisher/phint/> .
+
+<https://www.openphar.org/ontology/publisher/phint/>
+    a owl:Ontology ;
+    rdfs:label "International Pharmacopoeia Extensions"@en ;
+    rdfs:comment "Ontology extensions specific to the International Pharmacopoeia (Ph.Int.)."@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+# =============================================================================
+# RADIOPHARMACEUTICAL MONOGRAPH
+# =============================================================================
+
+phint:RadiopharmaceuticalMonograph
+    a owl:Class ;
+    rdfs:label "Radiopharmaceutical Monograph"@en ;
+    rdfs:comment "A monograph for a radiopharmaceutical substance, containing radionuclide-specific data."@en ;
+    rdfs:subClassOf op:PharmaceuticalSubstanceMonograph .
+
+# Radionuclide properties
+
+phint:hasRadionuclide
+    a owl:ObjectProperty ;
+    rdfs:label "has radionuclide"@en ;
+    rdfs:comment "The radionuclide component of a radiopharmaceutical."@en ;
+    rdfs:domain phint:RadiopharmaceuticalMonograph ;
+    rdfs:range phint:Radionuclide .
+
+phint:Radionuclide
+    a owl:Class ;
+    rdfs:label "Radionuclide"@en ;
+    rdfs:comment "A radioactive nuclide used in radiopharmaceuticals."@en .
+
+phint:radionuclideSymbol
+    a owl:DatatypeProperty ;
+    rdfs:label "radionuclide symbol"@en ;
+    rdfs:comment "The symbol of the radionuclide (e.g., '99mTc', '131I')."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:string .
+
+phint:halfLife
+    a owl:DatatypeProperty ;
+    rdfs:label "half-life"@en ;
+    rdfs:comment "The physical half-life of the radionuclide."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:duration .
+
+phint:halfLifeValue
+    a owl:DatatypeProperty ;
+    rdfs:label "half-life value"@en ;
+    rdfs:comment "The half-life value as a decimal number."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:decimal .
+
+phint:halfLifeUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "half-life unit"@en ;
+    rdfs:comment "The unit of the half-life (e.g., 'hours', 'days')."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:string .
+
+phint:emissionType
+    a owl:DatatypeProperty ;
+    rdfs:label "emission type"@en ;
+    rdfs:comment "The type of radioactive emission (gamma, beta, positron, alpha)."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:string .
+
+phint:gammaEnergy
+    a owl:DatatypeProperty ;
+    rdfs:label "gamma energy"@en ;
+    rdfs:comment "The principal gamma photon energy in keV."@en ;
+    rdfs:domain phint:Radionuclide ;
+    rdfs:range xsd:decimal .
+
+# Radionuclide individuals
+
+phint:Technetium-99m
+    a phint:Radionuclide ;
+    skos:prefLabel "Technetium-99m"@en ;
+    phint:radionuclideSymbol "99mTc" ;
+    phint:halfLifeValue 6.0 ;
+    phint:halfLifeUnit "hours" ;
+    phint:emissionType "gamma" ;
+    phint:gammaEnergy 140 .
+
+phint:Iodine-131
+    a phint:Radionuclide ;
+    skos:prefLabel "Iodine-131"@en ;
+    phint:radionuclideSymbol "131I" ;
+    phint:halfLifeValue 8.0 ;
+    phint:halfLifeUnit "days" ;
+    phint:emissionType "beta" ;
+    phint:emissionType "gamma" .
+
+# =============================================================================
+# GRADIENT CHROMATOGRAPHY
+# =============================================================================
+
+phint:GradientProgram
+    a owl:Class ;
+    rdfs:label "HPLC Gradient Program"@en ;
+    rdfs:comment "A gradient elution program for HPLC analysis."@en .
+
+phint:hasGradientProgram
+    a owl:ObjectProperty ;
+    rdfs:label "has gradient program"@en ;
+    rdfs:comment "The gradient program used in an HPLC assay."@en ;
+    rdfs:domain op:AssaySpecification ;
+    rdfs:range phint:GradientProgram .
+
+phint:hasGradientStep
+    a owl:ObjectProperty ;
+    rdfs:label "has gradient step"@en ;
+    rdfs:comment "A step in the gradient program."@en ;
+    rdfs:domain phint:GradientProgram ;
+    rdfs:range phint:GradientStep ;
+    rdfs:subPropertyOf rdf:Seq .
+
+phint:GradientStep
+    a owl:Class ;
+    rdfs:label "Gradient Step"@en ;
+    rdfs:comment "A single step in an HPLC gradient program."@en .
+
+phint:stepNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "step number"@en ;
+    rdfs:comment "The sequence number of this step."@en ;
+    rdfs:domain phint:GradientStep ;
+    rdfs:range xsd:integer .
+
+phint:stepTime
+    a owl:DatatypeProperty ;
+    rdfs:label "step time"@en ;
+    rdfs:comment "The time point or duration for this step (in minutes)."@en ;
+    rdfs:domain phint:GradientStep ;
+    rdfs:range xsd:decimal .
+
+phint:mobilePhaseA
+    a owl:DatatypeProperty ;
+    rdfs:label "mobile phase A percentage"@en ;
+    rdfs:comment "The percentage of mobile phase A at this step."@en ;
+    rdfs:domain phint:GradientStep ;
+    rdfs:range xsd:decimal .
+
+phint:mobilePhaseB
+    a owl:DatatypeProperty ;
+    rdfs:label "mobile phase B percentage"@en ;
+    rdfs:comment "The percentage of mobile phase B at this step."@en ;
+    rdfs:domain phint:GradientStep ;
+    rdfs:range xsd:decimal .
+
+phint:flowRate
+    a owl:DatatypeProperty ;
+    rdfs:label "flow rate"@en ;
+    rdfs:comment "The flow rate in mL/min."@en ;
+    rdfs:domain phint:GradientProgram ;
+    rdfs:range xsd:decimal .
+
+phint:columnTemperature
+    a owl:DatatypeProperty ;
+    rdfs:label "column temperature"@en ;
+    rdfs:comment "The column temperature in degrees Celsius."@en ;
+    rdfs:domain phint:GradientProgram ;
+    rdfs:range xsd:decimal .
+
+# =============================================================================
+# REAGENT REGISTRY
+# =============================================================================
+
+phint:TestSolution
+    a owl:Class ;
+    rdfs:label "Test Solution"@en ;
+    rdfs:comment "A solution used in pharmacopoeial tests and assays."@en .
+
+phint:VolumetricSolution
+    a owl:Class ;
+    rdfs:label "Volumetric Solution"@en ;
+    rdfs:comment "A solution of precisely known concentration used for titrations."@en .
+
+phint:BufferSolution
+    a owl:Class ;
+    rdfs:label "Buffer Solution"@en ;
+    rdfs:comment "A solution that resists changes in pH."@en .
+
+phint:ReferenceSubstance
+    a owl:Class ;
+    rdfs:label "Chemical Reference Substance"@en ;
+    rdfs:comment "A chemical reference substance used as a standard in tests."@en .
+
+# Reagent properties
+
+phint:reagentId
+    a owl:DatatypeProperty ;
+    rdfs:label "reagent ID"@en ;
+    rdfs:comment "The identifier for the reagent in the pharmacopoeia."@en ;
+    rdfs:domain phint:TestSolution ;
+    rdfs:range xsd:string .
+
+phint:molarity
+    a owl:DatatypeProperty ;
+    rdfs:label "molarity"@en ;
+    rdfs:comment "The molar concentration (e.g., '0.1 mol/L')."@en ;
+    rdfs:domain phint:VolumetricSolution ;
+    rdfs:range xsd:string .
+
+phint:normality
+    a owl:DatatypeProperty ;
+    rdfs:label "normality"@en ;
+    rdfs:comment "The normality of the solution."@en ;
+    rdfs:domain phint:VolumetricSolution ;
+    rdfs:range xsd:string .
+
+phint:targetPH
+    a owl:DatatypeProperty ;
+    rdfs:label "target pH"@en ;
+    rdfs:comment "The target pH value of the buffer."@en ;
+    rdfs:domain phint:BufferSolution ;
+    rdfs:range xsd:decimal .
+
+phint:preparationMethod
+    a owl:DatatypeProperty ;
+    rdfs:label "preparation method"@en ;
+    rdfs:comment "Instructions for preparing the solution."@en ;
+    rdfs:domain phint:TestSolution ;
+    rdfs:range rdf:langString .
+
+phint:standardizationMethod
+    a owl:DatatypeProperty ;
+    rdfs:label "standardization method"@en ;
+    rdfs:comment "Method for standardizing the volumetric solution."@en ;
+    rdfs:domain phint:VolumetricSolution ;
+    rdfs:range rdf:langString .
+
+phint:storageCondition
+    a owl:DatatypeProperty ;
+    rdfs:label "storage condition"@en ;
+    rdfs:comment "Storage conditions for the reagent."@en ;
+    rdfs:domain phint:TestSolution ;
+    rdfs:range rdf:langString .
+
+phint:shelfLife
+    a owl:DatatypeProperty ;
+    rdfs:label "shelf life"@en ;
+    rdfs:comment "The shelf life of the reagent."@en ;
+    rdfs:domain phint:TestSolution ;
+    rdfs:range xsd:string .
+
+# Reference substance properties
+
+phint:referenceSubstanceId
+    a owl:DatatypeProperty ;
+    rdfs:label "reference substance ID"@en ;
+    rdfs:comment "The WHO reference substance identifier."@en ;
+    rdfs:domain phint:ReferenceSubstance ;
+    rdfs:range xsd:string .
+
+phint:chemicalName
+    a owl:DatatypeProperty ;
+    rdfs:label "chemical name"@en ;
+    rdfs:comment "The chemical name of the reference substance."@en ;
+    rdfs:domain phint:ReferenceSubstance ;
+    rdfs:range rdf:langString .
+
+phint:catalogNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "catalog number"@en ;
+    rdfs:comment "The catalog number for ordering."@en ;
+    rdfs:domain phint:ReferenceSubstance ;
+    rdfs:range xsd:string .
+
+phint:assignedContent
+    a owl:DatatypeProperty ;
+    rdfs:label "assigned content"@en ;
+    rdfs:comment "The assigned content/purity of the reference substance."@en ;
+    rdfs:domain phint:ReferenceSubstance ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PH.INT.-SPECIFIC TEST TYPES
+# =============================================================================
+
+phint:DisintegrationTest
+    a owl:Class ;
+    rdfs:label "Disintegration Test"@en ;
+    rdfs:comment "Test for disintegration time of tablets and capsules."@en ;
+    rdfs:subClassOf op:Test .
+
+phint:DissolutionTest
+    a owl:Class ;
+    rdfs:label "Dissolution Test"@en ;
+    rdfs:comment "Test for dissolution rate of active ingredients."@en ;
+    rdfs:subClassOf op:Test .
+
+phint:UniformityOfContent
+    a owl:Class ;
+    rdfs:label "Uniformity of Content Test"@en ;
+    rdfs:comment "Test for uniformity of content in single-dose units."@en ;
+    rdfs:subClassOf op:Test .
+
+phint:UniformityOfMass
+    a owl:Class ;
+    rdfs:label "Uniformity of Mass Test"@en ;
+    rdfs:comment "Test for uniformity of mass in single-dose units."@en ;
+    rdfs:subClassOf op:Test .
+
+phint:WaterDetermination
+    a owl:Class ;
+    rdfs:label "Water Determination Test"@en ;
+    rdfs:comment "Test for water content, typically by Karl Fischer titration."@en ;
+    rdfs:subClassOf op:Test .
+
+phint:RelatedSubstances
+    a owl:Class ;
+    rdfs:label "Related Substances Test"@en ;
+    rdfs:comment "Test for impurities and related substances."@en ;
+    rdfs:subClassOf op:Test .

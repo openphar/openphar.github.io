@@ -1,0 +1,456 @@
+# Open Pharmacopoeia - Identification Test Ontology
+#
+# This module defines classes and properties for representing identification
+# test patterns including alternatives ("A or B and C"), references to general
+# identification tests, and microbiology test requirements.
+#
+# This addresses a key gap identified in the International Pharmacopoeia
+# where identification tests often have complex logical structures.
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix id: <https://www.openphar.org/ontology/identification/> .
+
+<https://www.openphar.org/ontology/identification/>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Identification Test Ontology"@en ;
+    rdfs:comment """
+        Ontology for representing identification test patterns including
+        logical alternatives, general test references, and microbiology
+        test requirements. Enables modeling of complex identification
+        test structures like "Test A or Test B and Test C".
+    """@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> ;
+    dct:created "2026-02-26"^^xsd:date ;
+    dct:modified "2026-02-26"^^xsd:date .
+
+# =============================================================================
+# IDENTIFICATION TEST CLASSES
+# =============================================================================
+
+id:IdentificationTest
+    a owl:Class ;
+    rdfs:label "Identification Test"@en ;
+    rdfs:comment """
+        A test used to identify or confirm the identity of a pharmaceutical
+        substance. May be a single test or a composite with logical structure.
+    """@en .
+
+id:SingleIdentificationTest
+    a owl:Class ;
+    rdfs:label "Single Identification Test"@en ;
+    rdfs:comment "A single, atomic identification test."@en ;
+    rdfs:subClassOf id:IdentificationTest .
+
+id:CompositeIdentificationTest
+    a owl:Class ;
+    rdfs:label "Composite Identification Test"@en ;
+    rdfs:comment """
+        An identification test composed of multiple sub-tests with logical
+        relationships (AND, OR).
+    """@en ;
+    rdfs:subClassOf id:IdentificationTest ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty id:hasComponent ;
+        owl:minCardinality 2
+    ] .
+
+id:hasComponent
+    a owl:ObjectProperty ;
+    rdfs:label "has component"@en ;
+    rdfs:comment "A component test in this composite test."@en ;
+    rdfs:domain id:CompositeIdentificationTest ;
+    rdfs:range id:IdentificationTestComponent .
+
+# =============================================================================
+# LOGICAL OPERATORS
+# =============================================================================
+
+id:LogicalOperator
+    a owl:Class ;
+    rdfs:label "Logical Operator"@en ;
+    rdfs:comment "A logical operator for combining tests."@en .
+
+id:AndOperator
+    a id:LogicalOperator ;
+    rdfs:label "AND Operator"@en ;
+    skos:prefLabel "AND"@en ;
+    rdfs:comment "All tests must pass."@en .
+
+id:OrOperator
+    a id:LogicalOperator ;
+    rdfs:label "OR Operator"@en ;
+    skos:prefLabel "OR"@en ;
+    rdfs:comment "At least one test must pass."@en .
+
+# =============================================================================
+# IDENTIFICATION TEST COMPONENT
+# =============================================================================
+
+id:IdentificationTestComponent
+    a owl:Class ;
+    rdfs:label "Identification Test Component"@en ;
+    rdfs:comment """
+        A component of a composite identification test, including the test
+        and its logical relationship to other components.
+    """@en .
+
+id:componentTest
+    a owl:ObjectProperty ;
+    rdfs:label "component test"@en ;
+    rdfs:comment "The identification test for this component."@en ;
+    rdfs:domain id:IdentificationTestComponent ;
+    rdfs:range id:IdentificationTest .
+
+id:logicalOperator
+    a owl:ObjectProperty ;
+    rdfs:label "logical operator"@en ;
+    rdfs:comment "The logical operator for this component."@en ;
+    rdfs:domain id:IdentificationTestComponent ;
+    rdfs:range id:LogicalOperator .
+
+id:componentOrder
+    a owl:DatatypeProperty ;
+    rdfs:label "component order"@en ;
+    rdfs:comment "The order of this component in the composite test."@en ;
+    rdfs:domain id:IdentificationTestComponent ;
+    rdfs:range xsd:integer .
+
+# =============================================================================
+# IDENTITY TEST ALTERNATIVE
+# =============================================================================
+
+id:IdentityTestAlternative
+    a owl:Class ;
+    rdfs:label "Identity Test Alternative"@en ;
+    rdfs:comment """
+        Represents an alternative identity test pattern like "A or B and C".
+        Used when multiple tests are acceptable for identification, with
+        different logical combinations.
+    """@en ;
+    rdfs:subClassOf id:CompositeIdentificationTest .
+
+id:alternativePattern
+    a owl:DatatypeProperty ;
+    rdfs:label "alternative pattern"@en ;
+    rdfs:comment """
+        The pattern of alternatives as a string (e.g., "A or B and C").
+        For human readability and documentation.
+    """@en ;
+    rdfs:domain id:IdentityTestAlternative ;
+    rdfs:range xsd:string .
+
+id:minimumTestsRequired
+    a owl:DatatypeProperty ;
+    rdfs:label "minimum tests required"@en ;
+    rdfs:comment """
+        The minimum number of tests that must pass for the identification
+        to be successful.
+    """@en ;
+    rdfs:domain id:IdentityTestAlternative ;
+    rdfs:range xsd:integer .
+
+# =============================================================================
+# GENERAL IDENTIFICATION TEST
+# =============================================================================
+
+id:GeneralIdentificationTest
+    a owl:Class ;
+    rdfs:label "General Identification Test"@en ;
+    rdfs:comment """
+        A reference to a general test method defined elsewhere (e.g., in
+        a general tests chapter). Common in pharmacopoeias where certain
+        identification methods are defined once and referenced by many
+        monographs.
+    """@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+id:generalTestReference
+    a owl:DatatypeProperty ;
+    rdfs:label "general test reference"@en ;
+    rdfs:comment """
+        The reference to the general test (e.g., "General Test 2.2.23",
+        "Appendix III.A").
+    """@en ;
+    rdfs:domain id:GeneralIdentificationTest ;
+    rdfs:range xsd:string .
+
+id:generalTestMethod
+    a owl:ObjectProperty ;
+    rdfs:label "general test method"@en ;
+    rdfs:comment "Link to the full definition of the general test method."@en ;
+    rdfs:domain id:GeneralIdentificationTest ;
+    rdfs:range op:TestMethod .
+
+# =============================================================================
+# SPECIFIC IDENTIFICATION TEST TYPES
+# =============================================================================
+
+id:SpectroscopicIdentification
+    a owl:Class ;
+    rdfs:label "Spectroscopic Identification"@en ;
+    rdfs:comment "Identification using spectroscopic methods (IR, UV, NMR)."@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+id:ChromatographicIdentification
+    a owl:Class ;
+    rdfs:label "Chromatographic Identification"@en ;
+    rdfs:comment "Identification using chromatographic methods (TLC, HPLC, GC)."@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+id:ChemicalReactionIdentification
+    a owl:Class ;
+    rdfs:label "Chemical Reaction Identification"@en ;
+    rdfs:comment "Identification using chemical reactions (color, precipitate)."@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+id:PhysicalPropertyIdentification
+    a owl:Class ;
+    rdfs:label "Physical Property Identification"@en ;
+    rdfs:comment "Identification using physical properties (melting point, rotation)."@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+# =============================================================================
+# MICROBIOLOGY IDENTIFICATION
+# =============================================================================
+
+id:MicrobiologyIdentification
+    a owl:Class ;
+    rdfs:label "Microbiology Identification"@en ;
+    rdfs:comment """
+        Identification using microbiological methods, including culture
+        characteristics, biochemical tests, and organism-specific tests.
+    """@en ;
+    rdfs:subClassOf id:SingleIdentificationTest .
+
+id:TestOrganism
+    a owl:Class ;
+    rdfs:label "Test Organism"@en ;
+    rdfs:comment """
+        A microorganism used in microbiological testing. May be a test
+        organism for potency assays or a challenge organism for sterility
+        or antimicrobial effectiveness testing.
+    """@en .
+
+id:organismName
+    a owl:DatatypeProperty ;
+    rdfs:label "organism name"@en ;
+    rdfs:comment "The scientific name of the test organism."@en ;
+    rdfs:domain id:TestOrganism ;
+    rdfs:range xsd:string .
+
+id:organismStrain
+    a owl:DatatypeProperty ;
+    rdfs:label "organism strain"@en ;
+    rdfs:comment "The strain designation (e.g., ATCC number)."@en ;
+    rdfs:domain id:TestOrganism ;
+    rdfs:range xsd:string .
+
+id:organismType
+    a owl:ObjectProperty ;
+    rdfs:label "organism type"@en ;
+    rdfs:comment "The type of organism (bacteria, fungus, virus)."@en ;
+    rdfs:domain id:TestOrganism ;
+    rdfs:range id:OrganismType .
+
+id:OrganismType
+    a owl:Class ;
+    rdfs:label "Organism Type"@en ;
+    rdfs:comment "The type of microorganism."@en .
+
+id:Bacteria
+    a id:OrganismType ;
+    rdfs:label "Bacteria"@en ;
+    skos:prefLabel "Bacteria"@en .
+
+id:Fungus
+    a id:OrganismType ;
+    rdfs:label "Fungus"@en ;
+    skos:prefLabel "Fungus"@en .
+
+id:Yeast
+    a id:OrganismType ;
+    rdfs:label "Yeast"@en ;
+    skos:prefLabel "Yeast"@en ;
+    rdfs:subClassOf id:Fungus .
+
+id:Mold
+    a id:OrganismType ;
+    rdfs:label "Mold"@en ;
+    skos:prefLabel "Mold"@en ;
+    rdfs:subClassOf id:Fungus .
+
+id:Virus
+    a id:OrganismType ;
+    rdfs:label "Virus"@en ;
+    skos:prefLabel "Virus"@en .
+
+# =============================================================================
+# CULTURE MEDIUM
+# =============================================================================
+
+id:CultureMedium
+    a owl:Class ;
+    rdfs:label "Culture Medium"@en ;
+    rdfs:comment """
+        A growth medium used for culturing microorganisms in microbiological
+        testing. May be solid (agar), liquid (broth), or semi-solid.
+    """@en .
+
+id:mediumName
+    a owl:DatatypeProperty ;
+    rdfs:label "medium name"@en ;
+    rdfs:comment "The name of the culture medium."@en ;
+    rdfs:domain id:CultureMedium ;
+    rdfs:range xsd:string .
+
+id:mediumType
+    a owl:ObjectProperty ;
+    rdfs:label "medium type"@en ;
+    rdfs:comment "The type of culture medium."@en ;
+    rdfs:domain id:CultureMedium ;
+    rdfs:range id:MediumType .
+
+id:MediumType
+    a owl:Class ;
+    rdfs:label "Medium Type"@en ;
+    rdfs:comment "The physical type of culture medium."@en .
+
+id:SolidMedium
+    a id:MediumType ;
+    rdfs:label "Solid Medium"@en ;
+    skos:prefLabel "Solid"@en ;
+    rdfs:comment "Solid medium (e.g., agar plate)."@en .
+
+id:LiquidMedium
+    a id:MediumType ;
+    rdfs:label "Liquid Medium"@en ;
+    skos:prefLabel "Liquid"@en ;
+    rdfs:comment "Liquid medium (e.g., broth)."@en .
+
+id:SemiSolidMedium
+    a id:MediumType ;
+    rdfs:label "Semi-Solid Medium"@en ;
+    skos:prefLabel "Semi-Solid"@en ;
+    rdfs:comment "Semi-solid medium."@en .
+
+id:mediumPH
+    a owl:DatatypeProperty ;
+    rdfs:label "medium pH"@en ;
+    rdfs:comment "The pH of the culture medium after sterilization."@en ;
+    rdfs:domain id:CultureMedium ;
+    rdfs:range xsd:decimal .
+
+id:incubationTemperature
+    a owl:DatatypeProperty ;
+    rdfs:label "incubation temperature"@en ;
+    rdfs:comment "The incubation temperature in degrees Celsius."@en ;
+    rdfs:domain id:CultureMedium ;
+    rdfs:range xsd:decimal .
+
+id:incubationTime
+    a owl:DatatypeProperty ;
+    rdfs:label "incubation time"@en ;
+    rdfs:comment "The incubation time (e.g., '24-48 hours')."@en ;
+    rdfs:domain id:CultureMedium ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# COMMON CULTURE MEDIA
+# =============================================================================
+
+id:SoybeanCaseinDigestMedium
+    a id:CultureMedium ;
+    rdfs:label "Soybean-Casein Digest Medium"@en ;
+    skos:prefLabel "SCDM"@en ;
+    skos:altLabel "Tryptic Soy Broth"@en ;
+    id:mediumName "Soybean-Casein Digest Medium" ;
+    id:mediumType id:LiquidMedium .
+
+id:FluidThioglycollateMedium
+    a id:CultureMedium ;
+    rdfs:label "Fluid Thioglycollate Medium"@en ;
+    skos:prefLabel "FTM"@en ;
+    id:mediumName "Fluid Thioglycollate Medium" ;
+    id:mediumType id:LiquidMedium .
+
+id:SabouraudDextroseAgar
+    a id:CultureMedium ;
+    rdfs:label "Sabouraud Dextrose Agar"@en ;
+    skos:prefLabel "SDA"@en ;
+    id:mediumName "Sabouraud Dextrose Agar" ;
+    id:mediumType id:SolidMedium .
+
+id:PotatoDextroseAgar
+    a id:CultureMedium ;
+    rdfs:label "Potato Dextrose Agar"@en ;
+    skos:prefLabel "PDA"@en ;
+    id:mediumName "Potato Dextrose Agar" ;
+    id:mediumType id:SolidMedium .
+
+# =============================================================================
+# LINKING PROPERTIES ON MONOGRAPH
+# =============================================================================
+
+op:hasIdentificationTest
+    a owl:ObjectProperty ;
+    rdfs:label "has identification test"@en ;
+    rdfs:comment "An identification test for this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range id:IdentificationTest .
+
+op:usesTestOrganism
+    a owl:ObjectProperty ;
+    rdfs:label "uses test organism"@en ;
+    rdfs:comment "A test organism used in testing this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range id:TestOrganism .
+
+op:usesCultureMedium
+    a owl:ObjectProperty ;
+    rdfs:label "uses culture medium"@en ;
+    rdfs:comment "A culture medium used in testing this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range id:CultureMedium .
+
+# =============================================================================
+# EXAMPLE: COMPLEX IDENTIFICATION TEST
+# =============================================================================
+
+# Example instance data would look like:
+#
+# op:SomeDrug-Monograph a op:ChemicalDrugMonograph ;
+#     op:hasIdentificationTest id:SomeDrug-Identification .
+#
+# id:SomeDrug-Identification a id:IdentityTestAlternative ;
+#     rdfs:label "Identification for Some Drug"@en ;
+#     id:alternativePattern "Test A or Test B and Test C" ;
+#     id:minimumTestsRequired 2 ;
+#     id:hasComponent [
+#         id:componentTest id:SomeDrug-IR ;
+#         id:logicalOperator id:OrOperator ;
+#         id:componentOrder 1
+#     ] , [
+#         id:componentTest id:SomeDrug-UV ;
+#         id:logicalOperator id:OrOperator ;
+#         id:componentOrder 2
+#     ] , [
+#         id:componentTest id:SomeDrug-TLC ;
+#         id:logicalOperator id:AndOperator ;
+#         id:componentOrder 3
+#     ] .
+#
+# id:SomeDrug-IR a id:SpectroscopicIdentification ;
+#     rdfs:label "IR Spectroscopy"@en .
+#
+# id:SomeDrug-UV a id:SpectroscopicIdentification ;
+#     rdfs:label "UV Spectroscopy"@en .
+#
+# id:SomeDrug-TLC a id:ChromatographicIdentification ;
+#     rdfs:label "TLC"@en .

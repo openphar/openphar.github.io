@@ -11,6 +11,13 @@ function getDataDir() {
   return fs.existsSync(localDataDir) ? localDataDir : ciDataDir
 }
 
+// Find ontology directory - sibling repo takes precedence, vendored copy is the CI fallback
+function getOntologyDir() {
+  const siblingDir = path.resolve(__dirname, '../open-pharmacopoeia/ontology')
+  const vendoredDir = path.resolve(__dirname, './ontology')
+  return fs.existsSync(siblingDir) ? siblingDir : vendoredDir
+}
+
 // Plugin to serve data files in dev mode and copy them in build mode
 function dataPlugin() {
   const dataDir = getDataDir()
@@ -36,8 +43,7 @@ function dataPlugin() {
           }
         }
         if (req.url && req.url.startsWith('/ontology/')) {
-          const ontologyDir = path.resolve(__dirname, '../open-pharmacopoeia/ontology')
-          const filePath = path.join(ontologyDir, req.url.replace('/ontology/', ''))
+          const filePath = path.join(getOntologyDir(), req.url.replace('/ontology/', ''))
 
           if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
             const ext = path.extname(filePath).toLowerCase()
@@ -80,7 +86,7 @@ function dataPlugin() {
         copyDir(dataDir, dataDest)
         console.log('✓ Copied data files to dist/data')
 
-        const ontologySrc = path.resolve(__dirname, '../open-pharmacopoeia/ontology')
+        const ontologySrc = getOntologyDir()
         copyDir(ontologySrc, ontologyDest)
         console.log('✓ Copied ontology files to dist/ontology')
       }

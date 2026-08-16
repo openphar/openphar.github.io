@@ -1,0 +1,31 @@
+# Open Pharmacopoeia - Hong Kong Chinese Materia Medica Standards (HKCMMS) Extensions
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix hkcmms: <https://www.openphar.org/ontology/publisher/hkcmms/> .
+
+<https://www.openphar.org/ontology/publisher/hkcmms/>
+    a owl:Ontology ;
+    rdfs:label "Hong Kong Chinese Materia Medica Standards Extensions"@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+<https://www.openphar.org/data/publisher/hkcmms>
+    a op:Publisher ;
+    op:publisherCode "HKCMMS" ;
+    rdfs:label "Hong Kong Chinese Materia Medica Standards"@en ;
+    rdfs:seeAlso <https://www.cmchk.org.hk/> .
+
+hkcmms:Monograph a owl:Class ; rdfs:subClassOf op:Monograph .
+hkcmms:TcmCrudeDrug a owl:Class ; rdfs:subClassOf hkcmms:Monograph, op:CrudeDrugMonograph .
+hkcmms:TcmFormulation a owl:Class ; rdfs:subClassOf hkcmms:Monograph, op:FormulationMonograph .
+
+# TCM pharmacological properties (四气五味归经)
+hkcmms:chineseName a owl:DatatypeProperty ; rdfs:domain hkcmms:Monograph ; rdfs:range xsd:string .
+hkcmms:pinyinName a owl:DatatypeProperty ; rdfs:domain hkcmms:Monograph ; rdfs:range xsd:string .
+hkcmms:nature a owl:DatatypeProperty ; rdfs:domain hkcmms:TcmCrudeDrug ; rdfs:range xsd:string .
+hkcmms:flavor a owl:DatatypeProperty ; rdfs:domain hkcmms:TcmCrudeDrug ; rdfs:range xsd:string .
+hkcmms:meridianTropism a owl:DatatypeProperty ; rdfs:domain hkcmms:TcmCrudeDrug ; rdfs:range xsd:string .
+hkcmms:function a owl:DatatypeProperty ; rdfs:domain hkcmms:TcmCrudeDrug ; rdfs:range xsd:string .
+hkcmms:indication a owl:DatatypeProperty ; rdfs:domain hkcmms:TcmCrudeDrug ; rdfs:range xsd:string .

@@ -1,0 +1,610 @@
+# Open Pharmacopoeia - Test Methods Ontology
+#
+# Harmonized test methods for cross-publisher comparison.
+# Based on JP General Tests structure as the reference standard.
+#
+# MECE Categories:
+# 1. Chromatographic Methods
+# 2. Spectroscopic Methods
+# 3. Titrimetric Methods
+# 4. Physical Tests
+# 5. Purity Tests
+# 6. Microbiological Tests
+# 7. Identification Tests
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix method: <https://www.openphar.org/ontology/method/> .
+
+<https://www.openphar.org/ontology/method>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Test Methods Ontology"@en ;
+    rdfs:comment """
+        Harmonized test methods for pharmacopoeia monographs.
+        Based on JP General Tests as the reference standard.
+        Maps equivalent methods from different publishers for cross-publisher comparison.
+    """@en ;
+    owl:imports <https://www.openphar.org/ontology/core> .
+
+# =============================================================================
+# METHOD CATEGORIES
+# =============================================================================
+
+method:ChromatographicMethod
+    a owl:Class ;
+    rdfs:label "Chromatographic Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Separation methods based on differential partitioning."@en .
+
+method:SpectroscopicMethod
+    a owl:Class ;
+    rdfs:label "Spectroscopic Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Methods based on interaction with electromagnetic radiation."@en .
+
+method:TitrimetricMethod
+    a owl:Class ;
+    rdfs:label "Titrimetric Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Quantitative analysis by titration."@en .
+
+method:PhysicalTestMethod
+    a owl:Class ;
+    rdfs:label "Physical Test Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Methods for measuring physical properties."@en .
+
+method:PurityTestMethod
+    a owl:Class ;
+    rdfs:label "Purity Test Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Methods for detecting impurities and contaminants."@en .
+
+method:MicrobiologicalMethod
+    a owl:Class ;
+    rdfs:label "Microbiological Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Methods for microbial testing."@en .
+
+method:IdentificationMethod
+    a owl:Class ;
+    rdfs:label "Identification Method"@en ;
+    rdfs:subClassOf op:HarmonizedMethod ;
+    rdfs:comment "Methods for confirming identity."@en .
+
+# =============================================================================
+# CHROMATOGRAPHIC METHODS
+# =============================================================================
+
+method:HPLC
+    a method:ChromatographicMethod ;
+    rdfs:label "High Performance Liquid Chromatography"@en ;
+    skos:altLabel "HPLC"@en ;
+    skos:altLabel "Liquid Chromatography"@en ;
+    op:jpReference "as directed under Liquid Chromatography <2.01>"@en ;
+    rdfs:comment """
+        High performance liquid chromatography for separation and quantitative
+        analysis. Used for assays and related substances testing.
+    """@en .
+
+method:HPLC-UV
+    a method:ChromatographicMethod ;
+    rdfs:label "HPLC with UV Detection"@en ;
+    skos:altLabel "HPLC-UV"@en ;
+    rdfs:comment "HPLC with ultraviolet detection."@en ;
+    rdfs:seeAlso method:HPLC .
+
+method:HPLC-FL
+    a method:ChromatographicMethod ;
+    rdfs:label "HPLC with Fluorescence Detection"@en ;
+    skos:altLabel "HPLC-FL"@en ;
+    rdfs:comment "HPLC with fluorescence detection."@en ;
+    rdfs:seeAlso method:HPLC .
+
+method:HPLC-MS
+    a method:ChromatographicMethod ;
+    rdfs:label "HPLC with Mass Spectrometry Detection"@en ;
+    skos:altLabel "LC-MS"@en ;
+    rdfs:comment "HPLC with mass spectrometry detection."@en ;
+    rdfs:seeAlso method:HPLC .
+
+method:GC
+    a method:ChromatographicMethod ;
+    rdfs:label "Gas Chromatography"@en ;
+    skos:altLabel "GC"@en ;
+    op:jpReference "as directed under Gas Chromatography <2.02>"@en ;
+    rdfs:comment """
+        Gas chromatography for separation and analysis of volatile compounds.
+        Used for residual solvents and volatile oils.
+    """@en .
+
+method:GC-FID
+    a method:ChromatographicMethod ;
+    rdfs:label "Gas Chromatography with Flame Ionization Detection"@en ;
+    skos:altLabel "GC-FID"@en ;
+    rdfs:comment "GC with flame ionization detection."@en ;
+    rdfs:seeAlso method:GC .
+
+method:GC-MS
+    a method:ChromatographicMethod ;
+    rdfs:label "Gas Chromatography-Mass Spectrometry"@en ;
+    skos:altLabel "GC-MS"@en ;
+    rdfs:comment "GC with mass spectrometry detection."@en ;
+    rdfs:seeAlso method:GC .
+
+method:TLC
+    a method:ChromatographicMethod ;
+    rdfs:label "Thin-Layer Chromatography"@en ;
+    skos:altLabel "TLC"@en ;
+    op:jpReference "as directed under Thin-Layer Chromatography <2.03>"@en ;
+    rdfs:comment """
+        Thin-layer chromatography for identification and semi-quantitative
+        analysis. Primary identification method for crude drugs.
+    """@en .
+
+method:HPTLC
+    a method:ChromatographicMethod ;
+    rdfs:label "High Performance Thin-Layer Chromatography"@en ;
+    skos:altLabel "HPTLC"@en ;
+    rdfs:comment "High performance TLC with improved resolution."@en ;
+    rdfs:seeAlso method:TLC .
+
+# =============================================================================
+# SPECTROSCOPIC METHODS
+# =============================================================================
+
+method:UV-Vis
+    a method:SpectroscopicMethod ;
+    rdfs:label "Ultraviolet-Visible Spectrophotometry"@en ;
+    skos:altLabel "UV-Vis"@en ;
+    skos:altLabel "UV Spectrophotometry"@en ;
+    op:jpReference "as directed under Ultraviolet-visible Spectrophotometry <2.24>"@en ;
+    rdfs:comment """
+        Spectrophotometry in the ultraviolet and visible regions.
+        Used for identification and quantitative analysis.
+    """@en .
+
+method:IR
+    a method:SpectroscopicMethod ;
+    rdfs:label "Infrared Spectrophotometry"@en ;
+    skos:altLabel "IR"@en ;
+    skos:altLabel "FTIR"@en ;
+    op:jpReference "as directed under Infrared Spectrophotometry <2.25>"@en ;
+    rdfs:comment """
+        Infrared spectrophotometry for identification based on molecular
+        vibrational modes. Compare against reference spectra.
+    """@en .
+
+method:AAS
+    a method:SpectroscopicMethod ;
+    rdfs:label "Atomic Absorption Spectrometry"@en ;
+    skos:altLabel "AAS"@en ;
+    rdfs:comment """
+        Atomic absorption spectrometry for elemental analysis.
+        Used for heavy metals and trace elements.
+    """@en .
+
+method:ICP-MS
+    a method:SpectroscopicMethod ;
+    rdfs:label "Inductively Coupled Plasma Mass Spectrometry"@en ;
+    skos:altLabel "ICP-MS"@en ;
+    rdfs:comment """
+        ICP-MS for multi-element analysis at trace levels.
+        Used for heavy metals and elemental impurities.
+    """@en .
+
+method:ICP-OES
+    a method:SpectroscopicMethod ;
+    rdfs:label "Inductively Coupled Plasma Optical Emission Spectrometry"@en ;
+    skos:altLabel "ICP-OES"@en ;
+    skos:altLabel "ICP-AES"@en ;
+    rdfs:comment "ICP with optical emission detection for elemental analysis."@en .
+
+# =============================================================================
+# TITRIMETRIC METHODS
+# =============================================================================
+
+method:AcidBaseTitration
+    a method:TitrimetricMethod ;
+    rdfs:label "Acid-Base Titration"@en ;
+    rdfs:comment "Titration using acid-base reactions."@en .
+
+method:Non-aqueousTitration
+    a method:TitrimetricMethod ;
+    rdfs:label "Non-aqueous Titration"@en ;
+    op:jpReference "as directed under Non-aqueous Titration <2.50>"@en ;
+    rdfs:comment "Titration in non-aqueous solvents."@en .
+
+method:RedoxTitration
+    a method:TitrimetricMethod ;
+    rdfs:label "Redox Titration"@en ;
+    rdfs:comment "Titration using oxidation-reduction reactions."@en .
+
+method:ComplexometricTitration
+    a method:TitrimetricMethod ;
+    rdfs:label "Complexometric Titration"@en ;
+    rdfs:comment "Titration using complex formation (e.g., EDTA titration)."@en .
+
+method:PotentiometricTitration
+    a method:TitrimetricMethod ;
+    rdfs:label "Potentiometric Titration"@en ;
+    op:jpReference "as directed under Potentiometric Titration <2.50>"@en ;
+    rdfs:comment "Titration with potentiometric endpoint detection."@en .
+
+# =============================================================================
+# PHYSICAL TEST METHODS
+# =============================================================================
+
+method:LossOnDrying
+    a method:PhysicalTestMethod ;
+    rdfs:label "Loss on Drying"@en ;
+    skos:altLabel "LOD"@en ;
+    op:jpReference "as directed under Loss on Drying Test <2.41>"@en ;
+    rdfs:comment """
+        Determination of moisture and volatile matter content by drying
+        under specified conditions.
+    """@en .
+
+method:ResidueOnIgnition
+    a method:PhysicalTestMethod ;
+    rdfs:label "Residue on Ignition"@en ;
+    skos:altLabel "ROI"@en ;
+    skos:altLabel "Total Ash"@en ;
+    op:jpReference "as directed under Residue on Ignition Test <2.44>"@en ;
+    rdfs:comment """
+        Determination of inorganic residue after ignition (total ash).
+        Important for crude drug quality.
+    """@en .
+
+method:TotalAsh
+    a method:PhysicalTestMethod ;
+    rdfs:label "Total Ash"@en ;
+    rdfs:comment "Total ash content of crude drugs."@en ;
+    skos:exactMatch method:ResidueOnIgnition .
+
+method:AcidInsolubleAsh
+    a method:PhysicalTestMethod ;
+    rdfs:label "Acid-Insoluble Ash"@en ;
+    rdfs:comment """
+        Ash insoluble in dilute hydrochloric acid.
+        Indicates presence of silica and other acid-insoluble matter.
+    """@en .
+
+method:WaterContent
+    a method:PhysicalTestMethod ;
+    rdfs:label "Water Content"@en ;
+    skos:altLabel "Moisture Content"@en ;
+    op:jpReference "as directed under Water Content Test <2.48>"@en ;
+    rdfs:comment "Determination of water content by Karl Fischer titration or other methods."@en .
+
+method:KarlFischer
+    a method:PhysicalTestMethod ;
+    rdfs:label "Karl Fischer Titration"@en ;
+    skos:altLabel "KF"@en ;
+    rdfs:comment "Water determination by Karl Fischer titration."@en ;
+    rdfs:seeAlso method:WaterContent .
+
+method:SpecificGravity
+    a method:PhysicalTestMethod ;
+    rdfs:label "Specific Gravity"@en ;
+    skos:altLabel "Relative Density"@en ;
+    op:jpReference "as directed under Specific Gravity and Density <2.47>"@en ;
+    rdfs:comment "Ratio of density of substance to density of water."@en .
+
+method:OpticalRotation
+    a method:PhysicalTestMethod ;
+    rdfs:label "Optical Rotation"@en ;
+    skos:altLabel "Polarimetry"@en ;
+    op:jpReference "as directed under Optical Rotation <2.49>"@en ;
+    rdfs:comment "Measurement of optical rotation for chiral compounds."@en .
+
+method:RefractiveIndex
+    a method:PhysicalTestMethod ;
+    rdfs:label "Refractive Index"@en ;
+    op:jpReference "as directed under Refractive Index <2.45>"@en ;
+    rdfs:comment "Measurement of refractive index for liquids."@en .
+
+method:Viscosity
+    a method:PhysicalTestMethod ;
+    rdfs:label "Viscosity"@en ;
+    op:jpReference "as directed under Viscosity <2.53>"@en ;
+    rdfs:comment "Measurement of viscosity (kinematic or dynamic)."@en .
+
+method:MeltingPoint
+    a method:PhysicalTestMethod ;
+    rdfs:label "Melting Point"@en ;
+    op:jpReference "as directed under Melting Point <2.60>"@en ;
+    rdfs:comment "Determination of melting point or range."@en .
+
+method:BoilingPoint
+    a method:PhysicalTestMethod ;
+    rdfs:label "Boiling Point"@en ;
+    op:jpReference "as directed under Boiling Point <2.57>"@en ;
+    rdfs:comment "Determination of boiling point or distillation range."@en .
+
+method:pH
+    a method:PhysicalTestMethod ;
+    rdfs:label "pH"@en ;
+    op:jpReference "as directed under pH Determination <2.54>"@en ;
+    rdfs:comment "Measurement of pH."@en .
+
+method:ForeignMatter
+    a method:PhysicalTestMethod ;
+    rdfs:label "Foreign Matter"@en ;
+    rdfs:comment """
+        Determination of extraneous matter in crude drugs
+        (other plant parts, insects, etc.).
+    """@en .
+
+# =============================================================================
+# EXTRACTIVE VALUES (Crude Drug Specific)
+# =============================================================================
+
+method:AlcoholSolubleExtractive
+    a method:PhysicalTestMethod ;
+    rdfs:label "Alcohol-Soluble Extractive"@en ;
+    rdfs:comment "Extractive value using ethanol as solvent."@en .
+
+method:WaterSolubleExtractive
+    a method:PhysicalTestMethod ;
+    rdfs:label "Water-Soluble Extractive"@en ;
+    rdfs:comment "Extractive value using water as solvent."@en .
+
+method:DiluteAlcoholSolubleExtractive
+    a method:PhysicalTestMethod ;
+    rdfs:label "Dilute Alcohol-Soluble Extractive"@en ;
+    rdfs:comment "Extractive value using dilute ethanol as solvent."@en .
+
+method:EtherSolubleExtractive
+    a method:PhysicalTestMethod ;
+    rdfs:label "Ether-Soluble Extractive"@en ;
+    rdfs:comment "Extractive value using ether as solvent."@en .
+
+# =============================================================================
+# PURITY TEST METHODS
+# =============================================================================
+
+method:HeavyMetals
+    a method:PurityTestMethod ;
+    rdfs:label "Heavy Metals Test"@en ;
+    op:jpReference "as directed under Heavy Metals Test <1.07>"@en ;
+    rdfs:comment """
+        Test for heavy metals (lead, cadmium, mercury, arsenic, etc.)
+        as indicated by sulfide precipitation.
+    """@en .
+
+method:HeavyMetals-Method1
+    a method:PurityTestMethod ;
+    rdfs:label "Heavy Metals Test Method 1"@en ;
+    op:jpReference "according to Method 1"@en ;
+    rdfs:comment "Heavy metals test for substances soluble in water or dilute acid."@en .
+
+method:HeavyMetals-Method2
+    a method:PurityTestMethod ;
+    rdfs:label "Heavy Metals Test Method 2"@en ;
+    op:jpReference "according to Method 2"@en ;
+    rdfs:comment "Heavy metals test for substances requiring ashing."@en .
+
+method:HeavyMetals-Method3
+    a method:PurityTestMethod ;
+    rdfs:label "Heavy Metals Test Method 3"@en ;
+    op:jpReference "according to Method 3"@en ;
+    rdfs:comment "Heavy metals test for substances requiring wet digestion."@en .
+
+method:HeavyMetals-Method4
+    a method:PurityTestMethod ;
+    rdfs:label "Heavy Metals Test Method 4"@en ;
+    op:jpReference "according to Method 4"@en ;
+    rdfs:comment "Heavy metals test for acidic digest of organic substances."@en .
+
+method:Arsenic
+    a method:PurityTestMethod ;
+    rdfs:label "Arsenic Test"@en ;
+    op:jpReference "as directed under Arsenic Test <1.11>"@en ;
+    rdfs:comment "Test for arsenic content."@en .
+
+method:Lead
+    a method:PurityTestMethod ;
+    rdfs:label "Lead Test"@en ;
+    rdfs:comment "Specific test for lead content (often by AAS or ICP-MS)."@en .
+
+method:Cadmium
+    a method:PurityTestMethod ;
+    rdfs:label "Cadmium Test"@en ;
+    rdfs:comment "Specific test for cadmium content."@en .
+
+method:Mercury
+    a method:PurityTestMethod ;
+    rdfs:label "Mercury Test"@en ;
+    rdfs:comment "Specific test for mercury content."@en .
+
+method:PesticideResidues
+    a method:PurityTestMethod ;
+    rdfs:label "Pesticide Residues Test"@en ;
+    rdfs:comment "Test for pesticide residues by GC or LC methods."@en .
+
+method:Aflatoxins
+    a method:PurityTestMethod ;
+    rdfs:label "Aflatoxins Test"@en ;
+    rdfs:comment "Test for aflatoxin contamination."@en .
+
+method:RelatedSubstances
+    a method:PurityTestMethod ;
+    rdfs:label "Related Substances Test"@en ;
+    rdfs:comment "Test for related compounds and impurities by chromatography."@en .
+
+method:ResidualSolvents
+    a method:PurityTestMethod ;
+    rdfs:label "Residual Solvents Test"@en ;
+    skos:altLabel "Organic Volatile Impurities"@en ;
+    rdfs:comment "Test for residual solvents by GC."@en .
+
+# =============================================================================
+# MICROBIOLOGICAL TEST METHODS
+# =============================================================================
+
+method:TotalAerobicCount
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Total Aerobic Microbial Count"@en ;
+    skos:altLabel "TAMC"@en ;
+    rdfs:comment "Enumeration of total aerobic microorganisms."@en .
+
+method:TotalYeastMoldCount
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Total Yeast and Mold Count"@en ;
+    skos:altLabel "TYMC"@en ;
+    rdfs:comment "Enumeration of yeasts and molds."@en .
+
+method:AbsenceEColi
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Absence of E. coli"@en ;
+    rdfs:comment "Test for absence of Escherichia coli."@en .
+
+method:AbsenceSalmonella
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Absence of Salmonella"@en ;
+    rdfs:comment "Test for absence of Salmonella species."@en .
+
+method:AbsenceS Aureus
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Absence of S. aureus"@en ;
+    rdfs:comment "Test for absence of Staphylococcus aureus."@en .
+
+method:AbsenceP Aeruginosa
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Absence of P. aeruginosa"@en ;
+    rdfs:comment "Test for absence of Pseudomonas aeruginosa."@en .
+
+method:Enterobacteriaceae
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Enterobacteriaceae Count"@en ;
+    rdfs:comment "Enumeration of Enterobacteriaceae."@en .
+
+method:BileTolerantGramNegative
+    a method:MicrobiologicalMethod ;
+    rdfs:label "Bile-Tolerant Gram-Negative Bacteria"@en ;
+    rdfs:comment "Enumeration of bile-tolerant gram-negative bacteria."@en .
+
+# =============================================================================
+# IDENTIFICATION METHODS
+# =============================================================================
+
+method:ChemicalIdentification
+    a method:IdentificationMethod ;
+    rdfs:label "Chemical Identification Test"@en ;
+    rdfs:comment "Identification by chemical reactions (color, precipitate, etc.)."@en .
+
+method:TLC-Identification
+    a method:IdentificationMethod ;
+    rdfs:label "TLC Identification"@en ;
+    rdfs:comment "Identification by thin-layer chromatography comparison."@en ;
+    rdfs:seeAlso method:TLC .
+
+method:UV-Identification
+    a method:IdentificationMethod ;
+    rdfs:label "UV Identification"@en ;
+    rdfs:comment "Identification by UV spectrum comparison."@en ;
+    rdfs:seeAlso method:UV-Vis .
+
+method:IR-Identification
+    a method:IdentificationMethod ;
+    rdfs:label "IR Identification"@en ;
+    rdfs:comment "Identification by IR spectrum comparison."@en ;
+    rdfs:seeAlso method:IR .
+
+method:MicroscopicIdentification
+    a method:IdentificationMethod ;
+    rdfs:label "Microscopic Identification"@en ;
+    rdfs:comment "Identification by microscopic examination (crude drugs)."@en .
+
+method:MacroscopicIdentification
+    a method:IdentificationMethod ;
+    rdfs:label "Macroscopic Identification"@en ;
+    rdfs:comment "Identification by visual examination (crude drugs)."@en .
+
+# =============================================================================
+# PUBLISHER METHOD REFERENCES
+# =============================================================================
+
+method:JP-GeneralTests
+    a op:PublisherMethod ;
+    rdfs:label "JP General Tests"@en ;
+    op:methodPublisher op:JP ;
+    op:methodReference "JP 18 General Tests" ;
+    rdfs:comment "Reference to Japan Pharmacopoeia General Tests section."@en .
+
+method:JP-LiquidChromatography
+    a op:PublisherMethod ;
+    rdfs:label "JP Liquid Chromatography"@en ;
+    op:methodPublisher op:JP ;
+    op:methodReference "JP 18 <2.01>" ;
+    op:equivalentTo method:HPLC .
+
+method:JP-GasChromatography
+    a op:PublisherMethod ;
+    rdfs:label "JP Gas Chromatography"@en ;
+    op:methodPublisher op:JP ;
+    op:methodReference "JP 18 <2.02>" ;
+    op:equivalentTo method:GC .
+
+method:JP-TLC
+    a op:PublisherMethod ;
+    rdfs:label "JP Thin-Layer Chromatography"@en ;
+    op:methodPublisher op:JP ;
+    op:methodReference "JP 18 <2.03>" ;
+    op:equivalentTo method:TLC .
+
+method:API-Appendix
+    a op:PublisherMethod ;
+    rdfs:label "API Appendix"@en ;
+    op:methodPublisher op:API ;
+    rdfs:comment "Reference to Ayurvedic Pharmacopoeia of India Appendix."@en .
+
+method:API-HPLC
+    a op:PublisherMethod ;
+    rdfs:label "API HPLC Method"@en ;
+    op:methodPublisher op:API ;
+    op:methodReference "API Appendix 2.2.29" ;
+    op:equivalentTo method:HPLC .
+
+method:HKCMMS-Appendix
+    a op:PublisherMethod ;
+    rdfs:label "HKCMMS Appendix"@en ;
+    op:methodPublisher op:HKCMMS ;
+    rdfs:comment "Reference to Hong Kong CMMS Appendix."@en .
+
+method:HKCMMS-HPLC
+    a op:PublisherMethod ;
+    rdfs:label "HKCMMS HPLC Method"@en ;
+    op:methodPublisher op:HKCMMS ;
+    op:methodReference "HKCMMS Appendix IV-B" ;
+    op:equivalentTo method:HPLC .
+
+# =============================================================================
+# ADDITIONAL PROPERTIES
+# =============================================================================
+
+op:methodPublisher
+    a owl:ObjectProperty ;
+    rdfs:label "method publisher"@en ;
+    rdfs:comment "The publisher that defines this method."@en ;
+    rdfs:domain op:PublisherMethod ;
+    rdfs:range op:Publisher .
+
+op:methodReference
+    a owl:DatatypeProperty ;
+    rdfs:label "method reference"@en ;
+    rdfs:comment "The specific reference within the publisher's pharmacopoeia."@en ;
+    rdfs:domain op:PublisherMethod ;
+    rdfs:range xsd:string .
+
+op:equivalentTo
+    a owl:ObjectProperty ;
+    rdfs:label "equivalent to"@en ;
+    rdfs:comment "Links a publisher method to its equivalent harmonized method."@en ;
+    rdfs:domain op:PublisherMethod ;
+    rdfs:range op:HarmonizedMethod .

@@ -18,30 +18,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Self-contained build: data/ and ontology/ are vendored in this repo
+      # (jp-monographs.jsonld, phint-monographs.jsonld, ontology/).
+      # Canonical source: openphar/open-pharmacopoeia (currently private;
+      # see TODO.deploy/02-declarative-dataset-registry.md for the plan to
+      # replace vendoring with a declarative dataset pipeline).
       - name: Checkout site
         uses: actions/checkout@v4
-        with:
-          path: site
-
-      - name: Checkout data repository
-        uses: actions/checkout@v4
-        with:
-          repository: sipm/open-pharmacopoeia
-          path: data-repo
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: site/package-lock.json
 
       - name: Install dependencies
-        working-directory: site
         run: npm ci
 
       - name: Build site
-        working-directory: site
         env:
           NODE_ENV: production
         run: npm run build
@@ -52,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/dist
+          path: dist
 
   deploy:
     environment:

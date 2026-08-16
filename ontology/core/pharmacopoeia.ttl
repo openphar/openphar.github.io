@@ -1,0 +1,3427 @@
+# Open Pharmacopoeia Core Ontology - Pharmacopoeia Classes
+#
+# This ontology defines the core classes and properties for representing
+# pharmacopoeia monographs, test specifications, and harmonized methods.
+#
+# Namespace: https://www.openphar.org/ontology/core/
+# Prefix: op
+#
+# Integration with data-herbapedia:
+# - HerbalPreparation: https://www.herbapedia.org/entity/preparation/{slug}
+# - TCMProfile: https://www.herbapedia.org/system/tcm/profile/{slug}
+# - AyurvedaProfile: https://www.herbapedia.org/system/ayurveda/dravya/{slug}
+# - WesternProfile: https://www.herbapedia.org/system/western/profile/{slug}
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix herbapedia: <https://www.herbapedia.org/entity/> .
+
+# =============================================================================
+# ONTOLOGY METADATA
+# =============================================================================
+
+<https://www.openphar.org/ontology/core>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Core Ontology"@en ;
+    rdfs:comment """
+        Core ontology for pharmacopoeia monographs and quality specifications.
+        This ontology is designed to integrate with data-herbapedia for botanical
+        and medicine system data, while open-pharmacopoeia focuses on quality
+        standards, test specifications, and cross-publisher harmonization.
+    """@en ;
+    dct:version "1.0.0" ;
+    dct:created "2026-02-23"^^xsd:date ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+# =============================================================================
+# CLASS HIERARCHY (MECE - Mutually Exclusive, Collectively Exhaustive)
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Core Classes
+# -----------------------------------------------------------------------------
+
+op:PharmacopoeiaMonograph
+    a owl:Class ;
+    rdfs:label "Pharmacopoeia Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph defines the quality standards for a medicinal
+        substance as published by an official pharmacopoeia publisher.
+
+        The monograph links to data-herbapedia for botanical and medicine system
+        data via referencesPreparation, referencesTCMProfile, etc.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:publisher ;
+        owl:cardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:monographId ;
+        owl:cardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty skos:prefLabel ;
+        owl:minCardinality 1
+    ] .
+
+op:CrudeDrugMonograph
+    a owl:Class ;
+    rdfs:label "Crude Drug Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph specifically for crude drugs (herbal medicines).
+        Extends the base PharmacopoeiaMonograph with botanical source information,
+        macroscopic and microscopic descriptions.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:botanicalSource ;
+        owl:minCardinality 1
+    ] .
+
+# -----------------------------------------------------------------------------
+# Additional Herbal Preparation Types (from data-japan-pharmacopia)
+# -----------------------------------------------------------------------------
+
+op:PowderedCrudeDrug
+    a owl:Class ;
+    rdfs:label "Powdered Crude Drug"@en ;
+    rdfs:comment """
+        A powdered form of a crude drug. The crude drug has been processed
+        into a fine powder while maintaining its identity and properties.
+    """@en ;
+    rdfs:subClassOf op:CrudeDrugMonograph .
+
+op:Extract
+    a owl:Class ;
+    rdfs:label "Extract"@en ;
+    rdfs:comment """
+        A preparation made by extracting medicinal components from crude drugs
+        using appropriate solvents (water, ethanol, etc.). Includes Kampo/TCM
+        formulations with multiple ingredients.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:hasIngredient ;
+        owl:minCardinality 1
+    ] .
+
+op:Tincture
+    a owl:Class ;
+    rdfs:label "Tincture"@en ;
+    rdfs:comment """
+        An alcoholic or hydroalcoholic solution of medicinal substances.
+        Typically prepared by macerating or percolating crude drugs in ethanol.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:ethanolContent ;
+        owl:minCardinality 1
+    ] .
+
+op:EssentialOil
+    a owl:Class ;
+    rdfs:label "Essential Oil"@en ;
+    rdfs:comment """
+        A volatile oil extracted from plants, typically by steam distillation
+        or hydrodistillation. Contains the volatile aromatic compounds of the plant.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:volatileContent ;
+        owl:minCardinality 1
+    ] .
+
+op:FixedOil
+    a owl:Class ;
+    rdfs:label "Fixed Oil"@en ;
+    rdfs:comment """
+        A non-volatile fatty oil obtained from plants or animals.
+        Unlike essential oils, fixed oils are composed of glycerides of fatty acids.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:acidValue ;
+        owl:minCardinality 1
+    ] .
+
+op:MedicinalWater
+    a owl:Class ;
+    rdfs:label "Medicinal Water"@en ;
+    rdfs:comment """
+        An aqueous preparation containing dissolved medicinal substances.
+        Typically prepared by dissolving or extracting medicinal components in water.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:soluteConcentration ;
+        owl:minCardinality 1
+    ] .
+
+op:Wax
+    a owl:Class ;
+    rdfs:label "Wax"@en ;
+    rdfs:comment """
+        A natural wax derived from plants or animals. Used in pharmaceutical
+        preparations as an emulsifying agent, stiffening agent, or base.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:meltingPoint ;
+        owl:minCardinality 1
+    ] .
+
+op:Spirit
+    a owl:Class ;
+    rdfs:label "Spirit"@en ;
+    rdfs:comment """
+        A high-alcohol medicinal preparation. Typically an alcoholic or
+        hydroalcoholic solution containing volatile medicinal substances.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:ethanolContent ;
+        owl:minCardinality 1
+    ] .
+
+op:Fluidextract
+    a owl:Class ;
+    rdfs:label "Fluidextract"@en ;
+    rdfs:comment """
+        A concentrated liquid extract prepared at a 1:1 ratio of crude drug
+        to finished product. Each mL represents 1 g of the crude drug.
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:extractionRatio ;
+        owl:minCardinality 1
+    ] .
+
+# -----------------------------------------------------------------------------
+# Chemical Drug Classes (MECE - for chemical drugs, vitamins, amino acids)
+# -----------------------------------------------------------------------------
+
+op:ChemicalDrugMonograph
+    a owl:Class ;
+    rdfs:label "Chemical Drug Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph for chemical substances including:
+        - Synthetic drugs (acetaminophen, ibuprofen)
+        - Isolated natural compounds (morphine, quinine)
+        - Inorganic compounds (sodium chloride, calcium carbonate)
+        - Vitamins (ascorbic acid, calciferol)
+        - Amino acids (lysine, tryptophan)
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:molecularFormula ;
+        owl:minCardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:molecularWeight ;
+        owl:minCardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:casNumber ;
+        owl:minCardinality 1
+    ] .
+
+op:VitaminMonograph
+    a owl:Class ;
+    rdfs:label "Vitamin Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph specifically for vitamins.
+        Vitamins are nutritional molecular entities essential for health.
+    """@en ;
+    rdfs:subClassOf op:ChemicalDrugMonograph .
+
+op:AminoAcidMonograph
+    a owl:Class ;
+    rdfs:label "Amino Acid Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph specifically for amino acids.
+        Includes essential and non-essential amino acids.
+    """@en ;
+    rdfs:subClassOf op:ChemicalDrugMonograph .
+
+# -----------------------------------------------------------------------------
+# Mineral Substance Classes (MECE - for minerals)
+# -----------------------------------------------------------------------------
+
+op:MineralSubstanceMonograph
+    a owl:Class ;
+    rdfs:label "Mineral Substance Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph for substances of geological origin:
+        - Simple minerals (zinc oxide, sulfur)
+        - Mineral mixtures (kaolin, bentonite)
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:elementalComposition ;
+        owl:minCardinality 1
+    ] .
+
+# -----------------------------------------------------------------------------
+# Biological Substance Classes (MECE - for complex natural substances)
+# -----------------------------------------------------------------------------
+
+op:BiologicalSubstanceMonograph
+    a owl:Class ;
+    rdfs:label "Biological Substance Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph for substances of biological origin:
+        - Enzyme preparations (pepsin, pancreatin)
+        - Hormone preparations (insulin, heparin)
+        - Blood products (albumin, immunoglobulins)
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:biologicalOrigin ;
+        owl:minCardinality 1
+    ] .
+
+op:EnzymePreparationMonograph
+    a owl:Class ;
+    rdfs:label "Enzyme Preparation Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph specifically for enzyme preparations.
+    """@en ;
+    rdfs:subClassOf op:BiologicalSubstanceMonograph .
+
+op:HormonePreparationMonograph
+    a owl:Class ;
+    rdfs:label "Hormone Preparation Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph specifically for hormone preparations.
+    """@en ;
+    rdfs:subClassOf op:BiologicalSubstanceMonograph .
+
+# -----------------------------------------------------------------------------
+# Formulation Classes (MECE - for combined substances)
+# -----------------------------------------------------------------------------
+
+op:FormulationMonograph
+    a owl:Class ;
+    rdfs:label "Formulation Monograph"@en ;
+    rdfs:comment """
+        A pharmacopoeia monograph for formulated products containing
+        one or more active ingredients:
+        - Single-component formulations (single drug tablets)
+        - Multi-component formulations (compound medicines)
+    """@en ;
+    rdfs:subClassOf op:PharmacopoeiaMonograph ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:hasComponent ;
+        owl:minCardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:dosageForm ;
+        owl:minCardinality 1
+    ] .
+
+op:FormulationComponent
+    a owl:Class ;
+    rdfs:label "Formulation Component"@en ;
+    rdfs:comment """
+        A component of a formulation, either active or inactive.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:componentRole ;
+        owl:cardinality 1
+    ] .
+
+# -----------------------------------------------------------------------------
+# Publisher and Status Classes
+# -----------------------------------------------------------------------------
+
+op:Publisher
+    a owl:Class ;
+    rdfs:label "Publisher"@en ;
+    rdfs:comment """
+        An official pharmacopoeia publisher. Publishers are enumerated as
+        individuals (e.g., op:JP, op:HKCMMS, op:API).
+    """@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf (
+            op:AHP op:API op:JP op:HKCMMS op:THP
+            op:CMHerbarium op:WHO op:UPB op:UPI op:APB op:APS
+        )
+    ] .
+
+op:MonographStatus
+    a owl:Class ;
+    rdfs:label "Monograph Status"@en ;
+    rdfs:comment "The publication status of a pharmacopoeia monograph."@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf ( op:Official op:Withdrawn op:Draft op:Revised )
+    ] .
+
+# -----------------------------------------------------------------------------
+# Test Specification Classes (VALUE OBJECTS - no independent identity)
+# -----------------------------------------------------------------------------
+
+op:TestSpecification
+    a owl:Class ;
+    rdfs:label "Test Specification"@en ;
+    rdfs:comment """
+        A specification for a quality test to be performed on a medicinal substance.
+        This is a value object that belongs to a PharmacopoeiaMonograph.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:testName ;
+        owl:cardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:testType ;
+        owl:cardinality 1
+    ] .
+
+op:AssaySpecification
+    a owl:Class ;
+    rdfs:label "Assay Specification"@en ;
+    rdfs:comment """
+        A specification for quantitative analysis of a specific compound or
+        compound class (e.g., ginsenosides assay, volatile oil content).
+    """@en ;
+    rdfs:subClassOf op:TestSpecification ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:assayTarget ;
+        owl:cardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:limit ;
+        owl:minCardinality 1
+    ] .
+
+op:PuritySpecification
+    a owl:Class ;
+    rdfs:label "Purity Specification"@en ;
+    rdfs:comment """
+        A specification for impurity limits (e.g., heavy metals, pesticide
+        residues, related substances).
+    """@en ;
+    rdfs:subClassOf op:TestSpecification ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:impurityType ;
+        owl:cardinality 1
+    ] .
+
+op:IdentificationSpecification
+    a owl:Class ;
+    rdfs:label "Identification Specification"@en ;
+    rdfs:comment """
+        A specification for identity confirmation tests (e.g., TLC, UV spectrum,
+        chemical reactions).
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:PhysicalSpecification
+    a owl:Class ;
+    rdfs:label "Physical Specification"@en ;
+    rdfs:comment """
+        A specification for physical property tests (e.g., loss on drying,
+        residue on ignition, water content).
+    """@en ;
+    rdfs:subClassOf op:TestSpecification ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:physicalProperty ;
+        owl:cardinality 1
+    ] .
+
+op:MicrobiologicalSpecification
+    a owl:Class ;
+    rdfs:label "Microbiological Specification"@en ;
+    rdfs:comment """
+        A specification for microbial limit tests (e.g., total aerobic count,
+        absence of specific pathogens).
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+# -----------------------------------------------------------------------------
+# Test Method Classes (ENTITIES - have independent identity)
+# -----------------------------------------------------------------------------
+
+op:HarmonizedMethod
+    a owl:Class ;
+    rdfs:label "Harmonized Method"@en ;
+    rdfs:comment """
+        A harmonized test method that is equivalent across multiple publishers.
+        This enables cross-publisher comparison of test results.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty skos:prefLabel ;
+        owl:cardinality 1
+    ] .
+
+op:PublisherMethod
+    a owl:Class ;
+    rdfs:label "Publisher Method"@en ;
+    rdfs:comment """
+        A publisher-specific test method reference (e.g., JP General Tests,
+        API Appendix). These can be mapped to HarmonizedMethods.
+    """@en .
+
+# -----------------------------------------------------------------------------
+# Value Classes
+# -----------------------------------------------------------------------------
+
+op:Limit
+    a owl:Class ;
+    rdfs:label "Limit"@en ;
+    rdfs:comment """
+        A value object representing a quantitative limit (minimum, maximum,
+        or range).
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:limitType ;
+        owl:cardinality 1
+    ] .
+
+op:TestType
+    a owl:Class ;
+    rdfs:label "Test Type"@en ;
+    rdfs:comment """
+        The type of test being specified. This is an enumeration of all
+        possible test types.
+    """@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf (
+            op:TestType-Assay
+            op:TestType-Purity
+            op:TestType-Identification
+            op:TestType-Physical
+            op:TestType-Microbiological
+            op:TestType-ForeignMatter
+            op:TestType-Extractive
+        )
+    ] .
+
+op:LimitType
+    a owl:Class ;
+    rdfs:label "Limit Type"@en ;
+    rdfs:comment """
+        The type of quantitative limit.
+    """@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf (
+            op:LimitType-Minimum
+            op:LimitType-Maximum
+            op:LimitType-Range
+            op:LimitType-Exact
+            op:LimitType-NotMoreThan
+            op:LimitType-NotLessThan
+        )
+    ] .
+
+op:Unit
+    a owl:Class ;
+    rdfs:label "Unit of Measurement"@en ;
+    rdfs:comment """
+        A unit of measurement for quantitative values.
+    """@en .
+
+# -----------------------------------------------------------------------------
+# Crude Drug Specific Classes
+# -----------------------------------------------------------------------------
+
+op:BotanicalSource
+    a owl:Class ;
+    rdfs:label "Botanical Source"@en ;
+    rdfs:comment """
+        Information about the botanical origin of a crude drug.
+        Links to data-herbapedia PlantSpecies via referencesPlantSpecies.
+    """@en .
+
+op:MacroscopicDescription
+    a owl:Class ;
+    rdfs:label "Macroscopic Description"@en ;
+    rdfs:comment """
+        Visual and organoleptic characteristics of a crude drug that can be
+        observed without magnification (color, shape, texture, odor, taste).
+    """@en .
+
+op:MicroscopicDescription
+    a owl:Class ;
+    rdfs:label "Microscopic Description"@en ;
+    rdfs:comment """
+        Characteristics of a crude drug observable under magnification
+        (cell types, tissue structures, diagnostic features).
+    """@en .
+
+# -----------------------------------------------------------------------------
+# Test Classes (from data-japan-pharmacopia for superset compatibility)
+# -----------------------------------------------------------------------------
+
+op:Test
+    a owl:Class ;
+    rdfs:label "Test"@en ;
+    rdfs:comment """
+        Abstract base class for all analytical tests specified in the pharmacopoeia.
+        This class hierarchy provides an alternative to TestSpecification for
+        representing tests as independent entities rather than value objects.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:testName ;
+        owl:minCardinality 1
+    ] .
+
+op:IdentificationTest
+    a owl:Class ;
+    rdfs:label "Identification Test"@en ;
+    rdfs:comment """
+        A test to confirm the identity of a drug substance through chemical,
+        physical, or chromatographic methods (e.g., TLC, UV spectrum, IR spectrum).
+    """@en ;
+    rdfs:subClassOf op:Test .
+
+op:PurityTest
+    a owl:Class ;
+    rdfs:label "Purity Test"@en ;
+    rdfs:comment """
+        A test to detect or limit impurities in a drug substance
+        (e.g., heavy metals, pesticide residues, related substances).
+    """@en ;
+    rdfs:subClassOf op:Test .
+
+op:LimitTest
+    a owl:Class ;
+    rdfs:label "Limit Test"@en ;
+    rdfs:comment """
+        A test for quality parameters with specified limits
+        (e.g., loss on drying, total ash, acid-insoluble ash, residue on ignition).
+    """@en ;
+    rdfs:subClassOf op:Test .
+
+op:AssayTest
+    a owl:Class ;
+    rdfs:label "Assay Test"@en ;
+    rdfs:comment """
+        A quantitative test to determine the amount of active compounds
+        or marker substances in a preparation.
+    """@en ;
+    rdfs:subClassOf op:Test .
+
+# -----------------------------------------------------------------------------
+# Preparation Method Classes (from data-japan-pharmacopia)
+# -----------------------------------------------------------------------------
+
+op:PreparationMethod
+    a owl:Class ;
+    rdfs:label "Preparation Method"@en ;
+    rdfs:comment """
+        A recipe or formula for preparing an extract or other preparation.
+        Includes the list of ingredients with their quantities and processing instructions.
+        Used primarily for Kampo formulas and multi-herb extracts.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:methodLabel ;
+        owl:minCardinality 1
+    ] .
+
+op:Ingredient
+    a owl:Class ;
+    rdfs:label "Ingredient"@en ;
+    rdfs:comment """
+        An ingredient in a preparation method, typically a crude drug with a
+        specified amount. Used in multi-herb preparations like Kampo formulas.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:ingredientAmount ;
+        owl:minCardinality 1
+    ] , [
+        a owl:Restriction ;
+        owl:onProperty op:usesCrudeDrug ;
+        owl:cardinality 1
+    ] .
+
+# =============================================================================
+# PROPERTIES - IDENTITY
+# =============================================================================
+
+op:monographId
+    a owl:DatatypeProperty ;
+    rdfs:label "monograph ID"@en ;
+    rdfs:comment "The publisher-specific identifier for this monograph."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:string .
+
+op:publisher
+    a owl:ObjectProperty ;
+    rdfs:label "publisher"@en ;
+    rdfs:comment "The pharmacopoeia publisher that issued this monograph."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:Publisher .
+
+op:status
+    a owl:ObjectProperty ;
+    rdfs:label "status"@en ;
+    rdfs:comment "The publication status of this monograph."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:MonographStatus .
+
+op:effectiveDate
+    a owl:DatatypeProperty ;
+    rdfs:label "effective date"@en ;
+    rdfs:comment "The date from which this monograph is effective."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:date .
+
+op:version
+    a owl:DatatypeProperty ;
+    rdfs:label "version"@en ;
+    rdfs:comment "The version number of the pharmacopoeia edition."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PROPERTIES - EXTERNAL REFERENCES (to data-herbapedia)
+# =============================================================================
+
+op:referencesPreparation
+    a owl:ObjectProperty ;
+    rdfs:label "references preparation"@en ;
+    rdfs:comment """
+        Links to the HerbalPreparation entity in data-herbapedia.
+        This is the primary link that connects pharmacopoeia standards to
+        botanical data and medicine system profiles.
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range <https://www.herbapedia.org/ontology/HerbalPreparation> .
+
+op:referencesTCMProfile
+    a owl:ObjectProperty ;
+    rdfs:label "references TCM profile"@en ;
+    rdfs:comment """
+        Links to the TCMProfile entity in data-herbapedia for Traditional
+        Chinese Medicine properties (nature, flavor, meridian).
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range <https://www.herbapedia.org/ontology/TCMProfile> .
+
+op:referencesAyurvedaProfile
+    a owl:ObjectProperty ;
+    rdfs:label "references Ayurveda profile"@en ;
+    rdfs:comment """
+        Links to the AyurvedaProfile entity in data-herbapedia for Ayurvedic
+        properties (rasa, guna, virya, vipaka, karma).
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range <https://www.herbapedia.org/ontology/AyurvedaProfile> .
+
+op:referencesWesternProfile
+    a owl:ObjectProperty ;
+    rdfs:label "references Western profile"@en ;
+    rdfs:comment """
+        Links to the WesternProfile entity in data-herbapedia for Western
+        herbal medicine properties (actions, constituents, indications).
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range <https://www.herbapedia.org/ontology/WesternProfile> .
+
+op:referencesPlantSpecies
+    a owl:ObjectProperty ;
+    rdfs:label "references plant species"@en ;
+    rdfs:comment """
+        Links to the PlantSpecies entity in data-herbapedia for taxonomic
+        information.
+    """@en ;
+    rdfs:domain op:BotanicalSource ;
+    rdfs:range <https://www.herbapedia.org/ontology/PlantSpecies> .
+
+# =============================================================================
+# PROPERTIES - TEST SPECIFICATIONS
+# =============================================================================
+
+op:testSpecification
+    a owl:ObjectProperty ;
+    rdfs:label "test specification"@en ;
+    rdfs:comment "A test specification defined in this monograph."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:TestSpecification .
+
+op:testName
+    a owl:DatatypeProperty ;
+    rdfs:label "test name"@en ;
+    rdfs:comment "The human-readable name of the test."@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range rdf:langString .
+
+op:testType
+    a owl:ObjectProperty ;
+    rdfs:label "test type"@en ;
+    rdfs:comment "The type category of this test."@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range op:TestType .
+
+op:harmonizedMethod
+    a owl:ObjectProperty ;
+    rdfs:label "harmonized method"@en ;
+    rdfs:comment """
+        The harmonized test method used for this specification.
+        Enables cross-publisher comparison.
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range op:HarmonizedMethod .
+
+op:publisherMethod
+    a owl:ObjectProperty ;
+    rdfs:label "publisher method"@en ;
+    rdfs:comment """
+        The publisher-specific method reference for this test.
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range op:PublisherMethod .
+
+op:testConditions
+    a owl:DatatypeProperty ;
+    rdfs:label "test conditions"@en ;
+    rdfs:comment """
+        Specific conditions under which the test should be performed
+        (e.g., temperature, duration, sample preparation).
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - LIMITS
+# =============================================================================
+
+op:limit
+    a owl:ObjectProperty ;
+    rdfs:label "limit"@en ;
+    rdfs:comment "The quantitative limit for this specification."@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range op:Limit .
+
+op:limitType
+    a owl:ObjectProperty ;
+    rdfs:label "limit type"@en ;
+    rdfs:comment "The type of this limit (minimum, maximum, range, etc.)."@en ;
+    rdfs:domain op:Limit ;
+    rdfs:range op:LimitType .
+
+op:limitValue
+    a owl:DatatypeProperty ;
+    rdfs:label "limit value"@en ;
+    rdfs:comment "The numerical value of the limit."@en ;
+    rdfs:domain op:Limit ;
+    rdfs:range xsd:decimal .
+
+op:lowerLimit
+    a owl:DatatypeProperty ;
+    rdfs:label "lower limit"@en ;
+    rdfs:comment "The lower bound of a range limit."@en ;
+    rdfs:domain op:Limit ;
+    rdfs:range xsd:decimal .
+
+op:upperLimit
+    a owl:DatatypeProperty ;
+    rdfs:label "upper limit"@en ;
+    rdfs:comment "The upper bound of a range limit."@en ;
+    rdfs:domain op:Limit ;
+    rdfs:range xsd:decimal .
+
+op:limitUnit
+    a owl:ObjectProperty ;
+    rdfs:label "limit unit"@en ;
+    rdfs:comment "The unit of measurement for this limit."@en ;
+    rdfs:domain op:Limit ;
+    rdfs:range op:Unit .
+
+# =============================================================================
+# PROPERTIES - ASSAY SPECIFIC
+# =============================================================================
+
+op:assayTarget
+    a owl:DatatypeProperty ;
+    rdfs:label "assay target"@en ;
+    rdfs:comment """
+        The compound or compound class being assayed
+        (e.g., "Ginsenosides Rb1", "Volatile Oil").
+    """@en ;
+    rdfs:domain op:AssaySpecification ;
+    rdfs:range rdf:langString .
+
+op:assayExpression
+    a owl:DatatypeProperty ;
+    rdfs:label "assay expression"@en ;
+    rdfs:comment """
+        How the assay result is expressed
+        (e.g., "as Ginsenoside Rb1", "on dried basis").
+    """@en ;
+    rdfs:domain op:AssaySpecification ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PROPERTIES - PURITY SPECIFIC
+# =============================================================================
+
+op:impurityType
+    a owl:DatatypeProperty ;
+    rdfs:label "impurity type"@en ;
+    rdfs:comment """
+        The type of impurity being limited
+        (e.g., "Heavy Metals", "Arsenic", "Pesticide Residues").
+    """@en ;
+    rdfs:domain op:PuritySpecification ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - PHYSICAL SPECIFIC
+# =============================================================================
+
+op:physicalProperty
+    a owl:DatatypeProperty ;
+    rdfs:label "physical property"@en ;
+    rdfs:comment """
+        The physical property being measured
+        (e.g., "Loss on Drying", "Residue on Ignition", "Water Content").
+    """@en ;
+    rdfs:domain op:PhysicalSpecification ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - BOTANICAL SOURCE
+# =============================================================================
+
+op:botanicalSource
+    a owl:ObjectProperty ;
+    rdfs:label "botanical source"@en ;
+    rdfs:comment "The botanical origin of this crude drug."@en ;
+    rdfs:domain op:CrudeDrugMonograph ;
+    rdfs:range op:BotanicalSource .
+
+op:plantPartUsed
+    a owl:DatatypeProperty ;
+    rdfs:label "plant part used"@en ;
+    rdfs:comment """
+        The plant part used in the crude drug
+        (e.g., "Root", "Rhizome", "Leaf").
+    """@en ;
+    rdfs:domain op:BotanicalSource ;
+    rdfs:range rdf:langString .
+
+op:collectionPeriod
+    a owl:DatatypeProperty ;
+    rdfs:label "collection period"@en ;
+    rdfs:comment """
+        The time of year when the plant material should be collected.
+    """@en ;
+    rdfs:domain op:BotanicalSource ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - MACROSCOPIC DESCRIPTION
+# =============================================================================
+
+op:macroscopicDescription
+    a owl:ObjectProperty ;
+    rdfs:label "macroscopic description"@en ;
+    rdfs:comment "Visual characteristics observable without magnification."@en ;
+    rdfs:domain op:CrudeDrugMonograph ;
+    rdfs:range op:MacroscopicDescription .
+
+op:color
+    a owl:DatatypeProperty ;
+    rdfs:label "color"@en ;
+    rdfs:comment "The color of the crude drug."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:shape
+    a owl:DatatypeProperty ;
+    rdfs:label "shape"@en ;
+    rdfs:comment "The shape or form of the crude drug."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:texture
+    a owl:DatatypeProperty ;
+    rdfs:label "texture"@en ;
+    rdfs:comment "The texture or surface characteristics."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:odor
+    a owl:DatatypeProperty ;
+    rdfs:label "odor"@en ;
+    rdfs:comment "The odor or smell of the crude drug."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:taste
+    a owl:DatatypeProperty ;
+    rdfs:label "taste"@en ;
+    rdfs:comment "The taste of the crude drug."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:fracture
+    a owl:DatatypeProperty ;
+    rdfs:label "fracture"@en ;
+    rdfs:comment "The appearance when the crude drug is broken."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:size
+    a owl:DatatypeProperty ;
+    rdfs:label "size"@en ;
+    rdfs:comment "The typical size dimensions of the crude drug."@en ;
+    rdfs:domain op:MacroscopicDescription ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - MICROSCOPIC DESCRIPTION
+# =============================================================================
+
+op:microscopicDescription
+    a owl:ObjectProperty ;
+    rdfs:label "microscopic description"@en ;
+    rdfs:comment "Characteristics observable under magnification."@en ;
+    rdfs:domain op:CrudeDrugMonograph ;
+    rdfs:range op:MicroscopicDescription .
+
+op:transverseSection
+    a owl:DatatypeProperty ;
+    rdfs:label "transverse section"@en ;
+    rdfs:comment """
+        Description of features visible in transverse (cross) section.
+    """@en ;
+    rdfs:domain op:MicroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:powderCharacteristics
+    a owl:DatatypeProperty ;
+    rdfs:label "powder characteristics"@en ;
+    rdfs:comment """
+        Description of diagnostic features in powdered material.
+    """@en ;
+    rdfs:domain op:MicroscopicDescription ;
+    rdfs:range rdf:langString .
+
+op:diagnosticFeatures
+    a owl:DatatypeProperty ;
+    rdfs:label "diagnostic features"@en ;
+    rdfs:comment """
+        Key microscopic features used for identification.
+    """@en ;
+    rdfs:domain op:MicroscopicDescription ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - DEFINITION
+# =============================================================================
+
+op:definition
+    a owl:DatatypeProperty ;
+    rdfs:label "definition"@en ;
+    rdfs:comment """
+        The formal definition of the substance as stated in the pharmacopoeia.
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - STORAGE
+# =============================================================================
+
+op:storageContainer
+    a owl:DatatypeProperty ;
+    rdfs:label "storage container"@en ;
+    rdfs:comment "The type of container for storage (e.g., 'well-closed container')."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+op:storageConditions
+    a owl:DatatypeProperty ;
+    rdfs:label "storage conditions"@en ;
+    rdfs:comment "Special storage conditions (e.g., 'store in a cool place')."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - HARMONIZED METHOD
+# =============================================================================
+
+op:equivalentMethod
+    a owl:ObjectProperty ;
+    rdfs:label "equivalent method"@en ;
+    rdfs:comment """
+        Links a HarmonizedMethod to equivalent PublisherMethods from
+        different publishers.
+    """@en ;
+    rdfs:domain op:HarmonizedMethod ;
+    rdfs:range op:PublisherMethod .
+
+op:jpReference
+    a owl:DatatypeProperty ;
+    rdfs:label "JP reference"@en ;
+    rdfs:comment """
+        The reference text from Japan Pharmacopoeia for this method
+        (e.g., "as directed under Liquid Chromatography").
+    """@en ;
+    rdfs:domain op:HarmonizedMethod ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PROPERTIES - CHEMICAL DRUG (MOLECULAR ENTITY)
+# =============================================================================
+
+op:molecularFormula
+    a owl:DatatypeProperty ;
+    rdfs:label "molecular formula"@en ;
+    rdfs:comment """
+        The molecular formula of the chemical substance
+        (e.g., "C8H9NO2" for Acetaminophen).
+    """@en ;
+    rdfs:domain op:ChemicalDrugMonograph ;
+    rdfs:range xsd:string .
+
+op:molecularWeight
+    a owl:DatatypeProperty ;
+    rdfs:label "molecular weight"@en ;
+    rdfs:comment """
+        The molecular weight of the chemical substance
+        (e.g., 151.16 for Acetaminophen).
+    """@en ;
+    rdfs:domain op:ChemicalDrugMonograph ;
+    rdfs:range xsd:decimal .
+
+op:casNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "CAS Registry Number"@en ;
+    rdfs:comment """
+        The CAS Registry Number for the chemical substance
+        (e.g., "103-90-2" for Acetaminophen).
+    """@en ;
+    rdfs:domain op:ChemicalDrugMonograph ;
+    rdfs:range xsd:string .
+
+op:chemicalName
+    a owl:DatatypeProperty ;
+    rdfs:label "chemical name"@en ;
+    rdfs:comment """
+        The systematic (IUPAC) chemical name of the substance.
+    """@en ;
+    rdfs:domain op:ChemicalDrugMonograph ;
+    rdfs:range rdf:langString .
+
+op:structuralFormula
+    a owl:ObjectProperty ;
+    rdfs:label "structural formula"@en ;
+    rdfs:comment """
+        Reference to the structural formula image of the chemical.
+    """@en ;
+    rdfs:domain op:ChemicalDrugMonograph ;
+    rdfs:range xsd:anyURI .
+
+op:stereochemistry
+    a owl:DatatypeProperty ;
+    rdfs:label "stereochemistry"@en ;
+    rdfs:comment """
+        The stereochemical designation (L, D, DL, R, S, etc.).
+    """@en ;
+    rdfs:domain op:AminoAcidMonograph ;
+    rdfs:range xsd:string .
+
+op:essentialAminoAcid
+    a owl:DatatypeProperty ;
+    rdfs:label "essential amino acid"@en ;
+    rdfs:comment """
+        Whether this amino acid is essential (must be obtained from diet).
+    """@en ;
+    rdfs:domain op:AminoAcidMonograph ;
+    rdfs:range xsd:boolean .
+
+# =============================================================================
+# PROPERTIES - MINERAL SUBSTANCE
+# =============================================================================
+
+op:elementalComposition
+    a owl:DatatypeProperty ;
+    rdfs:label "elemental composition"@en ;
+    rdfs:comment """
+        The elemental composition of the mineral substance
+        (e.g., "ZnO" for Zinc Oxide).
+    """@en ;
+    rdfs:domain op:MineralSubstanceMonograph ;
+    rdfs:range xsd:string .
+
+op:geologicalOrigin
+    a owl:DatatypeProperty ;
+    rdfs:label "geological origin"@en ;
+    rdfs:comment """
+        The geological source or origin of the mineral.
+    """@en ;
+    rdfs:domain op:MineralSubstanceMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PROPERTIES - BIOLOGICAL SUBSTANCE
+# =============================================================================
+
+op:biologicalOrigin
+    a owl:DatatypeProperty ;
+    rdfs:label "biological origin"@en ;
+    rdfs:comment """
+        The biological source of the substance (organism, tissue, cell line).
+    """@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range rdf:langString .
+
+op:potencyUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "potency unit"@en ;
+    rdfs:comment """
+        The unit for biological activity (e.g., "IU", "USP Units").
+    """@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range xsd:string .
+
+op:activityValue
+    a owl:DatatypeProperty ;
+    rdfs:label "activity value"@en ;
+    rdfs:comment """
+        The minimum activity per unit (e.g., "not less than 2500 IU/mg").
+    """@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PROPERTIES - FORMULATION
+# =============================================================================
+
+op:hasComponent
+    a owl:ObjectProperty ;
+    rdfs:label "has component"@en ;
+    rdfs:comment """
+        A component of this formulation.
+    """@en ;
+    rdfs:domain op:FormulationMonograph ;
+    rdfs:range op:FormulationComponent .
+
+op:dosageForm
+    a owl:ObjectProperty ;
+    rdfs:label "dosage form"@en ;
+    rdfs:comment """
+        The pharmaceutical dosage form (tablet, capsule, injection, etc.).
+    """@en ;
+    rdfs:domain op:FormulationMonograph ;
+    rdfs:range op:DosageForm .
+
+op:strength
+    a owl:DatatypeProperty ;
+    rdfs:label "strength"@en ;
+    rdfs:comment """
+        The strength of the formulation (e.g., "500 mg", "10 mg/mL").
+    """@en ;
+    rdfs:domain op:FormulationMonograph ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# PROPERTIES - FORMULATION COMPONENT
+# =============================================================================
+
+op:componentSubstance
+    a owl:ObjectProperty ;
+    rdfs:label "component substance"@en ;
+    rdfs:comment """
+        Reference to the monograph of the component substance.
+    """@en ;
+    rdfs:domain op:FormulationComponent ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:componentQuantity
+    a owl:DatatypeProperty ;
+    rdfs:label "component quantity"@en ;
+    rdfs:comment """
+        The amount of this component per dosage unit.
+    """@en ;
+    rdfs:domain op:FormulationComponent ;
+    rdfs:range xsd:string .
+
+op:componentRole
+    a owl:ObjectProperty ;
+    rdfs:label "component role"@en ;
+    rdfs:comment """
+        The role of this component (Active, Excipient, etc.).
+    """@en ;
+    rdfs:domain op:FormulationComponent ;
+    rdfs:range op:ComponentRole .
+
+# =============================================================================
+# INDIVIDUALS - PUBLISHERS
+# =============================================================================
+
+op:AHP
+    a op:Publisher ;
+    rdfs:label "American Herbal Pharmacopoeia"@en ;
+    skos:altLabel "AHP"@en ;
+    op:publisherCountry "US" ;
+    op:publisherLanguage "en" .
+
+op:API
+    a op:Publisher ;
+    rdfs:label "Ayurvedic Pharmacopoeia of India"@en ;
+    skos:altLabel "API"@en ;
+    op:publisherCountry "IN" ;
+    op:publisherLanguage "en", "hi" .
+
+op:JP
+    a op:Publisher ;
+    rdfs:label "Japan Pharmacopoeia"@en ;
+    skos:altLabel "JP"@en ;
+    rdfs:label "日本薬局方"@ja ;
+    op:publisherCountry "JP" ;
+    op:publisherLanguage "ja", "en" .
+
+op:HKCMMS
+    a op:Publisher ;
+    rdfs:label "Hong Kong Chinese Materia Medica Standards"@en ;
+    skos:altLabel "HKCMMS"@en ;
+    rdfs:label "香港中藥材標準"@zh-Hant ;
+    op:publisherCountry "HK" ;
+    op:publisherLanguage "zh-Hant", "en" .
+
+op:THP
+    a op:Publisher ;
+    rdfs:label "Thai Herbal Pharmacopoeia"@en ;
+    skos:altLabel "THP"@en ;
+    rdfs:label "ตำรับยาไทย"@th ;
+    op:publisherCountry "TH" ;
+    op:publisherLanguage "th", "en" .
+
+op:CMHerbarium
+    a op:Publisher ;
+    rdfs:label "CM Herbarium"@en ;
+    skos:altLabel "CMHerbarium"@en ;
+    op:publisherCountry "CN" ;
+    op:publisherLanguage "zh", "en" .
+
+op:WHO
+    a op:Publisher ;
+    rdfs:label "WHO Monographs on Selected Medicinal Plants"@en ;
+    skos:altLabel "WHO"@en ;
+    op:publisherCountry "INT" ;
+    op:publisherLanguage "en" .
+
+op:UPB
+    a op:Publisher ;
+    rdfs:label "Unani Pharmacopoeia of Bangladesh"@en ;
+    skos:altLabel "UPB"@en ;
+    op:publisherCountry "BD" ;
+    op:publisherLanguage "en", "ur" .
+
+op:UPI
+    a op:Publisher ;
+    rdfs:label "Unani Pharmacopoeia of India"@en ;
+    skos:altLabel "UPI"@en ;
+    op:publisherCountry "IN" ;
+    op:publisherLanguage "en", "ur" .
+
+op:APB
+    a op:Publisher ;
+    rdfs:label "Ayurvedic Pharmacopoeia of Bangladesh"@en ;
+    skos:altLabel "APB"@en ;
+    op:publisherCountry "BD" ;
+    op:publisherLanguage "en", "bn" .
+
+op:APS
+    a op:Publisher ;
+    rdfs:label "Ayurvedic Pharmacopoeia of Sri Lanka"@en ;
+    skos:altLabel "APS"@en ;
+    op:publisherCountry "LK" ;
+    op:publisherLanguage "en", "si" .
+
+# =============================================================================
+# INDIVIDUALS - STATUS
+# =============================================================================
+
+op:Official
+    a op:MonographStatus ;
+    rdfs:label "Official"@en ;
+    skos:definition "Currently in force and legally binding."@en .
+
+op:Withdrawn
+    a op:MonographStatus ;
+    rdfs:label "Withdrawn"@en ;
+    skos:definition "No longer in force, removed from the pharmacopoeia."@en .
+
+op:Draft
+    a op:MonographStatus ;
+    rdfs:label "Draft"@en ;
+    skos:definition "Under development, not yet official."@en .
+
+op:Revised
+    a op:MonographStatus ;
+    rdfs:label "Revised"@en ;
+    skos:definition "Updated version of a previously official monograph."@en .
+
+# =============================================================================
+# INDIVIDUALS - TEST TYPES
+# =============================================================================
+
+op:TestType-Assay
+    a op:TestType ;
+    rdfs:label "Assay"@en ;
+    skos:definition "Quantitative analysis of active constituents."@en .
+
+op:TestType-Purity
+    a op:TestType ;
+    rdfs:label "Purity"@en ;
+    skos:definition "Tests for impurities and contaminants."@en .
+
+op:TestType-Identification
+    a op:TestType ;
+    rdfs:label "Identification"@en ;
+    skos:definition "Tests to confirm identity of the substance."@en .
+
+op:TestType-Physical
+    a op:TestType ;
+    rdfs:label "Physical"@en ;
+    skos:definition "Physical property measurements."@en .
+
+op:TestType-Microbiological
+    a op:TestType ;
+    rdfs:label "Microbiological"@en ;
+    skos:definition "Microbial limit tests."@en .
+
+op:TestType-ForeignMatter
+    a op:TestType ;
+    rdfs:label "Foreign Matter"@en ;
+    skos:definition "Tests for extraneous materials."@en .
+
+op:TestType-Extractive
+    a op:TestType ;
+    rdfs:label "Extractive"@en ;
+    skos:definition "Solvent extraction tests."@en .
+
+# =============================================================================
+# INDIVIDUALS - LIMIT TYPES
+# =============================================================================
+
+op:LimitType-Minimum
+    a op:LimitType ;
+    rdfs:label "Minimum"@en ;
+    skos:definition "Value must not be less than the specified amount."@en .
+
+op:LimitType-Maximum
+    a op:LimitType ;
+    rdfs:label "Maximum"@en ;
+    skos:definition "Value must not exceed the specified amount."@en .
+
+op:LimitType-Range
+    a op:LimitType ;
+    rdfs:label "Range"@en ;
+    skos:definition "Value must fall within the specified range."@en .
+
+op:LimitType-Exact
+    a op:LimitType ;
+    rdfs:label "Exact"@en ;
+    skos:definition "Value must equal the specified amount."@en .
+
+op:LimitType-NotMoreThan
+    a op:LimitType ;
+    rdfs:label "Not More Than"@en ;
+    skos:definition "Value must not exceed the specified amount (synonym for Maximum)."@en .
+
+op:LimitType-NotLessThan
+    a op:LimitType ;
+    rdfs:label "Not Less Than"@en ;
+    skos:definition "Value must not be less than the specified amount (synonym for Minimum)."@en .
+
+# =============================================================================
+# ADDITIONAL PUBLISHER PROPERTIES
+# =============================================================================
+
+op:publisherCountry
+    a owl:DatatypeProperty ;
+    rdfs:label "publisher country"@en ;
+    rdfs:comment "ISO 3166-1 alpha-2 country code."@en ;
+    rdfs:domain op:Publisher ;
+    rdfs:range xsd:string .
+
+op:publisherLanguage
+    a owl:DatatypeProperty ;
+    rdfs:label "publisher language"@en ;
+    rdfs:comment "Languages used by this publisher."@en ;
+    rdfs:domain op:Publisher ;
+    rdfs:range xsd:string .
+
+op:publisherBaseUrl
+    a owl:DatatypeProperty ;
+    rdfs:label "publisher base URL"@en ;
+    rdfs:comment "Base URL for publisher's online resources."@en ;
+    rdfs:domain op:Publisher ;
+    rdfs:range xsd:anyURI .
+
+# =============================================================================
+# INDIVIDUALS - DOSAGE FORMS (MECE)
+# =============================================================================
+
+op:DosageForm
+    a owl:Class ;
+    rdfs:label "Dosage Form"@en ;
+    rdfs:comment """
+        The pharmaceutical dosage form of a formulation.
+        This is an enumeration of all common dosage forms.
+    """@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf (
+            op:Tablet
+            op:CoatedTablet
+            op:FilmCoatedTablet
+            op:SugarCoatedTablet
+            op:EntericCoatedTablet
+            op:SustainedReleaseTablet
+            op:Capsule
+            op:HardCapsule
+            op:SoftCapsule
+            op:Injection
+            op:IntravenousInjection
+            op:IntramuscularInjection
+            op:SubcutaneousInjection
+            op:Solution
+            op:OralSolution
+            op:TopicalSolution
+            op:Suspension
+            op:OralSuspension
+            op:Syrup
+            op:Elixir
+            op:Tincture
+            op:Extract
+            op:Ointment
+            op:Cream
+            op:Gel
+            op:Lotion
+            op:Poultice
+            op:Suppository
+            op:Powder
+            op:Granule
+            op:Pellet
+            op:Patch
+            op:TransdermalPatch
+            op:Inhaler
+            op:NasalSpray
+            op:EyeDrops
+            op:EarDrops
+            op:Lozenge
+            op:Pastille
+        )
+    ] .
+
+op:Tablet
+    a op:DosageForm ;
+    rdfs:label "Tablet"@en ;
+    skos:altLabel "Uncoated Tablet"@en .
+
+op:CoatedTablet
+    a op:DosageForm ;
+    rdfs:label "Coated Tablet"@en .
+
+op:FilmCoatedTablet
+    a op:DosageForm ;
+    rdfs:label "Film-Coated Tablet"@en .
+
+op:SugarCoatedTablet
+    a op:DosageForm ;
+    rdfs:label "Sugar-Coated Tablet"@en .
+
+op:EntericCoatedTablet
+    a op:DosageForm ;
+    rdfs:label "Enteric-Coated Tablet"@en .
+
+op:SustainedReleaseTablet
+    a op:DosageForm ;
+    rdfs:label "Sustained-Release Tablet"@en ;
+    skos:altLabel "Extended-Release Tablet"@en .
+
+op:Capsule
+    a op:DosageForm ;
+    rdfs:label "Capsule"@en .
+
+op:HardCapsule
+    a op:DosageForm ;
+    rdfs:label "Hard Capsule"@en .
+
+op:SoftCapsule
+    a op:DosageForm ;
+    rdfs:label "Soft Capsule"@en ;
+    skos:altLabel "Softgel"@en .
+
+op:Injection
+    a op:DosageForm ;
+    rdfs:label "Injection"@en .
+
+op:IntravenousInjection
+    a op:DosageForm ;
+    rdfs:label "Intravenous Injection"@en ;
+    skos:altLabel "IV Injection"@en .
+
+op:IntramuscularInjection
+    a op:DosageForm ;
+    rdfs:label "Intramuscular Injection"@en ;
+    skos:altLabel "IM Injection"@en .
+
+op:SubcutaneousInjection
+    a op:DosageForm ;
+    rdfs:label "Subcutaneous Injection"@en ;
+    skos:altLabel "SC Injection"@en .
+
+op:Solution
+    a op:DosageForm ;
+    rdfs:label "Solution"@en .
+
+op:OralSolution
+    a op:DosageForm ;
+    rdfs:label "Oral Solution"@en .
+
+op:TopicalSolution
+    a op:DosageForm ;
+    rdfs:label "Topical Solution"@en .
+
+op:Suspension
+    a op:DosageForm ;
+    rdfs:label "Suspension"@en .
+
+op:OralSuspension
+    a op:DosageForm ;
+    rdfs:label "Oral Suspension"@en .
+
+op:Syrup
+    a op:DosageForm ;
+    rdfs:label "Syrup"@en .
+
+op:Elixir
+    a op:DosageForm ;
+    rdfs:label "Elixir"@en .
+
+op:Tincture
+    a op:DosageForm ;
+    rdfs:label "Tincture"@en .
+
+op:Extract
+    a op:DosageForm ;
+    rdfs:label "Extract"@en .
+
+op:Ointment
+    a op:DosageForm ;
+    rdfs:label "Ointment"@en .
+
+op:Cream
+    a op:DosageForm ;
+    rdfs:label "Cream"@en .
+
+op:Gel
+    a op:DosageForm ;
+    rdfs:label "Gel"@en .
+
+op:Lotion
+    a op:DosageForm ;
+    rdfs:label "Lotion"@en .
+
+op:Poultice
+    a op:DosageForm ;
+    rdfs:label "Poultice"@en .
+
+op:Suppository
+    a op:DosageForm ;
+    rdfs:label "Suppository"@en .
+
+op:Powder
+    a op:DosageForm ;
+    rdfs:label "Powder"@en .
+
+op:Granule
+    a op:DosageForm ;
+    rdfs:label "Granule"@en .
+
+op:Pellet
+    a op:DosageForm ;
+    rdfs:label "Pellet"@en .
+
+op:Patch
+    a op:DosageForm ;
+    rdfs:label "Patch"@en .
+
+op:TransdermalPatch
+    a op:DosageForm ;
+    rdfs:label "Transdermal Patch"@en .
+
+op:Inhaler
+    a op:DosageForm ;
+    rdfs:label "Inhaler"@en .
+
+op:NasalSpray
+    a op:DosageForm ;
+    rdfs:label "Nasal Spray"@en .
+
+op:EyeDrops
+    a op:DosageForm ;
+    rdfs:label "Eye Drops"@en .
+
+op:EarDrops
+    a op:DosageForm ;
+    rdfs:label "Ear Drops"@en .
+
+op:Lozenge
+    a op:DosageForm ;
+    rdfs:label "Lozenge"@en .
+
+op:Pastille
+    a op:DosageForm ;
+    rdfs:label "Pastille"@en .
+
+# =============================================================================
+# INDIVIDUALS - COMPONENT ROLES (MECE)
+# =============================================================================
+
+op:ComponentRole
+    a owl:Class ;
+    rdfs:label "Component Role"@en ;
+    rdfs:comment """
+        The role of a component in a formulation.
+    """@en ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:oneOf (
+            op:ActiveIngredient
+            op:Excipient
+            op:Binder
+            op:Disintegrant
+            op:Filler
+            op:Lubricant
+            op:Preservative
+            op:Colorant
+            op:Flavor
+            op:Sweetener
+            op:CoatingAgent
+            op:Solvent
+            op:Buffer
+        )
+    ] .
+
+op:ActiveIngredient
+    a op:ComponentRole ;
+    rdfs:label "Active Ingredient"@en ;
+    skos:altLabel "API"@en ;
+    skos:definition "The therapeutically active component."@en .
+
+op:Excipient
+    a op:ComponentRole ;
+    rdfs:label "Excipient"@en ;
+    skos:definition "An inactive component used as a carrier or vehicle."@en .
+
+op:Binder
+    a op:ComponentRole ;
+    rdfs:label "Binder"@en ;
+    skos:definition "An excipient that holds ingredients together."@en .
+
+op:Disintegrant
+    a op:ComponentRole ;
+    rdfs:label "Disintegrant"@en ;
+    skos:definition "An excipient that helps the formulation break apart."@en .
+
+op:Filler
+    a op:ComponentRole ;
+    rdfs:label "Filler"@en ;
+    skos:altLabel "Diluent"@en ;
+    skos:definition "An excipient that adds bulk to the formulation."@en .
+
+op:Lubricant
+    a op:ComponentRole ;
+    rdfs:label "Lubricant"@en ;
+    skos:definition "An excipient that reduces friction during manufacturing."@en .
+
+op:Preservative
+    a op:ComponentRole ;
+    rdfs:label "Preservative"@en ;
+    skos:definition "An excipient that prevents microbial growth."@en .
+
+op:Colorant
+    a op:ComponentRole ;
+    rdfs:label "Colorant"@en ;
+    skos:definition "An excipient that adds color to the formulation."@en .
+
+op:Flavor
+    a op:ComponentRole ;
+    rdfs:label "Flavor"@en ;
+    skos:definition "An excipient that adds flavor to the formulation."@en .
+
+op:Sweetener
+    a op:ComponentRole ;
+    rdfs:label "Sweetener"@en ;
+    skos:definition "An excipient that adds sweetness to the formulation."@en .
+
+op:CoatingAgent
+    a op:ComponentRole ;
+    rdfs:label "Coating Agent"@en ;
+    skos:definition "An excipient used to coat tablets or pellets."@en .
+
+op:Solvent
+    a op:ComponentRole ;
+    rdfs:label "Solvent"@en ;
+    skos:definition "A liquid used to dissolve other components."@en .
+
+op:Buffer
+    a op:ComponentRole ;
+    rdfs:label "Buffer"@en ;
+    skos:definition "An excipient that maintains pH stability."@en .
+
+# =============================================================================
+# ADDITIONAL TEST TYPES (Formulation-Specific)
+# =============================================================================
+
+op:ContentUniformitySpecification
+    a owl:Class ;
+    rdfs:label "Content Uniformity Specification"@en ;
+    rdfs:comment """
+        A specification for content uniformity of individual dosage units.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:DissolutionSpecification
+    a owl:Class ;
+    rdfs:label "Dissolution Specification"@en ;
+    rdfs:comment """
+        A specification for drug release from the dosage form.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:DisintegrationSpecification
+    a owl:Class ;
+    rdfs:label "Disintegration Specification"@en ;
+    rdfs:comment """
+        A specification for time to disintegrate the dosage form.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:WeightVariationSpecification
+    a owl:Class ;
+    rdfs:label "Weight Variation Specification"@en ;
+    rdfs:comment """
+        A specification for uniformity of weight across dosage units.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+# =============================================================================
+# ADDITIONAL TEST TYPE INDIVIDUALS
+# =============================================================================
+
+op:TestType-ContentUniformity
+    a op:TestType ;
+    rdfs:label "Content Uniformity"@en ;
+    skos:definition "Tests for uniformity of active ingredient across dosage units."@en .
+
+op:TestType-Dissolution
+    a op:TestType ;
+    rdfs:label "Dissolution"@en ;
+    skos:definition "Tests for drug release rate from the dosage form."@en .
+
+op:TestType-Disintegration
+    a op:TestType ;
+    rdfs:label "Disintegration"@en ;
+    skos:definition "Tests for time to break apart the dosage form."@en .
+
+op:TestType-WeightVariation
+    a op:TestType ;
+    rdfs:label "Weight Variation"@en ;
+    skos:definition "Tests for uniformity of weight across dosage units."@en .
+
+op:TestType-Hardness
+    a op:TestType ;
+    rdfs:label "Hardness"@en ;
+    skos:definition "Tests for tablet hardness or crushing strength."@en .
+
+op:TestType-Friability
+    a op:TestType ;
+    rdfs:label "Friability"@en ;
+    skos:definition "Tests for tablet friability or tendency to chip."@en .
+
+# =============================================================================
+# PROPERTIES - FORMULATION-SPECIFIC TESTS
+# =============================================================================
+
+op:dissolutionMedium
+    a owl:DatatypeProperty ;
+    rdfs:label "dissolution medium"@en ;
+    rdfs:comment """
+        The medium used for dissolution testing (e.g., "Water", "0.1N HCl").
+    """@en ;
+    rdfs:domain op:DissolutionSpecification ;
+    rdfs:range xsd:string .
+
+op:dissolutionApparatus
+    a owl:DatatypeProperty ;
+    rdfs:label "dissolution apparatus"@en ;
+    rdfs:comment """
+        The apparatus used for dissolution testing (e.g., "Apparatus 1", "Apparatus 2").
+    """@en ;
+    rdfs:domain op:DissolutionSpecification ;
+    rdfs:range xsd:string .
+
+op:dissolutionTime
+    a owl:DatatypeProperty ;
+    rdfs:label "dissolution time"@en ;
+    rdfs:comment """
+        The time point(s) for dissolution measurement (e.g., "30 min").
+    """@en ;
+    rdfs:domain op:DissolutionSpecification ;
+    rdfs:range xsd:string .
+
+op:dissolutionPercentage
+    a owl:DatatypeProperty ;
+    rdfs:label "dissolution percentage"@en ;
+    rdfs:comment """
+        The percentage of drug released (e.g., "Not less than 80%").
+    """@en ;
+    rdfs:domain op:DissolutionSpecification ;
+    rdfs:range xsd:string .
+
+op:disintegrationTime
+    a owl:DatatypeProperty ;
+    rdfs:label "disintegration time"@en ;
+    rdfs:comment """
+        The maximum time for disintegration (e.g., "within 30 minutes").
+    """@en ;
+    rdfs:domain op:DisintegrationSpecification ;
+    rdfs:range xsd:string .
+
+op:disintegrationMedium
+    a owl:DatatypeProperty ;
+    rdfs:label "disintegration medium"@en ;
+    rdfs:comment """
+        The medium used for disintegration testing (e.g., "Water", "Simulated Gastric Fluid").
+    """@en ;
+    rdfs:domain op:DisintegrationSpecification ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# CHEMICAL-SPECIFIC TEST CLASSES
+# =============================================================================
+
+op:MeltingPointSpecification
+    a owl:Class ;
+    rdfs:label "Melting Point Specification"@en ;
+    rdfs:comment """
+        A specification for the melting point or melting range of a chemical substance.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:meltingPointRange ;
+        owl:minCardinality 1
+    ] .
+
+op:BoilingPointSpecification
+    a owl:Class ;
+    rdfs:label "Boiling Point Specification"@en ;
+    rdfs:comment """
+        A specification for the boiling point or boiling range of a liquid chemical.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:SpecificRotationSpecification
+    a owl:Class ;
+    rdfs:label "Specific Rotation Specification"@en ;
+    rdfs:comment """
+        A specification for the optical rotation of a chiral chemical substance.
+        Used to verify identity and purity of optically active compounds.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:RefractiveIndexSpecification
+    a owl:Class ;
+    rdfs:label "Refractive Index Specification"@en ;
+    rdfs:comment """
+        A specification for the refractive index of a liquid chemical.
+        Used for identity and purity verification.
+    """@en ;
+    rdfs:subClassOf op:TestSpecification .
+
+op:RelatedSubstancesSpecification
+    a owl:Class ;
+    rdfs:label "Related Substances Specification"@en ;
+    rdfs:comment """
+        A specification for impurities related to the active substance,
+        including degradation products and synthetic by-products.
+    """@en ;
+    rdfs:subClassOf op:PuritySpecification .
+
+op:ResidualSolventsSpecification
+    a owl:Class ;
+    rdfs:label "Residual Solvents Specification"@en ;
+    rdfs:comment """
+        A specification for residual solvent content in a chemical substance.
+        Solvents are classified as Class 1, 2, or 3 based on toxicity.
+    """@en ;
+    rdfs:subClassOf op:PuritySpecification .
+
+op:pHSpecification
+    a owl:Class ;
+    rdfs:label "pH Specification"@en ;
+    rdfs:comment """
+        A specification for the pH of a solution or aqueous suspension.
+    """@en ;
+    rdfs:subClassOf op:PhysicalSpecification .
+
+# =============================================================================
+# CHEMICAL-SPECIFIC TEST PROPERTIES
+# =============================================================================
+
+op:meltingPointRange
+    a owl:DatatypeProperty ;
+    rdfs:label "melting point range"@en ;
+    rdfs:comment """
+        The melting point or range in degrees Celsius (e.g., "169-172°C").
+    """@en ;
+    rdfs:domain op:MeltingPointSpecification ;
+    rdfs:range xsd:string .
+
+op:meltingPointMethod
+    a owl:DatatypeProperty ;
+    rdfs:label "melting point method"@en ;
+    rdfs:comment """
+        The method used for melting point determination (e.g., "Method 1", "Capillary method").
+    """@en ;
+    rdfs:domain op:MeltingPointSpecification ;
+    rdfs:range xsd:string .
+
+op:boilingPointRange
+    a owl:DatatypeProperty ;
+    rdfs:label "boiling point range"@en ;
+    rdfs:comment """
+        The boiling point or range at specified pressure (e.g., "205-210°C at 10 mmHg").
+    """@en ;
+    rdfs:domain op:BoilingPointSpecification ;
+    rdfs:range xsd:string .
+
+op:specificRotationValue
+    a owl:DatatypeProperty ;
+    rdfs:label "specific rotation value"@en ;
+    rdfs:comment """
+        The specific rotation value (e.g., "+20.5 to +23.0°").
+    """@en ;
+    rdfs:domain op:SpecificRotationSpecification ;
+    rdfs:range xsd:string .
+
+op:rotationSolvent
+    a owl:DatatypeProperty ;
+    rdfs:label "rotation solvent"@en ;
+    rdfs:comment """
+        The solvent used for optical rotation measurement (e.g., "Water", "Ethanol").
+    """@en ;
+    rdfs:domain op:SpecificRotationSpecification ;
+    rdfs:range xsd:string .
+
+op:rotationConcentration
+    a owl:DatatypeProperty ;
+    rdfs:label "rotation concentration"@en ;
+    rdfs:comment """
+        The concentration of the solution for rotation measurement (e.g., "100 mg/mL").
+    """@en ;
+    rdfs:domain op:SpecificRotationSpecification ;
+    rdfs:range xsd:string .
+
+op:rotationTemperature
+    a owl:DatatypeProperty ;
+    rdfs:label "rotation temperature"@en ;
+    rdfs:comment """
+        The temperature for rotation measurement (e.g., "20°C").
+    """@en ;
+    rdfs:domain op:SpecificRotationSpecification ;
+    rdfs:range xsd:string .
+
+op:refractiveIndexValue
+    a owl:DatatypeProperty ;
+    rdfs:label "refractive index value"@en ;
+    rdfs:comment """
+        The refractive index value (e.g., "1.498 to 1.500").
+    """@en ;
+    rdfs:domain op:RefractiveIndexSpecification ;
+    rdfs:range xsd:string .
+
+op:refractiveIndexTemperature
+    a owl:DatatypeProperty ;
+    rdfs:label "refractive index temperature"@en ;
+    rdfs:comment """
+        The temperature for refractive index measurement (e.g., "20°C").
+    """@en ;
+    rdfs:domain op:RefractiveIndexSpecification ;
+    rdfs:range xsd:string .
+
+op:individualImpurityLimit
+    a owl:DatatypeProperty ;
+    rdfs:label "individual impurity limit"@en ;
+    rdfs:comment """
+        The limit for any single impurity (e.g., "Not more than 0.5%").
+    """@en ;
+    rdfs:domain op:RelatedSubstancesSpecification ;
+    rdfs:range xsd:string .
+
+op:totalImpuritiesLimit
+    a owl:DatatypeProperty ;
+    rdfs:label "total impurities limit"@en ;
+    rdfs:comment """
+        The limit for total impurities (e.g., "Not more than 2.0%").
+    """@en ;
+    rdfs:domain op:RelatedSubstancesSpecification ;
+    rdfs:range xsd:string .
+
+op:solventClass
+    a owl:DatatypeProperty ;
+    rdfs:label "solvent class"@en ;
+    rdfs:comment """
+        The ICH classification of the solvent (Class 1, 2, or 3).
+    """@en ;
+    rdfs:domain op:ResidualSolventsSpecification ;
+    rdfs:range xsd:string .
+
+op:solventName
+    a owl:DatatypeProperty ;
+    rdfs:label "solvent name"@en ;
+    rdfs:comment """
+        The name of the residual solvent being limited (e.g., "Benzene", "Methanol").
+    """@en ;
+    rdfs:domain op:ResidualSolventsSpecification ;
+    rdfs:range xsd:string .
+
+op:pHRange
+    a owl:DatatypeProperty ;
+    rdfs:label "pH range"@en ;
+    rdfs:comment """
+        The acceptable pH range (e.g., "4.5 to 7.0").
+    """@en ;
+    rdfs:domain op:pHSpecification ;
+    rdfs:range xsd:string .
+
+op:pHConcentration
+    a owl:DatatypeProperty ;
+    rdfs:label "pH concentration"@en ;
+    rdfs:comment """
+        The concentration of the solution for pH measurement (e.g., "1% w/v").
+    """@en ;
+    rdfs:domain op:pHSpecification ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# ADDITIONAL TEST TYPE INDIVIDUALS (Chemical-Specific)
+# =============================================================================
+
+op:TestType-MeltingPoint
+    a op:TestType ;
+    rdfs:label "Melting Point"@en ;
+    skos:definition "Tests for the melting point or range of a solid substance."@en .
+
+op:TestType-BoilingPoint
+    a op:TestType ;
+    rdfs:label "Boiling Point"@en ;
+    skos:definition "Tests for the boiling point or range of a liquid substance."@en .
+
+op:TestType-SpecificRotation
+    a op:TestType ;
+    rdfs:label "Specific Rotation"@en ;
+    skos:definition "Tests for optical rotation of chiral substances."@en .
+
+op:TestType-RefractiveIndex
+    a op:TestType ;
+    rdfs:label "Refractive Index"@en ;
+    skos:definition "Tests for the refractive index of liquid substances."@en .
+
+op:TestType-RelatedSubstances
+    a op:TestType ;
+    rdfs:label "Related Substances"@en ;
+    skos:definition "Tests for impurities related to the active substance."@en .
+
+op:TestType-ResidualSolvents
+    a op:TestType ;
+    rdfs:label "Residual Solvents"@en ;
+    skos:definition "Tests for residual solvent content."@en .
+
+op:TestType-pH
+    a op:TestType ;
+    rdfs:label "pH"@en ;
+    skos:definition "Tests for the pH of a solution or suspension."@en .
+
+# =============================================================================
+# VITAMIN TYPE VOCABULARY (MECE)
+# =============================================================================
+
+op:VitaminType
+    a owl:Class ;
+    rdfs:label "Vitamin Type"@en ;
+    rdfs:comment "Classification of vitamins by chemical structure and biological function."@en ;
+    rdfs:subClassOf skos:Concept .
+
+op:VitaminA
+    a op:VitaminType ;
+    rdfs:label "Vitamin A"@en ;
+    skos:altLabel "Retinoids"@en ;
+    skos:definition "Fat-soluble vitamins including retinol, retinal, and retinoic acid."@en .
+
+op:VitaminB1
+    a op:VitaminType ;
+    rdfs:label "Vitamin B1"@en ;
+    skos:altLabel "Thiamine"@en ;
+    skos:definition "Water-soluble vitamin, cofactor for carbohydrate metabolism."@en .
+
+op:VitaminB2
+    a op:VitaminType ;
+    rdfs:label "Vitamin B2"@en ;
+    skos:altLabel "Riboflavin"@en ;
+    skos:definition "Water-soluble vitamin, component of FAD and FMN."@en .
+
+op:VitaminB3
+    a op:VitaminType ;
+    rdfs:label "Vitamin B3"@en ;
+    skos:altLabel "Niacin"@en , "Nicotinic Acid"@en ;
+    skos:definition "Water-soluble vitamin, precursor to NAD and NADP."@en .
+
+op:VitaminB5
+    a op:VitaminType ;
+    rdfs:label "Vitamin B5"@en ;
+    skos:altLabel "Pantothenic Acid"@en ;
+    skos:definition "Water-soluble vitamin, component of coenzyme A."@en .
+
+op:VitaminB6
+    a op:VitaminType ;
+    rdfs:label "Vitamin B6"@en ;
+    skos:altLabel "Pyridoxine"@en ;
+    skos:definition "Water-soluble vitamin, cofactor for amino acid metabolism."@en .
+
+op:VitaminB7
+    a op:VitaminType ;
+    rdfs:label "Vitamin B7"@en ;
+    skos:altLabel "Biotin"@en ;
+    skos:definition "Water-soluble vitamin, cofactor for carboxylase enzymes."@en .
+
+op:VitaminB9
+    a op:VitaminType ;
+    rdfs:label "Vitamin B9"@en ;
+    skos:altLabel "Folic Acid"@en , "Folate"@en ;
+    skos:definition "Water-soluble vitamin, essential for DNA synthesis."@en .
+
+op:VitaminB12
+    a op:VitaminType ;
+    rdfs:label "Vitamin B12"@en ;
+    skos:altLabel "Cobalamin"@en ;
+    skos:definition "Water-soluble vitamin, cofactor for methylmalonyl-CoA mutase."@en .
+
+op:VitaminC
+    a op:VitaminType ;
+    rdfs:label "Vitamin C"@en ;
+    skos:altLabel "Ascorbic Acid"@en ;
+    skos:definition "Water-soluble vitamin, antioxidant and collagen synthesis cofactor."@en .
+
+op:VitaminD
+    a op:VitaminType ;
+    rdfs:label "Vitamin D"@en ;
+    skos:altLabel "Calciferol"@en ;
+    skos:definition "Fat-soluble vitamin, regulates calcium and phosphate metabolism."@en .
+
+op:VitaminE
+    a op:VitaminType ;
+    rdfs:label "Vitamin E"@en ;
+    skos:altLabel "Tocopherol"@en ;
+    skos:definition "Fat-soluble vitamin, antioxidant protecting cell membranes."@en .
+
+op:VitaminK
+    a op:VitaminType ;
+    rdfs:label "Vitamin K"@en ;
+    skos:altLabel "Phylloquinone"@en ;
+    skos:definition "Fat-soluble vitamin, essential for blood coagulation."@en .
+
+# Property for vitamin type
+op:vitaminType
+    a owl:ObjectProperty ;
+    rdfs:label "vitamin type"@en ;
+    rdfs:comment "The specific vitamin classification for a vitamin monograph."@en ;
+    rdfs:domain op:VitaminMonograph ;
+    rdfs:range op:VitaminType .
+
+# Property for biological activity (vitamin potency)
+op:biologicalActivity
+    a owl:DatatypeProperty ;
+    rdfs:label "biological activity"@en ;
+    rdfs:comment """
+        The biological activity expressed in appropriate units (e.g., IU/mg for vitamins).
+    """@en ;
+    rdfs:domain op:VitaminMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# AMINO ACID TYPE VOCABULARY (MECE)
+# =============================================================================
+
+op:AminoAcidType
+    a owl:Class ;
+    rdfs:label "Amino Acid Type"@en ;
+    rdfs:comment "Classification of amino acids by structure and metabolic role."@en ;
+    rdfs:subClassOf skos:Concept .
+
+# Essential amino acids
+op:AminoAcid-Histidine
+    a op:AminoAcidType ;
+    rdfs:label "Histidine"@en ;
+    skos:altLabel "L-Histidine"@en ;
+    skos:definition "Essential amino acid with an imidazole side chain."@en .
+
+op:AminoAcid-Isoleucine
+    a op:AminoAcidType ;
+    rdfs:label "Isoleucine"@en ;
+    skos:altLabel "L-Isoleucine"@en ;
+    skos:definition "Essential branched-chain amino acid."@en .
+
+op:AminoAcid-Leucine
+    a op:AminoAcidType ;
+    rdfs:label "Leucine"@en ;
+    skos:altLabel "L-Leucine"@en ;
+    skos:definition "Essential branched-chain amino acid."@en .
+
+op:AminoAcid-Lysine
+    a op:AminoAcidType ;
+    rdfs:label "Lysine"@en ;
+    skos:altLabel "L-Lysine"@en ;
+    skos:definition "Essential amino acid with an ε-amino group."@en .
+
+op:AminoAcid-Methionine
+    a op:AminoAcidType ;
+    rdfs:label "Methionine"@en ;
+    skos:altLabel "L-Methionine"@en ;
+    skos:definition "Essential sulfur-containing amino acid."@en .
+
+op:AminoAcid-Phenylalanine
+    a op:AminoAcidType ;
+    rdfs:label "Phenylalanine"@en ;
+    skos:altLabel "L-Phenylalanine"@en ;
+    skos:definition "Essential aromatic amino acid."@en .
+
+op:AminoAcid-Threonine
+    a op:AminoAcidType ;
+    rdfs:label "Threonine"@en ;
+    skos:altLabel "L-Threonine"@en ;
+    skos:definition "Essential amino acid with a hydroxyl group."@en .
+
+op:AminoAcid-Tryptophan
+    a op:AminoAcidType ;
+    rdfs:label "Tryptophan"@en ;
+    skos:altLabel "L-Tryptophan"@en ;
+    skos:definition "Essential amino acid with an indole group."@en .
+
+op:AminoAcid-Valine
+    a op:AminoAcidType ;
+    rdfs:label "Valine"@en ;
+    skos:altLabel "L-Valine"@en ;
+    skos:definition "Essential branched-chain amino acid."@en .
+
+# Non-essential amino acids (commonly used in pharmacopoeia)
+op:AminoAcid-Alanine
+    a op:AminoAcidType ;
+    rdfs:label "Alanine"@en ;
+    skos:altLabel "L-Alanine"@en ;
+    skos:definition "Non-essential simple amino acid."@en .
+
+op:AminoAcid-Arginine
+    a op:AminoAcidType ;
+    rdfs:label "Arginine"@en ;
+    skos:altLabel "L-Arginine"@en ;
+    skos:definition "Conditionally essential amino acid with a guanidino group."@en .
+
+op:AminoAcid-Asparagine
+    a op:AminoAcidType ;
+    rdfs:label "Asparagine"@en ;
+    skos:altLabel "L-Asparagine"@en ;
+    skos:definition "Non-essential amino acid with an amide group."@en .
+
+op:AminoAcid-AsparticAcid
+    a op:AminoAcidType ;
+    rdfs:label "Aspartic Acid"@en ;
+    skos:altLabel "L-Aspartic Acid"@en , "Aspartate"@en ;
+    skos:definition "Non-essential acidic amino acid."@en .
+
+op:AminoAcid-Cysteine
+    a op:AminoAcidType ;
+    rdfs:label "Cysteine"@en ;
+    skos:altLabel "L-Cysteine"@en ;
+    skos:definition "Conditionally essential sulfur-containing amino acid."@en .
+
+op:AminoAcid-GlutamicAcid
+    a op:AminoAcidType ;
+    rdfs:label "Glutamic Acid"@en ;
+    skos:altLabel "L-Glutamic Acid"@en , "Glutamate"@en ;
+    skos:definition "Non-essential acidic amino acid."@en .
+
+op:AminoAcid-Glutamine
+    a op:AminoAcidType ;
+    rdfs:label "Glutamine"@en ;
+    skos:altLabel "L-Glutamine"@en ;
+    skos:definition "Conditionally essential amino acid with an amide group."@en .
+
+op:AminoAcid-Glycine
+    a op:AminoAcidType ;
+    rdfs:label "Glycine"@en ;
+    skos:definition "Simplest non-essential amino acid."@en .
+
+op:AminoAcid-Proline
+    a op:AminoAcidType ;
+    rdfs:label "Proline"@en ;
+    skos:altLabel "L-Proline"@en ;
+    skos:definition "Non-essential cyclic amino acid."@en .
+
+op:AminoAcid-Serine
+    a op:AminoAcidType ;
+    rdfs:label "Serine"@en ;
+    skos:altLabel "L-Serine"@en ;
+    skos:definition "Non-essential amino acid with a hydroxyl group."@en .
+
+op:AminoAcid-Tyrosine
+    a op:AminoAcidType ;
+    rdfs:label "Tyrosine"@en ;
+    skos:altLabel "L-Tyrosine"@en ;
+    skos:definition "Conditionally essential aromatic amino acid."@en .
+
+# Properties for amino acid
+op:aminoAcidType
+    a owl:ObjectProperty ;
+    rdfs:label "amino acid type"@en ;
+    rdfs:comment "The specific amino acid classification."@en ;
+    rdfs:domain op:AminoAcidMonograph ;
+    rdfs:range op:AminoAcidType .
+
+op:essentialAminoAcid
+    a owl:DatatypeProperty ;
+    rdfs:label "essential amino acid"@en ;
+    rdfs:comment "Whether the amino acid is essential (must be obtained from diet)."@en ;
+    rdfs:domain op:AminoAcidMonograph ;
+    rdfs:range xsd:boolean .
+
+op:stereochemistry
+    a owl:DatatypeProperty ;
+    rdfs:label "stereochemistry"@en ;
+    rdfs:comment "The stereochemical configuration (L, D, DL, or meso)."@en ;
+    rdfs:domain op:AminoAcidMonograph ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# MINERAL TYPE VOCABULARY (MECE)
+# =============================================================================
+
+op:MineralType
+    a owl:Class ;
+    rdfs:label "Mineral Type"@en ;
+    rdfs:comment "Classification of mineral substances by composition."@en ;
+    rdfs:subClassOf skos:Concept .
+
+op:SimpleMineral
+    a op:MineralType ;
+    rdfs:label "Simple Mineral"@en ;
+    skos:definition "Single chemical compound of mineral origin (e.g., zinc oxide, sulfur)."@en .
+
+op:MineralMixture
+    a op:MineralType ;
+    rdfs:label "Mineral Mixture"@en ;
+    skos:definition "Natural mixture of minerals (e.g., kaolin, bentonite, talc)."@en .
+
+op:MineralSalt
+    a op:MineralType ;
+    rdfs:label "Mineral Salt"@en ;
+    skos:definition "Ionic compound containing mineral elements (e.g., calcium carbonate, sodium chloride)."@en .
+
+# Property for mineral type
+op:mineralType
+    a owl:ObjectProperty ;
+    rdfs:label "mineral type"@en ;
+    rdfs:comment "The mineral classification type."@en ;
+    rdfs:domain op:MineralSubstanceMonograph ;
+    rdfs:range op:MineralType .
+
+op:mineralFormula
+    a owl:DatatypeProperty ;
+    rdfs:label "mineral formula"@en ;
+    rdfs:comment "The chemical formula of the mineral substance."@en ;
+    rdfs:domain op:MineralSubstanceMonograph ;
+    rdfs:range xsd:string .
+
+op:mineralSource
+    a owl:DatatypeProperty ;
+    rdfs:label "mineral source"@en ;
+    rdfs:comment "The natural or synthetic source of the mineral."@en ;
+    rdfs:domain op:MineralSubstanceMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# BIOLOGICAL SOURCE TYPE VOCABULARY (MECE)
+# =============================================================================
+
+op:BiologicalSourceType
+    a owl:Class ;
+    rdfs:label "Biological Source Type"@en ;
+    rdfs:comment "Classification of biological substances by source type."@en ;
+    rdfs:subClassOf skos:Concept .
+
+op:BiologicalSourceType-Enzyme
+    a op:BiologicalSourceType ;
+    rdfs:label "Enzyme"@en ;
+    skos:definition "Protein catalysts derived from biological sources."@en .
+
+op:BiologicalSourceType-Hormone
+    a op:BiologicalSourceType ;
+    rdfs:label "Hormone"@en ;
+    skos:definition "Signaling molecules produced by endocrine tissues."@en .
+
+op:BiologicalSourceType-BloodProduct
+    a op:BiologicalSourceType ;
+    rdfs:label "Blood Product"@en ;
+    skos:definition "Products derived from blood or plasma."@en .
+
+op:BiologicalSourceType-Vaccine
+    a op:BiologicalSourceType ;
+    rdfs:label "Vaccine"@en ;
+    skos:definition "Immunogenic preparations for disease prevention."@en .
+
+op:BiologicalSourceType-Antitoxin
+    a op:BiologicalSourceType ;
+    rdfs:label "Antitoxin"@en ;
+    skos:definition "Antibodies that neutralize toxins."@en .
+
+op:BiologicalSourceType-Antiserum
+    a op:BiologicalSourceType ;
+    rdfs:label "Antiserum"@en ;
+    skos:definition "Serum containing antibodies against specific antigens."@en .
+
+op:BiologicalSourceType-Cytokine
+    a op:BiologicalSourceType ;
+    rdfs:label "Cytokine"@en ;
+    skos:definition "Signaling proteins involved in immune responses."@en .
+
+op:BiologicalSourceType-GrowthFactor
+    a op:BiologicalSourceType ;
+    rdfs:label "Growth Factor"@en ;
+    skos:definition "Proteins that stimulate cellular growth and differentiation."@en .
+
+# Property for biological source type
+op:biologicalSourceType
+    a owl:ObjectProperty ;
+    rdfs:label "biological source type"@en ;
+    rdfs:comment "The type of biological substance."@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range op:BiologicalSourceType .
+
+op:sourceOrganism
+    a owl:DatatypeProperty ;
+    rdfs:label "source organism"@en ;
+    rdfs:comment "The organism from which the biological substance is derived."@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# ORGANISM CLASS (from data-japan-pharmacopia)
+# =============================================================================
+
+op:Organism
+    a owl:Class ;
+    rdfs:label "Organism"@en ;
+    rdfs:comment """
+        Represents a biological organism (plant, animal, fungus, etc.)
+        used as a source for pharmacopoeial substances.
+    """@en .
+
+op:organismName
+    a owl:DatatypeProperty ;
+    rdfs:label "organism name"@en ;
+    rdfs:comment "The scientific name of the organism."@en ;
+    rdfs:domain op:Organism ;
+    rdfs:range rdf:langString .
+
+op:commonName
+    a owl:DatatypeProperty ;
+    rdfs:label "common name"@en ;
+    rdfs:comment "The common or vernacular name of the organism."@en ;
+    rdfs:domain op:Organism ;
+    rdfs:range rdf:langString .
+
+op:taxonomicFamily
+    a owl:DatatypeProperty ;
+    rdfs:label "taxonomic family"@en ;
+    rdfs:comment "The taxonomic family of the organism."@en ;
+    rdfs:domain op:Organism ;
+    rdfs:range rdf:langString .
+
+op:derivedFromOrganism
+    a owl:ObjectProperty ;
+    rdfs:label "derived from organism"@en ;
+    rdfs:comment "Links a biological source to the organism it is derived from."@en ;
+    rdfs:range op:Organism .
+
+op:organismPart
+    a owl:DatatypeProperty ;
+    rdfs:label "organism part"@en ;
+    rdfs:comment "The part of the organism used (root, leaf, flower, etc.)."@en ;
+    rdfs:domain op:BiologicalSource ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# MARKER COMPOUND CLASS (from data-japan-pharmacopia)
+# =============================================================================
+
+op:MarkerCompound
+    a owl:Class ;
+    rdfs:label "Marker Compound"@en ;
+    rdfs:comment """
+        A marker compound used for identification or assay of herbal preparations.
+        Marker compounds are chemical constituents used to assess quality.
+    """@en .
+
+op:markerName
+    a owl:DatatypeProperty ;
+    rdfs:label "marker name"@en ;
+    rdfs:comment "The name of the marker compound."@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range rdf:langString .
+
+op:containsCompound
+    a owl:ObjectProperty ;
+    rdfs:label "contains compound"@en ;
+    rdfs:comment "Links a marker to the chemical compound it represents."@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range op:ChemicalCompound .
+
+op:minimumAmount
+    a owl:DatatypeProperty ;
+    rdfs:label "minimum amount"@en ;
+    rdfs:comment "The minimum required amount of the marker compound."@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range xsd:decimal .
+
+# =============================================================================
+# CONTAINERS AND STORAGE CLASS (from data-japan-pharmacopia)
+# =============================================================================
+
+op:ContainersAndStorage
+    a owl:Class ;
+    rdfs:label "Containers and Storage"@en ;
+    rdfs:comment """
+        Storage requirements and container specifications for pharmacopoeial substances.
+        Includes container type, storage conditions, and shelf life.
+    """@en .
+
+op:containerType
+    a owl:DatatypeProperty ;
+    rdfs:label "container type"@en ;
+    rdfs:comment "The type of container required for storage."@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range rdf:langString .
+
+op:storageConditions
+    a owl:DatatypeProperty ;
+    rdfs:label "storage conditions"@en ;
+    rdfs:comment "Required storage conditions (temperature, humidity, light)."@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range rdf:langString .
+
+op:shelfLife
+    a owl:DatatypeProperty ;
+    rdfs:label "shelf life"@en ;
+    rdfs:comment "The expiration period of the substance."@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range rdf:langString .
+
+op:protectionFromLight
+    a owl:DatatypeProperty ;
+    rdfs:label "protection from light"@en ;
+    rdfs:comment "Whether the substance requires protection from light."@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range xsd:boolean .
+
+# =============================================================================
+# HORMONE TYPE VOCABULARY (MECE)
+# =============================================================================
+
+op:HormoneType
+    a owl:Class ;
+    rdfs:label "Hormone Type"@en ;
+    rdfs:comment "Classification of hormones by structure and function."@en ;
+    rdfs:subClassOf skos:Concept .
+
+# Peptide hormones
+op:HormoneType-Insulin
+    a op:HormoneType ;
+    rdfs:label "Insulin"@en ;
+    skos:definition "Peptide hormone regulating glucose metabolism."@en .
+
+op:HormoneType-Glucagon
+    a op:HormoneType ;
+    rdfs:label "Glucagon"@en ;
+    skos:definition "Peptide hormone that raises blood glucose levels."@en .
+
+op:HormoneType-Oxytocin
+    a op:HormoneType ;
+    rdfs:label "Oxytocin"@en ;
+    skos:definition "Peptide hormone involved in childbirth and lactation."@en .
+
+op:HormoneType-Vasopressin
+    a op:HormoneType ;
+    rdfs:label "Vasopressin"@en ;
+    skos:altLabel "Antidiuretic Hormone"@en ;
+    skos:definition "Peptide hormone regulating water retention."@en .
+
+# Steroid hormones
+op:HormoneType-Cortisol
+    a op:HormoneType ;
+    rdfs:label "Cortisol"@en ;
+    skos:altLabel "Hydrocortisone"@en ;
+    skos:definition "Glucocorticoid hormone involved in stress response."@en .
+
+op:HormoneType-Cortisone
+    a op:HormoneType ;
+    rdfs:label "Cortisone"@en ;
+    skos:definition "Glucocorticoid hormone with anti-inflammatory effects."@en .
+
+op:HormoneType-Prednisolone
+    a op:HormoneType ;
+    rdfs:label "Prednisolone"@en ;
+    skos:definition "Synthetic glucocorticoid with anti-inflammatory effects."@en .
+
+op:HormoneType-Estrogen
+    a op:HormoneType ;
+    rdfs:label "Estrogen"@en ;
+    skos:definition "Steroid hormones responsible for female characteristics."@en .
+
+op:HormoneType-Progesterone
+    a op:HormoneType ;
+    rdfs:label "Progesterone"@en ;
+    skos:definition "Steroid hormone involved in menstrual cycle and pregnancy."@en .
+
+op:HormoneType-Testosterone
+    a op:HormoneType ;
+    rdfs:label "Testosterone"@en ;
+    skos:definition "Steroid hormone responsible for male characteristics."@en .
+
+# Glycoprotein hormones
+op:HormoneType-Thyroid
+    a op:HormoneType ;
+    rdfs:label "Thyroid Hormone"@en ;
+    skos:altLabel "Thyroxine"@en , "T3/T4"@en ;
+    skos:definition "Iodinated hormones regulating metabolism."@en .
+
+# Property for hormone type
+op:hormoneType
+    a owl:ObjectProperty ;
+    rdfs:label "hormone type"@en ;
+    rdfs:comment "The specific hormone classification."@en ;
+    rdfs:domain op:HormonePreparationMonograph ;
+    rdfs:range op:HormoneType .
+
+op:biologicalPotency
+    a owl:DatatypeProperty ;
+    rdfs:label "biological potency"@en ;
+    rdfs:comment "The biological potency expressed in appropriate units (e.g., IU/mg)."@en ;
+    rdfs:domain op:HormonePreparationMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# TEMPERATURE UNIT VOCABULARY
+# =============================================================================
+
+op:TemperatureUnit
+    a owl:Class ;
+    rdfs:label "Temperature Unit"@en ;
+    rdfs:comment "Units of temperature measurement."@en ;
+    rdfs:subClassOf skos:Concept .
+
+op:Celsius
+    a op:TemperatureUnit ;
+    rdfs:label "Celsius"@en ;
+    skos:altLabel "°C"@en ;
+    skos:definition "Temperature scale where 0°C is the freezing point of water."@en .
+
+op:Fahrenheit
+    a op:TemperatureUnit ;
+    rdfs:label "Fahrenheit"@en ;
+    skos:altLabel "°F"@en ;
+    skos:definition "Temperature scale where 32°F is the freezing point of water."@en .
+
+op:Kelvin
+    a op:TemperatureUnit ;
+    rdfs:label "Kelvin"@en ;
+    skos:altLabel "K"@en ;
+    skos:definition "Absolute temperature scale where 0 K is absolute zero."@en .
+
+# Property for temperature unit
+op:temperatureUnit
+    a owl:ObjectProperty ;
+    rdfs:label "temperature unit"@en ;
+    rdfs:comment "The unit of temperature measurement."@en ;
+    rdfs:domain op:MeltingPointSpecification ;
+    rdfs:range op:TemperatureUnit .
+
+# =============================================================================
+# ENZYME-SPECIFIC PROPERTIES
+# =============================================================================
+
+op:enzymeCommissionNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "enzyme commission number"@en ;
+    rdfs:comment "The EC number classification for enzymes (e.g., EC 3.4.23.1)."@en ;
+    rdfs:domain op:EnzymePreparationMonograph ;
+    rdfs:range xsd:string .
+
+op:enzymeActivity
+    a owl:DatatypeProperty ;
+    rdfs:label "enzyme activity"@en ;
+    rdfs:comment """
+        The catalytic activity of the enzyme preparation expressed in appropriate units
+        (e.g., Units/mg, Units/g).
+    """@en ;
+    rdfs:domain op:EnzymePreparationMonograph ;
+    rdfs:range rdf:langString .
+
+op:optimalPH
+    a owl:DatatypeProperty ;
+    rdfs:label "optimal pH"@en ;
+    rdfs:comment "The pH at which the enzyme exhibits maximum activity."@en ;
+    rdfs:domain op:EnzymePreparationMonograph ;
+    rdfs:range xsd:decimal .
+
+op:optimalTemperature
+    a owl:DatatypeProperty ;
+    rdfs:label "optimal temperature"@en ;
+    rdfs:comment "The temperature at which the enzyme exhibits maximum activity (in °C)."@en ;
+    rdfs:domain op:EnzymePreparationMonograph ;
+    rdfs:range xsd:decimal .
+
+op:activityUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "activity unit"@en ;
+    rdfs:comment """
+        The definition of one unit of enzyme/biological activity.
+    """@en ;
+    rdfs:domain op:BiologicalSubstanceMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# THERAPEUTIC CATEGORY CLASS (from data-japan-pharmacopia)
+# =============================================================================
+
+op:TherapeuticCategory
+    a owl:Class ;
+    rdfs:label "Therapeutic Category"@en ;
+    rdfs:comment """
+        A classification of drugs by their therapeutic use or clinical application.
+        Enables grouping of drugs by therapeutic class (e.g., analgesics, antibiotics).
+    """@en .
+
+op:categoryCode
+    a owl:DatatypeProperty ;
+    rdfs:label "category code"@en ;
+    rdfs:comment "A code identifying the therapeutic category."@en ;
+    rdfs:domain op:TherapeuticCategory ;
+    rdfs:range xsd:string .
+
+op:categoryName
+    a owl:DatatypeProperty ;
+    rdfs:label "category name"@en ;
+    rdfs:comment "The name of the therapeutic category."@en ;
+    rdfs:domain op:TherapeuticCategory ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# PLANT PART CLASS (from data-japan-pharmacopia)
+# =============================================================================
+
+op:PlantPart
+    a owl:Class ;
+    rdfs:label "Plant Part"@en ;
+    rdfs:comment """
+        A standardized vocabulary for plant parts used in pharmacopoeial substances.
+        Provides consistent naming for roots, leaves, flowers, etc.
+    """@en .
+
+op:plantPartCode
+    a owl:DatatypeProperty ;
+    rdfs:label "plant part code"@en ;
+    rdfs:comment "A code identifying the plant part."@en ;
+    rdfs:domain op:PlantPart ;
+    rdfs:range xsd:string .
+
+op:plantPartName
+    a owl:DatatypeProperty ;
+    rdfs:label "plant part name"@en ;
+    rdfs:comment "The name of the plant part."@en ;
+    rdfs:domain op:PlantPart ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# THERAPEUTIC PROPERTIES (for PharmacopoeiaMonograph)
+# =============================================================================
+
+op:therapeuticClass
+    a owl:DatatypeProperty ;
+    rdfs:label "therapeutic class"@en ;
+    rdfs:comment """
+        The therapeutic classification of the drug (e.g., "Antipyretic", "Analgesic").
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:string .
+
+op:contraindications
+    a owl:DatatypeProperty ;
+    rdfs:label "contraindications"@en ;
+    rdfs:comment """
+        Contraindications or warnings for use of the drug.
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+op:belongsToTherapeuticCategory
+    a owl:ObjectProperty ;
+    rdfs:label "belongs to therapeutic category"@en ;
+    rdfs:comment "Links a monograph to its therapeutic category."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:TherapeuticCategory .
+
+op:hasTherapeuticUse
+    a owl:ObjectProperty ;
+    rdfs:label "has therapeutic use"@en ;
+    rdfs:comment "Links a monograph to its therapeutic use or indication."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+op:hasContraindication
+    a owl:ObjectProperty ;
+    rdfs:label "has contraindication"@en ;
+    rdfs:comment "Links a monograph to a specific contraindication."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# TEST METHOD PROPERTIES (from data-japan-pharmacopia)
+# =============================================================================
+
+op:chromatographyType
+    a owl:DatatypeProperty ;
+    rdfs:label "chromatography type"@en ;
+    rdfs:comment """
+        The type of chromatography used (e.g., "HPLC", "GC", "TLC").
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range xsd:string .
+
+op:usesStandardSubstance
+    a owl:DatatypeProperty ;
+    rdfs:label "uses standard substance"@en ;
+    rdfs:comment """
+        The reference substance used for comparison in the test.
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range xsd:string .
+
+op:expectedResult
+    a owl:DatatypeProperty ;
+    rdfs:label "expected result"@en ;
+    rdfs:comment """
+        The expected result of the test
+        (e.g., "Positive reaction", "Rf value 0.2-0.4").
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# STORAGE PROPERTIES (from data-japan-pharmacopia)
+# =============================================================================
+
+op:lightProtection
+    a owl:DatatypeProperty ;
+    rdfs:label "light protection"@en ;
+    rdfs:comment """
+        Whether the substance requires protection from light.
+    """@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range xsd:boolean .
+
+op:humidityControl
+    a owl:DatatypeProperty ;
+    rdfs:label "humidity control"@en ;
+    rdfs:comment """
+        Humidity requirements for storage (e.g., "Store in a dry place").
+    """@en ;
+    rdfs:domain op:ContainersAndStorage ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# EXTRACT-SPECIFIC PROPERTIES
+# =============================================================================
+
+op:extractionRatio
+    a owl:DatatypeProperty ;
+    rdfs:label "extraction ratio"@en ;
+    rdfs:comment """
+        The extraction ratio (e.g., "5:1", "10:1").
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range xsd:string .
+
+op:extractionSolvent
+    a owl:DatatypeProperty ;
+    rdfs:label "extraction solvent"@en ;
+    rdfs:comment """
+        The solvent used for extraction (e.g., "70% Ethanol", "Water").
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range xsd:string .
+
+op:hasIngredient
+    a owl:ObjectProperty ;
+    rdfs:label "has ingredient"@en ;
+    rdfs:comment """
+        An ingredient in a multi-herb preparation.
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range op:CrudeDrugMonograph .
+
+# =============================================================================
+# TINCTURE-SPECIFIC PROPERTIES
+# =============================================================================
+
+op:ethanolContent
+    a owl:DatatypeProperty ;
+    rdfs:label "ethanol content"@en ;
+    rdfs:comment """
+        The ethanol concentration in tinctures and spirits (e.g., "45-50% v/v").
+    """@en ;
+    rdfs:domain op:Tincture ;
+    rdfs:range xsd:string .
+
+op:drugStrength
+    a owl:DatatypeProperty ;
+    rdfs:label "drug strength"@en ;
+    rdfs:comment """
+        The concentration of drug in the tincture (e.g., "1:10", "1:5").
+    """@en ;
+    rdfs:domain op:Tincture ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# WAX-SPECIFIC PROPERTIES
+# =============================================================================
+
+op:waxType
+    a owl:DatatypeProperty ;
+    rdfs:label "wax type"@en ;
+    rdfs:comment """
+        The type of wax (e.g., "Beeswax", "Carnauba Wax", "Candelilla Wax").
+    """@en ;
+    rdfs:domain op:Wax ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# MARKER COMPOUND ADDITIONAL PROPERTIES
+# =============================================================================
+
+op:referenceStandard
+    a owl:DatatypeProperty ;
+    rdfs:label "reference standard"@en ;
+    rdfs:comment """
+        The reference standard used for the marker compound.
+    """@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range xsd:string .
+
+op:concentrationRange
+    a owl:DatatypeProperty ;
+    rdfs:label "concentration range"@en ;
+    rdfs:comment """
+        The required concentration range for the marker compound.
+    """@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range xsd:string .
+
+op:activeComponent
+    a owl:DatatypeProperty ;
+    rdfs:label "active component"@en ;
+    rdfs:comment """
+        The main active component name in the marker compound.
+    """@en ;
+    rdfs:domain op:MarkerCompound ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# BOTANICAL SOURCE LINK TO PLANT PART
+# =============================================================================
+
+op:hasPlantPart
+    a owl:ObjectProperty ;
+    rdfs:label "has plant part"@en ;
+    rdfs:comment "Links a botanical source to the specific plant part used."@en ;
+    rdfs:domain op:BotanicalSource ;
+    rdfs:range op:PlantPart .
+
+# =============================================================================
+# KAMPO PRESCRIPTION PROPERTIES
+# =============================================================================
+
+op:prescriptionNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "prescription number"@en ;
+    rdfs:comment """
+        The Kampo prescription number for multi-ingredient preparations.
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range xsd:string .
+
+op:japaneseStandardName
+    a owl:DatatypeProperty ;
+    rdfs:label "Japanese standard name"@en ;
+    rdfs:comment """
+        The Japanese standard name for Kampo preparations.
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range rdf:langString .
+
+# =============================================================================
+# POWDERED CRUDE DRUG PROPERTIES (from data-japan-pharmacopia)
+# =============================================================================
+
+op:isPowderedFormOf
+    a owl:ObjectProperty ;
+    rdfs:label "is powdered form of"@en ;
+    rdfs:comment """
+        Links a powdered crude drug to its source crude drug.
+        This is a sub-property of derivedFrom specific to powdered forms.
+    """@en ;
+    rdfs:subPropertyOf op:derivedFrom ;
+    rdfs:domain op:PowderedCrudeDrug ;
+    rdfs:range op:CrudeDrugMonograph .
+
+op:derivedFrom
+    a owl:ObjectProperty ;
+    rdfs:label "derived from"@en ;
+    rdfs:comment """
+        Indicates the source monograph from which a preparation is made.
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+# =============================================================================
+# TEST CLASS PROPERTIES (from data-japan-pharmacopia)
+# =============================================================================
+
+op:hasIdentificationTest
+    a owl:ObjectProperty ;
+    rdfs:label "has identification test"@en ;
+    rdfs:comment "Links a monograph to its identification tests."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:IdentificationTest .
+
+op:hasPurityTest
+    a owl:ObjectProperty ;
+    rdfs:label "has purity test"@en ;
+    rdfs:comment "Links a monograph to its purity tests."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PurityTest .
+
+op:hasLimitTest
+    a owl:ObjectProperty ;
+    rdfs:label "has limit test"@en ;
+    rdfs:comment """
+        Links a monograph to its limit tests (e.g., loss on drying, total ash).
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:LimitTest .
+
+op:hasAssayTest
+    a owl:ObjectProperty ;
+    rdfs:label "has assay test"@en ;
+    rdfs:comment "Links a monograph to its quantitative assay tests."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:AssayTest .
+
+op:usesTestMethod
+    a owl:ObjectProperty ;
+    rdfs:label "uses test method"@en ;
+    rdfs:comment """
+        Links a test to the general test method (e.g., JP general test method)
+        that it follows.
+    """@en ;
+    rdfs:domain op:Test ;
+    rdfs:range op:HarmonizedMethod .
+
+# =============================================================================
+# PREPARATION METHOD PROPERTIES (from data-japan-pharmacopia)
+# =============================================================================
+
+op:hasPreparationMethod
+    a owl:ObjectProperty ;
+    rdfs:label "has preparation method"@en ;
+    rdfs:comment """
+        Links an extract to its preparation method/recipe.
+    """@en ;
+    rdfs:domain op:Extract ;
+    rdfs:range op:PreparationMethod .
+
+op:methodLabel
+    a owl:DatatypeProperty ;
+    rdfs:label "method label"@en ;
+    rdfs:comment """
+        The name or label of the preparation method (e.g., "Kakkonto Formula").
+    """@en ;
+    rdfs:domain op:PreparationMethod ;
+    rdfs:range rdf:langString .
+
+op:methodDescription
+    a owl:DatatypeProperty ;
+    rdfs:label "method description"@en ;
+    rdfs:comment """
+        Detailed description of the preparation method including processing steps.
+    """@en ;
+    rdfs:domain op:PreparationMethod ;
+    rdfs:range rdf:langString .
+
+op:usesCrudeDrug
+    a owl:ObjectProperty ;
+    rdfs:label "uses crude drug"@en ;
+    rdfs:comment """
+        Links an ingredient to the crude drug it represents.
+    """@en ;
+    rdfs:domain op:Ingredient ;
+    rdfs:range op:CrudeDrugMonograph .
+
+op:ingredientAmount
+    a owl:DatatypeProperty ;
+    rdfs:label "ingredient amount"@en ;
+    rdfs:comment """
+        The amount of the ingredient in the preparation
+        (e.g., "5.0", "3.0" with unit specified separately).
+    """@en ;
+    rdfs:domain op:Ingredient ;
+    rdfs:range xsd:decimal .
+
+op:ingredientAmountUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "ingredient amount unit"@en ;
+    rdfs:comment """
+        The unit for the ingredient amount (e.g., "g", "mg", "mL").
+    """@en ;
+    rdfs:domain op:Ingredient ;
+    rdfs:range xsd:string .
+
+op:ingredientRatio
+    a owl:DatatypeProperty ;
+    rdfs:label "ingredient ratio"@en ;
+    rdfs:comment """
+        The ratio or proportion of the ingredient in the formula
+        (e.g., "3", "5" for relative proportions).
+    """@en ;
+    rdfs:domain op:Ingredient ;
+    rdfs:range xsd:decimal .
+
+# =============================================================================
+# INGREDIENT LINK PROPERTY (update existing hasIngredient)
+# =============================================================================
+
+# Note: op:hasIngredient already exists for Extract -> CrudeDrugMonograph
+# This property allows linking PreparationMethod -> Ingredient
+
+op:hasIngredientItem
+    a owl:ObjectProperty ;
+    rdfs:label "has ingredient item"@en ;
+    rdfs:comment """
+        Links a preparation method to its ingredient items with amounts.
+    """@en ;
+    rdfs:domain op:PreparationMethod ;
+    rdfs:range op:Ingredient .
+
+# =============================================================================
+# CROSS-PUBLISHER LINKING PROPERTIES
+# =============================================================================
+
+op:sameSubstanceAs
+    a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "same substance as"@en ;
+    rdfs:comment """
+        Links monographs for the same substance in different pharmacopoeias.
+        This indicates that the monographs describe the exact same substance,
+        even if the test specifications may differ.
+
+        Example: JP Paracetamol sameSubstanceAs Ph.Int. Paracetamol
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:hasEquivalentIn
+    a owl:ObjectProperty ;
+    rdfs:label "has equivalent in"@en ;
+    rdfs:comment """
+        Links a monograph to an equivalent monograph in another pharmacopoeia.
+        This indicates that while the substances may have different names or
+        slight variations, they are considered therapeutically equivalent.
+
+        Example: USP Acetaminophen hasEquivalentIn JP Paracetamol
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:similarTo
+    a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "similar to"@en ;
+    rdfs:comment """
+        Links monographs for similar but not identical substances.
+        This is useful for comparing related substances or different
+        salt forms of the same active ingredient.
+
+        Example: Metformin Hydrochloride similarTo Metformin
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:relatedTo
+    a owl:ObjectProperty ;
+    rdfs:label "related to"@en ;
+    rdfs:comment """
+        A general property for linking related monographs.
+        Use more specific properties (sameSubstanceAs, hasEquivalentIn, similarTo)
+        when appropriate.
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+# Cross-publisher comparison properties
+
+op:hasComparableSpecification
+    a owl:ObjectProperty ;
+    rdfs:label "has comparable specification"@en ;
+    rdfs:comment """
+        Links a test specification to a comparable specification in another
+        monograph. This enables direct comparison of test limits across publishers.
+
+        Example: JP Ginseng Total Ash spec hasComparableSpecification HKCMMS Ginseng Total Ash spec
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range op:TestSpecification .
+
+op:specificationDifference
+    a owl:DatatypeProperty ;
+    rdfs:label "specification difference"@en ;
+    rdfs:comment """
+        Describes the difference between two comparable specifications.
+        This can be used to document how specifications differ across publishers.
+    """@en ;
+    rdfs:domain op:TestSpecification ;
+    rdfs:range rdf:langString .
+
+# Match confidence level
+
+op:matchConfidence
+    a owl:DatatypeProperty ;
+    rdfs:label "match confidence"@en ;
+    rdfs:comment """
+        The confidence level of a cross-publisher match (0.0 to 1.0).
+        Higher values indicate more confident matches based on
+        multiple identifiers (CAS, INN, chemical structure).
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:decimal .
+
+op:matchMethod
+    a owl:DatatypeProperty ;
+    rdfs:label "match method"@en ;
+    rdfs:comment """
+        The method used to determine the cross-publisher match.
+        Values: 'cas-number', 'inn', 'chemical-structure', 'name-match', 'manual'
+    """@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# Cross-Publisher Link Class
+# =============================================================================
+
+op:CrossPublisherLink
+    a owl:Class ;
+    rdfs:label "Cross-Publisher Link"@en ;
+    rdfs:comment """
+        A structured link between monographs in different pharmacopoeias.
+        This class provides additional context and metadata about the
+        relationship between monographs, including match confidence,
+        common identifiers, and link type.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:sourceMonograph ;
+        owl:cardinality 1
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty op:targetMonograph ;
+        owl:cardinality 1
+    ] .
+
+op:sourceMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "source monograph"@en ;
+    rdfs:comment "The source monograph in a cross-publisher link."@en ;
+    rdfs:domain op:CrossPublisherLink ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:targetMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "target monograph"@en ;
+    rdfs:comment "The target monograph in a cross-publisher link."@en ;
+    rdfs:domain op:CrossPublisherLink ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+op:linkType
+    a owl:DatatypeProperty ;
+    rdfs:label "link type"@en ;
+    rdfs:comment """
+        The type of relationship between monographs.
+        Values: 'sameSubstanceAs', 'hasEquivalentIn', 'similarTo', 'relatedTo'
+    """@en ;
+    rdfs:domain op:CrossPublisherLink ;
+    rdfs:range xsd:string .
+
+op:commonIdentifiers
+    a owl:DatatypeProperty ;
+    rdfs:label "common identifiers"@en ;
+    rdfs:comment """
+        Identifiers that are shared between the linked monographs,
+        such as CAS number, INN, or molecular formula.
+    """@en ;
+    rdfs:domain op:CrossPublisherLink ;
+    rdfs:range xsd:string .
+
+# END OF ONTOLOGY

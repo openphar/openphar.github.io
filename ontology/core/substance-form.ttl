@@ -1,0 +1,302 @@
+# Open Pharmacopoeia - Substance Form Ontology
+#
+# This module defines classes and properties for representing different
+# forms of pharmaceutical substances (anhydrous, hydrate, solvate variants)
+# and their equivalences.
+#
+# This addresses a key gap identified in the International Pharmacopoeia
+# where substances like Paracetamol may exist in anhydrous or hydrate forms,
+# each with different molecular weights and assay calculations.
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix sf: <https://www.openphar.org/ontology/substance-form/> .
+
+<https://www.openphar.org/ontology/substance-form/>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Substance Form Ontology"@en ;
+    rdfs:comment """
+        Ontology for representing different forms of pharmaceutical substances
+        including anhydrous, hydrate, and solvate variants. This enables
+        proper handling of molecular weight differences and assay calculations
+        for different substance forms.
+    """@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> ;
+    dct:created "2026-02-26"^^xsd:date ;
+    dct:modified "2026-02-26"^^xsd:date .
+
+# =============================================================================
+# SUBSTANCE FORM CLASS
+# =============================================================================
+
+sf:SubstanceForm
+    a owl:Class ;
+    rdfs:label "Substance Form"@en ;
+    rdfs:comment """
+        A specific physical or chemical form of a pharmaceutical substance.
+        Different forms (anhydrous, hydrate, solvate) may have different
+        molecular weights and require different assay calculations.
+    """@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty sf:formOf ;
+        owl:cardinality 1
+    ] .
+
+sf:formOf
+    a owl:ObjectProperty ;
+    rdfs:label "form of"@en ;
+    rdfs:comment "The base substance that this is a form of."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+sf:formType
+    a owl:ObjectProperty ;
+    rdfs:label "form type"@en ;
+    rdfs:comment "The type of form (anhydrous, hydrate, solvate)."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range sf:FormType .
+
+sf:molecularWeight
+    a owl:DatatypeProperty ;
+    rdfs:label "molecular weight"@en ;
+    rdfs:comment "The molecular weight of this specific form."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:decimal .
+
+sf:molecularFormula
+    a owl:DatatypeProperty ;
+    rdfs:label "molecular formula"@en ;
+    rdfs:comment "The molecular formula of this specific form."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# FORM TYPE CLASS
+# =============================================================================
+
+sf:FormType
+    a owl:Class ;
+    rdfs:label "Form Type"@en ;
+    rdfs:comment "The type of substance form."@en .
+
+sf:AnhydrousForm
+    a sf:FormType ;
+    rdfs:label "Anhydrous Form"@en ;
+    skos:prefLabel "Anhydrous"@en ;
+    skos:altLabel "Anhydrous"@en ;
+    rdfs:comment "A substance form without water of crystallization."@en .
+
+sf:HydrateForm
+    a sf:FormType ;
+    rdfs:label "Hydrate Form"@en ;
+    skos:prefLabel "Hydrate"@en ;
+    skos:altLabel "Hydrated"@en ;
+    rdfs:comment "A substance form containing water of crystallization."@en .
+
+sf:SolvateForm
+    a sf:FormType ;
+    rdfs:label "Solvate Form"@en ;
+    skos:prefLabel "Solvate"@en ;
+    rdfs:comment "A substance form containing solvent of crystallization."@en .
+
+sf:MonohydrateForm
+    a sf:FormType ;
+    rdfs:label "Monohydrate Form"@en ;
+    skos:prefLabel "Monohydrate"@en ;
+    rdfs:comment "A hydrate form with one molecule of water."@en ;
+    rdfs:subClassOf sf:HydrateForm .
+
+sf:DihydrateForm
+    a sf:FormType ;
+    rdfs:label "Dihydrate Form"@en ;
+    skos:prefLabel "Dihydrate"@en ;
+    rdfs:comment "A hydrate form with two molecules of water."@en ;
+    rdfs:subClassOf sf:HydrateForm .
+
+sf:TrihydrateForm
+    a sf:FormType ;
+    rdfs:label "Trihydrate Form"@en ;
+    skos:prefLabel "Trihydrate"@en ;
+    rdfs:comment "A hydrate form with three molecules of water."@en ;
+    rdfs:subClassOf sf:HydrateForm .
+
+sf:PentahydrateForm
+    a sf:FormType ;
+    rdfs:label "Pentahydrate Form"@en ;
+    skos:prefLabel "Pentahydrate"@en ;
+    rdfs:comment "A hydrate form with five molecules of water."@en ;
+    rdfs:subClassOf sf:HydrateForm .
+
+# =============================================================================
+# WATER/ SOLVENT CONTENT
+# =============================================================================
+
+sf:waterContent
+    a owl:DatatypeProperty ;
+    rdfs:label "water content"@en ;
+    rdfs:comment "The water content as a percentage or molecular ratio."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:string .
+
+sf:waterMolecules
+    a owl:DatatypeProperty ;
+    rdfs:label "water molecules"@en ;
+    rdfs:comment "The number of water molecules per substance molecule."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:integer .
+
+sf:solventType
+    a owl:DatatypeProperty ;
+    rdfs:label "solvent type"@en ;
+    rdfs:comment "The type of solvent in a solvate form."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:string .
+
+sf:solventMolecules
+    a owl:DatatypeProperty ;
+    rdfs:label "solvent molecules"@en ;
+    rdfs:comment "The number of solvent molecules per substance molecule."@en ;
+    rdfs:domain sf:SubstanceForm ;
+    rdfs:range xsd:integer .
+
+# =============================================================================
+# SUBSTANCE TYPE VARIANT (Type A, Type B, etc.)
+# =============================================================================
+
+sf:SubstanceTypeVariant
+    a owl:Class ;
+    rdfs:label "Substance Type Variant"@en ;
+    rdfs:comment """
+        A type variant of a pharmaceutical substance (e.g., Type A, Type B).
+        Different types may have different physical properties, particle sizes,
+        or crystalline forms while having the same chemical composition.
+    """@en .
+
+sf:typeVariantOf
+    a owl:ObjectProperty ;
+    rdfs:label "type variant of"@en ;
+    rdfs:comment "The base substance that this is a type variant of."@en ;
+    rdfs:domain sf:SubstanceTypeVariant ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+sf:variantIdentifier
+    a owl:DatatypeProperty ;
+    rdfs:label "variant identifier"@en ;
+    rdfs:comment "The identifier for this type variant (e.g., 'A', 'B', 'I', 'II')."@en ;
+    rdfs:domain sf:SubstanceTypeVariant ;
+    rdfs:range xsd:string .
+
+sf:particleSizeRange
+    a owl:DatatypeProperty ;
+    rdfs:label "particle size range"@en ;
+    rdfs:comment "The particle size range for this variant."@en ;
+    rdfs:domain sf:SubstanceTypeVariant ;
+    rdfs:range xsd:string .
+
+sf:crystallineForm
+    a owl:DatatypeProperty ;
+    rdfs:label "crystalline form"@en ;
+    rdfs:comment "The crystalline form (e.g., 'amorphous', 'crystalline', 'polymorph I')."@en ;
+    rdfs:domain sf:SubstanceTypeVariant ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# SALT-BASE EQUIVALENCE
+# =============================================================================
+
+sf:SaltBaseEquivalence
+    a owl:Class ;
+    rdfs:label "Salt-Base Equivalence"@en ;
+    rdfs:comment """
+        Defines the equivalence between a salt form and its base (free acid or
+        free base). This is essential for calculating equivalent doses and
+        for comparing different salt forms of the same active moiety.
+    """@en .
+
+sf:saltForm
+    a owl:ObjectProperty ;
+    rdfs:label "salt form"@en ;
+    rdfs:comment "The salt form of the substance."@en ;
+    rdfs:domain sf:SaltBaseEquivalence ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+sf:baseForm
+    a owl:ObjectProperty ;
+    rdfs:label "base form"@en ;
+    rdfs:comment "The base form (free acid or free base) of the substance."@en ;
+    rdfs:domain sf:SaltBaseEquivalence ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+sf:equivalenceFactor
+    a owl:DatatypeProperty ;
+    rdfs:label "equivalence factor"@en ;
+    rdfs:comment """
+        The factor to convert from salt form to base form.
+        Calculated as: MW(base) / MW(salt)
+    """@en ;
+    rdfs:domain sf:SaltBaseEquivalence ;
+    rdfs:range xsd:decimal .
+
+sf:equivalenceRatio
+    a owl:DatatypeProperty ;
+    rdfs:label "equivalence ratio"@en ;
+    rdfs:comment """
+        The ratio of salt to base (e.g., '1:1', '2:1').
+        Used for stoichiometric calculations.
+    """@en ;
+    rdfs:domain sf:SaltBaseEquivalence ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# EXAMPLE: PARACETAMOL FORMS
+# =============================================================================
+
+# Example instance data would look like:
+#
+# op:Paracetamol a op:ChemicalDrugMonograph ;
+#     skos:prefLabel "Paracetamol"@en ;
+#     sf:hasForm sf:Paracetamol-Anhydrous, sf:Paracetamol-Hydrate .
+#
+# sf:Paracetamol-Anhydrous a sf:SubstanceForm ;
+#     sf:formOf op:Paracetamol ;
+#     sf:formType sf:AnhydrousForm ;
+#     sf:molecularFormula "C8H9NO2" ;
+#     sf:molecularWeight 151.16 .
+#
+# sf:Paracetamol-Hydrate a sf:SubstanceForm ;
+#     sf:formOf op:Paracetamol ;
+#     sf:formType sf:MonohydrateForm ;
+#     sf:molecularFormula "C8H9NO2.H2O" ;
+#     sf:molecularWeight 169.18 ;
+#     sf:waterMolecules 1 .
+
+# =============================================================================
+# LINKING PROPERTY ON MONOGRAPH
+# =============================================================================
+
+op:hasSubstanceForm
+    a owl:ObjectProperty ;
+    rdfs:label "has substance form"@en ;
+    rdfs:comment "A specific form of this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range sf:SubstanceForm .
+
+op:hasTypeVariant
+    a owl:ObjectProperty ;
+    rdfs:label "has type variant"@en ;
+    rdfs:comment "A type variant of this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range sf:SubstanceTypeVariant .
+
+op:hasSaltEquivalence
+    a owl:ObjectProperty ;
+    rdfs:label "has salt equivalence"@en ;
+    rdfs:comment "Salt-base equivalence information for this substance."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range sf:SaltBaseEquivalence .

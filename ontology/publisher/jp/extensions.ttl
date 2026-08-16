@@ -1,0 +1,40 @@
+# Open Pharmacopoeia - Japanese Pharmacopoeia (JP) Extensions
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix jp: <https://www.openphar.org/ontology/publisher/jp/> .
+
+<https://www.openphar.org/ontology/publisher/jp/>
+    a owl:Ontology ;
+    rdfs:label "Japanese Pharmacopoeia Extensions"@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+<https://www.openphar.org/data/publisher/jp>
+    a op:Publisher ;
+    op:publisherCode "JP" ;
+    rdfs:label "Japanese Pharmacopoeia"@en ;
+    rdfs:seeAlso <https://www.mhlw.go.jp/topics/bukyoku/iyaku/yakkyoku/> .
+
+jp:Monograph a owl:Class ; rdfs:subClassOf op:Monograph .
+jp:CrudeDrug a owl:Class ; rdfs:subClassOf jp:Monograph, op:CrudeDrugMonograph .
+jp:PowderedCrudeDrug a owl:Class ; rdfs:subClassOf jp:CrudeDrug .
+jp:ChemicalDrug a owl:Class ; rdfs:subClassOf jp:Monograph, op:ChemicalDrugMonograph .
+jp:Formulation a owl:Class ; rdfs:subClassOf jp:Monograph, op:FormulationMonograph .
+jp:Biological a owl:Class ; rdfs:subClassOf jp:Monograph, op:BiologicalSubstanceMonograph .
+jp:Excipient a owl:Class ; rdfs:subClassOf jp:Monograph .
+jp:Vitamin a owl:Class ; rdfs:subClassOf jp:Monograph, op:VitaminMonograph .
+jp:AminoAcid a owl:Class ; rdfs:subClassOf jp:Monograph, op:AminoAcidMonograph .
+jp:Mineral a owl:Class ; rdfs:subClassOf jp:Monograph, op:MineralSubstanceMonograph .
+
+jp:japaneseName a owl:DatatypeProperty ; rdfs:domain jp:Monograph ; rdfs:range xsd:string .
+jp:englishName a owl:DatatypeProperty ; rdfs:domain jp:Monograph ; rdfs:range xsd:string .
+jp:category a owl:DatatypeProperty ; rdfs:domain jp:Monograph ; rdfs:range xsd:string .
+jp:botanicalSource a owl:ObjectProperty ; rdfs:domain jp:CrudeDrug .
+
+<https://www.openphar.org/data/edition/jp18>
+    a op:Edition ;
+    op:publisherCode "JP" ;
+    op:editionNumber "18" ;
+    rdfs:label "Japanese Pharmacopoeia 18th edition"@en .

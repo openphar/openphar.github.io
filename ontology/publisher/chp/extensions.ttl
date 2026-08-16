@@ -1,0 +1,186 @@
+# Open Pharmacopoeia - Chinese Pharmacopoeia (ChP) Extensions
+#
+# Defines extensions specific to the Chinese Pharmacopoeia, including
+# publisher identity, type-specific monograph subclasses, and properties
+# for ChP network-edition API fields.
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix chp: <https://www.openphar.org/ontology/publisher/chp/> .
+
+<https://www.openphar.org/ontology/publisher/chp/>
+    a owl:Ontology ;
+    rdfs:label "Chinese Pharmacopoeia Extensions"@en ;
+    rdfs:comment "Ontology extensions specific to the Chinese Pharmacopoeia (ChP), 2020 and 2025 network editions."@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+# =============================================================================
+# PUBLISHER
+# =============================================================================
+
+<https://www.openphar.org/data/publisher/chp>
+    a op:Publisher ;
+    op:publisherCode "ChP" ;
+    rdfs:label "Chinese Pharmacopoeia Commission"@en,
+               "国家药典委员会"@zh ;
+    rdfs:seeAlso <https://www.chp.org.cn/> .
+
+# =============================================================================
+# CHP-SPECIFIC MONOGRAPH CLASSES
+# Each subclasses the appropriate harmonized type so SPARQL consumers can
+# query by either the ChP-specific or the harmonized type.
+# =============================================================================
+
+chp:Monograph
+    a owl:Class ;
+    rdfs:label "ChP Monograph (base)"@en ;
+    rdfs:comment "Base class for all Chinese Pharmacopoeia monographs. Carries ChP-specific identity (entryId, bookId, pageNum, etc.)."@en ;
+    rdfs:subClassOf op:Monograph .
+
+chp:TcmCrudeDrug
+    a owl:Class ;
+    rdfs:label "ChP TCM Crude Drug"@en ;
+    rdfs:comment "TCM crude drug or decoction piece (药材和饮片), Vol I."@en ;
+    rdfs:subClassOf chp:Monograph, op:CrudeDrugMonograph .
+
+chp:TcmExtract
+    a owl:Class ;
+    rdfs:label "ChP TCM Extract"@en ;
+    rdfs:comment "Processed plant extract or fixed oil (植物油脂和提取物), Vol I."@en ;
+    rdfs:subClassOf chp:Monograph, op:CrudeDrugMonograph .
+
+chp:TcmFormulation
+    a owl:Class ;
+    rdfs:label "ChP TCM Formulation"@en ;
+    rdfs:comment "Classical TCM formula or single-herb preparation (成方制剂和单味制剂), Vol I."@en ;
+    rdfs:subClassOf chp:Monograph, op:FormulationMonograph .
+
+chp:ChemicalSubstance
+    a owl:Class ;
+    rdfs:label "ChP Chemical Substance"@en ;
+    rdfs:comment "Chemical drug substance (品种正文 第一部分), Vol II."@en ;
+    rdfs:subClassOf chp:Monograph, op:ChemicalDrugMonograph .
+
+chp:ChemicalPreparation
+    a owl:Class ;
+    rdfs:label "ChP Chemical Preparation"@en ;
+    rdfs:comment "Finished chemical drug product (品种正文 第二部分), Vol II."@en ;
+    rdfs:subClassOf chp:Monograph, op:FormulationMonograph .
+
+chp:Biologic
+    a owl:Class ;
+    rdfs:label "ChP Biologic"@en ;
+    rdfs:comment "Biological product (生物制品), Vol III."@en ;
+    rdfs:subClassOf chp:Monograph, op:BiologicalSubstanceMonograph .
+
+chp:GeneralChapter
+    a owl:Class ;
+    rdfs:label "ChP General Chapter"@en ;
+    rdfs:comment "General notice, general chapter, or guiding principle (通则 / 制剂通则 / 凡例 / 指导原则), Vol IV."@en ;
+    rdfs:subClassOf chp:Monograph .
+
+# =============================================================================
+# CHP-SPECIFIC DATATYPE PROPERTIES
+# =============================================================================
+
+chp:entryId
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP entry ID"@en ;
+    rdfs:comment "Sequential identifier of the entry in the ChP network-edition API."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:integer .
+
+chp:bookId
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP book ID"@en ;
+    rdfs:comment "ChP volume number (1..4: 一部 / 二部 / 三部 / 四部)."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:integer .
+
+chp:bookName
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP book name"@en ;
+    rdfs:comment "Display name of the ChP volume."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:directoryId
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP directory ID"@en ;
+    rdfs:comment "Identifier of the parent TOC node in the ChP network-edition API."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:integer .
+
+chp:directoryTitle
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP directory title"@en ;
+    rdfs:comment "Display name of the parent TOC section (e.g., 药材和饮片)."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:pinyinTitle
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP pinyin title"@en ;
+    rdfs:comment "Pinyin rendering of the Chinese title."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:eTitle
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP Latin/English title"@en ;
+    rdfs:comment "Latin botanical/zoological name (Vol I) or English name (Vol II–IV)."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:pageNum
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP printed-edition page number"@en ;
+    rdfs:comment "Page reference in the corresponding printed ChP edition."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:integer .
+
+chp:htmlContent
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP HTML content"@en ;
+    rdfs:comment "Raw HTML body of the monograph as served by the network-edition API."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:partTitle
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP part titles"@en ;
+    rdfs:comment "Ordered list of section names (e.g., 性状, 鉴别, 检查)."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:string .
+
+chp:visitCount
+    a owl:DatatypeProperty ;
+    rdfs:label "ChP visit count"@en ;
+    rdfs:comment "Page-view counter from the network-edition API."@en ;
+    rdfs:domain chp:Monograph ;
+    rdfs:range xsd:integer .
+
+# =============================================================================
+# CHP EDITIONS
+# =============================================================================
+
+<https://www.openphar.org/data/edition/chp-2025>
+    a op:Edition ;
+    op:publisherCode "ChP" ;
+    op:editionNumber "2025" ;
+    op:editionLabel "Chinese Pharmacopoeia 2025 edition (12th)"@en,
+                    "中华人民共和国药典 2025年版"@zh ;
+    op:effectiveDate "2025-10-01"^^xsd:date ;
+    rdfs:seeAlso <https://2025.chp.org.cn/> .
+
+<https://www.openphar.org/data/edition/chp-2020>
+    a op:Edition ;
+    op:publisherCode "ChP" ;
+    op:editionNumber "2020" ;
+    op:editionLabel "Chinese Pharmacopoeia 2020 edition (11th)"@en,
+                    "中华人民共和国药典 2020年版"@zh ;
+    rdfs:seeAlso <https://ydz.chp.org.cn/> .

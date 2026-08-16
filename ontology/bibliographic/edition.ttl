@@ -1,0 +1,267 @@
+# Open Pharmacopoeia - Bibliographic Ontology
+#
+# This module defines classes and properties for tracking pharmacopoeia
+# editions, supplements, and version history.
+#
+# Classes:
+#   - Edition: A specific edition of a pharmacopoeia publication
+#   - Supplement: A supplement to a pharmacopoeia edition
+#   - VersionHistory: Version tracking for monographs
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix bib: <https://www.openphar.org/ontology/bibliographic/> .
+
+<https://www.openphar.org/ontology/bibliographic/>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Bibliographic Ontology"@en ;
+    rdfs:comment "Ontology for tracking pharmacopoeia editions, supplements, and version history."@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> ;
+    dct:created "2025-02-25"^^xsd:date ;
+    dct:modified "2025-02-25"^^xsd:date .
+
+# =============================================================================
+# EDITION CLASS
+# =============================================================================
+
+bib:Edition
+    a owl:Class ;
+    rdfs:label "Pharmacopoeia Edition"@en ;
+    rdfs:comment "A specific edition of a pharmacopoeia publication, such as JP18 or Ph.Int.13."@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty bib:editionNumber ;
+        owl:minCardinality 1
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty bib:hasPublisher ;
+        owl:cardinality 1
+    ] .
+
+# Edition properties
+
+bib:editionNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "edition number"@en ;
+    rdfs:comment "The edition number as a string (e.g., '18', '13')."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:string .
+
+bib:editionLabel
+    a owl:DatatypeProperty ;
+    rdfs:label "edition label"@en ;
+    rdfs:comment "A human-readable label for the edition (e.g., 'Japanese Pharmacopoeia 18th Edition')."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range rdf:langString .
+
+bib:publicationDate
+    a owl:DatatypeProperty ;
+    rdfs:label "publication date"@en ;
+    rdfs:comment "The date when the edition was officially published."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:date .
+
+bib:effectiveDate
+    a owl:DatatypeProperty ;
+    rdfs:label "effective date"@en ;
+    rdfs:comment "The date when the edition becomes officially effective."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:date .
+
+bib:hasPublisher
+    a owl:ObjectProperty ;
+    rdfs:label "has publisher"@en ;
+    rdfs:comment "The pharmacopoeia publisher of this edition."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range op:Publisher .
+
+bib:hasSupplement
+    a owl:ObjectProperty ;
+    rdfs:label "has supplement"@en ;
+    rdfs:comment "A supplement to this edition."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range bib:Supplement .
+
+bib:containsMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "contains monograph"@en ;
+    rdfs:comment "A monograph included in this edition."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+bib:monographCount
+    a owl:DatatypeProperty ;
+    rdfs:label "monograph count"@en ;
+    rdfs:comment "The total number of monographs in this edition."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:integer .
+
+bib:officialLanguage
+    a owl:DatatypeProperty ;
+    rdfs:label "official language"@en ;
+    rdfs:comment "The official language(s) of the edition."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:string .
+
+bib:editionUrl
+    a owl:DatatypeProperty ;
+    rdfs:label "edition URL"@en ;
+    rdfs:comment "The official URL where the edition can be accessed."@en ;
+    rdfs:domain bib:Edition ;
+    rdfs:range xsd:anyURI .
+
+# =============================================================================
+# SUPPLEMENT CLASS
+# =============================================================================
+
+bib:Supplement
+    a owl:Class ;
+    rdfs:label "Pharmacopoeia Supplement"@en ;
+    rdfs:comment "A supplement to a pharmacopoeia edition containing additions, revisions, or deletions."@en ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty bib:supplementNumber ;
+        owl:minCardinality 1
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty bib:supplementTo ;
+        owl:cardinality 1
+    ] .
+
+# Supplement properties
+
+bib:supplementNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "supplement number"@en ;
+    rdfs:comment "The supplement number (e.g., '1', '2')."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range xsd:string .
+
+bib:supplementTo
+    a owl:ObjectProperty ;
+    rdfs:label "supplement to"@en ;
+    rdfs:comment "The edition this supplement applies to."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range bib:Edition .
+
+bib:supplementPublicationDate
+    a owl:DatatypeProperty ;
+    rdfs:label "supplement publication date"@en ;
+    rdfs:comment "The date when the supplement was published."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range xsd:date .
+
+bib:supplementEffectiveDate
+    a owl:DatatypeProperty ;
+    rdfs:label "supplement effective date"@en ;
+    rdfs:comment "The date when the supplement becomes effective."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range xsd:date .
+
+bib:addsMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "adds monograph"@en ;
+    rdfs:comment "A monograph added by this supplement."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+bib:revisesMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "revises monograph"@en ;
+    rdfs:comment "A monograph revised by this supplement."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+bib:deletesMonograph
+    a owl:ObjectProperty ;
+    rdfs:label "deletes monograph"@en ;
+    rdfs:comment "A monograph deleted by this supplement."@en ;
+    rdfs:domain bib:Supplement ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+# =============================================================================
+# VERSION HISTORY CLASS
+# =============================================================================
+
+bib:VersionHistory
+    a owl:Class ;
+    rdfs:label "Version History"@en ;
+    rdfs:comment "A record of version changes for a monograph across editions and supplements."@en .
+
+# Version history properties
+
+bib:versionFor
+    a owl:ObjectProperty ;
+    rdfs:label "version for"@en ;
+    rdfs:comment "The monograph this version history tracks."@en ;
+    rdfs:domain bib:VersionHistory ;
+    rdfs:range op:PharmacopoeiaMonograph .
+
+bib:hasVersion
+    a owl:ObjectProperty ;
+    rdfs:label "has version"@en ;
+    rdfs:comment "A specific version entry in the history."@en ;
+    rdfs:domain bib:VersionHistory ;
+    rdfs:range bib:MonographVersion .
+
+bib:MonographVersion
+    a owl:Class ;
+    rdfs:label "Monograph Version"@en ;
+    rdfs:comment "A specific version of a monograph in an edition or supplement."@en .
+
+bib:inEdition
+    a owl:ObjectProperty ;
+    rdfs:label "in edition"@en ;
+    rdfs:comment "The edition or supplement containing this version."@en ;
+    rdfs:domain bib:MonographVersion ;
+    rdfs:range bib:Edition .
+
+bib:changeType
+    a owl:ObjectProperty ;
+    rdfs:label "change type"@en ;
+    rdfs:comment "The type of change (new, revised, deleted, unchanged)."@en ;
+    rdfs:domain bib:MonographVersion ;
+    rdfs:range bib:ChangeType .
+
+bib:ChangeType
+    a owl:Class ;
+    rdfs:label "Change Type"@en ;
+    rdfs:comment "The type of change for a monograph version."@en .
+
+bib:NewMonograph
+    a bib:ChangeType ;
+    rdfs:label "New Monograph"@en ;
+    skos:prefLabel "New"@en .
+
+bib:RevisedMonograph
+    a bib:ChangeType ;
+    rdfs:label "Revised Monograph"@en ;
+    skos:prefLabel "Revised"@en .
+
+bib:DeletedMonograph
+    a bib:ChangeType ;
+    rdfs:label "Deleted Monograph"@en ;
+    skos:prefLabel "Deleted"@en .
+
+bib:UnchangedMonograph
+    a bib:ChangeType ;
+    rdfs:label "Unchanged Monograph"@en ;
+    skos:prefLabel "Unchanged"@en .
+
+# =============================================================================
+# MONOGRAPH TO EDITION LINKING PROPERTY
+# =============================================================================
+
+op:belongsToEdition
+    a owl:ObjectProperty ;
+    rdfs:label "belongs to edition"@en ;
+    rdfs:comment "The pharmacopoeia edition this monograph belongs to."@en ;
+    rdfs:domain op:PharmacopoeiaMonograph ;
+    rdfs:range bib:Edition .

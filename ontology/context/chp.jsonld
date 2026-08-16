@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://www.openphar.org/data/chp/",
+    "@vocab": "https://www.openphar.org/ontology/publisher/chp/",
+
+    "op": "https://www.openphar.org/ontology/core/",
+    "chp": "https://www.openphar.org/ontology/publisher/chp/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+
+    "Monograph": { "@id": "chp:Monograph" },
+    "TcmCrudeDrug": { "@id": "chp:TcmCrudeDrug" },
+    "TcmExtract": { "@id": "chp:TcmExtract" },
+    "TcmFormulation": { "@id": "chp:TcmFormulation" },
+    "ChemicalSubstance": { "@id": "chp:ChemicalSubstance" },
+    "ChemicalPreparation": { "@id": "chp:ChemicalPreparation" },
+    "Biologic": { "@id": "chp:Biologic" },
+    "GeneralChapter": { "@id": "chp:GeneralChapter" },
+    "Section": { "@id": "chp:Section" },
+
+    "entryId":       { "@id": "chp:entryId",       "@type": "xsd:integer" },
+    "bookId":        { "@id": "chp:bookId",        "@type": "xsd:integer" },
+    "bookName":      { "@id": "chp:bookName",      "@type": "xsd:string"  },
+    "directoryId":   { "@id": "chp:directoryId",   "@type": "xsd:integer" },
+    "directoryTitle":{ "@id": "chp:directoryTitle","@type": "xsd:string"  },
+    "pinyinTitle":   { "@id": "chp:pinyinTitle",   "@type": "xsd:string"  },
+    "eTitle":        { "@id": "chp:eTitle",        "@type": "xsd:string"  },
+    "pageNum":       { "@id": "chp:pageNum",       "@type": "xsd:integer" },
+    "htmlContent":   { "@id": "chp:htmlContent",   "@type": "xsd:string"  },
+    "partTitles":    { "@id": "chp:partTitle",     "@type": "xsd:string", "@container": "@set" },
+    "visitCount":    { "@id": "chp:visitCount",    "@type": "xsd:integer" },
+    "fetchedAt":     { "@id": "dct:issued",        "@type": "xsd:dateTime" },
+
+    "section": {
+      "@id": "chp:hasSection",
+      "@type": "@id",
+      "@container": "@set",
+      "@context": {
+        "@version": 1.1,
+        "@vocab": "https://www.openphar.org/ontology/publisher/chp/",
+        "sectionName":  { "@id": "chp:sectionName",  "@type": "xsd:string"  },
+        "sequence":     { "@id": "chp:sequence",     "@type": "xsd:integer" },
+        "htmlContent":  { "@id": "chp:htmlContent",  "@type": "xsd:string"  },
+        "textContent":  { "@id": "chp:textContent",  "@type": "xsd:string"  }
+      }
+    },
+
+    "slug":          { "@id": "chp:slug",          "@type": "xsd:string"  },
+    "wireKey":       { "@id": "chp:wireKey",       "@type": "xsd:string"  },
+
+    "title":         "dct:title",
+    "prefLabel":     "skos:prefLabel",
+    "publisher":     "dct:publisher",
+    "edition":       { "@id": "op:editionLabel", "@type": "xsd:string" },
+    "monographId":   { "@id": "op:monographId",   "@type": "xsd:string" },
+    "belongsToEdition": { "@id": "op:belongsToEdition", "@type": "@id" },
+    "definition":    "skos:definition",
+    "status":        { "@id": "op:status", "@type": "xsd:string" },
+    "sameSubstanceAs":  { "@id": "op:sameSubstanceAs",  "@type": "@id", "@container": "@set" },
+
+    "id":   "@id",
+    "type": "@type"
+  }
+}

@@ -1,0 +1,28 @@
+# Open Pharmacopoeia - Thai Herbal Pharmacopoeia (THP) Extensions
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix thp: <https://www.openphar.org/ontology/publisher/thp/> .
+
+<https://www.openphar.org/ontology/publisher/thp/>
+    a owl:Ontology ;
+    rdfs:label "Thai Herbal Pharmacopoeia Extensions"@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+<https://www.openphar.org/data/publisher/thp>
+    a op:Publisher ;
+    op:publisherCode "THP" ;
+    rdfs:label "Thai Herbal Pharmacopoeia"@en ;
+    rdfs:seeAlso <http://www.fda.moph.go.th/> .
+
+thp:Monograph a owl:Class ; rdfs:subClassOf op:Monograph .
+thp:HerbalMonograph a owl:Class ; rdfs:subClassOf thp:Monograph, op:CrudeDrugMonograph .
+thp:CannabisMonograph a owl:Class ; rdfs:subClassOf thp:Monograph, op:CrudeDrugMonograph .
+
+thp:thaiName a owl:DatatypeProperty ; rdfs:domain thp:Monograph ; rdfs:range xsd:string .
+thp:plantPart a owl:DatatypeProperty ; rdfs:domain thp:HerbalMonograph ; rdfs:range xsd:string .
+thp:thcContent a owl:DatatypeProperty ; rdfs:domain thp:CannabisMonograph ; rdfs:range xsd:string .
+thp:cbdContent a owl:DatatypeProperty ; rdfs:domain thp:CannabisMonograph ; rdfs:range xsd:string .
+thp:cultivar a owl:DatatypeProperty ; rdfs:domain thp:CannabisMonograph ; rdfs:range xsd:string .

@@ -1,0 +1,38 @@
+# Open Pharmacopoeia - Ayurvedic Pharmacopoeia of India (API) Extensions
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix api: <https://www.openphar.org/ontology/publisher/api/> .
+
+<https://www.openphar.org/ontology/publisher/api/>
+    a owl:Ontology ;
+    rdfs:label "Ayurvedic Pharmacopoeia of India Extensions"@en ;
+    owl:imports <https://www.openphar.org/ontology/core/> .
+
+<https://www.openphar.org/data/publisher/api>
+    a op:Publisher ;
+    op:publisherCode "API" ;
+    rdfs:label "Ayurvedic Pharmacopoeia of India"@en ;
+    rdfs:seeAlso <https://main.ayush.gov.in/> .
+
+api:Monograph a owl:Class ; rdfs:subClassOf op:Monograph .
+api:Dravya a owl:Class ; rdfs:subClassOf api:Monograph, op:CrudeDrugMonograph .
+api:Formulation a owl:Class ; rdfs:subClassOf api:Monograph, op:FormulationMonograph .
+api:Bhasma a owl:Class ; rdfs:subClassOf api:Monograph, op:MineralSubstanceMonograph .
+
+# Ayurvedic Panchakarma properties
+api:rasa a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+api:guna a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+api:virya a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+api:vipaka a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+api:karma a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+
+api:sanskritName a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+api:plantPart a owl:DatatypeProperty ; rdfs:domain api:Dravya ; rdfs:range xsd:string .
+api:constituent a owl:DatatypeProperty ; rdfs:domain api:Dravya ; rdfs:range xsd:string .
+api:dose a owl:DatatypeProperty ; rdfs:domain api:Monograph ; rdfs:range xsd:string .
+
+api:sourceMineral a owl:DatatypeProperty ; rdfs:domain api:Bhasma ; rdfs:range xsd:string .
+api:preparationMethod a owl:DatatypeProperty ; rdfs:domain api:Formulation ; rdfs:range xsd:string .

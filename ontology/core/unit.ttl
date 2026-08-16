@@ -1,0 +1,493 @@
+# Open Pharmacopoeia - Units of Measurement
+#
+# Complete enumeration of units used in pharmacopoeia specifications.
+# MECE (Mutually Exclusive, Collectively Exhaustive) organization.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix op: <https://www.openphar.org/ontology/core/> .
+@prefix unit: <https://www.openphar.org/ontology/core/unit/> .
+
+<https://www.openphar.org/ontology/core/unit>
+    a owl:Ontology ;
+    rdfs:label "Open Pharmacopoeia Units Ontology"@en ;
+    rdfs:comment "Complete enumeration of measurement units used in pharmacopoeia specifications."@en ;
+    owl:imports <https://www.openphar.org/ontology/core> .
+
+# =============================================================================
+# UNIT CATEGORIES (MECE)
+# =============================================================================
+
+unit:ConcentrationUnit
+    a owl:Class ;
+    rdfs:label "Concentration Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing concentration of substances."@en .
+
+unit:MassUnit
+    a owl:Class ;
+    rdfs:label "Mass Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing mass or weight."@en .
+
+unit:VolumeUnit
+    a owl:Class ;
+    rdfs:label "Volume Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing volume."@en .
+
+unit:TemperatureUnit
+    a owl:Class ;
+    rdfs:label "Temperature Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing temperature."@en .
+
+unit:LengthUnit
+    a owl:Class ;
+    rdfs:label "Length Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing length or distance."@en .
+
+unit:TimeUnit
+    a owl:Class ;
+    rdfs:label "Time Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing time."@en .
+
+unit:DimensionlessUnit
+    a owl:Class ;
+    rdfs:label "Dimensionless Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for dimensionless quantities."@en .
+
+unit:WavelengthUnit
+    a owl:Class ;
+    rdfs:label "Wavelength Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing wavelength."@en .
+
+unit:WaveNumberUnit
+    a owl:Class ;
+    rdfs:label "Wave Number Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing wave number (IR spectroscopy)."@en .
+
+unit:PressureUnit
+    a owl:Class ;
+    rdfs:label "Pressure Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing pressure."@en .
+
+unit:RotationalUnit
+    a owl:Class ;
+    rdfs:label "Rotational Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing optical rotation."@en .
+
+unit:ViscosityUnit
+    a owl:Class ;
+    rdfs:label "Viscosity Unit"@en ;
+    rdfs:subClassOf op:Unit ;
+    rdfs:comment "Units for expressing viscosity."@en .
+
+# =============================================================================
+# PROPERTIES
+# =============================================================================
+
+unit:symbol
+    a owl:DatatypeProperty ;
+    rdfs:label "symbol"@en ;
+    rdfs:comment "The symbol used to represent this unit."@en ;
+    rdfs:domain op:Unit ;
+    rdfs:range xsd:string .
+
+unit:siEquivalent
+    a owl:DatatypeProperty ;
+    rdfs:label "SI equivalent"@en ;
+    rdfs:comment "The equivalent value in SI base units."@en ;
+    rdfs:domain op:Unit ;
+    rdfs:range xsd:string .
+
+# =============================================================================
+# CONCENTRATION UNITS
+# =============================================================================
+
+unit:percent
+    a unit:ConcentrationUnit ;
+    rdfs:label "Percent"@en ;
+    skos:altLabel "Percentage"@en ;
+    unit:symbol "%" ;
+    rdfs:comment "Parts per hundred (w/w, w/v, or v/v as specified)."@en .
+
+unit:percent_w_w
+    a unit:ConcentrationUnit ;
+    rdfs:label "Percent Weight/Weight"@en ;
+    unit:symbol "% w/w" ;
+    rdfs:comment "Grams of solute per 100 grams of solution."@en .
+
+unit:percent_w_v
+    a unit:ConcentrationUnit ;
+    rdfs:label "Percent Weight/Volume"@en ;
+    unit:symbol "% w/v" ;
+    rdfs:comment "Grams of solute per 100 milliliters of solution."@en .
+
+unit:percent_v_v
+    a unit:ConcentrationUnit ;
+    rdfs:label "Percent Volume/Volume"@en ;
+    unit:symbol "% v/v" ;
+    rdfs:comment "Milliliters of solute per 100 milliliters of solution."@en .
+
+unit:ppm
+    a unit:ConcentrationUnit ;
+    rdfs:label "Parts Per Million"@en ;
+    unit:symbol "ppm" ;
+    rdfs:comment "Parts per million (μg/g or mg/kg)."@en .
+
+unit:ppb
+    a unit:ConcentrationUnit ;
+    rdfs:label "Parts Per Billion"@en ;
+    unit:symbol "ppb" ;
+    rdfs:comment "Parts per billion (ng/g or μg/kg)."@en .
+
+unit:mg_per_g
+    a unit:ConcentrationUnit ;
+    rdfs:label "Milligrams per Gram"@en ;
+    unit:symbol "mg/g" ;
+    rdfs:comment "Milligrams of substance per gram of sample."@en .
+
+unit:mg_per_mL
+    a unit:ConcentrationUnit ;
+    rdfs:label "Milligrams per Milliliter"@en ;
+    unit:symbol "mg/mL" ;
+    rdfs:comment "Milligrams of substance per milliliter of solution."@en .
+
+unit:μg_per_g
+    a unit:ConcentrationUnit ;
+    rdfs:label "Micrograms per Gram"@en ;
+    unit:symbol "μg/g" ;
+    rdfs:comment "Micrograms of substance per gram of sample."@en .
+
+unit:μg_per_mL
+    a unit:ConcentrationUnit ;
+    rdfs:label "Micrograms per Milliliter"@en ;
+    unit:symbol "μg/mL" ;
+    rdfs:comment "Micrograms of substance per milliliter of solution."@en .
+
+unit:mol_per_L
+    a unit:ConcentrationUnit ;
+    rdfs:label "Moles per Liter"@en ;
+    skos:altLabel "Molar"@en ;
+    unit:symbol "mol/L" ;
+    unit:symbol "M" ;
+    rdfs:comment "Molar concentration."@en .
+
+unit:mmol_per_L
+    a unit:ConcentrationUnit ;
+    rdfs:label "Millimoles per Liter"@en ;
+    skos:altLabel "Millimolar"@en ;
+    unit:symbol "mmol/L" ;
+    unit:symbol "mM" ;
+    rdfs:comment "Millimolar concentration."@en .
+
+# =============================================================================
+# MASS UNITS
+# =============================================================================
+
+unit:ng
+    a unit:MassUnit ;
+    rdfs:label "Nanogram"@en ;
+    unit:symbol "ng" ;
+    unit:siEquivalent "1e-12 kg" ;
+    rdfs:comment "One billionth of a gram."@en .
+
+unit:μg
+    a unit:MassUnit ;
+    rdfs:label "Microgram"@en ;
+    unit:symbol "μg" ;
+    unit:symbol "mcg" ;
+    unit:siEquivalent "1e-9 kg" ;
+    rdfs:comment "One millionth of a gram."@en .
+
+unit:mg
+    a unit:MassUnit ;
+    rdfs:label "Milligram"@en ;
+    unit:symbol "mg" ;
+    unit:siEquivalent "1e-6 kg" ;
+    rdfs:comment "One thousandth of a gram."@en .
+
+unit:g
+    a unit:MassUnit ;
+    rdfs:label "Gram"@en ;
+    unit:symbol "g" ;
+    unit:siEquivalent "1e-3 kg" ;
+    rdfs:comment "Base metric unit of mass."@en .
+
+unit:kg
+    a unit:MassUnit ;
+    rdfs:label "Kilogram"@en ;
+    unit:symbol "kg" ;
+    unit:siEquivalent "1 kg" ;
+    rdfs:comment "SI base unit of mass."@en .
+
+# =============================================================================
+# VOLUME UNITS
+# =============================================================================
+
+unit:μL
+    a unit:VolumeUnit ;
+    rdfs:label "Microliter"@en ;
+    unit:symbol "μL" ;
+    unit:symbol "μl" ;
+    unit:siEquivalent "1e-9 m³" ;
+    rdfs:comment "One millionth of a liter."@en .
+
+unit:mL
+    a unit:VolumeUnit ;
+    rdfs:label "Milliliter"@en ;
+    unit:symbol "mL" ;
+    unit:symbol "ml" ;
+    unit:siEquivalent "1e-6 m³" ;
+    rdfs:comment "One thousandth of a liter."@en .
+
+unit:L
+    a unit:VolumeUnit ;
+    rdfs:label "Liter"@en ;
+    unit:symbol "L" ;
+    unit:symbol "l" ;
+    unit:siEquivalent "1e-3 m³" ;
+    rdfs:comment "Base metric unit of volume."@en .
+
+unit:μL_per_injection
+    a unit:VolumeUnit ;
+    rdfs:label "Microliters per Injection"@en ;
+    unit:symbol "μL/injection" ;
+    rdfs:comment "Injection volume in chromatography."@en .
+
+# =============================================================================
+# TEMPERATURE UNITS
+# =============================================================================
+
+unit:degC
+    a unit:TemperatureUnit ;
+    rdfs:label "Degree Celsius"@en ;
+    unit:symbol "°C" ;
+    rdfs:comment "Celsius temperature scale."@en .
+
+unit:degF
+    a unit:TemperatureUnit ;
+    rdfs:label "Degree Fahrenheit"@en ;
+    unit:symbol "°F" ;
+    rdfs:comment "Fahrenheit temperature scale."@en .
+
+unit:K
+    a unit:TemperatureUnit ;
+    rdfs:label "Kelvin"@en ;
+    unit:symbol "K" ;
+    rdfs:comment "SI base unit of thermodynamic temperature."@en .
+
+# =============================================================================
+# LENGTH UNITS
+# =============================================================================
+
+unit:nm
+    a unit:LengthUnit ;
+    rdfs:label "Nanometer"@en ;
+    unit:symbol "nm" ;
+    unit:siEquivalent "1e-9 m" ;
+    rdfs:comment "One billionth of a meter."@en .
+
+unit:μm_length
+    a unit:LengthUnit ;
+    rdfs:label "Micrometer"@en ;
+    unit:symbol "μm" ;
+    unit:siEquivalent "1e-6 m" ;
+    rdfs:comment "One millionth of a meter."@en .
+
+unit:mm
+    a unit:LengthUnit ;
+    rdfs:label "Millimeter"@en ;
+    unit:symbol "mm" ;
+    unit:siEquivalent "1e-3 m" ;
+    rdfs:comment "One thousandth of a meter."@en .
+
+unit:cm
+    a unit:LengthUnit ;
+    rdfs:label "Centimeter"@en ;
+    unit:symbol "cm" ;
+    unit:siEquivalent "1e-2 m" ;
+    rdfs:comment "One hundredth of a meter."@en .
+
+# =============================================================================
+# TIME UNITS
+# =============================================================================
+
+unit:s
+    a unit:TimeUnit ;
+    rdfs:label "Second"@en ;
+    unit:symbol "s" ;
+    unit:symbol "sec" ;
+    rdfs:comment "SI base unit of time."@en .
+
+unit:min
+    a unit:TimeUnit ;
+    rdfs:label "Minute"@en ;
+    unit:symbol "min" ;
+    unit:siEquivalent "60 s" ;
+    rdfs:comment "60 seconds."@en .
+
+unit:h
+    a unit:TimeUnit ;
+    rdfs:label "Hour"@en ;
+    unit:symbol "h" ;
+    unit:symbol "hr" ;
+    unit:siEquivalent "3600 s" ;
+    rdfs:comment "60 minutes."@en .
+
+# =============================================================================
+# DIMENSIONLESS UNITS
+# =============================================================================
+
+unit:pH
+    a unit:DimensionlessUnit ;
+    rdfs:label "pH"@en ;
+    unit:symbol "pH" ;
+    rdfs:comment "Measure of acidity/alkalinity."@en .
+
+unit:index
+    a unit:DimensionlessUnit ;
+    rdfs:label "Index"@en ;
+    unit:symbol "" ;
+    rdfs:comment "Dimensionless index value."@en .
+
+unit:ratio
+    a unit:DimensionlessUnit ;
+    rdfs:label "Ratio"@en ;
+    unit:symbol ":" ;
+    rdfs:comment "Ratio of two quantities."@en .
+
+unit:refractive_index
+    a unit:DimensionlessUnit ;
+    rdfs:label "Refractive Index"@en ;
+    unit:symbol "nD" ;
+    rdfs:comment "Refractive index (dimensionless)."@en .
+
+unit:specific_gravity
+    a unit:DimensionlessUnit ;
+    rdfs:label "Specific Gravity"@en ;
+    unit:symbol "" ;
+    rdfs:comment "Ratio of density to water (dimensionless)."@en .
+
+# =============================================================================
+# WAVELENGTH UNITS (for UV-Vis spectroscopy)
+# =============================================================================
+
+unit:nm_wavelength
+    a unit:WavelengthUnit ;
+    rdfs:label "Nanometer Wavelength"@en ;
+    unit:symbol "nm" ;
+    rdfs:comment "Wavelength in nanometers (UV-Vis spectroscopy)."@en .
+
+unit:μm_wavelength
+    a unit:WavelengthUnit ;
+    rdfs:label "Micrometer Wavelength"@en ;
+    unit:symbol "μm" ;
+    rdfs:comment "Wavelength in micrometers (IR spectroscopy)."@en .
+
+# =============================================================================
+# WAVE NUMBER UNITS (for IR spectroscopy)
+# =============================================================================
+
+unit:cm_minus_1
+    a unit:WaveNumberUnit ;
+    rdfs:label "Reciprocal Centimeter"@en ;
+    unit:symbol "cm⁻¹" ;
+    unit:symbol "cm-1" ;
+    rdfs:comment "Wave number in reciprocal centimeters (IR spectroscopy)."@en .
+
+# =============================================================================
+# PRESSURE UNITS
+# =============================================================================
+
+unit:kPa
+    a unit:PressureUnit ;
+    rdfs:label "Kilopascal"@en ;
+    unit:symbol "kPa" ;
+    unit:siEquivalent "1000 Pa" ;
+    rdfs:comment "Pressure in kilopascals."@en .
+
+unit:MPa
+    a unit:PressureUnit ;
+    rdfs:label "Megapascal"@en ;
+    unit:symbol "MPa" ;
+    unit:siEquivalent "1e6 Pa" ;
+    rdfs:comment "Pressure in megapascals."@en .
+
+unit:bar
+    a unit:PressureUnit ;
+    rdfs:label "Bar"@en ;
+    unit:symbol "bar" ;
+    unit:siEquivalent "100 kPa" ;
+    rdfs:comment "Pressure in bars."@en .
+
+unit:psi
+    a unit:PressureUnit ;
+    rdfs:label "Pounds per Square Inch"@en ;
+    unit:symbol "psi" ;
+    unit:siEquivalent "6.895 kPa" ;
+    rdfs:comment "Pressure in pounds per square inch."@en .
+
+unit:mmHg
+    a unit:PressureUnit ;
+    rdfs:label "Millimeters of Mercury"@en ;
+    unit:symbol "mmHg" ;
+    rdfs:comment "Pressure in millimeters of mercury (torr)."@en .
+
+# =============================================================================
+# ROTATIONAL UNITS (optical rotation)
+# =============================================================================
+
+unit:deg_rotation
+    a unit:RotationalUnit ;
+    rdfs:label "Degree of Rotation"@en ;
+    unit:symbol "°" ;
+    rdfs:comment "Angular degrees for optical rotation."@en .
+
+unit:deg_per_dm_per_g_per_mL
+    a unit:RotationalUnit ;
+    rdfs:label "Specific Rotation"@en ;
+    unit:symbol "[α]D" ;
+    rdfs:comment "Specific optical rotation (degrees per decimeter per g/mL)."@en .
+
+# =============================================================================
+# VISCOSITY UNITS
+# =============================================================================
+
+unit:mPa_s
+    a unit:ViscosityUnit ;
+    rdfs:label "Millipascal-Second"@en ;
+    unit:symbol "mPa·s" ;
+    unit:siEquivalent "1e-3 Pa·s" ;
+    rdfs:comment "Dynamic viscosity in millipascal-seconds."@en .
+
+unit:cP
+    a unit:ViscosityUnit ;
+    rdfs:label "Centipoise"@en ;
+    unit:symbol "cP" ;
+    unit:siEquivalent "1 mPa·s" ;
+    rdfs:comment "Dynamic viscosity in centipoise."@en .
+
+unit:mm2_per_s
+    a unit:ViscosityUnit ;
+    rdfs:label "Square Millimeter per Second"@en ;
+    unit:symbol "mm²/s" ;
+    rdfs:comment "Kinematic viscosity."@en .
+
+unit:cSt
+    a unit:ViscosityUnit ;
+    rdfs:label "Centistoke"@en ;
+    unit:symbol "cSt" ;
+    unit:siEquivalent "1 mm²/s" ;
+    rdfs:comment "Kinematic viscosity in centistokes."@en .
