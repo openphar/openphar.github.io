@@ -1,0 +1,214 @@
+# Open Pharmacopoeia dataset registry
+#
+# Single source of truth for every dataset (publisher) in the network.
+# Declarative and explicit: nothing is inferred from repo names or file layout.
+# Consumed by:
+#   - scripts/generate-datasets.mjs (builds data/{id}/ + data/registry.json + data/search-index.json)
+#   - the main site views (fetch /data/registry.json)
+#   - TODO.deploy/03 per-repo browser deployments (rights + browser.path)
+#
+# rights:
+#   full       — content is freely available from the official source; may deploy body text
+#   title-only — copyrighted (USP / Ph. Eur. / BP): titles/index metadata ONLY, never body text
+# status:
+#   published  — content served on this site
+#   raw        — source documents acquired, extraction not yet complete (no content yet)
+#   reference  — harmonization reference data (not a monograph collection)
+
+version: 1
+
+datasets:
+  jp:
+    name: Japanese Pharmacopoeia
+    short: JP
+    country: JP
+    organization: Ministry of Health, Labour and Welfare (PMDA)
+    edition: JP18
+    rights: full
+    status: published
+    source:
+      url: https://www.pmda.go.jp/english/rs-sb-std/jp.html
+    repo: openphar/open-pharmacopoeia
+    browser: { path: /data-japan-pharmacopia/, status: pending }
+    # full monographs are vendored (data/jp/jp-monographs.jsonld, generated upstream)
+
+  phint:
+    name: The International Pharmacopoeia
+    short: Ph.Int.
+    country: INTL
+    organization: World Health Organization
+    edition: 13th edition
+    rights: full
+    status: published
+    source:
+      url: https://www.who.int/teams/health-product-and-policy-standards/standards-and-specifications/pharmaceuticals/international-pharmacopoeia
+    repo: openphar/data-international-pharmacopoeia
+    browser: { path: /data-international-pharmacopoeia/, status: pending }
+
+  thp:
+    name: Thai Pharmacopoeia
+    short: TP
+    country: TH
+    organization: Ministry of Public Health, Thailand
+    edition: THP-1
+    rights: full
+    status: published
+    source:
+      url: https://pharmaci.email.go.th/
+    repo: openphar/data-thai-pharmacopoeia
+    browser: { path: /data-thai-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-thai-pharmacopoeia
+      glob: data/THP-1/yaml/*.yaml
+      mode: full
+
+  chp:
+    name: Chinese Pharmacopoeia
+    short: ChP
+    nativeName: 中国药典
+    country: CN
+    organization: National Medical Products Administration
+    edition: ChP 2025
+    rights: full
+    status: published
+    source:
+      url: https://ydz.chp.org.cn/
+    repo: openphar/data-china-pharmacopoeia
+    browser: { path: /data-china-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-china-pharmacopoeia
+      glob: data/2025/semantic-yaml/*.yaml
+      mode: titles
+
+  kp:
+    name: Korean Pharmacopoeia
+    short: KP
+    nativeName: 대한민국약전
+    country: KR
+    organization: Ministry of Food and Drug Safety
+    edition: KP13
+    rights: full
+    status: raw   # source documents acquired (KP10–KP13); monograph extraction pending
+    source:
+      url: https://www.mfds.go.kr/brd/m_211/view.do?seq=14975
+    repo: openphar/data-korea-pharmacopoeia
+    browser: { path: /data-korea-pharmacopoeia/, status: pending }
+
+  ip:
+    name: Indian Pharmacopoeia
+    short: IP
+    country: IN
+    organization: Indian Pharmacopoeia Commission
+    edition: IP 2022
+    rights: full
+    status: published
+    source:
+      url: https://www.ipc.gov.in/
+    repo: openphar/data-india-pharmacopoeia
+    browser: { path: /data-india-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-india-pharmacopoeia
+      glob: data/ip/*.yaml
+      mode: definition
+
+  ayp:
+    name: Ayurvedic Pharmacopoeia of India
+    short: API
+    country: IN
+    organization: Ministry of AYUSH / CCRAS
+    edition: API Part I–VII
+    rights: full
+    status: published
+    source:
+      url: https://ayush.gov.in/
+    repo: openphar/data-india-ayurvedic-pharmacopoeia
+    browser: { path: /data-india-ayurvedic-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-india-ayurvedic-pharmacopoeia
+      glob: data/yaml/**/*.yaml
+      exclude: _*.yaml
+      mode: definition
+
+  hk:
+    name: Hong Kong Chinese Materia Medica Standards
+    short: HKCMMS
+    country: HK
+    organization: Department of Health, Hong Kong SAR
+    edition: HKCMMS Vol 1–12
+    rights: full
+    status: published
+    source:
+      url: https://www.cm.gov.hk/english/hkcmms/hkcmms.html
+    repo: openphar/data-hkcmms
+    browser: { path: /data-hkcmms/, status: pending }
+    generate:
+      repo: ../data-hkcmms
+      glob: data/HKCMMS-1/yaml/*.yaml
+      mode: definition
+
+  ich:
+    name: ICH Q4 Harmonization
+    short: ICH Q4
+    country: INTL
+    organization: International Council for Harmonisation
+    edition: Q4B current
+    rights: full
+    status: reference   # pharmacopoeial harmonization texts — the base layer anchor
+    source:
+      url: https://www.ich.org/page/quality-guidelines
+    repo: openphar/data-ich-q4
+    browser: { path: /data-ich-q4/, status: pending }
+
+  us:
+    name: United States Pharmacopeia–NF
+    short: USP
+    country: US
+    organization: United States Pharmacopeial Convention
+    edition: USP48–NF43 (2025)
+    rights: title-only   # copyrighted — titles and index metadata only, never body text
+    status: published
+    restriction:
+      notice: Full text available by subscription from USP.
+      url: https://www.usp.org/
+    repo: openphar/data-us-pharmacopoeia
+    browser: null
+    generate:
+      repo: ../data-us-pharmacopoeia
+      glob: data/2025-USP48-NF43/*.yaml
+      mode: titles
+
+  eu:
+    name: European Pharmacopoeia
+    short: Ph. Eur.
+    country: EU
+    organization: Council of Europe / EDQM
+    edition: current
+    rights: title-only
+    status: published
+    restriction:
+      notice: Full text available from EDQM (Pharmeuropa / online).
+      url: https://www.edqm.eu/
+    repo: openphar/data-eu-pharmacopoeia
+    browser: null
+    generate:
+      repo: ../data-eu-pharmacopoeia
+      glob: data/ep/*.yaml
+      mode: titles
+
+  uk:
+    name: British Pharmacopoeia
+    short: BP
+    country: GB
+    organization: UK Government, MHRA
+    edition: BP 2025
+    rights: title-only
+    status: published
+    restriction:
+      notice: Full text available from the MHRA British Pharmacopoeia website.
+      url: https://www.pharmacopoeia.com/
+    repo: openphar/data-uk-pharmacopoeia
+    browser: null
+    generate:
+      repo: ../data-uk-pharmacopoeia
+      glob: data/2025-BP/**/*.yaml
+      mode: titles

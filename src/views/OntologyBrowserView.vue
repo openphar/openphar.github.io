@@ -70,10 +70,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold text-gray-900 mb-6">Ontology Browser</h1>
+  <div class="container mx-auto px-4 py-10">
+    <p class="eyebrow">Data service</p>
+    <h1 class="mt-2 font-display text-4xl font-semibold tracking-tight">Ontology Browser</h1>
 
-    <p class="text-gray-600 mb-6">
+    <p class="text-ink/70 mb-6">
       Explore the Open Pharmacopoeia ontology files. These files define the vocabulary and structure
       for pharmacopoeia data in RDF/OWL format.
     </p>
@@ -81,33 +82,33 @@ onMounted(() => {
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- File List -->
       <div class="lg:col-span-1">
-        <div class="bg-white rounded-xl shadow-md p-4">
-          <h2 class="font-semibold text-gray-900 mb-4">Ontology Files</h2>
+        <div class="bg-paper rounded-xl shadow-md p-4">
+          <h2 class="font-semibold text-ink mb-4">Ontology Files</h2>
           <div class="space-y-2">
             <button
               v-for="file in ontologyFiles"
               :key="file.path"
               @click="loadFile(file)"
               class="w-full text-left px-4 py-3 rounded-lg transition-colors"
-              :class="selectedFile?.path === file.path ? 'bg-primary-100 text-primary-800' : 'hover:bg-gray-100'"
+              :class="selectedFile?.path === file.path ? 'bg-pine/10 text-pine' : 'hover:bg-wash'"
             >
               <div class="font-medium">{{ file.name }}</div>
-              <div class="text-sm text-gray-500">{{ file.type }}</div>
+              <div class="text-sm text-ink/55">{{ file.type }}</div>
             </button>
           </div>
         </div>
 
         <!-- Quick Links -->
-        <div class="bg-white rounded-xl shadow-md p-4 mt-4">
-          <h2 class="font-semibold text-gray-900 mb-4">Resources</h2>
+        <div class="bg-paper rounded-xl shadow-md p-4 mt-4">
+          <h2 class="font-semibold text-ink mb-4">Resources</h2>
           <ul class="space-y-2 text-sm">
             <li>
-              <a href="/data/jp/jp-monographs.jsonld" target="_blank" class="text-primary-600 hover:underline">
+              <a href="/data/jp/jp-monographs.jsonld" target="_blank" class="text-pine hover:underline">
                 JP Monographs (JSON-LD)
               </a>
             </li>
             <li>
-              <a href="/data/jp/jp-monographs.ttl" target="_blank" class="text-primary-600 hover:underline">
+              <a href="/data/jp/jp-monographs.ttl" target="_blank" class="text-pine hover:underline">
                 JP Monographs (Turtle)
               </a>
             </li>
@@ -117,9 +118,9 @@ onMounted(() => {
 
       <!-- File Content -->
       <div class="lg:col-span-2">
-        <div class="bg-white rounded-xl shadow-md p-4 min-h-[600px]">
-          <div v-if="!selectedFile" class="text-center py-12 text-gray-500">
-            <svg class="w-16 h-16 mx-auto mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-paper rounded-xl shadow-md p-4 min-h-[600px]">
+          <div v-if="!selectedFile" class="text-center py-12 text-ink/55">
+            <svg class="w-16 h-16 mx-auto mb-4 text-ink/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
             <p>Select a file from the list to view its contents</p>
@@ -127,7 +128,7 @@ onMounted(() => {
 
           <div v-else-if="loading" class="text-center py-12">
             <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto"></div>
-            <p class="mt-4 text-gray-600">Loading...</p>
+            <p class="mt-4 text-ink/70">Loading...</p>
           </div>
 
           <div v-else-if="error" class="text-center py-12 text-red-600">
@@ -139,8 +140,8 @@ onMounted(() => {
 
           <div v-else>
             <div class="flex justify-between items-center mb-4">
-              <h2 class="font-semibold text-gray-900">{{ selectedFile.name }}</h2>
-              <span class="text-sm text-gray-500">{{ selectedFile.type }}</span>
+              <h2 class="font-semibold text-ink">{{ selectedFile.name }}</h2>
+              <span class="text-sm text-ink/55">{{ selectedFile.type }}</span>
             </div>
             <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-auto text-sm max-h-[500px]">{{ formatContent(fileContent) }}</pre>
           </div>

@@ -1,6 +1,6 @@
 # TODO 02 — Declarative dataset registry (explicit configuration, not convention)
 
-Status: planned
+Status: **in progress** — `registry/datasets.yml` + `scripts/generate-datasets.mjs` + `data/registry.json` are live in the main site repo and drive the site (2026-08-16). Remaining: JSON-Schema validation in CI, retirement of vendored jp/phint files in favor of registry-driven upstream fetch, promotion to a dedicated repo when the Cloudflare tier lands.
 Depends on: TODO 01 (stack) — schema can be drafted in parallel
 Unblocks: TODO 03 (what deploys where), TODO 04 (linking rights), TODO 05 (private tier)
 

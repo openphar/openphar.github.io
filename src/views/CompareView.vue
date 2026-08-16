@@ -54,11 +54,12 @@ async function searchMonographs() {
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold text-gray-900 mb-6">Compare Monographs</h1>
+  <div class="container mx-auto px-4 py-10">
+    <p class="eyebrow">Data service</p>
+    <h1 class="mt-2 font-display text-4xl font-semibold tracking-tight">Compare Monographs</h1>
 
-    <div class="bg-white rounded-xl shadow-md p-6 mb-6">
-      <p class="text-gray-600 mb-4">
+    <div class="bg-paper rounded-xl shadow-md p-6 mb-6">
+      <p class="text-ink/70 mb-4">
         Search for a substance to compare its specifications across different pharmacopoeia publishers.
       </p>
       <div class="flex gap-4">
@@ -67,7 +68,7 @@ async function searchMonographs() {
           @input="searchMonographs"
           type="text"
           placeholder="Enter substance name (e.g., paracetamol, aspirin)"
-          class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+          class="flex-1 px-4 py-2 border border-line rounded-lg focus:ring-2 focus:ring-moss focus:border-moss"
         />
       </div>
     </div>
@@ -79,17 +80,17 @@ async function searchMonographs() {
     <div v-else-if="jpResults.length > 0" class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- JP Results -->
       <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+        <h2 class="text-xl font-semibold text-ink mb-4 flex items-center">
           <span class="badge badge-jp mr-2">JP</span>
           Japan Pharmacopoeia
         </h2>
         <div class="space-y-4">
-          <div v-for="monograph in jpResults" :key="monograph['@id']" class="bg-white rounded-lg shadow-md p-4">
-            <h3 class="font-semibold text-gray-900">{{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}</h3>
-            <p class="text-sm text-gray-500 mt-1">{{ monograph['@id'] }}</p>
+          <div v-for="monograph in jpResults" :key="monograph['@id']" class="bg-paper rounded-lg shadow-md p-4">
+            <h3 class="font-semibold text-ink">{{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}</h3>
+            <p class="text-sm text-ink/55 mt-1">{{ monograph['@id'] }}</p>
             <details class="mt-2">
-              <summary class="text-sm text-primary-600 cursor-pointer">View details</summary>
-              <pre class="mt-2 p-2 bg-gray-100 rounded text-xs overflow-auto">{{ JSON.stringify(monograph, null, 2) }}</pre>
+              <summary class="text-sm text-pine cursor-pointer">View details</summary>
+              <pre class="mt-2 p-2 bg-wash rounded text-xs overflow-auto">{{ JSON.stringify(monograph, null, 2) }}</pre>
             </details>
           </div>
         </div>
@@ -97,27 +98,27 @@ async function searchMonographs() {
 
       <!-- Ph.Int. Results -->
       <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+        <h2 class="text-xl font-semibold text-ink mb-4 flex items-center">
           <span class="badge badge-phint mr-2">Ph.Int.</span>
           International Pharmacopoeia
         </h2>
         <div v-if="phintResults.length > 0" class="space-y-4">
-          <div v-for="monograph in phintResults" :key="monograph['@id']" class="bg-white rounded-lg shadow-md p-4">
-            <h3 class="font-semibold text-gray-900">{{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}</h3>
-            <p class="text-sm text-gray-500 mt-1">{{ monograph['@id'] }}</p>
+          <div v-for="monograph in phintResults" :key="monograph['@id']" class="bg-paper rounded-lg shadow-md p-4">
+            <h3 class="font-semibold text-ink">{{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}</h3>
+            <p class="text-sm text-ink/55 mt-1">{{ monograph['@id'] }}</p>
           </div>
         </div>
-        <div v-else class="bg-gray-50 rounded-lg p-8 text-center text-gray-500">
+        <div v-else class="bg-wash rounded-lg p-8 text-center text-ink/55">
           No matching monographs found in Ph.Int.
         </div>
       </div>
     </div>
 
-    <div v-else-if="searchQuery && searchQuery.length >= 2" class="text-center py-12 text-gray-500">
+    <div v-else-if="searchQuery && searchQuery.length >= 2" class="text-center py-12 text-ink/55">
       No results found for "{{ searchQuery }}"
     </div>
 
-    <div v-else class="text-center py-12 text-gray-500">
+    <div v-else class="text-center py-12 text-ink/55">
       Enter a search query to compare monographs across publishers.
     </div>
   </div>

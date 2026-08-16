@@ -1,174 +1,135 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import { useHead } from '@unhead/vue'
+import { useRoute } from 'vue-router'
 import { useSearch } from '../composables/useSearch'
-import MonographCard from '../components/monograph/MonographCard.vue'
+import { loadRegistry, rightsMeta } from '../lib/registry'
 
 useHead({
-  title: 'Search - Open Pharmacopoeia',
-  meta: [
-    { name: 'description', content: 'Search pharmacopoeia monographs across all publishers' }
-  ]
+  title: 'Search — Open Pharmacopoeia',
+  meta: [{ name: 'description', content: 'Search monographs across every pharmacopoeia in the registry — open datasets in full, copyrighted ones by title index.' }]
 })
 
-const { loading, initialized, initialize, search, getAll, getCategories, getStats } = useSearch()
+const route = useRoute()
+const { loading, initialized, initialize, search, getStats } = useSearch()
 
-const searchQuery = ref('')
-const selectedPublisher = ref('')
-const selectedCategory = ref('')
+const registry = ref([])
+const query = ref('')
+const selectedDataset = ref('')
+const restrictedOnly = ref(false)
 const results = ref([])
-const categories = ref([])
-const stats = ref({ total: 0, byPublisher: {} })
-const isSearching = ref(false)
+const total = ref(0)
 
-// Debounce timer
-let debounceTimer = null
+const datasetOptions = computed(() => registry.value.map(d => ({ id: d.id, label: `${d.short} — ${d.name}` })))
 
-// Perform search with debounce
-function performSearch() {
-  if (debounceTimer) {
-    clearTimeout(debounceTimer)
-  }
-
-  debounceTimer = setTimeout(() => {
-    isSearching.value = true
-
-    try {
-      if (searchQuery.value && searchQuery.value.length >= 2) {
-        results.value = search(searchQuery.value, {
-          publisher: selectedPublisher.value || undefined,
-          category: selectedCategory.value || undefined,
-          limit: 100
-        })
-      } else {
-        results.value = getAll({
-          publisher: selectedPublisher.value || undefined,
-          category: selectedCategory.value || undefined,
-          limit: 100
-        })
-      }
-    } finally {
-      isSearching.value = false
-    }
-  }, 300)
-}
-
-// Watch for changes
-watch([searchQuery, selectedPublisher, selectedCategory], () => {
-  if (initialized.value) {
-    performSearch()
-  }
-})
-
-// Initialize on mount
 onMounted(async () => {
   await initialize()
-  categories.value = getCategories()
-  stats.value = getStats()
-  results.value = getAll({ limit: 100 })
+  try { registry.value = await loadRegistry() } catch { /* registry optional here */ }
+  const q = route.query.q
+  if (q) {
+    query.value = String(q)
+    runSearch()
+  } else {
+    total.value = getStats().total
+  }
 })
 
-// Stats display
-const jpCount = computed(() => stats.value.byPublisher?.jp || 0)
-const phintCount = computed(() => stats.value.byPublisher?.phint || 0)
+let timer = null
+watch([query, selectedDataset, restrictedOnly], () => {
+  if (timer) clearTimeout(timer)
+  timer = setTimeout(runSearch, 250)
+})
+
+function runSearch() {
+  if (!initialized.value) return
+  if (query.value.trim().length >= 2) {
+    results.value = search(query.value.trim(), {
+      dataset: selectedDataset.value || undefined,
+      restricted: restrictedOnly.value ? true : undefined,
+      limit: 120
+    })
+  } else {
+    results.value = []
+  }
+  total.value = getStats().total
+}
+
+function datasetMeta(id) {
+  return registry.value.find(d => d.id === id)
+}
+
+function isRestricted(r) {
+  return r.k === 0
+}
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold text-gray-900 mb-6">Search Monographs</h1>
+  <div class="container mx-auto px-4 py-10">
+    <p class="eyebrow">Global search</p>
+    <h1 class="mt-2 font-display text-4xl font-semibold tracking-tight">Every monograph, one query</h1>
+    <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ink/70">
+      {{ total.toLocaleString() }} indexed entries across {{ registry.length }} datasets.
+      Green results open the full text here; red results are index entries for
+      copyrighted pharmacopoeias (USP, Ph.&nbsp;Eur., BP).
+    </p>
 
-    <!-- Stats -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-primary-600">{{ stats.total.toLocaleString() }}</div>
-        <div class="text-gray-600 text-sm">Total Monographs</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-red-600">{{ jpCount.toLocaleString() }}</div>
-        <div class="text-gray-600 text-sm">JP Monographs</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-blue-600">{{ phintCount.toLocaleString() }}</div>
-        <div class="text-gray-600 text-sm">Ph.Int. Monographs</div>
-      </div>
+    <div class="mt-7 flex flex-col gap-3 lg:flex-row">
+      <input
+        v-model="query"
+        type="search"
+        placeholder="e.g. paracetamol, ginseng, 아세틸시스테인…"
+        class="w-full rounded-sm border border-line bg-paper px-4 py-3 text-base focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
+        autofocus
+      >
+      <select
+        v-model="selectedDataset"
+        class="rounded-sm border border-line bg-paper px-4 py-3 text-sm focus:border-moss lg:w-64"
+      >
+        <option value="">All datasets</option>
+        <option v-for="d in datasetOptions" :key="d.id" :value="d.id">{{ d.label }}</option>
+      </select>
+      <label class="flex items-center gap-2 rounded-sm border border-line bg-paper px-4 py-3 text-sm text-ink/75 lg:w-56">
+        <input v-model="restrictedOnly" type="checkbox" class="accent-oxblood">
+        Index-only entries
+      </label>
     </div>
 
-    <!-- Search Form -->
-    <div class="bg-white rounded-xl shadow-md p-6 mb-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="md:col-span-1">
-          <label for="search" class="block text-sm font-medium text-gray-700 mb-1">Search Query</label>
-          <input
-            id="search"
-            v-model="searchQuery"
-            type="text"
-            placeholder="Search by name, CAS number, formula..."
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-          />
-        </div>
-        <div>
-          <label for="publisher" class="block text-sm font-medium text-gray-700 mb-1">Publisher</label>
-          <select
-            id="publisher"
-            v-model="selectedPublisher"
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+    <div v-if="loading" class="py-16 text-center">
+      <div class="mx-auto h-10 w-10 animate-spin rounded-full border-2 border-line border-t-pine"></div>
+      <p class="mt-4 font-mono text-xs uppercase tracking-[0.12em] text-ink/50">Loading index…</p>
+    </div>
+
+    <template v-else>
+      <p class="mt-6 font-mono text-xs text-ink/55">
+        {{ query.length >= 2 ? `${results.length} result${results.length === 1 ? '' : 's'}` : `${total.toLocaleString()} entries indexed — start typing to search` }}
+      </p>
+
+      <ul v-if="results.length" class="mt-4 divide-y divide-line border-y border-line">
+        <li v-for="r in results" :key="r.d + '/' + r.s">
+          <RouterLink
+            :to="`/pharmacopoeia/${r.d}/${r.c}/${r.s}`"
+            class="group flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-3.5 transition-colors hover:bg-wash/60"
           >
-            <option value="">All Publishers</option>
-            <option value="jp">Japan (JP)</option>
-            <option value="phint">International (Ph.Int.)</option>
-          </select>
-        </div>
-        <div>
-          <label for="category" class="block text-sm font-medium text-gray-700 mb-1">Category</label>
-          <select
-            id="category"
-            v-model="selectedCategory"
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-          >
-            <option value="">All Categories</option>
-            <option v-for="cat in categories" :key="cat" :value="cat">
-              {{ cat }}
-            </option>
-          </select>
-        </div>
-      </div>
-    </div>
+            <span class="flex min-w-0 items-baseline gap-3">
+              <span
+                class="flex-shrink-0 rounded-sm px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
+                :class="isRestricted(r) ? 'bg-oxblood/10 text-oxblood' : 'bg-pine/10 text-pine'"
+              >
+                {{ datasetMeta(r.d)?.short || r.d }}
+              </span>
+              <span class="truncate text-[0.95rem] font-medium text-ink group-hover:text-pine">{{ r.t }}</span>
+            </span>
+            <span class="font-mono text-[10px] uppercase tracking-wider text-ink/45">
+              {{ isRestricted(r) ? 'index only' : r.c }}
+            </span>
+          </RouterLink>
+        </li>
+      </ul>
 
-    <!-- Loading State -->
-    <div v-if="loading" class="text-center py-12">
-      <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto"></div>
-      <p class="mt-4 text-gray-600">Loading search index...</p>
-    </div>
-
-    <!-- Search Results -->
-    <div v-else>
-      <div class="flex justify-between items-center mb-4">
-        <p class="text-gray-600">
-          Showing {{ results.length }} monographs
-          <span v-if="searchQuery">(searching for "{{ searchQuery }}")</span>
-        </p>
-        <div v-if="isSearching" class="text-gray-500">
-          Searching...
-        </div>
+      <div v-else-if="query.length >= 2" class="py-14 text-center">
+        <p class="latin text-2xl text-ink/25">nihil inventum</p>
+        <p class="mt-2 text-sm text-ink/60">No entries match "{{ query }}". Try a substance name, INN, or Latin title.</p>
       </div>
-
-      <div v-if="results.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <MonographCard
-          v-for="monograph in results"
-          :key="monograph['@id']"
-          :monograph="monograph"
-          :publisher="monograph.publisher"
-          :category="monograph.category"
-          :slug="monograph.slug"
-        />
-      </div>
-
-      <div v-else class="text-center py-12 bg-gray-50 rounded-lg">
-        <svg class="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <p class="text-gray-600">No monographs found matching your criteria.</p>
-      </div>
-    </div>
+    </template>
   </div>
 </template>

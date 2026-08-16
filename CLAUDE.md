@@ -15,26 +15,30 @@ The actual ontology and data live in the sibling repo `open-pharmacopoeia` (chec
 ## Commands
 
 ```bash
-npm run dev       # Vite dev server (data served from ../open-pharmacopoeia via middleware)
+npm run dev       # Vite dev server (data served from ./data via middleware)
+npm run generate  # regenerate data/{id}/*.jsonld + registry.json + search-index.json
+                  # from sibling data repos, driven by registry/datasets.yml
 npm run build     # vite-ssg SSG build → dist/ (copies data + ontology into dist/)
 npm run preview   # serve the built dist/
 ```
 
 No test suite or linter is configured.
 
-**Data sources:** the build needs `data/` + `ontology/`. Resolution order (see `getDataDir()`/`getOntologyDir()` in `vite.config.js`): sibling checkout `../open-pharmacopoeia/{data,ontology}` first (local dev, always fresher), then the vendored copies in this repo (`data/jp/jp-monographs.jsonld`, `data/phint/phint-monographs.jsonld`, `ontology/`) — the CI path, since `open-pharmacopoeia` is private and its `data/` is not committed to any remote branch. Vendored copies are interim until the declarative registry pipeline lands (`TODO.deploy/02-declarative-dataset-registry.md`). If data is missing, the build succeeds but produces a site with no monographs — always check that `dist/data/` and `dist/ontology/` exist after a build.
+**Data pipeline:** `registry/datasets.yml` is the declarative source of truth for every dataset (publisher, rights, repo, extraction glob). `npm run generate` walks the sibling repos (`../data-*`) per the registry and writes `data/{id}/{id}-monographs.jsonld`, `data/registry.json`, `data/search-index.json` — all committed (vendored). `./data` is canonical for builds; `../open-pharmacopoeia/{data,ontology}` are dev-time fallbacks only. Regenerate + commit after changing sibling data or the registry.
+
+**Rights enforcement:** datasets with `rights: title-only` (USP, Ph. Eur., BP — copyrighted) are generated as `TitleIndexEntry` records containing only title/edition/category. The generator drops everything else; never add body fields for those datasets (TODO.deploy/04).
 
 ## Architecture
 
 ### Site pipeline
 
 - Entry `src/main.js` exports `createApp = ViteSSG(App, { routes, base: '/' })` — static site generation via vite-ssg (SSR-prerendered HTML + hydration).
-- `vite.config.js` contains a custom `dataPlugin()` that does two jobs:
-  - **Dev:** middleware serving `/data/*` and `/ontology/*` directly from the sibling repo (no copying needed in dev).
-  - **Build:** `closeBundle()` copies `../open-pharmacopoeia/data` → `dist/data` and `../open-pharmacopoeia/ontology` → `dist/ontology`. Data files are never imported through the bundler; they are fetched at runtime as static assets.
-- Dynamic routes for SSG are enumerated in `ssgOptions.includedRoutes`: it parses `jp/jp-monographs.jsonld`, filters items whose `@type` ends with `Monograph`, and emits `/pharmacopoeia/jp/{category}/{slug}` per monograph by regex-matching the `@id`.
-- Routes (`src/router/index.js`): `/`, `/pharmacopoeia/:publisher`, `/pharmacopoeia/:publisher/:category/:slug` (monograph detail), `/search`, `/compare`, `/api`, `/ontology`.
-- Search (`src/composables/useSearch.js`): fetches `/data/jp/jp-monographs.jsonld` on first use, builds a module-level FlexSearch `Document` index (singleton across components), then filters by publisher/category in memory.
+- `vite.config.js` `dataPlugin()` serves `/data/*` + `/ontology/*` from `./data`/`./ontology` in dev and copies them into `dist/` at build. Data is fetched at runtime as static assets, never bundled.
+- `ssgOptions.includedRoutes` generates `/pharmacopoeia/{id}` + `/pharmacopoeia/{id}/{category}/{slug}` routes for every dataset file and every registry dataset (including `status: raw` ones with no data yet) — ~26k pages.
+- Routes (`src/router/index.js`): `/`, `/pharmacopoeia/:publisher`, `/pharmacopoeia/:publisher/:category/:slug`, `/search`, `/compare`, `/api`, `/ontology`.
+- `src/lib/registry.js` — shared fetch/cache of `/data/registry.json`; drives HomeView's dataset grid + spine wall, PharmacopoeiaView headers/banners, and restricted-entry cards.
+- Search (`src/composables/useSearch.js`) loads the slim `/data/search-index.json` (titles only, all datasets) into a FlexSearch singleton; monograph detail pages fetch the full per-dataset JSON-LD on open.
+- Branding: Fraunces Variable (display), IBM Plex Sans/Mono; palette + tokens in `tailwind.config.js` and `src/styles/main.css`; logo `src/components/BrandMark.vue` (three converging circles = ICH Q4 trio → harmonized layer).
 
 ### Data model (JSON-LD)
 

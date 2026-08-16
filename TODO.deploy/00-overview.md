@@ -46,7 +46,9 @@ Deploy the Open Pharmacopoeia site network on GitHub Pages:
 
 ## Shipped state (2026-08-16)
 
-- Main site deployed via GH Actions from this repo (self-contained build; vendored `data/jp/jp-monographs.jsonld`, `data/phint/phint-monographs.jsonld`, `ontology/`).
+- Main site live at www.openphar.org via GH Actions (self-contained build).
+- **All 12 datasets surfaced** (second deploy, 2026-08-16): jp/phint full monographs; thp/chp/ip/ayp/hk indexed monographs generated from sibling repos (`npm run generate`, driven by `registry/datasets.yml`); us/eu/uk as title-only restricted entries; kp as raw-status page; ich as reference. ~26k prerendered pages; global search over 23k titles (`data/search-index.json`).
+- Brand identity applied: Fraunces + IBM Plex, compendium green/brass/oxblood palette, three-circle harmonization mark, registry-wall home page.
 - Main site still runs the interim Vue + vite-ssg stack; TODO 01 replaces it with Astro 7.
 
 ## Execution order

@@ -4,11 +4,12 @@ import { resolve } from 'path'
 import fs from 'fs'
 import path from 'path'
 
-// Find data directory - try both locations
+// Find data directory — ./data is canonical (vendored jp/phint + generated
+// datasets from scripts/generate-datasets.mjs); the sibling checkout is a fallback.
 function getDataDir() {
-  const localDataDir = path.resolve(__dirname, '../open-pharmacopoeia/data')
-  const ciDataDir = path.resolve(__dirname, './data')
-  return fs.existsSync(localDataDir) ? localDataDir : ciDataDir
+  const vendoredDir = path.resolve(__dirname, './data')
+  const siblingDir = path.resolve(__dirname, '../open-pharmacopoeia/data')
+  return fs.existsSync(vendoredDir) ? vendoredDir : siblingDir
 }
 
 // Find ontology directory - sibling repo takes precedence, vendored copy is the CI fallback
@@ -116,39 +117,41 @@ export default defineConfig({
 
       const dataDir = getDataDir()
 
-      // Add routes for each pharmacopoeia
-      allRoutes.push('/pharmacopoeia/jp')
-      allRoutes.push('/pharmacopoeia/phint')
-
-      // Read JP monographs and generate routes
-      const jpMonographsFile = path.join(dataDir, 'jp/jp-monographs.jsonld')
-      if (fs.existsSync(jpMonographsFile)) {
-        try {
-          const content = fs.readFileSync(jpMonographsFile, 'utf-8')
-          const data = JSON.parse(content)
-          const allItems = data['@graph'] || []
-
-          // Filter to only actual monographs (types ending in "Monograph")
-          const monographs = allItems.filter(m => {
-            const type = m['@type']
-            if (Array.isArray(type)) {
-              return type.some(t => typeof t === 'string' && t.endsWith('Monograph'))
-            }
-            return typeof type === 'string' && type.endsWith('Monograph')
+      // Generate routes for every dataset with a {id}-monographs.jsonld file
+      const datasetFiles = fs.existsSync(dataDir)
+        ? fs.readdirSync(dataDir).flatMap(id => {
+            const f = path.join(dataDir, id, `${id}-monographs.jsonld`)
+            return fs.existsSync(f) ? [[id, f]] : []
           })
+        : []
 
-          for (const m of monographs) {
-            const id = m['@id'] || ''
-            // Match @id format: https://www.openphar.org/data/jp/{category}/{slug}
-            const match = id.match(/\/data\/jp\/([^/]+)\/([^/]+)$/)
-            if (match) {
-              const [, category, slug] = match
-              allRoutes.push(`/pharmacopoeia/jp/${category}/${slug}`)
-            }
+      for (const [id, file] of datasetFiles) {
+        allRoutes.push(`/pharmacopoeia/${id}`)
+        try {
+          const graph = JSON.parse(fs.readFileSync(file, 'utf-8'))['@graph'] || []
+          let count = 0
+          for (const m of graph) {
+            const entryId = m['@id'] || ''
+            const slug = entryId.split('/').pop()
+            const category = (typeof m.category === 'string' && m.category) || (entryId.match(/\/data\/[^/]+\/([^/]+)\//) || [])[1] || 'monographs'
+            if (!slug) continue
+            allRoutes.push(`/pharmacopoeia/${id}/${category}/${slug}`)
+            count++
           }
-          console.log(`✓ Generated ${monographs.length} JP monograph routes`)
+          console.log(`✓ Generated ${count} routes for dataset ${id}`)
         } catch (e) {
-          console.warn('Could not parse JP monographs:', e.message)
+          console.warn(`Could not parse ${file}:`, e.message)
+        }
+      }
+
+      // Index routes for every dataset in the registry, including those without
+      // data files yet (raw/extraction status pages)
+      const registryFile = path.join(dataDir, 'registry.json')
+      if (fs.existsSync(registryFile)) {
+        for (const d of JSON.parse(fs.readFileSync(registryFile, 'utf-8'))) {
+          if (!allRoutes.includes(`/pharmacopoeia/${d.id}`)) {
+            allRoutes.push(`/pharmacopoeia/${d.id}`)
+          }
         }
       }
 
