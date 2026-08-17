@@ -240,8 +240,15 @@ function buildIchMethods(id, cfg) {
 }
 
 function slugify(t) {
-  return String(t).toLowerCase().normalize('NFKC')
-    .replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 120) || 'entry'
+  const base = String(t).toLowerCase().normalize('NFKC')
+    .replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '')
+  if (!base) return 'entry'
+  // CJK slugs must stay under ext4's 255-byte filename limit (CI runners);
+  // 60 chars ≈ ≤180 UTF-8 bytes, with a stable hash suffix to avoid collisions.
+  if (base.length <= 60) return base
+  let h = 0
+  for (const ch of base) h = (h * 31 + ch.codePointAt(0)) >>> 0
+  return base.slice(0, 60).replace(/-+$/, '') + '-' + h.toString(36)
 }
 
 // KP aggregate corpora: one YAML per section, each holding a list of documents
@@ -319,7 +326,19 @@ function buildKpCorpora(corpora, repoDir, edition) {
       }
     }
   }
-  return entries.filter(e => e.prefLabel && Object.values(e.prefLabel).some(Boolean))
+  // distinct @ids: repeated method titles across parts get a number suffix
+  const seen = new Set()
+  const out = []
+  for (const e of entries) {
+    if (!e.prefLabel || !Object.values(e.prefLabel).some(Boolean)) continue
+    let id = e['@id']
+    if (seen.has(id)) id = `${id}-${e.monographId || out.length}`
+    if (seen.has(id)) continue
+    seen.add(id)
+    e['@id'] = id
+    out.push(e)
+  }
+  return out
 }
 
 // An indexable entry: a monograph type, a generated entry type, or
