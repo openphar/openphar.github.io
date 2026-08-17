@@ -32,11 +32,22 @@ function extractArray(value) {
   return Array.isArray(value) ? value : [value]
 }
 
+// Primary language of the entry (for the html lang attribute): the language of
+// the preferred label, falling back through known dataset languages.
+const primaryLang = computed(() => {
+  const labels = monograph.value?.prefLabel || {}
+  const key = Object.keys(labels)[0]
+  if (key && key !== '@value') return key
+  const defKey = Object.keys(monograph.value?.definition || {})[0]
+  return defKey || 'en'
+})
+
 useHead({
   title: () => monograph.value
     ? `${extractString(monograph.value.prefLabel || monograph.value['rdfs:label'])} — ${meta.value?.short || publisher.value} — Open Pharmacopoeia`
     : 'Monograph — Open Pharmacopoeia',
-  meta: [{ name: 'description', content: () => extractString(monograph.value?.definition).slice(0, 200) }]
+  meta: [{ name: 'description', content: () => extractString(monograph.value?.definition).slice(0, 200) }],
+  htmlAttrs: () => ({ lang: primaryLang.value })
 })
 
 const isRestricted = computed(() => {

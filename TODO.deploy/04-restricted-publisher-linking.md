@@ -1,6 +1,6 @@
 # TODO 04 — Restricted publishers: title-only linking (USP / Ph. Eur. / BP)
 
-Status: planned
+Status: **first cut live** (2026-08-16/17): title-index entries for us/eu/uk render as restricted cards with counterpart links; cross-dataset links match by normalized title across all label languages AND by CAS number (closes the INN-alias gap: US "Acetaminophen" ↔ "Paracetamol"). CAS is index metadata (a fact), carried for restricted entries. Remaining: richer crosswalks from ICH Q4B method equivalence at monograph level, curated alias table for name variants without shared CAS.
 Depends on: TODO 02 (registry `rights.mode: title-only`), TODO 03 (public browsers to link into)
 
 ## Principle

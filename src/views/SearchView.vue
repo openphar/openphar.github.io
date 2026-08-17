@@ -77,7 +77,7 @@ function isRestricted(r) {
       <input
         v-model="query"
         type="search"
-        placeholder="e.g. paracetamol, ginseng, 아세틸시스테인…"
+        placeholder="e.g. paracetamol, ginseng, 아세틸시스테인, or a CAS number (103-90-2)…"
         class="w-full rounded-sm border border-line bg-paper px-4 py-3 text-base focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
         autofocus
       >

@@ -137,7 +137,9 @@ datasets:
     browser: { path: /data-india-ayurvedic-pharmacopoeia/, status: pending }
     generate:
       repo: ../data-india-ayurvedic-pharmacopoeia
-      glob: data/yaml/**/*.yaml
+      glob:
+        - data/yaml/**/*.yaml
+        - data/API-1/yaml/*.yaml
       exclude: _*.yaml
       mode: full
 

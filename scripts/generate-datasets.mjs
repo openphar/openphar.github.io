@@ -79,6 +79,19 @@ function sectionTexts(doc) {
     .map(s => ({ name: String(s.name || s.label || s.key), text: String(s.text).trim() }))
 }
 
+// CAS numbers live under different keys per SSOT shape. Index metadata
+// (facts, not copyrightable expression) — carried for restricted datasets too.
+function casOf(doc) {
+  const v = doc.identifiers?.cas_number
+    || doc.identifiers?.cas_rn
+    || doc.source_meta?.cas_rn
+    || doc.chemistry?.cas_rn
+    || doc.definition?.cas_registry_number
+    || doc.cas_rn
+    || doc.casNumber
+  return typeof v === 'string' && /^\d{2,7}-\d{2}-\d$/.test(v.trim()) ? v.trim() : null
+}
+
 function walk(globBase, pattern, exclude) {
   const files = []
   const re = new RegExp(pattern.replace(/[.+^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace(/\*\.\*/g, '.*'))
@@ -100,14 +113,21 @@ function buildGraph(id, cfg) {
     return buildIchMethods(id, cfg)
   }
   const repoDir = path.resolve(ROOT, cfg.generate.repo)
-  const globRoot = path.join(repoDir, cfg.generate.glob.split('/**')[0].replace(/\/[^/]*\.yaml$/, ''))
-  // derive the static base dir of the glob (strip ** and file patterns)
-  const baseDir = path.join(repoDir, cfg.generate.glob.split('**')[0].replace(/\/[^/]*\*[^/]*$/, '/').replace(/\/[^/]*\.yaml$/, ''))
-  const files = walk(baseDir, cfg.generate.glob.replace(/^[^*]*\*\//, '**/'), cfg.generate.exclude)
+  const globs = Array.isArray(cfg.generate.glob) ? cfg.generate.glob : [cfg.generate.glob]
+  // { file, base } pairs — the glob's static base dir is what categoryOf
+  // must be relative to, or container dirs ('semantic-yaml', edition dirs)
+  // leak in as categories.
+  const files = []
+  for (const g of globs) {
+    const baseDir = path.join(repoDir, g.split('**')[0].replace(/\/[^/]*\*[^/]*$/, '/').replace(/\/[^/]*\.yaml$/, ''))
+    for (const f of walk(baseDir, g.replace(/^[^*]*\*\//, '**/'), cfg.generate.exclude)) {
+      files.push({ file: f, base: baseDir })
+    }
+  }
   const graph = []
   let skipped = 0
 
-  for (const file of files) {
+  for (const { file, base } of files) {
     let doc
     try {
       doc = yamlLoad(fs.readFileSync(file, 'utf-8'))
@@ -121,7 +141,7 @@ function buildGraph(id, cfg) {
     if (!title) { skipped++; continue }
 
     const slug = slugOf(doc, file)
-    const rel = path.relative(globRoot, file)
+    const rel = path.relative(base, file)
     const docEdition = typeof doc.edition === 'string' ? doc.edition : null
     const labels = labelsOf(doc)
     const sectionId = doc.classification?.section_id
@@ -131,13 +151,13 @@ function buildGraph(id, cfg) {
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
       monographId: (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
       edition: docEdition || cfg.edition,
-      category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel)
+      category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel),
+      ...(casOf(doc) ? { casNumber: casOf(doc) } : {})
     }
 
     if (cfg.rights !== 'title-only') {
       const chem = doc.chemistry || {}
       if (chem.molecular_formula) entry.molecularFormula = chem.molecular_formula
-      if (chem.cas_rn) entry.casNumber = chem.cas_rn
       if (chem.molecular_weight) entry.molecularWeight = chem.molecular_weight
       const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labels)[0] || 'en'
 
@@ -270,16 +290,19 @@ for (const e of registryOut) {
       || ((m['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//) || [])[1]
       || 'monographs'
     const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
+    const cas = typeof m.casNumber === 'string' ? m.casNumber : null
+    const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
     searchIndex.push({
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
-      ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {})
+      ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {}),
+      ...(cas ? { x: cas } : {})
     })
-    for (const v of Object.values(label)) {
-      const key = normTitle(v)
-      if (!key) continue
+    const keys = Object.values(label).map(normTitle).filter(Boolean)
+    if (cas) keys.push('cas:' + cas)
+    for (const key of keys) {
       if (!groups.has(key)) groups.set(key, [])
       if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
-        groups.get(key).push({ d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 })
+        groups.get(key).push(member)
       }
     }
   }
