@@ -205,7 +205,121 @@ function buildIchMethods(id, cfg) {
       sections: chapters
     }
   })
+
+  // Guideline + annex documents (Q4A, Q4B R1, FAQs, per-annex texts)
+  for (const g of cfg.generate.docs_globs || []) {
+    const dir = path.join(path.resolve(ROOT, cfg.generate.repo), path.dirname(g))
+    if (!fs.existsSync(dir)) continue
+    for (const name of fs.readdirSync(dir).filter(x => x.endsWith('.yaml'))) {
+      let doc
+      try { doc = yamlLoad(fs.readFileSync(path.join(dir, name), 'utf-8')) } catch { continue }
+      if (!doc?.title || !doc.canonical_iri) continue
+      const cat = doc.document_type === 'q4b_annex' ? 'annexes' : 'guidelines'
+      const sections = (doc.sections || []).map(s => ({
+        name: String(s.name || s.number || ''),
+        text: String(s.text || '').slice(0, MAX_SECTION_CHARS)
+      })).filter(x => x.text)
+      for (const rc of doc.regional_chapters || []) {
+        sections.push({ name: `${rc.pharmacopoeia} ${rc.chapter_code}`, text: rc.chapter_title || '' })
+      }
+      graph.push({
+        '@id': `https://www.openphar.org/data/${id}/methods/${slugify(doc.canonical_iri.split('/').pop())}`,
+        '@type': 'IndexedMonograph',
+        prefLabel: { en: doc.title },
+        monographId: doc.code,
+        edition: cfg.edition,
+        category: cat,
+        harmonisationStatus: doc.status,
+        ichAnnex: doc.code,
+        definition: doc.method ? { en: String(doc.method) } : undefined,
+        sections: sections.length ? sections : undefined
+      })
+    }
+  }
   return { graph, skipped: 0, total: rows.length }
+}
+
+function slugify(t) {
+  return String(t).toLowerCase().normalize('NFKC')
+    .replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 120) || 'entry'
+}
+
+// KP aggregate corpora: one YAML per section, each holding a list of documents
+// (methods / articles / dosage forms / chapters) plus clause-based notices.
+function buildKpCorpora(corpora, repoDir, edition) {
+  const entries = []
+  for (const g of corpora.globs || []) {
+    const dir = path.join(repoDir, path.dirname(g))
+    if (!fs.existsSync(dir)) continue
+    for (const name of fs.readdirSync(dir).filter(x => x.endsWith('.yaml'))) {
+      let doc
+      try { doc = yamlLoad(fs.readFileSync(path.join(dir, name), 'utf-8')) } catch { continue }
+      if (!doc) continue
+      const lang = typeof doc.language === 'string' ? doc.language : 'ko'
+      const labels = (en, ko, fallback) => {
+        const out = {}
+        if (en) out.en = en
+        if (ko) out.ko = ko
+        if (!Object.keys(out).length && fallback) out.ko = fallback
+        return out
+      }
+
+      for (const m of doc.methods || []) {
+        const pl = labels(m.title_en, m.title_ko, m.title)
+        if (!Object.keys(pl).length) continue
+        entries.push({
+          '@id': `https://www.openphar.org/data/kp/monographs/${slugify(m.title_en || m.title_ko || m.title)}`,
+          '@type': 'IndexedMonograph',
+          prefLabel: pl,
+          monographId: m.number != null ? String(m.number) : undefined,
+          edition, category: 'general-tests',
+          definition: m.body ? { [lang]: String(m.body).slice(0, MAX_DEF_CHARS) } : undefined
+        })
+      }
+      for (const a of doc.articles || []) {
+        const pl = labels(a.title_en, a.title_ko, a.title)
+        if (!Object.keys(pl).length) continue
+        entries.push({
+          '@id': `https://www.openphar.org/data/kp/monographs/${slugify(a.title_en || a.title_ko || a.title)}`,
+          '@type': 'IndexedMonograph',
+          prefLabel: pl,
+          edition, category: 'general-information',
+          definition: a.body ? { [lang]: String(a.body).slice(0, MAX_DEF_CHARS) } : undefined
+        })
+      }
+      for (const d of [...(doc.dosage_forms || []), ...(doc.chapters || [])]) {
+        const pl = labels(d.title_en, d.title_ko, d.title)
+        if (!Object.keys(pl).length) continue
+        entries.push({
+          '@id': `https://www.openphar.org/data/kp/monographs/${slugify(d.title_en || d.title_ko || d.title)}`,
+          '@type': 'IndexedMonograph',
+          prefLabel: pl,
+          monographId: d.number != null ? String(d.number) : undefined,
+          edition, category: 'dosage-forms',
+          sections: (d.clauses || []).map(c => ({
+            name: String(c.number || c.title || ''),
+            text: String(c.text || c.body || '').slice(0, MAX_SECTION_CHARS)
+          })).filter(x => x.text)
+        })
+      }
+      // clause-based aggregate (General Notices) stays one entry with sections
+      if (doc.clauses && !doc.methods && !doc.articles && !doc.dosage_forms) {
+        const t = doc.title || {}
+        const pl = labels(t.en, t.ko)
+        if (Object.keys(pl).length) entries.push({
+          '@id': `https://www.openphar.org/data/kp/monographs/${slugify(t.en || t.ko)}`,
+          '@type': 'IndexedMonograph',
+          prefLabel: pl,
+          edition, category: 'general-notices',
+          sections: doc.clauses.map(c => ({
+            name: String(c.number || ''),
+            text: String(c.text || '').slice(0, MAX_SECTION_CHARS)
+          })).filter(x => x.text)
+        })
+      }
+    }
+  }
+  return entries.filter(e => e.prefLabel && Object.values(e.prefLabel).some(Boolean))
 }
 
 // An indexable entry: a monograph type, a generated entry type, or
@@ -240,6 +354,9 @@ for (const [id, cfg] of Object.entries(datasets)) {
 
   if (cfg.generate) {
     const { graph, skipped, total } = buildGraph(id, cfg)
+    if (cfg.generate.corpora) {
+      graph.push(...buildKpCorpora(cfg.generate.corpora, path.resolve(ROOT, cfg.generate.repo), cfg.edition))
+    }
     const outFile = path.join(DATA_DIR, id, `${id}-monographs.jsonld`)
     fs.mkdirSync(path.dirname(outFile), { recursive: true })
     fs.writeFileSync(outFile, JSON.stringify({

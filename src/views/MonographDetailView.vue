@@ -3,6 +3,7 @@ import { ref, onMounted, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { loadRegistry } from '../lib/registry'
+import { extractString, primaryLang, labelPairs } from '../lib/i18n'
 
 const route = useRoute()
 const publisher = computed(() => route.params.publisher)
@@ -14,14 +15,6 @@ const meta = ref(null)
 const loading = ref(true)
 const error = ref(null)
 
-function extractString(value) {
-  if (!value) return ''
-  if (typeof value === 'string') return value
-  if (typeof value === 'object') {
-    return value['en'] || value['ja'] || value['zh'] || value['la'] || value['@value'] || Object.values(value)[0] || ''
-  }
-  return String(value)
-}
 
 function shortOf(id) {
   return registryList.value.find(d => d.id === id)?.short || id.toUpperCase()
@@ -32,14 +25,13 @@ function extractArray(value) {
   return Array.isArray(value) ? value : [value]
 }
 
-// Primary language of the entry (for the html lang attribute): the language of
-// the preferred label, falling back through known dataset languages.
-const primaryLang = computed(() => {
-  const labels = monograph.value?.prefLabel || {}
-  const key = Object.keys(labels)[0]
-  if (key && key !== '@value') return key
-  const defKey = Object.keys(monograph.value?.definition || {})[0]
-  return defKey || 'en'
+const entryLang = computed(() => {
+  const labels = monograph.value?.prefLabel
+  if (labels && typeof labels === 'object') {
+    const key = primaryLang(labels)
+    if (key) return key
+  }
+  return Object.keys(monograph.value?.definition || {})[0] || 'en'
 })
 
 useHead({
@@ -47,7 +39,7 @@ useHead({
     ? `${extractString(monograph.value.prefLabel || monograph.value['rdfs:label'])} — ${meta.value?.short || publisher.value} — Open Pharmacopoeia`
     : 'Monograph — Open Pharmacopoeia',
   meta: [{ name: 'description', content: () => extractString(monograph.value?.definition).slice(0, 200) }],
-  htmlAttrs: () => ({ lang: primaryLang.value })
+  htmlAttrs: () => ({ lang: entryLang.value })
 })
 
 const isRestricted = computed(() => {
@@ -58,7 +50,7 @@ const isRestricted = computed(() => {
 const registryList = ref([])
 const counterparts = ref([])
 
-const labelPairs = computed(() => Object.entries(monograph.value?.prefLabel || {}))
+const allLabels = computed(() => labelPairs(monograph.value?.prefLabel || {}))
 
 const sections = computed(() => extractArray(monograph.value?.sections))
 const testSpecifications = computed(() => extractArray(monograph.value?.testSpecification))
@@ -127,8 +119,8 @@ onMounted(async () => {
           <h1 class="mt-3 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
             {{ extractString(monograph.prefLabel) }}
           </h1>
-          <p v-if="labelPairs.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
-            <span v-for="[lang, val] in labelPairs.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
+          <p v-if="allLabels.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
+            <span v-for="[lang, val] in allLabels.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
           </p>
           <dl class="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 text-sm sm:grid-cols-3">
             <div>
@@ -186,8 +178,8 @@ onMounted(async () => {
               <h1 class="mt-3 font-display text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
                 {{ extractString(monograph.prefLabel || monograph['rdfs:label']) }}
               </h1>
-              <p v-if="labelPairs.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
-                <span v-for="[lang, val] in labelPairs.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
+              <p v-if="allLabels.length > 1" class="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-lg text-ink/60">
+                <span v-for="[lang, val] in allLabels.slice(1)" :key="lang" :lang="lang">{{ val }}</span>
               </p>
               <p v-if="monograph.monographId" class="mt-2 font-mono text-xs text-ink/50">{{ monograph.monographId }}</p>
             </div>
@@ -285,6 +277,13 @@ onMounted(async () => {
               </li>
             </ul>
           </section>
+
+          <p v-else class="mt-8 border-t border-line pt-5 font-mono text-[11px] uppercase tracking-[0.12em] text-ink/40">
+            No counterparts indexed yet —
+            <RouterLink :to="{ path: '/search', query: { q: extractString(monograph.prefLabel) } }" class="text-pine underline decoration-brass/60 underline-offset-4">
+              search this title across all datasets
+            </RouterLink>
+          </p>
 
           <details class="mt-8 border-t border-line pt-5">
             <summary class="cursor-pointer font-mono text-[11px] uppercase tracking-[0.12em] text-ink/60 hover:text-pine">View raw JSON-LD</summary>

@@ -104,7 +104,12 @@ datasets:
       repo: ../data-korea-pharmacopoeia
       glob: data/KP13/ko/yaml/monograph/**/*.yaml
       mode: full
-      # non-monograph corpora (general notices, tests, dosage forms, general info) stay in the KP repo; not indexed yet
+      corpora:
+        globs:
+          - data/KP13/ko/yaml/general-notice/*.yaml
+          - data/KP13/ko/yaml/general-test/*.yaml
+          - data/KP13/ko/yaml/general-info/*.yaml
+          - data/KP13/ko/yaml/general-requirements/*.yaml
 
   ip:
     name: Indian Pharmacopoeia
@@ -176,6 +181,9 @@ datasets:
       repo: ../data-ich-q4
       file: data/equivalence/methods.yaml
       kind: ich-methods
+      docs_globs:
+        - data/yaml/*.yaml
+        - data/yaml/annexes/*.yaml
 
   us:
     name: United States Pharmacopeia–NF

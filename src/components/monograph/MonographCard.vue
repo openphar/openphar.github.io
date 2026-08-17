@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { extractString } from '../../lib/i18n'
 
 const props = defineProps({
   monograph: { type: Object, required: true },
@@ -10,14 +11,6 @@ const props = defineProps({
   edition: { type: String, default: '' }
 })
 
-function extractString(value) {
-  if (!value) return ''
-  if (typeof value === 'string') return value
-  if (typeof value === 'object') {
-    return value['en'] || value['ja'] || value['zh'] || value['la'] || value['@value'] || Object.values(value)[0] || ''
-  }
-  return String(value)
-}
 
 const name = computed(() => extractString(props.monograph.prefLabel || props.monograph['rdfs:label']))
 const isLatin = computed(() => /^[A-Z][a-z]+ [a-z]+/.test(name.value))

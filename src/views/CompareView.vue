@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useHead } from '@unhead/vue'
+import { extractString } from '../lib/i18n'
 
 useHead({
   title: 'Compare Monographs - Open Pharmacopoeia',
@@ -13,16 +14,6 @@ const searchQuery = ref('')
 const jpResults = ref([])
 const phintResults = ref([])
 const loading = ref(false)
-
-// Extract string from LangString or string
-function extractString(value) {
-  if (!value) return ''
-  if (typeof value === 'string') return value
-  if (typeof value === 'object') {
-    return value['en'] || value['ja'] || value['@value'] || Object.values(value)[0] || ''
-  }
-  return String(value)
-}
 
 async function searchMonographs() {
   if (!searchQuery.value || searchQuery.value.length < 2) {

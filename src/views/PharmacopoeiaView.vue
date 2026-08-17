@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import MonographCard from '../components/monograph/MonographCard.vue'
 import { loadRegistry } from '../lib/registry'
+import { extractString } from '../lib/i18n'
 
 const route = useRoute()
 const publisher = computed(() => route.params.publisher)
@@ -22,14 +23,6 @@ useHead({
   ]
 })
 
-function extractString(value) {
-  if (!value) return ''
-  if (typeof value === 'string') return value
-  if (typeof value === 'object') {
-    return value['en'] || value['ja'] || value['zh'] || value['la'] || Object.values(value)[0] || ''
-  }
-  return String(value)
-}
 
 function isEntry(item) {
   const type = item['@type']
