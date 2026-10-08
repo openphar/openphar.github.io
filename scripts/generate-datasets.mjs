@@ -17,6 +17,13 @@ import { load as yamlLoad } from 'js-yaml'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
+// Cross-publisher substance identity (openphar/substance-registry). Optional
+// sibling: when absent (e.g. CI without private checkouts) counterpart
+// matching falls back to title/CAS only.
+const ENTRY_TO_SUBSTANCE_FILE = path.join(ROOT, '../substance-registry/registry/entry-to-substance.json')
+const entryToSubstance = fs.existsSync(ENTRY_TO_SUBSTANCE_FILE)
+  ? JSON.parse(fs.readFileSync(ENTRY_TO_SUBSTANCE_FILE, 'utf-8'))
+  : {}
 const DATA_DIR = path.join(ROOT, 'data')
 
 const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
@@ -435,6 +442,8 @@ for (const e of registryOut) {
     })
     const keys = Object.values(label).map(normTitle).filter(Boolean)
     if (cas) keys.push('cas:' + cas)
+    const substance = entryToSubstance[m['@id']]
+    if (substance) keys.push('sub:' + substance)
     for (const key of keys) {
       if (!groups.has(key)) groups.set(key, [])
       if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
