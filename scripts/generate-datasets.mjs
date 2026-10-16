@@ -434,6 +434,7 @@ for (const e of registryOut) {
       || 'monographs'
     const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
+    if (/^this-text-was-updated/i.test(s)) continue // UK editorial notices are not monographs
     const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
     searchIndex.push({
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
