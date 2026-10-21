@@ -17,7 +17,9 @@ jobs:
       - run: npm ci
       - name: Rights enforcement (title-only datasets carry titles only)
         run: node scripts/assert-rights.mjs
-      - name: Production build (vite-ssg, ~26k pages)
+      - name: Link integrity (every cross-link target resolves)
+        run: node scripts/check-counterpart-links.mjs
+      - name: Production build (vite-ssg, ~29k pages)
         run: npm run build
       - uses: actions/upload-artifact@v4
         if: always()
