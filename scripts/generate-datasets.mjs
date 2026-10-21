@@ -27,6 +27,13 @@ const entryToSubstance = fs.existsSync(ENTRY_TO_SUBSTANCE_FILE)
 // registry join: corpus canonical_iri -> built hub @id (the registry's
 // entry-to-substance.json is keyed on canonical IRIs, hub @ids differ)
 const corpusSubstance = new Map()
+// fallback join for vendored graphs (jp, phint): publisher+slug -> substance
+const HUB_TO_REGISTRY_PUB = { eu: 'ep', us: 'usp', uk: 'bp', hk: 'hkcmms', ayp: 'api' }
+const pubSlugSubstance = new Map()
+for (const [iri, slug0] of Object.entries(entryToSubstance)) {
+  const m0 = iri.match(/^https:\/\/openphar\.org\/data\/([^/]+)\//)
+  if (m0) pubSlugSubstance.set(`${m0[1]}/${iri.split('/').pop()}`, slug0)
+}
 const DATA_DIR = path.join(ROOT, 'data')
 
 const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
@@ -445,7 +452,9 @@ for (const e of registryOut) {
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
     const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
     entryMeta.set(m['@id'], { ...member, edition: m.edition || e.edition || null })
-    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']]
+    const hubSlug = m['@id'].split('/').pop()
+    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] ||
+      pubSlugSubstance.get(`${HUB_TO_REGISTRY_PUB[e.id] || e.id}/${hubSlug}`)
     searchIndex.push({
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
       ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {}),
@@ -487,6 +496,28 @@ fs.writeFileSync(path.join(DATA_DIR, 'cross-links.json'), JSON.stringify(crossLi
 console.log(`✓ cross-links.json (${Object.keys(crossLinks).length} linked entries)`)
 
 fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOut))
+// Native cross-search: pool each substance's native names so any script
+// variant finds every publisher's entry of the same identity.
+{
+  const nativesBySub = new Map()
+  for (const r of searchIndex) {
+    if (!r.sub || !r.n) continue
+    if (!nativesBySub.has(r.sub)) nativesBySub.set(r.sub, new Set())
+    nativesBySub.get(r.sub).add(r.n)
+  }
+  let pooled = 0
+  for (const r of searchIndex) {
+    if (!r.sub) continue
+    const pool = nativesBySub.get(r.sub)
+    if (!pool) continue
+    const extra = [...pool].filter(n => n !== r.n)
+    if (!extra.length) continue
+    r.nn = extra.join(' ')
+    pooled++
+  }
+  console.log(`✓ native cross-search pool: ${pooled} rows`)
+}
+
 fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(searchIndex))
 
 // Per-substance landing data (TODO 05): registry entry + the hub-visible
