@@ -86,6 +86,7 @@ async function compareEntry(d, s) {
       s: m.s,
       c: m.c || 'monographs',
       restricted,
+      sub: m.sub || null,
       title: entry ? extractString(entry.prefLabel || entry['rdfs:label'] || {}) || m.s : m.s,
       edition: entry?.edition || '',
       definition: (!restricted && entry?.definition) ? Object.values(entry.definition)[0] : null,
@@ -154,6 +155,7 @@ onMounted(() => {
         <div class="flex items-center gap-2 mb-2">
           <span class="badge" :class="'badge-' + col.d">{{ col.d.toUpperCase() }}</span>
           <span v-if="col.edition" class="text-xs text-ink/55">{{ col.edition }}</span>
+          <router-link v-if="col.sub" :to="`/substance/${col.sub}`" class="ml-auto text-xs text-blue-700 hover:underline">substance →</router-link>
           <span v-if="col.restricted" class="ml-auto text-xs px-2 py-0.5 rounded bg-wash text-ink/55">title-only</span>
         </div>
         <h3 class="font-semibold text-ink">
