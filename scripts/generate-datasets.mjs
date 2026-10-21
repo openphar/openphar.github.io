@@ -506,6 +506,7 @@ if (fs.existsSync(substancesFile) && entryToSubstance) {
   const substancesDir = path.join(DATA_DIR, 'substances')
   fs.rmSync(substancesDir, { recursive: true, force: true })
   fs.mkdirSync(substancesDir, { recursive: true })
+  fs.mkdirSync(path.join(DATA_DIR, 'downloads'), { recursive: true })
   for (const sub of substances) {
     const doc = {
       id: sub.id,
@@ -520,6 +521,8 @@ if (fs.existsSync(substancesFile) && entryToSubstance) {
     }
     fs.writeFileSync(path.join(substancesDir, `${sub.id}.json`), JSON.stringify(doc))
   }
+  fs.writeFileSync(path.join(DATA_DIR, 'downloads', 'substances.ndjson'),
+                   substances.map(s => JSON.stringify(s)).join('\n') + '\n')
   console.log(`✓ data/substances (${substances.length} pages, ${bySlug.size} with hub entries)`)
 }
 console.log(`✓ registry.json (${registryOut.length} datasets), search-index.json (${searchIndex.length} titles)`)
