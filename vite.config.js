@@ -150,6 +150,16 @@ export default defineConfig({
         }
       }
 
+      // One route per substance identity (registry landing pages)
+      const substancesDir = path.join(dataDir, 'substances')
+      if (fs.existsSync(substancesDir)) {
+        let sc = 0
+        for (const f of fs.readdirSync(substancesDir)) {
+          if (f.endsWith('.json')) { allRoutes.push(`/substance/${f.slice(0, -5)}`); sc++ }
+        }
+        console.log(`✓ Generated ${sc} substance routes`)
+      }
+
       // Index routes for every dataset in the registry, including those without
       // data files yet (raw/extraction status pages)
       const registryFile = path.join(dataDir, 'registry.json')

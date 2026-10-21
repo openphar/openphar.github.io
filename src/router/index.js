@@ -41,6 +41,14 @@ export const routes = [
     }
   },
   {
+    path: '/substance/:slug',
+    name: 'substance',
+    component: () => import('../views/SubstanceView.vue'),
+    meta: {
+      title: 'Substance'
+    }
+  },
+  {
     path: '/api',
     name: 'api',
     component: () => import('../views/ApiDocsView.vue'),

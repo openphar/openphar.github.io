@@ -24,6 +24,9 @@ const ENTRY_TO_SUBSTANCE_FILE = path.join(ROOT, '../substance-registry/registry/
 const entryToSubstance = fs.existsSync(ENTRY_TO_SUBSTANCE_FILE)
   ? JSON.parse(fs.readFileSync(ENTRY_TO_SUBSTANCE_FILE, 'utf-8'))
   : {}
+// registry join: corpus canonical_iri -> built hub @id (the registry's
+// entry-to-substance.json is keyed on canonical IRIs, hub @ids differ)
+const corpusSubstance = new Map()
 const DATA_DIR = path.join(ROOT, 'data')
 
 const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
@@ -160,6 +163,10 @@ function buildGraph(id, cfg) {
       edition: docEdition || cfg.edition,
       category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel),
       ...(casOf(doc) ? { casNumber: casOf(doc) } : {})
+    }
+
+    if (doc.canonical_iri && entryToSubstance[doc.canonical_iri]) {
+      corpusSubstance.set(entry['@id'], entryToSubstance[doc.canonical_iri])
     }
 
     if (cfg.rights !== 'title-only') {
@@ -417,6 +424,8 @@ function normTitle(t) {
 }
 
 const groups = new Map() // normTitle -> [{d, s, c, t, k}]
+const entryMeta = new Map() // entry @id -> {d, s, c, t, k, edition}
+
 for (const e of registryOut) {
   const f = path.join(DATA_DIR, e.id, `${e.id}-monographs.jsonld`)
   if (!fs.existsSync(f)) continue
@@ -435,14 +444,16 @@ for (const e of registryOut) {
     const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
     const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
+    entryMeta.set(m['@id'], { ...member, edition: m.edition || e.edition || null })
+    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']]
     searchIndex.push({
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
       ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {}),
-      ...(cas ? { x: cas } : {})
+      ...(cas ? { x: cas } : {}),
+      ...(substance ? { sub: substance } : {})
     })
     const keys = Object.values(label).map(normTitle).filter(Boolean)
     if (cas) keys.push('cas:' + cas)
-    const substance = entryToSubstance[m['@id']]
     if (substance) keys.push('sub:' + substance)
     for (const key of keys) {
       if (!groups.has(key)) groups.set(key, [])
@@ -477,4 +488,38 @@ console.log(`✓ cross-links.json (${Object.keys(crossLinks).length} linked entr
 
 fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOut))
 fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(searchIndex))
+
+// Per-substance landing data (TODO 05): registry entry + the hub-visible
+// monograph occurrences that map to it (title-only fields respected —
+// restricted publishers carry titles, never body content).
+const substancesFile = path.join(ROOT, '../substance-registry/registry/substances.json')
+if (fs.existsSync(substancesFile) && entryToSubstance) {
+  const bySlug = new Map()
+  for (const [hubId, slug] of corpusSubstance) {
+    const meta = entryMeta.get(hubId)
+    if (meta) {
+      if (!bySlug.has(slug)) bySlug.set(slug, [])
+      if (!bySlug.get(slug).some(x => x.d === meta.d && x.s === meta.s)) bySlug.get(slug).push(meta)
+    }
+  }
+  const substances = JSON.parse(fs.readFileSync(substancesFile, 'utf-8'))
+  const substancesDir = path.join(DATA_DIR, 'substances')
+  fs.rmSync(substancesDir, { recursive: true, force: true })
+  fs.mkdirSync(substancesDir, { recursive: true })
+  for (const sub of substances) {
+    const doc = {
+      id: sub.id,
+      iri: sub.canonical_iri,
+      ...(sub.preferred_name ? { preferred_name: sub.preferred_name } : {}),
+      ...(sub.names ? { names: sub.names } : {}),
+      ...(sub.synonyms ? { synonyms: sub.synonyms } : {}),
+      ...(sub.identifiers ? { identifiers: sub.identifiers } : {}),
+      ...(sub.match_basis ? { match_basis: sub.match_basis } : {}),
+      ...(sub.form_relations ? { form_relations: sub.form_relations } : {}),
+      entries: bySlug.get(sub.id) || []
+    }
+    fs.writeFileSync(path.join(substancesDir, `${sub.id}.json`), JSON.stringify(doc))
+  }
+  console.log(`✓ data/substances (${substances.length} pages, ${bySlug.size} with hub entries)`)
+}
 console.log(`✓ registry.json (${registryOut.length} datasets), search-index.json (${searchIndex.length} titles)`)
