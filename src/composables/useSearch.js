@@ -32,11 +32,12 @@ export function useSearch() {
           index: [
             { field: 't', tokenize: 'forward' },
             { field: 'n', tokenize: 'forward' },
-            { field: 'x', tokenize: 'forward' }
+            { field: 'x', tokenize: 'forward' },
+          { field: 'nn', tokenize: 'forward' }
           ]
         }
       })
-      entriesData.forEach((e, i) => searchIndex.add({ i, t: e.t, n: e.n || e.t, x: e.x || '' }))
+      entriesData.forEach((e, i) => searchIndex.add({ i, t: e.t, n: e.n || e.t, x: e.x || '', nn: e.nn || '' }))
       isInitialized = true
       initialized.value = true
     } catch (e) {
@@ -55,8 +56,9 @@ export function useSearch() {
     const tRes = searchIndex.search(query, { field: 't', limit: 2000, suggest: true })
     const nRes = searchIndex.search(query, { field: 'n', limit: 2000, suggest: true })
     const xRes = searchIndex.search(query, { field: 'x', limit: 2000 })
+    const nnRes = searchIndex.search(query, { field: 'nn', limit: 2000, suggest: true })
     const ids = new Set()
-    for (const field of [tRes, nRes, xRes]) {
+    for (const field of [tRes, nRes, xRes, nnRes]) {
       for (const r of (Array.isArray(field) ? field : field?.result || [])) {
         ids.add(typeof r === 'object' ? r.i : r)
       }
