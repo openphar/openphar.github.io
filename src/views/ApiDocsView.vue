@@ -35,6 +35,18 @@ const endpoints = [
   },
   {
     method: 'GET',
+    path: '/data/substances/{slug}.json',
+    description: 'One substance identity: preferred name, native names, CAS, synonyms, salt/hydrate relations, and every publisher monograph linked to it (title-only respected)',
+    format: 'JSON'
+  },
+  {
+    method: 'GET',
+    path: '/data/downloads/substances.ndjson',
+    description: 'Bulk machine download — the full substance registry as newline-delimited JSON (one identity per line)',
+    format: 'NDJSON'
+  },
+  {
+    method: 'GET',
     path: '/ontology/context/pharmacopoeia.jsonld',
     description: 'Get the JSON-LD context for pharmacopoeia data',
     format: 'JSON-LD'
