@@ -53,6 +53,9 @@ export function counterparts(id, slug) { return read('cross-links.json')[`${id}/
 export function substanceSlugs() {
   const slugs = fs.readdirSync(path.join(data, 'substances')).filter(name => name.endsWith('.json')).map(name => name.slice(0, -5)).sort()
   if (!slugs.length) throw new Error('Missing vendored substance pages')
-  return sampleBuild ? slugs.slice(0, 2) : slugs
+  // Include one newly merged identity whose numbered Ph.Int. join must remain
+  // tied to its edition, in addition to the original diagnostic sample.
+  const editionJoinCase = 'rifampicin-isoniazid-pyrazinamide-and-ethambutol-hydrochloride-tablets'
+  return sampleBuild ? [...new Set([...slugs.slice(0, 2), ...(slugs.includes(editionJoinCase) ? [editionJoinCase] : [])])] : slugs
 }
 export function substance(slug) { return read(`substances/${slug}.json`) }
