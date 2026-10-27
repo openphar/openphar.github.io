@@ -57,7 +57,7 @@ function spineTarget(d) {
             >
             <button
               type="submit"
-              class="rounded-r-xs bg-brass px-5 py-3 font-mono text-xs uppercase tracking-[0.12em] text-pine transition-colors hover:bg-brasslight"
+              class="rounded-r-xs bg-brass px-5 py-3 font-mono text-xs uppercase tracking-[0.12em] text-ink transition-colors hover:bg-brasslight"
             >
               Search
             </button>
@@ -74,13 +74,14 @@ function spineTarget(d) {
               :href="spineTarget(d)"
               :class="['spine group relative flex-shrink-0 cursor-pointer rounded-t-sm transition-transform duration-200 hover:-translate-y-1.5', spineClass(d)]"
               :style="{ height: spineHeight(d) + 'px', width: '46px' }"
-              :aria-label="`${d.name} (${d.count} entries)`"
+              :aria-describedby="`dataset-${d.id}-description`"
             >
               <span class="flex h-full flex-col items-center justify-between py-2.5">
                 <span class="font-mono text-[10px] font-medium tracking-wider">{{ d.short }}</span>
                 <span class="font-mono text-[9px] opacity-70">{{ d.count > 0 ? d.count.toLocaleString() : '—' }}</span>
               </span>
               <span
+                :id="`dataset-${d.id}-description`"
                 class="pointer-events-none absolute bottom-full left-1/2 z-10 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded-xs bg-ink px-2 py-1 font-mono text-[10px] text-paper group-hover:block"
               >
                 {{ d.name }} · {{ rightsMeta(d.rights).label }}

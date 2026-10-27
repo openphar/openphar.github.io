@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { extractString } from '../lib/i18n'
 
 
@@ -9,6 +9,15 @@ const candidates = ref([])
 const columns = ref([])
 const loading = ref(false)
 const searched = ref(false)
+
+const comparisonStatus = computed(() => {
+  if (loading.value) return 'Loading matches and comparison…'
+  const messages = []
+  if (candidates.value.length) messages.push(`${candidates.value.length} matching monographs.`)
+  else if (searched.value && searchQuery.value.length >= 2) messages.push('No matching monographs.')
+  if (columns.value.length) messages.push(`${columns.value.length} publisher entries compared.`)
+  return messages.join(' ') || 'Enter at least two characters to find a monograph.'
+})
 
 let searchIndex = null
 let crossLinks = null
@@ -113,13 +122,16 @@ onMounted(() => {
     </p>
 
     <div class="bg-paper rounded-xl shadow-md p-6 mb-6 mt-6">
+      <label for="compare-query" class="mb-2 block text-sm font-medium text-ink">Find a monograph to compare</label>
       <input
+        id="compare-query"
         v-model="searchQuery"
         @input="searchMonographs"
         type="text"
         placeholder="Enter substance name (e.g., paracetamol, aspirin)"
         class="w-full px-4 py-2 border border-line rounded-lg focus:ring-2 focus:ring-moss focus:border-moss"
       />
+      <p role="status" aria-live="polite" aria-atomic="true" class="mt-3 text-sm text-ink/70">{{ comparisonStatus }}</p>
       <div v-if="candidates.length" class="mt-3 divide-y divide-line border border-line rounded-lg max-h-80 overflow-auto">
         <button
           v-for="row in candidates"
@@ -142,6 +154,7 @@ onMounted(() => {
     </div>
 
     <div v-else-if="columns.length" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+      <h2 class="sr-only">Publisher comparison</h2>
       <div v-for="col in columns" :key="col.d + '/' + col.s" class="bg-paper rounded-lg shadow-md p-5">
         <div class="flex items-center gap-2 mb-2">
           <span class="badge" :class="'badge-' + col.d">{{ col.d.toUpperCase() }}</span>

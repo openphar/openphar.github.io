@@ -139,32 +139,40 @@ onMounted(async () => {
         <p class="py-12 text-center font-mono text-sm text-ink/50">No entries yet — extraction in progress.</p>
       </template>
       <template v-else>
-        <div class="mb-6 flex flex-col gap-3 md:flex-row">
-          <input
+        <div class="mb-6 flex flex-col gap-3 md:flex-row md:items-end">
+          <div class="min-w-0 flex-1">
+            <label for="publisher-query" class="mb-2 block text-sm font-medium text-ink">Filter monographs</label>
+            <input
+            id="publisher-query"
             v-model="searchQuery"
             type="search"
             :placeholder="`Filter entries in ${meta?.short || publisher}…`"
             class="w-full rounded-xs border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
-          >
-          <select
+            >
+          </div>
+          <div class="md:w-64">
+            <label for="publisher-category" class="mb-2 block text-sm font-medium text-ink">Category</label>
+            <select
+            id="publisher-category"
             v-model="selectedCategory"
-            class="rounded-xs border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none md:w-64"
+            class="w-full rounded-xs border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
           >
             <option value="">All categories</option>
             <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
-          </select>
+            </select>
+          </div>
         </div>
 
-        <div v-if="loading" class="py-16 text-center">
+        <p role="status" aria-live="polite" aria-atomic="true" class="mb-4 font-mono text-xs text-ink/70">
+          {{ loading ? 'Loading entries…' : `Showing ${filteredMonographs.length} of ${totalMonographs.toLocaleString()} entries` }}
+        </p>
+
+        <div v-if="loading" class="py-16 text-center" aria-hidden="true">
           <div class="mx-auto h-10 w-10 animate-spin rounded-full border-2 border-line border-t-pine"></div>
-          <p class="mt-4 font-mono text-xs uppercase tracking-[0.12em] text-ink/50">Loading entries…</p>
         </div>
 
         <div v-else>
-          <p class="mb-4 font-mono text-xs text-ink/55">
-            Showing {{ filteredMonographs.length }} of {{ totalMonographs.toLocaleString() }} entries
-          </p>
-
+          <h2 class="sr-only">Monographs</h2>
           <div v-if="filteredMonographs.length" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <MonographCard
               v-for="m in filteredMonographs"
