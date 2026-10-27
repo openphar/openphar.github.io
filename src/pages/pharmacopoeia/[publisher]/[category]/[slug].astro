@@ -1,0 +1,32 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro'
+import MonographDetailView from '../../../../views/MonographDetailView.vue'
+import { registry, datasetIds, entries, entryCategory, entrySlug, counterparts, sampleBuild } from '../../../../lib/build-data.js'
+import { extractString, primaryLang } from '../../../../lib/i18n.js'
+export function getStaticPaths() {
+  return datasetIds().flatMap(publisher => {
+    const graph = entries(publisher)
+    // Some vendored graphs repeat an entry ID. The old detail view selected
+    // the first matching entry; retain that behavior without duplicate paths.
+    const seen = new Set()
+    const unique = graph.filter(entry => {
+      const slug = entrySlug(entry)
+      const key = `${entryCategory(entry)}/${slug}`
+      if (!slug || seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+    return (sampleBuild ? unique.slice(0, 2) : unique).map(monograph => ({
+      params: { publisher, category: entryCategory(monograph), slug: entrySlug(monograph) },
+      props: { monograph }
+    }))
+  })
+}
+const { publisher, category, slug } = Astro.params
+const { monograph } = Astro.props
+const meta = registry.find(dataset => dataset.id === publisher)
+const title = extractString(monograph.prefLabel || monograph['rdfs:label'])
+---
+<SiteLayout title={`${title} — ${meta?.short || publisher} — Open Pharmacopoeia`} description={extractString(monograph.definition).slice(0, 200)} lang={primaryLang(monograph.prefLabel)}>
+  <MonographDetailView publisher={publisher} category={category} slug={slug} initialMonograph={monograph} initialMeta={meta} initialRegistry={registry} initialCounterparts={counterparts(publisher, slug)} />
+</SiteLayout>

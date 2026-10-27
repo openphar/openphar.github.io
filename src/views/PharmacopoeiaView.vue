@@ -1,27 +1,20 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
-import { useHead } from '@unhead/vue'
 import MonographCard from '../components/monograph/MonographCard.vue'
 import { loadRegistry } from '../lib/registry'
 import { extractString } from '../lib/i18n'
 
-const route = useRoute()
-const publisher = computed(() => route.params.publisher)
+const props = defineProps({ publisher: String, initialMeta: Object, initialEntries: Array, initialCategories: Array, initialCount: Number })
+const publisher = computed(() => props.publisher)
 
-const meta = ref(null)
-const monographs = ref([])
-const categories = ref([])
+const meta = ref(props.initialMeta)
+const monographs = ref(props.initialEntries || [])
+const totalMonographs = ref(props.initialCount || 0)
+const categories = ref(props.initialCategories || [])
 const selectedCategory = ref('')
 const searchQuery = ref('')
-const loading = ref(true)
+const loading = ref(false)
 
-useHead({
-  title: () => `${meta.value?.name || 'Pharmacopoeia'} — Open Pharmacopoeia`,
-  meta: [
-    { name: 'description', content: () => `Browse the ${meta.value?.name || ''} dataset in the Open Pharmacopoeia registry.` }
-  ]
-})
 
 
 function isEntry(item) {
@@ -35,7 +28,7 @@ function isEntry(item) {
 function entryCategory(m) {
   if (typeof m.category === 'string' && m.category) return m.category
   const match = (m['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//)
-  return match ? match[1] : 'other'
+  return match ? match[1] : 'monographs'
 }
 
 function entrySlug(m) {
@@ -62,7 +55,6 @@ const filteredMonographs = computed(() => {
 })
 
 onMounted(async () => {
-  loading.value = true
   try {
     const registry = await loadRegistry()
     meta.value = registry.find(d => d.id === publisher.value)
@@ -72,6 +64,7 @@ onMounted(async () => {
       if (response.ok) {
         const data = await response.json()
         monographs.value = (data['@graph'] || []).filter(isEntry)
+        totalMonographs.value = monographs.value.length
         const categorySet = new Set(monographs.value.map(entryCategory))
         categories.value = Array.from(categorySet).filter(c => c !== 'other').sort()
       }
@@ -103,23 +96,23 @@ onMounted(async () => {
           <a v-if="meta?.sourceUrl" :href="meta.sourceUrl" class="ml-2 font-mono text-[11px] text-moss underline decoration-brass/60 underline-offset-2 hover:text-pine">official source ↗</a>
         </p>
         <div class="mt-3 flex flex-wrap items-center gap-2 font-mono text-[10px] uppercase tracking-wider">
-          <span class="rounded-sm bg-pine/10 px-2 py-1 text-pine">{{ meta?.edition }}</span>
+          <span class="rounded-xs bg-pine/10 px-2 py-1 text-pine">{{ meta?.edition }}</span>
           <span
             v-if="meta"
-            class="rounded-sm px-2 py-1"
+            class="rounded-xs px-2 py-1"
             :class="meta.rights === 'title-only' ? 'bg-oxblood/10 text-oxblood' : 'bg-moss/10 text-moss'"
           >
             {{ meta.rights === 'title-only' ? 'Index only — content under copyright' : 'Full text — open data' }}
           </span>
-          <span v-if="monographs.length" class="rounded-sm bg-ink/5 px-2 py-1 text-ink/70">
-            {{ monographs.length.toLocaleString() }} entries
+          <span v-if="monographs.length" class="rounded-xs bg-ink/5 px-2 py-1 text-ink/70">
+            {{ totalMonographs.toLocaleString() }} entries
           </span>
         </div>
 
         <!-- Restriction banner -->
         <div
           v-if="meta?.rights === 'title-only'"
-          class="mt-5 max-w-3xl rounded-sm border-l-4 border-oxblood bg-oxblood/[0.06] px-4 py-3 text-sm text-ink/80"
+          class="mt-5 max-w-3xl rounded-xs border-l-4 border-oxblood bg-oxblood/[0.06] px-4 py-3 text-sm text-ink/80"
         >
           The full text of this pharmacopoeia is copyrighted and is not published here.
           We list titles and link each entry to its counterparts in the open
@@ -132,7 +125,7 @@ onMounted(async () => {
         <!-- Raw status banner -->
         <div
           v-else-if="meta?.status === 'raw'"
-          class="mt-5 max-w-3xl rounded-sm border-l-4 border-brass bg-brass/[0.08] px-4 py-3 text-sm text-ink/80"
+          class="mt-5 max-w-3xl rounded-xs border-l-4 border-brass bg-brass/[0.08] px-4 py-3 text-sm text-ink/80"
         >
           Source documents for this pharmacopoeia have been acquired and monograph
           extraction is in progress. Entries will appear here once extracted.
@@ -151,11 +144,11 @@ onMounted(async () => {
             v-model="searchQuery"
             type="search"
             :placeholder="`Filter entries in ${meta?.short || publisher}…`"
-            class="w-full rounded-sm border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
+            class="w-full rounded-xs border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
           >
           <select
             v-model="selectedCategory"
-            class="rounded-sm border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none md:w-64"
+            class="rounded-xs border border-line bg-paper px-4 py-2.5 text-sm focus:border-moss focus:outline-none md:w-64"
           >
             <option value="">All categories</option>
             <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
@@ -169,7 +162,7 @@ onMounted(async () => {
 
         <div v-else>
           <p class="mb-4 font-mono text-xs text-ink/55">
-            Showing {{ filteredMonographs.length }} of {{ monographs.length.toLocaleString() }} entries
+            Showing {{ filteredMonographs.length }} of {{ totalMonographs.toLocaleString() }} entries
           </p>
 
           <div v-if="filteredMonographs.length" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

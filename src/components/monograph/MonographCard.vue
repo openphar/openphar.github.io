@@ -22,9 +22,9 @@ const native = computed(() => {
 </script>
 
 <template>
-  <RouterLink
-    :to="`/pharmacopoeia/${publisher}/${category}/${slug}`"
-    class="flex flex-col rounded-sm border p-4 transition-all hover:-translate-y-0.5 hover:shadow-md"
+  <a
+    :href="`/pharmacopoeia/${publisher}/${category}/${slug}`"
+    class="flex flex-col rounded-xs border p-4 transition-all hover:-translate-y-0.5 hover:shadow-md"
     :class="restricted
       ? 'border-oxblood/35 bg-oxblood/[0.04] hover:border-oxblood/70'
       : 'border-line bg-paper hover:border-moss'"
@@ -37,7 +37,7 @@ const native = computed(() => {
         <p v-if="native" class="line-clamp-1 text-xs text-ink/55" :lang="native.lang">{{ native.value }}</p>
       </div>
       <span
-        class="flex-shrink-0 rounded-sm px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
+        class="flex-shrink-0 rounded-xs px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
         :class="restricted ? 'bg-oxblood/10 text-oxblood' : 'bg-pine/10 text-pine'"
       >
         {{ restricted ? 'Index' : publisher.toUpperCase() }}
@@ -47,5 +47,5 @@ const native = computed(() => {
       <span class="truncate font-mono lowercase">{{ category }}</span>
       <span v-if="edition" class="ml-2 flex-shrink-0 font-mono text-[10px]">{{ edition }}</span>
     </div>
-  </RouterLink>
+  </a>
 </template>

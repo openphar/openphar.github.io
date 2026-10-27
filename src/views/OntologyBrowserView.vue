@@ -1,13 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useHead } from '@unhead/vue'
 
-useHead({
-  title: 'Ontology Browser - Open Pharmacopoeia',
-  meta: [
-    { name: 'description', content: 'Browse and explore the Open Pharmacopoeia ontology' }
-  ]
-})
 
 const ontologyFiles = ref([])
 const selectedFile = ref(null)

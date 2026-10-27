@@ -17,14 +17,14 @@ jobs:
           /tmp/gitleaks detect --source . --no-banner --redact -v
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 22.22.0
           cache: npm
       - run: npm ci
       - name: Rights enforcement (title-only datasets carry titles only)
         run: node scripts/assert-rights.mjs
       - name: Link integrity (every cross-link target resolves)
         run: node scripts/check-counterpart-links.mjs
-      - name: Production build (vite-ssg, ~29k pages)
+      - name: Production build (Astro static pages)
         run: npm run build
       - uses: actions/upload-artifact@v4
         if: always()

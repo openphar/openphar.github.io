@@ -1,0 +1,8 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro'
+import HomeView from '../views/HomeView.vue'
+import { registry } from '../lib/build-data.js'
+---
+<SiteLayout title="Open Pharmacopoeia — one semantic structure for every pharmacopoeia" description="A non-profit, open semantic structure for the world's pharmacopoeias: harmonized base layer from ICH Q4, extended by national, herbal and traditional pharmacopoeias.">
+  <HomeView initialRegistry={registry} />
+</SiteLayout>

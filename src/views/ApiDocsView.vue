@@ -1,12 +1,5 @@
 <script setup>
-import { useHead } from '@unhead/vue'
 
-useHead({
-  title: 'API Documentation - Open Pharmacopoeia',
-  meta: [
-    { name: 'description', content: 'API documentation for accessing Open Pharmacopoeia data' }
-  ]
-})
 
 const endpoints = [
   {

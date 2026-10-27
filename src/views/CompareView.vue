@@ -1,17 +1,8 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useHead } from '@unhead/vue'
-import { useRoute } from 'vue-router'
 import { extractString } from '../lib/i18n'
 
-const route = useRoute()
 
-useHead({
-  title: 'Compare Monographs - Open Pharmacopoeia',
-  meta: [
-    { name: 'description', content: 'Compare the same substance across pharmacopoeia publishers, resolved by the substance identity registry.' }
-  ]
-})
 
 const searchQuery = ref('')
 const candidates = ref([])
@@ -102,7 +93,7 @@ function onSelect(row) {
 }
 
 onMounted(() => {
-  const entry = route.query.entry
+  const entry = new URLSearchParams(window.location.search).get('entry')
   if (entry && entry.includes('/')) {
     const [d, s] = String(entry).split('/')
     searchQuery.value = s.replace(/-/g, ' ')
@@ -155,13 +146,13 @@ onMounted(() => {
         <div class="flex items-center gap-2 mb-2">
           <span class="badge" :class="'badge-' + col.d">{{ col.d.toUpperCase() }}</span>
           <span v-if="col.edition" class="text-xs text-ink/55">{{ col.edition }}</span>
-          <router-link v-if="col.sub" :to="`/substance/${col.sub}`" class="ml-auto text-xs text-blue-700 hover:underline">substance →</router-link>
+          <a v-if="col.sub" :href="`/substance/${col.sub}`" class="ml-auto text-xs text-blue-700 hover:underline">substance →</a>
           <span v-if="col.restricted" class="ml-auto text-xs px-2 py-0.5 rounded bg-wash text-ink/55">title-only</span>
         </div>
         <h3 class="font-semibold text-ink">
-          <router-link :to="`/pharmacopoeia/${col.d}/${col.c}/${col.s}`" class="hover:underline">
+          <a :href="`/pharmacopoeia/${col.d}/${col.c}/${col.s}`" class="hover:underline">
             {{ col.title }}
-          </router-link>
+          </a>
         </h3>
         <template v-if="!col.restricted">
           <p v-if="col.definition" class="text-sm text-ink/70 mt-2 line-clamp-4">{{ col.definition }}</p>

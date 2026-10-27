@@ -1,16 +1,9 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
-import { useHead } from '@unhead/vue'
-import { useRoute } from 'vue-router'
 import { useSearch } from '../composables/useSearch'
 import { loadRegistry, rightsMeta } from '../lib/registry'
 
-useHead({
-  title: 'Search — Open Pharmacopoeia',
-  meta: [{ name: 'description', content: 'Search monographs across every pharmacopoeia in the registry — open datasets in full, copyrighted ones by title index.' }]
-})
 
-const route = useRoute()
 const { loading, initialized, initialize, search, getStats } = useSearch()
 
 const registry = ref([])
@@ -25,7 +18,7 @@ const datasetOptions = computed(() => registry.value.map(d => ({ id: d.id, label
 onMounted(async () => {
   await initialize()
   try { registry.value = await loadRegistry() } catch { /* registry optional here */ }
-  const q = route.query.q
+  const q = new URLSearchParams(window.location.search).get('q')
   if (q) {
     query.value = String(q)
     runSearch()
@@ -78,17 +71,17 @@ function isRestricted(r) {
         v-model="query"
         type="search"
         placeholder="e.g. paracetamol, ginseng, 아세틸시스테인, or a CAS number (103-90-2)…"
-        class="w-full rounded-sm border border-line bg-paper px-4 py-3 text-base focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
+        class="w-full rounded-xs border border-line bg-paper px-4 py-3 text-base focus:border-moss focus:outline-none focus:ring-1 focus:ring-moss"
         autofocus
       >
       <select
         v-model="selectedDataset"
-        class="rounded-sm border border-line bg-paper px-4 py-3 text-sm focus:border-moss lg:w-64"
+        class="rounded-xs border border-line bg-paper px-4 py-3 text-sm focus:border-moss lg:w-64"
       >
         <option value="">All datasets</option>
         <option v-for="d in datasetOptions" :key="d.id" :value="d.id">{{ d.label }}</option>
       </select>
-      <label class="flex items-center gap-2 rounded-sm border border-line bg-paper px-4 py-3 text-sm text-ink/75 lg:w-56">
+      <label class="flex items-center gap-2 rounded-xs border border-line bg-paper px-4 py-3 text-sm text-ink/75 lg:w-56">
         <input v-model="restrictedOnly" type="checkbox" class="accent-oxblood">
         Index-only entries
       </label>
@@ -106,13 +99,13 @@ function isRestricted(r) {
 
       <ul v-if="results.length" class="mt-4 divide-y divide-line border-y border-line">
         <li v-for="r in results" :key="r.d + '/' + r.s">
-          <RouterLink
-            :to="`/pharmacopoeia/${r.d}/${r.c}/${r.s}`"
+          <a
+            :href="`/pharmacopoeia/${r.d}/${r.c}/${r.s}`"
             class="group flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-3.5 transition-colors hover:bg-wash/60"
           >
             <span class="flex min-w-0 items-baseline gap-3">
               <span
-                class="flex-shrink-0 rounded-sm px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
+                class="flex-shrink-0 rounded-xs px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-wider"
                 :class="isRestricted(r) ? 'bg-oxblood/10 text-oxblood' : 'bg-pine/10 text-pine'"
               >
                 {{ datasetMeta(r.d)?.short || r.d }}
@@ -123,7 +116,7 @@ function isRestricted(r) {
             <span class="font-mono text-[10px] uppercase tracking-wider text-ink/45">
               {{ isRestricted(r) ? 'index only' : r.c }}
             </span>
-          </RouterLink>
+          </a>
         </li>
       </ul>
 

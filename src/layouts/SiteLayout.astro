@@ -1,0 +1,23 @@
+---
+import '../styles/main.css'
+import SiteHeader from '../components/layout/SiteHeader.astro'
+import SiteFooter from '../components/layout/SiteFooter.astro'
+const { title = 'Open Pharmacopoeia', description = 'One open semantic structure for every pharmacopoeia.', lang = 'en' } = Astro.props
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="flex min-h-screen flex-col bg-paper">
+      <SiteHeader />
+      <main class="flex-1"><slot /></main>
+      <SiteFooter />
+    </div>
+  </body>
+</html>
