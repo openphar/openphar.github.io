@@ -14,6 +14,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
+import { createVendoredRegistryJoin } from './registry-join.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
@@ -27,6 +28,7 @@ const entryToSubstance = fs.existsSync(ENTRY_TO_SUBSTANCE_FILE)
 // registry join: corpus canonical_iri -> built hub @id (the registry's
 // entry-to-substance.json is keyed on canonical IRIs, hub @ids differ)
 const corpusSubstance = new Map()
+const resolveVendored = createVendoredRegistryJoin(entryToSubstance)
 // fallback join for vendored graphs (jp, phint): publisher+slug -> substance
 const HUB_TO_REGISTRY_PUB = { eu: 'ep', us: 'usp', uk: 'bp', hk: 'hkcmms', ayp: 'api' }
 const pubSlugSubstance = new Map()
@@ -431,7 +433,7 @@ function normTitle(t) {
 }
 
 const groups = new Map() // normTitle -> [{d, s, c, t, k}]
-const entryMeta = new Map() // entry @id -> {d, s, c, t, k, edition}
+const substanceEntries = new Map() // substance -> public route metadata
 
 for (const e of registryOut) {
   const f = path.join(DATA_DIR, e.id, `${e.id}-monographs.jsonld`)
@@ -451,10 +453,18 @@ for (const e of registryOut) {
     const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
     const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
-    entryMeta.set(m['@id'], { ...member, edition: m.edition || e.edition || null })
     const hubSlug = m['@id'].split('/').pop()
-    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] ||
-      pubSlugSubstance.get(`${HUB_TO_REGISTRY_PUB[e.id] || e.id}/${hubSlug}`)
+    const fallback = e.id === 'jp' || e.id === 'phint'
+      ? resolveVendored(e.id, hubSlug, m.edition || e.edition)
+      : pubSlugSubstance.get(`${HUB_TO_REGISTRY_PUB[e.id] || e.id}/${hubSlug}`)
+    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] || fallback
+    if (substance) {
+      if (!substanceEntries.has(substance)) substanceEntries.set(substance, [])
+      const entries = substanceEntries.get(substance)
+      if (!entries.some(x => x.d === member.d && x.s === member.s && x.c === member.c)) {
+        entries.push({ ...member, edition: m.edition || e.edition || null })
+      }
+    }
     searchIndex.push({
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
       ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {}),
@@ -525,14 +535,7 @@ fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(search
 // restricted publishers carry titles, never body content).
 const substancesFile = path.join(ROOT, '../substance-registry/registry/substances.json')
 if (fs.existsSync(substancesFile) && entryToSubstance) {
-  const bySlug = new Map()
-  for (const [hubId, slug] of corpusSubstance) {
-    const meta = entryMeta.get(hubId)
-    if (meta) {
-      if (!bySlug.has(slug)) bySlug.set(slug, [])
-      if (!bySlug.get(slug).some(x => x.d === meta.d && x.s === meta.s)) bySlug.get(slug).push(meta)
-    }
-  }
+  const bySlug = substanceEntries
   const substances = JSON.parse(fs.readFileSync(substancesFile, 'utf-8'))
   const substancesDir = path.join(DATA_DIR, 'substances')
   fs.rmSync(substancesDir, { recursive: true, force: true })
