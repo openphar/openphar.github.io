@@ -93,7 +93,7 @@ const formRels = computed(() => (doc.value?.form_relations || []).map(r => ({
         their public release allows.
       </p>
       <ul v-else class="divide-y divide-neutral-200 border border-neutral-200 rounded">
-        <li v-for="e in doc.entries" :key="e.d + '/' + e.s">
+        <li v-for="e in doc.entries" :key="e.d + '/' + e.c + '/' + e.s">
           <router-link :to="`/pharmacopoeia/${e.d}/${e.c}/${e.s}`" class="flex items-baseline justify-between gap-4 px-4 py-3 hover:bg-neutral-50">
             <span>
               <span class="font-medium">{{ e.t }}</span>
