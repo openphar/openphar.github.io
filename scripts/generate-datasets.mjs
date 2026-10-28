@@ -16,9 +16,20 @@ import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
 import { createVendoredRegistryJoin } from './registry-join.mjs'
 import { labelsOf, nativeLabelOf, titleLabelOf } from './native-labels.mjs'
+import { projectSearchIndex, reindexVendoredSearch } from './search-policy.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
+const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
+const datasets = registry.datasets
+// Reapply the public search projection to approved vendored inputs only. This
+// deliberately avoids sibling sources, registry joins and all other writes.
+// Usage: node scripts/generate-datasets.mjs --reindex-search
+if (process.argv.slice(2).length) {
+  if (process.argv.slice(2).join(' ') !== '--reindex-search') throw new Error('Unknown generator arguments')
+  reindexVendoredSearch(ROOT, datasets)
+  process.exit(0)
+}
 // Cross-publisher substance identity (openphar/substance-registry). Optional
 // sibling: when absent (e.g. CI without private checkouts) counterpart
 // matching falls back to title/CAS only.
@@ -38,9 +49,6 @@ for (const [iri, slug0] of Object.entries(entryToSubstance)) {
   if (m0) pubSlugSubstance.set(`${m0[1]}/${iri.split('/').pop()}`, slug0)
 }
 const DATA_DIR = path.join(ROOT, 'data')
-
-const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
-const datasets = registry.datasets
 
 const MAX_DEF_CHARS = 4000
 const MAX_SECTION_CHARS = 6000
@@ -500,7 +508,7 @@ fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOu
   console.log(`✓ native cross-search pool: ${pooled} rows`)
 }
 
-fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(searchIndex))
+fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(projectSearchIndex(searchIndex, datasets)))
 
 // Per-substance landing data (TODO 05): registry entry + the hub-visible
 // monograph occurrences that map to it (title-only fields respected —
