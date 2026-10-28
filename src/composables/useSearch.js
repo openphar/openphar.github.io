@@ -59,12 +59,13 @@ export function useSearch() {
     const nnRes = searchIndex.search(query, { field: 'nn', limit: 2000, suggest: true })
     const ids = new Set()
     for (const field of [tRes, nRes, xRes, nnRes]) {
-      for (const r of (Array.isArray(field) ? field : field?.result || [])) {
-        ids.add(typeof r === 'object' ? r.i : r)
+      for (const match of (Array.isArray(field) ? field : field?.result || [])) {
+        const resultIds = Array.isArray(match?.result) ? match.result : [typeof match === 'object' ? match.i : match]
+        for (const id of resultIds) ids.add(id)
       }
     }
 
-    let results = ids.map(i => entriesData[i]).filter(Boolean)
+    let results = [...ids].map(i => entriesData[i]).filter(Boolean)
     if (dataset) results = results.filter(r => r.d === dataset)
     if (restricted !== undefined) results = results.filter(r => (r.k === 0) === restricted)
     return results.slice(0, limit)
