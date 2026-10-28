@@ -5,6 +5,8 @@ import EditionChanges from '../../../../components/EditionChanges.vue'
 import searchIndex from '../../../../../data/search-index.json'
 import { detailAccess, resolveEntrySelection } from '../../../../lib/comparison-contract.js'
 import { readEditionProjection, editionsForEntry } from '../../../../lib/edition-diff.js'
+import titleProjection from '../../../../../public/data/us-editions.json'
+import {readTitleOnlyEditions,titleEditionsFor} from '../../../../lib/title-only-editions.js'
 import editionProjection from '../../../../../public/data/edition-diffs.json'
 import { registry, datasetIds, entries, entryCategory, entrySlug, counterparts, sampleBuild } from '../../../../lib/build-data.js'
 import { extractString, primaryLang } from '../../../../lib/i18n.js'
@@ -40,10 +42,11 @@ const rights = types.includes('TitleIndexEntry') ? 'title-only' : meta?.rights
 const selection = resolveEntrySelection(entries(publisher), searchIndex, { publisher, slug, category })
 const substanceId = selection?.entry['@id'] === monograph['@id'] && selection?.entry.edition === monograph.edition ? selection.substanceId : null
 const editionPairs = editionsForEntry(readEditionProjection(editionProjection), { publisher, entryId: monograph['@id'], edition: monograph.edition, substanceId, rights })
+const titleEditions=publisher==='us'?titleEditionsFor(readTitleOnlyEditions(titleProjection),{publisher,substanceId,entryId:monograph['@id'],edition:monograph.edition,category},{graph:entries('us'),index:searchIndex}):[]
 const publication = Object.fromEntries(['attribution', 'license', 'adaptation', 'endorsement'].map(key => [key, editionProjection[key]]))
 ---
 <SiteLayout title={`${title} — ${meta?.short || publisher} — Open Pharmacopoeia`} description={extractString(monograph.definition).slice(0, 200)} lang={primaryLang(monograph.prefLabel)}>
-  <MonographDetailView publisher={publisher} category={category} slug={slug} initialMonograph={monograph} initialMeta={meta} initialRegistry={registry} initialCounterparts={counterparts(publisher, slug)} />
+  <MonographDetailView publisher={publisher} category={category} slug={slug} initialMonograph={monograph} initialMeta={meta} initialRegistry={registry} initialCounterparts={counterparts(publisher, slug)} initialTitleEditions={titleEditions} />
   {detailAccess(publisher, rights) === 'eligible' && <div class="container mx-auto max-w-4xl px-4 pb-10">
     {editionPairs.length ? <EditionChanges client:visible publisher={publisher} entryId={monograph['@id']} edition={monograph.edition || meta?.edition} substanceId={substanceId} rights={rights} initialRecords={editionPairs} publication={publication} /> :
       <section class="mt-8 border-t border-line pt-5" aria-labelledby="edition-state-heading"><h2 id="edition-state-heading" class="font-display text-xl font-semibold">Editions and changes</h2><p class="mt-2 text-sm">Edition differences are unverified or unavailable for this entry.</p></section>}

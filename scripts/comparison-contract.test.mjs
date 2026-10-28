@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { readComparisonProjection, findFacts, compareTests, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection } from '../src/lib/comparison-contract.js'
+import { readComparisonProjection, findFacts, compareTests, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection, fromCanonicalLimit } from '../src/lib/comparison-contract.js'
 // Explicit contract fixtures, not source-derived scientific examples.
 const make = (changes = {}) => ({ publisher: 'phint', entryId: 'https://www.openphar.org/data/phint/monographs/6-1-266', substanceId: 'paracetamol', edition: 'PhInt-13', publication: {status:'permitted', authority:'WHO International Pharmacopoeia 13th edition, CC BY-NC-SA 3.0 IGO'}, tests: [{key:'assay',label:'Assay',semanticKey:'assay-content',basis:'dried substance',unit:'%',limit:{operator:'range',lower:'99.0',upper:'101.0'},evidence:'WHO PhInt-13, Paracetamol, Assay'}], ...changes })
 const doc = entry => ({schema:'openphar-comparison/v1',entries:[entry]})
@@ -24,3 +24,14 @@ test('rejects prose, missing evidence, malformed decimals, reversed ranges and d
 
 test('one value is unavailable for comparison; ambiguous semantic variants stay explicit',()=>{const facts=make();const rows=comparisonMatrix([{facts}]);assert.equal(rows[0].cells[0].comparison.status,'incomparable');assert.match(rows[0].cells[0].comparison.reason,/Only one/);facts.tests.push({...facts.tests[0],key:'another-variant'});assert.equal(comparisonMatrix([{facts}])[0].cells[0].ambiguous,true)})
 test('category participates in graph/index identity and ambiguous reused slugs fail closed',()=>{const graph=[{'@id':'https://www.openphar.org/data/phint/monographs/reused',category:'monographs',edition:'PhInt-13'},{'@id':'https://www.openphar.org/data/phint/general-tests/reused',category:'general-tests',edition:'PhInt-13'}];const index=[{d:'phint',s:'reused',c:'monographs',sub:'one'},{d:'phint',s:'reused',c:'general-tests',sub:'two'}];assert.equal(resolveEntrySelection(graph,index,{publisher:'phint',slug:'reused'}),null);assert.equal(resolveEntrySelection(graph,index,{publisher:'phint',slug:'reused',category:'general-tests'}).substanceId,'two');assert.equal(resolveEntrySelection(graph,[...index,{...index[1],sub:'conflict'}],{publisher:'phint',slug:'reused',category:'general-tests'}),null)})
+
+// Captured from actual declared CanonicalLimit serialization for the public WHO criterion.
+const nativeCanonical={"limit_operator": "range", "lower_limit": "98.5", "upper_limit": "101.0", "limit_unit": "%", "limit_subject": "Paracetamol content", "limit_qualifier": "C8H9NO2; calculated with reference to the dried substance"}
+test('declared native canonical JSON adapts losslessly with explicit semantic context',()=>{
+ const context={key:'assay-content',label:'Paracetamol content',semanticKey:'active-substance-content',basis:nativeCanonical.limit_qualifier,evidence:'WHO PhInt-13 Paracetamol Definition',expectedSubject:nativeCanonical.limit_subject,expectedQualifier:nativeCanonical.limit_qualifier}
+ const adapted=fromCanonicalLimit(nativeCanonical,context);assert.deepEqual(adapted.limit,{operator:'range',lower:'98.5',upper:'101.0'});assert.equal(adapted.unit,'%');assert.equal(adapted.basis,nativeCanonical.limit_qualifier)
+ assert.throws(()=>fromCanonicalLimit(nativeCanonical,{...context,expectedQualifier:'anhydrous basis'}),/explicit context/)
+ assert.throws(()=>fromCanonicalLimit({...nativeCanonical,limit_operator:'unknown'},context))
+ assert.throws(()=>fromCanonicalLimit({...nativeCanonical,raw_text:'FORBIDDEN'},context))
+ assert.throws(()=>fromCanonicalLimit({...nativeCanonical,limit_value:'99'},context),/conflicting/)
+})

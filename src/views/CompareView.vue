@@ -3,6 +3,7 @@ import { ref, onMounted, computed } from 'vue'
 import { extractString } from '../lib/i18n'
 import { detailAccess, readComparisonProjection, findFacts, formatLimit, comparisonMatrix, resolveEntrySelection } from '../lib/comparison-contract.js'
 import { readEditionProjection, editionsForEntry } from '../lib/edition-diff.js'
+import { readTitleOnlyEditions, titleEditionsFor } from '../lib/title-only-editions.js'
 
 const searchQuery = ref('')
 const candidates = ref([])
@@ -13,6 +14,8 @@ const projectionState = ref('Not loaded')
 const publication = ref(null)
 const requestError = ref('')
 const selectedHistorical = ref('')
+const selectedUspEdition = ref('')
+const titleIndex = ref(null)
 let factEntries = [], editionRecords = [], factsRequest
 let searchIndex, crossLinks, registryRights
 const datasetCache = {}
@@ -25,7 +28,8 @@ async function readJson(url) {
 async function ensureFacts() {
   if (!factsRequest) factsRequest = (async () => {
     try {
-      const [facts, editions] = await Promise.all([readJson('/data/comparison-facts.json'), readJson('/data/edition-diffs.json')])
+      const [facts, editions, titles] = await Promise.all([readJson('/data/comparison-facts.json'), readJson('/data/edition-diffs.json'), readJson('/data/us-editions.json').then(readTitleOnlyEditions).catch(()=>null)])
+      titleIndex.value = titles
       factEntries = readComparisonProjection(facts)
       editionRecords = readEditionProjection(editions)
       publication.value = facts
@@ -45,7 +49,15 @@ const historicalColumns = computed(() => columns.value.flatMap(column => {
     .map(facts => ({ ...column, facts, edition: facts.edition, historical: true, key: `${column.key}:${facts.edition}` }))
 }))
 const historicalEditions = computed(() => [...new Set(historicalColumns.value.map(c => c.edition))])
-const matrixColumns = computed(() => [...columns.value, ...historicalColumns.value.filter(c => c.edition === selectedHistorical.value)])
+const uspEditions = computed(() => {
+  const column = columns.value.find(c => c.d === 'us' && c.identity?.substanceId)
+  return column && titleIndex.value ? titleEditionsFor(titleIndex.value, column.identity, {graph:datasetCache.us || [], index:searchIndex || []}) : []
+})
+const publisherColumns = computed(() => columns.value.map(column => {
+  const metadata = column.d === 'us' ? uspEditions.value.find(record => record.edition === selectedUspEdition.value) : null
+  return metadata ? {...column, edition:metadata.edition, title:metadata.prefLabel.en, titleEditionSelected:true} : column
+}))
+const matrixColumns = computed(() => [...publisherColumns.value, ...historicalColumns.value.filter(c => c.edition === selectedHistorical.value)])
 const comparisonRows = computed(() => comparisonMatrix(matrixColumns.value))
 const comparisonStatus = computed(() => {
   if (loading.value) return 'Loading matches and comparison…'
@@ -53,9 +65,16 @@ const comparisonStatus = computed(() => {
   if (candidates.value.length) messages.push(`${candidates.value.length} matching monographs.`)
   else if (searched.value && searchQuery.value.length >= 2) messages.push('No matching monographs.')
   if (columns.value.length) messages.push(`${columns.value.length} publisher entries displayed.`)
+  if (selectedUspEdition.value) messages.push(`USP ${selectedUspEdition.value} title index selected.`)
   if (selectedHistorical.value) messages.push(`Historical typed limits from ${selectedHistorical.value} included.`)
   return messages.join(' ') || 'Enter at least two characters to find a monograph.'
 })
+function selectUspEdition() {
+  const url = new URL(window.location.href)
+  if (selectedUspEdition.value) url.searchParams.set('uspEdition', selectedUspEdition.value)
+  else url.searchParams.delete('uspEdition')
+  history.replaceState(null, '', url)
+}
 function selectHistorical() {
   const url = new URL(window.location.href)
   if (selectedHistorical.value) url.searchParams.set('edition', selectedHistorical.value)
@@ -82,8 +101,8 @@ async function datasetEntry(datasetId, slug, category) {
   if (!datasetCache[datasetId]) datasetCache[datasetId] = (await readJson(`/data/${datasetId}/${datasetId}-monographs.jsonld`))['@graph'] || []
   return resolveEntrySelection(datasetCache[datasetId], searchIndex, { publisher: datasetId, slug, category })
 }
-async function compareEntry(d, s, category, historicalEdition = '') {
-  loading.value = true; requestError.value = ''; selectedHistorical.value = ''
+async function compareEntry(d, s, category, historicalEdition = '', uspEdition = '') {
+  loading.value = true; requestError.value = ''; selectedHistorical.value = ''; selectedUspEdition.value = ''
   try {
     await Promise.all([ensureIndex(), ensureFacts()])
     const group = [{ d, s, c: category }, ...(crossLinks[`${d}/${s}`] || [])]
@@ -100,21 +119,23 @@ async function compareEntry(d, s, category, historicalEdition = '') {
       const rights = types.includes('TitleIndexEntry') ? 'title-only' : registryRights[m.d]
       const access = detailAccess(m.d, rights)
       const restricted = access === 'title-only'
-      const identity = { publisher: m.d, entryId: entry?.['@id'], edition: entry?.edition || '', substanceId: selection?.substanceId, rights }
+      const identity = { publisher: m.d, entryId: entry?.['@id'], edition: entry?.edition || '', substanceId: selection?.substanceId, rights, category:selection?.category }
       return {
         key: `${m.d}/${selection?.category || m.c || ''}/${m.s}`, d: m.d, s: m.s, c: selection?.category || m.c,
-        restricted, access, resolved: !!selection, facts: findFacts(factEntries, identity), sub: selection?.substanceId || null,
+        restricted, access, identity, resolved: !!selection, facts: findFacts(factEntries, identity), sub: selection?.substanceId || null,
         title: entry ? extractString(entry.prefLabel || entry['rdfs:label'] || {}) || m.s : m.t || m.s,
         edition: entry?.edition || '',
         definition: (!restricted && entry?.definition) ? extractString(entry.definition) : null,
         sections: (!restricted && entry?.sections) ? entry.sections.slice(0, 3) : []
       }
     }))
+    if (uspEditions.value.some(record => record.edition === uspEdition)) selectedUspEdition.value = uspEdition
     if (historicalEditions.value.includes(historicalEdition)) selectedHistorical.value = historicalEdition
     const url = new URL('/compare', window.location.origin)
     url.searchParams.set('entry', `${d}/${s}`)
     if (category) url.searchParams.set('category', category)
     if (selectedHistorical.value) url.searchParams.set('edition', selectedHistorical.value)
+    if (selectedUspEdition.value) url.searchParams.set('uspEdition', selectedUspEdition.value)
     history.replaceState(null, '', url)
   } catch { columns.value = []; requestError.value = 'Comparison data could not be loaded. Please try again.' }
   finally { loading.value = false }
@@ -126,7 +147,7 @@ onMounted(() => {
   if (entry && /^[a-z]+\/[^/]+$/.test(entry)) {
     const [d, s] = entry.split('/')
     searchQuery.value = s.replace(/-/g, ' ')
-    compareEntry(d, s, params.get('category') || undefined, params.get('edition') || '')
+    compareEntry(d, s, params.get('category') || undefined, params.get('edition') || '', params.get('uspEdition') || '')
   }
 })
 </script>
@@ -178,6 +199,14 @@ onMounted(() => {
     <section v-if="columns.length && !loading" class="mb-8">
       <h2 class="font-display text-2xl font-semibold">Test limits and methods</h2>
       <p class="mt-2 text-sm">{{ projectionState }} Exact units and measurement bases are compared without conversion. Method citations do not establish interchangeability.</p>
+      <div v-if="uspEditions.length" class="mt-4">
+        <label for="usp-edition" class="block text-sm font-medium">USP edition (title metadata only)</label>
+        <select id="usp-edition" v-model="selectedUspEdition" @change="selectUspEdition" class="mt-2 max-w-full rounded border border-line bg-paper px-3 py-2">
+          <option value="">Current title index</option>
+          <option v-for="record in uspEditions" :key="record['@id']" :value="record.edition">{{ record.edition }}</option>
+        </select>
+        <p class="mt-2 text-sm">USP selection changes title and edition metadata only. Bodies, limits and detailed edition changes remain restricted.</p>
+      </div>
       <div v-if="historicalEditions.length" class="mt-4">
         <label for="comparison-edition" class="block text-sm font-medium">Earlier edition for typed-limit comparison</label>
         <select id="comparison-edition" v-model="selectedHistorical" @change="selectHistorical" class="mt-2 max-w-full rounded border border-line bg-paper px-3 py-2">
@@ -197,8 +226,9 @@ onMounted(() => {
                 <p class="font-mono">{{ formatLimit(cell.test) }}</p>
                 <p>Basis: {{ cell.test.basis }}</p>
                 <p>{{ cell.comparison.reason }}</p>
-                <p v-if="cell.test.method">Method: {{ cell.test.method.publisher }} {{ cell.test.method.chapter }} — {{ cell.test.method.label }}</p>
-                <p v-else>Method mapping unavailable.</p>
+                <p v-if="cell.test.method">Chapter citation: {{ cell.test.method.publisher }} {{ cell.test.method.chapter }} — {{ cell.test.method.label }}</p>
+                <p v-else>No chapter citation supplied.</p>
+                <p>Mapping unresolved: this projection supplies chapter citations only; no approved merged-ledger mapping is supplied.</p>
                 <details class="mt-2"><summary>Evidence</summary><p>{{ cell.test.evidence }}</p><p v-if="cell.test.method">{{ cell.test.method.evidence }}</p></details>
               </template>
               <p v-else>{{ cell.column.access === 'title-only' ? 'Title only: limits and methods restricted.' : cell.column.access === 'held' ? 'New detailed comparisons held pending publication authority.' : cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' }}</p>
@@ -215,10 +245,11 @@ onMounted(() => {
 
     <div v-if="columns.length && !loading" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
       <h2 class="sr-only">Publisher comparison</h2>
-      <div v-for="col in columns" :key="col.key" class="bg-paper rounded-lg shadow-md p-5">
+      <div v-for="col in publisherColumns" :key="col.key" class="bg-paper rounded-lg shadow-md p-5">
         <div class="flex items-center gap-2 mb-2">
           <span class="badge" :class="'badge-' + col.d">{{ col.d.toUpperCase() }}</span>
           <span v-if="col.edition" class="text-xs text-ink/55">{{ col.edition }}</span>
+          <span v-if="col.titleEditionSelected" class="text-xs text-ink/55">selected title index</span>
           <a v-if="col.sub" :href="`/substance/${col.sub}`" class="ml-auto text-xs text-blue-700 hover:underline">substance →</a>
           <span v-if="col.restricted" class="ml-auto text-xs px-2 py-0.5 rounded bg-wash text-ink/55">title-only</span>
         </div>

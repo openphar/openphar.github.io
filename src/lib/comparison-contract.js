@@ -33,25 +33,30 @@ export function validateFactEntry(entry) {
   if (!Array.isArray(entry.tests)) fail('tests must be an array')
   const keys = new Set()
   for (const test of entry.tests) {
-    assertFields(test, ['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence', 'limit', 'method'], 'test')
-    if (!test || !['key', 'label', 'semanticKey', 'basis', 'unit'].every(k => text(test[k])) || !publicEvidence(test.evidence)) fail('test semantics, unit and public evidence are required')
+    validateTest(test)
     if (keys.has(test.key)) fail('duplicate test key')
     keys.add(test.key)
-    const limit = test.limit
-    if (!limit || !['range', '<=', '>=', '=', '<', '>'].includes(limit.operator)) fail('limit operator')
-    if (limit.operator === 'range') {
-      assertFields(limit, ['operator', 'lower', 'upper'], 'range')
-      if (!decimal(limit.lower) || !decimal(limit.upper) || compareDecimal(limit.lower, limit.upper) > 0) fail('ordered decimal range required')
-    } else {
-      assertFields(limit, ['operator', 'value'], 'limit')
-      if (!decimal(limit.value)) fail('decimal limit value required')
-    }
-    if (test.method) {
-      assertFields(test.method, ['publisher', 'chapter', 'label', 'evidence'], 'method')
-      if (!['publisher', 'chapter', 'label'].every(k => text(test.method[k])) || !publicEvidence(test.method.evidence)) fail('public method evidence is required')
-    }
   }
   return entry
+}
+
+export function validateTest(test) {
+  assertFields(test, ['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence', 'limit', 'method'], 'test')
+  if (!test || !['key', 'label', 'semanticKey', 'basis', 'unit'].every(k => text(test[k])) || !publicEvidence(test.evidence)) fail('test semantics, unit and public evidence are required')
+  const limit = test.limit
+  if (!limit || !['range', '<=', '>=', '=', '<', '>'].includes(limit.operator)) fail('limit operator')
+  if (limit.operator === 'range') {
+    assertFields(limit, ['operator', 'lower', 'upper'], 'range')
+    if (!decimal(limit.lower) || !decimal(limit.upper) || compareDecimal(limit.lower, limit.upper) > 0) fail('ordered decimal range required')
+  } else {
+    assertFields(limit, ['operator', 'value'], 'limit')
+    if (!decimal(limit.value)) fail('decimal limit value required')
+  }
+  if (test.method) {
+    assertFields(test.method, ['publisher', 'chapter', 'label', 'evidence'], 'method')
+    if (!['publisher', 'chapter', 'label'].every(k => text(test.method[k])) || !publicEvidence(test.method.evidence)) fail('public method evidence is required')
+  }
+  return test
 }
 
 export function readComparisonProjection(document) {
@@ -132,4 +137,20 @@ export function compareTests(leftEntry, left, rightEntry, right) {
 export function formatLimit(test) {
   const l = test.limit
   return `${l.operator === 'range' ? `${l.lower}–${l.upper}` : `${l.operator} ${l.value}`} ${test.unit}`
+}
+
+// Adapter for the declared CanonicalLimit JSON mapping. Semantic context is
+// explicit caller-reviewed input; subject/qualifier are never silently dropped.
+export function fromCanonicalLimit(canonical, context) {
+  assertFields(canonical, ['limit_operator','limit_value','lower_limit','upper_limit','limit_unit','limit_subject','limit_qualifier'], 'canonical limit')
+  assertFields(context, ['key','label','semanticKey','basis','evidence','method','expectedSubject','expectedQualifier'], 'canonical context')
+  for (const [field, expected] of [['limit_subject','expectedSubject'],['limit_qualifier','expectedQualifier']]) {
+    if (canonical[field] !== undefined && canonical[field] !== context[expected]) fail('canonical subject or qualifier lacks matching explicit context')
+  }
+  const operator=canonical.limit_operator
+  if(operator==='range'&&Object.hasOwn(canonical,'limit_value')||operator!=='range'&&(Object.hasOwn(canonical,'lower_limit')||Object.hasOwn(canonical,'upper_limit')))fail('conflicting canonical scalar/range fields')
+  const limit=operator==='range'?{operator,lower:canonical.lower_limit,upper:canonical.upper_limit}:{operator,value:canonical.limit_value}
+  const test={key:context.key,label:context.label,semanticKey:context.semanticKey,basis:context.basis,unit:canonical.limit_unit,limit,evidence:context.evidence}
+  if(context.method)test.method=context.method
+  return validateTest(test)
 }

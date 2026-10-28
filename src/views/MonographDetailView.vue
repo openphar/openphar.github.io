@@ -3,7 +3,7 @@ import { ref, computed } from 'vue'
 import { extractString, primaryLang, labelPairs } from '../lib/i18n'
 import { detailAccess } from '../lib/comparison-contract.js'
 
-const props = defineProps({ publisher: String, category: String, slug: String, initialMonograph: Object, initialMeta: Object, initialRegistry: Array, initialCounterparts: Array })
+const props = defineProps({ publisher: String, category: String, slug: String, initialMonograph: Object, initialMeta: Object, initialRegistry: Array, initialCounterparts: Array, initialTitleEditions: Array })
 const publisher = computed(() => props.publisher)
 const category = computed(() => props.category)
 const slug = computed(() => props.slug)
@@ -117,6 +117,15 @@ const publisherName = computed(() => meta.value?.name || publisher.value)
                 Official source ↗
               </a>
             </div>
+            <details v-if="initialTitleEditions?.length" class="mt-5">
+              <summary class="cursor-pointer font-medium">Available USP editions (title metadata only)</summary>
+              <p class="mt-2">Detailed edition changes are restricted. These links select title and edition metadata in Compare.</p>
+              <ul class="mt-3 space-y-2">
+                <li v-for="record in initialTitleEditions" :key="record['@id']">
+                  <a :href="`/compare?entry=${encodeURIComponent(publisher + '/' + slug)}&category=${encodeURIComponent(category)}&uspEdition=${encodeURIComponent(record.edition)}`" class="underline">{{ record.prefLabel.en }} · {{ record.edition }}</a>
+                </li>
+              </ul>
+            </details>
             <ul v-if="counterparts.length" class="mt-5 flex flex-wrap gap-2">
               <li v-for="c in counterparts" :key="c.d + c.s">
                 <a
