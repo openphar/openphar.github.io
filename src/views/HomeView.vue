@@ -66,7 +66,7 @@ function spineTarget(d) {
 
         <!-- The registry wall: every dataset as a spine on the shelf -->
         <div class="mt-12">
-          <div class="flex items-end gap-1.5 overflow-x-auto pb-0 sm:gap-2" aria-label="Datasets">
+          <div class="flex items-end gap-1.5 overflow-x-auto pb-0 sm:gap-2" role="group" aria-label="Datasets">
             <component
               :is="spineTarget(d) ? 'a' : 'div'"
               v-for="d in datasets"
@@ -78,7 +78,7 @@ function spineTarget(d) {
             >
               <span class="flex h-full flex-col items-center justify-between py-2.5">
                 <span class="font-mono text-[10px] font-medium tracking-wider">{{ d.short }}</span>
-                <span class="font-mono text-[9px] opacity-70">{{ d.count > 0 ? d.count.toLocaleString() : '—' }}</span>
+                <span class="font-mono text-[9px] opacity-100">{{ d.count > 0 ? d.count.toLocaleString() : '—' }}</span>
               </span>
               <span
                 :id="`dataset-${d.id}-description`"

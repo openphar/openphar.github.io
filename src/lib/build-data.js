@@ -56,6 +56,8 @@ export function substanceSlugs() {
   // Include one newly merged identity whose numbered Ph.Int. join must remain
   // tied to its edition, in addition to the original diagnostic sample.
   const editionJoinCase = 'rifampicin-isoniazid-pyrazinamide-and-ethambutol-hydrochloride-tablets'
-  return sampleBuild ? [...new Set([...slugs.slice(0, 2), ...(slugs.includes(editionJoinCase) ? [editionJoinCase] : [])])] : slugs
+  const required = [editionJoinCase, 'paracetamol', 'albendazole', 'caffeine']
+  if (sampleBuild && required.some(slug => !slugs.includes(slug))) throw new Error('Missing required comparison sample substance')
+  return sampleBuild ? [...new Set([...slugs.slice(0, 2), ...required])] : slugs
 }
 export function substance(slug) { return read(`substances/${slug}.json`) }

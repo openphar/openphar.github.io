@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { extractString, primaryLang, labelPairs } from '../lib/i18n'
+import { detailAccess } from '../lib/comparison-contract.js'
 
 const props = defineProps({ publisher: String, category: String, slug: String, initialMonograph: Object, initialMeta: Object, initialRegistry: Array, initialCounterparts: Array })
 const publisher = computed(() => props.publisher)
@@ -33,6 +34,7 @@ const entryLang = computed(() => {
 
 
 const isRestricted = computed(() => {
+  if (detailAccess(publisher.value, meta.value?.rights) === 'title-only') return true
   const t = monograph.value?.['@type']
   return Array.isArray(t) ? t.includes('TitleIndexEntry') : t === 'TitleIndexEntry'
 })
