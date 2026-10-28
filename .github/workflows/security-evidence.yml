@@ -73,10 +73,9 @@ jobs:
         with:
           node-version: 22
       - name: Generate lock-only CycloneDX SBOM and provenance (no install)
-        env:
-          SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: |
           set -euo pipefail
+          security_source_sha=$(git rev-parse HEAD)
           out="$RUNNER_TEMP/sbom-out"
           mkdir -p "$out"
           npm sbom --package-lock-only --sbom-format cyclonedx --sbom-type application > "$out/sbom.cdx.json"
@@ -85,13 +84,13 @@ jobs:
           sbom_sha=$(sha256sum "$out/sbom.cdx.json" | cut -d' ' -f1)
           components=$(node -e 'const s=require(process.argv[1]);console.log((s.components||[]).length)' "$out/sbom.cdx.json")
           node -e '
-            const [,, o, src, lock, sbom, comps, node, npm] = process.argv;
+            const [, o, src, lock, sbom, comps, node, npm] = process.argv;
             require("fs").writeFileSync(o, JSON.stringify({
               sourceSha: src, lockfile: "package-lock.json", lockSha256: lock,
               sbom: {file: "sbom.cdx.json", format: "CycloneDX", lockOnly: true, sha256: sbom, components: Number(comps)},
               tools: {node, npm, command: "npm sbom --package-lock-only --sbom-format cyclonedx --sbom-type application"}
             }, null, 2) + "\n");
-          ' "$out/provenance.json" "$SOURCE_SHA" "$lock_sha" "$sbom_sha" "$components" "$(node -v)" "$(npm -v)"
+          ' "$out/provenance.json" "$security_source_sha" "$lock_sha" "$sbom_sha" "$components" "$(node -v)" "$(npm -v)"
           cat "$out/provenance.json"
           echo "SBOM_OUT=$out" >> "$GITHUB_ENV"
       - uses: actions/upload-artifact@v4
