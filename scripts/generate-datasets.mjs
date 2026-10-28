@@ -15,6 +15,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
 import { createVendoredRegistryJoin } from './registry-join.mjs'
+import { labelsOf, nativeLabelOf, titleLabelOf } from './native-labels.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
@@ -44,39 +45,9 @@ const datasets = registry.datasets
 const MAX_DEF_CHARS = 4000
 const MAX_SECTION_CHARS = 6000
 
-// Language-tagged labels from the various SSOT shapes (en preferred, kept
-// alongside ko/zh/etc. when present)
-function labelsOf(doc) {
-  const pick = (v) => (v && typeof v === 'string' ? v.trim() : null)
-  const out = {}
-  const set = (k, v) => { if (v && !out[k]) out[k] = v }
-
-  if (typeof doc.title === 'string') {
-    set('en', pick(doc.title))
-  } else if (doc.title && typeof doc.title === 'object') {
-    set('en', pick(doc.title.en) || pick(doc.title.english))
-    set('la', pick(doc.title.latin))
-    set('zh', pick(doc.title.zh))
-    set('ko', pick(doc.title.ko))
-  }
-
-  const names = doc.names || {}
-  set('en', pick(names.en))
-  set('la', pick(names.la))
-  set('zh', pick(names.zh))
-  set('ko', pick(names.ko))
-  if (Array.isArray(names.english)) set('en', pick(names.english[0]))
-  if (names.canonical) {
-    set('en', pick(names.canonical.en))
-    set('la', pick(names.canonical.latin) || pick(names.canonical.iast))
-    set('zh', pick(names.canonical.zh))
-  }
-  return out
-}
-
-function titleOf(doc) {
-  const labels = labelsOf(doc)
-  return Object.values(labels)[0] || null
+function titleOf(doc, publisher) {
+  const labels = labelsOf(doc, publisher)
+  return titleLabelOf(labels, publisher)
 }
 
 function slugOf(doc, file) {
@@ -156,13 +127,13 @@ function buildGraph(id, cfg) {
     }
     if (!doc || typeof doc !== 'object') { skipped++; continue }
 
-    const title = titleOf(doc, file)
+    const title = titleOf(doc, cfg.short)
     if (!title) { skipped++; continue }
 
     const slug = slugOf(doc, file)
     const rel = path.relative(base, file)
     const docEdition = typeof doc.edition === 'string' ? doc.edition : null
-    const labels = labelsOf(doc)
+    const labels = labelsOf(doc, cfg.short)
     const sectionId = doc.classification?.section_id
     const entry = {
       '@id': `https://www.openphar.org/data/${id}/monographs/${slug}`,
@@ -182,7 +153,8 @@ function buildGraph(id, cfg) {
       const chem = doc.chemistry || {}
       if (chem.molecular_formula) entry.molecularFormula = chem.molecular_formula
       if (chem.molecular_weight) entry.molecularWeight = chem.molecular_weight
-      const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labels)[0] || 'en'
+      // Preserve editorial-text language independently of display-name script tags.
+      const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labelsOf(doc))[0] || 'en'
 
       const sections = sectionTexts(doc)
       const plainDef = typeof doc.definition === 'string' ? doc.definition.trim() : null
@@ -442,7 +414,7 @@ for (const e of registryOut) {
   const restricted = e.rights === 'title-only'
   for (const m of g.filter(isEntry)) {
     const label = m.prefLabel || {}
-    const title = label.en || label.ja || label.la || Object.values(label)[0]
+    const title = label.en || label.ja || (e.id === 'ayp' && label['sa-Latn']) || label.la || Object.values(label)[0]
     if (!title) continue
     const s = m['@id'].split('/').pop()
     // category must match the route generator (vite.config.js): explicit field,
@@ -450,7 +422,7 @@ for (const e of registryOut) {
     const cat = (typeof m.category === 'string' && m.category)
       || ((m['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//) || [])[1]
       || 'monographs'
-    const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
+    const native = nativeLabelOf(label)
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
     const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
     const hubSlug = m['@id'].split('/').pop()

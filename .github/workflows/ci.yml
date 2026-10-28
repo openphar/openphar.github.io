@@ -21,7 +21,7 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Registry join regression checks
-        run: node --test scripts/registry-join.test.mjs
+        run: node --test scripts/registry-join.test.mjs scripts/native-labels.test.mjs scripts/native-search.test.mjs
       - name: Rights enforcement (title-only datasets carry titles only)
         run: node scripts/assert-rights.mjs
       - name: Link integrity (every cross-link target resolves)
