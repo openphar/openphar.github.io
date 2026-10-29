@@ -39,3 +39,11 @@ The helper integration changes only method-catalog projection. It does not chang
 `registry/datasets.yml` currently declares ICH `rights: full`. That declaration is not new publication authority for the qualified catalog or its underlying source texts. The task keeps all public generation, refresh and deployment blocked; this helper does not introduce an approval switch or certify public output safe. Full conditions/source review, rights, links, coverage and snapshot checks remain necessary before any authorized refresh, including for the unchanged guideline/annex text pipeline.
 
 An unapplied follow-up proposal is to require an explicitly reviewed input digest and projection-contract identifier in the ICH dataset descriptor, and have the writer abort when either is absent or mismatched. That requires a separate descriptor/policy ownership decision. No descriptor, runtime publication flag or full writer guard is added here. A withholding marker is neither a rights grant nor a replacement for full scientific/source qualification.
+
+## Legacy display
+
+The detail view also guards existing ICH method entries that lack the qualified projection marker. It preserves their titles, routes and literal catalog status, labels the status as catalog metadata, and withholds old generated descriptions/chapter sections that omitted source and edition qualifications. A short explanation directs readers to authoritative texts. The original vendored data is unchanged; this display policy neither authenticates the source nor authorizes a refresh. Qualified-format entries and other publishers/guidelines/annexes retain their normal rendering.
+
+Run `node --test scripts/tests/method-catalog-display.test.mjs scripts/tests/ich-method-projection.test.mjs` for the display policy, actual legacy data-shape regression and actual Vue template checks. A passing test does not establish regulatory equivalence or full WCAG/source acceptance.
+
+The same policy supplies the page's SEO description and hides the legacy raw-data panel, so those surfaces cannot repeat the omitted-qualification claims. This is a display guard; existing machine-readable dataset files remain unchanged and still require the separate source/publication review.

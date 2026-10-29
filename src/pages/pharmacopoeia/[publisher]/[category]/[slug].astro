@@ -10,6 +10,7 @@ import {readTitleOnlyEditions,titleEditionsFor} from '../../../../lib/title-only
 import editionProjection from '../../../../../public/data/edition-diffs.json'
 import { registry, datasetIds, entries, entryCategory, entrySlug, counterparts, sampleBuild } from '../../../../lib/build-data.js'
 import { extractString, primaryLang } from '../../../../lib/i18n.js'
+import { methodCatalogDisplay } from '../../../../lib/method-catalog-display.js'
 export function getStaticPaths() {
   return datasetIds().flatMap(publisher => {
     const graph = entries(publisher)
@@ -35,6 +36,7 @@ export function getStaticPaths() {
 }
 const { publisher, category, slug } = Astro.params
 const { monograph } = Astro.props
+const catalogDisplay = methodCatalogDisplay(publisher, category, monograph)
 const meta = registry.find(dataset => dataset.id === publisher)
 const title = extractString(monograph.prefLabel || monograph['rdfs:label'])
 const types = Array.isArray(monograph['@type']) ? monograph['@type'] : [monograph['@type']]
@@ -45,7 +47,7 @@ const editionPairs = editionsForEntry(readEditionProjection(editionProjection), 
 const titleEditions=publisher==='us'?titleEditionsFor(readTitleOnlyEditions(titleProjection),{publisher,substanceId,entryId:monograph['@id'],edition:monograph.edition,category},{graph:entries('us'),index:searchIndex}):[]
 const publication = Object.fromEntries(['attribution', 'license', 'adaptation', 'endorsement'].map(key => [key, editionProjection[key]]))
 ---
-<SiteLayout title={`${title} — ${meta?.short || publisher} — Open Pharmacopoeia`} description={extractString(monograph.definition).slice(0, 200)} lang={primaryLang(monograph.prefLabel)}>
+<SiteLayout title={`${title} — ${meta?.short || publisher} — Open Pharmacopoeia`} description={extractString(catalogDisplay.definition).slice(0, 200)} lang={primaryLang(monograph.prefLabel)}>
   <MonographDetailView publisher={publisher} category={category} slug={slug} initialMonograph={monograph} initialMeta={meta} initialRegistry={registry} initialCounterparts={counterparts(publisher, slug)} initialTitleEditions={titleEditions} />
   {detailAccess(publisher, rights) === 'eligible' && <div class="container mx-auto max-w-4xl px-4 pb-10">
     {editionPairs.length ? <EditionChanges client:visible publisher={publisher} entryId={monograph['@id']} edition={monograph.edition || meta?.edition} substanceId={substanceId} rights={rights} initialRecords={editionPairs} publication={publication} /> :

@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue'
 import { extractString, primaryLang, labelPairs } from '../lib/i18n'
 import { detailAccess } from '../lib/comparison-contract.js'
+import { methodCatalogDisplay } from '../lib/method-catalog-display.js'
 
 const props = defineProps({ publisher: String, category: String, slug: String, initialMonograph: Object, initialMeta: Object, initialRegistry: Array, initialCounterparts: Array, initialTitleEditions: Array })
 const publisher = computed(() => props.publisher)
@@ -44,7 +45,8 @@ const counterparts = ref(props.initialCounterparts || [])
 
 const allLabels = computed(() => labelPairs(monograph.value?.prefLabel || {}))
 
-const sections = computed(() => extractArray(monograph.value?.sections))
+const catalogDisplay = computed(() => methodCatalogDisplay(publisher.value, category.value, monograph.value))
+const sections = computed(() => catalogDisplay.value.sections)
 const testSpecifications = computed(() => extractArray(monograph.value?.testSpecification))
 const assaySpecs = computed(() => extractArray(monograph.value?.assay))
 const publisherName = computed(() => meta.value?.name || publisher.value)
@@ -185,12 +187,12 @@ const publisherName = computed(() => meta.value?.name || publisher.value)
 
           <div v-if="monograph.harmonisationStatus || monograph.ichAnnex" class="mt-4 flex flex-wrap gap-2 font-mono text-[10px] uppercase tracking-wider">
             <span v-if="monograph.ichAnnex" class="rounded-xs bg-pine/10 px-2 py-1 text-pine">{{ monograph.ichAnnex }}</span>
-            <span v-if="monograph.harmonisationStatus" class="rounded-xs bg-brass/15 px-2 py-1 text-brass">{{ monograph.catalogProvenance?.kind === 'method-family-association' ? 'Catalog status' : 'ICH Q4B' }} · {{ monograph.harmonisationStatus }}</span>
+            <span v-if="monograph.harmonisationStatus" class="rounded-xs bg-brass/15 px-2 py-1 text-brass">{{ (monograph.catalogProvenance?.kind === 'method-family-association' || (publisher === 'ich' && category === 'methods')) ? 'Catalog status' : 'ICH Q4B' }} · {{ monograph.harmonisationStatus }}</span>
           </div>
 
-          <section v-if="monograph.definition" class="mt-6">
-            <h2 class="eyebrow">Definition</h2>
-            <p class="mt-2 text-[0.95rem] leading-relaxed text-ink/85">{{ extractString(monograph.definition) }}</p>
+          <section v-if="catalogDisplay.definition" class="mt-6">
+            <h2 class="eyebrow">{{ catalogDisplay.legacy ? 'Catalog entry' : 'Definition' }}</h2>
+            <p class="mt-2 text-[0.95rem] leading-relaxed text-ink/85">{{ extractString(catalogDisplay.definition) }}</p>
           </section>
 
           <section v-if="extractString(monograph.appearance)" class="mt-6">
@@ -199,7 +201,7 @@ const publisherName = computed(() => meta.value?.name || publisher.value)
           </section>
 
           <section v-if="sections.length" class="mt-6">
-            <h2 class="eyebrow">Monograph text</h2>
+            <h2 class="eyebrow">{{ publisher === 'ich' && category === 'methods' ? 'Chapter associations' : 'Monograph text' }}</h2>
             <div class="mt-3 space-y-5">
               <div v-for="(s, i) in sections" :key="i">
                 <h3 class="font-mono text-[11px] uppercase tracking-[0.12em] text-moss">{{ s.name }}</h3>
@@ -261,7 +263,7 @@ const publisherName = computed(() => meta.value?.name || publisher.value)
             </a>
           </p>
 
-          <details class="mt-8 border-t border-line pt-5">
+          <details v-if="!catalogDisplay.legacy" class="mt-8 border-t border-line pt-5">
             <summary class="cursor-pointer font-mono text-[11px] uppercase tracking-[0.12em] text-ink/60 hover:text-pine">View raw JSON-LD</summary>
             <pre class="mt-3 max-h-96 overflow-auto rounded-xs bg-ink/[0.04] p-4 font-mono text-xs text-ink/80">{{ JSON.stringify(monograph, null, 2) }}</pre>
           </details>

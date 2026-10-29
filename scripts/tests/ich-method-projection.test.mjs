@@ -35,7 +35,7 @@ function actualBuilder(directory) {
   })
 }
 
-async function renderActualBadge(monograph) {
+async function renderActualBadge(monograph, publisher = 'ich', category = monograph.category || '') {
   const source = fs.readFileSync(new URL('src/views/MonographDetailView.vue', root), 'utf8')
   const { descriptor, errors } = parse(source)
   assert.equal(errors.length, 0)
@@ -51,7 +51,7 @@ async function renderActualBadge(monograph) {
     ssr: true, compilerOptions: { mode: 'function' } })
   assert.deepEqual(compiled.errors, [])
   const ssrRender = new Function('require', compiled.code)(createRequire(import.meta.url))
-  return renderToString(createSSRApp({ props: ['monograph'], ssrRender }, { monograph }))
+  return renderToString(createSSRApp({ props: ['monograph', 'publisher', 'category'], ssrRender }, { monograph, publisher, category }))
 }
 
 test('keeps stable method ID, label, category and literal catalog status/edition', () => {
@@ -195,4 +195,11 @@ test('actual Vue badge renders catalog meaning for all catalog statuses and pres
     assert.doesNotMatch(html, /ICH Q4B/)
   }
   assert.match(await renderActualBadge({ harmonisationStatus: 'current', ichAnnex: 'fixture-annex' }), /ICH Q4B.*current/)
+})
+
+test('actual legacy method badge labels native status as catalog metadata', async () => {
+  const html = await renderActualBadge({ category: 'methods', harmonisationStatus: 'not_harmonised' })
+  assert.match(html, /Catalog status/)
+  assert.match(html, /not_harmonised/)
+  assert.doesNotMatch(html, /ICH Q4B/)
 })
