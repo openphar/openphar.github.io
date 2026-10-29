@@ -39,8 +39,13 @@ export function createCurrentIdentityJoin(substances, reverse) {
     const sourcePublishers = { EP: ['ep'], BP: ['bp'], IP: ['ip'], USP: ['usp'], ChP: ['chp'], PhInt: ['phint'], HKCMMS: ['hkcmms', 'hkcmss'], JP: ['jp'], KP: ['kp'], TP: ['tp'], THP: ['thp'] }
     if (p[0] !== 'data' || !sourcePublishers[o.publisher]?.includes(p[1])) continue
     if (!['EP', 'BP', 'IP'].includes(o.publisher)) {
-      const expected = editionKey(o.edition).replace(/^(tp|thp)-/, '')
-      if (p[2] !== expected) continue
+      const expected = editionKey(o.edition)
+      // Native Thai sources use both bare and publisher-prefixed edition paths.
+      // Supplement is abbreviated only in that source IRI, not its edition field.
+      const sourceEditions = ['TP', 'THP'].includes(o.publisher)
+        ? [expected.replace(/^(tp|thp)-/, ''), expected.replace('-supplement-', '-supp-')]
+        : [expected]
+      if (!sourceEditions.includes(p[2])) continue
     }
     let slug
     if (['EP', 'BP', 'IP'].includes(o.publisher) && p.length === 4 && p[2] === 'entry') slug = p[3]
