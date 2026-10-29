@@ -36,7 +36,7 @@ function spineTarget(d) {
       <div class="container mx-auto px-4 pt-14 pb-0">
         <div class="max-w-3xl">
           <p class="eyebrow !text-brasslight">An open, non-profit infrastructure project</p>
-          <h1 class="mt-4 font-display text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 class="mt-4 font-display [overflow-wrap:anywhere] text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
             The world's pharmacopoeias,<br>
             <span class="italic text-brasslight">one semantic structure.</span>
           </h1>
