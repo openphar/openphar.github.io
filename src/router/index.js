@@ -1,4 +1,9 @@
+import substanceHistory from '../../data/substance-history.json'
+import aliases from '../../data/route-aliases.json'
+
 export const routes = [
+  ...Object.entries(substanceHistory).filter(([, h]) => h.status === 'redirect').map(([slug, h]) => ({ path: `/substance/${slug}`, redirect: `/substance/${h.target}` })),
+  ...Object.entries(aliases.routes).map(([path, redirect]) => ({ path, redirect })),
   {
     path: '/',
     name: 'home',

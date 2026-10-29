@@ -150,6 +150,13 @@ export default defineConfig({
         }
       }
 
+      // Preserve the formerly misattributed Thai URLs as explicit redirects.
+      const aliasesFile = path.join(dataDir, 'route-aliases.json')
+      if (fs.existsSync(aliasesFile)) allRoutes.push(...Object.keys(JSON.parse(fs.readFileSync(aliasesFile, 'utf-8')).routes))
+
+      const historyFile = path.join(dataDir, 'substance-history.json')
+      if (fs.existsSync(historyFile)) allRoutes.push(...Object.keys(JSON.parse(fs.readFileSync(historyFile, 'utf8'))).map(slug => `/substance/${slug}`))
+
       // One route per substance identity (registry landing pages)
       const substancesDir = path.join(dataDir, 'substances')
       if (fs.existsSync(substancesDir)) {

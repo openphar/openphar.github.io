@@ -42,7 +42,7 @@ const endpoints = [
   {
     method: 'GET',
     path: '/data/downloads/substances.ndjson',
-    description: 'Bulk machine download — the full substance registry as newline-delimited JSON (one identity per line)',
+    description: 'Bulk machine download — the public factual identity catalog as newline-delimited JSON (the same records as the substance endpoints)',
     format: 'NDJSON'
   },
   {
