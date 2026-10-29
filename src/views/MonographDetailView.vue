@@ -185,7 +185,7 @@ const publisherName = computed(() => meta.value?.name || publisher.value)
 
           <div v-if="monograph.harmonisationStatus || monograph.ichAnnex" class="mt-4 flex flex-wrap gap-2 font-mono text-[10px] uppercase tracking-wider">
             <span v-if="monograph.ichAnnex" class="rounded-xs bg-pine/10 px-2 py-1 text-pine">{{ monograph.ichAnnex }}</span>
-            <span v-if="monograph.harmonisationStatus" class="rounded-xs bg-brass/15 px-2 py-1 text-brass">ICH Q4B · {{ monograph.harmonisationStatus }}</span>
+            <span v-if="monograph.harmonisationStatus" class="rounded-xs bg-brass/15 px-2 py-1 text-brass">{{ monograph.catalogProvenance?.kind === 'method-family-association' ? 'Catalog status' : 'ICH Q4B' }} · {{ monograph.harmonisationStatus }}</span>
           </div>
 
           <section v-if="monograph.definition" class="mt-6">
