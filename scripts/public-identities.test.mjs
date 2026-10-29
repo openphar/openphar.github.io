@@ -73,3 +73,21 @@ test('full and selected generation use the same safe identity/download contract 
     assert.deepEqual(run(['--datasets', 'us', '--source', 'us=input', '--refresh-identities', 'true']), full)
   } finally { fs.rmSync(dir, { recursive: true, force: true }) }
 })
+test('vendored Thai joins retain exact native edition-prefixed source IRIs', () => {
+  const cases = [
+    ['tp', 'TP', 'TP-2011-Vol-I-Part-1', 'tp-2011-vol-i-part-1', 'cefotaxime-sodium'],
+    ['tp', 'TP', 'TP-2011-Supplement-2024', 'tp-2011-supp-2024', 'coriander'],
+    ['thp', 'THP', 'THP-2020-Vol-I', 'thp-2020-vol-i', 'citronella-oil']
+  ]
+  for (const [dataset, publisher, edition, sourceEdition, slug] of cases) {
+    const entry = `https://openphar.org/data/${dataset}/${sourceEdition}/entry/${slug}`
+    const record = { ...sub, id: slug, occurrences: [{ publisher, edition, entry }] }
+    const join = createCurrentIdentityJoin([record], { [entry]: slug })
+    assert.deepEqual(join(dataset, 'monographs', slug, edition), { id: slug, sources: [entry] })
+    assert.equal(join(dataset, 'appendices', slug, edition), undefined)
+    assert.equal(join(dataset, 'monographs', slug, edition + '-other'), undefined)
+    assert.equal(join(dataset === 'tp' ? 'thp' : 'tp', 'monographs', slug, edition), undefined)
+    const wrong = { ...record, occurrences: [{ publisher, edition, entry: entry.replace(sourceEdition, sourceEdition + '-other') }] }
+    assert.equal(createCurrentIdentityJoin([wrong], { [wrong.occurrences[0].entry]: slug })(dataset, 'monographs', slug, edition), undefined)
+  }
+})
