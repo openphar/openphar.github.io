@@ -21,7 +21,7 @@ function fixture(t) {
   t.after(() => fs.rmSync(parent, { recursive: true, force: true }))
   const root = path.join(parent, 'hub')
   fs.mkdirSync(path.join(root, 'scripts'), { recursive: true })
-  for (const name of ['generate-datasets.mjs', 'search-policy.mjs', 'native-labels.mjs', 'registry-join.mjs']) {
+  for (const name of ['generate-datasets.mjs', 'search-policy.mjs', 'native-labels.mjs', 'registry-join.mjs', 'thai-editions.mjs', 'public-identities.mjs']) {
     fs.copyFileSync(path.join(ROOT, 'scripts', name), path.join(root, 'scripts', name))
   }
   if (process.env.BASELINE_GENERATOR) fs.copyFileSync(process.env.BASELINE_GENERATOR, path.join(root, 'scripts/generate-datasets.mjs'))
@@ -136,7 +136,7 @@ test('normal producer retains identity-only crosslinks and alias pooling before 
     [canonical]: 'synthetic-identity',
     'https://www.openphar.org/data/jp/monographs/open-example': 'synthetic-identity'
   })
-  write(root, '../substance-registry/registry/substances.json', [{ id: 'synthetic-identity' }])
+  write(root, '../substance-registry/registry/substances.json', [{ id: 'synthetic-identity', canonical_iri: 'https://openphar.org/substance/synthetic-identity' }])
   ok(cli(root, []))
   const rows = read(root, 'data/search-index.json')
   const restricted = rows.find(r => r.d === 'sealed')

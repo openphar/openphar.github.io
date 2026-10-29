@@ -19,6 +19,7 @@ export function labelsOf(doc, publisher) {
   set('la', pick(names.la))
   set('zh', pick(names.zh))
   set('ko', pick(names.ko))
+  if (['TP', 'THP'].includes(publisher) && /[\u0e00-\u0e7f]/u.test(pick(names.th) || '')) set('th', pick(names.th))
   if (Array.isArray(names.english)) set('en', pick(names.english[0]))
   if (names.canonical) {
     set('en', pick(names.canonical.en))
@@ -36,6 +37,7 @@ export function labelsOf(doc, publisher) {
 }
 
 export function nativeLabelOf(labels) {
+  if (labels.th) return labels.th
   if (labels['sa-Deva']) return labels['sa-Deva']
   return Object.entries(labels).find(([lang]) => lang !== 'en')?.[1] || ''
 }

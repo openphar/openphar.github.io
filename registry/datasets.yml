@@ -51,22 +51,63 @@ datasets:
       glob: data/PhInt-13/semantic-yaml/*.yaml
       mode: full
 
-  thp:
+  tp:
     name: Thai Pharmacopoeia
     short: TP
     country: TH
-    organization: Ministry of Public Health, Thailand
-    edition: THP-1
+    organization: Department of Medical Sciences, Ministry of Public Health, Thailand
+    edition: TP II 2011 + Supplements 2020–2024
     rights: full
     status: published
     source:
-      url: https://pharmaci.email.go.th/
+      url: https://bdn-tp.dmsc.moph.go.th/
     repo: openphar/data-thai-pharmacopoeia
     browser: { path: /data-thai-pharmacopoeia/, status: pending }
     generate:
       repo: ../data-thai-pharmacopoeia
-      glob: data/THP-1/yaml/*.yaml
+      glob: data/tp/**/*.yaml
+      legacy_glob: data/THP-1/yaml/*.yaml
+      legacy_count: 91
       mode: full
+      edition_stack:
+        publisher: TP
+        editions:
+          - TP-2011-Vol-I-Part-1
+          - TP-2011-Vol-I-Part-1-Supplement-2020
+          - TP-2011-Supplement-2024
+
+  thp:
+    name: Thai Herbal Pharmacopoeia
+    short: THP
+    country: TH
+    organization: Department of Medical Sciences, Ministry of Public Health, Thailand
+    edition: THP 2017–2021 + Supplements 2022–2025
+    rights: full
+    status: published
+    source:
+      url: https://bdn-thp.dmsc.moph.go.th/
+    repo: openphar/data-thai-pharmacopoeia
+    browser: { path: /data-thai-pharmacopoeia/, status: pending }
+    generate:
+      repo: ../data-thai-pharmacopoeia
+      glob: data/thp/**/*.yaml
+      mode: full
+      edition_stack:
+        publisher: THP
+        # Native normalized exporter excludes this source-PDF duplicate.
+        exclude_editions: [THP-2019-Vol-II]
+        editions:
+          - THP-2017
+          - THP-2018
+          - THP-2019-Vol-I
+          - THP-2020-Vol-I
+          - THP-2020-Vol-II
+          - THP-2021-Vol-I
+          - THP-2021-Vol-II
+          - THP-2021-Supplement-2022
+          - THP-2021-Supplement-2023
+          - THP-2021-Supplement-2024
+          - THP-2021-Supplement-2025
 
   chp:
     name: Chinese Pharmacopoeia

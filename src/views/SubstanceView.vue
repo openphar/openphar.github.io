@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useHead } from '@unhead/vue'
 import { useRoute } from 'vue-router'
 
@@ -7,6 +7,7 @@ const route = useRoute()
 
 const doc = ref(null)
 const missing = ref(false)
+const historical = ref(null)
 const publishers = ref({})
 
 useHead({
@@ -16,15 +17,30 @@ useHead({
   ]
 })
 
-onMounted(async () => {
+let loadVersion = 0
+async function loadSubstance() {
+  const version = ++loadVersion
+  const slug = route.params.slug
+  doc.value = null
+  historical.value = null
+  missing.value = false
   const [reg, sub] = await Promise.all([
     fetch('/data/registry.json').then(r => r.json()).catch(() => []),
-    fetch(`/data/substances/${route.params.slug}.json`).then(r => (r.ok ? r.json() : null))
+    fetch(`/data/substances/${slug}.json`).then(r => (r.ok ? r.json() : null))
   ])
-  if (!sub) { missing.value = true; return }
+  if (version !== loadVersion) return
+  if (!sub) {
+    const history = await fetch('/data/substance-history.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))
+    if (version !== loadVersion) return
+    historical.value = history[slug] || null
+    missing.value = !historical.value
+    return
+  }
   doc.value = sub
   for (const d of reg) publishers.value[d.id] = d
-})
+}
+onMounted(loadSubstance)
+watch(() => route.params.slug, loadSubstance)
 
 const preferredTitle = computed(() =>
   doc.value?.preferred_name?.en || doc.value?.preferred_name?.inn ||
@@ -55,6 +71,20 @@ const formRels = computed(() => (doc.value?.form_relations || []).map(r => ({
 <template>
   <main class="max-w-5xl mx-auto px-4 py-10">
     <p v-if="missing" class="text-neutral-500">Substance not found in the registry.</p>
+
+    <section v-else-if="historical">
+      <h1 class="font-display text-3xl mb-4">Historical substance identity</h1>
+      <p class="mb-4">This former identity has been withdrawn. Its source records do not establish one current shared identity.</p>
+      <h2 class="font-semibold mb-2">Historical publisher records</h2>
+      <ul>
+        <li v-for="e in historical.entries" :key="e.d + '/' + e.c + '/' + e.s">
+          <router-link :to="`/pharmacopoeia/${e.d}/${e.c}/${e.s}`">{{ e.t }} · {{ e.d }} · {{ e.edition }}</router-link>
+        </li>
+      </ul>
+      <ul class="mt-4">
+        <li v-for="iri in historical.source_iris" :key="iri"><a :href="iri">{{ iri }}</a></li>
+      </ul>
+    </section>
 
     <template v-else-if="doc">
       <p class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Substance identity</p>
