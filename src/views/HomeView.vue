@@ -104,7 +104,7 @@ function spineTarget(d) {
           <div class="mt-1 text-xs uppercase tracking-[0.12em] text-ink/60">Datasets</div>
         </div>
         <div class="px-2 py-3 sm:px-6">
-          <div class="font-mono text-3xl font-medium text-pine">{{ totalEntries.toLocaleString() }}+</div>
+          <div class="font-mono [overflow-wrap:anywhere] text-3xl font-medium text-pine">{{ totalEntries.toLocaleString() }}+</div>
           <div class="mt-1 text-xs uppercase tracking-[0.12em] text-ink/60">Indexed entries</div>
         </div>
         <div class="px-2 py-3 sm:px-6">
