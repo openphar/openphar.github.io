@@ -40,6 +40,11 @@ test('native generator retains distinct AYP and ICH source identities and legacy
   const generate = () => {
     const p = spawnSync(process.execPath, ['scripts/generate-datasets.mjs', '--registry-dir', 'no-private-registry'], { cwd: root, encoding: 'utf8' })
     assert.equal(p.status, 0, p.stderr)
+    // Refreshing another dataset previously collapsed all shared r1 rows to
+    // the last cached title, even though the source graph titles differed.
+    const selected = spawnSync(process.execPath, ['scripts/generate-datasets.mjs', '--datasets', 'ayp', '--registry-dir', 'no-private-registry'], { cwd: root, encoding: 'utf8' })
+    assert.equal(selected.status, 0, selected.stderr)
+    assert.deepEqual(read('data/search-index.json').filter(x => x.d === 'ich').map(x => x.t).sort(), ['Annex 1', 'Annex 2'])
     const ayp = read('data/ayp/ayp-monographs.jsonld')['@graph'], ich = read('data/ich/ich-monographs.jsonld')['@graph']
     assert.equal(ayp.length, 2); assert.equal(ich.length, 2)
     assert.equal(new Set(ayp.map(x => x['@id'])).size, 2)
