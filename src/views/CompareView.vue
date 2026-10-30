@@ -59,6 +59,7 @@ const publisherColumns = computed(() => columns.value.map(column => {
 }))
 const matrixColumns = computed(() => [...publisherColumns.value, ...historicalColumns.value.filter(c => c.edition === selectedHistorical.value)])
 const comparisonRows = computed(() => comparisonMatrix(matrixColumns.value))
+const statusLabel = status => ({ reference: 'Reference', same: 'Same limit', different: 'Different limit', incomparable: 'Incomparable', unknown: 'Unknown' })[status]
 const comparisonStatus = computed(() => {
   if (loading.value) return 'Loading matches and comparison…'
   const messages = []
@@ -198,7 +199,8 @@ onMounted(() => {
 
     <section v-if="columns.length && !loading" class="mb-8">
       <h2 class="font-display text-2xl font-semibold">Test limits and methods</h2>
-      <p class="mt-2 text-sm">{{ projectionState }} Exact units and measurement bases are compared without conversion. Method citations do not establish interchangeability.</p>
+      <p class="mt-2 text-sm">{{ projectionState }} Exact units and measurement bases are compared without conversion. Highlighted differences concern the supplied limits only.</p>
+      <p class="mt-2 text-sm">Harmonized method mappings are unavailable pending permission to publish the required fields. Chapter citations below do not establish method equivalence or interchangeability.</p>
       <div v-if="uspEditions.length" class="mt-4">
         <label for="usp-edition" class="block text-sm font-medium">USP edition (title metadata only)</label>
         <select id="usp-edition" v-model="selectedUspEdition" @change="selectUspEdition" class="mt-2 max-w-full rounded border border-line bg-paper px-3 py-2">
@@ -218,17 +220,17 @@ onMounted(() => {
       <div v-if="comparisonRows.length" class="mt-4 overflow-x-auto" tabindex="0" role="region" aria-label="Publisher test comparison">
         <table class="w-full border-collapse text-left text-sm">
           <caption class="sr-only">Explicit public test limits by publisher and edition</caption>
-          <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ col.d.toUpperCase() }} · {{ col.edition }}{{ col.historical ? ' (historical limits)' : '' }}</th></tr></thead>
+          <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ col.d.toUpperCase() }} · {{ col.edition }}{{ col.historical ? ' (historical limits)' : '' }}<span class="block font-normal">{{ col.title }}</span></th></tr></thead>
           <tbody><tr v-for="row in comparisonRows" :key="row.semantic">
             <th scope="row" class="border border-line p-3">{{ row.label }}</th>
-            <td v-for="cell in row.cells" :key="cell.column.key" class="align-top border border-line p-3">
+            <td v-for="cell in row.cells" :key="cell.column.key" :data-comparison-status="cell.comparison.status" :class="{ 'bg-wash': cell.comparison.status === 'different' }" class="align-top border border-line p-3">
               <template v-if="cell.test">
+                <p class="font-semibold">{{ statusLabel(cell.comparison.status) }}</p>
                 <p class="font-mono">{{ formatLimit(cell.test) }}</p>
                 <p>Basis: {{ cell.test.basis }}</p>
                 <p>{{ cell.comparison.reason }}</p>
                 <p v-if="cell.test.method">Chapter citation: {{ cell.test.method.publisher }} {{ cell.test.method.chapter }} — {{ cell.test.method.label }}</p>
                 <p v-else>No chapter citation supplied.</p>
-                <p>Mapping unresolved: this projection supplies chapter citations only; no approved merged-ledger mapping is supplied.</p>
                 <details class="mt-2"><summary>Evidence</summary><p>{{ cell.test.evidence }}</p><p v-if="cell.test.method">{{ cell.test.method.evidence }}</p></details>
               </template>
               <p v-else>{{ cell.column.access === 'title-only' ? 'Title only: limits and methods restricted.' : cell.column.access === 'held' ? 'New detailed comparisons held pending publication authority.' : cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' }}</p>

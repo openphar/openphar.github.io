@@ -3,6 +3,7 @@ const restricted = new Set(['us', 'eu', 'uk'])
 const held = new Set(['jp', 'chp'])
 const eligible = new Set(['phint', 'thp', 'ayp', 'hk', 'ip', 'kp'])
 const text = value => typeof value === 'string' && value.trim().length > 0
+const known = value => text(value) && !/^(?:unknown|unspecified|unverified|not (?:known|stated|supplied|available)|n\/?a)$/i.test(value.trim())
 const decimal = value => typeof value === 'string' && /^-?\d+(?:\.\d+)?$/.test(value)
 const fail = message => { throw new Error(`Invalid comparison projection: ${message}`) }
 
@@ -26,10 +27,10 @@ export function detailAccess(publisher, rights) {
 
 export function validateFactEntry(entry) {
   assertFields(entry, ['publisher', 'entryId', 'substanceId', 'edition', 'publication', 'tests'], 'entry')
-  if (!entry || !['publisher', 'entryId', 'substanceId', 'edition'].every(k => text(entry[k]))) fail('entry identity is required')
+  if (!entry || !text(entry.publisher) || !['entryId', 'substanceId', 'edition'].every(k => known(entry[k]))) fail('entry identity is required')
   if (detailAccess(entry.publisher) !== 'eligible') fail('publisher detail policy')
   assertFields(entry.publication, ['status', 'authority'], 'publication')
-  if (entry.publication.status !== 'permitted' || !publicEvidence(entry.publication.authority)) fail('public publication authority is required')
+  if (entry.publication.status !== 'permitted' || !known(entry.publication.authority) || !publicEvidence(entry.publication.authority)) fail('public publication authority is required')
   if (!Array.isArray(entry.tests)) fail('tests must be an array')
   const keys = new Set()
   for (const test of entry.tests) {
@@ -42,7 +43,7 @@ export function validateFactEntry(entry) {
 
 export function validateTest(test) {
   assertFields(test, ['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence', 'limit', 'method'], 'test')
-  if (!test || !['key', 'label', 'semanticKey', 'basis', 'unit'].every(k => text(test[k])) || !publicEvidence(test.evidence)) fail('test semantics, unit and public evidence are required')
+  if (!test || !['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence'].every(k => known(test[k])) || !publicEvidence(test.evidence)) fail('test semantics, unit and public evidence are required')
   const limit = test.limit
   if (!limit || !['range', '<=', '>=', '=', '<', '>'].includes(limit.operator)) fail('limit operator')
   if (limit.operator === 'range') {
@@ -100,7 +101,7 @@ export function comparisonMatrix(columns) {
     const populated = cells.filter(cell => cell.test)
     const baseline = populated[0]
     return { semantic, label: baseline?.test.label || semantic, cells: cells.map(cell => ({ ...cell,
-      comparison: !cell.test ? null : populated.length < 2 ? { status: 'incomparable', reason: 'Only one verified value; comparison unavailable.' } :
+      comparison: !cell.test ? { status: 'unknown', reason: cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' } : populated.length < 2 ? { status: 'incomparable', reason: 'Only one verified value; comparison unavailable.' } :
         cell === baseline ? { status: 'reference', reason: 'Reference value for this comparison.' } : compareTests(baseline.column.facts, baseline.test, cell.column.facts, cell.test)
     })) }
   })
@@ -126,7 +127,15 @@ export function compareDecimal(a, b) {
 }
 
 export function compareTests(leftEntry, left, rightEntry, right) {
-  if (!leftEntry || !rightEntry || leftEntry.substanceId !== rightEntry.substanceId) return { status: 'incomparable', reason: 'Different or unavailable substance identity.' }
+  // The exported comparator also fails closed for callers outside the validated
+  // projection reader. Two missing identities are never proof of equality.
+  try {
+    for (const entry of [leftEntry, rightEntry]) validateFactEntry(entry)
+    for (const test of [left, right]) validateTest(test)
+  } catch {
+    return { status: 'unknown', reason: 'Verified identity, edition, publication scope or typed datum unavailable.' }
+  }
+  if (leftEntry.substanceId !== rightEntry.substanceId) return { status: 'incomparable', reason: 'Different substance identities.' }
   if (left.semanticKey !== right.semanticKey || left.basis !== right.basis || left.unit !== right.unit) return { status: 'incomparable', reason: 'Test meaning, measurement basis or exact unit differs.' }
   if (left.limit.operator !== right.limit.operator) return { status: 'incomparable', reason: 'Limit operators differ.' }
   const fields = left.limit.operator === 'range' ? ['lower', 'upper'] : ['value']

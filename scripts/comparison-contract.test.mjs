@@ -13,6 +13,29 @@ test('reports exact numeric differences with no binary rounding or conversion', 
 test('incompatible units, bases, identities and operators stay incomparable', () => {
  for(const mutation of [e=>e.tests[0].unit='mg/g',e=>e.tests[0].basis='anhydrous substance',e=>e.tests[0].semanticKey='water',e=>e.substanceId='another-substance',e=>e.tests[0].limit={operator:'>=',value:'99'}]) { const a=make(),b=make();mutation(b);assert.equal(compareTests(a,a.tests[0],b,b.tests[0]).status,'incomparable') }
 })
+test('missing identity, unknown scope and incomplete scientific data remain unknown without throwing', () => {
+ const unknown={semanticKey:'unknown',basis:'unknown',unit:'unknown',limit:{operator:'<=',value:'1'}}
+ assert.equal(compareTests({},unknown,{},unknown).status,'unknown')
+ for(const mutation of [e=>delete e.substanceId,e=>delete e.edition,e=>delete e.publication,e=>e.publication.status='unverified',e=>e.publisher='us',e=>e.tests[0].basis='unknown',e=>e.tests[0].unit='not stated',e=>e.tests[0].semanticKey='unspecified',e=>delete e.tests[0].limit.lower,e=>e.tests[0].limit.lower='1e2',e=>e.tests[0].limit.lower='102',e=>e.tests[0].limit.operator='unknown']) {
+  const a=make(),b=make();mutation(b)
+  assert.equal(compareTests(a,a.tests[0],b,b.tests[0]).status,'unknown')
+ }
+ assert.equal(compareTests(make(),undefined,make(),undefined).status,'unknown')
+})
+test('literal scalar inequalities compare only with the same operator, unit and basis', () => {
+ for(const operator of ['<','<=','=','>=','>']) {
+  const a=make(),b=make();a.tests[0].limit={operator,value:'1.00'};b.tests[0].limit={operator,value:'1.0'}
+  assert.equal(compareTests(a,a.tests[0],b,b.tests[0]).status,'same')
+  b.tests[0].limit.value='1.01';assert.equal(compareTests(a,a.tests[0],b,b.tests[0]).status,'different')
+  assert.equal(formatLimit(b.tests[0]),`${operator} 1.01 %`)
+ }
+})
+test('unavailable cells carry an explicit unknown state and restricted columns retain identity', () => {
+ const columns=[{key:'us',access:'title-only',title:'Acetaminophen',facts:null},{key:'phint',facts:make()}]
+ const row=comparisonMatrix(columns)[0]
+ assert.equal(row.cells.length,2);assert.equal(row.cells[0].comparison.status,'unknown')
+ assert.equal(row.cells[0].column.title,'Acetaminophen');assert.equal(row.cells[1].comparison.status,'incomparable')
+})
 test('hard publisher gates cannot be overridden by a permitted flag', () => {
  for(const publisher of ['us','eu','uk','jp','chp','ich','unknown','USP']) assert.throws(()=>readComparisonProjection(doc(make({publisher}))),/publisher detail policy/)
  assert.equal(detailAccess('phint','title-only'),'title-only')
