@@ -1,9 +1,10 @@
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
 import { useHead } from '@unhead/vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 
 const route = useRoute()
+const router = useRouter()
 
 const doc = ref(null)
 const missing = ref(false)
@@ -33,6 +34,13 @@ async function loadSubstance() {
     const history = await fetch('/data/substance-history.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))
     if (version !== loadVersion) return
     historical.value = history[slug] || null
+    if (historical.value?.status === 'redirect') {
+      const target = historical.value.target
+      if (typeof target === 'string' && /^[a-z0-9][a-z0-9-]*$/.test(target) && target !== slug) {
+        await router.replace(`/substance/${target}`)
+        return
+      }
+    }
     missing.value = !historical.value
     return
   }

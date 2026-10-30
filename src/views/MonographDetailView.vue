@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { loadRegistry } from '../lib/registry'
 import { extractString, primaryLang, labelPairs } from '../lib/i18n'
+import { findRouteEntry, counterpartKey } from '../../scripts/entry-routes.mjs'
 
 const route = useRoute()
 const publisher = computed(() => route.params.publisher)
@@ -67,13 +68,13 @@ onMounted(async () => {
     }).catch(() => {})
 
     fetch('/data/cross-links.json').then(r => r.json()).then(links => {
-      counterparts.value = links[`${publisher.value}/${slug.value}`] || []
+      counterparts.value = links[counterpartKey(publisher.value, category.value, slug.value)] || []
     }).catch(() => {})
 
     const response = await fetch(`/data/${publisher.value}/${publisher.value}-monographs.jsonld`)
     const data = await response.json()
     const entries = data['@graph'] || []
-    monograph.value = entries.find(m => (m['@id'] || '').endsWith(`/${slug.value}`) || (m['@id'] || '').includes(`/${category.value}/${slug.value}`))
+    monograph.value = findRouteEntry(entries, category.value, slug.value)
     if (!monograph.value) error.value = 'Entry not found'
   } catch (e) {
     console.error('Failed to load entry:', e)

@@ -35,7 +35,7 @@ test('full and selected generation use the same safe identity/download contract 
   const dir = fs.mkdtempSync(path.join(ROOT, '.local', 'public-identities-'))
   const write = (name, bytes) => { const p = path.join(dir, name); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, bytes) }
   try {
-    for (const name of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs']) write(`scripts/${name}`, fs.readFileSync(path.join(ROOT, 'scripts', name)))
+    for (const name of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs', 'source-route-slugs.mjs', 'entry-routes.mjs']) write(`scripts/${name}`, fs.readFileSync(path.join(ROOT, 'scripts', name)))
     write('registry/datasets.yml', 'datasets:\n  us:\n    short: USP\n    edition: 2025-USP48-NF43\n    rights: title-only\n    generate:\n      repo: input\n      glob: data/*.yaml\n')
     write('input/data/example.yaml', `canonical_iri: ${source}\nedition: 2025-USP48-NF43\nnames:\n  en: Example\nsections:\n  - name: Definition\n    text: PRIVATE_SENTINEL\n`)
     const otherSource = 'https://openphar.org/data/chp/chp-2025/entry/456'
@@ -71,6 +71,23 @@ test('full and selected generation use the same safe identity/download contract 
     assert.equal(fs.existsSync(path.join(dir, 'data/substances/split.json')), false)
     assert.deepEqual(run(['--datasets', 'us', '--source', 'us=input', '--refresh-identities', 'true']), full)
     assert.deepEqual(run(['--datasets', 'us', '--source', 'us=input', '--refresh-identities', 'true']), full)
+    // A previous factual download has no private occurrences. The explicit
+    // pinned merge map must still preserve its retired public route.
+    write('data/substances/merged.json', JSON.stringify({ id: 'merged', entries: [] }))
+    fs.appendFileSync(path.join(dir, 'data/downloads/substances.ndjson'), JSON.stringify({ id: 'merged', entries: [] }) + '\n')
+    write('control/redirects.json', JSON.stringify({ merged: 'example' }))
+    const redirected = ['--identity-redirects-file', 'control/redirects.json']
+    assert.deepEqual(run(redirected), full)
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'data/substance-history.json'))).merged, { status: 'redirect', target: 'example' })
+    assert.equal(fs.existsSync(path.join(dir, 'data/substances/merged.json')), false)
+    assert.deepEqual(run(redirected), full)
+    assert.equal(JSON.parse(fs.readFileSync(path.join(dir, 'data/substance-history.json'))).split.status, 'withdrawn')
+    for (const invalid of [{ merged: 'missing' }, { example: 'other' }, { '../private': 'example' }, []]) {
+      write('control/redirects.json', JSON.stringify(invalid))
+      const result = spawnSync(process.execPath, ['scripts/generate-datasets.mjs', '--registry-dir', 'control', ...redirected], { cwd: dir, encoding: 'utf8' })
+      assert.notEqual(result.status, 0)
+      assert.match(result.stderr, /Invalid identity redirect manifest/)
+    }
   } finally { fs.rmSync(dir, { recursive: true, force: true }) }
 })
 test('vendored Thai joins retain exact native edition-prefixed source IRIs', () => {
