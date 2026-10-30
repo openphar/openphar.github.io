@@ -41,6 +41,7 @@ for (let i = 2; i < process.argv.length; i += 2) {
     if (split < 1) throw new Error('Expected --source dataset=directory')
     options.sources.set(value.slice(0, split), path.resolve(value.slice(split + 1)))
   } else if (flag === '--registry-dir') options.registryDir = path.resolve(value)
+  else if (flag === '--identity-redirects-file') options.identityRedirectsFile = path.resolve(value)
   else if (flag === '--refresh-identities' && value === 'true') options.refreshIdentities = true
   else if (flag === '--evidence-dir') options.evidenceDir = path.resolve(value)
   else throw new Error(`Unknown generator arguments: ${flag}`)
@@ -73,6 +74,16 @@ if (options.refreshIdentities && !currentSubstances) throw new Error('Identity r
 const refreshIdentities = !!currentSubstances
 if (!currentSubstances && fs.existsSync(path.join(DATA_DIR, 'downloads', 'substances.ndjson'))) throw new Error('Identity download requires a source registry projection')
 const currentJoin = refreshIdentities ? createCurrentIdentityJoin(currentSubstances, entryToSubstance) : null
+// The factual public download intentionally omits source occurrences. A pinned
+// private redirect manifest preserves later merges without publishing provenance.
+const identityRedirects = options.identityRedirectsFile
+  ? JSON.parse(fs.readFileSync(options.identityRedirectsFile, 'utf8')) : {}
+const currentIds = new Set((currentSubstances || []).map(sub => sub.id))
+if (!identityRedirects || Array.isArray(identityRedirects) || typeof identityRedirects !== 'object'
+  || Object.entries(identityRedirects).some(([from, to]) =>
+    !/^[a-z0-9][a-z0-9-]*$/.test(from) || currentIds.has(from)
+    || typeof to !== 'string' || !/^[a-z0-9][a-z0-9-]*$/.test(to)
+    || !currentIds.has(to))) throw new Error('Invalid identity redirect manifest')
 const identityBindings = []
 
 
@@ -640,6 +651,7 @@ if (!currentSubstances && options.selected) {
   const active = new Set(currentSubstances.map(s => s.id))
   const historyFile = path.join(DATA_DIR, 'substance-history.json')
   const history = fs.existsSync(historyFile) ? JSON.parse(fs.readFileSync(historyFile, 'utf8')) : {}
+  for (const [from, target] of Object.entries(identityRedirects)) history[from] = { status: 'redirect', target }
   // Old download occurrences provide source-backed route dispositions, never
   // new identity metadata. Unresolved/split identities remain explicit history.
   const download = path.join(DATA_DIR, 'downloads', 'substances.ndjson')
@@ -652,7 +664,8 @@ if (!currentSubstances && options.selected) {
     const old = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'))
     const sources = oldSources.get(old.id) || []
     const targets = new Set(sources.map(iri => entryToSubstance[iri]))
-    const target = sources.length && targets.size === 1 && active.has([...targets][0]) ? [...targets][0] : null
+    const target = (Object.hasOwn(identityRedirects, old.id) ? identityRedirects[old.id] : null)
+      || (sources.length && targets.size === 1 && active.has([...targets][0]) ? [...targets][0] : null)
     history[old.id] = target ? { status: 'redirect', target } : { status: 'withdrawn', source_iris: sources,
       entries: (old.entries || []).map(({ d, s, c, t, k, edition }) => ({ d, s, c, t, k, edition })) }
     fs.unlinkSync(path.join(dir, name))

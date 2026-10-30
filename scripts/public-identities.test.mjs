@@ -71,6 +71,23 @@ test('full and selected generation use the same safe identity/download contract 
     assert.equal(fs.existsSync(path.join(dir, 'data/substances/split.json')), false)
     assert.deepEqual(run(['--datasets', 'us', '--source', 'us=input', '--refresh-identities', 'true']), full)
     assert.deepEqual(run(['--datasets', 'us', '--source', 'us=input', '--refresh-identities', 'true']), full)
+    // A previous factual download has no private occurrences. The explicit
+    // pinned merge map must still preserve its retired public route.
+    write('data/substances/merged.json', JSON.stringify({ id: 'merged', entries: [] }))
+    fs.appendFileSync(path.join(dir, 'data/downloads/substances.ndjson'), JSON.stringify({ id: 'merged', entries: [] }) + '\n')
+    write('control/redirects.json', JSON.stringify({ merged: 'example' }))
+    const redirected = ['--identity-redirects-file', 'control/redirects.json']
+    assert.deepEqual(run(redirected), full)
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'data/substance-history.json'))).merged, { status: 'redirect', target: 'example' })
+    assert.equal(fs.existsSync(path.join(dir, 'data/substances/merged.json')), false)
+    assert.deepEqual(run(redirected), full)
+    assert.equal(JSON.parse(fs.readFileSync(path.join(dir, 'data/substance-history.json'))).split.status, 'withdrawn')
+    for (const invalid of [{ merged: 'missing' }, { example: 'other' }, { '../private': 'example' }, []]) {
+      write('control/redirects.json', JSON.stringify(invalid))
+      const result = spawnSync(process.execPath, ['scripts/generate-datasets.mjs', '--registry-dir', 'control', ...redirected], { cwd: dir, encoding: 'utf8' })
+      assert.notEqual(result.status, 0)
+      assert.match(result.stderr, /Invalid identity redirect manifest/)
+    }
   } finally { fs.rmSync(dir, { recursive: true, force: true }) }
 })
 test('vendored Thai joins retain exact native edition-prefixed source IRIs', () => {
