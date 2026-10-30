@@ -19,6 +19,8 @@ import { selectThaiEditions, preserveThaiLegacy, thaiCategory, validateThaiAlias
 import { labelsOf, nativeLabelOf, titleLabelOf } from './native-labels.mjs'
 import { projectIdentity, createCurrentIdentityJoin } from './public-identities.mjs'
 import { projectSearchIndex, reindexVendoredSearch } from './search-policy.mjs'
+import { sourceRouteSlugs } from './source-route-slugs.mjs'
+import { counterpartKey } from './entry-routes.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
@@ -193,8 +195,28 @@ function buildGraph(id, cfg) {
       if (legacyRows.length !== cfg.generate.legacy_count) throw new Error('Thai legacy source count changed')
       const preserved = preserveThaiLegacy(rows, legacyRows)
       rows = preserved.rows
-      routeAliases = preserved.aliases
+      routeAliases = { routes: { ...routeAliases?.routes, ...preserved.aliases.routes },
+        identities: { ...routeAliases?.identities, ...preserved.aliases.identities } }
       thaiEvidence.legacy = preserved.ledger
+    }
+  }
+  const aypIds = new Map()
+  if (id === 'ayp') {
+    rows = [...rows]
+    const groups = new Map(), sources = new Set()
+    for (const row of rows) {
+      if (!titleOf(row.doc, cfg.short)) continue
+      const iri = row.doc.canonical_iri
+      if (iri && sources.has(iri)) throw new Error('Duplicate AYP source identity')
+      if (iri) sources.add(iri)
+      const slug = slugOf(row.doc, row.file)
+      if (!groups.has(slug)) groups.set(slug, [])
+      groups.get(slug).push(row)
+    }
+    for (const group of groups.values()) if (group.length > 1) for (const row of group) {
+      const iri = row.doc.canonical_iri
+      if (!/^https:\/\/openphar\.org\/data\/api\/.+/.test(iri)) throw new Error('Invalid AYP source identity')
+      aypIds.set(row.doc, iri.replace('https://openphar.org/data/api/', 'https://www.openphar.org/data/ayp/'))
     }
   }
   for (const { doc, file, base, legacy } of rows) {
@@ -211,7 +233,7 @@ function buildGraph(id, cfg) {
     const category = cfg.generate.edition_stack ? (legacy ? 'monographs' : thaiCategory(doc)) : ((typeof doc.category === 'string' && doc.category) || categoryOf(rel))
     const sectionId = doc.classification?.section_id
     const entry = {
-      '@id': `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack ? category : 'monographs'}/${slug}`,
+      '@id': aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack ? category : 'monographs'}/${slug}`,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
       monographId: cfg.rights === 'title-only' ? undefined : (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
@@ -282,6 +304,7 @@ function buildIchMethods(id, cfg) {
   })
 
   // Guideline + annex documents (Q4A, Q4B R1, FAQs, per-annex texts)
+  const documents = []
   for (const g of cfg.generate.docs_globs || []) {
     const dir = path.join(sourceDir(id, cfg), path.dirname(g))
     if (!fs.existsSync(dir)) continue
@@ -289,26 +312,39 @@ function buildIchMethods(id, cfg) {
       let doc
       try { doc = yamlLoad(fs.readFileSync(path.join(dir, name), 'utf-8')) } catch { continue }
       if (!doc?.title || !doc.canonical_iri) continue
-      const cat = doc.document_type === 'q4b_annex' ? 'annexes' : 'guidelines'
-      const sections = (doc.sections || []).map(s => ({
-        name: String(s.name || s.number || ''),
-        text: String(s.text || '').slice(0, MAX_SECTION_CHARS)
-      })).filter(x => x.text)
-      for (const rc of doc.regional_chapters || []) {
-        sections.push({ name: `${rc.pharmacopoeia} ${rc.chapter_code}`, text: rc.chapter_title || '' })
-      }
-      graph.push({
-        '@id': `https://www.openphar.org/data/${id}/methods/${slugify(doc.canonical_iri.split('/').pop())}`,
-        '@type': 'IndexedMonograph',
-        prefLabel: { en: doc.title },
-        monographId: doc.code,
-        edition: cfg.edition,
-        category: cat,
-        harmonisationStatus: doc.status,
-        ichAnnex: doc.code,
-        definition: doc.method ? { en: String(doc.method) } : undefined,
-        sections: sections.length ? sections : undefined
-      })
+      documents.push({ doc })
+    }
+  }
+  const documentSlugs = sourceRouteSlugs(documents, row => slugify(row.doc.canonical_iri.split('/').pop()))
+  for (const row of documents) {
+    const { doc } = row
+    const slug = documentSlugs.get(row)
+    const cat = doc.document_type === 'q4b_annex' ? 'annexes' : 'guidelines'
+    const sections = (doc.sections || []).map(s => ({
+      name: String(s.name || s.number || ''),
+      text: String(s.text || '').slice(0, MAX_SECTION_CHARS)
+    })).filter(x => x.text)
+    for (const rc of doc.regional_chapters || []) {
+      sections.push({ name: `${rc.pharmacopoeia} ${rc.chapter_code}`, text: rc.chapter_title || '' })
+    }
+    graph.push({
+      '@id': `https://www.openphar.org/data/${id}/methods/${slug}`,
+      '@type': 'IndexedMonograph',
+      prefLabel: { en: doc.title },
+      monographId: doc.code,
+      edition: cfg.edition,
+      category: cat,
+      harmonisationStatus: doc.status,
+      ichAnnex: doc.code,
+      definition: doc.method ? { en: String(doc.method) } : undefined,
+      sections: sections.length ? sections : undefined
+    })
+    // The published shared r1 route rendered Annex 1. Preserve that exact
+    // compatibility target; new internal links address each distinct annex.
+    if (doc.canonical_iri === 'https://openphar.org/data/ich/q4b/annex/1/r1' && slug !== 'r1') {
+      routeAliases ||= fs.existsSync(path.join(DATA_DIR, 'route-aliases.json'))
+        ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'route-aliases.json'), 'utf8')) : { routes: {}, identities: {} }
+      routeAliases.routes['/pharmacopoeia/ich/annexes/r1'] = `/pharmacopoeia/ich/annexes/${slug}`
     }
   }
   return { graph, skipped: 0, total: rows.length }
@@ -570,7 +606,7 @@ for (const e of registryOut) {
     if (substance) keys.push('sub:' + substance)
     for (const key of keys) {
       if (!groups.has(key)) groups.set(key, [])
-      if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
+      if (!groups.get(key).some(x => x.d === e.id && x.s === s && (e.id !== 'ayp' || x.c === cat))) {
         groups.get(key).push(member)
       }
     }
@@ -582,15 +618,15 @@ for (const members of groups.values()) {
   const datasets = new Set(members.map(m => m.d))
   if (datasets.size < 2) continue
   for (const m of members) {
-    const key = `${m.d}/${m.s}`
-    const rest = members.filter(x => !(x.d === m.d && x.s === m.s))
+    const key = counterpartKey(m.d, m.c, m.s)
+    const rest = members.filter(x => !(x.d === m.d && x.s === m.s && x.c === m.c))
     ;(crossLinks[key] ||= []).push(...rest)
   }
 }
 for (const key of Object.keys(crossLinks)) {
   const seen = new Set()
   crossLinks[key] = crossLinks[key].filter(x => {
-    const id = x.d + '/' + x.s
+    const id = counterpartKey(x.d, x.c, x.s)
     if (seen.has(id)) return false
     seen.add(id)
     return true

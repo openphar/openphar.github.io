@@ -35,7 +35,7 @@ test('full and selected generation use the same safe identity/download contract 
   const dir = fs.mkdtempSync(path.join(ROOT, '.local', 'public-identities-'))
   const write = (name, bytes) => { const p = path.join(dir, name); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, bytes) }
   try {
-    for (const name of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs']) write(`scripts/${name}`, fs.readFileSync(path.join(ROOT, 'scripts', name)))
+    for (const name of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs', 'source-route-slugs.mjs', 'entry-routes.mjs']) write(`scripts/${name}`, fs.readFileSync(path.join(ROOT, 'scripts', name)))
     write('registry/datasets.yml', 'datasets:\n  us:\n    short: USP\n    edition: 2025-USP48-NF43\n    rights: title-only\n    generate:\n      repo: input\n      glob: data/*.yaml\n')
     write('input/data/example.yaml', `canonical_iri: ${source}\nedition: 2025-USP48-NF43\nnames:\n  en: Example\nsections:\n  - name: Definition\n    text: PRIVATE_SENTINEL\n`)
     const otherSource = 'https://openphar.org/data/chp/chp-2025/entry/456'

@@ -5,6 +5,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { counterpartKey } from './entry-routes.mjs'
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'data')
@@ -28,6 +29,7 @@ for (const e of registry) {
     if (!m['@id']) continue
     const slug = m['@id'].split('/').pop()
     existing.add(`${e.id}/${slug}`)
+    existing.add(counterpartKey(e.id, m.category || m['@id'].split('/')[5], slug))
     entries++
   }
 }
@@ -39,7 +41,7 @@ for (const [key, targets] of Object.entries(crossLinks)) {
   if (!existing.has(key)) missing.push(['key', key])
   for (const t of targets) {
     links++
-    const id = `${t.d}/${t.s}`
+    const id = counterpartKey(t.d, t.c, t.s)
     if (!existing.has(id)) missing.push(['target', `${key} -> ${id}`])
   }
 }

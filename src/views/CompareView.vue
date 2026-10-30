@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import { useHead } from '@unhead/vue'
 import { useRoute } from 'vue-router'
 import { extractString } from '../lib/i18n'
+import { findRouteEntry, counterpartKey } from '../../scripts/entry-routes.mjs'
 
 const route = useRoute()
 
@@ -57,28 +58,27 @@ async function searchMonographs() {
   loading.value = false
 }
 
-async function datasetEntry(datasetId, slug) {
+async function datasetEntry(datasetId, slug, category) {
   if (!datasetCache[datasetId]) {
     const res = await fetch(`/data/${datasetId}/${datasetId}-monographs.jsonld`)
     datasetCache[datasetId] = (await res.json())['@graph'] || []
   }
-  return datasetCache[datasetId].find(m => (m['@id'] || '').endsWith(`/${slug}`)) ||
-         datasetCache[datasetId].find(m => (m['@id'] || '').split('/').pop() === slug)
+  return findRouteEntry(datasetCache[datasetId], category, slug)
 }
 
-async function compareEntry(d, s) {
+async function compareEntry(d, s, c) {
   loading.value = true
   await ensureIndex()
-  const group = [{ d, s }, ...(crossLinks[`${d}/${s}`] || [])]
+  const group = [{ d, s, c }, ...(crossLinks[counterpartKey(d, c, s)] || [])]
   const seen = new Set()
   const unique = group.filter(m => {
-    const k = `${m.d}/${m.s}`
+    const k = counterpartKey(m.d, m.c, m.s)
     if (seen.has(k)) return false
     seen.add(k)
     return true
   })
   columns.value = await Promise.all(unique.map(async m => {
-    const entry = await datasetEntry(m.d, m.s)
+    const entry = await datasetEntry(m.d, m.s, m.c)
     const rights = registryRights[m.d]
     const restricted = rights === 'title-only'
     return {
@@ -94,19 +94,20 @@ async function compareEntry(d, s) {
     }
   }))
   loading.value = false
-  history.replaceState(null, '', `/compare?entry=${d}/${s}`)
+  history.replaceState(null, '', `/compare?entry=${d}/${d === 'ayp' && c ? c + '/' : ''}${s}`)
 }
 
 function onSelect(row) {
-  compareEntry(row.d, row.s)
+  compareEntry(row.d, row.s, row.c)
 }
 
 onMounted(() => {
   const entry = route.query.entry
   if (entry && entry.includes('/')) {
-    const [d, s] = String(entry).split('/')
+    const [d, second, third] = String(entry).split('/')
+    const s = third || second, c = third ? second : undefined
     searchQuery.value = s.replace(/-/g, ' ')
-    compareEntry(d, s)
+    compareEntry(d, s, c)
   }
 })
 </script>
@@ -132,7 +133,7 @@ onMounted(() => {
       <div v-if="candidates.length" class="mt-3 divide-y divide-line border border-line rounded-lg max-h-80 overflow-auto">
         <button
           v-for="row in candidates"
-          :key="row.d + '/' + row.s"
+          :key="row.d + '/' + row.c + '/' + row.s"
           @click="onSelect(row)"
           class="w-full text-left px-4 py-2 hover:bg-wash flex items-center gap-3"
         >
@@ -151,7 +152,7 @@ onMounted(() => {
     </div>
 
     <div v-else-if="columns.length" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-      <div v-for="col in columns" :key="col.d + '/' + col.s" class="bg-paper rounded-lg shadow-md p-5">
+      <div v-for="col in columns" :key="col.d + '/' + col.c + '/' + col.s" class="bg-paper rounded-lg shadow-md p-5">
         <div class="flex items-center gap-2 mb-2">
           <span class="badge" :class="'badge-' + col.d">{{ col.d.toUpperCase() }}</span>
           <span v-if="col.edition" class="text-xs text-ink/55">{{ col.edition }}</span>

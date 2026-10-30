@@ -16,7 +16,7 @@ test('native selected producer preserves public data, labels, routes and private
     fs.mkdirSync(path.dirname(file), { recursive: true })
     fs.writeFileSync(file, data)
   }
-  for (const file of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs']) {
+  for (const file of ['generate-datasets.mjs', 'native-labels.mjs', 'thai-editions.mjs', 'registry-join.mjs', 'search-policy.mjs', 'public-identities.mjs', 'source-route-slugs.mjs', 'entry-routes.mjs']) {
     write(`scripts/${file}`, fs.readFileSync(path.join(ROOT, 'scripts', file)))
   }
   const doc = (publisher, edition, slug, title) => ({

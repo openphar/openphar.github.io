@@ -21,7 +21,7 @@ function fixture(t) {
   t.after(() => fs.rmSync(parent, { recursive: true, force: true }))
   const root = path.join(parent, 'hub')
   fs.mkdirSync(path.join(root, 'scripts'), { recursive: true })
-  for (const name of ['generate-datasets.mjs', 'search-policy.mjs', 'native-labels.mjs', 'registry-join.mjs', 'thai-editions.mjs', 'public-identities.mjs']) {
+  for (const name of ['generate-datasets.mjs', 'search-policy.mjs', 'native-labels.mjs', 'registry-join.mjs', 'thai-editions.mjs', 'public-identities.mjs', 'source-route-slugs.mjs', 'entry-routes.mjs']) {
     fs.copyFileSync(path.join(ROOT, 'scripts', name), path.join(root, 'scripts', name))
   }
   if (process.env.BASELINE_GENERATOR) fs.copyFileSync(process.env.BASELINE_GENERATOR, path.join(root, 'scripts/generate-datasets.mjs'))
