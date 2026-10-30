@@ -101,9 +101,7 @@ onMounted(() => {
               </a>
             </li>
             <li>
-              <a href="/data/jp/jp-monographs.ttl" target="_blank" class="text-pine hover:underline">
-                JP Monographs (Turtle)
-              </a>
+              <span>JP Monographs (Turtle unavailable)</span>
             </li>
           </ul>
         </div>
