@@ -75,6 +75,7 @@ function spineTarget(d) {
               :class="['spine group relative flex-shrink-0 cursor-pointer rounded-t-sm transition-transform duration-200 hover:-translate-y-1.5', spineClass(d)]"
               :style="{ height: spineHeight(d) + 'px', width: '46px' }"
               :aria-describedby="`dataset-${d.id}-description`"
+              :title="`${d.name} · ${rightsMeta(d.rights).label}`"
             >
               <span class="flex h-full flex-col items-center justify-between py-2.5">
                 <span class="font-mono text-[10px] font-medium tracking-wider">{{ d.short }}</span>
@@ -82,7 +83,7 @@ function spineTarget(d) {
               </span>
               <span
                 :id="`dataset-${d.id}-description`"
-                class="pointer-events-none absolute bottom-full left-1/2 z-10 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded-xs bg-ink px-2 py-1 font-mono text-[10px] text-paper group-hover:block"
+                class="sr-only"
               >
                 {{ d.name }} · {{ rightsMeta(d.rights).label }}
               </span>
