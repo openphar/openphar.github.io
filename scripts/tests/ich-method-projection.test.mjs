@@ -9,7 +9,7 @@ import { load as yamlLoad, dump as yamlDump } from 'js-yaml'
 import { createSSRApp } from 'vue'
 import { renderToString } from 'vue/server-renderer'
 import { parse, compileTemplate } from 'vue/compiler-sfc'
-import { projectIchMethods, projectIchChapter } from '../lib/ich-method-projection.mjs'
+import { projectIchMethods, projectIchChapter, projectComparisonCatalogReference, validateComparisonCatalogReference } from '../lib/ich-method-projection.mjs'
 
 const root = new URL('../../', import.meta.url)
 const options = { datasetId: 'ich', edition: 'Q4B current' }
@@ -17,6 +17,37 @@ const chapter = fields => ({ publisher: 'Ph.Eur.', code: '2.2.29', source: 'cura
 const row = fields => ({ concept: 'liquid_chromatography', name_en: 'Liquid chromatography',
   harmonisation_status: 'not_harmonised', chapters: [chapter()], ...fields })
 const project = fields => projectIchMethods([row(fields)], options)[0]
+
+test('actual comparison exports only reviewed catalog facts with unresolved applicability', () => {
+  const facts=JSON.parse(fs.readFileSync(new URL('public/data/comparison-facts.json',root),'utf8'))
+  const references=facts.entries.flatMap(entry=>entry.tests.filter(t=>t.method).map(t=>({entry,method:t.method})))
+  assert.equal(references.length,11)
+  assert.equal(references.filter(r=>r.method.catalog.status==='reported').length,9)
+  for(const {entry,method}of references){
+    assert.equal(validateComparisonCatalogReference(method.catalog,method,entry.edition),method.catalog)
+    assert.equal(method.catalog.applicability,'unresolved')
+    assert.doesNotMatch(JSON.stringify(method.catalog),/note|rationale|confidence|source_evidence|source_validation|sha256|harmonisation|ich_annex|\/home\/|\.codex/)
+  }
+})
+
+test('public catalog binding rejects altered scope, family, labels, proof fields and applicability', () => {
+  const facts=JSON.parse(fs.readFileSync(new URL('public/data/comparison-facts.json',root),'utf8'))
+  const entry=facts.entries.find(e=>e.substanceId==='paracetamol'&&e.edition==='PhInt-13'),method=entry.tests.find(t=>t.method).method
+  for(const mutation of [r=>r.family='hplc',r=>r.edition='PhInt-12',r=>r.publisher='KP',r=>r.label='Different label',r=>r.source='ich_official',r=>r.applicability='verified',r=>r.rationale='PRIVATE_SENTINEL',r=>r.source_evidence={sha256:'0'.repeat(64)}]){
+    const reference=structuredClone(method.catalog);mutation(reference)
+    assert.throws(()=>validateComparisonCatalogReference(reference,method,entry.edition))
+  }
+  for(const invalid of [false,null,{},[],{status:'unresolved',applicability:'unresolved',family:'hplc'}])assert.throws(()=>validateComparisonCatalogReference(invalid,method,entry.edition))
+})
+
+test('unresolved source, edition and component outcomes cannot become positive catalog references', () => {
+  const citation={publisher:'phint',chapter:'2.7'}
+  for(const reason of ['source_qualification_unapproved','source_edition_required','ambiguous_catalog_assignment','source_procedure_scope_required','shared_chromatography_chapter_requires_component_scope']){
+    assert.deepEqual(projectComparisonCatalogReference(citation,'PhInt-13',{status:'unresolved',reason,concept:'nitrite_titration'}),{status:'unresolved',applicability:'unresolved'})
+  }
+  assert.deepEqual(projectComparisonCatalogReference({...citation,publisher:'kp'},'KPH2023',{status:'resolved'}),{status:'unresolved',applicability:'unresolved'})
+  assert.throws(()=>projectComparisonCatalogReference(citation,'PhInt-13',{status:'resolved',publisher:'PhInt',code:'2.7',concept:'hplc',concept_iri:'ich:hplc'}))
+})
 
 function actualFunction(source, name) {
   const start = source.indexOf(`function ${name}(`)

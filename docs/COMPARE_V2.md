@@ -38,20 +38,56 @@ captured historical material and its authentication limits.
 The edition selector updates the shareable URL. The USP selector changes title
 and edition metadata only; it never exposes restricted edition differences.
 
-## Method mappings remain a required gap
+## Catalog families and method differences
 
-The supplied method information consists of chapter citations. No authorized
-harmonized method concept, applicability scope, mapping rationale or
-interchangeability assertion is supplied by this projection. Citations do not
-satisfy the required method-mapping acceptance criterion. That criterion stays
-open pending a specific decision on the public fields and suitable verified
-source inputs. No association is inferred from a test name, matching chapter
-number or another edition.
+Explicit citations can carry a reviewed catalog family, with the exact
+publisher, chapter, edition and curated classification. The public projection
+contains five reviewed scope bindings: non-aqueous titration (PhInt-11/13,
+2.6), nitrite titration (PhInt-12/13, 2.7), and UV/visible absorption
+spectrophotometry (PhInt-12, 1.6). The private resolver and source review supply
+the build evidence; source notes, rationale, proof, paths, hashes and effective
+ICH claims are excluded from every public field. A catalog family is a lookup
+attached to an explicit citation. It does not prove per-test applicability or
+scientific/regulatory interchangeability. Applicability always remains
+**unresolved**.
 
-The projection reader and publication checker reject extra mapping fields at
-every supported payload layer. A future mapping feature must add an explicit
-publication contract and source/edition/applicability checks before exporting
-facts. The present implementation does not pre-authorize that extension.
+`/compare?entry=phint/6-1-375&edition=PhInt-12` demonstrates a genuine difference
+in captured WHO Zidovudine records. The dried-substance assay range changes
+from 97.0–103.0% to 97.0–102.0%. The earlier assay explicitly measures absorbance
+under chapter 1.6; the current assay explicitly cites HPLC under 1.14.1. The
+table separately marks **Different limit** and **Different cited method**.
+The shared chromatography component guard keeps the current catalog family
+unresolved; the explicit HPLC citation is preserved. It is never forced into a
+positive family merely to complete a demonstration.
+
+The exact native edition records, formula, CAS identity, definition and own
+assay paragraphs were checked against pinned source Git objects. Original raw
+captures for this added pair were unavailable locally; the adaptation and
+public evidence identify this as a captured-native comparison, without claiming
+independent original-source authentication. This limitation applies to the new
+pair and does not upgrade or invalidate the earlier source evidence.
+
+A matching chapter citation is labelled **Same chapter citation**, never proof
+of an unchanged procedure. Different publishers' chapter numbers alone are
+incomparable. Missing citations, conflicting identities/bases, missing editions,
+unreviewed family bindings and component/procedure ambiguity remain explicit.
+The original numeric comparator and its unit/basis/operator safeguards remain
+separate.
+
+The generated artifact has 11 current and three historical entries, 18 typed
+limits and 11 explicit citations: nine reported catalog-family lookups and two
+unresolved references. The original 16 numeric facts and nine citations retain
+their literal values; catalog annotations are the only additions to those
+facts. The five required acetaminophen publisher identities/titles and all
+additional registry columns remain visible; restricted publishers gain no
+limits or methods. New IP numeric or procedure output is excluded from this
+package; no permission is inferred from its existing public body data.
+
+The generator and publication checker enforce the bounded catalog allowlist,
+exact edition/citation binding, unresolved applicability, source notices and
+strict nested fields. These are local implementation and captured-source
+results. They do not close every source05.1 requirement, authorize publication,
+waive merged prerequisites, or establish complete method applicability.
 
 ## Local validation
 

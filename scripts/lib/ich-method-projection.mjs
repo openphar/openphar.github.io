@@ -5,6 +5,44 @@ const CONCEPT_STATUSES = new Set(['harmonised', 'not_harmonised', 'partial'])
 const QUALIFICATIONS = ['note', 'rationale', 'conditions', 'limitations']
 const PRIVATE_LOCATION = /(?:file:\/\/|(?:^|[\s"'(])\/[^\s]+|(?:^|[\s"'(])\.\.?[\\/]|[A-Za-z]:[\\/]|\.codex-context|\.claude(?:\/|\\)|\.env(?:\b|\/)|(?:assistant|session)[_-](?:id|url|link)\b)/i
 
+// Reviewed public catalog facts only. This is deliberately narrower than the
+// private ledger or resolver. Adding a scope requires source and field review.
+const COMPARISON_FAMILIES = [
+  ['2.6', 'PhInt-11', 'non_aqueous_titration', 'Non-Aqueous Titration'],
+  ['2.6', 'PhInt-13', 'non_aqueous_titration', 'Non-Aqueous Titration'],
+  ['2.7', 'PhInt-12', 'nitrite_titration', 'Nitrite Titration (Diazotization)'],
+  ['2.7', 'PhInt-13', 'nitrite_titration', 'Nitrite Titration (Diazotization)'],
+  ['1.6', 'PhInt-12', 'uv_vis_spectrophotometry', 'Ultraviolet and Visible Absorption Spectrophotometry']
+].map(([chapter, edition, family, label]) => Object.freeze({
+  status: 'reported', publisher: 'Ph.Int.', chapter, edition, family, label,
+  source: 'curated', applicability: 'unresolved'
+}))
+
+export function projectComparisonCatalogReference(citation, edition, resolution) {
+  const unresolved = { status: 'unresolved', applicability: 'unresolved' }
+  if (citation?.publisher !== 'phint' || resolution?.status !== 'resolved') return unresolved
+  const reference = COMPARISON_FAMILIES.find(row => row.chapter === citation.chapter && row.edition === edition)
+  if (!reference) return unresolved
+  if (resolution.publisher !== 'PhInt' || resolution.code !== citation.chapter ||
+      resolution.concept !== reference.family || resolution.concept_iri !== `ich:${reference.family}`) {
+    throw new TypeError('Reviewed catalog result does not match its exact scope')
+  }
+  return { ...reference }
+}
+
+export function validateComparisonCatalogReference(reference, citation, edition) {
+  object(reference, 'catalog reference')
+  if (reference.status === 'unresolved' && reference.applicability === 'unresolved' &&
+      Object.keys(reference).length === 2) return reference
+  const expected = citation?.publisher === 'phint' && COMPARISON_FAMILIES.find(row =>
+    row.chapter === citation.chapter && row.edition === edition)
+  if (!expected || Object.keys(reference).length !== Object.keys(expected).length ||
+      !Object.keys(expected).every(key => reference[key] === expected[key])) {
+    throw new TypeError('Unreviewed public catalog scope or fields')
+  }
+  return reference
+}
+
 function object(value, field) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) {
     throw new TypeError(`${field} must be an object`)

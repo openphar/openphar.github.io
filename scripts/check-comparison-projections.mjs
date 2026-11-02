@@ -7,7 +7,7 @@ import { readEditionProjection } from '../src/lib/edition-diff.js'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 export const WHO_LICENSE = 'https://creativecommons.org/licenses/by-nc-sa/3.0/igo/'
 const fail = reason => { throw new Error(`Comparison publication gate: ${reason}`) }
-export function validatePublicProjections(factsDocument, editionsDocument, { graph, index, substances, minimumCurrent = 10, minimumHistorical = 2 } = {}) {
+export function validatePublicProjections(factsDocument, editionsDocument, { graph, index, substances, minimumCurrent = 11, minimumHistorical = 3 } = {}) {
   const entries = readComparisonProjection(factsDocument)
   const records = readEditionProjection(editionsDocument)
   for (const document of [factsDocument, editionsDocument]) {
@@ -16,6 +16,8 @@ export function validatePublicProjections(factsDocument, editionsDocument, { gra
   }
   if (!entries.length || !records.length) fail('empty projections')
   if (entries.some(e => e.publisher !== 'phint' || e.tests.some(t => t.method && t.method.publisher !== 'phint')) || records.some(r => r.publisher !== 'phint')) fail('only reviewed PhInt fields are authorized')
+  if (entries.some(e => e.tests.some(t => t.method && !t.method.catalog))) fail('explicit reviewed or unresolved catalog result required')
+  if (entries.some(e => e.substanceId === 'zidovudine') && !factsDocument.adaptation?.includes('original raw capture authentication is unavailable')) fail('captured-native source limitation required')
   if (!Array.isArray(graph) || !Array.isArray(index) || !substances) fail('vendored identity inputs required')
   function currentIdentity(endpoint, substanceId) {
     const slug = endpoint.entryId.split('/').pop()
@@ -44,7 +46,7 @@ export function validatePublicProjections(factsDocument, editionsDocument, { gra
     historical++
   }
   if (current < minimumCurrent || historical < minimumHistorical) fail('reviewed current/historical coverage floor')
-  return { currentEntries: current, historicalEntries: historical, tests: entries.reduce((n,e) => n + e.tests.length, 0), methods: entries.reduce((n,e) => n + e.tests.filter(t => t.method).length, 0), editionPairs: records.length, changes: records.reduce((n,r) => n + r.changes.length, 0) }
+  return { currentEntries: current, historicalEntries: historical, tests: entries.reduce((n,e) => n + e.tests.length, 0), methods: entries.reduce((n,e) => n + e.tests.filter(t => t.method).length, 0), catalogFamilies: entries.reduce((n,e) => n + e.tests.filter(t => t.method?.catalog?.status === 'reported').length, 0), unresolvedCatalogReferences: entries.reduce((n,e) => n + e.tests.filter(t => t.method?.catalog?.status === 'unresolved').length, 0), editionPairs: records.length, changes: records.reduce((n,r) => n + r.changes.length, 0) }
 }
 export function loadPublicIdentityInputs(directory = root) {
   const read = relative => JSON.parse(fs.readFileSync(path.join(directory, relative), 'utf8'))

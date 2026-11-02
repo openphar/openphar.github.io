@@ -1,4 +1,5 @@
 // Public, explicitly authorized facts only. Source prose is never a fallback.
+import { validateComparisonCatalogReference } from '../../scripts/lib/ich-method-projection.mjs'
 const restricted = new Set(['us', 'eu', 'uk'])
 const held = new Set(['jp', 'chp'])
 const eligible = new Set(['phint', 'thp', 'ayp', 'hk', 'ip', 'kp'])
@@ -34,14 +35,14 @@ export function validateFactEntry(entry) {
   if (!Array.isArray(entry.tests)) fail('tests must be an array')
   const keys = new Set()
   for (const test of entry.tests) {
-    validateTest(test)
+    validateTest(test, entry.edition)
     if (keys.has(test.key)) fail('duplicate test key')
     keys.add(test.key)
   }
   return entry
 }
 
-export function validateTest(test) {
+export function validateTest(test, edition) {
   assertFields(test, ['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence', 'limit', 'method'], 'test')
   if (!test || !['key', 'label', 'semanticKey', 'basis', 'unit', 'evidence'].every(k => known(test[k])) || !publicEvidence(test.evidence)) fail('test semantics, unit and public evidence are required')
   const limit = test.limit
@@ -54,8 +55,9 @@ export function validateTest(test) {
     if (!decimal(limit.value)) fail('decimal limit value required')
   }
   if (test.method) {
-    assertFields(test.method, ['publisher', 'chapter', 'label', 'evidence'], 'method')
+    assertFields(test.method, ['publisher', 'chapter', 'label', 'evidence', 'catalog'], 'method')
     if (!['publisher', 'chapter', 'label'].every(k => text(test.method[k])) || !publicEvidence(test.method.evidence)) fail('public method evidence is required')
+    if (Object.hasOwn(test.method, 'catalog')) validateComparisonCatalogReference(test.method.catalog, test.method, edition ?? test.method.catalog?.edition)
   }
   return test
 }
@@ -100,9 +102,13 @@ export function comparisonMatrix(columns) {
     })
     const populated = cells.filter(cell => cell.test)
     const baseline = populated[0]
+    const methodCells = cells.filter(cell => cell.test?.method)
+    const methodBaseline = methodCells[0]
     return { semantic, label: baseline?.test.label || semantic, cells: cells.map(cell => ({ ...cell,
       comparison: !cell.test ? { status: 'unknown', reason: cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' } : populated.length < 2 ? { status: 'incomparable', reason: 'Only one verified value; comparison unavailable.' } :
-        cell === baseline ? { status: 'reference', reason: 'Reference value for this comparison.' } : compareTests(baseline.column.facts, baseline.test, cell.column.facts, cell.test)
+        cell === baseline ? { status: 'reference', reason: 'Reference value for this comparison.' } : compareTests(baseline.column.facts, baseline.test, cell.column.facts, cell.test),
+      methodComparison: !cell.test?.method || methodCells.length < 2 ? { status: 'unknown', reason: 'Two explicit method citations are required.' } :
+        cell === methodBaseline ? { status: 'reference', reason: 'Reference citation for this comparison.' } : compareMethods(methodBaseline.column.facts, methodBaseline.test, cell.column.facts, cell.test)
     })) }
   })
 }
@@ -141,6 +147,22 @@ export function compareTests(leftEntry, left, rightEntry, right) {
   const fields = left.limit.operator === 'range' ? ['lower', 'upper'] : ['value']
   const equal = fields.every(key => compareDecimal(left.limit[key], right.limit[key]) === 0)
   return { status: equal ? 'same' : 'different', reason: equal ? 'Same explicit numeric limit.' : 'Explicit numeric limits differ.' }
+}
+
+export function compareMethods(leftEntry, left, rightEntry, right) {
+  try {
+    for (const entry of [leftEntry, rightEntry]) validateFactEntry(entry)
+    validateTest(left, leftEntry.edition); validateTest(right, rightEntry.edition)
+  } catch {
+    return { status: 'unknown', reason: 'Verified method context unavailable.' }
+  }
+  if (leftEntry.substanceId !== rightEntry.substanceId || left.semanticKey !== right.semanticKey ||
+      left.basis !== right.basis) return { status: 'incomparable', reason: 'Substance, test meaning or measurement basis differs.' }
+  if (!left.method || !right.method) return { status: 'unknown', reason: 'Two explicit method citations are required.' }
+  if (left.method.publisher !== right.method.publisher) return { status: 'incomparable', reason: 'Publisher-specific chapter numbers cannot establish a method difference.' }
+  return left.method.chapter === right.method.chapter
+    ? { status: 'same-citation', reason: 'Same chapter citation; unchanged procedure or interchangeability is not established.' }
+    : { status: 'different-citation', reason: 'Different explicitly cited methods; applicability and interchangeability remain unresolved.' }
 }
 
 export function formatLimit(test) {

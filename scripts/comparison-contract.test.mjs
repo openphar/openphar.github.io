@@ -1,9 +1,40 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { readComparisonProjection, findFacts, compareTests, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection, fromCanonicalLimit } from '../src/lib/comparison-contract.js'
+import fs from 'node:fs'
+import { readComparisonProjection, findFacts, compareTests, compareMethods, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection, fromCanonicalLimit } from '../src/lib/comparison-contract.js'
 // Explicit contract fixtures, not source-derived scientific examples.
 const make = (changes = {}) => ({ publisher: 'phint', entryId: 'https://www.openphar.org/data/phint/monographs/6-1-266', substanceId: 'paracetamol', edition: 'PhInt-13', publication: {status:'permitted', authority:'WHO International Pharmacopoeia 13th edition, CC BY-NC-SA 3.0 IGO'}, tests: [{key:'assay',label:'Assay',semanticKey:'assay-content',basis:'dried substance',unit:'%',limit:{operator:'range',lower:'99.0',upper:'101.0'},evidence:'WHO PhInt-13, Paracetamol, Assay'}], ...changes })
 const doc = entry => ({schema:'openphar-comparison/v1',entries:[entry]})
+const actualFacts = () => readComparisonProjection(JSON.parse(fs.readFileSync(new URL('../public/data/comparison-facts.json', import.meta.url), 'utf8')))
+
+test('actual captured Zidovudine pair differs in both literal upper bound and cited technique', () => {
+ const entries=actualFacts(), current=entries.find(e=>e.substanceId==='zidovudine'&&e.edition==='PhInt-13'), earlier=entries.find(e=>e.substanceId==='zidovudine'&&e.edition==='PhInt-12')
+ assert.equal(compareTests(current,current.tests[0],earlier,earlier.tests[0]).status,'different')
+ assert.equal(compareMethods(current,current.tests[0],earlier,earlier.tests[0]).status,'different-citation')
+ assert.equal(current.tests[0].method.chapter,'1.14.1');assert.equal(earlier.tests[0].method.chapter,'1.6')
+ assert.equal(current.tests[0].method.catalog.status,'unresolved')
+ assert.equal(earlier.tests[0].method.catalog.family,'uv_vis_spectrophotometry')
+ assert.equal(earlier.tests[0].method.catalog.applicability,'unresolved')
+})
+
+test('actual unchanged Paracetamol citation does not establish unchanged procedure or equivalence', () => {
+ const entries=actualFacts(), current=entries.find(e=>e.substanceId==='paracetamol'&&e.edition==='PhInt-13'), earlier=entries.find(e=>e.substanceId==='paracetamol'&&e.edition==='PhInt-12')
+ const result=compareMethods(current,current.tests[0],earlier,earlier.tests[0]);assert.equal(result.status,'same-citation');assert.match(result.reason,/not established/)
+})
+
+test('actual typed limits without citations never become reference method citations', () => {
+ const entries=actualFacts().filter(e=>e.substanceId==='paracetamol')
+ const rows=comparisonMatrix(entries.map(facts=>({facts})))
+ for(const row of rows.filter(r=>r.cells.every(c=>!c.test?.method)))assert(row.cells.every(c=>c.methodComparison.status==='unknown'))
+ assert(rows.some(r=>r.cells.every(c=>!c.test?.method)))
+})
+
+test('method comparison rejects different identities, missing citations and borrowed catalog editions', () => {
+ const entries=actualFacts(), current=entries.find(e=>e.substanceId==='zidovudine'&&e.edition==='PhInt-13'), earlier=entries.find(e=>e.substanceId==='zidovudine'&&e.edition==='PhInt-12'), other=entries.find(e=>e.substanceId==='paracetamol'&&e.edition==='PhInt-13')
+ assert.equal(compareMethods(current,current.tests[0],other,other.tests[0]).status,'incomparable')
+ const missing=structuredClone(earlier);delete missing.tests[0].method;assert.equal(compareMethods(current,current.tests[0],missing,missing.tests[0]).status,'unknown')
+ const borrowed=structuredClone(earlier);borrowed.edition='PhInt-13';assert.equal(compareMethods(current,current.tests[0],borrowed,borrowed.tests[0]).status,'unknown')
+})
 test('matches complete explicit identity, never a reused numbered slug alone', () => {
  const entry=make(); const entries=readComparisonProjection(doc(entry)); assert.equal(findFacts(entries,{...entry,edition:'PhInt-12'}),null); assert.equal(findFacts(entries,{...entry,substanceId:'penicillamine'}),null); assert.equal(findFacts(entries,entry),entry)
 })

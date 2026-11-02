@@ -6,8 +6,8 @@ import { compareTests } from '../src/lib/comparison-contract.js'
 const read=name=>JSON.parse(fs.readFileSync(new URL(`../public/data/${name}`,import.meta.url),'utf8'))
 const facts=read('comparison-facts.json'),editions=read('edition-diffs.json'),identity=loadPublicIdentityInputs()
 const copy=()=>[structuredClone(facts),structuredClone(editions)]
-test('actual reviewed public WHO projection has10current+2historical entries,16limits,9methods and2changes',()=>{
- assert.deepEqual(validatePublicProjections(facts,editions,identity),{currentEntries:10,historicalEntries:2,tests:16,methods:9,editionPairs:2,changes:2})
+test('actual reviewed public WHO projection has11current+3historical entries,18limits,11citations and9catalog families',()=>{
+ assert.deepEqual(validatePublicProjections(facts,editions,identity),{currentEntries:11,historicalEntries:3,tests:18,methods:11,catalogFamilies:9,unresolvedCatalogReferences:2,editionPairs:3,changes:4})
  const pair=(sub,edition)=>facts.entries.find(e=>e.substanceId===sub&&e.edition===edition)
  for(const [sub,old,status] of [['albendazole','PhInt-11','different'],['paracetamol','PhInt-12','same']]){const a=pair(sub,old),b=pair(sub,'PhInt-13');const assay=e=>e.tests.find(t=>t.semanticKey==='active-substance-content');assert.equal(compareTests(a,assay(a),b,assay(b)).status,status)}
 })
@@ -31,3 +31,8 @@ test('actual WHO inequalities retain their literal units and no conversion is in
 })
 test('current registry/category identity and historical same-substance endpoints are mandatory',()=>{for(const mutation of [(f,e)=>f.entries[0].substanceId='different-substance',(f,e)=>e.records[0].from.substanceId='penicillamine',(f,e)=>f.entries.find(x=>x.edition==='PhInt-12').entryId='https://openphar.org/data/phint/phint-12/entry/unverified',(f,e)=>e.records[0].to.entryId='https://www.openphar.org/data/phint/monographs/not-current']){const[f,e]=copy();mutation(f,e);assert.throws(()=>validatePublicProjections(f,e,identity))}})
 test('missing WHO notices, unverified differences and empty-data success are rejected',()=>{for(const mutation of [(f,e)=>delete f.adaptation,(f,e)=>e.records[1].status='unverified',(f,e)=>e.records[1].changes[0].raw_pdf='PRIVATE_SENTINEL',(f,e)=>f.entries=[]]){const[f,e]=copy();mutation(f,e);assert.throws(()=>validatePublicProjections(f,e,identity))}})
+test('public output requires explicit catalog uncertainty and the captured-native limitation',()=>{
+ for(const mutation of [f=>delete f.entries.flatMap(e=>e.tests).find(t=>t.method).method.catalog,f=>f.adaptation=f.adaptation.replace('original raw capture authentication is unavailable','original source authenticated')]){
+  const[f,e]=copy();mutation(f);assert.throws(()=>validatePublicProjections(f,e,identity))
+ }
+})

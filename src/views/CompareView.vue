@@ -60,6 +60,7 @@ const publisherColumns = computed(() => columns.value.map(column => {
 const matrixColumns = computed(() => [...publisherColumns.value, ...historicalColumns.value.filter(c => c.edition === selectedHistorical.value)])
 const comparisonRows = computed(() => comparisonMatrix(matrixColumns.value))
 const statusLabel = status => ({ reference: 'Reference', same: 'Same limit', different: 'Different limit', incomparable: 'Incomparable', unknown: 'Unknown' })[status]
+const methodStatusLabel = status => ({ reference: 'Reference method citation', 'same-citation': 'Same chapter citation', 'different-citation': 'Different cited method', incomparable: 'Methods incomparable', unknown: 'Method comparison unknown' })[status]
 const comparisonStatus = computed(() => {
   if (loading.value) return 'Loading matches and comparison…'
   const messages = []
@@ -200,7 +201,8 @@ onMounted(() => {
     <section v-if="columns.length && !loading" class="mb-8">
       <h2 class="font-display text-2xl font-semibold">Test limits and methods</h2>
       <p class="mt-2 text-sm">{{ projectionState }} Exact units and measurement bases are compared without conversion. Highlighted differences concern the supplied limits only.</p>
-      <p class="mt-2 text-sm">Harmonized method mappings are unavailable pending permission to publish the required fields. Chapter citations below do not establish method equivalence or interchangeability.</p>
+      <p class="mt-2 text-sm">Reviewed catalog families are shown beside explicit chapter citations. Catalog membership does not establish that a method applies to this test, scientific equivalence or regulatory interchangeability. Applicability remains unresolved.</p>
+      <p class="mt-2 text-sm"><a href="/compare?entry=phint/6-1-375&amp;edition=PhInt-12" class="underline">See the captured Zidovudine assay and cited-method differences across WHO editions.</a></p>
       <div v-if="uspEditions.length" class="mt-4">
         <label for="usp-edition" class="block text-sm font-medium">USP edition (title metadata only)</label>
         <select id="usp-edition" v-model="selectedUspEdition" @change="selectUspEdition" class="mt-2 max-w-full rounded border border-line bg-paper px-3 py-2">
@@ -219,7 +221,7 @@ onMounted(() => {
       </div>
       <div v-if="comparisonRows.length" class="mt-4 overflow-x-auto" tabindex="0" role="region" aria-label="Publisher test comparison">
         <table class="w-full border-collapse text-left text-sm">
-          <caption class="sr-only">Explicit public test limits by publisher and edition</caption>
+          <caption class="sr-only">Explicit public test limits, cited methods and catalog families by publisher and edition</caption>
           <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ col.d.toUpperCase() }} · {{ col.edition }}{{ col.historical ? ' (historical limits)' : '' }}<span class="block font-normal">{{ col.title }}</span></th></tr></thead>
           <tbody><tr v-for="row in comparisonRows" :key="row.semantic">
             <th scope="row" class="border border-line p-3">{{ row.label }}</th>
@@ -231,6 +233,13 @@ onMounted(() => {
                 <p>{{ cell.comparison.reason }}</p>
                 <p v-if="cell.test.method">Chapter citation: {{ cell.test.method.publisher }} {{ cell.test.method.chapter }} — {{ cell.test.method.label }}</p>
                 <p v-else>No chapter citation supplied.</p>
+                <div :data-method-comparison-status="cell.methodComparison.status" :class="{ 'bg-wash': cell.methodComparison.status === 'different-citation' }" class="mt-2 p-2">
+                  <p class="font-semibold">{{ methodStatusLabel(cell.methodComparison.status) }}</p>
+                  <p>{{ cell.methodComparison.reason }}</p>
+                  <p v-if="cell.test.method?.catalog?.status === 'reported'">Catalog family: {{ cell.test.method.catalog.label }} (curated; {{ cell.test.method.catalog.publisher }}, {{ cell.test.method.catalog.edition }}).</p>
+                  <p v-else>Catalog family unresolved.</p>
+                  <p>Method applicability: unresolved.</p>
+                </div>
                 <details class="mt-2"><summary>Evidence</summary><p>{{ cell.test.evidence }}</p><p v-if="cell.test.method">{{ cell.test.method.evidence }}</p></details>
               </template>
               <p v-else>{{ cell.column.access === 'title-only' ? 'Title only: limits and methods restricted.' : cell.column.access === 'held' ? 'New detailed comparisons held pending publication authority.' : cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' }}</p>

@@ -26,7 +26,7 @@ try {
   const metadata = {
     attribution: editionInput.attribution,
     license: WHO_LICENSE,
-    adaptation: 'Adapted by Open Pharmacopoeia: selected criteria structured as explicit limits and selected edition fields compared. Only supplied fields are assessed. Historical comparisons use captured edition material; original-PDF authentication is outside this comparison.',
+    adaptation: 'Adapted by Open Pharmacopoeia: selected criteria structured as explicit limits and selected edition fields compared. Only supplied fields are assessed. Historical comparisons use captured edition material; original-PDF authentication is outside this comparison. Zidovudine compares captured native PhInt-12 and PhInt-13 records; original raw capture authentication is unavailable. Catalog families are citation lookups with unresolved applicability, not equivalence or interchangeability.',
     endorsement: 'No endorsement by WHO is implied.'
   }
   const facts={schema:'openphar-comparison/v1',...metadata,entries:[...readComparisonProjection(current),...readComparisonProjection(historical)]}

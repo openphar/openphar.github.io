@@ -2,7 +2,7 @@
   "schema": "openphar-comparison/v1",
   "attribution": "The International Pharmacopoeia, 11th ed. (2022), 12th ed. (2024), and 13th ed. (2025). Geneva: World Health Organization. Licence: CC BY-NC-SA 3.0 IGO. No WHO endorsement implied.",
   "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/",
-  "adaptation": "Adapted by Open Pharmacopoeia: selected criteria structured as explicit limits and selected edition fields compared. Only supplied fields are assessed. Historical comparisons use captured edition material; original-PDF authentication is outside this comparison.",
+  "adaptation": "Adapted by Open Pharmacopoeia: selected criteria structured as explicit limits and selected edition fields compared. Only supplied fields are assessed. Historical comparisons use captured edition material; original-PDF authentication is outside this comparison. Zidovudine compares captured native PhInt-12 and PhInt-13 records; original raw capture authentication is unavailable. Catalog families are citation lookups with unresolved applicability, not equivalence or interchangeability.",
   "endorsement": "No endorsement by WHO is implied.",
   "entries": [
     {
@@ -56,7 +56,17 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.6.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.6.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-13",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -87,7 +97,17 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration, Method A",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.7.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.7.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-13",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -118,7 +138,11 @@
             "publisher": "phint",
             "chapter": "1.14.1",
             "label": "High-performance liquid chromatography",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.19.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.19.js",
+            "catalog": {
+              "status": "unresolved",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -149,7 +173,17 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration, Method A",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.31.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.31.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-13",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -180,7 +214,17 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration, Method A",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.53.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.53.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-13",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -261,7 +305,17 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration, Method A",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.237.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.237.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-13",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
@@ -292,7 +346,17 @@
             "publisher": "phint",
             "chapter": "2.7",
             "label": "Nitrite titration",
-            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.266.js"
+            "evidence": "https://digicollections.net/phint/202502/data/b/b.6.1.266.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.7",
+              "edition": "PhInt-13",
+              "family": "nitrite_titration",
+              "label": "Nitrite Titration (Diazotization)",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         },
         {
@@ -323,6 +387,41 @@
     },
     {
       "publisher": "phint",
+      "entryId": "https://www.openphar.org/data/phint/monographs/6-1-375",
+      "substanceId": "zidovudine",
+      "edition": "PhInt-13",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "tests": [
+        {
+          "key": "assay-content",
+          "label": "Zidovudine content",
+          "semanticKey": "active-substance-content",
+          "basis": "C10H13N5O4; calculated with reference to the dried substance",
+          "unit": "%",
+          "limit": {
+            "operator": "range",
+            "lower": "97.0",
+            "upper": "102.0"
+          },
+          "evidence": "The International Pharmacopoeia, PhInt-13, Zidovudine, Definition and Assay; captured native edition records, original raw capture not independently authenticated. https://digicollections.net/phint/202502/data/b/b.6.1.375.js",
+          "method": {
+            "publisher": "phint",
+            "chapter": "1.14.1",
+            "label": "High-performance liquid chromatography",
+            "evidence": "The International Pharmacopoeia, PhInt-13, Zidovudine, Definition and Assay; captured native edition records, original raw capture not independently authenticated. https://digicollections.net/phint/202502/data/b/b.6.1.375.js",
+            "catalog": {
+              "status": "unresolved",
+              "applicability": "unresolved"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "publisher": "phint",
       "entryId": "https://openphar.org/data/phint/phint-12/entry/6-1-264",
       "substanceId": "paracetamol",
       "edition": "PhInt-12",
@@ -347,7 +446,17 @@
             "publisher": "phint",
             "chapter": "2.7",
             "label": "Nitrite titration",
-            "evidence": "The International Pharmacopoeia, 12th ed. (2024), Paracetamol, Definition and Assay; https://digicollections.net/phint/2025/data/b/b.6.1.264.js"
+            "evidence": "The International Pharmacopoeia, 12th ed. (2024), Paracetamol, Definition and Assay; https://digicollections.net/phint/2025/data/b/b.6.1.264.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.7",
+              "edition": "PhInt-12",
+              "family": "nitrite_titration",
+              "label": "Nitrite Titration (Diazotization)",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         },
         {
@@ -402,7 +511,58 @@
             "publisher": "phint",
             "chapter": "2.6",
             "label": "Non-aqueous titration, Method A",
-            "evidence": "The International Pharmacopoeia, 11th ed. (2022), Albendazole, Definition and Assay; WHO Eleventh Edition 2022, Albendazole monograph, page 1."
+            "evidence": "The International Pharmacopoeia, 11th ed. (2022), Albendazole, Definition and Assay; WHO Eleventh Edition 2022, Albendazole monograph, page 1.",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "2.6",
+              "edition": "PhInt-11",
+              "family": "non_aqueous_titration",
+              "label": "Non-Aqueous Titration",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "publisher": "phint",
+      "entryId": "https://openphar.org/data/phint/phint-12/entry/6-1-373",
+      "substanceId": "zidovudine",
+      "edition": "PhInt-12",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "tests": [
+        {
+          "key": "assay-content",
+          "label": "Zidovudine content",
+          "semanticKey": "active-substance-content",
+          "basis": "C10H13N5O4; calculated with reference to the dried substance",
+          "unit": "%",
+          "limit": {
+            "operator": "range",
+            "lower": "97.0",
+            "upper": "103.0"
+          },
+          "evidence": "The International Pharmacopoeia, PhInt-12, Zidovudine, Definition and Assay; captured native edition records, original raw capture not independently authenticated. https://digicollections.net/phint/2025/data/b/b.6.1.373.js",
+          "method": {
+            "publisher": "phint",
+            "chapter": "1.6",
+            "label": "Spectrophotometry in the visible and ultraviolet regions",
+            "evidence": "The International Pharmacopoeia, PhInt-12, Zidovudine, Definition and Assay; captured native edition records, original raw capture not independently authenticated. https://digicollections.net/phint/2025/data/b/b.6.1.373.js",
+            "catalog": {
+              "status": "reported",
+              "publisher": "Ph.Int.",
+              "chapter": "1.6",
+              "edition": "PhInt-12",
+              "family": "uv_vis_spectrophotometry",
+              "label": "Ultraviolet and Visible Absorption Spectrophotometry",
+              "source": "curated",
+              "applicability": "unresolved"
+            }
           }
         }
       ]
