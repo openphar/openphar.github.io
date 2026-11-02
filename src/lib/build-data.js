@@ -1,12 +1,16 @@
 // Server/build-only access. Never import this module from a hydrated island.
 import fs from 'node:fs'
 import path from 'node:path'
+import { counterpartKey } from '../../scripts/entry-routes.mjs'
+import { bindPublicIdentitySearchIndex } from './comparison-contract.js'
 // Astro bundles this module into its prerender directory; import.meta.url
 // therefore cannot identify the original source tree. Native npm scripts run
 // from the package root in local development and CI.
 const root = process.cwd()
 const data = path.join(root, 'data')
 const cache = new Map()
+let identityRecords
+const boundIndexCache = new WeakMap()
 export const sampleBuild = process.env.OPENPHAR_BUILD_SAMPLE === '1'
 
 function read(relative) {
@@ -49,7 +53,15 @@ export function cardEntry(entry) {
     .filter(key => key in entry).map(key => [key, entry[key]]))
 }
 
-export function counterparts(id, slug) { return read('cross-links.json')[`${id}/${slug}`] || [] }
+export function counterparts(id, slug, category) { return read('cross-links.json')[counterpartKey(id, category, slug)] || [] }
+export function bindCurrentSubstanceIdentities(index) {
+  if (boundIndexCache.has(index)) return boundIndexCache.get(index)
+  if (!identityRecords) identityRecords = fs.readFileSync(path.join(data, 'downloads/substances.ndjson'), 'utf8')
+    .trim().split('\n').filter(Boolean).map(line => JSON.parse(line))
+  const bound = bindPublicIdentitySearchIndex(index, identityRecords)
+  boundIndexCache.set(index, bound)
+  return bound
+}
 export function substanceSlugs() {
   const slugs = fs.readdirSync(path.join(data, 'substances')).filter(name => name.endsWith('.json')).map(name => name.slice(0, -5)).sort()
   if (!slugs.length) throw new Error('Missing vendored substance pages')

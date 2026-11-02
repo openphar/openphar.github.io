@@ -1,9 +1,10 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
 import { extractString } from '../lib/i18n'
-import { detailAccess, readComparisonProjection, findFacts, formatLimit, comparisonMatrix, resolveEntrySelection } from '../lib/comparison-contract.js'
+import { detailAccess, readComparisonProjection, findFacts, formatLimit, comparisonMatrix, resolveEntrySelection, bindPublicIdentitySearchIndex } from '../lib/comparison-contract.js'
 import { readEditionProjection, editionsForEntry } from '../lib/edition-diff.js'
 import { readTitleOnlyEditions, titleEditionsFor } from '../lib/title-only-editions.js'
+import { counterpartKey } from '../../scripts/entry-routes.mjs'
 
 const searchQuery = ref('')
 const candidates = ref([])
@@ -24,6 +25,11 @@ async function readJson(url) {
   const response = await fetch(url)
   if (!response.ok) throw new Error('Public dataset unavailable')
   return response.json()
+}
+async function readText(url) {
+  const response = await fetch(url)
+  if (!response.ok) throw new Error('Public dataset unavailable')
+  return response.text()
 }
 async function ensureFacts() {
   if (!factsRequest) factsRequest = (async () => {
@@ -84,7 +90,13 @@ function selectHistorical() {
   history.replaceState(null, '', url)
 }
 async function ensureIndex() {
-  if (!searchIndex) searchIndex = await readJson('/data/search-index.json')
+  if (!searchIndex) {
+    const [rows, identityDownload] = await Promise.all([
+      readJson('/data/search-index.json'), readText('/data/downloads/substances.ndjson')
+    ])
+    const identities = identityDownload.trim().split('\n').filter(Boolean).map(line => JSON.parse(line))
+    searchIndex = bindPublicIdentitySearchIndex(rows, identities)
+  }
   if (!crossLinks) crossLinks = await readJson('/data/cross-links.json')
   if (!registryRights) registryRights = Object.fromEntries((await readJson('/data/registry.json')).map(ds => [ds.id, ds.rights]))
 }
@@ -107,7 +119,7 @@ async function compareEntry(d, s, category, historicalEdition = '', uspEdition =
   loading.value = true; requestError.value = ''; selectedHistorical.value = ''; selectedUspEdition.value = ''
   try {
     await Promise.all([ensureIndex(), ensureFacts()])
-    const group = [{ d, s, c: category }, ...(crossLinks[`${d}/${s}`] || [])]
+    const group = [{ d, s, c: category }, ...(crossLinks[counterpartKey(d, category, s)] || [])]
     const seen = new Set()
     const unique = group.filter(m => {
       const key = `${m.d}/${m.c || ''}/${m.s}`
@@ -146,10 +158,12 @@ function onSelect(row) { compareEntry(row.d, row.s, row.c) }
 onMounted(() => {
   const params = new URLSearchParams(window.location.search)
   const entry = params.get('entry')
-  if (entry && /^[a-z]+\/[^/]+$/.test(entry)) {
-    const [d, s] = entry.split('/')
+  if (entry && /^[a-z]+\/(?:[^/]+\/)?[^/]+$/.test(entry)) {
+    const [d, second, third] = entry.split('/')
+    const s = third || second
+    const category = params.get('category') || (third ? second : undefined)
     searchQuery.value = s.replace(/-/g, ' ')
-    compareEntry(d, s, params.get('category') || undefined, params.get('edition') || '', params.get('uspEdition') || '')
+    compareEntry(d, s, category, params.get('edition') || '', params.get('uspEdition') || '')
   }
 })
 </script>
@@ -178,7 +192,7 @@ onMounted(() => {
       <div v-if="candidates.length" class="mt-3 divide-y divide-line border border-line rounded-lg max-h-80 overflow-auto">
         <button
           v-for="row in candidates"
-          :key="row.d + '/' + row.s"
+          :key="row.d + '/' + row.c + '/' + row.s"
           @click="onSelect(row)"
           class="w-full text-left px-4 py-2 hover:bg-wash flex items-center gap-3"
         >

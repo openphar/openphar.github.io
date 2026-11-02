@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs'
-import { readComparisonProjection, findFacts, compareTests, compareMethods, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection, fromCanonicalLimit } from '../src/lib/comparison-contract.js'
+import { readComparisonProjection, findFacts, compareTests, compareMethods, compareDecimal, detailAccess, formatLimit, comparisonMatrix, resolveEntrySelection, fromCanonicalLimit, bindPublicIdentitySearchIndex } from '../src/lib/comparison-contract.js'
 // Explicit contract fixtures, not source-derived scientific examples.
 const make = (changes = {}) => ({ publisher: 'phint', entryId: 'https://www.openphar.org/data/phint/monographs/6-1-266', substanceId: 'paracetamol', edition: 'PhInt-13', publication: {status:'permitted', authority:'WHO International Pharmacopoeia 13th edition, CC BY-NC-SA 3.0 IGO'}, tests: [{key:'assay',label:'Assay',semanticKey:'assay-content',basis:'dried substance',unit:'%',limit:{operator:'range',lower:'99.0',upper:'101.0'},evidence:'WHO PhInt-13, Paracetamol, Assay'}], ...changes })
 const doc = entry => ({schema:'openphar-comparison/v1',entries:[entry]})
@@ -78,6 +78,23 @@ test('rejects prose, missing evidence, malformed decimals, reversed ranges and d
 
 test('one value is unavailable for comparison; ambiguous semantic variants stay explicit',()=>{const facts=make();const rows=comparisonMatrix([{facts}]);assert.equal(rows[0].cells[0].comparison.status,'incomparable');assert.match(rows[0].cells[0].comparison.reason,/Only one/);facts.tests.push({...facts.tests[0],key:'another-variant'});assert.equal(comparisonMatrix([{facts}])[0].cells[0].ambiguous,true)})
 test('category participates in graph/index identity and ambiguous reused slugs fail closed',()=>{const graph=[{'@id':'https://www.openphar.org/data/phint/monographs/reused',category:'monographs',edition:'PhInt-13'},{'@id':'https://www.openphar.org/data/phint/general-tests/reused',category:'general-tests',edition:'PhInt-13'}];const index=[{d:'phint',s:'reused',c:'monographs',sub:'one'},{d:'phint',s:'reused',c:'general-tests',sub:'two'}];assert.equal(resolveEntrySelection(graph,index,{publisher:'phint',slug:'reused'}),null);assert.equal(resolveEntrySelection(graph,index,{publisher:'phint',slug:'reused',category:'general-tests'}).substanceId,'two');assert.equal(resolveEntrySelection(graph,[...index,{...index[1],sub:'conflict'}],{publisher:'phint',slug:'reused',category:'general-tests'}),null)})
+
+test('current public identity entries restore only unambiguous in-memory search joins',()=>{
+ const rows=[{d:'phint',s:'6-1-266',c:'monographs',t:'Paracetamol',k:1},{d:'us',s:'acetaminophen',c:'monographs',t:'Acetaminophen',k:0}]
+ const records=[{id:'paracetamol',entries:[{d:'phint',s:'6-1-266',c:'monographs',edition:'PhInt-13'},{d:'us',s:'acetaminophen',c:'monographs',edition:'2025-USP48-NF43'}]}]
+ const bound=bindPublicIdentitySearchIndex(rows,records)
+ assert.deepEqual(bound.map(row=>row.sub),['paracetamol','paracetamol'])
+ const graph=[{'@id':'https://www.openphar.org/data/phint/monographs/6-1-266',edition:'PhInt-13'}]
+ assert.equal(resolveEntrySelection(graph,bound,{publisher:'phint',slug:'6-1-266',category:'monographs'}).substanceId,'paracetamol')
+ assert.equal(resolveEntrySelection([{...graph[0],edition:'PhInt-12'}],bound,{publisher:'phint',slug:'6-1-266',category:'monographs'}),null)
+ const ambiguous=bindPublicIdentitySearchIndex(rows,[...records,{id:'another-substance',entries:[records[0].entries[0]]}])
+ assert.equal(resolveEntrySelection(graph,ambiguous,{publisher:'phint',slug:'6-1-266',category:'monographs'}),null)
+ const conflict=bindPublicIdentitySearchIndex([{...rows[0],sub:'wrong-id'}],records)
+ assert.equal(conflict[0].sub,'')
+ const stale={...rows[0],sub:'old-index-id'}
+ assert.equal(bindPublicIdentitySearchIndex([stale],[])[0].sub,'')
+ assert.equal(stale.sub,'old-index-id','the published/search input row is not mutated')
+})
 
 // Captured from actual declared CanonicalLimit serialization for the public WHO criterion.
 const nativeCanonical={"limit_operator": "range", "lower_limit": "98.5", "upper_limit": "101.0", "limit_unit": "%", "limit_subject": "Paracetamol content", "limit_qualifier": "C8H9NO2; calculated with reference to the dried substance"}

@@ -79,6 +79,34 @@ export function publicEntryCategory(entry) {
   return entry.category || (entry['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//)?.[1] || 'monographs'
 }
 
+const publicRouteKey = entry => JSON.stringify([entry.d, entry.s, entry.c])
+
+// Build a private in-memory join from the already public identity download.
+// The compact search index deliberately omits stable-substance joins.
+export function bindPublicIdentitySearchIndex(index, substances) {
+  if (!Array.isArray(index) || !Array.isArray(substances)) throw new TypeError('Public identity inputs must be arrays')
+  const owners = new Map()
+  for (const substance of substances) {
+    if (!/^[a-z0-9][a-z0-9-]*$/.test(substance?.id || '') || !Array.isArray(substance.entries)) continue
+    for (const entry of substance.entries) {
+      if (![entry.d, entry.s, entry.c, entry.edition].every(value => typeof value === 'string' && value.trim())) continue
+      const key = publicRouteKey(entry)
+      if (!owners.has(key)) owners.set(key, new Map())
+      const editions = owners.get(key).get(substance.id) || new Set()
+      editions.add(entry.edition)
+      owners.get(key).set(substance.id, editions)
+    }
+  }
+  return index.map(row => {
+    const key = publicRouteKey(row)
+    const identities = owners.get(key)
+    if (!identities || identities.size !== 1) return { ...row, sub: '', identityEditions: [] }
+    const [substanceId, editions] = identities.entries().next().value
+    if (row.sub && row.sub !== substanceId) return { ...row, sub: '', identityEditions: [] }
+    return { ...row, sub: substanceId, identityEditions: [...editions] }
+  })
+}
+
 // Category is part of identity. Neither ordinal IDs nor a first matching slug
 // can resolve conflicting graph/index records.
 export function resolveEntrySelection(graph, index, { publisher, slug, category }) {
@@ -88,6 +116,7 @@ export function resolveEntrySelection(graph, index, { publisher, slug, category 
   const entry = matches[0]
   const actualCategory = publicEntryCategory(entry)
   const rows = index.filter(row => row.d === publisher && row.s === slug && row.c === actualCategory)
+  if (rows.some(row => Array.isArray(row.identityEditions) && !row.identityEditions.includes(entry.edition || ''))) return null
   const substances = new Set(rows.map(row => row.sub).filter(text))
   if (!rows.length || substances.size > 1) return null
   return { entry, category: actualCategory, substanceId: substances.size === 1 ? [...substances][0] : null }

@@ -16,19 +16,52 @@ import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
 import { createVendoredRegistryJoin } from './registry-join.mjs'
 import { projectIchMethods } from './lib/ich-method-projection.mjs'
+import { selectThaiEditions, preserveThaiLegacy, thaiCategory, validateThaiAliases } from './thai-editions.mjs'
+import { labelsOf, nativeLabelOf, titleLabelOf } from './native-labels.mjs'
+import { projectIdentity, createCurrentIdentityJoin } from './public-identities.mjs'
+import { projectSearchIndex, reindexVendoredSearch } from './search-policy.mjs'
+import { sourceRouteSlugs } from './source-route-slugs.mjs'
+import { counterpartKey } from './entry-routes.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const REGISTRY_FILE = path.join(ROOT, 'registry/datasets.yml')
+const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
+const datasets = registry.datasets
+// Reapply the public search projection to approved vendored inputs only.
+if (process.argv.includes('--reindex-search')) {
+  if (process.argv.length !== 3) throw new Error('Unknown generator arguments')
+  reindexVendoredSearch(ROOT, datasets)
+  process.exit(0)
+}
+// Selected regeneration preserves unrelated vendored scientific graphs. Overrides are invocation-only; private workspace paths never enter data.
+const options = { sources: new Map(), selected: null, registryDir: null, evidenceDir: null, refreshIdentities: false }
+for (let i = 2; i < process.argv.length; i += 2) {
+  const flag = process.argv[i], value = process.argv[i + 1]
+  if (!value) throw new Error(`Missing value for ${flag}`)
+  if (flag === '--datasets') options.selected = new Set(value.split(','))
+  else if (flag === '--source') {
+    const split = value.indexOf('=')
+    if (split < 1) throw new Error('Expected --source dataset=directory')
+    options.sources.set(value.slice(0, split), path.resolve(value.slice(split + 1)))
+  } else if (flag === '--registry-dir') options.registryDir = path.resolve(value)
+  else if (flag === '--identity-redirects-file') options.identityRedirectsFile = path.resolve(value)
+  else if (flag === '--refresh-identities' && value === 'true') options.refreshIdentities = true
+  else if (flag === '--evidence-dir') options.evidenceDir = path.resolve(value)
+  else throw new Error(`Unknown generator arguments: ${flag}`)
+}
+const registryDir = options.registryDir || path.resolve(ROOT, '../substance-registry/registry')
+const sourceDir = (id, cfg) => options.sources.get(id) || path.resolve(ROOT, cfg.generate.repo)
 // Cross-publisher substance identity (openphar/substance-registry). Optional
 // sibling: when absent (e.g. CI without private checkouts) counterpart
 // matching falls back to title/CAS only.
-const ENTRY_TO_SUBSTANCE_FILE = path.join(ROOT, '../substance-registry/registry/entry-to-substance.json')
+const ENTRY_TO_SUBSTANCE_FILE = path.join(registryDir, 'entry-to-substance.json')
 const entryToSubstance = fs.existsSync(ENTRY_TO_SUBSTANCE_FILE)
   ? JSON.parse(fs.readFileSync(ENTRY_TO_SUBSTANCE_FILE, 'utf-8'))
   : {}
 // registry join: corpus canonical_iri -> built hub @id (the registry's
 // entry-to-substance.json is keyed on canonical IRIs, hub @ids differ)
 const corpusSubstance = new Map()
+const corpusSources = new Map()
 const resolveVendored = createVendoredRegistryJoin(entryToSubstance)
 // fallback join for vendored graphs (jp, phint): publisher+slug -> substance
 const HUB_TO_REGISTRY_PUB = { eu: 'ep', us: 'usp', uk: 'bp', hk: 'hkcmms', ayp: 'api' }
@@ -38,46 +71,37 @@ for (const [iri, slug0] of Object.entries(entryToSubstance)) {
   if (m0) pubSlugSubstance.set(`${m0[1]}/${iri.split('/').pop()}`, slug0)
 }
 const DATA_DIR = path.join(ROOT, 'data')
+const substancesFile = path.join(registryDir, 'substances.json')
+const currentSubstances = fs.existsSync(substancesFile) ? JSON.parse(fs.readFileSync(substancesFile, 'utf8')) : null
+if (options.refreshIdentities && !currentSubstances) throw new Error('Identity refresh requires a registry')
+const refreshIdentities = !!currentSubstances
+if (!currentSubstances && fs.existsSync(path.join(DATA_DIR, 'downloads', 'substances.ndjson'))) throw new Error('Identity download requires a source registry projection')
+const currentJoin = refreshIdentities ? createCurrentIdentityJoin(currentSubstances, entryToSubstance) : null
+// The factual public download intentionally omits source occurrences. A pinned
+// private redirect manifest preserves later merges without publishing provenance.
+const identityRedirects = options.identityRedirectsFile
+  ? JSON.parse(fs.readFileSync(options.identityRedirectsFile, 'utf8')) : {}
+const currentIds = new Set((currentSubstances || []).map(sub => sub.id))
+if (!identityRedirects || Array.isArray(identityRedirects) || typeof identityRedirects !== 'object'
+  || Object.entries(identityRedirects).some(([from, to]) =>
+    !/^[a-z0-9][a-z0-9-]*$/.test(from) || currentIds.has(from)
+    || typeof to !== 'string' || !/^[a-z0-9][a-z0-9-]*$/.test(to)
+    || !currentIds.has(to))) throw new Error('Invalid identity redirect manifest')
+const identityBindings = []
 
-const registry = yamlLoad(fs.readFileSync(REGISTRY_FILE, 'utf-8'))
-const datasets = registry.datasets
+
+for (const id of [...(options.selected || []), ...options.sources.keys()]) {
+  if (!datasets[id]?.generate) throw new Error(`Unknown generated dataset: ${id}`)
+}
+const thaiEvidence = { selection: {}, legacy: [] }
+let routeAliases = null
 
 const MAX_DEF_CHARS = 4000
 const MAX_SECTION_CHARS = 6000
 
-// Language-tagged labels from the various SSOT shapes (en preferred, kept
-// alongside ko/zh/etc. when present)
-function labelsOf(doc) {
-  const pick = (v) => (v && typeof v === 'string' ? v.trim() : null)
-  const out = {}
-  const set = (k, v) => { if (v && !out[k]) out[k] = v }
-
-  if (typeof doc.title === 'string') {
-    set('en', pick(doc.title))
-  } else if (doc.title && typeof doc.title === 'object') {
-    set('en', pick(doc.title.en) || pick(doc.title.english))
-    set('la', pick(doc.title.latin))
-    set('zh', pick(doc.title.zh))
-    set('ko', pick(doc.title.ko))
-  }
-
-  const names = doc.names || {}
-  set('en', pick(names.en))
-  set('la', pick(names.la))
-  set('zh', pick(names.zh))
-  set('ko', pick(names.ko))
-  if (Array.isArray(names.english)) set('en', pick(names.english[0]))
-  if (names.canonical) {
-    set('en', pick(names.canonical.en))
-    set('la', pick(names.canonical.latin) || pick(names.canonical.iast))
-    set('zh', pick(names.canonical.zh))
-  }
-  return out
-}
-
-function titleOf(doc) {
-  const labels = labelsOf(doc)
-  return Object.values(labels)[0] || null
+function titleOf(doc, publisher) {
+  const labels = labelsOf(doc, publisher)
+  return titleLabelOf(labels, publisher)
 }
 
 function slugOf(doc, file) {
@@ -132,7 +156,7 @@ function buildGraph(id, cfg) {
   if (cfg.generate.kind === 'ich-methods') {
     return buildIchMethods(id, cfg)
   }
-  const repoDir = path.resolve(ROOT, cfg.generate.repo)
+  const repoDir = sourceDir(id, cfg)
   const globs = Array.isArray(cfg.generate.glob) ? cfg.generate.glob : [cfg.generate.glob]
   // { file, base } pairs — the glob's static base dir is what categoryOf
   // must be relative to, or container dirs ('semantic-yaml', edition dirs)
@@ -146,47 +170,96 @@ function buildGraph(id, cfg) {
   }
   const graph = []
   let skipped = 0
-
-  for (const { file, base } of files) {
-    let doc
-    try {
-      doc = yamlLoad(fs.readFileSync(file, 'utf-8'))
-    } catch {
-      skipped++
-      continue
+  function* parseRows() {
+    for (const { file, base } of files) {
+      let doc
+      try { doc = yamlLoad(fs.readFileSync(file, 'utf-8')) }
+      catch (error) {
+        if (cfg.generate.edition_stack) throw error
+        skipped++; continue
+      }
+      if (!doc || typeof doc !== 'object') { skipped++; continue }
+      yield { doc, file, base }
     }
-    if (!doc || typeof doc !== 'object') { skipped++; continue }
-
-    const title = titleOf(doc, file)
-    if (!title) { skipped++; continue }
+  }
+  // Only edition stacking needs the complete source set in memory.
+  let rows = cfg.generate.edition_stack ? [...parseRows()] : parseRows()
+  if (cfg.generate.edition_stack) {
+    const result = selectThaiEditions(rows, cfg.generate.edition_stack)
+    rows = result.rows
+    thaiEvidence.selection[id] = result.ledger
+    if (cfg.generate.legacy_glob) {
+      const legacyBase = path.join(repoDir, path.dirname(cfg.generate.legacy_glob))
+      const legacyRows = walk(legacyBase, '*.yaml').map(file => ({
+        file, base: legacyBase, doc: yamlLoad(fs.readFileSync(file, 'utf-8'))
+      }))
+      if (legacyRows.length !== cfg.generate.legacy_count) throw new Error('Thai legacy source count changed')
+      const preserved = preserveThaiLegacy(rows, legacyRows)
+      rows = preserved.rows
+      routeAliases = { routes: { ...routeAliases?.routes, ...preserved.aliases.routes },
+        identities: { ...routeAliases?.identities, ...preserved.aliases.identities } }
+      thaiEvidence.legacy = preserved.ledger
+    }
+  }
+  const aypIds = new Map()
+  if (id === 'ayp') {
+    rows = [...rows]
+    const groups = new Map(), sources = new Set()
+    for (const row of rows) {
+      if (!titleOf(row.doc, cfg.short)) continue
+      const iri = row.doc.canonical_iri
+      if (iri && sources.has(iri)) throw new Error('Duplicate AYP source identity')
+      if (iri) sources.add(iri)
+      const slug = slugOf(row.doc, row.file)
+      if (!groups.has(slug)) groups.set(slug, [])
+      groups.get(slug).push(row)
+    }
+    for (const group of groups.values()) if (group.length > 1) for (const row of group) {
+      const iri = row.doc.canonical_iri
+      if (!/^https:\/\/openphar\.org\/data\/api\/.+/.test(iri)) throw new Error('Invalid AYP source identity')
+      aypIds.set(row.doc, iri.replace('https://openphar.org/data/api/', 'https://www.openphar.org/data/ayp/'))
+    }
+  }
+  for (const { doc, file, base, legacy } of rows) {
+    const title = titleOf(doc, cfg.short)
+    if (!title) {
+      if (cfg.generate.edition_stack) throw new Error('Thai entry missing title')
+      skipped++; continue
+    }
 
     const slug = slugOf(doc, file)
     const rel = path.relative(base, file)
     const docEdition = typeof doc.edition === 'string' ? doc.edition : null
-    const labels = labelsOf(doc)
+    const labels = labelsOf(doc, cfg.short)
+    const category = cfg.generate.edition_stack ? (legacy ? 'monographs' : thaiCategory(doc)) : ((typeof doc.category === 'string' && doc.category) || categoryOf(rel))
     const sectionId = doc.classification?.section_id
     const entry = {
-      '@id': `https://www.openphar.org/data/${id}/monographs/${slug}`,
+      '@id': aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack ? category : 'monographs'}/${slug}`,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
-      monographId: (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
+      monographId: cfg.rights === 'title-only' ? undefined : (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
       edition: docEdition || cfg.edition,
-      category: (typeof doc.category === 'string' && doc.category) || categoryOf(rel),
+      category,
       ...(casOf(doc) ? { casNumber: casOf(doc) } : {})
     }
 
-    if (doc.canonical_iri && entryToSubstance[doc.canonical_iri]) {
+    if (!legacy && doc.canonical_iri && entryToSubstance[doc.canonical_iri]) {
       corpusSubstance.set(entry['@id'], entryToSubstance[doc.canonical_iri])
+      corpusSources.set(entry['@id'], doc.canonical_iri)
     }
 
     if (cfg.rights !== 'title-only') {
       const chem = doc.chemistry || {}
       if (chem.molecular_formula) entry.molecularFormula = chem.molecular_formula
       if (chem.molecular_weight) entry.molecularWeight = chem.molecular_weight
-      const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labels)[0] || 'en'
+      // Preserve editorial-text language independently of display-name script tags.
+      const defLang = (typeof doc.language === 'string' && doc.language) || Object.keys(labelsOf(doc))[0] || 'en'
 
-      const sections = sectionTexts(doc)
-      const plainDef = typeof doc.definition === 'string' ? doc.definition.trim() : null
+      const sections = sectionTexts(doc).map(section => cfg.generate.edition_stack ? {
+        name: section.name.replace(/^Source span .+$/, 'Source text'),
+        text: section.text.replace(/!\[\]\(page=[^)]*\)/g, '').trim()
+      } : section)
+      const plainDef = typeof doc.definition === 'string' ? doc.definition.trim() : (cfg.generate.edition_stack && typeof doc.definition?.text === 'string' ? doc.definition.text.trim() : null)
       if (sections.length) {
         const def = sections.find(s => /definition/i.test(s.name)) || sections[0]
         entry.definition = { [defLang]: (plainDef || def.text).slice(0, MAX_DEF_CHARS) }
@@ -201,44 +274,59 @@ function buildGraph(id, cfg) {
     }
     graph.push(entry)
   }
+  if (cfg.generate.edition_stack && new Set(graph.map(m => m['@id'])).size !== graph.length) throw new Error('Duplicate Thai hub identity')
   return { graph, skipped, total: files.length }
 }
 
 // Method-family catalog → one stable entry per concept, with source- and
 // edition-qualified chapter metadata. This is not an interchangeability claim.
 function buildIchMethods(id, cfg) {
-  const file = path.resolve(ROOT, cfg.generate.repo, cfg.generate.file)
+  const file = path.join(sourceDir(id, cfg), cfg.generate.file)
   const rows = yamlLoad(fs.readFileSync(file, 'utf-8'))
   const graph = projectIchMethods(rows, { datasetId: id, edition: cfg.edition })
 
   // Guideline + annex documents (Q4A, Q4B R1, FAQs, per-annex texts)
+  const documents = []
   for (const g of cfg.generate.docs_globs || []) {
-    const dir = path.join(path.resolve(ROOT, cfg.generate.repo), path.dirname(g))
+    const dir = path.join(sourceDir(id, cfg), path.dirname(g))
     if (!fs.existsSync(dir)) continue
     for (const name of fs.readdirSync(dir).filter(x => x.endsWith('.yaml'))) {
       let doc
       try { doc = yamlLoad(fs.readFileSync(path.join(dir, name), 'utf-8')) } catch { continue }
       if (!doc?.title || !doc.canonical_iri) continue
-      const cat = doc.document_type === 'q4b_annex' ? 'annexes' : 'guidelines'
-      const sections = (doc.sections || []).map(s => ({
-        name: String(s.name || s.number || ''),
-        text: String(s.text || '').slice(0, MAX_SECTION_CHARS)
-      })).filter(x => x.text)
-      for (const rc of doc.regional_chapters || []) {
-        sections.push({ name: `${rc.pharmacopoeia} ${rc.chapter_code}`, text: rc.chapter_title || '' })
-      }
-      graph.push({
-        '@id': `https://www.openphar.org/data/${id}/methods/${slugify(doc.canonical_iri.split('/').pop())}`,
-        '@type': 'IndexedMonograph',
-        prefLabel: { en: doc.title },
-        monographId: doc.code,
-        edition: cfg.edition,
-        category: cat,
-        harmonisationStatus: doc.status,
-        ichAnnex: doc.code,
-        definition: doc.method ? { en: String(doc.method) } : undefined,
-        sections: sections.length ? sections : undefined
-      })
+      documents.push({ doc })
+    }
+  }
+  const documentSlugs = sourceRouteSlugs(documents, row => slugify(row.doc.canonical_iri.split('/').pop()))
+  for (const row of documents) {
+    const { doc } = row
+    const slug = documentSlugs.get(row)
+    const cat = doc.document_type === 'q4b_annex' ? 'annexes' : 'guidelines'
+    const sections = (doc.sections || []).map(s => ({
+      name: String(s.name || s.number || ''),
+      text: String(s.text || '').slice(0, MAX_SECTION_CHARS)
+    })).filter(x => x.text)
+    for (const rc of doc.regional_chapters || []) {
+      sections.push({ name: `${rc.pharmacopoeia} ${rc.chapter_code}`, text: rc.chapter_title || '' })
+    }
+    graph.push({
+      '@id': `https://www.openphar.org/data/${id}/methods/${slug}`,
+      '@type': 'IndexedMonograph',
+      prefLabel: { en: doc.title },
+      monographId: doc.code,
+      edition: cfg.edition,
+      category: cat,
+      harmonisationStatus: doc.status,
+      ichAnnex: doc.code,
+      definition: doc.method ? { en: String(doc.method) } : undefined,
+      sections: sections.length ? sections : undefined
+    })
+    // The published shared r1 route rendered Annex 1. Preserve that exact
+    // compatibility target; new internal links address each distinct annex.
+    if (doc.canonical_iri === 'https://openphar.org/data/ich/q4b/annex/1/r1' && slug !== 'r1') {
+      routeAliases ||= fs.existsSync(path.join(DATA_DIR, 'route-aliases.json'))
+        ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'route-aliases.json'), 'utf8')) : { routes: {}, identities: {} }
+      routeAliases.routes['/pharmacopoeia/ich/annexes/r1'] = `/pharmacopoeia/ich/annexes/${slug}`
     }
   }
   return { graph, skipped: 0, total: rows.length }
@@ -358,6 +446,23 @@ function isEntry(m) {
 // ---- run ----
 const registryOut = []
 const searchIndex = []
+const existingSearch = options.selected && fs.existsSync(path.join(DATA_DIR, 'search-index.json'))
+  ? new Map(JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'search-index.json'), 'utf-8')).map(r => [`${r.d}/${r.c}/${r.s}`, r]))
+  : new Map()
+// Restricted search rows cannot carry identity joins. Recover internal joins
+// from the approved occurrence channel using complete routes, never slug guesses.
+const approvedOccurrenceSubstances = new Map()
+const approvedDir = path.join(DATA_DIR, 'substances')
+if (options.selected && fs.existsSync(approvedDir)) {
+  for (const name of fs.readdirSync(approvedDir).filter(n => n.endsWith('.json'))) {
+    const doc = JSON.parse(fs.readFileSync(path.join(approvedDir, name), 'utf8'))
+    for (const entry of doc.entries || []) {
+      const key = JSON.stringify([entry.d, entry.c, entry.s])
+      if (!approvedOccurrenceSubstances.has(key)) approvedOccurrenceSubstances.set(key, new Set())
+      approvedOccurrenceSubstances.get(key).add(doc.id)
+    }
+  }
+}
 
 for (const [id, cfg] of Object.entries(datasets)) {
   const entry = {
@@ -376,10 +481,10 @@ for (const [id, cfg] of Object.entries(datasets)) {
     count: 0
   }
 
-  if (cfg.generate) {
+  if (cfg.generate && (!options.selected || options.selected.has(id))) {
     const { graph, skipped, total } = buildGraph(id, cfg)
     if (cfg.generate.corpora) {
-      graph.push(...buildKpCorpora(cfg.generate.corpora, path.resolve(ROOT, cfg.generate.repo), cfg.edition))
+      graph.push(...buildKpCorpora(cfg.generate.corpora, sourceDir(id, cfg), cfg.edition))
     }
     const outFile = path.join(DATA_DIR, id, `${id}-monographs.jsonld`)
     fs.mkdirSync(path.dirname(outFile), { recursive: true })
@@ -390,18 +495,30 @@ for (const [id, cfg] of Object.entries(datasets)) {
     entry.count = graph.length
     console.log(`✓ ${id}: ${graph.length} entries (${skipped} skipped of ${total} files) -> ${path.relative(ROOT, outFile)}`)
   } else {
-    // vendored upstream datasets (jp, phint) — count from their existing files
-    for (const vendored of ['jp', 'phint']) {
-      if (id !== vendored) continue
-      const f = path.join(DATA_DIR, vendored, `${vendored}-monographs.jsonld`)
-      if (fs.existsSync(f)) {
-        const g = JSON.parse(fs.readFileSync(f, 'utf-8'))['@graph'] || []
-        entry.count = g.filter(isEntry).length
-      }
+    // Count existing graphs without regenerating unrelated datasets.
+    const f = path.join(DATA_DIR, id, `${id}-monographs.jsonld`)
+    if (fs.existsSync(f)) {
+      const g = JSON.parse(fs.readFileSync(f, 'utf-8'))['@graph'] || []
+      entry.count = g.filter(isEntry).length
     }
   }
 
   registryOut.push(entry)
+}
+
+const aliasesFile = path.join(DATA_DIR, 'route-aliases.json')
+const aliasesToCheck = routeAliases || (fs.existsSync(aliasesFile) ? JSON.parse(fs.readFileSync(aliasesFile, 'utf-8')) : null)
+if (aliasesToCheck) {
+  const routes = new Set()
+  for (const { id } of registryOut) {
+    const file = path.join(DATA_DIR, id, `${id}-monographs.jsonld`)
+    if (!fs.existsSync(file)) continue
+    for (const m of (JSON.parse(fs.readFileSync(file, 'utf-8'))['@graph'] || []).filter(isEntry)) {
+      const category = m.category || m['@id'].match(/\/data\/[^/]+\/([^/]+)\//)?.[1] || 'monographs'
+      routes.add(`/pharmacopoeia/${id}/${category}/${m['@id'].split('/').pop()}`)
+    }
+  }
+  validateThaiAliases(aliasesToCheck, routes)
 }
 
 // Slim cross-dataset search index (titles only — no restricted body fields)
@@ -424,7 +541,7 @@ for (const e of registryOut) {
   const restricted = e.rights === 'title-only'
   for (const m of g.filter(isEntry)) {
     const label = m.prefLabel || {}
-    const title = label.en || label.ja || label.la || Object.values(label)[0]
+    const title = label.en || label.ja || (e.id === 'ayp' && label['sa-Latn']) || label.la || Object.values(label)[0]
     if (!title) continue
     const s = m['@id'].split('/').pop()
     // category must match the route generator (vite.config.js): explicit field,
@@ -432,14 +549,23 @@ for (const e of registryOut) {
     const cat = (typeof m.category === 'string' && m.category)
       || ((m['@id'] || '').match(/\/data\/[^/]+\/([^/]+)\//) || [])[1]
       || 'monographs'
-    const native = Object.entries(label).find(([lang]) => lang !== 'en')?.[1] || ''
+    const native = nativeLabelOf(label)
     const cas = typeof m.casNumber === 'string' ? m.casNumber : null
-    const member = { d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1 }
+    const previousRow = options.selected && !options.selected.has(e.id) ? existingSearch.get(`${e.id}/${cat}/${s}`) : null
+    const member = { d: e.id, s, c: cat, t: previousRow?.t || String(title), k: restricted ? 0 : 1 }
     const hubSlug = m['@id'].split('/').pop()
-    const fallback = e.id === 'jp' || e.id === 'phint'
+    const fallback = ['tp', 'thp'].includes(e.id) ? undefined : e.id === 'jp' || e.id === 'phint'
       ? resolveVendored(e.id, hubSlug, m.edition || e.edition)
       : pubSlugSubstance.get(`${HUB_TO_REGISTRY_PUB[e.id] || e.id}/${hubSlug}`)
-    const substance = corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] || fallback
+    const approvedMatches = approvedOccurrenceSubstances.get(JSON.stringify([e.id, cat, s]))
+    const approvedSubstance = approvedMatches?.size === 1 ? approvedMatches.values().next().value : undefined
+    const binding = currentJoin?.(e.id, cat, s, m.edition || e.edition)
+    const substance = refreshIdentities
+      ? corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] || binding?.id
+      : options.selected && !options.selected.has(e.id)
+        ? previousRow?.sub || approvedSubstance
+        : corpusSubstance.get(m['@id']) || entryToSubstance[m['@id']] || fallback
+    if (refreshIdentities && substance) identityBindings.push({ d: e.id, c: cat, s, edition: m.edition || e.edition, id: substance, sources: corpusSources.has(m['@id']) ? [corpusSources.get(m['@id'])] : binding?.sources || (entryToSubstance[m['@id']] ? [m['@id']] : []) })
     if (substance) {
       if (!substanceEntries.has(substance)) substanceEntries.set(substance, [])
       const entries = substanceEntries.get(substance)
@@ -447,18 +573,22 @@ for (const e of registryOut) {
         entries.push({ ...member, edition: m.edition || e.edition || null })
       }
     }
-    searchIndex.push({
+    // Preserve unrelated index metadata; only the shared native-name pool is
+    // recalculated. Its graph may have been emitted by a different producer.
+    const { nn: previousPool, sub: previousSubstance, ...preservedRow } = previousRow || {}
+    if (previousRow && (refreshIdentities ? substance : previousSubstance)) preservedRow.sub = refreshIdentities ? substance : previousSubstance
+    searchIndex.push(previousRow ? preservedRow : {
       d: e.id, s, c: cat, t: String(title), k: restricted ? 0 : 1,
       ...(native && native !== title ? { n: String(native), l: Object.keys(label).find(x => label[x] === native) } : {}),
       ...(cas ? { x: cas } : {}),
       ...(substance ? { sub: substance } : {})
     })
-    const keys = Object.values(label).map(normTitle).filter(Boolean)
-    if (cas) keys.push('cas:' + cas)
+    const keys = refreshIdentities ? [] : Object.values(label).map(normTitle).filter(Boolean)
+    if (cas && !refreshIdentities) keys.push('cas:' + cas)
     if (substance) keys.push('sub:' + substance)
     for (const key of keys) {
       if (!groups.has(key)) groups.set(key, [])
-      if (!groups.get(key).some(x => x.d === e.id && x.s === s)) {
+      if (!groups.get(key).some(x => x.d === e.id && x.s === s && (e.id !== 'ayp' || x.c === cat))) {
         groups.get(key).push(member)
       }
     }
@@ -470,15 +600,15 @@ for (const members of groups.values()) {
   const datasets = new Set(members.map(m => m.d))
   if (datasets.size < 2) continue
   for (const m of members) {
-    const key = `${m.d}/${m.s}`
-    const rest = members.filter(x => !(x.d === m.d && x.s === m.s))
+    const key = counterpartKey(m.d, m.c, m.s)
+    const rest = members.filter(x => !(x.d === m.d && x.s === m.s && x.c === m.c))
     ;(crossLinks[key] ||= []).push(...rest)
   }
 }
 for (const key of Object.keys(crossLinks)) {
   const seen = new Set()
   crossLinks[key] = crossLinks[key].filter(x => {
-    const id = x.d + '/' + x.s
+    const id = counterpartKey(x.d, x.c, x.s)
     if (seen.has(id)) return false
     seen.add(id)
     return true
@@ -492,6 +622,14 @@ fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOu
 // variant finds every publisher's entry of the same identity.
 {
   const nativesBySub = new Map()
+  if (refreshIdentities) {
+    const active = new Set(currentSubstances.map(sub => sub.id))
+    for (const sub of currentSubstances) {
+      const approved = projectIdentity(sub, [], active)
+      const names = Object.entries(approved.names).filter(([lang]) => !['en', 'la'].includes(lang)).flatMap(([, values]) => values)
+      if (names.length) nativesBySub.set(sub.id, new Set(names))
+    }
+  }
   for (const r of searchIndex) {
     if (!r.sub || !r.n) continue
     if (!nativesBySub.has(r.sub)) nativesBySub.set(r.sub, new Set())
@@ -510,35 +648,58 @@ fs.writeFileSync(path.join(DATA_DIR, 'registry.json'), JSON.stringify(registryOu
   console.log(`✓ native cross-search pool: ${pooled} rows`)
 }
 
-fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(searchIndex))
+fs.writeFileSync(path.join(DATA_DIR, 'search-index.json'), JSON.stringify(projectSearchIndex(searchIndex, datasets)))
 
 // Per-substance landing data (TODO 05): registry entry + the hub-visible
 // monograph occurrences that map to it (title-only fields respected —
 // restricted publishers carry titles, never body content).
-const substancesFile = path.join(ROOT, '../substance-registry/registry/substances.json')
-if (fs.existsSync(substancesFile) && entryToSubstance) {
-  const bySlug = substanceEntries
-  const substances = JSON.parse(fs.readFileSync(substancesFile, 'utf-8'))
-  const substancesDir = path.join(DATA_DIR, 'substances')
-  fs.rmSync(substancesDir, { recursive: true, force: true })
-  fs.mkdirSync(substancesDir, { recursive: true })
-  fs.mkdirSync(path.join(DATA_DIR, 'downloads'), { recursive: true })
-  for (const sub of substances) {
-    const doc = {
-      id: sub.id,
-      iri: sub.canonical_iri,
-      ...(sub.preferred_name ? { preferred_name: sub.preferred_name } : {}),
-      ...(sub.names ? { names: sub.names } : {}),
-      ...(sub.synonyms ? { synonyms: sub.synonyms } : {}),
-      ...(sub.identifiers ? { identifiers: sub.identifiers } : {}),
-      ...(sub.match_basis ? { match_basis: sub.match_basis } : {}),
-      ...(sub.form_relations ? { form_relations: sub.form_relations } : {}),
-      entries: bySlug.get(sub.id) || []
-    }
-    fs.writeFileSync(path.join(substancesDir, `${sub.id}.json`), JSON.stringify(doc))
+if (!currentSubstances && options.selected) {
+  // Without a source registry, approved vendored identity records remain the boundary.
+  const dir = path.join(DATA_DIR, 'substances')
+  if (fs.existsSync(dir)) for (const name of fs.readdirSync(dir).filter(n => n.endsWith('.json'))) {
+    const file = path.join(dir, name)
+    const doc = JSON.parse(fs.readFileSync(file, 'utf-8'))
+    doc.entries = [...(doc.entries || []).filter(e => !options.selected.has(e.d)),
+      ...(substanceEntries.get(doc.id) || []).filter(e => options.selected.has(e.d))]
+    const bytes = JSON.stringify(doc)
+    if (bytes !== fs.readFileSync(file, 'utf-8')) fs.writeFileSync(file, bytes)
   }
-  fs.writeFileSync(path.join(DATA_DIR, 'downloads', 'substances.ndjson'),
-                   substances.map(s => JSON.stringify(s)).join('\n') + '\n')
-  console.log(`✓ data/substances (${substances.length} pages, ${bySlug.size} with hub entries)`)
+} else if (currentSubstances) {
+  const dir = path.join(DATA_DIR, 'substances')
+  const active = new Set(currentSubstances.map(s => s.id))
+  const historyFile = path.join(DATA_DIR, 'substance-history.json')
+  const history = fs.existsSync(historyFile) ? JSON.parse(fs.readFileSync(historyFile, 'utf8')) : {}
+  for (const [from, target] of Object.entries(identityRedirects)) history[from] = { status: 'redirect', target }
+  // Old download occurrences provide source-backed route dispositions, never
+  // new identity metadata. Unresolved/split identities remain explicit history.
+  const download = path.join(DATA_DIR, 'downloads', 'substances.ndjson')
+  const oldSources = new Map(fs.existsSync(download) ? fs.readFileSync(download, 'utf8').trim().split('\n').filter(Boolean).map(line => {
+    const sub = JSON.parse(line)
+    return [sub.id, (sub.occurrences || []).map(o => o.entry).filter(x => typeof x === 'string' && x.startsWith('https://openphar.org/data/'))]
+  }) : [])
+  fs.mkdirSync(dir, { recursive: true })
+  for (const name of fs.readdirSync(dir).filter(n => n.endsWith('.json') && !active.has(n.slice(0, -5)))) {
+    const old = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'))
+    const sources = oldSources.get(old.id) || []
+    const targets = new Set(sources.map(iri => entryToSubstance[iri]))
+    const target = (Object.hasOwn(identityRedirects, old.id) ? identityRedirects[old.id] : null)
+      || (sources.length && targets.size === 1 && active.has([...targets][0]) ? [...targets][0] : null)
+    history[old.id] = target ? { status: 'redirect', target } : { status: 'withdrawn', source_iris: sources,
+      entries: (old.entries || []).map(({ d, s, c, t, k, edition }) => ({ d, s, c, t, k, edition })) }
+    fs.unlinkSync(path.join(dir, name))
+  }
+  const docs = currentSubstances.map(sub => projectIdentity(sub, substanceEntries.get(sub.id) || [], active))
+  for (const doc of docs) fs.writeFileSync(path.join(dir, `${doc.id}.json`), JSON.stringify(doc))
+  fs.mkdirSync(path.dirname(download), { recursive: true })
+  fs.writeFileSync(download, docs.map(doc => JSON.stringify(doc)).join('\n') + '\n')
+  fs.writeFileSync(historyFile, JSON.stringify(history))
+  console.log(`✓ data/substances (${docs.length} factual identities; ${Object.keys(history).length} historical routes)`)
 }
 console.log(`✓ registry.json (${registryOut.length} datasets), search-index.json (${searchIndex.length} titles)`)
+
+if (routeAliases) fs.writeFileSync(path.join(DATA_DIR, 'route-aliases.json'), JSON.stringify(routeAliases))
+if (options.evidenceDir) {
+  fs.mkdirSync(options.evidenceDir, { recursive: true })
+  if (refreshIdentities) fs.writeFileSync(path.join(options.evidenceDir, 'identity-bindings.json'), JSON.stringify(identityBindings, null, 2))
+  fs.writeFileSync(path.join(options.evidenceDir, 'thai-selection.json'), JSON.stringify(thaiEvidence, null, 2))
+}

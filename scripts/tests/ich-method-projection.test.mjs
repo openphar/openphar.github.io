@@ -10,6 +10,7 @@ import { createSSRApp } from 'vue'
 import { renderToString } from 'vue/server-renderer'
 import { parse, compileTemplate } from 'vue/compiler-sfc'
 import { projectIchMethods, projectIchChapter, projectComparisonCatalogReference, validateComparisonCatalogReference } from '../lib/ich-method-projection.mjs'
+import { sourceRouteSlugs } from '../source-route-slugs.mjs'
 
 const root = new URL('../../', import.meta.url)
 const options = { datasetId: 'ich', edition: 'Q4B current' }
@@ -62,7 +63,8 @@ function actualBuilder(directory) {
   // Never import the generator's top-level public-data writing loop.
   return vm.runInNewContext(actualFunction(source, 'buildIchMethods') + '\n' +
     actualFunction(source, 'slugify') + '\nbuildIchMethods', {
-    fs, path, yamlLoad, ROOT: directory, MAX_SECTION_CHARS: 6000, projectIchMethods
+    fs, path, yamlLoad, ROOT: directory, MAX_SECTION_CHARS: 6000, projectIchMethods,
+    sourceDir: (_id, cfg) => path.resolve(directory, cfg.generate.repo), sourceRouteSlugs
   })
 }
 

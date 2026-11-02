@@ -59,9 +59,9 @@ export function useSearch() {
     const nnRes = searchIndex.search(query, { field: 'nn', limit: 2000, suggest: true })
     const ids = new Set()
     for (const field of [tRes, nRes, xRes, nnRes]) {
-      // Document.search returns groups shaped { field, result: [rowIds] }.
-      for (const group of field) {
-        for (const id of group.result) ids.add(id)
+      for (const match of (Array.isArray(field) ? field : field?.result || [])) {
+        const resultIds = Array.isArray(match?.result) ? match.result : [typeof match === 'object' ? match.i : match]
+        for (const id of resultIds) ids.add(id)
       }
     }
 

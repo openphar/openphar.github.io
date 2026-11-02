@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import { readComparisonProjection, resolveEntrySelection, publicEntryCategory } from '../src/lib/comparison-contract.js'
+import { readComparisonProjection, resolveEntrySelection, publicEntryCategory, bindPublicIdentitySearchIndex } from '../src/lib/comparison-contract.js'
 import { readEditionProjection } from '../src/lib/edition-diff.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -54,7 +54,7 @@ export function loadPublicIdentityInputs(directory = root) {
     const substance = read(`data/substances/${file}`)
     return [substance.id, substance]
   }))
-  return { graph: read('data/phint/phint-monographs.jsonld')['@graph'], index: read('data/search-index.json'), substances }
+  return { graph: read('data/phint/phint-monographs.jsonld')['@graph'], index: bindPublicIdentitySearchIndex(read('data/search-index.json'), Object.values(substances)), substances }
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   try {
