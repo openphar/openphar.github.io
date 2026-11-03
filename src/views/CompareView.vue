@@ -2,6 +2,7 @@
 import { ref, onMounted, computed } from 'vue'
 import { extractString } from '../lib/i18n'
 import { detailAccess, readComparisonProjection, findFacts, formatLimit, comparisonMatrix, resolveEntrySelection, bindPublicIdentitySearchIndex } from '../lib/comparison-contract.js'
+import { compareColumnLabel } from '../lib/compare-column-label.js'
 import { readEditionProjection, editionsForEntry } from '../lib/edition-diff.js'
 import { readTitleOnlyEditions, titleEditionsFor } from '../lib/title-only-editions.js'
 import { counterpartKey } from '../../scripts/entry-routes.mjs'
@@ -236,7 +237,7 @@ onMounted(() => {
       <div v-if="comparisonRows.length" class="mt-4 overflow-x-auto" tabindex="0" role="region" aria-label="Publisher test comparison">
         <table class="w-full border-collapse text-left text-sm">
           <caption class="sr-only">Explicit public test limits, cited methods and catalog families by publisher and edition</caption>
-          <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ col.d.toUpperCase() }} · {{ col.edition }}{{ col.historical ? ' (historical limits)' : '' }}<span class="block font-normal">{{ col.title }}</span></th></tr></thead>
+          <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ compareColumnLabel(col) }}{{ col.historical ? ' (historical limits)' : '' }}<span class="block font-normal">{{ col.title }}</span></th></tr></thead>
           <tbody><tr v-for="row in comparisonRows" :key="row.semantic">
             <th scope="row" class="border border-line p-3">{{ row.label }}</th>
             <td v-for="cell in row.cells" :key="cell.column.key" :data-comparison-status="cell.comparison.status" :class="{ 'bg-wash': cell.comparison.status === 'different' }" class="align-top border border-line p-3">
