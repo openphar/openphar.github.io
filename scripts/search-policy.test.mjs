@@ -21,9 +21,11 @@ function fixture(t) {
   t.after(() => fs.rmSync(parent, { recursive: true, force: true }))
   const root = path.join(parent, 'hub')
   fs.mkdirSync(path.join(root, 'scripts'), { recursive: true })
+  fs.mkdirSync(path.join(root, 'scripts/lib'), { recursive: true })
   for (const name of ['generate-datasets.mjs', 'search-policy.mjs', 'native-labels.mjs', 'registry-join.mjs', 'thai-editions.mjs', 'public-identities.mjs', 'source-route-slugs.mjs', 'entry-routes.mjs']) {
     fs.copyFileSync(path.join(ROOT, 'scripts', name), path.join(root, 'scripts', name))
   }
+  fs.copyFileSync(path.join(ROOT, 'scripts/lib/ich-method-projection.mjs'), path.join(root, 'scripts/lib/ich-method-projection.mjs'))
   if (process.env.BASELINE_GENERATOR) fs.copyFileSync(process.env.BASELINE_GENERATOR, path.join(root, 'scripts/generate-datasets.mjs'))
   fs.symlinkSync(fs.realpathSync(path.join(ROOT, 'node_modules')), path.join(root, 'node_modules'), 'dir')
   return root

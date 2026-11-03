@@ -1,13 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { useHead } from '@unhead/vue'
 
-useHead({
-  title: 'Ontology Browser - Open Pharmacopoeia',
-  meta: [
-    { name: 'description', content: 'Browse and explore the Open Pharmacopoeia ontology' }
-  ]
-})
 
 const ontologyFiles = ref([])
 const selectedFile = ref(null)
@@ -108,9 +101,7 @@ onMounted(() => {
               </a>
             </li>
             <li>
-              <a href="/data/jp/jp-monographs.ttl" target="_blank" class="text-pine hover:underline">
-                JP Monographs (Turtle)
-              </a>
+              <span>JP Monographs (Turtle unavailable)</span>
             </li>
           </ul>
         </div>
@@ -140,10 +131,10 @@ onMounted(() => {
 
           <div v-else>
             <div class="flex justify-between items-center mb-4">
-              <h2 class="font-semibold text-ink">{{ selectedFile.name }}</h2>
+              <h2 id="ontology-source-heading" class="font-semibold text-ink">{{ selectedFile.name }}</h2>
               <span class="text-sm text-ink/55">{{ selectedFile.type }}</span>
             </div>
-            <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-auto text-sm max-h-[500px]">{{ formatContent(fileContent) }}</pre>
+            <pre tabindex="0" role="region" aria-labelledby="ontology-source-heading" class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-auto text-sm max-h-[500px]">{{ formatContent(fileContent) }}</pre>
           </div>
         </div>
       </div>

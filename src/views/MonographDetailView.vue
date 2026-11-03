@@ -1,19 +1,17 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
-import { useRoute } from 'vue-router'
-import { useHead } from '@unhead/vue'
-import { loadRegistry } from '../lib/registry'
+import { ref, computed } from 'vue'
 import { extractString, primaryLang, labelPairs } from '../lib/i18n'
-import { findRouteEntry, counterpartKey } from '../../scripts/entry-routes.mjs'
+import { detailAccess } from '../lib/comparison-contract.js'
+import { methodCatalogDisplay } from '../lib/method-catalog-display.js'
 
-const route = useRoute()
-const publisher = computed(() => route.params.publisher)
-const category = computed(() => route.params.category)
-const slug = computed(() => route.params.slug)
+const props = defineProps({ publisher: String, category: String, slug: String, initialMonograph: Object, initialMeta: Object, initialRegistry: Array, initialCounterparts: Array, initialTitleEditions: Array })
+const publisher = computed(() => props.publisher)
+const category = computed(() => props.category)
+const slug = computed(() => props.slug)
 
-const monograph = ref(null)
-const meta = ref(null)
-const loading = ref(true)
+const monograph = ref(props.initialMonograph)
+const meta = ref(props.initialMeta)
+const loading = ref(false)
 const error = ref(null)
 
 
@@ -35,54 +33,24 @@ const entryLang = computed(() => {
   return Object.keys(monograph.value?.definition || {})[0] || 'en'
 })
 
-useHead({
-  title: () => monograph.value
-    ? `${extractString(monograph.value.prefLabel || monograph.value['rdfs:label'])} — ${meta.value?.short || publisher.value} — Open Pharmacopoeia`
-    : 'Monograph — Open Pharmacopoeia',
-  meta: [{ name: 'description', content: () => extractString(monograph.value?.definition).slice(0, 200) }],
-  htmlAttrs: () => ({ lang: entryLang.value })
-})
 
 const isRestricted = computed(() => {
+  if (detailAccess(publisher.value, meta.value?.rights) === 'title-only') return true
   const t = monograph.value?.['@type']
   return Array.isArray(t) ? t.includes('TitleIndexEntry') : t === 'TitleIndexEntry'
 })
 
-const registryList = ref([])
-const counterparts = ref([])
+const registryList = ref(props.initialRegistry || [])
+const counterparts = ref(props.initialCounterparts || [])
 
 const allLabels = computed(() => labelPairs(monograph.value?.prefLabel || {}))
 
-const sections = computed(() => extractArray(monograph.value?.sections))
+const catalogDisplay = computed(() => methodCatalogDisplay(publisher.value, category.value, monograph.value))
+const sections = computed(() => catalogDisplay.value.sections)
 const testSpecifications = computed(() => extractArray(monograph.value?.testSpecification))
 const assaySpecs = computed(() => extractArray(monograph.value?.assay))
 const publisherName = computed(() => meta.value?.name || publisher.value)
 
-onMounted(async () => {
-  loading.value = true
-  error.value = null
-  try {
-    loadRegistry().then(r => {
-      registryList.value = r
-      meta.value = r.find(d => d.id === publisher.value)
-    }).catch(() => {})
-
-    fetch('/data/cross-links.json').then(r => r.json()).then(links => {
-      counterparts.value = links[counterpartKey(publisher.value, category.value, slug.value)] || []
-    }).catch(() => {})
-
-    const response = await fetch(`/data/${publisher.value}/${publisher.value}-monographs.jsonld`)
-    const data = await response.json()
-    const entries = data['@graph'] || []
-    monograph.value = findRouteEntry(entries, category.value, slug.value)
-    if (!monograph.value) error.value = 'Entry not found'
-  } catch (e) {
-    console.error('Failed to load entry:', e)
-    error.value = 'Failed to load entry'
-  } finally {
-    loading.value = false
-  }
-})
 </script>
 
 <template>
@@ -95,25 +63,25 @@ onMounted(async () => {
     <div v-else-if="error" class="py-16 text-center">
       <p class="latin text-3xl text-ink/30">non inventum</p>
       <h2 class="mt-3 font-display text-xl font-semibold">{{ error }}</h2>
-      <RouterLink :to="`/pharmacopoeia/${publisher}`" class="mt-4 inline-block font-mono text-xs uppercase tracking-[0.12em] text-pine underline decoration-brass underline-offset-4">
+      <a :href="`/pharmacopoeia/${publisher}`" class="mt-4 inline-block font-mono text-xs uppercase tracking-[0.12em] text-pine underline decoration-brass underline-offset-4">
         ← Back to {{ meta?.short || publisher }}
-      </RouterLink>
+      </a>
     </div>
 
     <article v-else-if="monograph">
       <!-- Breadcrumb -->
       <nav class="mb-6 font-mono text-[11px] uppercase tracking-[0.1em]" aria-label="Breadcrumb">
         <ol class="flex flex-wrap items-center gap-1.5 text-ink/50">
-          <li><RouterLink to="/" class="hover:text-pine">Home</RouterLink></li>
+          <li><a href="/" class="hover:text-pine">Home</a></li>
           <li aria-hidden="true">/</li>
-          <li><RouterLink :to="`/pharmacopoeia/${publisher}`" class="hover:text-pine">{{ meta?.short || publisher }}</RouterLink></li>
+          <li><a :href="`/pharmacopoeia/${publisher}`" class="hover:text-pine">{{ meta?.short || publisher }}</a></li>
           <li aria-hidden="true">/</li>
           <li class="text-ink/70">{{ category }}</li>
         </ol>
       </nav>
 
       <!-- Restricted title-only entry -->
-      <div v-if="isRestricted" class="rounded-sm border border-oxblood/35 bg-oxblood/[0.04]">
+      <div v-if="isRestricted" class="rounded-xs border border-oxblood/35 bg-oxblood/[0.04]">
         <div class="h-[4px] bg-oxblood"></div>
         <div class="p-6 sm:p-8">
           <p class="eyebrow !text-oxblood">Index entry — content restricted</p>
@@ -146,20 +114,29 @@ onMounted(async () => {
               <a
                 v-if="meta?.restriction?.url"
                 :href="meta.restriction.url"
-                class="rounded-sm bg-oxblood px-4 py-2 font-mono text-[11px] uppercase tracking-[0.12em] text-paper hover:opacity-90"
+                class="rounded-xs bg-oxblood px-4 py-2 font-mono text-[11px] uppercase tracking-[0.12em] text-paper hover:opacity-90"
               >
                 Official source ↗
               </a>
             </div>
+            <details v-if="initialTitleEditions?.length" class="mt-5">
+              <summary class="cursor-pointer font-medium">Available USP editions (title metadata only)</summary>
+              <p class="mt-2">Detailed edition changes are restricted. These links select title and edition metadata in Compare.</p>
+              <ul class="mt-3 space-y-2">
+                <li v-for="record in initialTitleEditions" :key="record['@id']">
+                  <a :href="`/compare?entry=${encodeURIComponent(publisher + '/' + slug)}&category=${encodeURIComponent(category)}&uspEdition=${encodeURIComponent(record.edition)}`" class="underline">{{ record.prefLabel.en }} · {{ record.edition }}</a>
+                </li>
+              </ul>
+            </details>
             <ul v-if="counterparts.length" class="mt-5 flex flex-wrap gap-2">
               <li v-for="c in counterparts" :key="c.d + c.s">
-                <RouterLink
-                  :to="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
-                  class="flex items-center gap-2 rounded-sm border border-moss/40 bg-paper px-3 py-1.5 text-sm transition-colors hover:border-pine"
+                <a
+                  :href="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
+                  class="flex items-center gap-2 rounded-xs border border-moss/40 bg-paper px-3 py-1.5 text-sm transition-colors hover:border-pine"
                 >
                   <span class="font-mono text-[9px] uppercase tracking-wider text-pine">{{ shortOf(c.d) }}</span>
                   <span class="text-ink/85">{{ c.t }}</span>
-                </RouterLink>
+                </a>
               </li>
             </ul>
             <p class="mt-4 font-mono text-[10px] uppercase tracking-wider text-ink/45">
@@ -170,7 +147,7 @@ onMounted(async () => {
       </div>
 
       <!-- Open monograph entry -->
-      <div v-else class="rounded-sm border border-line bg-paper">
+      <div v-else class="rounded-xs border border-line bg-paper">
         <div class="h-[4px] bg-gradient-to-r from-pine via-moss to-brass"></div>
         <div class="p-6 sm:p-10">
           <div class="flex flex-wrap items-start justify-between gap-4">
@@ -184,7 +161,7 @@ onMounted(async () => {
               </p>
               <p v-if="monograph.monographId" class="mt-2 font-mono text-xs text-ink/50">{{ monograph.monographId }}</p>
             </div>
-            <span class="flex-shrink-0 rounded-sm bg-pine/10 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-pine">
+            <span class="flex-shrink-0 rounded-xs bg-pine/10 px-2 py-1 font-mono text-[10px] uppercase tracking-wider text-pine">
               {{ meta?.short || publisher.toUpperCase() }}
             </span>
           </div>
@@ -209,13 +186,13 @@ onMounted(async () => {
           </dl>
 
           <div v-if="monograph.harmonisationStatus || monograph.ichAnnex" class="mt-4 flex flex-wrap gap-2 font-mono text-[10px] uppercase tracking-wider">
-            <span v-if="monograph.ichAnnex" class="rounded-sm bg-pine/10 px-2 py-1 text-pine">{{ monograph.ichAnnex }}</span>
-            <span v-if="monograph.harmonisationStatus" class="rounded-sm bg-brass/15 px-2 py-1 text-brass">ICH Q4B · {{ monograph.harmonisationStatus }}</span>
+            <span v-if="monograph.ichAnnex" class="rounded-xs bg-pine/10 px-2 py-1 text-pine">{{ monograph.ichAnnex }}</span>
+            <span v-if="monograph.harmonisationStatus" class="rounded-xs bg-brass/15 px-2 py-1 text-brass">{{ (monograph.catalogProvenance?.kind === 'method-family-association' || (publisher === 'ich' && category === 'methods')) ? 'Catalog status' : 'ICH Q4B' }} · {{ monograph.harmonisationStatus }}</span>
           </div>
 
-          <section v-if="monograph.definition" class="mt-6">
-            <h2 class="eyebrow">Definition</h2>
-            <p class="mt-2 text-[0.95rem] leading-relaxed text-ink/85">{{ extractString(monograph.definition) }}</p>
+          <section v-if="catalogDisplay.definition" class="mt-6">
+            <h2 class="eyebrow">{{ catalogDisplay.legacy ? 'Catalog entry' : 'Definition' }}</h2>
+            <p class="mt-2 text-[0.95rem] leading-relaxed text-ink/85">{{ extractString(catalogDisplay.definition) }}</p>
           </section>
 
           <section v-if="extractString(monograph.appearance)" class="mt-6">
@@ -224,7 +201,7 @@ onMounted(async () => {
           </section>
 
           <section v-if="sections.length" class="mt-6">
-            <h2 class="eyebrow">Monograph text</h2>
+            <h2 class="eyebrow">{{ publisher === 'ich' && category === 'methods' ? 'Chapter associations' : 'Monograph text' }}</h2>
             <div class="mt-3 space-y-5">
               <div v-for="(s, i) in sections" :key="i">
                 <h3 class="font-mono text-[11px] uppercase tracking-[0.12em] text-moss">{{ s.name }}</h3>
@@ -264,9 +241,9 @@ onMounted(async () => {
             <p class="eyebrow">Same substance in other pharmacopoeias</p>
             <ul class="mt-3 flex flex-wrap gap-2">
               <li v-for="c in counterparts" :key="c.d + c.s">
-                <RouterLink
-                  :to="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
-                  class="flex items-center gap-2 rounded-sm border px-3 py-1.5 text-sm transition-colors"
+                <a
+                  :href="`/pharmacopoeia/${c.d}/${c.c}/${c.s}`"
+                  class="flex items-center gap-2 rounded-xs border px-3 py-1.5 text-sm transition-colors"
                   :class="c.k === 0
                     ? 'border-oxblood/40 bg-oxblood/[0.05] hover:border-oxblood'
                     : 'border-line bg-paper hover:border-moss'"
@@ -274,21 +251,21 @@ onMounted(async () => {
                   <span class="font-mono text-[9px] uppercase tracking-wider" :class="c.k === 0 ? 'text-oxblood' : 'text-pine'">{{ shortOf(c.d) }}</span>
                   <span class="text-ink/85">{{ c.t }}</span>
                   <span v-if="c.k === 0" class="font-mono text-[9px] uppercase tracking-wider text-oxblood/70">index</span>
-                </RouterLink>
+                </a>
               </li>
             </ul>
           </section>
 
           <p v-else class="mt-8 border-t border-line pt-5 font-mono text-[11px] uppercase tracking-[0.12em] text-ink/40">
             No counterparts indexed yet —
-            <RouterLink :to="{ path: '/search', query: { q: extractString(monograph.prefLabel) } }" class="text-pine underline decoration-brass/60 underline-offset-4">
+            <a :href="`/search?q=${encodeURIComponent(extractString(monograph.prefLabel))}`" class="text-pine underline decoration-brass/60 underline-offset-4">
               search this title across all datasets
-            </RouterLink>
+            </a>
           </p>
 
-          <details class="mt-8 border-t border-line pt-5">
+          <details v-if="!catalogDisplay.legacy" class="mt-8 border-t border-line pt-5">
             <summary class="cursor-pointer font-mono text-[11px] uppercase tracking-[0.12em] text-ink/60 hover:text-pine">View raw JSON-LD</summary>
-            <pre class="mt-3 max-h-96 overflow-auto rounded-sm bg-ink/[0.04] p-4 font-mono text-xs text-ink/80">{{ JSON.stringify(monograph, null, 2) }}</pre>
+            <pre class="mt-3 max-h-96 overflow-auto rounded-xs bg-ink/[0.04] p-4 font-mono text-xs text-ink/80">{{ JSON.stringify(monograph, null, 2) }}</pre>
           </details>
         </div>
       </div>

@@ -31,7 +31,7 @@ jobs:
           "$d/gitleaks" detect --source . --no-banner --redact -v
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 22
+          node-version: 22.22.0
           cache: npm
       - run: npm ci
       - name: Registry join regression checks
@@ -40,7 +40,7 @@ jobs:
         run: node scripts/assert-rights.mjs
       - name: Link integrity (every cross-link target resolves)
         run: node scripts/check-counterpart-links.mjs
-      - name: Production build (vite-ssg, ~29k pages)
+      - name: Production build (Astro static pages)
         run: npm run build
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()

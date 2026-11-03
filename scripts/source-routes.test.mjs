@@ -28,6 +28,7 @@ test('native generator retains distinct AYP and ICH source identities and legacy
   t.after(() => fs.rmSync(root, { recursive: true, force: true }))
   const write = (file, value) => { const p = path.join(root, file); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, typeof value === 'string' ? value : JSON.stringify(value)) }
   for (const name of ['generate-datasets','native-labels','thai-editions','registry-join','search-policy','public-identities','source-route-slugs','entry-routes']) write(`scripts/${name}.mjs`, fs.readFileSync(path.join(ROOT, `scripts/${name}.mjs`), 'utf8'))
+  write('scripts/lib/ich-method-projection.mjs', fs.readFileSync(path.join(ROOT, 'scripts/lib/ich-method-projection.mjs'), 'utf8'))
   fs.symlinkSync(fs.realpathSync(path.join(ROOT, 'node_modules')), path.join(root, 'node_modules'), 'dir')
   write('registry/datasets.yml', { datasets: {
     ayp: { short: 'API', edition: 'API', rights: 'full', generate: { repo: 'ayp', glob: 'data/**/*.yaml', mode: 'full' } },

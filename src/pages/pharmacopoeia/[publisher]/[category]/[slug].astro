@@ -1,0 +1,57 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro'
+import MonographDetailView from '../../../../views/MonographDetailView.vue'
+import EditionChanges from '../../../../components/EditionChanges.vue'
+import searchIndex from '../../../../../data/search-index.json'
+import { detailAccess, resolveEntrySelection } from '../../../../lib/comparison-contract.js'
+import { readEditionProjection, editionsForEntry } from '../../../../lib/edition-diff.js'
+import titleProjection from '../../../../../public/data/us-editions.json'
+import {readTitleOnlyEditions,titleEditionsFor} from '../../../../lib/title-only-editions.js'
+import editionProjection from '../../../../../public/data/edition-diffs.json'
+import { registry, datasetIds, entries, entryCategory, entrySlug, counterparts, sampleBuild, bindCurrentSubstanceIdentities } from '../../../../lib/build-data.js'
+import { extractString, primaryLang } from '../../../../lib/i18n.js'
+import { methodCatalogDisplay } from '../../../../lib/method-catalog-display.js'
+export function getStaticPaths() {
+  return datasetIds().flatMap(publisher => {
+    const graph = entries(publisher)
+    // Some vendored graphs repeat an entry ID. The old detail view selected
+    // the first matching entry; retain that behavior without duplicate paths.
+    const seen = new Set()
+    const unique = graph.filter(entry => {
+      const slug = entrySlug(entry)
+      const key = `${entryCategory(entry)}/${slug}`
+      if (!slug || seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+    const wanted = {
+      phint: ['6-1-266', '6-1-7', '6-1-53'], us: ['acetaminophen'], eu: ['paracetamol'], uk: ['paracetamol'], jp: ['acetaminophen']
+    }
+    const sampleEntries = sampleBuild ? unique.filter((entry, index) => index < 2 || wanted[publisher]?.includes(entrySlug(entry))) : unique
+    return sampleEntries.map(monograph => ({
+      params: { publisher, category: entryCategory(monograph), slug: entrySlug(monograph) },
+      props: { monograph }
+    }))
+  })
+}
+const { publisher, category, slug } = Astro.params
+const { monograph } = Astro.props
+const identitySearchIndex = bindCurrentSubstanceIdentities(searchIndex)
+const catalogDisplay = methodCatalogDisplay(publisher, category, monograph)
+const meta = registry.find(dataset => dataset.id === publisher)
+const title = extractString(monograph.prefLabel || monograph['rdfs:label'])
+const types = Array.isArray(monograph['@type']) ? monograph['@type'] : [monograph['@type']]
+const rights = types.includes('TitleIndexEntry') ? 'title-only' : meta?.rights
+const selection = resolveEntrySelection(entries(publisher), identitySearchIndex, { publisher, slug, category })
+const substanceId = selection?.entry['@id'] === monograph['@id'] && selection?.entry.edition === monograph.edition ? selection.substanceId : null
+const editionPairs = editionsForEntry(readEditionProjection(editionProjection), { publisher, entryId: monograph['@id'], edition: monograph.edition, substanceId, rights })
+const titleEditions=publisher==='us'?titleEditionsFor(readTitleOnlyEditions(titleProjection),{publisher,substanceId,entryId:monograph['@id'],edition:monograph.edition,category},{graph:entries('us'),index:identitySearchIndex}):[]
+const publication = Object.fromEntries(['attribution', 'license', 'adaptation', 'endorsement'].map(key => [key, editionProjection[key]]))
+---
+<SiteLayout title={`${title} — ${meta?.short || publisher} — Open Pharmacopoeia`} description={extractString(catalogDisplay.definition).slice(0, 200)} lang={primaryLang(monograph.prefLabel)}>
+  <MonographDetailView publisher={publisher} category={category} slug={slug} initialMonograph={monograph} initialMeta={meta} initialRegistry={registry} initialCounterparts={counterparts(publisher, slug, category)} initialTitleEditions={titleEditions} />
+  {detailAccess(publisher, rights) === 'eligible' && <div class="container mx-auto max-w-4xl px-4 pb-10">
+    {editionPairs.length ? <EditionChanges client:visible publisher={publisher} entryId={monograph['@id']} edition={monograph.edition || meta?.edition} substanceId={substanceId} rights={rights} initialRecords={editionPairs} publication={publication} /> :
+      <section class="mt-8 border-t border-line pt-5" aria-labelledby="edition-state-heading"><h2 id="edition-state-heading" class="font-display text-xl font-semibold">Editions and changes</h2><p class="mt-2 text-sm">Edition differences are unverified or unavailable for this entry.</p></section>}
+  </div>}
+</SiteLayout>

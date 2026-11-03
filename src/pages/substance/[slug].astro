@@ -1,0 +1,13 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro'
+import SubstanceContent from '../../views/SubstanceContent.vue'
+import { registry, substanceSlugs, substance } from '../../lib/build-data.js'
+export function getStaticPaths() {
+  return substanceSlugs().map(slug => ({ params: { slug } }))
+}
+const doc = substance(Astro.params.slug)
+const title = doc.preferred_name?.en || doc.preferred_name?.inn || doc.entries?.[0]?.t || doc.id
+---
+<SiteLayout title={`${title} — Open Pharmacopoeia`} description="All pharmacopoeia monographs for one substance identity: native names, CAS, salt/hydrate relations, and every publisher that monographs it.">
+  <SubstanceContent initialDoc={doc} initialRegistry={registry} />
+</SiteLayout>

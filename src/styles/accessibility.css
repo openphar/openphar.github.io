@@ -1,0 +1,57 @@
+/* Contrast corrections for existing text tones. Palette backgrounds and hues
+   stay intact; muted information remains readable on the current light cards. */
+[class~="text-ink/25"],
+[class~="text-ink/30"],
+[class~="text-ink/40"],
+[class~="text-ink/45"],
+[class~="text-ink/50"],
+[class~="text-ink/55"],
+[class~="text-ink/60"] {
+  color: color-mix(in srgb, var(--color-ink) 70%, transparent);
+}
+
+[class~="text-neutral-400"],
+[class~="text-neutral-500"] {
+  color: var(--color-neutral-600);
+}
+
+[class~="text-oxblood/70"] {
+  color: var(--color-oxblood);
+}
+
+[class~="text-paper/50"] {
+  color: color-mix(in srgb, var(--color-paper) 70%, transparent);
+}
+
+/* Gold backgrounds/borders remain the brand gold. Only small gold text on
+   light surfaces gets a darker tone; explicit light-on-dark labels keep it. */
+[class~="text-brass"],
+.eyebrow[class]:not([class~="!text-brasslight"]) {
+  color: color-mix(in srgb, var(--color-brass) 65%, var(--color-ink));
+}
+
+input[type="search"],
+input[type="text"],
+select {
+  border-color: color-mix(in srgb, var(--color-ink) 55%, var(--color-paper));
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: color-mix(in srgb, var(--color-ink) 70%, transparent);
+  opacity: 1;
+}
+
+/* Two tones make keyboard focus visible on both the existing pine and paper
+   surfaces. This also supersedes outline-none without removing focus rings. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--color-paper);
+}

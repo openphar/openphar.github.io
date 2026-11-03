@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss" source("../");
 
 @import '@fontsource-variable/fraunces';
 @import '@fontsource/ibm-plex-sans/400.css';
@@ -78,4 +76,21 @@ body {
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
+}
+
+/* Same palette and font tokens as the preserved Tailwind 3 configuration. */
+@theme {
+  --color-paper: #F3F4EE;
+  --color-paperdeep: #E9EBE1;
+  --color-ink: #16241F;
+  --color-pine: #0F3D33;
+  --color-moss: #2E6B5E;
+  --color-wash: #E4EBE5;
+  --color-brass: #B08A3E;
+  --color-brasslight: #D8C08A;
+  --color-oxblood: #8F3B32;
+  --color-line: #C9CFC5;
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }

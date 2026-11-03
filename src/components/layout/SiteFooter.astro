@@ -1,0 +1,29 @@
+---
+import BrandMark from '../BrandMark.vue'
+import { registry } from '../../lib/build-data.js'
+const datasets = registry.filter(dataset => dataset.status !== 'reference').slice(0, 6)
+---
+<footer class="mt-auto bg-pine text-paper">
+  <div class="h-[3px] bg-linear-to-r from-brass via-moss to-pine"></div>
+  <div class="container mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-12">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3"><BrandMark size={30} /><span class="font-display text-lg font-semibold">Open Pharmacopoeia</span></div>
+        <p class="mt-4 max-w-sm text-sm leading-relaxed text-paper/75">A non-profit building one open, semantic structure for the world's pharmacopoeias — a harmonized base layer anchored on ICH&nbsp;Q4, extended by every national and traditional pharmacopoeia.</p>
+      </div>
+      <div class="md:col-span-3">
+        <p class="eyebrow !text-brasslight mb-3">Datasets</p>
+        <ul class="space-y-1.5 text-sm text-paper/80">{datasets.map(dataset => <li><a href={`/pharmacopoeia/${dataset.id}`} class="hover:text-brasslight">{dataset.short} — {dataset.name}</a></li>)}</ul>
+      </div>
+      <div class="md:col-span-2">
+        <p class="eyebrow !text-brasslight mb-3">Site</p>
+        <ul class="space-y-1.5 text-sm text-paper/80">{[['search','Search'],['compare','Compare'],['ontology','Ontology'],['api','API']].map(([slug,label]) => <li><a href={`/${slug}`} class="hover:text-brasslight">{label}</a></li>)}</ul>
+      </div>
+      <div class="md:col-span-2">
+        <p class="eyebrow !text-brasslight mb-3">Project</p>
+        <ul class="space-y-1.5 text-sm text-paper/80"><li><a href="https://github.com/openphar" class="hover:text-brasslight">GitHub org</a></li><li><a href="https://github.com/openphar/openphar.github.io/tree/main/TODO.deploy" class="hover:text-brasslight">Deployment program</a></li></ul>
+      </div>
+    </div>
+    <div class="mt-10 flex flex-col gap-2 border-t border-paper/20 pt-5 text-xs text-paper/60 sm:flex-row sm:items-center sm:justify-between"><span>© {new Date().getFullYear()} Open Pharmacopoeia — open data, harmonized standards.</span><span class="font-mono">www.openphar.org</span></div>
+  </div>
+</footer>

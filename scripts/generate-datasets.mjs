@@ -15,6 +15,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
 import { createVendoredRegistryJoin } from './registry-join.mjs'
+import { projectIchMethods } from './lib/ich-method-projection.mjs'
 import { selectThaiEditions, preserveThaiLegacy, thaiCategory, validateThaiAliases } from './thai-editions.mjs'
 import { labelsOf, nativeLabelOf, titleLabelOf } from './native-labels.mjs'
 import { projectIdentity, createCurrentIdentityJoin } from './public-identities.mjs'
@@ -277,31 +278,12 @@ function buildGraph(id, cfg) {
   return { graph, skipped, total: files.length }
 }
 
-// ICH Q4B harmonized-method equivalence table → one entry per method concept,
-// with per-publisher chapter codes as sections.
+// Method-family catalog → one stable entry per concept, with source- and
+// edition-qualified chapter metadata. This is not an interchangeability claim.
 function buildIchMethods(id, cfg) {
   const file = path.join(sourceDir(id, cfg), cfg.generate.file)
   const rows = yamlLoad(fs.readFileSync(file, 'utf-8'))
-  const graph = rows.map(r => {
-    const slug = String(r.concept).replace(/_/g, '-').toLowerCase()
-    const chapters = (r.chapters || []).map(c => ({
-      name: `${c.publisher} ${c.code || ''}`.trim(),
-      text: `Chapter ${c.code} (${c.publisher}) — ${c.source === 'ich_official' ? 'ICH Q4B official equivalence' : `${c.source} (confidence: ${c.confidence || 'n/a'})`}`
-    }))
-    return {
-      '@id': `https://www.openphar.org/data/${id}/methods/${slug}`,
-      '@type': 'IndexedMonograph',
-      prefLabel: { en: r.name_en },
-      edition: cfg.edition,
-      category: 'methods',
-      harmonisationStatus: r.harmonisation_status,
-      ichAnnex: r.ich_annex,
-      definition: {
-        en: `${r.name_en} — ICH Q4B harmonised analytical method (${r.ich_annex}, ${r.harmonisation_status}). Equivalent chapters: ${chapters.map(c => c.name).join(' · ')}.`
-      },
-      sections: chapters
-    }
-  })
+  const graph = projectIchMethods(rows, { datasetId: id, edition: cfg.edition })
 
   // Guideline + annex documents (Q4A, Q4B R1, FAQs, per-annex texts)
   const documents = []

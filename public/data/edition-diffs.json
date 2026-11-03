@@ -1,0 +1,114 @@
+{
+  "schema": "openphar-edition-diffs/v1",
+  "attribution": "The International Pharmacopoeia, 11th ed. (2022), 12th ed. (2024), and 13th ed. (2025). Geneva: World Health Organization. Licence: CC BY-NC-SA 3.0 IGO. No WHO endorsement implied.",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/",
+  "adaptation": "Adapted by Open Pharmacopoeia: selected criteria structured as explicit limits and selected edition fields compared. Only supplied fields are assessed. Historical comparisons use captured edition material; original-PDF authentication is outside this comparison. Zidovudine compares captured native PhInt-12 and PhInt-13 records; original raw capture authentication is unavailable. Catalog families are citation lookups with unresolved applicability, not equivalence or interchangeability.",
+  "endorsement": "No endorsement by WHO is implied.",
+  "records": [
+    {
+      "publisher": "phint",
+      "substanceId": "paracetamol",
+      "from": {
+        "edition": "PhInt-12",
+        "entryId": "https://openphar.org/data/phint/phint-12/entry/6-1-264",
+        "substanceId": "paracetamol"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-1-266",
+        "substanceId": "paracetamol"
+      },
+      "status": "verified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia, 12th ed. (2024) and 13th ed. (2025), Paracetamol monograph; comparison limited to Definition and Assay procedure (both unchanged).",
+      "changes": [],
+      "comparedFields": [
+        "definition",
+        "assay.procedure"
+      ]
+    },
+    {
+      "publisher": "phint",
+      "substanceId": "albendazole",
+      "from": {
+        "edition": "PhInt-11",
+        "entryId": "https://openphar.org/data/phint/phint-11/entry/6-1-7",
+        "substanceId": "albendazole"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-1-7",
+        "substanceId": "albendazole"
+      },
+      "status": "verified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia, 11th ed. (2022) and 13th ed. (2025), Albendazole monograph; comparison limited to Assay endpoint and dried-substance content lower bound.",
+      "changes": [
+        {
+          "field": "assay.endpoint",
+          "kind": "changed",
+          "before": "Visual endpoint: green colour, using 1-naphtholbenzein/acetic acid indicator.",
+          "after": "Potentiometric endpoint.",
+          "evidence": "The International Pharmacopoeia, 11th ed. (2022) and 13th ed. (2025), Albendazole, Assay (2.6 Non-aqueous titration, Method A)."
+        },
+        {
+          "field": "content.lower_bound",
+          "kind": "changed",
+          "before": "98.0 %",
+          "after": "99.0 %",
+          "evidence": "The International Pharmacopoeia, 11th ed. (2022) and 13th ed. (2025), Albendazole, Requirements: content calculated with reference to the dried substance."
+        }
+      ],
+      "comparedFields": [
+        "assay.endpoint",
+        "content.lower_bound"
+      ]
+    },
+    {
+      "publisher": "phint",
+      "substanceId": "zidovudine",
+      "from": {
+        "edition": "PhInt-12",
+        "entryId": "https://openphar.org/data/phint/phint-12/entry/6-1-373",
+        "substanceId": "zidovudine"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-1-375",
+        "substanceId": "zidovudine"
+      },
+      "status": "verified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia, 12th and13th editions, Zidovudine Definition and Assay; captured native records compared, original raw capture authentication unavailable.",
+      "comparedFields": [
+        "content.upper_bound",
+        "assay.chapter_citation"
+      ],
+      "changes": [
+        {
+          "field": "content.upper_bound",
+          "kind": "changed",
+          "before": "103.0 %",
+          "after": "102.0 %",
+          "evidence": "The International Pharmacopoeia, 12th and13th editions, Zidovudine Definition and Assay; captured native records compared, original raw capture authentication unavailable."
+        },
+        {
+          "field": "assay.chapter_citation",
+          "kind": "changed",
+          "before": "1.6 — Spectrophotometry in the visible and ultraviolet regions",
+          "after": "1.14.1 — High-performance liquid chromatography",
+          "evidence": "The International Pharmacopoeia, 12th and13th editions, Zidovudine Definition and Assay; captured native records compared, original raw capture authentication unavailable."
+        }
+      ]
+    }
+  ]
+}

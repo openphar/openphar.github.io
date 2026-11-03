@@ -1,0 +1,15 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro'
+import PharmacopoeiaView from '../../views/PharmacopoeiaView.vue'
+import { registry, datasetIds, entries, entryCategory, cardEntry } from '../../lib/build-data.js'
+export function getStaticPaths() {
+  return datasetIds().map(publisher => ({ params: { publisher } }))
+}
+const { publisher } = Astro.params
+const meta = registry.find(dataset => dataset.id === publisher)
+const graph = entries(publisher)
+const categories = [...new Set(graph.map(entryCategory))].sort()
+---
+<SiteLayout title={`${meta?.name || publisher} — Open Pharmacopoeia`} description={`Browse the ${meta?.name || publisher} dataset in the Open Pharmacopoeia registry.`}>
+  <PharmacopoeiaView publisher={publisher} initialMeta={meta} initialEntries={graph.slice(0, 120).map(cardEntry)} initialCategories={categories} initialCount={graph.length} client:load />
+</SiteLayout>
