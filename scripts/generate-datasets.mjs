@@ -234,7 +234,7 @@ function buildGraph(id, cfg, reservedIds = new Set()) {
     const labels = labelsOf(doc, cfg.short)
     const category = cfg.generate.edition_stack ? (legacy ? 'monographs' : thaiCategory(doc)) : ((typeof doc.category === 'string' && doc.category) || categoryOf(rel))
     const sectionId = doc.classification?.section_id
-    let hubId = aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack ? category : 'monographs'}/${slug}`
+    let hubId = aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack || cfg.identity === 'category' ? category : 'monographs'}/${slug}`
     // A source row never takes an @id already published by another record
     // (KP general chapters share the /monographs/ namespace). The earlier
     // record keeps its route; this one gets a stable suffix from its own
@@ -287,6 +287,9 @@ function buildGraph(id, cfg, reservedIds = new Set()) {
     graph.push(entry)
   }
   if (cfg.generate.edition_stack && new Set(graph.map(m => m['@id'])).size !== graph.length) throw new Error('Duplicate Thai hub identity')
+  // {publisher}/{category}/{slug} is the identity scheme (CLAUDE.md); a dataset
+  // that opts in must never emit two entries under one @id. No suffixes, no dedupe.
+  if (cfg.identity === 'category' && new Set(graph.map(m => m['@id'])).size !== graph.length) throw new Error(`Duplicate ${id} hub identity`)
   return { graph, skipped, total: files.length }
 }
 
