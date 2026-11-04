@@ -234,7 +234,7 @@ function buildGraph(id, cfg) {
     const category = cfg.generate.edition_stack ? (legacy ? 'monographs' : thaiCategory(doc)) : ((typeof doc.category === 'string' && doc.category) || categoryOf(rel))
     const sectionId = doc.classification?.section_id
     const entry = {
-      '@id': aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack ? category : 'monographs'}/${slug}`,
+      '@id': aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack || cfg.identity === 'category' ? category : 'monographs'}/${slug}`,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
       monographId: cfg.rights === 'title-only' ? undefined : (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
@@ -275,6 +275,9 @@ function buildGraph(id, cfg) {
     graph.push(entry)
   }
   if (cfg.generate.edition_stack && new Set(graph.map(m => m['@id'])).size !== graph.length) throw new Error('Duplicate Thai hub identity')
+  // {publisher}/{category}/{slug} is the identity scheme (CLAUDE.md); a dataset
+  // that opts in must never emit two entries under one @id. No suffixes, no dedupe.
+  if (cfg.identity === 'category' && new Set(graph.map(m => m['@id'])).size !== graph.length) throw new Error(`Duplicate ${id} hub identity`)
   return { graph, skipped, total: files.length }
 }
 
