@@ -23,5 +23,12 @@ test('vendored data: dropped Thai, ICH and retired-substance routes are in the r
   const current = fs.readdirSync(path.join(data, 'substances')).map(f => f.slice(0, -5))
   const retired = historicalSubstanceSlugs(data, current)
   for (const slug of ['acyclovir', 'aucklandia-root', 'achyranthes-bidentata-root', 'aconiti-lateralis-radix-unprocessed']) assert.ok(retired.includes(slug), slug)
-  assert.equal(retired.length, 24)
+  // Registry run9 withdrawals (no successor): the old URL serves a withdrawn-identity page listing its former publisher records.
+  const history = JSON.parse(fs.readFileSync(path.join(data, 'substance-history.json'), 'utf8'))
+  for (const slug of ['inactivated', 'suspension', 'hydrochloride', 'hydrochloride-tablets', 'oral-suspension', 'precipitated-calcium-carbonate-tablets', 'morindae-radix-preparatum-cum-glycyrrhizae-radix']) {
+    assert.ok(retired.includes(slug), slug)
+    assert.equal(history[slug].status, 'withdrawn', slug)
+    assert.ok(history[slug].entries.length > 0, slug)
+  }
+  assert.equal(retired.length, 41)
 })
