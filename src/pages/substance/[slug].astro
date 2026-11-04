@@ -1,13 +1,28 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro'
 import SubstanceContent from '../../views/SubstanceContent.vue'
-import { registry, substanceSlugs, substance } from '../../lib/build-data.js'
+import { registry, substanceSlugs, substance, retiredSubstanceSlugs, historicalSubstance } from '../../lib/build-data.js'
 export function getStaticPaths() {
-  return substanceSlugs().map(slug => ({ params: { slug } }))
+  // Retired identities keep their URL: a redirect page or a historical record.
+  return [...substanceSlugs(), ...retiredSubstanceSlugs()].map(slug => ({ params: { slug } }))
 }
-const doc = substance(Astro.params.slug)
-const title = doc.preferred_name?.en || doc.preferred_name?.inn || doc.entries?.[0]?.t || doc.id
+const slug = Astro.params.slug
+const history = historicalSubstance(slug)
+let doc = null
+try { doc = substance(slug) } catch (error) { if (!history) throw error }
+const target = history?.status === 'redirect' && /^[a-z0-9][a-z0-9-]*$/.test(history.target || '') && history.target !== slug ? history.target : null
+if (!doc && target) return Astro.redirect(`/substance/${target}/`)
+const title = doc ? (doc.preferred_name?.en || doc.preferred_name?.inn || doc.entries?.[0]?.t || doc.id) : 'Historical substance identity'
 ---
 <SiteLayout title={`${title} — Open Pharmacopoeia`} description="All pharmacopoeia monographs for one substance identity: native names, CAS, salt/hydrate relations, and every publisher that monographs it.">
-  <SubstanceContent initialDoc={doc} initialRegistry={registry} />
+  {doc ? <SubstanceContent initialDoc={doc} initialRegistry={registry} /> : (
+    <section class="max-w-5xl mx-auto px-4 py-10">
+      <h1 class="font-display text-3xl mb-4">Historical substance identity</h1>
+      <p class="mb-4">This former identity has been withdrawn. Its source records do not establish one current shared identity.</p>
+      <h2 class="font-semibold mb-2">Historical publisher records</h2>
+      <ul>
+        {(history.entries || []).map(e => <li><a href={`/pharmacopoeia/${e.d}/${e.c}/${e.s}/`}>{e.t} · {e.d} · {e.edition}</a></li>)}
+      </ul>
+    </section>
+  )}
 </SiteLayout>

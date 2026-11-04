@@ -2,6 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { counterpartKey } from '../../scripts/entry-routes.mjs'
+import { historicalSubstanceSlugs, legacyPharmacopoeiaAliases } from './legacy-routes.js'
 import { bindPublicIdentitySearchIndex } from './comparison-contract.js'
 // Astro bundles this module into its prerender directory; import.meta.url
 // therefore cannot identify the original source tree. Native npm scripts run
@@ -72,4 +73,24 @@ export function substanceSlugs() {
   if (sampleBuild && required.some(slug => !slugs.includes(slug))) throw new Error('Missing required comparison sample substance')
   return sampleBuild ? [...new Set([...slugs.slice(0, 2), ...required])] : slugs
 }
+export function retiredSubstanceSlugs() {
+  const current = fs.readdirSync(path.join(data, 'substances')).filter(name => name.endsWith('.json')).map(name => name.slice(0, -5))
+  const retired = historicalSubstanceSlugs(data, current)
+  return sampleBuild ? [] : retired
+}
 export function substance(slug) { return read(`substances/${slug}.json`) }
+export function historicalSubstance(slug) {
+  const history = read('substance-history.json')
+  return Object.hasOwn(history, slug) ? history[slug] : null
+}
+export function entryPagePaths() {
+  const seen = new Set()
+  for (const publisher of datasetIds()) for (const entry of entries(publisher)) {
+    const slug = entrySlug(entry)
+    if (slug) seen.add(`/pharmacopoeia/${publisher}/${entryCategory(entry)}/${slug}`)
+  }
+  return seen
+}
+export function legacyEntryAliases() {
+  return sampleBuild ? [] : legacyPharmacopoeiaAliases(data, entryPagePaths())
+}
