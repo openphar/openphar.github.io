@@ -11,6 +11,7 @@
 // category — enforced here at generation time (TODO.deploy/04).
 
 import fs from 'node:fs'
+import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { load as yamlLoad } from 'js-yaml'
@@ -151,7 +152,7 @@ function walk(globBase, pattern, exclude) {
   return files
 }
 
-function buildGraph(id, cfg) {
+function buildGraph(id, cfg, reservedIds = new Set()) {
   // Single-file list corpora (e.g. ICH Q4B equivalence table)
   if (cfg.generate.kind === 'ich-methods') {
     return buildIchMethods(id, cfg)
@@ -233,8 +234,19 @@ function buildGraph(id, cfg) {
     const labels = labelsOf(doc, cfg.short)
     const category = cfg.generate.edition_stack ? (legacy ? 'monographs' : thaiCategory(doc)) : ((typeof doc.category === 'string' && doc.category) || categoryOf(rel))
     const sectionId = doc.classification?.section_id
+    let hubId = aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack || cfg.identity === 'category' ? category : 'monographs'}/${slug}`
+    // A source row never takes an @id already published by another record
+    // (KP general chapters share the /monographs/ namespace). The earlier
+    // record keeps its route; this one gets a stable suffix from its own
+    // canonical identity, never from traversal order.
+    if (reservedIds.has(hubId)) {
+      const iri = doc.canonical_iri
+      if (typeof iri !== 'string' || !/^https:\/\/openphar\.org\//.test(iri)) throw new Error('Collision requires a canonical source identity')
+      hubId += '--' + createHash('sha256').update(iri).digest('hex').slice(0, 16)
+      if (reservedIds.has(hubId)) throw new Error('Source route collision')
+    }
     const entry = {
-      '@id': aypIds.get(doc) || `https://www.openphar.org/data/${id}/${cfg.generate.edition_stack || cfg.identity === 'category' ? category : 'monographs'}/${slug}`,
+      '@id': hubId,
       '@type': cfg.rights === 'title-only' ? 'TitleIndexEntry' : 'IndexedMonograph',
       prefLabel: cfg.rights === 'title-only' ? { en: Object.values(labels)[0] } : labels,
       monographId: cfg.rights === 'title-only' ? undefined : (typeof sectionId === 'string' || typeof sectionId === 'number') ? String(sectionId) : (typeof doc.monographId === 'string' ? doc.monographId : undefined),
@@ -485,10 +497,10 @@ for (const [id, cfg] of Object.entries(datasets)) {
   }
 
   if (cfg.generate && (!options.selected || options.selected.has(id))) {
-    const { graph, skipped, total } = buildGraph(id, cfg)
-    if (cfg.generate.corpora) {
-      graph.push(...buildKpCorpora(cfg.generate.corpora, sourceDir(id, cfg), cfg.edition))
-    }
+    // Corpora ids are published routes: reserve them before source rows claim theirs.
+    const corpora = cfg.generate.corpora ? buildKpCorpora(cfg.generate.corpora, sourceDir(id, cfg), cfg.edition) : []
+    const { graph, skipped, total } = buildGraph(id, cfg, new Set(corpora.map(e => e['@id'])))
+    graph.push(...corpora)
     const outFile = path.join(DATA_DIR, id, `${id}-monographs.jsonld`)
     fs.mkdirSync(path.dirname(outFile), { recursive: true })
     fs.writeFileSync(outFile, JSON.stringify({
