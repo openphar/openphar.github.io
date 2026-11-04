@@ -1,0 +1,12 @@
+---
+import { legacyEntryAliases } from '../../lib/build-data.js'
+// Former public URLs (route-aliases.json) stay reachable as redirect pages.
+export function getStaticPaths() {
+  return legacyEntryAliases().map(([from, to]) => ({
+    params: { alias: from.replace(/^\/pharmacopoeia\//, '') },
+    props: { to }
+  }))
+}
+const { to } = Astro.props
+return Astro.redirect(to.endsWith('/') ? to : `${to}/`)
+---
