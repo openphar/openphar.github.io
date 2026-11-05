@@ -72,9 +72,9 @@ export function preserveThaiLegacy(selected, legacyRows) {
 }
 
 // A future herbal slug must never silently take over a historical TP URL.
-export function validateThaiAliases(aliases, routes) {
+export function validateThaiAliases(aliases, routes, pages = new Set()) {
   for (const [from, to] of Object.entries(aliases.routes)) {
     if (routes.has(from)) throw new Error(`Thai legacy route collision: ${from}`)
-    if (!routes.has(to)) throw new Error(`Missing Thai legacy target: ${to}`)
+    if (!routes.has(to) && !pages.has(to)) throw new Error(`Missing Thai legacy target: ${to}`)
   }
 }
