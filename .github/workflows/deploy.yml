@@ -35,6 +35,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Rights enforcement (title-only datasets carry titles only)
+        run: node scripts/assert-rights.mjs
+
       - name: Build site
         env:
           NODE_ENV: production
