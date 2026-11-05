@@ -522,6 +522,14 @@ for (const [id, cfg] of Object.entries(datasets)) {
 }
 
 const aliasesFile = path.join(DATA_DIR, 'route-aliases.json')
+// Published routes a dataset regeneration no longer emits (registry/<id>-route-aliases.json) keep redirecting.
+for (const { id } of registryOut) {
+  const file = path.join(ROOT, 'registry', `${id}-route-aliases.json`)
+  if (!fs.existsSync(file)) continue
+  routeAliases ||= fs.existsSync(path.join(DATA_DIR, 'route-aliases.json'))
+    ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'route-aliases.json'), 'utf8')) : { routes: {}, identities: {} }
+  routeAliases.routes = { ...routeAliases.routes, ...JSON.parse(fs.readFileSync(file, 'utf8')).routes }
+}
 const aliasesToCheck = routeAliases || (fs.existsSync(aliasesFile) ? JSON.parse(fs.readFileSync(aliasesFile, 'utf-8')) : null)
 if (aliasesToCheck) {
   const routes = new Set()
@@ -533,7 +541,7 @@ if (aliasesToCheck) {
       routes.add(`/pharmacopoeia/${id}/${category}/${m['@id'].split('/').pop()}`)
     }
   }
-  validateThaiAliases(aliasesToCheck, routes)
+  validateThaiAliases(aliasesToCheck, routes, new Set(registryOut.map(({ id }) => `/pharmacopoeia/${id}`)))
 }
 
 // Slim cross-dataset search index (titles only — no restricted body fields)
