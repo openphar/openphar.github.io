@@ -10,22 +10,24 @@
     "preview": "astro preview",
     "generate": "node scripts/generate-datasets.mjs",
     "check:comparison": "node scripts/check-comparison-projections.mjs",
-    "check:title-editions": "node scripts/check-title-only-editions.mjs"
+    "check:title-editions": "node scripts/check-title-only-editions.mjs",
+    "check:a11y": "node scripts/check-compare-a11y.mjs"
   },
   "dependencies": {
+    "@astrojs/vue": "^7.0.2",
     "@fontsource-variable/fraunces": "^5.3.0",
     "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/ibm-plex-sans": "^5.3.0",
-    "flexsearch": "^0.8.212",
-    "vue": "^3.5.41",
     "astro": "^7.1.6",
-    "@astrojs/vue": "^7.0.2"
+    "flexsearch": "^0.8.212",
+    "vue": "^3.5.41"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "axe-core": "^4.14.0",
     "js-yaml": "^5.3.0",
     "tailwindcss": "^4.3.3",
-    "vite": "^8.2.0",
-    "@tailwindcss/vite": "^4.3.3"
+    "vite": "^8.2.0"
   },
   "engines": {
     "node": ">=22.12.0",
