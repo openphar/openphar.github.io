@@ -35,13 +35,15 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Registry join regression checks
-        run: node --test scripts/registry-join.test.mjs scripts/native-labels.test.mjs scripts/native-search.test.mjs scripts/search-policy.test.mjs scripts/public-identities.test.mjs scripts/thai-editions.test.mjs scripts/thai-generator.test.mjs scripts/substance-history.test.mjs scripts/source-routes.test.mjs scripts/legacy-routes.test.mjs
+        run: node --test scripts/registry-join.test.mjs scripts/native-labels.test.mjs scripts/native-search.test.mjs scripts/search-policy.test.mjs scripts/public-identities.test.mjs scripts/thai-editions.test.mjs scripts/thai-generator.test.mjs scripts/substance-history.test.mjs scripts/source-routes.test.mjs scripts/legacy-routes.test.mjs scripts/assert-rights.test.mjs
       - name: Rights enforcement (title-only datasets carry titles only)
         run: node scripts/assert-rights.mjs
       - name: Link integrity (every cross-link target resolves)
         run: node scripts/check-counterpart-links.mjs
       - name: Production build (Astro static pages)
         run: npm run build
+      - name: Rights enforcement on the built site
+        run: node scripts/assert-rights.mjs --dist
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:
