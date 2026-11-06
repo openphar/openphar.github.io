@@ -109,7 +109,7 @@ const exampleResponse = `{
     <!-- Endpoints -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-ink mb-4">Available Endpoints</h2>
-      <div class="bg-paper rounded-xl shadow-md overflow-hidden">
+      <div class="bg-paper rounded-xl shadow-md overflow-x-auto" tabindex="0" role="region" aria-label="Available endpoints table">
         <table class="w-full">
           <thead class="bg-wash">
             <tr>
@@ -136,7 +136,7 @@ const exampleResponse = `{
     <!-- Example -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold text-ink mb-4">Example Response</h2>
-      <div class="bg-ink rounded-xl p-4 overflow-auto">
+      <div class="bg-ink rounded-xl p-4 overflow-auto" tabindex="0" role="region" aria-label="Example response">
         <pre class="text-sm text-paper">{{ exampleResponse }}</pre>
       </div>
     </section>
@@ -151,15 +151,15 @@ const exampleResponse = `{
         <ul class="space-y-2">
           <li>
             <strong>JSON-LD Context:</strong>
-            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded">/ontology/context/pharmacopoeia.jsonld</code>
+            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded break-all">/ontology/context/pharmacopoeia.jsonld</code>
           </li>
           <li>
             <strong>Core Ontology:</strong>
-            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded">/ontology/core/pharmacopoeia.ttl</code>
+            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded break-all">/ontology/core/pharmacopoeia.ttl</code>
           </li>
           <li>
             <strong>Test Methods:</strong>
-            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded">/ontology/quality/test-method.ttl</code>
+            <code class="ml-2 text-sm bg-wash px-2 py-1 rounded break-all">/ontology/quality/test-method.ttl</code>
           </li>
         </ul>
       </div>

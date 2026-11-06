@@ -1,6 +1,6 @@
 # TODO 01 — Migrate main site to Astro 7 + Vite 8 + Vue islands + Tailwind 4
 
-Status: planned
+Status: done for the routes, islands, build output and Lighthouse items (merged in #20, routes restored in #22); the legacy-file item is open
 Depends on: nothing
 Unblocks: consistent org-wide stack; TODO 02/03 build conventions
 
@@ -62,8 +62,8 @@ Styles move to CSS-first Tailwind 4: `@import "tailwindcss";` plus `@theme { …
 
 ## Acceptance
 
-- [ ] All existing routes return 200 with equivalent content
-- [ ] Search and compare work as Vue islands
-- [ ] `dist/` contains `data/` + `ontology/` and per-monograph HTML
-- [ ] No vite-ssg / tailwind 3 / postcss artifacts remain in the repo
-- [ ] Lighthouse performance ≥ current baseline on `/`
+- [x] All existing routes return 200 with equivalent content. The migration dropped some routes; #22 restored them and its route check found none missing (docs/COMPARE_ACCEPTANCE.md, "Restored routes").
+- [x] Search and compare work as Vue islands. Compare: docs/COMPARE_ACCEPTANCE.md. Search: a sample build on 2026-11-06 rendered 43 results for `acetaminophen`; both pages pass the checks in docs/WCAG_AA.md.
+- [x] `dist/` contains `data/` + `ontology/` and per-monograph HTML. A full build of a6a6b036 on 2026-11-06 produced 46,370 pages, 40,772 of them under `dist/pharmacopoeia/`, plus `dist/data/` and `dist/ontology/`.
+- [ ] No vite-ssg / tailwind 3 / postcss artifacts remain in the repo. Open: `postcss.config.js`, `tailwind.config.js`, `vite.config.js`, the root `index.html`, `src/main.js`, `src/router/` and the old app shell are still in the repo. The Astro build does not use them, but removing them needs the owner's decision under the file-preservation rule.
+- [x] Lighthouse performance ≥ current baseline on `/`. Median 68.5 against 66 over 8 local paired mobile runs (docs/LIGHTHOUSE_BASELINE.md).

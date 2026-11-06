@@ -7,7 +7,8 @@ import { detailAccess, resolveEntrySelection } from '../../../../lib/comparison-
 import { readEditionProjection, editionsForEntry } from '../../../../lib/edition-diff.js'
 import titleProjection from '../../../../../public/data/us-editions.json'
 import {readTitleOnlyEditions,titleEditionsFor} from '../../../../lib/title-only-editions.js'
-import editionProjection from '../../../../../public/data/edition-diffs.json'
+import whoEditionProjection from '../../../../../public/data/edition-diffs.json'
+import kpEditionProjection from '../../../../../public/data/kp-edition-diffs.json'
 import { registry, datasetIds, entries, entryCategory, entrySlug, counterparts, sampleBuild, bindCurrentSubstanceIdentities } from '../../../../lib/build-data.js'
 import { extractString, primaryLang } from '../../../../lib/i18n.js'
 import { methodCatalogDisplay } from '../../../../lib/method-catalog-display.js'
@@ -25,7 +26,7 @@ export function getStaticPaths() {
       return true
     })
     const wanted = {
-      phint: ['6-1-266', '6-1-7', '6-1-53'], us: ['acetaminophen'], eu: ['paracetamol'], uk: ['paracetamol'], jp: ['acetaminophen']
+      phint: ['6-1-266', '6-1-7', '6-1-53', '6-1-375'], us: ['acetaminophen'], eu: ['paracetamol'], uk: ['paracetamol'], jp: ['acetaminophen'], kp: ['acyclovir']
     }
     const sampleEntries = sampleBuild ? unique.filter((entry, index) => index < 2 || wanted[publisher]?.includes(entrySlug(entry))) : unique
     return sampleEntries.map(monograph => ({
@@ -44,6 +45,8 @@ const types = Array.isArray(monograph['@type']) ? monograph['@type'] : [monograp
 const rights = types.includes('TitleIndexEntry') ? 'title-only' : meta?.rights
 const selection = resolveEntrySelection(entries(publisher), identitySearchIndex, { publisher, slug, category })
 const substanceId = selection?.entry['@id'] === monograph['@id'] && selection?.entry.edition === monograph.edition ? selection.substanceId : null
+// Each publisher's edition pairs come with that publisher's attribution and source.
+const editionProjection = publisher === 'kp' ? kpEditionProjection : whoEditionProjection
 const editionPairs = editionsForEntry(readEditionProjection(editionProjection), { publisher, entryId: monograph['@id'], edition: monograph.edition, substanceId, rights })
 const titleEditions=publisher==='us'?titleEditionsFor(readTitleOnlyEditions(titleProjection),{publisher,substanceId,entryId:monograph['@id'],edition:monograph.edition,category},{graph:entries('us'),index:identitySearchIndex}):[]
 const publication = Object.fromEntries(['attribution', 'license', 'adaptation', 'endorsement'].map(key => [key, editionProjection[key]]))

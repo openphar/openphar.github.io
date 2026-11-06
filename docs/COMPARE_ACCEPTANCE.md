@@ -62,7 +62,7 @@ were blocked as non-local. axe reported no violations in any state. The only
 failed request was Chrome's own request for `/favicon.ico`, which the layout
 does not advertise; it returned 404 and is recorded as an expected miss.
 
-To repeat the axe check, run `npm run build` and then `npm run check:a11y`. The script `scripts/check-compare-a11y.mjs` serves `dist/` on 127.0.0.1, opens each state in the table above in headless Chrome at the listed width, runs axe-core and prints the violations for each state. It exits with status 1 if any violation is serious or critical. It needs a local Chrome or Chromium; set `CHROME_PATH` if the binary is not `google-chrome`. It is not part of CI because CI does not install a browser.
+To repeat the axe check, run `npm run build` and then `npm run check:a11y`. The script `scripts/check-compare-a11y.mjs` serves `dist/` on 127.0.0.1, opens each state in the table above in headless Chrome at the listed width, runs axe-core and prints the violations for each state. It exits with status 1 if any violation is serious or critical. It needs a local Chrome or Chromium; set `CHROME_PATH` if the binary is not `google-chrome`. It is not part of CI because CI does not install a browser. The same script also checks the major hub views; see [WCAG_AA.md](WCAG_AA.md).
 
 ### Publisher columns
 

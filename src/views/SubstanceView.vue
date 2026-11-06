@@ -97,7 +97,7 @@ const formRels = computed(() => (doc.value?.form_relations || []).map(r => ({
     <template v-else-if="doc">
       <p class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Substance identity</p>
       <h1 class="font-display text-3xl md:text-4xl mb-1">{{ preferredTitle }}</h1>
-      <p class="font-mono text-sm text-neutral-500 mb-6">{{ doc.iri }}</p>
+      <p class="font-mono text-sm text-neutral-500 mb-6 break-all">{{ doc.iri }}</p>
 
       <div v-if="casNumbers.length" class="mb-4 flex flex-wrap gap-2">
         <span v-for="cas in casNumbers" :key="cas" class="font-mono text-sm bg-neutral-100 rounded px-2 py-0.5">CAS {{ cas }}</span>

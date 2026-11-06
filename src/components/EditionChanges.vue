@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { detailAccess } from '../lib/comparison-contract.js'
 
+const WHO_LICENSE = 'https://creativecommons.org/licenses/by-nc-sa/3.0/igo/'
 const props = defineProps({ publisher: String, entryId: String, edition: String, substanceId: String, rights: String, initialRecords: Array, publication: Object })
 const records = ref(props.initialRecords || [])
 const selectedEdition = ref(props.edition)
@@ -38,7 +39,11 @@ onMounted(() => {
       </select>
       <div v-if="selectedRecord" class="mt-4">
         <h3 class="font-semibold">{{ selectedRecord.from.edition }} → {{ selectedRecord.to.edition }}</h3>
-        <p v-if="!verified" role="status" class="mt-2">Unverified edition pair. Change details are withheld until identity and source verification are complete.</p>
+        <template v-if="!verified">
+          <p role="status" class="mt-2">Unverified edition pair. Change details are withheld until identity and source verification are complete.</p>
+          <p v-if="selectedRecord.comparedFields" class="mt-2 text-sm">Sections the edition diff flags as changed: {{ selectedRecord.comparedFields.join(', ') }}.</p>
+          <p class="mt-2 text-sm">Evidence: {{ selectedRecord.evidence }}</p>
+        </template>
         <template v-else>
           <p class="mt-2 text-sm">Evidence: {{ selectedRecord.evidence }}</p>
           <p v-if="selectedRecord.comparedFields" class="mt-2 text-sm">Supplied fields: {{ selectedRecord.comparedFields.join(', ') }}.</p>
@@ -61,7 +66,7 @@ onMounted(() => {
     </template>
     <div v-if="publication" class="mt-4 space-y-2 text-sm">
       <p>{{ publication.attribution }}</p><p>{{ publication.adaptation }}</p><p>{{ publication.endorsement }}</p>
-      <a :href="publication.license" class="underline">Source license: CC BY-NC-SA 3.0 IGO</a>
+      <a :href="publication.license" class="underline">{{ publication.license === WHO_LICENSE ? 'Source license: CC BY-NC-SA 3.0 IGO' : 'Source publication' }}</a>
     </div>
   </section>
 </template>
