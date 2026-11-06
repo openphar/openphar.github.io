@@ -25,7 +25,7 @@ export function getStaticPaths() {
       return true
     })
     const wanted = {
-      phint: ['6-1-266', '6-1-7', '6-1-53'], us: ['acetaminophen'], eu: ['paracetamol'], uk: ['paracetamol'], jp: ['acetaminophen']
+      phint: ['6-1-266', '6-1-7', '6-1-53', '6-1-375'], us: ['acetaminophen'], eu: ['paracetamol'], uk: ['paracetamol'], jp: ['acetaminophen'], kp: ['acyclovir']
     }
     const sampleEntries = sampleBuild ? unique.filter((entry, index) => index < 2 || wanted[publisher]?.includes(entrySlug(entry))) : unique
     return sampleEntries.map(monograph => ({
