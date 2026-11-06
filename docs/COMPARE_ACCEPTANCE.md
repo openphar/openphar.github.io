@@ -34,8 +34,8 @@ the head of PR #20 as merged. Both runs produced the same output counts.
 | JSON files | 5,526 |
 
 The check on the built title-only datasets covered the US, EU and UK datasets,
-10,139 records in total, with no record holding a key outside the title-only
-allow list.
+10,139 records in total at the two recorded commits, with no record holding a
+key outside the title-only allow list.
 
 ## Browser acceptance
 
@@ -73,8 +73,14 @@ shows the publisher code, the edition where one is known, and the title. No
 JP edition is recorded, so the JP header reads "JP" with no edition.
 
 US, EU and UK cells show that limits and methods are restricted. The three
-title-only datasets the page loaded contained only title index records: 3,908
-for US, 2,631 for EU and 3,600 for UK.
+title-only datasets the page loaded contained only title index records. The
+page loads each publisher's whole dataset graph, so these are whole-dataset
+counts at the recorded commit `81eb138e`: 3,908 for US, 2,631 for EU and 3,600
+for UK. The UK dataset was later regenerated from `data/bp` in
+`146bdc78`, and its graph on main now holds 14,037 title index records; the US
+and EU counts are unchanged. Each count is the length of the `@graph` array in
+`data/<publisher>/<publisher>-monographs.jsonld`, measured with
+`git show <commit>:data/uk/uk-monographs.jsonld | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.parse(s)["@graph"].length))'`.
 
 ### Differences
 
