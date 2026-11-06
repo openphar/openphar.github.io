@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "generate": "node scripts/generate-datasets.mjs",
     "check:comparison": "node scripts/check-comparison-projections.mjs",
-    "check:title-editions": "node scripts/check-title-only-editions.mjs"
+    "check:title-editions": "node scripts/check-title-only-editions.mjs",
+    "check:a11y": "node scripts/check-compare-a11y.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",
@@ -25,7 +26,8 @@
     "js-yaml": "^5.3.0",
     "tailwindcss": "^4.3.3",
     "vite": "^8.2.0",
-    "@tailwindcss/vite": "^4.3.3"
+    "@tailwindcss/vite": "^4.3.3",
+    "axe-core": "^4.14.0"
   },
   "engines": {
     "node": ">=22.12.0",
