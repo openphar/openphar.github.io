@@ -21,6 +21,24 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 export const KP_SOURCE = 'https://www.mfds.go.kr/brd/m_211/view.do?seq=14975'
 export const KP_FROM = 'KP12'
 export const KP_TO = 'KP13'
+// KP13 diffs name changed sections by their Korean heading; earlier diffs used
+// English keys. Both map to one English field name, and an unknown heading fails
+// the build instead of reaching the page.
+export const KP_SECTION_FIELDS = {
+  정량법: 'assay', assay: 'assay',
+  순도시험: 'purity', purity: 'purity',
+  확인시험: 'identification', identification: 'identification',
+  수분: 'water', water: 'water',
+  제법: 'manufacture', manufacture: 'manufacture',
+}
+export function kpSectionFields(diff) {
+  const sections = Object.keys(diff?.sections || {}).map(key => {
+    const field = KP_SECTION_FIELDS[key]
+    if (!field) throw new Error(`Unmapped KP section heading: ${key}`)
+    return field
+  })
+  return [...(diff?.definition_changed === true ? ['definition'] : []), ...[...new Set(sections)].sort()]
+}
 export const kp12EntryId = slug => `https://openphar.org/data/kp/kp12/ko/monograph/${slug}`
 
 export function kpEditionDocument({ summary, sectionsBySlug, sourceCommit, graph, index }) {
@@ -78,7 +96,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     for (const slug of summary.changed_slugs) {
       const diff = loadYaml(fs.readFileSync(path.join(opts.diffs, `${slug}.yaml`), 'utf8'))
       if (diff.id !== slug || diff.from_edition !== KP_FROM || diff.to_edition !== KP_TO) throw new Error(`Unexpected diff identity for ${slug}`)
-      sectionsBySlug[slug] = [...(diff.diff?.definition_changed === true ? ['definition'] : []), ...Object.keys(diff.diff?.sections || {}).sort()]
+      sectionsBySlug[slug] = kpSectionFields(diff.diff)
     }
     const index = bindCurrentSubstanceIdentities(JSON.parse(fs.readFileSync(path.join(root, 'data/search-index.json'))))
     const { document, skipped } = kpEditionDocument({ summary, sectionsBySlug, sourceCommit: opts['source-commit'], graph: entries('kp'), index })
