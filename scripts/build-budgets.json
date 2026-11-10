@@ -1,0 +1,11 @@
+{
+  "description": "Build budgets for the Astro site build, enforced by scripts/check-build-budgets.mjs in ci.yml and deploy.yml. Measured 2026-11-10 at hub 63e18222 (registry ~5,550 identities). Limits leave room for the 6,000-identity registry target; a breach means a real change in build size or time that needs review, not a reason to raise the limit silently.",
+  "budgets": [
+    { "metric": "build_seconds", "max": 420, "measured": 141, "why": "3x the 141 s `npm run build` step of CI run 42246951732 on ubuntu-latest" },
+    { "metric": "dist.files", "min": 45000, "max": 65000, "measured": 52039, "why": "pages + data + assets; below min = truncated render, above max = unreviewed route or data growth" },
+    { "metric": "dist.html_pages", "min": 40000, "max": 58000, "measured": 46370, "why": "rendered routes; each new identity adds about one page" },
+    { "metric": "dist.data_files", "min": 5000, "max": 7500, "measured": 5575, "why": "dist/data (one JSON per substance + dataset graphs + indexes); 6,000 identities is about 6,050" },
+    { "metric": "dist.bytes", "max": 950000000, "measured": 721576144, "why": "GitHub Pages limits a published site to 1 GB" },
+    { "metric": "dist.largest_file.bytes", "max": 50000000, "measured": 33838525, "why": "largest = data/chp/chp-monographs.jsonld; GitHub rejects files over 100 MB" }
+  ]
+}
