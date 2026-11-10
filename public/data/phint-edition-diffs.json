@@ -1,0 +1,81 @@
+{
+  "schema": "openphar-edition-diffs/v1",
+  "attribution": "The International Pharmacopoeia, 11th ed. (2022), 12th ed. (2024), and 13th ed. (2025). Geneva: World Health Organization. Licence: CC BY-NC-SA 3.0 IGO. No WHO endorsement implied.",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/",
+  "adaptation": "Adapted by Open Pharmacopoeia: the PhInt edition diffs pair entries by substance and flag which fields changed. The flags are shown as unverified edition pairs; change details are not shown.",
+  "endorsement": "No endorsement by WHO is implied.",
+  "records": [
+    {
+      "publisher": "phint",
+      "substanceId": "clofazimine",
+      "from": {
+        "edition": "PhInt-12",
+        "entryId": "https://openphar.org/data/phint/phint-12/entry/6-1-96",
+        "substanceId": "clofazimine"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-1-96",
+        "substanceId": "clofazimine"
+      },
+      "status": "unverified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia PhInt-12 to PhInt-13 edition diff, paired by substance (match: name), openphar/data-international-pharmacopoeia data-edition-diffs/phint/12-to-13 at d91fc7e816c284f9aaf3aa86bf41e3f19d163e2d; field-level change flags only, no reviewed change values.",
+      "changes": [],
+      "comparedFields": [
+        "tests"
+      ]
+    },
+    {
+      "publisher": "phint",
+      "substanceId": "capsules",
+      "from": {
+        "edition": "PhInt-12",
+        "entryId": "https://openphar.org/data/phint/phint-12/entry/6-2-1-1",
+        "substanceId": "capsules"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-2-1-1",
+        "substanceId": "capsules"
+      },
+      "status": "unverified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia PhInt-12 to PhInt-13 edition diff, paired by substance (match: name), openphar/data-international-pharmacopoeia data-edition-diffs/phint/12-to-13 at d91fc7e816c284f9aaf3aa86bf41e3f19d163e2d; field-level change flags only, no reviewed change values.",
+      "changes": [],
+      "comparedFields": [
+        "tests"
+      ]
+    },
+    {
+      "publisher": "phint",
+      "substanceId": "zidovudine-capsules",
+      "from": {
+        "edition": "PhInt-12",
+        "entryId": "https://openphar.org/data/phint/phint-12/entry/6-2-2-149",
+        "substanceId": "zidovudine-capsules"
+      },
+      "to": {
+        "edition": "PhInt-13",
+        "entryId": "https://www.openphar.org/data/phint/monographs/6-2-2-153",
+        "substanceId": "zidovudine-capsules"
+      },
+      "status": "unverified",
+      "publication": {
+        "status": "permitted",
+        "authority": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/"
+      },
+      "evidence": "The International Pharmacopoeia PhInt-12 to PhInt-13 edition diff, paired by substance (match: name), openphar/data-international-pharmacopoeia data-edition-diffs/phint/12-to-13 at d91fc7e816c284f9aaf3aa86bf41e3f19d163e2d; field-level change flags only, no reviewed change values.",
+      "changes": [],
+      "comparedFields": [
+        "tests"
+      ]
+    }
+  ]
+}
