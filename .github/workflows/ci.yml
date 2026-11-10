@@ -41,7 +41,12 @@ jobs:
       - name: Link integrity (every cross-link target resolves)
         run: node scripts/check-counterpart-links.mjs
       - name: Production build (Astro static pages)
-        run: npm run build
+        run: |
+          start=$(date +%s)
+          npm run build
+          echo "BUILD_SECONDS=$(( $(date +%s) - start ))" >> "$GITHUB_ENV"
+      - name: Build budgets (time, file counts, bytes, largest file)
+        run: node scripts/check-build-budgets.mjs --build-seconds "$BUILD_SECONDS"
       - name: Rights enforcement on the built site
         run: node scripts/assert-rights.mjs --dist
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

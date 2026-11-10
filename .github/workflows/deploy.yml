@@ -38,10 +38,19 @@ jobs:
       - name: Rights enforcement (title-only datasets carry titles only)
         run: node scripts/assert-rights.mjs
 
+      - name: Link integrity (every cross-link target resolves)
+        run: node scripts/check-counterpart-links.mjs
+
       - name: Build site
         env:
           NODE_ENV: production
-        run: npm run build
+        run: |
+          start=$(date +%s)
+          npm run build
+          echo "BUILD_SECONDS=$(( $(date +%s) - start ))" >> "$GITHUB_ENV"
+
+      - name: Build budgets (time, file counts, bytes, largest file)
+        run: node scripts/check-build-budgets.mjs --build-seconds "$BUILD_SECONDS"
 
       - name: Rights enforcement on the built site
         run: node scripts/assert-rights.mjs --dist
