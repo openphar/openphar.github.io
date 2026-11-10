@@ -36,7 +36,6 @@
     "editionNumber": { "@id": "bib:editionNumber", "@type": "xsd:string" },
     "editionLabel": { "@id": "bib:editionLabel", "@container": "@language" },
     "publicationDate": { "@id": "bib:publicationDate", "@type": "xsd:date" },
-    "effectiveDate": { "@id": "bib:effectiveDate", "@type": "xsd:date" },
     "hasPublisher": { "@id": "bib:hasPublisher", "@type": "@id" },
     "hasSupplement": { "@id": "bib:hasSupplement", "@type": "@id", "@container": "@set" },
     "containsMonograph": { "@id": "bib:containsMonograph", "@type": "@id", "@container": "@set" },
@@ -51,6 +50,7 @@
     "revisesMonograph": { "@id": "bib:revisesMonograph", "@type": "@id", "@container": "@set" },
     "deletesMonograph": { "@id": "bib:deletesMonograph", "@type": "@id", "@container": "@set" },
 
+    "Monograph": { "@id": "op:Monograph" },
     "PharmacopoeiaMonograph": {
       "@id": "op:PharmacopoeiaMonograph",
       "@context": {
@@ -346,6 +346,10 @@
     "Suppository": { "@id": "op:Suppository", "@type": "@id" },
     "Powder": { "@id": "op:Powder", "@type": "@id" },
     "Granule": { "@id": "op:Granule", "@type": "@id" },
+    "Spray": { "@id": "op:Spray", "@type": "@id" },
+
+    "RouteOfAdministration-Oral": { "@id": "op:RouteOfAdministration-Oral", "@type": "@id" },
+    "BiologicalSourceType-Enzyme": { "@id": "op:BiologicalSourceType-Enzyme", "@type": "@id" },
 
     "ActiveIngredient": { "@id": "op:ActiveIngredient", "@type": "@id" },
     "Excipient": { "@id": "op:Excipient", "@type": "@id" },
@@ -387,6 +391,8 @@
     "ppb": { "@id": "unit:ppb", "@type": "@id" },
     "mg_per_g": { "@id": "unit:mg_per_g", "@type": "@id" },
     "mg_per_mL": { "@id": "unit:mg_per_mL", "@type": "@id" },
+    "units_per_g": { "@id": "unit:units_per_g", "@type": "@id" },
+    "mg": { "@id": "unit:mg", "@type": "@id" },
     "degC": { "@id": "unit:degC", "@type": "@id" },
     "pH_unit": { "@id": "unit:pH", "@type": "@id" },
 
@@ -423,8 +429,8 @@
     "Titrimetric-Complexometric": { "@id": "method:Titrimetric-Complexometric", "@type": "@id" },
 
     "monographId": { "@id": "op:monographId", "@type": "xsd:string" },
-    "publisher": { "@id": "op:publisher", "@type": "@id" },
-    "status": { "@id": "op:status", "@type": "@id" },
+    "publisher": { "@id": "op:publisher", "@type": "@vocab" },
+    "status": { "@id": "op:status", "@type": "@vocab" },
     "effectiveDate": { "@id": "op:effectiveDate", "@type": "xsd:date" },
     "version": { "@id": "op:version", "@type": "xsd:string" },
 
@@ -436,8 +442,8 @@
 
     "testSpecification": { "@id": "op:testSpecification", "@type": "@id", "@container": "@set" },
     "testName": { "@id": "op:testName", "@container": "@language" },
-    "testType": { "@id": "op:testType", "@type": "@id" },
-    "harmonizedMethod": { "@id": "op:harmonizedMethod", "@type": "@id" },
+    "testType": { "@id": "op:testType", "@type": "@vocab" },
+    "harmonizedMethod": { "@id": "op:harmonizedMethod", "@type": "@vocab" },
     "publisherMethod": { "@id": "op:publisherMethod", "@type": "@id" },
     "testConditions": { "@id": "op:testConditions", "@container": "@language" },
     "referenceSpectrum": { "@id": "op:referenceSpectrum", "@type": "@id" },
@@ -503,11 +509,11 @@
     "japaneseStandardName": { "@id": "op:japaneseStandardName", "@container": "@language" },
 
     "limit": { "@id": "op:limit", "@type": "@id" },
-    "limitType": { "@id": "op:limitType", "@type": "@id" },
+    "limitType": { "@id": "op:limitType", "@type": "@vocab" },
     "limitValue": { "@id": "op:limitValue", "@type": "xsd:decimal" },
     "lowerLimit": { "@id": "op:lowerLimit", "@type": "xsd:decimal" },
     "upperLimit": { "@id": "op:upperLimit", "@type": "xsd:decimal" },
-    "limitUnit": { "@id": "op:limitUnit", "@type": "@id" },
+    "limitUnit": { "@id": "op:limitUnit", "@type": "@vocab" },
 
     "assayTarget": { "@id": "op:assayTarget", "@container": "@language" },
     "assayExpression": { "@id": "op:assayExpression", "@type": "xsd:string" },
@@ -550,7 +556,7 @@
     "appearance": { "@id": "op:appearance", "@container": "@language" },
     "solubility": { "@id": "op:solubility", "@container": "@language" },
 
-    "vitaminType": { "@id": "op:vitaminType", "@type": "@id" },
+    "vitaminType": { "@id": "op:vitaminType", "@type": "@vocab" },
     "biologicalActivity": { "@id": "op:biologicalActivity", "@container": "@language" },
     "aminoAcidType": { "@id": "op:aminoAcidType", "@type": "@id" },
     "essentialAminoAcid": { "@id": "op:essentialAminoAcid", "@type": "xsd:boolean" },
@@ -561,7 +567,7 @@
     "mineralSource": { "@id": "op:mineralSource", "@container": "@language" },
     "elementalComposition": { "@id": "op:elementalComposition", "@container": "@language" },
 
-    "biologicalSourceType": { "@id": "op:biologicalSourceType", "@type": "@id" },
+    "biologicalSourceType": { "@id": "op:biologicalSourceType", "@type": "@vocab" },
     "biologicalOrigin": { "@id": "op:biologicalOrigin", "@container": "@language" },
     "sourceOrganism": { "@id": "op:sourceOrganism", "@container": "@language" },
     "activityUnit": { "@id": "op:activityUnit", "@container": "@language" },
@@ -572,22 +578,22 @@
     "hormoneType": { "@id": "op:hormoneType", "@type": "@id" },
     "biologicalPotency": { "@id": "op:biologicalPotency", "@container": "@language" },
 
-    "dosageForm": { "@id": "op:dosageForm", "@type": "@id" },
-    "routeOfAdministration": { "@id": "op:routeOfAdministration", "@type": "@id" },
+    "dosageForm": { "@id": "op:dosageForm", "@type": "@vocab" },
+    "routeOfAdministration": { "@id": "op:routeOfAdministration", "@type": "@vocab" },
     "strength": { "@id": "op:strength", "@container": "@language" },
     "hasComponent": { "@id": "op:hasComponent", "@type": "@id", "@container": "@set" },
     "packSize": { "@id": "op:packSize", "@container": "@language" },
     "shelfLife": { "@id": "op:shelfLife", "@container": "@language" },
 
     "componentSubstance": { "@id": "op:componentSubstance", "@type": "@id" },
-    "componentRole": { "@id": "op:componentRole", "@type": "@id" },
+    "componentRole": { "@id": "op:componentRole", "@type": "@vocab" },
     "componentQuantity": { "@id": "op:componentQuantity", "@type": "xsd:decimal" },
-    "componentUnit": { "@id": "op:componentUnit", "@type": "@id" },
+    "componentUnit": { "@id": "op:componentUnit", "@type": "@vocab" },
     "componentStrength": { "@id": "op:componentStrength", "@container": "@language" },
     "componentPercentage": { "@id": "op:componentPercentage", "@type": "xsd:decimal" },
 
     "meltingPointRange": { "@id": "op:meltingPointRange", "@type": "xsd:string" },
-    "temperatureUnit": { "@id": "op:temperatureUnit", "@type": "@id" },
+    "temperatureUnit": { "@id": "op:temperatureUnit", "@type": "@vocab" },
     "rotationRange": { "@id": "op:rotationRange", "@type": "xsd:string" },
     "measurementConditions": { "@id": "op:measurementConditions", "@container": "@language" },
     "dryingConditions": { "@id": "op:dryingConditions", "@container": "@language" },
