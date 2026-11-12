@@ -5,6 +5,7 @@ import { detailAccess, readComparisonProjection, findFacts, formatLimit, compari
 import { compareColumnLabel } from '../lib/compare-column-label.js'
 import { readEditionProjection, editionsForEntry } from '../lib/edition-diff.js'
 import { readTitleOnlyEditions, titleEditionsFor } from '../lib/title-only-editions.js'
+import { readPublisherComparison, methodMappingCells } from '../lib/publisher-comparison.js'
 import { counterpartKey } from '../../scripts/entry-routes.mjs'
 
 const searchQuery = ref('')
@@ -18,8 +19,10 @@ const requestError = ref('')
 const selectedHistorical = ref('')
 const selectedUspEdition = ref('')
 const titleIndex = ref(null)
-let factEntries = [], editionRecords = [], factsRequest
-let searchIndex, crossLinks, registryRights
+let factEntries = [], editionRecords = [], publisherHistorical = [], factsRequest
+let methodMappings = new Map()
+const publisherNotice = ref('')
+let searchIndex, crossLinks, registryRights, registryEditions
 const datasetCache = {}
 
 async function readJson(url) {
@@ -45,6 +48,18 @@ async function ensureFacts() {
       factEntries = []; editionRecords = []; publication.value = null
       projectionState.value = 'Verified public test and limit facts are unavailable.'
     }
+    try {
+      const projectionDoc = await readJson('/data/publisher-comparison.json')
+      const projection = readPublisherComparison(projectionDoc, factEntries.flatMap(e => e.tests))
+      const known = new Set(factEntries.map(e => JSON.stringify([e.publisher, e.entryId, e.edition])))
+      // Role fields stay out of the fact entries, which the comparator validates strictly.
+      const added = projection.entries.filter(e => !known.has(JSON.stringify([e.publisher, e.entryId, e.edition])))
+        .map(({ role, currentEntryId, ...entry }) => ({ entry, currentEntryId: role === 'historical' ? currentEntryId : null }))
+      factEntries = [...factEntries, ...added.map(a => a.entry)]
+      publisherHistorical = added.filter(a => a.currentEntryId)
+      methodMappings = projection.mappings
+      publisherNotice.value = projectionDoc.notice
+    } catch { publisherHistorical = []; methodMappings = new Map(); publisherNotice.value = '' }
   })()
   return factsRequest
 }
@@ -52,7 +67,8 @@ const historicalColumns = computed(() => columns.value.flatMap(column => {
   if (!column.facts) return []
   const pairs = editionsForEntry(editionRecords, { publisher: column.d, entryId: column.facts.entryId, edition: column.edition, substanceId: column.sub })
   return factEntries.filter(entry => entry.publisher === column.d && entry.substanceId === column.sub && entry.edition !== column.edition &&
-    pairs.some(pair => pair.status === 'verified' && [pair.from, pair.to].some(endpoint => endpoint.entryId === entry.entryId && endpoint.edition === entry.edition)))
+    (pairs.some(pair => pair.status === 'verified' && [pair.from, pair.to].some(endpoint => endpoint.entryId === entry.entryId && endpoint.edition === entry.edition)) ||
+     publisherHistorical.some(h => h.entry === entry && h.currentEntryId === column.facts.entryId)))
     .map(facts => ({ ...column, facts, edition: facts.edition, historical: true, key: `${column.key}:${facts.edition}` }))
 }))
 const historicalEditions = computed(() => [...new Set(historicalColumns.value.map(c => c.edition))])
@@ -65,7 +81,8 @@ const publisherColumns = computed(() => columns.value.map(column => {
   return metadata ? {...column, edition:metadata.edition, title:metadata.prefLabel.en, titleEditionSelected:true} : column
 }))
 const matrixColumns = computed(() => [...publisherColumns.value, ...historicalColumns.value.filter(c => c.edition === selectedHistorical.value)])
-const comparisonRows = computed(() => comparisonMatrix(matrixColumns.value))
+const comparisonRows = computed(() => comparisonMatrix(matrixColumns.value).map(row => ({ ...row, mapping: methodMappingCells(row, methodMappings) })))
+const mappingStatusLabel = status => ({ reference: 'Reference mapping', shared: 'Shared catalog family', different: 'Different catalog family', unmapped: 'Not in method catalog', none: 'No cited method' })[status]
 const statusLabel = status => ({ reference: 'Reference', same: 'Same limit', different: 'Different limit', incomparable: 'Incomparable', unknown: 'Unknown' })[status]
 const methodStatusLabel = status => ({ reference: 'Reference method citation', 'same-citation': 'Same chapter citation', 'different-citation': 'Different cited method', incomparable: 'Methods incomparable', unknown: 'Method comparison unknown' })[status]
 const comparisonStatus = computed(() => {
@@ -99,7 +116,11 @@ async function ensureIndex() {
     searchIndex = bindPublicIdentitySearchIndex(rows, identities)
   }
   if (!crossLinks) crossLinks = await readJson('/data/cross-links.json')
-  if (!registryRights) registryRights = Object.fromEntries((await readJson('/data/registry.json')).map(ds => [ds.id, ds.rights]))
+  if (!registryRights) {
+    const registry = await readJson('/data/registry.json')
+    registryRights = Object.fromEntries(registry.map(ds => [ds.id, ds.rights]))
+    registryEditions = Object.fromEntries(registry.map(ds => [ds.id, ds.edition || '']))
+  }
 }
 function candidateMatches(row, q) {
   return [row.t, row.n].filter(Boolean).join(' ').toLowerCase().includes(q)
@@ -114,7 +135,7 @@ async function searchMonographs() {
 }
 async function datasetEntry(datasetId, slug, category) {
   if (!datasetCache[datasetId]) datasetCache[datasetId] = (await readJson(`/data/${datasetId}/${datasetId}-monographs.jsonld`))['@graph'] || []
-  return resolveEntrySelection(datasetCache[datasetId], searchIndex, { publisher: datasetId, slug, category })
+  return resolveEntrySelection(datasetCache[datasetId], searchIndex, { publisher: datasetId, slug, category, datasetEdition: registryEditions[datasetId] })
 }
 async function compareEntry(d, s, category, historicalEdition = '', uspEdition = '') {
   loading.value = true; requestError.value = ''; selectedHistorical.value = ''; selectedUspEdition.value = ''
@@ -134,12 +155,12 @@ async function compareEntry(d, s, category, historicalEdition = '', uspEdition =
       const rights = types.includes('TitleIndexEntry') ? 'title-only' : registryRights[m.d]
       const access = detailAccess(m.d, rights)
       const restricted = access === 'title-only'
-      const identity = { publisher: m.d, entryId: entry?.['@id'], edition: entry?.edition || '', substanceId: selection?.substanceId, rights, category:selection?.category }
+      const identity = { publisher: m.d, entryId: entry?.['@id'], edition: selection?.edition || entry?.edition || '', substanceId: selection?.substanceId, rights, category:selection?.category }
       return {
         key: `${m.d}/${selection?.category || m.c || ''}/${m.s}`, d: m.d, s: m.s, c: selection?.category || m.c,
         restricted, access, identity, resolved: !!selection, facts: findFacts(factEntries, identity), sub: selection?.substanceId || null,
         title: entry ? extractString(entry.prefLabel || entry['rdfs:label'] || {}) || m.s : m.t || m.s,
-        edition: entry?.edition || '',
+        edition: selection?.edition || entry?.edition || '',
         definition: (!restricted && entry?.definition) ? extractString(entry.definition) : null,
         sections: (!restricted && entry?.sections) ? entry.sections.slice(0, 3) : []
       }
@@ -216,6 +237,8 @@ onMounted(() => {
     <section v-if="columns.length && !loading" class="mb-8">
       <h2 class="font-display text-2xl font-semibold">Test limits and methods</h2>
       <p class="mt-2 text-sm">{{ projectionState }} Exact units and measurement bases are compared without conversion. Highlighted differences concern the supplied limits only.</p>
+      <p v-if="publisherNotice" class="mt-2 text-sm">{{ publisherNotice }}</p>
+      <p class="mt-2 text-sm">Each test with a cited chapter has a method mapping row: the catalog families that chapter belongs to, and whether it shares a family with the reference column.</p>
       <p class="mt-2 text-sm">Reviewed catalog families are shown beside explicit chapter citations. Catalog membership does not establish that a method applies to this test, scientific equivalence or regulatory interchangeability. Applicability remains unresolved.</p>
       <p class="mt-2 text-sm"><a href="/compare?entry=phint/6-1-375&amp;edition=PhInt-12" class="underline">See the captured Zidovudine assay and cited-method differences across WHO editions.</a></p>
       <div v-if="uspEditions.length" class="mt-4">
@@ -227,7 +250,7 @@ onMounted(() => {
         <p class="mt-2 text-sm">USP selection changes title and edition metadata only. Bodies, limits and detailed edition changes remain restricted.</p>
       </div>
       <div v-if="historicalEditions.length" class="mt-4">
-        <label for="comparison-edition" class="block text-sm font-medium">Earlier edition for typed-limit comparison</label>
+        <label for="comparison-edition" class="block text-sm font-medium">Earlier edition for typed-limit comparison (any publisher)</label>
         <select id="comparison-edition" v-model="selectedHistorical" @change="selectHistorical" class="mt-2 max-w-full rounded border border-line bg-paper px-3 py-2">
           <option value="">Current editions only</option>
           <option v-for="edition in historicalEditions" :key="edition" :value="edition">{{ edition }}</option>
@@ -238,7 +261,7 @@ onMounted(() => {
         <table class="w-full border-collapse text-left text-sm">
           <caption class="sr-only">Explicit public test limits, cited methods and catalog families by publisher and edition</caption>
           <thead><tr><th scope="col" class="border border-line p-3">Test</th><th v-for="col in matrixColumns" :key="col.key" scope="col" class="min-w-48 border border-line p-3">{{ compareColumnLabel(col) }}{{ col.historical ? ' (historical limits)' : '' }}<span class="block font-normal">{{ col.title }}</span></th></tr></thead>
-          <tbody><tr v-for="row in comparisonRows" :key="row.semantic">
+          <tbody><template v-for="row in comparisonRows" :key="row.semantic"><tr>
             <th scope="row" class="border border-line p-3">{{ row.label }}</th>
             <td v-for="cell in row.cells" :key="cell.column.key" :data-comparison-status="cell.comparison.status" :class="{ 'bg-wash': cell.comparison.status === 'different' }" class="align-top border border-line p-3">
               <template v-if="cell.test">
@@ -259,7 +282,21 @@ onMounted(() => {
               </template>
               <p v-else>{{ cell.column.access === 'title-only' ? 'Title only: limits and methods restricted.' : cell.column.access === 'held' ? 'New detailed comparisons held pending publication authority.' : cell.ambiguous ? 'Multiple test variants; comparison unavailable.' : 'Verified typed test unavailable.' }}</p>
             </td>
-          </tr></tbody>
+          </tr>
+          <tr v-if="row.mapping.some(cell => cell.method)" data-method-mapping-row>
+            <th scope="row" class="border border-line p-3 font-normal">Method mapping: {{ row.label }}</th>
+            <td v-for="cell in row.mapping" :key="cell.column.key" :data-method-mapping-status="cell.status" :class="{ 'bg-wash': cell.status === 'different' }" class="align-top border border-line p-3">
+              <template v-if="cell.method">
+                <p class="font-semibold">{{ mappingStatusLabel(cell.status) }}</p>
+                <p>{{ cell.method.chapter }} — {{ cell.method.label }}</p>
+                <ul v-if="cell.concepts.length" class="list-disc pl-4">
+                  <li v-for="concept in cell.concepts" :key="concept.id">{{ concept.label }}<span v-if="concept.ichAnnex"> (ICH Q4B {{ concept.ichAnnex }})</span>; catalog status {{ concept.harmonisationStatus }}; {{ concept.source === 'ich_official' ? 'ICH-listed chapter' : 'curated chapter' }}</li>
+                </ul>
+                <p>{{ cell.reason }}</p>
+              </template>
+              <p v-else>{{ cell.column.access === 'title-only' ? 'Title only: methods restricted.' : cell.reason }}</p>
+            </td>
+          </tr></template></tbody>
         </table>
       </div>
       <p v-else class="mt-3 text-sm">No authorized typed comparison is available for these entries.</p>
