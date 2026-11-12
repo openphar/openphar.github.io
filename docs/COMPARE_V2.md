@@ -89,13 +89,72 @@ strict nested fields. These are local implementation and captured-source
 results. They do not close every source05.1 requirement, authorize publication,
 waive merged prerequisites, or establish complete method applicability.
 
+## Cross-publisher limits, method mapping rows and the publication hold
+
+`public/data/publisher-comparison.json` can carry typed limits from full-rights
+publishers other than the WHO file above. JP, ChP and IP are under a
+publication hold until the owner settles their publication authority, so the
+file currently holds no typed limits. The hold is `PUBLICATION_HOLD` in
+`src/lib/comparison-contract.js`. While a publisher is in it, Compare shows no
+typed limits for that publisher, and the gate rejects any entry or method
+mapping for it.
+
+Each test that cites a chapter gets a **Method mapping** row. The row looks up
+the cited chapter in the public ICH method catalog (`data/ich`). It shows the
+catalog families that list that chapter, the ICH Q4B annex where there is one,
+and whether the family is shared with the reference column. Today this covers
+the Ph.Int. citations in the WHO file. For Albendazole and Paracetamol the
+earlier edition shares the reference family. For Zidovudine, the current HPLC
+chapter 1.14.1 is not in the catalog, so it shows **Not in method catalog**. A
+shared family is a lookup. It does not show that the method applies to the
+test or that the methods are interchangeable.
+
+The edition selector works for every publisher. Besides the WHO edition pairs,
+any historical entry in the publisher file is offered when it names the
+current entry of the same publisher and substance.
+
+JP entries in the hub dataset carry no edition of their own. Compare now uses
+the registry edition (JP18) for them, as the identity download does, so the JP
+column resolves to its substance.
+
+### Lifting the hold
+
+1. Remove the publisher's id from `PUBLICATION_HOLD`.
+2. Add its reviewed tests to `scripts/publisher-comparison-selection.json`.
+   Each test names its source record, pinned to a commit and blob, the expected
+   source values, and the reviewed semantic key, label and basis. Selections for
+   held publishers are kept outside this repository until then.
+3. Rebuild the file with a directory that holds the data repository clones:
+
+   ```sh
+   node scripts/build-publisher-comparison.mjs --workspace <dir>
+   ```
+
+The builder fails if a source value differs from the selection. It checks the
+entries of held publishers against their sources, then leaves them out of the
+output. `node scripts/check-publisher-comparison.mjs` runs in `npm run build`.
+It checks the publisher policy, field allow lists, entry identity against the
+public graph, index and registry, and that the method mappings still match
+`data/ich`.
+
+### Coverage limit
+
+No substance currently has structured limits from five publishers whose
+content may be shown. Structured limits exist in the ChP, IP, TP and Ph.Int.
+canonical corpora. The KP and JP canonical corpora have none, and the public JP
+dataset has typed limits for two substances only. Paracetamol has four sources
+(ChP, IP, Ph.Int. and JP), and Thai has no paracetamol monograph. Even with the
+hold lifted, a fifth publisher on the acetaminophen example needs structured KP
+or TP limits first.
+
 ## Local validation
 
 Use the Node version in CI and the resolved lockfile dependencies:
 
 ```sh
-node --test scripts/comparison-contract.test.mjs scripts/comparison-projections.test.mjs
+node --test scripts/comparison-contract.test.mjs scripts/comparison-projections.test.mjs scripts/publisher-comparison.test.mjs
 node scripts/check-comparison-projections.mjs
+node scripts/check-publisher-comparison.mjs
 node scripts/check-title-only-editions.mjs
 node scripts/assert-rights.mjs
 node scripts/check-counterpart-links.mjs

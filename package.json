@@ -6,12 +6,13 @@
   "description": "Open Pharmacopoeia - Unified knowledge graph for pharmacopoeia standards",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/check-comparison-projections.mjs && node scripts/check-title-only-editions.mjs && astro build",
+    "build": "node scripts/check-comparison-projections.mjs && node scripts/check-publisher-comparison.mjs && node scripts/check-title-only-editions.mjs && astro build",
     "preview": "astro preview",
     "generate": "node scripts/generate-datasets.mjs",
     "check:comparison": "node scripts/check-comparison-projections.mjs",
     "check:title-editions": "node scripts/check-title-only-editions.mjs",
-    "check:a11y": "node scripts/check-compare-a11y.mjs"
+    "check:a11y": "node scripts/check-compare-a11y.mjs",
+    "check:publisher-comparison": "node scripts/check-publisher-comparison.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

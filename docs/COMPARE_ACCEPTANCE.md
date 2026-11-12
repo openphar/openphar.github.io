@@ -132,3 +132,16 @@ Both gates exited 0 in the build runs above.
 The source acceptance example asks for a comparison of five publishers around `us/acetaminophen`. The page keeps all identity and title columns for that example, but with authorised public data only one publisher can show per-test detail there. The Ph.Int. column shows its typed limits. USP, Ph.Eur. and BP stay title-only, as the rights rules require. ChP and JP detail is held until publication authority for those fields is settled. IP and KP have no verified typed test for this monograph. This was observed in the browser check above (states `acetaminophen-current` and `acetaminophen-keyboard-editions`).
 
 So the example demonstrates per-test detail for one publisher, not five. Meaningful numeric and method differences are shown on the Zidovudine example, but across Ph.Int. editions of one publisher, not across several publishers (states `zidovudine-current` and `zidovudine-keyboard-differences`). Detailed rows for more publishers on `us/acetaminophen` need authorised public data for those fields; until then this limitation stands.
+
+### Update: method mapping rows and the publication hold
+
+JP, ChP and IP typed limits remain held; see
+[COMPARE_V2.md](COMPARE_V2.md#lifting-the-hold). This change adds method
+mapping rows for the Ph.Int. citations, an edition selector that works for any
+publisher, and the JP registry-edition fix. On `us/acetaminophen` the JP column
+now resolves to its substance and shows edition JP18. No new typed limits are
+published.
+
+`npm run check:a11y -- --only compare` reported no violations in all nine
+Compare states. The Albendazole, Paracetamol and Zidovudine states include the
+new method mapping rows.

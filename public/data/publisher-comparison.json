@@ -1,0 +1,48 @@
+{
+  "schema": "openphar-publisher-comparison/v1",
+  "notice": "Selected limits are transcribed from full-rights publisher records into typed values. Unit spellings (percent, per cent, %) are unified; no unit or basis is converted. Method mappings are lookups in the public ICH method catalog: they do not establish applicability, scientific equivalence or regulatory interchangeability.",
+  "entries": [],
+  "methodMappings": [
+    {
+      "publisher": "phint",
+      "chapter": "1.14.1",
+      "concepts": []
+    },
+    {
+      "publisher": "phint",
+      "chapter": "1.6",
+      "concepts": [
+        {
+          "id": "uv-vis-spectrophotometry",
+          "label": "Ultraviolet and Visible Absorption Spectrophotometry",
+          "harmonisationStatus": "not_harmonised",
+          "source": "curated"
+        }
+      ]
+    },
+    {
+      "publisher": "phint",
+      "chapter": "2.6",
+      "concepts": [
+        {
+          "id": "non-aqueous-titration",
+          "label": "Non-Aqueous Titration",
+          "harmonisationStatus": "not_harmonised",
+          "source": "curated"
+        }
+      ]
+    },
+    {
+      "publisher": "phint",
+      "chapter": "2.7",
+      "concepts": [
+        {
+          "id": "nitrite-titration",
+          "label": "Nitrite Titration (Diazotization)",
+          "harmonisationStatus": "not_harmonised",
+          "source": "curated"
+        }
+      ]
+    }
+  ]
+}

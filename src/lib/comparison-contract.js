@@ -1,8 +1,11 @@
 // Public, explicitly authorized facts only. Source prose is never a fallback.
 import { validateComparisonCatalogReference } from '../../scripts/lib/ich-method-projection.mjs'
 const restricted = new Set(['us', 'eu', 'uk'])
-const held = new Set(['jp', 'chp'])
-const eligible = new Set(['phint', 'thp', 'ayp', 'hk', 'ip', 'kp'])
+// Publication hold: typed detail for these full-rights publishers stays
+// unpublished until the owner settles their publication authority. Removing an
+// id here is the switch; Compare shows no typed limits for held publishers.
+export const PUBLICATION_HOLD = new Set(['jp', 'chp', 'ip'])
+const eligible = new Set(['phint', 'thp', 'ayp', 'hk', 'ip', 'kp', 'jp', 'chp'])
 const text = value => typeof value === 'string' && value.trim().length > 0
 const known = value => text(value) && !/^(?:unknown|unspecified|unverified|not (?:known|stated|supplied|available)|n\/?a)$/i.test(value.trim())
 const decimal = value => typeof value === 'string' && /^-?\d+(?:\.\d+)?$/.test(value)
@@ -22,7 +25,7 @@ export function assertFields(object, allowed, context) {
 
 export function detailAccess(publisher, rights) {
   if (restricted.has(publisher) || rights === 'title-only') return 'title-only'
-  if (held.has(publisher)) return 'held'
+  if (PUBLICATION_HOLD.has(publisher)) return 'held'
   return eligible.has(publisher) ? 'eligible' : 'held'
 }
 
@@ -109,17 +112,20 @@ export function bindPublicIdentitySearchIndex(index, substances) {
 
 // Category is part of identity. Neither ordinal IDs nor a first matching slug
 // can resolve conflicting graph/index records.
-export function resolveEntrySelection(graph, index, { publisher, slug, category }) {
+// A graph entry without its own edition takes the dataset's registry edition,
+// as the identity download does (generate-datasets.mjs: m.edition || e.edition).
+export function resolveEntrySelection(graph, index, { publisher, slug, category, datasetEdition = '' }) {
   const matches = graph.filter(e => (e['@id'] || '').split('/').pop() === slug && (!category || publicEntryCategory(e) === category))
-  const identities = new Set(matches.map(e => JSON.stringify([e['@id'], e.edition || '', publicEntryCategory(e)])))
+  const editionOf = e => e.edition || datasetEdition || ''
+  const identities = new Set(matches.map(e => JSON.stringify([e['@id'], editionOf(e), publicEntryCategory(e)])))
   if (identities.size !== 1) return null
   const entry = matches[0]
   const actualCategory = publicEntryCategory(entry)
   const rows = index.filter(row => row.d === publisher && row.s === slug && row.c === actualCategory)
-  if (rows.some(row => Array.isArray(row.identityEditions) && !row.identityEditions.includes(entry.edition || ''))) return null
+  if (rows.some(row => Array.isArray(row.identityEditions) && !row.identityEditions.includes(editionOf(entry)))) return null
   const substances = new Set(rows.map(row => row.sub).filter(text))
   if (!rows.length || substances.size > 1) return null
-  return { entry, category: actualCategory, substanceId: substances.size === 1 ? [...substances][0] : null }
+  return { entry, category: actualCategory, edition: editionOf(entry), substanceId: substances.size === 1 ? [...substances][0] : null }
 }
 
 export function comparisonMatrix(columns) {
