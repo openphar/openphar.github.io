@@ -64,7 +64,25 @@ function main(argv) {
   if (opts.out) fs.writeFileSync(opts.out, JSON.stringify({ passed, metrics, rows }, null, 2) + '\n')
   for (const r of rows) console.log(`${r.ok ? '✓' : '✗'} ${r.metric}: ${r.value}${r.min !== null ? ` (min ${r.min})` : ''}${r.max !== null ? ` (max ${r.max})` : ''}${r.ok ? '' : ` — ${r.problems.join('; ')}`}`)
   console.log(`${passed ? '✓' : '✗'} build budgets: ${rows.filter(r => r.ok).length}/${rows.length} within limits (largest file ${metrics.dist.largest_file.path})`)
+  if (rows.some(r => r.metric === 'build_seconds' && !r.ok) && process.env.GITHUB_ACTIONS !== 'true') {
+    console.log('  note: the build_seconds limit is calibrated on the GitHub ubuntu-latest runner, which is the authority for build time (docs/OPERATIONS.md)')
+  }
+  if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryMarkdown(rows, passed))
   return passed ? 0 : 1
+}
+
+// Markdown table for the GitHub Actions job summary, so every CI and deploy
+// run records its measured build time and dist size next to the limits.
+export function summaryMarkdown(rows, passed) {
+  const cell = v => (v === null ? '' : String(v))
+  const lines = [
+    `### Build budgets: ${passed ? 'within limits' : 'BREACHED'}`,
+    '',
+    '| metric | value | min | max | ok |',
+    '| --- | ---: | ---: | ---: | --- |',
+    ...rows.map(r => `| ${r.metric} | ${cell(r.value)} | ${cell(r.min)} | ${cell(r.max)} | ${r.ok ? '✓' : `✗ ${r.problems.join('; ')}`} |`)
+  ]
+  return lines.join('\n') + '\n\n'
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
