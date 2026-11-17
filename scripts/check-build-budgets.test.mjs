@@ -23,9 +23,12 @@ function fixture() {
   return root
 }
 
-const run = (root, budgets, seconds = '10') => {
+// Fixture runs never see the CI job's own GitHub Actions variables, so they
+// cannot write into the real job summary.
+const { GITHUB_ACTIONS, GITHUB_STEP_SUMMARY, ...baseEnv } = process.env
+const run = (root, budgets, seconds = '10', env = {}) => {
   fs.writeFileSync(path.join(root, 'budgets.json'), JSON.stringify({ budgets }))
-  return spawnSync(process.execPath, [SCRIPT, '--build-seconds', seconds, '--dist', path.join(root, 'dist'), '--budgets', path.join(root, 'budgets.json')], { encoding: 'utf8' })
+  return spawnSync(process.execPath, [SCRIPT, '--build-seconds', seconds, '--dist', path.join(root, 'dist'), '--budgets', path.join(root, 'budgets.json')], { encoding: 'utf8', env: { ...baseEnv, ...env } })
 }
 
 test('measureDist counts files, bytes, pages, data files and the largest file', () => {
@@ -51,4 +54,26 @@ test('a missing dist directory fails', () => {
   const root = fixture()
   fs.rmSync(path.join(root, 'dist'), { recursive: true })
   assert.equal(run(root, [{ metric: 'dist.files', min: 1 }]).status, 1)
+})
+
+test('in GitHub Actions the measured values are appended to the job summary', () => {
+  const root = fixture()
+  const summary = path.join(root, 'summary.md')
+  const r = run(root, [{ metric: 'build_seconds', max: 60 }, { metric: 'dist.files', min: 4 }], '42', { GITHUB_ACTIONS: 'true', GITHUB_STEP_SUMMARY: summary })
+  assert.equal(r.status, 0, r.stdout + r.stderr)
+  const md = fs.readFileSync(summary, 'utf8')
+  assert.match(md, /### Build budgets: within limits/)
+  assert.match(md, /\| build_seconds \| 42 \|  \| 60 \| ✓ \|/)
+  assert.match(md, /\| dist\.files \| 4 \| 4 \|  \| ✓ \|/)
+})
+
+test('a time breach still fails off the runner, with a note on where the limit is calibrated', () => {
+  const root = fixture()
+  const r = run(root, [{ metric: 'build_seconds', max: 60 }], '61')
+  assert.equal(r.status, 1)
+  assert.match(r.stdout, /calibrated on the GitHub ubuntu-latest runner/)
+  assert.equal(fs.existsSync(path.join(root, 'summary.md')), false)
+  const onRunner = run(root, [{ metric: 'build_seconds', max: 60 }], '61', { GITHUB_ACTIONS: 'true' })
+  assert.equal(onRunner.status, 1)
+  assert.doesNotMatch(onRunner.stdout, /calibrated/)
 })
