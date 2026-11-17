@@ -1,0 +1,33 @@
+name: uptime
+
+# Requests www.openphar.org and a few key routes (home, compare, a substance
+# page, a dataset page, the registry and the substance download) and fails the
+# run on a non-200 answer or missing expected content. Read-only: no secrets,
+# no issues, no notifications beyond GitHub's own failed-run status.
+# See docs/OPERATIONS.md.
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: uptime
+  cancel-in-progress: false
+
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22.22.0
+      - name: Check key routes on www.openphar.org
+        run: node scripts/check-uptime.mjs --base https://www.openphar.org
